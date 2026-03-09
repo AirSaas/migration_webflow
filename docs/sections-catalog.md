@@ -208,4 +208,40 @@ Structure : Hero + Intro + ComparisonTable + Features + CTA + FAQ + Press/Témoi
 
 ## Landing Pages
 
-<!-- À remplir au Step 4 -->
+> Complété au Step 4. Template `LpPage` avec 4 pages `/lp/[slug]`.
+
+### Architecture
+
+LP pages use a separate route group `(lp)` with their own minimal layout (LpNavbar + LpFooter) distinct from the main site layout. The locale layout was refactored to support route groups: `(main)` for regular pages, `(lp)` for landing pages.
+
+### Template
+
+Structure : LpHero (badge + H1 + dual CTAs + trust badges + tab panel) → LpStats (4 metrics) → PainPoints (numbered pain points) → LpFeatureCards (badge + H3 + desc + 4 bullets + image, alternating) → WhyAdoptGrid (3 cards) → SecurityBadges → HowItWorks (optional, 4 numbered steps) → FAQ → LpFinalCta (2 columns: démo + vidéo)
+
+### Composants spécifiques
+
+| Composant | Fichier | Usage |
+|-----------|---------|-------|
+| `LpNavbar` | `layout/LpNavbar.tsx` | Minimal navbar: logo + CTA "Réserver une démo" |
+| `LpFooter` | `layout/LpFooter.tsx` | Minimal footer: copyright + logo + Made in France |
+| `LpHero` | `sections/LpHero.tsx` | Client component, hero with tabs, trust badges, dual CTAs |
+| `LpStats` | `sections/LpStats.tsx` | 4-column stats row with heading |
+| `PainPoints` | `sections/PainPoints.tsx` | Numbered pain point cards on alt background |
+| `LpFeatureCard` | `sections/LpFeatureCard.tsx` | Feature card with badge, bullets, image (richer than FeatureSection) |
+| `WhyAdoptGrid` | `sections/WhyAdoptGrid.tsx` | 3-column card grid for "why" section |
+| `SecurityBadges` | `sections/SecurityBadges.tsx` | 4 security trust signals (ISO, France, Pentest, SSO) |
+| `HowItWorks` | `sections/HowItWorks.tsx` | 4 numbered deployment steps |
+| `LpFinalCta` | `sections/LpFinalCta.tsx` | Dual CTA: demo booking + video link |
+
+### Pages (4)
+
+| # | Slug | Titre |
+|---|------|-------|
+| 1 | `ppm` | Outil PPM nouvelle génération |
+| 2 | `pmo` | L'outil des PMO modernes |
+| 3 | `capacity-planning` | Capacity Planning simplifié |
+| 4 | `pi-planning` | PI Planning : la vue business qui manque à Jira |
+
+### Route
+
+`src/app/[locale]/(lp)/lp/[slug]/page.tsx` — SSG. Données dans `src/data/lp.tsx`. Layout séparé via route group `(lp)`.

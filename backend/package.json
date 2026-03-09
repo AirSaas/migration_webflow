@@ -1,0 +1,24 @@
+{
+  "name": "airsaas-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AirSaas Strapi CMS backend",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^5.38.0",
+    "@strapi/plugin-cloud": "^5.38.0",
+    "@strapi/plugin-i18n": "^5.38.0",
+    "@strapi/plugin-users-permissions": "^5.38.0",
+    "better-sqlite3": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  }
+}

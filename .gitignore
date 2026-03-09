@@ -55,5 +55,14 @@ next-env.d.ts
 # playwright mcp logs
 .playwright-mcp/
 
+# strapi backend
+/backend/node_modules
+/backend/.tmp
+/backend/.cache
+/backend/dist
+/backend/build
+/backend/public/uploads/*
+!/backend/public/uploads/.gitkeep
+
 # conductor
 .context/

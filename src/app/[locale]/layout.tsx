@@ -4,8 +4,6 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { raleway } from "@/lib/fonts";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -32,9 +30,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${raleway.variable} antialiased font-sans`}>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>
