@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "demo": "Prenota una demo",
+    "solutions": "Soluzioni",
+    "product": "Prodotto",
+    "resources": "Risorse",
+    "pricing": "Prezzi"
+  },
+  "common": {
+    "readMore": "Leggi di più",
+    "loading": "Caricamento...",
+    "backToHome": "Torna alla home",
+    "seeAll": "Vedi tutto"
+  },
+  "footer": {
+    "copyright": "© {year} AirSaaS. Tutti i diritti riservati."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "demo": "Book a demo",
+    "solutions": "Solutions",
+    "product": "Product",
+    "resources": "Resources",
+    "pricing": "Pricing"
+  },
+  "common": {
+    "readMore": "Read more",
+    "loading": "Loading...",
+    "backToHome": "Back to home",
+    "seeAll": "See all"
+  },
+  "footer": {
+    "copyright": "© {year} AirSaaS. All rights reserved."
+  }
+}
