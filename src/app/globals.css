@@ -1,11 +1,57 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* Brand colors */
+  --color-primary: #3a51e2;
+  --color-primary-70: #6b7be9;
+  --color-primary-60: #8a97ee;
+  --color-primary-20: #d1d5f5;
+  --color-primary-10: #e8eafc;
+  --color-primary-5: #f3f3fc;
+  --color-primary-2: #f8f9ff;
+
+  /* Text colors */
+  --color-foreground: #041230;
+  --color-text-blog: #404249;
+  --color-text-secondary: #63606e;
+  --color-text-muted: #797588;
+
+  /* Functional colors */
+  --color-royal-blue: #475ce9;
+  --color-orange: #e58d05;
+  --color-crimson: #f11444;
+  --color-sky-blue: #2db5e6;
+  --color-green: #5ec045;
+  --color-orchid: #b75dda;
+  --color-turquoise: #0fd6de;
+  --color-medium-blue: #13397a;
+
+  /* Backgrounds */
   --color-background: #ffffff;
-  --color-foreground: #171717;
+  --color-bg-alt: #f7f7f8;
+  --color-bg-light: #fafafc;
+  --color-bg-lavender: #f2f4ff;
+  --color-bg-seashell: #fef6ef;
+  --color-bg-warning: #fff6d8;
+
+  /* Borders */
+  --color-border: #e5e7ea;
+
+  /* Footer background */
+  --color-footer-bg: #3a51e2;
+
+  /* Radius */
+  --radius: 10px;
+  --radius-sm: 6px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Font family */
+  --font-sans: var(--font-raleway), system-ui, sans-serif;
 }
 
 body {
   background: var(--color-background);
   color: var(--color-foreground);
+  font-weight: 300;
 }

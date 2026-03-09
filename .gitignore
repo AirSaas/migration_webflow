@@ -45,5 +45,15 @@ next-env.d.ts
 # screenshots (generated, large files)
 /screenshots/
 
+# downloaded assets (large, fetched via script)
+/public/assets/icons/
+/public/assets/images/
+/public/assets/lottie/
+/public/assets/docs/
+/public/assets/other/
+
+# playwright mcp logs
+.playwright-mcp/
+
 # conductor
 .context/
