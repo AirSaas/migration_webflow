@@ -62,7 +62,7 @@ export function SansAvecComparison() {
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-crimson/10 text-xs font-bold text-crimson">
                   {i + 1}
                 </span>
-                <p className="text-sm leading-relaxed text-text-secondary">
+                <p className="text-[15px] leading-[22px] text-foreground">
                   {row.sans}
                 </p>
               </div>
@@ -70,7 +70,7 @@ export function SansAvecComparison() {
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-green/10 text-xs font-bold text-green">
                   {i + 1}
                 </span>
-                <p className="text-sm leading-relaxed text-text-secondary">
+                <p className="text-[15px] leading-[22px] text-foreground">
                   {row.avec}
                 </p>
               </div>
