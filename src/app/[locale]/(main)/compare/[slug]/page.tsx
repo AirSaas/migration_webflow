@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { notFound } from "next/navigation";
 import { COMPARE_PAGES } from "@/data/compare";
 import { SolutionHero } from "@/components/sections/SolutionHero";
@@ -12,10 +14,6 @@ import { LinkedInTestimonials } from "@/components/sections/LinkedInTestimonials
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
-
-export function generateStaticParams() {
-  return COMPARE_PAGES.map((page) => ({ slug: page.slug }));
-}
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;

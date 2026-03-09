@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { notFound } from "next/navigation";
 import { EQUIPES_PAGES } from "@/data/equipes";
 import { SolutionHero } from "@/components/sections/SolutionHero";
@@ -11,10 +13,6 @@ import { Container } from "@/components/ui/Container";
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
-
-export function generateStaticParams() {
-  return EQUIPES_PAGES.map((page) => ({ slug: page.slug }));
-}
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
