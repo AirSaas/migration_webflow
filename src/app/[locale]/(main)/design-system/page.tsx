@@ -1,5 +1,12 @@
 export const dynamic = "force-dynamic";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Design System — Section Showcase (internal)",
+  robots: { index: false, follow: false },
+};
+
 import { HeroTabs } from "@/components/sections/HeroTabs";
 import { SolutionHero } from "@/components/sections/SolutionHero";
 import { SectionHeading } from "@/components/sections/SectionHeading";
