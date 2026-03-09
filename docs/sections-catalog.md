@@ -128,15 +128,83 @@ Toutes les pages solution partagent ce template :
 
 ## Produit Pages
 
-<!-- À remplir au Step 3 -->
+> Complété au Step 3. Template `ProduitPage` avec 6 pages `/produit/[slug]`.
+
+### Template
+
+Structure : Hero + Intro + Features alternées + CTA + FAQ Accordion + Press/Témoignages
+
+Identique au template Solution mais ajoute le pattern FAQ en bas de page.
+
+### Composants spécifiques
+
+| Composant | Fichier | Usage |
+|-----------|---------|-------|
+| `FaqAccordion` | `sections/FaqAccordion.tsx` | Client component, accordion expandable avec +/− |
+
+### Pages (6)
+
+| # | Slug | Titre |
+|---|------|-------|
+| 1 | `capacity-planning` | Capacity Planning |
+| 2 | `priorisation-par-equipes` | Priorisation par équipes |
+| 3 | `reporting-projet` | Reporting projet |
+| 4 | `automatiser-la-com-projet` | Automatiser la com' projet |
+| 5 | `budget` | Budget |
+| 6 | `traduction-one-click-avec-deepl` | Traduction DeepL |
+
+### Route
+
+`src/app/[locale]/produit/[slug]/page.tsx` — SSG. Données dans `src/data/produit.tsx`.
 
 ## Équipes Pages
 
-<!-- À remplir au Step 3 -->
+> Complété au Step 3. Template `EquipesPage` avec 4 pages `/equipes/[slug]`.
+
+### Template
+
+Structure : Hero (sans badge) + Intro + Stats optionnel + Features alternées + CTA + Press/Témoignages
+
+Variante du template Homepage — réutilise SolutionHero, FeatureSection, stats inline.
+
+### Pages (4)
+
+| # | Slug | Titre |
+|---|------|-------|
+| 1 | `outil-pmo` | PMO |
+| 2 | `direction-de-la-transformation` | Direction de la Transformation |
+| 3 | `comite-direction` | Comité Direction |
+| 4 | `it-et-operation` | IT & Opérations |
+
+### Route
+
+`src/app/[locale]/equipes/[slug]/page.tsx` — SSG. Données dans `src/data/equipes.tsx`.
 
 ## Compare Pages
 
-<!-- À remplir au Step 3 -->
+> Complété au Step 3. Template `ComparePage` avec 3 pages `/compare/[slug]`.
+
+### Template
+
+Structure : Hero + Intro + ComparisonTable + Features + CTA + FAQ + Press/Témoignages
+
+### Composants spécifiques
+
+| Composant | Fichier | Usage |
+|-----------|---------|-------|
+| `ComparisonTable` | `sections/ComparisonTable.tsx` | Grille de comparaison AirSaas vs concurrent avec ✓/✗ |
+
+### Pages (3)
+
+| # | Slug | Titre |
+|---|------|-------|
+| 1 | `alternative-triskell-ppm` | Alternative Triskell PPM |
+| 2 | `alternative-planview-portfolio` | Alternative Planview |
+| 3 | `alternative-sciforma` | Alternative Sciforma |
+
+### Route
+
+`src/app/[locale]/compare/[slug]/page.tsx` — SSG. Données dans `src/data/compare.tsx`.
 
 ## Landing Pages
 
