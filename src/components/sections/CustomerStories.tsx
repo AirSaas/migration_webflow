@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
 
 type Story = {
   name: string;
@@ -77,12 +78,7 @@ export function CustomerStories({
 
         {moreLink && (
           <div className="mt-8 text-center">
-            <Link
-              href={moreLink.href}
-              className="text-primary underline hover:no-underline"
-            >
-              {moreLink.text}
-            </Link>
+            <Button href={moreLink.href}>{moreLink.text}</Button>
           </div>
         )}
       </Container>
