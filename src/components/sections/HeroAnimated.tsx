@@ -24,12 +24,11 @@ const ROTATING_WORDS = [
 ];
 
 export function HeroAnimated() {
-  const [activeTab, setActiveTab] = useState(0);
-  const [wordIndex, setWordIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setWordIndex((i) => (i + 1) % ROTATING_WORDS.length);
+      setActiveIndex((i) => (i + 1) % TABS.length);
     }, 3000);
     return () => clearInterval(interval);
   }, []);
@@ -42,7 +41,7 @@ export function HeroAnimated() {
             La solution de
           </h1>
           <h2 className="text-[3rem] font-bold leading-[3.5rem] md:text-[3.5rem] md:leading-[4rem] text-primary">
-            {ROTATING_WORDS[wordIndex]}
+            {ROTATING_WORDS[activeIndex]}
           </h2>
           <h2 className="text-[3rem] font-bold leading-[3.5rem] md:text-[3.5rem] md:leading-[4rem]">
             pour aligner le top management
@@ -62,9 +61,9 @@ export function HeroAnimated() {
             {TABS.map((tab, i) => (
               <button
                 key={tab.label}
-                onClick={() => setActiveTab(i)}
+                onClick={() => setActiveIndex(i)}
                 className={`rounded-full px-5 py-2.5 text-sm font-medium transition-colors ${
-                  activeTab === i
+                  activeIndex === i
                     ? "bg-primary text-white"
                     : "text-foreground hover:bg-white"
                 }`}
@@ -77,8 +76,8 @@ export function HeroAnimated() {
           <div className="relative mt-8 overflow-hidden rounded-[10px] border border-border shadow-xl">
             <div className="aspect-[16/10] w-full bg-bg-alt">
               <Image
-                src={TABS[activeTab].image}
-                alt={`AirSaaS ${TABS[activeTab].label}`}
+                src={TABS[activeIndex].image}
+                alt={`AirSaaS ${TABS[activeIndex].label}`}
                 fill
                 className="object-cover object-top"
                 priority
