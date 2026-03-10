@@ -114,10 +114,10 @@ export default function DesignSystemPage() {
       <SectionHeading heading="Une plateforme complète pour piloter vos projets" description="AirSaaS centralise la gestion de portefeuille, la planification capacitaire et le reporting pour aligner votre top management." />
 
       <SectionLabel name="FeatureRow" />
-      <FeatureRow heading="Visualisez l'avancement de tous vos projets" description="Suivez en temps réel l'état d'avancement de chaque projet, identifiez les risques et prenez les bonnes décisions au bon moment." image="/assets/images/Portfolio%20project%20timeline%20view.webp" imageAlt="Vue timeline du portefeuille projet" />
+      <FeatureRow badge="PORTEFEUILLE" heading="Visualisez l'avancement de tous vos projets" description="Suivez en temps réel l'état d'avancement de chaque projet, identifiez les risques et prenez les bonnes décisions au bon moment." image="/assets/images/Portfolio%20project%20timeline%20view.webp" imageAlt="Vue timeline du portefeuille projet" />
 
       <SectionLabel name="FeatureRow-reversed" />
-      <FeatureRow heading="Priorisez avec votre comité de direction" description="Alignez les priorités entre la DSI et le top management grâce à des critères objectifs et une vue partagée du portefeuille." image="/assets/images/Capacity%20screen.webp" imageAlt="Écran capacitaire par équipe" reversed bgColor="alt" />
+      <FeatureRow badge="CAPACITAIRE" heading="Priorisez avec votre comité de direction" description="Alignez les priorités entre la DSI et le top management grâce à des critères objectifs et une vue partagée du portefeuille." image="/assets/images/Capacity%20screen.webp" imageAlt="Écran capacitaire par équipe" reversed bgColor="alt" />
 
       <SectionLabel name="CtaBanner" />
       <CtaBanner heading="Prêt à transformer votre pilotage ?" description="Rejoignez les DSI qui ont choisi AirSaaS pour piloter leur portefeuille de projets et aligner leur top management." />
