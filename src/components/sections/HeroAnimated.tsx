@@ -74,7 +74,7 @@ export function HeroAnimated() {
           </div>
 
           <div className="relative mt-8 overflow-hidden rounded-[10px] border border-border shadow-xl">
-            <div className="aspect-[16/10] w-full bg-bg-alt">
+            <div className="relative aspect-[16/10] w-full bg-bg-alt">
               <Image
                 src={TABS[activeIndex].image}
                 alt={`AirSaaS ${TABS[activeIndex].label}`}

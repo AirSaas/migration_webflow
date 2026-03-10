@@ -51,13 +51,12 @@ export function FeatureNumberedList({
           )}
         >
           <div className="relative flex-1">
-            <div className="relative w-full overflow-hidden rounded-xl border border-border bg-white shadow-lg">
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-border bg-white shadow-lg">
               <Image
                 src={image}
                 alt={imageAlt}
-                width={600}
-                height={500}
-                className="h-auto w-full"
+                fill
+                className="object-contain object-top"
               />
             </div>
           </div>

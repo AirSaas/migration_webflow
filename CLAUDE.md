@@ -105,6 +105,13 @@ Si le MCP échoue : attendre 2s, retenter (max 3x), noter l'erreur dans `docs/de
 - Ask yourself: "Would a staff engineer approve this?"
 - Run tests, check logs, demonstrate correctness.
 
+### Playwright Visual QA
+
+- When testing the design system page with Playwright, **always visually inspect screenshots** — don't just check that images load (naturalWidth > 0).
+- Verify: image proportions correct, no overflow, no cropping, image fits its container, section height is reasonable.
+- Wait for lazy-loaded images: scroll to section first, then `wait_for(time=3)`, then screenshot.
+- Take element-level screenshots (not just viewport) and examine the result image before declaring success.
+
 ### Elegance
 
 - For non-trivial changes: pause and ask "is there a more elegant way?"
