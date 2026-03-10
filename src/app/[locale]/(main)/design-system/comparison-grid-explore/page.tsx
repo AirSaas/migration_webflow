@@ -92,7 +92,7 @@ function VariantB2() {
                 {ROWS.map((row, i) => (
                   <div key={i} className="flex items-start gap-3 rounded-lg bg-crimson/5 p-3">
                     <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-crimson/15 text-[10px] font-bold text-crimson">✗</span>
-                    <p className="text-sm leading-relaxed text-text-secondary">{row.left}</p>
+                    <p className="text-[15px] leading-relaxed text-foreground">{row.left}</p>
                   </div>
                 ))}
               </div>
