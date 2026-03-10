@@ -78,7 +78,7 @@ export function FeatureChecklist({
                 src={image}
                 alt={imageAlt}
                 fill
-                className="object-contain object-top"
+                className="object-cover object-top"
               />
             </div>
           </div>
