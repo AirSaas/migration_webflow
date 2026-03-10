@@ -124,7 +124,7 @@ export function HeroTabbed({
           </div>
 
           <div className="relative mx-auto aspect-[16/10] max-w-[900px] overflow-hidden rounded-[10px] border border-border shadow-xl">
-            <div className="aspect-[16/10] w-full bg-bg-alt">
+            <div className="relative aspect-[16/10] w-full bg-bg-alt">
               <Image
                 src={tabs[activeTab].image}
                 alt={tabs[activeTab].label}
