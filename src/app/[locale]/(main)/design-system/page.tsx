@@ -168,7 +168,7 @@ export default function DesignSystemPage() {
       <FeatureChecklist badge="PORTFOLIO" heading="Centralisez tous vos projets" description="Une vue unique pour piloter votre portefeuille." bullets={["Vue consolidée", "Indicateurs temps réel", "Alertes automatiques"]} image="/assets/images/Automation%20-%20integrations.webp" imageAlt="Intégrations et automatisations AirSaaS" />
 
       <SectionLabel name="BenefitsGrid" />
-      <BenefitsGrid heading="Pourquoi nous choisir ?" items={[{ title: "Simplicité", description: "Prise en main en 30 minutes" }, { title: "Visibilité", description: "Dashboard temps réel pour le COMEX" }, { title: "Alignement", description: "DSI et métiers sur la même page" }, { title: "ROI", description: "Résultats mesurables en 3 mois" }]} />
+      <BenefitsGrid badge="AVANTAGES" heading="Pourquoi nous choisir ?" items={[{ icon: "⚡", title: "Simplicité", description: "Prise en main en 30 minutes" }, { icon: "👁", title: "Visibilité", description: "Dashboard temps réel pour le COMEX" }, { icon: "🤝", title: "Alignement", description: "DSI et métiers sur la même page" }, { icon: "📈", title: "ROI", description: "Résultats mesurables en 3 mois" }]} />
 
       <SectionLabel name="TrustBadges" />
       <TrustBadges badges={[{ title: "ISO 27001", description: "Certifié" }, { title: "Hébergé en France", description: "Scaleway" }, { title: "Pentest", description: "Résultats sur demande" }, { title: "SSO / SAML", description: "Intégration AD" }]} />

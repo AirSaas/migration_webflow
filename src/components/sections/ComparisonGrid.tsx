@@ -24,51 +24,59 @@ export function ComparisonGrid({
   buttonHref = "/fr/meetings-pages",
 }: ComparisonGridProps) {
   return (
-    <section className="py-20">
+    <section className="py-16">
       <Container>
-        <h2 className="text-center text-[2.5rem] font-semibold leading-[3rem]">
-          {heading}
-        </h2>
-
-        <div className="mt-12 overflow-hidden rounded-[10px] border border-border">
-          {/* Header */}
-          <div className="grid grid-cols-2 border-b border-border bg-bg-alt">
-            <div className="p-4 text-center font-semibold">
-              {leftLabel}
+        <div className="rounded-2xl bg-bg-lavender p-8 md:p-12">
+          <div className="text-center">
+            <h2 className="text-[2rem] font-bold leading-[2.5rem]">
+              {heading}
+            </h2>
+          </div>
+          <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div className="rounded-xl bg-white p-6 shadow-sm">
+              <h3 className="mb-5 text-center text-sm font-bold uppercase tracking-wider text-text-secondary">
+                {leftLabel}
+              </h3>
+              <div className="space-y-3">
+                {rows.map((row, i) => (
+                  <div
+                    key={i}
+                    className="flex items-start gap-3 rounded-lg bg-crimson/5 p-3"
+                  >
+                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-crimson/15 text-[10px] font-bold text-crimson">
+                      ✗
+                    </span>
+                    <p className="text-[15px] leading-relaxed text-foreground">
+                      {row.left}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="p-4 text-center font-semibold">
-              {rightLabel}
+            <div className="rounded-xl bg-white p-6 shadow-sm">
+              <h3 className="mb-5 text-center text-sm font-bold uppercase tracking-wider text-primary">
+                {rightLabel}
+              </h3>
+              <div className="space-y-3">
+                {rows.map((row, i) => (
+                  <div
+                    key={i}
+                    className="flex items-start gap-3 rounded-lg bg-primary-5 p-3"
+                  >
+                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[10px] font-bold text-white">
+                      ✓
+                    </span>
+                    <p className="text-[15px] font-medium leading-relaxed text-foreground">
+                      {row.right}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-
-          {/* Rows */}
-          {rows.map((row, i) => (
-            <div
-              key={i}
-              className="grid grid-cols-2 border-b border-border last:border-b-0"
-            >
-              <div className="flex items-start gap-3 border-r border-border p-5">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-crimson/10 text-xs font-bold text-crimson">
-                  {i + 1}
-                </span>
-                <p className="text-[15px] leading-[22px] text-foreground">
-                  {row.left}
-                </p>
-              </div>
-              <div className="flex items-start gap-3 p-5">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-green/10 text-xs font-bold text-green">
-                  {i + 1}
-                </span>
-                <p className="text-[15px] leading-[22px] text-foreground">
-                  {row.right}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-8 text-center">
-          <Button href={buttonHref}>{buttonText}</Button>
+          <div className="mt-8 text-center">
+            <Button href={buttonHref}>{buttonText}</Button>
+          </div>
         </div>
       </Container>
     </section>
