@@ -21,7 +21,7 @@ export function QuoteCards({ heading, items }: QuoteCardsProps) {
           {heading}
         </h2>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className={`mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 ${items.length <= 2 ? "mx-auto max-w-[700px]" : items.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}>
           {items.map((item) => (
             <a
               key={item.logoAlt}

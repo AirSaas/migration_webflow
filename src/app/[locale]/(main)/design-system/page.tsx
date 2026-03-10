@@ -145,6 +145,18 @@ export default function DesignSystemPage() {
           { title: "Projets en retard d'actualisation", description: "Un rappel des projets qui méritent d'être mis à jour." },
         ]}
       />
+      <FeatureNumberedList
+        badge="REPORTING"
+        heading={<>Un <strong className="font-bold">reporting automatique</strong> pour votre COMEX</>}
+        image="/assets/images/Flash%20report%20ppt.webp"
+        imageAlt="Flash report PowerPoint"
+        reversed
+        features={[
+          { title: "Export en un clic", description: "Générez un rapport PowerPoint prêt à l'emploi pour votre COMEX." },
+          { title: "Données temps réel", description: "Les indicateurs sont toujours à jour, plus besoin de consolider manuellement." },
+          { title: "Personnalisable", description: "Adaptez le format à vos besoins : hebdomadaire, mensuel, trimestriel." },
+        ]}
+      />
 
       <SectionLabel name="HeroSplit" />
       <HeroSplit badge="SOLUTION" heading={<>Pilotez votre <span className="text-primary">portefeuille de projets</span></>} description="Visualisez l'avancement de tous vos projets en un coup d'oeil." image="/assets/images/Presentation%20cadrage%20screen.webp" imageAlt="Écran cadrage projet AirSaaS" />

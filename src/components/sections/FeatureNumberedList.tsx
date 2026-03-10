@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { cn } from "@/lib/utils";
 
 type Feature = {
   title: string;
@@ -12,6 +13,7 @@ type FeatureNumberedListProps = {
   image: string;
   imageAlt: string;
   features: Feature[];
+  reversed?: boolean;
 };
 
 export function FeatureNumberedList({
@@ -20,6 +22,7 @@ export function FeatureNumberedList({
   image,
   imageAlt,
   features,
+  reversed = false,
 }: FeatureNumberedListProps) {
   return (
     <section className="py-16">
@@ -34,7 +37,14 @@ export function FeatureNumberedList({
             {heading}
           </h3>
         </div>
-        <div className="mt-10 flex flex-col items-center gap-12 md:flex-row">
+        <div
+          className={cn(
+            "mt-10 flex items-center gap-12",
+            reversed
+              ? "flex-col md:flex-row-reverse"
+              : "flex-col md:flex-row",
+          )}
+        >
           <div className="relative flex-1">
             <div className="relative w-full overflow-hidden rounded-xl border border-border bg-white shadow-lg">
               <Image
