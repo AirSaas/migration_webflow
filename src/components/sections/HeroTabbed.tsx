@@ -123,12 +123,12 @@ export function HeroTabbed({
             ))}
           </div>
 
-          <div className="relative mx-auto aspect-[16/9] max-w-[900px] overflow-hidden rounded-xl border border-border shadow-lg">
+          <div className="relative mx-auto aspect-[16/10] max-w-[900px] overflow-hidden rounded-xl border border-border bg-bg-alt shadow-lg">
             <Image
               src={tabs[activeTab].image}
               alt={tabs[activeTab].label}
               fill
-              className="object-contain"
+              className="object-cover object-top"
               priority
             />
           </div>
