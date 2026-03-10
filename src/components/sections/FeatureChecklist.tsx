@@ -73,12 +73,13 @@ export function FeatureChecklist({
             </div>
           </div>
           <div className="relative flex-1">
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-border bg-white shadow-lg">
+            <div className="relative w-full overflow-hidden rounded-xl border border-border bg-white shadow-lg">
               <Image
                 src={image}
                 alt={imageAlt}
-                fill
-                className="object-contain"
+                width={800}
+                height={600}
+                className="h-auto w-full"
               />
             </div>
           </div>

@@ -46,12 +46,13 @@ export function HeroSplit({
           </div>
 
           <div className="relative flex-1">
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[10px]">
+            <div className="relative w-full overflow-hidden rounded-[10px]">
               <Image
                 src={image}
                 alt={imageAlt}
-                fill
-                className="object-contain"
+                width={800}
+                height={600}
+                className="h-auto w-full"
                 priority
               />
             </div>
