@@ -47,7 +47,6 @@ const SECTIONS = [
   "Stats",
   "SectionHeading",
   "FeatureRow",
-  "FeatureRow-reversed",
   "CtaBanner",
   "ComparisonGrid",
   "QuoteCards",
@@ -115,9 +114,9 @@ export default function DesignSystemPage() {
 
       <SectionLabel name="FeatureRow" />
       <FeatureRow badge="PORTEFEUILLE" heading="Visualisez l'avancement de tous vos projets" description="Suivez en temps réel l'état d'avancement de chaque projet, identifiez les risques et prenez les bonnes décisions au bon moment." image="/assets/images/Portfolio%20project%20timeline%20view.webp" imageAlt="Vue timeline du portefeuille projet" />
-
-      <SectionLabel name="FeatureRow-reversed" />
-      <FeatureRow badge="CAPACITAIRE" heading="Priorisez avec votre comité de direction" description="Alignez les priorités entre la DSI et le top management grâce à des critères objectifs et une vue partagée du portefeuille." image="/assets/images/Capacity%20screen.webp" imageAlt="Écran capacitaire par équipe" reversed variant="card" />
+      <FeatureRow badge="ROADMAP" heading="Partagez simplement les roadmaps à toute l'organisation" description="Une roadmap, ça bouge, ça vit, c'est un élément clé pour aligner le top management en continu. Avec AirSaas, plus besoin de faire des PowerPoints à rallonge." image="/assets/images/Roadmap%20page%20fr.webp" imageAlt="Roadmap page" reversed />
+      <FeatureRow badge="CAPACITAIRE" heading="Un capacity planning par équipe simple et actionnable" description="Visualisez en un clin d'oeil si vous êtes dans les clous... ou dans les choux." image="/assets/images/Capacity%20screen.webp" imageAlt="Écran capacitaire par équipe" variant="card" />
+      <FeatureRow badge="PRIORISATION" heading="Priorisez avec votre comité de direction" description="Alignez les priorités entre la DSI et le top management grâce à des critères objectifs et une vue partagée du portefeuille." image="/assets/images/Portfolio%20project%20priority.webp" imageAlt="Priorisation options" reversed variant="card" />
 
       <SectionLabel name="CtaBanner" />
       <CtaBanner heading="Prêt à transformer votre pilotage ?" description="Rejoignez les DSI qui ont choisi AirSaaS pour piloter leur portefeuille de projets et aligner leur top management." />
