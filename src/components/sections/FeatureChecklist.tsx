@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
 type FeatureChecklistProps = {
@@ -10,6 +11,8 @@ type FeatureChecklistProps = {
   image: string;
   imageAlt: string;
   reversed?: boolean;
+  buttonText?: string;
+  buttonHref?: string;
 };
 
 export function FeatureChecklist({
@@ -20,6 +23,8 @@ export function FeatureChecklist({
   image,
   imageAlt,
   reversed = false,
+  buttonText,
+  buttonHref,
 }: FeatureChecklistProps) {
   return (
     <section className="py-12">
@@ -59,6 +64,11 @@ export function FeatureChecklist({
                     </li>
                   ))}
                 </ul>
+              )}
+              {buttonText && buttonHref && (
+                <div className="mt-6">
+                  <Button href={buttonHref}>{buttonText}</Button>
+                </div>
               )}
             </div>
           </div>

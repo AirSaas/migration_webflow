@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
 type FeatureRowProps = {
@@ -10,6 +11,8 @@ type FeatureRowProps = {
   imageAlt: string;
   reversed?: boolean;
   variant?: "default" | "card";
+  buttonText?: string;
+  buttonHref?: string;
 };
 
 export function FeatureRow({
@@ -20,6 +23,8 @@ export function FeatureRow({
   imageAlt,
   reversed = false,
   variant = "default",
+  buttonText,
+  buttonHref,
 }: FeatureRowProps) {
   const isCard = variant === "card";
 
@@ -48,6 +53,11 @@ export function FeatureRow({
               <div className="mt-4 text-[17px] leading-[27px] text-text-secondary">
                 {description}
               </div>
+              {buttonText && buttonHref && (
+                <div className="mt-6">
+                  <Button href={buttonHref}>{buttonText}</Button>
+                </div>
+              )}
             </div>
           </div>
           <div className="relative flex-1">

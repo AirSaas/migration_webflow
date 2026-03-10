@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
 type Feature = {
@@ -14,6 +15,8 @@ type FeatureNumberedListProps = {
   imageAlt: string;
   features: Feature[];
   reversed?: boolean;
+  buttonText?: string;
+  buttonHref?: string;
 };
 
 export function FeatureNumberedList({
@@ -23,6 +26,8 @@ export function FeatureNumberedList({
   imageAlt,
   features,
   reversed = false,
+  buttonText,
+  buttonHref,
 }: FeatureNumberedListProps) {
   return (
     <section className="py-16">
@@ -72,6 +77,11 @@ export function FeatureNumberedList({
                 </div>
               </div>
             ))}
+            {buttonText && buttonHref && (
+              <div className="mt-2">
+                <Button href={buttonHref}>{buttonText}</Button>
+              </div>
+            )}
           </div>
         </div>
       </Container>

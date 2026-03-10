@@ -1,10 +1,13 @@
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
 type SectionHeadingProps = {
   heading: React.ReactNode;
   description?: React.ReactNode;
   bgColor?: "white" | "alt";
+  buttonText?: string;
+  buttonHref?: string;
 };
 
 const bgColors = {
@@ -16,6 +19,8 @@ export function SectionHeading({
   heading,
   description,
   bgColor = "white",
+  buttonText,
+  buttonHref,
 }: SectionHeadingProps) {
   return (
     <section className={cn("py-16", bgColors[bgColor])}>
@@ -26,6 +31,11 @@ export function SectionHeading({
         {description && (
           <div className="mt-4 text-[17px] leading-[27px] text-text-secondary">
             {description}
+          </div>
+        )}
+        {buttonText && buttonHref && (
+          <div className="mt-6">
+            <Button href={buttonHref}>{buttonText}</Button>
           </div>
         )}
       </Container>
