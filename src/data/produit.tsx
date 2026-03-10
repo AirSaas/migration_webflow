@@ -10,7 +10,7 @@ export type ProduitSection = {
   image?: string;
   imageAlt?: string;
   reversed?: boolean;
-  bgColor?: "white" | "alt" | "lavender";
+  variant?: "default" | "card";
   buttonText?: string;
   faqItems?: { question: string; answer: string }[];
 };
@@ -103,7 +103,7 @@ export const PRODUIT_PAGES: ProduitPageData[] = [
           "Ajustez la répartition de la charge en quelques clics. Déplacez des personnes d'un projet à un autre et voyez immédiatement l'impact sur l'ensemble du portefeuille.",
         image: "/assets/images/home_app_screen-min.png",
         imageAlt: "Réallocation ressources",
-        bgColor: "alt",
+        variant: "card",
       },
       {
         type: "faq",

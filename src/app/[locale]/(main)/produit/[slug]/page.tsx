@@ -84,7 +84,7 @@ export default async function ProduitPage({ params }: Props) {
               image={section.image!}
               imageAlt={section.imageAlt!}
               reversed={isReversed}
-              bgColor={section.bgColor}
+              variant={section.variant}
             />
           );
         }

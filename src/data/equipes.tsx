@@ -13,7 +13,7 @@ export type EquipesSection = {
   image?: string;
   imageAlt?: string;
   reversed?: boolean;
-  bgColor?: "white" | "alt" | "lavender";
+  variant?: "default" | "card";
   buttonText?: string;
   stats?: { value: string; label: string }[];
 };
@@ -112,7 +112,7 @@ export const EQUIPES_PAGES: EquipesPageData[] = [
           "Préparez vos comités de pilotage en quelques minutes. Toutes les données sont à jour et présentées dans un format clair pour faciliter les prises de décision.",
         image: "/assets/images/home_app_screen-min.png",
         imageAlt: "Gouvernance PMO",
-        bgColor: "alt",
+        variant: "card",
       },
     ],
     hasPress: true,
@@ -178,7 +178,7 @@ export const EQUIPES_PAGES: EquipesPageData[] = [
           "Préparez des présentations claires et synthétiques pour votre comité exécutif. Indicateurs clés, avancement global, risques majeurs : tout est prêt en quelques clics.",
         image: "/assets/images/home_app_screen-min.png",
         imageAlt: "Tableaux de bord COMEX",
-        bgColor: "alt",
+        variant: "card",
       },
     ],
     hasPress: true,

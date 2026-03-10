@@ -104,7 +104,7 @@ export default async function EquipesPage({ params }: Props) {
               image={section.image!}
               imageAlt={section.imageAlt!}
               reversed={isReversed}
-              bgColor={section.bgColor}
+              variant={section.variant}
             />
           );
         }

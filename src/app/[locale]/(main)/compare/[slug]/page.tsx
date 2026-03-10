@@ -96,7 +96,7 @@ export default async function ComparePage({ params }: Props) {
               image={section.image!}
               imageAlt={section.imageAlt!}
               reversed={isReversed}
-              bgColor={section.bgColor}
+              variant={section.variant}
             />
           );
         }

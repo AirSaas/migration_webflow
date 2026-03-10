@@ -9,7 +9,7 @@ export type SolutionFeature = {
   image: string;
   imageAlt: string;
   reversed?: boolean;
-  bgColor?: "white" | "alt" | "lavender";
+  variant?: "default" | "card";
 };
 
 export type SolutionSection = {
@@ -20,7 +20,7 @@ export type SolutionSection = {
   image?: string;
   imageAlt?: string;
   reversed?: boolean;
-  bgColor?: "white" | "alt" | "lavender";
+  variant?: "default" | "card";
   // For CTA type
   buttonText?: string;
 };

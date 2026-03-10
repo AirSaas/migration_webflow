@@ -10,7 +10,7 @@ export type CompareSection = {
   image?: string;
   imageAlt?: string;
   reversed?: boolean;
-  bgColor?: "white" | "alt" | "lavender";
+  variant?: "default" | "card";
   buttonText?: string;
   // For comparison type
   competitorName?: string;
