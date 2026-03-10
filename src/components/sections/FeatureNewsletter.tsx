@@ -31,12 +31,13 @@ export function FeatureNewsletter() {
         <div className="mt-12 flex flex-col items-start gap-12 md:flex-row">
           {/* Newsletter preview screenshots */}
           <div className="relative flex-1">
-            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-[10px] border border-border bg-white shadow-lg">
+            <div className="relative w-full overflow-hidden rounded-[10px] border border-border bg-white shadow-lg">
               <Image
                 src="/assets/images/Copil -  Bilan-min.png"
                 alt="Bilan de santé newsletter"
-                fill
-                className="object-contain object-top"
+                width={600}
+                height={500}
+                className="h-auto w-full"
               />
             </div>
           </div>

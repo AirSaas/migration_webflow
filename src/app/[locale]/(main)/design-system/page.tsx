@@ -147,7 +147,7 @@ export default function DesignSystemPage() {
       <ComparisonTable heading="AirSaaS vs Monday.com" description="Comparez les fonctionnalités clés." competitorName="Monday.com" rows={[{ feature: "Vue portefeuille", description: "Vision globale", airsaas: true, competitor: false }, { feature: "Quarter plan", description: "Planification trimestrielle", airsaas: true, competitor: false }, { feature: "Capacitaire", description: "Gestion de la capacité", airsaas: true, competitor: true }]} />
 
       <SectionLabel name="HeroTabbed" />
-      <HeroTabbed badge="PPM MODERNE" heading={<>Le PPM <span className="text-primary">moderne</span> pour les DSI</>} description="Pilotez votre portefeuille de projets." trustBadges={[{ icon: "shield", text: "ISO 27001" }, { icon: "flag", text: "Hébergé en France" }]} tabs={[{ label: "Portfolio", image: "/assets/images/Portfolio%20project%20priority.webp" }, { label: "Quarter plan", image: "/assets/images/Flash%20report%20ppt.webp" }]} />
+      <HeroTabbed badge="PPM MODERNE" heading={<>Le PPM <span className="text-primary">moderne</span> pour les DSI</>} description="Pilotez votre portefeuille de projets." trustBadges={[{ icon: "/assets/icons/icon-lock-keyhole.svg", text: "ISO 27001" }, { icon: "/assets/icons/france.svg", text: "Hébergé en France" }]} tabs={[{ label: "Portfolio", image: "/assets/images/Portfolio%20project%20priority.webp" }, { label: "Quarter plan", image: "/assets/images/Flash%20report%20ppt.webp" }]} />
 
       <SectionLabel name="LpStats" />
       <LpStats heading="Résultats concrets" stats={[{ value: "30%", label: "de projets livrés en plus" }, { value: "2x", label: "plus rapide pour arbitrer" }, { value: "100%", label: "de visibilité portfolio" }]} />

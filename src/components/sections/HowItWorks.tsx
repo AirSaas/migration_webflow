@@ -23,7 +23,7 @@ export function HowItWorks({
           <h2 className="text-[2rem] font-semibold">{heading}</h2>
           <p className="mt-3 text-[17px] text-text-secondary">{description}</p>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+        <div className={`grid grid-cols-1 gap-6 sm:grid-cols-2 ${steps.length === 3 ? "md:grid-cols-3" : "md:grid-cols-4"}`}>
           {steps.map((step, i) => (
             <div key={step.title} className="text-center">
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">

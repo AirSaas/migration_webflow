@@ -6,11 +6,11 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 
 const TABS = [
-  { label: "Portfolio", image: "/assets/images/home_app_screen-min.png" },
-  { label: "Quarter plan", image: "/assets/images/home_app_screen-min.png" },
+  { label: "Portfolio", image: "/assets/images/Portfolio project list view.webp" },
+  { label: "Quarter plan", image: "/assets/images/Quarter plan.webp" },
   { label: "Capacitaire", image: "/assets/images/Capacity screen.webp" },
   { label: "Priorisation", image: "/assets/images/Portfolio project priority.webp" },
-  { label: "Roadmap", image: "/assets/images/Portfolio project timeline view.webp" },
+  { label: "Roadmap", image: "/assets/images/Roadmap page fr.webp" },
   { label: "Reporting", image: "/assets/images/Flash report ppt.webp" },
 ];
 
