@@ -50,13 +50,14 @@ export function FeatureNumberedList({
               : "flex-col md:flex-row",
           )}
         >
-          <div className="relative flex-1">
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-border bg-white shadow-lg">
+          <div className="flex-1">
+            <div className="w-full overflow-hidden rounded-xl border border-border shadow-lg">
               <Image
                 src={image}
                 alt={imageAlt}
-                fill
-                className="object-cover object-top"
+                width={800}
+                height={600}
+                className="h-auto w-full"
               />
             </div>
           </div>
