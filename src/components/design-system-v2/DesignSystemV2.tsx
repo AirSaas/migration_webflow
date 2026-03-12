@@ -720,7 +720,7 @@ function HeroAnimatedShowcase({
       <Container>
         <FadeIn>
           <div className="overflow-hidden rounded-[38px] border border-[#d4d9ee] bg-[linear-gradient(135deg,#101b34_0%,#182752_55%,#2c4bd5_100%)] text-white shadow-[0_40px_90px_rgba(17,25,47,0.18)]">
-            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.58fr_1.42fr] md:px-10 md:py-12">
+            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.46fr_1.54fr] md:px-10 md:py-12">
               <div className="flex flex-col justify-between">
                 <div>
                   <Eyebrow className="border-white/20 bg-white/10 text-white">
@@ -796,9 +796,11 @@ function HeroAnimatedShowcase({
                     imageAlt={`Vue ${activeTab.label}`}
                     tone="light"
                     priority
-                    paddingClassName="p-1"
-                    aspectClassName="aspect-[16/9]"
-                    imageClassName="object-contain object-center p-0"
+                    paddingClassName="p-0"
+                    shellClassName="border-transparent bg-transparent"
+                    frameClassName="border-[#dbe2f3] bg-[#eef2fb] shadow-[0_28px_70px_rgba(17,25,47,0.10)]"
+                    aspectClassName="aspect-[16/8]"
+                    imageClassName="object-cover object-left-top p-0"
                   />
 
                   <div className="mt-4 grid gap-3 md:grid-cols-[1fr_auto] md:items-end">
@@ -991,50 +993,55 @@ function FeaturePanel({
         <FadeIn>
           <div
             className={cn(
-              "grid gap-10 rounded-[34px] border p-8 shadow-[0_28px_70px_rgba(17,25,47,0.06)] md:grid-cols-[0.52fr_1.48fr] md:p-10",
+              "rounded-[34px] border p-8 shadow-[0_28px_70px_rgba(17,25,47,0.06)] md:p-10",
               styles.shell,
             )}
           >
-            <div className={cn("flex flex-col justify-center", reversed && "md:order-2")}>
-              <span
-                className={cn(
-                  "inline-flex w-fit items-center rounded-full px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.28em]",
-                  styles.accent,
-                )}
-              >
-                {badge}
-              </span>
-              <DisplayTitle className="mt-5 max-w-[11ch]">{heading}</DisplayTitle>
-              <p className={cn("mt-5 max-w-[48ch] text-[1rem] leading-8", styles.body)}>
-                {description}
-              </p>
+            <ProductFrame
+              image={image}
+              imageAlt={imageAlt}
+              tone={tone === "ink" ? "dark" : "light"}
+              paddingClassName="p-0"
+              shellClassName="border-transparent bg-transparent"
+              frameClassName={tone === "ink" ? "border-white/10 bg-[#18264b] shadow-[0_30px_80px_rgba(0,0,0,0.24)]" : "border-[#dbe2f3] bg-[#eef2fb] shadow-[0_28px_70px_rgba(17,25,47,0.10)]"}
+              imageClassName="object-cover object-left-top p-0"
+              aspectClassName="aspect-[16/7.2]"
+            />
 
-              <div className="mt-7 space-y-3">
+            <div className="mt-8 grid gap-8 md:grid-cols-[0.62fr_1.38fr] md:items-start">
+              <div className={cn(reversed && "md:order-2")}>
+                <span
+                  className={cn(
+                    "inline-flex w-fit items-center rounded-full px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.28em]",
+                    styles.accent,
+                  )}
+                >
+                  {badge}
+                </span>
+                <DisplayTitle className="mt-5 max-w-[10ch]">{heading}</DisplayTitle>
+                <p className={cn("mt-5 max-w-[42ch] text-[1rem] leading-8", styles.body)}>
+                  {description}
+                </p>
+                <div className="mt-8">
+                  <ChallengeButton href={demoHref} variant={styles.button}>
+                    Réservez une démo
+                  </ChallengeButton>
+                </div>
+              </div>
+
+              <div className={cn("space-y-4", reversed && "md:order-1")}>
                 {points.map((point) => (
-                  <div key={point} className="flex gap-3">
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[#3152e0]" />
+                  <div
+                    key={point}
+                    className={cn(
+                      "rounded-[20px] border px-5 py-4",
+                      styles.innerBorder,
+                      styles.innerSurface,
+                    )}
+                  >
                     <p className={cn("text-sm leading-7", styles.body)}>{point}</p>
                   </div>
                 ))}
-              </div>
-
-              <div className="mt-8">
-                <ChallengeButton href={demoHref} variant={styles.button}>
-                  Réservez une démo
-                </ChallengeButton>
-              </div>
-            </div>
-
-            <div className={cn(reversed && "md:order-1")}>
-              <div className={cn("rounded-[28px] border p-2", styles.panel)}>
-                <ProductFrame
-                  image={image}
-                  imageAlt={imageAlt}
-                  tone={tone === "ink" ? "dark" : "light"}
-                  paddingClassName="p-0"
-                  imageClassName="object-contain object-center p-0"
-                  aspectClassName="aspect-[16/8.7]"
-                />
               </div>
             </div>
           </div>
@@ -1337,16 +1344,35 @@ function NumberedFeaturePanel({
         <FadeIn>
           <div
             className={cn(
-              "grid gap-10 rounded-[34px] border p-8 md:grid-cols-[0.58fr_1.42fr] md:p-10",
+              "rounded-[34px] border p-8 md:p-10",
               tone === "blue"
                 ? "border-[#d5ddff] bg-[#eef2ff]"
                 : "border-[#ddd7cb] bg-white",
             )}
           >
-            <div className={cn("space-y-5", reversed && "md:order-2")}>
-              <Eyebrow>{badge}</Eyebrow>
-              <DisplayTitle className="max-w-[11ch] text-[#11192f]">{heading}</DisplayTitle>
-              <div className="mt-6 space-y-4">
+            <ProductFrame
+              image={image}
+              imageAlt={imageAlt}
+              tone="light"
+              paddingClassName="p-0"
+              shellClassName="border-transparent bg-transparent"
+              frameClassName="border-[#dbe2f3] bg-[#eef2fb] shadow-[0_28px_70px_rgba(17,25,47,0.10)]"
+              imageClassName="object-cover object-center p-0"
+              aspectClassName="aspect-[16/7.2]"
+            />
+
+            <div className="mt-8 grid gap-8 md:grid-cols-[0.6fr_1.4fr] md:items-start">
+              <div className={cn(reversed && "md:order-2")}>
+                <Eyebrow>{badge}</Eyebrow>
+                <DisplayTitle className="mt-5 max-w-[10ch] text-[#11192f]">{heading}</DisplayTitle>
+                <div className="mt-8">
+                  <ChallengeButton href={demoHref} className="mt-2">
+                    Réservez une démo
+                  </ChallengeButton>
+                </div>
+              </div>
+
+              <div className={cn("space-y-4", reversed && "md:order-1")}>
                 {features.map((feature, index) => (
                   <div
                     key={feature.title}
@@ -1369,20 +1395,6 @@ function NumberedFeaturePanel({
                   </div>
                 ))}
               </div>
-              <ChallengeButton href={demoHref} className="mt-2">
-                Réservez une démo
-              </ChallengeButton>
-            </div>
-
-            <div className={cn(reversed && "md:order-1")}>
-              <ProductFrame
-                image={image}
-                imageAlt={imageAlt}
-                tone="light"
-                paddingClassName="p-0"
-                imageClassName="object-contain object-center p-0"
-                aspectClassName="aspect-[16/8.7]"
-              />
             </div>
           </div>
         </FadeIn>
@@ -1396,15 +1408,17 @@ function HeroSplitShowcase({ demoHref }: { demoHref: string }) {
     <section className="py-16">
       <Container>
         <FadeIn>
-          <div className="grid gap-10 overflow-hidden rounded-[38px] border border-[#d6dcf5] bg-white shadow-[0_24px_60px_rgba(17,25,47,0.08)] md:grid-cols-[1.32fr_0.68fr]">
-            <div className="border-b border-[#e5e8f2] bg-[#eff3ff] p-3 md:border-b-0 md:border-r">
+          <div className="grid gap-10 overflow-hidden rounded-[38px] border border-[#d6dcf5] bg-white shadow-[0_24px_60px_rgba(17,25,47,0.08)] md:grid-cols-[1.46fr_0.54fr]">
+            <div className="border-b border-[#e5e8f2] bg-[#eff3ff] p-2 md:border-b-0 md:border-r">
               <ProductFrame
                 image="/assets/images/Presentation%20cadrage%20screen.webp"
                 imageAlt="Écran cadrage projet AirSaaS"
                 tone="light"
                 paddingClassName="p-0"
-                aspectClassName="aspect-[16/8.5]"
-                imageClassName="object-contain object-center p-0"
+                shellClassName="border-transparent bg-transparent"
+                frameClassName="border-[#dbe2f3] bg-[#eef2fb] shadow-[0_28px_70px_rgba(17,25,47,0.10)]"
+                aspectClassName="aspect-[16/7.6]"
+                imageClassName="object-cover object-left-top p-0"
               />
             </div>
             <div className="px-8 py-10 md:px-10 md:py-12">
@@ -1555,7 +1569,7 @@ function HeroTabbedShowcase({
       <Container>
         <FadeIn>
           <div className="overflow-hidden rounded-[38px] border border-[#162441] bg-[#0f1930] text-white">
-            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.54fr_1.46fr] md:px-10 md:py-12">
+            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.42fr_1.58fr] md:px-10 md:py-12">
               <div>
                 <Eyebrow className="border-white/15 bg-white/10 text-white">Hero tabbed</Eyebrow>
                 <DisplayTitle className="mt-5 max-w-[9ch] text-white">
@@ -1611,8 +1625,10 @@ function HeroTabbedShowcase({
                   imageAlt={`Vue ${activeTab.label}`}
                   tone="dark"
                   paddingClassName="p-0"
-                  aspectClassName="aspect-[16/9]"
-                  imageClassName="object-contain object-center p-0"
+                  shellClassName="border-transparent bg-transparent"
+                  frameClassName="border-white/10 bg-[#18264b] shadow-[0_30px_80px_rgba(0,0,0,0.24)]"
+                  aspectClassName="aspect-[16/8]"
+                  imageClassName="object-cover object-left-top p-0"
                 />
               </div>
             </div>
@@ -1698,17 +1714,34 @@ function FeatureChecklistShowcase({ demoHref }: { demoHref: string }) {
     <section className="bg-[#fbfaf7] py-16">
       <Container>
         <FadeIn>
-          <div className="grid gap-8 rounded-[34px] border border-[#ddd7cb] bg-white p-8 md:grid-cols-[0.58fr_1.42fr] md:p-10">
-            <div>
-              <Eyebrow>Checklist</Eyebrow>
-              <DisplayTitle className="mt-4 max-w-[10ch] text-[#11192f]">
-                Centralisez tous vos projets avec une lecture plus fluide.
-              </DisplayTitle>
-              <p className="mt-5 max-w-[42ch] text-[1rem] leading-8 text-[#4b5770]">
-                Une famille de section qui reste très utile sur les landing pages, mais que
-                l’on peut rendre beaucoup plus désirable sans la surcharger.
-              </p>
-              <div className="mt-7 space-y-4">
+          <div className="rounded-[34px] border border-[#ddd7cb] bg-white p-8 md:p-10">
+            <ProductFrame
+              image="/assets/images/Automation%20-%20integrations.webp"
+              imageAlt="Intégrations et automatisations AirSaaS"
+              tone="light"
+              paddingClassName="p-0"
+              shellClassName="border-transparent bg-transparent"
+              frameClassName="border-[#dbe2f3] bg-[#eef2fb] shadow-[0_28px_70px_rgba(17,25,47,0.10)]"
+              aspectClassName="aspect-[16/7.2]"
+              imageClassName="object-cover object-left-top p-0"
+            />
+
+            <div className="mt-8 grid gap-8 md:grid-cols-[0.6fr_1.4fr] md:items-start">
+              <div>
+                <Eyebrow>Checklist</Eyebrow>
+                <DisplayTitle className="mt-4 max-w-[10ch] text-[#11192f]">
+                  Centralisez tous vos projets avec une lecture plus fluide.
+                </DisplayTitle>
+                <p className="mt-5 max-w-[42ch] text-[1rem] leading-8 text-[#4b5770]">
+                  Une famille de section qui reste très utile sur les landing pages, mais que
+                  l’on peut rendre beaucoup plus désirable sans la surcharger.
+                </p>
+                <div className="mt-8">
+                  <ChallengeButton href={demoHref}>Réservez une démo</ChallengeButton>
+                </div>
+              </div>
+
+              <div className="space-y-4">
                 {checklistItems.map((item) => (
                   <div key={item} className="flex gap-4 rounded-[20px] bg-[#faf8f3] px-4 py-4">
                     <Image
@@ -1722,19 +1755,7 @@ function FeatureChecklistShowcase({ demoHref }: { demoHref: string }) {
                   </div>
                 ))}
               </div>
-              <div className="mt-8">
-                <ChallengeButton href={demoHref}>Réservez une démo</ChallengeButton>
-              </div>
             </div>
-
-            <ProductFrame
-              image="/assets/images/Automation%20-%20integrations.webp"
-              imageAlt="Intégrations et automatisations AirSaaS"
-              tone="light"
-              paddingClassName="p-0"
-              aspectClassName="aspect-[16/8.7]"
-              imageClassName="object-contain object-center p-0"
-            />
           </div>
         </FadeIn>
       </Container>
@@ -1880,6 +1901,8 @@ function ProductFrame({
   paddingClassName,
   imageClassName,
   aspectClassName,
+  shellClassName,
+  frameClassName,
 }: {
   image: string;
   imageAlt: string;
@@ -1888,6 +1911,8 @@ function ProductFrame({
   paddingClassName?: string;
   imageClassName?: string;
   aspectClassName?: string;
+  shellClassName?: string;
+  frameClassName?: string;
 }) {
   const shell = tone === "dark"
     ? "border-white/10 bg-white/5"
@@ -1897,8 +1922,8 @@ function ProductFrame({
     : "border-[#e6e0d6] bg-[#eef2fb]";
 
   return (
-    <div className={cn("rounded-[28px] border p-2", shell, paddingClassName)}>
-      <div className={cn("relative overflow-hidden rounded-[22px] border", frame)}>
+    <div className={cn("rounded-[28px] border p-2", shell, shellClassName, paddingClassName)}>
+      <div className={cn("relative overflow-hidden rounded-[22px] border", frame, frameClassName)}>
         <div className={cn("relative aspect-[16/10] w-full", aspectClassName)}>
           <Image
             src={image}
