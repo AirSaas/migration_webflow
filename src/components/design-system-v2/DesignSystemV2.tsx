@@ -720,7 +720,7 @@ function HeroAnimatedShowcase({
       <Container>
         <FadeIn>
           <div className="overflow-hidden rounded-[38px] border border-[#d4d9ee] bg-[linear-gradient(135deg,#101b34_0%,#182752_55%,#2c4bd5_100%)] text-white shadow-[0_40px_90px_rgba(17,25,47,0.18)]">
-            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.9fr_1.1fr] md:px-10 md:py-12">
+            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.76fr_1.24fr] md:px-10 md:py-12">
               <div className="flex flex-col justify-between">
                 <div>
                   <Eyebrow className="border-white/20 bg-white/10 text-white">
@@ -796,6 +796,9 @@ function HeroAnimatedShowcase({
                     imageAlt={`Vue ${activeTab.label}`}
                     tone="light"
                     priority
+                    paddingClassName="p-2"
+                    aspectClassName="aspect-[16/9]"
+                    imageClassName="object-contain object-center p-1"
                   />
 
                   <div className="mt-4 grid gap-3 md:grid-cols-[1fr_auto] md:items-end">
@@ -988,7 +991,7 @@ function FeaturePanel({
         <FadeIn>
           <div
             className={cn(
-              "grid gap-10 rounded-[34px] border p-8 shadow-[0_28px_70px_rgba(17,25,47,0.06)] md:grid-cols-[0.82fr_1.18fr] md:p-10",
+              "grid gap-10 rounded-[34px] border p-8 shadow-[0_28px_70px_rgba(17,25,47,0.06)] md:grid-cols-[0.68fr_1.32fr] md:p-10",
               styles.shell,
             )}
           >
@@ -1041,8 +1044,8 @@ function FeaturePanel({
                   imageAlt={imageAlt}
                   tone={tone === "ink" ? "dark" : "light"}
                   paddingClassName="p-2"
-                  imageClassName="object-contain object-center p-2"
-                  aspectClassName="aspect-[5/4]"
+                  imageClassName="object-contain object-center p-1"
+                  aspectClassName="aspect-[16/9]"
                 />
               </div>
             </div>
@@ -1346,7 +1349,7 @@ function NumberedFeaturePanel({
         <FadeIn>
           <div
             className={cn(
-              "grid gap-10 rounded-[34px] border p-8 md:grid-cols-[0.92fr_1.08fr] md:p-10",
+              "grid gap-10 rounded-[34px] border p-8 md:grid-cols-[0.72fr_1.28fr] md:p-10",
               tone === "blue"
                 ? "border-[#d5ddff] bg-[#eef2ff]"
                 : "border-[#ddd7cb] bg-white",
@@ -1389,7 +1392,8 @@ function NumberedFeaturePanel({
                 imageAlt={imageAlt}
                 tone="light"
                 paddingClassName="p-2"
-                imageClassName="object-contain object-center p-2"
+                imageClassName="object-contain object-center p-1"
+                aspectClassName="aspect-[16/9]"
               />
             </div>
           </div>
@@ -1404,12 +1408,15 @@ function HeroSplitShowcase({ demoHref }: { demoHref: string }) {
     <section className="py-16">
       <Container>
         <FadeIn>
-          <div className="grid gap-10 overflow-hidden rounded-[38px] border border-[#d6dcf5] bg-white shadow-[0_24px_60px_rgba(17,25,47,0.08)] md:grid-cols-[1.05fr_0.95fr]">
+          <div className="grid gap-10 overflow-hidden rounded-[38px] border border-[#d6dcf5] bg-white shadow-[0_24px_60px_rgba(17,25,47,0.08)] md:grid-cols-[1.2fr_0.8fr]">
             <div className="border-b border-[#e5e8f2] bg-[#eff3ff] p-5 md:border-b-0 md:border-r">
               <ProductFrame
                 image="/assets/images/Presentation%20cadrage%20screen.webp"
                 imageAlt="Écran cadrage projet AirSaaS"
                 tone="light"
+                paddingClassName="p-2"
+                aspectClassName="aspect-[16/9]"
+                imageClassName="object-contain object-center p-1"
               />
             </div>
             <div className="px-8 py-10 md:px-10 md:py-12">
@@ -1560,7 +1567,7 @@ function HeroTabbedShowcase({
       <Container>
         <FadeIn>
           <div className="overflow-hidden rounded-[38px] border border-[#162441] bg-[#0f1930] text-white">
-            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.78fr_1.22fr] md:px-10 md:py-12">
+            <div className="grid gap-10 px-8 py-10 md:grid-cols-[0.66fr_1.34fr] md:px-10 md:py-12">
               <div>
                 <Eyebrow className="border-white/15 bg-white/10 text-white">Hero tabbed</Eyebrow>
                 <DisplayTitle className="mt-5 max-w-[9ch] text-white">
@@ -1615,6 +1622,9 @@ function HeroTabbedShowcase({
                   image={activeTab.image}
                   imageAlt={`Vue ${activeTab.label}`}
                   tone="dark"
+                  paddingClassName="p-2"
+                  aspectClassName="aspect-[16/9]"
+                  imageClassName="object-contain object-center p-1"
                 />
               </div>
             </div>
@@ -1700,7 +1710,7 @@ function FeatureChecklistShowcase({ demoHref }: { demoHref: string }) {
     <section className="bg-[#fbfaf7] py-16">
       <Container>
         <FadeIn>
-          <div className="grid gap-8 rounded-[34px] border border-[#ddd7cb] bg-white p-8 md:grid-cols-[0.88fr_1.12fr] md:p-10">
+          <div className="grid gap-8 rounded-[34px] border border-[#ddd7cb] bg-white p-8 md:grid-cols-[0.74fr_1.26fr] md:p-10">
             <div>
               <Eyebrow>Checklist</Eyebrow>
               <DisplayTitle className="mt-4 max-w-[10ch] text-[#11192f]">
@@ -1733,6 +1743,9 @@ function FeatureChecklistShowcase({ demoHref }: { demoHref: string }) {
               image="/assets/images/Automation%20-%20integrations.webp"
               imageAlt="Intégrations et automatisations AirSaaS"
               tone="light"
+              paddingClassName="p-2"
+              aspectClassName="aspect-[16/9]"
+              imageClassName="object-contain object-center p-1"
             />
           </div>
         </FadeIn>
@@ -1890,13 +1903,13 @@ function ProductFrame({
 }) {
   const shell = tone === "dark"
     ? "border-white/10 bg-white/5"
-    : "border-[#e6e0d6] bg-[#faf8f3]";
+    : "border-[#e6e0d6] bg-white";
   const frame = tone === "dark"
     ? "border-white/10 bg-[#18264b]"
     : "border-[#e6e0d6] bg-[#eef2fb]";
 
   return (
-    <div className={cn("rounded-[28px] border p-4", shell, paddingClassName)}>
+    <div className={cn("rounded-[28px] border p-2", shell, paddingClassName)}>
       <div className={cn("relative overflow-hidden rounded-[22px] border", frame)}>
         <div className={cn("relative aspect-[16/10] w-full", aspectClassName)}>
           <Image
@@ -1904,7 +1917,7 @@ function ProductFrame({
             alt={imageAlt}
             fill
             priority={priority}
-            className={cn("object-contain object-center p-3", imageClassName)}
+            className={cn("object-contain object-center p-1", imageClassName)}
           />
         </div>
       </div>
