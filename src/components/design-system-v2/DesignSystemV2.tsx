@@ -988,7 +988,7 @@ function FeaturePanel({
         <FadeIn>
           <div
             className={cn(
-              "grid gap-10 rounded-[34px] border p-8 shadow-[0_28px_70px_rgba(17,25,47,0.06)] md:grid-cols-[0.9fr_1.1fr] md:p-10",
+              "grid gap-10 rounded-[34px] border p-8 shadow-[0_28px_70px_rgba(17,25,47,0.06)] md:grid-cols-[0.82fr_1.18fr] md:p-10",
               styles.shell,
             )}
           >
@@ -1036,7 +1036,14 @@ function FeaturePanel({
                     premium system
                   </span>
                 </div>
-                <ProductFrame image={image} imageAlt={imageAlt} tone={tone === "ink" ? "dark" : "light"} />
+                <ProductFrame
+                  image={image}
+                  imageAlt={imageAlt}
+                  tone={tone === "ink" ? "dark" : "light"}
+                  paddingClassName="p-2"
+                  imageClassName="object-contain object-center p-2"
+                  aspectClassName="aspect-[5/4]"
+                />
               </div>
             </div>
           </div>
@@ -1085,41 +1092,38 @@ function ComparisonGridShowcase({ rows }: { rows: ComparisonRow[] }) {
     <section className="py-16">
       <Container>
         <FadeIn>
-          <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-[30px] border border-[#e2d8d0] bg-[#f8f4ef] p-7 md:p-8">
-              <Eyebrow>Sans solution</Eyebrow>
-              <DisplayTitle className="mt-4 max-w-[8ch] text-[#11192f]">
-                Le pilotage semble plus lourd qu’il n’est utile.
+          <div className="rounded-[32px] border border-[#ddd7cb] bg-white p-7 shadow-[0_18px_50px_rgba(17,25,47,0.05)] md:p-8">
+            <div className="max-w-[42rem]">
+              <Eyebrow>Comparison grid</Eyebrow>
+              <DisplayTitle className="mt-4 max-w-[10ch] text-[#11192f]">
+                Avant / après beaucoup plus lisible.
               </DisplayTitle>
-              <div className="mt-8 space-y-4">
-                {rows.map((row) => (
-                  <div
-                    key={row.left}
-                    className="rounded-[20px] border border-[#e6ddd4] bg-white px-5 py-4"
-                  >
-                    <p className="text-sm leading-7 text-[#625c63]">{row.left}</p>
-                  </div>
-                ))}
-              </div>
+              <p className="mt-4 max-w-[46ch] text-[1rem] leading-8 text-[#51607d]">
+                Chaque ligne compare clairement l’état sans pilotage cadré et le bénéfice
+                obtenu avec AirSaaS.
+              </p>
             </div>
 
-            <div className="rounded-[30px] border border-[#d5ddff] bg-[#eef2ff] p-7 md:p-8">
-              <Eyebrow className="border-[#d0d9ff] bg-white text-[#3152e0]">
-                Avec solution
-              </Eyebrow>
-              <DisplayTitle className="mt-4 max-w-[9ch] text-[#11192f]">
-                Le même produit, mais une perception plus stratégique.
-              </DisplayTitle>
-              <div className="mt-8 space-y-4">
-                {rows.map((row) => (
-                  <div
-                    key={row.right}
-                    className="rounded-[20px] border border-[#dbe2ff] bg-white px-5 py-4"
-                  >
-                    <p className="text-sm leading-7 text-[#36415e]">{row.right}</p>
+            <div className="mt-8 space-y-4">
+              {rows.map((row) => (
+                <div
+                  key={row.left}
+                  className="grid gap-4 rounded-[24px] border border-[#e7e1d7] bg-[#faf8f3] p-4 md:grid-cols-2 md:p-5"
+                >
+                  <div className="rounded-[18px] border border-[#eadfd6] bg-white px-5 py-4">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8b7e7a]">
+                      Sans solution
+                    </p>
+                    <p className="mt-2 text-sm leading-7 text-[#625c63]">{row.left}</p>
                   </div>
-                ))}
-              </div>
+                  <div className="rounded-[18px] border border-[#dbe2ff] bg-[#eef2ff] px-5 py-4">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#3152e0]">
+                      Avec AirSaaS
+                    </p>
+                    <p className="mt-2 text-sm leading-7 text-[#36415e]">{row.right}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </FadeIn>
@@ -1380,7 +1384,13 @@ function NumberedFeaturePanel({
             </div>
 
             <div className={cn(reversed && "md:order-1")}>
-              <ProductFrame image={image} imageAlt={imageAlt} tone="light" />
+              <ProductFrame
+                image={image}
+                imageAlt={imageAlt}
+                tone="light"
+                paddingClassName="p-2"
+                imageClassName="object-contain object-center p-2"
+              />
             </div>
           </div>
         </FadeIn>
@@ -1471,48 +1481,61 @@ function ComparisonTableShowcase() {
     <section className="py-16">
       <Container>
         <FadeIn>
-          <div className="overflow-hidden rounded-[32px] border border-[#ddd7cb] bg-white">
-            <div className="border-b border-[#ebe5da] px-8 py-8">
+          <div className="overflow-hidden rounded-[32px] border border-[#ddd7cb] bg-white p-8">
+            <div className="border-b border-[#ebe5da] pb-8">
               <Eyebrow>Comparison table</Eyebrow>
               <DisplayTitle className="mt-4 max-w-[10ch] text-[#11192f]">
-                AirSaaS vs un rendu plus standard.
+                Un tableau de comparaison enfin compréhensible.
               </DisplayTitle>
+              <p className="mt-4 max-w-[44ch] text-[1rem] leading-8 text-[#51607d]">
+                Chaque critère est expliqué, puis comparé de manière directe entre AirSaaS
+                et un rendu plus standard.
+              </p>
             </div>
 
-            <div className="overflow-x-auto">
-              <table className="w-full min-w-[720px] border-collapse">
-                <thead>
-                  <tr className="border-b border-[#ebe5da] bg-[#faf8f3] text-left text-sm text-[#6c7590]">
-                    <th className="px-8 py-4 font-medium">Critère</th>
-                    <th className="px-8 py-4 font-medium">Description</th>
-                    <th className="px-8 py-4 font-medium">AirSaaS</th>
-                    <th className="px-8 py-4 font-medium">Standard</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparisonTableRows.map((row, index) => (
-                    <tr
-                      key={row.feature}
-                      className={cn(index < comparisonTableRows.length - 1 && "border-b border-[#ebe5da]")}
-                    >
-                      <td className="px-8 py-5 font-semibold text-[#11192f]">{row.feature}</td>
-                      <td className="px-8 py-5 text-sm leading-7 text-[#50607a]">
-                        {row.description}
-                      </td>
-                      <td className="px-8 py-5">
-                        <span className="rounded-full bg-[#eef2ff] px-3 py-1 text-sm font-semibold text-[#3152e0]">
-                          {row.airsaas}
-                        </span>
-                      </td>
-                      <td className="px-8 py-5">
-                        <span className="rounded-full bg-[#f3efe8] px-3 py-1 text-sm font-semibold text-[#6e7486]">
-                          {row.competitor}
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+            <div className="mt-8 grid gap-3">
+              <div className="hidden grid-cols-[1.1fr_1.4fr_0.75fr_0.75fr] gap-3 px-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-[#7f8aa2] md:grid">
+                <span>Critère</span>
+                <span>Ce que ça veut dire</span>
+                <span>AirSaaS</span>
+                <span>Standard</span>
+              </div>
+
+              {comparisonTableRows.map((row) => (
+                <div
+                  key={row.feature}
+                  className="grid gap-4 rounded-[22px] border border-[#e7e1d7] bg-[#faf8f3] p-5 md:grid-cols-[1.1fr_1.4fr_0.75fr_0.75fr] md:items-start"
+                >
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#7f8aa2] md:hidden">
+                      Critère
+                    </p>
+                    <p className="font-semibold text-[#11192f]">{row.feature}</p>
+                  </div>
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#7f8aa2] md:hidden">
+                      Explication
+                    </p>
+                    <p className="text-sm leading-7 text-[#50607a]">{row.description}</p>
+                  </div>
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#7f8aa2] md:hidden">
+                      AirSaaS
+                    </p>
+                    <span className="inline-flex rounded-full bg-[#eef2ff] px-3 py-1 text-sm font-semibold text-[#3152e0]">
+                      {row.airsaas}
+                    </span>
+                  </div>
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#7f8aa2] md:hidden">
+                      Standard
+                    </p>
+                    <span className="inline-flex rounded-full bg-white px-3 py-1 text-sm font-semibold text-[#6e7486]">
+                      {row.competitor}
+                    </span>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </FadeIn>
@@ -1853,11 +1876,17 @@ function ProductFrame({
   imageAlt,
   tone = "light",
   priority = false,
+  paddingClassName,
+  imageClassName,
+  aspectClassName,
 }: {
   image: string;
   imageAlt: string;
   tone?: "light" | "dark";
   priority?: boolean;
+  paddingClassName?: string;
+  imageClassName?: string;
+  aspectClassName?: string;
 }) {
   const shell = tone === "dark"
     ? "border-white/10 bg-white/5"
@@ -1867,15 +1896,15 @@ function ProductFrame({
     : "border-[#e6e0d6] bg-[#eef2fb]";
 
   return (
-    <div className={cn("rounded-[28px] border p-4", shell)}>
+    <div className={cn("rounded-[28px] border p-4", shell, paddingClassName)}>
       <div className={cn("relative overflow-hidden rounded-[22px] border", frame)}>
-        <div className="relative aspect-[16/10] w-full">
+        <div className={cn("relative aspect-[16/10] w-full", aspectClassName)}>
           <Image
             src={image}
             alt={imageAlt}
             fill
             priority={priority}
-            className="object-contain object-top p-3"
+            className={cn("object-contain object-center p-3", imageClassName)}
           />
         </div>
       </div>
