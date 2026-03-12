@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { FadeIn } from "@/components/ui/FadeIn";
 import { cn } from "@/lib/utils";
 
 type Feature = {
@@ -32,13 +33,14 @@ export function FeatureNumberedList({
   return (
     <section className="py-16">
       <Container>
+        <FadeIn>
         <div className="text-center">
           {badge && (
             <span className="mb-3 inline-block rounded-full bg-primary-10 px-4 py-1.5 text-xs font-semibold tracking-wide text-primary">
               {badge}
             </span>
           )}
-          <h3 className="text-[1.75rem] font-bold leading-[2.25rem]">
+          <h3 className="text-[1.875rem] font-bold leading-[2.375rem]">
             {heading}
           </h3>
         </div>
@@ -51,7 +53,7 @@ export function FeatureNumberedList({
           )}
         >
           <div className="flex-1">
-            <div className="w-full overflow-hidden rounded-xl border border-border shadow-lg">
+            <div className="w-full overflow-hidden rounded-xl shadow-lg">
               <Image
                 src={image}
                 alt={imageAlt}
@@ -84,6 +86,7 @@ export function FeatureNumberedList({
             )}
           </div>
         </div>
+        </FadeIn>
       </Container>
     </section>
   );

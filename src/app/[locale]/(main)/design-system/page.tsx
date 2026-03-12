@@ -28,8 +28,10 @@ import { BenefitsGrid } from "@/components/sections/BenefitsGrid";
 import { TrustBadges } from "@/components/sections/TrustBadges";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { LpFinalCta } from "@/components/sections/LpFinalCta";
+import { LogoBar } from "@/components/sections/LogoBar";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { FadeIn } from "@/components/ui/FadeIn";
 
 function SectionLabel({ name }: { name: string }) {
   return (
@@ -44,6 +46,7 @@ function SectionLabel({ name }: { name: string }) {
 const SECTIONS = [
   "Button",
   "HeroAnimated",
+  "LogoBar",
   "Stats",
   "SectionHeading",
   "FeatureRow",
@@ -105,6 +108,18 @@ export default function DesignSystemPage() {
 
       <SectionLabel name="HeroAnimated" />
       <HeroAnimated />
+
+      <SectionLabel name="LogoBar" />
+      <LogoBar logos={[
+        { src: "/assets/images/Kiabi_logo.png", alt: "Kiabi" },
+        { src: "/assets/images/Spendesk_logo.png", alt: "Spendesk" },
+        { src: "/assets/images/valrhona-logo.png", alt: "Valrhona" },
+        { src: "/assets/images/Intuis_logo.png", alt: "Intuis" },
+        { src: "/assets/images/Cargoone_logo.png", alt: "Cargoone" },
+        { src: "/assets/images/Mytraffic_logo.png", alt: "Mytraffic" },
+        { src: "/assets/images/cenareo_logo.png", alt: "Cenareo" },
+        { src: "/assets/images/Onestock_logo.png", alt: "Onestock" },
+      ]} />
 
       <SectionLabel name="Stats" />
       <Stats heading={<><strong className="font-extrabold">Les chiffres</strong> qui comptent</>} stats={[{ value: "80%", description: "Réduction des réunions projets" }, { value: "100%", description: "Visibilité portfolio" }, { value: "30K€", description: "Économies annuelles" }]} />
@@ -180,7 +195,7 @@ export default function DesignSystemPage() {
       <FeatureChecklist badge="PORTFOLIO" heading="Centralisez tous vos projets" description="Une vue unique pour piloter votre portefeuille." bullets={["Vue consolidée", "Indicateurs temps réel", "Alertes automatiques"]} image="/assets/images/Automation%20-%20integrations.webp" imageAlt="Intégrations et automatisations AirSaaS" />
 
       <SectionLabel name="BenefitsGrid" />
-      <BenefitsGrid badge="AVANTAGES" heading="Pourquoi nous choisir ?" items={[{ icon: "⚡", title: "Simplicité", description: "Prise en main en 30 minutes" }, { icon: "👁", title: "Visibilité", description: "Dashboard temps réel pour le COMEX" }, { icon: "🤝", title: "Alignement", description: "DSI et métiers sur la même page" }, { icon: "📈", title: "ROI", description: "Résultats mesurables en 3 mois" }]} />
+      <BenefitsGrid badge="AVANTAGES" heading="Pourquoi nous choisir ?" items={[{ icon: "/assets/icons/icon-bolt-lightning.svg", title: "Simplicité", description: "Prise en main en 30 minutes" }, { icon: "/assets/icons/icon-chart-column.svg", title: "Visibilité", description: "Dashboard temps réel pour le COMEX" }, { icon: "/assets/icons/icon-handshake.svg", title: "Alignement", description: "DSI et métiers sur la même page" }, { icon: "/assets/icons/icon-bullseye-arrow.svg", title: "ROI", description: "Résultats mesurables en 3 mois" }]} />
 
       <SectionLabel name="TrustBadges" />
       <TrustBadges badges={[{ title: "ISO 27001", description: "Certifié" }, { title: "Hébergé en France", description: "Scaleway" }, { title: "Pentest", description: "Résultats sur demande" }, { title: "SSO / SAML", description: "Intégration AD" }]} />

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { FadeIn } from "@/components/ui/FadeIn";
 import { cn } from "@/lib/utils";
 
 type FeatureRowProps = {
@@ -29,8 +30,9 @@ export function FeatureRow({
   const isCard = variant === "card";
 
   return (
-    <section className="py-8">
+    <section className="py-16">
       <Container>
+        <FadeIn>
         <div
           className={cn(
             "flex items-center gap-12",
@@ -47,7 +49,7 @@ export function FeatureRow({
                   {badge}
                 </span>
               )}
-              <h3 className="text-[1.75rem] font-bold leading-[2.25rem] text-foreground">
+              <h3 className="text-[1.875rem] font-bold leading-[2.375rem] text-foreground">
                 {heading}
               </h3>
               <div className="mt-4 text-[17px] leading-[27px] text-text-secondary">
@@ -61,7 +63,7 @@ export function FeatureRow({
             </div>
           </div>
           <div className="flex-1">
-            <div className="w-full overflow-hidden rounded-xl border border-border shadow-lg">
+            <div className="w-full overflow-hidden rounded-xl shadow-lg">
               <Image
                 src={image}
                 alt={imageAlt}
@@ -72,6 +74,7 @@ export function FeatureRow({
             </div>
           </div>
         </div>
+        </FadeIn>
       </Container>
     </section>
   );

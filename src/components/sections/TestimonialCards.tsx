@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/Container";
+import { FadeIn } from "@/components/ui/FadeIn";
 
 type Testimonial = {
   name: string;
@@ -14,8 +15,9 @@ type TestimonialCardsProps = {
 
 export function TestimonialCards({ testimonials }: TestimonialCardsProps) {
   return (
-    <section className="bg-bg-alt py-12">
+    <section className="bg-bg-alt py-16">
       <Container>
+        <FadeIn>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {testimonials.map((t) => (
             <a
@@ -23,7 +25,7 @@ export function TestimonialCards({ testimonials }: TestimonialCardsProps) {
               href={t.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col rounded-[10px] bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
+              className="flex flex-col rounded-[10px] bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
             >
               <div className="mb-4 flex items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-20 text-sm font-semibold text-primary">
@@ -40,6 +42,7 @@ export function TestimonialCards({ testimonials }: TestimonialCardsProps) {
             </a>
           ))}
         </div>
+        </FadeIn>
       </Container>
     </section>
   );

@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/Container";
+import { FadeIn } from "@/components/ui/FadeIn";
 
 type Stat = {
   value: string;
@@ -14,6 +15,7 @@ export function Stats({ heading, stats }: StatsProps) {
   return (
     <section className="py-20">
       <Container>
+        <FadeIn>
         <h2 className="text-center text-[2.5rem] font-semibold leading-[3rem]">
           {heading}
         </h2>
@@ -30,6 +32,7 @@ export function Stats({ heading, stats }: StatsProps) {
             </div>
           ))}
         </div>
+        </FadeIn>
       </Container>
     </section>
   );

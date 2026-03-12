@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { FadeIn } from "@/components/ui/FadeIn";
 import { cn } from "@/lib/utils";
 
 type FeatureChecklistProps = {
@@ -27,8 +28,9 @@ export function FeatureChecklist({
   buttonHref,
 }: FeatureChecklistProps) {
   return (
-    <section className="py-12">
+    <section className="py-16">
       <Container>
+        <FadeIn>
         <div
           className={cn(
             "flex items-center gap-12",
@@ -44,7 +46,7 @@ export function FeatureChecklist({
                   {badge}
                 </span>
               )}
-              <h3 className="text-[1.75rem] font-bold leading-[2.25rem] text-foreground">
+              <h3 className="text-[1.875rem] font-bold leading-[2.375rem] text-foreground">
                 {heading}
               </h3>
               <p className="mt-4 text-[17px] leading-[27px] text-text-secondary">
@@ -73,7 +75,7 @@ export function FeatureChecklist({
             </div>
           </div>
           <div className="flex-1">
-            <div className="w-full overflow-hidden rounded-xl border border-border shadow-lg">
+            <div className="w-full overflow-hidden rounded-xl shadow-lg">
               <Image
                 src={image}
                 alt={imageAlt}
@@ -84,6 +86,7 @@ export function FeatureChecklist({
             </div>
           </div>
         </div>
+        </FadeIn>
       </Container>
     </section>
   );
