@@ -19,7 +19,7 @@ export function CardCta({
   return (
     <article
       className={cn(
-        "flex flex-col gap-[0.9375rem] items-center justify-center rounded-[1.5625rem] border border-primary-40 bg-white",
+        "flex flex-col gap-[0.9375rem] items-center justify-center rounded-[1.5625rem] border border-primary-40 bg-white transition-shadow duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.05)]",
         className
       )}
       style={{ padding: "2.1875rem 2.8125rem", minHeight: "21rem" }}

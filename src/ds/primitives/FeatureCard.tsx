@@ -18,7 +18,7 @@ export function FeatureCard({
   return (
     <article
       className={cn(
-        "flex flex-col justify-center gap-[0.9375rem] rounded-[1.5625rem] border border-primary-20 bg-primary-2 p-[2.1875rem]",
+        "flex flex-col justify-center gap-[0.9375rem] rounded-[1.5625rem] border border-primary-20 bg-primary-2 p-[2.1875rem] transition-shadow duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.05)]",
         className
       )}
     >

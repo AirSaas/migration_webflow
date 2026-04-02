@@ -24,7 +24,7 @@ export function TestimonialCard({
   return (
     <article
       className={cn(
-        "flex flex-col justify-between rounded-[1.5625rem] border border-primary-10 bg-white",
+        "flex flex-col justify-between rounded-[1.5625rem] border border-primary-10 bg-white transition-shadow duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.05)]",
         className
       )}
       style={{ padding: "2.274rem", minHeight: "20.4375rem" }}

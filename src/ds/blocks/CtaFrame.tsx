@@ -3,6 +3,7 @@ import { Heading } from "@/ds/primitives/Heading";
 import { Text } from "@/ds/primitives/Text";
 import { GradientBackground } from "@/ds/primitives/GradientBackground";
 import { FloatingCard } from "@/ds/primitives/FloatingCard";
+import { Float } from "@/ds/primitives/Float";
 
 interface CtaFrameProps {
   title: string;
@@ -50,13 +51,13 @@ export function CtaFrame({
         </div>
       </div>
 
-      {/* Floating cards */}
-      <FloatingCard
-        className="absolute z-20 left-[2%] top-[17rem] hidden xl:block"
-      />
-      <FloatingCard
-        className="absolute z-20 right-[2%] bottom-[10%] hidden xl:block"
-      />
+      {/* Floating cards with perpetual bobbing */}
+      <Float variant={3} duration={3.5} delay={0} className="absolute z-20 left-[2%] top-[17rem] hidden xl:block">
+        <FloatingCard />
+      </Float>
+      <Float variant={1} duration={4} delay={1.5} className="absolute z-20 right-[2%] bottom-[10%] hidden xl:block">
+        <FloatingCard />
+      </Float>
     </section>
   );
 }

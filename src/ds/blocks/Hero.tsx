@@ -9,6 +9,7 @@ import { EllipseBackground } from "@/ds/primitives/EllipseBackground";
 import { GradientBackground } from "@/ds/primitives/GradientBackground";
 import { Navbar } from "@/ds/primitives/Navbar";
 import { BullseyeIcon, BriefcaseIcon, CalendarIcon } from "@/ds/primitives/icons/floating-card-icons";
+import { Float } from "@/ds/primitives/Float";
 
 interface HeroButton {
   label: string;
@@ -172,19 +173,16 @@ export function Hero({
         )}
       </div>
 
-      {/* Floating cards — in the margins, outside the 1500px content zone */}
-      <FloatingCard
-        className="absolute z-20 right-[2%] top-[8rem] hidden xl:block"
-        icon={<BullseyeIcon />}
-      />
-      <FloatingCard
-        className="absolute z-20 left-[2%] top-[38.875rem] hidden xl:block"
-        icon={<BriefcaseIcon />}
-      />
-      <FloatingCard
-        className="absolute z-20 left-[2%] top-[55rem] hidden xl:block"
-        icon={<CalendarIcon />}
-      />
+      {/* Floating cards — with perpetual bobbing animation */}
+      <Float variant={1} duration={4} delay={0} className="absolute z-20 right-[2%] top-[8rem] hidden xl:block">
+        <FloatingCard icon={<BullseyeIcon />} />
+      </Float>
+      <Float variant={2} duration={4.5} delay={0.5} className="absolute z-20 left-[2%] top-[38.875rem] hidden xl:block">
+        <FloatingCard icon={<BriefcaseIcon />} />
+      </Float>
+      <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[2%] top-[55rem] hidden xl:block">
+        <FloatingCard icon={<CalendarIcon />} />
+      </Float>
     </section>
   );
 }

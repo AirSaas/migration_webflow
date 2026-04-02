@@ -14,3 +14,5 @@ export { TestimonialCard } from './TestimonialCard';
 export { CardCta } from './CardCta';
 export { ListInline } from './ListInline';
 export { LogosBar } from './LogosBar';
+export { AnimateOnScroll, AnimateChild } from './AnimateOnScroll';
+export { Float } from './Float';
