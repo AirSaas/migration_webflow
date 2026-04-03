@@ -5,19 +5,23 @@ import {
   CalendarDayIcon,
   BullseyeArrowIcon,
   SuitcaseIcon,
-  StopwatchIcon,
 } from "@/ds/primitives/icons/illustration-icons";
 
 const meta = {
   title: "Primitives/IconIllustration",
   component: IconIllustration,
   parameters: { layout: "centered" },
+  argTypes: {
+    variant: { control: "radio", options: ["dark", "light"] },
+    size: { control: "radio", options: ["sm", "md"] },
+    children: { control: false },
+  },
 } satisfies Meta<typeof IconIllustration>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const DarkMedium: Story = {
+export const Default: Story = {
   args: {
     variant: "dark",
     size: "md",
@@ -25,78 +29,39 @@ export const DarkMedium: Story = {
   },
 };
 
-export const DarkSmall: Story = {
-  args: {
-    variant: "dark",
-    size: "sm",
-    children: <SuitcaseIcon />,
-  },
-};
-
-export const LightMedium: Story = {
-  render: () => (
-    <div className="bg-primary-70 p-12 rounded-xl">
-      <IconIllustration variant="light" size="md">
-        <ChevronCircleIcon color="white" />
-      </IconIllustration>
-    </div>
-  ),
-};
-
-export const LightSmall: Story = {
-  render: () => (
-    <div className="bg-primary-70 p-8 rounded-xl">
-      <IconIllustration variant="light" size="sm">
-        <ChevronCircleIcon color="white" />
-      </IconIllustration>
-    </div>
-  ),
-};
-
 export const AllVariants: Story = {
   render: () => (
     <div className="flex gap-12 items-end">
+      {/* dark / md */}
       <div className="flex flex-col items-center gap-3">
         <IconIllustration variant="dark" size="md">
           <CalendarDayIcon />
         </IconIllustration>
-        <span className="text-xs text-text-muted">dark / md</span>
+        <span className="text-sm font-medium text-text-muted">dark / md</span>
       </div>
-      <div className="flex flex-col items-center gap-3">
-        <IconIllustration variant="dark" size="md">
-          <BullseyeArrowIcon />
-        </IconIllustration>
-        <span className="text-xs text-text-muted">dark / md</span>
-      </div>
-      <div className="flex flex-col items-center gap-3">
-        <IconIllustration variant="dark" size="md">
-          <SuitcaseIcon />
-        </IconIllustration>
-        <span className="text-xs text-text-muted">dark / md</span>
-      </div>
-      <div className="flex flex-col items-center gap-3">
-        <IconIllustration variant="dark" size="md">
-          <StopwatchIcon />
-        </IconIllustration>
-        <span className="text-xs text-text-muted">dark / md</span>
-      </div>
+
+      {/* dark / sm */}
       <div className="flex flex-col items-center gap-3">
         <IconIllustration variant="dark" size="sm">
-          <CalendarDayIcon />
+          <SuitcaseIcon />
         </IconIllustration>
-        <span className="text-xs text-text-muted">dark / sm</span>
+        <span className="text-sm font-medium text-text-muted">dark / sm</span>
       </div>
-      <div className="flex flex-col items-center gap-3 bg-primary-70 p-4 rounded-xl">
+
+      {/* light / md */}
+      <div className="flex flex-col items-center gap-3 bg-primary-70 p-6 rounded-xl">
         <IconIllustration variant="light" size="md">
           <ChevronCircleIcon color="white" />
         </IconIllustration>
-        <span className="text-xs text-white">light / md</span>
+        <span className="text-sm font-medium text-white">light / md</span>
       </div>
-      <div className="flex flex-col items-center gap-3 bg-primary-70 p-4 rounded-xl">
+
+      {/* light / sm */}
+      <div className="flex flex-col items-center gap-3 bg-primary-70 p-6 rounded-xl">
         <IconIllustration variant="light" size="sm">
-          <ChevronCircleIcon color="white" />
+          <BullseyeArrowIcon color="white" />
         </IconIllustration>
-        <span className="text-xs text-white">light / sm</span>
+        <span className="text-sm font-medium text-white">light / sm</span>
       </div>
     </div>
   ),

@@ -576,7 +576,7 @@
 <header>
   <div class="wrap">
     <h1>Manifest Debugger</h1>
-    <div class="summary"><a class="filter-pill all" data-k="all" href="#filter-all">All</a><a class="filter-pill err" data-k="errors" href="#filter-errors">3/28 prop type errors</a><a class="filter-pill info" data-k="infos" href="#filter-infos">28/28 infos</a><a class="filter-pill err" data-k="story-errors" href="#filter-story-errors">3/78 story errors</a></div>
+    <div class="summary"><a class="filter-pill all" data-k="all" href="#filter-all">All</a><a class="filter-pill err" data-k="errors" href="#filter-errors">3/28 prop type errors</a><a class="filter-pill info" data-k="infos" href="#filter-infos">28/28 infos</a><a class="filter-pill err" data-k="story-errors" href="#filter-story-errors">3/62 story errors</a><a class="filter-pill ok" data-k="docs" href="#filter-docs">1 doc ok</a></div>
   </div>
 </header>
 <main>
@@ -606,7 +606,7 @@
       <div class="badges">
         <label for="c-0-primitives-animateonscroll-props" class="badge ok as-toggle">9 prop types</label>
         <label for="c-0-primitives-animateonscroll-info" class="badge info as-toggle">1 info</label>
-        <label for="c-0-primitives-animateonscroll-stories" class="badge ok as-toggle">1 story</label>
+        <label for="c-0-primitives-animateonscroll-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -649,7 +649,7 @@
 | &quot;scale-up&quot;
 | &quot;fade&quot; = &quot;fade-up&quot;
 
-as?: JSX.IntrinsicElements = &quot;div&quot;
+as?: React.ElementType = &quot;div&quot;
 
 children: React.ReactNode
 
@@ -696,12 +696,21 @@ threshold?: number = 0.15</code></pre>
           
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">All Animations</span>
+                <span class="ex-name">Default</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const AllAnimations = () =&gt; (
+              <pre><code>const Default = () =&gt; &lt;AnimateOnScroll animation=&quot;fade-up&quot; delay={0} duration={600} threshold={0.15} onMount&gt;&lt;DemoCard label=&quot;fade-up&quot; /&gt;&lt;/AnimateOnScroll&gt;;</code></pre>
+            </div>
+            <div class="note ok">
+              <div class="row">
+                <span class="ex-name">All Variants</span>
+                <span class="badge ok">story ok</span>
+              </div>
+              
+              
+              <pre><code>const AllVariants = () =&gt; (
   &lt;div className=&quot;flex flex-col gap-[6rem] p-10 max-w-[60rem] mx-auto&quot;&gt;
     &lt;div className=&quot;text-center py-20&quot;&gt;
       &lt;h1 className=&quot;font-black text-foreground&quot; style={{ fontSize: &quot;2rem&quot; }}&gt;
@@ -712,44 +721,37 @@ threshold?: number = 0.15</code></pre>
 
     &lt;div className=&quot;h-[30rem]&quot; /&gt;
 
-    &lt;AnimateOnScroll animation=&quot;fade-up&quot;&gt;
-      &lt;DemoCard label=&quot;fade-up (default)&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
-
-    &lt;AnimateOnScroll animation=&quot;fade-down&quot;&gt;
-      &lt;DemoCard label=&quot;fade-down&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
-
-    &lt;AnimateOnScroll animation=&quot;fade-left&quot;&gt;
-      &lt;DemoCard label=&quot;fade-left&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
-
-    &lt;AnimateOnScroll animation=&quot;fade-right&quot;&gt;
-      &lt;DemoCard label=&quot;fade-right&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
-
-    &lt;AnimateOnScroll animation=&quot;scale-up&quot;&gt;
-      &lt;DemoCard label=&quot;scale-up&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
-
-    &lt;AnimateOnScroll animation=&quot;fade&quot;&gt;
-      &lt;DemoCard label=&quot;fade&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
+    {([&quot;fade-up&quot;, &quot;fade-down&quot;, &quot;fade-left&quot;, &quot;fade-right&quot;, &quot;scale-up&quot;, &quot;fade&quot;] as const).map(
+      (anim) =&gt; (
+        &lt;div key={anim} className=&quot;flex flex-col gap-2&quot;&gt;
+          &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;{anim}&lt;/span&gt;
+          &lt;AnimateOnScroll animation={anim}&gt;
+            &lt;DemoCard label={anim} /&gt;
+          &lt;/AnimateOnScroll&gt;
+        &lt;/div&gt;
+      ),
+    )}
 
     {/* Stagger demo */}
-    &lt;AnimateOnScroll animation=&quot;fade-up&quot; stagger={150}&gt;
-      &lt;div className=&quot;grid grid-cols-4 gap-4&quot;&gt;
-        &lt;AnimateChild&gt;&lt;DemoCard label=&quot;1&quot; /&gt;&lt;/AnimateChild&gt;
-        &lt;AnimateChild&gt;&lt;DemoCard label=&quot;2&quot; /&gt;&lt;/AnimateChild&gt;
-        &lt;AnimateChild&gt;&lt;DemoCard label=&quot;3&quot; /&gt;&lt;/AnimateChild&gt;
-        &lt;AnimateChild&gt;&lt;DemoCard label=&quot;4&quot; /&gt;&lt;/AnimateChild&gt;
-      &lt;/div&gt;
-    &lt;/AnimateOnScroll&gt;
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;stagger (150ms)&lt;/span&gt;
+      &lt;AnimateOnScroll animation=&quot;fade-up&quot; stagger={150}&gt;
+        &lt;div className=&quot;grid grid-cols-4 gap-4&quot;&gt;
+          &lt;AnimateChild&gt;&lt;DemoCard label=&quot;1&quot; /&gt;&lt;/AnimateChild&gt;
+          &lt;AnimateChild&gt;&lt;DemoCard label=&quot;2&quot; /&gt;&lt;/AnimateChild&gt;
+          &lt;AnimateChild&gt;&lt;DemoCard label=&quot;3&quot; /&gt;&lt;/AnimateChild&gt;
+          &lt;AnimateChild&gt;&lt;DemoCard label=&quot;4&quot; /&gt;&lt;/AnimateChild&gt;
+        &lt;/div&gt;
+      &lt;/AnimateOnScroll&gt;
+    &lt;/div&gt;
 
     {/* Delayed */}
-    &lt;AnimateOnScroll animation=&quot;fade-up&quot; delay={300}&gt;
-      &lt;DemoCard label=&quot;fade-up with 300ms delay&quot; /&gt;
-    &lt;/AnimateOnScroll&gt;
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;fade-up + 300ms delay&lt;/span&gt;
+      &lt;AnimateOnScroll animation=&quot;fade-up&quot; delay={300}&gt;
+        &lt;DemoCard label=&quot;fade-up with 300ms delay&quot; /&gt;
+      &lt;/AnimateOnScroll&gt;
+    &lt;/div&gt;
 
     &lt;div className=&quot;h-[10rem]&quot; /&gt;
   &lt;/div&gt;
@@ -964,7 +966,7 @@ variant?: &quot;primary&quot; | &quot;secondary&quot; | &quot;tertiary&quot; | &
       <div class="badges">
         <label for="c-2-primitives-cardcta-props" class="badge ok as-toggle">5 prop types</label>
         <label for="c-2-primitives-cardcta-info" class="badge info as-toggle">1 info</label>
-        <label for="c-2-primitives-cardcta-stories" class="badge ok as-toggle">3 stories</label>
+        <label for="c-2-primitives-cardcta-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -1039,36 +1041,39 @@ title: string</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Alternate Content</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const AlternateContent = () =&gt; &lt;CardCta
-    title=&quot;Essayer gratuitement&quot;
-    description=&quot;Découvrez comment AirSaas simplifie votre capacity planning. Déploiement en 4 semaines, sans compétence technique requise.&quot;
-    ctaLabel=&quot;Commencer l&#39;essai gratuit&quot;
-    ctaHref=&quot;#&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Split Layout</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const SplitLayout = () =&gt; (
-  &lt;div className=&quot;grid grid-cols-2 gap-[0.875rem] max-w-[91.5rem]&quot;&gt;
-    &lt;CardCta
-      title=&quot;Réserver une démo&quot;
-      description=&#39;AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire &quot;non&quot; avec des données, pas au feeling.&#39;
-      ctaLabel=&quot;Réservez une démo&quot;
-    /&gt;
-    &lt;CardCta
-      title=&quot;Essayer gratuitement&quot;
-      description=&quot;Découvrez comment AirSaas simplifie votre capacity planning. Déploiement en 4 semaines.&quot;
-      ctaLabel=&quot;Commencer l&#39;essai&quot;
-    /&gt;
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-8 max-w-[91.5rem]&quot;&gt;
+    {/* Single card */}
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Single card&lt;/span&gt;
+      &lt;CardCta
+        title=&quot;Réserver une démo&quot;
+        description=&#39;AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire &quot;non&quot; avec des données, pas au feeling.&#39;
+        ctaLabel=&quot;Réservez une démo&quot;
+      /&gt;
+    &lt;/div&gt;
+
+    {/* Side-by-side */}
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Side-by-side&lt;/span&gt;
+      &lt;div className=&quot;grid grid-cols-2 gap-[0.875rem]&quot;&gt;
+        &lt;CardCta
+          title=&quot;Réserver une démo&quot;
+          description=&#39;AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire &quot;non&quot; avec des données, pas au feeling.&#39;
+          ctaLabel=&quot;Réservez une démo&quot;
+        /&gt;
+        &lt;CardCta
+          title=&quot;Essayer gratuitement&quot;
+          description=&quot;Découvrez comment AirSaas simplifie votre capacity planning. Déploiement en 4 semaines.&quot;
+          ctaLabel=&quot;Commencer l&#39;essai&quot;
+        /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 );</code></pre>
             </div>
@@ -1646,16 +1651,32 @@ size?: number = 1250</code></pre>
               </div>
               
               
-              <pre><code>const Default = () =&gt; &lt;EllipseBackground className=&quot;left-1/2 -translate-x-1/2 -top-[400px]&quot; /&gt;;</code></pre>
+              <pre><code>const Default = () =&gt; &lt;EllipseBackground size={1250} className=&quot;left-1/2 -translate-x-1/2 -top-[400px]&quot; /&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Small</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const Small = () =&gt; &lt;EllipseBackground size={600} className=&quot;left-1/2 -translate-x-1/2 -top-[100px]&quot; /&gt;;</code></pre>
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-6&quot;&gt;
+    {[600, 1000, 1250].map((size) =&gt; (
+      &lt;div key={size} className=&quot;flex flex-col gap-2&quot;&gt;
+        &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+          size={size}
+        &lt;/span&gt;
+        &lt;div className=&quot;relative w-full h-[300px] overflow-hidden bg-white rounded-xl flex items-center justify-center&quot;&gt;
+          &lt;EllipseBackground
+            size={size}
+            className=&quot;left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2&quot;
+          /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    ))}
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -1784,7 +1805,7 @@ titleHighlight?: string = &quot;fréquentes&quot;</code></pre>
       <div class="badges">
         <label for="c-8-primitives-featurecard-props" class="badge ok as-toggle">5 prop types</label>
         <label for="c-8-primitives-featurecard-info" class="badge info as-toggle">1 info</label>
-        <label for="c-8-primitives-featurecard-stories" class="badge ok as-toggle">4 stories</label>
+        <label for="c-8-primitives-featurecard-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -1859,68 +1880,65 @@ title: string</code></pre>
               
               
               <pre><code>const Default = () =&gt; &lt;FeatureCard
-    icon={&lt;FeatureIcon&gt;&lt;CalendarDayIcon /&gt;&lt;/FeatureIcon&gt;}
+    icon={(&lt;FeatureIcon&gt;
+      &lt;CalendarDayIcon /&gt;
+    &lt;/FeatureIcon&gt;)}
     title=&quot;4 semaines&quot;
     subtitle=&quot;de déploiement&quot;
     description=&quot;Un setup guidé, pas un projet IT de 6 mois. Votre équipe est opérationnelle en un mois.&quot; /&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Title Only</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const TitleOnly = () =&gt; &lt;FeatureCard
-    icon={&lt;FeatureIcon&gt;&lt;BullseyeArrowIcon /&gt;&lt;/FeatureIcon&gt;}
-    title=&quot;+200&quot;
-    subtitle=&quot;entreprises&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Without Icon</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const WithoutIcon = () =&gt; &lt;FeatureCard
-    title=&quot;97%&quot;
-    subtitle=&quot;de satisfaction&quot;
-    description=&quot;Nos clients recommandent AirSaas à leurs pairs.&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Grid</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Grid = () =&gt; (
-  &lt;div className=&quot;grid grid-cols-4 gap-[1.5625rem] max-w-[91rem]&quot;&gt;
-    &lt;FeatureCard
-      icon={&lt;FeatureIcon&gt;&lt;CalendarDayIcon /&gt;&lt;/FeatureIcon&gt;}
-      title=&quot;4 semaines&quot;
-      subtitle=&quot;de déploiement&quot;
-      description=&quot;Un setup guidé, pas un projet IT de 6 mois.&quot;
-    /&gt;
-    &lt;FeatureCard
-      icon={&lt;FeatureIcon&gt;&lt;BullseyeArrowIcon /&gt;&lt;/FeatureIcon&gt;}
-      title=&quot;+200&quot;
-      subtitle=&quot;entreprises&quot;
-      description=&quot;Nous accompagnent dans leur transformation.&quot;
-    /&gt;
-    &lt;FeatureCard
-      icon={&lt;FeatureIcon&gt;&lt;StopwatchIcon /&gt;&lt;/FeatureIcon&gt;}
-      title=&quot;97%&quot;
-      subtitle=&quot;de satisfaction&quot;
-      description=&quot;Nos clients recommandent AirSaas à leurs pairs.&quot;
-    /&gt;
-    &lt;FeatureCard
-      icon={&lt;FeatureIcon&gt;&lt;SuitcaseIcon /&gt;&lt;/FeatureIcon&gt;}
-      title=&quot;0&quot;
-      subtitle=&quot;formation requise&quot;
-      description=&quot;Interface intuitive, prise en main immédiate.&quot;
-    /&gt;
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-4&quot;&gt;
+    &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;4-column grid&lt;/span&gt;
+    &lt;div className=&quot;grid grid-cols-4 gap-[1.5625rem] max-w-[91rem]&quot;&gt;
+      &lt;FeatureCard
+        icon={
+          &lt;FeatureIcon&gt;
+            &lt;CalendarDayIcon /&gt;
+          &lt;/FeatureIcon&gt;
+        }
+        title=&quot;4 semaines&quot;
+        subtitle=&quot;de déploiement&quot;
+        description=&quot;Un setup guidé, pas un projet IT de 6 mois.&quot;
+      /&gt;
+      &lt;FeatureCard
+        icon={
+          &lt;FeatureIcon&gt;
+            &lt;BullseyeArrowIcon /&gt;
+          &lt;/FeatureIcon&gt;
+        }
+        title=&quot;+200&quot;
+        subtitle=&quot;entreprises&quot;
+        description=&quot;Nous accompagnent dans leur transformation.&quot;
+      /&gt;
+      &lt;FeatureCard
+        icon={
+          &lt;FeatureIcon&gt;
+            &lt;StopwatchIcon /&gt;
+          &lt;/FeatureIcon&gt;
+        }
+        title=&quot;97%&quot;
+        subtitle=&quot;de satisfaction&quot;
+        description=&quot;Nos clients recommandent AirSaas à leurs pairs.&quot;
+      /&gt;
+      &lt;FeatureCard
+        icon={
+          &lt;FeatureIcon&gt;
+            &lt;SuitcaseIcon /&gt;
+          &lt;/FeatureIcon&gt;
+        }
+        title=&quot;0&quot;
+        subtitle=&quot;formation requise&quot;
+        description=&quot;Interface intuitive, prise en main immédiate.&quot;
+      /&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 );</code></pre>
             </div>
@@ -2111,7 +2129,7 @@ titleHighlight?: string</code></pre>
       <div class="badges">
         <label for="c-10-primitives-floatingcard-props" class="badge ok as-toggle">4 prop types</label>
         <label for="c-10-primitives-floatingcard-info" class="badge info as-toggle">1 info</label>
-        <label for="c-10-primitives-floatingcard-stories" class="badge ok as-toggle">3 stories</label>
+        <label for="c-10-primitives-floatingcard-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -2176,51 +2194,56 @@ style?: React.CSSProperties</code></pre>
               </div>
               
               
-              <pre><code>const Default = () =&gt; &lt;FloatingCard className=&quot;w-[222px] h-[81px]&quot; /&gt;;</code></pre>
+              <pre><code>const Default = () =&gt; &lt;FloatingCard className=&quot;w-[222px]&quot; /&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">With Content</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const WithContent = () =&gt; &lt;FloatingCard className=&quot;w-[222px] px-4 py-3 flex items-center gap-3&quot;&gt;
-    &lt;div
-        className=&quot;w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 shrink-0&quot;&gt;
-        &lt;svg width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot; fill=&quot;none&quot;&gt;
-            &lt;path
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-6&quot;&gt;
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+        Default (with bullseye icon)
+      &lt;/span&gt;
+      &lt;FloatingCard className=&quot;w-[222px]&quot; /&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+        Empty (no children, no icon)
+      &lt;/span&gt;
+      &lt;FloatingCard className=&quot;w-[222px] h-[81px]&quot;&gt;
+        &lt;div /&gt;
+      &lt;/FloatingCard&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+        With custom content
+      &lt;/span&gt;
+      &lt;FloatingCard className=&quot;w-[222px] px-4 py-3&quot;&gt;
+        &lt;div className=&quot;flex items-center gap-3&quot;&gt;
+          &lt;div className=&quot;w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 shrink-0&quot;&gt;
+            &lt;svg width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot; fill=&quot;none&quot;&gt;
+              &lt;path
                 d=&quot;M8 1.333A6.667 6.667 0 1 0 14.667 8 6.674 6.674 0 0 0 8 1.333Zm0 12A5.333 5.333 0 1 1 13.333 8 5.34 5.34 0 0 1 8 13.333Z&quot;
-                fill=&quot;currentColor&quot; /&gt;
-            &lt;path
-                d=&quot;M8 4.667a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM8 7.333a.667.667 0 0 0-.667.667v3.333a.667.667 0 1 0 1.334 0V8A.667.667 0 0 0 8 7.333Z&quot;
-                fill=&quot;currentColor&quot; /&gt;
-        &lt;/svg&gt;
+                fill=&quot;currentColor&quot;
+              /&gt;
+            &lt;/svg&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;p className=&quot;text-xs font-medium text-gray-900&quot;&gt;
+              New notification
+            &lt;/p&gt;
+            &lt;p className=&quot;text-[10px] text-gray-500&quot;&gt;Project updated&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/FloatingCard&gt;
     &lt;/div&gt;
-    &lt;div&gt;
-        &lt;p className=&quot;text-xs font-medium text-gray-900&quot;&gt;New notification&lt;/p&gt;
-        &lt;p className=&quot;text-[10px] text-gray-500&quot;&gt;Project updated&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/FloatingCard&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Multiple</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Multiple = () =&gt; (
-  &lt;div className=&quot;relative w-[600px] h-[400px] bg-gray-50 rounded-2xl&quot;&gt;
-    &lt;FloatingCard
-      className=&quot;w-[222px] h-[81px] absolute top-8 left-8&quot;
-    /&gt;
-    &lt;FloatingCard
-      className=&quot;w-[180px] h-[60px] absolute top-16 right-12&quot;
-    /&gt;
-    &lt;FloatingCard
-      className=&quot;w-[200px] h-[70px] absolute bottom-12 left-24&quot;
-    /&gt;
   &lt;/div&gt;
 );</code></pre>
             </div>
@@ -2375,7 +2398,7 @@ copyright?: string = &quot;Made with love in France | © 2025 AirSaas · Mention
       <div class="badges">
         <label for="c-12-primitives-gradientbackground-props" class="badge ok as-toggle">2 prop types</label>
         <label for="c-12-primitives-gradientbackground-info" class="badge info as-toggle">1 info</label>
-        <label for="c-12-primitives-gradientbackground-stories" class="badge ok as-toggle">3 stories</label>
+        <label for="c-12-primitives-gradientbackground-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -2431,30 +2454,39 @@ variant?: keyof typeof variants = &quot;hero&quot;</code></pre>
           
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Hero</span>
+                <span class="ex-name">Default</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const Hero = () =&gt; &lt;GradientBackground variant=&quot;hero&quot; /&gt;;</code></pre>
+              <pre><code>const Default = () =&gt; &lt;GradientBackground variant=&quot;hero&quot; /&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Cta</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const Cta = () =&gt; &lt;GradientBackground variant=&quot;cta&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Comparison</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Comparison = () =&gt; &lt;GradientBackground variant=&quot;comparison&quot; /&gt;;</code></pre>
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-6&quot;&gt;
+    {([&quot;hero&quot;, &quot;cta&quot;, &quot;comparison&quot;] as const).map((variant) =&gt; (
+      &lt;div key={variant} className=&quot;flex flex-col gap-2&quot;&gt;
+        &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+          variant=&amp;quot;{variant}&amp;quot;
+        &lt;/span&gt;
+        &lt;div className=&quot;relative w-full h-[300px] overflow-hidden bg-white rounded-xl&quot;&gt;
+          &lt;GradientBackground variant={variant} /&gt;
+          &lt;div className=&quot;relative z-10 flex items-center justify-center h-full&quot;&gt;
+            &lt;p className=&quot;text-2xl font-semibold text-gray-900&quot;&gt;
+              {variant} content
+            &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    ))}
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -2474,7 +2506,7 @@ variant?: keyof typeof variants = &quot;hero&quot;</code></pre>
       <div class="badges">
         <label for="c-13-primitives-heading-props" class="badge ok as-toggle">5 prop types</label>
         <label for="c-13-primitives-heading-info" class="badge info as-toggle">1 info</label>
-        <label for="c-13-primitives-heading-stories" class="badge ok as-toggle">5 stories</label>
+        <label for="c-13-primitives-heading-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -2536,48 +2568,36 @@ level?: 1 | 2 | 3 = 2</code></pre>
           
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">H 1 Default</span>
+                <span class="ex-name">Default</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const H1Default = () =&gt; &lt;Heading level={1} gradient=&quot;dark-to-primary&quot;&gt;Build better projects&lt;/Heading&gt;;</code></pre>
+              <pre><code>const Default = () =&gt; &lt;Heading level={2} gradient=&quot;dark-to-primary&quot; align=&quot;center&quot;&gt;Build better projects&lt;/Heading&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">H 1 Gradient</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const H1Gradient = () =&gt; &lt;Heading level={1} gradient=&quot;primary&quot;&gt;Accelerate delivery&lt;/Heading&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">H 2</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const H2 = () =&gt; &lt;Heading level={2}&gt;Everything you need to succeed&lt;/Heading&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">H 3</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const H3 = () =&gt; &lt;Heading level={3}&gt;Real-time dashboards&lt;/Heading&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Left Aligned</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const LeftAligned = () =&gt; &lt;Heading level={2} align=&quot;left&quot; gradient=&quot;none&quot;&gt;Trusted by leading teams&lt;/Heading&gt;;</code></pre>
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-10&quot;&gt;
+    {([1, 2, 3] as const).map((level) =&gt;
+      ([&quot;dark-to-primary&quot;, &quot;primary&quot;, &quot;none&quot;] as const).map((gradient) =&gt; (
+        &lt;div key={`${level}-${gradient}`} className=&quot;flex flex-col gap-2&quot;&gt;
+          &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+            level={level} gradient=&amp;quot;{gradient}&amp;quot;
+          &lt;/span&gt;
+          &lt;Heading level={level} gradient={gradient}&gt;
+            Build better projects
+          &lt;/Heading&gt;
+        &lt;/div&gt;
+      ))
+    )}
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -3180,7 +3200,7 @@ export const Default: Story = {};
       <div class="badges">
         <label for="c-16-primitives-iconillustration-props" class="badge ok as-toggle">4 prop types</label>
         <label for="c-16-primitives-iconillustration-info" class="badge info as-toggle">1 info</label>
-        <label for="c-16-primitives-iconillustration-stories" class="badge ok as-toggle">5 stories</label>
+        <label for="c-16-primitives-iconillustration-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -3239,7 +3259,6 @@ variant?: &quot;dark&quot; | &quot;light&quot; = &quot;dark&quot;</code></pre>
     CalendarDayIcon,
     ChevronCircleIcon,
     IconIllustration,
-    StopwatchIcon,
     SuitcaseIcon,
 } from "airsaas-next";</code></pre>
               </div>
@@ -3247,51 +3266,12 @@ variant?: &quot;dark&quot; | &quot;light&quot; = &quot;dark&quot;</code></pre>
           
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Dark Medium</span>
+                <span class="ex-name">Default</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const DarkMedium = () =&gt; &lt;IconIllustration variant=&quot;dark&quot; size=&quot;md&quot;&gt;&lt;CalendarDayIcon /&gt;&lt;/IconIllustration&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Dark Small</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const DarkSmall = () =&gt; &lt;IconIllustration variant=&quot;dark&quot; size=&quot;sm&quot;&gt;&lt;SuitcaseIcon /&gt;&lt;/IconIllustration&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Light Medium</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const LightMedium = () =&gt; (
-  &lt;div className=&quot;bg-primary-70 p-12 rounded-xl&quot;&gt;
-    &lt;IconIllustration variant=&quot;light&quot; size=&quot;md&quot;&gt;
-      &lt;ChevronCircleIcon color=&quot;white&quot; /&gt;
-    &lt;/IconIllustration&gt;
-  &lt;/div&gt;
-);</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Light Small</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const LightSmall = () =&gt; (
-  &lt;div className=&quot;bg-primary-70 p-8 rounded-xl&quot;&gt;
-    &lt;IconIllustration variant=&quot;light&quot; size=&quot;sm&quot;&gt;
-      &lt;ChevronCircleIcon color=&quot;white&quot; /&gt;
-    &lt;/IconIllustration&gt;
-  &lt;/div&gt;
-);</code></pre>
+              <pre><code>const Default = () =&gt; &lt;IconIllustration variant=&quot;dark&quot; size=&quot;md&quot;&gt;&lt;CalendarDayIcon /&gt;&lt;/IconIllustration&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
@@ -3302,47 +3282,36 @@ variant?: &quot;dark&quot; | &quot;light&quot; = &quot;dark&quot;</code></pre>
               
               <pre><code>const AllVariants = () =&gt; (
   &lt;div className=&quot;flex gap-12 items-end&quot;&gt;
+    {/* dark / md */}
     &lt;div className=&quot;flex flex-col items-center gap-3&quot;&gt;
       &lt;IconIllustration variant=&quot;dark&quot; size=&quot;md&quot;&gt;
         &lt;CalendarDayIcon /&gt;
       &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-text-muted&quot;&gt;dark / md&lt;/span&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;dark / md&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div className=&quot;flex flex-col items-center gap-3&quot;&gt;
-      &lt;IconIllustration variant=&quot;dark&quot; size=&quot;md&quot;&gt;
-        &lt;BullseyeArrowIcon /&gt;
-      &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-text-muted&quot;&gt;dark / md&lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div className=&quot;flex flex-col items-center gap-3&quot;&gt;
-      &lt;IconIllustration variant=&quot;dark&quot; size=&quot;md&quot;&gt;
-        &lt;SuitcaseIcon /&gt;
-      &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-text-muted&quot;&gt;dark / md&lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div className=&quot;flex flex-col items-center gap-3&quot;&gt;
-      &lt;IconIllustration variant=&quot;dark&quot; size=&quot;md&quot;&gt;
-        &lt;StopwatchIcon /&gt;
-      &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-text-muted&quot;&gt;dark / md&lt;/span&gt;
-    &lt;/div&gt;
+
+    {/* dark / sm */}
     &lt;div className=&quot;flex flex-col items-center gap-3&quot;&gt;
       &lt;IconIllustration variant=&quot;dark&quot; size=&quot;sm&quot;&gt;
-        &lt;CalendarDayIcon /&gt;
+        &lt;SuitcaseIcon /&gt;
       &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-text-muted&quot;&gt;dark / sm&lt;/span&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;dark / sm&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div className=&quot;flex flex-col items-center gap-3 bg-primary-70 p-4 rounded-xl&quot;&gt;
+
+    {/* light / md */}
+    &lt;div className=&quot;flex flex-col items-center gap-3 bg-primary-70 p-6 rounded-xl&quot;&gt;
       &lt;IconIllustration variant=&quot;light&quot; size=&quot;md&quot;&gt;
         &lt;ChevronCircleIcon color=&quot;white&quot; /&gt;
       &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-white&quot;&gt;light / md&lt;/span&gt;
+      &lt;span className=&quot;text-sm font-medium text-white&quot;&gt;light / md&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div className=&quot;flex flex-col items-center gap-3 bg-primary-70 p-4 rounded-xl&quot;&gt;
+
+    {/* light / sm */}
+    &lt;div className=&quot;flex flex-col items-center gap-3 bg-primary-70 p-6 rounded-xl&quot;&gt;
       &lt;IconIllustration variant=&quot;light&quot; size=&quot;sm&quot;&gt;
-        &lt;ChevronCircleIcon color=&quot;white&quot; /&gt;
+        &lt;BullseyeArrowIcon color=&quot;white&quot; /&gt;
       &lt;/IconIllustration&gt;
-      &lt;span className=&quot;text-xs text-white&quot;&gt;light / sm&lt;/span&gt;
+      &lt;span className=&quot;text-sm font-medium text-white&quot;&gt;light / sm&lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 );</code></pre>
@@ -3439,15 +3408,46 @@ width?: number</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Custom Size</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const CustomSize = () =&gt; &lt;IllustrationFrame
-    src=&quot;https://placehold.co/400x300/e2e8f0/64748b?text=Dashboard&quot;
-    alt=&quot;Dashboard view&quot;
-    className=&quot;max-w-[400px]&quot; /&gt;;</code></pre>
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-6 bg-gray-100 p-8&quot;&gt;
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+        Default (600px wide)
+      &lt;/span&gt;
+      &lt;IllustrationFrame
+        src=&quot;https://placehold.co/800x500/e2e8f0/64748b?text=Product+Screenshot&quot;
+        alt=&quot;Product screenshot&quot;
+        className=&quot;max-w-[600px]&quot;
+      /&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+        Small (400px wide)
+      &lt;/span&gt;
+      &lt;IllustrationFrame
+        src=&quot;https://placehold.co/400x300/e2e8f0/64748b?text=Dashboard&quot;
+        alt=&quot;Dashboard view&quot;
+        className=&quot;max-w-[400px]&quot;
+      /&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+        Full width
+      &lt;/span&gt;
+      &lt;IllustrationFrame
+        src=&quot;https://placehold.co/1200x600/e2e8f0/64748b?text=Full+Width&quot;
+        alt=&quot;Full width view&quot;
+      /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -3467,7 +3467,7 @@ width?: number</code></pre>
       <div class="badges">
         <label for="c-18-primitives-listcard-props" class="badge ok as-toggle">3 prop types</label>
         <label for="c-18-primitives-listcard-info" class="badge info as-toggle">1 info</label>
-        <label for="c-18-primitives-listcard-stories" class="badge ok as-toggle">3 stories</label>
+        <label for="c-18-primitives-listcard-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -3530,45 +3530,42 @@ value: string | number</code></pre>
               </div>
               
               
-              <pre><code>const Default = () =&gt; &lt;ListCard value={1}&gt;(&lt;&gt;Les outils existants sont &lt;strong&gt;trop complexes&lt;/strong&gt;→ personne ne les maintient
+              <pre><code>const Default = () =&gt; &lt;ListCard value={1}&gt;(&lt;&gt;Les outils existants sont &lt;strong&gt;trop complexes&lt;/strong&gt;→
+              personne ne les maintient
             &lt;/&gt;)&lt;/ListCard&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Second Item</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const SecondItem = () =&gt; &lt;ListCard value={2}&gt;(&lt;&gt;Les &lt;strong&gt;ressources partagées&lt;/strong&gt;créent des conflits entre équipes
-            &lt;/&gt;)&lt;/ListCard&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Grid</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Grid = () =&gt; (
+              <pre><code>const AllVariants = () =&gt; (
   &lt;div className=&quot;grid grid-cols-2 gap-[0.875rem] max-w-[91.5rem]&quot;&gt;
     &lt;ListCard value={1}&gt;
-      Les outils existants sont &lt;strong&gt;trop complexes&lt;/strong&gt; → personne ne les maintient
+      Les outils existants sont &lt;strong&gt;trop complexes&lt;/strong&gt; &amp;rarr;
+      personne ne les maintient
     &lt;/ListCard&gt;
     &lt;ListCard value={2}&gt;
-      Les &lt;strong&gt;ressources partagées&lt;/strong&gt; créent des conflits entre équipes
+      Les &lt;strong&gt;ressources partag&amp;eacute;es&lt;/strong&gt; cr&amp;eacute;ent des
+      conflits entre &amp;eacute;quipes
     &lt;/ListCard&gt;
     &lt;ListCard value={3}&gt;
-      Les décisions se prennent &lt;strong&gt;au feeling&lt;/strong&gt;, pas sur des données fiables
+      Les d&amp;eacute;cisions se prennent &lt;strong&gt;au feeling&lt;/strong&gt;, pas sur
+      des donn&amp;eacute;es fiables
     &lt;/ListCard&gt;
     &lt;ListCard value={4}&gt;
-      &lt;strong&gt;Aucune visibilité&lt;/strong&gt; sur la capacité réelle des équipes
+      &lt;strong&gt;Aucune visibilit&amp;eacute;&lt;/strong&gt; sur la capacit&amp;eacute;
+      r&amp;eacute;elle des &amp;eacute;quipes
     &lt;/ListCard&gt;
     &lt;ListCard value={5}&gt;
-      Les &lt;strong&gt;projets en retard&lt;/strong&gt; s&amp;apos;accumulent sans que personne ne sache pourquoi
+      Les &lt;strong&gt;projets en retard&lt;/strong&gt; s&amp;apos;accumulent sans que
+      personne ne sache pourquoi
     &lt;/ListCard&gt;
     &lt;ListCard value={6}&gt;
-      Le &lt;strong&gt;PMO passe son temps&lt;/strong&gt; à collecter des données au lieu de piloter
+      Le &lt;strong&gt;PMO passe son temps&lt;/strong&gt; &amp;agrave; collecter des
+      donn&amp;eacute;es au lieu de piloter
     &lt;/ListCard&gt;
   &lt;/div&gt;
 );</code></pre>
@@ -3654,21 +3651,24 @@ icon?: React.ReactNode</code></pre>
               </div>
               
               
-              <pre><code>const Default = () =&gt; &lt;ListInline&gt;Entretien guidé par l&#39;IA&lt;/ListInline&gt;;</code></pre>
+              <pre><code>const Default = () =&gt; &lt;ListInline&gt;Entretien guidé par l’IA&lt;/ListInline&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Multiple Items</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const MultipleItems = () =&gt; (
+              <pre><code>const AllVariants = () =&gt; (
   &lt;div className=&quot;flex flex-col gap-[0.625rem] max-w-[33rem]&quot;&gt;
-    &lt;ListInline&gt;Entretien guidé par l&amp;apos;IA&lt;/ListInline&gt;
-    &lt;ListInline&gt;Brief structuré automatiquement&lt;/ListInline&gt;
+    &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+      Multiple items stacked
+    &lt;/span&gt;
+    &lt;ListInline&gt;Entretien guid&amp;eacute; par l&amp;apos;IA&lt;/ListInline&gt;
+    &lt;ListInline&gt;Brief structur&amp;eacute; automatiquement&lt;/ListInline&gt;
     &lt;ListInline&gt;Comparaison objective des demandes&lt;/ListInline&gt;
-    &lt;ListInline&gt;Intégration native avec vos outils&lt;/ListInline&gt;
+    &lt;ListInline&gt;Int&amp;eacute;gration native avec vos outils&lt;/ListInline&gt;
   &lt;/div&gt;
 );</code></pre>
             </div>
@@ -3757,12 +3757,29 @@ logos: Logo[]</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Custom Label</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const CustomLabel = () =&gt; &lt;LogosBar label=&quot;Ils nous font confiance&quot; logos={sampleLogos.slice(0, 3)} /&gt;;</code></pre>
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-8 py-8&quot;&gt;
+    &lt;div className=&quot;flex flex-col gap-2 px-4&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Default label&lt;/span&gt;
+      &lt;LogosBar logos={sampleLogos} /&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2 px-4&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Custom label&lt;/span&gt;
+      &lt;LogosBar label=&quot;Ils nous font confiance&quot; logos={sampleLogos.slice(0, 3)} /&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2 px-4&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;English label&lt;/span&gt;
+      &lt;LogosBar label=&quot;Trusted by industry leaders&quot; logos={sampleLogos} /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -3782,7 +3799,7 @@ logos: Logo[]</code></pre>
       <div class="badges">
         <label for="c-21-primitives-navbar-props" class="badge ok as-toggle">8 prop types</label>
         <label for="c-21-primitives-navbar-info" class="badge info as-toggle">1 info</label>
-        <label for="c-21-primitives-navbar-stories" class="badge ok as-toggle">3 stories</label>
+        <label for="c-21-primitives-navbar-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -3855,36 +3872,58 @@ logo?: React.ReactNode</code></pre>
               </div>
               
               
-              <pre><code>const Default = () =&gt; &lt;Navbar items={frenchItems} ctaLabel=&quot;Demander une démo&quot; ctaHref=&quot;#demo&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Minimal</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Minimal = () =&gt; &lt;Navbar
-    items={[
-      { label: &quot;Product&quot;, href: &quot;#product&quot; },
-      { label: &quot;Pricing&quot;, href: &quot;#pricing&quot; },
-    ]}
-    ctaLabel=&quot;Get started&quot;
-    ctaHref=&quot;#start&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">With Logo</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const WithLogo = () =&gt; &lt;Navbar
+              <pre><code>const Default = () =&gt; &lt;Navbar
     items={frenchItems}
-    logoSrc=&quot;https://placehold.co/55x47/1B2B5E/white?text=AS&quot;
-    logoAlt=&quot;AirSaas&quot;
     ctaLabel=&quot;Demander une démo&quot;
-    ctaHref=&quot;#demo&quot; /&gt;;</code></pre>
+    ctaHref=&quot;#demo&quot;
+    loginLabel=&quot;Se connecter&quot;
+    loginHref=&quot;#login&quot; /&gt;;</code></pre>
+            </div>
+            <div class="note ok">
+              <div class="row">
+                <span class="ex-name">All Variants</span>
+                <span class="badge ok">story ok</span>
+              </div>
+              
+              
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-8&quot;&gt;
+    {/* Full nav */}
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Full navigation&lt;/span&gt;
+      &lt;Navbar
+        items={frenchItems}
+        ctaLabel=&quot;Demander une démo&quot;
+        ctaHref=&quot;#demo&quot;
+        loginLabel=&quot;Se connecter&quot;
+        loginHref=&quot;#login&quot;
+      /&gt;
+    &lt;/div&gt;
+
+    {/* Minimal nav */}
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Minimal navigation&lt;/span&gt;
+      &lt;Navbar
+        items={[
+          { label: &quot;Product&quot;, href: &quot;#product&quot; },
+          { label: &quot;Pricing&quot;, href: &quot;#pricing&quot; },
+        ]}
+        ctaLabel=&quot;Get started&quot;
+        ctaHref=&quot;#start&quot;
+      /&gt;
+    &lt;/div&gt;
+
+    {/* Without login */}
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Without login button&lt;/span&gt;
+      &lt;Navbar
+        items={frenchItems}
+        ctaLabel=&quot;Demander une démo&quot;
+        ctaHref=&quot;#demo&quot;
+      /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -4032,7 +4071,7 @@ variant?: &quot;muted&quot; | &quot;success&quot; | &quot;warning&quot; = &quot;
       <div class="badges">
         <label for="c-23-primitives-testimonialcard-props" class="badge ok as-toggle">5 prop types</label>
         <label for="c-23-primitives-testimonialcard-info" class="badge info as-toggle">1 info</label>
-        <label for="c-23-primitives-testimonialcard-stories" class="badge ok as-toggle">3 stories</label>
+        <label for="c-23-primitives-testimonialcard-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -4106,41 +4145,58 @@ role: string</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">With Avatar</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const WithAvatar = () =&gt; &lt;TestimonialCard
-    quote=&quot;AirSaas s&#39;adapte à nos processus, pas l&#39;inverse. Mise en place rapide et adoption immédiate par les équipes.&quot;
-    name=&quot;Marc Durand&quot;
-    role=&quot;DG @Valrhona&quot;
-    avatarSrc=&quot;https://placehold.co/28x28/10b981/fff?text=MD&quot; /&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Grid</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Grid = () =&gt; (
-  &lt;div className=&quot;grid grid-cols-3 gap-[1.5625rem] max-w-[91rem]&quot;&gt;
-    &lt;TestimonialCard
-      quote=&quot;Depuis qu&#39;on utilise AirSaas, nos comités de pilotage sont enfin productifs. On a une vue claire sur tous nos projets stratégiques.&quot;
-      name=&quot;Sophie Lefèvre&quot;
-      role=&quot;DSI @Kiabi&quot;
-    /&gt;
-    &lt;TestimonialCard
-      quote=&quot;AirSaas s&#39;adapte à nos processus, pas l&#39;inverse. Mise en place rapide et adoption immédiate par les équipes.&quot;
-      name=&quot;Marc Durand&quot;
-      role=&quot;DG @Valrhona&quot;
-    /&gt;
-    &lt;TestimonialCard
-      quote=&quot;AirSaas est le rouage qui fait tourner notre gouvernance de projets. Visibilité totale pour le COMEX.&quot;
-      name=&quot;Claire Martin&quot;
-      role=&quot;PMO @Decathlon&quot;
-    /&gt;
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-8 max-w-[91rem]&quot;&gt;
+    {/* Row with avatars and without */}
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;Without avatar&lt;/span&gt;
+      &lt;div className=&quot;grid grid-cols-3 gap-[1.5625rem]&quot;&gt;
+        &lt;TestimonialCard
+          quote=&quot;Depuis qu&#39;on utilise AirSaas, nos comités de pilotage sont enfin productifs. On a une vue claire sur tous nos projets stratégiques.&quot;
+          name=&quot;Sophie Lefèvre&quot;
+          role=&quot;DSI @Kiabi&quot;
+        /&gt;
+        &lt;TestimonialCard
+          quote=&quot;AirSaas s&#39;adapte à nos processus, pas l&#39;inverse. Mise en place rapide et adoption immédiate par les équipes.&quot;
+          name=&quot;Marc Durand&quot;
+          role=&quot;DG @Valrhona&quot;
+        /&gt;
+        &lt;TestimonialCard
+          quote=&quot;AirSaas est le rouage qui fait tourner notre gouvernance de projets. Visibilité totale pour le COMEX.&quot;
+          name=&quot;Claire Martin&quot;
+          role=&quot;PMO @Decathlon&quot;
+        /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div className=&quot;flex flex-col gap-2&quot;&gt;
+      &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;With avatar&lt;/span&gt;
+      &lt;div className=&quot;grid grid-cols-3 gap-[1.5625rem]&quot;&gt;
+        &lt;TestimonialCard
+          quote=&quot;Depuis qu&#39;on utilise AirSaas, nos comités de pilotage sont enfin productifs.&quot;
+          name=&quot;Sophie Lefèvre&quot;
+          role=&quot;DSI @Kiabi&quot;
+          avatarSrc=&quot;https://placehold.co/28x28/10b981/fff?text=SL&quot;
+        /&gt;
+        &lt;TestimonialCard
+          quote=&quot;AirSaas s&#39;adapte à nos processus, pas l&#39;inverse.&quot;
+          name=&quot;Marc Durand&quot;
+          role=&quot;DG @Valrhona&quot;
+          avatarSrc=&quot;https://placehold.co/28x28/10b981/fff?text=MD&quot;
+        /&gt;
+        &lt;TestimonialCard
+          quote=&quot;Visibilité totale pour le COMEX.&quot;
+          name=&quot;Claire Martin&quot;
+          role=&quot;PMO @Decathlon&quot;
+          avatarSrc=&quot;https://placehold.co/28x28/10b981/fff?text=CM&quot;
+        /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 );</code></pre>
             </div>
@@ -4275,7 +4331,7 @@ titleHighlight: string</code></pre>
       <div class="badges">
         <label for="c-25-primitives-text-props" class="badge ok as-toggle">5 prop types</label>
         <label for="c-25-primitives-text-info" class="badge info as-toggle">1 info</label>
-        <label for="c-25-primitives-text-stories" class="badge ok as-toggle">5 stories</label>
+        <label for="c-25-primitives-text-stories" class="badge ok as-toggle">2 stories</label>
         
       </div>
     </div>
@@ -4342,43 +4398,32 @@ size?: &quot;sm&quot; | &quot;md&quot; | &quot;lg&quot; = &quot;md&quot;</code><
               </div>
               
               
-              <pre><code>const Default = () =&gt; &lt;Text&gt;AirSaaS helps teams deliver projects on time with real-time visibility and smart automation.&lt;/Text&gt;;</code></pre>
+              <pre><code>const Default = () =&gt; &lt;Text size=&quot;md&quot; align=&quot;left&quot;&gt;AirSaaS helps teams deliver projects on time with real-time visibility and smart automation.&lt;/Text&gt;;</code></pre>
             </div>
             <div class="note ok">
               <div class="row">
-                <span class="ex-name">Small</span>
+                <span class="ex-name">All Variants</span>
                 <span class="badge ok">story ok</span>
               </div>
               
               
-              <pre><code>const Small = () =&gt; &lt;Text size=&quot;sm&quot;&gt;Last updated 3 days ago&lt;/Text&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Large</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Large = () =&gt; &lt;Text size=&quot;lg&quot;&gt;The all-in-one platform for project portfolio management and strategic alignment.&lt;/Text&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">Centered</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const Centered = () =&gt; &lt;Text align=&quot;center&quot;&gt;Join hundreds of organizations that trust AirSaaS to manage their most critical projects.&lt;/Text&gt;;</code></pre>
-            </div>
-            <div class="note ok">
-              <div class="row">
-                <span class="ex-name">With Max Width</span>
-                <span class="badge ok">story ok</span>
-              </div>
-              
-              
-              <pre><code>const WithMaxWidth = () =&gt; &lt;Text align=&quot;center&quot; maxWidth=&quot;847px&quot;&gt;Our platform provides complete visibility across your entire project portfolio, enabling data-driven decisions at every level of your organization.&lt;/Text&gt;;</code></pre>
+              <pre><code>const AllVariants = () =&gt; (
+  &lt;div className=&quot;flex flex-col gap-8&quot;&gt;
+    {([&quot;sm&quot;, &quot;md&quot;, &quot;lg&quot;] as const).map((size) =&gt;
+      ([&quot;left&quot;, &quot;center&quot;] as const).map((align) =&gt; (
+        &lt;div key={`${size}-${align}`} className=&quot;flex flex-col gap-2&quot;&gt;
+          &lt;span className=&quot;text-sm font-medium text-text-muted&quot;&gt;
+            size=&amp;quot;{size}&amp;quot; align=&amp;quot;{align}&amp;quot;
+          &lt;/span&gt;
+          &lt;Text size={size} align={align}&gt;
+            AirSaaS helps teams deliver projects on time with real-time
+            visibility and smart automation.
+          &lt;/Text&gt;
+        &lt;/div&gt;
+      ))
+    )}
+  &lt;/div&gt;
+);</code></pre>
             </div>
         </div>
     
@@ -5679,7 +5724,107 @@ export const Default: Story = {};
 </article></div>
         </section>
       </div>
+    <h2 class="section-title">Unattached Docs</h2>
+    <div class="grid" role="list">
+      
+<article
+  class="card is-doc no-doc-error"
+  role="listitem"
+  aria-label="Docs">
+  <div class="head">
+    <div class="title">
+      <h2><span class="status-dot dot-ok"></span> Compositions/HomePage/Documentation</h2>
+      <div class="badges">
+        
+        <label for="doc-0-compositions-homepage-documentation-docs-content" class="badge ok as-toggle">view content</label>
+      </div>
+    </div>
+    <div class="meta" title="./src/ds/compositions/HomePage.mdx">compositions-homepage-documentation--docs · ./src/ds/compositions/HomePage.mdx</div>
     
+  </div>
+
+  <!-- Hidden toggles must be siblings BEFORE .panels -->
+  
+  <input id="doc-0-compositions-homepage-documentation-docs-content" class="tg tg-content" type="checkbox" hidden />
+
+  <div class="panels">
+    
+    
+        <div class="panel panel-content">
+          <div class="mdx-content">
+            <pre><code>import { Meta, Canvas, Story } from &#39;@storybook/blocks&#39;;
+import * as HomePageStories from &#39;./HomePage.stories&#39;;
+
+&lt;Meta title=&quot;Compositions/HomePage/Documentation&quot; /&gt;
+
+# HomePage Composition
+
+The HomePage is the main landing page for AirSaas, assembled from **16 section blocks** stacked vertically. Each block is a self-contained, reusable section template composed from primitive components.
+
+## Block Inventory
+
+| # | Block | Component | Animation | Required |
+|---|-------|-----------|-----------|----------|
+| 1 | Hero | `Hero` | none (above fold) | Yes |
+| 2 | Logos Bar | `LogosBar` | `fade` 500ms | Yes |
+| 3 | Value Proposition (light) | `ValuePropositionFrame variant=&quot;light&quot;` | `fade-up` 700ms | Yes |
+| 4 | Comparison | `ComparisonFrame` | `fade-up` 700ms | Yes |
+| 5 | Feature Right | `FeatureFrame imagePosition=&quot;right&quot;` | `fade-right` 800ms | Yes |
+| 6 | Feature Left | `FeatureFrame imagePosition=&quot;left&quot;` | `fade-left` 800ms | Yes |
+| 7 | Value Proposition (dark) | `ValuePropositionFrame variant=&quot;dark&quot;` | `fade-up` 700ms | Yes |
+| 8–11 | Feature alternating | `FeatureFrame` right/left | `fade-right`/`fade-left` 800ms | Optional (repeatable) |
+| 12 | Value Proposition (dark) | `ValuePropositionFrame variant=&quot;dark&quot;` | `fade-up` 700ms | Optional |
+| 13 | Testimonials | `TestimonialsFrame` | `fade-up` 700ms | Yes |
+| 14 | Value Proposition (light) | `ValuePropositionFrame variant=&quot;light&quot;` | `fade-up` 700ms | Optional |
+| 15 | FAQ | `FaqFrame` | `fade-up` 600ms | Yes |
+| 16 | CTA | `CtaFrame` | `scale-up` 800ms | Yes |
+| 17 | Footer | `Footer` | `fade-up` 600ms | Yes |
+
+## Animation Guidelines
+
+All scroll animations use the `AnimateOnScroll` wrapper with CSS-only transitions + IntersectionObserver. Animations replay when scrolling back.
+
+| Block type | Animation | Duration | Rationale |
+|------------|-----------|----------|-----------|
+| Full-width sections | `fade-up` | 600–700ms | Gentle vertical reveal |
+| Feature Right | `fade-right` | 800ms | Slides in from image side |
+| Feature Left | `fade-left` | 800ms | Slides in from image side |
+| CTA | `scale-up` | 800ms | Draws attention with scale effect |
+| LogosBar | `fade` | 500ms | Subtle, non-distracting |
+
+**Floating elements** use the `Float` component with infinite CSS keyframe bobbing (3.5–4.5s duration, staggered delays).
+
+**Hover interactions** on FeatureCard, TestimonialCard, CardCta: `hover:shadow-[0_4px_24px_rgba(0,0,0,0.05)]` with 300ms transition.
+
+All animations respect `prefers-reduced-motion`.
+
+## Ordering Rules
+
+1. Hero is always first
+2. LogosBar immediately follows Hero
+3. FeatureFrames alternate right/left
+4. ValueProposition dark/light alternate as visual breaks between feature groups
+5. Testimonials appear after the main feature showcase
+6. FAQ and CTA are the final conversion blocks
+7. Footer is always last
+
+## Usage
+
+```tsx
+import HomePage from &quot;@/ds/compositions/HomePage&quot;;
+
+export default function Page() {
+  return &lt;HomePage /&gt;;
+}
+```
+
+The component is self-contained with all data hardcoded for the demo. In production, pass content via props or CMS.
+</code></pre>
+          </div>
+        </div>
+  </div>
+</article>
+    </div>
     
   </div>
 </main>

@@ -1,53 +1,46 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { Text } from "./Text";
 
-const meta: Meta<typeof Text> = {
+const meta = {
   title: "Primitives/Text",
   component: Text,
   argTypes: {
     size: { control: "select", options: ["sm", "md", "lg"] },
-    align: { control: "select", options: ["center", "left"] },
+    align: { control: "radio", options: ["center", "left"] },
+    maxWidth: { control: "text" },
+    children: { control: "text" },
+    className: { control: false },
   },
-};
+} satisfies Meta<typeof Text>;
 
 export default meta;
-type Story = StoryObj<typeof Text>;
+type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
     children:
       "AirSaaS helps teams deliver projects on time with real-time visibility and smart automation.",
+    size: "md",
+    align: "left",
   },
 };
 
-export const Small: Story = {
-  args: {
-    children: "Last updated 3 days ago",
-    size: "sm",
-  },
-};
-
-export const Large: Story = {
-  args: {
-    children:
-      "The all-in-one platform for project portfolio management and strategic alignment.",
-    size: "lg",
-  },
-};
-
-export const Centered: Story = {
-  args: {
-    children:
-      "Join hundreds of organizations that trust AirSaaS to manage their most critical projects.",
-    align: "center",
-  },
-};
-
-export const WithMaxWidth: Story = {
-  args: {
-    children:
-      "Our platform provides complete visibility across your entire project portfolio, enabling data-driven decisions at every level of your organization.",
-    align: "center",
-    maxWidth: "847px",
-  },
+export const AllVariants: Story = {
+  render: () => (
+    <div className="flex flex-col gap-8">
+      {(["sm", "md", "lg"] as const).map((size) =>
+        (["left", "center"] as const).map((align) => (
+          <div key={`${size}-${align}`} className="flex flex-col gap-2">
+            <span className="text-sm font-medium text-text-muted">
+              size=&quot;{size}&quot; align=&quot;{align}&quot;
+            </span>
+            <Text size={size} align={align}>
+              AirSaaS helps teams deliver projects on time with real-time
+              visibility and smart automation.
+            </Text>
+          </div>
+        ))
+      )}
+    </div>
+  ),
 };

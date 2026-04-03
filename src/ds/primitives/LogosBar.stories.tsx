@@ -13,6 +13,10 @@ const meta = {
   title: "Primitives/LogosBar",
   component: LogosBar,
   parameters: { layout: "fullscreen" },
+  argTypes: {
+    label: { control: "text" },
+    logos: { control: false },
+  },
 } satisfies Meta<typeof LogosBar>;
 
 export default meta;
@@ -24,9 +28,23 @@ export const Default: Story = {
   },
 };
 
-export const CustomLabel: Story = {
-  args: {
-    label: "Ils nous font confiance",
-    logos: sampleLogos.slice(0, 3),
-  },
+export const AllVariants: Story = {
+  render: () => (
+    <div className="flex flex-col gap-8 py-8">
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">Default label</span>
+        <LogosBar logos={sampleLogos} />
+      </div>
+
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">Custom label</span>
+        <LogosBar label="Ils nous font confiance" logos={sampleLogos.slice(0, 3)} />
+      </div>
+
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">English label</span>
+        <LogosBar label="Trusted by industry leaders" logos={sampleLogos} />
+      </div>
+    </div>
+  ),
 };
