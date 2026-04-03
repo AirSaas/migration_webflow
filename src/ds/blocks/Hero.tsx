@@ -5,7 +5,6 @@ import { Text } from "@/ds/primitives/Text";
 import { Button } from "@/ds/primitives/Button";
 import { FloatingCard } from "@/ds/primitives/FloatingCard";
 import { IllustrationFrame } from "@/ds/primitives/IllustrationFrame";
-import { EllipseBackground } from "@/ds/primitives/EllipseBackground";
 import { GradientBackground } from "@/ds/primitives/GradientBackground";
 import { Navbar } from "@/ds/primitives/Navbar";
 import { BullseyeIcon, BriefcaseIcon, CalendarIcon } from "@/ds/primitives/icons/floating-card-icons";
@@ -79,11 +78,9 @@ export function Hero({
         className
       )}
     >
-      {/* Decorative backgrounds */}
-      <EllipseBackground
-        size={1250}
-        className="absolute left-1/2 -translate-x-1/2 -top-[4.5625rem] z-0"
-      />
+      {/* Large curved arc background */}
+      <div className="absolute top-[7.5rem] right-[-12.5rem] w-[56.25rem] h-[56.25rem] rounded-full border-[5rem] border-primary-10/60 pointer-events-none z-0" aria-hidden="true" />
+      <div className="absolute top-[10rem] right-[-11.25rem] w-[51.25rem] h-[51.25rem] rounded-full border-[2.5rem] border-primary-5/40 pointer-events-none z-0" aria-hidden="true" />
       <GradientBackground
         variant="hero"
         className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full z-0"
