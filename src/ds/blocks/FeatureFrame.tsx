@@ -107,7 +107,7 @@ export function FeatureFrame({
     <section
       className={cn(
         "flex items-center gap-[3.125rem] bg-white",
-        isRight ? "pl-[14.375rem]" : "pr-[14.375rem] justify-end",
+        isRight ? "pl-[10rem]" : "pr-[10rem] justify-end",
         className
       )}
       style={{ paddingBlock: "6.25rem" }}

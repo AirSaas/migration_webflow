@@ -37,7 +37,7 @@ export function ComparisonFrame({
       {/* Content */}
       <div
         className="relative z-10 flex flex-col items-center gap-[3.125rem] overflow-clip"
-        style={{ padding: "6.25rem 14.375rem" }}
+        style={{ padding: "6.25rem 10rem" }}
       >
         {/* Text block */}
         <div className="flex flex-col items-center gap-[1.25rem] text-center">

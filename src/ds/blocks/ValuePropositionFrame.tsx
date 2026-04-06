@@ -33,7 +33,7 @@ export function ValuePropositionFrame({
         isDark ? "bg-primary-70" : "bg-white",
         className
       )}
-      style={{ padding: "6.25rem 14.375rem" }}
+      style={{ padding: "6.25rem 10rem" }}
     >
       {tag && <Tag variant="muted">{tag}</Tag>}
 

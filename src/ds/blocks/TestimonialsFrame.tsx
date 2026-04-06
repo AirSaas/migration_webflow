@@ -30,7 +30,7 @@ export function TestimonialsFrame({
         "flex flex-col items-center gap-[3.125rem] bg-primary-2",
         className
       )}
-      style={{ padding: "6.25rem 14.375rem" }}
+      style={{ padding: "6.25rem 10rem" }}
     >
       <Heading level={2} gradient="none" align="center">
         <span

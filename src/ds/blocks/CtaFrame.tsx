@@ -33,7 +33,7 @@ export function CtaFrame({
       {/* Content */}
       <div
         className="relative z-10 flex flex-col items-center gap-[3.125rem] overflow-clip"
-        style={{ padding: "6.25rem 14.375rem" }}
+        style={{ padding: "6.25rem 10rem" }}
       >
         <div className="flex flex-col items-center gap-[1.25rem] text-center">
           <Heading level={2} gradient="dark-to-primary" align="center">
