@@ -53,7 +53,7 @@ export function TestimonialsFrame({
         </span>
       </Heading>
 
-      <div className="flex gap-[1.5625rem] items-stretch justify-center w-full">
+      <div className="flex gap-[1rem] items-stretch justify-center w-full">
         {testimonials.map((t, i) => (
           <TestimonialCard
             key={i}

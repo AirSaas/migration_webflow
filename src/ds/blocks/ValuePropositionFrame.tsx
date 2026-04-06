@@ -80,7 +80,7 @@ export function ValuePropositionFrame({
       </div>
 
       {/* Grid of cards — passed as children for flexibility */}
-      <div className="flex gap-[1.5625rem] items-stretch justify-center w-full max-w-[91rem]">
+      <div className="flex gap-[1rem] items-stretch justify-center w-full max-w-[91rem]">
         {children}
       </div>
     </section>
