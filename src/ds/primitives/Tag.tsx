@@ -14,9 +14,9 @@ const variantStyles: Record<NonNullable<TagProps["variant"]>, string> = {
 };
 
 const variantPadding: Record<NonNullable<TagProps["variant"]>, React.CSSProperties> = {
-  muted: { padding: "0.1875rem 2rem 0.1875rem 2.375rem", fontSize: "1.0625rem" },
-  success: { padding: "0.125rem 1.875rem 0.125rem 0.8125rem", fontSize: "1.3125rem" },
-  warning: { padding: "0.125rem 1.875rem 0.125rem 0.8125rem", fontSize: "1.3125rem" },
+  muted: { padding: "0.1875rem 2rem 0.1875rem 2.375rem", fontSize: "1.2rem" },
+  success: { padding: "0.125rem 1.875rem 0.125rem 0.8125rem", fontSize: "1.2rem" },
+  warning: { padding: "0.125rem 1.875rem 0.125rem 0.8125rem", fontSize: "1.2rem" },
 };
 
 function CheckCircleIcon() {

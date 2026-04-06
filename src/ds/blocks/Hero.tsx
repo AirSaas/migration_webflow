@@ -108,6 +108,7 @@ export function Hero({
           )}
 
           {/* H1 — first part dark, second part gradient */}
+          <div className="w-[80%]">
           <Heading level={1} gradient="none" align="center">
             {headline}
             {headlineGradient && (
@@ -125,6 +126,7 @@ export function Hero({
               </>
             )}
           </Heading>
+          </div>
 
           <Text size="md" align="center" maxWidth="52.9375rem">
             {subtitle}
