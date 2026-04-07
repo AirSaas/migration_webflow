@@ -1,10 +1,77 @@
 @import "tailwindcss";
 
+/* Product Sans font faces */
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font Awesome 6 Pro */
+@font-face {
+  font-family: "Font Awesome 6 Duotone";
+  src: url("/fonts/Font Awesome 6 Duotone-Solid-900.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  src: url("/fonts/Font Awesome 6 Pro-Solid-900.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  src: url("/fonts/Font Awesome 6 Pro-Regular-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  src: url("/fonts/Font Awesome 6 Pro-Light-300.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   /* Brand colors */
   --color-primary: #3a51e2;
   --color-primary-70: #6b7be9;
   --color-primary-60: #8a97ee;
+  --color-primary-40: #b1b9f3;
   --color-primary-20: #d1d5f5;
   --color-primary-10: #e8eafc;
   --color-primary-5: #f3f3fc;
@@ -19,12 +86,21 @@
   /* Functional colors */
   --color-royal-blue: #475ce9;
   --color-orange: #e58d05;
+  --color-orange-bright: #ff922b;
   --color-crimson: #f11444;
   --color-sky-blue: #2db5e6;
   --color-green: #5ec045;
   --color-orchid: #b75dda;
   --color-turquoise: #0fd6de;
   --color-medium-blue: #13397a;
+  --color-primary-dark: #3547c6;
+
+  /* Success / Warning / Status */
+  --color-success-10: #e6fcf0;
+  --color-success-text: #2d8a4e;
+  --color-warning-text: #8a6d00;
+  --color-emerald: #10b981;
+  --color-text-light: #a6aab6;
 
   /* Backgrounds */
   --color-background: #ffffff;
@@ -47,7 +123,37 @@
   --radius-full: 9999px;
 
   /* Font family */
-  --font-sans: var(--font-raleway), system-ui, sans-serif;
+  --font-sans: "Product Sans", system-ui, sans-serif;
+
+  /* Typography scale */
+  --text-h1: clamp(2.5rem, 5vw, 5.9375rem);
+  --text-h2: clamp(2rem, 4vw, 4.5rem);
+  --text-h3: clamp(1.75rem, 3.5vw, 4.375rem);
+  --text-h4: clamp(1.5rem, 2.5vw, 2.5rem);
+  --text-paragraph: clamp(1.125rem, 1.5vw, 1.5625rem);
+  --text-small: 1rem;
+
+  /* Gradients */
+  --gradient-dark-to-primary: linear-gradient(36deg, var(--color-foreground) 20%, var(--color-primary) 124%);
+  --gradient-primary: linear-gradient(55deg, var(--color-primary) 20%, var(--color-primary-dark) 124%);
+  --color-prevention-40: #fcd977;
+  --gradient-orange: linear-gradient(90deg, var(--color-orange-bright) 27.9%, #ffbe80 100%);
+  --gradient-hero-bg: linear-gradient(187deg, var(--color-background) 22%, var(--color-orange-bright) 62%, var(--color-primary-60) 88%);
+  --gradient-cta-bg: linear-gradient(187deg, var(--color-background) 42%, var(--color-orange-bright) 62%, var(--color-primary-60) 88%);
+}
+
+/* Floating decorative animations */
+@keyframes float-y-1 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes float-y-2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+@keyframes float-y-3 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
 }
 
 /* Scroll animations */

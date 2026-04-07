@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import HomePage from "@/ds/compositions/HomePage";
 
-export default function RootPage() {
-  redirect("/fr");
+export default function Page() {
+  return <HomePage />;
 }

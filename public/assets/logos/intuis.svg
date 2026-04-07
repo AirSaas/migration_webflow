@@ -1,0 +1,5 @@
+<svg width="70" height="40" viewBox="0 0 70 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="35" cy="20" r="18" stroke="#888" stroke-width="4" fill="none"/>
+  <circle cx="35" cy="20" r="12" stroke="#bbb" stroke-width="3" fill="none"/>
+  <text x="17" y="25" font-family="sans-serif" font-weight="400" font-size="13" fill="#333">intuis</text>
+</svg>

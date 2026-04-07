@@ -1,8 +1,9 @@
-import createMiddleware from "next-intl/middleware";
-import { routing } from "./i18n/routing";
+import { NextResponse } from "next/server";
 
-export default createMiddleware(routing);
+export function middleware() {
+  return NextResponse.next();
+}
 
 export const config = {
-  matcher: ["/", "/(fr|en|es|de|pt|it)/:path*"],
+  matcher: [],
 };

@@ -1,0 +1,5 @@
+<svg width="130" height="40" viewBox="0 0 130 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M65 4 C60 12, 55 12, 50 8 C55 16, 60 18, 65 14 C70 18, 75 16, 80 8 C75 12, 70 12, 65 4Z" fill="#555"/>
+  <line x1="40" y1="22" x2="90" y2="22" stroke="#888" stroke-width="1.5"/>
+  <text x="15" y="36" font-family="serif" font-weight="400" font-size="16" fill="#1a1a2e" letter-spacing="5">VALRHONA</text>
+</svg>
