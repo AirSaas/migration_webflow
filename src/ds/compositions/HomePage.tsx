@@ -47,7 +47,7 @@ const footerColumns = [
   { title: "Entreprise", links: [{ label: "Pourquoi AirSaas ?" }, { label: "Cookies" }, { label: "Conditions d'utilisation" }, { label: "Mentions légales" }, { label: "Charte de confidentialité" }, { label: "Kit média" }, { label: "API AirSaas" }, { label: "Plan du site" }] },
   { title: "Ressources", links: [{ label: "Les Pro. de la Transfo." }, { label: "Le blog d'AirSaas" }, { label: "La conduite de projet" }, { label: "Portfolio project Management" }, { label: "Témoignages clients" }] },
   { title: "Solutions", links: [{ label: "Management de portefeuille projet" }, { label: "Flash report automatisé" }, { label: "Outil PPM" }, { label: "Outil de pilotage projet" }, { label: "Plan stratégique" }, { label: "Portfolio management" }, { label: "Revue de portefeuille" }, { label: "Tableau de bord DSI" }] },
-  { title: "Le Quarter Plan & les cadres méthodologiques", links: [{ label: "AirSaas, le Quarter Plan et l'effectuation" }, { label: "Alternative à Sciforma" }, { label: "Alternative à Planview Portfolio" }] },
+  { title: "Le Quarter Plan & les cadres méthodologiques", links: [{ label: "AirSaas, le Quarter Plan et l'effectuation" }], sections: [{ title: "Alternative à", links: [{ label: "Sciforma" }, { label: "Planview Portfolio" }] }] },
 ];
 
 const faqItems = [

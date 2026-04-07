@@ -1,9 +1,15 @@
 import { cn } from "@/ds/utils";
 import { FloatingCard } from "@/ds/primitives/FloatingCard";
 
-interface FooterColumn {
+interface FooterSection {
   title: string;
   links: Array<{ label: string; href?: string }>;
+}
+
+interface FooterColumn {
+  title: string;
+  links?: Array<{ label: string; href?: string }>;
+  sections?: FooterSection[];
 }
 
 interface FooterProps {
@@ -54,20 +60,40 @@ export function Footer({
           {columns.map((col, i) => (
             <div key={i} className="flex flex-col">
               <span
-                className="font-bold text-primary"
-                style={{ fontSize: "1.5625rem", lineHeight: "1.2", marginBottom: "0.5rem" }}
+                className="font-bold text-primary text-[1.2rem] md:text-[1.5625rem]"
+                style={{ lineHeight: "1.2", marginBottom: "0.5rem" }}
               >
                 {col.title}
               </span>
-              {col.links.map((link, j) => (
+              {col.links?.map((link, j) => (
                 <a
                   key={j}
                   href={link.href ?? "#"}
-                  className="font-light text-foreground transition-colors hover:text-primary"
-                  style={{ fontSize: "1.125rem", lineHeight: "2.04" }}
+                  className="font-light text-foreground transition-colors hover:text-primary text-[0.9rem] md:text-[1.125rem]"
+                  style={{ lineHeight: "2.04" }}
                 >
                   {link.label}
                 </a>
+              ))}
+              {col.sections?.map((section, s) => (
+                <div key={s} className="flex flex-col" style={{ marginTop: "1rem" }}>
+                  <span
+                    className="font-bold text-primary text-[1.1rem] md:text-[1.35rem]"
+                    style={{ lineHeight: "1.2", marginBottom: "0.5rem" }}
+                  >
+                    {section.title}
+                  </span>
+                  {section.links.map((link, j) => (
+                    <a
+                      key={j}
+                      href={link.href ?? "#"}
+                      className="font-light text-foreground transition-colors hover:text-primary text-[0.9rem] md:text-[1.125rem]"
+                      style={{ lineHeight: "2.04" }}
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
               ))}
             </div>
           ))}

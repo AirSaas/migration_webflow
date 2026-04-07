@@ -57,8 +57,15 @@ export const Default: Story = {
         title: "Le Quarter Plan & les cadres méthodologiques",
         links: [
           { label: "AirSaas, le Quarter Plan et l'effectuation" },
-          { label: "Alternative à Sciforma" },
-          { label: "Alternative à Planview Portfolio" },
+        ],
+        sections: [
+          {
+            title: "Alternative à",
+            links: [
+              { label: "Sciforma" },
+              { label: "Planview Portfolio" },
+            ],
+          },
         ],
       },
     ],
