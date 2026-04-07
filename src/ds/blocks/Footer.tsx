@@ -42,7 +42,7 @@ export function Footer({
       className={cn("bg-white px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[4rem] lg:px-[8.125rem] lg:py-[6.25rem]", className)}
     >
       <div
-        className="relative rounded-[1.25rem] md:rounded-[1.5625rem] bg-primary-2 px-[1.5rem] py-[2.5rem] md:px-[3rem] md:py-[3rem] lg:px-[10.625rem] lg:py-[3.375rem] overflow-visible"
+        className="relative rounded-[1.25rem] md:rounded-[1.5625rem] bg-primary-2 px-[1.35rem] py-[2.5rem] md:px-[2.7rem] md:py-[3rem] lg:px-[9.5625rem] lg:py-[3.375rem] overflow-visible"
       >
         {/* Logo floating card — top left */}
         <div
@@ -60,7 +60,7 @@ export function Footer({
           {columns.map((col, i) => (
             <div key={i} className="flex flex-col">
               <span
-                className="font-bold text-primary text-[1.2rem] md:text-[1.5625rem]"
+                className="font-bold text-primary text-[1.02rem] md:text-[1.33rem]"
                 style={{ lineHeight: "1.2", marginBottom: "0.5rem" }}
               >
                 {col.title}
@@ -69,7 +69,7 @@ export function Footer({
                 <a
                   key={j}
                   href={link.href ?? "#"}
-                  className="font-light text-foreground transition-colors hover:text-primary text-[0.9rem] md:text-[1.125rem]"
+                  className="font-light text-foreground transition-colors hover:text-primary text-[0.765rem] md:text-[0.956rem]"
                   style={{ lineHeight: "2.04" }}
                 >
                   {link.label}
@@ -78,7 +78,7 @@ export function Footer({
               {col.sections?.map((section, s) => (
                 <div key={s} className="flex flex-col" style={{ marginTop: "1rem" }}>
                   <span
-                    className="font-bold text-primary text-[1.1rem] md:text-[1.35rem]"
+                    className="font-bold text-primary text-[0.935rem] md:text-[1.148rem]"
                     style={{ lineHeight: "1.2", marginBottom: "0.5rem" }}
                   >
                     {section.title}
@@ -87,7 +87,7 @@ export function Footer({
                     <a
                       key={j}
                       href={link.href ?? "#"}
-                      className="font-light text-foreground transition-colors hover:text-primary text-[0.9rem] md:text-[1.125rem]"
+                      className="font-light text-foreground transition-colors hover:text-primary text-[0.765rem] md:text-[0.956rem]"
                       style={{ lineHeight: "2.04" }}
                     >
                       {link.label}
@@ -107,7 +107,7 @@ export function Footer({
                 <span style={{ fontSize: "1.25rem" }}>🇫🇷</span>
               </div>
               <span
-                className="text-foreground whitespace-normal text-[0.8rem] md:text-[1rem] leading-[1.3]"
+                className="text-foreground whitespace-normal text-[0.68rem] md:text-[0.85rem] leading-[1.3]"
               >
                 {copyright}
               </span>
