@@ -11,8 +11,9 @@ Migration of [airsaas.io](https://www.airsaas.io) from Webflow to **Next.js 15**
 | Language | TypeScript 5 |
 | CMS | Strapi 5 (REST API, Dynamic Zones) |
 | i18n | next-intl — 7 locales: `fr` (default), `en`, `es`, `de`, `pt`, `it` |
+| Component dev | Storybook |
 | Images | next/image (optimized) |
-| Fonts | next/font/google |
+| Fonts | Product Sans, Font Awesome 6 (local, `public/fonts/`) |
 | Deployment | Vercel |
 
 ## Project Structure
@@ -20,88 +21,114 @@ Migration of [airsaas.io](https://www.airsaas.io) from Webflow to **Next.js 15**
 ```
 ├── src/
 │   ├── app/                          ← Next.js App Router (pages & layouts)
-│   │   └── [locale]/                 ← Dynamic locale segment
-│   │       ├── (main)/               ← Main site (navbar + footer)
-│   │       │   ├── page.tsx          ← Homepage
-│   │       │   ├── solution/[slug]/  ← 12 solution pages
-│   │       │   ├── produit/[slug]/   ← 6 product pages
-│   │       │   ├── equipes/[slug]/   ← 4 team pages
-│   │       │   └── compare/[slug]/   ← 3 comparison pages
-│   │       └── (lp)/                 ← Landing pages (minimal layout)
-│   │           └── lp/[slug]/        ← 4 landing pages
+│   │   ├── layout.tsx                ← Root layout
+│   │   ├── page.tsx                  ← Homepage (assembles ds/compositions)
+│   │   └── globals.css               ← Tailwind theme & global styles
+│   │
+│   ├── ds/                           ← 🎨 DESIGN SYSTEM (active)
+│   │   ├── primitives/               ← Base components (Button, Heading, Text, Tag, Navbar…)
+│   │   ├── blocks/                   ← Assembled sections (Hero, Footer, CtaFrame, FaqFrame…)
+│   │   ├── compositions/             ← Full page compositions (HomePage…)
+│   │   ├── foundation/               ← Design tokens stories (Colors, Typography)
+│   │   └── utils.ts                  ← DS utility functions
 │   │
 │   ├── components/
-│   │   ├── library-design/           ← 🎨 NEW COMPONENTS GO HERE
-│   │   │   ├── ui/                   ← Base components (buttons, cards, inputs…)
-│   │   │   ├── sections/             ← Assembled sections (hero, features, CTA…)
-│   │   │   └── README.md             ← Contribution guide & conventions
-│   │   │
-│   │   └── _legacy/                  ← Old components (DO NOT USE — reference only)
-│   │       ├── ui/                   ← Old Button, Container, FadeIn
-│   │       ├── sections/             ← Old 23 sections
-│   │       ├── layout/               ← Old Navbar, Footer
-│   │       └── ...
+│   │   └── _legacy/                  ← Old components (reference only — DO NOT USE)
 │   │
 │   ├── data/                         ← Hardcoded page data (will be replaced by Strapi)
 │   ├── lib/
 │   │   ├── utils.ts                  ← cn() utility (clsx + tailwind-merge)
-│   │   ├── fonts.ts                  ← Font configuration (Raleway + Fraunces)
+│   │   ├── fonts.ts                  ← Font configuration
 │   │   ├── strapi.ts                 ← Strapi API client
 │   │   └── metadata.ts              ← SEO helpers
-│   └── i18n/                         ← next-intl routing config
+│   └── i18n/                         ← next-intl routing config (backed up in _backup/)
 │
+├── _backup/                          ← Backup of i18n routing (pre-redesign)
 ├── messages/                         ← i18n translations (fr.json, en.json…)
-├── public/assets/                    ← Static images from Webflow
+├── public/
+│   ├── assets/                       ← Static images from Webflow
+│   └── fonts/                        ← Product Sans + Font Awesome 6
 ├── backend/                          ← Strapi 5 instance
 ├── docs/                             ← Project documentation
-│   ├── sections-catalog.md           ← Inventory of all pages & sections
-│   ├── decisions.md                  ← Architectural decisions log
-│   ├── _legacy-design-system.md      ← Old design system (reference only)
-│   └── ...
-├── tailwind.config.ts                ← Tailwind theme — TO BE REBUILT
+├── .storybook/                       ← Storybook configuration
 └── package.json
 ```
 
-## Current Status
+## Design System — `src/ds/`
 
-### Pages Built (with legacy components)
+The design system is organized in 3 layers:
 
-| Page type | Count | Route | Status |
-|-----------|-------|-------|--------|
-| Homepage | 1 | `/[locale]` | Done |
-| Solution pages | 12 | `/[locale]/solution/[slug]` | Done |
-| Product pages | 6 | `/[locale]/produit/[slug]` | Done |
-| Team pages | 4 | `/[locale]/equipes/[slug]` | Done |
-| Comparison pages | 3 | `/[locale]/compare/[slug]` | Done |
-| Landing pages | 4 | `/[locale]/lp/[slug]` | Done |
+### Primitives (`ds/primitives/`)
+Atomic building blocks — the smallest reusable components.
 
-All pages currently use **legacy components** from `_legacy/`. These will be progressively replaced by new components from `library-design/`.
+| Component | Description |
+|-----------|-------------|
+| `Button` | CTA buttons with variants |
+| `Heading` | Typography headings |
+| `Text` | Body text |
+| `Tag` | Labels & badges |
+| `Navbar` | Navigation bar |
+| `LogosBar` | Client logos strip |
+| `FeatureCard` | Feature highlight card |
+| `TestimonialCard` | Customer testimonial |
+| `FloatingCard` | Animated floating card |
+| `CardCta` | CTA card |
+| `ListCard` | List-based card |
+| `ListInline` | Horizontal list |
+| `IconIllustration` | Icon + illustration |
+| `IllustrationFrame` | Illustration container |
+| `AnimateOnScroll` | Scroll-triggered animation |
+| `EllipseBackground` | Decorative ellipse |
+| `GradientBackground` | Gradient backdrop |
 
-### What's Left
+### Blocks (`ds/blocks/`)
+Page sections that compose primitives into complete, reusable blocks.
 
-- CMS content types + Strapi migration (14 content types)
-- Event pages (CEO Dinner, Bootcamp)
-- Utility pages
-- 301 redirects (~1,730 URLs)
-- SEO, i18n finalization
+| Block | Description |
+|-------|-------------|
+| `Hero` | Hero section with CTA |
+| `Footer` | Site footer |
+| `FeatureFrame` | Feature showcase section |
+| `CtaFrame` | Call-to-action section |
+| `FaqFrame` | FAQ accordion section |
+| `ComparisonFrame` | Comparison layout |
+| `TestimonialsFrame` | Testimonials section |
+| `ValuePropositionFrame` | Value proposition section |
 
-## Contributing Components — `library-design/`
+### Compositions (`ds/compositions/`)
+Full page assemblies that combine blocks into complete pages.
 
-**Read `src/components/library-design/README.md`** for the full contribution guide.
+| Composition | Description |
+|-------------|-------------|
+| `HomePage` | Complete homepage layout |
 
-### Quick Summary
+## Storybook
 
-1. **UI components** go in `library-design/ui/` — atomic building blocks
-2. **Sections** go in `library-design/sections/` — assembled blocks that compose UI components into page-ready sections (hero, feature rows, CTAs, testimonials…)
-3. **All components must use typed props** — no hardcoded content. Content will come from Strapi later.
-4. **You own the design** — rebuild the Tailwind theme with your own colors, fonts, spacing
+Every component has a `.stories.tsx` file for isolated development and visual QA.
 
-### Props Pattern
+```bash
+# Start Storybook
+npm run storybook
+# → http://localhost:6006
 
-Every component receives its content through props, making it CMS-ready:
+# Build static Storybook (output in storybook-static/, gitignored)
+npm run build-storybook
+```
+
+## How Content Works
+
+### Strapi 5 (CMS)
+
+All visible page content will come from Strapi via REST API. Strapi uses **Dynamic Zones** — each page is a list of section blocks, and each block maps to a React component from `src/ds/blocks/`.
+
+```
+Strapi Dynamic Zone → API response → Page → ds/blocks/ components
+```
+
+**Components must use typed props** — no hardcoded content. Content will come from Strapi:
 
 ```tsx
-interface HeroSplitProps {
+interface HeroProps {
   badge?: string
   title: string
   description: string
@@ -110,51 +137,30 @@ interface HeroSplitProps {
   image: { src: string; alt: string }
 }
 
-export function HeroSplit({ badge, title, description, ctaLabel, ctaHref, image }: HeroSplitProps) {
+export function Hero({ badge, title, description, ctaLabel, ctaHref, image }: HeroProps) {
   // render UI — no hardcoded text
 }
 ```
-
-### Tailwind Config
-
-The current `tailwind.config.ts` contains the old AirSaaS brand tokens. **Rebuild it** with your own design tokens (colors, fonts, spacing, border-radius, shadows, etc.). The config uses Tailwind CSS 4 with inline `@theme`.
-
-### Available Utilities
-
-| Import | From | Purpose |
-|--------|------|---------|
-| `cn()` | `@/lib/utils` | Merge Tailwind classes (clsx + tailwind-merge) |
-| `Image` | `next/image` | Optimized image component |
-| `Link` | `next/link` | Client-side navigation |
-
-## How Content Works
-
-### Strapi 5 (CMS)
-
-All visible page content will come from Strapi via REST API. Strapi uses **Dynamic Zones** — each page is a list of section blocks, and each block maps to a React section component.
-
-```
-Strapi Dynamic Zone → API response → Page component → Section components (your library-design/sections/)
-```
-
-Your sections just need to accept the right props. We handle the Strapi fetching and data mapping separately.
 
 ### next-intl (i18n)
 
 The site supports 7 locales. Content translations are handled by Strapi (per-locale API responses). Only layout micro-text (nav labels, button labels, footer text) uses next-intl JSON files in `messages/`.
 
-Your components don't need to worry about i18n — just render whatever string props you receive.
+Components don't need to worry about i18n — just render whatever string props they receive.
 
 ### Routing
 
-- Pages live in `src/app/[locale]/` — the `[locale]` segment is handled automatically
-- Main site pages use the `(main)` route group (full navbar + footer)
-- Landing pages use the `(lp)` route group (minimal navbar + footer)
-- Dynamic pages use `[slug]` segments
+- Pages live in `src/app/` — locale routing will be re-integrated later
+- The i18n routing setup is backed up in `_backup/` for when we wire it back
+- Dynamic pages will use `[slug]` segments
 
-## `_legacy/` — Old Components
+## Legacy Code
 
-The `_legacy/` folder contains the previous component library. It's kept for reference but **should not be used or modified**. Current pages still import from it to keep the site functional during the transition.
+| Folder | Purpose |
+|--------|---------|
+| `src/components/_legacy/` | Old component library — reference only, do not use |
+| `_backup/` | Old i18n routing files — will be re-integrated later |
+| `docs/_legacy-design-system.md` | Old design system docs |
 
 ## Getting Started
 
@@ -164,7 +170,11 @@ npm install
 
 # Start dev server
 npm run dev
-# → http://localhost:3000/fr
+# → http://localhost:3000
+
+# Start Storybook (component development)
+npm run storybook
+# → http://localhost:6006
 
 # Start Strapi (separate terminal)
 cd backend && npm run develop
@@ -176,6 +186,6 @@ cd backend && npm run develop
 | File | Content |
 |------|---------|
 | `docs/sections-catalog.md` | Full inventory of all pages and their sections |
-| `docs/decisions.md` | Architectural decisions log (41 entries) |
-| `docs/_legacy-design-system.md` | Old design system reference (fonts, colors, buttons) |
+| `docs/decisions.md` | Architectural decisions log |
+| `docs/_legacy-design-system.md` | Old design system reference |
 | `CLAUDE.md` | AI assistant project rules |

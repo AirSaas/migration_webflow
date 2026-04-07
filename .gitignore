@@ -68,5 +68,8 @@ next-env.d.ts
 # migration data (extracted from Webflow, large JSON files)
 scripts/migrate/data/
 
+# storybook build output
+/storybook-static/
+
 # conductor
 .context/
