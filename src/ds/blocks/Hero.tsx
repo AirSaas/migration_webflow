@@ -179,7 +179,7 @@ export function Hero({
       <Float variant={2} duration={4.5} delay={0.5} className="absolute z-20 left-[2%] top-[38.875rem] hidden xl:block">
         <FloatingCard icon={<BriefcaseIcon />} />
       </Float>
-      <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[2%] top-[55rem] hidden xl:block">
+      <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[7%] top-[55rem] hidden xl:block">
         <FloatingCard icon={<CalendarIcon />} />
       </Float>
     </section>
