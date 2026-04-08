@@ -16,6 +16,8 @@ interface FeatureSectionStackedProps {
   /** Illustration/screenshot image source */
   imageSrc?: string;
   imageAlt?: string;
+  /** Background variant */
+  variant?: "default" | "primary2";
   className?: string;
 }
 
@@ -27,12 +29,14 @@ export function FeatureSectionStacked({
   listItems,
   imageSrc,
   imageAlt = "",
+  variant = "default",
   className,
 }: FeatureSectionStackedProps) {
   return (
     <section
       className={cn(
         "flex flex-col items-center w-full",
+        variant === "primary2" && "bg-primary-2",
         className,
       )}
       style={{

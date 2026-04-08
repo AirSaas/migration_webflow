@@ -1,7 +1,6 @@
 "use client";
 
 import { Hero } from "@/ds/blocks/Hero";
-import { LogosBar } from "@/ds/primitives/LogosBar";
 import { ValuePropositionFrame } from "@/ds/blocks/ValuePropositionFrame";
 import { FeatureFrame } from "@/ds/blocks/FeatureFrame";
 import { FeatureSectionStacked } from "@/ds/blocks/FeatureSectionStacked";
@@ -171,13 +170,6 @@ const navItems = [
   { label: "Nouveautés", href: "/fr/les-nouveautes-produit" },
   { label: "Le Quarter Plan", href: "/fr/quarter-plan" },
   { label: "Intégration teams", href: "/fr/microsoft-teams-airsaas" },
-];
-
-const logos = [
-  { src: "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png", alt: "Alliancy", width: 130, height: 40 },
-  { src: "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png", alt: "JDN Journal du NET", width: 120, height: 40 },
-  { src: "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png", alt: "Le Point", width: 110, height: 40 },
-  { src: "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png", alt: "Le Monde Informatique", width: 150, height: 40 },
 ];
 
 const footerColumns = [
@@ -896,12 +888,7 @@ export default function HomePage() {
         illustrationAlt="AirSaas - Portfolio project timeline view"
       />
 
-      {/* 2. Logos bar — "Ils parlent de nous" */}
-      <AnimateOnScroll animation="fade" duration={500}>
-        <LogosBar logos={logos} />
-      </AnimateOnScroll>
-
-      {/* 3. Value Proposition — "Les chiffres qui vous feront adopter AirSaas" */}
+      {/* 2. Value Proposition — "Les chiffres qui vous feront adopter AirSaas" */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ValuePropositionFrame
           variant="light"
@@ -966,6 +953,7 @@ export default function HomePage() {
       {/* 6. Feature Section Stacked — Capacity planning */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <FeatureSectionStacked
+          variant="primary2"
           titleDarkPrefix="Un"
           titleGradient="capacity planning par équipe"
           titleDark="simple et actionnable"
