@@ -764,7 +764,25 @@ export default function HomePage() {
         />
       </AnimateOnScroll>
 
-      {/* 5. Feature Section Stacked — Capacity planning */}
+      {/* 5. Feature Frame right — Agent IA Brief projet (intro) */}
+      <AnimateOnScroll animation="fade-right" duration={800}>
+        <FeatureFrame
+          imagePosition="right"
+          tag="Intelligence Artificielle"
+          titleHighlight="Agent IA"
+          title="Brief projet"
+          description='Quand une demande arrive floue ("on veut un truc"), l&apos;agent IA mène l&apos;entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.'
+          checklist={[
+            "Entretien guidé par l'IA",
+            "Brief structuré selon vos templates",
+            "Demandes comparables entre elles",
+            "Dites non plus tôt, lancez moins de projets... mais mieux",
+          ]}
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Agent+IA+Brief+Intro"
+        />
+      </AnimateOnScroll>
+
+      {/* 6. Feature Section Stacked — Capacity planning */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <FeatureSectionStacked
           titleDarkPrefix="Un"
@@ -781,7 +799,7 @@ export default function HomePage() {
         />
       </AnimateOnScroll>
 
-      {/* 6. Feature Frame right — Agent IA Brief projet */}
+      {/* 7. Feature Frame right — Agent IA Brief projet */}
       <AnimateOnScroll animation="fade-right" duration={800}>
         <FeatureFrame
           imagePosition="right"
@@ -799,7 +817,7 @@ export default function HomePage() {
         />
       </AnimateOnScroll>
 
-      {/* 7. Feature Frame left — Agent IA Découpage projet */}
+      {/* 8. Feature Frame left — Agent IA Découpage projet */}
       <AnimateOnScroll animation="fade-left" duration={800}>
         <FeatureFrame
           imagePosition="left"
@@ -818,27 +836,9 @@ export default function HomePage() {
         />
       </AnimateOnScroll>
 
-      {/* 8. Newsletter Section */}
+      {/* 9. Newsletter Section */}
       <AnimateOnScroll animation="fade-right" duration={800}>
         <NewsletterSection />
-      </AnimateOnScroll>
-
-      {/* 9. Feature Frame right — Agent IA Brief projet (variant) */}
-      <AnimateOnScroll animation="fade-right" duration={800}>
-        <FeatureFrame
-          imagePosition="right"
-          tag="Intelligence Artificielle"
-          titleHighlight="Agent IA"
-          title="Brief projet"
-          description='Quand une demande arrive floue ("on veut un truc"), l&apos;agent IA mène l&apos;entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.'
-          checklist={[
-            "Entretien guidé par l'IA",
-            "Brief structuré selon vos templates",
-            "Demandes comparables entre elles",
-            "Dites non plus tôt, lancez moins de projets... mais mieux",
-          ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Agent+IA+Scoring"
-        />
       </AnimateOnScroll>
 
       {/* 10. Feature Frame left — Agent IA Découpage projet (variant) */}
@@ -860,27 +860,45 @@ export default function HomePage() {
         />
       </AnimateOnScroll>
 
-      {/* 11. CTA Gradient — "Et si vous repreniez le contrôle..." */}
+      {/* 11. Feature Frame right — Agent IA Brief projet (variant) */}
+      <AnimateOnScroll animation="fade-right" duration={800}>
+        <FeatureFrame
+          imagePosition="right"
+          tag="Intelligence Artificielle"
+          titleHighlight="Agent IA"
+          title="Brief projet"
+          description='Quand une demande arrive floue ("on veut un truc"), l&apos;agent IA mène l&apos;entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.'
+          checklist={[
+            "Entretien guidé par l'IA",
+            "Brief structuré selon vos templates",
+            "Demandes comparables entre elles",
+            "Dites non plus tôt, lancez moins de projets... mais mieux",
+          ]}
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Agent+IA+Scoring"
+        />
+      </AnimateOnScroll>
+
+      {/* 12. CTA Gradient — "Et si vous repreniez le contrôle..." */}
       <AnimateOnScroll animation="scale-up" duration={800}>
         <CtaGradientSection />
       </AnimateOnScroll>
 
-      {/* 12. Marketplace + Slider */}
+      {/* 13. Marketplace + Slider */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <MarketplaceSliderSection />
       </AnimateOnScroll>
 
-      {/* 13. Comparison Dual — "Nos clients ne peuvent plus imaginer..." */}
+      {/* 14. Comparison Dual — "Nos clients ne peuvent plus imaginer..." */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ComparisonDualSection />
       </AnimateOnScroll>
 
-      {/* 14. Testimonials — "Ils parlent de nous" */}
+      {/* 15. Testimonials — "Ils parlent de nous" */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <TestimonialsFullSection />
       </AnimateOnScroll>
 
-      {/* 15. Footer */}
+      {/* 16. Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
         <Footer columns={footerColumns} />
       </AnimateOnScroll>
