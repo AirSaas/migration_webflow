@@ -22,6 +22,7 @@ export const Default: Story = {
       "Depuis qu'on utilise AirSaas, nos comités de pilotage sont enfin productifs. On a une vue claire sur tous nos projets stratégiques.",
     name: "Sophie Lefèvre",
     role: "DSI @Kiabi",
+    linkedinHref: "https://linkedin.com/in/sophie-lefevre",
   },
 };
 

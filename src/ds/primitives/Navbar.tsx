@@ -1,13 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { cn } from "@/ds/utils";
 import { Button } from "@/ds/primitives/Button";
+import { NavbarDropdown, type NavbarDropdownItem } from "@/ds/primitives/NavbarDropdown";
 
-interface NavItem {
+export interface NavItem {
   label: string;
   href?: string;
   hasDropdown?: boolean;
+  /** Dropdown items — rendered when hasDropdown is true */
+  dropdownItems?: NavbarDropdownItem[];
 }
 
 interface NavbarProps {
@@ -88,9 +91,23 @@ export function Navbar({
   className,
 }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const navRef = useRef<HTMLElement>(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setOpenDropdown(null);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <nav
+      ref={navRef}
       aria-label="Main navigation"
       className={cn(
         "relative flex w-full max-w-[115rem] h-[4rem] md:h-[5rem] lg:h-[6.375rem] items-center justify-between",
@@ -108,19 +125,40 @@ export function Navbar({
       {/* Desktop nav items */}
       <ul className="hidden items-center gap-[1.5rem] xl:flex" role="menubar">
         {items.map((item) => (
-          <li key={item.label} role="none">
+          <li key={item.label} role="none" className="relative">
             {item.hasDropdown ? (
-              <button
-                type="button"
-                role="menuitem"
-                aria-haspopup="true"
-                aria-expanded={false}
-                className="inline-flex items-center gap-[0.375rem] font-normal text-foreground transition-colors duration-150 hover:text-primary whitespace-nowrap"
-                style={{ fontSize: "0.875rem" }}
-              >
-                {item.label}
-                <ChevronDown className="mt-px" />
-              </button>
+              <>
+                <button
+                  type="button"
+                  role="menuitem"
+                  aria-haspopup="true"
+                  aria-expanded={openDropdown === item.label}
+                  className={cn(
+                    "inline-flex items-center gap-[0.375rem] font-normal transition-colors duration-150 whitespace-nowrap",
+                    openDropdown === item.label ? "text-primary" : "text-foreground hover:text-primary",
+                  )}
+                  style={{ fontSize: "0.875rem" }}
+                  onClick={() =>
+                    setOpenDropdown((prev) =>
+                      prev === item.label ? null : item.label
+                    )
+                  }
+                >
+                  {item.label}
+                  <ChevronDown
+                    className={cn(
+                      "mt-px transition-transform duration-200",
+                      openDropdown === item.label && "rotate-180",
+                    )}
+                  />
+                </button>
+                {/* Dropdown panel */}
+                {openDropdown === item.label && item.dropdownItems && (
+                  <div className="absolute left-0 top-full pt-[0.75rem] z-50">
+                    <NavbarDropdown items={item.dropdownItems} />
+                  </div>
+                )}
+              </>
             ) : (
               <a
                 href={item.href ?? "#"}
@@ -177,17 +215,37 @@ export function Navbar({
             {items.map((item) => (
               <li key={item.label} role="none">
                 {item.hasDropdown ? (
-                  <button
-                    type="button"
-                    role="menuitem"
-                    aria-haspopup="true"
-                    aria-expanded={false}
-                    className="inline-flex w-full items-center gap-[0.375rem] font-normal text-foreground transition-colors duration-150 hover:text-primary"
-                    style={{ fontSize: "0.875rem" }}
-                  >
-                    {item.label}
-                    <ChevronDown />
-                  </button>
+                  <>
+                    <button
+                      type="button"
+                      role="menuitem"
+                      aria-haspopup="true"
+                      aria-expanded={openDropdown === item.label}
+                      className={cn(
+                        "inline-flex w-full items-center gap-[0.375rem] font-normal transition-colors duration-150",
+                        openDropdown === item.label ? "text-primary" : "text-foreground hover:text-primary",
+                      )}
+                      style={{ fontSize: "0.875rem" }}
+                      onClick={() =>
+                        setOpenDropdown((prev) =>
+                          prev === item.label ? null : item.label
+                        )
+                      }
+                    >
+                      {item.label}
+                      <ChevronDown
+                        className={cn(
+                          "transition-transform duration-200",
+                          openDropdown === item.label && "rotate-180",
+                        )}
+                      />
+                    </button>
+                    {openDropdown === item.label && item.dropdownItems && (
+                      <div className="mt-[0.5rem]">
+                        <NavbarDropdown items={item.dropdownItems} />
+                      </div>
+                    )}
+                  </>
                 ) : (
                   <a
                     href={item.href ?? "#"}
