@@ -388,17 +388,29 @@ function CtaGradientSection() {
           </span>
         </h2>
 
-        <p
-          className="font-light text-foreground max-w-[73.75rem]"
-          style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
+        {/* White card wrapping subtitle + CTA */}
+        <div
+          className="flex flex-col items-center gap-[1.25rem] bg-white"
+          style={{
+            borderRadius: "1.5625rem",
+            padding: "clamp(1.5rem, 2.5vw, 2.5rem) clamp(2rem, 5vw, 5rem)",
+            maxWidth: "53rem",
+            width: "100%",
+            boxShadow: "0px 4px 50px 0px rgba(0,0,0,0.07)",
+          }}
         >
-          Adoptez dès maintenant une solution de gestion de gouvernance moderne,
-          qui fait gagner vos projets en temps et en efficacité.
-        </p>
+          <p
+            className="font-light text-foreground text-center"
+            style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
+          >
+            Adoptez dès maintenant une solution de gestion de gouvernance
+            moderne, qui fait gagner vos projets en temps et en efficacité.
+          </p>
 
-        <Button variant="primary" size="md" href="#">
-          Réservez une démo
-        </Button>
+          <Button variant="primary" size="md" href="#">
+            Réservez une démo
+          </Button>
+        </div>
       </div>
 
       {/* Floating cards */}
