@@ -1,4 +1,4 @@
-import HomePage from "@/ds/compositions/HomePage";
+import HomePage from "@/components/pages/HomePage";
 
 export default function Page() {
   return <HomePage />;

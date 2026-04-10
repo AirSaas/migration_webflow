@@ -7,6 +7,13 @@
       "env": { "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin" },
       "runtimeArgs": ["storybook", "dev", "-p", "6006"],
       "port": 6006
+    },
+    {
+      "name": "next-dev",
+      "runtimeExecutable": "/opt/homebrew/bin/node",
+      "env": { "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin" },
+      "runtimeArgs": ["node_modules/.bin/next", "dev"],
+      "port": 3000
     }
   ]
 }
