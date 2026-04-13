@@ -458,6 +458,7 @@ function CapacityPlanningPage() {
           titleHighlight="Notre parti pris"
           title=""
           subtitle='"Approximativement juste plutôt que précisément faux"'
+          columns={3}
         >
           <FeatureCard
             icon={<Icon><BullseyeArrowIcon /></Icon>}
