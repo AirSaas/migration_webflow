@@ -361,34 +361,35 @@ export default function PmoToolPage() {
         />
       </AnimateOnScroll>
 
-      {/* 11. Une newsletter sponsor que votre direction va adorer (3 cards) */}
-      <AnimateOnScroll animation="fade-up" duration={700}>
-        <ValuePropositionFrame
-          variant="light"
+      {/* 11. Une newsletter sponsor — FeatureFrame Rich, image left */}
+      <AnimateOnScroll animation="fade-left" duration={800}>
+        <FeatureFrame
+          imagePosition="left"
           titleHighlight="Une newsletter sponsor"
           title="que votre direction va adorer"
-          subtitle='Recevez l&apos;email « Bilan de santé » tous les lundi matin !'
-          columns={3}
-        >
-          <FeatureCard
-            icon={<Icon><CalendarStarIcon /></Icon>}
-            title="Tendance des projets vitaux"
-            description='Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de « sentir » la tendance du moment.'
-            className="flex-1"
-          />
-          <FeatureCard
-            icon={<Icon><BullseyeArrowIcon /></Icon>}
-            title="Tendance de leurs projets à eux"
-            description="Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet."
-            className="flex-1"
-          />
-          <FeatureCard
-            icon={<Icon><StopwatchIcon /></Icon>}
-            title="Projets en retard d'actualisation"
-            description="Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquille !"
-            className="flex-1"
-          />
-        </ValuePropositionFrame>
+          richContent={
+            <>
+              <h5>← Tendance des projets vitaux</h5>
+              <p>
+                Un récapitulatif de la santé des projets vitaux de votre
+                organisation pour leur permettre de « sentir » la tendance du
+                moment.
+              </p>
+              <h5>← Tendance de leurs projets à eux</h5>
+              <p>
+                Un aperçu de leurs projets, ceux en amélioration et ceux en
+                dégradation qui nécessitent leur attention. En un clic, ils
+                peuvent accéder à la fiche projet.
+              </p>
+              <h5>← Projets en retard d&apos;actualisation</h5>
+              <p>
+                Un rappel des projets qui méritent d&apos;être mis à jour. Si cette
+                section est vide, vous êtes tranquille !
+              </p>
+            </>
+          }
+          imageSrc="https://placehold.co/1125x731/e8eafc/3a51e2?text=Newsletter+Sponsor"
+        />
       </AnimateOnScroll>
 
       {/* 12. Feature — Votre reporting projet en un clic */}

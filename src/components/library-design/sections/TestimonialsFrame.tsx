@@ -14,7 +14,10 @@ interface TestimonialsFrameProps {
   title: string;
   /** Primary gradient part of the title */
   titleHighlight: string;
-  testimonials: Testimonial[];
+  /** Simple mode: array of personal testimonials rendered as TestimonialCard grid */
+  testimonials?: Testimonial[];
+  /** Flexible mode: pass any combination of card grids as children (overrides testimonials) */
+  children?: React.ReactNode;
   className?: string;
 }
 
@@ -22,6 +25,7 @@ export function TestimonialsFrame({
   title,
   titleHighlight,
   testimonials,
+  children,
   className,
 }: TestimonialsFrameProps) {
   return (
@@ -52,18 +56,20 @@ export function TestimonialsFrame({
         </span>
       </Heading>
 
-      <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
-        {testimonials.map((t, i) => (
-          <TestimonialCard
-            key={i}
-            quote={t.quote}
-            name={t.name}
-            role={t.role}
-            avatarSrc={t.avatarSrc}
-            className="flex-1"
-          />
-        ))}
-      </div>
+      {children ?? (
+        <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+          {testimonials?.map((t, i) => (
+            <TestimonialCard
+              key={i}
+              quote={t.quote}
+              name={t.name}
+              role={t.role}
+              avatarSrc={t.avatarSrc}
+              className="flex-1"
+            />
+          ))}
+        </div>
+      )}
     </section>
   );
 }

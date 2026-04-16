@@ -4,6 +4,7 @@ import { Hero } from "@/components/library-design/sections/Hero";
 import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
+import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
@@ -406,113 +407,7 @@ const sliderSlides = [
   },
 ];
 
-/* ─── Inline Section: Newsletter ─── */
-
-function NewsletterSection() {
-  return (
-    <section
-      className="flex flex-col gap-[2rem] bg-white lg:flex-row lg:items-center lg:gap-[3.125rem]"
-      style={{
-        paddingLeft: "clamp(1.25rem, 12vw, 14.375rem)",
-        paddingRight: "0",
-        paddingTop: "clamp(3rem, 5.2vw, 6.25rem)",
-        paddingBottom: "clamp(3rem, 5.2vw, 6.25rem)",
-      }}
-    >
-      {/* Text content */}
-      <div className="flex flex-1 flex-col gap-[1.25rem] items-start min-w-0">
-        <h2
-          className="font-black leading-tight"
-          style={{ fontSize: "var(--text-h2)" }}
-        >
-          <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage: "var(--gradient-primary)",
-              WebkitBackgroundClip: "text",
-            }}
-          >
-            Une newsletter sponsor
-          </span>
-          <br />
-          <span className="text-foreground">
-            que votre direction va adorer
-          </span>
-        </h2>
-
-        {/* Subtitle + paragraph blocks */}
-        <div className="flex flex-col gap-[1.25rem] w-full">
-          <div className="flex flex-col gap-[0.3125rem]">
-            <p
-              className="font-bold text-foreground"
-              style={{ fontSize: "clamp(1.25rem, 1.8vw, 2.125rem)", lineHeight: "1.4" }}
-            >
-              Tendance des projets vitaux
-            </p>
-            <p
-              className="font-light text-foreground"
-              style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
-            >
-              Un récapitulatif de la santé des projets vitaux de votre
-              organisation pour leur permettre de &ldquo;sentir&rdquo; la
-              tendance du moment.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-[0.3125rem]">
-            <p
-              className="font-bold text-foreground"
-              style={{ fontSize: "clamp(1.25rem, 1.8vw, 2.125rem)", lineHeight: "1.4" }}
-            >
-              Tendance de leurs projets à eux
-            </p>
-            <p
-              className="font-light text-foreground"
-              style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
-            >
-              Un aperçu de leurs projets, ceux en amélioration et ceux en
-              dégradation qui nécessitent leur attention. En un clic, ils peuvent
-              accéder à la fiche projet.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-[0.3125rem]">
-            <p
-              className="font-bold text-foreground"
-              style={{ fontSize: "clamp(1.25rem, 1.8vw, 2.125rem)", lineHeight: "1.4" }}
-            >
-              Projets en retard d&apos;actualisation
-            </p>
-            <p
-              className="font-light text-foreground"
-              style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
-            >
-              Un rappel des projets qui méritent d&apos;être mis à jour. Si
-              cette section est vide, vous êtes tranquilles !
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Illustration */}
-      <div
-        className="shrink-0 overflow-hidden lg:w-[67.5rem] lg:max-w-[60%]"
-        style={{
-          backgroundColor: "var(--color-primary-5, #f3f3fc)",
-          borderRadius: "2.1875rem",
-          padding: "2.5rem 0 2.5rem 2.5rem",
-        }}
-      >
-        <img
-          src="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png"
-          alt="Control tower email - Newsletter sponsor pour la direction"
-          className="w-full h-auto rounded-[0.625rem] object-cover"
-          loading="lazy"
-        />
-      </div>
-    </section>
-  );
-}
+/* NewsletterSection — replaced by FeatureFrame Rich inline (section 9) */
 
 /* ─── Inline Section: CTA with gradient ─── */
 
@@ -805,67 +700,7 @@ function ComparisonDualSection() {
   );
 }
 
-/* ─── Inline Section: Testimonials "Ils parlent de nous" ─── */
-
-function TestimonialsFullSection() {
-  return (
-    <section
-      className="flex flex-col items-center w-full"
-      style={{
-        backgroundColor: "var(--color-primary-2, #F8F9FF)",
-        gap: "3.125rem",
-        paddingLeft: "clamp(1.25rem, 12vw, 14.375rem)",
-        paddingRight: "clamp(1.25rem, 12vw, 14.375rem)",
-        paddingTop: "clamp(3rem, 5.2vw, 6.25rem)",
-        paddingBottom: "clamp(3rem, 5.2vw, 6.25rem)",
-      }}
-    >
-      {/* Title */}
-      <h2
-        className="font-black leading-tight text-center"
-        style={{ fontSize: "var(--text-h2)" }}
-      >
-        <span className="text-foreground">Ils parlent de </span>
-        <span
-          className="bg-clip-text text-transparent"
-          style={{
-            backgroundImage: "var(--gradient-primary)",
-            WebkitBackgroundClip: "text",
-          }}
-        >
-          nous
-        </span>
-      </h2>
-
-      {/* Row 1: TestimonialCompanyCards */}
-      <div className="grid grid-cols-1 gap-[1.5625rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
-        {companyTestimonials.map((t, i) => (
-          <TestimonialCompanyCard
-            key={i}
-            quote={t.quote}
-            logoSrc={t.logoSrc}
-            logoAlt={t.logoAlt}
-            className="flex-1 !w-auto"
-          />
-        ))}
-      </div>
-
-      {/* Row 2: TestimonialCards */}
-      <div className="grid grid-cols-1 gap-[1.5625rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
-        {testimonials.map((t, i) => (
-          <TestimonialCard
-            key={i}
-            quote={t.quote}
-            name={t.name}
-            role={t.role}
-            linkedinHref={t.linkedinHref}
-            className="flex-1"
-          />
-        ))}
-      </div>
-    </section>
-  );
-}
+/* TestimonialsFullSection — replaced by TestimonialsFrame with children (section 15) */
 
 /* ─── Main Composition ─── */
 
@@ -990,9 +825,36 @@ export default function HomePage() {
         />
       </AnimateOnScroll>
 
-      {/* 9. Newsletter Section */}
+      {/* 9. Newsletter Section — FeatureFrame Rich, image right */}
       <AnimateOnScroll animation="fade-right" duration={800}>
-        <NewsletterSection />
+        <FeatureFrame
+          imagePosition="right"
+          titleHighlight="Une newsletter sponsor"
+          title="que votre direction va adorer"
+          richContent={
+            <>
+              <h5>→ Tendance des projets vitaux</h5>
+              <p>
+                Un récapitulatif de la santé des projets vitaux de votre
+                organisation pour leur permettre de &ldquo;sentir&rdquo; la
+                tendance du moment.
+              </p>
+              <h5>→ Tendance de leurs projets à eux</h5>
+              <p>
+                Un aperçu de leurs projets, ceux en amélioration et ceux en
+                dégradation qui nécessitent leur attention. En un clic, ils
+                peuvent accéder à la fiche projet.
+              </p>
+              <h5>→ Projets en retard d&apos;actualisation</h5>
+              <p>
+                Un rappel des projets qui méritent d&apos;être mis à jour. Si
+                cette section est vide, vous êtes tranquilles !
+              </p>
+            </>
+          }
+          imageSrc="/assets/screenshots/newsletter-sponsor-composite.png"
+          imageAlt="Control tower email - Newsletter sponsor pour la direction"
+        />
       </AnimateOnScroll>
 
       {/* 10. Feature Frame left — Reporting projet */}
@@ -1034,7 +896,37 @@ export default function HomePage() {
 
       {/* 15. Testimonials — "Ils parlent de nous" */}
       <AnimateOnScroll animation="fade-up" duration={700}>
-        <TestimonialsFullSection />
+        <TestimonialsFrame
+          title="Ils parlent de"
+          titleHighlight="nous"
+        >
+          {/* Row 1: Press / Company testimonials */}
+          <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+            {companyTestimonials.map((t, i) => (
+              <TestimonialCompanyCard
+                key={i}
+                quote={t.quote}
+                logoSrc={t.logoSrc}
+                logoAlt={t.logoAlt}
+                className="flex-1 !w-auto"
+              />
+            ))}
+          </div>
+
+          {/* Row 2: Personal testimonials */}
+          <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+            {testimonials.map((t, i) => (
+              <TestimonialCard
+                key={i}
+                quote={t.quote}
+                name={t.name}
+                role={t.role}
+                linkedinHref={t.linkedinHref}
+                className="flex-1"
+              />
+            ))}
+          </div>
+        </TestimonialsFrame>
       </AnimateOnScroll>
 
       {/* 16. Footer */}
