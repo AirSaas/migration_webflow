@@ -896,7 +896,7 @@ export default function HomePage() {
           titleHighlight="Partagez"
           title="simplement les roadmaps à toute l'organisation"
           description="Une roadmap, ça bouge, ça vit, c'est un élément clé pour aligner le top management en continu. Avec AirSaas, plus besoin de faire des PowerPoints à rallonge : l'information est centralisée, partageable et sympa à visualiser (parce que quand c'est beau, c'est quand même plus impactant)."
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp"
+          imageSrc="/assets/screenshots/1_timeline.webp"
         />
       </AnimateOnScroll>
 
@@ -913,7 +913,7 @@ export default function HomePage() {
             "Quels sont les jalons qui nous plombent ? Peut-on les découper ?",
             "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?",
           ]}
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp"
+          imageSrc="/assets/screenshots/2_capacity.webp"
           imageAlt="Vue capacity planning par équipe"
         />
       </AnimateOnScroll>
@@ -925,7 +925,7 @@ export default function HomePage() {
           titleHighlight="Chaque directeur définit"
           title="ses prios"
           description="Demandez aux directeurs de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix. C'est simple, transparent et puissant."
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp"
+          imageSrc="/assets/screenshots/3_prioritization.webp"
         />
       </AnimateOnScroll>
 
@@ -936,7 +936,7 @@ export default function HomePage() {
           titleHighlight="Diffusez"
           title="un cadrage projet standardisé"
           description="Remplissez les fiches cadrage de projet de manière collaborative, et guidez vos collaborateurs vers un véritable niveau d'excellence en gestion de projet. À vous une culture projet homogénéisée !"
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp"
+          imageSrc="/assets/screenshots/4_scope.webp"
         />
       </AnimateOnScroll>
 
@@ -979,7 +979,7 @@ export default function HomePage() {
           titleHighlight="Votre reporting projet"
           title="en un clic"
           description="Générez votre reporting flash en un seul clic, et homogénéisez vos présentations, pour faciliter la prise de décision. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance."
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp"
+          imageSrc="/assets/screenshots/5_flash_report.webp"
         />
       </AnimateOnScroll>
 
@@ -990,7 +990,7 @@ export default function HomePage() {
           titleHighlight="Fluidifiez"
           title="votre prise de décisions importantes et urgentes"
           description="Centralisez vos décisions sous forme de Kanban, et partagez-les aisément avec toutes les parties prenantes de vos projets. Finies les informations perdues dans vos mails ou flux de discussions instantanées !"
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp"
+          imageSrc="/assets/screenshots/6_decisions.webp"
         />
       </AnimateOnScroll>
 
@@ -1090,7 +1090,7 @@ export default function HomePage() {
           }
           ctaLabel="Voir le replay"
           ctaHref="#"
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65cb473140ab42c1871d2d0a_Call%20to%20action%20-%20Intuis-Asana%20event.png"
+          imageSrc="/assets/screenshots/7_intuis.png"
           imageAlt="Replay Intuis x Asana - Comment combiner AirSaas et Asana"
         />
       </AnimateOnScroll>

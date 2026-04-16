@@ -75,7 +75,7 @@ export function Slider({ slides, className }: SliderProps) {
 
       {/* Illustration frame */}
       <div
-        className="w-full overflow-clip relative"
+        className="w-full relative"
         style={{
           backgroundColor: "var(--color-primary-5, #f3f3fc)",
           borderTopLeftRadius: "2.1875rem",
@@ -83,16 +83,25 @@ export function Slider({ slides, className }: SliderProps) {
           padding: "2.5rem 2.5rem 0",
         }}
       >
-        <img
-          src={slides[current].imageSrc}
-          alt={slides[current].imageAlt ?? ""}
-          className="w-full object-cover object-top"
-          style={{
-            borderTopLeftRadius: "0.625rem",
-            borderTopRightRadius: "0.625rem",
-          }}
-          loading="lazy"
-        />
+        <div className="overflow-hidden" style={{ borderTopLeftRadius: "0.625rem", borderTopRightRadius: "0.625rem" }}>
+          <div
+            className="flex"
+            style={{
+              transform: `translateX(-${current * 100}%)`,
+              transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+            }}
+          >
+            {slides.map((slide, i) => (
+              <img
+                key={i}
+                src={slide.imageSrc}
+                alt={slide.imageAlt ?? ""}
+                className="w-full shrink-0 object-cover object-top"
+                loading="lazy"
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
