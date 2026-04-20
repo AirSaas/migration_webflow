@@ -598,7 +598,7 @@ function CapacityPlanningPage() {
 /* ------------------------------------------------------------------ */
 
 const meta = {
-  title: "Pages/CapacityPlanningPage",
+  title: "Pages/Products/CapacityPlanningPage",
   component: CapacityPlanningPage,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof CapacityPlanningPage>;
