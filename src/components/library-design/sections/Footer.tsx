@@ -48,7 +48,7 @@ export function Footer({
         <div
           className="absolute -top-[1.875rem] left-[1rem] md:-left-[1.5rem] lg:-left-[3.125rem] bg-white rounded-[1.25rem] p-[1rem_1.5rem]"
           style={{
-            boxShadow: "0px 8px 40px 0px rgba(58, 81, 226, 0.08), 0px 2px 12px 0px rgba(0, 0, 0, 0.04)",
+            boxShadow: "var(--shadow-elevation-lg)",
           }}
           aria-hidden="true"
         >

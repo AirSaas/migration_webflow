@@ -10,6 +10,21 @@ Spec complète : `.context/attachments/SPEC_Migration_v4.0_FINAL.md`
 - **Stack** : Next.js 15, Tailwind, Strapi 5, next-intl (7 locales)
 - **Webflow Site ID** : `609552290d93fd43ba0f0849`
 
+## DS Strict Mode
+
+**AVANT** de modifier ou créer un composant / une page : **LIRE [docs/ds-rules.md](docs/ds-rules.md)**. 5 golden rules, decision tree, forbidden patterns, extension process.
+
+Règles absolues :
+- **Product Sans only** — pas d'autre font family, pas de Google Fonts
+- **Zéro hex / rgba hardcoded** — tous les couleurs passent par les tokens (palette alignée Figma)
+- **Zéro Tailwind palette par défaut** — pas de `bg-gray-*`, `text-slate-*`, etc.
+- **Zéro arbitrary Tailwind value** — pas de `bg-[#...]`, `text-[14px]`, etc.
+- **Zéro `<h1-h6>` / `<p>` typo brut** — toujours `<Heading>` / `<Text>` / `<SectionHeading>`
+- **Zéro cercle concentrique décoratif** — ni dans les images (cropper avec `scripts/crop-illustrations.py`), ni en DOM
+- **Pas de style={{}} pour des valeurs tokenisées** — spacing, colors, shadows, radius, typo → classes Tailwind ou CSS vars uniquement
+
+Si le DS ne couvre pas un besoin : **suivre le "Extension process" de docs/ds-rules.md** (propose → approve → implement in DS with contract + story). Ne jamais contourner.
+
 ## Règles projet
 
 - Toujours lire `docs/design-system.md` et `docs/sections-catalog.md` AVANT de coder un composant.

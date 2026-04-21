@@ -167,6 +167,15 @@
   --gradient-hero-bg: linear-gradient(187deg, var(--color-background) 22%, var(--color-orange-bright) 62%, var(--color-primary-60) 88%);
   --gradient-hero-dark-bg: linear-gradient(187deg, var(--color-primary-70) 4%, var(--color-orange-bright) 100%);
   --gradient-cta-bg: linear-gradient(187deg, var(--color-background) 42%, var(--color-orange-bright) 62%, var(--color-primary-60) 88%);
+
+  /* Alpha variants (decorative overlays, soft rings) */
+  --color-primary-70-alpha-6: rgba(107, 123, 233, 0.06);
+  --color-white-alpha-6: rgba(255, 255, 255, 0.06);
+
+  /* Shadows — elevation scale (primary-tinted for floating UI) */
+  --shadow-elevation-sm: 0px 2px 12px 0px rgba(0, 0, 0, 0.04);
+  --shadow-elevation-md: 0px 4px 20px 0px rgba(58, 81, 226, 0.06);
+  --shadow-elevation-lg: 0px 8px 40px 0px rgba(58, 81, 226, 0.08), 0px 2px 12px 0px rgba(0, 0, 0, 0.04);
 }
 
 /* Floating decorative animations */

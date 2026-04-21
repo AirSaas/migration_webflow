@@ -115,8 +115,8 @@ export function Hero({
           transform: "translateY(-50%)",
           borderRadius: "50%",
           border: isDark
-            ? "9.6875rem solid rgba(255,255,255,0.06)"
-            : "9.6875rem solid rgba(107,123,233,0.06)",
+            ? "9.6875rem solid var(--color-white-alpha-6)"
+            : "9.6875rem solid var(--color-primary-70-alpha-6)",
         }}
       />
       <GradientBackground

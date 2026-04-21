@@ -20,7 +20,7 @@ function TypoSample({
         {children}
       </div>
       <span className="text-xs text-text-muted font-mono mt-1">
-        Raleway {weight} — {size}
+        Product Sans {weight} — {size}
         {lineHeight ? ` / line-height: ${lineHeight}` : ""}
       </span>
     </div>
@@ -37,16 +37,16 @@ function TypographyPage() {
         <h2 className="text-lg font-bold text-foreground">Font Weights</h2>
         <div className="flex flex-col gap-3">
           <p style={{ fontWeight: 300 }} className="text-xl">
-            Raleway Light (300) — Used for body text and paragraphs
+            Product Sans Light (300) — Used for body text and paragraphs
           </p>
           <p style={{ fontWeight: 400 }} className="text-xl">
-            Raleway Regular (400) — Used for links and UI text
+            Product Sans Regular (400) — Used for links and UI text
           </p>
           <p style={{ fontWeight: 700 }} className="text-xl">
-            Raleway Bold (700) — Used for H4 headings and emphasis
+            Product Sans Bold (700) — Used for H4 headings and emphasis
           </p>
           <p style={{ fontWeight: 800 }} className="text-xl">
-            Raleway ExtraBold (800) — Used for H1, H2, H3 headings
+            Product Sans ExtraBold (800) — Used for H1, H2, H3 headings
           </p>
         </div>
       </div>
