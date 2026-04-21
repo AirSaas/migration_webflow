@@ -19,8 +19,12 @@ interface FeatureFrameProps {
   tag?: string;
   /** Gradient-colored part of the title */
   titleHighlight?: string;
-  /** Regular-colored part of the title */
-  title: string;
+  /** Regular-colored part of the title — string or inline JSX */
+  title: React.ReactNode;
+  /** Swap the order so the highlight renders AFTER the title
+   *  (e.g. "Vos chefs de projets et PO vont adorer" where "vont adorer"
+   *  is the emphasized tail). Default: false (highlight first). */
+  titleHighlightAtEnd?: boolean;
   /** Simple description paragraph. Ignored when `richContent` is provided. */
   description?: React.ReactNode;
   /**
@@ -48,6 +52,7 @@ export function FeatureFrame({
   tag,
   titleHighlight,
   title,
+  titleHighlightAtEnd = false,
   description,
   richContent,
   checklist,
@@ -79,7 +84,7 @@ export function FeatureFrame({
       {tag && <Tag variant="muted">{tag}</Tag>}
 
       <Heading level={3} gradient="none" align={isStacked ? "center" : "left"}>
-        {titleHighlight && (
+        {titleHighlight && !titleHighlightAtEnd && (
           <span
             className="bg-clip-text text-transparent"
             style={{
@@ -90,8 +95,20 @@ export function FeatureFrame({
             {titleHighlight}
           </span>
         )}
-        {titleHighlight && " "}
+        {titleHighlight && !titleHighlightAtEnd && " "}
         {title}
+        {titleHighlight && titleHighlightAtEnd && " "}
+        {titleHighlight && titleHighlightAtEnd && (
+          <span
+            className="bg-clip-text text-transparent"
+            style={{
+              backgroundImage: "var(--gradient-primary)",
+              WebkitBackgroundClip: "text",
+            }}
+          >
+            {titleHighlight}
+          </span>
+        )}
       </Heading>
 
       {richContent ? (

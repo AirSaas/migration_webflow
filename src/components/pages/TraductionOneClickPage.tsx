@@ -6,7 +6,7 @@ import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { CardCta } from "@/components/library-design/ui/CardCta";
 import { CheckList } from "@/components/library-design/ui/CheckList";
-import { Heading } from "@/components/library-design/ui/Heading";
+import { Quote } from "@/components/library-design/ui/Quote";
 import { AnimateOnScroll } from "@/components/library-design/ui/AnimateOnScroll";
 
 /* ------------------------------------------------------------------ */
@@ -137,21 +137,24 @@ export default function TraductionOneClickPage() {
       <AnimateOnScroll animation="fade-up" duration={700}>
         <FeatureFrame
           layout="stacked"
-          titleHighlight="Vos chefs de projets et PO"
-          title="vont adorer"
+          title="Vos chefs de projets et PO"
+          titleHighlight="vont adorer"
+          titleHighlightAtEnd
           richContent={
             <>
               <p>
                 Le bon pilotage s&apos;appuie sur des cadrages précis, des
                 remontées de risques contextualisées et des soumissions
-                d&apos;arbitrages éclairés. Des contenus produits par les chefs
-                de projets et PO, avec qualité et concision.
+                d&apos;arbitrages éclairés. Quand toute l&apos;énergie mise
+                dans la construction d&apos;un reporting de qualité est
+                alourdie par le temps nécessaire à traduire et à maintenir
+                des PowerPoints, vous n&apos;aidez pas vos équipes.
               </p>
-              <p>
-                Lorsqu&apos;il faut traduire ces contenus pour un autre public,
-                l&apos;efficacité de l&apos;équipe et l&apos;engagement
-                diminuent.
-              </p>
+              <Quote>
+                La nuance et la précision sont plus simples à exprimer dans
+                son langage maternel.
+              </Quote>
+              <p>Voici comment nous le concrétisons.</p>
             </>
           }
         />
@@ -248,72 +251,7 @@ export default function TraductionOneClickPage() {
         </CtaFrame>
       </AnimateOnScroll>
 
-      {/* 9. Allez plus loin — related solutions grid (4 cards present on this page) */}
-      <AnimateOnScroll animation="fade-up" duration={700}>
-        <section className="flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.125rem] lg:px-[10rem] lg:py-[6.25rem] bg-primary-2">
-          <div className="flex flex-col items-center gap-[1rem] md:gap-[1.25rem] text-center">
-            <Heading level={2} gradient="none" align="center">
-              <span
-                className="bg-clip-text text-transparent"
-                style={{
-                  backgroundImage: "var(--gradient-dark-to-primary)",
-                  WebkitBackgroundClip: "text",
-                }}
-              >
-                Allez plus loin
-              </span>{" "}
-              <span
-                className="bg-clip-text text-transparent"
-                style={{
-                  backgroundImage: "var(--gradient-primary)",
-                  WebkitBackgroundClip: "text",
-                }}
-              >
-                avec AirSaas
-              </span>
-            </Heading>
-            <p
-              className="text-center max-w-[60rem] font-light text-foreground"
-              style={{ fontSize: "1.125rem", lineHeight: 1.5 }}
-            >
-              Découvrez d&apos;autres fonctionnalités qui s&apos;articulent parfaitement avec la traduction one-click.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 gap-[1.5rem] items-stretch w-full md:grid-cols-2">
-            <CardCta
-              title="Capacity planning : Pouvons-nous réellement faire ces projets ?"
-              description="Grâce à la vue Capacitaire, vous aurez les bases d'une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?"
-              ctaLabel="voir plus"
-              ctaHref="#"
-              className="w-full"
-            />
-            <CardCta
-              title="La priorisation des projets, par équipe en demande"
-              description="Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver. Découvrez la priorisation par équipes."
-              ctaLabel="voir plus"
-              ctaHref="#"
-              className="w-full"
-            />
-            <CardCta
-              title="Découvrez enfin le plaisir du reporting projet"
-              description="Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas…"
-              ctaLabel="voir plus"
-              ctaHref="#"
-              className="w-full"
-            />
-            <CardCta
-              title="Email « bilan de santé » : Automatisez la communication projet"
-              description="Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email « bilan de santé » qui partage juste le bon niveau d'information, automatiquement, une fois par semaine."
-              ctaLabel="voir plus"
-              ctaHref="#"
-              className="w-full"
-            />
-          </div>
-        </section>
-      </AnimateOnScroll>
-
-      {/* 10. Footer */}
+      {/* 9. Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
         <Footer columns={footerColumns} />
       </AnimateOnScroll>

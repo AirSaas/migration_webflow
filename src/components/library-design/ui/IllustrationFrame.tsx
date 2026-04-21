@@ -44,7 +44,7 @@ export function IllustrationFrame({
         {...(width ? { width } : {})}
         {...(height ? { height } : {})}
         {...(isDecorative ? { "aria-hidden": true as const } : {})}
-        className="w-full object-cover"
+        className="w-full object-cover rounded-b-none"
       />
     </div>
   );
