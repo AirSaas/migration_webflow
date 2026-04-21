@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 
 export interface HighlightItem {
   /** Number or short value shown as the big gradient token next to the card */
@@ -40,22 +41,12 @@ export function HighlightFrame({
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.75rem] lg:px-[10rem] lg:py-[6.25rem]",
         className,
       )}
-      style={{ backgroundColor: "#f4fcf0" }}
+      style={{ backgroundColor: "var(--color-success-10)" }}
     >
       {/* Title block */}
       <div className="flex flex-col items-center gap-[1rem] md:gap-[1.25rem] text-center">
         <Heading level={2} gradient="none" align="center">
-          {titleHighlight && (
-            <span
-              className="bg-clip-text text-transparent"
-              style={{
-                backgroundImage: "linear-gradient(90deg, #03e26b 0%, #94d5c1 100%)",
-                WebkitBackgroundClip: "text",
-              }}
-            >
-              {titleHighlight}
-            </span>
-          )}
+          {titleHighlight && <GradientText gradient="green">{titleHighlight}</GradientText>}
           {titleHighlight && " "}
           {title}
         </Heading>
@@ -93,33 +84,25 @@ function HighlightRow({
       style={{ flexDirection: reversed ? "row-reverse" : "row" }}
     >
       {/* Big number */}
-      <span
-        className="shrink-0 font-bold bg-clip-text text-transparent text-center"
-        style={{
-          fontSize: "5.5rem",
-          lineHeight: 1,
-          minWidth: "5rem",
-          backgroundImage: "linear-gradient(90deg, #03e26b 0%, #94d5c1 100%)",
-          WebkitBackgroundClip: "text",
-        }}
+      <GradientText
+        gradient="green"
+        className="shrink-0 font-bold text-center"
       >
-        {item.value}
-      </span>
+        <span
+          style={{ fontSize: "5.5rem", lineHeight: 1, minWidth: "5rem", display: "inline-block" }}
+        >
+          {item.value}
+        </span>
+      </GradientText>
 
       {/* Card */}
       <article
-        className="flex-1 rounded-[1.25rem] md:rounded-[1.5rem] bg-white"
-        style={{
-          border: "1px solid #b8e5a8",
-          padding: "1.5rem 1.75rem",
-        }}
+        className="flex-1 rounded-[1.25rem] md:rounded-[1.5rem] bg-white border border-success-20"
+        style={{ padding: "1.5rem 1.75rem" }}
       >
-        <p
-          className="font-bold text-foreground"
-          style={{ fontSize: "1.25rem", lineHeight: 1.4 }}
-        >
+        <Text size="md" align="left" className="font-bold">
           {item.description}
-        </p>
+        </Text>
       </article>
     </div>
   );

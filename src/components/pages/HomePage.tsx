@@ -691,8 +691,8 @@ function ComparisonDualSection() {
           <div
             className="flex items-center gap-[0.5rem] px-[1.875rem] py-[0.125rem] rounded-[1.5625rem] self-start w-fit"
             style={{
-              backgroundColor: "var(--color-primary-5, #F3F3FC)",
-              color: "var(--color-primary, #3C51E2)",
+              backgroundColor: "var(--color-primary-5)",
+              color: "var(--color-primary)",
             }}
           >
             <span className="font-normal" style={{ fontSize: "1.6875rem" }}>

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Heading } from "@/components/library-design/ui/Heading";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 
 interface FaqItem {
   question: string;
@@ -107,24 +108,8 @@ export function FaqFrame({
       )}
     >
       <Heading level={2} gradient="none" align="center">
-        <span
-          className="bg-clip-text text-transparent"
-          style={{
-            backgroundImage: "var(--gradient-dark-to-primary)",
-            WebkitBackgroundClip: "text",
-          }}
-        >
-          {title}
-        </span>{" "}
-        <span
-          className="bg-clip-text text-transparent"
-          style={{
-            backgroundImage: "var(--gradient-primary)",
-            WebkitBackgroundClip: "text",
-          }}
-        >
-          {titleHighlight}
-        </span>
+        <GradientText gradient="dark-to-primary">{title}</GradientText>{" "}
+        <GradientText gradient="primary">{titleHighlight}</GradientText>
       </Heading>
 
       <div className="flex flex-col gap-[0.9375rem] w-full">

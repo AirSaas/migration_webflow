@@ -9,6 +9,7 @@ import { GradientBackground } from "@/components/library-design/ui/GradientBackg
 import { Navbar } from "@/components/library-design/ui/Navbar";
 import { BullseyeIcon, BriefcaseIcon, CalendarIcon } from "@/components/library-design/ui/icons/floating-card-icons";
 import { Float } from "@/components/library-design/ui/Float";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 
 interface HeroButton {
   label: string;
@@ -179,15 +180,7 @@ export function Hero({
                     {isDark ? (
                       headlineGradient
                     ) : (
-                      <span
-                        className="bg-clip-text text-transparent"
-                        style={{
-                          backgroundImage: "var(--gradient-primary)",
-                          WebkitBackgroundClip: "text",
-                        }}
-                      >
-                        {headlineGradient}
-                      </span>
+                      <GradientText gradient="primary">{headlineGradient}</GradientText>
                     )}
                   </>
                 )}
@@ -271,15 +264,7 @@ export function Hero({
                     {isDark ? (
                       headlineGradient
                     ) : (
-                      <span
-                        className="bg-clip-text text-transparent"
-                        style={{
-                          backgroundImage: "var(--gradient-primary)",
-                          WebkitBackgroundClip: "text",
-                        }}
-                      >
-                        {headlineGradient}
-                      </span>
+                      <GradientText gradient="primary">{headlineGradient}</GradientText>
                     )}
                   </>
                 )}

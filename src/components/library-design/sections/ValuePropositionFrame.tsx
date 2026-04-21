@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Tag } from "@/components/library-design/ui/Tag";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 
 interface ValuePropositionFrameProps {
   variant?: "light" | "dark";
@@ -47,27 +48,9 @@ export function ValuePropositionFrame({
           </Heading>
         ) : (
           <Heading level={2} gradient="none" align="center">
-            {titleHighlight && (
-              <span
-                className="bg-clip-text text-transparent"
-                style={{
-                  backgroundImage: "var(--gradient-primary)",
-                  WebkitBackgroundClip: "text",
-                }}
-              >
-                {titleHighlight}
-              </span>
-            )}
+            {titleHighlight && <GradientText gradient="primary">{titleHighlight}</GradientText>}
             {titleHighlight && " "}
-            <span
-              className="bg-clip-text text-transparent"
-              style={{
-                backgroundImage: "var(--gradient-dark-to-primary)",
-                WebkitBackgroundClip: "text",
-              }}
-            >
-              {title}
-            </span>
+            <GradientText gradient="dark-to-primary">{title}</GradientText>
           </Heading>
         )}
 

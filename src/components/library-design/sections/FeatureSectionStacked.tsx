@@ -77,7 +77,7 @@ export function FeatureSectionStacked({
         <div
           className="w-full overflow-clip"
           style={{
-            backgroundColor: "var(--color-primary-5, #f3f3fc)",
+            backgroundColor: "var(--color-primary-5)",
             borderTopLeftRadius: "2.1875rem",
             borderTopRightRadius: "2.1875rem",
             padding: "2.5rem 2.5rem 0",

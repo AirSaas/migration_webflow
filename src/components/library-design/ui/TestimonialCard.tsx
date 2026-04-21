@@ -1,4 +1,22 @@
 import { cn } from "@/lib/utils";
+import { Text } from "./Text";
+
+/**
+ * TestimonialCard
+ *
+ * @purpose    Display a short customer testimonial: quote + pill with name/role/avatar,
+ *             optional LinkedIn link.
+ * @useWhen    Inside `<TestimonialsFrame>` to render individual testimonials.
+ * @dontUse    For a company-level endorsement with a big logo — use `<TestimonialCompanyCard>`.
+ *
+ * @limits
+ *   - quote: max 220 chars (keeps card height reasonable)
+ *   - name: max 30 chars (pill gets elliptical past that)
+ *   - role: max 45 chars
+ *
+ * @forbidden
+ *   - Do NOT pass className with typography overrides
+ */
 
 function LinkedInIcon() {
   return (
@@ -25,14 +43,14 @@ function LinkedInIcon() {
 
 /** Badge colors from Figma DS palette */
 const BADGE_COLORS = [
-  "var(--color-success, #03e26b)",
-  "var(--color-primary, #3c51e2)",
-  "var(--color-secondary, #061333)",
-  "var(--color-orange, #ff922b)",
-  "var(--color-warning, #ff0a55)",
-  "var(--color-terracotta, #d9480f)",
-  "var(--color-primary-70, #6b7be9)",
-  "var(--color-secondary-70, #50596f)",
+  "var(--color-success)",
+  "var(--color-primary)",
+  "var(--color-secondary)",
+  "var(--color-orange)",
+  "var(--color-warning)",
+  "var(--color-terracotta)",
+  "var(--color-primary-70)",
+  "var(--color-secondary-70)",
 ];
 
 /** Deterministic color from name so it stays stable across renders */
@@ -79,12 +97,7 @@ export function TestimonialCard({
       style={{ padding: "1.5rem", minHeight: "auto", rowGap: "0.8rem" }}
     >
       {/* Quote */}
-      <p
-        className="font-light text-foreground"
-        style={{ fontSize: "1.15rem", lineHeight: "1.45" }}
-      >
-        {quote}
-      </p>
+      <Text size="md" align="left">{quote}</Text>
 
       {/* User info */}
       <div className="flex flex-col gap-[0.43rem]">

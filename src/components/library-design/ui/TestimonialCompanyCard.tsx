@@ -23,7 +23,7 @@ function QuoteIcon() {
     >
       <path
         d="M0 48.476V29.086C0 20.66 1.94 14.08 5.82 9.346C9.7 4.612 15.32 1.34 22.68 0.53L24.42 6.786C20.34 7.796 17.1 9.776 14.7 12.726C12.3 15.676 11.1 19.166 11.1 23.196H27.38V48.476H0ZM40.62 48.476V29.086C40.62 20.66 42.56 14.08 46.44 9.346C50.32 4.612 55.94 1.34 63.3 0.53L65.04 6.786C60.96 7.796 57.72 9.776 55.32 12.726C52.92 15.676 51.72 19.166 51.72 23.196H68V48.476H40.62Z"
-        fill="var(--color-primary-20, #D1D5F5)"
+        fill="var(--color-primary-20)"
       />
     </svg>
   );
@@ -44,10 +44,10 @@ export function TestimonialCompanyCard({
         className,
       )}
       style={{
-        borderTop: "1px solid var(--color-primary-20, #D1D5F5)",
-        borderLeft: "1px solid var(--color-primary-20, #D1D5F5)",
-        borderBottom: "5px solid var(--color-primary-20, #D1D5F5)",
-        borderRight: "5px solid var(--color-primary-20, #D1D5F5)",
+        borderTop: "1px solid var(--color-primary-20)",
+        borderLeft: "1px solid var(--color-primary-20)",
+        borderBottom: "5px solid var(--color-primary-20)",
+        borderRight: "5px solid var(--color-primary-20)",
         padding: "1.25rem 1.5rem 1.25rem 1.5rem",
         width: "29.375rem",
         minHeight: "auto",

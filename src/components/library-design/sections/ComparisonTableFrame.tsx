@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 import {
   CircleCheckIcon,
   CircleXmarkIcon,
@@ -78,17 +79,7 @@ export function ComparisonTableFrame({
         <div className="flex flex-col items-center gap-[1rem] md:gap-[1.25rem] text-center">
           {(titleHighlight || title) && (
             <Heading level={2} gradient="none" align="center">
-              {titleHighlight && (
-                <span
-                  className="bg-clip-text text-transparent"
-                  style={{
-                    backgroundImage: "var(--gradient-primary)",
-                    WebkitBackgroundClip: "text",
-                  }}
-                >
-                  {titleHighlight}
-                </span>
-              )}
+              {titleHighlight && <GradientText gradient="primary">{titleHighlight}</GradientText>}
               {titleHighlight && title && " "}
               {title}
             </Heading>

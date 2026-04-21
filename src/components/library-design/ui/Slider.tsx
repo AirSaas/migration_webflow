@@ -51,7 +51,7 @@ export function Slider({ slides, className }: SliderProps) {
           onClick={prev}
           className="flex items-center justify-center rounded-full transition-opacity hover:opacity-80"
           style={{
-            backgroundColor: "var(--color-primary, #3c51e2)",
+            backgroundColor: "var(--color-primary)",
             width: "2.71rem",
             height: "2.71rem",
           }}
@@ -64,7 +64,7 @@ export function Slider({ slides, className }: SliderProps) {
           onClick={next}
           className="flex items-center justify-center rounded-full transition-opacity hover:opacity-80"
           style={{
-            backgroundColor: "var(--color-primary, #3c51e2)",
+            backgroundColor: "var(--color-primary)",
             width: "2.71rem",
             height: "2.71rem",
           }}
@@ -77,7 +77,7 @@ export function Slider({ slides, className }: SliderProps) {
       <div
         className="w-full relative"
         style={{
-          backgroundColor: "var(--color-primary-5, #f3f3fc)",
+          backgroundColor: "var(--color-primary-5)",
           borderTopLeftRadius: "2.1875rem",
           borderTopRightRadius: "2.1875rem",
           padding: "2.5rem 2.5rem 0",

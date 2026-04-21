@@ -4,6 +4,7 @@ import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { Button } from "@/components/library-design/ui/Button";
 import { ListInline } from "@/components/library-design/ui/ListInline";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 
 interface FeatureFrameProps {
   /** Layout — "inline" (default, text + image side by side) or "stacked" (text centered on top, image below) */
@@ -89,29 +90,13 @@ export function FeatureFrame({
 
       <Heading level={3} gradient="none" align={isStacked ? "center" : "left"}>
         {titleHighlight && !titleHighlightAtEnd && (
-          <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage: "var(--gradient-primary)",
-              WebkitBackgroundClip: "text",
-            }}
-          >
-            {titleHighlight}
-          </span>
+          <GradientText gradient="primary">{titleHighlight}</GradientText>
         )}
         {titleHighlight && !titleHighlightAtEnd && " "}
         {title}
         {titleHighlight && titleHighlightAtEnd && " "}
         {titleHighlight && titleHighlightAtEnd && (
-          <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage: "var(--gradient-primary)",
-              WebkitBackgroundClip: "text",
-            }}
-          >
-            {titleHighlight}
-          </span>
+          <GradientText gradient="primary">{titleHighlight}</GradientText>
         )}
       </Heading>
 

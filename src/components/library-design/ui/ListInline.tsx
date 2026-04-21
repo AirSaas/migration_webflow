@@ -10,16 +10,14 @@ function CheckCircleIcon() {
   return (
     <span
       aria-hidden="true"
-      className="shrink-0 text-center"
+      className="shrink-0 text-center bg-clip-text text-transparent"
       style={{
         fontFamily: '"Font Awesome 6 Pro"',
         fontWeight: 400,
         fontSize: "1.2rem",
         lineHeight: "1.56",
-        background: "linear-gradient(90deg, #03F875 0%, #A1FC92 100%)",
+        backgroundImage: "var(--gradient-green)",
         WebkitBackgroundClip: "text",
-        backgroundClip: "text",
-        color: "transparent",
       }}
     >
       {"\uF058"}

@@ -42,7 +42,7 @@ export function ClientCard({
         className,
       )}
       style={{
-        border: "1.2px solid var(--color-primary-10, #E8EBFE)",
+        border: "1.2px solid var(--color-primary-10)",
         width: "29.8333rem",
       }}
     >
@@ -66,7 +66,7 @@ export function ClientCard({
         <p
           className="font-bold text-center"
           style={{
-            color: "var(--color-primary, #3A50DB)",
+            color: "var(--color-primary)",
             fontSize: "1.5rem",
             lineHeight: "normal",
             marginTop: "0.261rem",
@@ -91,7 +91,7 @@ export function ClientCard({
       <div
         className="flex flex-col items-center"
         style={{
-          backgroundColor: "var(--color-primary-2, #F8F9FF)",
+          backgroundColor: "var(--color-primary-2)",
           padding: "1.045rem 1.567rem 1.567rem",
           gap: "0.522rem",
         }}
@@ -116,7 +116,7 @@ export function ClientCard({
                   style={{
                     fontSize: "0.75rem",
                     lineHeight: "normal",
-                    color: "var(--color-secondary-50, #8d94a3)",
+                    color: "var(--color-secondary-50)",
                   }}
                 >
                   {row.label}
@@ -128,7 +128,7 @@ export function ClientCard({
                       width: "0.875rem",
                       height: "0.875rem",
                       fontSize: "0.836rem",
-                      color: "var(--color-primary-70, #6B7BE9)",
+                      color: "var(--color-primary-70)",
                     }}
                   >
                     {row.icon}
@@ -138,7 +138,7 @@ export function ClientCard({
                     style={{
                       fontSize: "1rem",
                       lineHeight: "normal",
-                      color: "var(--color-foreground, #040d22)",
+                      color: "var(--color-foreground)",
                     }}
                   >
                     {row.value}
