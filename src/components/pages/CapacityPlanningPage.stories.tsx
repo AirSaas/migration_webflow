@@ -458,6 +458,7 @@ function CapacityPlanningPage() {
           titleHighlight="Notre parti pris"
           title=""
           subtitle='"Approximativement juste plutôt que précisément faux"'
+          columns={3}
         >
           <FeatureCard
             icon={<Icon><BullseyeArrowIcon /></Icon>}
@@ -597,7 +598,7 @@ function CapacityPlanningPage() {
 /* ------------------------------------------------------------------ */
 
 const meta = {
-  title: "Pages/CapacityPlanningPage",
+  title: "Pages/Products/CapacityPlanningPage",
   component: CapacityPlanningPage,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof CapacityPlanningPage>;

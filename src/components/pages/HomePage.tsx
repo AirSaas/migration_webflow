@@ -4,12 +4,14 @@ import { Hero } from "@/components/library-design/sections/Hero";
 import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
+import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import { SectionHeading } from "@/components/library-design/ui/SectionHeading";
 import { TestimonialCompanyCard } from "@/components/library-design/ui/TestimonialCompanyCard";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
+import { ClientCard } from "@/components/library-design/ui/ClientCard";
 import { Slider } from "@/components/library-design/ui/Slider";
 import { Button } from "@/components/library-design/ui/Button";
 import { GradientBackground } from "@/components/library-design/ui/GradientBackground";
@@ -238,6 +240,12 @@ const companyTestimonials = [
     logoSrc: "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
     logoAlt: "Le Point",
   },
+  {
+    quote:
+      "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+    logoSrc: "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+    logoAlt: "Le Monde Informatique",
+  },
 ];
 
 const testimonials = [
@@ -261,6 +269,72 @@ const testimonials = [
     name: "Clément Royer",
     role: "DSI @Chiesi France",
     linkedinHref: "#",
+  },
+];
+
+const customerCards = [
+  {
+    name: "Laurent Citton",
+    jobTitle: "Directeur des Systèmes d'Information Groupe",
+    companyName: "Picoty",
+    sector: "Énergie et combustibles",
+    employees: "1 300",
+  },
+  {
+    name: "Émilie Lecart",
+    jobTitle: "CIO Office",
+    companyName: "Pierre & Vacances",
+    sector: "Hôtellerie & loisirs",
+    employees: "40 000",
+  },
+  {
+    name: "Sébastien Louyot",
+    jobTitle: "Group CIO",
+    companyName: "Altavia",
+    sector: "Communication et marketing",
+    employees: "2 800",
+  },
+  {
+    name: "David Langlade",
+    jobTitle: "Conseil / DSI de transition",
+    companyName: "Dynamical",
+    sector: "Conseil",
+    employees: "2",
+  },
+  {
+    name: "Clément Royer",
+    jobTitle: "DSI - ICT MANAGER",
+    companyName: "Chiesi France",
+    sector: "Santé-Pharma",
+    employees: "6 500",
+  },
+  {
+    name: "Aurore Butrot",
+    jobTitle: "DSI Intuis (Ex Groupe Muller)",
+    companyName: "Groupe Intuis",
+    sector: "Industrie",
+    employees: "1 000",
+  },
+  {
+    name: "Stephan Boisson",
+    jobTitle: "Group Chief Digital & Information Officer",
+    companyName: "Comexposium",
+    sector: "Événementiel",
+    employees: "900",
+  },
+  {
+    name: "Sylvain Bourdette",
+    jobTitle: "DSI/CTO/Pro de la transfo",
+    companyName: "Indexia Groupe",
+    sector: "Assurance et Distribution",
+    employees: "3 000",
+  },
+  {
+    name: "Vincent Potel",
+    jobTitle: "Directeur Général de transition",
+    companyName: "Caduciel",
+    sector: "Santé - Editeur de logiciel",
+    employees: "50",
   },
 ];
 
@@ -406,113 +480,7 @@ const sliderSlides = [
   },
 ];
 
-/* ─── Inline Section: Newsletter ─── */
-
-function NewsletterSection() {
-  return (
-    <section
-      className="flex flex-col gap-[2rem] bg-white lg:flex-row lg:items-center lg:gap-[3.125rem]"
-      style={{
-        paddingLeft: "clamp(1.25rem, 12vw, 14.375rem)",
-        paddingRight: "0",
-        paddingTop: "clamp(3rem, 5.2vw, 6.25rem)",
-        paddingBottom: "clamp(3rem, 5.2vw, 6.25rem)",
-      }}
-    >
-      {/* Text content */}
-      <div className="flex flex-1 flex-col gap-[1.25rem] items-start min-w-0">
-        <h2
-          className="font-black leading-tight"
-          style={{ fontSize: "var(--text-h2)" }}
-        >
-          <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage: "var(--gradient-primary)",
-              WebkitBackgroundClip: "text",
-            }}
-          >
-            Une newsletter sponsor
-          </span>
-          <br />
-          <span className="text-foreground">
-            que votre direction va adorer
-          </span>
-        </h2>
-
-        {/* Subtitle + paragraph blocks */}
-        <div className="flex flex-col gap-[1.25rem] w-full">
-          <div className="flex flex-col gap-[0.3125rem]">
-            <p
-              className="font-bold text-foreground"
-              style={{ fontSize: "clamp(1.25rem, 1.8vw, 2.125rem)", lineHeight: "1.4" }}
-            >
-              Tendance des projets vitaux
-            </p>
-            <p
-              className="font-light text-foreground"
-              style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
-            >
-              Un récapitulatif de la santé des projets vitaux de votre
-              organisation pour leur permettre de &ldquo;sentir&rdquo; la
-              tendance du moment.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-[0.3125rem]">
-            <p
-              className="font-bold text-foreground"
-              style={{ fontSize: "clamp(1.25rem, 1.8vw, 2.125rem)", lineHeight: "1.4" }}
-            >
-              Tendance de leurs projets à eux
-            </p>
-            <p
-              className="font-light text-foreground"
-              style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
-            >
-              Un aperçu de leurs projets, ceux en amélioration et ceux en
-              dégradation qui nécessitent leur attention. En un clic, ils peuvent
-              accéder à la fiche projet.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-[0.3125rem]">
-            <p
-              className="font-bold text-foreground"
-              style={{ fontSize: "clamp(1.25rem, 1.8vw, 2.125rem)", lineHeight: "1.4" }}
-            >
-              Projets en retard d&apos;actualisation
-            </p>
-            <p
-              className="font-light text-foreground"
-              style={{ fontSize: "var(--text-paragraph)", lineHeight: "1.4" }}
-            >
-              Un rappel des projets qui méritent d&apos;être mis à jour. Si
-              cette section est vide, vous êtes tranquilles !
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Illustration */}
-      <div
-        className="shrink-0 overflow-hidden lg:w-[67.5rem] lg:max-w-[60%]"
-        style={{
-          backgroundColor: "var(--color-primary-5, #f3f3fc)",
-          borderRadius: "2.1875rem",
-          padding: "2.5rem 0 2.5rem 2.5rem",
-        }}
-      >
-        <img
-          src="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png"
-          alt="Control tower email - Newsletter sponsor pour la direction"
-          className="w-full h-auto rounded-[0.625rem] object-cover"
-          loading="lazy"
-        />
-      </div>
-    </section>
-  );
-}
+/* NewsletterSection — replaced by FeatureFrame Rich inline (section 9) */
 
 /* ─── Inline Section: CTA with gradient ─── */
 
@@ -805,67 +773,7 @@ function ComparisonDualSection() {
   );
 }
 
-/* ─── Inline Section: Testimonials "Ils parlent de nous" ─── */
-
-function TestimonialsFullSection() {
-  return (
-    <section
-      className="flex flex-col items-center w-full"
-      style={{
-        backgroundColor: "var(--color-primary-2, #F8F9FF)",
-        gap: "3.125rem",
-        paddingLeft: "clamp(1.25rem, 12vw, 14.375rem)",
-        paddingRight: "clamp(1.25rem, 12vw, 14.375rem)",
-        paddingTop: "clamp(3rem, 5.2vw, 6.25rem)",
-        paddingBottom: "clamp(3rem, 5.2vw, 6.25rem)",
-      }}
-    >
-      {/* Title */}
-      <h2
-        className="font-black leading-tight text-center"
-        style={{ fontSize: "var(--text-h2)" }}
-      >
-        <span className="text-foreground">Ils parlent de </span>
-        <span
-          className="bg-clip-text text-transparent"
-          style={{
-            backgroundImage: "var(--gradient-primary)",
-            WebkitBackgroundClip: "text",
-          }}
-        >
-          nous
-        </span>
-      </h2>
-
-      {/* Row 1: TestimonialCompanyCards */}
-      <div className="grid grid-cols-1 gap-[1.5625rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
-        {companyTestimonials.map((t, i) => (
-          <TestimonialCompanyCard
-            key={i}
-            quote={t.quote}
-            logoSrc={t.logoSrc}
-            logoAlt={t.logoAlt}
-            className="flex-1 !w-auto"
-          />
-        ))}
-      </div>
-
-      {/* Row 2: TestimonialCards */}
-      <div className="grid grid-cols-1 gap-[1.5625rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
-        {testimonials.map((t, i) => (
-          <TestimonialCard
-            key={i}
-            quote={t.quote}
-            name={t.name}
-            role={t.role}
-            linkedinHref={t.linkedinHref}
-            className="flex-1"
-          />
-        ))}
-      </div>
-    </section>
-  );
-}
+/* TestimonialsFullSection — replaced by TestimonialsFrame with children (section 15) */
 
 /* ─── Main Composition ─── */
 
@@ -888,7 +796,49 @@ export default function HomePage() {
         illustrationAlt="AirSaas - Quarter Plan Dashboard Q1 2025"
       />
 
-      {/* 2. Value Proposition — "Les chiffres qui vous feront adopter AirSaas" */}
+      {/* 2. Press Testimonials — "Ils parlent de nous" */}
+      <AnimateOnScroll animation="fade-up" duration={700}>
+        <TestimonialsFrame
+          title="Ils parlent de"
+          titleHighlight="nous"
+        >
+          <div className="grid grid-cols-1 gap-[1rem] items-start w-full sm:grid-cols-2 lg:grid-cols-4">
+            {companyTestimonials.map((t, i) => (
+              <TestimonialCompanyCard
+                key={i}
+                quote={t.quote}
+                logoSrc={t.logoSrc}
+                logoAlt={t.logoAlt}
+                className="flex-1 !w-auto"
+                style={i % 2 === 1 ? { marginTop: "2.5rem" } : undefined}
+              />
+            ))}
+          </div>
+        </TestimonialsFrame>
+      </AnimateOnScroll>
+
+      {/* 3. LinkedIn Testimonials */}
+      <AnimateOnScroll animation="fade-up" duration={700}>
+        <TestimonialsFrame
+          title="Ils ont simplifié leur"
+          titleHighlight="gouvernance projet"
+        >
+          <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+            {testimonials.map((t, i) => (
+              <TestimonialCard
+                key={i}
+                quote={t.quote}
+                name={t.name}
+                role={t.role}
+                linkedinHref={t.linkedinHref}
+                className="flex-1"
+              />
+            ))}
+          </div>
+        </TestimonialsFrame>
+      </AnimateOnScroll>
+
+      {/* 4. Value Proposition — "Les chiffres qui vous feront adopter AirSaas" */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ValuePropositionFrame
           variant="light"
@@ -946,7 +896,7 @@ export default function HomePage() {
           titleHighlight="Partagez"
           title="simplement les roadmaps à toute l'organisation"
           description="Une roadmap, ça bouge, ça vit, c'est un élément clé pour aligner le top management en continu. Avec AirSaas, plus besoin de faire des PowerPoints à rallonge : l'information est centralisée, partageable et sympa à visualiser (parce que quand c'est beau, c'est quand même plus impactant)."
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp"
+          imageSrc="/assets/screenshots/1_timeline.webp"
         />
       </AnimateOnScroll>
 
@@ -963,7 +913,7 @@ export default function HomePage() {
             "Quels sont les jalons qui nous plombent ? Peut-on les découper ?",
             "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?",
           ]}
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp"
+          imageSrc="/assets/screenshots/2_capacity.webp"
           imageAlt="Vue capacity planning par équipe"
         />
       </AnimateOnScroll>
@@ -975,7 +925,7 @@ export default function HomePage() {
           titleHighlight="Chaque directeur définit"
           title="ses prios"
           description="Demandez aux directeurs de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix. C'est simple, transparent et puissant."
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp"
+          imageSrc="/assets/screenshots/3_prioritization.webp"
         />
       </AnimateOnScroll>
 
@@ -986,13 +936,40 @@ export default function HomePage() {
           titleHighlight="Diffusez"
           title="un cadrage projet standardisé"
           description="Remplissez les fiches cadrage de projet de manière collaborative, et guidez vos collaborateurs vers un véritable niveau d'excellence en gestion de projet. À vous une culture projet homogénéisée !"
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp"
+          imageSrc="/assets/screenshots/4_scope.webp"
         />
       </AnimateOnScroll>
 
-      {/* 9. Newsletter Section */}
+      {/* 9. Newsletter Section — FeatureFrame Rich, image right */}
       <AnimateOnScroll animation="fade-right" duration={800}>
-        <NewsletterSection />
+        <FeatureFrame
+          imagePosition="right"
+          titleHighlight="Une newsletter sponsor"
+          title="que votre direction va adorer"
+          richContent={
+            <>
+              <h5>→ Tendance des projets vitaux</h5>
+              <p>
+                Un récapitulatif de la santé des projets vitaux de votre
+                organisation pour leur permettre de &ldquo;sentir&rdquo; la
+                tendance du moment.
+              </p>
+              <h5>→ Tendance de leurs projets à eux</h5>
+              <p>
+                Un aperçu de leurs projets, ceux en amélioration et ceux en
+                dégradation qui nécessitent leur attention. En un clic, ils
+                peuvent accéder à la fiche projet.
+              </p>
+              <h5>→ Projets en retard d&apos;actualisation</h5>
+              <p>
+                Un rappel des projets qui méritent d&apos;être mis à jour. Si
+                cette section est vide, vous êtes tranquilles !
+              </p>
+            </>
+          }
+          imageSrc="/assets/screenshots/newsletter-sponsor-composite.png"
+          imageAlt="Control tower email - Newsletter sponsor pour la direction"
+        />
       </AnimateOnScroll>
 
       {/* 10. Feature Frame left — Reporting projet */}
@@ -1002,7 +979,7 @@ export default function HomePage() {
           titleHighlight="Votre reporting projet"
           title="en un clic"
           description="Générez votre reporting flash en un seul clic, et homogénéisez vos présentations, pour faciliter la prise de décision. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance."
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp"
+          imageSrc="/assets/screenshots/5_flash_report.webp"
         />
       </AnimateOnScroll>
 
@@ -1013,7 +990,7 @@ export default function HomePage() {
           titleHighlight="Fluidifiez"
           title="votre prise de décisions importantes et urgentes"
           description="Centralisez vos décisions sous forme de Kanban, et partagez-les aisément avec toutes les parties prenantes de vos projets. Finies les informations perdues dans vos mails ou flux de discussions instantanées !"
-          imageSrc="https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp"
+          imageSrc="/assets/screenshots/6_decisions.webp"
         />
       </AnimateOnScroll>
 
@@ -1032,12 +1009,93 @@ export default function HomePage() {
         <ComparisonDualSection />
       </AnimateOnScroll>
 
-      {/* 15. Testimonials — "Ils parlent de nous" */}
+      {/* 16. Customer Cards — "Laissez nos clients vous parler d'AirSaas" */}
       <AnimateOnScroll animation="fade-up" duration={700}>
-        <TestimonialsFullSection />
+        <section
+          className="flex flex-col items-center w-full"
+          style={{
+            gap: "3.125rem",
+            paddingLeft: "clamp(1.25rem, 5vw, 5rem)",
+            paddingRight: "clamp(1.25rem, 5vw, 5rem)",
+            paddingTop: "clamp(3rem, 5.2vw, 6.25rem)",
+            paddingBottom: "clamp(3rem, 5.2vw, 6.25rem)",
+          }}
+        >
+          <h2
+            className="font-black leading-tight text-center"
+            style={{ fontSize: "var(--text-h2)" }}
+          >
+            <span
+              className="bg-clip-text text-transparent"
+              style={{
+                backgroundImage: "var(--gradient-dark-to-primary)",
+                WebkitBackgroundClip: "text",
+              }}
+            >
+              Laissez nos clients vous parler d&apos;
+            </span>
+            <span
+              className="bg-clip-text text-transparent"
+              style={{
+                backgroundImage: "var(--gradient-primary)",
+                WebkitBackgroundClip: "text",
+              }}
+            >
+              AirSaas
+            </span>
+          </h2>
+
+          <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full sm:grid-cols-2 lg:grid-cols-3">
+            {customerCards.map((c, i) => (
+              <ClientCard
+                key={i}
+                avatarSrc={`https://placehold.co/90x90/e8eafc/3a51e2?text=${c.name.split(" ").map(n => n[0]).join("")}`}
+                name={c.name}
+                jobTitle={c.jobTitle}
+                companyName={c.companyName}
+                infoRows={[
+                  {
+                    icon: <span style={{ fontFamily: '"Font Awesome 6 Duotone"', fontWeight: 900 }}>{"\uF275"}</span>,
+                    label: "Secteur",
+                    value: c.sector,
+                  },
+                  {
+                    icon: <span style={{ fontFamily: '"Font Awesome 6 Duotone"', fontWeight: 900 }}>{"\uF0C0"}</span>,
+                    label: "Collaborateurs",
+                    value: c.employees,
+                  },
+                ]}
+                className="flex-1 !w-auto"
+              />
+            ))}
+          </div>
+        </section>
       </AnimateOnScroll>
 
-      {/* 16. Footer */}
+      {/* 17. Replay CTA — "Le replay à ne pas manquer !" */}
+      <AnimateOnScroll animation="fade-left" duration={800}>
+        <FeatureFrame
+          imagePosition="left"
+          titleHighlight="Le replay"
+          title="à ne pas manquer !"
+          richContent={
+            <>
+              <p>
+                <strong>Aurore Butrot</strong>, DSI du groupe Intuis nous explique
+                comment elle combine l&apos;utilisation <strong>d&apos;AirSaas et
+                d&apos;Asana</strong> pour piloter respectivement la gouvernance et
+                l&apos;exécution de ses projets.
+              </p>
+            </>
+          }
+          ctaLabel="Voir le replay"
+          ctaHref="#"
+          imageSrc="/assets/screenshots/7_intuis.png"
+          imageAlt="Replay Intuis x Asana - Comment combiner AirSaas et Asana"
+        />
+      </AnimateOnScroll>
+
+      {/* 18. Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
         <Footer columns={footerColumns} />
       </AnimateOnScroll>

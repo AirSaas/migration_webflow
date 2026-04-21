@@ -42,7 +42,7 @@ export function Footer({
       className={cn("bg-white px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[4rem] lg:px-[8.125rem] lg:py-[6.25rem]", className)}
     >
       <div
-        className="relative rounded-[1.25rem] md:rounded-[1.5625rem] bg-primary-2 px-[1.35rem] py-[2.5rem] md:px-[2.7rem] md:py-[3rem] lg:px-[9.5625rem] lg:py-[3.375rem] overflow-visible"
+        className="relative rounded-[1.25rem] md:rounded-[1.5625rem] bg-primary-2 px-[1.35rem] py-[2.5rem] md:px-[2rem] md:py-[3rem] lg:px-[4rem] lg:py-[3.375rem] overflow-visible"
       >
         {/* Logo floating card — top left */}
         <div

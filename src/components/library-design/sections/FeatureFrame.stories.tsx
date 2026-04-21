@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { FeatureFrame } from "./FeatureFrame";
 
 const meta = {
-  title: "Sections/FeatureFrame",
+  title: "Sections/Features Sections/FeatureFrame/Default",
   component: FeatureFrame,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof FeatureFrame>;
@@ -48,6 +48,26 @@ export const ImageLeft: Story = {
     ctaHref: "#",
     imageSrc: "https://placehold.co/1125x731/fffbeb/e58d05?text=Product+Screenshot",
     imageBgColor: "#fffbeb",
+  },
+};
+
+export const Stacked: Story = {
+  args: {
+    layout: "stacked",
+    tag: "Intelligence Artificielle",
+    titleHighlight: "Agent IA",
+    title: "Brief projet",
+    description:
+      'Quand une demande arrive floue ("on veut un truc"), l\'agent IA mène l\'entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.',
+    checklist: [
+      "Entretien guidé par l'IA",
+      "Brief structuré automatiquement",
+      "Comparaison objective des demandes",
+      "Intégration native avec vos outils",
+    ],
+    ctaLabel: "Découvrir",
+    ctaHref: "#",
+    imageSrc: "https://placehold.co/1600x900/e8eafc/3a51e2?text=Product+Screenshot",
   },
 };
 

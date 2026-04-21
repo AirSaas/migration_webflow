@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { ComparisonFrame } from "./ComparisonFrame";
 
 const meta = {
-  title: "Sections/ComparisonFrame",
+  title: "Sections/Comparison Sections/ComparisonFrame/Default",
   component: ComparisonFrame,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof ComparisonFrame>;

@@ -68,3 +68,84 @@ export const Minimal: Story = {
     },
   },
 };
+
+export const Split: Story = {
+  args: {
+    variant: "light",
+    layout: "split",
+    navItems: defaultNavItems,
+    navCtaLabel: "Demander une démo",
+    navCtaHref: "#",
+    loginLabel: "Login",
+    loginHref: "#",
+    eyebrow: "Solution",
+    headline: "The project portfolio management tool",
+    headlineGradient: "that revolutionizes your governance",
+    subtitle:
+      "AirSaas a été conçu pour vous aider à transformer votre entreprise de manière efficace, en vous faisant gagner en temps et en visibilité sur votre portfolio. Révolutionnez votre management de portefeuille de projet en gardant une vision précise de vos priorités, des décisions à prendre, et en communiquant mieux au quotidien.",
+    primaryCta: {
+      label: "Book a demo",
+      href: "#",
+    },
+    illustrationSrc:
+      "https://placehold.co/960x720/e8eafc/3a51e2?text=Product+Screenshot",
+    illustrationAlt: "AirSaas product screenshot",
+  },
+};
+
+export const SplitDark: Story = {
+  args: {
+    variant: "dark",
+    layout: "split",
+    navItems: defaultNavItems,
+    navCtaLabel: "Request a demo",
+    navCtaHref: "#",
+    loginLabel: "Login",
+    loginHref: "#",
+    eyebrow: "Solution",
+    headline: "The project portfolio management tool that revolutionizes your governance",
+    subtitle:
+      "AirSaas a été conçu pour vous aider à transformer votre entreprise de manière efficace, en vous faisant gagner en temps et en visibilité sur votre portfolio. Révolutionnez votre management de portefeuille de projet en gardant une vision précise de vos priorités, des décisions à prendre, et en communiquant mieux au quotidien.",
+    primaryCta: {
+      label: "Book a demo",
+      href: "#",
+    },
+    illustrationSrc:
+      "https://placehold.co/960x720/e8eafc/3a51e2?text=Product+Screenshot",
+    illustrationAlt: "AirSaas product screenshot",
+  },
+};
+
+export const Dark: Story = {
+  args: {
+    variant: "dark",
+    navItems: defaultNavItems,
+    navCtaLabel: "Demander une démo",
+    navCtaHref: "#",
+    loginLabel: "Login",
+    loginHref: "#",
+    topTag: {
+      label: "Capacity Planning simplifié",
+      variant: "muted",
+    },
+    headline: "Capacity planning:",
+    headlineGradient: "can you really carry out these projects?",
+    subtitle:
+      'AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire "non" avec des données, pas au feeling.',
+    primaryCta: {
+      label: "Réservez une démo",
+      href: "#",
+    },
+    secondaryCta: {
+      label: "Découvrir l'outil PPM en vidéo (5 min)",
+      href: "#",
+    },
+    bottomTags: [
+      { label: "Opérationnel en 1 mois", variant: "success" },
+      { label: "Accompagnement premium inclus", variant: "success" },
+    ],
+    illustrationSrc:
+      "https://placehold.co/1457x857/e8eafc/3a51e2?text=Product+Screenshot",
+    illustrationAlt: "AirSaas product screenshot",
+  },
+};

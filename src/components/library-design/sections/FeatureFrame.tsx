@@ -6,14 +6,30 @@ import { Button } from "@/components/library-design/ui/Button";
 import { ListInline } from "@/components/library-design/ui/ListInline";
 
 interface FeatureFrameProps {
-  /** Image on left or right */
+  /** Layout — "inline" (default, text + image side by side) or "stacked" (text centered on top, image below) */
+  layout?: "inline" | "stacked";
+  /** Image on left or right (inline layout only) */
   imagePosition?: "left" | "right";
+  /**
+   * Size of the illustration column (inline layout only).
+   * - "default" (60% width) — the main product shot layout.
+   * - "compact" (~40% width) — smaller illustration, leaves more room for rich text content.
+   */
+  imageSize?: "default" | "compact";
   tag?: string;
   /** Gradient-colored part of the title */
   titleHighlight?: string;
   /** Regular-colored part of the title */
   title: string;
-  description: string;
+  /** Simple description paragraph. Ignored when `richContent` is provided. */
+  description?: React.ReactNode;
+  /**
+   * Rich text / React content — replaces the description + checklist block entirely.
+   * Rendered inside a prose-styled wrapper that handles <p>, <ul>, <ol>, <strong>,
+   * <em> and <a>. Use this when the frame needs more editorial content
+   * (multiple paragraphs, links, lists, etc.).
+   */
+  richContent?: React.ReactNode;
   checklist?: string[];
   ctaLabel?: string;
   ctaHref?: string;
@@ -26,11 +42,14 @@ interface FeatureFrameProps {
 }
 
 export function FeatureFrame({
+  layout = "inline",
   imagePosition = "right",
+  imageSize = "default",
   tag,
   titleHighlight,
   title,
   description,
+  richContent,
   checklist,
   ctaLabel,
   ctaHref = "#",
@@ -39,14 +58,27 @@ export function FeatureFrame({
   imageBgColor,
   className,
 }: FeatureFrameProps) {
+  const isStacked = layout === "stacked";
   const isRight = imagePosition === "right";
-  const defaultBg = isRight ? "var(--color-primary-5)" : "#fffbeb";
+  const isCompact = imageSize === "compact";
+  const defaultBg = isStacked
+    ? "var(--color-primary-5)"
+    : isRight
+      ? "var(--color-primary-5)"
+      : "#fffbeb";
 
   const textContent = (
-    <div className="flex flex-1 flex-col gap-[1rem] md:gap-[1.25rem] items-start min-w-0">
+    <div
+      className={cn(
+        "flex flex-col gap-[1rem] md:gap-[1.25rem] min-w-0",
+        isStacked
+          ? "items-center text-center max-w-[50rem] w-full"
+          : "flex-1 items-start",
+      )}
+    >
       {tag && <Tag variant="muted">{tag}</Tag>}
 
-      <Heading level={3} gradient="none" align="left">
+      <Heading level={3} gradient="none" align={isStacked ? "center" : "left"}>
         {titleHighlight && (
           <span
             className="bg-clip-text text-transparent"
@@ -62,16 +94,46 @@ export function FeatureFrame({
         {title}
       </Heading>
 
-      <Text size="md" align="left">
-        {description}
-      </Text>
-
-      {checklist && checklist.length > 0 && (
-        <div className="flex flex-col gap-[0.625rem] w-full">
-          {checklist.map((item, i) => (
-            <ListInline key={i}>{item}</ListInline>
-          ))}
+      {richContent ? (
+        <div
+          className={cn(
+            "w-full text-foreground font-light",
+            "[&_p]:leading-[1.4] [&_p+p]:mt-[1rem]",
+            "[&_strong]:font-bold",
+            "[&_em]:italic",
+            "[&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:opacity-80",
+            "[&_ul]:list-disc [&_ul]:pl-[1.25rem] [&_ul]:space-y-[0.375rem] [&_ul]:mt-[0.5rem]",
+            "[&_ol]:list-decimal [&_ol]:pl-[1.25rem] [&_ol]:space-y-[0.375rem] [&_ol]:mt-[0.5rem]",
+            "[&_h4]:font-bold [&_h4]:text-[1.25rem] [&_h4]:leading-[1.3] [&_h4]:mt-[1rem]",
+            "[&_h5]:font-bold [&_h5]:text-[1.0625rem] [&_h5]:leading-[1.3] [&_h5]:mt-[0.75rem]",
+          )}
+          style={{ fontSize: "var(--text-paragraph)" }}
+        >
+          {richContent}
         </div>
+      ) : (
+        <>
+          {description && (
+            <Text size="md" align={isStacked ? "center" : "left"}>
+              {description}
+            </Text>
+          )}
+
+          {checklist && checklist.length > 0 && (
+            <div
+              className={cn(
+                "w-full",
+                isStacked
+                  ? "flex flex-wrap justify-center gap-x-[1.5rem] gap-y-[0.625rem]"
+                  : "flex flex-col gap-[0.625rem]",
+              )}
+            >
+              {checklist.map((item, i) => (
+                <ListInline key={i}>{item}</ListInline>
+              ))}
+            </div>
+          )}
+        </>
       )}
 
       {ctaLabel && (
@@ -85,8 +147,20 @@ export function FeatureFrame({
   const illustrationContent = imageSrc && (
     <div
       className={cn(
-        "shrink-0 rounded-[1.5rem] md:rounded-[2.1875rem] overflow-hidden w-full lg:w-[67.5rem] lg:max-w-[60%]",
-        isRight ? "p-[1.5rem] lg:pl-[2.5rem] lg:py-[2.5rem] lg:pr-0" : "p-[1.5rem] lg:pr-[2.5rem] lg:py-[2.5rem] lg:pl-0"
+        "shrink-0 rounded-[1.5rem] md:rounded-[2.1875rem] overflow-hidden",
+        isStacked
+          ? "w-full max-w-[75rem] p-[1.5rem] md:p-[2.5rem]"
+          : cn(
+              "w-full",
+              isCompact
+                ? "lg:w-[36rem] lg:max-w-[40%] p-[1.5rem] md:p-[2rem] lg:p-[2.5rem]"
+                : cn(
+                    "lg:w-[67.5rem] lg:max-w-[60%]",
+                    isRight
+                      ? "p-[1.5rem] lg:pl-[2.5rem] lg:py-[2.5rem] lg:pr-0"
+                      : "p-[1.5rem] lg:pr-[2.5rem] lg:py-[2.5rem] lg:pl-0",
+                  ),
+            ),
       )}
       style={{
         backgroundColor: imageBgColor ?? defaultBg,
@@ -101,13 +175,34 @@ export function FeatureFrame({
     </div>
   );
 
+  if (isStacked) {
+    return (
+      <section
+        className={cn(
+          "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] bg-white",
+          "md:px-[3rem] md:py-[4rem] md:gap-[2.5rem]",
+          "lg:px-[5rem] lg:py-[6.25rem] lg:gap-[3.125rem]",
+          className,
+        )}
+      >
+        {textContent}
+        {illustrationContent}
+      </section>
+    );
+  }
+
   return (
     <section
       className={cn(
         "flex flex-col gap-[2rem] px-[1.5rem] py-[3rem] bg-white",
         "md:px-[3rem] md:py-[4rem] md:gap-[2.5rem]",
-        "lg:flex-row lg:items-center lg:gap-[3.125rem] lg:py-[6.25rem]",
-        isRight ? "lg:pl-[10rem] lg:pr-0" : "lg:pr-[10rem] lg:pl-0 lg:justify-end",
+        "lg:flex-row lg:gap-[3.125rem] lg:py-[6.25rem]",
+        isCompact ? "lg:items-start" : "lg:items-center",
+        isCompact
+          ? "lg:px-[6.25rem] xl:px-[10rem]"
+          : isRight
+            ? "lg:pl-[10rem] lg:pr-0"
+            : "lg:pr-[10rem] lg:pl-0 lg:justify-end",
         className
       )}
     >

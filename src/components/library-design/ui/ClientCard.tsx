@@ -89,7 +89,7 @@ export function ClientCard({
 
       {/* ── Company section (primary-2 bg) ── */}
       <div
-        className="flex flex-col"
+        className="flex flex-col items-center"
         style={{
           backgroundColor: "var(--color-primary-2, #F8F9FF)",
           padding: "1.045rem 1.567rem 1.567rem",
@@ -98,7 +98,7 @@ export function ClientCard({
       >
         {/* Company name */}
         <p
-          className="font-light text-foreground"
+          className="font-semibold text-center text-foreground"
           style={{
             fontSize: "1.3125rem",
             lineHeight: "normal",
@@ -107,52 +107,47 @@ export function ClientCard({
           {companyName}
         </p>
 
-        {/* Info rows */}
-        {infoRows.map((row, i) => (
-          <div
-            key={i}
-            className="flex items-start"
-            style={{ gap: "0.522rem" }}
-          >
-            {/* Icon */}
-            <div
-              className="shrink-0 flex items-center justify-center"
-              style={{
-                width: "0.875rem",
-                height: "0.875rem",
-                fontSize: "0.836rem",
-                color: "var(--color-primary-70, #6B7BE9)",
-                marginTop: "0.157rem",
-              }}
-            >
-              {row.icon}
-            </div>
-
-            {/* Label + Value */}
-            <div className="flex flex-col min-w-0 flex-1">
-              <span
-                className="font-light"
-                style={{
-                  fontSize: "0.875rem",
-                  lineHeight: "normal",
-                  color: "var(--color-foreground, #031330)",
-                }}
-              >
-                {row.label}
-              </span>
-              <span
-                className="font-bold"
-                style={{
-                  fontSize: "1.0625rem",
-                  lineHeight: "normal",
-                  color: "var(--color-foreground, #031330)",
-                }}
-              >
-                {row.value}
-              </span>
-            </div>
+        {/* Info rows — horizontal layout */}
+        {infoRows.length > 0 && (
+          <div className="flex justify-center flex-wrap" style={{ gap: "2rem", marginTop: "0.25rem" }}>
+            {infoRows.map((row, i) => (
+              <div key={i} className="flex flex-col items-center" style={{ gap: "0.1rem" }}>
+                <span
+                  style={{
+                    fontSize: "0.75rem",
+                    lineHeight: "normal",
+                    color: "var(--color-secondary-50, #8d94a3)",
+                  }}
+                >
+                  {row.label}
+                </span>
+                <div className="flex items-center" style={{ gap: "0.3rem" }}>
+                  <div
+                    className="shrink-0 flex items-center justify-center"
+                    style={{
+                      width: "0.875rem",
+                      height: "0.875rem",
+                      fontSize: "0.836rem",
+                      color: "var(--color-primary-70, #6B7BE9)",
+                    }}
+                  >
+                    {row.icon}
+                  </div>
+                  <span
+                    className="font-bold"
+                    style={{
+                      fontSize: "1rem",
+                      lineHeight: "normal",
+                      color: "var(--color-foreground, #040d22)",
+                    }}
+                  >
+                    {row.value}
+                  </span>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
+        )}
       </div>
     </article>
   );

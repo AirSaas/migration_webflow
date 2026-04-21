@@ -281,6 +281,7 @@ export default function CapacityPlanningPage() {
           titleHighlight="Notre parti pris"
           title=""
           subtitle='"Approximativement juste plutôt que précisément faux"'
+          columns={3}
         >
           <FeatureCard icon={<Icon><BullseyeArrowIcon /></Icon>} title="Macro, pas micro" description="Capacitaire au trimestre, par équipe. Pas à la tâche et à la personne." className="flex-1" />
           <FeatureCard icon={<Icon><BoltLightningIcon /></Icon>} title="Maintenable" description="Parce qu'un capacitaire trop précis finit toujours à la poubelle." className="flex-1" />

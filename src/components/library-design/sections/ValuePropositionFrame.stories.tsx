@@ -9,7 +9,7 @@ function Icon({ children }: { children: React.ReactNode }) {
 }
 
 const meta = {
-  title: "Sections/ValuePropositionFrame",
+  title: "Sections/Value Proposition Sections/ValuePropositionFrame/Cards",
   component: ValuePropositionFrame,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof ValuePropositionFrame>;

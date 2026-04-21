@@ -3,13 +3,14 @@ import { cn } from "@/lib/utils";
 interface IconIllustrationProps {
   children: React.ReactNode;
   variant?: "dark" | "light";
-  size?: "sm" | "md";
+  size?: "sm" | "md" | "lg";
   className?: string;
 }
 
 const sizeMap = {
   sm: { container: "h-[1.8rem] w-[1.8rem]", fontSize: "1.48rem", ellipseHeight: "0.27rem", align: "items-center" as const },
   md: { container: "h-[3.5rem] w-[4.8125rem]", fontSize: "2.8rem", ellipseHeight: "0.34rem", align: "items-start" as const },
+  lg: { container: "h-[6rem] w-[8rem]", fontSize: "4.8rem", ellipseHeight: "0.5rem", align: "items-start" as const },
 };
 
 const variantMap = {

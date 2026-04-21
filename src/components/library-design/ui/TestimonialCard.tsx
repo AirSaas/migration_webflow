@@ -23,6 +23,27 @@ function LinkedInIcon() {
   );
 }
 
+/** Badge colors from Figma DS palette */
+const BADGE_COLORS = [
+  "var(--color-success, #03e26b)",
+  "var(--color-primary, #3c51e2)",
+  "var(--color-secondary, #061333)",
+  "var(--color-orange, #ff922b)",
+  "var(--color-warning, #ff0a55)",
+  "var(--color-terracotta, #d9480f)",
+  "var(--color-primary-70, #6b7be9)",
+  "var(--color-secondary-70, #50596f)",
+];
+
+/** Deterministic color from name so it stays stable across renders */
+function nameToColor(name: string): string {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return BADGE_COLORS[Math.abs(hash) % BADGE_COLORS.length];
+}
+
 interface TestimonialCardProps {
   quote: string;
   name: string;
@@ -47,6 +68,8 @@ export function TestimonialCard({
     .join("")
     .slice(0, 2);
 
+  const badgeColor = nameToColor(name);
+
   return (
     <article
       className={cn(
@@ -58,19 +81,19 @@ export function TestimonialCard({
       {/* Quote */}
       <p
         className="font-light text-foreground"
-        style={{ fontSize: "1.4rem", lineHeight: "1.42" }}
+        style={{ fontSize: "1.15rem", lineHeight: "1.45" }}
       >
         {quote}
       </p>
 
       {/* User info */}
       <div className="flex flex-col gap-[0.43rem]">
-        {/* Row: green pill + optional LinkedIn */}
+        {/* Row: colored pill + optional LinkedIn */}
         <div className="flex items-center justify-between">
-          {/* Tag user — green pill */}
+          {/* Tag user — colored pill */}
           <div
-            className="inline-flex items-center gap-[0.516rem] rounded-full bg-emerald"
-            style={{ height: "2.41rem", paddingInline: "1.033rem" }}
+            className="inline-flex items-center gap-[0.516rem] rounded-full"
+            style={{ height: "2.41rem", paddingInline: "1.033rem", backgroundColor: badgeColor }}
           >
             {/* Avatar */}
             {avatarSrc ? (

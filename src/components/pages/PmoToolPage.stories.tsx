@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import PriorisationEquipesPage from "./PriorisationEquipesPage";
+import PmoToolPage from "./PmoToolPage";
 
 const meta = {
-  title: "Pages/Products/PriorisationEquipesPage",
-  component: PriorisationEquipesPage,
+  title: "Pages/Products/PmoToolPage",
+  component: PmoToolPage,
   parameters: { layout: "fullscreen" },
-} satisfies Meta<typeof PriorisationEquipesPage>;
+} satisfies Meta<typeof PmoToolPage>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

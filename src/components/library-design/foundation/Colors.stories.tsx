@@ -35,37 +35,62 @@ function ColorsPage() {
       <ColorGroup
         title="Primary"
         colors={[
-          { name: "Primary", token: "primary", hex: "#3a51e2" },
+          { name: "Primary", token: "primary", hex: "#3c51e2" },
           { name: "Primary 70", token: "primary-70", hex: "#6b7be9" },
           { name: "Primary 60", token: "primary-60", hex: "#8a97ee" },
+          { name: "Primary 40", token: "primary-40", hex: "#b1b9f3" },
           { name: "Primary 20", token: "primary-20", hex: "#d1d5f5" },
-          { name: "Primary 10", token: "primary-10", hex: "#e8eafc" },
+          { name: "Primary 10", token: "primary-10", hex: "#e8ebfe" },
           { name: "Primary 5", token: "primary-5", hex: "#f3f3fc" },
           { name: "Primary 2", token: "primary-2", hex: "#f8f9ff" },
         ]}
       />
 
       <ColorGroup
-        title="Secondary (Text)"
+        title="Secondary"
         colors={[
-          { name: "Foreground", token: "foreground", hex: "#041230" },
+          { name: "Secondary", token: "secondary", hex: "#061333" },
+          { name: "Secondary 70", token: "secondary-70", hex: "#50596f" },
+          { name: "Secondary 50", token: "secondary-50", hex: "#8d94a3" },
+          { name: "Secondary 40", token: "secondary-40", hex: "#a6aab6" },
+          { name: "Secondary 20", token: "secondary-20", hex: "#d2d6dc" },
+          { name: "Secondary 10", token: "secondary-10", hex: "#e5e7ea" },
+          { name: "Secondary 5", token: "secondary-5", hex: "#eef1f4" },
+          { name: "Secondary 2", token: "secondary-2", hex: "#fafafb" },
+        ]}
+      />
+
+      <ColorGroup
+        title="Text"
+        colors={[
+          { name: "Text h", token: "foreground", hex: "#040d22" },
+          { name: "Text p", token: "text-p", hex: "#535b6f" },
           { name: "Text Secondary", token: "text-secondary", hex: "#403e49" },
-          { name: "Text Blog", token: "text-blog", hex: "#404249" },
           { name: "Text Muted", token: "text-muted", hex: "#63606e" },
         ]}
       />
 
       <ColorGroup
-        title="Functional"
+        title="Status & Accents"
         colors={[
-          { name: "Green", token: "green", hex: "#5ec045" },
-          { name: "Crimson", token: "crimson", hex: "#f11444" },
-          { name: "Orange", token: "orange", hex: "#e58d05" },
-          { name: "Sky Blue", token: "sky-blue", hex: "#2db5e6" },
-          { name: "Royal Blue", token: "royal-blue", hex: "#475ce9" },
-          { name: "Orchid", token: "orchid", hex: "#b75dda" },
-          { name: "Turquoise", token: "turquoise", hex: "#0fd6de" },
-          { name: "Medium Blue", token: "medium-blue", hex: "#13397a" },
+          { name: "Success", token: "success", hex: "#03e26b" },
+          { name: "Warning", token: "warning", hex: "#ff0a55" },
+          { name: "Prevention", token: "prevention", hex: "#ffd43b" },
+          { name: "Orange", token: "orange", hex: "#ff922b" },
+          { name: "Terracotta", token: "terracotta", hex: "#d9480f" },
+        ]}
+      />
+
+      <ColorGroup
+        title="Status Variants"
+        colors={[
+          { name: "Success 40", token: "success-40", hex: "#94d5c1" },
+          { name: "Success 20", token: "success-20", hex: "#cdf9e1" },
+          { name: "Success 10", token: "success-10", hex: "#e6fcf0" },
+          { name: "Warning 40", token: "warning-40", hex: "#ff8dab" },
+          { name: "Warning 10", token: "warning-10", hex: "#ffe7ee" },
+          { name: "Warning 5", token: "warning-5", hex: "#fff3f7" },
+          { name: "Orange 70", token: "orange-70", hex: "#ffa959" },
         ]}
       />
 

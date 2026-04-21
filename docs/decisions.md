@@ -43,3 +43,25 @@
 | 39 | Monorepo (Next.js + Strapi schemas) | Tout dans le même repo |
 | 40 | HubSpot formulaires + Meetings (pas Calendly) | Intégration unique HubSpot |
 | 41 | GTM + Axeptio au Step 9 | Analytics et cookies en dernier |
+| 42 | Hero variant = `dark` si fond couleur de marque sur Webflow | `light` par défaut, `dark` quand le hero du Webflow a un fond primary/azul/gradient sombre (ex: `/produit/priorisation-par-equipes`) |
+| 43 | Hero layout = `centered` par défaut, `split` si texte + image côte à côte | `centered` pour pages marketing produit/solution (texte centré + illustration dessous). `split` pour pages techniques/profondes (integrations, docs, comparatifs) |
+
+## Hero — Décision rapide (décembre 2025)
+
+Au moment de migrer une page Webflow, regarder le hero et appliquer :
+
+**1. `variant`**
+- Fond blanc/clair → `light` (default)
+- Fond couleur de marque (primary, azul, gradient sombre) → `dark`
+
+**2. `layout`**
+- Texte centré en haut, illustration dessous → `centered` (default)
+- Texte à gauche, illustration à droite → `split`
+
+**Combinaisons typiques**
+| variant | layout | Usage |
+|---|---|---|
+| `light` + `centered` | Default | Pages produit/solution standard |
+| `dark` + `centered` | Hero de marque fort | Priorisation, CTAs impactantes |
+| `light` + `split` | Feature technique | Docs, intégrations |
+| `dark` + `split` | Produit premium | Landing insignia |

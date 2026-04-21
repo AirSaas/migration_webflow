@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { FeatureSectionStacked } from "./FeatureSectionStacked";
 
 const meta = {
-  title: "Sections/FeatureSectionStacked",
+  title: "Sections/Features Sections/FeatureSectionStacked",
   component: FeatureSectionStacked,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof FeatureSectionStacked>;

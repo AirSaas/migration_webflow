@@ -8,13 +8,14 @@ interface TestimonialCompanyCardProps {
   /** Company logo alt text */
   logoAlt?: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
 function QuoteIcon() {
   return (
     <svg
-      width="68"
-      height="49"
+      width="44"
+      height="32"
       viewBox="0 0 68 49"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -33,6 +34,7 @@ export function TestimonialCompanyCard({
   logoSrc,
   logoAlt = "",
   className,
+  style: externalStyle,
 }: TestimonialCompanyCardProps) {
   return (
     <article
@@ -46,17 +48,18 @@ export function TestimonialCompanyCard({
         borderLeft: "1px solid var(--color-primary-20, #D1D5F5)",
         borderBottom: "5px solid var(--color-primary-20, #D1D5F5)",
         borderRight: "5px solid var(--color-primary-20, #D1D5F5)",
-        padding: "1.5625rem 2rem 1.875rem 1.9375rem",
+        padding: "1.25rem 1.5rem 1.25rem 1.5rem",
         width: "29.375rem",
-        minHeight: "25.905rem",
+        minHeight: "auto",
+        ...externalStyle,
       }}
     >
       {/* Top content: quote icon + text */}
-      <div className="flex flex-col gap-[2rem]" style={{ paddingBottom: "2.5rem" }}>
+      <div className="flex flex-col gap-[1rem]" style={{ paddingBottom: "1.25rem" }}>
         <QuoteIcon />
         <p
           className="font-light text-foreground"
-          style={{ fontSize: "1.4rem", lineHeight: "1.423" }}
+          style={{ fontSize: "1.15rem", lineHeight: "1.45" }}
         >
           {quote}
         </p>
@@ -67,7 +70,7 @@ export function TestimonialCompanyCard({
         src={logoSrc}
         alt={logoAlt}
         className="object-contain object-left"
-        style={{ height: "4.0625rem", width: "10.5625rem" }}
+        style={{ height: "2.25rem", width: "6.5rem" }}
         loading="lazy"
       />
     </article>

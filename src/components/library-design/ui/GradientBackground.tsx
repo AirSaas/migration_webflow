@@ -5,6 +5,10 @@ const variants = {
     gradient: "var(--gradient-hero-bg)",
     className: "h-[887px] bottom-0 opacity-100",
   },
+  "hero-dark": {
+    gradient: "var(--gradient-hero-dark-bg)",
+    className: "h-[887px] bottom-0 opacity-100",
+  },
   cta: {
     gradient: "var(--gradient-cta-bg)",
     className: "h-full inset-0 opacity-100",

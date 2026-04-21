@@ -82,3 +82,53 @@ export function LockKeyholeIcon(props: FAIconProps) {
 export function CircleCheckIcon(props: FAIconProps) {
   return <FADuotoneChar char={"\uF058"} {...props} />;
 }
+
+/** U+F057 — circle-xmark */
+export function CircleXmarkIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF057"} {...props} />;
+}
+
+/** U+F05E — ban (used for "drop" / "stop") */
+export function BanIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF05E"} {...props} />;
+}
+
+/** U+F055 — circle-plus (used for "add" / "try new") */
+export function CirclePlusIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF055"} {...props} />;
+}
+
+/** U+F021 — arrows-rotate / sync (used for "keep" / "maintain") */
+export function ArrowsRotateIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF021"} {...props} />;
+}
+
+/** U+F085 — gears / cogs (used for "improve" / "tune") */
+export function GearsIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF085"} {...props} />;
+}
+
+/** U+F5D2 — atom (science / portfolio visualisation) */
+export function AtomIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF5D2"} {...props} />;
+}
+
+/** U+F474 — dolly-flatbed (capacity / logistics) */
+export function DollyIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF474"} {...props} />;
+}
+
+/** U+F46C — clipboard-check (prioritisation / validation) */
+export function ClipboardCheckIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF46C"} {...props} />;
+}
+
+/** U+F11E — flag-checkered (roadmap / milestones) */
+export function FlagCheckeredIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF11E"} {...props} />;
+}
+
+/** U+F31C — file-pen (reporting / edit document) */
+export function FilePenIcon(props: FAIconProps) {
+  return <FADuotoneChar char={"\uF31C"} {...props} />;
+}

@@ -17,6 +17,25 @@ const preview: Preview = {
     a11y: {
       test: 'todo',
     },
+    options: {
+      storySort: {
+        order: [
+          'Sections',
+          [
+            'Hero',
+            'Features Sections',
+            'Value Proposition Sections',
+            'Highlight Sections',
+            'Comparison Sections',
+            'Call to Action',
+            'Faq',
+            'Footer',
+          ],
+          'UI',
+          'Layout',
+        ],
+      },
+    },
   },
 };
 

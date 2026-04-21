@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { FaqFrame } from "./FaqFrame";
 
 const meta = {
-  title: "Sections/FaqFrame",
+  title: "Sections/Faq/FaqFrame",
   component: FaqFrame,
   parameters: { layout: "fullscreen" },
 } satisfies Meta<typeof FaqFrame>;

@@ -16,7 +16,7 @@ interface SliderProps {
 
 function ChevronLeftIcon() {
   return (
-    <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg width="12" height="20" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M12 2L2 12L12 22" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -24,7 +24,7 @@ function ChevronLeftIcon() {
 
 function ChevronRightIcon() {
   return (
-    <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg width="12" height="20" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M2 2L12 12L2 22" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -52,8 +52,8 @@ export function Slider({ slides, className }: SliderProps) {
           className="flex items-center justify-center rounded-full transition-opacity hover:opacity-80"
           style={{
             backgroundColor: "var(--color-primary, #3c51e2)",
-            width: "3.19rem",
-            height: "3.19rem",
+            width: "2.71rem",
+            height: "2.71rem",
           }}
         >
           <ChevronLeftIcon />
@@ -65,8 +65,8 @@ export function Slider({ slides, className }: SliderProps) {
           className="flex items-center justify-center rounded-full transition-opacity hover:opacity-80"
           style={{
             backgroundColor: "var(--color-primary, #3c51e2)",
-            width: "3.19rem",
-            height: "3.19rem",
+            width: "2.71rem",
+            height: "2.71rem",
           }}
         >
           <ChevronRightIcon />
@@ -75,7 +75,7 @@ export function Slider({ slides, className }: SliderProps) {
 
       {/* Illustration frame */}
       <div
-        className="w-full overflow-clip relative"
+        className="w-full relative"
         style={{
           backgroundColor: "var(--color-primary-5, #f3f3fc)",
           borderTopLeftRadius: "2.1875rem",
@@ -83,16 +83,25 @@ export function Slider({ slides, className }: SliderProps) {
           padding: "2.5rem 2.5rem 0",
         }}
       >
-        <img
-          src={slides[current].imageSrc}
-          alt={slides[current].imageAlt ?? ""}
-          className="w-full object-cover object-top"
-          style={{
-            borderTopLeftRadius: "0.625rem",
-            borderTopRightRadius: "0.625rem",
-          }}
-          loading="lazy"
-        />
+        <div className="overflow-hidden" style={{ borderTopLeftRadius: "0.625rem", borderTopRightRadius: "0.625rem" }}>
+          <div
+            className="flex"
+            style={{
+              transform: `translateX(-${current * 100}%)`,
+              transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+            }}
+          >
+            {slides.map((slide, i) => (
+              <img
+                key={i}
+                src={slide.imageSrc}
+                alt={slide.imageAlt ?? ""}
+                className="w-full shrink-0 object-cover object-top"
+                loading="lazy"
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
