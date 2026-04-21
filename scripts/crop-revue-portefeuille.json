@@ -1,0 +1,62 @@
+[
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-portfolio-timeline.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-portfolio-timeline.webp",
+    "bottom": 12,
+    "right": 0
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-portfolio-decisions.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-portfolio-decisions.webp",
+    "bottom": 10,
+    "right": 5
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-flash-report.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-flash-report.webp",
+    "bottom": 8,
+    "right": 0
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-portfolio-header-menu.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-portfolio-header-menu.webp",
+    "bottom": 10,
+    "right": 5
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-presentation-scope.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-presentation-scope.webp",
+    "bottom": 8,
+    "right": 5
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-presentation-review.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-presentation-review.webp",
+    "bottom": 10,
+    "right": 5
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/feature-portfolio-integrated.webp",
+    "output": "public/assets/images/revue-de-portefeuille/feature-portfolio-integrated.webp",
+    "bottom": 8,
+    "right": 0
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/cle-portfolio-kanban.webp",
+    "output": "public/assets/images/revue-de-portefeuille/cle-portfolio-kanban.webp",
+    "bottom": 10,
+    "right": 5
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/cle-modal-people.webp",
+    "output": "public/assets/images/revue-de-portefeuille/cle-modal-people.webp",
+    "bottom": 10,
+    "right": 5
+  },
+  {
+    "input": "public/assets/images/revue-de-portefeuille/_originals/cle-presentation-review.png",
+    "output": "public/assets/images/revue-de-portefeuille/cle-presentation-review.png",
+    "bottom": 10,
+    "right": 5
+  }
+]
