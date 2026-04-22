@@ -11,7 +11,7 @@ import { assertMaxLength, assertNoClassNameOverride } from "@/lib/ds-validators"
  * @limits
  *   - level 1: max ~40 chars on 1 line (clamp 40 → 95px)
  *   - level 2: max ~60 chars on 1 line (clamp 32 → 72px)
- *   - level 3: max ~60 chars on 1 line (clamp 28 → 70px)
+ *   - level 3: max ~60 chars on 1 line (clamp 24 → 40px — aligned Figma spec)
  *   - level 4: max ~80 chars on 1 line (clamp 24 → 40px)
  *
  * @forbidden
@@ -32,11 +32,11 @@ interface HeadingProps {
   className?: string;
 }
 
-// Levels 1-3 are Black (900), level 4 is Bold (700) per Figma spec.
+// Levels 1-2 are Black (900), levels 3-4 are Bold (700) per Figma spec.
 const levelClasses: Record<HeadingLevel, string> = {
   1: "font-black leading-[0.95]",
   2: "font-black leading-tight",
-  3: "font-black leading-[1.18]",
+  3: "font-bold leading-[1.18]",
   4: "font-bold leading-[1.2]",
 };
 

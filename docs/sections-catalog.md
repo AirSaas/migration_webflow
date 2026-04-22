@@ -245,3 +245,28 @@ Structure : LpHero (badge + H1 + dual CTAs + trust badges + tab panel) → LpSta
 ### Route
 
 `src/app/[locale]/(lp)/lp/[slug]/page.tsx` — SSG. Données dans `src/data/lp.tsx`. Layout séparé via route group `(lp)`.
+
+## Blog
+
+> En construction. Composants blog préfixés `Blog*` dans l'arbo DS existante (pas de sous-dossier — voir decision #47).
+
+### Composants DS
+
+| Composant | Fichier | Usage |
+|-----------|---------|-------|
+| `BlogHero` | `library-design/sections/BlogHero.tsx` | Hero d'article : navbar + tag "Le Blog" + H1 + `<BlogAuthorTag>` + illustration frame open-bottom. Un par article. Figma node-id `303-1016`. |
+| `BlogAuthorTag` | `library-design/ui/BlogAuthorTag.tsx` | Bloc attribution auteur : label "Publié par" + pill vert (avatar + nom, `--color-success-text`) + "dans [catégorie]" + date. Réutilisable dans `BlogHero`, futurs `BlogCard`, bylines. Figma node-id `303-1655`. |
+| `TableOfContentsFrame` | `library-design/sections/TableOfContentsFrame.tsx` | Sommaire d'article : titre primary-gradient (locale-driven — `title="Sommaire"` / `"Contents"` / etc.) + carte blanche avec bordure primary-40 + liste d'ancres `{label, href}[]` stylées primary. 3–15 items. Figma node-id `303-1104`. |
+| `BlogArticleBody` | `library-design/sections/BlogArticleBody.tsx` | Wrapper rich-text pour le corps d'article : bg white, padding responsive lg:px-[14.375rem] py-[6.25rem], max-w 91.25rem, gap vertical 3.125rem. Accepte `children` composés de DS primitives (`<Heading>`, `<Text>`, `<Quote>`, `<ListInline bullet="circle-primary">`, `<TableFrame>`, `<IllustrationFrame tone="warm">`). Step 5 CMS : ajoutera une prop `blocks` pour `@strapi/blocks-react-renderer`. Figma node-id `303-1146`. |
+| `TableFrame` | `library-design/ui/TableFrame.tsx` | Tableau de comparaison responsive : header primary + blanc, cellules primary-2 avec séparateur primary-20. 2–6 colonnes, 1–20 lignes. Prop `firstColumnBold` pour libellés de ligne. Scroll-x sur mobile. Utilisé dans `BlogArticleBody`, extensible pour pricing / compare pages. Figma node-id `309-1899`. |
+| `RelatedArticlesFrame` | `library-design/sections/RelatedArticlesFrame.tsx` | Bloc "Pour aller plus loin" en bas d'article : titre primary-gradient (locale-driven) + carte blanche primary-40 + liste de liens outbound avec icône SVG external-link en primary-60. 3–10 items. Supporte `target="_blank"` par item (ajoute `rel="noopener noreferrer"` auto). Coexiste avec `TableOfContentsFrame` sur la même page. Figma node-id `309-1986`. |
+| `BlogCard` | `library-design/ui/BlogCard.tsx` | Card de preview d'article : thumbnail (alt obligatoire) + date + titre (H4, lien principal) + excerpt + byline compact (avatar + "Publié par X dans Y"). bg white, border secondary-10, rounded 20px. Props locale-driven (`publishedByLabel`, `inLabel`). Utilisé dans `BlogIndexGrid`. Figma node-id `312-2107`. |
+| `BlogIndexGrid` | `library-design/sections/BlogIndexGrid.tsx` | Grid responsive de `BlogCard` dans un panel lavanda (`bg-primary-2`, rounded 25px) + CTA optionnel en-dessous (`<Button variant="primary" size="md">`). 1–9 articles, 1 col mobile → 2 md → 3 lg. Figma node-id `312-2093`. |
+
+### Template article (prévu — Step 5 CMS)
+
+Structure envisagée : `BlogHero` → `TableOfContentsFrame` (sommaire) → `BlogArticleBody` (rich-text : `<Heading>`, `<Text>`, `<Quote>`, `<ListInline bullet="circle-primary">`, `<TableFrame>`, `<IllustrationFrame tone="warm">`) → `BlogAuthorCard` (bio étendue) → `RelatedArticlesFrame` (pour aller plus loin) → `CtaHighlightFrame` → `Footer`.
+
+### Route (prévu — Step 5)
+
+`src/app/[locale]/blog/[slug]/page.tsx` — SSG depuis Strapi. Playwright visual test à ajouter à ce moment-là.

@@ -12,6 +12,8 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
+    title: "Questions",
+    titleHighlight: "fréquentes",
     items: [
       {
         question: "Est-ce que ça suffit pour un vrai capacitaire ?",

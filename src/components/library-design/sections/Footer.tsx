@@ -32,7 +32,13 @@ interface FooterColumn {
  */
 interface FooterProps {
   columns: FooterColumn[];
+  /** Copyright text. If omitted, the copyright card is not rendered. */
   copyright?: string;
+  /**
+   * Optional icon rendered inside the copyright card (flag, emoji, SVG).
+   * Pass a React node (e.g. `<span>🇫🇷</span>`) — no default, since locale is caller-driven.
+   */
+  copyrightIcon?: React.ReactNode;
   className?: string;
 }
 
@@ -52,7 +58,8 @@ function AirSaasLogo() {
 
 export function Footer({
   columns,
-  copyright = "Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité",
+  copyright,
+  copyrightIcon,
   className,
 }: FooterProps) {
   return (
@@ -117,21 +124,25 @@ export function Footer({
           ))}
         </div>
 
-        {/* Bottom floating card — copyright */}
-        <div className="relative mt-[2rem] lg:absolute lg:mt-0 lg:-bottom-[2.5rem] lg:right-[4rem]">
-          <FloatingCard>
-            <div className="flex items-center gap-[0.625rem] md:gap-[0.888rem] p-[0.75rem] md:p-[0.9375rem]">
-              <div className="flex h-[2.5rem] w-[2.5rem] md:h-[3.198rem] md:w-[3.198rem] shrink-0 items-center justify-center rounded-[0.625rem] md:rounded-[0.888rem] bg-primary-5">
-                <span style={{ fontSize: "1.25rem" }}>🇫🇷</span>
+        {/* Bottom floating card — copyright (only renders if a copyright string is provided) */}
+        {copyright && (
+          <div className="relative mt-[2rem] lg:absolute lg:mt-0 lg:-bottom-[2.5rem] lg:right-[4rem]">
+            <FloatingCard decorative={false}>
+              <div className="flex items-center gap-[0.625rem] md:gap-[0.888rem] p-[0.75rem] md:p-[0.9375rem]">
+                {copyrightIcon && (
+                  <div className="flex h-[2.5rem] w-[2.5rem] md:h-[3.198rem] md:w-[3.198rem] shrink-0 items-center justify-center rounded-[0.625rem] md:rounded-[0.888rem] bg-primary-5">
+                    <span style={{ fontSize: "1.25rem" }}>{copyrightIcon}</span>
+                  </div>
+                )}
+                <span
+                  className="text-foreground whitespace-normal text-micro-sm leading-[1.3]"
+                >
+                  {copyright}
+                </span>
               </div>
-              <span
-                className="text-foreground whitespace-normal text-micro-sm leading-[1.3]"
-              >
-                {copyright}
-              </span>
-            </div>
-          </FloatingCard>
-        </div>
+            </FloatingCard>
+          </div>
+        )}
       </div>
     </footer>
   );

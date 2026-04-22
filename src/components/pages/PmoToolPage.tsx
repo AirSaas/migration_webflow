@@ -591,7 +591,11 @@ export default function PmoToolPage() {
 
       {/* 21. Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
-        <Footer columns={footerColumns} />
+        <Footer
+          columns={footerColumns}
+          copyright="Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité"
+          copyrightIcon={<span aria-label="Français">🇫🇷</span>}
+        />
       </AnimateOnScroll>
     </div>
   );

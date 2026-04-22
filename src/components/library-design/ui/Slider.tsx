@@ -11,6 +11,10 @@ export interface SliderSlide {
 
 interface SliderProps {
   slides: SliderSlide[];
+  /** a11y label for the previous button — pass localized string (default EN). */
+  prevLabel?: string;
+  /** a11y label for the next button — pass localized string (default EN). */
+  nextLabel?: string;
   className?: string;
 }
 
@@ -41,7 +45,12 @@ function ChevronRightIcon() {
  *   - slides: array of { imageSrc, imageAlt? } — returns null when empty
  *   - no autoplay, no dots; navigation is prev/next only
  */
-export function Slider({ slides, className }: SliderProps) {
+export function Slider({
+  slides,
+  prevLabel = "Previous slide",
+  nextLabel = "Next slide",
+  className,
+}: SliderProps) {
   const [current, setCurrent] = useState(0);
 
   const prev = () => setCurrent((c) => (c === 0 ? slides.length - 1 : c - 1));
@@ -58,7 +67,7 @@ export function Slider({ slides, className }: SliderProps) {
       <div className="flex items-center" style={{ gap: "0.3125rem" }}>
         <button
           type="button"
-          aria-label="Slide précédente"
+          aria-label={prevLabel}
           onClick={prev}
           className="flex items-center justify-center rounded-full transition-opacity hover:opacity-80"
           style={{
@@ -71,7 +80,7 @@ export function Slider({ slides, className }: SliderProps) {
         </button>
         <button
           type="button"
-          aria-label="Slide suivante"
+          aria-label={nextLabel}
           onClick={next}
           className="flex items-center justify-center rounded-full transition-opacity hover:opacity-80"
           style={{

@@ -68,3 +68,22 @@ export const AllVariants: Story = {
     </div>
   ),
 };
+
+/** tone="warm" — prevention-10 editorial frame used inside BlogArticleBody.
+ *  Bigger radius, bigger padding, inner image rounded-10px. */
+export const Warm: Story = {
+  render: () => (
+    <div className="flex flex-col gap-6 bg-white p-8">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm font-medium text-text-muted">
+          tone=&quot;warm&quot; — blog body editorial image well
+        </span>
+        <IllustrationFrame
+          tone="warm"
+          src="https://placehold.co/1125x731/FFEFC6/3c51e2?text=Blog+Editorial+Image"
+          alt="Blog editorial illustration"
+        />
+      </div>
+    </div>
+  ),
+};

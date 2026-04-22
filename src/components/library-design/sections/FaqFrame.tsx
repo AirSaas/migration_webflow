@@ -29,7 +29,13 @@ interface FaqItem {
  *   - Do NOT nest FAQs (no accordion inside an answer)
  */
 interface FaqFrameProps {
+  /**
+   * First (dark-gradient) portion of the heading. Locale-driven — caller
+   * passes the translated string. When both `title` and `titleHighlight`
+   * are omitted, no heading is rendered (useful for embedded FAQs).
+   */
   title?: string;
+  /** Second (primary-gradient) portion of the heading. Locale-driven. */
   titleHighlight?: string;
   items: FaqItem[];
   defaultOpenIndex?: number;
@@ -110,8 +116,8 @@ function FaqItemComponent({
 }
 
 export function FaqFrame({
-  title = "Questions",
-  titleHighlight = "fréquentes",
+  title,
+  titleHighlight,
   items,
   defaultOpenIndex = 0,
   className,
@@ -125,10 +131,13 @@ export function FaqFrame({
         className
       )}
     >
-      <Heading level={2} gradient="none" align="center">
-        <GradientText gradient="dark-to-primary">{title}</GradientText>{" "}
-        <GradientText gradient="primary">{titleHighlight}</GradientText>
-      </Heading>
+      {(title || titleHighlight) && (
+        <Heading level={2} gradient="none" align="center">
+          {title && <GradientText gradient="dark-to-primary">{title}</GradientText>}
+          {title && titleHighlight && " "}
+          {titleHighlight && <GradientText gradient="primary">{titleHighlight}</GradientText>}
+        </Heading>
+      )}
 
       <div className="flex flex-col gap-[0.9375rem] w-full">
         {items.map((item, i) => (

@@ -6,6 +6,7 @@ import { Button, type ButtonVariant } from "@/components/library-design/ui/Butto
 import { GradientBackground } from "@/components/library-design/ui/GradientBackground";
 import { FloatingCard } from "@/components/library-design/ui/FloatingCard";
 import { Float } from "@/components/library-design/ui/Float";
+import { AnimateOnScroll } from "@/components/library-design/ui/AnimateOnScroll";
 import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
@@ -95,27 +96,24 @@ export function CtaHighlightFrame({
           <Text size="md" align="center">
             {subtitle}
           </Text>
-          <Button variant={ctaVariant} size="md" href={ctaHref}>
-            {ctaLabel}
-          </Button>
+          <AnimateOnScroll animation="scale-up" duration={500} delay={100}>
+            <Button variant={ctaVariant} size="md" href={ctaHref}>
+              {ctaLabel}
+            </Button>
+          </AnimateOnScroll>
         </div>
       </div>
 
       {floatingDecorations && (
         <>
-          <Float
-            variant={3}
-            duration={3.5}
-            delay={0}
-            className="absolute z-20 left-[2%] top-[17rem] hidden xl:block"
-          >
-            <FloatingCard />
-          </Float>
+          {/* Single floating satellite — lower-right corner, on empty gradient
+              background. The former upper-left float was removed because it
+              overlapped the heading on narrow xl viewports. */}
           <Float
             variant={1}
             duration={4}
             delay={1.5}
-            className="absolute z-20 right-[2%] top-[6rem] hidden xl:block"
+            className="absolute z-20 right-[3%] bottom-[3rem] hidden xl:block"
           >
             <FloatingCard />
           </Float>
