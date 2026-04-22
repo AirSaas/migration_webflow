@@ -6,6 +6,16 @@ interface ListEmphasizedProps {
   className?: string;
 }
 
+/**
+ * ListEmphasized
+ *
+ * @purpose    Horizontal row of short text blocks separated by an orange left border — used to highlight 2–4 key points side-by-side.
+ * @useWhen    Section intros that list a few emphasised takeaways (e.g. "3 bénéfices", short pillar statements) under a heading.
+ * @dontUse    For long bulleted content — use <CheckList>. For vertical stacks with checkmarks, use <CheckList>.
+ *
+ * @limits
+ *   - items: 2–4 strings recommended (layout wraps column → row at md breakpoint)
+ */
 export function ListEmphasized({ items, className }: ListEmphasizedProps) {
   return (
     <div

@@ -30,6 +30,17 @@ function ChevronRightIcon() {
   );
 }
 
+/**
+ * Slider
+ *
+ * @purpose    Minimal image carousel with prev/next chevron buttons and a lavender top-framed illustration well.
+ * @useWhen    Section-level image showcases that cycle through 2+ product screenshots (feature walkthroughs, before/after, dashboard variants).
+ * @dontUse    For a single static image — use <IllustrationFrame>. For rich multi-content slides with captions/CTAs, build a dedicated section.
+ *
+ * @limits
+ *   - slides: array of { imageSrc, imageAlt? } — returns null when empty
+ *   - no autoplay, no dots; navigation is prev/next only
+ */
 export function Slider({ slides, className }: SliderProps) {
   const [current, setCurrent] = useState(0);
 

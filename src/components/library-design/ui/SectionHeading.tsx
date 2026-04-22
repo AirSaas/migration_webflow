@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Heading } from "./Heading";
 import { Text } from "./Text";
 import { GradientText } from "./GradientText";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * SectionHeading
@@ -13,9 +14,9 @@ import { GradientText } from "./GradientText";
  *             compose `<Heading>` + `<Text>` directly instead.
  *
  * @limits
- *   - titleGradient: max ~30 chars
- *   - titleDark: max ~40 chars
- *   - subtitle: max ~200 chars
+ *   - titleGradient: max ~50 chars
+ *   - titleDark: max ~60 chars
+ *   - subtitle: max ~260 chars
  *
  * @forbidden
  *   - Do NOT pass className with typography overrides — use Heading / Text props instead
@@ -37,6 +38,10 @@ export function SectionHeading({
   subtitle,
   className,
 }: SectionHeadingProps) {
+  assertMaxLength("SectionHeading", "titleGradient", titleGradient, 50);
+  if (titleDark) assertMaxLength("SectionHeading", "titleDark", titleDark, 60);
+  if (subtitle) assertMaxLength("SectionHeading", "subtitle", subtitle, 260);
+
   return (
     <div
       className={cn(

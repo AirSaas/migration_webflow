@@ -17,7 +17,7 @@ interface FeatureSectionStackedProps {
   listItems?: string[];
   /** Illustration/screenshot image source */
   imageSrc?: string;
-  imageAlt?: string;
+  imageAlt: string;
   /** Background variant */
   variant?: "default" | "primary2";
   className?: string;
@@ -30,7 +30,7 @@ export function FeatureSectionStacked({
   subtitle,
   listItems,
   imageSrc,
-  imageAlt = "",
+  imageAlt,
   variant = "default",
   className,
 }: FeatureSectionStackedProps) {

@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { type ReactNode, type CSSProperties } from "react";
+import { assertMaxLength, assertArrayBounds } from "@/lib/ds-validators";
 
 /**
  * ClientCard
@@ -32,7 +33,7 @@ export interface ClientCardProps {
   /** URL of the client's avatar image */
   avatarSrc: string;
   /** Alt text for the avatar */
-  avatarAlt?: string;
+  avatarAlt: string;
   /** Client full name */
   name: string;
   /** Client job title / role */
@@ -57,7 +58,7 @@ export interface ClientCardProps {
 
 export function ClientCard({
   avatarSrc,
-  avatarAlt = "",
+  avatarAlt,
   name,
   jobTitle,
   companyName,
@@ -66,6 +67,11 @@ export function ClientCard({
   maxWidth = "29.8333rem",
   className,
 }: ClientCardProps) {
+  assertMaxLength("ClientCard", "name", name, 30);
+  assertMaxLength("ClientCard", "jobTitle", jobTitle, 45);
+  assertMaxLength("ClientCard", "companyName", companyName, 30);
+  assertArrayBounds("ClientCard", "infoRows", infoRows, 0, 5);
+
   return (
     <article
       className={cn(

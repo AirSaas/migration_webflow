@@ -25,6 +25,16 @@ function CheckCircleIcon() {
   );
 }
 
+/**
+ * ListInline
+ *
+ * @purpose    Single inline item (icon + text) — the row primitive behind <CheckList> and FeatureFrame checklists.
+ * @useWhen    You need one check-prefixed line inside rich content, or want to render a list with a custom (non-check) icon by passing `icon`.
+ * @dontUse    For multi-item vertical lists — use <CheckList> which composes this under the hood.
+ *
+ * @limits
+ *   - icon: optional override; defaults to the green-gradient circle-check
+ */
 export function ListInline({
   children,
   icon,

@@ -11,9 +11,14 @@ interface CheckListProps {
 }
 
 /**
- * Vertical list where each item is prefixed by a green gradient circle-check
- * icon. Shares icon + typography with <ListInline>, so the visual matches
- * the checklist used inside <FeatureFrame>.
+ * CheckList
+ *
+ * @purpose    Vertical list where each item is prefixed by a green gradient circle-check icon.
+ * @useWhen    Standalone bullet lists of benefits/features outside a FeatureFrame. Visually matches the checklist used inside <FeatureFrame>.
+ * @dontUse    Inside a FeatureFrame — the frame already renders its own checklist from `checklistItems`. For a single inline check item, use <ListInline> directly.
+ *
+ * @limits
+ *   - items: plain strings or rich ReactNode (bold, links, etc.)
  */
 export function CheckList({
   items,

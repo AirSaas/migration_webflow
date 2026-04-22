@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button, type ButtonVariant } from "@/components/library-design/ui/Button";
 import { NavbarDropdown, type NavbarDropdownItem } from "@/components/library-design/ui/NavbarDropdown";
+import { assertMaxLength, assertArrayBounds } from "@/lib/ds-validators";
 
 /**
  * Navbar
@@ -15,7 +16,7 @@ import { NavbarDropdown, type NavbarDropdownItem } from "@/components/library-de
  * @dontUse    For in-app chrome / admin layouts — build a dedicated component.
  *
  * @limits
- *   - items: 2–7 top-level items (past that the nav overflows on desktop)
+ *   - items: 2–9 top-level items (past that the nav overflows on desktop)
  *   - dropdownItems per menu: 2–10
  *   - ctaLabel: max 24 chars
  *   - loginLabel: max 12 chars
@@ -140,9 +141,15 @@ export function Navbar({
   ariaLabel = "Main navigation",
   className,
 }: NavbarProps) {
+  assertArrayBounds("Navbar", "items", items, 2, 9);
+  if (ctaLabel) assertMaxLength("Navbar", "ctaLabel", ctaLabel, 24);
+  if (loginLabel) assertMaxLength("Navbar", "loginLabel", loginLabel, 12);
+
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
+  const mobileMenuRef = useRef<HTMLDivElement>(null);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -154,6 +161,42 @@ export function Navbar({
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  // Mobile menu: Escape to close, focus trap, return focus to hamburger on close.
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    const menu = mobileMenuRef.current;
+    if (!menu) return;
+
+    // Focus first interactive element in the menu
+    const focusables = menu.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+    );
+    focusables[0]?.focus();
+
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setMobileOpen(false);
+        hamburgerRef.current?.focus();
+        return;
+      }
+      if (e.key === "Tab" && focusables.length > 0) {
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    }
+
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
+  }, [mobileOpen]);
 
   return (
     <nav
@@ -239,11 +282,12 @@ export function Navbar({
 
       {/* Mobile hamburger */}
       <button
+        ref={hamburgerRef}
         type="button"
         aria-label={mobileOpen ? "Close menu" : "Open menu"}
         aria-expanded={mobileOpen}
         aria-controls="mobile-nav"
-        className="inline-flex items-center justify-center text-foreground xl:hidden"
+        className="inline-flex items-center justify-center text-foreground xl:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded"
         onClick={() => setMobileOpen((prev) => !prev)}
       >
         {mobileOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -252,7 +296,11 @@ export function Navbar({
       {/* Mobile menu panel */}
       {mobileOpen && (
         <div
+          ref={mobileMenuRef}
           id="mobile-nav"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Mobile menu"
           className={cn(
             "absolute left-0 top-full z-50 mt-2 w-full",
             "rounded-[1.5625rem] border border-border bg-white",

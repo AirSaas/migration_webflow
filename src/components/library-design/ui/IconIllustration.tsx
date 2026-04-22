@@ -26,6 +26,17 @@ const variantMap = {
   },
 };
 
+/**
+ * IconIllustration
+ *
+ * @purpose    Stylised icon with a drop-shadow offset and a solid ellipse "base" underneath — AirSaas's signature illustrated icon treatment.
+ * @useWhen    Section-level iconography that needs more presence than a flat glyph (feature grids, landing hero highlights, <IconRowFrame>).
+ * @dontUse    For plain circular badges — use <IconBadge>. For small inline icons, use the raw icon component directly.
+ *
+ * @limits
+ *   - size: "sm" | "md" | "lg" — drives container, font-size, and ellipse proportions
+ *   - variant: "dark" (primary icon on light bg) | "light" (white icon with primary glow, for dark sections)
+ */
 export function IconIllustration({
   children,
   variant = "dark",

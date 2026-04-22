@@ -16,6 +16,16 @@ interface NavbarDropdownProps {
   className?: string;
 }
 
+/**
+ * NavbarDropdown
+ *
+ * @purpose    Floating menu panel containing a vertical list of icon + title + subtitle links — the reusable body of navbar mega-menus.
+ * @useWhen    Desktop navbar dropdown panels (Solutions, Produit, Ressources…) where each entry needs an icon, bold title, and light subtitle.
+ * @dontUse    For mobile navigation — use a dedicated mobile drawer. For plain anchor lists (footer columns), use simple <a> lists.
+ *
+ * @limits
+ *   - items: each entry must provide { icon, title, subtitle }; `href` defaults to "#" when omitted
+ */
 export function NavbarDropdown({ items, className }: NavbarDropdownProps) {
   return (
     <div

@@ -24,6 +24,16 @@ interface GradientBackgroundProps {
   className?: string;
 }
 
+/**
+ * GradientBackground
+ *
+ * @purpose    Absolutely positioned blurred gradient layer used as section ambiance.
+ * @useWhen    Hero backgrounds ("hero" / "hero-dark"), CTA bands ("cta"), or comparison sections ("comparison"). Place inside a `relative` parent.
+ * @dontUse    As a card or content background — it's `aria-hidden`, blurred, and absolutely positioned. For solid fills, use Tailwind bg-* classes.
+ *
+ * @limits
+ *   - variant: "hero" | "hero-dark" | "cta" | "comparison" — each has a fixed gradient + positioning
+ */
 export function GradientBackground({
   variant = "hero",
   className,

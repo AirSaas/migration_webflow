@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Heading } from "./Heading";
 import { Text } from "./Text";
 import { GradientText } from "./GradientText";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * FeatureCard
@@ -16,7 +17,7 @@ import { GradientText } from "./GradientText";
  * @limits
  *   - title: max 12 chars (Figma H4, 40px — breaks past ~1 line)
  *   - subtitle: max 20 chars (Text lg, ~28px — optional)
- *   - description: max 120 chars (Text md paragraph)
+ *   - description: max 220 chars (Text md paragraph)
  *
  * @forbidden
  *   - Do NOT pass className with typography overrides — use Text / Heading props
@@ -47,6 +48,10 @@ export function FeatureCard({
   gradient = "primary",
   className,
 }: FeatureCardProps) {
+  assertMaxLength("FeatureCard", "title", title, 12);
+  if (subtitle) assertMaxLength("FeatureCard", "subtitle", subtitle, 20);
+  if (description) assertMaxLength("FeatureCard", "description", description, 220);
+
   const useGradient = gradient !== "none";
 
   return (

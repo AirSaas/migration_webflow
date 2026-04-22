@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { GradientText } from "./GradientText";
 import { Text } from "./Text";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * ListCard
@@ -51,6 +52,12 @@ export function ListCard({
   borderTone = "prevention",
   className,
 }: ListCardProps) {
+  const valueStr = String(value);
+  assertMaxLength("ListCard", "value", valueStr, 2);
+  if (typeof children === "string") {
+    assertMaxLength("ListCard", "children", children, 220);
+  }
+
   return (
     <article
       className={cn(

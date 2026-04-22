@@ -15,6 +15,17 @@ interface IllustrationFrameProps {
   className?: string;
 }
 
+/**
+ * IllustrationFrame
+ *
+ * @purpose    Rounded, semi-transparent white frame that wraps a hero/section illustration with consistent padding and border.
+ * @useWhen    Hero split visuals, feature showcase screenshots, or any product illustration that needs the signature AirSaas "glass" frame.
+ * @dontUse    For decorative floating cards — use <FloatingCard>. For plain images without the frame chrome, use a raw <img>.
+ *
+ * @limits
+ *   - shape: "open-bottom" (default — rounded top, bleeds into next section) | "contained" (all 4 corners rounded, standalone)
+ *   - alt: empty string marks the image as decorative (`aria-hidden`)
+ */
 export function IllustrationFrame({
   src,
   alt = "",

@@ -17,6 +17,17 @@ const variantKeyframes: Record<1 | 2 | 3, string> = {
   3: "float-y-3",
 };
 
+/**
+ * Float
+ *
+ * @purpose    Continuously bobs its child up and down with a subtle looping animation.
+ * @useWhen    Floating decorative cards, icons, or illustrations around a hero (e.g. <FloatingCard> satellites).
+ * @dontUse    For one-shot entrance animations — use <AnimateOnScroll>. For critical UI that needs a stable position, skip entirely.
+ *
+ * @limits
+ *   - variant: 1 | 2 | 3 (different keyframes — pick different variants to desync neighbouring floats)
+ *   - duration / delay: seconds
+ */
 export function Float({
   children,
   variant = 1,

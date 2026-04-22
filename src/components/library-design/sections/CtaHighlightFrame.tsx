@@ -6,6 +6,7 @@ import { Button, type ButtonVariant } from "@/components/library-design/ui/Butto
 import { GradientBackground } from "@/components/library-design/ui/GradientBackground";
 import { FloatingCard } from "@/components/library-design/ui/FloatingCard";
 import { Float } from "@/components/library-design/ui/Float";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * CtaHighlightFrame
@@ -57,6 +58,12 @@ export function CtaHighlightFrame({
   floatingDecorations = true,
   className,
 }: CtaHighlightFrameProps) {
+  assertMaxLength("CtaHighlightFrame", "titlePrefix", titlePrefix, 30);
+  assertMaxLength("CtaHighlightFrame", "titleHighlight", titleHighlight, 50);
+  if (titleSuffix) assertMaxLength("CtaHighlightFrame", "titleSuffix", titleSuffix, 20);
+  assertMaxLength("CtaHighlightFrame", "subtitle", subtitle, 220);
+  assertMaxLength("CtaHighlightFrame", "ctaLabel", ctaLabel, 24);
+
   return (
     <section className={cn("relative w-full overflow-hidden", className)}>
       <GradientBackground variant="cta" className="absolute inset-0 w-full" />

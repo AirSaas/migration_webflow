@@ -143,7 +143,7 @@ export default function CapacityPlanningPage() {
             "Dites non plus tôt, lancez moins de projets... mais mieux",
           ]}
           ctaLabel="Découvrir"
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Agent+IA+Brief"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Agent+IA+Brief" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -162,7 +162,7 @@ export default function CapacityPlanningPage() {
             "Suggestions réalistes, pas théoriques",
           ]}
           ctaLabel="En savoir plus"
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Agent+IA+Découpage"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Agent+IA+Découpage" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -196,7 +196,7 @@ export default function CapacityPlanningPage() {
             "Drill-down par projet",
             "Comparaison capacité vs charge",
           ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -214,7 +214,7 @@ export default function CapacityPlanningPage() {
             "Basé sur la vélocité historique",
             "Suggestions réalistes, pas théoriques",
           ]}
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Découpage+Projet"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Découpage+Projet" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -233,7 +233,7 @@ export default function CapacityPlanningPage() {
             "Drill-down par projet",
             "Comparaison capacité vs charge",
           ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -251,7 +251,7 @@ export default function CapacityPlanningPage() {
             "Basé sur la vélocité historique",
             "Suggestions réalistes, pas théoriques",
           ]}
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Découpage+Projet"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Découpage+Projet" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -270,7 +270,7 @@ export default function CapacityPlanningPage() {
             "Drill-down par projet",
             "Comparaison capacité vs charge",
           ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire" imageAlt=""
         />
       </AnimateOnScroll>
 

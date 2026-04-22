@@ -3,6 +3,7 @@ import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { GradientText } from "@/components/library-design/ui/GradientText";
 import { Slider, type SliderSlide } from "@/components/library-design/ui/Slider";
+import { assertMaxLength, assertArrayBounds } from "@/lib/ds-validators";
 
 /**
  * SliderFrame
@@ -40,6 +41,11 @@ export function SliderFrame({
   slides,
   className,
 }: SliderFrameProps) {
+  assertMaxLength("SliderFrame", "titleHighlight", titleHighlight, 40);
+  assertMaxLength("SliderFrame", "titleRest", titleRest, 70);
+  assertMaxLength("SliderFrame", "subtitle", subtitle, 280);
+  assertArrayBounds("SliderFrame", "slides", slides, 2, 5);
+
   return (
     <section
       className={cn("flex flex-col items-center w-full", className)}

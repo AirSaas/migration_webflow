@@ -9,7 +9,7 @@ interface QuoteProps {
   /** Optional circular avatar for the author. Displayed next to `author`. */
   authorAvatar?: string;
   /** Alt text for the author avatar. Defaults to "". */
-  authorAvatarAlt?: string;
+  authorAvatarAlt: string;
   /** Hide the decorative quote icon. Default: shown. */
   hideIcon?: boolean;
   /** Horizontal alignment. Default "center" — matches stacked
@@ -38,17 +38,21 @@ function QuoteIcon() {
 }
 
 /**
- * Inline quote block — italic body text with a decorative quote icon,
- * wrapped in a lavender-bordered card. Designed for citations inside rich
- * content (FeatureFrame richContent, landing sections, etc.). Attribution
- * is optional; when provided, a circular avatar can accompany it via
- * `authorAvatar`.
+ * Quote
+ *
+ * @purpose    Italic citation block in a lavender-bordered card with a decorative quote icon and optional author + avatar.
+ * @useWhen    Customer/expert citations inside FeatureFrame `richContent`, landing sections, or anywhere a testimonial needs visual weight without a full testimonial section.
+ * @dontUse    For full testimonial grids with photos + roles + logos — use a dedicated testimonials section. For plain inline italic text, use <Text italic>.
+ *
+ * @limits
+ *   - align: "center" (default, matches stacked FeatureFrame) | "left" (image-side content)
+ *   - children: quote text only — keep under ~3 sentences; body clamps to 1.125–1.375rem
  */
 export function Quote({
   children,
   author,
   authorAvatar,
-  authorAvatarAlt = "",
+  authorAvatarAlt,
   hideIcon = false,
   align = "center",
   className,

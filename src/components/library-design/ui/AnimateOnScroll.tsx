@@ -55,6 +55,22 @@ const animationStyles: Record<Animation, { from: string; to: string }> = {
   },
 };
 
+/**
+ * AnimateOnScroll
+ *
+ * @purpose    Wraps content in an intersection-observer driven entrance animation that replays on scroll.
+ * @useWhen    Revealing hero headlines, section headings, cards, or any block that should fade/slide in as it enters the viewport.
+ * @dontUse    For critical above-the-fold content that must render instantly — the element starts hidden (opacity-0). Also skip for continuous loops — use <Float> instead.
+ *
+ * @limits
+ *   - threshold: 0–1 (fraction of element visible before triggering)
+ *   - delay / duration: milliseconds
+ *   - stagger: ms between child reveals; children must be wrapped in <AnimateChild>
+ *
+ * @forbidden
+ *   - Do NOT nest AnimateOnScroll inside another AnimateOnScroll — use `stagger` + <AnimateChild> instead
+ *   - Do NOT override opacity/transform via `className` — it will fight the animation state
+ */
 export function AnimateOnScroll({
   children,
   animation = "fade-up",

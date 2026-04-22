@@ -4,6 +4,7 @@ import { Text } from "@/components/library-design/ui/Text";
 import { GradientBackground } from "@/components/library-design/ui/GradientBackground";
 import { FloatingCard } from "@/components/library-design/ui/FloatingCard";
 import { Float } from "@/components/library-design/ui/Float";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * CtaFrame
@@ -35,6 +36,9 @@ export function CtaFrame({
   children,
   className,
 }: CtaFrameProps) {
+  assertMaxLength("CtaFrame", "title", title, 80);
+  assertMaxLength("CtaFrame", "subtitle", subtitle, 220);
+
   return (
     <section
       className={cn("relative w-full overflow-hidden", className)}

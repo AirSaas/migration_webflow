@@ -322,7 +322,7 @@ export default function PmoToolPage() {
           imagePosition="right"
           title="Partagez simplement les roadmaps à toute l'organisation"
           subtitle="Une roadmap, ça bouge, ça vit, c'est un élément clé pour aligner le top management en continu. Avec AirSaas, plus besoin de faire des PowerPoints à rallonge : l'information est centralisée, partageable et sympa à visualiser (parce que quand c'est beau, c'est quand même plus impactant)."
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Portfolio+Timeline"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Portfolio+Timeline" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -337,7 +337,7 @@ export default function PmoToolPage() {
             "Quels sont les jalons qui nous plombent ? Peut-on les découper ?",
             "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?",
           ]}
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Capacity+Marketing"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Capacity+Marketing" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -348,7 +348,7 @@ export default function PmoToolPage() {
           imagePosition="right"
           title="Chaque directeur définit ses prios"
           subtitle="Demandez aux directeurs de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix. C'est simple, transparent et puissant."
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Priorisation"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Priorisation" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -358,7 +358,7 @@ export default function PmoToolPage() {
           imagePosition="left"
           title="Diffusez un cadrage projet standardisé"
           subtitle="Remplissez les fiches cadrage de projet de manière collaborative, et guidez vos collaborateurs vers un véritable niveau d'excellence en gestion de projet. À vous une culture projet homogénéisée !"
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Cadrage+Projet"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Cadrage+Projet" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -390,7 +390,7 @@ export default function PmoToolPage() {
               </p>
             </>
           }
-          imageSrc="https://placehold.co/1125x731/e8eafc/3a51e2?text=Newsletter+Sponsor"
+          imageSrc="https://placehold.co/1125x731/e8eafc/3a51e2?text=Newsletter+Sponsor" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -400,7 +400,7 @@ export default function PmoToolPage() {
           imagePosition="right"
           title="Votre reporting projet en un clic"
           subtitle="Générez votre reporting flash en un seul clic, et homogénéisez vos présentations, pour faciliter la prise de décision. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance."
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Flash+Report"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Flash+Report" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -410,7 +410,7 @@ export default function PmoToolPage() {
           imagePosition="left"
           title="Fluidifiez votre prise de décisions importantes et urgentes"
           subtitle="Centralisez vos décisions sous forme de Kanban, et partagez-les aisément avec toutes les parties prenantes de vos projets. Finies les informations perdues dans vos mails ou flux de discussions instantanées !"
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Portfolio+Decisions"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Portfolio+Decisions" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -421,7 +421,7 @@ export default function PmoToolPage() {
           imagePosition="right"
           title="Impliquez simplement les chefs de projet"
           subtitle='En 5 minutes par semaine par projet, les chefs de projets remontent les informations cruciales pour le suivi : jalon, décision à prendre, point d&apos;attention. Évitez les réunions « informationnelles » et les rush de dernière minute pour faire un reporting.'
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Project+Page"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Project+Page" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -431,7 +431,7 @@ export default function PmoToolPage() {
           imagePosition="left"
           title="Animez clairement et simplement vos CoPil"
           subtitle="Pilotez par la décision : pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n'avez pas la bonne information."
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=CoPil+Decisions"
+          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=CoPil+Decisions" imageAlt=""
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
@@ -465,7 +465,7 @@ export default function PmoToolPage() {
           imagePosition="right"
           title="Grâce à sa marketplace AirSaas s'intègre nativement à vos outils du quotidien"
           subtitle="Centralisez toutes vos informations cruciales (tickets, jalons…) depuis vos outils de gestion de tâches sur AirSaas, et diffusez-les via vos canaux de communication interne. Tout le monde est au diapason, et vous gouvernez de manière optimale."
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Automation+Integrations"
+          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Automation+Integrations" imageAlt=""
         />
       </AnimateOnScroll>
 

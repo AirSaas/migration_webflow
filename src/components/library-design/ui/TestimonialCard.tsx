@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Text } from "./Text";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * TestimonialCard
@@ -80,6 +81,10 @@ export function TestimonialCard({
   linkedinHref,
   className,
 }: TestimonialCardProps) {
+  assertMaxLength("TestimonialCard", "quote", quote, 220);
+  assertMaxLength("TestimonialCard", "name", name, 30);
+  assertMaxLength("TestimonialCard", "role", role, 45);
+
   const initials = name
     .split(" ")
     .map((w) => w[0])

@@ -175,6 +175,9 @@ const RULE_EXCEPTIONS = {
   "src/components/library-design/sections/FaqFrame.tsx": ["no-inline-fontSize", "no-arbitrary-color-or-text"],
   // ComparisonDualFrame — same 4.8rem gradient numbers + 1.6875rem pill labels as ListCard/HomePage
   "src/components/library-design/sections/ComparisonDualFrame.tsx": ["no-inline-fontSize"],
+  // EmptyState / ErrorBoundary — 3rem emoji-icon sizing (one-off decorative glyph, not body typography)
+  "src/components/library-design/ui/EmptyState.tsx": ["no-inline-fontSize"],
+  "src/components/library-design/ui/ErrorBoundary.tsx": ["no-inline-fontSize"],
   "src/components/library-design/sections/PillarFrame.tsx": ["no-inline-fontSize", "no-arbitrary-color-or-text"],
   "src/components/library-design/sections/Hero.tsx": ["no-inline-fontSize", "no-arbitrary-color-or-text"],
   "src/components/library-design/sections/Footer.tsx": ["no-inline-fontSize", "no-arbitrary-color-or-text"],

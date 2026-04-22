@@ -3,6 +3,7 @@ import { Button, type ButtonVariant, type ButtonSize } from "@/components/librar
 import { Heading } from "./Heading";
 import { Text } from "./Text";
 import { GradientText } from "./GradientText";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * CardCta
@@ -47,6 +48,10 @@ export function CardCta({
   ctaSize = "sm",
   className,
 }: CardCtaProps) {
+  assertMaxLength("CardCta", "title", title, 30);
+  assertMaxLength("CardCta", "description", description, 100);
+  assertMaxLength("CardCta", "ctaLabel", ctaLabel, 18);
+
   const useGradient = gradient !== "none";
 
   return (

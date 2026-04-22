@@ -26,9 +26,15 @@ const variantMap = {
 };
 
 /**
- * Circular badge hosting a large duotone icon — used in
- * <IconRowFrame> and similar sections where icons are the
- * main visual element.
+ * IconBadge
+ *
+ * @purpose    Circular badge hosting a large duotone icon — the main visual anchor in icon-led sections.
+ * @useWhen    Inside <IconRowFrame>, feature grids, or anywhere a headline is introduced by a prominent circular icon.
+ * @dontUse    For small inline icons (list bullets, button icons) — use <ListInline> or raw icon components. For sharp-cornered icon tiles, use <IconIllustration>.
+ *
+ * @limits
+ *   - variant: "light" (primary-10 bg, primary-40 icon) | "solid" (translucent white on dark sections)
+ *   - size: "md" (5rem) | "lg" (6.5rem)
  */
 export function IconBadge({
   children,

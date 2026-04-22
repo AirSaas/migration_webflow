@@ -604,7 +604,7 @@ export default function HomePage() {
           titleHighlight="Partagez"
           title="simplement les roadmaps à toute l'organisation"
           subtitle="Une roadmap, ça bouge, ça vit, c'est un élément clé pour aligner le top management en continu. Avec AirSaas, plus besoin de faire des PowerPoints à rallonge : l'information est centralisée, partageable et sympa à visualiser (parce que quand c'est beau, c'est quand même plus impactant)."
-          imageSrc="/assets/screenshots/1_timeline.webp"
+          imageSrc="/assets/screenshots/1_timeline.webp" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -633,7 +633,7 @@ export default function HomePage() {
           titleHighlight="Chaque directeur définit"
           title="ses prios"
           subtitle="Demandez aux directeurs de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix. C'est simple, transparent et puissant."
-          imageSrc="/assets/screenshots/3_prioritization.webp"
+          imageSrc="/assets/screenshots/3_prioritization.webp" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -644,7 +644,7 @@ export default function HomePage() {
           titleHighlight="Diffusez"
           title="un cadrage projet standardisé"
           subtitle="Remplissez les fiches cadrage de projet de manière collaborative, et guidez vos collaborateurs vers un véritable niveau d'excellence en gestion de projet. À vous une culture projet homogénéisée !"
-          imageSrc="/assets/screenshots/4_scope.webp"
+          imageSrc="/assets/screenshots/4_scope.webp" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -687,7 +687,7 @@ export default function HomePage() {
           titleHighlight="Votre reporting projet"
           title="en un clic"
           subtitle="Générez votre reporting flash en un seul clic, et homogénéisez vos présentations, pour faciliter la prise de décision. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance."
-          imageSrc="/assets/screenshots/5_flash_report.webp"
+          imageSrc="/assets/screenshots/5_flash_report.webp" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -698,7 +698,7 @@ export default function HomePage() {
           titleHighlight="Fluidifiez"
           title="votre prise de décisions importantes et urgentes"
           subtitle="Centralisez vos décisions sous forme de Kanban, et partagez-les aisément avec toutes les parties prenantes de vos projets. Finies les informations perdues dans vos mails ou flux de discussions instantanées !"
-          imageSrc="/assets/screenshots/6_decisions.webp"
+          imageSrc="/assets/screenshots/6_decisions.webp" imageAlt=""
         />
       </AnimateOnScroll>
 
@@ -761,7 +761,7 @@ export default function HomePage() {
             {customerCards.map((c, i) => (
               <ClientCard
                 key={i}
-                avatarSrc={`https://placehold.co/90x90/e8eafc/3a51e2?text=${c.name.split(" ").map(n => n[0]).join("")}`}
+                avatarSrc={`https://placehold.co/90x90/e8eafc/3a51e2?text=${c.name.split(" ").map(n => n[0]).join("")} avatarAlt=""`}
                 name={c.name}
                 jobTitle={c.jobTitle}
                 companyName={c.companyName}

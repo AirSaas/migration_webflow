@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { type CSSProperties } from "react";
 import { Text } from "./Text";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
  * TestimonialCompanyCard
@@ -25,7 +26,7 @@ interface TestimonialCompanyCardProps {
   /** Company logo image URL */
   logoSrc: string;
   /** Company logo alt text */
-  logoAlt?: string;
+  logoAlt: string;
   /**
    * Card width. Accepts any CSS length.
    * @default "100%" (fills the parent cell, capped by `maxWidth`)
@@ -58,12 +59,14 @@ function QuoteIcon() {
 export function TestimonialCompanyCard({
   quote,
   logoSrc,
-  logoAlt = "",
+  logoAlt,
   width = "100%",
   maxWidth = "29.375rem",
   className,
   style: externalStyle,
 }: TestimonialCompanyCardProps) {
+  assertMaxLength("TestimonialCompanyCard", "quote", quote, 220);
+
   return (
     <article
       className={cn(

@@ -82,7 +82,7 @@ export interface HeroProps {
   bottomTags?: HeroTag[];
   /** Product screenshot/illustration path */
   imageSrc?: string;
-  imageAlt?: string;
+  imageAlt: string;
   /** Optional Tailwind className override for the IllustrationFrame element.
    *  Default: "max-w-[94.8125rem] w-full". */
   imageClassName?: string;
@@ -111,7 +111,7 @@ export function Hero({
   secondaryCta,
   bottomTags,
   imageSrc,
-  imageAlt = "",
+  imageAlt,
   imageClassName = "max-w-[94.8125rem] w-full",
   imageWrapperClassName = "px-4 md:px-8 lg:px-16",
   className,

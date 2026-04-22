@@ -45,6 +45,9 @@
 | 41 | GTM + Axeptio au Step 9 | Analytics et cookies en dernier |
 | 42 | Hero variant = `dark` si fond couleur de marque sur Webflow | `light` par défaut, `dark` quand le hero du Webflow a un fond primary/azul/gradient sombre (ex: `/produit/priorisation-par-equipes`) |
 | 43 | Hero layout = `centered` par défaut, `split` si texte + image côte à côte | `centered` pour pages marketing produit/solution (texte centré + illustration dessous). `split` pour pages techniques/profondes (integrations, docs, comparatifs) |
+| 44 | **Dark mode : out-of-scope v1** | Site marketing B2B light-mode only (même pattern que Notion/Linear/Figma pour leur site marketing). À réévaluer si (a) l'app produit passe en dark et une parité marketing est demandée, (b) signal client explicite, (c) A/B test de conversion le justifie. Coût estimé : 1-2j (duplication palette + `@media prefers-color-scheme` + re-baseline Playwright). |
+| 45 | **Alt text obligatoire (TypeScript)** | Tous les props `alt` / `imageAlt` / `avatarAlt` / `logoAlt` / `authorAvatarAlt` sont `string` (non optionnels). Les images purement décoratives passent `alt=""` explicitement. Force le dev à prendre une décision a11y à chaque usage. |
+| 46 | **`<Skeleton>` / `<EmptyState>` / `<ErrorBoundary>` disponibles mais rarement utilisés** | Le site est 100% SSG — la plupart des pages n'ont pas de state loading/empty/error visible. Composants fournis pour les zones client-side futures (recherche blog, forms async, widgets tiers). Règle : ne pas les importer par réflexe, seulement quand un vrai state existe. |
 
 ## Hero — Décision rapide (décembre 2025)
 

@@ -65,7 +65,7 @@ interface FeatureFrameProps {
   ctaHref?: string;
   /** Screenshot/illustration source */
   imageSrc?: string;
-  imageAlt?: string;
+  imageAlt: string;
   /** Background color of the illustration frame */
   imageBgColor?: string;
   className?: string;
@@ -85,7 +85,7 @@ export function FeatureFrame({
   ctaLabel,
   ctaHref = "#",
   imageSrc,
-  imageAlt = "",
+  imageAlt,
   imageBgColor,
   className,
 }: FeatureFrameProps) {
