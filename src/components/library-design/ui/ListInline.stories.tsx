@@ -34,3 +34,21 @@ export const AllVariants: Story = {
     </div>
   ),
 };
+
+/** Multi-line items — verifies the icon stays top-aligned with the first text line
+ *  (not centered in the 2+ line block). */
+export const MultiLine: Story = {
+  render: () => (
+    <div className="flex flex-col gap-[0.625rem] max-w-[28rem]">
+      <ListInline>
+        Peut-on faire plus de projets&nbsp;? Faut-il en enlever&nbsp;?
+      </ListInline>
+      <ListInline>
+        Quels sont les jalons qui nous plombent&nbsp;? Peut-on les d&eacute;couper&nbsp;?
+      </ListInline>
+      <ListInline>
+        Doit-on recruter ou mettre l&apos;&eacute;quipe en tension&nbsp;? Pendant combien de temps&nbsp;?
+      </ListInline>
+    </div>
+  ),
+};

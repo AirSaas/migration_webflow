@@ -32,7 +32,7 @@ export function ListInline({
 }: ListInlineProps) {
   return (
     <div
-      className={cn("flex items-center gap-[0.4rem]", className)}
+      className={cn("flex items-start gap-[0.4rem]", className)}
     >
       {icon ?? <CheckCircleIcon />}
       <span
