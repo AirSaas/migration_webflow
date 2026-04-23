@@ -28,13 +28,13 @@
 
 | Phase | Titre | Statut | Commits | Notes |
 |---|---|---|---|---|
-| 0.1 | Create `StepsFrame` | ✅ done | Phase 0 commit | 3-5 steps, dashed connector lg, light/dark |
-| 0.2 | Create `RelatedSolutionsFrame` | ✅ done | Phase 0 commit | 3-5 cards image+title+desc+link, cols 3/4/5 |
-| 0.3 | Create `ClientsFrame` | ✅ done | Phase 0 commit | 6-12 ClientCards, cols 3/4 |
-| 0.4 | Fix `SliderFrame` @limits 5→8 | ✅ done | Phase 0 commit | JSDoc + assertArrayBounds updated |
-| 0.5 | Regen `ds-components-reference.md` | ✅ done | Phase 0 commit | Fixed hardcoded path in script, ran `python3 scripts/generate-ds-reference.py` → 34 UI + 24 sections, 0 missing contracts |
-| 1 | Capture live content 26 pages | ⏳ pending | — | — |
-| 2 | Download images 26 pages | ⏳ pending | — | — |
+| 0.1 | Create `StepsFrame` | ✅ done | 04117ad | 3-5 steps, dashed connector lg, light/dark |
+| 0.2 | Create `RelatedSolutionsFrame` | ✅ done | 04117ad | 3-5 cards image+title+desc+link, cols 3/4/5 |
+| 0.3 | Create `ClientsFrame` | ✅ done | 04117ad | 6-12 ClientCards, cols 3/4 |
+| 0.4 | Fix `SliderFrame` @limits 5→8 | ✅ done | 04117ad | JSDoc + assertArrayBounds updated |
+| 0.5 | Regen `ds-components-reference.md` | ✅ done | 04117ad | Fixed hardcoded path in script, ran `python3 scripts/generate-ds-reference.py` → 34 UI + 24 sections, 0 missing contracts |
+| 1 | Capture live content 26 pages | ✅ done | (à commit) | 26 pages captured. Output: `docs/live-captures/{type}/{slug}.{json,md,png}`. Script : `scripts/capture-live-pages.mjs` |
+| 2 | Download images 26 pages | ✅ done | (à commit) | 213 images uniques. Output: `public/assets/pages/{type}/{slug}/`. Script : `scripts/download-page-images.mjs` |
 | 3.A | Build 6 Produit + verif | ⏳ pending | — | — |
 | 3.B | Build 4 LP + verif | ⏳ pending | — | — |
 | 3.C | Build 4 Équipes + verif | ⏳ pending | — | — |
@@ -51,44 +51,44 @@ Légende : ⏳ pending · 🔄 in progress · ✅ done · ⚠️ blocked · ❌ 
 ### Produit (6)
 | Slug | Capture | Images | Build | Verif | Notes |
 |---|---|---|---|---|---|
-| `capacity-planning` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `priorisation-par-equipes` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `reporting-projet` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `automatiser-la-com-projet` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `budget` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `traduction-one-click-avec-deepl` | ⏳ | ⏳ | ⏳ | ⏳ | — |
+| `capacity-planning` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `priorisation-par-equipes` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `reporting-projet` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `automatiser-la-com-projet` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `budget` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `traduction-one-click-avec-deepl` | ✅ | ✅ | ⏳ | ⏳ | — |
 
 ### Landing Pages (4)
 | Slug | Capture | Images | Build | Verif | Notes |
 |---|---|---|---|---|---|
-| `ppm` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `pmo` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `capacity-planning` | ⏳ | ⏳ | ⏳ | ⏳ | 2× how-it-works |
-| `pi-planning` | ⏳ | ⏳ | ⏳ | ⏳ | + comparisons |
+| `ppm` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `pmo` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `capacity-planning` | ✅ | ✅ | ⏳ | ⏳ | 2× how-it-works |
+| `pi-planning` | ✅ | ✅ | ⏳ | ⏳ | + comparisons |
 
 ### Équipes (4)
 | Slug | Capture | Images | Build | Verif | Notes |
 |---|---|---|---|---|---|
-| `outil-pmo` | ⏳ | ⏳ | ⏳ | ⏳ | + highlight-zigzag |
-| `direction-de-la-transformation` | ⏳ | ⏳ | ⏳ | ⏳ | DAKI pattern |
-| `comite-direction` | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `it-et-operation` | ⏳ | ⏳ | ⏳ | ⏳ | + 4 podcasts |
+| `outil-pmo` | ✅ | ✅ | ⏳ | ⏳ | + highlight-zigzag |
+| `direction-de-la-transformation` | ✅ | ✅ | ⏳ | ⏳ | DAKI pattern |
+| `comite-direction` | ✅ | ✅ | ⏳ | ⏳ | — |
+| `it-et-operation` | ✅ | ✅ | ⏳ | ⏳ | + 4 podcasts |
 
 ### Solution (12)
 | Slug | Sous-type | Capture | Images | Build | Verif | Notes |
 |---|---|---|---|---|---|---|
-| `management-de-portefeuille-projet` | A | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `flash-report-projet` | A | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `flash-report` | A | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `revue-de-portefeuille` | A | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `tableau-de-bord-portefeuille-de-projet` | A | ⏳ | ⏳ | ⏳ | ⏳ | — |
-| `portfolio-management` | B | ⏳ | ⏳ | ⏳ | ⏳ | ClientsFrame 9 |
-| `tableau-de-bord-dsi` | C | ⏳ | ⏳ | ⏳ | ⏳ | long-form |
-| `tableau-de-bord-gestion-de-projet` | C | ⏳ | ⏳ | ⏳ | ⏳ | 5 cards top |
-| `gestion-portefeuille-projet` | B | ⏳ | ⏳ | ⏳ | ⏳ | ClientsFrame + CompareTable |
-| `outils-de-pilotage-projet` | B | ⏳ | ⏳ | ⏳ | ⏳ | long-form |
-| `outil-ppm` | B | ⏳ | ⏳ | ⏳ | ⏳ | 5 cards top |
-| `airsaas-et-les-experts-de-la-transfo` | outlier | ⏳ | ⏳ | ⏳ | ⏳ | 2× Slider 6 imgs |
+| `management-de-portefeuille-projet` | A | ✅ | ✅ | ⏳ | ⏳ | — |
+| `flash-report-projet` | A | ✅ | ✅ | ⏳ | ⏳ | — |
+| `flash-report` | A | ✅ | ✅ | ⏳ | ⏳ | — |
+| `revue-de-portefeuille` | A | ✅ | ✅ | ⏳ | ⏳ | — |
+| `tableau-de-bord-portefeuille-de-projet` | A | ✅ | ✅ | ⏳ | ⏳ | — |
+| `portfolio-management` | B | ✅ | ✅ | ⏳ | ⏳ | ClientsFrame 9 |
+| `tableau-de-bord-dsi` | C | ✅ | ✅ | ⏳ | ⏳ | long-form |
+| `tableau-de-bord-gestion-de-projet` | C | ✅ | ✅ | ⏳ | ⏳ | 5 cards top |
+| `gestion-portefeuille-projet` | B | ✅ | ✅ | ⏳ | ⏳ | ClientsFrame + CompareTable |
+| `outils-de-pilotage-projet` | B | ✅ | ✅ | ⏳ | ⏳ | long-form |
+| `outil-ppm` | B | ✅ | ✅ | ⏳ | ⏳ | 5 cards top |
+| `airsaas-et-les-experts-de-la-transfo` | outlier | ✅ | ✅ | ⏳ | ⏳ | 2× Slider 6 imgs |
 
 ---
 
@@ -100,7 +100,29 @@ Légende : ⏳ pending · 🔄 in progress · ✅ done · ⚠️ blocked · ❌ 
 - Tasks créées (Phase 0.1 → 5)
 - Tracker MD créé (ce fichier)
 
-### 2026-04-23 — Phase 0 Done (DS extensions)
+### 2026-04-23 — Phase 1 DONE — Capture live content
+- Script `scripts/capture-live-pages.mjs` écrit → chromium Playwright + JSON/MD/PNG par page
+- **26/26 captures terminées** ✅
+- Output : `docs/live-captures/{type}/{slug}.{json,md,png}`
+
+**Finding important** : 7 Page components DS existent déjà dans `src/components/pages/` (HomePage + 6 pages) :
+- `CapacityPlanningPage.tsx` → topTag "Capacity Planning simplifié" → match `/lp/capacity-planning` (PAS `/produit/capacity-planning` !)
+- `PmoToolPage.tsx` → "Outil PPM pour PMO moderne" → match `/lp/pmo`
+- `OutilsPilotageProjetPage.tsx` → "Outils de pilotage projet" → match `/solution/outils-de-pilotage-projet`
+- `PriorisationEquipesPage.tsx` → "Priorisation par équipes" → match `/produit/priorisation-par-equipes`
+- `RevuePortefeuillePage.tsx` → "Revue de portefeuille" → match `/solution/revue-de-portefeuille`
+- `TraductionOneClickPage.tsx` → "Traduction one-click avec DeepL" → match `/produit/traduction-one-click-avec-deepl`
+- **Aucun n'est wired à une route.** Ce sont juste des templates/stories.
+- Reste donc 20 pages à build from scratch + 6 pages à valider/updater & wire up.
+
+### 2026-04-23 — Phase 2 DONE — Download images
+- Script `scripts/download-page-images.mjs` écrit
+- **213 images uniques** téléchargées (26/26 pages, 0 failed)
+- Output : `public/assets/pages/{type}/{slug}/`
+- Sizes : produit 3.6M, lp 4.9M, equipes 3.5M, solution 12M (total ~24MB)
+- Chaque `docs/live-captures/{type}/{slug}.json` contient maintenant `localPath` pour chaque image
+
+### 2026-04-23 — Phase 0 Done (DS extensions) — commit `04117ad`
 - `StepsFrame` créé + story : 3-5 steps numérotés + connector dashed lg + dark variant
 - `RelatedSolutionsFrame` créé + story : 3-5 cards image+H4+desc+link, cols 3/4/5
 - `ClientsFrame` créé + story : 6-12 ClientCards, cols 3/4
@@ -108,6 +130,8 @@ Légende : ⏳ pending · 🔄 in progress · ✅ done · ⚠️ blocked · ❌ 
 - `scripts/generate-ds-reference.py` fixed (hardcoded path → relative)
 - `docs/ds-components-reference.md` regen : 34 UI + 24 sections, 0 missing
 - `node scripts/ds-audit.mjs` → ✅ clean
+- 5 DS violations fixed (inline fontSize + arbitrary leading) → refactor vers `<Heading>` / `<Text>` primitives dans StepsFrame + RelatedSolutionsFrame
+- Husky pre-commit hook ✅ passé
 
 ---
 

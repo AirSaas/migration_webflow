@@ -1,0 +1,355 @@
+{
+  "url": "https://airsaas.io/produit/priorisation-par-equipes",
+  "type": "produit",
+  "slug": "priorisation-par-equipes",
+  "capturedAt": "2026-04-23T13:33:43.363Z",
+  "meta": {
+    "title": "Priorisation par équipes",
+    "description": "Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver. Tout le monde y va de ses projets \"urgentissimes\" et remplir la roadmap des prochains trimestres se fait finalement en fonction de celui qui parle le plus fort ou celui le plus copain avec le DG",
+    "ogTitle": "Priorisation par équipes",
+    "ogDescription": "Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver. Tout le monde y va de ses projets \"urgentissimes\" et remplir la roadmap des prochains trimestres se fait finalement en fonction de celui qui parle le plus fort ou celui le plus copain avec le DG"
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "La priorisation des projets, par équipe en demande",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver. Tout le monde y va de ses projets \"urgentissimes\", et remplir la roadmap des prochains trimestres se fait finalement en fonction de celui qui parle le plus fort ou celui le plus copain avec le DG.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "La manière la plus simple d'y voir clair",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Réduisez la complexité en demandant à chaque responsable d'équipe de prioriser de son côté. Impossible de mettre 5 projets en Top 1 :chacun a une priorité de 1 à 100 pour enfin savoir ce qui est vraiment prioritaire.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Chaque équipe définie ses prios",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Demandez aux responsables de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Soyez notifié lorsque les priorités changent",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Gardez vos équipes alignées sur ce qui est prioritaire. Lorsqu'une priorité change, toute personne participant aux projets reçoit l'information.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Organisez la roadmap de façon éclairée",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Sur vos porfolios, affichez la priorité de chaque projet validée par l'équipe en demande. Cette information, couplée aux autres données de priorisation (budget, criticité, etc.) vous permet de faire des choix éclairés.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Vous voulez l'essayer ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Discutons-en et bénéficiez d'une démo sur mesure",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "Vos questions sur la priorisation AirSaas",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Comment je peux \"forcer\" un directeur à prioriser ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "C'est assez simple : si le projet n'a pas de priorisation, il n'apparait pas comme priorisé par le métier dans la roadmap. Ça aide :)",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Chaque directeur peut prioriser ses projets, mais comment priorise-t-on les projets en transverse ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pour pouvoir prioriser en transverse il faut trois choses. Que chaque responsable priorise ses besoins. Que la définition de ce qui est vital pour l'organisation soit partagée entre tous. D'un estimatif du temps homme et du gain potentiel de chaque projet. Cette fonctionnalité s'occupe du premier point.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Si on repriorise en cours de route comment ça se passe ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pas de souci : tout est transparent. Vous pouvez reprioriser en expliquant à tout le monde les raisons",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Nos solutions...",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Capacity planning : Pouvons-nous réellement faire ces projets ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à la vue Capacitaire, vous aurez les bases d’une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "h2",
+      "text": "Découvrez enfin le plaisir du reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Le rapport flash désormais en multilingue dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse tête dans les organisations multilingues...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07b7eeea99ee02f71c97_Prioritization%20per%20team%20ppt.webp",
+      "alt": "Priorisation team",
+      "width": 2011,
+      "height": 1314,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/663d07b7eeea99ee02f71c97_Prioritization-per-team-ppt.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp",
+      "alt": "Priorisation options",
+      "width": 1522,
+      "height": 1065,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/663d07a346b12e77e37ddd72_Prioritization-per-team-ppt-d-d.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07e315eb20b766f71fb9_Prioritization%20per%20team%20notification.webp",
+      "alt": "Priorisation notifications",
+      "width": 1522,
+      "height": 1065,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/663d07e315eb20b766f71fb9_Prioritization-per-team-notification.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646051756191ce3dc501429_Portfolio%20project%20priority.webp",
+      "alt": "Portfolio project priority",
+      "width": 1921,
+      "height": 1148,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/6646051756191ce3dc501429_Portfolio-project-priority.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657ac9c9d0af49e39d99585d_plus_icon.svg",
+      "alt": "more",
+      "width": 44,
+      "height": 47,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/657ac9c9d0af49e39d99585d_plus_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/66334ee7bcfcb0aa45802537_Capacity-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/produit/priorisation-par-equipes/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}

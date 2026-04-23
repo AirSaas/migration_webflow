@@ -1,0 +1,1146 @@
+{
+  "url": "https://airsaas.io/lp/pi-planning",
+  "type": "lp",
+  "slug": "pi-planning",
+  "capturedAt": "2026-04-23T13:35:06.793Z",
+  "meta": {
+    "title": "PI Planning : la vue business qui manque à Jira | AirSaas",
+    "description": "Miro + Jira + PowerBI, ce n'est pas comme ça qu'un RTE embarque les métiers. Synchronisez Jira, parlez enfin au Comex.",
+    "ogTitle": "PI Planning : la vue business qui manque à Jira | AirSaas",
+    "ogDescription": "Miro + Jira + PowerBI, ce n'est pas comme ça qu'un RTE embarque les métiers. Synchronisez Jira, parlez enfin au Comex."
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "Miro + Jira + PowerBI : ce n'est pas comme ça qu'un RTE embarque les métiers.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Synchronisez vos features Jira, nettoyez vos données, donnez une vue claire aux métiers et au Comex. Opérationnel en 1 PI, pas en 6 mois.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "▶️ Découvrir l’outil PI Planning en vidéo →",
+      "href": "/fr/video/pi-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Portfolio",
+      "href": "#w-tabs-0-data-w-pane-0"
+    },
+    {
+      "tag": "a",
+      "text": "Quarter plan",
+      "href": "#w-tabs-0-data-w-pane-1"
+    },
+    {
+      "tag": "a",
+      "text": "Capacitaire",
+      "href": "#w-tabs-0-data-w-pane-2"
+    },
+    {
+      "tag": "a",
+      "text": "Priorisation",
+      "href": "#w-tabs-0-data-w-pane-3"
+    },
+    {
+      "tag": "a",
+      "text": "Roadmap",
+      "href": "#w-tabs-0-data-w-pane-4"
+    },
+    {
+      "tag": "a",
+      "text": "Reporting",
+      "href": "#w-tabs-0-data-w-pane-5"
+    },
+    {
+      "tag": "h3",
+      "text": "+100 clients nous font confiance",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "PowerBI à maintenir",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Synchro native",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "pour être opérationnel",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "de temps reporting",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "⚠️ Le quotidien du RTE aujourd'hui",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le Program Board vit sur Miro pendant 2 jours. Après, c'est le chaos.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vous passez plus de temps à customiser Jira qu'à piloter votre train. Vous êtes devenu certifié Jira, pas certifié RTE.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les reports Jira sont moches. Et comme la donnée n'est pas clean, ça coûte cher d'en faire des vrais.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une feature pas finie en fin de PI ? Vous la décalez et perdez l'historique. Ou vous bricolez. Au bout de 3 PI, c'est le chaos.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les métiers ne se connectent pas à Jira. Et vous le savez.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vous êtes devenu expert Excel/PowerBI alors que votre job c'est de faire livrer.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "AirSaas : la couche business au-dessus de Jira",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "On ne remplace pas Jira. On le rend compréhensible pour les humains normaux.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Import Jira → Nettoyage → Vue claire",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vos données Jira sont sales ? Pas grave. Importez vos features, nettoyez et structurez dans AirSaas avant de finaliser. Vous gardez Jira pour les devs, vous avez enfin une vue propre pour les métiers.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Import des features Jira",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Nettoyage des données dans AirSaas (pas dans Jira)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Remontée des consommés et de la charge",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Synchro continue",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Sync Features Jira. Enlevez le bruit. Parlez initiatives.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vos features Jira remontent dans AirSaas. Les tickets et stories en dessous ? On les enlève du radar. Le Comex voit des initiatives business, pas du bruit technique.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Features Jira ↔ Features AirSaas (sync)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Tickets/stories masqués (zéro bruit)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Agrégation en initiatives lisibles",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Langage métier, pas langage dev",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Roadmap partageable aux sponsors",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vos sponsors ne se connectent pas à Jira. Partagez une roadmap dynamique via un lien sécurisé. Lecture seule, expiration configurable.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Lien sécurisé sans connexion requise",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vue temps réel (pas un export figé)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les métiers voient enfin la roadmap",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Fini les slides à mettre à jour",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "\"Peut-on prendre ce projet ?\" Enfin une réponse.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "La vélocité ne répond pas à la question du métier. Visualisez la charge vs capacité de chaque équipe sur les prochains PI. Répondez avec des données, pas au feeling.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vue capacité par équipe et par PI",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Alerte surcharge automatique",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "T-shirt sizing (S, M, L, XL)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Scénarios d'arbitrage",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Flash Report en 1 clic",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vous passiez 2 jours à construire des slides pour le Comex. Maintenant, vos données Jira génèrent un reporting business en 1 clic. Toujours à jour.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Données Jira → Reporting Comex automatique",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Format présentation ou export",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Personnalisable par audience",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Historique des versions",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Les objectifs PI ne disparaissent plus",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le PI Planning c'est 2 jours intenses... puis les objectifs disparaissent. Avec AirSaas, le suivi est continu. Vous savez où vous en êtes à tout moment.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Objectifs PI visibles en permanence",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Taux de delivery par PI",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Identification des blocages",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Amélioration continue cycle après cycle",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "IA pour découper vos initiatives",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "L'IA vous aide à découper vos initiatives en se basant sur vos équipes et leur vélocité passée. Fini les estimations au doigt mouillé.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Analyse de la vélocité historique par équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Suggestions de découpage réalistes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Prise en compte des compétences équipes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Estimations basées sur des données, pas du feeling",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Scénarios d'arbitrage avec l'IA",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Passez de \"roadmap figée\" à \"scénarios A/B/C\". L'IA structure ce qui manque, puis vous comparez les options en minutes : capacité consommée, délais, risques, valeur.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Comparaison visuelle des scénarios",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Impact sur la capacité en temps réel",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Arbitrages documentés et traçables",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Fonctionne même avec des données imparfaites",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Avant / Après AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le quotidien du RTE transformé.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Miro pour le PI Planning",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Suivi PI dynamique et persistant",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "PowerBI pour les dashboards",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Flash Report en 1 clic",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Excel pour la capacité",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vue capacitaire par équipe et par PI",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Jira pour les devs, rien pour les métiers",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Roadmap partageable aux sponsors",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "3 semaines pour un reporting",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "3 minutes pour un reporting",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Pourquoi pas Jira Align, PowerBI ou piplanning.io ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "On ne vous jette pas la pierre. Vous avez essayé. Voici pourquoi ça coince.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Jira Align",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "6 mois de déploiement. Prix délirant. Usine à gaz que seul le RTE utilise vraiment.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "PowerBI + Jira",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Maintenance infinie. Casse à chaque évolution workflow. Compétences BI requises.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "piplanning.io",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Super pour l'event PI Planning. Et après ? Rien pour le suivi, rien pour le Comex.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "AirSaas : 1 PI de setup, prix accessible, utilisé au quotidien par les équipes ET le Comex.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Ils ont arrêté le bricolage",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Sébastien Louyot",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "CIO, Altavia (3000 pers.)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas nous permet de piloter notre capacité à faire en transverse avec tous les métiers. Cela rend les arbitrages comex concrets et pragmatiques.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Questions fréquentes",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Ça remplace Jira ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Non. Jira reste votre outil de delivery pour les équipes. AirSaas est la couche business au-dessus : reporting, roadmap, capacité, communication avec les métiers et le Comex.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Ça marche avec plusieurs ARTs ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Oui. Vue consolidée multi-train. Chaque ART garde son autonomie, vous avez une vision globale pour le pilotage transverse.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Combien ça coûte ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Prix accessible. Parlons-en lors d'une démo.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Mes données Jira sont sales, c'est un problème ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Non. Vous importez vos features puis vous nettoyez et structurez dans AirSaas avant de finaliser. Pas besoin de faire le ménage dans Jira.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Combien de temps pour démarrer ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "1 PI pour être opérationnel. Pas 6 mois comme Jira Align. Accompagnement dédié par nos experts inclus.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Sécurité au top",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas passe la porte des DSI les plus exigeantes.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Nos solutions...",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Capacity planning : Pouvons-nous réellement faire ces projets ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à la vue Capacitaire, vous aurez les bases d’une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "h2",
+      "text": "Découvrez enfin le plaisir du reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Le rapport flash désormais en multilingue dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse tête dans les organisations multilingues...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "h2",
+      "text": "Arrêtez le bricolage. Embarquez enfin les métiers.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Rejoignez les RTE et PMO qui ont transformé leur pilotage.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Réserver une démo",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "30 min pour voir comment AirSaas simplifie votre pilotage de PI.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Choisir un créneau →",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h3",
+      "text": "Découvrir l’outil PI Planning en vidéo (5 min)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas pour les équipes SAFe, en action.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Voir la vidéo →",
+      "href": "/fr/video/pi-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69711e3ae21802032c430465_c1b65cdf770ece60290781d962789f65_check-circle.svg",
+      "alt": "14 day trial",
+      "width": 24,
+      "height": 24,
+      "localPath": "/assets/pages/lp/pi-planning/69711e3ae21802032c430465_c1b65cdf770ece60290781d962789f65_check-circle.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678557124f678e343b52b670_icon-portfolio-color.svg",
+      "alt": "",
+      "width": 20,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/678557124f678e343b52b670_icon-portfolio-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6785388795ddcbd9abca834d_icon-portfolio.svg",
+      "alt": "",
+      "width": 20,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/6785388795ddcbd9abca834d_icon-portfolio.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6785398968090c8c3bf64d90_icon-quarter-plan.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/6785398968090c8c3bf64d90_icon-quarter-plan.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67855725b0e15e8685feb59b_icon-capacity-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/67855725b0e15e8685feb59b_icon-capacity-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678538a1eec434b45123a22a_icon-capacity.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/678538a1eec434b45123a22a_icon-capacity.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868311c92e6b93598e36ff_icon-Priorisation.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/67868311c92e6b93598e36ff_icon-Priorisation.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868500077117c7399a63d7_icon-roadmap-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/67868500077117c7399a63d7_icon-roadmap-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678536ae01c45cf9fd18cbd5_icon-roadmap.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/678536ae01c45cf9fd18cbd5_icon-roadmap.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686557fa477c469417d74_icon-report-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/678686557fa477c469417d74_icon-report-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686620496c167acf94bd0_icon-report.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pi-planning/678686620496c167acf94bd0_icon-report.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65547ebafb400e80682f4459_arrow_down.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 48,
+      "height": 67,
+      "localPath": "/assets/pages/lp/pi-planning/65547ebafb400e80682f4459_arrow_down.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pi-planning/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pi-planning/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pi-planning/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pi-planning/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pi-planning/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 42,
+      "height": 13,
+      "localPath": "/assets/pages/lp/pi-planning/61fd68ee177ba19a9b23718a_guion.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6977664c7bb05c3fc8ffa40f_gear-icon.svg",
+      "alt": "",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/6977664c7bb05c3fc8ffa40f_gear-icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67e264d50a159c44c65fb6a2_update_icon.svg",
+      "alt": "percent AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/67e264d50a159c44c65fb6a2_update_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07032fd5d4c89add4bf_timer_icon-min.svg",
+      "alt": "budget AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/6555f07032fd5d4c89add4bf_timer_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69776771b30f2a4b36bd9af9_update_chart-line-down.svg",
+      "alt": "",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/69776771b30f2a4b36bd9af9_update_chart-line-down.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6351623d968681483ac1847e_guion-orange.svg",
+      "alt": "avec AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/lp/pi-planning/6351623d968681483ac1847e_guion-orange.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6481a14febfcd09672746347_outils-AirSaas-Jira2.png",
+      "alt": "Jira",
+      "width": 1397,
+      "height": 677,
+      "localPath": "/assets/pages/lp/pi-planning/6481a14febfcd09672746347_outils-AirSaas-Jira2.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659ffa347659957234f8d0ea_Portfolio%20projects%20kanban%20date-min.png",
+      "alt": "Portfolio",
+      "width": 969,
+      "height": 615,
+      "localPath": "/assets/pages/lp/pi-planning/659ffa347659957234f8d0ea_Portfolio-projects-kanban-date-min.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69723755551cb6f361ab8f4d_7be57ee9b39e8acfd6704c4479c49a6e_Roadmap%20page%20fr.webp",
+      "alt": "Roadmap",
+      "width": 971,
+      "height": 610,
+      "localPath": "/assets/pages/lp/pi-planning/69723755551cb6f361ab8f4d_7be57ee9b39e8acfd6704c4479c49a6e_Roadmap-page-fr.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69257da9e86301a387b7b761_quarter%20plan%20teams%20EN.webp",
+      "alt": "Capacity",
+      "width": 1230,
+      "height": 922,
+      "localPath": "/assets/pages/lp/pi-planning/69257da9e86301a387b7b761_quarter-plan-teams-EN.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
+      "alt": "Flash report",
+      "width": 1957,
+      "height": 1351,
+      "localPath": "/assets/pages/lp/pi-planning/65d742defe0bf46502743b11_Flash-report-export-modal.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "alt": "Capacity",
+      "width": 1949,
+      "height": 1274,
+      "localPath": "/assets/pages/lp/pi-planning/66334ee7bcfcb0aa45802537_Capacity-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697746f56686d9257b4bca36_AI%20Agent%20team.webp",
+      "alt": "Agent AI",
+      "width": 2414,
+      "height": 1569,
+      "localPath": "/assets/pages/lp/pi-planning/697746f56686d9257b4bca36_AI-Agent-team.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67973435cf37dd18cddcdffa_Page%20Scenarios%20FR.webp",
+      "alt": "Scenario",
+      "width": 1542,
+      "height": 1025,
+      "localPath": "/assets/pages/lp/pi-planning/67973435cf37dd18cddcdffa_Page-Scenarios-FR.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657af4b01b61e76c13f14d1c_xmark_icon.svg",
+      "alt": "sans AirSaas",
+      "width": 44,
+      "height": 46,
+      "localPath": "/assets/pages/lp/pi-planning/657af4b01b61e76c13f14d1c_xmark_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657af473126ec8e1d77a7308_check_icon.svg",
+      "alt": "avec AirSaas",
+      "width": 44,
+      "height": 46,
+      "localPath": "/assets/pages/lp/pi-planning/657af473126ec8e1d77a7308_check_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6977794c7aed903dafee7a69_Icon%20hourglass.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/6977794c7aed903dafee7a69_Icon-hourglass.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6977795d02abed92e1389a8c_Icon%20gear.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/6977795d02abed92e1389a8c_Icon-gear.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697779654d83d86f57b923d1_Icon%20calendar.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/697779654d83d86f57b923d1_Icon-calendar.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fc4f5c7aaa0397c28a50_Sebastien%20Louyot.jpg",
+      "alt": "Sebastien Louyot",
+      "width": 800,
+      "height": 800,
+      "localPath": "/assets/pages/lp/pi-planning/6971fc4f5c7aaa0397c28a50_Sebastien-Louyot.jpg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+      "alt": "",
+      "width": 75,
+      "height": 75,
+      "localPath": "/assets/pages/lp/pi-planning/66154e9586f923137ec7a754_linkedin-embed-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657ac9c9d0af49e39d99585d_plus_icon.svg",
+      "alt": "more",
+      "width": 44,
+      "height": 47,
+      "localPath": "/assets/pages/lp/pi-planning/657ac9c9d0af49e39d99585d_plus_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pi-planning/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/pi-planning/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/pi-planning/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/pi-planning/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/6971df86c8979b219e62aa57_Icon-bullseye-arrow.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df92ad8c9961f891111f_Icon%20video.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pi-planning/6971df92ad8c9961f891111f_Icon-video.svg"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/lp/pi-planning/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/lp/pi-planning/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "▶️ Découvrir l’outil PI Planning en vidéo →",
+      "href": "/fr/video/pi-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Portfolio",
+      "href": "#w-tabs-0-data-w-pane-0"
+    },
+    {
+      "tag": "a",
+      "text": "Quarter plan",
+      "href": "#w-tabs-0-data-w-pane-1"
+    },
+    {
+      "tag": "a",
+      "text": "Capacitaire",
+      "href": "#w-tabs-0-data-w-pane-2"
+    },
+    {
+      "tag": "a",
+      "text": "Priorisation",
+      "href": "#w-tabs-0-data-w-pane-3"
+    },
+    {
+      "tag": "a",
+      "text": "Roadmap",
+      "href": "#w-tabs-0-data-w-pane-4"
+    },
+    {
+      "tag": "a",
+      "text": "Reporting",
+      "href": "#w-tabs-0-data-w-pane-5"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Choisir un créneau →",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Voir la vidéo →",
+      "href": "/fr/video/pi-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}

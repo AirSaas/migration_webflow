@@ -1,0 +1,471 @@
+{
+  "url": "https://airsaas.io/produit/budget",
+  "type": "produit",
+  "slug": "budget",
+  "capturedAt": "2026-04-23T13:34:07.251Z",
+  "meta": {
+    "title": "Budget",
+    "description": "Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver. Tout le monde y va de ses projets \"urgentissimes\" et remplir la roadmap des prochains trimestres se fait finalement en fonction de celui qui parle le plus fort ou celui le plus copain avec le DG",
+    "ogTitle": "Budget",
+    "ogDescription": "Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver. Tout le monde y va de ses projets \"urgentissimes\" et remplir la roadmap des prochains trimestres se fait finalement en fonction de celui qui parle le plus fort ou celui le plus copain avec le DG"
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "Le suivi budgétaire de vos projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le budget, c’est un peu le GPS des projets du portfolio. Il permet de maintenir le cap, tout en évitant les dérives. C’est aussi un indicateur qui témoigne de la bonne avancée des projets. Gardez un œil dessus pour mieux contrôler les dépenses !",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "Un suivi facile sans prise de tête",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Avoir une photo en temps réel est essentiel à chaque phase du projet pour savoir où vous en êtes. Cela permet de faire son suivi budgétaire facilement et de le présenter à ses supérieurs en quelques clics directement depuis AirSaas.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Un cadrage simplifié avec un budget détaillé",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pour chaque projet en phase de cadrage, vos chefs de projets ajoutent plusieurs lignes de dépenses détaillées et classées en CAPEX et en OPEX pour anticiper les coûts et objectiver l’étape de validation.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Des rituels de suivi budgétaire puissants",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Brillez lors de vos points budgétaires !",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce au suivi des dépenses \"engagées\", \"consommées\" et \"atterrissage\" vous pourrez répondre à toutes les questions :",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Quels sont les dérapages à anticiper d'ici la fin du trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Sur quel programme a-t-on encore du budget disponible ?",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Comment justifier cette demande de rallonge ?",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Pourquoi a-t-on doublé les dépenses sur ce projet ?",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "À combien penses-tu atterrir d'ici la fin du semestre ?",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "C’est un vrai plus pour vos prochains arbitrages budgétaires",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Des vues consolidées à partager facilement",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Parce que le visuel, ça compte, vous pouvez enfin choisir le groupe de projets qui vous intéresse pour basculer sur la vue budgétaire et ainsi, obtenir une image plus parlante grâce aux graphiques. Ces vues consolidées sont facilement partageables avec les membres du COMEX lors des réunions.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Prenez en compte le coût humain des projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le coût humain est le plus important poste de dépense dans les budgets. Qu’il soit interne ou externe, ne l’oublions pas. Sur AirSaas renseigner les TJM des équipes et découvrez le coût humain de vos projets.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Des indicateurs pour piloter sereinement",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Suivre les budgets project, c’est bien, mais pour cela il faut pouvoir faire confiance à la “fraicheur” des données renseignées. Pour chaque ligne de dépense, la date de dernière mise à jour est visible. AirSaas vous propose également un indicateur de fiabilité pour un contrôle renforcé !",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Garder un œil sur les dépenses additionnelles",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Difficile de prévoir toutes les dépenses nécessaires lors de la création du budget en phase de cadrage ! Si de nouvelles dépenses apparaissent lors de la phase d’exécution, pas de souci ! Vous pouvez les ajouter à celles qui étaient déjà planifiées pour plus d’agilité, tout en gardant une trace de ce qui avait été validé lors du cadrage !",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Une personnalisation des dépenses adaptée à votre organisation",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas s’adapte à tous les types d’organisations pour que votre suivi budgétaire soit encore plus compréhensible ! Pour chaque dépense, vos chefs de projets peuvent renseigner un axe analytique. Vous pouvez ensuite accéder aux graphiques consolidés des dépenses projets par axe et ainsi découvrir les principaux postes de coûts. Si les axes analytiques proposés ne sont pas suffisants, pas de problème, vous pouvez ajouter les vôtres en un clic.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Les budgets sont un thème central en ce qui concerne la gestion de portefeuille projets.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Avec AirSaas, c’est simple de :",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Suivre les sommes des dépenses planifiées / engagées / consommées",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Anticiper les atterrissages de vos projets pour faire les arbitrages nécessaires",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Avoir une vision “temps réel” des budgets disponibles à ré-allouer",
+      "href": null
+    },
+    {
+      "tag": "li",
+      "text": "Découvrir la répartition des axes analytiques pour mieux conceptualiser vos dépenses",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Vous voulez l'essayer ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Discutons-en et bénéficiez d'une démo sur mesure",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "FAQ",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Est-il possible de modifier le budget planifié ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Oui… mais non. Une fois que le projet est validé au cadrage, la somme entrée en planifié ne change plus. Cependant, vous pouvez ajouter des nouvelles lignes de dépense si besoin. Un tag “modifié” apparaîtra alors sur la somme totale en planifié.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Qu’est-ce qui est visible en vues consolidées ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "La liste des projets avec leurs détails et les dates de mise à jour, les sommes Opex et Capex, et la répartition du budget par axes analytiques.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Nos solutions...",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Capacity planning : Pouvons-nous réellement faire ces projets ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à la vue Capacitaire, vous aurez les bases d’une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "h2",
+      "text": "Découvrez enfin le plaisir du reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Le rapport flash désormais en multilingue dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse tête dans les organisations multilingues...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbefc6521c27b9a3836ebc_Budget%20screen.webp",
+      "alt": "Budget page",
+      "width": 1949,
+      "height": 1314,
+      "localPath": "/assets/pages/produit/budget/66fbefc6521c27b9a3836ebc_Budget-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f323015aaa9b92b42e6397_ADD%20EXPENSES%20LINES.webp",
+      "alt": "ADD EXPENSES",
+      "width": 1944,
+      "height": 1264,
+      "localPath": "/assets/pages/produit/budget/66f323015aaa9b92b42e6397_ADD-EXPENSES-LINES.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f401cfa1c5e13cc3adf9a3_Budget%20graphics%20screen.webp",
+      "alt": "Des vues consolidées à partager facilement",
+      "width": 1949,
+      "height": 1413,
+      "localPath": "/assets/pages/produit/budget/66f401cfa1c5e13cc3adf9a3_Budget-graphics-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf0caa595317d71d53652_Teams%20budget.webp",
+      "alt": "Prenez en compte le coût humain des projets",
+      "width": 1949,
+      "height": 1029,
+      "localPath": "/assets/pages/produit/budget/66fbf0caa595317d71d53652_Teams-budget.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf0fe7414e2b3845dbb9f_Des%20indicateurs.webp",
+      "alt": "Des indicateurs pour piloter sereinement",
+      "width": 1949,
+      "height": 1314,
+      "localPath": "/assets/pages/produit/budget/66fbf0fe7414e2b3845dbb9f_Des-indicateurs.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf13616fcb88f01125d9b_Feed%20budget.webp",
+      "alt": "Garder un œil sur les dépenses additionnelles",
+      "width": 1951,
+      "height": 1274,
+      "localPath": "/assets/pages/produit/budget/66fbf13616fcb88f01125d9b_Feed-budget.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f327d0f3cd55dfdb3ad2d5_Analytical%20axes.webp",
+      "alt": "Analytical axes",
+      "width": 1436,
+      "height": 1302,
+      "localPath": "/assets/pages/produit/budget/66f327d0f3cd55dfdb3ad2d5_Analytical-axes.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657ac9c9d0af49e39d99585d_plus_icon.svg",
+      "alt": "more",
+      "width": 44,
+      "height": 47,
+      "localPath": "/assets/pages/produit/budget/657ac9c9d0af49e39d99585d_plus_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/budget/66334ee7bcfcb0aa45802537_Capacity-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/budget/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/budget/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/budget/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/produit/budget/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/produit/budget/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}

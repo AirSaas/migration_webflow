@@ -1,0 +1,1215 @@
+{
+  "url": "https://airsaas.io/lp/capacity-planning",
+  "type": "lp",
+  "slug": "capacity-planning",
+  "capturedAt": "2026-04-23T13:34:54.564Z",
+  "meta": {
+    "title": "Capacity Planning simplifié | AirSaas",
+    "description": "Visualisez la charge vs capacité de vos équipes. Répondez enfin à \"peut-on prendre ce projet ?\" avec des données, pas au feeling.",
+    "ogTitle": "Capacity Planning simplifié | AirSaas",
+    "ogDescription": "Visualisez la charge vs capacité de vos équipes. Répondez enfin à \"peut-on prendre ce projet ?\" avec des données, pas au feeling."
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "Vos équipes sont surchargées ? C'est normal : personne ne sait ce qu'elles peuvent vraiment faire.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire \"non\" avec des données, pas au feeling.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "📘 Découvrir le guide Capacity Planning",
+      "href": "/fr/livre-blanc/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Portfolio",
+      "href": "#w-tabs-0-data-w-pane-0"
+    },
+    {
+      "tag": "a",
+      "text": "Quarter plan",
+      "href": "#w-tabs-0-data-w-pane-1"
+    },
+    {
+      "tag": "a",
+      "text": "Capacitaire",
+      "href": "#w-tabs-0-data-w-pane-2"
+    },
+    {
+      "tag": "a",
+      "text": "Priorisation",
+      "href": "#w-tabs-0-data-w-pane-3"
+    },
+    {
+      "tag": "a",
+      "text": "Roadmap",
+      "href": "#w-tabs-0-data-w-pane-4"
+    },
+    {
+      "tag": "a",
+      "text": "Reporting",
+      "href": "#w-tabs-0-data-w-pane-5"
+    },
+    {
+      "tag": "h3",
+      "text": "Ils gèrent leur capacité avec AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "pour être opérationnel",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "projets lancés avec capacité",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "des projets on time & on budget",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "de l'idée au scénario",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "⚠️ Les vrais problèmes du capacity planning",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les outils existants sont trop complexes → personne ne les maintient",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vous avez un Excel à 1200 colonnes que vous seul comprenez",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Impossible de répondre à : \"Peut-on prendre ce projet ?\"",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vos prévisions sont précisément fausses plutôt qu'approximativement justes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le PMO devrait gérer la capacité. Mais il est saturé par le quotidien pour s'en occuper.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "De l'idée floue à un projet positionné, ça prend des mois. Réunions, allers-retours, estimations au doigt mouillé...",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Agent IA Brief projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Quand une demande arrive floue (\"on veut un truc\"), l'agent IA mène l'entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Entretien guidé par l'IA",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Brief structuré selon vos templates",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Demandes comparables entre elles",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Dites non plus tôt, lancez moins de projets... mais mieux",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Agent IA Découpage projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "L'IA découpe automatiquement vos projets par quarter et par équipe. Elle connaît vos équipes : ce qu'elles savent faire, ce qu'elles ne font pas, leur vélocité passée.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Découpage par quarter et par équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Adapté aux compétences de chaque équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Basé sur la vélocité historique",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Suggestions réalistes, pas théoriques",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "🚀 De l'idée au scénario : 10 minutes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Avant, ça prenait des mois. Maintenant, les 3 agents IA font le travail.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Idée floue",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Brief",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Découpage",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Estimation",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Scénario en 10 min",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Vue capacitaire par équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "En un clin d'œil, voyez si vos équipes sont dans les clous ou dans les choux. La base d'une discussion pragmatique pour arbitrer.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vue par équipe et par trimestre",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Alerte surcharge automatique",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Drill-down par projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Comparaison capacité vs charge",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Voir la capacité future des équipes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Combien de jours vos équipes peuvent-elles vraiment consacrer aux projets le trimestre prochain ? Tant que vous ne le savez pas, vous décidez à l'aveugle.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Capacité par équipe et globale",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Projection sur 1, 2 ou 3 trimestres",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Portefeuille au-dessus ou en dessous de la capacité ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Arbitrer, décaler ou arrêter avant de créer de la friction",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "T-shirt sizing : S, M, L, XL",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pas de micro-estimation à la demi-journée qui sera fausse demain. On estime au livrable, pas à la tâche. Approximativement juste plutôt que précisément faux.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Estimation rapide et réaliste",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Conversion en jours configurable",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ou saisie directe si vous préférez",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pas de micro-management",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Testez des scénarios avant de décider",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Que se passe-t-il si on décale ce projet ? Si on ajoute celui-là ? Visualisez l'impact en temps réel. Drag & drop des projets sur la timeline.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Drag & drop des projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Impact temps réel sur la charge",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Comparaison scénarios A/B/C",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Export PDF des scénarios",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "KPI : Taux d'avancement du Quarter Plan",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "L'écart entre ce qu'on s'est engagé à livrer et ce qui est réellement livré à la fin du trimestre. Sans ce KPI, impossible d'améliorer cycle après cycle.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "10%, 50% ou 100% de l'engagement ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ce qui a bloqué identifié",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Amélioration du delivery rate",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "KPI objectif pour le Comex",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Par équipe, pas par personne",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Arrêtez de faire des plannings individuels. Raisonnez à l'échelle de l'équipe. Découpez par compétences homogènes : Data, Sécurité, Frontend...",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Équipe = groupe de compétences",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Capacité déclarée par équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pas de planning individuel à maintenir",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Focus sur le build, pas le micro",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Notre parti pris",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "\"Approximativement juste plutôt que précisément faux\"",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Macro, pas micro",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Capacitaire au trimestre, par équipe. Pas à la tâche et à la personne.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Maintenable",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Parce qu'un capacitaire trop précis finit toujours à la poubelle.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Actionnable",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Répondez enfin à \"peut-on prendre ce projet ?\" avec des données.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Ils ont simplifié leur capacity planning",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Sébastien Louyot",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "CIO, Altavia (3000 pers.)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas nous permet de piloter notre capacité à faire en transverse avec tous les métiers. Cela rend les arbitrages comex concrets et pragmatiques.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Aurore Butrot",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "DSI, Groupe Intuis",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Enfin on peut répondre clairement à \"peut-on prendre ce projet ?\" sans passer 2 heures sur Excel.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas passe la porte des DSI les plus exigeantes.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Sécurité au top",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "ISO 27001",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Certifié",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Hébergé en France",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Scaleway",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Pentest",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Résultats sur demande",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "SSO / SAML",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Intégration AD",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Opérationnel en 1 mois",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un déploiement simple et accompagné, pas un projet IT de 6 mois.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Équipes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Définissez vos équipes et leur capacité",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Importez vos projets et estimez en T-shirt",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Scénarios",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Testez différentes priorisations",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Décision",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Arbitrez avec des données",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Questions fréquentes",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Comment gérer des compétences différentes dans une équipe ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Découpez vos équipes en regroupant les personnes aux compétences homogènes : \"Data\", \"Sécurité\", \"Frontend\"... Chaque équipe a sa propre capacité.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Quelle temporalité choisir : trimestre, mois, PI ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le trimestre fonctionne bien car il s'aligne sur les cycles business. Mais vous pouvez configurer la durée qui vous convient : semestre ou PI.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Combien de temps pour un Quarter Plan complet ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "1 mois pour le setup initial et la prise en main. Comptez 3 mois pour un Quarter Plan complet et bien ancré dans les rituels de l'organisation.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Est-ce que ça suffit pour un vrai capacitaire ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Oui, pour savoir ce qu'il est possible de faire au niveau macro. C'est ce qu'il manque au top management pour prioriser. Pour le micro-planning, gardez vos outils opérationnels.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Nos solutions...",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Capacity planning : Pouvons-nous réellement faire ces projets ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à la vue Capacitaire, vous aurez les bases d’une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "h2",
+      "text": "Découvrez enfin le plaisir du reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Le rapport flash désormais en multilingue dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse tête dans les organisations multilingues...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "h2",
+      "text": "Arrêtez de lancer des projets sans capacité",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Découvrez comment AirSaas simplifie votre capacity planning.AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Réserver une démo",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "30 min pour voir comment AirSaas peut transformer votre quotidien de PMO.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Choisir un créneau →",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h3",
+      "text": "Découvrir le guide Capacity Planning",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Quarter Plan & gestion capacitaire : la méthode complète.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Télécharger le Book →",
+      "href": "/fr/livre-blanc/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69711e3ae21802032c430465_c1b65cdf770ece60290781d962789f65_check-circle.svg",
+      "alt": "14 day trial",
+      "width": 24,
+      "height": 24,
+      "localPath": "/assets/pages/lp/capacity-planning/69711e3ae21802032c430465_c1b65cdf770ece60290781d962789f65_check-circle.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678557124f678e343b52b670_icon-portfolio-color.svg",
+      "alt": "",
+      "width": 20,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/678557124f678e343b52b670_icon-portfolio-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6785388795ddcbd9abca834d_icon-portfolio.svg",
+      "alt": "",
+      "width": 20,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/6785388795ddcbd9abca834d_icon-portfolio.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6785398968090c8c3bf64d90_icon-quarter-plan.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/6785398968090c8c3bf64d90_icon-quarter-plan.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67855725b0e15e8685feb59b_icon-capacity-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/67855725b0e15e8685feb59b_icon-capacity-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678538a1eec434b45123a22a_icon-capacity.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/678538a1eec434b45123a22a_icon-capacity.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868311c92e6b93598e36ff_icon-Priorisation.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/67868311c92e6b93598e36ff_icon-Priorisation.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868500077117c7399a63d7_icon-roadmap-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/67868500077117c7399a63d7_icon-roadmap-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678536ae01c45cf9fd18cbd5_icon-roadmap.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/678536ae01c45cf9fd18cbd5_icon-roadmap.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686557fa477c469417d74_icon-report-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/678686557fa477c469417d74_icon-report-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686620496c167acf94bd0_icon-report.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/capacity-planning/678686620496c167acf94bd0_icon-report.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65547ebafb400e80682f4459_arrow_down.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 48,
+      "height": 67,
+      "localPath": "/assets/pages/lp/capacity-planning/65547ebafb400e80682f4459_arrow_down.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/capacity-planning/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/capacity-planning/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/capacity-planning/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/capacity-planning/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/capacity-planning/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 42,
+      "height": 13,
+      "localPath": "/assets/pages/lp/capacity-planning/61fd68ee177ba19a9b23718a_guion.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f0864d585032b0b0937f_calendar_icon-min.svg",
+      "alt": "jours AirSaas",
+      "width": 77,
+      "height": 87,
+      "localPath": "/assets/pages/lp/capacity-planning/6555f0864d585032b0b0937f_calendar_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/655631a708d82baf3269e0a8_easy_icon.svg",
+      "alt": "percent AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/capacity-planning/655631a708d82baf3269e0a8_easy_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07032fd5d4c89add4bf_timer_icon-min.svg",
+      "alt": "budget AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/capacity-planning/6555f07032fd5d4c89add4bf_timer_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6556318978b37d7d79fa3505_graphic_icon.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/capacity-planning/6556318978b37d7d79fa3505_graphic_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6351623d968681483ac1847e_guion-orange.svg",
+      "alt": "avec AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/lp/capacity-planning/6351623d968681483ac1847e_guion-orange.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972324279c2664766449003_AI%20FR.webp",
+      "alt": "Agent AI",
+      "width": 1125,
+      "height": 696,
+      "localPath": "/assets/pages/lp/capacity-planning/6972324279c2664766449003_AI-FR.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697746f56686d9257b4bca36_AI%20Agent%20team.webp",
+      "alt": "Agent AI",
+      "width": 2414,
+      "height": 1569,
+      "localPath": "/assets/pages/lp/capacity-planning/697746f56686d9257b4bca36_AI-Agent-team.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6797327b7c4e3b3096a6aa91_quarter%20plan%20teams.webp",
+      "alt": "Capacity",
+      "width": 1231,
+      "height": 922,
+      "localPath": "/assets/pages/lp/capacity-planning/6797327b7c4e3b3096a6aa91_quarter-plan-teams.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "alt": "Capacity",
+      "width": 1949,
+      "height": 1274,
+      "localPath": "/assets/pages/lp/capacity-planning/66334ee7bcfcb0aa45802537_Capacity-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972791fd70275b268d492a5_Portfolio%20project%20t-shirt.webp",
+      "alt": "T-shirt",
+      "width": 2032,
+      "height": 1276,
+      "localPath": "/assets/pages/lp/capacity-planning/6972791fd70275b268d492a5_Portfolio-project-t-shirt.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67973435cf37dd18cddcdffa_Page%20Scenarios%20FR.webp",
+      "alt": "Scenarios",
+      "width": 1542,
+      "height": 1025,
+      "localPath": "/assets/pages/lp/capacity-planning/67973435cf37dd18cddcdffa_Page-Scenarios-FR.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/679732feebaf4e31dec2cc8d_Quarter%20plan.webp",
+      "alt": "Quarter Plan",
+      "width": 1462,
+      "height": 921,
+      "localPath": "/assets/pages/lp/capacity-planning/679732feebaf4e31dec2cc8d_Quarter-plan.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07b7eeea99ee02f71c97_Prioritization%20per%20team%20ppt.webp",
+      "alt": "Team",
+      "width": 2011,
+      "height": 1314,
+      "localPath": "/assets/pages/lp/capacity-planning/663d07b7eeea99ee02f71c97_Prioritization-per-team-ppt.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697132c0fc40c586d53ddeee_e235d65f55da6d8e598df4e9d948c8cd_icon-bullseye-arrow.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/capacity-planning/697132c0fc40c586d53ddeee_e235d65f55da6d8e598df4e9d948c8cd_icon-bullseye-arrow.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69713280b27de780c7775ee6_203b113cc180eb6931ef0a8ddc2cbba2_icon-bolt-lightning.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/capacity-planning/69713280b27de780c7775ee6_203b113cc180eb6931ef0a8ddc2cbba2_icon-bolt-lightning.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69727df3fb6741b2033cd954_icon-comments.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/capacity-planning/69727df3fb6741b2033cd954_icon-comments.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fc4f5c7aaa0397c28a50_Sebastien%20Louyot.jpg",
+      "alt": "Sebastien Louyot",
+      "width": 800,
+      "height": 800,
+      "localPath": "/assets/pages/lp/capacity-planning/6971fc4f5c7aaa0397c28a50_Sebastien-Louyot.jpg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+      "alt": "",
+      "width": 75,
+      "height": 75,
+      "localPath": "/assets/pages/lp/capacity-planning/66154e9586f923137ec7a754_linkedin-embed-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69727e9a7a87900ac1e08ca1_aurore-butrot.jpeg",
+      "alt": "",
+      "width": 200,
+      "height": 200,
+      "localPath": "/assets/pages/lp/capacity-planning/69727e9a7a87900ac1e08ca1_aurore-butrot.jpeg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f7b1eaf68ed532f897af_8750bc0764839f1b1c60a6cb17023c85_iso%20logo.png",
+      "alt": "",
+      "width": 243,
+      "height": 252,
+      "localPath": "/assets/pages/lp/capacity-planning/6971f7b1eaf68ed532f897af_8750bc0764839f1b1c60a6cb17023c85_iso-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fb08d2be715d801e6f02_icon-location-dot.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/capacity-planning/6971fb08d2be715d801e6f02_icon-location-dot.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f962a433d423c44ff913_icon-vial-circle-check.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/capacity-planning/6971f962a433d423c44ff913_icon-vial-circle-check.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/capacity-planning/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657ac9c9d0af49e39d99585d_plus_icon.svg",
+      "alt": "more",
+      "width": 44,
+      "height": 47,
+      "localPath": "/assets/pages/lp/capacity-planning/657ac9c9d0af49e39d99585d_plus_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/capacity-planning/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/capacity-planning/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/capacity-planning/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/capacity-planning/6971df86c8979b219e62aa57_Icon-bullseye-arrow.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972801168caa1a15dae4416_Icon%20book.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/capacity-planning/6972801168caa1a15dae4416_Icon-book.svg"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/lp/capacity-planning/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/lp/capacity-planning/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "📘 Découvrir le guide Capacity Planning",
+      "href": "/fr/livre-blanc/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Portfolio",
+      "href": "#w-tabs-0-data-w-pane-0"
+    },
+    {
+      "tag": "a",
+      "text": "Quarter plan",
+      "href": "#w-tabs-0-data-w-pane-1"
+    },
+    {
+      "tag": "a",
+      "text": "Capacitaire",
+      "href": "#w-tabs-0-data-w-pane-2"
+    },
+    {
+      "tag": "a",
+      "text": "Priorisation",
+      "href": "#w-tabs-0-data-w-pane-3"
+    },
+    {
+      "tag": "a",
+      "text": "Roadmap",
+      "href": "#w-tabs-0-data-w-pane-4"
+    },
+    {
+      "tag": "a",
+      "text": "Reporting",
+      "href": "#w-tabs-0-data-w-pane-5"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Choisir un créneau →",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Télécharger le Book →",
+      "href": "/fr/livre-blanc/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}

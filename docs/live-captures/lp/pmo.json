@@ -1,0 +1,1252 @@
+{
+  "url": "https://airsaas.io/lp/pmo",
+  "type": "lp",
+  "slug": "pmo",
+  "capturedAt": "2026-04-23T13:34:42.586Z",
+  "meta": {
+    "title": "L'outil des PMO modernes | AirSaas",
+    "description": "Passez de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\". Agent IA, flash report, vision globale du portefeuille.",
+    "ogTitle": "L'outil des PMO modernes | AirSaas",
+    "ogDescription": "Passez de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\". Agent IA, flash report, vision globale du portefeuille."
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "80 projets côté DSI. 80 côté Marketing. 80 côté Finance. Et toujours pas de vue commune au Codir ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\".",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "▶️ Découvrir l’outil PMO en vidéo (5 min)",
+      "href": "/fr/video/pmo"
+    },
+    {
+      "tag": "a",
+      "text": "Portfolio",
+      "href": "#w-tabs-0-data-w-pane-0"
+    },
+    {
+      "tag": "a",
+      "text": "Quarter plan",
+      "href": "#w-tabs-0-data-w-pane-1"
+    },
+    {
+      "tag": "a",
+      "text": "Capacitaire",
+      "href": "#w-tabs-0-data-w-pane-2"
+    },
+    {
+      "tag": "a",
+      "text": "Priorisation",
+      "href": "#w-tabs-0-data-w-pane-3"
+    },
+    {
+      "tag": "a",
+      "text": "Roadmap",
+      "href": "#w-tabs-0-data-w-pane-4"
+    },
+    {
+      "tag": "a",
+      "text": "Reporting",
+      "href": "#w-tabs-0-data-w-pane-5"
+    },
+    {
+      "tag": "h3",
+      "text": "Ils pilotent avec AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "de réunions \"statut projet\"",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "semaine / chef de projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Reporting en 1 clic",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "pour être opérationnel",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "⚠️ Le quotidien du PMO aujourd'hui",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vous courez après les chefs de projet pour avoir des infos à jour",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les demandes arrivent floues : \"on veut un truc\" sans brief clair",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vos PowerPoints de CoPil prennent 2 jours à produire",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les décisions se perdent dans les CR et personne ne sait ce qui a été tranché",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Agent IA de qualification des demandes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Quand une demande arrive floue (\"on veut un truc\"), l'agent IA mène l'entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Entretien guidé par l'IA",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Brief structuré selon vos templates",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Demandes comparables entre elles",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Dites non plus tôt, lancez moins de projets... mais mieux",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Email \"Bilan de santé\" hebdomadaire",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Chaque lundi, les sponsors reçoivent l'essentiel sur leurs projets. Sans que vous ayez à lever le petit doigt. Fini la course à l'info.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Envoi automatique programmable",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Personnalisé par sponsor / direction",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Météo projet en un coup d'œil",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Lien vers le détail dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Flash Report en 1 clic",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Fini les 2 jours de PowerPoint. En un clic, générez un rapport complet, à jour, aux couleurs de votre entreprise. Le Comex est informé, vous êtes libre.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Export PDF, PPT ou lien web",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Personnalisable aux couleurs de l'entreprise",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Données toujours à jour",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Envoi automatique programmable",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Kanban des décisions",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les décisions changent, se perdent dans les CR. AirSaas les centralise : owner, échéance, statut, impact sur la roadmap. Quand les décisions deviennent visibles, l'exécution redevient cohérente.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Owner et échéance assignés",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Owner et échéance assignés",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Impact visible sur la roadmap",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plus rien ne se perd",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Cadrage projet guidé",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Les utilisateurs sont accompagnés pour remplir les informations essentielles : gains espérés, critères de réussite, effort. Quand le niveau de remplissage est suffisant, le projet peut partir en validation.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Workflow structuré",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Remplissage collaboratif et asynchrone",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Niveau de complétude visible",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Validation en comité simplifiée",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "KPI : Taux d'avancement du Quarter Plan",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Mesurez l'écart entre ce qu'on s'est engagé à livrer et ce qui est réellement livré. En un coup d'œil : 10%, 50% ou 100% de l'engagement tenu. Et surtout : ce qui a bloqué.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Taux de delivery par trimestre",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Identification des blocages",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Amélioration cycle après cycle",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "KPI objectif pour le Comex",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Planification trimestrielle structurée",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Synchronisez toute l'organisation sur un cycle trimestriel. Chaque quarter, on refait le point : qu'est-ce qu'on a livré, qu'est-ce qu'on priorise pour les 3 prochains mois ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Rituels de planification cadrés",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Engagements clairs par équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Rétrospective intégrée",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Alignement DSI / Métiers / ComexAlignement DSI / Métiers / Comex",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Gestion de la capacité par équipe",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Visualisez la charge vs capacité de chaque équipe. Identifiez les surcharges avant qu'elles ne créent de la friction. Répondez enfin à \"peut-on prendre ce projet ?\"",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vue capacité par équipe et par trimestre",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Alerte surcharge automatique",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "T-shirt sizing (S, M, L, XL)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Scénarios d'arbitrage",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Vision globale du portefeuille",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "80 projets côté DSI. 80 côté Marketing. 80 côté Finance. Avec AirSaas, vous avez enfin une vue consolidée pour le Codir. Filtrez par direction, météo, priorité.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Consolidation multi-directions",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Vue Liste, Kanban, Timeline, Dashboard",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Filtres personnalisables",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Export Comex en 1 clic",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "De contremaître à coach d'organisation",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Moins de reporting",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Flash report automatique. Fini les 2 jours de PowerPoint.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Plus d'impact",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Focus sur la priorisation et les arbitrages, pas sur la collecte d'info.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Meilleur alignement",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une vue commune pour la DSI, les métiers et le Comex.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Ils parlent de nous",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Sébastien Louyot",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "CIO, Altavia (3000 pers.)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas nous permet de piloter notre capacité à faire en transverse avec tous les métiers. Cela rend les arbitrages comex concrets et pragmatiques.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Alexandre F.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "PMO",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Aujourd'hui mon quotidien c'est plutôt d'aller animer des ateliers en direction. Je suis positionné comme le bras droit du DSI.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Sécurité au top",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas passe la porte des DSI les plus exigeantes.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "ISO 27001",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Certifié",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Hébergé en France",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Scaleway",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Pentest",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Résultats sur demande",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "SSO / SAML",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Intégration AD",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Connecté à votre écosystème",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas s'intègre à vos outils pour éviter la double saisie.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Comment ça marche ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un déploiement en douceur, sans big bang.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Import",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Importez votre portefeuille existant",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Rituels",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Définissez vos rituels de gouvernance",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Équipes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Embarquez les chefs de projet",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Impact",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Premier Quarter Plan réussi",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Questions fréquentes",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Les chefs de projet vont-ils vraiment l'utiliser ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Oui. 5 minutes par semaine suffisent. L'interface est intuitive. Et les rappels automatiques font le travail.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Comment fonctionne l'agent IA de qualification ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le demandeur répond à un questionnaire guidé par l'IA. L'IA structure les réponses selon vos templates et produit un brief comparable aux autres demandes.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Combien de temps pour un Quarter Plan complet ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "1 mois pour le setup initial. Comptez 3 mois pour un Quarter Plan complet et bien ancré dans les rituels de l'organisation.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Comment AirSaas s'intègre à nos outils existants ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Intégrations natives avec Jira, Asana, Monday, Teams, Slack. API ouverte pour le reste. Vos équipes gardent leurs habitudes.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Nos solutions...",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Capacity planning : Pouvons-nous réellement faire ces projets ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à la vue Capacitaire, vous aurez les bases d’une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "h2",
+      "text": "Découvrez enfin le plaisir du reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Le rapport flash désormais en multilingue dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse tête dans les organisations multilingues...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "h2",
+      "text": "Prêt à devenir le PMO stratégique ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Réserver une démo",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "30 min pour voir comment AirSaas peut transformer votre quotidien de PMO.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Choisir un créneau →",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h3",
+      "text": "Découvrir l’outil PMO en vidéo (5 min)",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Comment AirSaas transforme le quotidien des PMO.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Voir la vidéo →",
+      "href": "/fr/video/pmo"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69711e3ae21802032c430465_c1b65cdf770ece60290781d962789f65_check-circle.svg",
+      "alt": "14 day trial",
+      "width": 24,
+      "height": 24,
+      "localPath": "/assets/pages/lp/pmo/69711e3ae21802032c430465_c1b65cdf770ece60290781d962789f65_check-circle.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678557124f678e343b52b670_icon-portfolio-color.svg",
+      "alt": "",
+      "width": 20,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/678557124f678e343b52b670_icon-portfolio-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6785388795ddcbd9abca834d_icon-portfolio.svg",
+      "alt": "",
+      "width": 20,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/6785388795ddcbd9abca834d_icon-portfolio.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6785398968090c8c3bf64d90_icon-quarter-plan.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/6785398968090c8c3bf64d90_icon-quarter-plan.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67855725b0e15e8685feb59b_icon-capacity-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/67855725b0e15e8685feb59b_icon-capacity-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678538a1eec434b45123a22a_icon-capacity.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/678538a1eec434b45123a22a_icon-capacity.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868311c92e6b93598e36ff_icon-Priorisation.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/67868311c92e6b93598e36ff_icon-Priorisation.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868500077117c7399a63d7_icon-roadmap-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/67868500077117c7399a63d7_icon-roadmap-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678536ae01c45cf9fd18cbd5_icon-roadmap.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/678536ae01c45cf9fd18cbd5_icon-roadmap.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686557fa477c469417d74_icon-report-color.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/678686557fa477c469417d74_icon-report-color.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686620496c167acf94bd0_icon-report.svg",
+      "alt": "",
+      "width": 19,
+      "height": 19,
+      "localPath": "/assets/pages/lp/pmo/678686620496c167acf94bd0_icon-report.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65547ebafb400e80682f4459_arrow_down.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 48,
+      "height": 67,
+      "localPath": "/assets/pages/lp/pmo/65547ebafb400e80682f4459_arrow_down.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pmo/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pmo/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pmo/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pmo/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/lp/pmo/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 42,
+      "height": 13,
+      "localPath": "/assets/pages/lp/pmo/61fd68ee177ba19a9b23718a_guion.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07bf0920f43f2eb11cc_percentage_icon-min.svg",
+      "alt": "percent AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pmo/6555f07bf0920f43f2eb11cc_percentage_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07032fd5d4c89add4bf_timer_icon-min.svg",
+      "alt": "budget AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pmo/6555f07032fd5d4c89add4bf_timer_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6556318978b37d7d79fa3505_graphic_icon.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pmo/6556318978b37d7d79fa3505_graphic_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f0864d585032b0b0937f_calendar_icon-min.svg",
+      "alt": "jours AirSaas",
+      "width": 77,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pmo/6555f0864d585032b0b0937f_calendar_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6351623d968681483ac1847e_guion-orange.svg",
+      "alt": "avec AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/lp/pmo/6351623d968681483ac1847e_guion-orange.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972324279c2664766449003_AI%20FR.webp",
+      "alt": "Agent AI",
+      "width": 1125,
+      "height": 696,
+      "localPath": "/assets/pages/lp/pmo/6972324279c2664766449003_AI-FR.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control%20tower%20email%20FR%20%28screen%29.webp",
+      "alt": "Email",
+      "width": 1431,
+      "height": 1048,
+      "localPath": "/assets/pages/lp/pmo/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
+      "alt": "Flash report",
+      "width": 1957,
+      "height": 1351,
+      "localPath": "/assets/pages/lp/pmo/65d742defe0bf46502743b11_Flash-report-export-modal.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+      "alt": "Decisions",
+      "width": 1920,
+      "height": 1219,
+      "localPath": "/assets/pages/lp/pmo/65d35c96ec9fbf11d78e4b44_Portfolio-decisions--show-projects-title-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422c2062f8e4b86c4a3030_Presentation%20cadrage%20slide.webp",
+      "alt": "Project",
+      "width": 1953,
+      "height": 1240,
+      "localPath": "/assets/pages/lp/pmo/66422c2062f8e4b86c4a3030_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/679732feebaf4e31dec2cc8d_Quarter%20plan.webp",
+      "alt": "Quarter plan",
+      "width": 1462,
+      "height": 921,
+      "localPath": "/assets/pages/lp/pmo/679732feebaf4e31dec2cc8d_Quarter-plan.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972321e948917c9355b7348_Page%20Le%20Quarter%20plan%20FR.webp",
+      "alt": "Quarter plan",
+      "width": 1122,
+      "height": 745,
+      "localPath": "/assets/pages/lp/pmo/6972321e948917c9355b7348_Page-Le-Quarter-plan-FR.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "alt": "Quarter plan",
+      "width": 1949,
+      "height": 1274,
+      "localPath": "/assets/pages/lp/pmo/66334ee7bcfcb0aa45802537_Capacity-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66868115f4e94cc3f2a00e2a_Portfolio%20projects%20kanban%20status%20en.png",
+      "alt": "Portfolio",
+      "width": 1921,
+      "height": 1220,
+      "localPath": "/assets/pages/lp/pmo/66868115f4e94cc3f2a00e2a_Portfolio-projects-kanban-status-en.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69713280b27de780c7775ee6_203b113cc180eb6931ef0a8ddc2cbba2_icon-bolt-lightning.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pmo/69713280b27de780c7775ee6_203b113cc180eb6931ef0a8ddc2cbba2_icon-bolt-lightning.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697132c0fc40c586d53ddeee_e235d65f55da6d8e598df4e9d948c8cd_icon-bullseye-arrow.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pmo/697132c0fc40c586d53ddeee_e235d65f55da6d8e598df4e9d948c8cd_icon-bullseye-arrow.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697132d121fff14e16160ed5_493397f27c4c2a85e3918d2ce78b7e77_icon-handshake.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pmo/697132d121fff14e16160ed5_493397f27c4c2a85e3918d2ce78b7e77_icon-handshake.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fc4f5c7aaa0397c28a50_Sebastien%20Louyot.jpg",
+      "alt": "Sebastien Louyot",
+      "width": 800,
+      "height": 800,
+      "localPath": "/assets/pages/lp/pmo/6971fc4f5c7aaa0397c28a50_Sebastien-Louyot.jpg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+      "alt": "",
+      "width": 75,
+      "height": 75,
+      "localPath": "/assets/pages/lp/pmo/66154e9586f923137ec7a754_linkedin-embed-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f7b1eaf68ed532f897af_8750bc0764839f1b1c60a6cb17023c85_iso%20logo.png",
+      "alt": "",
+      "width": 243,
+      "height": 252,
+      "localPath": "/assets/pages/lp/pmo/6971f7b1eaf68ed532f897af_8750bc0764839f1b1c60a6cb17023c85_iso-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fb08d2be715d801e6f02_icon-location-dot.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pmo/6971fb08d2be715d801e6f02_icon-location-dot.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f962a433d423c44ff913_icon-vial-circle-check.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pmo/6971f962a433d423c44ff913_icon-vial-circle-check.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg",
+      "alt": "",
+      "width": 27,
+      "height": 27,
+      "localPath": "/assets/pages/lp/pmo/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b15f543597b4684dd2_Icon%20Jira.svg",
+      "alt": "",
+      "width": 172,
+      "height": 210,
+      "localPath": "/assets/pages/lp/pmo/6971e9b15f543597b4684dd2_Icon-Jira.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b16fc801abbc976e42_Icon%20Teams.svg",
+      "alt": "",
+      "width": 204,
+      "height": 214,
+      "localPath": "/assets/pages/lp/pmo/6971e9b16fc801abbc976e42_Icon-Teams.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b1b1fa2f02c2f52184_Icon%20Asana.svg",
+      "alt": "",
+      "width": 172,
+      "height": 210,
+      "localPath": "/assets/pages/lp/pmo/6971e9b1b1fa2f02c2f52184_Icon-Asana.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b1245015947948cdb6_Icon%20Slack.svg",
+      "alt": "",
+      "width": 172,
+      "height": 210,
+      "localPath": "/assets/pages/lp/pmo/6971e9b1245015947948cdb6_Icon-Slack.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b1453821d534740d69_Icon%20Monday.svg",
+      "alt": "",
+      "width": 172,
+      "height": 210,
+      "localPath": "/assets/pages/lp/pmo/6971e9b1453821d534740d69_Icon-Monday.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b1cc77122edf3ce11a_Icon%20code.svg",
+      "alt": "",
+      "width": 204,
+      "height": 214,
+      "localPath": "/assets/pages/lp/pmo/6971e9b1cc77122edf3ce11a_Icon-code.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/657ac9c9d0af49e39d99585d_plus_icon.svg",
+      "alt": "more",
+      "width": 44,
+      "height": 47,
+      "localPath": "/assets/pages/lp/pmo/657ac9c9d0af49e39d99585d_plus_icon.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/pmo/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/pmo/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/lp/pmo/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pmo/6971df86c8979b219e62aa57_Icon-bullseye-arrow.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df92ad8c9961f891111f_Icon%20video.svg",
+      "alt": "",
+      "width": 87,
+      "height": 87,
+      "localPath": "/assets/pages/lp/pmo/6971df92ad8c9961f891111f_Icon-video.svg"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/lp/pmo/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/lp/pmo/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "▶️ Découvrir l’outil PMO en vidéo (5 min)",
+      "href": "/fr/video/pmo"
+    },
+    {
+      "tag": "a",
+      "text": "Portfolio",
+      "href": "#w-tabs-0-data-w-pane-0"
+    },
+    {
+      "tag": "a",
+      "text": "Quarter plan",
+      "href": "#w-tabs-0-data-w-pane-1"
+    },
+    {
+      "tag": "a",
+      "text": "Capacitaire",
+      "href": "#w-tabs-0-data-w-pane-2"
+    },
+    {
+      "tag": "a",
+      "text": "Priorisation",
+      "href": "#w-tabs-0-data-w-pane-3"
+    },
+    {
+      "tag": "a",
+      "text": "Roadmap",
+      "href": "#w-tabs-0-data-w-pane-4"
+    },
+    {
+      "tag": "a",
+      "text": "Reporting",
+      "href": "#w-tabs-0-data-w-pane-5"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/automatiser-la-com-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Choisir un créneau →",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Voir la vidéo →",
+      "href": "/fr/video/pmo"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}
