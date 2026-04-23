@@ -36,7 +36,7 @@
 | 1 | Capture live content 26 pages | ✅ done | (à commit) | 26 pages captured. Output: `docs/live-captures/{type}/{slug}.{json,md,png}`. Script : `scripts/capture-live-pages.mjs` |
 | 2 | Download images 26 pages | ✅ done | (à commit) | 213 images uniques. Output: `public/assets/pages/{type}/{slug}/`. Script : `scripts/download-page-images.mjs` |
 | 3.A | Build 6 Produit + verif | ✅ done | (à commit) | 6/6 pages built, DS audit clean, HTTP 200, tsc clean (hors pré-existant) |
-| 3.B | Build 4 LP + verif | ⏳ pending | — | — |
+| 3.B | Build 4 LP + verif | ✅ done | (à commit) | 4/4 pages built, DS audit clean, HTTP 200, tsc clean. Legacy `(lp)/lp/[slug]` route group supprimé. |
 | 3.C | Build 4 Équipes + verif | ⏳ pending | — | — |
 | 3.D | Build 12 Solution + verif | ⏳ pending | — | — |
 | 4 | Preview local + Vercel | ⏳ pending | — | — |
@@ -61,10 +61,10 @@ Légende : ⏳ pending · 🔄 in progress · ✅ done · ⚠️ blocked · ❌ 
 ### Landing Pages (4)
 | Slug | Capture | Images | Build | Verif | Notes |
 |---|---|---|---|---|---|
-| `ppm` | ✅ | ✅ | ⏳ | ⏳ | — |
-| `pmo` | ✅ | ✅ | ⏳ | ⏳ | — |
-| `capacity-planning` | ✅ | ✅ | ⏳ | ⏳ | 2× how-it-works |
-| `pi-planning` | ✅ | ✅ | ⏳ | ⏳ | + comparisons |
+| `ppm` | ✅ | ✅ | ✅ | ✅ | HTTP 200 |
+| `pmo` | ✅ | ✅ | ✅ | ✅ | HTTP 200, ClientsFrame 9 |
+| `capacity-planning` | ✅ | ✅ | ✅ | ✅ | HTTP 200, 2× how-it-works |
+| `pi-planning` | ✅ | ✅ | ✅ | ✅ | HTTP 200, + comparisons |
 
 ### Équipes (4)
 | Slug | Capture | Images | Build | Verif | Notes |

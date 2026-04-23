@@ -8,6 +8,7 @@ import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame"
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { RelatedSolutionsFrame } from "@/components/library-design/sections/RelatedSolutionsFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { CardCta } from "@/components/library-design/ui/CardCta";
@@ -23,35 +24,26 @@ import {
   LockKeyholeIcon,
   CircleCheckIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
+import {
+  SITE_NAV_ITEMS,
+  SITE_NAV_CTA,
+  SITE_NAV_LOGIN,
+  SITE_FOOTER_COLUMNS,
+  SITE_FOOTER_COPYRIGHT,
+} from "@/data/site-chrome";
+
+const IMG = "/assets/pages/lp/capacity-planning";
 
 function Icon({ children }: { children: React.ReactNode }) {
   return <IconIllustration variant="dark" size="md">{children}</IconIllustration>;
 }
 
-const navItems = [
-  { label: "Solutions", hasDropdown: true },
-  { label: "Produit", hasDropdown: true },
-  { label: "Ressources", hasDropdown: true },
-  { label: "Témoignages", href: "#" },
-  { label: "Intégrations", href: "#" },
-  { label: "Nouveautés", href: "#" },
-  { label: "Le Quarter Plan", href: "#" },
-  { label: "Intégration teams", href: "#" },
-];
-
 const logos = [
-  { src: "./assets/logos/kiabi.png", alt: "Kiabi", width: 96, height: 40 },
-  { src: "./assets/logos/valrhona.png", alt: "Valrhona", width: 130, height: 40 },
-  { src: "./assets/logos/intuis.png", alt: "Intuis", width: 70, height: 40 },
-  { src: "./assets/logos/altavia.svg", alt: "Altavia", width: 110, height: 40 },
-  { src: "./assets/logos/sncf.svg", alt: "SNCF", width: 80, height: 40 },
-];
-
-const footerColumns = [
-  { title: "Entreprise", links: [{ label: "Pourquoi AirSaas ?" }, { label: "Cookies" }, { label: "Conditions d'utilisation" }, { label: "Mentions légales" }, { label: "Charte de confidentialité" }, { label: "Kit média" }, { label: "API AirSaas" }, { label: "Plan du site" }] },
-  { title: "Ressources", links: [{ label: "Les Pro. de la Transfo." }, { label: "Le blog d'AirSaas" }, { label: "La conduite de projet" }, { label: "Portfolio project Management" }, { label: "Témoignages clients" }] },
-  { title: "Solutions", links: [{ label: "Management de portefeuille projet" }, { label: "Flash report automatisé" }, { label: "Outil PPM" }, { label: "Outil de pilotage projet" }, { label: "Plan stratégique" }, { label: "Portfolio management" }, { label: "Revue de portefeuille" }, { label: "Tableau de bord DSI" }] },
-  { title: "Le Quarter Plan & les cadres méthodologiques", links: [{ label: "AirSaas, le Quarter Plan et l'effectuation" }], sections: [{ title: "Alternative à", links: [{ label: "Sciforma" }, { label: "Planview Portfolio" }] }] },
+  { src: `${IMG}/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png`, alt: "Kiabi", width: 96, height: 40 },
+  { src: `${IMG}/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png`, alt: "Valrhona", width: 130, height: 40 },
+  { src: `${IMG}/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png`, alt: "Intuis", width: 70, height: 40 },
+  { src: `${IMG}/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg`, alt: "Altavia", width: 110, height: 40 },
+  { src: `${IMG}/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg`, alt: "SNCF", width: 80, height: 40 },
 ];
 
 const faqItems = [
@@ -67,16 +59,46 @@ const testimonials = [
   { quote: "AirSaas est le rouage qui fait tourner notre gouvernance de projets. Visibilité totale pour le COMEX.", name: "Claire Martin", role: "PMO @Decathlon" },
 ];
 
+const relatedSolutions = [
+  {
+    imageSrc: `${IMG}/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp`,
+    imageAlt: "Reporting projet",
+    title: "Découvrez enfin le plaisir du reporting projet",
+    description: "Le reporting essentiel pour créer de l'adhésion et éviter les dérapages.",
+    href: "/fr/produit/reporting-projet",
+  },
+  {
+    imageSrc: `${IMG}/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp`,
+    imageAlt: "Email bilan de santé",
+    title: "Email « bilan de santé » : automatisez la com projet",
+    description: "50% du succès c'est bien communiquer. Le bon niveau d'info, automatiquement.",
+    href: "/fr/produit/automatiser-la-com-projet",
+  },
+  {
+    imageSrc: `${IMG}/6633a76d5f19bfbf5c45d7d4_langue_profile.webp`,
+    imageAlt: "Traduction DeepL",
+    title: "Le rapport flash désormais en multilingue",
+    description: "Présenter ses projets dans les organisations multilingues, enfin simple.",
+    href: "/fr/produit/traduction-one-click-avec-deepl",
+  },
+  {
+    imageSrc: `${IMG}/663d07b7eeea99ee02f71c97_Prioritization-per-team-ppt.webp`,
+    imageAlt: "Priorisation par équipe",
+    title: "Priorisation par équipes",
+    description: "Chaque responsable priorise ses projets. Fini les Top 1 à 5 projets.",
+    href: "/fr/produit/priorisation-par-equipes",
+  },
+];
+
 export default function CapacityPlanningPage() {
   return (
     <div className="w-full">
-      {/* Hero */}
       <Hero
-        navItems={navItems}
-        navCtaLabel="Demander une démo"
-        navCtaHref="#"
-        loginLabel="Login"
-        loginHref="#"
+        navItems={SITE_NAV_ITEMS}
+        navCtaLabel={SITE_NAV_CTA.label}
+        navCtaHref={SITE_NAV_CTA.href}
+        loginLabel={SITE_NAV_LOGIN.label}
+        loginHref={SITE_NAV_LOGIN.href}
         topTag={{ label: "Capacity Planning simplifié", variant: "muted" }}
         title="Vos équipes sont surchargées ? C'est normal :"
         titleHighlight="personne ne sait ce qu'elles peuvent vraiment faire."
@@ -85,18 +107,16 @@ export default function CapacityPlanningPage() {
           { label: "Opérationnel en 1 mois", variant: "success" },
           { label: "Accompagnement premium inclus", variant: "success" },
         ]}
-        primaryCta={{ label: "Réservez une démo", href: "#" }}
-        secondaryCta={{ label: "Découvrir l'outil PPM en vidéo (5 min)", href: "#" }}
-        imageSrc="https://placehold.co/1457x857/e8eafc/3a51e2?text=Capacity+Planning+Screenshot"
+        primaryCta={{ label: "Réservez une démo", href: "/fr/meetings-pages" }}
+        secondaryCta={{ label: "Découvrir l'outil PPM en vidéo (5 min)", href: "/fr/video/ppm" }}
+        imageSrc={`${IMG}/66334ee7bcfcb0aa45802537_Capacity-screen.webp`}
         imageAlt="AirSaas Capacity Planning screenshot"
       />
 
-      {/* Logos bar */}
       <AnimateOnScroll animation="fade" duration={500}>
         <LogosBar label="Ils gèrent leur capacité avec AirSaas" logos={logos} />
       </AnimateOnScroll>
 
-      {/* Value Proposition — Les chiffres */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ValuePropositionFrame
           variant="light"
@@ -112,7 +132,6 @@ export default function CapacityPlanningPage() {
         </ValuePropositionFrame>
       </AnimateOnScroll>
 
-      {/* Comparison — Les vrais problèmes */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ComparisonFrame
           title="Les vrais problèmes du capacity planning"
@@ -128,7 +147,6 @@ export default function CapacityPlanningPage() {
         />
       </AnimateOnScroll>
 
-      {/* Feature — Agent IA Brief projet */}
       <AnimateOnScroll animation="fade-right" duration={800}>
         <FeatureFrame
           imagePosition="right"
@@ -143,11 +161,11 @@ export default function CapacityPlanningPage() {
             "Dites non plus tôt, lancez moins de projets... mais mieux",
           ]}
           ctaLabel="Découvrir"
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Agent+IA+Brief" imageAlt=""
+          imageSrc={`${IMG}/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp`}
+          imageAlt="Brief projet — AirSaas"
         />
       </AnimateOnScroll>
 
-      {/* Feature — Agent IA Découpage projet */}
       <AnimateOnScroll animation="fade-left" duration={800}>
         <FeatureFrame
           imagePosition="left"
@@ -162,12 +180,12 @@ export default function CapacityPlanningPage() {
             "Suggestions réalistes, pas théoriques",
           ]}
           ctaLabel="En savoir plus"
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Agent+IA+Découpage" imageAlt=""
+          imageSrc={`${IMG}/67973435cf37dd18cddcdffa_Page-Scenarios-FR.webp`}
+          imageAlt="Découpage projet — Page scénarios"
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
 
-      {/* Value Proposition dark — De l'idée au scénario */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ValuePropositionFrame
           variant="dark"
@@ -182,7 +200,6 @@ export default function CapacityPlanningPage() {
         </ValuePropositionFrame>
       </AnimateOnScroll>
 
-      {/* Feature — Vue capacitaire par équipe (1) */}
       <AnimateOnScroll animation="fade-right" duration={800}>
         <FeatureFrame
           imagePosition="right"
@@ -196,90 +213,35 @@ export default function CapacityPlanningPage() {
             "Drill-down par projet",
             "Comparaison capacité vs charge",
           ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire" imageAlt=""
+          imageSrc={`${IMG}/679732feebaf4e31dec2cc8d_Quarter-plan.webp`}
+          imageAlt="Vue Quarter Plan AirSaas"
         />
       </AnimateOnScroll>
 
-      {/* Feature — Agent IA Découpage projet (2) */}
       <AnimateOnScroll animation="fade-left" duration={800}>
         <FeatureFrame
           imagePosition="left"
-          tag="Intelligence Artificielle"
-          titleHighlight="Agent IA"
-          title="Découpage projet"
-          subtitle="L'IA découpe automatiquement vos projets par quarter et par équipe. Elle connaît vos équipes : ce qu'elles savent faire, ce qu'elles ne font pas, leur vélocité passée."
+          tag="Quarter plan"
+          titleHighlight="Le plan trimestriel"
+          title="qui aligne toutes les équipes"
+          subtitle="Visualisez le quarter plan par équipe. Chaque équipe voit ce qu'elle s'engage à livrer ce trimestre. Fini la roadmap théorique qui ne tient pas face à la réalité."
           checklist={[
-            "Découpage par quarter et par équipe",
-            "Adapté aux compétences de chaque équipe",
-            "Basé sur la vélocité historique",
-            "Suggestions réalistes, pas théoriques",
+            "Vue partagée par équipe",
+            "Alignement transverse",
+            "Suivi continu trimestre après trimestre",
+            "Décisions rapides en cas de dérive",
           ]}
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Découpage+Projet" imageAlt=""
+          imageSrc={`${IMG}/6797327b7c4e3b3096a6aa91_quarter-plan-teams.webp`}
+          imageAlt="Quarter plan par équipes"
           imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
 
-      {/* Feature — Vue capacitaire par équipe (3) */}
-      <AnimateOnScroll animation="fade-right" duration={800}>
-        <FeatureFrame
-          imagePosition="right"
-          tag="Clarté immédiate"
-          titleHighlight="Vue capacitaire"
-          title="par équipe"
-          subtitle="En un clin d'œil, voyez si vos équipes sont dans les clous ou dans les choux. La base d'une discussion pragmatique pour arbitrer."
-          checklist={[
-            "Vue par équipe et par trimestre",
-            "Alerte surcharge automatique",
-            "Drill-down par projet",
-            "Comparaison capacité vs charge",
-          ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire" imageAlt=""
-        />
-      </AnimateOnScroll>
-
-      {/* Feature — Agent IA Découpage projet (4) */}
-      <AnimateOnScroll animation="fade-left" duration={800}>
-        <FeatureFrame
-          imagePosition="left"
-          tag="Intelligence Artificielle"
-          titleHighlight="Agent IA"
-          title="Découpage projet"
-          subtitle="L'IA découpe automatiquement vos projets par quarter et par équipe. Elle connaît vos équipes : ce qu'elles savent faire, ce qu'elles ne font pas, leur vélocité passée."
-          checklist={[
-            "Découpage par quarter et par équipe",
-            "Adapté aux compétences de chaque équipe",
-            "Basé sur la vélocité historique",
-            "Suggestions réalistes, pas théoriques",
-          ]}
-          imageSrc="https://placehold.co/1125x731/fffbeb/e58d05?text=Découpage+Projet" imageAlt=""
-          imageBgColor="var(--color-prevention-10)"
-        />
-      </AnimateOnScroll>
-
-      {/* Feature — Vue capacitaire par équipe (5) */}
-      <AnimateOnScroll animation="fade-right" duration={800}>
-        <FeatureFrame
-          imagePosition="right"
-          tag="Clarté immédiate"
-          titleHighlight="Vue capacitaire"
-          title="par équipe"
-          subtitle="En un clin d'œil, voyez si vos équipes sont dans les clous ou dans les choux. La base d'une discussion pragmatique pour arbitrer."
-          checklist={[
-            "Vue par équipe et par trimestre",
-            "Alerte surcharge automatique",
-            "Drill-down par projet",
-            "Comparaison capacité vs charge",
-          ]}
-          imageSrc="https://placehold.co/1125x696/e8eafc/3a51e2?text=Vue+Capacitaire" imageAlt=""
-        />
-      </AnimateOnScroll>
-
-      {/* Value Proposition — Notre parti pris */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ValuePropositionFrame
           variant="dark"
           titleHighlight="Notre parti pris"
-          title=""
+          title="sur le capacitaire"
           subtitle='"Approximativement juste plutôt que précisément faux"'
           columns={3}
         >
@@ -289,7 +251,6 @@ export default function CapacityPlanningPage() {
         </ValuePropositionFrame>
       </AnimateOnScroll>
 
-      {/* Testimonials */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <TestimonialsFrame
           title="Ils ont simplifié leur"
@@ -298,7 +259,6 @@ export default function CapacityPlanningPage() {
         />
       </AnimateOnScroll>
 
-      {/* Value Proposition — Sécurité au top */}
       <AnimateOnScroll animation="fade-up" duration={700}>
         <ValuePropositionFrame
           variant="light"
@@ -313,41 +273,46 @@ export default function CapacityPlanningPage() {
         </ValuePropositionFrame>
       </AnimateOnScroll>
 
-      {/* Value Proposition — Opérationnel en 1 mois */}
-      <AnimateOnScroll animation="fade-up" duration={700}>
-        <ValuePropositionFrame
-          variant="dark"
-          title="Opérationnel en 1 mois"
-          subtitle="Un déploiement simple et accompagné, pas un projet IT de 6 mois."
-        >
-          <FeatureCard icon={<Icon><CalendarDayIcon /></Icon>} title="Semaine 1" description="Configuration et import de vos données." className="flex-1" />
-          <FeatureCard icon={<Icon><BullseyeArrowIcon /></Icon>} title="Semaine 2" description="Paramétrage des équipes et compétences." className="flex-1" />
-          <FeatureCard icon={<Icon><StopwatchIcon /></Icon>} title="Semaine 3" description="Formation et premiers scénarios." className="flex-1" />
-          <FeatureCard icon={<Icon><SuitcaseIcon /></Icon>} title="Semaine 4" description="Autonomie complète, premier COMEX." className="flex-1" />
-        </ValuePropositionFrame>
-      </AnimateOnScroll>
-
-      {/* FAQ */}
       <AnimateOnScroll animation="fade-up" duration={600}>
         <FaqFrame title="Questions" titleHighlight="fréquentes" items={faqItems} />
       </AnimateOnScroll>
 
-      {/* CTA */}
+      <AnimateOnScroll animation="fade-up" duration={700}>
+        <RelatedSolutionsFrame
+          tag="Nos solutions"
+          titleHighlight="Allez plus loin"
+          title="avec les autres fonctionnalités AirSaas"
+          columns={4}
+          solutions={relatedSolutions}
+        />
+      </AnimateOnScroll>
+
       <AnimateOnScroll animation="scale-up" duration={800}>
         <CtaFrame
           title="Arrêtez de lancer des projets sans capacité"
           subtitle="Découvrez comment AirSaas simplifie votre capacity planning."
         >
-          <CardCta title="Réserver une démo" description='Enfin un outil pour dire "non" avec des données.' ctaLabel="Réservez une démo" className="flex-1" />
-          <CardCta title="Découvrir le guide" description="Le capacity planning sans prise de tête." ctaLabel="Télécharger le guide" className="flex-1" />
+          <CardCta
+            title="Réserver une démo"
+            description='Enfin un outil pour dire "non" avec des données.'
+            ctaLabel="Réservez une démo"
+            ctaHref="/fr/meetings-pages"
+            className="flex-1"
+          />
+          <CardCta
+            title="Découvrir le guide"
+            description="Le capacity planning sans prise de tête."
+            ctaLabel="Télécharger le guide"
+            ctaHref="/fr/meetings-pages"
+            className="flex-1"
+          />
         </CtaFrame>
       </AnimateOnScroll>
 
-      {/* Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
         <Footer
-          columns={footerColumns}
-          copyright="Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité"
+          columns={SITE_FOOTER_COLUMNS}
+          copyright={SITE_FOOTER_COPYRIGHT}
           copyrightIcon={<span aria-label="Français">🇫🇷</span>}
         />
       </AnimateOnScroll>
