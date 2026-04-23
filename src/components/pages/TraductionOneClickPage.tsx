@@ -2,260 +2,182 @@
 
 import { Hero } from "@/components/library-design/sections/Hero";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
+import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { RelatedSolutionsFrame } from "@/components/library-design/sections/RelatedSolutionsFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { CardCta } from "@/components/library-design/ui/CardCta";
-import { CheckList } from "@/components/library-design/ui/CheckList";
-import { Quote } from "@/components/library-design/ui/Quote";
 import { AnimateOnScroll } from "@/components/library-design/ui/AnimateOnScroll";
+import {
+  SITE_NAV_ITEMS,
+  SITE_NAV_CTA,
+  SITE_NAV_LOGIN,
+  SITE_FOOTER_COLUMNS,
+  SITE_FOOTER_COPYRIGHT,
+} from "@/data/site-chrome";
 
-/* ------------------------------------------------------------------ */
-/*  Data                                                               */
-/* ------------------------------------------------------------------ */
+const IMG = "/assets/pages/produit/traduction-one-click-avec-deepl";
 
-const navItems = [
-  { label: "Solutions", hasDropdown: true },
-  { label: "Produit", hasDropdown: true },
-  { label: "Ressources", hasDropdown: true },
-  { label: "Témoignages", href: "#" },
-  { label: "Intégrations", href: "#" },
-  { label: "Nouveautés", href: "#" },
-  { label: "Le Quarter Plan", href: "#" },
-  { label: "Intégration teams", href: "#" },
-];
-
-const footerColumns = [
+const faqItems = [
   {
-    title: "Entreprise",
-    links: [
-      { label: "Pourquoi AirSaas ?" },
-      { label: "Cookies" },
-      { label: "Conditions d'utilisation" },
-      { label: "Mentions légales" },
-      { label: "Charte de confidentialité" },
-      { label: "Kit média" },
-      { label: "API AirSaas" },
-      { label: "Plan du site" },
-    ],
+    question: "Quelles langues sont disponibles ?",
+    answer:
+      "Toutes les langues supportées par DeepL (31 langues dont anglais, allemand, espagnol, italien, japonais, portugais, etc.). La traduction est disponible en un clic dans le rapport flash.",
   },
   {
-    title: "Ressources",
-    links: [
-      { label: "Newsletter des DSI" },
-      { label: "Newsletter des Pro. de la Transfo." },
-      { label: "Le blog d'AirSaas" },
-      { label: "Podcast CIO Révolution" },
-      { label: "La conduite de projet" },
-      { label: "Portfolio project Management" },
-      { label: "Le comité de pilotage" },
-      { label: "Témoignages clients" },
-      { label: "Évènements" },
-    ],
+    question: "La traduction est-elle fiable pour des contenus confidentiels ?",
+    answer:
+      "Oui. L'intégration DeepL utilise l'API Pro avec une politique zero data retention — les contenus traduits ne sont pas conservés après la requête.",
   },
   {
-    title: "Solutions",
-    links: [
-      { label: "Management de portefeuille projet" },
-      { label: "Flash report automatisé" },
-      { label: "Outil PPM" },
-      { label: "Outil de pilotage projet" },
-      { label: "Plan stratégique" },
-      { label: "Portfolio management" },
-      { label: "Revue de portefeuille" },
-      { label: "Tableau de bord portefeuille de projet" },
-      { label: "Tableau de bord DSI" },
-    ],
-  },
-  {
-    title: "Le Quarter Plan & les cadres méthodologiques",
-    links: [
-      { label: "AirSaas, le Quarter Plan et l'effectuation : piloter l'incertitude" },
-    ],
-    sections: [
-      {
-        title: "Alternative à",
-        links: [
-          { label: "Sciforma" },
-          { label: "Planview Portfolio" },
-        ],
-      },
-    ],
+    question: "Puis-je modifier la traduction après génération ?",
+    answer:
+      "Oui. Chaque bloc traduit est éditable dans AirSaas : vous pouvez affiner le vocabulaire métier ou ajuster le ton avant l'export PowerPoint ou PDF.",
   },
 ];
 
-/* ------------------------------------------------------------------ */
-/*  Composition                                                        */
-/* ------------------------------------------------------------------ */
+const relatedSolutions = [
+  {
+    imageSrc: `${IMG}/66334ee7bcfcb0aa45802537_Capacity-screen.webp`,
+    imageAlt: "Vue capacitaire AirSaas",
+    title: "Capacity planning : pouvons-nous faire ces projets ?",
+    description:
+      "La vue capacitaire pour savoir ce qu'il est possible de faire, trimestre par trimestre.",
+    href: "/fr/produit/capacity-planning",
+  },
+  {
+    imageSrc: `${IMG}/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp`,
+    imageAlt: "Reporting projet AirSaas",
+    title: "Découvrez enfin le plaisir du reporting projet",
+    description:
+      "Le reporting essentiel pour créer de l'adhésion et éviter les dérapages.",
+    href: "/fr/produit/reporting-projet",
+  },
+  {
+    imageSrc: `${IMG}/6646284da53aa7e6aca6d77b_Control-tower-email-FR--screen-.webp`,
+    imageAlt: "Email bilan de santé AirSaas",
+    title: "Email « bilan de santé » : automatisez la com projet",
+    description:
+      "50% du succès c'est bien communiquer. Le bon niveau d'info, automatiquement.",
+    href: "/fr/produit/automatiser-la-com-projet",
+  },
+  {
+    imageSrc: `${IMG}/663cc3639d8f5c910c1cb133_Prioritization-per-team-ppt.webp`,
+    imageAlt: "Priorisation par équipe",
+    title: "Priorisation par équipes",
+    description:
+      "Chaque responsable priorise ses projets. Fini les Top 1 à 5 projets.",
+    href: "/fr/produit/priorisation-par-equipes",
+  },
+];
 
 export default function TraductionOneClickPage() {
   return (
     <div className="w-full">
-      {/* 1. Hero — dark variant with illustration */}
       <Hero
         variant="dark"
-        navItems={navItems}
-        navCtaLabel="Demander une démo"
-        navCtaHref="#"
-        loginLabel="Login"
-        loginHref="#"
-        topTag={{ label: "Traduction one-click avec DeepL", variant: "muted" }}
-        title="Le rapport flash désormais en"
-        titleHighlight="multilingue sur AirSaas"
-        subtitle="Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse-tête dans les organisations multilingues. Un établissement aux US ? Votre maison mère en Allemagne ? Marre de passer des heures à sécuriser des traductions en amont de vos réunions ?"
-        primaryCta={{ label: "Je veux une démo", href: "#" }}
-        imageSrc="/assets/images/traduction-one-click-avec-deepl/hero-copil-deepl-illustration.webp"
-        imageAlt="Interface AirSaas avec traduction multilingue Deepl"
+        navItems={SITE_NAV_ITEMS}
+        navCtaLabel={SITE_NAV_CTA.label}
+        navCtaHref={SITE_NAV_CTA.href}
+        loginLabel={SITE_NAV_LOGIN.label}
+        loginHref={SITE_NAV_LOGIN.href}
+        topTag={{ label: "Traduction one-click", variant: "muted" }}
+        title="Le rapport flash désormais"
+        titleHighlight="en multilingue"
+        subtitle="Présenter ses projets dans les organisations multilingues, c'était un casse-tête. Un établissement aux US ? Votre maison mère en Allemagne ? Traduction one-click intégrée avec DeepL."
+        primaryCta={{ label: "Je veux une démo", href: "/fr/meetings-pages" }}
+        imageSrc={`${IMG}/66339df65cf2a6c1d863cf5f_copil-deepl-illustration.webp`}
+        imageAlt="Illustration traduction DeepL dans un COPIL"
       />
 
-      {/* 2. Usage du rapport flash — stacked rich-text with bullet list */}
-      <AnimateOnScroll animation="fade-up" duration={700}>
-        <FeatureFrame
-          layout="stacked"
-          titleHighlight="Le rapport flash"
-          title="désormais en multilingue sur AirSaas"
-          richContent={
-            <>
-              <CheckList
-                items={[
-                  "Aligner toute une audience sur le sujet dont nous parlons.",
-                  "Rappeler les ordres de grandeur d'un projet et les équipes à bord.",
-                  "Donner du contexte temporel grâce aux jalons clés.",
-                  "Engager la conversation sur l'essentiel, l'information de la santé, les décisions à prendre ou les points d'attention à partager.",
-                ]}
-              />
-              <p>
-                C&apos;est l&apos;usage d&apos;un rapport flash projet ou
-                programme dans AirSaas. Découvrez la puissance de la
-                traduction one-click intégrée avec <strong>Deepl</strong>.
-              </p>
-            </>
-          }
-        />
-      </AnimateOnScroll>
-
-      {/* 3. Value proposition — stacked rich-text FeatureFrame */}
-      <AnimateOnScroll animation="fade-up" duration={700}>
-        <FeatureFrame
-          layout="stacked"
-          title="Vos chefs de projets et PO"
-          titleHighlight="vont adorer"
-          titleHighlightAtEnd
-          richContent={
-            <>
-              <p>
-                Le bon pilotage s&apos;appuie sur des cadrages précis, des
-                remontées de risques contextualisées et des soumissions
-                d&apos;arbitrages éclairés. Quand toute l&apos;énergie mise
-                dans la construction d&apos;un reporting de qualité est
-                alourdie par le temps nécessaire à traduire et à maintenir
-                des PowerPoints, vous n&apos;aidez pas vos équipes.
-              </p>
-              <Quote>
-                La nuance et la précision sont plus simples à exprimer dans
-                son langage maternel.
-              </Quote>
-              <p>Voici comment nous le concrétisons.</p>
-            </>
-          }
-        />
-      </AnimateOnScroll>
-
-      {/* 3. Feature — Plateforme multilingue à la maille utilisateur */}
       <AnimateOnScroll animation="fade-right" duration={800}>
         <FeatureFrame
           imagePosition="right"
-          titleHighlight="Plateforme multilingue"
-          title="à la maille utilisateur"
-          subtitle="Dans AirSaas, chacun choisit sa langue d'utilisation de la solution. Anglais, Français et toute autre langue sur demande."
-          imageSrc="/assets/images/traduction-one-click-avec-deepl/feature-langue-profile.webp"
-          imageAlt="Sélecteur de langue dans le profil utilisateur AirSaas"
+          tag="Rapport flash multilingue"
+          titleHighlight="Aligner toute une audience"
+          title="sur le bon niveau d'information"
+          subtitle="C'est l'usage du rapport flash projet ou programme dans AirSaas. Découvrez la puissance de la traduction one-click intégrée avec DeepL."
+          checklist={[
+            "Aligner toute une audience sur le sujet en cours",
+            "Rappeler les ordres de grandeur et les équipes à bord",
+            "Donner du contexte temporel via les jalons clés",
+            "Engager la conversation sur l'essentiel (santé, décisions, points d'attention)",
+          ]}
+          imageSrc={`${IMG}/6639e095d5f0439995046338_deepl-illustration.webp`}
+          imageAlt="Illustration de la traduction automatique DeepL"
         />
       </AnimateOnScroll>
 
-      {/* 4. Feature — Écrivez dans votre langue maternelle */}
       <AnimateOnScroll animation="fade-left" duration={800}>
         <FeatureFrame
           imagePosition="left"
-          titleHighlight="Écrivez dans votre langue maternelle,"
-          title="on s'occupe du reste"
-          subtitle="Écrivez tous vos contenus (compte-rendus, décisions à prendre, points d'attention, etc.) dans votre langue maternelle. AirSaas s'occupe de la traduction one-click pour vos collègues, en s'appuyant sur Deepl."
-          imageSrc="/assets/images/traduction-one-click-avec-deepl/feature-post-deepl-illustration.webp"
-          imageAlt="Bouton Traduire en français sur un commentaire de projet"
+          tag="Chefs de projet et PO"
+          titleHighlight="Vos chefs de projet"
+          title="vont adorer"
+          titleHighlightAtEnd={false}
+          subtitle="Le bon pilotage s'appuie sur des cadrages précis, des remontées de risques contextualisées et des arbitrages éclairés. Inutile d'alourdir tout ça avec le temps de traduction de PowerPoints."
+          imageSrc={`${IMG}/6633a76d5f19bfbf5c45d7d4_langue_profile.webp`}
+          imageAlt="Sélecteur de langue sur un profil AirSaas"
+          imageBgColor="var(--color-prevention-10)"
         />
       </AnimateOnScroll>
 
-      {/* 5. Feature rich-text — Une autre langue vous changerait la vie ? */}
-      <AnimateOnScroll animation="fade-left" duration={800}>
+      <AnimateOnScroll animation="fade-right" duration={800}>
         <FeatureFrame
-          imagePosition="left"
-          imageSize="compact"
-          titleHighlight="Une autre langue"
-          title="vous changerait la vie ?"
-          richContent={
-            <>
-              <p>
-                Notre intégration avec <strong>Deepl</strong>, solution leader
-                de la traduction, nous permet d&apos;étudier vos besoins
-                spécifiques rapidement.
-              </p>
-              <p>
-                Le mode rapport flash vous permet de construire en quelques
-                clics le support de votre meeting. À vos couleurs et dans la
-                langue du meeting à venir !
-              </p>
-            </>
-          }
-          imageSrc="/assets/images/traduction-one-click-avec-deepl/feature-deepl-illustration.webp"
-          imageAlt="Connexion AirSaas-Deepl avec menu de traduction multilingue"
+          imagePosition="right"
+          tag="Post-réunion"
+          titleHighlight="Des comptes-rendus"
+          title="immédiatement diffusables"
+          subtitle="Une fois le copil terminé, le rapport peut être partagé dans toutes les langues utiles — sans friction, sans temps mort entre la décision et sa communication."
+          imageSrc={`${IMG}/6646003be55efbd36750d4e9_post-deepl-illustration.webp`}
+          imageAlt="Illustration post-DeepL"
         />
       </AnimateOnScroll>
 
-      {/* 6. En bref — stacked rich-text section */}
+      <AnimateOnScroll animation="fade-up" duration={600}>
+        <FaqFrame
+          title="Vos questions"
+          titleHighlight="sur la traduction DeepL"
+          items={faqItems}
+        />
+      </AnimateOnScroll>
+
       <AnimateOnScroll animation="fade-up" duration={700}>
-        <FeatureFrame
-          layout="stacked"
-          title="En bref ..."
-          richContent={
-            <>
-              <p>
-                Engager une démarche de transformation durable, c&apos;est
-                s&apos;attaquer à tous les irritants qui pèsent sur celle-ci.
-                L&apos;animation de réunion et de rituels projets de qualité,
-                en restant frugal sur le temps de reporting, c&apos;est la
-                base.
-              </p>
-              <p>
-                Découvrir comment AirSaas construit avec ses clients et avec
-                des top experts la solution de pilotage de portefeuille projet
-                adorée par celles et ceux qui veulent changer la donne.
-              </p>
-            </>
-          }
+        <RelatedSolutionsFrame
+          tag="Nos solutions"
+          titleHighlight="Allez plus loin"
+          title="avec les autres fonctionnalités AirSaas"
+          columns={4}
+          solutions={relatedSolutions}
         />
       </AnimateOnScroll>
 
-      {/* 8. CTA — Vous voulez l'essayer ? */}
       <AnimateOnScroll animation="scale-up" duration={800}>
         <CtaFrame
           title="Vous voulez l'essayer ?"
-          subtitle="Discutons-en et bénéficiez d'une démo sur mesure"
+          subtitle="Discutons-en et bénéficiez d'une démo sur mesure."
         >
-          <div style={{ gridColumn: "1 / -1", width: "70%", margin: "0 auto" }}>
-            <CardCta
-              title="Je veux une démo"
-              description="Découvrez comment AirSaas vous accompagne dans vos projets multilingues grâce à la traduction one-click avec Deepl."
-              ctaLabel="Je veux une démo"
-              className="w-full"
-            />
-          </div>
+          <CardCta
+            title="Réserver une démo"
+            description="30 minutes pour voir la traduction DeepL en action."
+            ctaLabel="Je veux une démo"
+            ctaHref="/fr/meetings-pages"
+            className="flex-1"
+          />
+          <CardCta
+            title="Parler à un expert"
+            description="Un besoin précis ? Échangez avec notre équipe PPM."
+            ctaLabel="Nous contacter"
+            ctaHref="/fr/meetings-pages"
+            className="flex-1"
+          />
         </CtaFrame>
       </AnimateOnScroll>
 
-      {/* 9. Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
         <Footer
-          columns={footerColumns}
-          copyright="Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité"
+          columns={SITE_FOOTER_COLUMNS}
+          copyright={SITE_FOOTER_COPYRIGHT}
           copyrightIcon={<span aria-label="Français">🇫🇷</span>}
         />
       </AnimateOnScroll>

@@ -35,7 +35,7 @@
 | 0.5 | Regen `ds-components-reference.md` | ✅ done | 04117ad | Fixed hardcoded path in script, ran `python3 scripts/generate-ds-reference.py` → 34 UI + 24 sections, 0 missing contracts |
 | 1 | Capture live content 26 pages | ✅ done | (à commit) | 26 pages captured. Output: `docs/live-captures/{type}/{slug}.{json,md,png}`. Script : `scripts/capture-live-pages.mjs` |
 | 2 | Download images 26 pages | ✅ done | (à commit) | 213 images uniques. Output: `public/assets/pages/{type}/{slug}/`. Script : `scripts/download-page-images.mjs` |
-| 3.A | Build 6 Produit + verif | ⏳ pending | — | — |
+| 3.A | Build 6 Produit + verif | ✅ done | (à commit) | 6/6 pages built, DS audit clean, HTTP 200, tsc clean (hors pré-existant) |
 | 3.B | Build 4 LP + verif | ⏳ pending | — | — |
 | 3.C | Build 4 Équipes + verif | ⏳ pending | — | — |
 | 3.D | Build 12 Solution + verif | ⏳ pending | — | — |
