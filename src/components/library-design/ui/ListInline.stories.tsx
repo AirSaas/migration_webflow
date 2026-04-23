@@ -52,3 +52,27 @@ export const MultiLine: Story = {
     </div>
   ),
 };
+
+/** Bullet variant "circle-primary" — blog article body lists (primary-60
+ *  outlined ring instead of the green check). */
+export const CirclePrimary: Story = {
+  render: () => (
+    <div className="flex flex-col gap-[0.625rem] max-w-[33rem]">
+      <span className="text-sm font-medium text-text-muted">
+        bullet=&quot;circle-primary&quot; — blog body bullet list
+      </span>
+      <ListInline bullet="circle-primary">
+        D&eacute;veloppement continu des capacit&eacute;s
+      </ListInline>
+      <ListInline bullet="circle-primary">
+        Brief structur&eacute; selon vos templates
+      </ListInline>
+      <ListInline bullet="circle-primary">
+        Demandes comparables entre elles
+      </ListInline>
+      <ListInline bullet="circle-primary">
+        Dites non plus t&ocirc;t, lancez moins de projets... mais mieux
+      </ListInline>
+    </div>
+  ),
+};

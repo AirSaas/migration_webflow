@@ -154,7 +154,7 @@
   /* Typography scale */
   --text-h1: clamp(2.5rem, 5vw, 5.9375rem);
   --text-h2: clamp(2rem, 4vw, 4.5rem);
-  --text-h3: clamp(1.75rem, 3.5vw, 4.375rem);
+  --text-h3: clamp(1.5rem, 2.8vw, 2.5rem);
   --text-h4: clamp(1.5rem, 2.5vw, 2.5rem);
   --text-paragraph: clamp(1.125rem, 1.5vw, 1.5625rem);
   --text-small: 1rem;
@@ -180,6 +180,7 @@
   --gradient-hero-bg: linear-gradient(187deg, var(--color-background) 22%, var(--color-orange-bright) 62%, var(--color-primary-60) 88%);
   --gradient-hero-dark-bg: linear-gradient(187deg, var(--color-primary-70) 4%, var(--color-orange-bright) 100%);
   --gradient-cta-bg: linear-gradient(187deg, var(--color-background) 42%, var(--color-orange-bright) 62%, var(--color-primary-60) 88%);
+  --gradient-blog-hero-bg: linear-gradient(201deg, var(--color-background) 22.29%, var(--color-primary-20) 62.48%, var(--color-primary-60) 87.91%);
 
   /* Alpha variants (decorative overlays, soft rings) */
   --color-primary-70-alpha-6: rgba(107, 123, 233, 0.06);

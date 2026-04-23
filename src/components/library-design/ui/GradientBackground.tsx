@@ -9,6 +9,10 @@ const variants = {
     gradient: "var(--gradient-hero-dark-bg)",
     className: "h-[887px] bottom-0 opacity-100",
   },
+  "blog-hero": {
+    gradient: "var(--gradient-blog-hero-bg)",
+    className: "h-full inset-0 opacity-100",
+  },
   cta: {
     gradient: "var(--gradient-cta-bg)",
     className: "h-full inset-0 opacity-100",
@@ -32,7 +36,7 @@ interface GradientBackgroundProps {
  * @dontUse    As a card or content background — it's `aria-hidden`, blurred, and absolutely positioned. For solid fills, use Tailwind bg-* classes.
  *
  * @limits
- *   - variant: "hero" | "hero-dark" | "cta" | "comparison" — each has a fixed gradient + positioning
+ *   - variant: "hero" | "hero-dark" | "blog-hero" | "cta" | "comparison" — each has a fixed gradient + positioning
  */
 export function GradientBackground({
   variant = "hero",

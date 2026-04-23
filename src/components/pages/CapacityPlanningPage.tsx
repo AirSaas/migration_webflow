@@ -93,7 +93,7 @@ export default function CapacityPlanningPage() {
 
       {/* Logos bar */}
       <AnimateOnScroll animation="fade" duration={500}>
-        <LogosBar logos={logos} />
+        <LogosBar label="Ils gèrent leur capacité avec AirSaas" logos={logos} />
       </AnimateOnScroll>
 
       {/* Value Proposition — Les chiffres */}
@@ -329,7 +329,7 @@ export default function CapacityPlanningPage() {
 
       {/* FAQ */}
       <AnimateOnScroll animation="fade-up" duration={600}>
-        <FaqFrame items={faqItems} />
+        <FaqFrame title="Questions" titleHighlight="fréquentes" items={faqItems} />
       </AnimateOnScroll>
 
       {/* CTA */}
@@ -345,7 +345,11 @@ export default function CapacityPlanningPage() {
 
       {/* Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
-        <Footer columns={footerColumns} />
+        <Footer
+          columns={footerColumns}
+          copyright="Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité"
+          copyrightIcon={<span aria-label="Français">🇫🇷</span>}
+        />
       </AnimateOnScroll>
     </div>
   );

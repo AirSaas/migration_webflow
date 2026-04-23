@@ -29,6 +29,8 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | Component | Purpose (1-line) |
 |---|---|
 | `<AnimateOnScroll>` | Wraps content in an intersection-observer driven entrance animation that replays on scroll. |
+| `<BlogAuthorTag>` | Author attribution block for blog articles: "Publié par" label + green pill with avatar + author name + "dans [catego… |
+| `<BlogCard>` | Single blog article preview card — thumbnail, publication date, title, excerpt, and a compact author byline. The enti… |
 | `<Button>` | Canonical interactive element for all CTAs, links-as-buttons, and actions. Renders `<a>` if `href` is provided, `<but… |
 | `<CardCta>` | Minimal card with a short gradient title, a one-line description, and a primary CTA. Usually rendered as children of … |
 | `<CheckList>` | Vertical list where each item is prefixed by a green gradient circle-check icon. |
@@ -38,16 +40,16 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<ErrorBoundary>` | React class component that catches render-time errors in its subtree and renders a branded fallback instead of a cras… |
 | `<FeatureCard>` | Card used to display a big metric / short feature statement with icon, title (often a gradient number or short phrase… |
 | `<Float>` | Continuously bobs its child up and down with a subtle looping animation. |
-| `<FloatingCard>` | Small rounded white card with soft elevation, used as a decorative satellite around hero illustrations. |
+| `<FloatingCard>` | Small rounded white card with soft elevation, used as a decorative satellite around hero illustrations or as a conten… |
 | `<GradientBackground>` | Absolutely positioned blurred gradient layer used as section ambiance. |
 | `<GradientText>` | Apply a brand gradient to a text fragment (inline span). Replaces scattered `style={{ backgroundImage, WebkitBackgrou… |
 | `<Heading>` | Canonical headline component for all H1 / H2 / H3 / H4 in the product. |
 | `<IconBadge>` | Circular badge hosting a large duotone icon — the main visual anchor in icon-led sections. |
 | `<IconIllustration>` | Stylised icon with a drop-shadow offset and a solid ellipse "base" underneath — AirSaas's signature illustrated icon … |
-| `<IllustrationFrame>` | Rounded, semi-transparent white frame that wraps a hero/section illustration with consistent padding and border. |
+| `<IllustrationFrame>` | Rounded frame that wraps a hero / section / blog-body illustration with consistent padding, border, and radius. |
 | `<ListCard>` | Numbered card with a big gradient number + short description. Used inside <ComparisonFrame> for "avec/sans" lists or … |
 | `<ListEmphasized>` | Horizontal row of short text blocks separated by an orange left border — used to highlight 2–4 key points side-by-side. |
-| `<ListInline>` | Single inline item (icon + text) — the row primitive behind <CheckList> and FeatureFrame checklists. |
+| `<ListInline>` | Single inline item (icon + text) — the row primitive behind <CheckList>, <TableOfContentsFrame>, and blog body bullet… |
 | `<LogosBar>` | Horizontal bar of grayscale customer/partner logos with a leading label and divider. |
 | `<Navbar>` | Top-of-page navigation. Logo + links (flat or with dropdown) + optional flag / locale / login / CTA. |
 | `<NavbarDropdown>` | Floating menu panel containing a vertical list of icon + title + subtitle links — the reusable body of navbar mega-me… |
@@ -55,6 +57,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<SectionHeading>` | Standalone centered H2 + subtitle block used to introduce a section. |
 | `<Skeleton>` | Placeholder block that renders while async content is loading. Uses a subtle `secondary-5` bg + pulse animation to si… |
 | `<Slider>` | Minimal image carousel with prev/next chevron buttons and a lavender top-framed illustration well. |
+| `<TableFrame>` | Responsive comparison / data table with a primary-blue header row and soft lavender body cells. Scrolls horizontally … |
 | `<Tag>` | Small inline pill/badge used for categories, status indicators, eyebrow labels, and filter chips. |
 | `<TestimonialCard>` | Display a short customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link. |
 | `<TestimonialCompanyCard>` | Company-facing testimonial: quote + company logo, framed by an asymmetric primary border. |
@@ -64,6 +67,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 | Component | Purpose (1-line) |
 |---|---|
+| `<BlogArticleBody>` | Outer wrapper for the rich-text body of a blog article — white background, responsive side padding, 91.25rem inner ma… |
+| `<BlogHero>` | Article header for a single blog post: navbar + "Le Blog" tag + article title + author attribution (<BlogAuthorTag>) … |
+| `<BlogIndexGrid>` | Responsive grid of <BlogCard> previews inside a lavender panel, with an optional "see all articles" CTA below. |
 | `<ComparisonDualFrame>` | "Avec / sans" dual-column comparison: a row of numbered cards per column, each column led by a colored pill label. |
 | `<ComparisonFrame>` | "Avec / sans" style numbered-list section showing pain points OR gains. |
 | `<ComparisonTableFrame>` | Feature comparison grid — one card per row, one wide "feature" cell on the left, N narrower value cells on the right … |
@@ -77,7 +83,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<HighlightFrame>` | Alternating-zigzag vertically stacked cards, each with a big green gradient number outside the card (left on odd, rig… |
 | `<IconRowFrame>` | Horizontal row of icon + label pairs (integrations, tech stack, trusted-by logos rendered as iconography). Icons sit … |
 | `<PillarFrame>` | Grid of "pillar" cards — each with a large icon illustration, uppercase primary title, description, and an optional e… |
+| `<RelatedArticlesFrame>` | "Further reading" block at the end of a blog article — centered primary-gradient title + white rounded card listing o… |
 | `<SliderFrame>` | Centered title + subtitle + interactive screenshot carousel. |
+| `<TableOfContentsFrame>` | Article-level table of contents — centered primary-gradient title + white rounded card listing anchor links to each a… |
 | `<TestimonialsFrame>` | Section wrapper for testimonial cards: gradient heading + 3-col grid. |
 | `<ValuePropositionFrame>` | Section with title + subtitle + a 3- or 4-column grid of child cards (usually <FeatureCard> or custom). |
 
@@ -101,6 +109,51 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Forbidden:**
 - Do NOT nest AnimateOnScroll inside another AnimateOnScroll — use `stagger` + <AnimateChild> instead
 - Do NOT override opacity/transform via `className` — it will fight the animation state
+
+---
+
+### `<BlogAuthorTag>`
+
+📄 [`src/components/library-design/ui/BlogAuthorTag.tsx`](src/components/library-design/ui/BlogAuthorTag.tsx)
+🎨 Figma `node-id 303-1655`
+
+**Purpose** — Author attribution block for blog articles: "Publié par" label + green pill with avatar + author name + "dans [category]" link + publication date.
+**Use when** — Blog article heros (<BlogHero>), blog card bylines, author attribution strips. Anywhere a blog post needs to surface author + category + date as a grouped meta block.
+**Don't use** — For testimonial attribution (use <TestimonialCard>). For client / team cards (use <ClientCard>). For a plain metadata row with no author pill (use raw <Text> blocks).
+
+**Limits:**
+- name: max 40 chars (longer breaks the pill on 2 lines)
+- categoryLabel: max 40 chars
+- publishedDate: caller passes a pre-formatted string (i18n done upstream)
+- avatarAlt: required if avatarSrc is provided; "" allowed for decorative
+
+**Forbidden:**
+- Do NOT pass className with bg / text color / font / rounding overrides — the green pill + grey meta colors are part of the component contract
+- Do NOT nest this inside <Tag> — this IS a composed tag+meta block
+- Do NOT pass a hex color for the pill; the pill uses --color-success-text
+
+---
+
+### `<BlogCard>`
+
+📄 [`src/components/library-design/ui/BlogCard.tsx`](src/components/library-design/ui/BlogCard.tsx)
+🎨 Figma `node-id 312-2107 (inside 312-2093)`
+
+**Purpose** — Single blog article preview card — thumbnail, publication date, title, excerpt, and a compact author byline. The entire card surfaces the article and the title acts as the primary link; an optional category link (e.g. a newsletter / section name) stays independently clickable.
+**Use when** — Inside <BlogIndexGrid> for blog index / listing pages, or in any CMS-driven "featured articles" section that lists thumbnails + excerpts.
+**Don't use** — For testimonial / client logos (use <TestimonialCard> / <ClientCard>). For author attribution inside an article (use <BlogAuthorTag>). For non-article content preview (use <CardCta>).
+
+**Limits:**
+- title: max 120 chars (H4 wraps cleanly up to ~2 lines at that length)
+- excerpt: max 200 chars (3 lines at --text-paragraph)
+- thumbnailAlt: required. Empty string `""` only for purely decorative thumbnails (rare — blog thumbnails should describe)
+- authorName: max 40 chars (matches <BlogAuthorTag>)
+- categoryLabel: max 60 chars (if provided)
+
+**Forbidden:**
+- Do NOT pass className that overrides bg / border / padding / rounded — the white card chrome is part of the contract
+- Do NOT nest <BlogCard> inside another card (use plain markup for inline previews)
+- Do NOT hardcode "Publié par" / "dans" — pass via props for locale
 
 ---
 
@@ -258,13 +311,18 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/ui/FloatingCard.tsx`](src/components/library-design/ui/FloatingCard.tsx)
 
-**Purpose** — Small rounded white card with soft elevation, used as a decorative satellite around hero illustrations.
-**Use when** — Floating mini-cards that orbit a hero visual (KPI snippets, status pills, feature teasers) — typically wrapped in <Float>.
-**Don't use** — As a real content card — it's `aria-hidden` and decorative. For interactive/readable cards, use <FeatureCard> or a section-level card.
+**Purpose** — Small rounded white card with soft elevation, used as a decorative satellite around hero illustrations or as a content-bearing pill (Footer copyright).
+**Use when** — Floating mini-cards that orbit a hero visual (KPI snippets, status pills, feature teasers — typically wrapped in <Float>). Also as a standalone content pill when the elevated white chrome is the desired affordance (pass `decorative={false}`).
+**Don't use** — As a large content card with headings + body — use <FeatureCard> or a section-level card for that. For plain cards without shadow, use inline markup.
 
 **Limits:**
 - children: optional — when omitted, a placeholder (icon + 2 skeleton bars) renders
 - icon: only used by the placeholder; ignored when `children` is provided
+- decorative: true (default — aria-hidden + pointer-events-none, so the card never obstructs reading / interaction with the text underneath) | false (real content — announced by screen readers and keeps pointer events)
+
+**Forbidden:**
+- Do NOT pass `decorative={true}` when the card contains real text the user needs to read or select (aria-hidden hides it from screen readers)
+- Do NOT rely on `decorative={true}` cards for click / hover interactions — they have pointer-events-none
 
 ---
 
@@ -277,7 +335,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Don't use** — As a card or content background — it's `aria-hidden`, blurred, and absolutely positioned. For solid fills, use Tailwind bg-* classes.
 
 **Limits:**
-- variant: "hero" | "hero-dark" | "cta" | "comparison" — each has a fixed gradient + positioning
+- variant: "hero" | "hero-dark" | "blog-hero" | "cta" | "comparison" — each has a fixed gradient + positioning
 
 ---
 
@@ -310,7 +368,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - level 1: max ~40 chars on 1 line (clamp 40 → 95px)
 - level 2: max ~60 chars on 1 line (clamp 32 → 72px)
-- level 3: max ~60 chars on 1 line (clamp 28 → 70px)
+- level 3: max ~60 chars on 1 line (clamp 24 → 40px — aligned Figma spec)
 - level 4: max ~80 chars on 1 line (clamp 24 → 40px)
 
 **Forbidden:**
@@ -351,14 +409,20 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 ### `<IllustrationFrame>`
 
 📄 [`src/components/library-design/ui/IllustrationFrame.tsx`](src/components/library-design/ui/IllustrationFrame.tsx)
+🎨 Figma `node-id 303-1146 (warm tone — Blog body image well)`
 
-**Purpose** — Rounded, semi-transparent white frame that wraps a hero/section illustration with consistent padding and border.
-**Use when** — Hero split visuals, feature showcase screenshots, or any product illustration that needs the signature AirSaas "glass" frame.
-**Don't use** — For decorative floating cards — use <FloatingCard>. For plain images without the frame chrome, use a raw <img>.
+**Purpose** — Rounded frame that wraps a hero / section / blog-body illustration with consistent padding, border, and radius.
+**Use when** — `tone="neutral"` — hero split visuals, feature screenshots, any product illustration with the AirSaas "glass" frame. `tone="warm"` — editorial images inside a blog article body (BlogArticleBody), where the pale prevention-10 well frames the visual against the white article background.
+**Don't use** — For decorative floating cards — use <FloatingCard>. For plain images without any frame chrome, use a raw <img>.
 
 **Limits:**
-- shape: "open-bottom" (default — rounded top, bleeds into next section) | "contained" (all 4 corners rounded, standalone)
+- shape: "open-bottom" (default — rounded top, bleeds into next section) | "contained" (all 4 corners rounded, standalone). Ignored when tone="warm" (always contained).
+- tone: "neutral" (default — glass) | "warm" (prevention-10 well)
 - alt: empty string marks the image as decorative (`aria-hidden`)
+
+**Forbidden:**
+- Do NOT pass className that overrides bg / border / padding — the frame chrome is part of the tone contract
+- Do NOT combine `tone="warm"` with `shape="open-bottom"` — warm frames are always contained
 
 ---
 
@@ -396,12 +460,16 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/ui/ListInline.tsx`](src/components/library-design/ui/ListInline.tsx)
 
-**Purpose** — Single inline item (icon + text) — the row primitive behind <CheckList> and FeatureFrame checklists.
-**Use when** — You need one check-prefixed line inside rich content, or want to render a list with a custom (non-check) icon by passing `icon`.
-**Don't use** — For multi-item vertical lists — use <CheckList> which composes this under the hood.
+**Purpose** — Single inline item (icon + text) — the row primitive behind <CheckList>, <TableOfContentsFrame>, and blog body bullet lists.
+**Use when** — One check-prefixed line inside rich content, or a vertical bullet list where each item shares the same preset bullet. Pass `bullet="circle-primary"` for blog body lists (primary outlined ring), default `"check-green"` for feature lists.
+**Don't use** — For multi-item vertical lists of features — use <CheckList> (which composes this under the hood with the green bullet). For anchor-link tables of contents, use <TableOfContentsFrame>.
 
 **Limits:**
-- icon: optional override; defaults to the green-gradient circle-check
+- bullet: "check-green" (default, green gradient check — feature / benefit lists) | "circle-primary" (outlined primary-60 ring — blog body lists)
+- icon: optional custom node; overrides `bullet` when provided
+
+**Forbidden:**
+- Do NOT pass className with font-size / color overrides on the text — the font-light + foreground color is part of the contract
 
 ---
 
@@ -415,7 +483,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 **Limits:**
 - logos: array of { src, alt, width?, height? } — rendered grayscale at 70% opacity
-- label: defaults to the FR social-proof string; override per locale
+- label: optional — if omitted, no leading label is rendered. Pass a localized string from CMS / i18n.
 
 ---
 
@@ -517,6 +585,28 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
+### `<TableFrame>`
+
+📄 [`src/components/library-design/ui/TableFrame.tsx`](src/components/library-design/ui/TableFrame.tsx)
+🎨 Figma `node-id 309-1899 (inside blog body 303-1146)`
+
+**Purpose** — Responsive comparison / data table with a primary-blue header row and soft lavender body cells. Scrolls horizontally on narrow viewports.
+**Use when** — Blog article body (comparisons: chef de projet vs PMO), pricing plan comparisons, feature matrix. 2–6 columns, up to 20 rows. Use outside a FeatureFrame / CardCta pattern.
+**Don't use** — For feature lists (use <CheckList> / <ListInline>). For 2-column key-value metadata (use a <dl> inline in the page). For over 20 rows — paginate or reduce.
+
+**Limits:**
+- columns: 2–6 (wider breaks the readable column width on desktop)
+- rows: 1–20 (beyond 20, the visual density hurts readability)
+- every row.length must equal columns.length (enforced in dev)
+- each column header: max 60 chars
+
+**Forbidden:**
+- Do NOT pass className with bg-* / text-* / border-* overrides — the primary header + primary-2 cells + primary-20 separators are part of the visual contract
+- Do NOT nest another <TableFrame> inside a cell
+- Do NOT pass a row with fewer / more cells than columns
+
+---
+
 ### `<Tag>`
 
 📄 [`src/components/library-design/ui/Tag.tsx`](src/components/library-design/ui/Tag.tsx)
@@ -591,6 +681,68 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 
 ## 🧩 Section Frames — full rules
+
+### `<BlogArticleBody>`
+
+📄 [`src/components/library-design/sections/BlogArticleBody.tsx`](src/components/library-design/sections/BlogArticleBody.tsx)
+🎨 Figma `node-id 303-1146`
+
+**Purpose** — Outer wrapper for the rich-text body of a blog article — white background, responsive side padding, 91.25rem inner max-width, and a 3.125rem vertical rhythm between children.
+**Use when** — Between <TableOfContentsFrame> and <CtaHighlightFrame> on a blog article page. Compose children from the DS primitives listed in the prop doc (Heading, Text, Quote, ListInline, TableFrame, IllustrationFrame with tone="warm", plus inline markup). In Step 5 CMS, a `blocks` prop backed by `@strapi/blocks-react-renderer` will be added alongside `children`.
+**Don't use** — As a marketing section (use <FeatureFrame> / <CtaHighlightFrame>). For non-article pages (it assumes long-form vertical rhythm and centered narrow-max-width reading flow).
+
+**Limits:**
+- children: article content — DS primitives only. No raw <h1-6> / <p>, no hardcoded colors or fonts in child markup (ESLint + ds-audit enforce this).
+
+**Forbidden:**
+- Do NOT hardcode article content inside the component — copy flows in via children (rendered by the page, sourced from i18n / CMS)
+- Do NOT override bg / padding / max-w / gap via className — they are part of the reading-flow contract
+- Do NOT render more than one <BlogArticleBody> per page
+
+---
+
+### `<BlogHero>`
+
+📄 [`src/components/library-design/sections/BlogHero.tsx`](src/components/library-design/sections/BlogHero.tsx)
+🎨 Figma `node-id 303-1016`
+
+**Purpose** — Article header for a single blog post: navbar + "Le Blog" tag + article title + author attribution (<BlogAuthorTag>) + featured illustration frame that bleeds into the next section.
+**Use when** — Top of a blog article page. One per page.
+**Don't use** — As a blog index / landing hero (use <Hero> with a CTA). For non-blog pages (use <Hero>). For inline author attribution inside a card (use <BlogAuthorTag> directly).
+
+**Limits:**
+- title: max 180 chars (articles tolerate long titles, but past that H1 wraps too aggressively and hurts readability)
+- topTagLabel: max 30 chars (default "Le Blog")
+- navItems: 2–9 top-level items
+- imageAlt: required — pass "" only if the featured image is purely decorative
+
+**Forbidden:**
+- Do NOT render multiple <BlogHero> per page
+- Do NOT pass className that changes background / min-height — the white bg + gradient + ellipse are part of the section contract
+- Do NOT pass arbitrary color / typography overrides via className
+
+---
+
+### `<BlogIndexGrid>`
+
+📄 [`src/components/library-design/sections/BlogIndexGrid.tsx`](src/components/library-design/sections/BlogIndexGrid.tsx)
+🎨 Figma `node-id 312-2093`
+
+**Purpose** — Responsive grid of <BlogCard> previews inside a lavender panel, with an optional "see all articles" CTA below.
+**Use when** — Blog index pages, homepage featured-articles section, category / tag listing pages. Pair with a preceding <SectionHeading> if the grid needs a title.
+**Don't use** — For long paginated archives (build a dedicated paginated listing with filters). For mixed content (articles + whitepapers + videos), split into multiple grids or use <ValuePropositionFrame>.
+
+**Limits:**
+- articles: 1–9 (1 for a featured highlight, 3/6/9 fill the grid cleanly at lg breakpoint). Orphan rows (4, 5, 7, 8 items) render but leave uneven columns.
+- ctaLabel: max 30 chars (matches <Button> limit)
+- ctaHref: required when ctaLabel is provided
+
+**Forbidden:**
+- Do NOT pass className that overrides bg / padding / rounded on the outer section or the lavender panel
+- Do NOT hardcode the CTA label — pass via props (locale-driven)
+- Do NOT render an empty grid (articles.length must be >= 1)
+
+---
 
 ### `<ComparisonDualFrame>`
 
@@ -864,6 +1016,29 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
+### `<RelatedArticlesFrame>`
+
+📄 [`src/components/library-design/sections/RelatedArticlesFrame.tsx`](src/components/library-design/sections/RelatedArticlesFrame.tsx)
+🎨 Figma `node-id 309-1986`
+
+**Purpose** — "Further reading" block at the end of a blog article — centered primary-gradient title + white rounded card listing outbound links to related resources (other articles, whitepapers, videos, external sources). Each item is prefixed by a small "external-link" square icon.
+**Use when** — Bottom of a blog article (before the CTA block), to surface 3–10 pieces of further reading. Coexists with <TableOfContentsFrame> on the same page (TOC at the top, further-reading at the bottom).
+**Don't use** — For in-page anchor navigation (use <TableOfContentsFrame>). For marketing CTAs with cards + imagery (use <CardCta>). For footer-style multi-column directories (use <Footer>). For fewer than 3 links (looks sparse — just inline them in the article body).
+
+**Limits:**
+- title: max 30 chars (e.g. "Pour aller plus loin", "Further reading")
+- items: 3–10 (below 3 looks sparse; above 10 becomes a directory)
+- each item.label: max 120 chars (matches blog article title tolerance)
+- each item.href: resolvable URL (internal route or external)
+- each item.target: "_self" (default) | "_blank" (external — adds rel noopener noreferrer automatically)
+
+**Forbidden:**
+- Do NOT pass className that changes background / border / padding — the lavender section + white card + primary-40 border are part of the contract
+- Do NOT hardcode the title text — pass via `title` prop from i18n / CMS (locale-driven)
+- Do NOT render more than one <RelatedArticlesFrame> per page
+
+---
+
 ### `<SliderFrame>`
 
 📄 [`src/components/library-design/sections/SliderFrame.tsx`](src/components/library-design/sections/SliderFrame.tsx)
@@ -880,6 +1055,28 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 **Forbidden:**
 - Do NOT nest another <Slider> inside this frame
+
+---
+
+### `<TableOfContentsFrame>`
+
+📄 [`src/components/library-design/sections/TableOfContentsFrame.tsx`](src/components/library-design/sections/TableOfContentsFrame.tsx)
+🎨 Figma `node-id 303-1104`
+
+**Purpose** — Article-level table of contents — centered primary-gradient title + white rounded card listing anchor links to each article section.
+**Use when** — Top of a long-form blog article (right after <BlogHero>), or any documentation page that benefits from a jump-to-section index. Title is locale-driven — caller passes "Sommaire" / "Contents" / "Inhalt" from next-intl.
+**Don't use** — For primary site navigation (use <Navbar>). For CTA-rich lists (use <ListEmphasized> or <CardCta>). For multi-column link directories (use <Footer>). For 1-2 items (looks sparse — just omit the block).
+
+**Limits:**
+- title: max 30 chars (often uppercased by caller, e.g. "SOMMAIRE")
+- items: 3–15 anchors (below 3 looks sparse, above 15 breaks reading flow)
+- each item.label: max 120 chars (matches blog H2/H3 title tolerance)
+- each item.href: must resolve to an on-page anchor ("#slug")
+
+**Forbidden:**
+- Do NOT pass className that changes background / border / padding — the lavender surface + white card + primary-40 border are part of the contract
+- Do NOT hardcode the title text — always pass via `title` prop from i18n / CMS (locale-driven)
+- Do NOT render more than one <TableOfContentsFrame> per page
 
 ---
 

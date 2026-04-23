@@ -761,7 +761,8 @@ export default function HomePage() {
             {customerCards.map((c, i) => (
               <ClientCard
                 key={i}
-                avatarSrc={`https://placehold.co/90x90/e8eafc/3a51e2?text=${c.name.split(" ").map(n => n[0]).join("")} avatarAlt=""`}
+                avatarSrc={`https://placehold.co/90x90/e8eafc/3a51e2?text=${c.name.split(" ").map(n => n[0]).join("")}`}
+                avatarAlt={c.name}
                 name={c.name}
                 jobTitle={c.jobTitle}
                 companyName={c.companyName}
@@ -809,7 +810,11 @@ export default function HomePage() {
 
       {/* 18. Footer */}
       <AnimateOnScroll animation="fade-up" duration={600}>
-        <Footer columns={footerColumns} />
+        <Footer
+          columns={footerColumns}
+          copyright="Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité"
+          copyrightIcon={<span aria-label="Français">🇫🇷</span>}
+        />
       </AnimateOnScroll>
     </div>
   );

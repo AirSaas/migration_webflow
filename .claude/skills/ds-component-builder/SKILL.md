@@ -19,6 +19,7 @@ These are not guidelines. They are **rules with zero exceptions**:
 2. **Fonts — only Product Sans.** Loaded via `@font-face` in `globals.css`. Never `next/font/google`. Never a CSS `font-family` override. If you need a weight that isn't 300/400/700/900 — it's not available. Pick an existing weight.
 3. **Typography — only `<Heading>` / `<Text>` / `<GradientText>` / `<SectionHeading>`.** No raw `<h1-h6>` with inline styles. No `<p>` with `font-*` / `text-*` classes. No inline `style={{ fontSize }}`.
 4. **Arbitrary Tailwind color/text values are banned.** `bg-[#X]`, `text-[Npx]`, `leading-[X]`, `tracking-[X]` — forbidden. Spacing-only arbitraries (`px-[1.5rem]`, `gap-[2rem]`, `w-[10rem]`) are allowed because the design often requires precise Figma rem values.
+5. **All user-facing text comes from props — ZERO hardcoded copy in components.** No default strings like `label = "Ils gèrent leur capacité avec AirSaas"` or `copyright = "Made with love in France..."`. No hardcoded button labels, aria-labels, emojis, flags, or localizable text inside the component body. Every string shown to users — titles, subtitles, button labels, placeholders, empty-state messages, aria-labels for prev/next/close, alt text, copyright, social-proof strings — is passed via props by the caller (page / CMS / next-intl). A component's defaults, if any, must be **English or locale-agnostic** ("Previous slide", "Loading"), never French or brand-specific. This rule applies to: `string` props, default param values, conditional rendering of hardcoded strings, and any inline JSX text node.
 
 If you catch yourself about to write hardcoded, STOP. The answer is in `globals.css` — 60+ tokens cover every need. If it genuinely doesn't, you trigger the **Extension process** (below), you do NOT hardcode.
 
@@ -374,6 +375,38 @@ import { Inter } from "next/font/google";
 <Button variant="primary" size="sm">Cliquer</Button>
 ```
 
+```tsx
+// ❌ FORBIDDEN — hardcoded French / brand-specific default copy inside the component
+export function LogosBar({
+  label = "Ils gèrent leur capacité avec AirSaas", // ❌ locale + brand leaked into the DS
+  logos,
+}: Props) { ... }
+
+export function Footer({
+  copyright = "Made with love in France | © 2025 AirSaas · Mentions légales", // ❌ same
+}: Props) { ... }
+
+export function Slider() {
+  return <button aria-label="Slide précédente">←</button>; // ❌ French aria-label inline
+}
+
+// ✅ CORRECT — no defaults, or locale-agnostic English fallback for aria-labels
+export function LogosBar({ label, logos }: Props) {
+  return (
+    <div>
+      {label && <span>{label}</span>}  {/* Caller passes the string from i18n / CMS */}
+      {/* ...logos */}
+    </div>
+  );
+}
+
+export function Slider({
+  slides,
+  prevLabel = "Previous slide",  // ✅ English fallback is OK — caller overrides for locale
+  nextLabel = "Next slide",
+}: Props) { ... }
+```
+
 ---
 
 ## 📚 Reference files — read these when working on UI
@@ -408,12 +441,13 @@ If you're about to commit, the pre-commit hook will run `lint:ds` automatically.
 
 ---
 
-## ⚠️ Summary — the 5 things an agent must NEVER do
+## ⚠️ Summary — the 6 things an agent must NEVER do
 
 1. **Never hardcode a color** (hex, rgb, rgba). Use `var(--color-*)` or a DS class.
 2. **Never import a new font.** Product Sans or nothing.
 3. **Never add a raw `<h1-h6>` / styled `<p>`** with typography. Use `<Heading>` / `<Text>` / `<GradientText>`.
-4. **Never silently decide "new variant vs new component".** Ask the user (Gate 1).
-5. **Never ship a component without JSDoc contract + validators + Storybook story + Playwright test.** All four, every time.
+4. **Never hardcode user-facing copy inside a component** (no French default strings, no brand-specific labels, no hardcoded aria-labels). All text comes from props, always.
+5. **Never silently decide "new variant vs new component".** Ask the user (Gate 1).
+6. **Never ship a component without JSDoc contract + validators + Storybook story + Playwright test.** All four, every time.
 
 The DS is a contract. Every agent — human or AI — follows it. No exceptions.

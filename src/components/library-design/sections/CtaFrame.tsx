@@ -4,6 +4,7 @@ import { Text } from "@/components/library-design/ui/Text";
 import { GradientBackground } from "@/components/library-design/ui/GradientBackground";
 import { FloatingCard } from "@/components/library-design/ui/FloatingCard";
 import { Float } from "@/components/library-design/ui/Float";
+import { AnimateOnScroll } from "@/components/library-design/ui/AnimateOnScroll";
 import { assertMaxLength } from "@/lib/ds-validators";
 
 /**
@@ -64,17 +65,23 @@ export function CtaFrame({
           </Text>
         </div>
 
-        {/* Cards container */}
-        <div className="grid grid-cols-1 gap-[0.875rem] items-stretch w-full md:grid-cols-2">
+        {/* Cards container — animated in on scroll (scale-up, sequential). */}
+        <AnimateOnScroll
+          animation="scale-up"
+          duration={500}
+          delay={100}
+          className="grid grid-cols-1 gap-[0.875rem] items-stretch w-full md:grid-cols-2"
+        >
           {children}
-        </div>
+        </AnimateOnScroll>
       </div>
 
-      {/* Floating cards with perpetual bobbing */}
-      <Float variant={3} duration={3.5} delay={0} className="absolute z-20 left-[2%] top-[17rem] hidden xl:block">
+      {/* Floating cards — positioned on empty background corners (away from
+          the centered text + card grid in the middle of the section). */}
+      <Float variant={3} duration={3.5} delay={0} className="absolute z-20 left-[3%] top-[3rem] hidden xl:block">
         <FloatingCard />
       </Float>
-      <Float variant={1} duration={4} delay={1.5} className="absolute z-20 right-[2%] bottom-[10%] hidden xl:block">
+      <Float variant={1} duration={4} delay={1.5} className="absolute z-20 right-[3%] bottom-[3rem] hidden xl:block">
         <FloatingCard />
       </Float>
     </section>

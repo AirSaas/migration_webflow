@@ -22,10 +22,10 @@ interface LogosBarProps {
  *
  * @limits
  *   - logos: array of { src, alt, width?, height? } — rendered grayscale at 70% opacity
- *   - label: defaults to the FR social-proof string; override per locale
+ *   - label: optional — if omitted, no leading label is rendered. Pass a localized string from CMS / i18n.
  */
 export function LogosBar({
-  label = "Ils gèrent leur capacité avec AirSaas",
+  label,
   logos,
   className,
 }: LogosBarProps) {
@@ -37,13 +37,15 @@ export function LogosBar({
       )}
       style={{ minHeight: "6rem" }}
     >
-      {/* Label */}
-      <span
-        className="shrink-0 font-light whitespace-nowrap text-center"
-        style={{ color: "var(--color-text-muted)", fontSize: "1.2rem" }}
-      >
-        {label}
-      </span>
+      {/* Label — only rendered if provided (no default, locale-driven) */}
+      {label && (
+        <span
+          className="shrink-0 font-light whitespace-nowrap text-center"
+          style={{ color: "var(--color-text-muted)", fontSize: "1.2rem" }}
+        >
+          {label}
+        </span>
+      )}
 
       {/* Divider — hidden on mobile */}
       <div
