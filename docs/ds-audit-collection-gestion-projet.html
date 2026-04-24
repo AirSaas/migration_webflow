@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DS Audit — Collection Gestion de projets (63 articles) — AirSaas</title>
+<style>
+  :root {
+    --color-bg: #ffffff;
+    --color-surface: #f7f7f5;
+    --color-ink: #111111;
+    --color-ink-muted: #525252;
+    --color-ink-subtle: #8a8a8a;
+    --color-border: #e6e6e3;
+    --color-border-strong: #cfcfca;
+    --color-accent: #ff5a1f;
+    --color-success: #0f7a3f;
+    --color-warning: #b26a00;
+    --color-danger: #b3261e;
+    --p1: #b3261e; --p1-bg: #fdecec;
+    --p2: #b26a00; --p2-bg: #fdf2e1;
+    --p3: #a68a00; --p3-bg: #fdf8d6;
+    --p4: #0f7a3f; --p4-bg: #e4f4eb;
+    --p5: #525252; --p5-bg: #eeeeec;
+    --radius: 6px;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--color-bg); color: var(--color-ink); font-family: var(--font-sans); font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  .container { max-width: 1040px; margin: 0 auto; padding: 56px 40px 80px; }
+  header.cover { border-bottom: 1px solid var(--color-border); padding-bottom: 32px; margin-bottom: 48px; }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 11px; font-weight: 600; color: var(--color-ink-subtle); margin-bottom: 12px; }
+  h1 { font-size: 36px; line-height: 1.15; font-weight: 700; margin: 0 0 20px; letter-spacing: -0.02em; }
+  .meta { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: 13px; color: var(--color-ink-muted); }
+  .meta dt { font-weight: 600; color: var(--color-ink); margin: 0; }
+  .meta dd { margin: 0; }
+  h2 { font-size: 24px; line-height: 1.25; font-weight: 700; margin: 56px 0 16px; letter-spacing: -0.01em; padding-bottom: 8px; border-bottom: 1px solid var(--color-border); }
+  h3 { font-size: 18px; line-height: 1.3; font-weight: 700; margin: 36px 0 12px; }
+  h4 { font-size: 15px; line-height: 1.3; font-weight: 700; margin: 24px 0 8px; font-family: var(--font-mono); letter-spacing: -0.01em; }
+  p { margin: 0 0 14px; }
+  ul, ol { margin: 0 0 16px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  code { font-family: var(--font-mono); font-size: 0.9em; background: var(--color-surface); padding: 1px 6px; border-radius: 4px; color: var(--color-ink); border: 1px solid var(--color-border); }
+  pre { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 14px 16px; overflow-x: auto; font-size: 12.5px; line-height: 1.5; margin: 16px 0 24px; }
+  pre code { background: transparent; border: 0; padding: 0; font-size: inherit; }
+  strong { font-weight: 600; }
+  a { color: var(--color-accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr { border: 0; border-top: 1px solid var(--color-border); margin: 48px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 16px 0 24px; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; }
+  thead th { background: var(--color-surface); text-align: left; font-weight: 600; padding: 10px 14px; border-bottom: 1px solid var(--color-border); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-ink-muted); }
+  tbody td { padding: 10px 14px; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr:hover { background: var(--color-surface); }
+  td.num { font-variant-numeric: tabular-nums; font-weight: 600; }
+
+  /* Dense 63-row table */
+  table.dense { font-size: 11.5px; }
+  table.dense thead th { padding: 6px 7px; font-size: 10px; }
+  table.dense tbody td { padding: 5px 7px; }
+  table.dense td.flag { text-align: center; color: var(--color-success); font-weight: 700; }
+  table.dense td.n { font-variant-numeric: tabular-nums; text-align: right; color: var(--color-ink-muted); font-weight: 400; }
+  table.dense td.slug { font-family: var(--font-mono); font-size: 10.5px; max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  table.dense tr.outlier td.slug { color: var(--color-danger); font-weight: 600; }
+  table.dense tr.feature td.slug { color: var(--color-accent); font-weight: 600; }
+
+  /* Priority badges */
+  .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+  .badge.p1 { background: var(--p1-bg); color: var(--p1); }
+  .badge.p2 { background: var(--p2-bg); color: var(--p2); }
+  .badge.p3 { background: var(--p3-bg); color: var(--p3); }
+  .badge.p4 { background: var(--p4-bg); color: var(--p4); }
+  .badge.p5 { background: var(--p5-bg); color: var(--p5); }
+
+  .verdict-ok { color: var(--color-success); font-weight: 600; }
+  .verdict-warn { color: var(--color-warning); font-weight: 600; }
+  .verdict-no { color: var(--color-danger); font-weight: 600; }
+
+  /* Priority blocks */
+  .priority-block { border-left: 4px solid var(--color-border-strong); padding: 12px 16px 4px; background: var(--color-surface); border-radius: 0 var(--radius) var(--radius) 0; margin: 24px 0 16px; }
+  .priority-block.p1 { border-left-color: var(--p1); background: var(--p1-bg); }
+  .priority-block.p2 { border-left-color: var(--p2); background: var(--p2-bg); }
+  .priority-block.p3 { border-left-color: var(--p3); background: var(--p3-bg); }
+  .priority-block.p4 { border-left-color: var(--p4); background: var(--p4-bg); }
+  .priority-block h3 { margin-top: 4px; display: flex; align-items: center; gap: 10px; }
+
+  .gap-new { background: var(--p2-bg); color: var(--p2); padding: 0 5px; border-radius: 3px; font-weight: 600; }
+
+  /* Stat cards */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 24px 0 32px; }
+  .stat-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 16px; }
+  .stat-card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-ink-muted); font-weight: 600; }
+  .stat-card .value { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; margin-top: 4px; }
+  .stat-card .hint { font-size: 12px; color: var(--color-ink-muted); margin-top: 2px; }
+
+  @media (max-width: 720px) {
+    .container { padding: 32px 20px; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 28px; }
+    h2 { font-size: 20px; }
+  }
+  @media print {
+    .container { padding: 0; max-width: 100%; }
+    tbody tr:hover { background: transparent; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="cover">
+  <div class="eyebrow">DS Strict Mode · Audit</div>
+  <h1>Collection Webflow "Gestion de projets" — 63 articles</h1>
+  <dl class="meta">
+    <dt>Date</dt><dd>2026-04-24</dd>
+    <dt>Scope</dt><dd>63 articles blog FR — collection <code>609552290d93fd13100f0992</code></dd>
+    <dt>Source</dt><dd><code>webflow_pages</code> (Supabase <code>ydudpmtbnvpxxenbnvab</code>, Postgres 17.6)</dd>
+    <dt>Méthode</dt><dd>Audit agrégé + per-article sweep (63/63 scannés un par un)</dd>
+  </dl>
+</header>
+
+<div class="stats">
+  <div class="stat-card">
+    <div class="label">Articles</div>
+    <div class="value">63</div>
+    <div class="hint">100% FR, 0 EN</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">HTML avg</div>
+    <div class="value">77 KB</div>
+    <div class="hint">min 19k · max 2.76M (outlier)</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Composants P1</div>
+    <div class="value">6</div>
+    <div class="hint">débloque 79% (50/63)</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Nouveaux gaps</div>
+    <div class="value">4</div>
+    <div class="hint">identifiés au sweep</div>
+  </div>
+</div>
+
+<section>
+  <h2>Context</h2>
+  <p>Audit du DS actuel vs contenu réel de la collection blog "Gestion de projets" pour <strong>identifier précisément les composants manquants</strong> avant le rebuild (Next.js + Strapi). Objectif : zéro gap à la découverte pendant le rebuild, chemin clair P1 → P3.</p>
+  <p>Méthode en 2 temps :</p>
+  <ol>
+    <li><strong>Audit agrégé</strong> (counts SQL globaux sur les 63 articles) → pattern inventory + coverage</li>
+    <li><strong>Per-article sweep</strong> (63/63 articles scannés un par un) → zéro surprise cachée dans un article atypique</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Stats globales (collection)</h2>
+  <table>
+    <thead><tr><th>Métrique</th><th>Valeur</th></tr></thead>
+    <tbody>
+      <tr><td>Articles</td><td class="num">63</td></tr>
+      <tr><td>Langue</td><td>100% FR (zéro EN dans la collection)</td></tr>
+      <tr><td>Slugs uniques</td><td class="num">63 / 63</td></tr>
+      <tr><td>HTML avg</td><td class="num">77 KB</td></tr>
+      <tr><td>HTML min</td><td class="num">19 KB <span style="color:var(--color-ink-muted);font-weight:400">— <code>le-diagramme-de-gantt-comment-sen-servir</code></span></td></tr>
+      <tr><td>HTML max</td><td class="num">2 761 KB <span style="color:var(--color-danger);font-weight:400">— <code>portfolio-management</code> (outlier non-blog)</span></td></tr>
+      <tr><td>H2 total</td><td class="num">357 (avg 5.7)</td></tr>
+      <tr><td>H3 total</td><td class="num">666 (avg 10.6)</td></tr>
+      <tr><td>Figures total</td><td class="num">362 (55/63 articles)</td></tr>
+      <tr><td>Blockquotes total</td><td class="num">132 (24/63 articles)</td></tr>
+      <tr><td>TOC Finsweet <code>fs-toc-element</code></td><td class="num">62 / 63 <span style="color:var(--color-success);font-weight:400">(98%)</span></td></tr>
+      <tr><td>iframes · scripts inline</td><td><span class="verdict-ok">0 · 0 — collection clean</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Schéma CMS Webflow</h2>
+  <p>Collection ID <code>609552290d93fd13100f0992</code> — champs principaux :</p>
+  <table>
+    <thead><tr><th>Champ Webflow</th><th>Type</th><th>Usage</th></tr></thead>
+    <tbody>
+      <tr><td><code>slug</code></td><td>PlainText</td><td>URL path</td></tr>
+      <tr><td><code>name</code></td><td>PlainText</td><td>Titre article</td></tr>
+      <tr><td><code>post-summary</code></td><td>RichText</td><td>Meta description / résumé</td></tr>
+      <tr><td><code>main-image</code></td><td>Image</td><td>Hero image</td></tr>
+      <tr><td><code>post-body</code></td><td>RichText</td><td>Corps article (HTML inline)</td></tr>
+      <tr><td><code>category</code></td><td>Reference → <code>blog-categories</code></td><td>Catégorie "Gestion de projets"</td></tr>
+      <tr><td><code>author</code></td><td>Reference → <code>authors</code></td><td>Auteur</td></tr>
+      <tr><td><code>published-date</code></td><td>DateTime</td><td>Date publication</td></tr>
+      <tr><td><code>read-time</code></td><td>Number</td><td>Lecture (min)</td></tr>
+      <tr><td><code>featured</code></td><td>Boolean</td><td>Mise en avant homepage</td></tr>
+      <tr><td><code>slug-dossier-multilingue</code></td><td>PlainText</td><td>Legacy mapping FR↔EN (inutilisé)</td></tr>
+    </tbody>
+  </table>
+  <p>→ À mapper vers <strong><code>article</code> Strapi</strong> (ou étendre <code>blog-post</code> existant avec <code>category</code>).</p>
+</section>
+
+<section>
+  <h2>Anatomie article (9 zones)</h2>
+  <ol>
+    <li><strong>Hero</strong> — image + H1 + breadcrumb + meta (date, auteur, read-time)</li>
+    <li><strong>TOC sidebar sticky</strong> — Finsweet TOC → <code>fs-toc-element</code></li>
+    <li><strong>Corps article</strong> — rich text dynamique, blocks mixés</li>
+    <li><strong>Blockquote / citation</strong> inline (style speaker / <code>citation-blog</code>)</li>
+    <li><strong>Figures</strong> avec caption</li>
+    <li><strong>CTAs inline</strong> (lead magnet HubSpot, boutons custom)</li>
+    <li><strong>Callout "À retenir"</strong> — box avec liste icons</li>
+    <li><strong>Bloc "Pour aller plus loin"</strong> — grid 2 cols de liens vers autres guides</li>
+    <li><strong>Footer article</strong> — 3 articles liés (<code>BlogRelatedFrame</code>)</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Coverage DS actuelle (55 composants)</h2>
+  <table>
+    <thead><tr><th>Zone</th><th>Couvert par</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Hero</td><td>~ <code>PageHeader</code> (pas assez riche)</td><td><span class="verdict-no">❌ Gap</span></td></tr>
+      <tr><td>Meta (date, auteur, read-time)</td><td>—</td><td><span class="verdict-no">❌ Gap</span></td></tr>
+      <tr><td>TOC sticky</td><td>—</td><td><span class="verdict-no">❌ Gap</span></td></tr>
+      <tr><td>Corps rich text</td><td>—</td><td><span class="verdict-no">❌❌ Gap critique</span></td></tr>
+      <tr><td>Blockquote</td><td>—</td><td><span class="verdict-no">❌ Gap (2 variants)</span></td></tr>
+      <tr><td>Figure + caption</td><td><code>Image</code> (primitive)</td><td><span class="verdict-no">❌ Gap</span></td></tr>
+      <tr><td>CTA inline</td><td><code>Button</code></td><td><span class="verdict-ok">✅ OK</span></td></tr>
+      <tr><td>Callout "À retenir"</td><td>—</td><td><span class="verdict-no">❌ Gap (découvert au sweep)</span></td></tr>
+      <tr><td>"Pour aller plus loin"</td><td><code>RelatedSolutionsFrame</code> (variant possible)</td><td><span class="verdict-warn">⚠ Variant optionnel</span></td></tr>
+      <tr><td>3 articles liés</td><td>—</td><td><span class="verdict-no">❌ Gap (variant)</span></td></tr>
+    </tbody>
+  </table>
+  <p>→ <strong>10 composants à créer</strong> (au minimum) pour rebuild complet.</p>
+</section>
+
+<section>
+  <h2>Gaps priorisés</h2>
+
+  <div class="priority-block p1">
+    <h3><span class="badge p1">P1 · CRITIQUE</span> 6 composants · 50/63 articles (79%)</h3>
+    <ol>
+      <li><strong><code>ArticleBodyFrame</code></strong> — Renderer Dynamic Zone. Composant central. Débloque 63 articles + 5 Solution long-form = <strong>68 pages</strong>.</li>
+      <li><strong><code>ArticleHeroFrame</code></strong> — Hero blog (image + H1 + breadcrumb)</li>
+      <li><strong><code>ArticleMetaFrame</code></strong> — Ligne meta (date + auteur + read-time)</li>
+      <li><strong><code>TocSidebar</code></strong> — TOC sticky Finsweet-style (<code>scroll-margin-top: 9rem</code>)</li>
+      <li><strong><code>BlogRelatedFrame</code></strong> — Grid 3 articles liés en footer</li>
+      <li><strong><code>BlockquoteFrame</code></strong> — Blockquote stylée (2 variants : speaker + plain)</li>
+    </ol>
+  </div>
+
+  <div class="priority-block p2">
+    <h3><span class="badge p2">P2 · IMPORTANT</span> 5 composants · +10 articles (95%)</h3>
+    <ol start="7">
+      <li><strong><code>RichTextFigure</code></strong> — Figure + figcaption + alignement</li>
+      <li><strong><code>InlineCta</code></strong> — CTA inline (paragraphe + bouton)</li>
+      <li><strong><code>PullQuote</code></strong> — Quote visuelle (format editorial)</li>
+      <li><span class="gap-new">🆕 <strong><code>InsightCallout</code></strong></span> — Box "À retenir / key takeaway" (12 articles · 19%)</li>
+      <li><span class="gap-new">🆕 <strong><code>HubspotCtaEmbed</code></strong></span> — Wrapper lead-magnet HubSpot (8 articles · 13% · critique conversion)</li>
+    </ol>
+  </div>
+
+  <div class="priority-block p3">
+    <h3><span class="badge p3">P3 · NICE TO HAVE</span> 3 composants · +2 articles (98%)</h3>
+    <ol start="12">
+      <li><strong><code>RelatedResources</code></strong> — Bloc "Pour aller plus loin" optionnel</li>
+      <li><span class="gap-new">🆕 <strong><code>FaqAccordionFrame</code></strong></span> — FAQ expand/collapse (4 articles)</li>
+      <li><span class="gap-new">🆕 <strong><code>ComparisonTableBlock</code></strong></span> — Table <code>airsaas-table</code> "sans/avec" (4 articles)</li>
+    </ol>
+  </div>
+
+  <div class="priority-block p4">
+    <h3><span class="badge p4">P4 · HORS DS</span></h3>
+    <p><code>portfolio-management</code> (2.76 MB, non-blog template) → page Next.js dédiée OU exclu de la migration CMS.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Proposition Strapi schéma</h2>
+  <p>Content-type <code>article</code> (étendre <code>blog-post</code> existant · PR #38) :</p>
+<pre><code>article
+├── title (string, required)
+├── slug (uid, required, unique)
+├── hero_image (media, required)
+├── excerpt (text, max 240)
+├── published_at (datetime)
+├── read_time_min (int)
+├── featured (boolean, default false)
+├── category (relation → blog-category, single)
+├── author (relation → author, single)
+├── body (dynamiczone)
+│   ├── block.rich-text
+│   ├── block.figure (image + caption + alignement)
+│   ├── block.blockquote (text + cite + speaker?)
+│   ├── block.inline-cta (label + button href)
+│   ├── block.insight-callout (title + list items)
+│   ├── block.hubspot-cta (ctaId)
+│   ├── block.faq-accordion (items[])
+│   ├── block.comparison-table (columns[] + rows[])
+│   ├── block.pull-quote (text + author)
+│   └── block.html-raw (escape hatch pour outliers)
+├── related_articles (relation → article, multiple, max 3)
+└── seo (component: meta_title, meta_description, og_image)
+</code></pre>
+</section>
+
+<section>
+  <h2>Rendering Blocks → DS</h2>
+  <table>
+    <thead><tr><th>Strapi block</th><th>DS Component</th><th>Props clés</th></tr></thead>
+    <tbody>
+      <tr><td><code>block.rich-text</code></td><td><code>ArticleBodyFrame</code> (routing)</td><td>markdown / html</td></tr>
+      <tr><td><code>block.figure</code></td><td><code>RichTextFigure</code></td><td>src, alt, caption, align</td></tr>
+      <tr><td><code>block.blockquote</code></td><td><code>BlockquoteFrame</code></td><td>text, cite, variant</td></tr>
+      <tr><td><code>block.inline-cta</code></td><td><code>InlineCta</code></td><td>label, href, variant</td></tr>
+      <tr><td><code>block.insight-callout</code></td><td><code>InsightCallout</code></td><td>title, items[]</td></tr>
+      <tr><td><code>block.hubspot-cta</code></td><td><code>HubspotCtaEmbed</code></td><td>ctaId</td></tr>
+      <tr><td><code>block.faq-accordion</code></td><td><code>FaqAccordionFrame</code></td><td>items[{q, a}]</td></tr>
+      <tr><td><code>block.comparison-table</code></td><td><code>ComparisonTableBlock</code></td><td>cols[], rows[]</td></tr>
+      <tr><td><code>block.pull-quote</code></td><td><code>PullQuote</code></td><td>text, author</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Séquence rebuild (5 étapes)</h2>
+  <ul>
+    <li><strong>Étape A</strong> — Ship P1 × 6 composants DS (<code>ArticleBodyFrame</code> + 5 autres) → rebuild 50 articles standards</li>
+    <li><strong>Étape B</strong> — Migration Strapi content-type + seed 3 articles tests</li>
+    <li><strong>Étape C</strong> — Script migration HTML → Blocks (parse post-body Webflow, emit Dynamic Zone Strapi)</li>
+    <li><strong>Étape D</strong> — Ship P2 × 5 composants → +10 articles (95%)</li>
+    <li><strong>Étape E</strong> — Ship P3 × 3 composants + handle outlier <code>portfolio-management</code> → 100%</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Relation avec audit précédent (26 pages)</h2>
+  <table>
+    <thead><tr><th>Gap 26-pages audit</th><th>Gap collection blog</th><th>Consolidation</th></tr></thead>
+    <tbody>
+      <tr><td>P1-#4 <code>ArticleBodyFrame</code> (5 Solution long-form)</td><td>P1-#1 <code>ArticleBodyFrame</code> (63 articles)</td><td><strong>Même composant</strong> — prioriser, scope unique</td></tr>
+      <tr><td>P1-#3 <code>RelatedSolutionsFrame</code> (10 pages)</td><td>P1-#5 <code>BlogRelatedFrame</code> (63 articles)</td><td><strong>2 variants d'un même pattern grid</strong></td></tr>
+      <tr><td>—</td><td>P1-#2/#3 <code>ArticleHeroFrame</code> + <code>ArticleMetaFrame</code></td><td>Nouveau (blog-specific)</td></tr>
+      <tr><td>—</td><td>P1-#4 <code>TocSidebar</code></td><td>Nouveau (blog + long-form solution)</td></tr>
+      <tr><td>P2-#10 <code>TestimonialCard.quote</code> max 400</td><td>P2-#6 <code>SpeakerQuoteBlock</code></td><td><strong>Composants distincts</strong></td></tr>
+    </tbody>
+  </table>
+  <p>→ <strong><code>ArticleBodyFrame</code> = composant #1 à construire</strong> (débloque 5 Solution + 63 articles = 68 pages).</p>
+</section>
+
+<section>
+  <h2>Artefacts · Open questions</h2>
+  <ul>
+    <li><strong>Data scraping</strong> : <code>webflow_pages</code> table Supabase (63 rows <code>type=blog</code>)</li>
+    <li><strong>Webflow CMS schema</strong> : <code>data_cms_tool > get_collection_details</code></li>
+    <li><strong>Patterns HTML</strong> : 4 requêtes SQL <code>regexp_count</code> / <code>~</code> sur <code>html_content</code></li>
+  </ul>
+  <ol>
+    <li>Collections blog multiples : partagent-elles le même template ?</li>
+    <li>Content-type Strapi : créer <code>article</code> ou étendre <code>blog-post</code> (PR #38) — recommandation = <strong>étendre</strong></li>
+    <li>Quotes mutualisées : conserver (recommandé) ou inline ?</li>
+    <li>URL i18n : <code>slug-dossier-multilingue</code> à ignorer ou préserver pour rétro-compat ?</li>
+  </ol>
+</section>
+
+<hr>
+
+<section>
+  <h2>Verdict</h2>
+  <ul>
+    <li><span class="verdict-no">❌ Collection actuellement non rebuild-able</span> — bloquée par <code>ArticleBodyFrame</code> + composants blog-specific (hero, meta, TOC, related grid).</li>
+    <li><span class="verdict-ok">✅ Chemin clair</span> : ~6 composants P1 + 4-5 content-types Strapi + 1 script de migration HTML → Blocks.</li>
+    <li><strong>🔗 ROI élevé</strong> : <code>ArticleBodyFrame</code> débloque 68 pages (63 articles + 5 Solution long-form).</li>
+  </ul>
+</section>
+
+<hr>
+
+<section>
+  <h2>Per-article sweep (63/63)</h2>
+
+  <h3>Méthode</h3>
+  <p>Audit agrégé initial jugé insuffisant → passage <strong>article-par-article</strong> pour garantir zéro pattern oublié. Méthodo : 4 requêtes SQL <code>regexp_count</code> / <code>~</code> sur <code>webflow_pages.html_content</code> pour inventorier par slug (a) counts structurels, (b) présence de patterns / classes Webflow, (c) union des classes CSS vues ≥1×, (d) union des tags HTML utilisés. Zéro fetch de HTML en contexte (tailles : min 19 KB, max 2.76 MB) — uniquement compteurs retournés par la base.</p>
+
+  <h3>Tableau 63 articles</h3>
+  <p style="font-size:13px;color:var(--color-ink-muted)">Colonnes : <code>len</code> chars, <code>h2/h3/h4</code>, <code>fig</code> figures, <code>bq</code> blockquotes, <code>tbl</code> tables, <code>ul/ol</code>, <code>st</code> inline styles, <code>btn</code> <code>.button*</code>.<br>Flags : <strong>T</strong> TOC · <strong>P</strong> class <code>pour-aller-plus-loin</code> · <strong>F</strong> FAQ accordion · <strong>A</strong> callout "À retenir" · <strong>C</strong> compare table · <strong>H</strong> HubSpot CTA · <strong>Q</strong> citation blockquote · <strong>K</strong> <code>call-cod</code> CTA.</p>
+
+  <table class="dense">
+    <thead>
+      <tr>
+        <th>#</th><th>slug</th><th>len</th><th>h2</th><th>h3</th><th>h4</th><th>fig</th><th>bq</th><th>tbl</th><th>ul</th><th>ol</th><th>st</th><th>btn</th>
+        <th title="TOC">T</th><th title="Pour aller plus loin">P</th><th title="FAQ">F</th><th title="À retenir">A</th><th title="Compare">C</th><th title="HubSpot">H</th><th title="Citation">Q</th><th title="Call-cod">K</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="n">1</td><td class="slug">10-pratiques-pour-developper-la-relation-de-confiance-dg-cio</td><td class="n">24k</td><td class="n">2</td><td class="n">10</td><td class="n">0</td><td class="n">12</td><td class="n">0</td><td class="n">0</td><td class="n">9</td><td class="n">0</td><td class="n">10</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">2</td><td class="slug">analyse-des-risques-projet</td><td class="n">32k</td><td class="n">5</td><td class="n">9</td><td class="n">1</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">22</td><td class="n">0</td><td class="n">18</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">3</td><td class="slug">appel-doffres-et-evaluation-dune-solution-ppm</td><td class="n">29k</td><td class="n">3</td><td class="n">6</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">1</td><td class="n">11</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">4</td><td class="slug">budget-previsionnel-projet</td><td class="n">20k</td><td class="n">3</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">11</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">5</td><td class="slug">budgetiser-un-projet-sans-se-louper</td><td class="n">33k</td><td class="n">6</td><td class="n">12</td><td class="n">0</td><td class="n">3</td><td class="n">2</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">15</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">6</td><td class="slug">cadrage-projet</td><td class="n">30k</td><td class="n">7</td><td class="n">7</td><td class="n">2</td><td class="n">4</td><td class="n">5</td><td class="n">0</td><td class="n">7</td><td class="n">1</td><td class="n">18</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">7</td><td class="slug">capacity-planning</td><td class="n">36k</td><td class="n">5</td><td class="n">14</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">17</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td><td></td></tr>
+      <tr><td class="n">8</td><td class="slug">capacity-planning-definition</td><td class="n">28k</td><td class="n">4</td><td class="n">11</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td><td></td></tr>
+      <tr><td class="n">9</td><td class="slug">chef-de-projet-pmo</td><td class="n">23k</td><td class="n">6</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">10</td><td class="slug">chef-de-projet-transverse</td><td class="n">28k</td><td class="n">3</td><td class="n">11</td><td class="n">9</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">2</td><td class="n">13</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">11</td><td class="slug">comite-de-pilotage-definitions-et-incomprehensions</td><td class="n">27k</td><td class="n">1</td><td class="n">5</td><td class="n">5</td><td class="n">5</td><td class="n">5</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">12</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">12</td><td class="slug">comite-pilotage-projet</td><td class="n">28k</td><td class="n">6</td><td class="n">1</td><td class="n">0</td><td class="n">4</td><td class="n">1</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">13</td><td class="slug">comment-animer-un-bilan-projet-efficace</td><td class="n">35k</td><td class="n">8</td><td class="n">10</td><td class="n">5</td><td class="n">7</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">1</td><td class="n">22</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">14</td><td class="slug">comment-animer-un-comite-de-pilotage</td><td class="n">44k</td><td class="n">8</td><td class="n">19</td><td class="n">6</td><td class="n">20</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">15</td><td class="slug">comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022</td><td class="n">40k</td><td class="n">3</td><td class="n">7</td><td class="n">3</td><td class="n">7</td><td class="n">3</td><td class="n">0</td><td class="n">10</td><td class="n">2</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">16</td><td class="slug">comment-decider-en-copil</td><td class="n">38k</td><td class="n">4</td><td class="n">9</td><td class="n">0</td><td class="n">7</td><td class="n">7</td><td class="n">0</td><td class="n">6</td><td class="n">1</td><td class="n">18</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">17</td><td class="slug">comment-elaborer-un-reporting-efficace</td><td class="n">28k</td><td class="n">8</td><td class="n">12</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">22</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">18</td><td class="slug">comment-faire-un-bon-point-davancement-projet</td><td class="n">32k</td><td class="n">3</td><td class="n">16</td><td class="n">3</td><td class="n">6</td><td class="n">2</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">17</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">19</td><td class="slug">comment-gerer-lagressivite-dans-les-comites-de-pilotage</td><td class="n">28k</td><td class="n">3</td><td class="n">8</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">1</td><td class="n">11</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">20</td><td class="slug">comment-mettre-en-place-un-comite-de-pilotage</td><td class="n">31k</td><td class="n">6</td><td class="n">9</td><td class="n">0</td><td class="n">10</td><td class="n">0</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">21</td><td class="slug">comment-mettre-en-place-un-pmo</td><td class="n">31k</td><td class="n">8</td><td class="n">4</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">2</td><td class="n">6</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">22</td><td class="slug">comment-mettre-une-bonne-meteo-projet</td><td class="n">24k</td><td class="n">4</td><td class="n">9</td><td class="n">10</td><td class="n">10</td><td class="n">0</td><td class="n">0</td><td class="n">2</td><td class="n">1</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">23</td><td class="slug">comment-reussir-un-projet-transverse</td><td class="n">28k</td><td class="n">3</td><td class="n">8</td><td class="n">11</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">11</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">24</td><td class="slug">copil-projet-ou-comite-de-pilotage-projet-les-bases</td><td class="n">45k</td><td class="n">14</td><td class="n">21</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">23</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">25</td><td class="slug">demarche-de-projet</td><td class="n">27k</td><td class="n">7</td><td class="n">7</td><td class="n">5</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">2</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">26</td><td class="slug">fiche-projet-exemple-et-methodologie</td><td class="n">27k</td><td class="n">4</td><td class="n">14</td><td class="n">1</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">20</td><td class="n">4</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td></tr>
+      <tr><td class="n">27</td><td class="slug">gestion-de-portefeuille-projet-pme</td><td class="n">36k</td><td class="n">5</td><td class="n">5</td><td class="n">10</td><td class="n">2</td><td class="n">6</td><td class="n">0</td><td class="n">5</td><td class="n">1</td><td class="n">19</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr class="outlier"><td class="n">28</td><td class="slug" title="Clone triplet #43/#52">⚠ gestion-portefeuille-projets-vs-gestion-de-projet</td><td class="n">66k</td><td class="n">10</td><td class="n">47</td><td class="n">0</td><td class="n">6</td><td class="n">8</td><td class="n">4</td><td class="n">10</td><td class="n">3</td><td class="n">34</td><td class="n">1</td><td class="flag">✓</td><td class="flag">✓</td><td class="flag">✓</td><td></td><td class="flag">✓</td><td></td><td></td><td></td></tr>
+      <tr><td class="n">29</td><td class="slug">jalon-projet</td><td class="n">23k</td><td class="n">6</td><td class="n">3</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">11</td><td class="n">0</td><td class="n">17</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">30</td><td class="slug">kanban-gestion-de-projet</td><td class="n">22k</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">15</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">31</td><td class="slug">kpi-gestion-de-projet</td><td class="n">24k</td><td class="n">5</td><td class="n">6</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">17</td><td class="n">0</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">32</td><td class="slug">la-revolution-numerique-industrie-4-0</td><td class="n">39k</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">33</td><td class="slug">la-revue-de-projet</td><td class="n">26k</td><td class="n">8</td><td class="n">9</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">16</td><td class="n">0</td><td class="n">21</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">34</td><td class="slug">le-diagramme-de-gantt-comment-sen-servir</td><td class="n">20k</td><td class="n">4</td><td class="n">5</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">7</td><td class="n">0</td><td class="n">12</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">35</td><td class="slug">le-grand-guide-de-la-conduite-de-projet</td><td class="n">51k</td><td class="n">9</td><td class="n">14</td><td class="n">0</td><td class="n">11</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">1</td><td class="n">21</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">36</td><td class="slug">le-guide-du-mode-projet</td><td class="n">33k</td><td class="n">6</td><td class="n">16</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">7</td><td class="n">0</td><td class="n">20</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">37</td><td class="slug">le-modele-de-presentation-pour-votre-comite-de-pilotage</td><td class="n">20k</td><td class="n">3</td><td class="n">7</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">7</td><td class="n">0</td><td class="n">14</td><td class="n">2</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td></tr>
+      <tr><td class="n">38</td><td class="slug">le-portefeuille-projets-pour-faire-grandir-les-collaborateurs</td><td class="n">29k</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">7</td><td class="n">13</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">39</td><td class="slug">le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes</td><td class="n">31k</td><td class="n">4</td><td class="n">7</td><td class="n">0</td><td class="n">5</td><td class="n">1</td><td class="n">0</td><td class="n">4</td><td class="n">1</td><td class="n">17</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">40</td><td class="slug">lean-portfolio-management</td><td class="n">35k</td><td class="n">4</td><td class="n">9</td><td class="n">0</td><td class="n">15</td><td class="n">4</td><td class="n">0</td><td class="n">2</td><td class="n">1</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">41</td><td class="slug">les-10-erreurs-portefeuille-projet</td><td class="n">34k</td><td class="n">11</td><td class="n">0</td><td class="n">0</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">19</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">42</td><td class="slug">macro-planning</td><td class="n">29k</td><td class="n">8</td><td class="n">5</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">3</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td></td><td></td></tr>
+      <tr class="outlier"><td class="n">43</td><td class="slug" title="Clone triplet #28/#52">⚠ management-de-portefeuille-de-projet</td><td class="n">66k</td><td class="n">10</td><td class="n">47</td><td class="n">0</td><td class="n">6</td><td class="n">8</td><td class="n">4</td><td class="n">10</td><td class="n">3</td><td class="n">34</td><td class="n">1</td><td class="flag">✓</td><td class="flag">✓</td><td class="flag">✓</td><td></td><td class="flag">✓</td><td></td><td></td><td></td></tr>
+      <tr class="feature"><td class="n">44</td><td class="slug" title="Article le plus feature-complet (FAQ + compare + PAP + CTA)">★ metier-pmo</td><td class="n">41k</td><td class="n">10</td><td class="n">35</td><td class="n">10</td><td class="n">0</td><td class="n">9</td><td class="n">1</td><td class="n">4</td><td class="n">1</td><td class="n">30</td><td class="n">3</td><td class="flag">✓</td><td class="flag">✓</td><td class="flag">✓</td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td></tr>
+      <tr class="outlier"><td class="n">45</td><td class="slug" title="Clone paire #57">⚠ pi-planning</td><td class="n">60k</td><td class="n">5</td><td class="n">17</td><td class="n">3</td><td class="n">0</td><td class="n">14</td><td class="n">0</td><td class="n">9</td><td class="n">0</td><td class="n">29</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td class="flag">✓</td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">46</td><td class="slug">pi-safe</td><td class="n">32k</td><td class="n">2</td><td class="n">10</td><td class="n">0</td><td class="n">0</td><td class="n">7</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">19</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">47</td><td class="slug">pilotage-de-projet</td><td class="n">31k</td><td class="n">3</td><td class="n">12</td><td class="n">0</td><td class="n">5</td><td class="n">3</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">18</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">48</td><td class="slug">plan-capacitaire</td><td class="n">32k</td><td class="n">3</td><td class="n">7</td><td class="n">5</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">10</td><td class="n">0</td><td class="n">13</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td><td></td></tr>
+      <tr class="outlier"><td class="n">49</td><td class="slug" title="77 inline styles + infographies SVG">⚠ plan-de-communication-projet</td><td class="n">75k</td><td class="n">4</td><td class="n">9</td><td class="n">7</td><td class="n">9</td><td class="n">2</td><td class="n">0</td><td class="n">3</td><td class="n">3</td><td class="n">77</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">50</td><td class="slug">planification-de-la-capacite</td><td class="n">26k</td><td class="n">3</td><td class="n">10</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">13</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td><td></td></tr>
+      <tr><td class="n">51</td><td class="slug">planification-de-la-demande-capacity-planning</td><td class="n">22k</td><td class="n">5</td><td class="n">2</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">15</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td><td></td></tr>
+      <tr class="outlier"><td class="n">52</td><td class="slug" title="Clone triplet #28/#43">⚠ portefeuille-projet</td><td class="n">66k</td><td class="n">10</td><td class="n">47</td><td class="n">0</td><td class="n">6</td><td class="n">8</td><td class="n">4</td><td class="n">10</td><td class="n">3</td><td class="n">34</td><td class="n">1</td><td class="flag">✓</td><td class="flag">✓</td><td class="flag">✓</td><td></td><td class="flag">✓</td><td></td><td></td><td></td></tr>
+      <tr class="outlier"><td class="n">53</td><td class="slug" title="2.76 MB — non-blog template (landing page)">⚠⚠ portfolio-management</td><td class="n">2761k</td><td class="n">9</td><td class="n">11</td><td class="n">6</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">191</td><td class="n">5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">54</td><td class="slug">pourquoi-mettre-en-place-un-pmo</td><td class="n">32k</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">17</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">55</td><td class="slug">pourquoi-vos-18-millions</td><td class="n">27k</td><td class="n">7</td><td class="n">0</td><td class="n">0</td><td class="n">2</td><td class="n">10</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">17</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">56</td><td class="slug">preparer-comite-de-pilotage-d-un-projet</td><td class="n">31k</td><td class="n">2</td><td class="n">12</td><td class="n">4</td><td class="n">11</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">10</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr class="outlier"><td class="n">57</td><td class="slug" title="Clone paire #45">⚠ program-increment-planning</td><td class="n">60k</td><td class="n">5</td><td class="n">17</td><td class="n">3</td><td class="n">0</td><td class="n">14</td><td class="n">0</td><td class="n">9</td><td class="n">0</td><td class="n">29</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td class="flag">✓</td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">58</td><td class="slug">project-portfolio-management</td><td class="n">55k</td><td class="n">10</td><td class="n">6</td><td class="n">6</td><td class="n">21</td><td class="n">1</td><td class="n">0</td><td class="n">18</td><td class="n">2</td><td class="n">31</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+      <tr><td class="n">59</td><td class="slug">reporting-pmo</td><td class="n">28k</td><td class="n">5</td><td class="n">6</td><td class="n">9</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">2</td><td class="n">13</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">60</td><td class="slug">retour-sur-agile-en-seine-2023</td><td class="n">35k</td><td class="n">6</td><td class="n">17</td><td class="n">1</td><td class="n">19</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">16</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">61</td><td class="slug">role-du-pmo</td><td class="n">29k</td><td class="n">7</td><td class="n">7</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">1</td><td class="n">18</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td class="n">62</td><td class="slug">tout-savoir-sur-la-note-de-cadrage-projet</td><td class="n">31k</td><td class="n">6</td><td class="n">4</td><td class="n">5</td><td class="n">7</td><td class="n">0</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">21</td><td class="n">4</td><td class="flag">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="flag">✓</td></tr>
+      <tr><td class="n">63</td><td class="slug">trois-innovations-gestion-portefeuille-projets</td><td class="n">32k</td><td class="n">2</td><td class="n">6</td><td class="n">3</td><td class="n">6</td><td class="n">1</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">14</td><td class="n">1</td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td><td></td><td class="flag">✓</td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Totaux flags (sur 63)</h3>
+  <table>
+    <thead><tr><th>Flag</th><th>Pattern</th><th>Articles</th><th>%</th><th>Impact DS</th></tr></thead>
+    <tbody>
+      <tr><td><strong>T</strong></td><td>TOC <code>fs-toc-element</code></td><td class="num">62</td><td class="num">98%</td><td><code>TocSidebar</code> (P1-#4)</td></tr>
+      <tr><td><strong>P</strong></td><td>class <code>pour-aller-plus-loin</code></td><td class="num">4</td><td class="num">6%</td><td>Optionnel <code>RelatedResources</code> (4 mégaguides)</td></tr>
+      <tr><td><strong>F</strong></td><td>FAQ accordion</td><td class="num">4</td><td class="num">6%</td><td><span class="gap-new">🆕 <code>FaqAccordionFrame</code></span></td></tr>
+      <tr><td><strong>A</strong></td><td>Callout "À retenir"</td><td class="num">12</td><td class="num">19%</td><td><span class="gap-new">🆕 <code>InsightCallout</code></span></td></tr>
+      <tr><td><strong>C</strong></td><td><code>airsaas-table</code> compare</td><td class="num">4</td><td class="num">6%</td><td><span class="gap-new">🆕 <code>ComparisonTableBlock</code></span></td></tr>
+      <tr><td><strong>H</strong></td><td>HubSpot CTA embed</td><td class="num">8</td><td class="num">13%</td><td><span class="gap-new">🆕 <code>HubspotCtaEmbed</code></span></td></tr>
+      <tr><td><strong>Q</strong></td><td>Citation blockquote</td><td class="num">19</td><td class="num">30%</td><td>Variants <code>BlockquoteFrame</code> (pas de nouveau gap)</td></tr>
+      <tr><td><strong>K</strong></td><td>CTA <code>call-cod</code></td><td class="num">4</td><td class="num">6%</td><td>Variant <code>Button</code> (OK)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Correction — "Pour aller plus loin"</h3>
+  <p>Audit agrégé initial : 15/63 (24%). Per-article :</p>
+  <ul>
+    <li><strong>4/63</strong> via class <code>pour-aller-plus-loin</code> (block structuré H2 + grid 2 cols)</li>
+    <li><strong>16/63</strong> via texte brut dans <code>text_content</code> (simple heading + <code>&lt;ul&gt;</code>)</li>
+  </ul>
+  <p>→ 2 patterns distincts. Le DS doit gérer les deux (1 composant <code>RelatedResources</code> optionnel suffit).</p>
+
+  <h3>Classes atypiques (≤5 articles)</h3>
+  <table>
+    <thead><tr><th>Classe / token</th><th>Articles</th><th>Occ.</th><th>Interprétation</th></tr></thead>
+    <tbody>
+      <tr><td><code>faq-item</code>, <code>faq-q</code>, <code>faq-a</code>, <code>faq-accordion</code></td><td class="num">4</td><td class="num">27</td><td><span class="gap-new">🆕 FAQ block</span></td></tr>
+      <tr><td><code>airsaas-table</code>, <code>airsaas-compare</code></td><td class="num">4</td><td class="num">13</td><td><span class="gap-new">🆕 Comparison table</span></td></tr>
+      <tr><td><code>a-retenir-podcast1</code>, <code>list-aretenir</code></td><td class="num">4</td><td class="num">4</td><td><span class="gap-new">🆕 Callout "À retenir"</span></td></tr>
+      <tr><td><code>hs-cta-embed-188471577013</code></td><td class="num">5</td><td class="num">5</td><td><span class="gap-new">🆕 HubSpot CTA #1</span></td></tr>
+      <tr><td><code>hs-cta-embed-188471576967</code></td><td class="num">3</td><td class="num">4</td><td><span class="gap-new">🆕 HubSpot CTA #2</span></td></tr>
+      <tr><td><code>blockquote2</code>, <code>citation-blog</code></td><td class="num">3-5</td><td class="num">14-8</td><td>→ <code>BlockquoteFrame</code></td></tr>
+      <tr><td><code>call-cod</code>, <code>div-call-cod</code>, <code>button-call</code></td><td class="num">1-4</td><td class="num">1-8</td><td>→ <code>Button</code></td></tr>
+      <tr><td><code>w-richtext-align-floatleft</code></td><td class="num">3</td><td class="num">4</td><td>Webflow float → grid</td></tr>
+      <tr><td><code>wf-inter-n*</code>, <code>wf-montserrat-*</code></td><td class="num">2</td><td class="num">28</td><td>Artefacts font loader — strip</td></tr>
+      <tr><td><code>bullet__numbers</code>, <code>w-slider*</code>, <code>ytp-*</code></td><td class="num">1</td><td class="num">9-50</td><td>Outlier <code>portfolio-management</code></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Tags HTML atypiques</h3>
+  <table>
+    <thead><tr><th>Tag</th><th>Articles</th><th>Occ.</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td><code>table</code>, <code>tr</code>, <code>td</code>, <code>th</code>, <code>thead</code>, <code>tbody</code></td><td class="num">4</td><td class="num">13-132</td><td>Compare tables</td></tr>
+      <tr><td><code>span</code></td><td class="num">5</td><td class="num">44</td><td>Rares en body</td></tr>
+      <tr><td><code>b</code></td><td class="num">2</td><td class="num">10</td><td>→ <code>&lt;strong&gt;</code> à la migration</td></tr>
+      <tr><td><code>svg</code>, <code>g</code>, <code>path</code>, <code>clippath</code></td><td class="num">2</td><td class="num">10-214</td><td>Infographies inline (2 outliers)</td></tr>
+      <tr><td><code>h5</code></td><td class="num">1</td><td class="num">1</td><td>Max heading depth réel = H4</td></tr>
+      <tr><td><code>video</code>, <code>button</code>, <code>input</code>, <code>label</code></td><td class="num">1</td><td class="num">1-32</td><td>Outliers</td></tr>
+      <tr><td><code>iframe</code></td><td class="num">0</td><td class="num">0</td><td><span class="verdict-ok">✅ Zéro embed tiers</span></td></tr>
+      <tr><td><code>script</code></td><td class="num">0</td><td class="num">0</td><td><span class="verdict-ok">✅ Zéro JS inline</span></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Articles outliers</h3>
+  <ol>
+    <li><strong><code>portfolio-management</code></strong> (2.76 MB, <strong>non-blog</strong>) — landing page stockée en tant qu'article CMS. Page Next.js dédiée OU exclusion migration.</li>
+    <li><strong><code>plan-de-communication-projet</code></strong> (75 KB, 77 inline styles, 35 SVG) — infographie inline. Traiter comme image exportée.</li>
+    <li><strong>Triplets clones</strong> : <code>gestion-portefeuille-projets-vs-gestion-de-projet</code> ≡ <code>management-de-portefeuille-de-projet</code> ≡ <code>portefeuille-projet</code> (66 k identiques). Canonical + 2 redirections 301.</li>
+    <li><strong>Paire clone</strong> : <code>pi-planning</code> ≡ <code>program-increment-planning</code> (60 k identiques). Canonical FR + redirection.</li>
+    <li><strong><code>metier-pmo</code></strong> — feature-complete (FAQ + compare + "Pour aller plus loin" + CTA). Candidat idéal pour QA blocks DS.</li>
+  </ol>
+
+  <h3>Gap delta vs audit agrégé</h3>
+
+  <div class="priority-block p2">
+    <h3><span class="badge p2">P2 · HIGH</span> <code>InsightCallout</code> · 12 articles (19%)</h3>
+    <p>Box dédiée "À retenir / key takeaway" avec liste icons. Pattern <code>list-aretenir</code> + <code>list-item-aretenir</code>. Variant <code>a-retenir-podcast1</code>.</p>
+  </div>
+
+  <div class="priority-block p2">
+    <h3><span class="badge p2">P2 · MEDIUM</span> <code>HubspotCtaEmbed</code> · 8 articles (13%)</h3>
+    <p>Inline lead-magnet iframe HubSpot (2 CTA IDs distincts). Wrapper DS + props <code>ctaId</code>. Critique pour conversion.</p>
+  </div>
+
+  <div class="priority-block p3">
+    <h3><span class="badge p3">P3 · LOW</span> <code>FaqAccordionFrame</code> · 4 articles</h3>
+    <p>FAQ expand/collapse end-of-article. Blocks <code>faq-item</code> répétés.</p>
+  </div>
+
+  <div class="priority-block p3">
+    <h3><span class="badge p3">P3 · LOW</span> <code>ComparisonTableBlock</code> · 4 articles</h3>
+    <p>Table 3-4 colonnes avec header colonne/ligne (<code>airsaas-table</code>). Pattern "sans/avec" ou "A vs B".</p>
+  </div>
+
+  <h3>Verdict sweep</h3>
+  <ul>
+    <li><strong>4 nouveaux gaps</strong> — mineurs en couverture, <strong>significatifs en valeur</strong> (19% + 13% + 6% + 6%).</li>
+    <li><strong>Pas de showstopper</strong> : liste P1-#1…#6 inchangée. Les 4 nouveaux rejoignent P2/P3.</li>
+    <li>Articles standards (79% = 50/63) n'utilisent que les composants P1 → rebuild possible dès <code>ArticleBodyFrame</code> shipped.</li>
+  </ul>
+
+  <h3>Action list updated</h3>
+  <ul>
+    <li><strong>P1</strong> (unchanged) : 6 composants → <strong>50/63 articles (79%)</strong></li>
+    <li><strong>P2</strong> (+1 new) : +5 composants (incl. <span class="gap-new"><code>InsightCallout</code></span>, <span class="gap-new"><code>HubspotCtaEmbed</code></span>) → <strong>60/63 (95%)</strong></li>
+    <li><strong>P3</strong> (+2 new) : +3 composants (incl. <span class="gap-new"><code>FaqAccordionFrame</code></span>, <span class="gap-new"><code>ComparisonTableBlock</code></span>) → <strong>62/63 (98%)</strong></li>
+    <li>Outlier hors DS : <code>portfolio-management</code> → page Next.js dédiée OU exclue</li>
+  </ul>
+
+  <p><strong>Go/No-go rebuild</strong> : <span class="verdict-ok">✅ GO sur les 50 articles P1</span> dès <code>ArticleBodyFrame</code> shipped. Les 13 articles restants attendent P2/P3 ou stockent leurs blocks spéciaux comme <code>html_raw</code> dans Strapi (graceful degradation).</p>
+</section>
+
+</div>
+</body>
+</html>

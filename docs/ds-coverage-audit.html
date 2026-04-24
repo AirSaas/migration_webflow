@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>DS Coverage Audit</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">DS Coverage Audit</h1>
+</header>
+<p>d# DS Coverage Audit — 26 Pages (LP / Solution / Produit /
+Équipes)</p>
+<p><strong>Date :</strong> 2026-04-23 <strong>Périmètre :</strong> 4
+Landing Pages + 12 Solutions + 6 Produits + 4 Équipes = <strong>26
+pages</strong> <strong>Source :</strong> fetch live de
+<code>https://www.airsaas.io/fr/*</code> + extraction
+<code>webflow_pages</code> Supabase <strong>Référence DS :</strong>
+<code>docs/ds-components-reference.md</code> (47 composants : 33
+primitives + 21 section frames) <strong>Hypothèse de travail :</strong>
+le texte est strictement identique à Webflow ; seul le design change. On
+ne doit donc pas inventer de contenu — uniquement mapper les sections
+existantes aux composants DS.</p>
+<hr />
+<h2 id="tldr">TL;DR</h2>
+<table>
+<thead>
+<tr>
+<th>Template</th>
+<th>Pages</th>
+<th>Couverture DS</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Landing Pages</strong> (<code>/lp/*</code>)</td>
+<td>4</td>
+<td>🟠 <strong>~80 %</strong> — 2 gaps structurels</td>
+<td>Publiable après ajout de <code>StepsFrame</code> +
+<code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td><strong>Solution</strong> (<code>/solution/*</code>)</td>
+<td>12</td>
+<td>🟢 <strong>~95 %</strong> — 1 gap mineur (grand grid clients)</td>
+<td>Publiable ; extension recommandée</td>
+</tr>
+<tr>
+<td><strong>Produit</strong> (<code>/produit/*</code>)</td>
+<td>6</td>
+<td>🟠 <strong>~85 %</strong> — 1 gap (cross-sell bas de page)</td>
+<td>Publiable après ajout de <code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td><strong>Équipes</strong> (<code>/equipes/*</code>)</td>
+<td>4</td>
+<td>🟠 <strong>~80 %</strong> — 1 gap (grand grid clients)</td>
+<td>Publiable après extension <code>TestimonialsFrame</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>En bref :</strong> la DS couvre <strong>l'immense
+majorité</strong> des sections, mais 3 composants manquent pour rendre
+fidèlement les 26 pages :</p>
+<ol type="1">
+<li>🔴 <strong><code>StepsFrame</code></strong> — 3 à 5 étapes
+séquentielles numérotées (4 LP)</li>
+<li>🔴 <strong><code>RelatedSolutionsFrame</code></strong> — 4 cartes
+"solutions associées" image + titre + lien (11 pages)</li>
+<li>🟠 <strong>Grand grid de clients</strong> — 8 à 9
+<code>&lt;ClientCard&gt;</code> avec carrousel (extension de
+<code>TestimonialsFrame</code> ou nouveau
+<code>ClientsFrame</code>)</li>
+</ol>
+<p>Aucun gap ne touche la charte visuelle du DS — ce sont des patterns
+<strong>manquants</strong>, pas <strong>incompatibles</strong>.</p>
+<hr />
+<h2 id="1-méthodologie">1. Méthodologie</h2>
+<h3 id="données-collectées">Données collectées</h3>
+<ol type="1">
+<li><strong>Supabase <code>webflow_pages</code></strong> : contenu HTML
++ text_content pour les 18 pages Solution + Produit (4 Équipes et 4 LP
+absentes).</li>
+<li><strong>WebFetch</strong> live sur airsaas.io pour les 26 pages
+(complète les trous + valide les structures).</li>
+<li><strong>Extraction section-par-section</strong> via vocabulaire
+contrôlé (<code>hero-dual-cta</code>, <code>pain-points-list</code>,
+<code>feature-side-by-side</code>, etc.).</li>
+</ol>
+<h3 id="vocabulaire-danalyse">Vocabulaire d'analyse</h3>
+<p>28 types de sections identifiés à travers les 26 pages. Chaque type
+est mappé à un (ou plusieurs) composants <code>library-design/</code>
+:</p>
+<table>
+<thead>
+<tr>
+<th>Type section page</th>
+<th>Composant DS</th>
+<th>Statut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>navbar</code></td>
+<td><code>&lt;Navbar&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>hero</code> (single CTA)</td>
+<td><code>&lt;Hero&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>hero-dual-cta</code> + trust badges</td>
+<td><code>&lt;Hero&gt;</code> (primaryCta + secondaryCta +
+bottomTags)</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>hero</code> avec tabs/rotating</td>
+<td><code>&lt;Hero&gt;</code> standard (pas de tabs)</td>
+<td>⚠️ exception HomePage (HeroTabs hors DS)</td>
+</tr>
+<tr>
+<td><code>logos-bar</code> (5 logos clients)</td>
+<td><code>&lt;LogosBar&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>press-logos-cards</code> (4 cartes presse)</td>
+<td><code>&lt;TestimonialsFrame&gt;</code> +
+<code>&lt;TestimonialCompanyCard&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>linkedin-testimonials</code> (3-6 profils)</td>
+<td><code>&lt;TestimonialsFrame&gt;</code> +
+<code>&lt;TestimonialCard&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>testimonial-grid</code> (8-9 clients, carrousel)</td>
+<td><code>&lt;TestimonialsFrame&gt;</code> ❌ (max 6)</td>
+<td>🔴 <strong>GAP</strong></td>
+</tr>
+<tr>
+<td><code>stats-row</code> (4 métriques)</td>
+<td><code>&lt;ValuePropositionFrame&gt;</code> +
+<code>&lt;FeatureCard&gt;</code> (columns=4)</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>pain-points-list</code> (N numérotés)</td>
+<td><code>&lt;ComparisonFrame&gt;</code> (usage solo)</td>
+<td>✅ (usage documenté)</td>
+</tr>
+<tr>
+<td><code>feature-side-by-side</code></td>
+<td><code>&lt;FeatureFrame&gt;</code> (layout inline)</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>feature-stacked</code></td>
+<td><code>&lt;FeatureSectionStacked&gt;</code> /
+<code>&lt;FeatureFrame layout="stacked"&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>value-proposition-grid</code> (3-4)</td>
+<td><code>&lt;ValuePropositionFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>pillar-grid</code> (3-6 règles/principes)</td>
+<td><code>&lt;PillarFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>comparison-avec-sans</code> (pairé)</td>
+<td><code>&lt;ComparisonDualFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>comparison-avec-sans</code> (1 colonne)</td>
+<td><code>&lt;ComparisonFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>comparison-dual</code> (3 concurrents)</td>
+<td><code>&lt;ComparisonTableFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>faq-accordion</code></td>
+<td><code>&lt;FaqFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>how-it-works-steps</code> (4 étapes séquentielles)</td>
+<td><em>(aucun — <code>HighlightFrame</code> exclut explicitement les
+"sequential steps")</em></td>
+<td>🔴 <strong>GAP</strong></td>
+</tr>
+<tr>
+<td><code>security-badges</code> (4 badges ISO/France/Pentest/SSO)</td>
+<td><code>&lt;IconRowFrame&gt;</code> (fit visuel)</td>
+<td>✅ (à confirmer visuellement)</td>
+</tr>
+<tr>
+<td><code>integrations-carousel</code> (diagrammes)</td>
+<td><code>&lt;Slider&gt;</code> / <code>&lt;SliderFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>integrations-carousel</code> (logos)</td>
+<td><code>&lt;IconRowFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>cta-midpage</code> (single CTA)</td>
+<td><code>&lt;CtaHighlightFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>cta-dual-cards</code> (démo + vidéo/guide)</td>
+<td><code>&lt;CtaFrame&gt;</code> + 2× <code>&lt;CardCta&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>cta-highlight-single</code></td>
+<td><code>&lt;CtaHighlightFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>icon-row</code> (6 modules produit)</td>
+<td><code>&lt;IconRowFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>feature-cards-grid</code> (4 related-solutions)</td>
+<td><em>(aucun composant — image-first cross-sell cards)</em></td>
+<td>🔴 <strong>GAP</strong></td>
+</tr>
+<tr>
+<td><code>slider</code> (6 images bootcamp)</td>
+<td><code>&lt;Slider&gt;</code> (OK) / <code>&lt;SliderFrame&gt;</code>
+(max 5 ⚠️)</td>
+<td>⚠️ limite à relaxer</td>
+</tr>
+<tr>
+<td><code>highlight-zigzag</code> (replay vidéo)</td>
+<td><code>&lt;HighlightFrame&gt;</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>footer</code></td>
+<td><code>&lt;Footer&gt;</code></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-coverage-par-template">2. Coverage par Template</h2>
+<h3 id="21-landing-pages--4-pages">2.1 Landing Pages — 4 pages</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>URL</th>
+<th>Couverture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>/lp/ppm</code></td>
+<td>🟠 gaps : <code>StepsFrame</code>,
+<code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>/lp/pmo</code></td>
+<td>🟠 gaps : <code>StepsFrame</code>,
+<code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>/lp/capacity-planning</code></td>
+<td>🟠 gaps : <code>StepsFrame</code> (×2 sur la page),
+<code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>/lp/pi-planning</code></td>
+<td>🟠 gaps : <code>StepsFrame</code>,
+<code>RelatedSolutionsFrame</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Squelette LP (quasi identique 4/4)</strong> :</p>
+<pre><code>&lt;Navbar&gt;                                    ✅
+&lt;Hero primaryCta secondaryCta bottomTags&gt;   ✅
+&lt;LogosBar&gt;                                  ✅
+&lt;IconRowFrame&gt;  (modules produit, 3/4 LP)   ✅
+&lt;ValuePropositionFrame columns=4 + FeatureCard&gt;  (stats-row)  ✅
+&lt;ComparisonFrame&gt;  (pain-points solo)       ✅
+&lt;FeatureFrame&gt; × 7-9                        ✅
+&lt;ValuePropositionFrame columns=3&gt;  (why adopt) ✅
+&lt;TestimonialsFrame + TestimonialCard&gt;       ✅
+&lt;IconRowFrame&gt;  (security badges)           ✅ (à valider Figma)
+&lt;Slider&gt; / &lt;SliderFrame&gt;  (integrations)    ✅
+&lt;StepsFrame&gt;  ❌                            🔴 GAP (4 étapes numérotées)
+&lt;FaqFrame&gt;                                  ✅
+&lt;RelatedSolutionsFrame&gt;  ❌                 🔴 GAP (4 cards image + lien)
+&lt;CtaFrame + 2× CardCta&gt;                     ✅
+&lt;Footer&gt;                                    ✅</code></pre>
+<p><strong>Particularité <code>/lp/pi-planning</code></strong> : ajoute
+<code>&lt;ComparisonDualFrame&gt;</code> (avec/sans) et
+<code>&lt;ComparisonTableFrame&gt;</code> (3 concurrents Jira Align /
+PowerBI / piplanning.io) — <strong>les deux sont déjà
+couverts</strong>.</p>
+<p><strong>Note layout</strong> : les LP tournent sous route group
+<code>(lp)</code> avec <code>LpNavbar</code> + <code>LpFooter</code>
+minimaux (<code>components/layout/</code>, hors DS). Ces deux layouts ne
+sont <strong>pas</strong> dans <code>library-design/</code> mais c'est
+un choix architectural assumé (navbar/footer minimaux spécifiques
+LP).</p>
+<hr />
+<h3 id="22-solution--12-pages">2.2 Solution — 12 pages</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>URL</th>
+<th>Sous-type</th>
+<th>Couverture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>/solution/management-de-portefeuille-projet</code></td>
+<td>A (marketing)</td>
+<td>✅ 100%</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>/solution/flash-report-projet</code></td>
+<td>A</td>
+<td>✅ 100%</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>/solution/flash-report</code></td>
+<td>A</td>
+<td>✅ 100%</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>/solution/revue-de-portefeuille</code></td>
+<td>A</td>
+<td>✅ 100% (PillarFrame à 6 items ✓)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>/solution/tableau-de-bord-portefeuille-de-projet</code></td>
+<td>A</td>
+<td>✅ 100%</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>/solution/portfolio-management</code></td>
+<td>B (Équipes-like)</td>
+<td>🟠 gap grand grid clients</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>/solution/tableau-de-bord-dsi</code></td>
+<td>C (long-form)</td>
+<td>✅ 100%</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>/solution/tableau-de-bord-gestion-de-projet</code></td>
+<td>C</td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code> (5 cards en haut)</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>/solution/gestion-portefeuille-projet</code></td>
+<td>B</td>
+<td>🟠 gap grand grid clients + ComparisonTable</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>/solution/outils-de-pilotage-projet</code></td>
+<td>B</td>
+<td>✅ 100%</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>/solution/outil-ppm</code></td>
+<td>B</td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code> (5 cards)</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>/solution/airsaas-et-les-experts-de-la-transfo</code></td>
+<td>outlier</td>
+<td>⚠️ <code>Slider</code> ×2 — dépasse SliderFrame limite 5 (6
+images)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3 sous-templates identifiés</strong> :</p>
+<ul>
+<li><strong>Type A (5 pages)</strong> : hero → feature-stacked (intro) →
+feature-side-by-side ×N → <code>&lt;PillarFrame&gt;</code> (N règles
+d'or) → <code>&lt;TestimonialsFrame&gt;</code> press + LinkedIn →
+footer. <strong>100 % couvert</strong>.</li>
+<li><strong>Type B (5 pages)</strong> : hero → press-logos-cards →
+LinkedIn testimonials → stats-row → feature-side-by-side ×N →
+<code>&lt;PillarFrame&gt;</code> →
+<code>&lt;ComparisonDualFrame&gt;</code> avec/sans →
+<code>&lt;ClientsFrame&gt;</code> 9 cartes → footer. <strong>Gap sur le
+grid 9 clients.</strong></li>
+<li><strong>Type C (2 pages)</strong> : hero → feature-cards-grid (5
+solutions) → icon-row → feature-side-by-side ×N → feature-stacked
+éducatifs (longs) → cta-midpage → footer. <strong>Gap sur le
+<code>feature-cards-grid</code> à 5 solutions en haut de page</strong>
+(même composant que <code>RelatedSolutionsFrame</code>).</li>
+</ul>
+<hr />
+<h3 id="23-produit--6-pages">2.3 Produit — 6 pages</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>URL</th>
+<th>Couverture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>/produit/capacity-planning</code></td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code> (4 cards en bas)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>/produit/priorisation-par-equipes</code></td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>/produit/reporting-projet</code></td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>/produit/automatiser-la-com-projet</code></td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>/produit/budget</code></td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>/produit/traduction-one-click-avec-deepl</code></td>
+<td>🟠 gap <code>RelatedSolutionsFrame</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Squelette Produit (6/6 constant)</strong> :</p>
+<pre><code>&lt;Navbar&gt;                                     ✅
+&lt;Hero&gt;                                       ✅
+&lt;ComparisonFrame&gt;  (pain-points, 2/6)        ✅
+&lt;FeatureFrame&gt; × N (layout inline + stacked) ✅
+&lt;CtaHighlightFrame&gt;  (cta-midpage)           ✅
+&lt;FaqFrame&gt;  (4/6)                            ✅
+&lt;RelatedSolutionsFrame&gt;  ❌                  🔴 GAP (4 cards)
+&lt;Footer&gt;                                     ✅</code></pre>
+<p>Le seul gap constant sur Produit est la section de bas de page
+<strong>"Découvrez d'autres fonctionnalités"</strong> avec 4 cartes
+image + titre + lien.</p>
+<hr />
+<h3 id="24-équipes--4-pages">2.4 Équipes — 4 pages</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>URL</th>
+<th>Couverture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>/equipes/outil-pmo</code></td>
+<td>🟠 gap grand grid clients (8 cards) + <code>HighlightFrame</code>
+replay vidéo OK</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>/equipes/direction-de-la-transformation</code></td>
+<td>✅ (DAKI = <code>PillarFrame</code>)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>/equipes/comite-direction</code></td>
+<td>🟠 gap grand grid clients (9 cards)</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>/equipes/it-et-operation</code></td>
+<td>🟠 gap grand grid clients (9 cards) +
+<code>RelatedSolutionsFrame</code> (4 podcasts)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Squelette Équipes (4/4 constant)</strong> :</p>
+<pre><code>&lt;Navbar&gt;                                      ✅
+&lt;Hero&gt;                                        ✅
+&lt;TestimonialsFrame + TestimonialCompanyCard&gt;  (4 cards presse) ✅
+&lt;TestimonialsFrame + TestimonialCard&gt;         (3-4 LinkedIn)   ✅
+&lt;ValuePropositionFrame columns=4 + FeatureCard&gt;  (stats-row)   ✅
+&lt;FeatureFrame&gt; × 4-8                          ✅
+&lt;CtaHighlightFrame&gt;                           ✅
+&lt;ComparisonDualFrame&gt;  OR  &lt;PillarFrame DAKI&gt; ✅
+&lt;Slider&gt; / &lt;SliderFrame&gt;  (integrations)      ✅
+&lt;ClientsFrame&gt;  OR  extended TestimonialsFrame (8-9 ClientCards) ❌  🔴 GAP
+&lt;Footer&gt;                                      ✅</code></pre>
+<hr />
+<h2 id="3-gaps-détaillés--spécifications-proposées">3. Gaps détaillés +
+spécifications proposées</h2>
+<h3 id="red_circle-gap-1--stepsframe-aka-howitworksframe">🔴 Gap 1 —
+<code>StepsFrame</code> (aka <code>HowItWorksFrame</code>)</h3>
+<p><strong>Présent sur :</strong> 4/4 LP (+ 1× sur
+<code>/lp/capacity-planning</code> qui l'utilise deux fois)
+<strong>Usage type :</strong> "Lancez votre déploiement en 4 étapes" /
+"Comment ça marche" <strong>Visuel observé :</strong> 4 cartes
+horizontales avec numéro + icône + titre + description courte, reliées
+par une flèche ou ligne</p>
+<p><strong>Pourquoi <code>&lt;HighlightFrame&gt;</code> ne convient
+pas</strong> :</p>
+<blockquote>
+<p><code>@forbidden</code> — Do NOT use for sequential steps (use a
+numbered pattern instead) <code>@purpose</code> — Alternating-zigzag
+(gauche/droite)</p>
+</blockquote>
+<p>HighlightFrame est vertical et zig-zag ; les "how it works" sont
+horizontaux et linéaires.</p>
+<p><strong>Pourquoi <code>&lt;PillarFrame&gt;</code> ne convient
+pas</strong> :</p>
+<blockquote>
+<p><code>@forbidden</code> — Do NOT use for sequential steps (use a
+numbered pattern instead)</p>
+</blockquote>
+<p>Même restriction explicite.</p>
+<p><strong>Spec proposée</strong> :</p>
+<pre class="tsx"><code>&lt;StepsFrame
+  tag=&quot;DÉPLOIEMENT&quot;
+  titleHighlight=&quot;4 étapes&quot;
+  title=&quot;pour lancer votre PPM&quot;
+  subtitle=&quot;Nos équipes vous accompagnent pour que votre outil PPM soit opérationnel en moins d&#39;un mois.&quot;
+  steps={[
+    { number: 1, icon: &lt;FileIcon/&gt;, title: &quot;Kick-off&quot;, description: &quot;...&quot; },
+    { number: 2, icon: &lt;UsersIcon/&gt;, title: &quot;Import&quot;, description: &quot;...&quot; },
+    { number: 3, icon: &lt;CogIcon/&gt;, title: &quot;Configuration&quot;, description: &quot;...&quot; },
+    { number: 4, icon: &lt;RocketIcon/&gt;, title: &quot;Go live&quot;, description: &quot;...&quot; },
+  ]}
+/&gt;</code></pre>
+<p><strong>Limites</strong> : 3-5 étapes, step.title max 24 chars,
+step.description max 180 chars.</p>
+<hr />
+<h3
+id="red_circle-gap-2--relatedsolutionsframe-cross-sell-en-bas-de-page">🔴
+Gap 2 — <code>RelatedSolutionsFrame</code> (cross-sell en bas de
+page)</h3>
+<p><strong>Présent sur :</strong> 4/4 LP + 6/6 Produit + 2/12 Solution
+(type C) = <strong>12/26 pages</strong> (le plus fréquent des gaps)
+<strong>Usage type :</strong> "Découvrez toute la plateforme" / "Nos
+autres fonctionnalités" <strong>Visuel observé :</strong> 4 cartes en
+grid responsive (1 col → 2 md → 4 lg) avec :</p>
+<ul>
+<li>image/screenshot en haut (paysage)</li>
+<li>titre H4</li>
+<li>description courte 1-2 lignes</li>
+<li>lien ("Voir plus →") ou flèche</li>
+</ul>
+<p><strong>Pourquoi <code>&lt;ValuePropositionFrame&gt;</code> +
+<code>&lt;FeatureCard&gt;</code> ne convient pas</strong> :</p>
+<ul>
+<li><code>&lt;FeatureCard&gt;</code> est icon-first, pas image-first
+(<code>title: max 12 chars</code> — beaucoup trop court pour un titre de
+solution)</li>
+<li>Pas de thumbnail dans <code>&lt;FeatureCard&gt;</code></li>
+</ul>
+<p><strong>Pourquoi <code>&lt;BlogIndexGrid&gt;</code> +
+<code>&lt;BlogCard&gt;</code> ne convient pas</strong> :</p>
+<ul>
+<li><code>&lt;BlogCard&gt;</code> a des champs blog-spécifiques
+(publication date, byline, excerpt)</li>
+<li>Ratio thumbnail et typo différents de ce qu'on observe</li>
+</ul>
+<p><strong>Spec proposée</strong> :</p>
+<pre class="tsx"><code>&lt;RelatedSolutionsFrame
+  tag=&quot;EXPLORER&quot;
+  titleHighlight=&quot;Découvrez&quot;
+  title=&quot;toute la plateforme AirSaas&quot;
+  solutions={[
+    {
+      imageSrc: &quot;/.../priorisation.png&quot;,
+      imageAlt: &quot;Capture d&#39;écran priorisation&quot;,
+      title: &quot;Priorisation par équipes&quot;,
+      description: &quot;Laissez chaque équipe prioriser ses projets.&quot;,
+      href: &quot;/produit/priorisation-par-equipes&quot;,
+      linkLabel: &quot;Voir plus&quot;,  // optionnel
+    },
+    // ... 3 more
+  ]}
+  columns={4}  // 3 | 4
+/&gt;</code></pre>
+<p><strong>Limites</strong> : 3-5 cartes, title max 40 chars,
+description max 120 chars, imageAlt obligatoire.</p>
+<hr />
+<h3
+id="orange_circle-gap-3--testimonialsframe-limité-à-6-items-besoin-8-9">🟠
+Gap 3 — <code>&lt;TestimonialsFrame&gt;</code> limité à 6 items (besoin
+8-9)</h3>
+<p><strong>Présent sur :</strong> 3/4 Équipes + 2/12 Solution (type B) =
+<strong>5/26 pages</strong> <strong>Usage type :</strong> "Ils nous font
+confiance" — 8 à 9 cartes clients en carrousel/grid <strong>Visuel
+observé :</strong> grid de <code>&lt;ClientCard&gt;</code> (avatar + nom
++ rôle + company + metadata) 3 colonnes × 3 lignes OU carrousel
+horizontal</p>
+<p><strong>Règle actuelle DS</strong> :</p>
+<blockquote>
+<p><code>&lt;TestimonialsFrame&gt;</code> <code>@limits</code> —
+testimonials: 3–6 items (renders in grid-cols-3 at lg)</p>
+</blockquote>
+<p><strong>Deux options</strong> :</p>
+<p><strong>Option A — relaxer les limites de
+<code>&lt;TestimonialsFrame&gt;</code></strong> :</p>
+<ul>
+<li>Passer testimonials à 3-9</li>
+<li>Ajouter prop <code>columns?: 3 | 4</code> (défaut 3)</li>
+<li>Ajouter prop <code>layout?: "grid" | "carousel"</code> (défaut
+"grid", carousel pour &gt;6)</li>
+</ul>
+<p><strong>Option B — créer <code>&lt;ClientsFrame&gt;</code></strong>
+(plus propre) :</p>
+<ul>
+<li>Dédié aux grilles de <code>&lt;ClientCard&gt;</code> (différent
+visuellement des <code>TestimonialCard</code>)</li>
+<li>Accepts 6-12 children, grid 3× ou 4× colonnes</li>
+<li>Carrousel horizontal sur mobile + tablet</li>
+<li>Partage entête avec <code>&lt;TestimonialsFrame&gt;</code></li>
+</ul>
+<p><strong>Recommandation : Option B.</strong> Les
+<code>&lt;ClientCard&gt;</code> ont une structure visuelle différente
+(section haut blanche + section bas tintée avec info rows) ; les
+regrouper dans un frame dédié évite de surcharger
+<code>&lt;TestimonialsFrame&gt;</code>.</p>
+<hr />
+<h3 id="yellow_circle-gap-4--sliderframe-limité-à-5-slides-besoin-6">🟡
+Gap 4 — <code>&lt;SliderFrame&gt;</code> limité à 5 slides (besoin
+6)</h3>
+<p><strong>Présent sur :</strong>
+<code>/solution/airsaas-et-les-experts-de-la-transfo</code> (bootcamp 6
+images + community 6 images)</p>
+<p><strong>Règle actuelle</strong> :</p>
+<blockquote>
+<p><code>&lt;SliderFrame&gt;</code> <code>@limits</code> — slides:
+2–5</p>
+</blockquote>
+<p><strong>Fix simple</strong> : relaxer à 2-8.</p>
+<hr />
+<h3 id="yellow_circle-observation--hero-lp-pas-un-gap">🟡 Observation —
+Hero LP (pas un gap)</h3>
+<p><strong>Hypothèse avant analyse :</strong> le hero LP avec dual CTA +
+trust badges + tabs nécessiterait une variante.</p>
+<p><strong>Après vérif code</strong>
+(<code>library-design/sections/Hero.tsx</code>) :</p>
+<ul>
+<li><code>primaryCta</code> + <code>secondaryCta</code> : ✅
+supporté</li>
+<li><code>bottomTags</code> (0-4, variant
+<code>muted</code>/<code>success</code>) : ✅ supporté pour les 3 check
+features / trust badges</li>
+</ul>
+<p><strong>Conclusion :</strong> <code>&lt;Hero&gt;</code> couvre les
+besoins LP. Pas de gap.</p>
+<p><strong>Exception :</strong> si le HomePage réutilise un pattern
+<code>HeroTabs</code> (6 modules tournants), ce composant reste hors DS
+(client component spécifique HomePage — déjà traité dans
+<code>sections-catalog.md</code> S01). Pas un blocker pour les 26 pages
+auditées.</p>
+<hr />
+<h2 id="4-priorités-ordre-dimplémentation-recommandé">4. Priorités
+(ordre d'implémentation recommandé)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Composant</th>
+<th>Pages affectées</th>
+<th>Effort</th>
+<th>Priorité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>&lt;RelatedSolutionsFrame&gt;</code></td>
+<td>12/26</td>
+<td>M (1 section frame + 1 primitive card)</td>
+<td>🔴 P0</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>&lt;StepsFrame&gt;</code></td>
+<td>4/26 (LP)</td>
+<td>M (1 section frame)</td>
+<td>🔴 P0 (sans ça, les LP ne peuvent pas être migrées fidèles)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>&lt;ClientsFrame&gt;</code> OU extension
+<code>&lt;TestimonialsFrame&gt;</code></td>
+<td>5/26</td>
+<td>S (wrapper + carrousel responsive)</td>
+<td>🟠 P1</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>&lt;SliderFrame&gt;</code> : relaxer limite à 8</td>
+<td>1/26</td>
+<td>XS (modif contract <code>@limits</code>)</td>
+<td>🟢 P2</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-zéro-gap-observé-sur">5. Zéro gap observé sur</h2>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Nb pages</th>
+<th>Composant DS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Navbar principal</td>
+<td>26/26</td>
+<td><code>&lt;Navbar&gt;</code></td>
+</tr>
+<tr>
+<td>Footer</td>
+<td>26/26</td>
+<td><code>&lt;Footer&gt;</code></td>
+</tr>
+<tr>
+<td>Hero mono-CTA</td>
+<td>18/26</td>
+<td><code>&lt;Hero&gt;</code></td>
+</tr>
+<tr>
+<td>Hero dual-CTA + trust badges</td>
+<td>4/26</td>
+<td><code>&lt;Hero&gt;</code> (primaryCta + secondaryCta +
+bottomTags)</td>
+</tr>
+<tr>
+<td>Feature side-by-side</td>
+<td>25/26 (multi-occurrences)</td>
+<td><code>&lt;FeatureFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Feature stacked + image bleed</td>
+<td>widespread</td>
+<td><code>&lt;FeatureSectionStacked&gt;</code></td>
+</tr>
+<tr>
+<td>Stats row (4 counters)</td>
+<td>9/26</td>
+<td><code>&lt;ValuePropositionFrame columns=4&gt;</code> +
+<code>&lt;FeatureCard&gt;</code></td>
+</tr>
+<tr>
+<td>Value proposition grid (3-4 icon cards)</td>
+<td>8/26</td>
+<td><code>&lt;ValuePropositionFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Pillar grid (3-6 principes / DAKI / golden rules)</td>
+<td>10/26</td>
+<td><code>&lt;PillarFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Comparison avec/sans (2 colonnes)</td>
+<td>7/26</td>
+<td><code>&lt;ComparisonDualFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Comparison avec/sans solo</td>
+<td>7/26</td>
+<td><code>&lt;ComparisonFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Comparison 3 concurrents</td>
+<td>3/26</td>
+<td><code>&lt;ComparisonTableFrame&gt;</code></td>
+</tr>
+<tr>
+<td>FAQ accordion</td>
+<td>8/26</td>
+<td><code>&lt;FaqFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Press-logos-cards (4 citations presse)</td>
+<td>10/26</td>
+<td><code>&lt;TestimonialsFrame&gt;</code> +
+<code>&lt;TestimonialCompanyCard&gt;</code></td>
+</tr>
+<tr>
+<td>LinkedIn testimonials (3-6)</td>
+<td>10/26</td>
+<td><code>&lt;TestimonialsFrame&gt;</code> +
+<code>&lt;TestimonialCard&gt;</code></td>
+</tr>
+<tr>
+<td>CTA mid-page (1 bouton)</td>
+<td>22/26</td>
+<td><code>&lt;CtaHighlightFrame&gt;</code></td>
+</tr>
+<tr>
+<td>CTA dual cards (demo + vidéo/guide)</td>
+<td>4/26</td>
+<td><code>&lt;CtaFrame&gt;</code> + 2× <code>&lt;CardCta&gt;</code></td>
+</tr>
+<tr>
+<td>Icon row (6 modules / badges sécu)</td>
+<td>5/26</td>
+<td><code>&lt;IconRowFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Client logos bar</td>
+<td>4/26</td>
+<td><code>&lt;LogosBar&gt;</code></td>
+</tr>
+<tr>
+<td>Integrations carousel (diagrammes)</td>
+<td>9/26</td>
+<td><code>&lt;Slider&gt;</code> / <code>&lt;SliderFrame&gt;</code></td>
+</tr>
+<tr>
+<td>Highlight zigzag (replay vidéo)</td>
+<td>1/26</td>
+<td><code>&lt;HighlightFrame&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6-risques--réserves">6. Risques &amp; réserves</h2>
+<ol type="1">
+<li><strong>Rendu visuel des <code>security-badges</code></strong> : la
+DS propose <code>&lt;IconRowFrame&gt;</code> mais le style observé sur
+les LP (4 badges ISO/France/Pentest/SSO dans une barre tintée) pourrait
+nécessiter une variante stylistique à valider dans Figma avant
+implémentation.</li>
+<li><strong>"Pain-points solo" via
+<code>&lt;ComparisonFrame&gt;</code></strong> : le composant est défini
+pour un usage pairé (sans + avec) mais supporte un usage solo
+(<code>items: 4–8</code> items, emoji). À documenter explicitement dans
+<code>docs/ds-rules.md</code> pour éviter la confusion.</li>
+<li><strong>Sections hors DS (<code>LpNavbar</code>,
+<code>LpFooter</code>, <code>HeroTabs</code>)</strong> : ces composants
+vivent dans <code>components/layout/</code> et
+<code>components/sections/</code> — ils ne sont <strong>pas</strong>
+soumis au strict DS mode car ils sont hors <code>library-design/</code>.
+C'est un choix explicite ; il faudra le documenter dans
+<code>docs/ds-rules.md</code> comme "DS scope limits" si ce n'est pas
+déjà le cas.</li>
+<li><strong>Type-C Solution pages</strong> (long-form éducatives) : très
+verbales et denses (17 à 25 feature-stacked blocks). Rendu fidèle OK
+avec <code>&lt;FeatureFrame layout="stacked"&gt;</code> mais à tester
+visuellement pour s'assurer que le rythme vertical ne casse pas.</li>
+</ol>
+<hr />
+<h2 id="7-recommandation">7. Recommandation</h2>
+<p><strong>Proposition d'étapes (ne code pas d'entrée de jeu)</strong>
+:</p>
+<ol type="1">
+<li><strong>Valider Figma</strong> : faire un Figma search pour
+récupérer les 3 composants manquants (<code>StepsFrame</code>,
+<code>RelatedSolutionsFrame</code>, <code>ClientsFrame</code>) — s'ils
+existent dans le Figma AirSaas, on a les specs exactes.</li>
+<li><strong>Écrire les contracts JSDoc</strong> dans
+<code>src/components/library-design/sections/*.tsx</code> (sans
+implémenter) — simple squelette pour validation.</li>
+<li><strong>Valider avec toi</strong> la priorité : LP-first (P0
+StepsFrame + RelatedSolutionsFrame) ou Produit-first (P0
+RelatedSolutionsFrame seul).</li>
+<li><strong>Implémenter</strong> strictement selon le process
+<code>docs/ds-rules.md</code> (propose → approve → implement with
+contract + story).</li>
+<li><strong>Regénérer</strong>
+<code>docs/ds-components-reference.md</code> après chaque ajout via
+<code>scripts/generate-ds-reference.py</code>.</li>
+</ol>
+<hr />
+<h2 id="annexe--inventaire-brut-des-26-pages">Annexe — Inventaire brut
+des 26 pages</h2>
+<p><em>Source : WebFetch live du 2026-04-23 sur airsaas.io. Résumé
+compact — pour le détail section-par-section, se référer aux commits de
+cette investigation ou relancer la même analyse.</em></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Slug</th>
+<th>Sections distinctes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LP</td>
+<td><code>ppm</code></td>
+<td>16 sections</td>
+</tr>
+<tr>
+<td>LP</td>
+<td><code>pmo</code></td>
+<td>17 sections</td>
+</tr>
+<tr>
+<td>LP</td>
+<td><code>capacity-planning</code></td>
+<td>18 sections (2× how-it-works)</td>
+</tr>
+<tr>
+<td>LP</td>
+<td><code>pi-planning</code></td>
+<td>17 sections (+ comparisons)</td>
+</tr>
+<tr>
+<td>Équipes</td>
+<td><code>outil-pmo</code></td>
+<td>12 sections (+ highlight-zigzag)</td>
+</tr>
+<tr>
+<td>Équipes</td>
+<td><code>direction-de-la-transformation</code></td>
+<td>11 sections (+ pillar DAKI)</td>
+</tr>
+<tr>
+<td>Équipes</td>
+<td><code>comite-direction</code></td>
+<td>10 sections</td>
+</tr>
+<tr>
+<td>Équipes</td>
+<td><code>it-et-operation</code></td>
+<td>13 sections (+ related 4 podcasts)</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>management-de-portefeuille-projet</code></td>
+<td>11 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>flash-report-projet</code></td>
+<td>10 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>flash-report</code></td>
+<td>11 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>revue-de-portefeuille</code></td>
+<td>14 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>portfolio-management</code></td>
+<td>11 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>tableau-de-bord-portefeuille-de-projet</code></td>
+<td>12 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>tableau-de-bord-dsi</code></td>
+<td>12 sections</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>tableau-de-bord-gestion-de-projet</code></td>
+<td>13 sections (+ 5-card grid haut)</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>gestion-portefeuille-projet</code></td>
+<td>18 sections (long-form)</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>outils-de-pilotage-projet</code></td>
+<td>14 sections (long-form)</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>outil-ppm</code></td>
+<td>13 sections (+ 5-card grid haut)</td>
+</tr>
+<tr>
+<td>Solution</td>
+<td><code>airsaas-et-les-experts-de-la-transfo</code></td>
+<td>8 sections (+ 2× slider 6 images)</td>
+</tr>
+<tr>
+<td>Produit</td>
+<td><code>capacity-planning</code></td>
+<td>12 sections</td>
+</tr>
+<tr>
+<td>Produit</td>
+<td><code>priorisation-par-equipes</code></td>
+<td>8 sections</td>
+</tr>
+<tr>
+<td>Produit</td>
+<td><code>reporting-projet</code></td>
+<td>10 sections</td>
+</tr>
+<tr>
+<td>Produit</td>
+<td><code>automatiser-la-com-projet</code></td>
+<td>8 sections</td>
+</tr>
+<tr>
+<td>Produit</td>
+<td><code>budget</code></td>
+<td>13 sections</td>
+</tr>
+<tr>
+<td>Produit</td>
+<td><code>traduction-one-click-avec-deepl</code></td>
+<td>9 sections</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Fin du rapport.</strong> Aucun code n'a été modifié. Les 3
+composants manquants sont des <strong>extensions propres</strong> de la
+DS, pas des remises en cause de la charte actuelle.</p>
+</body>
+</html>
