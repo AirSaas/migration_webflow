@@ -55,7 +55,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<LogosBar>` | Horizontal bar of grayscale customer/partner logos with a leading label and divider. |
 | `<Navbar>` | Top-of-page navigation. Logo + links (flat or with dropdown) + optional flag / locale / login / CTA. |
 | `<NavbarDropdown>` | Floating menu panel containing a vertical list of icon + title + subtitle links — the reusable body of navbar mega-me… |
-| `<Quote>` | Italic citation block in a lavender-bordered card with a decorative quote icon and optional author + avatar. |
+| `<Quote>` | Italic citation block — `variant="card"` wraps the text in a lavender-bordered card with a decorative quote icon (tes… |
 | `<SectionHeading>` | Standalone centered H2 + subtitle block used to introduce a section. |
 | `<Skeleton>` | Placeholder block that renders while async content is loading. Uses a subtle `secondary-5` bg + pulse animation to si… |
 | `<Slider>` | Minimal image carousel with prev/next chevron buttons and a lavender top-framed illustration well. |
@@ -432,10 +432,13 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - shape: "open-bottom" (default — rounded top, bleeds into next section) | "contained" (all 4 corners rounded, standalone). Ignored when tone="warm" (always contained).
 - tone: "neutral" (default — glass) | "warm" (prevention-10 well)
 - alt: empty string marks the image as decorative (`aria-hidden`)
+- caption: max 300 chars — longer captions belong in article body, not under a figure. When provided the root becomes a `<figure>` with `<figcaption>` (semantic markup for editorial / blog body figures).
+- captionAlign: "center" (default) | "left" | "right"
 
 **Forbidden:**
 - Do NOT pass className that overrides bg / border / padding — the frame chrome is part of the tone contract
 - Do NOT combine `tone="warm"` with `shape="open-bottom"` — warm frames are always contained
+- Do NOT hardcode caption text in a specific locale — pass via i18n / CMS
 
 ---
 
@@ -579,13 +582,15 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/ui/Quote.tsx`](src/components/library-design/ui/Quote.tsx)
 
-**Purpose** — Italic citation block in a lavender-bordered card with a decorative quote icon and optional author + avatar.
-**Use when** — Customer/expert citations inside FeatureFrame `richContent`, landing sections, or anywhere a testimonial needs visual weight without a full testimonial section.
+**Purpose** — Italic citation block — `variant="card"` wraps the text in a lavender-bordered card with a decorative quote icon (testimonial moments). `variant="pull"` renders a chrome-less editorial pull-quote at larger size for inline use inside long-form article bodies.
+**Use when** — - `variant="card"`: customer/expert citations inside FeatureFrame `richContent`, landing sections, anywhere a testimonial needs visual weight without a full testimonial section. - `variant="pull"`: inside <BlogArticleBody> / <ProseFrame> to surface a key sentence pulled from the article body.
 **Don't use** — For full testimonial grids with photos + roles + logos — use a dedicated testimonials section. For plain inline italic text, use <Text italic>.
 
 **Limits:**
-- align: "center" (default, matches stacked FeatureFrame) | "left" (image-side content)
-- children: quote text only — keep under ~3 sentences; body clamps to 1.125–1.375rem
+- variant: "card" (default) | "pull" — editorial no-chrome
+- align: "center" (default, matches stacked FeatureFrame) | "left" (image-side content). With `variant="pull" + align="left"` an accent left-border (3px primary) is drawn to set off the pull-quote.
+- children: quote text only — keep under ~3 sentences. Card body clamps to 1.125–1.375rem; pull body clamps to 1.375–1.75rem.
+- Quote icon is always hidden in `variant="pull"` (editorial convention), regardless of `hideIcon`.
 
 ---
 

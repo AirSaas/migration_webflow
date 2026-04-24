@@ -58,3 +58,29 @@ export const WithoutIcon: Story = {
       "Une citation sobre, sans icône décorative, pour les contextes où l'on souhaite un rendu minimaliste.",
   },
 };
+
+/**
+ * Pull variant — editorial no-chrome style. Centered italic at a larger
+ * size. Used inside <BlogArticleBody> / <ProseFrame> to break the reading
+ * flow with a key sentence pulled from the article body.
+ */
+export const PullCentered: Story = {
+  args: {
+    variant: "pull",
+    children:
+      "Le cadrage est l'investissement qui rend rentable toute la suite du projet — consacrez-y deux semaines, vous en économiserez deux mois.",
+  },
+};
+
+/**
+ * Pull variant left-aligned — adds a 3px primary left accent border, the
+ * conventional editorial pull-quote with vertical rule.
+ */
+export const PullLeftAccent: Story = {
+  args: {
+    variant: "pull",
+    align: "left",
+    children:
+      "Un cadrage solide évite 80 % des dérapages en production. C'est la base avant même de parler d'optimisation.",
+  },
+};
