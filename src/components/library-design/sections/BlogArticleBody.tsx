@@ -1,5 +1,4 @@
-import { cn } from "@/lib/utils";
-import { assertNoClassNameOverride } from "@/lib/ds-validators";
+import { ProseFrame } from "./ProseFrame";
 
 interface BlogArticleBodyProps {
   /**
@@ -17,9 +16,11 @@ interface BlogArticleBodyProps {
 /**
  * BlogArticleBody
  *
- * @purpose    Outer wrapper for the rich-text body of a blog article —
- *             white background, responsive side padding, 91.25rem inner
- *             max-width, and a 3.125rem vertical rhythm between children.
+ * @purpose    Blog-specific alias over <ProseFrame maxWidth="wide"> that
+ *             preserves the blog pipeline's public API (callsites keep
+ *             `<BlogArticleBody>`; the layout + rhythm contract lives in
+ *             the shared <ProseFrame>). Solution long-form sections use
+ *             <ProseFrame> directly with `maxWidth="reading"`.
  * @useWhen    Between <TableOfContentsFrame> and <CtaHighlightFrame> on a
  *             blog article page. Compose children from the DS primitives
  *             listed in the prop doc (Heading, Text, Quote, ListInline,
@@ -28,8 +29,8 @@ interface BlogArticleBodyProps {
  *             `@strapi/blocks-react-renderer` will be added alongside
  *             `children`.
  * @dontUse    As a marketing section (use <FeatureFrame> / <CtaHighlightFrame>).
- *             For non-article pages (it assumes long-form vertical rhythm
- *             and centered narrow-max-width reading flow).
+ *             For non-blog long-form prose (use <ProseFrame> directly
+ *             with `maxWidth="reading"`).
  *
  * @limits
  *   - children: article content — DS primitives only. No raw heading tags
@@ -49,25 +50,9 @@ export function BlogArticleBody({
   children,
   className,
 }: BlogArticleBodyProps) {
-  assertNoClassNameOverride("BlogArticleBody", className, [
-    "bg-",
-    "p-",
-    "px-",
-    "py-",
-    "max-w-",
-    "gap-",
-  ]);
-
   return (
-    <section
-      className={cn(
-        "w-full bg-white px-[1.25rem] py-[3rem] md:px-[4rem] md:py-[5rem] lg:px-[14.375rem] lg:py-[6.25rem]",
-        className,
-      )}
-    >
-      <div className="mx-auto flex max-w-[91.25rem] flex-col gap-[2rem] md:gap-[3.125rem]">
-        {children}
-      </div>
-    </section>
+    <ProseFrame maxWidth="wide" className={className}>
+      {children}
+    </ProseFrame>
   );
 }

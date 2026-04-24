@@ -67,7 +67,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 | Component | Purpose (1-line) |
 |---|---|
-| `<BlogArticleBody>` | Outer wrapper for the rich-text body of a blog article — white background, responsive side padding, 91.25rem inner ma… |
+| `<BlogArticleBody>` | Blog-specific alias over <ProseFrame maxWidth="wide"> that preserves the blog pipeline's public API (callsites keep `… |
 | `<BlogCollectionFrame>` | Full-width section introducing a blog content collection — H2 title + optional subtitle + optional collection-level a… |
 | `<BlogHero>` | Article header for a single blog post: navbar + "Le Blog" tag + article title + author attribution (<BlogAuthorTag>) … |
 | `<ClientsFrame>` | Section wrapper for a large grid of <ClientCard> items — avatar + name + role + company + metadata rows. Dense social… |
@@ -84,6 +84,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<HighlightFrame>` | Alternating-zigzag vertically stacked cards, each with a big green gradient number outside the card (left on odd, rig… |
 | `<IconRowFrame>` | Horizontal row of icon + label pairs (integrations, tech stack, trusted-by logos rendered as iconography). Icons sit … |
 | `<PillarFrame>` | Grid of "pillar" cards — each with a large icon illustration, uppercase primary title, description, and an optional e… |
+| `<ProseFrame>` | Generic wrapper for long-form prose content — applies a centered reading column with responsive padding and a vertica… |
 | `<RelatedArticlesFrame>` | "Further reading" block at the end of a blog article — centered primary-gradient title + white rounded card listing o… |
 | `<RelatedSolutionsFrame>` | Cross-sell grid — 3 image-first cards each linking to a related solution or product. Rendered at the bottom (or top) … |
 | `<SliderFrame>` | Centered title + subtitle + interactive screenshot carousel. |
@@ -699,9 +700,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 📄 [`src/components/library-design/sections/BlogArticleBody.tsx`](src/components/library-design/sections/BlogArticleBody.tsx)
 🎨 Figma `node-id 303-1146`
 
-**Purpose** — Outer wrapper for the rich-text body of a blog article — white background, responsive side padding, 91.25rem inner max-width, and a 3.125rem vertical rhythm between children.
+**Purpose** — Blog-specific alias over <ProseFrame maxWidth="wide"> that preserves the blog pipeline's public API (callsites keep `<BlogArticleBody>`; the layout + rhythm contract lives in the shared <ProseFrame>). Solution long-form sections use <ProseFrame> directly with `maxWidth="reading"`.
 **Use when** — Between <TableOfContentsFrame> and <CtaHighlightFrame> on a blog article page. Compose children from the DS primitives listed in the prop doc (Heading, Text, Quote, ListInline, TableFrame, IllustrationFrame with tone="warm", plus inline markup). In Step 5 CMS, a `blocks` prop backed by `@strapi/blocks-react-renderer` will be added alongside `children`.
-**Don't use** — As a marketing section (use <FeatureFrame> / <CtaHighlightFrame>). For non-article pages (it assumes long-form vertical rhythm and centered narrow-max-width reading flow).
+**Don't use** — As a marketing section (use <FeatureFrame> / <CtaHighlightFrame>). For non-blog long-form prose (use <ProseFrame> directly with `maxWidth="reading"`).
 
 **Limits:**
 - children: article content — DS primitives only. No raw heading tags (h1–h6) or paragraph tags — the ESLint + ds-audit rules enforce this; use <Heading> and <Text> instead.
@@ -1052,6 +1053,26 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 **Forbidden:**
 - Do NOT use for sequential steps (use a numbered pattern instead)
+
+---
+
+### `<ProseFrame>`
+
+📄 [`src/components/library-design/sections/ProseFrame.tsx`](src/components/library-design/sections/ProseFrame.tsx)
+
+**Purpose** — Generic wrapper for long-form prose content — applies a centered reading column with responsive padding and a vertical rhythm between children. The children compose the article content from DS primitives (<Heading>, <Text>, <Quote>, <ListInline>, <TableFrame>, <IllustrationFrame>). Used by both blog article bodies (wide column) and marketing long-form sections on Solution pages (reading column — Maslow, "PM vs PPM", etc.).
+**Use when** — Any time the page needs to host rich-text editorial content between marketing sections. Blog articles wrap their body in <BlogArticleBody> (alias), Solution long-form pages use <ProseFrame> directly with `maxWidth="reading"`.
+**Don't use** — For marketing sections with feature-card grids (use <FeatureFrame> / <ValuePropositionFrame>). For section intros / headers only (use <SectionHeading>).
+
+**Limits:**
+- variant: "light" (default, white bg) | "tinted" (primary-2 pale lavender)
+- maxWidth: "reading" (default, 50rem ~ 65ch) | "wide" (91.25rem, blog body)
+- children: DS primitives only — no raw <h1-h6>, no raw <p> with typography classes (the ESLint + ds-audit rules enforce this)
+
+**Forbidden:**
+- Do NOT hardcode article content inside this wrapper — copy flows via children (page / i18n / CMS)
+- Do NOT override bg / padding / max-w / gap via className — they are part of the reading-flow contract
+- Do NOT nest a <ProseFrame> inside another <ProseFrame>
 
 ---
 

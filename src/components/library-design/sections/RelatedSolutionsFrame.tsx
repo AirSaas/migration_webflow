@@ -149,7 +149,7 @@ export function RelatedSolutionsFrame({
     <section
       className={cn(
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.125rem] lg:px-[10rem] lg:py-[6.25rem]",
-        isTinted ? "bg-surface-lavender" : "bg-white",
+        isTinted ? "bg-primary-2" : "bg-white",
         className,
       )}
     >
