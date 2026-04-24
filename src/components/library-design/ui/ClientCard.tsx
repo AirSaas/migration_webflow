@@ -33,7 +33,7 @@ export interface ClientCardProps {
   /** URL of the client's avatar image */
   avatarSrc: string;
   /** Alt text for the avatar */
-  avatarAlt: string;
+  avatarAlt?: string;
   /** Client full name */
   name: string;
   /** Client job title / role */
@@ -90,7 +90,7 @@ export function ClientCard({
         {/* Avatar */}
         <img
           src={avatarSrc}
-          alt={avatarAlt}
+          alt={avatarAlt ?? ""}
           className="rounded-full object-cover"
           style={{ width: "5.625rem", height: "5.625rem" }}
           loading="lazy"

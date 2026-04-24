@@ -52,6 +52,10 @@ next-env.d.ts
 /public/assets/lottie/
 /public/assets/docs/
 /public/assets/other/
+/public/assets/pages/
+
+# live-page capture screenshots (regenerate via scripts/capture-live-pages.mjs)
+docs/live-captures/**/*.png
 
 # playwright mcp logs
 .playwright-mcp/

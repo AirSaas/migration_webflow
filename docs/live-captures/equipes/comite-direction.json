@@ -1,0 +1,573 @@
+{
+  "url": "https://airsaas.io/equipes/comite-direction",
+  "type": "equipes",
+  "slug": "comite-direction",
+  "capturedAt": "2026-04-23T13:35:40.381Z",
+  "meta": {
+    "title": "Airsaas : la plateforme de gouvernance projet qui accélère votre prise de décision",
+    "description": "L'outil qui fluidifie la prise de décision des comités de direction grâce à une vision macro des points d'attention et des décisions lors des comités de pilotage",
+    "ogTitle": "Airsaas : la plateforme de gouvernance projet qui accélère votre prise de décision",
+    "ogDescription": "L'outil qui fluidifie la prise de décision des comités de direction grâce à une vision macro des points d'attention et des décisions lors des comités de pilotage"
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "La plateforme de gouvernance projet pour que votre CODIR prenne 4X plus rapidement les bonnes décisions",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "AirSaas est la solution qui accompagne les comités de direction dans un pilotage de tous les projets stratégiques et programmes de transformation de l’entreprise.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "Ils parlent de nous",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "“Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex”",
+      "href": "https://www.alliancy.fr/comexposium-dsi-dialogue-metiers-evenementiel"
+    },
+    {
+      "tag": "a",
+      "text": "“AirSaas vise à rendre réel l’alignement entre les directions métiers, la DSI et la direction générale”",
+      "href": "https://www.journaldunet.com/solutions/dsi/1514525-airsaas-la-solution-pour-piloter-les-plans-de-transformation-des-entreprises/"
+    },
+    {
+      "tag": "a",
+      "text": "“Une nouvelle manière d’embarquer les équipes”",
+      "href": "https://www.lepoint.fr/services/gouvernance-projet-comment-airsaas-aide-les-entrepri[…]eurs-programmes-de-transformation-05-12-2022-2500422_4345.php"
+    },
+    {
+      "tag": "a",
+      "text": "“la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets”",
+      "href": "https://www.lemondeinformatique.fr/actualites/lire-aurore-butrot-dsi-d-intuis-revient-sur-le-pilotage-des-projets-it-89605.html"
+    },
+    {
+      "tag": "p",
+      "text": "Thomas Sagnimorte",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "DSI chez Millet Mountain Group",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Marie-Odile Lhomme",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Chief Digital & Information Officer-membre FrenchWomenCIO-Administratrice CRiP-VP@Arce Avenir Femmes-ESSEC Alumni Chief Digital & Information Officer-membre FrenchWomenCIO-Administratrice CRiP-VP@Arce Avenir Femmes-ESSEC Alumni",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou .Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Clement Royer",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "DSI - ICT MANAGER chez Chiesi France",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revu projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "L’outil-clé pour piloter avec flexibilité et clarté vos projets internes de la stratégie à l’exécution",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Sans transparence, il ne peut y avoir d’engagement. Avec AirSaas, entamez un profond changement dans la culture de votre entreprise, et accompagnez mieux vos équipes en collaborant autour de vos projets de manière efficace et transparente.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Les chiffres qui vous feront adopter AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le pourcentage de projets qui échouent (sans AirSaas !) à cause du retard pris sur les décisions cruciales",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le temps qu’il vous faudra pour prendre en main votre plateforme de gouvernance",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "C’est le nombre de jours économisés par vos équipes à faire du powerpoint.. Moins de powerpoint à faire = Plus de temps pour faire des projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "C’est la rapidité à laquelle votre comité de direction prendra des décisions.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Animez clairement et simplement vos comités de pilotage",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "En quelques clics, AirSaas vous donne accès aux décisions et points d’attention de chacun de vos projets lors de vos comités de pilotage. Finie, la perte d’information : vous pilotez à la décision de manière claire et agile.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Une roadmap projet macro partagée",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Votre roadmap collaborative AirSaas vous permet de prioriser les décisions à prendre, grâce à des vues filtrées par programme, objectifs d’entreprise et équipes. Plus de visibilité, pour mieux piloter : c’est la promesse de la plateforme.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Uniformisez les reportings projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Générez en un clic dans votre plateforme des reportings projets homogènes, qui vous aident à prendre des décisions plus rapidement lors de vos réunions. Finies les présentations PowerPoint hétérogènes, trop détaillées, reçues à la va-vite la veille du comité de direction !",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Obtenez la bonne information, au bon moment",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "En 5 minutes par semaine et par projet, les chefs de projets font remonter les informations cruciales pour le suivi de vos projets de transformation : jalons, décisions à prendre, points d’attention. Évitez les réunions “informationnelles” et les rushs de dernière minute pour faire votre reporting.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Suivez l’avancée de vos programmes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Toutes les données de vos projets sont consolidées sur vos pages programmes, pour en suivre l’avancée et les principaux indicateurs, le tout en temps réel.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "7 raisons pour lesquelles les directions générales adorent AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un reporting projet / CoPil à la main, qui prend un temps significatif à vos équipes et qui est trop hétérogène pour que vous que le comprenez rapidement",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un reporting décisionnel uniforme généré automatiquement qui vous permettra tous les lundi matin de savoir ce qui est important ce qui est urgent et de prendre les bonnes décisions",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un pilotage à la tâche complexe à suivre pour la direction",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un pilotage agile par les jalons de vos projets ce qui vous donne une vue macro parfaite",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une culture projet interne hétérogène, voire inexistante",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une culture projet standardisée, qui pousse tous les collaborateurs vers l’excellence",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Du micro-management pour gérer vos différents collaborateurs",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une responsabilisation de chacun, grâce à une vision simplifiée et collaborative de l’avancement des projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Trop de micro-information dispersée entre les différents outils qui font que vos équipes passent leur temps à recopier les informations.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une synchronisation native avec vos outils.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Rendez vos comités de direction plus efficaces et moins chronophages",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Adoptez dès maintenant une solution efficace de reporting pour vos comités de direction, qui offre de la visibilité à toutes les parties prenantes, et fait avancer la transformation de votre entreprise plus vite, plus simplement.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "Vos équipes vont adorer nos intégrations natives",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Avec AirSaas aucune re-saisie d’information. Synchronisez vos outils de gestion de projet et profitez d’une vue macro des informations cruciales dont vous avez besoin sur AirSaas.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Laissez nos clients vous parler d’AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "C’est ceux qui s’en servent au quotidien qui en parlent le mieux ! Découvrez comment nos clients utilisent AirSaas pour rendre leurs comités de direction plus efficaces, et faire avancer leurs projets de transformation plus agilement.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Consultez les témoignages de nos clients",
+      "href": "/fr/temoignages"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3b2244fc905908e85593_Portfolio%20integrated.webp",
+      "alt": "Portfolio integrated",
+      "width": 1920,
+      "height": 1266,
+      "localPath": "/assets/pages/equipes/comite-direction/65ce3b2244fc905908e85593_Portfolio-integrated.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65547ebafb400e80682f4459_arrow_down.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 48,
+      "height": 67,
+      "localPath": "/assets/pages/equipes/comite-direction/65547ebafb400e80682f4459_arrow_down.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+      "alt": "AirSaas testimonials",
+      "width": 69,
+      "height": 50,
+      "localPath": "/assets/pages/equipes/comite-direction/63d102838842ec12a9b1ce93_quote-left.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+      "alt": "Alliancy",
+      "width": 427,
+      "height": 164,
+      "localPath": "/assets/pages/equipes/comite-direction/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+      "alt": "JDN Journal du NET",
+      "width": 570,
+      "height": 259,
+      "localPath": "/assets/pages/equipes/comite-direction/63d106ab9c5e18b386c84505_JDN-monotone.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+      "alt": "Le Point",
+      "width": 800,
+      "height": 188,
+      "localPath": "/assets/pages/equipes/comite-direction/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+      "alt": "lemondeinformatique.fr",
+      "width": 1276,
+      "height": 255,
+      "localPath": "/assets/pages/equipes/comite-direction/64141ec10a541a09487cd1ec_LMI.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+      "alt": "",
+      "width": 800,
+      "height": 800,
+      "localPath": "/assets/pages/equipes/comite-direction/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+      "alt": "",
+      "width": 75,
+      "height": 75,
+      "localPath": "/assets/pages/equipes/comite-direction/66154e9586f923137ec7a754_linkedin-embed-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/equipes/comite-direction/66154d91a69420f9a97694fe_marie-odile-lhomme.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/equipes/comite-direction/66154db4a1cc5e0256fc6539_clement-royer.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 42,
+      "height": 13,
+      "localPath": "/assets/pages/equipes/comite-direction/61fd68ee177ba19a9b23718a_guion.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07bf0920f43f2eb11cc_percentage_icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/comite-direction/6555f07bf0920f43f2eb11cc_percentage_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07032fd5d4c89add4bf_timer_icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/comite-direction/6555f07032fd5d4c89add4bf_timer_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f20288ac20bd5a7643fc_calendar2-icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/comite-direction/6555f20288ac20bd5a7643fc_calendar2-icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f20d306f1ab1294c8ebb_speed-icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/comite-direction/6555f20d306f1ab1294c8ebb_speed-icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+      "alt": "Portfolio decisions",
+      "width": 1920,
+      "height": 1219,
+      "localPath": "/assets/pages/equipes/comite-direction/65d35c96ec9fbf11d78e4b44_Portfolio-decisions--show-projects-title-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+      "alt": "Portfolio timeline",
+      "width": 1920,
+      "height": 1346,
+      "localPath": "/assets/pages/equipes/comite-direction/65ce3c00c0a4886fc8e9f671_Portfolio-project-timeline-view.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+      "alt": "Flash report ppt",
+      "width": 1956,
+      "height": 1371,
+      "localPath": "/assets/pages/equipes/comite-direction/65d35ce9e34fd87ad7612c9d_Flash-report-ppt.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+      "alt": "Pilotez vos projets de manière macro",
+      "width": 1920,
+      "height": 1219,
+      "localPath": "/assets/pages/equipes/comite-direction/65d5a7778369803dea86381b_Project-page.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/62013ae734f579791eb5aa96_guion-g.svg",
+      "alt": "sans AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/equipes/comite-direction/62013ae734f579791eb5aa96_guion-g.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/62013b7ba5410f4f91017870_guion-az.svg",
+      "alt": "avec AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/equipes/comite-direction/62013b7ba5410f4f91017870_guion-az.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d484f5bef7b761e48fea37_Automation%20-%20integrations.webp",
+      "alt": "Automation - integrations",
+      "width": 1894,
+      "height": 1328,
+      "localPath": "/assets/pages/equipes/comite-direction/65d484f5bef7b761e48fea37_Automation---integrations.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d48497b08e93531f3ba49b_Graphic%20Integrations.webp",
+      "alt": "Automation - integrations",
+      "width": 1920,
+      "height": 1346,
+      "localPath": "/assets/pages/equipes/comite-direction/65d48497b08e93531f3ba49b_Graphic-Integrations.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6553d1079200944fe77c8249_arrow-left.svg",
+      "alt": "Back",
+      "width": 15,
+      "height": 26,
+      "localPath": "/assets/pages/equipes/comite-direction/6553d1079200944fe77c8249_arrow-left.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6553d0fa1e8a0486706d8177_arrow-right.svg",
+      "alt": "Next",
+      "width": 15,
+      "height": 26,
+      "localPath": "/assets/pages/equipes/comite-direction/6553d0fa1e8a0486706d8177_arrow-right.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6312349e2e256f0b293a9261_icons-idea.svg",
+      "alt": "Énergie et combustibles",
+      "width": 32,
+      "height": 42,
+      "localPath": "/assets/pages/equipes/comite-direction/6312349e2e256f0b293a9261_icons-idea.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/631231b3b4a9e7fcf37225b4_icons-briefcase.svg",
+      "alt": "1300",
+      "width": 40,
+      "height": 34,
+      "localPath": "/assets/pages/equipes/comite-direction/631231b3b4a9e7fcf37225b4_icons-briefcase.svg"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/equipes/comite-direction/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/equipes/comite-direction/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "“Une nouvelle manière d’embarquer les équipes”",
+      "href": "https://www.lepoint.fr/services/gouvernance-projet-comment-airsaas-aide-les-entrepri[…]eurs-programmes-de-transformation-05-12-2022-2500422_4345.php"
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Consultez les témoignages de nos clients",
+      "href": "/fr/temoignages"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}
