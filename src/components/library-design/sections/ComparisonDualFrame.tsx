@@ -43,6 +43,8 @@ interface ComparisonDualFrameProps {
   ctaLabel?: string;
   ctaHref?: string;
   ctaVariant?: ButtonVariant;
+  /** Optional DOM id on the root `<section>` — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -89,10 +91,11 @@ export function ComparisonDualFrame({
   ctaLabel,
   ctaHref = "#",
   ctaVariant = "primary",
+  id,
   className,
 }: ComparisonDualFrameProps) {
   return (
-    <section className={cn("relative w-full overflow-hidden", className)}>
+    <section id={id} className={cn("relative w-full overflow-hidden", className)}>
       <GradientBackground variant="comparison" className="absolute inset-0 w-full" />
 
       <div

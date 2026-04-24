@@ -36,6 +36,8 @@ interface SliderFrameProps {
   titleRest: string;
   subtitle: string;
   slides: SliderSlide[];
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -45,6 +47,7 @@ export function SliderFrame({
   titleRest,
   subtitle,
   slides,
+  id,
   className,
 }: SliderFrameProps) {
   assertMaxLength("SliderFrame", "titleHighlight", titleHighlight, 40);
@@ -56,6 +59,7 @@ export function SliderFrame({
 
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center w-full",
         isDark ? "bg-primary-70" : "bg-white",

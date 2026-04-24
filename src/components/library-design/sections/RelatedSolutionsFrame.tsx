@@ -85,6 +85,8 @@ interface RelatedSolutionsFrameProps {
   collectionCtaHref?: string;
   /** Visual style for the collection CTA. Default "tertiary" (outline). */
   collectionCtaVariant?: ButtonVariant;
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -99,6 +101,7 @@ export function RelatedSolutionsFrame({
   collectionCtaLabel,
   collectionCtaHref,
   collectionCtaVariant = "tertiary",
+  id,
   className,
 }: RelatedSolutionsFrameProps) {
   if (tag) assertMaxLength("RelatedSolutionsFrame", "tag", tag, 24);
@@ -147,6 +150,7 @@ export function RelatedSolutionsFrame({
 
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.125rem] lg:px-[10rem] lg:py-[6.25rem]",
         isTinted ? "bg-primary-2" : "bg-white",

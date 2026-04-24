@@ -29,6 +29,8 @@ interface ComparisonFrameProps {
   title: string;
   subtitle: string;
   items: ComparisonItem[];
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -37,10 +39,12 @@ export function ComparisonFrame({
   title,
   subtitle,
   items,
+  id,
   className,
 }: ComparisonFrameProps) {
   return (
     <section
+      id={id}
       className={cn("relative w-full overflow-hidden", className)}
     >
       {/* Blurred gradient background at 30% opacity */}

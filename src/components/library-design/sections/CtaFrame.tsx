@@ -28,6 +28,8 @@ interface CtaFrameProps {
   subtitle: string;
   /** Card content — pass CardCta components as children */
   children: React.ReactNode;
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -35,6 +37,7 @@ export function CtaFrame({
   title,
   subtitle,
   children,
+  id,
   className,
 }: CtaFrameProps) {
   assertMaxLength("CtaFrame", "title", title, 80);
@@ -42,6 +45,7 @@ export function CtaFrame({
 
   return (
     <section
+      id={id}
       className={cn("relative w-full overflow-hidden", className)}
       style={{ minHeight: "auto" }}
     >

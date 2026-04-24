@@ -63,6 +63,8 @@ interface StepsFrameProps {
   steps: Step[];
   /** Show chevron connectors between cards on md+. Default true. */
   showConnectors?: boolean;
+  /** Optional DOM id on the root `<section>` — used as a scroll-spy target by `<TabsFrame>`. */
+  id?: string;
   className?: string;
 }
 
@@ -74,6 +76,7 @@ export function StepsFrame({
   subtitle,
   steps,
   showConnectors = true,
+  id,
   className,
 }: StepsFrameProps) {
   if (tag) assertMaxLength("StepsFrame", "tag", tag, 24);
@@ -102,6 +105,7 @@ export function StepsFrame({
 
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.75rem] lg:px-[10rem] lg:py-[6.25rem]",
         isDark ? "bg-primary-70" : "bg-white",

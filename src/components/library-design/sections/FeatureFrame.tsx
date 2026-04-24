@@ -68,6 +68,8 @@ interface FeatureFrameProps {
   imageAlt: string;
   /** Background color of the illustration frame */
   imageBgColor?: string;
+  /** Optional DOM id on the root `<section>` — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -87,6 +89,7 @@ export function FeatureFrame({
   imageSrc,
   imageAlt,
   imageBgColor,
+  id,
   className,
 }: FeatureFrameProps) {
   const isStacked = layout === "stacked";
@@ -209,6 +212,7 @@ export function FeatureFrame({
   if (isStacked) {
     return (
       <section
+        id={id}
         className={cn(
           "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] bg-white",
           "md:px-[3rem] md:py-[4rem] md:gap-[2.5rem]",
@@ -224,6 +228,7 @@ export function FeatureFrame({
 
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col gap-[2rem] px-[1.5rem] py-[3rem] bg-white",
         "md:px-[3rem] md:py-[4rem] md:gap-[2.5rem]",

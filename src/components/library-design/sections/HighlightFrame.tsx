@@ -39,6 +39,8 @@ interface HighlightFrameProps {
   title: string;
   subtitle?: string;
   items: HighlightItem[];
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -55,10 +57,12 @@ export function HighlightFrame({
   title,
   subtitle,
   items,
+  id,
   className,
 }: HighlightFrameProps) {
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.75rem] lg:px-[10rem] lg:py-[6.25rem]",
         className,

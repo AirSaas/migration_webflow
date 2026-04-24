@@ -41,6 +41,8 @@ interface FeatureSectionStackedProps {
   imageAlt: string;
   /** Background variant */
   variant?: "default" | "primary2";
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -53,10 +55,12 @@ export function FeatureSectionStacked({
   imageSrc,
   imageAlt,
   variant = "default",
+  id,
   className,
 }: FeatureSectionStackedProps) {
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center w-full",
         variant === "primary2" && "bg-primary-2",

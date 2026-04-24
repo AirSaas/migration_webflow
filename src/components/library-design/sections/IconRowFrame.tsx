@@ -45,6 +45,8 @@ interface IconRowFrameProps {
   singleTitle?: string;
   subtitle?: string;
   items: IconRowItem[];
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -56,12 +58,14 @@ export function IconRowFrame({
   singleTitle,
   subtitle,
   items,
+  id,
   className,
 }: IconRowFrameProps) {
   const isDark = variant === "dark";
 
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.75rem] lg:px-[10rem] lg:py-[6.25rem]",
         isDark ? "bg-primary-70" : "bg-white",

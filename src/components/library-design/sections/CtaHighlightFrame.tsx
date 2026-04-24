@@ -45,6 +45,8 @@ interface CtaHighlightFrameProps {
   ctaVariant?: ButtonVariant;
   /** Decorative floating cards (default: 2 subtle ones). Pass `false` to disable. */
   floatingDecorations?: boolean;
+  /** Optional DOM id on the root `<section>` — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -57,6 +59,7 @@ export function CtaHighlightFrame({
   ctaHref = "#",
   ctaVariant = "primary",
   floatingDecorations = true,
+  id,
   className,
 }: CtaHighlightFrameProps) {
   assertMaxLength("CtaHighlightFrame", "titlePrefix", titlePrefix, 30);
@@ -66,7 +69,7 @@ export function CtaHighlightFrame({
   assertMaxLength("CtaHighlightFrame", "ctaLabel", ctaLabel, 24);
 
   return (
-    <section className={cn("relative w-full overflow-hidden", className)}>
+    <section id={id} className={cn("relative w-full overflow-hidden", className)}>
       <GradientBackground variant="cta" className="absolute inset-0 w-full" />
 
       <div
