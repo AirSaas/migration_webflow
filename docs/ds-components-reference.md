@@ -89,6 +89,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<SliderFrame>` | Centered title + subtitle + interactive screenshot carousel. |
 | `<StepsFrame>` | Horizontal row of numbered sequential steps — each step has a large primary-gradient number, an icon, a short title, … |
 | `<TableOfContentsFrame>` | Article-level table of contents — centered primary-gradient title + white rounded card listing anchor links to each a… |
+| `<TabsFrame>` | Hero-adjacent horizontal pill-tab bar — 3–6 anchor links that smooth-scroll to sections lower on the page. Active tab… |
 | `<TestimonialsFrame>` | Section wrapper for testimonial cards: gradient heading + 3-col grid. |
 | `<ValuePropositionFrame>` | Section with title + subtitle + a 2-to-6-column grid of child cards (usually <FeatureCard> or custom). |
 
@@ -1170,6 +1171,28 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - Do NOT pass className that changes background / border / padding — the lavender surface + white card + primary-40 border are part of the contract
 - Do NOT hardcode the title text — always pass via `title` prop from i18n / CMS (locale-driven)
 - Do NOT render more than one <TableOfContentsFrame> per page
+
+---
+
+### `<TabsFrame>`
+
+📄 [`src/components/library-design/sections/TabsFrame.tsx`](src/components/library-design/sections/TabsFrame.tsx)
+
+**Purpose** — Hero-adjacent horizontal pill-tab bar — 3–6 anchor links that smooth-scroll to sections lower on the page. Active tab auto- updates as the user scrolls through those sections (IntersectionObserver-based scroll spy). Falls back to manual click behavior if the target is missing.
+**Use when** — Landing pages that surface 3–6 major sections deserving a jump nav just below the Hero (the canonical pattern on `/lp/*`).
+**Don't use** — For top-level site navigation (use <Navbar>). For a vertical long-form article TOC (use <TocSidebar>). For a small FAQ-like content toggle (use <FaqFrame>).
+
+**Limits:**
+- tabs: 3–6 items (below 3 looks sparse; above 6 the row wraps awkwardly)
+- tab.label: max 24 chars
+- tab.href: must start with "#"
+- ariaLabel: max 60 chars
+
+**Forbidden:**
+- Do NOT mix absolute URLs with anchor hrefs — use <Navbar> for external links
+- Do NOT hardcode ariaLabel in French — pass via next-intl
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT render more than one TabsFrame per page
 
 ---
 
