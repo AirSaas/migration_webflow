@@ -76,9 +76,9 @@ This doc is hand-curated (unlike [`ds-components-reference.md`](ds-components-re
 | Intent | Use |
 |---|---|
 | Full site navbar with dropdowns (HomePage, Produit, Équipes, Solution) | `<Navbar>` |
-| Minimal LP navbar (logo + single CTA) | `<LpNavbar>` (currently in `_legacy/layout/` — pending move) |
+| Minimal LP navbar (logo + single CTA) | `<LpNavbar>` from `library-design/layout/` |
 | Full site footer with multi-column menu | `<Footer>` |
-| Minimal LP footer | `<LpFooter>` (currently in `_legacy/layout/` — pending move) |
+| Minimal LP footer | `<LpFooter>` from `library-design/layout/` |
 | Cookie banner | `<CookieBanner>` |
 
 ### Interactive controls
@@ -154,7 +154,7 @@ Some intents can be covered by multiple frames. Use these tie-breakers:
 When rebuilding an LP (`/lp/ppm`, `/lp/pmo`, `/lp/capacity-planning`, `/lp/pi-planning`), follow this order:
 
 ```tsx
-<LpNavbar />                                              // minimal, pending move to library-design/layout
+<LpNavbar ctaLabel="..." logoAlt="..." />                 // minimal, library-design/layout/
 <Hero ... />                                              // H1 + illustration + dual CTA + trust badges
 <TabsFrame tabs={[{label, href: "#capacity"}, ...]} />    // anchors to sections below
 <ValuePropositionFrame columns={4} id="capacity">         // trust strip, 4 metrics
@@ -174,7 +174,7 @@ When rebuilding an LP (`/lp/ppm`, `/lp/pmo`, `/lp/capacity-planning`, `/lp/pi-pl
 <CtaFrame>                                                // closing dual CTA
   <CardCta ... /> × 2
 </CtaFrame>
-<LpFooter />                                              // minimal
+<LpFooter copyrightText="..." madeWithText="..." logoAlt="..." />   // minimal, library-design/layout/
 ```
 
 **Canonical reference**: [LpExamplePage.stories.tsx](../src/components/pages/LpExamplePage.stories.tsx) — clone as starting point.

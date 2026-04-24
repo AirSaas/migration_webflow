@@ -30,8 +30,8 @@ interface Testimonial {
 interface TestimonialsFrameProps {
   /** Dark-to-primary gradient part of the title */
   title: string;
-  /** Primary gradient part of the title */
-  titleHighlight: string;
+  /** Primary gradient part of the title — optional for single-gradient headings */
+  titleHighlight?: string;
   /** Simple mode: array of personal testimonials rendered as TestimonialCard grid */
   testimonials?: Testimonial[];
   /** Flexible mode: pass any combination of card grids as children (overrides testimonials) */
@@ -67,8 +67,13 @@ export function TestimonialsFrame({
       )}
     >
       <Heading level={2} gradient="none" align="center">
-        <GradientText gradient="dark-to-primary">{title}</GradientText>{" "}
-        <GradientText gradient="primary">{titleHighlight}</GradientText>
+        <GradientText gradient="dark-to-primary">{title}</GradientText>
+        {titleHighlight && (
+          <>
+            {" "}
+            <GradientText gradient="primary">{titleHighlight}</GradientText>
+          </>
+        )}
       </Heading>
 
       {children ?? (

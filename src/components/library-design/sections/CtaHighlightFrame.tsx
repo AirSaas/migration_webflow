@@ -37,8 +37,8 @@ interface CtaHighlightFrameProps {
   titleHighlight: string;
   /** Trailing dark-gradient portion (after the highlight). */
   titleSuffix?: string;
-  /** Short reassurance message inside the white card. */
-  subtitle: string;
+  /** Short reassurance message inside the white card. Optional — when omitted, the card shows only the CTA button. */
+  subtitle?: string;
   /** CTA button label. */
   ctaLabel: string;
   ctaHref?: string;
@@ -65,7 +65,7 @@ export function CtaHighlightFrame({
   assertMaxLength("CtaHighlightFrame", "titlePrefix", titlePrefix, 30);
   assertMaxLength("CtaHighlightFrame", "titleHighlight", titleHighlight, 50);
   if (titleSuffix) assertMaxLength("CtaHighlightFrame", "titleSuffix", titleSuffix, 20);
-  assertMaxLength("CtaHighlightFrame", "subtitle", subtitle, 220);
+  if (subtitle) assertMaxLength("CtaHighlightFrame", "subtitle", subtitle, 220);
   assertMaxLength("CtaHighlightFrame", "ctaLabel", ctaLabel, 24);
 
   return (
@@ -96,9 +96,11 @@ export function CtaHighlightFrame({
             boxShadow: "var(--shadow-floating)",
           }}
         >
-          <Text size="md" align="center">
-            {subtitle}
-          </Text>
+          {subtitle && (
+            <Text size="md" align="center">
+              {subtitle}
+            </Text>
+          )}
           <AnimateOnScroll animation="scale-up" duration={500} delay={100}>
             <Button variant={ctaVariant} size="md" href={ctaHref}>
               {ctaLabel}
