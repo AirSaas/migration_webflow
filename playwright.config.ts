@@ -36,10 +36,20 @@ export default defineConfig({
       threshold: 0.2,
     },
   },
-  webServer: {
-    command: "npm run dev",
-    url: "http://localhost:3000",
-    reuseExistingServer: true,
-    timeout: 120_000,
-  },
+  webServer: [
+    {
+      command: "npm run dev",
+      url: "http://localhost:3000",
+      reuseExistingServer: true,
+      timeout: 120_000,
+    },
+    {
+      // Storybook required for ds-components-storybook.spec.ts. If a local
+      // Storybook is already running (typical during DS work), this reuses it.
+      command: "npm run storybook",
+      url: "http://localhost:6007",
+      reuseExistingServer: true,
+      timeout: 180_000,
+    },
+  ],
 });
