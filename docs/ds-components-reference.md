@@ -193,9 +193,11 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - title: max 30 chars (Figma H4)
 - description: max 100 chars (one-line paragraph)
 - ctaLabel: max 18 chars
+- mediaThumbnail: optional landscape 16/9 image rendered above the title — use for video replay teasers, media cards, etc.
 
 **Forbidden:**
 - Do NOT pass typography className overrides
+- Do NOT omit mediaThumbnail.alt (required when prop is used; pass `""` for decorative)
 
 ---
 
@@ -662,9 +664,11 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - quote: max 220 chars (matches TestimonialCard quote limit)
 - logoSrc: should be an SVG or transparent PNG. Fixed logo box: 2.25 × 6.5 rem.
+- href: optional URL — when provided, the whole card becomes a link. External URLs (starting with http) open in a new tab with noopener.
 
 **Forbidden:**
 - Do NOT pass className with typography / color overrides — use props
+- Do NOT nest interactive elements inside the card when `href` is set (block-level link cannot contain nested interactives)
 
 ---
 
@@ -1106,12 +1110,13 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 📄 [`src/components/library-design/sections/SliderFrame.tsx`](src/components/library-design/sections/SliderFrame.tsx)
 
 **Purpose** — Centered title + subtitle + interactive screenshot carousel.
-**Use when** — Showcasing a product surface (marketplace, integrations, multi-screen flow, bootcamp gallery) with 2–8 slides that the user navigates through.
+**Use when** — Showcasing a product surface (marketplace, integrations, multi-screen flow, bootcamp gallery, community LPDT) with 2–8 slides that the user navigates through. `variant="dark"` for sections that need to break the rhythm with a primary-70 background.
 **Don't use** — For a static feature/image (use <FeatureFrame>). For a single image, no carousel wrapper needed.
 
 **Limits:**
-- titleHighlight: max 40 chars (primary gradient)
-- titleRest: max 70 chars (dark foreground)
+- variant: "light" (default, white bg) | "dark" (primary-70 bg, white typography)
+- titleHighlight: max 40 chars (primary gradient light / white dark)
+- titleRest: max 70 chars (dark foreground light / white dark)
 - subtitle: max 280 chars
 - slides: 2–8 (above 8, navigation feels tedious — split into 2 sections)
 

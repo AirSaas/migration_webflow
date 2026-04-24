@@ -26,6 +26,24 @@ export const Default: Story = {
   },
 };
 
+/**
+ * With media thumbnail — 16/9 landscape image above the title. Used on the
+ * `/equipes/outil-pmo` page for a video replay teaser.
+ */
+export const WithMediaThumbnail: Story = {
+  args: {
+    title: "Voir le replay",
+    description:
+      "Aurore Butrot, DSI Intuis, nous explique comment elle combine AirSaas et Asana.",
+    ctaLabel: "Voir le replay",
+    ctaHref: "#",
+    mediaThumbnail: {
+      src: "https://placehold.co/640x360/3c51e2/ffffff?text=▶+Replay+Intuis",
+      alt: "Capture vidéo du replay avec Aurore Butrot",
+    },
+  },
+};
+
 export const AllVariants: Story = {
   render: () => (
     <div className="flex flex-col gap-8 max-w-[91.5rem]">
