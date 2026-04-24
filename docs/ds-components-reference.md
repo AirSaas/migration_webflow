@@ -47,6 +47,8 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<IconBadge>` | Circular badge hosting a large duotone icon — the main visual anchor in icon-led sections. |
 | `<IconIllustration>` | Stylised icon with a drop-shadow offset and a solid ellipse "base" underneath — AirSaas's signature illustrated icon … |
 | `<IllustrationFrame>` | Rounded frame that wraps a hero / section / blog-body illustration with consistent padding, border, and radius. |
+| `<InlineCta>` | Inline call-to-action inside a rich-text article body — a tinted rounded block with a short message and a primary but… |
+| `<InsightCallout>` | Key-takeaway block inside a rich-text article body — a tinted card with a left accent border, a short title (e.g. "À … |
 | `<ListCard>` | Numbered card with a big gradient number + short description. Used inside <ComparisonFrame> for "avec/sans" lists or … |
 | `<ListEmphasized>` | Horizontal row of short text blocks separated by an orange left border — used to highlight 2–4 key points side-by-side. |
 | `<ListInline>` | Single inline item (icon + text) — the row primitive behind <CheckList>, <TableOfContentsFrame>, and blog body bullet… |
@@ -434,6 +436,46 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Forbidden:**
 - Do NOT pass className that overrides bg / border / padding — the frame chrome is part of the tone contract
 - Do NOT combine `tone="warm"` with `shape="open-bottom"` — warm frames are always contained
+
+---
+
+### `<InlineCta>`
+
+📄 [`src/components/library-design/ui/InlineCta.tsx`](src/components/library-design/ui/InlineCta.tsx)
+
+**Purpose** — Inline call-to-action inside a rich-text article body — a tinted rounded block with a short message and a primary button. Breaks the reading flow just enough to surface a lead-magnet / guide download / newsletter signup without becoming a full-page section.
+**Use when** — Inside <BlogArticleBody> / <ProseFrame> between paragraphs, when the article wants to surface a one-off conversion moment.
+**Don't use** — For a full-width closing CTA section (use <CtaHighlightFrame>). For a side-by-side 2-card ask (use <CtaFrame> + 2× <CardCta>). For a single primitive button in a paragraph — just render <Button> inline.
+
+**Limits:**
+- text: max 180 chars (keeps the block a one-liner on desktop)
+- ctaLabel: max 24 chars (matches Button label limit)
+
+**Forbidden:**
+- Do NOT hardcode ctaLabel in French — pass via next-intl
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT render more than 2 <InlineCta> per article (diminishing returns)
+
+---
+
+### `<InsightCallout>`
+
+📄 [`src/components/library-design/ui/InsightCallout.tsx`](src/components/library-design/ui/InsightCallout.tsx)
+
+**Purpose** — Key-takeaway block inside a rich-text article body — a tinted card with a left accent border, a short title (e.g. "À retenir" / "Key takeaway"), and a bulleted list of 2-6 insights. Breaks the reading flow to summarize an important idea.
+**Use when** — Inside <BlogArticleBody> / <ProseFrame> at the end of a section ("ce qu'il faut retenir") or at the start to preview what the reader will learn.
+**Don't use** — For a single standout quote (use <Quote>). For a full-width highlight section with numbered cards (use <HighlightFrame>). For a CTA with a button (use <InlineCta>).
+
+**Limits:**
+- title: max 40 chars (single-line heading-4)
+- items: 2–6 insight bullets
+- item: max 180 chars per bullet
+- variant: "primary" (default) | "success" | "warning"
+
+**Forbidden:**
+- Do NOT hardcode title in French — pass via next-intl (no default)
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT nest another InsightCallout inside an item
 
 ---
 
