@@ -18,7 +18,7 @@ import { assertMaxLength, assertArrayBounds } from "@/lib/ds-validators";
  *   - titleHighlight: max 40 chars (primary gradient)
  *   - titleRest: max 70 chars (dark foreground)
  *   - subtitle: max 280 chars
- *   - slides: 2–8
+ *   - slides: 2–5
  *
  * @forbidden
  *   - Do NOT nest another <Slider> inside this frame
@@ -44,7 +44,7 @@ export function SliderFrame({
   assertMaxLength("SliderFrame", "titleHighlight", titleHighlight, 40);
   assertMaxLength("SliderFrame", "titleRest", titleRest, 70);
   assertMaxLength("SliderFrame", "subtitle", subtitle, 280);
-  assertArrayBounds("SliderFrame", "slides", slides, 2, 8);
+  assertArrayBounds("SliderFrame", "slides", slides, 2, 5);
 
   return (
     <section
