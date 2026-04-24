@@ -1,6 +1,9 @@
 import { cn } from "@/lib/utils";
+import { Text } from "./Text";
+import { assertMaxLength } from "@/lib/ds-validators";
 
 type Tone = "neutral" | "warm";
+type CaptionAlign = "left" | "center" | "right";
 
 interface IllustrationFrameProps {
   src: string;
@@ -23,6 +26,17 @@ interface IllustrationFrameProps {
    *   Always contained shape; inner image has a small rounded radius.
    */
   tone?: Tone;
+  /**
+   * Optional caption rendered below the image as a `<figcaption>`. When
+   * provided, the root element switches from `<div>` to `<figure>` for
+   * proper semantic markup. Locale-driven — pass via next-intl / CMS.
+   */
+  caption?: string;
+  /**
+   * Caption alignment — "center" (default) | "left" | "right". Ignored when
+   * `caption` is omitted.
+   */
+  captionAlign?: CaptionAlign;
   className?: string;
 }
 
@@ -45,12 +59,17 @@ interface IllustrationFrameProps {
  *     tone="warm" (always contained).
  *   - tone: "neutral" (default — glass) | "warm" (prevention-10 well)
  *   - alt: empty string marks the image as decorative (`aria-hidden`)
+ *   - caption: max 300 chars — longer captions belong in article body, not
+ *     under a figure. When provided the root becomes a `<figure>` with
+ *     `<figcaption>` (semantic markup for editorial / blog body figures).
+ *   - captionAlign: "center" (default) | "left" | "right"
  *
  * @forbidden
  *   - Do NOT pass className that overrides bg / border / padding — the
  *     frame chrome is part of the tone contract
  *   - Do NOT combine `tone="warm"` with `shape="open-bottom"` — warm frames
  *     are always contained
+ *   - Do NOT hardcode caption text in a specific locale — pass via i18n / CMS
  *
  * @figma node-id 303-1146 (warm tone — Blog body image well)
  */
@@ -61,8 +80,12 @@ export function IllustrationFrame({
   height,
   shape = "open-bottom",
   tone = "neutral",
+  caption,
+  captionAlign = "center",
   className,
 }: IllustrationFrameProps) {
+  if (caption) assertMaxLength("IllustrationFrame", "caption", caption, 300);
+
   const isDecorative = alt === "";
   const isWarm = tone === "warm";
 
@@ -79,23 +102,44 @@ export function IllustrationFrame({
     ? "w-full object-cover rounded-[0.625rem]"
     : "w-full object-cover rounded-b-none";
 
+  const imgEl = (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      {...(width ? { width } : {})}
+      {...(height ? { height } : {})}
+      {...(isDecorative ? { "aria-hidden": true as const } : {})}
+      className={imgClasses}
+    />
+  );
+
+  // With caption → semantic <figure> + <figcaption>
+  if (caption) {
+    return (
+      <figure
+        className={cn("overflow-clip", frameClasses, className)}
+      >
+        {imgEl}
+        <figcaption
+          className={cn(
+            "mt-[0.75rem] md:mt-[1rem]",
+            captionAlign === "center" && "text-center",
+            captionAlign === "right" && "text-right",
+          )}
+        >
+          <Text size="sm" className="italic text-text-muted">
+            {caption}
+          </Text>
+        </figcaption>
+      </figure>
+    );
+  }
+
+  // No caption → plain <div> wrapper (backwards compat).
   return (
-    <div
-      className={cn(
-        "overflow-clip",
-        frameClasses,
-        className,
-      )}
-    >
-      <img
-        src={src}
-        alt={alt}
-        loading="lazy"
-        {...(width ? { width } : {})}
-        {...(height ? { height } : {})}
-        {...(isDecorative ? { "aria-hidden": true as const } : {})}
-        className={imgClasses}
-      />
+    <div className={cn("overflow-clip", frameClasses, className)}>
+      {imgEl}
     </div>
   );
 }

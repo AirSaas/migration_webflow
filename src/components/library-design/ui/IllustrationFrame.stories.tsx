@@ -87,3 +87,38 @@ export const Warm: Story = {
     </div>
   ),
 };
+
+/**
+ * With caption — root element switches to `<figure>` + `<figcaption>`. Used
+ * inside blog articles where the image needs attribution, source, or
+ * contextual description below.
+ */
+export const WithCaption: Story = {
+  render: () => (
+    <div className="flex flex-col gap-8 bg-white p-8">
+      <div className="flex flex-col gap-2">
+        <span className="text-sm font-medium text-text-muted">
+          warm + caption (centered, default)
+        </span>
+        <IllustrationFrame
+          tone="warm"
+          src="https://placehold.co/1125x600/FFEFC6/3c51e2?text=Dashboard+AirSaas"
+          alt="Capture du dashboard AirSaas vue portefeuille"
+          caption="Le tableau de bord AirSaas consolide les projets en un flash report mensuel — fig. 1."
+        />
+      </div>
+      <div className="flex flex-col gap-2">
+        <span className="text-sm font-medium text-text-muted">
+          warm + caption left-aligned
+        </span>
+        <IllustrationFrame
+          tone="warm"
+          src="https://placehold.co/1125x600/e8eafc/3c51e2?text=Capacity+planning"
+          alt="Vue capacity planning"
+          caption="Source : AirSaas, cohorte clients Q1 2026."
+          captionAlign="left"
+        />
+      </div>
+    </div>
+  ),
+};

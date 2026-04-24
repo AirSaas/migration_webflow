@@ -15,9 +15,13 @@ import { assertMaxLength } from "@/lib/ds-validators";
  * @limits
  *   - quote: max 220 chars (matches TestimonialCard quote limit)
  *   - logoSrc: should be an SVG or transparent PNG. Fixed logo box: 2.25 × 6.5 rem.
+ *   - href: optional URL — when provided, the whole card becomes a link.
+ *     External URLs (starting with http) open in a new tab with noopener.
  *
  * @forbidden
  *   - Do NOT pass className with typography / color overrides — use props
+ *   - Do NOT nest interactive elements inside the card when `href` is set
+ *     (block-level link cannot contain nested interactives)
  */
 
 interface TestimonialCompanyCardProps {
@@ -27,6 +31,11 @@ interface TestimonialCompanyCardProps {
   logoSrc: string;
   /** Company logo alt text */
   logoAlt: string;
+  /**
+   * Optional link URL — when provided, the entire card becomes clickable.
+   * External URLs (starting with `http`) get `target="_blank"` + `rel="noopener noreferrer"`.
+   */
+  href?: string;
   /**
    * Card width. Accepts any CSS length.
    * @default "100%" (fills the parent cell, capped by `maxWidth`)
@@ -60,6 +69,7 @@ export function TestimonialCompanyCard({
   quote,
   logoSrc,
   logoAlt,
+  href,
   width = "100%",
   maxWidth = "29.375rem",
   className,
@@ -67,7 +77,7 @@ export function TestimonialCompanyCard({
 }: TestimonialCompanyCardProps) {
   assertMaxLength("TestimonialCompanyCard", "quote", quote, 220);
 
-  return (
+  const article = (
     <article
       className={cn(
         "flex flex-col justify-between bg-white rounded-[1.5625rem] overflow-clip",
@@ -101,5 +111,21 @@ export function TestimonialCompanyCard({
         loading="lazy"
       />
     </article>
+  );
+
+  if (!href) return article;
+
+  const isExternal = /^https?:\/\//.test(href);
+
+  return (
+    <a
+      href={href}
+      {...(isExternal
+        ? { target: "_blank", rel: "noopener noreferrer" }
+        : {})}
+      className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-[1.5625rem]"
+    >
+      {article}
+    </a>
   );
 }

@@ -42,6 +42,8 @@ interface ComparisonTableFrameProps {
   featuresLabel?: string;
   columns: ComparisonColumn[];
   rows: ComparisonRow[];
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -78,6 +80,7 @@ export function ComparisonTableFrame({
   featuresLabel = "Fonctionnalités",
   columns,
   rows,
+  id,
   className,
 }: ComparisonTableFrameProps) {
   // Build a CSS grid template: feature column flexes, value columns are fixed.
@@ -87,6 +90,7 @@ export function ComparisonTableFrame({
 
   return (
     <section
+      id={id}
       className={cn(
         "flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.75rem] lg:px-[10rem] lg:py-[6.25rem] bg-white",
         className,

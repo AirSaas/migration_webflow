@@ -10,6 +10,12 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+const SINGLE_AUTHOR = {
+  name: "Bertran RUIZ",
+  avatarSrc: "https://placehold.co/80x80/3c51e2/ffffff?text=BR",
+  avatarAlt: "Portrait de Bertran RUIZ",
+};
+
 const baseArgs = {
   thumbnailSrc:
     "https://placehold.co/600x400/3c51e2/ffffff?text=Mes+12+le%C3%A7ons+de+2023",
@@ -19,68 +25,97 @@ const baseArgs = {
   excerpt:
     "L'essentiel à savoir sur le Copil projet : missions, composition, erreurs fréquentes à éviter et clés de succès",
   href: "/blog/mes-12-lecons-dsi-2023",
-  authorName: "Bertran RUIZ",
-  authorAvatarSrc:
-    "https://placehold.co/80x80/3c51e2/ffffff?text=BR",
-  authorAvatarAlt: "Portrait de Bertran RUIZ",
+  authors: [SINGLE_AUTHOR],
   categoryLabel: "La newsletter des DSI",
   categoryHref: "/blog/newsletter-dsi",
+  publishedByLabel: "Publié par",
+  inLabel: "dans",
 };
 
-/**
- * Default — single card as seen in the Figma (312-2107).
- * Constrained width simulates the 3-col grid layout.
- */
+const decorator = (Story: () => React.ReactNode) => (
+  <div className="max-w-[21rem] bg-primary-2 p-[2.5rem] rounded-[1.5625rem]">
+    <Story />
+  </div>
+);
+
+/** Default — single-author card. */
 export const Default: Story = {
   args: baseArgs,
-  decorators: [
-    (Story) => (
-      <div className="max-w-[21rem] bg-primary-2 p-[2.5rem] rounded-[1.5625rem]">
-        <Story />
-      </div>
-    ),
-  ],
+  decorators: [decorator],
 };
 
-/**
- * Without category — minimal byline (just "Publié par [Name]").
- */
+/** Two authors — renders "Name1 & Name2" with two stacked avatars. */
+export const TwoAuthors: Story = {
+  args: {
+    ...baseArgs,
+    authors: [
+      SINGLE_AUTHOR,
+      {
+        name: "Marie Curie",
+        avatarSrc: "https://placehold.co/80x80/2d8a4e/ffffff?text=MC",
+        avatarAlt: "Portrait de Marie Curie",
+      },
+    ],
+    authorsAndLabel: "&",
+  },
+  decorators: [decorator],
+};
+
+/** Three authors — renders "Name1 + 2 autres" with three stacked avatars. */
+export const ThreeAuthors: Story = {
+  args: {
+    ...baseArgs,
+    authors: [
+      SINGLE_AUTHOR,
+      {
+        name: "Marie Curie",
+        avatarSrc: "https://placehold.co/80x80/2d8a4e/ffffff?text=MC",
+        avatarAlt: "Portrait de Marie Curie",
+      },
+      {
+        name: "Alan Turing",
+        avatarSrc: "https://placehold.co/80x80/ff922b/ffffff?text=AT",
+        avatarAlt: "Portrait d'Alan Turing",
+      },
+    ],
+  },
+  decorators: [decorator],
+};
+
+/** Four authors — avatars capped at 3, label reads "Name + 3 autres". */
+export const FourAuthors: Story = {
+  args: {
+    ...baseArgs,
+    authors: [
+      SINGLE_AUTHOR,
+      { name: "Marie Curie" },
+      { name: "Alan Turing" },
+      { name: "Ada Lovelace" },
+    ],
+  },
+  decorators: [decorator],
+};
+
+/** Without category — minimal byline (just "Publié par [Name]"). */
 export const NoCategory: Story = {
   args: {
     ...baseArgs,
     categoryLabel: undefined,
     categoryHref: undefined,
   },
-  decorators: [
-    (Story) => (
-      <div className="max-w-[21rem] bg-primary-2 p-[2.5rem] rounded-[1.5625rem]">
-        <Story />
-      </div>
-    ),
-  ],
+  decorators: [decorator],
 };
 
-/**
- * Without avatar — byline renders the text lines without the avatar image.
- */
+/** Without avatar — byline renders text-only. */
 export const NoAvatar: Story = {
   args: {
     ...baseArgs,
-    authorAvatarSrc: undefined,
-    authorAvatarAlt: undefined,
+    authors: [{ name: "Bertran RUIZ" }],
   },
-  decorators: [
-    (Story) => (
-      <div className="max-w-[21rem] bg-primary-2 p-[2.5rem] rounded-[1.5625rem]">
-        <Story />
-      </div>
-    ),
-  ],
+  decorators: [decorator],
 };
 
-/**
- * Long title / excerpt — verifies clean wrapping at the upper limits.
- */
+/** Long title / excerpt — verifies clean wrapping at the upper limits. */
 export const LongContent: Story = {
   args: {
     ...baseArgs,
@@ -89,18 +124,27 @@ export const LongContent: Story = {
     excerpt:
       "Un plan actionnable en 7 étapes pour faire évoluer un PMO de simple fonction de contrôle à un partenaire stratégique de la direction, avec des métriques concrètes et des exemples terrain issus de notre portefeuille de 120 transformations.",
   },
-  decorators: [
-    (Story) => (
-      <div className="max-w-[21rem] bg-primary-2 p-[2.5rem] rounded-[1.5625rem]">
-        <Story />
-      </div>
-    ),
-  ],
+  decorators: [decorator],
 };
 
-/**
- * Trio — three cards side-by-side to preview the grid composition.
- */
+/** English locale — labels all overridden via props. */
+export const EnglishLocale: Story = {
+  args: {
+    ...baseArgs,
+    publishedByLabel: "Published by",
+    inLabel: "in",
+    authorsMoreLabel: "others",
+    authorsAndLabel: "and",
+    categoryLabel: "The CIO Newsletter",
+    authors: [
+      { name: "Bertran RUIZ", avatarSrc: SINGLE_AUTHOR.avatarSrc, avatarAlt: SINGLE_AUTHOR.avatarAlt },
+      { name: "Jane Doe" },
+    ],
+  },
+  decorators: [decorator],
+};
+
+/** Trio — three cards side-by-side to preview the grid composition. */
 export const Trio: Story = {
   render: () => (
     <div className="bg-primary-2 p-[2.5rem] rounded-[1.5625rem]">

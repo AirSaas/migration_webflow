@@ -12,15 +12,13 @@ import { ComparisonDualFrame } from "@/components/library-design/sections/Compar
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import { SectionHeading } from "@/components/library-design/ui/SectionHeading";
-import { Heading } from "@/components/library-design/ui/Heading";
-import { Text } from "@/components/library-design/ui/Text";
-import { GradientText } from "@/components/library-design/ui/GradientText";
 import { TestimonialCompanyCard } from "@/components/library-design/ui/TestimonialCompanyCard";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
-import { ClientCard } from "@/components/library-design/ui/ClientCard";
+import { ClientsFrame } from "@/components/library-design/sections/ClientsFrame";
 import { AnimateOnScroll } from "@/components/library-design/ui/AnimateOnScroll";
 import {
   CalendarDayIcon,
+  IndustryIcon,
   StopwatchIcon,
   SuitcaseIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
@@ -740,49 +738,28 @@ export default function HomePage() {
 
       {/* 16. Customer Cards — "Laissez nos clients vous parler d'AirSaas" */}
       <AnimateOnScroll animation="fade-up" duration={700}>
-        <section
-          className="flex flex-col items-center w-full"
-          style={{
-            gap: "3.125rem",
-            paddingLeft: "clamp(1.25rem, 5vw, 5rem)",
-            paddingRight: "clamp(1.25rem, 5vw, 5rem)",
-            paddingTop: "clamp(3rem, 5.2vw, 6.25rem)",
-            paddingBottom: "clamp(3rem, 5.2vw, 6.25rem)",
-          }}
-        >
-          <Heading level={2} gradient="none" align="center">
-            <GradientText gradient="dark-to-primary">
-              Laissez nos clients vous parler d&apos;
-            </GradientText>
-            <GradientText gradient="primary">AirSaas</GradientText>
-          </Heading>
-
-          <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full sm:grid-cols-2 lg:grid-cols-3">
-            {customerCards.map((c, i) => (
-              <ClientCard
-                key={i}
-                avatarSrc={`https://placehold.co/90x90/e8eafc/3a51e2?text=${c.name.split(" ").map(n => n[0]).join("")}`}
-                avatarAlt={c.name}
-                name={c.name}
-                jobTitle={c.jobTitle}
-                companyName={c.companyName}
-                infoRows={[
-                  {
-                    icon: <span style={{ fontFamily: '"Font Awesome 6 Duotone"', fontWeight: 900 }}>{"\uF275"}</span>,
-                    label: "Secteur",
-                    value: c.sector,
-                  },
-                  {
-                    icon: <span style={{ fontFamily: '"Font Awesome 6 Duotone"', fontWeight: 900 }}>{"\uF0C0"}</span>,
-                    label: "Collaborateurs",
-                    value: c.employees,
-                  },
-                ]}
-                className="flex-1 !w-auto"
-              />
-            ))}
-          </div>
-        </section>
+        <ClientsFrame
+          variant="light"
+          title="Laissez nos clients vous parler d'"
+          titleHighlight="AirSaas"
+          clients={customerCards.map((c) => {
+            const initials = c.name
+              .split(" ")
+              .map((n) => n[0])
+              .join("");
+            return {
+              avatarSrc: `https://placehold.co/90x90/e8eafc/3a51e2?text=${initials}`,
+              avatarAlt: c.name,
+              name: c.name,
+              jobTitle: c.jobTitle,
+              companyName: c.companyName,
+              infoRows: [
+                { icon: <IndustryIcon />, label: "Secteur", value: c.sector },
+                { icon: <CalendarDayIcon />, label: "Collaborateurs", value: c.employees },
+              ],
+            };
+          })}
+        />
       </AnimateOnScroll>
 
       {/* 17. Replay CTA — "Le replay à ne pas manquer !" */}

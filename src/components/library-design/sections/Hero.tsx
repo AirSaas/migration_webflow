@@ -90,6 +90,10 @@ export interface HeroProps {
    *  Use this to add lateral padding so the white frame sits inside the gradient
    *  with margin from the screen edges (e.g. "px-4 md:px-10 lg:px-20"). */
   imageWrapperClassName?: string;
+  /** Decorative floating cards (bullseye / briefcase / calendar icons).
+   *  Default `true`. Pass `false` on hero variants where the extra chrome
+   *  distracts from a text-only composition (e.g. blog index hero). */
+  floatingCards?: boolean;
   className?: string;
 }
 
@@ -114,6 +118,7 @@ export function Hero({
   imageAlt,
   imageClassName = "max-w-[94.8125rem] w-full",
   imageWrapperClassName = "px-4 md:px-8 lg:px-16",
+  floatingCards = true,
   className,
 }: HeroProps) {
   const isDark = variant === "dark";
@@ -352,7 +357,7 @@ export function Hero({
       </div>
 
       {/* Floating cards — positioned for the centered layout (stacked hero) */}
-      {!isSplit && (
+      {floatingCards && !isSplit && (
         <>
           <Float variant={1} duration={4} delay={0} className="absolute z-20 right-[2%] top-[8rem] hidden xl:block">
             <FloatingCard icon={<BullseyeIcon />} />
@@ -368,7 +373,7 @@ export function Hero({
 
       {/* Floating cards — positioned for the split layout (one over the navbar area,
           one near the bottom of the illustration) */}
-      {isSplit && (
+      {floatingCards && isSplit && (
         <>
           <Float variant={1} duration={4} delay={0} className="absolute z-20 left-[45%] top-[9.5rem] hidden lg:block">
             <FloatingCard icon={<BullseyeIcon />} />

@@ -88,11 +88,17 @@ const TRENDING_CARD = {
   excerpt:
     "L'essentiel à savoir sur le Copil projet : missions, composition, erreurs fréquentes à éviter et clés de succès",
   href: "/blog/mes-12-lecons",
-  authorName: "Bertran RUIZ",
-  authorAvatarSrc: "https://placehold.co/80x80/3c51e2/ffffff?text=BR",
-  authorAvatarAlt: "Portrait de Bertran RUIZ",
+  authors: [
+    {
+      name: "Bertran RUIZ",
+      avatarSrc: "https://placehold.co/80x80/3c51e2/ffffff?text=BR",
+      avatarAlt: "Portrait de Bertran RUIZ",
+    },
+  ],
   categoryLabel: "La newsletter des DSI",
   categoryHref: "/blog/newsletter-dsi",
+  publishedByLabel: "Publié par",
+  inLabel: "dans",
 };
 
 const FR_FOOTER_COLUMNS = [
@@ -314,13 +320,15 @@ export const Default: Story = {
     },
 
     trendingGrid: {
+      title: "Découvrir plus d'articles",
+      background: "alt",
       articles: [
         { ...TRENDING_CARD, href: "/blog/article-1" },
         { ...TRENDING_CARD, href: "/blog/article-2" },
         { ...TRENDING_CARD, href: "/blog/article-3" },
       ],
-      ctaLabel: "Voir tous les articles →",
-      ctaHref: "/blog",
+      viewAllHref: "/blog",
+      viewAllLabel: "Voir tous les articles",
     },
 
     footerColumns: FR_FOOTER_COLUMNS,

@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import {
+  assertArrayBounds,
   assertMaxLength,
   assertNoClassNameOverride,
 } from "@/lib/ds-validators";
@@ -10,15 +11,15 @@ import {
  * BlogCard
  *
  * @purpose    Single blog article preview card — thumbnail, publication
- *             date, title, excerpt, and a compact author byline. The
- *             entire card surfaces the article and the title acts as the
- *             primary link; an optional category link (e.g. a
+ *             date, title, excerpt, and a compact multi-author byline.
+ *             The entire card surfaces the article and the title acts as
+ *             the primary link; an optional category link (e.g. a
  *             newsletter / section name) stays independently clickable.
- * @useWhen    Inside <BlogIndexGrid> for blog index / listing pages, or in
- *             any CMS-driven "featured articles" section that lists
- *             thumbnails + excerpts.
+ * @useWhen    Inside <BlogCollectionFrame> for blog index / listing pages,
+ *             the homepage "featured articles" section, or any CMS-driven
+ *             content grid that lists thumbnails + excerpts.
  * @dontUse    For testimonial / client logos (use <TestimonialCard> /
- *             <ClientCard>). For author attribution inside an article
+ *             <ClientCard>). For author attribution inside an article hero
  *             (use <BlogAuthorTag>). For non-article content preview
  *             (use <CardCta>).
  *
@@ -27,7 +28,9 @@ import {
  *   - excerpt: max 200 chars (3 lines at --text-paragraph)
  *   - thumbnailAlt: required. Empty string `""` only for purely
  *     decorative thumbnails (rare — blog thumbnails should describe)
- *   - authorName: max 40 chars (matches <BlogAuthorTag>)
+ *   - authors: 1–4 items. Max 3 avatars shown (stacked); overflow collapses
+ *     to a "+N autres" label driven by `authorsMoreLabel`
+ *   - authors[i].name: max 40 chars
  *   - categoryLabel: max 60 chars (if provided)
  *
  * @forbidden
@@ -35,12 +38,24 @@ import {
  *     the white card chrome is part of the contract
  *   - Do NOT nest <BlogCard> inside another card (use plain markup for
  *     inline previews)
- *   - Do NOT hardcode "Publié par" / "dans" — pass via props for locale
+ *   - Do NOT hardcode any locale copy ("Publié par", "dans", "autres") —
+ *     all labels are locale-driven via props
+ *   - Do NOT omit `authors` — empty byline is unsupported (use a dedicated
+ *     "anonymous" placeholder on the consumer side if truly needed)
  *
  * @figma node-id 312-2107 (inside 312-2093)
  */
 
-interface BlogCardProps {
+export interface BlogCardAuthor {
+  /** Author display name. Max 40 chars. */
+  name: string;
+  /** Optional circular avatar URL. When omitted the avatar slot collapses. */
+  avatarSrc?: string;
+  /** Alt for the avatar. Empty string allowed for decorative. */
+  avatarAlt?: string;
+}
+
+export interface BlogCardProps {
   /** Thumbnail image URL. */
   thumbnailSrc: string;
   /** Required alt text. Empty string `""` marks the image as decorative. */
@@ -54,12 +69,8 @@ interface BlogCardProps {
   /** Full article URL — the title acts as the primary link. */
   href: string;
 
-  /** Author display name. */
-  authorName: string;
-  /** Optional circular avatar for the author. */
-  authorAvatarSrc?: string;
-  /** Alt for the author avatar. Empty string allowed for decorative. */
-  authorAvatarAlt?: string;
+  /** 1–4 authors. Renders stacked avatars (max 3 shown) + a compact name line. */
+  authors: BlogCardAuthor[];
 
   /** Optional category / newsletter / section label (secondary link). */
   categoryLabel?: string;
@@ -67,17 +78,25 @@ interface BlogCardProps {
   categoryHref?: string;
 
   /**
-   * Label before the author name (e.g. "Publié par" / "Published by").
-   * Locale-driven — default English fallback ("Published by"), pass
-   * translated via next-intl.
+   * Label before the author names (e.g. "Publié par" / "Published by").
+   * Locale-driven — default English fallback, pass translated via next-intl.
    */
   publishedByLabel?: string;
   /**
    * Preposition before the category (e.g. "dans" / "in").
-   * Locale-driven — default English fallback ("in"), pass translated via
-   * next-intl.
+   * Locale-driven — default English fallback, pass translated via next-intl.
    */
   inLabel?: string;
+  /**
+   * Conjunction between two authors (e.g. "&" / "et" / "and").
+   * Default "&". Used only when authors.length === 2.
+   */
+  authorsAndLabel?: string;
+  /**
+   * Suffix for 3+ authors — rendered as "<first> + N <moreLabel>"
+   * (e.g. "+3 autres", "+3 others"). Default "autres".
+   */
+  authorsMoreLabel?: string;
 
   className?: string;
 }
@@ -89,18 +108,21 @@ export function BlogCard({
   title,
   excerpt,
   href,
-  authorName,
-  authorAvatarSrc,
-  authorAvatarAlt,
+  authors,
   categoryLabel,
   categoryHref,
   publishedByLabel = "Published by",
   inLabel = "in",
+  authorsAndLabel = "&",
+  authorsMoreLabel = "autres",
   className,
 }: BlogCardProps) {
   assertMaxLength("BlogCard", "title", title, 120);
   assertMaxLength("BlogCard", "excerpt", excerpt, 200);
-  assertMaxLength("BlogCard", "authorName", authorName, 40);
+  assertArrayBounds("BlogCard", "authors", authors, 1, 4);
+  authors.forEach((a, i) =>
+    assertMaxLength("BlogCard", `authors[${i}].name`, a.name, 40),
+  );
   if (categoryLabel)
     assertMaxLength("BlogCard", "categoryLabel", categoryLabel, 60);
   assertNoClassNameOverride("BlogCard", className, [
@@ -111,6 +133,7 @@ export function BlogCard({
   ]);
 
   const thumbnailIsDecorative = thumbnailAlt === "";
+  const visibleAvatars = authors.slice(0, 3);
 
   return (
     <article
@@ -148,22 +171,41 @@ export function BlogCard({
         </Text>
       </div>
 
-      {/* Author byline — compact avatar + 2 lines */}
-      <div className="mt-auto flex items-end gap-[0.4375rem] pt-[0.5rem]">
-        {authorAvatarSrc && (
-          <img
-            src={authorAvatarSrc}
-            alt={authorAvatarAlt ?? ""}
-            loading="lazy"
-            className="h-[2.5rem] w-[2.5rem] shrink-0 rounded-full object-cover"
-          />
+      {/* Author byline — stacked avatars + compact names */}
+      <div className="mt-auto flex items-center gap-[0.5rem] pt-[0.5rem]">
+        {visibleAvatars.length > 0 && (
+          <div className="flex -space-x-[0.5rem] shrink-0">
+            {visibleAvatars.map((a, i) =>
+              a.avatarSrc ? (
+                <img
+                  key={i}
+                  src={a.avatarSrc}
+                  alt={a.avatarAlt ?? ""}
+                  loading="lazy"
+                  className="h-[2.25rem] w-[2.25rem] rounded-full border-2 border-white object-cover"
+                />
+              ) : (
+                <span
+                  key={i}
+                  aria-hidden="true"
+                  className="h-[2.25rem] w-[2.25rem] rounded-full border-2 border-white bg-secondary-20"
+                />
+              ),
+            )}
+          </div>
         )}
-        <div className="flex flex-col leading-tight text-foreground text-micro-md">
-          <span className="font-light">
-            {publishedByLabel} <span className="font-bold">{authorName}</span>
+
+        <div className="flex flex-col leading-tight text-foreground text-micro-md min-w-0">
+          <span className="font-light truncate">
+            {publishedByLabel}{" "}
+            <AuthorsLabel
+              authors={authors}
+              andLabel={authorsAndLabel}
+              moreLabel={authorsMoreLabel}
+            />
           </span>
           {categoryLabel && (
-            <span className="font-light">
+            <span className="font-light truncate">
               {inLabel}{" "}
               {categoryHref ? (
                 <a
@@ -180,5 +222,34 @@ export function BlogCard({
         </div>
       </div>
     </article>
+  );
+}
+
+function AuthorsLabel({
+  authors,
+  andLabel,
+  moreLabel,
+}: {
+  authors: BlogCardAuthor[];
+  andLabel: string;
+  moreLabel: string;
+}) {
+  if (authors.length === 1) {
+    return <span className="font-bold">{authors[0].name}</span>;
+  }
+  if (authors.length === 2) {
+    return (
+      <>
+        <span className="font-bold">{authors[0].name}</span> {andLabel}{" "}
+        <span className="font-bold">{authors[1].name}</span>
+      </>
+    );
+  }
+  // 3+ authors: first name + "+ N-1 autres"
+  return (
+    <>
+      <span className="font-bold">{authors[0].name}</span> +{authors.length - 1}{" "}
+      {moreLabel}
+    </>
   );
 }

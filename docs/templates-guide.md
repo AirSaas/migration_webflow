@@ -38,14 +38,15 @@ typical for that page type.
 | `CtaHighlightFrame` | ✓ | opt | ✓ | ✓ | opt | opt |
 | `CtaFrame` (2-card) | opt | | | | | |
 | `RelatedArticlesFrame` | | ✓ | opt | opt | ✓ | |
-| `BlogIndexGrid` | opt | opt | ✓ | opt | | |
+| `BlogCollectionFrame` | opt | opt | ✓ | opt | | |
 | `Footer` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 **Key insight** — there's no "blog-only" section. `BlogHero` is any
 article-style hero; `BlogArticleBody` is any rich-text page body (case
-study, guide, event recap); `BlogCard` / `BlogIndexGrid` list any tagged
-content (articles, whitepapers, case studies, events). The `Blog` prefix
-is a naming convention tied to the Figma source, not a content-type lock.
+study, guide, event recap); `BlogCard` / `BlogCollectionFrame` list any
+tagged content (articles, whitepapers, case studies, events). The `Blog`
+prefix is a naming convention tied to the Figma source, not a content-type
+lock.
 
 ---
 
@@ -62,8 +63,9 @@ string as a prop:
 | `BlogArticleBody` | `children` (composed of DS primitives) | Rich-text composition — text comes from child elements, all of which take props themselves |
 | `TableFrame` | `columns[]`, `rows[][]` | Rich cells accept `ReactNode` (bold, links, etc.) |
 | `RelatedArticlesFrame` | `title`, `items[].label`, `items[].href`, optional `items[].target` | Icon is a generic external-link SVG, not brand-specific |
-| `BlogCard` | `title`, `excerpt`, `date`, `authorName`, `authorAvatarAlt?`, `categoryLabel?`, `publishedByLabel?`, `inLabel?`, `thumbnailAlt` | Labels default to EN fallback |
-| `BlogIndexGrid` | `articles[]` (each with all BlogCard props), optional `ctaLabel`, `ctaHref` | |
+| `BlogCard` | `title`, `excerpt`, `date`, `authors[]` (1-4, multi-author byline), `authorsAndLabel?`, `authorsMoreLabel?`, `categoryLabel?`, `publishedByLabel?`, `inLabel?`, `thumbnailAlt` | Labels default to EN fallback; avatars stack (max 3), overflow collapses to "Name + N autres" |
+| `BlogCollectionFrame` | `title`, `titleHighlight?`, `subtitle?`, `collectionAuthor?` (single author for whole collection), `background` ("light"\|"alt"), `items[]` (1-9 BlogCard props), `viewAllHref`, `viewAllLabel?` | Alternating light/alt backgrounds for visual rhythm between frames; `collectionAuthor` renders a minimal `<BlogAuthorTag>` under the H2 |
+| `BlogIndexPage` | Hero (eyebrow, title, titleHighlight, subtitle), `collections[]` (auto-alternates bg), optional `cta`, `footerColumns` | 100% locale-driven; composes Hero + N BlogCollectionFrame + CtaHighlightFrame + Footer |
 | `BlogPostPage` | grouped props per section, all optional sections | `articleBody: ReactNode` — composed from DS primitives |
 | `FaqFrame` | `title?`, `titleHighlight?`, `items[].question`, `items[].answer` | Heading omitted when both title props are undefined |
 | `CtaHighlightFrame` | `titlePrefix`, `titleHighlight`, `titleSuffix?`, `subtitle`, `ctaLabel`, `ctaHref?` | 3-part gradient heading driven by props |

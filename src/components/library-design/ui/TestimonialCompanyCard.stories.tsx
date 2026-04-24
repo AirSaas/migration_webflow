@@ -19,6 +19,21 @@ export const Default: Story = {
   },
 };
 
+/**
+ * With href — entire card becomes a block-level link. External URLs
+ * (http/https) auto-open in a new tab with noopener noreferrer. Used on
+ * Équipes pages for press mentions (Alliancy, JDN, Le Point, LMI).
+ */
+export const WithHref: Story = {
+  args: {
+    quote:
+      "\u201CAirSaas s'est imposé comme la référence française du pilotage de portefeuille de projets, portée par une plateforme SaaS intuitive.\u201D",
+    logoSrc: "https://placehold.co/169x65/061333/FFFFFF?text=Alliancy",
+    logoAlt: "Alliancy",
+    href: "https://www.alliancy.fr/airsaas-portfolio-management",
+  },
+};
+
 export const AllVariants: Story = {
   render: () => (
     <div className="flex flex-wrap gap-8">

@@ -51,6 +51,7 @@
 | 47 | **Composants blog = préfixe `Blog*` dans l'arbo existante, pas de sous-dossier** | `BlogHero` → `sections/BlogHero.tsx`, `BlogAuthorTag` → `ui/BlogAuthorTag.tsx`. Simplicité d'arborescence + identification claire par le nom. Futurs composants blog : même convention (`BlogCard`, `BlogPostMeta`, etc.). |
 | 48 | **Pill autor blog : `--color-success-text` (`#2D8A4E`) + texte blanc** | Figma utilise `#10B981` (emerald Tailwind) qui n'existe pas dans notre palette. `--color-success` (`#03E26B`) est trop clair pour texte blanc (contraste AA insuffisant). `--color-success-text` donne un vert forêt DS-compliant avec contraste AAA. Pas de token `accent-emerald` ajouté — Figma réalignera si besoin. |
 | 49 | **Playwright visual test pour BlogHero différé** | Le test visual demande une route live (`page.goto("/fr/blog/...")`). BlogHero vit seulement dans Storybook jusqu'au Step 5 (templates CMS blog). Test à ajouter quand la route `/fr/blog/[slug]/page.tsx` sera montée. |
+| 50 | **`/fr/blog` monté avec mock data (`src/data/blog.tsx`)** | La route live permet de voir la page hors Storybook + passer un Playwright visual test (`tests/visual/blog-index.spec.ts`, 6 baselines : hero, 3 collections, CTA, footer). Au Step 5 le `BLOG_INDEX_DATA` hardcoded sera remplacé par un fetch Strapi. |
 
 ## Hero — Décision rapide (décembre 2025)
 

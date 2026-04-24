@@ -30,7 +30,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 |---|---|
 | `<AnimateOnScroll>` | Wraps content in an intersection-observer driven entrance animation that replays on scroll. |
 | `<BlogAuthorTag>` | Author attribution block for blog articles: "Publié par" label + green pill with avatar + author name + "dans [catego… |
-| `<BlogCard>` | Single blog article preview card — thumbnail, publication date, title, excerpt, and a compact author byline. The enti… |
+| `<BlogCard>` | Single blog article preview card — thumbnail, publication date, title, excerpt, and a compact multi-author byline. Th… |
 | `<Button>` | Canonical interactive element for all CTAs, links-as-buttons, and actions. Renders `<a>` if `href` is provided, `<but… |
 | `<CardCta>` | Minimal card with a short gradient title, a one-line description, and a primary CTA. Usually rendered as children of … |
 | `<CheckList>` | Vertical list where each item is prefixed by a green gradient circle-check icon. |
@@ -47,19 +47,21 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<IconBadge>` | Circular badge hosting a large duotone icon — the main visual anchor in icon-led sections. |
 | `<IconIllustration>` | Stylised icon with a drop-shadow offset and a solid ellipse "base" underneath — AirSaas's signature illustrated icon … |
 | `<IllustrationFrame>` | Rounded frame that wraps a hero / section / blog-body illustration with consistent padding, border, and radius. |
+| `<InlineCta>` | Inline call-to-action inside a rich-text article body — a tinted rounded block with a short message and a primary but… |
+| `<InsightCallout>` | Key-takeaway block inside a rich-text article body — a tinted card with a left accent border, a short title (e.g. "À … |
 | `<ListCard>` | Numbered card with a big gradient number + short description. Used inside <ComparisonFrame> for "avec/sans" lists or … |
 | `<ListEmphasized>` | Horizontal row of short text blocks separated by an orange left border — used to highlight 2–4 key points side-by-side. |
 | `<ListInline>` | Single inline item (icon + text) — the row primitive behind <CheckList>, <TableOfContentsFrame>, and blog body bullet… |
 | `<LogosBar>` | Horizontal bar of grayscale customer/partner logos with a leading label and divider. |
 | `<Navbar>` | Top-of-page navigation. Logo + links (flat or with dropdown) + optional flag / locale / login / CTA. |
 | `<NavbarDropdown>` | Floating menu panel containing a vertical list of icon + title + subtitle links — the reusable body of navbar mega-me… |
-| `<Quote>` | Italic citation block in a lavender-bordered card with a decorative quote icon and optional author + avatar. |
+| `<Quote>` | Italic citation block — `variant="card"` wraps the text in a lavender-bordered card with a decorative quote icon (tes… |
 | `<SectionHeading>` | Standalone centered H2 + subtitle block used to introduce a section. |
 | `<Skeleton>` | Placeholder block that renders while async content is loading. Uses a subtle `secondary-5` bg + pulse animation to si… |
 | `<Slider>` | Minimal image carousel with prev/next chevron buttons and a lavender top-framed illustration well. |
 | `<TableFrame>` | Responsive comparison / data table with a primary-blue header row and soft lavender body cells. Scrolls horizontally … |
 | `<Tag>` | Small inline pill/badge used for categories, status indicators, eyebrow labels, and filter chips. |
-| `<TestimonialCard>` | Display a short customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link. |
+| `<TestimonialCard>` | Display a customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link, optional collapsible "rea… |
 | `<TestimonialCompanyCard>` | Company-facing testimonial: quote + company logo, framed by an asymmetric primary border. |
 | `<Text>` | Canonical body/paragraph component. Always use this instead of raw <p>. |
 
@@ -67,9 +69,11 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 | Component | Purpose (1-line) |
 |---|---|
-| `<BlogArticleBody>` | Outer wrapper for the rich-text body of a blog article — white background, responsive side padding, 91.25rem inner ma… |
+| `<BlogArticleBody>` | Blog-specific alias over <ProseFrame maxWidth="wide"> that preserves the blog pipeline's public API (callsites keep `… |
+| `<BlogCollectionFrame>` | Full-width section introducing a blog content collection — H2 title + optional subtitle + optional collection-level a… |
 | `<BlogHero>` | Article header for a single blog post: navbar + "Le Blog" tag + article title + author attribution (<BlogAuthorTag>) … |
-| `<BlogIndexGrid>` | Responsive grid of <BlogCard> previews inside a lavender panel, with an optional "see all articles" CTA below. |
+| `<BlogRelatedFrame>` | Footer section for a blog article — grid of exactly 3 related <BlogCard> items ("Pour aller plus loin", "Ces articles… |
+| `<ClientsFrame>` | Section wrapper for a large grid of <ClientCard> items — avatar + name + role + company + metadata rows. Dense social… |
 | `<ComparisonDualFrame>` | "Avec / sans" dual-column comparison: a row of numbered cards per column, each column led by a colored pill label. |
 | `<ComparisonFrame>` | "Avec / sans" style numbered-list section showing pain points OR gains. |
 | `<ComparisonTableFrame>` | Feature comparison grid — one card per row, one wide "feature" cell on the left, N narrower value cells on the right … |
@@ -83,11 +87,16 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<HighlightFrame>` | Alternating-zigzag vertically stacked cards, each with a big green gradient number outside the card (left on odd, rig… |
 | `<IconRowFrame>` | Horizontal row of icon + label pairs (integrations, tech stack, trusted-by logos rendered as iconography). Icons sit … |
 | `<PillarFrame>` | Grid of "pillar" cards — each with a large icon illustration, uppercase primary title, description, and an optional e… |
+| `<ProseFrame>` | Generic wrapper for long-form prose content — applies a centered reading column with responsive padding and a vertica… |
 | `<RelatedArticlesFrame>` | "Further reading" block at the end of a blog article — centered primary-gradient title + white rounded card listing o… |
+| `<RelatedSolutionsFrame>` | Cross-sell grid — 3 image-first cards each linking to a related solution or product. Rendered at the bottom (or top) … |
 | `<SliderFrame>` | Centered title + subtitle + interactive screenshot carousel. |
+| `<StepsFrame>` | Horizontal row of numbered sequential steps — each step has a large primary-gradient number, an icon, a short title, … |
 | `<TableOfContentsFrame>` | Article-level table of contents — centered primary-gradient title + white rounded card listing anchor links to each a… |
+| `<TabsFrame>` | Hero-adjacent horizontal pill-tab bar — 3–6 anchor links that smooth-scroll to sections lower on the page. Active tab… |
 | `<TestimonialsFrame>` | Section wrapper for testimonial cards: gradient heading + 3-col grid. |
-| `<ValuePropositionFrame>` | Section with title + subtitle + a 3- or 4-column grid of child cards (usually <FeatureCard> or custom). |
+| `<TocSidebar>` | Sticky left-column table of contents for long-form articles — vertical list of numbered jump links. Active item is tr… |
+| `<ValuePropositionFrame>` | Section with title + subtitle + a 2-to-6-column grid of child cards (usually <FeatureCard> or custom). |
 
 ---
 
@@ -139,21 +148,23 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 📄 [`src/components/library-design/ui/BlogCard.tsx`](src/components/library-design/ui/BlogCard.tsx)
 🎨 Figma `node-id 312-2107 (inside 312-2093)`
 
-**Purpose** — Single blog article preview card — thumbnail, publication date, title, excerpt, and a compact author byline. The entire card surfaces the article and the title acts as the primary link; an optional category link (e.g. a newsletter / section name) stays independently clickable.
-**Use when** — Inside <BlogIndexGrid> for blog index / listing pages, or in any CMS-driven "featured articles" section that lists thumbnails + excerpts.
-**Don't use** — For testimonial / client logos (use <TestimonialCard> / <ClientCard>). For author attribution inside an article (use <BlogAuthorTag>). For non-article content preview (use <CardCta>).
+**Purpose** — Single blog article preview card — thumbnail, publication date, title, excerpt, and a compact multi-author byline. The entire card surfaces the article and the title acts as the primary link; an optional category link (e.g. a newsletter / section name) stays independently clickable.
+**Use when** — Inside <BlogCollectionFrame> for blog index / listing pages, the homepage "featured articles" section, or any CMS-driven content grid that lists thumbnails + excerpts.
+**Don't use** — For testimonial / client logos (use <TestimonialCard> / <ClientCard>). For author attribution inside an article hero (use <BlogAuthorTag>). For non-article content preview (use <CardCta>).
 
 **Limits:**
 - title: max 120 chars (H4 wraps cleanly up to ~2 lines at that length)
 - excerpt: max 200 chars (3 lines at --text-paragraph)
 - thumbnailAlt: required. Empty string `""` only for purely decorative thumbnails (rare — blog thumbnails should describe)
-- authorName: max 40 chars (matches <BlogAuthorTag>)
+- authors: 1–4 items. Max 3 avatars shown (stacked); overflow collapses to a "+N autres" label driven by `authorsMoreLabel`
+- authors[i].name: max 40 chars
 - categoryLabel: max 60 chars (if provided)
 
 **Forbidden:**
 - Do NOT pass className that overrides bg / border / padding / rounded — the white card chrome is part of the contract
 - Do NOT nest <BlogCard> inside another card (use plain markup for inline previews)
-- Do NOT hardcode "Publié par" / "dans" — pass via props for locale
+- Do NOT hardcode any locale copy ("Publié par", "dans", "autres") — all labels are locale-driven via props
+- Do NOT omit `authors` — empty byline is unsupported (use a dedicated "anonymous" placeholder on the consumer side if truly needed)
 
 ---
 
@@ -188,9 +199,11 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - title: max 30 chars (Figma H4)
 - description: max 100 chars (one-line paragraph)
 - ctaLabel: max 18 chars
+- mediaThumbnail: optional landscape 16/9 image rendered above the title — use for video replay teasers, media cards, etc.
 
 **Forbidden:**
 - Do NOT pass typography className overrides
+- Do NOT omit mediaThumbnail.alt (required when prop is used; pass `""` for decorative)
 
 ---
 
@@ -419,10 +432,53 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - shape: "open-bottom" (default — rounded top, bleeds into next section) | "contained" (all 4 corners rounded, standalone). Ignored when tone="warm" (always contained).
 - tone: "neutral" (default — glass) | "warm" (prevention-10 well)
 - alt: empty string marks the image as decorative (`aria-hidden`)
+- caption: max 300 chars — longer captions belong in article body, not under a figure. When provided the root becomes a `<figure>` with `<figcaption>` (semantic markup for editorial / blog body figures).
+- captionAlign: "center" (default) | "left" | "right"
 
 **Forbidden:**
 - Do NOT pass className that overrides bg / border / padding — the frame chrome is part of the tone contract
 - Do NOT combine `tone="warm"` with `shape="open-bottom"` — warm frames are always contained
+- Do NOT hardcode caption text in a specific locale — pass via i18n / CMS
+
+---
+
+### `<InlineCta>`
+
+📄 [`src/components/library-design/ui/InlineCta.tsx`](src/components/library-design/ui/InlineCta.tsx)
+
+**Purpose** — Inline call-to-action inside a rich-text article body — a tinted rounded block with a short message and a primary button. Breaks the reading flow just enough to surface a lead-magnet / guide download / newsletter signup without becoming a full-page section.
+**Use when** — Inside <BlogArticleBody> / <ProseFrame> between paragraphs, when the article wants to surface a one-off conversion moment.
+**Don't use** — For a full-width closing CTA section (use <CtaHighlightFrame>). For a side-by-side 2-card ask (use <CtaFrame> + 2× <CardCta>). For a single primitive button in a paragraph — just render <Button> inline.
+
+**Limits:**
+- text: max 180 chars (keeps the block a one-liner on desktop)
+- ctaLabel: max 24 chars (matches Button label limit)
+
+**Forbidden:**
+- Do NOT hardcode ctaLabel in French — pass via next-intl
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT render more than 2 <InlineCta> per article (diminishing returns)
+
+---
+
+### `<InsightCallout>`
+
+📄 [`src/components/library-design/ui/InsightCallout.tsx`](src/components/library-design/ui/InsightCallout.tsx)
+
+**Purpose** — Key-takeaway block inside a rich-text article body — a tinted card with a left accent border, a short title (e.g. "À retenir" / "Key takeaway"), and a bulleted list of 2-6 insights. Breaks the reading flow to summarize an important idea.
+**Use when** — Inside <BlogArticleBody> / <ProseFrame> at the end of a section ("ce qu'il faut retenir") or at the start to preview what the reader will learn.
+**Don't use** — For a single standout quote (use <Quote>). For a full-width highlight section with numbered cards (use <HighlightFrame>). For a CTA with a button (use <InlineCta>).
+
+**Limits:**
+- title: max 40 chars (single-line heading-4)
+- items: 2–6 insight bullets
+- item: max 180 chars per bullet
+- variant: "primary" (default) | "success" | "warning"
+
+**Forbidden:**
+- Do NOT hardcode title in French — pass via next-intl (no default)
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT nest another InsightCallout inside an item
 
 ---
 
@@ -526,13 +582,15 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/ui/Quote.tsx`](src/components/library-design/ui/Quote.tsx)
 
-**Purpose** — Italic citation block in a lavender-bordered card with a decorative quote icon and optional author + avatar.
-**Use when** — Customer/expert citations inside FeatureFrame `richContent`, landing sections, or anywhere a testimonial needs visual weight without a full testimonial section.
+**Purpose** — Italic citation block — `variant="card"` wraps the text in a lavender-bordered card with a decorative quote icon (testimonial moments). `variant="pull"` renders a chrome-less editorial pull-quote at larger size for inline use inside long-form article bodies.
+**Use when** — - `variant="card"`: customer/expert citations inside FeatureFrame `richContent`, landing sections, anywhere a testimonial needs visual weight without a full testimonial section. - `variant="pull"`: inside <BlogArticleBody> / <ProseFrame> to surface a key sentence pulled from the article body.
 **Don't use** — For full testimonial grids with photos + roles + logos — use a dedicated testimonials section. For plain inline italic text, use <Text italic>.
 
 **Limits:**
-- align: "center" (default, matches stacked FeatureFrame) | "left" (image-side content)
-- children: quote text only — keep under ~3 sentences; body clamps to 1.125–1.375rem
+- variant: "card" (default) | "pull" — editorial no-chrome
+- align: "center" (default, matches stacked FeatureFrame) | "left" (image-side content). With `variant="pull" + align="left"` an accent left-border (3px primary) is drawn to set off the pull-quote.
+- children: quote text only — keep under ~3 sentences. Card body clamps to 1.125–1.375rem; pull body clamps to 1.375–1.75rem.
+- Quote icon is always hidden in `variant="pull"` (editorial convention), regardless of `hideIcon`.
 
 ---
 
@@ -630,17 +688,19 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/ui/TestimonialCard.tsx`](src/components/library-design/ui/TestimonialCard.tsx)
 
-**Purpose** — Display a short customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link.
+**Purpose** — Display a customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link, optional collapsible "read more" when the quote exceeds `truncateAt` characters.
 **Use when** — Inside `<TestimonialsFrame>` to render individual testimonials.
 **Don't use** — For a company-level endorsement with a big logo — use `<TestimonialCompanyCard>`.
 
 **Limits:**
-- quote: max 220 chars (keeps card height reasonable)
+- quote: max 2000 chars (hard ceiling for safety)
+- truncateAt: default 400 chars — quotes longer collapse to "read more"
 - name: max 30 chars (pill gets elliptical past that)
 - role: max 45 chars
 
 **Forbidden:**
 - Do NOT pass className with typography overrides
+- Do NOT hardcode French read-more / read-less labels — pass via i18n
 
 ---
 
@@ -655,9 +715,11 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - quote: max 220 chars (matches TestimonialCard quote limit)
 - logoSrc: should be an SVG or transparent PNG. Fixed logo box: 2.25 × 6.5 rem.
+- href: optional URL — when provided, the whole card becomes a link. External URLs (starting with http) open in a new tab with noopener.
 
 **Forbidden:**
 - Do NOT pass className with typography / color overrides — use props
+- Do NOT nest interactive elements inside the card when `href` is set (block-level link cannot contain nested interactives)
 
 ---
 
@@ -687,17 +749,41 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 📄 [`src/components/library-design/sections/BlogArticleBody.tsx`](src/components/library-design/sections/BlogArticleBody.tsx)
 🎨 Figma `node-id 303-1146`
 
-**Purpose** — Outer wrapper for the rich-text body of a blog article — white background, responsive side padding, 91.25rem inner max-width, and a 3.125rem vertical rhythm between children.
+**Purpose** — Blog-specific alias over <ProseFrame maxWidth="wide"> that preserves the blog pipeline's public API (callsites keep `<BlogArticleBody>`; the layout + rhythm contract lives in the shared <ProseFrame>). Solution long-form sections use <ProseFrame> directly with `maxWidth="reading"`.
 **Use when** — Between <TableOfContentsFrame> and <CtaHighlightFrame> on a blog article page. Compose children from the DS primitives listed in the prop doc (Heading, Text, Quote, ListInline, TableFrame, IllustrationFrame with tone="warm", plus inline markup). In Step 5 CMS, a `blocks` prop backed by `@strapi/blocks-react-renderer` will be added alongside `children`.
-**Don't use** — As a marketing section (use <FeatureFrame> / <CtaHighlightFrame>). For non-article pages (it assumes long-form vertical rhythm and centered narrow-max-width reading flow).
+**Don't use** — As a marketing section (use <FeatureFrame> / <CtaHighlightFrame>). For non-blog long-form prose (use <ProseFrame> directly with `maxWidth="reading"`).
 
 **Limits:**
-- children: article content — DS primitives only. No raw <h1-6> / <p>, no hardcoded colors or fonts in child markup (ESLint + ds-audit enforce this).
+- children: article content — DS primitives only. No raw heading tags (h1–h6) or paragraph tags — the ESLint + ds-audit rules enforce this; use <Heading> and <Text> instead.
 
 **Forbidden:**
 - Do NOT hardcode article content inside the component — copy flows in via children (rendered by the page, sourced from i18n / CMS)
 - Do NOT override bg / padding / max-w / gap via className — they are part of the reading-flow contract
 - Do NOT render more than one <BlogArticleBody> per page
+
+---
+
+### `<BlogCollectionFrame>`
+
+📄 [`src/components/library-design/sections/BlogCollectionFrame.tsx`](src/components/library-design/sections/BlogCollectionFrame.tsx)
+
+**Purpose** — Full-width section introducing a blog content collection — H2 title + optional subtitle + optional collection-level author (when a single person runs the whole series) + a responsive 3-col grid of <BlogCard> previews + a "see all" CTA below the grid.
+**Use when** — On the /blog index page (one frame per collection: articles / podcasts / releases), on pages that surface a related collection, or as a homepage "featured articles" block. Pair two or more frames with alternating `background="light"` / `"alt"` for visual rhythm.
+**Don't use** — For a simple single-row card grid without title/subtitle (compose <BlogCard> directly inside a <div grid>). For a paginated full archive (build a dedicated paginated listing). For mixed content (articles + testimonials) — split into separate frames.
+
+**Limits:**
+- title: max 80 chars (H2 scale)
+- titleHighlight: max 40 chars (gradient portion of the H2)
+- subtitle: max 260 chars
+- items: 1–9 (1 = featured highlight; 3 fills a row; 6/9 for longer index pages)
+- viewAllLabel: max 30 chars
+- collectionAuthor.name: max 40 chars
+
+**Forbidden:**
+- Do NOT pass className that overrides bg / padding / rounded on the outer section — use `background` prop to switch between white and bg-alt (for alternating-row pages)
+- Do NOT hardcode any locale copy (title, subtitle, viewAllLabel, collectionAuthor.label) — pass translated strings via next-intl
+- Do NOT render an empty grid (items.length must be ≥ 1)
+- Do NOT pass both `collectionAuthor` on this frame AND per-card `authors` intending them to merge — they live in different slots. If a collection has one host, set `collectionAuthor` on the frame and keep per-card `authors` too (they describe individual articles)
 
 ---
 
@@ -723,24 +809,50 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
-### `<BlogIndexGrid>`
+### `<BlogRelatedFrame>`
 
-📄 [`src/components/library-design/sections/BlogIndexGrid.tsx`](src/components/library-design/sections/BlogIndexGrid.tsx)
-🎨 Figma `node-id 312-2093`
+📄 [`src/components/library-design/sections/BlogRelatedFrame.tsx`](src/components/library-design/sections/BlogRelatedFrame.tsx)
 
-**Purpose** — Responsive grid of <BlogCard> previews inside a lavender panel, with an optional "see all articles" CTA below.
-**Use when** — Blog index pages, homepage featured-articles section, category / tag listing pages. Pair with a preceding <SectionHeading> if the grid needs a title.
-**Don't use** — For long paginated archives (build a dedicated paginated listing with filters). For mixed content (articles + whitepapers + videos), split into multiple grids or use <ValuePropositionFrame>.
+**Purpose** — Footer section for a blog article — grid of exactly 3 related <BlogCard> items ("Pour aller plus loin", "Ces articles pourraient vous intéresser"). Small sibling of <BlogCollectionFrame> used on article pages rather than the index page. Optional CTA below links to the full collection.
+**Use when** — At the bottom of every blog article page, between the article body and the footer, to keep readers on-site. Typically fed 3 articles from a "related articles" Strapi relation or a category-based recommendation query.
+**Don't use** — For the blog index page — use <BlogCollectionFrame>. For non-blog cross-sells (product solutions) — use <RelatedSolutionsFrame> (image-first, no author byline).
 
 **Limits:**
-- articles: 1–9 (1 for a featured highlight, 3/6/9 fill the grid cleanly at lg breakpoint). Orphan rows (4, 5, 7, 8 items) render but leave uneven columns.
-- ctaLabel: max 30 chars (matches <Button> limit)
-- ctaHref: required when ctaLabel is provided
+- titleHighlight: max 40 chars
+- title: max 80 chars
+- subtitle: max 260 chars
+- articles: exactly 3 items (grid locked to 3 columns on desktop)
+- collectionCtaLabel: max 36 chars
 
 **Forbidden:**
-- Do NOT pass className that overrides bg / padding / rounded on the outer section or the lavender panel
-- Do NOT hardcode the CTA label — pass via props (locale-driven)
-- Do NOT render an empty grid (articles.length must be >= 1)
+- Do NOT use for non-blog cross-sell (use <RelatedSolutionsFrame>)
+- Do NOT pass more or fewer than 3 articles (grid breaks)
+- Do NOT hardcode collectionCtaLabel locale copy — pass via i18n
+- Do NOT pass className with bg / text / font / padding overrides
+
+---
+
+### `<ClientsFrame>`
+
+📄 [`src/components/library-design/sections/ClientsFrame.tsx`](src/components/library-design/sections/ClientsFrame.tsx)
+
+**Purpose** — Section wrapper for a large grid of <ClientCard> items — avatar + name + role + company + metadata rows. Dense social-proof block for when the page needs to show 6–9 clients at once without quotes ("Ils nous font confiance", "Laissez nos clients vous parler d'AirSaas"). Grid locked at 3 columns on desktop (lg); an optional CTA below links to the full client collection.
+**Use when** — Equipes / Solution type-B pages surfacing 6–9 client cards as a dense trust signal. Grid renders 1 col mobile → 2 col md → 3 col lg (fixed).
+**Don't use** — For fewer than 6 clients (use <TestimonialsFrame> + <TestimonialCard>). For quote-based testimonials (use <TestimonialsFrame> + <TestimonialCard>). For company-logo-only social proof with no metadata (use <LogosBar>).
+
+**Limits:**
+- titleHighlight: max 40 chars
+- title: max 80 chars
+- subtitle: max 260 chars
+- clients: 6–9 items (below 6 looks sparse; above 9 breaks the 3×3 rhythm — use the collection CTA for overflow)
+- collectionCtaLabel: max 36 chars
+
+**Forbidden:**
+- Do NOT use for fewer than 6 clients — use <TestimonialsFrame>
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT mix clients prop AND children — children wins, clients ignored
+- Do NOT nest another ClientsFrame inside a client card
+- Do NOT hardcode collectionCtaLabel locale copy — pass via i18n
 
 ---
 
@@ -775,7 +887,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - title: max 80 chars
 - subtitle: max 220 chars
-- items: 4–8 (visual rhythm breaks outside this range)
+- items: 3–8 (below 3 the block looks sparse; above 8 visual rhythm breaks)
 - items[].description: max 220 chars
 - emoji: 1–2 chars
 
@@ -855,7 +967,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - title: max 40 chars (plain dark-to-primary portion)
 - titleHighlight: max 40 chars (gradient portion)
-- items: 3–12 (past 12, split into multiple FAQs or a dedicated page)
+- items: 2–12 (past 12, split into multiple FAQs or a dedicated page)
 - items[].question: max 120 chars
 - items[].answer: max 500 chars
 
@@ -983,7 +1095,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - titleHighlight / title: max 40 / 80 chars
 - singleTitle: max 80 chars (alternative to titleHighlight + title)
 - subtitle: max 260 chars
-- items: 4–8 (past 8 the row wraps awkwardly on tablet)
+- items: 3–8 (below 3 the row looks sparse; past 8 it wraps awkwardly on tablet)
 - item.label: max 24 chars
 - tag: max 24 chars
 
@@ -1016,6 +1128,26 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
+### `<ProseFrame>`
+
+📄 [`src/components/library-design/sections/ProseFrame.tsx`](src/components/library-design/sections/ProseFrame.tsx)
+
+**Purpose** — Generic wrapper for long-form prose content — applies a centered reading column with responsive padding and a vertical rhythm between children. The children compose the article content from DS primitives (<Heading>, <Text>, <Quote>, <ListInline>, <TableFrame>, <IllustrationFrame>). Used by both blog article bodies (wide column) and marketing long-form sections on Solution pages (reading column — Maslow, "PM vs PPM", etc.).
+**Use when** — Any time the page needs to host rich-text editorial content between marketing sections. Blog articles wrap their body in <BlogArticleBody> (alias), Solution long-form pages use <ProseFrame> directly with `maxWidth="reading"`.
+**Don't use** — For marketing sections with feature-card grids (use <FeatureFrame> / <ValuePropositionFrame>). For section intros / headers only (use <SectionHeading>).
+
+**Limits:**
+- variant: "light" (default, white bg) | "tinted" (primary-2 pale lavender)
+- maxWidth: "reading" (default, 50rem ~ 65ch) | "wide" (91.25rem, blog body)
+- children: DS primitives only — no raw heading tags (h1–h6), no raw paragraph tags with typography classes (ESLint + ds-audit enforce this)
+
+**Forbidden:**
+- Do NOT hardcode article content inside this wrapper — copy flows via children (page / i18n / CMS)
+- Do NOT override bg / padding / max-w / gap via className — they are part of the reading-flow contract
+- Do NOT nest a <ProseFrame> inside another <ProseFrame>
+
+---
+
 ### `<RelatedArticlesFrame>`
 
 📄 [`src/components/library-design/sections/RelatedArticlesFrame.tsx`](src/components/library-design/sections/RelatedArticlesFrame.tsx)
@@ -1039,22 +1171,77 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
+### `<RelatedSolutionsFrame>`
+
+📄 [`src/components/library-design/sections/RelatedSolutionsFrame.tsx`](src/components/library-design/sections/RelatedSolutionsFrame.tsx)
+
+**Purpose** — Cross-sell grid — 3 image-first cards each linking to a related solution or product. Rendered at the bottom (or top) of LP, Produit, and Solution pages to surface "other relevant features". Grid locked at 3 columns on desktop; optional collection CTA below links to the full platform directory.
+**Use when** — Surfacing 3 related solutions/products with a screenshot + title + short description + "Voir plus" link. Typical footer cross-sell on landing / product / solution pages.
+**Don't use** — For icon-first feature grids (use <ValuePropositionFrame> + <FeatureCard>). For blog-style previews with author bylines (use <BlogCard>). For quick CTA choices with only a button (use <CtaFrame> + <CardCta>).
+
+**Limits:**
+- tag: max 24 chars
+- titleHighlight: max 40 chars
+- title: max 80 chars
+- subtitle: max 260 chars
+- solutions: exactly 3 items (grid locked to 3 columns on desktop)
+- solution.title: max 40 chars
+- solution.description: max 120 chars
+- solution.imageAlt: required (empty `""` only for decorative)
+- linkLabel: max 18 chars
+- collectionCtaLabel: max 36 chars
+
+**Forbidden:**
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT hardcode linkLabel / collectionCtaLabel locale copy — pass via i18n
+- Do NOT nest another RelatedSolutionsFrame inside a card
+- Do NOT pass fewer or more than 3 solutions (grid breaks)
+
+---
+
 ### `<SliderFrame>`
 
 📄 [`src/components/library-design/sections/SliderFrame.tsx`](src/components/library-design/sections/SliderFrame.tsx)
 
 **Purpose** — Centered title + subtitle + interactive screenshot carousel.
-**Use when** — Showcasing a product surface (marketplace, integrations, multi-screen flow) with 2–5 slides that the user navigates through.
+**Use when** — Showcasing a product surface (marketplace, integrations, multi-screen flow, bootcamp gallery, community LPDT) with 2–8 slides that the user navigates through. `variant="dark"` for sections that need to break the rhythm with a primary-70 background.
 **Don't use** — For a static feature/image (use <FeatureFrame>). For a single image, no carousel wrapper needed.
 
 **Limits:**
-- titleHighlight: max 40 chars (primary gradient)
-- titleRest: max 70 chars (dark foreground)
+- variant: "light" (default, white bg) | "dark" (primary-70 bg, white typography)
+- titleHighlight: max 40 chars (primary gradient light / white dark)
+- titleRest: max 70 chars (dark foreground light / white dark)
 - subtitle: max 280 chars
-- slides: 2–5
+- slides: 2–8 (above 8, navigation feels tedious — split into 2 sections)
 
 **Forbidden:**
 - Do NOT nest another <Slider> inside this frame
+
+---
+
+### `<StepsFrame>`
+
+📄 [`src/components/library-design/sections/StepsFrame.tsx`](src/components/library-design/sections/StepsFrame.tsx)
+
+**Purpose** — Horizontal row of numbered sequential steps — each step has a large primary-gradient number, an icon, a short title, and a description. Cards are visually connected by chevron indicators between them on desktop (hidden on mobile, where steps stack).
+**Use when** — Presenting a linear deployment / onboarding / how-it-works flow of 3–5 discrete steps that must be read in order (e.g. "Lancez votre déploiement en 4 étapes").
+**Don't use** — For non-sequential principles or methodology pillars (use <PillarFrame>). For metrics / stats grids (use <ValuePropositionFrame> + <FeatureCard>). For a zigzag vertical list with big outside numbers (use <HighlightFrame>).
+
+**Limits:**
+- tag: max 24 chars
+- titleHighlight: max 40 chars
+- title: max 80 chars
+- subtitle: max 260 chars
+- steps: 3–5 items (below 3 looks sparse; above 5 the row breaks on md)
+- step.title: max 24 chars (e.g. "Kick-off", "Go live")
+- step.description: max 180 chars
+- step.number: 1–9 (auto-derived from index if omitted)
+
+**Forbidden:**
+- Do NOT use for non-sequential content — use <PillarFrame>
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT mix items with and without explicit step.number (all or none)
+- Do NOT nest another StepsFrame inside a step card
 
 ---
 
@@ -1080,21 +1267,66 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
+### `<TabsFrame>`
+
+📄 [`src/components/library-design/sections/TabsFrame.tsx`](src/components/library-design/sections/TabsFrame.tsx)
+
+**Purpose** — Hero-adjacent horizontal pill-tab bar — 3–6 anchor links that smooth-scroll to sections lower on the page. Active tab auto- updates as the user scrolls through those sections (IntersectionObserver-based scroll spy). Falls back to manual click behavior if the target is missing.
+**Use when** — Landing pages that surface 3–6 major sections deserving a jump nav just below the Hero (the canonical pattern on `/lp/*`).
+**Don't use** — For top-level site navigation (use <Navbar>). For a vertical long-form article TOC (use <TocSidebar>). For a small FAQ-like content toggle (use <FaqFrame>).
+
+**Limits:**
+- tabs: 3–6 items (below 3 looks sparse; above 6 the row wraps awkwardly)
+- tab.label: max 24 chars
+- tab.href: must start with "#"
+- ariaLabel: max 60 chars
+
+**Forbidden:**
+- Do NOT mix absolute URLs with anchor hrefs — use <Navbar> for external links
+- Do NOT hardcode ariaLabel in French — pass via next-intl
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT render more than one TabsFrame per page
+
+---
+
 ### `<TestimonialsFrame>`
 
 📄 [`src/components/library-design/sections/TestimonialsFrame.tsx`](src/components/library-design/sections/TestimonialsFrame.tsx)
 
 **Purpose** — Section wrapper for testimonial cards: gradient heading + 3-col grid.
-**Use when** — Surfacing 3–6 customer quotes on a marketing page.
+**Use when** — Surfacing 2–6 customer quotes on a marketing page. 1 quote = use <TestimonialCard> inline (no frame).
 **Don't use** — For a single hero testimonial — just render a <TestimonialCard> inline. For company-logo-based testimonials, prefer <TestimonialCompanyCard>.
 
 **Limits:**
 - title: max 40 chars (gradient dark-to-primary)
 - titleHighlight: max 40 chars (gradient primary)
-- testimonials: 3–6 items (renders in grid-cols-3 at lg)
+- testimonials: 2–6 items (renders grid-cols-3 at lg — 2 items center on md+)
 
 **Forbidden:**
 - Do NOT mix testimonials prop AND children — children wins, testimonials ignored
+
+---
+
+### `<TocSidebar>`
+
+📄 [`src/components/library-design/sections/TocSidebar.tsx`](src/components/library-design/sections/TocSidebar.tsx)
+
+**Purpose** — Sticky left-column table of contents for long-form articles — vertical list of numbered jump links. Active item is tracked automatically via IntersectionObserver as the reader scrolls through the corresponding `[id]` sections. Clicking an item smooth-scrolls to the target and updates the URL hash.
+**Use when** — Desktop-only sidebar next to <BlogArticleBody> / <ProseFrame> on long-form editorial pages (blog articles with ≥ 5 h2 sections; Solution long-form). Hidden below `lg` breakpoint — the article body takes full width on mobile / tablet.
+**Don't use** — For top-of-page article TOC that scrolls with the content (use <TableOfContentsFrame> — centered, inline, horizontal). For top-of-page anchor tabs right after the Hero (use <TabsFrame>). For short articles with fewer than 3 sections (the sidebar feels empty).
+
+**Limits:**
+- title: max 40 chars (optional label above the list, e.g. "Sommaire")
+- items: 2–30 entries
+- item.label: max 80 chars (wraps to 2 lines past that)
+- item.id: must match an [id] on the page
+- ariaLabel: max 60 chars
+
+**Forbidden:**
+- Do NOT pass className with bg / text / font / padding overrides
+- Do NOT hardcode title / ariaLabel in French — pass via next-intl
+- Do NOT render more than one TocSidebar per page
+- Do NOT mix absolute URLs in item.id — only bare ids
 
 ---
 
@@ -1102,15 +1334,16 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/sections/ValuePropositionFrame.tsx`](src/components/library-design/sections/ValuePropositionFrame.tsx)
 
-**Purpose** — Section with title + subtitle + a 3- or 4-column grid of child cards (usually <FeatureCard> or custom).
-**Use when** — Presenting 3–4 equal-weight benefits / value props / metrics.
-**Don't use** — For a narrative "feature + image" flow (use <FeatureFrame>). For a listing of 6+ items (use <PillarFrame> or <HighlightFrame>).
+**Purpose** — Section with title + subtitle + a 2-to-6-column grid of child cards (usually <FeatureCard> or custom).
+**Use when** — Presenting 2–6 equal-weight benefits / value props / metrics.
+**Don't use** — For a narrative "feature + image" flow (use <FeatureFrame>). For a listing of 7+ items (use <PillarFrame> or <HighlightFrame>).
 
 **Limits:**
 - title: max 80 chars
 - titleHighlight: max 40 chars
 - subtitle: max 250 chars
-- children: 3 or 4 cards (matches `columns` prop)
+- children: 2–6 cards (should match `columns` prop for visual balance)
+- columns: 2 | 3 | 4 | 5 | 6 (lg breakpoint; default 4)
 - tag: max 24 chars
 
 **Forbidden:**

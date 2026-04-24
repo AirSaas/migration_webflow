@@ -20,7 +20,7 @@ interface ComparisonItem {
  * @limits
  *   - title: max 80 chars
  *   - subtitle: max 220 chars
- *   - items: 4–8 (visual rhythm breaks outside this range)
+ *   - items: 3–8 (below 3 the block looks sparse; above 8 visual rhythm breaks)
  *   - items[].description: max 220 chars
  *   - emoji: 1–2 chars
  */
@@ -29,6 +29,8 @@ interface ComparisonFrameProps {
   title: string;
   subtitle: string;
   items: ComparisonItem[];
+  /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
+  id?: string;
   className?: string;
 }
 
@@ -37,10 +39,12 @@ export function ComparisonFrame({
   title,
   subtitle,
   items,
+  id,
   className,
 }: ComparisonFrameProps) {
   return (
     <section
+      id={id}
       className={cn("relative w-full overflow-hidden", className)}
     >
       {/* Blurred gradient background at 30% opacity */}

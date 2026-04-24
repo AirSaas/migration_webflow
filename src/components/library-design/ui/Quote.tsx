@@ -10,11 +10,21 @@ interface QuoteProps {
   authorAvatar?: string;
   /** Alt text for the author avatar. Defaults to "". */
   authorAvatarAlt?: string;
-  /** Hide the decorative quote icon. Default: shown. */
+  /** Hide the decorative quote icon. Default: shown. Ignored in `variant="pull"` (always hidden). */
   hideIcon?: boolean;
   /** Horizontal alignment. Default "center" — matches stacked
    *  FeatureFrame context. Use "left" inside image-side content. */
   align?: "center" | "left";
+  /**
+   * Visual variant.
+   * - "card" (default) — lavender-bordered card with decorative icon and
+   *   comfortable padding. Used inside FeatureFrame richContent, landing
+   *   sections, testimonial moments needing visual weight.
+   * - "pull" — editorial pull-quote: no card chrome, larger italic text.
+   *   With `align="left"` an accent left-border (3px primary) is drawn.
+   *   Used inside long-form article bodies to break reading flow.
+   */
+  variant?: "card" | "pull";
   className?: string;
 }
 
@@ -40,13 +50,30 @@ function QuoteIcon() {
 /**
  * Quote
  *
- * @purpose    Italic citation block in a lavender-bordered card with a decorative quote icon and optional author + avatar.
- * @useWhen    Customer/expert citations inside FeatureFrame `richContent`, landing sections, or anywhere a testimonial needs visual weight without a full testimonial section.
- * @dontUse    For full testimonial grids with photos + roles + logos — use a dedicated testimonials section. For plain inline italic text, use <Text italic>.
+ * @purpose    Italic citation block — `variant="card"` wraps the text in a
+ *             lavender-bordered card with a decorative quote icon (testimonial
+ *             moments). `variant="pull"` renders a chrome-less editorial
+ *             pull-quote at larger size for inline use inside long-form
+ *             article bodies.
+ * @useWhen    - `variant="card"`: customer/expert citations inside
+ *             FeatureFrame `richContent`, landing sections, anywhere a
+ *             testimonial needs visual weight without a full testimonial
+ *             section.
+ *             - `variant="pull"`: inside <BlogArticleBody> / <ProseFrame>
+ *             to surface a key sentence pulled from the article body.
+ * @dontUse    For full testimonial grids with photos + roles + logos — use a
+ *             dedicated testimonials section. For plain inline italic text,
+ *             use <Text italic>.
  *
  * @limits
- *   - align: "center" (default, matches stacked FeatureFrame) | "left" (image-side content)
- *   - children: quote text only — keep under ~3 sentences; body clamps to 1.125–1.375rem
+ *   - variant: "card" (default) | "pull" — editorial no-chrome
+ *   - align: "center" (default, matches stacked FeatureFrame) | "left"
+ *     (image-side content). With `variant="pull" + align="left"` an accent
+ *     left-border (3px primary) is drawn to set off the pull-quote.
+ *   - children: quote text only — keep under ~3 sentences. Card body clamps
+ *     to 1.125–1.375rem; pull body clamps to 1.375–1.75rem.
+ *   - Quote icon is always hidden in `variant="pull"` (editorial convention),
+ *     regardless of `hideIcon`.
  */
 export function Quote({
   children,
@@ -55,31 +82,43 @@ export function Quote({
   authorAvatarAlt,
   hideIcon = false,
   align = "center",
+  variant = "card",
   className,
 }: QuoteProps) {
   const isCenter = align === "center";
+  const isPull = variant === "pull";
+  const showIcon = !hideIcon && !isPull;
+  const hasPullLeftBorder = isPull && !isCenter;
 
   return (
     <figure
       className={cn(
-        "flex flex-col gap-[0.75rem] md:gap-[1rem] bg-white w-full rounded-[1.5625rem] my-[1rem] md:my-[1.5rem]",
+        "flex flex-col gap-[0.75rem] md:gap-[1rem] w-full my-[1rem] md:my-[1.5rem]",
         isCenter ? "items-center text-center" : "items-start text-left",
+        !isPull && "bg-white rounded-[1.5625rem]",
+        hasPullLeftBorder && "border-l-[3px] border-primary pl-[1.5rem] md:pl-[2rem]",
         className,
       )}
-      style={{
-        borderTop: "1px solid var(--color-primary-20)",
-        borderLeft: "1px solid var(--color-primary-20)",
-        borderBottom: "5px solid var(--color-primary-20)",
-        borderRight: "5px solid var(--color-primary-20)",
-        padding: "1.75rem 2rem",
-      }}
+      style={
+        isPull
+          ? {}
+          : {
+              borderTop: "1px solid var(--color-primary-20)",
+              borderLeft: "1px solid var(--color-primary-20)",
+              borderBottom: "5px solid var(--color-primary-20)",
+              borderRight: "5px solid var(--color-primary-20)",
+              padding: "1.75rem 2rem",
+            }
+      }
     >
-      {!hideIcon && <QuoteIcon />}
+      {showIcon && <QuoteIcon />}
 
       <blockquote
         className="font-light italic text-foreground max-w-[50rem]"
         style={{
-          fontSize: "clamp(1.125rem, 1.6vw, 1.375rem)",
+          fontSize: isPull
+            ? "clamp(1.375rem, 2vw, 1.75rem)"
+            : "clamp(1.125rem, 1.6vw, 1.375rem)",
           lineHeight: "1.5",
           margin: 0,
         }}

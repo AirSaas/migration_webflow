@@ -6,7 +6,7 @@ import { BlogArticleBody } from "@/components/library-design/sections/BlogArticl
 import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaHighlightFrame } from "@/components/library-design/sections/CtaHighlightFrame";
 import { RelatedArticlesFrame } from "@/components/library-design/sections/RelatedArticlesFrame";
-import { BlogIndexGrid } from "@/components/library-design/sections/BlogIndexGrid";
+import { BlogCollectionFrame } from "@/components/library-design/sections/BlogCollectionFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import type { NavItem } from "@/components/library-design/ui/Navbar";
 import type { BlogCard } from "@/components/library-design/ui/BlogCard";
@@ -97,9 +97,12 @@ interface BlogPostPageProps {
 
   // ── Trending / more articles grid (optional) ───────────────────────
   trendingGrid?: {
+    title: string;
+    subtitle?: string;
+    background?: "light" | "alt";
     articles: BlogCardProps[];
-    ctaLabel?: string;
-    ctaHref?: string;
+    viewAllHref: string;
+    viewAllLabel?: string;
   };
 
   // ── Footer (required) ──────────────────────────────────────────────
@@ -188,10 +191,13 @@ export default function BlogPostPage({
 
       {/* 7. Trending / more articles */}
       {trendingGrid && (
-        <BlogIndexGrid
-          articles={trendingGrid.articles}
-          ctaLabel={trendingGrid.ctaLabel}
-          ctaHref={trendingGrid.ctaHref}
+        <BlogCollectionFrame
+          title={trendingGrid.title}
+          subtitle={trendingGrid.subtitle}
+          background={trendingGrid.background}
+          items={trendingGrid.articles}
+          viewAllHref={trendingGrid.viewAllHref}
+          viewAllLabel={trendingGrid.viewAllLabel}
         />
       )}
 
