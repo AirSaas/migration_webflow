@@ -26,6 +26,24 @@ export const Default: Story = {
   },
 };
 
+/**
+ * Long quote (~800 chars) — auto-collapses to a "Lire la suite" toggle.
+ * Mirrors the Marie-Odile testimonial case from the Équipes pages that
+ * triggered the bound relaxation (220 → 400 + read-more).
+ */
+export const LongQuoteWithReadMore: Story = {
+  args: {
+    quote:
+      "Je travaille avec AirSaas depuis maintenant plus de deux ans, et je peux dire sans hésitation que cette plateforme a transformé notre manière de piloter les projets au sein de l'entreprise. Avant, nous passions des heures à consolider des fichiers Excel, à courir après les chefs de projets pour obtenir des mises à jour, et à préparer des comités de pilotage qui ne servaient finalement qu'à constater du retard. Aujourd'hui, toute l'information circule en temps réel, les équipes sont alignées sur les priorités, et les décisions se prennent sur des données fiables. C'est un vrai changement de paradigme pour notre gouvernance, et nos sponsors exécutifs le voient clairement dans nos indicateurs.",
+    name: "Marie-Odile Berthier",
+    role: "Directrice de la transformation @Intuis",
+    truncateAt: 400,
+    readMoreLabel: "Lire la suite",
+    readLessLabel: "Voir moins",
+    linkedinHref: "https://linkedin.com/in/marie-odile",
+  },
+};
+
 export const AllVariants: Story = {
   render: () => (
     <div className="flex flex-col gap-8 max-w-[91rem]">

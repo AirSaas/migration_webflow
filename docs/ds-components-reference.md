@@ -59,7 +59,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<Slider>` | Minimal image carousel with prev/next chevron buttons and a lavender top-framed illustration well. |
 | `<TableFrame>` | Responsive comparison / data table with a primary-blue header row and soft lavender body cells. Scrolls horizontally … |
 | `<Tag>` | Small inline pill/badge used for categories, status indicators, eyebrow labels, and filter chips. |
-| `<TestimonialCard>` | Display a short customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link. |
+| `<TestimonialCard>` | Display a customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link, optional collapsible "rea… |
 | `<TestimonialCompanyCard>` | Company-facing testimonial: quote + company logo, framed by an asymmetric primary border. |
 | `<Text>` | Canonical body/paragraph component. Always use this instead of raw <p>. |
 
@@ -635,17 +635,19 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/ui/TestimonialCard.tsx`](src/components/library-design/ui/TestimonialCard.tsx)
 
-**Purpose** — Display a short customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link.
+**Purpose** — Display a customer testimonial: quote + pill with name/role/avatar, optional LinkedIn link, optional collapsible "read more" when the quote exceeds `truncateAt` characters.
 **Use when** — Inside `<TestimonialsFrame>` to render individual testimonials.
 **Don't use** — For a company-level endorsement with a big logo — use `<TestimonialCompanyCard>`.
 
 **Limits:**
-- quote: max 220 chars (keeps card height reasonable)
+- quote: max 2000 chars (hard ceiling for safety)
+- truncateAt: default 400 chars — quotes longer collapse to "read more"
 - name: max 30 chars (pill gets elliptical past that)
 - role: max 45 chars
 
 **Forbidden:**
 - Do NOT pass className with typography overrides
+- Do NOT hardcode French read-more / read-less labels — pass via i18n
 
 ---
 

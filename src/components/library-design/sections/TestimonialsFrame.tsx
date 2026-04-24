@@ -36,6 +36,12 @@ interface TestimonialsFrameProps {
   testimonials?: Testimonial[];
   /** Flexible mode: pass any combination of card grids as children (overrides testimonials) */
   children?: React.ReactNode;
+  /** Character threshold above which each quote collapses to "read more". Default 400. */
+  truncateAt?: number;
+  /** Label for the "show more" toggle on each card. Locale-driven via next-intl. */
+  readMoreLabel?: string;
+  /** Label for the "show less" toggle on each card. Locale-driven via next-intl. */
+  readLessLabel?: string;
   className?: string;
 }
 
@@ -44,6 +50,9 @@ export function TestimonialsFrame({
   titleHighlight,
   testimonials,
   children,
+  truncateAt,
+  readMoreLabel,
+  readLessLabel,
   className,
 }: TestimonialsFrameProps) {
   return (
@@ -67,6 +76,9 @@ export function TestimonialsFrame({
               name={t.name}
               role={t.role}
               avatarSrc={t.avatarSrc}
+              truncateAt={truncateAt}
+              readMoreLabel={readMoreLabel}
+              readLessLabel={readLessLabel}
               className="flex-1"
             />
           ))}

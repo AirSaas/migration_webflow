@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Text } from "./Text";
 import { assertMaxLength } from "@/lib/ds-validators";
@@ -5,18 +8,21 @@ import { assertMaxLength } from "@/lib/ds-validators";
 /**
  * TestimonialCard
  *
- * @purpose    Display a short customer testimonial: quote + pill with name/role/avatar,
- *             optional LinkedIn link.
+ * @purpose    Display a customer testimonial: quote + pill with name/role/avatar,
+ *             optional LinkedIn link, optional collapsible "read more" when the
+ *             quote exceeds `truncateAt` characters.
  * @useWhen    Inside `<TestimonialsFrame>` to render individual testimonials.
  * @dontUse    For a company-level endorsement with a big logo — use `<TestimonialCompanyCard>`.
  *
  * @limits
- *   - quote: max 220 chars (keeps card height reasonable)
+ *   - quote: max 2000 chars (hard ceiling for safety)
+ *   - truncateAt: default 400 chars — quotes longer collapse to "read more"
  *   - name: max 30 chars (pill gets elliptical past that)
  *   - role: max 45 chars
  *
  * @forbidden
  *   - Do NOT pass className with typography overrides
+ *   - Do NOT hardcode French read-more / read-less labels — pass via i18n
  */
 
 function LinkedInIcon() {
@@ -70,7 +76,25 @@ interface TestimonialCardProps {
   avatarSrc?: string;
   /** Optional LinkedIn profile URL */
   linkedinHref?: string;
+  /** Character threshold above which the quote collapses to "read more". Default 400. */
+  truncateAt?: number;
+  /** Label for the "show more" toggle. English fallback — pass translated via next-intl. */
+  readMoreLabel?: string;
+  /** Label for the "show less" toggle. English fallback — pass translated via next-intl. */
+  readLessLabel?: string;
   className?: string;
+}
+
+/**
+ * Truncate a string at the last word boundary before `max`, append "…".
+ * Falls back to a hard cut if no space found.
+ */
+function truncateAtWord(text: string, max: number): string {
+  if (text.length <= max) return text;
+  const sliced = text.slice(0, max);
+  const lastSpace = sliced.lastIndexOf(" ");
+  const base = lastSpace > 0 ? sliced.slice(0, lastSpace) : sliced;
+  return base.replace(/[,;:.\-\s]+$/, "") + "…";
 }
 
 export function TestimonialCard({
@@ -79,11 +103,19 @@ export function TestimonialCard({
   role,
   avatarSrc,
   linkedinHref,
+  truncateAt = 400,
+  readMoreLabel = "Read more",
+  readLessLabel = "Show less",
   className,
 }: TestimonialCardProps) {
-  assertMaxLength("TestimonialCard", "quote", quote, 220);
+  assertMaxLength("TestimonialCard", "quote", quote, 2000);
   assertMaxLength("TestimonialCard", "name", name, 30);
   assertMaxLength("TestimonialCard", "role", role, 45);
+
+  const [expanded, setExpanded] = useState(false);
+  const needsTruncation = quote.length > truncateAt;
+  const displayedQuote =
+    needsTruncation && !expanded ? truncateAtWord(quote, truncateAt) : quote;
 
   const initials = name
     .split(" ")
@@ -102,7 +134,22 @@ export function TestimonialCard({
       style={{ padding: "1.5rem", minHeight: "auto", rowGap: "0.8rem" }}
     >
       {/* Quote */}
-      <Text size="md" align="left">{quote}</Text>
+      <Text size="md" align="left">
+        {displayedQuote}
+        {needsTruncation && (
+          <>
+            {" "}
+            <button
+              type="button"
+              onClick={() => setExpanded((e) => !e)}
+              aria-expanded={expanded}
+              className="inline text-primary font-bold hover:underline focus-visible:underline focus-visible:outline-none"
+            >
+              {expanded ? readLessLabel : readMoreLabel}
+            </button>
+          </>
+        )}
+      </Text>
 
       {/* User info */}
       <div className="flex flex-col gap-[0.43rem]">
