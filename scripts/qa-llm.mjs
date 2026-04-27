@@ -127,6 +127,11 @@ DO NOT flag:
 - Heading downshift in blog body (intentional — blog body uses smaller H3)
 - Subtle copy variations
 - Acceptable French anglicisms (AirSaas brand uses some — "flash report", "PMO", "PPM")
+- Publication dates as "future" (the rebuild may be reviewed at any time;
+  past or future date in display does NOT mean the article is fabricated)
+- Webflow source quirks the rebuild faithfully preserves: missing space
+  inside <strong> tags ("enmultilingue"), CMS title artifacts already
+  stripped, etc. — these are source content issues, not rebuild bugs.
 
 Output STRICT JSON only. Format:
 {

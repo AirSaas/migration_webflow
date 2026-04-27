@@ -1,15 +1,22 @@
 [
   {
-    "slug": "pmo",
+    "slug": "capacity-planning",
     "type": "lp",
-    "url": "/fr/lp/pmo",
+    "url": "/fr/lp/capacity-planning",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "ppm",
+    "slug": "automatiser-la-com-projet",
+    "type": "produit",
+    "url": "/fr/produit/automatiser-la-com-projet",
+    "status": 200,
+    "issues": []
+  },
+  {
+    "slug": "pmo",
     "type": "lp",
-    "url": "/fr/lp/ppm",
+    "url": "/fr/lp/pmo",
     "status": 200,
     "issues": []
   },
@@ -21,16 +28,9 @@
     "issues": []
   },
   {
-    "slug": "capacity-planning",
+    "slug": "ppm",
     "type": "lp",
-    "url": "/fr/lp/capacity-planning",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "automatiser-la-com-projet",
-    "type": "produit",
-    "url": "/fr/produit/automatiser-la-com-projet",
+    "url": "/fr/lp/ppm",
     "status": 200,
     "issues": []
   },
@@ -49,9 +49,9 @@
     "issues": []
   },
   {
-    "slug": "priorisation-par-equipes",
+    "slug": "traduction-one-click-avec-deepl",
     "type": "produit",
-    "url": "/fr/produit/priorisation-par-equipes",
+    "url": "/fr/produit/traduction-one-click-avec-deepl",
     "status": 200,
     "issues": []
   },
@@ -63,16 +63,16 @@
     "issues": []
   },
   {
-    "slug": "traduction-one-click-avec-deepl",
-    "type": "produit",
-    "url": "/fr/produit/traduction-one-click-avec-deepl",
+    "slug": "airsaas-et-les-experts-de-la-transfo",
+    "type": "solution",
+    "url": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "airsaas-et-les-experts-de-la-transfo",
-    "type": "solution",
-    "url": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
+    "slug": "priorisation-par-equipes",
+    "type": "produit",
+    "url": "/fr/produit/priorisation-par-equipes",
     "status": 200,
     "issues": []
   },
@@ -84,16 +84,16 @@
     "issues": []
   },
   {
-    "slug": "gestion-portefeuille-projet",
+    "slug": "flash-report-projet",
     "type": "solution",
-    "url": "/fr/solutions/gestion-portefeuille-projet",
+    "url": "/fr/solutions/flash-report-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "flash-report-projet",
+    "slug": "gestion-portefeuille-projet",
     "type": "solution",
-    "url": "/fr/solutions/flash-report-projet",
+    "url": "/fr/solutions/gestion-portefeuille-projet",
     "status": 200,
     "issues": []
   },
@@ -105,16 +105,16 @@
     "issues": []
   },
   {
-    "slug": "portfolio-management",
+    "slug": "outil-ppm",
     "type": "solution",
-    "url": "/fr/solutions/portfolio-management",
+    "url": "/fr/solutions/outil-ppm",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "outil-ppm",
+    "slug": "portfolio-management",
     "type": "solution",
-    "url": "/fr/solutions/outil-ppm",
+    "url": "/fr/solutions/portfolio-management",
     "status": 200,
     "issues": []
   },
@@ -133,9 +133,9 @@
     "issues": []
   },
   {
-    "slug": "comite-direction",
-    "type": "equipe",
-    "url": "/fr/equipes/comite-direction",
+    "slug": "tableau-de-bord-gestion-de-projet",
+    "type": "solution",
+    "url": "/fr/solutions/tableau-de-bord-gestion-de-projet",
     "status": 200,
     "issues": []
   },
@@ -147,9 +147,9 @@
     "issues": []
   },
   {
-    "slug": "tableau-de-bord-gestion-de-projet",
-    "type": "solution",
-    "url": "/fr/solutions/tableau-de-bord-gestion-de-projet",
+    "slug": "comite-direction",
+    "type": "equipe",
+    "url": "/fr/equipes/comite-direction",
     "status": 200,
     "issues": []
   },
@@ -203,16 +203,16 @@
     "issues": []
   },
   {
-    "slug": "budgetiser-un-projet-sans-se-louper",
+    "slug": "analyse-des-risques-projet",
     "type": "blog",
-    "url": "/fr/blog/budgetiser-un-projet-sans-se-louper",
+    "url": "/fr/blog/analyse-des-risques-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "analyse-des-risques-projet",
+    "slug": "budgetiser-un-projet-sans-se-louper",
     "type": "blog",
-    "url": "/fr/blog/analyse-des-risques-projet",
+    "url": "/fr/blog/budgetiser-un-projet-sans-se-louper",
     "status": 200,
     "issues": []
   },
@@ -280,13 +280,6 @@
     "issues": []
   },
   {
-    "slug": "comment-decider-en-copil",
-    "type": "blog",
-    "url": "/fr/blog/comment-decider-en-copil",
-    "status": 200,
-    "issues": []
-  },
-  {
     "slug": "comment-animer-un-comite-de-pilotage",
     "type": "blog",
     "url": "/fr/blog/comment-animer-un-comite-de-pilotage",
@@ -298,6 +291,13 @@
         "details": "2× <a href=\"\"> or <a href=\"#\">"
       }
     ]
+  },
+  {
+    "slug": "comment-decider-en-copil",
+    "type": "blog",
+    "url": "/fr/blog/comment-decider-en-copil",
+    "status": 200,
+    "issues": []
   },
   {
     "slug": "comment-faire-un-bon-point-davancement-projet",
@@ -349,16 +349,16 @@
     "issues": []
   },
   {
-    "slug": "demarche-de-projet",
+    "slug": "fiche-projet-exemple-et-methodologie",
     "type": "blog",
-    "url": "/fr/blog/demarche-de-projet",
+    "url": "/fr/blog/fiche-projet-exemple-et-methodologie",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "fiche-projet-exemple-et-methodologie",
+    "slug": "demarche-de-projet",
     "type": "blog",
-    "url": "/fr/blog/fiche-projet-exemple-et-methodologie",
+    "url": "/fr/blog/demarche-de-projet",
     "status": 200,
     "issues": []
   },
@@ -405,16 +405,16 @@
     "issues": []
   },
   {
-    "slug": "la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "slug": "le-diagramme-de-gantt-comment-sen-servir",
     "type": "blog",
-    "url": "/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "url": "/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "le-diagramme-de-gantt-comment-sen-servir",
+    "slug": "la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
     "type": "blog",
-    "url": "/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
+    "url": "/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
     "status": 200,
     "issues": []
   },
@@ -440,13 +440,6 @@
     "issues": []
   },
   {
-    "slug": "le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
-    "type": "blog",
-    "url": "/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
-    "status": 200,
-    "issues": []
-  },
-  {
     "slug": "le-guide-du-mode-projet",
     "type": "blog",
     "url": "/fr/blog/le-guide-du-mode-projet",
@@ -454,9 +447,9 @@
     "issues": []
   },
   {
-    "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "slug": "le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
     "type": "blog",
-    "url": "/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "url": "/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
     "status": 200,
     "issues": []
   },
@@ -464,6 +457,13 @@
     "slug": "le-grand-guide-de-la-conduite-de-projet",
     "type": "blog",
     "url": "/fr/blog/le-grand-guide-de-la-conduite-de-projet",
+    "status": 200,
+    "issues": []
+  },
+  {
+    "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "type": "blog",
+    "url": "/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
     "status": 200,
     "issues": []
   },
@@ -558,13 +558,6 @@
     "issues": []
   },
   {
-    "slug": "pourquoi-vos-18-millions",
-    "type": "blog",
-    "url": "/fr/blog/pourquoi-vos-18-millions",
-    "status": 200,
-    "issues": []
-  },
-  {
     "slug": "preparer-comite-de-pilotage-d-un-projet",
     "type": "blog",
     "url": "/fr/blog/preparer-comite-de-pilotage-d-un-projet",
@@ -572,9 +565,9 @@
     "issues": []
   },
   {
-    "slug": "reporting-pmo",
+    "slug": "pourquoi-vos-18-millions",
     "type": "blog",
-    "url": "/fr/blog/reporting-pmo",
+    "url": "/fr/blog/pourquoi-vos-18-millions",
     "status": 200,
     "issues": []
   },
@@ -589,6 +582,13 @@
     "slug": "portefeuille-projet",
     "type": "blog",
     "url": "/fr/blog/portefeuille-projet",
+    "status": 200,
+    "issues": []
+  },
+  {
+    "slug": "reporting-pmo",
+    "type": "blog",
+    "url": "/fr/blog/reporting-pmo",
     "status": 200,
     "issues": []
   },

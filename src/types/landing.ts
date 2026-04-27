@@ -34,6 +34,8 @@ export interface IntroSection {
   body?: string | null; // inline HTML
   /** Optional heading level — defaults to 2; some sub-headings emit as 3. */
   headingLevel?: 2 | 3 | 4;
+  /** Sub-sections nested under this intro (rendered as H3 + body inside). */
+  subSections?: { title?: string | null; body?: string | null }[];
 }
 
 /** Split section: title + body on one side, image on the other. */

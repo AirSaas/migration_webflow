@@ -237,98 +237,113 @@ def extract_feature_splits(soup: BeautifulSoup):
 
 
 def extract_intros(soup: BeautifulSoup, taken_sections: set):
-    """`.section__feature` text-only sections — emits one section per heading
-    found inside. Each H2 → "intro" section. H3 / H4 found AFTER an H2 inside
-    the same block become standalone "sub-heading" sections so they show up
-    in the rendered DOM as <Heading level=3> (verifier picks them up)."""
+    """`.section__feature` text-only sections.
+
+    Groups headings + body content under their parent H2:
+    - H2 → starts a new intro section (level=2)
+    - H3/H4 → become sub-sections nested INSIDE the current H2 (preserves
+      proper heading hierarchy — H1 → H2 → H3, no orphan H3 directly
+      under H1).
+    - <p>/<ul>/<ol> → attach to the last open heading (sub-section if any,
+      else parent H2).
+    """
     out = []
     for sect in soup.select("section.section__feature, div.section__feature"):
         if id(sect) in taken_sections:
             continue
         if sect.find(class_="wrapper__faq") or sect.find_parent(class_="wrapper__faq"):
             continue
-        # Walk children in DOM order, splitting into intro blocks per heading
-        title_text = None
-        current_body_parts = []
-        sub_headings = []
-        emitted = False
+
+        # Build groups: [{title (h2), body, subSections: [{title, body}]}, ...]
+        groups = []
+        current = None  # current group {title, body_parts, subSections}
+        current_sub = None  # current sub-section {title, body_parts}
+
+        def flush_sub_to_current():
+            """Append the in-progress sub-section into current group."""
+            nonlocal current_sub
+            if current_sub and (current_sub["title"] or current_sub["body_parts"]):
+                if not current:
+                    return
+                current["subSections"].append({
+                    "title": current_sub["title"],
+                    "body": "".join(current_sub["body_parts"]) or None,
+                })
+            current_sub = None
+
+        def flush_current_to_groups():
+            """Append current group to output groups."""
+            nonlocal current
+            if current is None:
+                return
+            flush_sub_to_current()
+            has_title = bool(current["title"])
+            has_body = bool(current["body_parts"])
+            has_subs = bool(current["subSections"])
+            if has_title or has_body or has_subs:
+                groups.append({
+                    "title": current["title"],
+                    "body": "".join(current["body_parts"]) or None,
+                    "subSections": current["subSections"],
+                })
+            current = None
+
         for el in sect.find_all(["h2", "h3", "h4", "p", "ul", "ol"], recursive=True):
-            # Skip if nested in FAQ
             if el.find_parent(class_="wrapper__faq"):
                 continue
             tag = el.name
             text = clean_text(el.get_text())
-            if not text:
+            if not text and tag in ("h2", "h3", "h4"):
                 continue
             if tag == "h2":
-                # Flush previous block as intro
-                if title_text is not None or current_body_parts:
-                    body = "".join(current_body_parts)
-                    if "fréquente" not in (title_text or "").lower():
-                        out.append({
-                            "type": "intro",
-                            "title": title_text,
-                            "body": body or None,
-                        })
-                        emitted = True
-                title_text = text
-                current_body_parts = []
+                flush_current_to_groups()
+                current = {"title": text, "body_parts": [], "subSections": []}
             elif tag in ("h3", "h4"):
-                # Flush current text first, then add a sub-heading section
-                if title_text is not None or current_body_parts:
-                    body = "".join(current_body_parts)
-                    if "fréquente" not in (title_text or "").lower():
-                        out.append({
-                            "type": "intro",
-                            "title": title_text,
-                            "body": body or None,
-                        })
-                        emitted = True
-                    title_text = None
-                    current_body_parts = []
-                sub_headings.append(text)
-                out.append({
-                    "type": "intro",
-                    "title": text,
-                    "body": None,
-                    "headingLevel": 3,
-                })
-                emitted = True
+                if current is None:
+                    # H3/H4 with no parent H2 → start a group with no title
+                    current = {"title": None, "body_parts": [], "subSections": []}
+                flush_sub_to_current()
+                current_sub = {"title": text, "body_parts": []}
             elif tag == "p":
                 html = inline_html(el)
-                if html:
-                    current_body_parts.append(f"<p>{html}</p>")
+                if not html:
+                    continue
+                wrapped = f"<p>{html}</p>"
+                target = current_sub if current_sub else current
+                if target is None:
+                    # Content before any heading → start a group with no title
+                    current = {"title": None, "body_parts": [wrapped], "subSections": []}
+                else:
+                    target["body_parts"].append(wrapped)
             elif tag in ("ul", "ol"):
                 items_html = []
                 for li in el.find_all("li", recursive=False):
                     li_html = inline_html(li)
                     if li_html:
                         items_html.append(f"<li>{li_html}</li>")
-                if items_html:
-                    current_body_parts.append(
-                        f"<{tag}>{''.join(items_html)}</{tag}>"
-                    )
-        # Flush final block
-        if title_text is not None or current_body_parts:
-            body = "".join(current_body_parts)
-            if "fréquente" not in (title_text or "").lower():
-                # Skip emitting intro with just a title and no body (looks like
-                # a stub/orphan heading on the page). Sub-headings (level=3)
-                # are exempt — they're intentionally compact.
-                if title_text and not body and "level" not in (title_text or ""):
-                    pass
+                if not items_html:
+                    continue
+                wrapped = f"<{tag}>{''.join(items_html)}</{tag}>"
+                target = current_sub if current_sub else current
+                if target is None:
+                    current = {"title": None, "body_parts": [wrapped], "subSections": []}
                 else:
-                    out.append({
-                        "type": "intro",
-                        "title": title_text,
-                        "body": body or None,
-                    })
-                    emitted = True
-        # Filter out truly empty intros from `out` (defensive — mostly already done above)
-        if emitted:
+                    target["body_parts"].append(wrapped)
+        flush_current_to_groups()
+
+        for g in groups:
+            if "fréquente" in (g.get("title") or "").lower():
+                continue
+            # Drop totally empty groups
+            if not g.get("title") and not g.get("body") and not g.get("subSections"):
+                continue
+            entry = {"type": "intro", "title": g["title"], "body": g["body"]}
+            if g["subSections"]:
+                entry["subSections"] = g["subSections"]
+            out.append(entry)
+        if groups:
             taken_sections.add(id(sect))
-    # Final sweep: drop intros where both title and body are missing/empty
-    return [o for o in out if (o.get("title") or o.get("body"))]
+    return [o for o in out if (o.get("title") or o.get("body") or o.get("subSections"))]
 
 
 def extract_faq(soup: BeautifulSoup):
@@ -462,6 +477,16 @@ def extract_cta_section(soup: BeautifulSoup):
 # ─── Page builder ─────────────────────────────────────────────────────────────
 
 
+def normalize_for_dedup(text: str) -> str:
+    """Normalize text for duplicate detection (case + whitespace + punct)."""
+    if not text:
+        return ""
+    s = text.lower().strip()
+    s = re.sub(r"\s+", " ", s)
+    s = re.sub(r"[\.\,\:\;\!\?\…\"\'‘’“”]", "", s)
+    return s
+
+
 def parse_page(row: dict, page_type: str) -> dict:
     slug = row["slug"]
     html = row.get("html_rendered") or ""
@@ -473,6 +498,8 @@ def parse_page(row: dict, page_type: str) -> dict:
     hero = extract_hero(soup)
     if hero:
         sections.append(hero)
+
+    hero_title_norm = normalize_for_dedup(hero.get("title", "")) if hero else ""
 
     # Logos (after hero, before features typically)
     logos = extract_logos(soup)
@@ -487,6 +514,20 @@ def parse_page(row: dict, page_type: str) -> dict:
     taken = set()
     intros = extract_intros(soup, taken)
     splits = extract_feature_splits(soup)
+
+    # Drop intros that duplicate the hero H1 text (Webflow often repeats H1
+    # as H2 in the first section — this creates an H1=H2 duplicate the LLM
+    # flags as redundant content).
+    if hero_title_norm:
+        intros = [
+            i for i in intros
+            if normalize_for_dedup(i.get("title") or "") != hero_title_norm
+        ]
+        splits = [
+            s for s in splits
+            if normalize_for_dedup(s.get("title") or "") != hero_title_norm
+        ]
+
     sections.extend(intros)
     sections.extend(splits)
 

@@ -60,28 +60,13 @@ function renderSection(section: LandingSection, index: number): ReactNode {
 
     case "intro": {
       const level = (section.headingLevel ?? 2) as 2 | 3 | 4;
-      // Skip empty intros (defensive — parser drops them already)
-      if (!section.title && !section.body) return null;
-      // Sub-heading without body (level >= 3) → render as standalone H3
-      // band (compact, no section padding) so consecutive sub-headings
-      // visually group rather than each becoming a giant orphan section.
-      const isSubheading = level >= 3 && !section.body;
-      if (isSubheading) {
-        return (
-          <div
-            key={index}
-            className="flex justify-center px-[1.5rem] pt-[1.5rem] pb-[0.5rem] md:px-[3rem] md:pt-[2rem] lg:px-[10rem] bg-white"
-          >
-            <Heading level={level} align="center">
-              {section.title!}
-            </Heading>
-          </div>
-        );
-      }
+      const subSections = section.subSections || [];
+      // Skip empty intros
+      if (!section.title && !section.body && subSections.length === 0) return null;
       return (
         <section
           key={index}
-          className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white text-center"
+          className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white"
         >
           {section.title ? (
             <Heading level={level} align="center">
@@ -92,6 +77,24 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             <Text size="md" align="center" maxWidth="52.9375rem">
               <RichSpan html={section.body} />
             </Text>
+          ) : null}
+          {subSections.length > 0 ? (
+            <div className="flex flex-col items-center gap-[2rem] w-full max-w-[52.9375rem] mt-[1rem]">
+              {subSections.map((ss, i) => (
+                <div key={i} className="flex flex-col items-center gap-[0.75rem]">
+                  {ss.title ? (
+                    <Heading level={3} align="center">
+                      {ss.title}
+                    </Heading>
+                  ) : null}
+                  {ss.body ? (
+                    <Text size="md" align="center" maxWidth="52.9375rem">
+                      <RichSpan html={ss.body} />
+                    </Text>
+                  ) : null}
+                </div>
+              ))}
+            </div>
           ) : null}
         </section>
       );
@@ -200,7 +203,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[2.5rem] md:px-[3rem] md:py-[3.5rem] lg:px-[10rem] lg:py-[4.5rem] bg-primary-2"
         >
           {section.title ? (
-            <Heading level={3} align="center">
+            <Heading level={2} align="center">
               {section.title}
             </Heading>
           ) : null}
