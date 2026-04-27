@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import BlogArchivePage from "@/components/pages/BlogArchivePage";
-import { ACTIVE_BLOG_ARTICLES } from "@/data/blog-articles";
+import { ACTIVE_BLOG_ARTICLES_V2 } from "@/data/blog-articles-v2";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 
 export const metadata: Metadata = {
@@ -9,14 +9,15 @@ export const metadata: Metadata = {
     "Retrouvez l'ensemble des articles du blog AirSaas : gestion de projet, PMO, portefeuille projet, capacity planning.",
 };
 
-const AUTHOR_DEFAULT = {
-  name: "AirSaas",
-};
-
-function formatDate(iso: string | null): string {
+function formatDate(iso: string | null | undefined): string {
   if (!iso) return "Gestion de projet";
+  // iso may be "25/2/2026" (already French) or ISO date
+  if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(iso)) {
+    return `Le ${iso}`;
+  }
   try {
     const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return iso;
     return `Le ${d.toLocaleDateString("fr-FR", {
       day: "2-digit",
       month: "2-digit",
@@ -34,25 +35,34 @@ function excerpt(text: string, max = 180): string {
 }
 
 export default function Page() {
-  const articles = ACTIVE_BLOG_ARTICLES.map((article) => ({
-    publishedByLabel: "Publié par",
-    inLabel: "dans",
-    authorsAndLabel: "&",
-    authorsMoreLabel: "autres",
-    thumbnailSrc:
-      article.meta.heroImage ||
+  const articles = ACTIVE_BLOG_ARTICLES_V2.map((article) => {
+    const authorName = article.meta.author?.name || "AirSaas";
+    const authorAvatarSrc =
+      article.meta.author?.avatarSrc ||
+      `https://placehold.co/80x80/3c51e2/ffffff?text=${encodeURIComponent(
+        authorName.slice(0, 2).toUpperCase(),
+      )}`;
+    const heroSrc =
+      article.meta.heroImage?.src ||
       `https://placehold.co/600x400/3c51e2/ffffff?text=${encodeURIComponent(
         article.slug.slice(0, 30),
-      )}`,
-    thumbnailAlt: article.meta.title,
-    date: formatDate(article.meta.publishedDate),
-    title: article.meta.title.slice(0, 115),
-    excerpt: excerpt(article.meta.description),
-    href: `/fr/blog/${article.slug}`,
-    authors: [AUTHOR_DEFAULT],
-    categoryLabel: "Gestion de projet",
-    categoryHref: "/fr/blog/articles",
-  }));
+      )}`;
+    return {
+      publishedByLabel: "Publié par",
+      inLabel: "dans",
+      authorsAndLabel: "&",
+      authorsMoreLabel: "autres",
+      thumbnailSrc: heroSrc,
+      thumbnailAlt: article.meta.h1 || article.meta.title,
+      date: formatDate(article.meta.publishedDate),
+      title: (article.meta.h1 || article.meta.title).slice(0, 115),
+      excerpt: excerpt(article.meta.description),
+      href: `/fr/blog/${article.slug}`,
+      authors: [{ name: authorName, avatarSrc: authorAvatarSrc }],
+      categoryLabel: "Gestion de projet",
+      categoryHref: "/fr/blog/articles",
+    };
+  });
 
   return (
     <BlogArchivePage

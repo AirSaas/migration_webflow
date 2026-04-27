@@ -38,14 +38,14 @@ export interface FigureBlock {
   type: "figure";
   src: string;
   alt: string;
-  caption: string | null;
+  caption?: string | null;
 }
 
 export interface QuoteBlock {
   type: "quote";
   text: string;
-  author: string | null;
-  authorAvatar: string | null;
+  author?: string | null;
+  authorAvatar?: string | null;
 }
 
 export interface TableBlock {

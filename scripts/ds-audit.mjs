@@ -108,6 +108,10 @@ const FILE_EXCLUDES = [
   /^src\/app\/globals\.css$/,
   // Runtime validators file — contains forbidden pattern strings as data
   /^src\/lib\/ds-validators\.ts$/,
+  // Auto-generated content data — copied verbatim from source HTML, not authored
+  /^src\/data\/blog-articles\.ts$/,
+  /^src\/data\/blog-articles-v2\.ts$/,
+  /^src\/data\/landings-v2\//,
   // DS components whose job is to apply the forbidden pattern correctly
   /^src\/components\/library-design\/ui\/Heading\.tsx$/,
   /^src\/components\/library-design\/ui\/Text\.tsx$/,
