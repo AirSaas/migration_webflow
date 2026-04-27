@@ -49,14 +49,20 @@ function renderSection(section: LandingSection, index: number): ReactNode {
         />
       );
 
-    case "intro":
+    case "intro": {
+      const level = (section.headingLevel ?? 2) as 2 | 3 | 4;
+      const compact = level >= 3 && !section.body;
       return (
         <section
           key={index}
-          className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white text-center"
+          className={
+            compact
+              ? "flex flex-col items-center gap-[0.75rem] px-[1.5rem] py-[1.25rem] md:px-[3rem] md:py-[1.5rem] lg:px-[10rem] bg-white text-center"
+              : "flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white text-center"
+          }
         >
           {section.title ? (
-            <Heading level={2} align="center">
+            <Heading level={level} align="center">
               {section.title}
             </Heading>
           ) : null}
@@ -67,6 +73,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           ) : null}
         </section>
       );
+    }
 
     case "feature-split":
       return (

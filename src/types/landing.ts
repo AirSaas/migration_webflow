@@ -30,8 +30,10 @@ export interface HeroSection {
 /** Centered text-only section (intro / pillar / summary). */
 export interface IntroSection {
   type: "intro";
-  title?: string;
-  body?: string; // inline HTML
+  title?: string | null;
+  body?: string | null; // inline HTML
+  /** Optional heading level — defaults to 2; some sub-headings emit as 3. */
+  headingLevel?: 2 | 3 | 4;
 }
 
 /** Split section: title + body on one side, image on the other. */

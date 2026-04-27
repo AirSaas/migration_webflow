@@ -214,31 +214,88 @@ def extract_feature_splits(soup: BeautifulSoup):
 
 
 def extract_intros(soup: BeautifulSoup, taken_sections: set):
-    """`.section__feature` text-only sections (intro paragraphs)."""
+    """`.section__feature` text-only sections — emits one section per heading
+    found inside. Each H2 → "intro" section. H3 / H4 found AFTER an H2 inside
+    the same block become standalone "sub-heading" sections so they show up
+    in the rendered DOM as <Heading level=3> (verifier picks them up)."""
     out = []
     for sect in soup.select("section.section__feature, div.section__feature"):
         if id(sect) in taken_sections:
             continue
-        # Skip if section is a FAQ wrapper or inside one
         if sect.find(class_="wrapper__faq") or sect.find_parent(class_="wrapper__faq"):
             continue
-        h = sect.find(["h2", "h3"])
-        title_text = clean_text(h.get_text()) if h else ""
-        # Skip if title looks like FAQ heading
-        if title_text and "fréquente" in title_text.lower():
-            continue
-        # Body — only direct paragraphs (not the FAQ ones below)
-        body_parts = []
-        for p in sect.find_all("p", recursive=True):
-            # Skip if inside a FAQ wrapper
-            if p.find_parent(class_="wrapper__faq"):
+        # Walk children in DOM order, splitting into intro blocks per heading
+        title_text = None
+        current_body_parts = []
+        sub_headings = []
+        emitted = False
+        for el in sect.find_all(["h2", "h3", "h4", "p", "ul", "ol"], recursive=True):
+            # Skip if nested in FAQ
+            if el.find_parent(class_="wrapper__faq"):
                 continue
-            html = inline_html(p)
-            if html:
-                body_parts.append(f"<p>{html}</p>")
-        body = "".join(body_parts)
-        if title_text or body:
-            out.append({"type": "intro", "title": title_text or None, "body": body or None})
+            tag = el.name
+            text = clean_text(el.get_text())
+            if not text:
+                continue
+            if tag == "h2":
+                # Flush previous block as intro
+                if title_text is not None or current_body_parts:
+                    body = "".join(current_body_parts)
+                    if "fréquente" not in (title_text or "").lower():
+                        out.append({
+                            "type": "intro",
+                            "title": title_text,
+                            "body": body or None,
+                        })
+                        emitted = True
+                title_text = text
+                current_body_parts = []
+            elif tag in ("h3", "h4"):
+                # Flush current text first, then add a sub-heading section
+                if title_text is not None or current_body_parts:
+                    body = "".join(current_body_parts)
+                    if "fréquente" not in (title_text or "").lower():
+                        out.append({
+                            "type": "intro",
+                            "title": title_text,
+                            "body": body or None,
+                        })
+                        emitted = True
+                    title_text = None
+                    current_body_parts = []
+                sub_headings.append(text)
+                out.append({
+                    "type": "intro",
+                    "title": text,
+                    "body": None,
+                    "headingLevel": 3,
+                })
+                emitted = True
+            elif tag == "p":
+                html = inline_html(el)
+                if html:
+                    current_body_parts.append(f"<p>{html}</p>")
+            elif tag in ("ul", "ol"):
+                items_html = []
+                for li in el.find_all("li", recursive=False):
+                    li_html = inline_html(li)
+                    if li_html:
+                        items_html.append(f"<li>{li_html}</li>")
+                if items_html:
+                    current_body_parts.append(
+                        f"<{tag}>{''.join(items_html)}</{tag}>"
+                    )
+        # Flush final block
+        if title_text is not None or current_body_parts:
+            body = "".join(current_body_parts)
+            if "fréquente" not in (title_text or "").lower():
+                out.append({
+                    "type": "intro",
+                    "title": title_text,
+                    "body": body or None,
+                })
+                emitted = True
+        if emitted:
             taken_sections.add(id(sect))
     return out
 

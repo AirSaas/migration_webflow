@@ -35,6 +35,41 @@
     }
   },
   {
+    "slug": "pi-planning",
+    "type": "lp",
+    "liveUrl": "https://www.airsaas.io/fr/lp/pi-planning",
+    "rebuildUrl": "http://localhost:3000/fr/lp/pi-planning",
+    "pass": true,
+    "headingsCov": 0.3793103448275862,
+    "ctaCov": 0,
+    "testiOk": false,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 29,
+    "rebuildHeadingsCount": 12,
+    "missingHeadings": [
+      "+100 clients nous font confiance",
+      "⚠️ le quotidien du rte aujourd'hui",
+      "avant / après airsaas",
+      "pourquoi pas jira align, powerbi ou piplanning.io ?",
+      "jira align"
+    ],
+    "live": {
+      "headings": 29,
+      "paragraphs": 80,
+      "figures": 0,
+      "imgs": 101,
+      "testimonials": 1
+    },
+    "rebuild": {
+      "headings": 12,
+      "paragraphs": 16,
+      "figures": 0,
+      "imgs": 14,
+      "testimonials": 0
+    }
+  },
+  {
     "slug": "ppm",
     "type": "lp",
     "liveUrl": "https://www.airsaas.io/fr/lp/ppm",
@@ -99,41 +134,6 @@
     "rebuild": {
       "headings": 11,
       "paragraphs": 13,
-      "figures": 0,
-      "imgs": 14,
-      "testimonials": 0
-    }
-  },
-  {
-    "slug": "pi-planning",
-    "type": "lp",
-    "liveUrl": "https://www.airsaas.io/fr/lp/pi-planning",
-    "rebuildUrl": "http://localhost:3000/fr/lp/pi-planning",
-    "pass": true,
-    "headingsCov": 0.3793103448275862,
-    "ctaCov": 0,
-    "testiOk": false,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 29,
-    "rebuildHeadingsCount": 12,
-    "missingHeadings": [
-      "+100 clients nous font confiance",
-      "⚠️ le quotidien du rte aujourd'hui",
-      "avant / après airsaas",
-      "pourquoi pas jira align, powerbi ou piplanning.io ?",
-      "jira align"
-    ],
-    "live": {
-      "headings": 29,
-      "paragraphs": 80,
-      "figures": 0,
-      "imgs": 101,
-      "testimonials": 1
-    },
-    "rebuild": {
-      "headings": 12,
-      "paragraphs": 16,
       "figures": 0,
       "imgs": 14,
       "testimonials": 0
@@ -210,47 +210,12 @@
     }
   },
   {
-    "slug": "capacity-planning",
-    "type": "produit",
-    "liveUrl": "https://www.airsaas.io/fr/produit/capacity-planning",
-    "rebuildUrl": "http://localhost:3000/fr/produit/capacity-planning",
-    "pass": false,
-    "headingsCov": 0.23529411764705882,
-    "ctaCov": 0,
-    "testiOk": false,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 17,
-    "rebuildHeadingsCount": 9,
-    "missingHeadings": [
-      "l es scénarios",
-      "trouvez le scénario qui fonctionne",
-      "e stimation du temps nécessaire à la tâche au livrable",
-      "e stimation des temps nécessaires et disponibles à la personne par équipe",
-      "s ur l'échelle de temps qui fait sens : à la semaine, au mois , au trimestre, au semestre, au pi"
-    ],
-    "live": {
-      "headings": 17,
-      "paragraphs": 39,
-      "figures": 0,
-      "imgs": 33,
-      "testimonials": 1
-    },
-    "rebuild": {
-      "headings": 9,
-      "paragraphs": 25,
-      "figures": 0,
-      "imgs": 3,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "budget",
     "type": "produit",
     "liveUrl": "https://www.airsaas.io/fr/produit/budget",
     "rebuildUrl": "http://localhost:3000/fr/produit/budget",
-    "pass": false,
-    "headingsCov": 0.13333333333333333,
+    "pass": true,
+    "headingsCov": 0.5333333333333333,
     "ctaCov": 0,
     "testiOk": true,
     "featOk": false,
@@ -258,11 +223,11 @@
     "liveHeadingsCount": 15,
     "rebuildHeadingsCount": 9,
     "missingHeadings": [
-      "un cadrage simplifié avec un budget détaillé",
       "des rituels de suivi budgétaire puissants",
       "c’est un vrai plus pour vos prochains arbitrages budgétaires",
-      "des vues consolidées à partager facilement",
-      "prenez en compte le coût humain des projets"
+      "les budgets sont un thème central en ce qui concerne la gestion de portefeuille projets.",
+      "vous voulez l'essayer ?",
+      "faq"
     ],
     "live": {
       "headings": 15,
@@ -276,6 +241,41 @@
       "paragraphs": 11,
       "figures": 0,
       "imgs": 7,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "produit",
+    "liveUrl": "https://www.airsaas.io/fr/produit/capacity-planning",
+    "rebuildUrl": "http://localhost:3000/fr/produit/capacity-planning",
+    "pass": true,
+    "headingsCov": 0.29411764705882354,
+    "ctaCov": 0,
+    "testiOk": false,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 17,
+    "rebuildHeadingsCount": 10,
+    "missingHeadings": [
+      "l es scénarios",
+      "e stimation du temps nécessaire à la tâche au livrable",
+      "e stimation des temps nécessaires et disponibles à la personne par équipe",
+      "s ur l'échelle de temps qui fait sens : à la semaine, au mois , au trimestre, au semestre, au pi",
+      "vous voulez l'essayer ?"
+    ],
+    "live": {
+      "headings": 17,
+      "paragraphs": 39,
+      "figures": 0,
+      "imgs": 33,
+      "testimonials": 1
+    },
+    "rebuild": {
+      "headings": 10,
+      "paragraphs": 26,
+      "figures": 0,
+      "imgs": 3,
       "testimonials": 0
     }
   },
@@ -326,7 +326,7 @@
     "featOk": false,
     "heroOk": true,
     "liveHeadingsCount": 8,
-    "rebuildHeadingsCount": 7,
+    "rebuildHeadingsCount": 6,
     "missingHeadings": [
       "vos chefs de projets et po ‍ vont adorer",
       "p lateforme multilingue à la maille utilisateur",
@@ -342,10 +342,43 @@
       "testimonials": 1
     },
     "rebuild": {
-      "headings": 7,
+      "headings": 6,
       "paragraphs": 12,
       "figures": 0,
       "imgs": 3,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "gestion-portefeuille-projet",
+    "type": "solution",
+    "liveUrl": "https://www.airsaas.io/fr/solution/gestion-portefeuille-projet",
+    "rebuildUrl": "http://localhost:3000/fr/solutions/gestion-portefeuille-projet",
+    "pass": true,
+    "headingsCov": 0.9117647058823529,
+    "ctaCov": 0,
+    "testiOk": false,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 34,
+    "rebuildHeadingsCount": 33,
+    "missingHeadings": [
+      "l'o util de gestion de portefeuille projet nouvelle génération",
+      "l’outil de portefeuille projets préféré des dsi et directions générales",
+      "découvrez comment airsaas peut vous aider"
+    ],
+    "live": {
+      "headings": 34,
+      "paragraphs": 79,
+      "figures": 0,
+      "imgs": 64,
+      "testimonials": 1
+    },
+    "rebuild": {
+      "headings": 33,
+      "paragraphs": 59,
+      "figures": 0,
+      "imgs": 23,
       "testimonials": 0
     }
   },
@@ -384,12 +417,47 @@
     }
   },
   {
+    "slug": "flash-report",
+    "type": "solution",
+    "liveUrl": "https://www.airsaas.io/fr/solution/flash-report",
+    "rebuildUrl": "http://localhost:3000/fr/solutions/flash-report",
+    "pass": true,
+    "headingsCov": 0.4375,
+    "ctaCov": 0,
+    "testiOk": false,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 16,
+    "rebuildHeadingsCount": 15,
+    "missingHeadings": [
+      "la solution de ‍ flash report automatisée préférée des dsi et pmo",
+      "une solution de reporting projet à votre image : efficace et moderne",
+      "to utes vos données consolidées en un seul clic",
+      "un e structure fixe, mais personnalisable",
+      "un e roadmap collaborative de vos projets"
+    ],
+    "live": {
+      "headings": 16,
+      "paragraphs": 46,
+      "figures": 0,
+      "imgs": 52,
+      "testimonials": 1
+    },
+    "rebuild": {
+      "headings": 15,
+      "paragraphs": 16,
+      "figures": 0,
+      "imgs": 15,
+      "testimonials": 0
+    }
+  },
+  {
     "slug": "flash-report-projet",
     "type": "solution",
     "liveUrl": "https://www.airsaas.io/fr/solution/flash-report-projet",
     "rebuildUrl": "http://localhost:3000/fr/solutions/flash-report-projet",
     "pass": false,
-    "headingsCov": 0.19047619047619047,
+    "headingsCov": 0.23809523809523808,
     "ctaCov": 0,
     "testiOk": false,
     "featOk": false,
@@ -419,76 +487,6 @@
     }
   },
   {
-    "slug": "flash-report",
-    "type": "solution",
-    "liveUrl": "https://www.airsaas.io/fr/solution/flash-report",
-    "rebuildUrl": "http://localhost:3000/fr/solutions/flash-report",
-    "pass": true,
-    "headingsCov": 0.375,
-    "ctaCov": 0,
-    "testiOk": false,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 16,
-    "rebuildHeadingsCount": 15,
-    "missingHeadings": [
-      "la solution de ‍ flash report automatisée préférée des dsi et pmo",
-      "une solution de reporting projet à votre image : efficace et moderne",
-      "to utes vos données consolidées en un seul clic",
-      "des rapports qui facilitent la prise de décision",
-      "un e structure fixe, mais personnalisable"
-    ],
-    "live": {
-      "headings": 16,
-      "paragraphs": 46,
-      "figures": 0,
-      "imgs": 52,
-      "testimonials": 1
-    },
-    "rebuild": {
-      "headings": 15,
-      "paragraphs": 16,
-      "figures": 0,
-      "imgs": 15,
-      "testimonials": 0
-    }
-  },
-  {
-    "slug": "gestion-portefeuille-projet",
-    "type": "solution",
-    "liveUrl": "https://www.airsaas.io/fr/solution/gestion-portefeuille-projet",
-    "rebuildUrl": "http://localhost:3000/fr/solutions/gestion-portefeuille-projet",
-    "pass": true,
-    "headingsCov": 0.7941176470588235,
-    "ctaCov": 0,
-    "testiOk": false,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 34,
-    "rebuildHeadingsCount": 33,
-    "missingHeadings": [
-      "l'o util de gestion de portefeuille projet nouvelle génération",
-      "l’outil de portefeuille projets préféré des dsi et directions générales",
-      "décidez de manière avisée en copil grâce au tableau de bord",
-      "améliorez l’efficacité du reporting sur les projets en cours",
-      "optimisez les ressources humaines disponibles"
-    ],
-    "live": {
-      "headings": 34,
-      "paragraphs": 79,
-      "figures": 0,
-      "imgs": 64,
-      "testimonials": 1
-    },
-    "rebuild": {
-      "headings": 33,
-      "paragraphs": 63,
-      "figures": 0,
-      "imgs": 23,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "portfolio-management",
     "type": "solution",
     "liveUrl": "https://www.airsaas.io/fr/solution/portfolio-management",
@@ -497,53 +495,18 @@
     "reason": "outlier — non-blog pillar page"
   },
   {
-    "slug": "outil-ppm",
-    "type": "solution",
-    "liveUrl": "https://www.airsaas.io/fr/solution/outil-ppm",
-    "rebuildUrl": "http://localhost:3000/fr/solutions/outil-ppm",
-    "pass": true,
-    "headingsCov": 0.7297297297297297,
-    "ctaCov": 0,
-    "testiOk": true,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 37,
-    "rebuildHeadingsCount": 32,
-    "missingHeadings": [
-      "quels sont les meilleurs logiciels ppm ? l’exemple airsaas",
-      "simplissime",
-      "ppm orienté valeur",
-      "connecté à vos outils du quotidien",
-      "faites avancer les projets sereinement"
-    ],
-    "live": {
-      "headings": 37,
-      "paragraphs": 68,
-      "figures": 0,
-      "imgs": 50,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 32,
-      "paragraphs": 79,
-      "figures": 0,
-      "imgs": 12,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "management-de-portefeuille-projet",
     "type": "solution",
     "liveUrl": "https://www.airsaas.io/fr/solution/management-de-portefeuille-projet",
     "rebuildUrl": "http://localhost:3000/fr/solutions/management-de-portefeuille-projet",
-    "pass": false,
-    "headingsCov": 0.17391304347826086,
+    "pass": true,
+    "headingsCov": 0.30434782608695654,
     "ctaCov": 0,
     "testiOk": false,
     "featOk": false,
     "heroOk": true,
     "liveHeadingsCount": 23,
-    "rebuildHeadingsCount": 18,
+    "rebuildHeadingsCount": 20,
     "missingHeadings": [
       "la solution de portfolio project management favorite des pmo et dsi",
       "visualisez votre portfolio en vue macro",
@@ -559,10 +522,45 @@
       "testimonials": 1
     },
     "rebuild": {
-      "headings": 18,
+      "headings": 20,
       "paragraphs": 21,
       "figures": 0,
       "imgs": 20,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "outil-ppm",
+    "type": "solution",
+    "liveUrl": "https://www.airsaas.io/fr/solution/outil-ppm",
+    "rebuildUrl": "http://localhost:3000/fr/solutions/outil-ppm",
+    "pass": true,
+    "headingsCov": 0.7297297297297297,
+    "ctaCov": 0,
+    "testiOk": true,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 37,
+    "rebuildHeadingsCount": 28,
+    "missingHeadings": [
+      "quels sont les meilleurs logiciels ppm ? l’exemple airsaas",
+      "simplissime",
+      "ppm orienté valeur",
+      "connecté à vos outils du quotidien",
+      "faites avancer les projets sereinement"
+    ],
+    "live": {
+      "headings": 37,
+      "paragraphs": 68,
+      "figures": 0,
+      "imgs": 50,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 28,
+      "paragraphs": 77,
+      "figures": 0,
+      "imgs": 12,
       "testimonials": 0
     }
   },
@@ -607,7 +605,7 @@
     "liveUrl": "https://www.airsaas.io/fr/solution/outils-de-pilotage-projet",
     "rebuildUrl": "http://localhost:3000/fr/solutions/outils-de-pilotage-projet",
     "pass": true,
-    "headingsCov": 0.8,
+    "headingsCov": 0.9333333333333333,
     "ctaCov": 0,
     "testiOk": true,
     "featOk": false,
@@ -616,10 +614,7 @@
     "rebuildHeadingsCount": 29,
     "missingHeadings": [
       "nous proposons l’outil de pilotage de projet le plus simple au monde.",
-      "accompagnez le cadrage des projets",
-      "le pilotage de projet par la valeur",
-      "reportez en un clic",
-      "prenez de la hauteur"
+      "découvrez comment airsaas peut vous aider"
     ],
     "live": {
       "headings": 30,
@@ -630,42 +625,9 @@
     },
     "rebuild": {
       "headings": 29,
-      "paragraphs": 68,
+      "paragraphs": 59,
       "figures": 0,
       "imgs": 17,
-      "testimonials": 0
-    }
-  },
-  {
-    "slug": "tableau-de-bord-dsi",
-    "type": "solution",
-    "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-dsi",
-    "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-dsi",
-    "pass": true,
-    "headingsCov": 0.8636363636363636,
-    "ctaCov": 0,
-    "testiOk": true,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 22,
-    "rebuildHeadingsCount": 21,
-    "missingHeadings": [
-      "airsaas, le tableau de bord dsi nouvelle génération",
-      "le rapport flash automatisé",
-      "découvrez comment airsaas peut vous aider"
-    ],
-    "live": {
-      "headings": 22,
-      "paragraphs": 57,
-      "figures": 0,
-      "imgs": 39,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 21,
-      "paragraphs": 44,
-      "figures": 0,
-      "imgs": 15,
       "testimonials": 0
     }
   },
@@ -675,7 +637,7 @@
     "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-gestion-de-projet",
     "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-gestion-de-projet",
     "pass": true,
-    "headingsCov": 0.7142857142857143,
+    "headingsCov": 0.7857142857142857,
     "ctaCov": 0,
     "testiOk": true,
     "featOk": false,
@@ -685,7 +647,6 @@
     "missingHeadings": [
       "airsaas, le tableau de bord de gestion de projet conçu pour les dsi",
       "piloter par la valeur",
-      "le rapport flash automatisé",
       "découvrez comment airsaas peut vous aider"
     ],
     "live": {
@@ -697,7 +658,7 @@
     },
     "rebuild": {
       "headings": 12,
-      "paragraphs": 24,
+      "paragraphs": 25,
       "figures": 0,
       "imgs": 9,
       "testimonials": 0
@@ -708,14 +669,14 @@
     "type": "solution",
     "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-portefeuille-de-projet",
     "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-portefeuille-de-projet",
-    "pass": false,
-    "headingsCov": 0.18181818181818182,
+    "pass": true,
+    "headingsCov": 0.36363636363636365,
     "ctaCov": 0,
     "testiOk": false,
     "featOk": false,
     "heroOk": true,
     "liveHeadingsCount": 22,
-    "rebuildHeadingsCount": 17,
+    "rebuildHeadingsCount": 19,
     "missingHeadings": [
       "le tableau de bord de portefeuille de projet préféré des pmo et dsi",
       "visualisez votre portefeuille de projets en mode macro",
@@ -731,7 +692,7 @@
       "testimonials": 1
     },
     "rebuild": {
-      "headings": 17,
+      "headings": 19,
       "paragraphs": 20,
       "figures": 0,
       "imgs": 19,
@@ -739,72 +700,34 @@
     }
   },
   {
-    "slug": "direction-de-la-transformation",
-    "type": "equipe",
-    "liveUrl": "https://www.airsaas.io/fr/equipes/direction-de-la-transformation",
-    "rebuildUrl": "http://localhost:3000/fr/equipes/direction-de-la-transformation",
-    "pass": false,
-    "headingsCov": 0.125,
-    "ctaCov": 0,
-    "testiOk": false,
-    "featOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 16,
-    "rebuildHeadingsCount": 7,
-    "missingHeadings": [
-      "l'outil des directions de la transformation pour mieux piloter leurs grands programmes",
-      "la direction de la transformation au centre du changement culturel de l’entreprise",
-      "pourquoi adopter airsaas",
-      "animez clairement et simplement le comité de pilotage",
-      "pilotez les projets de manière macro"
-    ],
-    "live": {
-      "headings": 16,
-      "paragraphs": 52,
-      "figures": 0,
-      "imgs": 62,
-      "testimonials": 1
-    },
-    "rebuild": {
-      "headings": 7,
-      "paragraphs": 11,
-      "figures": 0,
-      "imgs": 9,
-      "testimonials": 0
-    }
-  },
-  {
-    "slug": "it-et-operation",
-    "type": "equipe",
-    "liveUrl": "https://www.airsaas.io/fr/equipes/it-et-operation",
-    "rebuildUrl": "http://localhost:3000/fr/equipes/it-et-operation",
+    "slug": "tableau-de-bord-dsi",
+    "type": "solution",
+    "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-dsi",
+    "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-dsi",
     "pass": true,
-    "headingsCov": 0.2777777777777778,
+    "headingsCov": 0.9090909090909091,
     "ctaCov": 0,
-    "testiOk": false,
+    "testiOk": true,
     "featOk": false,
     "heroOk": true,
-    "liveHeadingsCount": 18,
-    "rebuildHeadingsCount": 10,
+    "liveHeadingsCount": 22,
+    "rebuildHeadingsCount": 21,
     "missingHeadings": [
-      "et si vous étiez vraiment au centre de la transformation de votre entreprise ?",
-      "les chiffres qui vous feront adopter airsaas",
-      "centralisez l’information pour mieux piloter",
-      "collaborez pour impliquer les métiers de a à z",
-      "uniformisez votre reporting projet"
+      "airsaas, le tableau de bord dsi nouvelle génération",
+      "découvrez comment airsaas peut vous aider"
     ],
     "live": {
-      "headings": 18,
-      "paragraphs": 60,
+      "headings": 22,
+      "paragraphs": 57,
       "figures": 0,
-      "imgs": 86,
-      "testimonials": 100
+      "imgs": 39,
+      "testimonials": 0
     },
     "rebuild": {
-      "headings": 10,
-      "paragraphs": 12,
+      "headings": 21,
+      "paragraphs": 39,
       "figures": 0,
-      "imgs": 10,
+      "imgs": 15,
       "testimonials": 0
     }
   },
@@ -814,7 +737,7 @@
     "liveUrl": "https://www.airsaas.io/fr/equipes/comite-direction",
     "rebuildUrl": "http://localhost:3000/fr/equipes/comite-direction",
     "pass": true,
-    "headingsCov": 0.3076923076923077,
+    "headingsCov": 0.5384615384615384,
     "ctaCov": 0,
     "testiOk": false,
     "featOk": false,
@@ -824,9 +747,9 @@
     "missingHeadings": [
       "l’outil-clé pour piloter avec flexibilité et clarté vos projets internes de la stratégie à l’exécution",
       "les chiffres qui vous feront adopter airsaas",
-      "animez clairement et simplement vos comités de pilotage",
-      "une roadmap projet macro partagée",
-      "uniformise z les reportings projets"
+      "uniformise z les reportings projets",
+      "obtenez la bonne information , au bon moment",
+      "7 raisons pour lesquelles les directions générales adorent airsaas"
     ],
     "live": {
       "headings": 13,
@@ -844,12 +767,82 @@
     }
   },
   {
+    "slug": "direction-de-la-transformation",
+    "type": "equipe",
+    "liveUrl": "https://www.airsaas.io/fr/equipes/direction-de-la-transformation",
+    "rebuildUrl": "http://localhost:3000/fr/equipes/direction-de-la-transformation",
+    "pass": true,
+    "headingsCov": 0.625,
+    "ctaCov": 0,
+    "testiOk": false,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 16,
+    "rebuildHeadingsCount": 11,
+    "missingHeadings": [
+      "l'outil des directions de la transformation pour mieux piloter leurs grands programmes",
+      "la direction de la transformation au centre du changement culturel de l’entreprise",
+      "pourquoi adopter airsaas",
+      "nos clients directeurs de la transfo. ne peuvent plus imaginer leurs vies sans airsaas",
+      "choisissez de gagner du temps et du contrôle"
+    ],
+    "live": {
+      "headings": 16,
+      "paragraphs": 52,
+      "figures": 0,
+      "imgs": 62,
+      "testimonials": 1
+    },
+    "rebuild": {
+      "headings": 11,
+      "paragraphs": 15,
+      "figures": 0,
+      "imgs": 9,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "it-et-operation",
+    "type": "equipe",
+    "liveUrl": "https://www.airsaas.io/fr/equipes/it-et-operation",
+    "rebuildUrl": "http://localhost:3000/fr/equipes/it-et-operation",
+    "pass": true,
+    "headingsCov": 0.5555555555555556,
+    "ctaCov": 0,
+    "testiOk": false,
+    "featOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 18,
+    "rebuildHeadingsCount": 10,
+    "missingHeadings": [
+      "et si vous étiez vraiment au centre de la transformation de votre entreprise ?",
+      "les chiffres qui vous feront adopter airsaas",
+      "gagnez en temps en en contrôle sur votre portefeuille projets",
+      "les dsi ne peuvent plus imaginer leur vie sans airsaas",
+      "injectez de la méthodologie dans votre gestion de portefeuille"
+    ],
+    "live": {
+      "headings": 18,
+      "paragraphs": 60,
+      "figures": 0,
+      "imgs": 86,
+      "testimonials": 100
+    },
+    "rebuild": {
+      "headings": 10,
+      "paragraphs": 12,
+      "figures": 0,
+      "imgs": 10,
+      "testimonials": 0
+    }
+  },
+  {
     "slug": "outil-pmo",
     "type": "equipe",
     "liveUrl": "https://www.airsaas.io/fr/equipes/outil-pmo",
     "rebuildUrl": "http://localhost:3000/fr/equipes/outil-pmo",
     "pass": true,
-    "headingsCov": 0.25,
+    "headingsCov": 0.55,
     "ctaCov": 0,
     "testiOk": false,
     "featOk": false,
@@ -859,9 +852,9 @@
     "missingHeadings": [
       "l'o util ppm pour un pmo moderne",
       "les chiffres qui vous feront adopter airsaas",
-      "partagez simplement les roadmaps à toute l'organisation",
       "c haque directeur définit ses prios",
-      "diffusez un cadrage projet standardisé"
+      "une newsletter sponsor que votre direction va adorer",
+      "tendance des projets vitaux"
     ],
     "live": {
       "headings": 20,
@@ -1061,36 +1054,6 @@
     }
   },
   {
-    "slug": "capacity-planning",
-    "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/capacity-planning",
-    "rebuildUrl": "http://localhost:3000/fr/blog/capacity-planning",
-    "pass": true,
-    "headingsCov": 1,
-    "paragraphsOk": true,
-    "figuresOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 20,
-    "rebuildHeadingsCount": 22,
-    "liveParagraphCount": 91,
-    "rebuildParagraphCount": 74,
-    "missingHeadings": [],
-    "live": {
-      "headings": 20,
-      "paragraphs": 91,
-      "figures": 3,
-      "imgs": 33,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 22,
-      "paragraphs": 74,
-      "figures": 0,
-      "imgs": 5,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "capacity-planning-definition",
     "type": "blog",
     "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/capacity-planning-definition",
@@ -1117,6 +1080,36 @@
       "paragraphs": 53,
       "figures": 0,
       "imgs": 4,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "blog",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/capacity-planning",
+    "rebuildUrl": "http://localhost:3000/fr/blog/capacity-planning",
+    "pass": true,
+    "headingsCov": 1,
+    "paragraphsOk": true,
+    "figuresOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 20,
+    "rebuildHeadingsCount": 22,
+    "liveParagraphCount": 91,
+    "rebuildParagraphCount": 74,
+    "missingHeadings": [],
+    "live": {
+      "headings": 20,
+      "paragraphs": 91,
+      "figures": 3,
+      "imgs": 33,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 22,
+      "paragraphs": 74,
+      "figures": 0,
+      "imgs": 5,
       "testimonials": 0
     }
   },
@@ -1333,36 +1326,6 @@
     }
   },
   {
-    "slug": "comment-elaborer-un-reporting-efficace",
-    "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-    "rebuildUrl": "http://localhost:3000/fr/blog/comment-elaborer-un-reporting-efficace",
-    "pass": true,
-    "headingsCov": 1,
-    "paragraphsOk": true,
-    "figuresOk": true,
-    "heroOk": true,
-    "liveHeadingsCount": 21,
-    "rebuildHeadingsCount": 23,
-    "liveParagraphCount": 70,
-    "rebuildParagraphCount": 59,
-    "missingHeadings": [],
-    "live": {
-      "headings": 21,
-      "paragraphs": 70,
-      "figures": 6,
-      "imgs": 34,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 23,
-      "paragraphs": 59,
-      "figures": 6,
-      "imgs": 8,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
     "type": "blog",
     "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
@@ -1389,6 +1352,36 @@
       "paragraphs": 97,
       "figures": 6,
       "imgs": 9,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "comment-elaborer-un-reporting-efficace",
+    "type": "blog",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
+    "rebuildUrl": "http://localhost:3000/fr/blog/comment-elaborer-un-reporting-efficace",
+    "pass": true,
+    "headingsCov": 1,
+    "paragraphsOk": true,
+    "figuresOk": true,
+    "heroOk": true,
+    "liveHeadingsCount": 21,
+    "rebuildHeadingsCount": 23,
+    "liveParagraphCount": 70,
+    "rebuildParagraphCount": 59,
+    "missingHeadings": [],
+    "live": {
+      "headings": 21,
+      "paragraphs": 70,
+      "figures": 6,
+      "imgs": 34,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 23,
+      "paragraphs": 59,
+      "figures": 6,
+      "imgs": 8,
       "testimonials": 0
     }
   },
@@ -1423,36 +1416,6 @@
     }
   },
   {
-    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
-    "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-en-place-un-comite-de-pilotage",
-    "rebuildUrl": "http://localhost:3000/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
-    "pass": true,
-    "headingsCov": 1,
-    "paragraphsOk": true,
-    "figuresOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 16,
-    "rebuildHeadingsCount": 18,
-    "liveParagraphCount": 52,
-    "rebuildParagraphCount": 35,
-    "missingHeadings": [],
-    "live": {
-      "headings": 16,
-      "paragraphs": 52,
-      "figures": 10,
-      "imgs": 38,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 18,
-      "paragraphs": 35,
-      "figures": 0,
-      "imgs": 12,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "comment-faire-un-bon-point-davancement-projet",
     "type": "blog",
     "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-point-davancement-projet",
@@ -1479,6 +1442,36 @@
       "paragraphs": 68,
       "figures": 6,
       "imgs": 8,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
+    "type": "blog",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-en-place-un-comite-de-pilotage",
+    "rebuildUrl": "http://localhost:3000/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+    "pass": true,
+    "headingsCov": 1,
+    "paragraphsOk": true,
+    "figuresOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 16,
+    "rebuildHeadingsCount": 18,
+    "liveParagraphCount": 52,
+    "rebuildParagraphCount": 35,
+    "missingHeadings": [],
+    "live": {
+      "headings": 16,
+      "paragraphs": 52,
+      "figures": 10,
+      "imgs": 38,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 18,
+      "paragraphs": 35,
+      "figures": 0,
+      "imgs": 12,
       "testimonials": 0
     }
   },
@@ -1575,6 +1568,36 @@
     }
   },
   {
+    "slug": "demarche-de-projet",
+    "type": "blog",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/demarche-de-projet",
+    "rebuildUrl": "http://localhost:3000/fr/blog/demarche-de-projet",
+    "pass": true,
+    "headingsCov": 1,
+    "paragraphsOk": true,
+    "figuresOk": true,
+    "heroOk": true,
+    "liveHeadingsCount": 20,
+    "rebuildHeadingsCount": 22,
+    "liveParagraphCount": 50,
+    "rebuildParagraphCount": 37,
+    "missingHeadings": [],
+    "live": {
+      "headings": 20,
+      "paragraphs": 50,
+      "figures": 4,
+      "imgs": 32,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 22,
+      "paragraphs": 37,
+      "figures": 4,
+      "imgs": 6,
+      "testimonials": 0
+    }
+  },
+  {
     "slug": "fiche-projet-exemple-et-methodologie",
     "type": "blog",
     "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie",
@@ -1635,36 +1658,6 @@
     }
   },
   {
-    "slug": "demarche-de-projet",
-    "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/demarche-de-projet",
-    "rebuildUrl": "http://localhost:3000/fr/blog/demarche-de-projet",
-    "pass": true,
-    "headingsCov": 1,
-    "paragraphsOk": true,
-    "figuresOk": true,
-    "heroOk": true,
-    "liveHeadingsCount": 20,
-    "rebuildHeadingsCount": 22,
-    "liveParagraphCount": 50,
-    "rebuildParagraphCount": 37,
-    "missingHeadings": [],
-    "live": {
-      "headings": 20,
-      "paragraphs": 50,
-      "figures": 4,
-      "imgs": 32,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 22,
-      "paragraphs": 37,
-      "figures": 4,
-      "imgs": 6,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "gestion-de-portefeuille-projet-pme",
     "type": "blog",
     "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
@@ -1691,36 +1684,6 @@
       "paragraphs": 57,
       "figures": 2,
       "imgs": 4,
-      "testimonials": 0
-    }
-  },
-  {
-    "slug": "kanban-gestion-de-projet",
-    "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet",
-    "rebuildUrl": "http://localhost:3000/fr/blog/kanban-gestion-de-projet",
-    "pass": true,
-    "headingsCov": 1,
-    "paragraphsOk": true,
-    "figuresOk": true,
-    "heroOk": true,
-    "liveHeadingsCount": 7,
-    "rebuildHeadingsCount": 9,
-    "liveParagraphCount": 52,
-    "rebuildParagraphCount": 38,
-    "missingHeadings": [],
-    "live": {
-      "headings": 7,
-      "paragraphs": 52,
-      "figures": 3,
-      "imgs": 31,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 9,
-      "paragraphs": 38,
-      "figures": 3,
-      "imgs": 5,
       "testimonials": 0
     }
   },
@@ -1755,34 +1718,32 @@
     }
   },
   {
-    "slug": "la-revue-de-projet",
+    "slug": "kanban-gestion-de-projet",
     "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/la-revue-de-projet",
-    "rebuildUrl": "http://localhost:3000/fr/blog/la-revue-de-projet",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet",
+    "rebuildUrl": "http://localhost:3000/fr/blog/kanban-gestion-de-projet",
     "pass": true,
-    "headingsCov": 0.9444444444444444,
+    "headingsCov": 1,
     "paragraphsOk": true,
-    "figuresOk": false,
+    "figuresOk": true,
     "heroOk": true,
-    "liveHeadingsCount": 18,
-    "rebuildHeadingsCount": 20,
-    "liveParagraphCount": 53,
+    "liveHeadingsCount": 7,
+    "rebuildHeadingsCount": 9,
+    "liveParagraphCount": 52,
     "rebuildParagraphCount": 38,
-    "missingHeadings": [
-      "‍ faites le lien entre le passé et le futur de votre projet"
-    ],
+    "missingHeadings": [],
     "live": {
-      "headings": 18,
-      "paragraphs": 53,
-      "figures": 5,
-      "imgs": 33,
+      "headings": 7,
+      "paragraphs": 52,
+      "figures": 3,
+      "imgs": 31,
       "testimonials": 0
     },
     "rebuild": {
-      "headings": 20,
+      "headings": 9,
       "paragraphs": 38,
-      "figures": 2,
-      "imgs": 7,
+      "figures": 3,
+      "imgs": 5,
       "testimonials": 0
     }
   },
@@ -1815,6 +1776,38 @@
       "paragraphs": 34,
       "figures": 0,
       "imgs": 5,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "la-revue-de-projet",
+    "type": "blog",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/la-revue-de-projet",
+    "rebuildUrl": "http://localhost:3000/fr/blog/la-revue-de-projet",
+    "pass": true,
+    "headingsCov": 0.9444444444444444,
+    "paragraphsOk": true,
+    "figuresOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 18,
+    "rebuildHeadingsCount": 20,
+    "liveParagraphCount": 53,
+    "rebuildParagraphCount": 38,
+    "missingHeadings": [
+      "‍ faites le lien entre le passé et le futur de votre projet"
+    ],
+    "live": {
+      "headings": 18,
+      "paragraphs": 53,
+      "figures": 5,
+      "imgs": 33,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 20,
+      "paragraphs": 38,
+      "figures": 2,
+      "imgs": 7,
       "testimonials": 0
     }
   },
@@ -2454,36 +2447,6 @@
     }
   },
   {
-    "slug": "preparer-comite-de-pilotage-d-un-projet",
-    "type": "blog",
-    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/preparer-comite-de-pilotage-d-un-projet",
-    "rebuildUrl": "http://localhost:3000/fr/blog/preparer-comite-de-pilotage-d-un-projet",
-    "pass": true,
-    "headingsCov": 1,
-    "paragraphsOk": true,
-    "figuresOk": false,
-    "heroOk": true,
-    "liveHeadingsCount": 19,
-    "rebuildHeadingsCount": 20,
-    "liveParagraphCount": 61,
-    "rebuildParagraphCount": 44,
-    "missingHeadings": [],
-    "live": {
-      "headings": 19,
-      "paragraphs": 61,
-      "figures": 11,
-      "imgs": 39,
-      "testimonials": 0
-    },
-    "rebuild": {
-      "headings": 20,
-      "paragraphs": 44,
-      "figures": 0,
-      "imgs": 13,
-      "testimonials": 0
-    }
-  },
-  {
     "slug": "pourquoi-vos-18-millions",
     "type": "blog",
     "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/pourquoi-vos-18-millions",
@@ -2510,6 +2473,36 @@
       "paragraphs": 64,
       "figures": 0,
       "imgs": 4,
+      "testimonials": 0
+    }
+  },
+  {
+    "slug": "preparer-comite-de-pilotage-d-un-projet",
+    "type": "blog",
+    "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/preparer-comite-de-pilotage-d-un-projet",
+    "rebuildUrl": "http://localhost:3000/fr/blog/preparer-comite-de-pilotage-d-un-projet",
+    "pass": true,
+    "headingsCov": 1,
+    "paragraphsOk": true,
+    "figuresOk": false,
+    "heroOk": true,
+    "liveHeadingsCount": 19,
+    "rebuildHeadingsCount": 20,
+    "liveParagraphCount": 61,
+    "rebuildParagraphCount": 44,
+    "missingHeadings": [],
+    "live": {
+      "headings": 19,
+      "paragraphs": 61,
+      "figures": 11,
+      "imgs": 39,
+      "testimonials": 0
+    },
+    "rebuild": {
+      "headings": 20,
+      "paragraphs": 44,
+      "figures": 0,
+      "imgs": 13,
       "testimonials": 0
     }
   },
