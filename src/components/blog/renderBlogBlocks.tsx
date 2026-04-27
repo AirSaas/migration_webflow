@@ -7,7 +7,6 @@ import { TableFrame } from "@/components/library-design/ui/TableFrame";
 import { InlineCta } from "@/components/library-design/ui/InlineCta";
 import { InsightCallout } from "@/components/library-design/ui/InsightCallout";
 import { IllustrationFrame } from "@/components/library-design/ui/IllustrationFrame";
-import { Button } from "@/components/library-design/ui/Button";
 import type { BlogArticleBlock } from "@/types/blog";
 
 /**
@@ -184,9 +183,12 @@ function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
     case "hubspot-cta":
       return (
         <div key={index} className="flex justify-center my-[1rem]">
-          <Button variant="primary" href={block.href}>
+          <a
+            href={block.href}
+            className="inline-flex items-center justify-center rounded-full px-[1.5rem] py-[0.75rem] bg-primary text-white font-medium hover:bg-foreground transition-colors"
+          >
             {block.label || "Télécharger"}
-          </Button>
+          </a>
         </div>
       );
     default:
