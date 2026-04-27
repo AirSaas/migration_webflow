@@ -125,12 +125,19 @@ def extract_hero(soup: BeautifulSoup):
         return None
     h1 = hero.find("h1")
     # Use the full clean text as title — splitting strong/em is fragile
-    title_full = clean_text(h1.get_text(separator=" ")) if h1 else ""
+    # Use plain get_text (no separator). separator=" " introduced regressions
+    # like "L'outil" → "L' outil" when <em>/<strong> wrap fragments mid-word.
+    # Accept that some Webflow source HTML has concat artifacts (rare).
+    raw_title = h1.get_text() if h1 else ""
+    # Strip " - AirSaas" / "| AirSaas" suffixes that come from CMS <title> tags
+    # leaking into H1.
+    raw_title = re.sub(r"\s*[-|]\s*AirSaas\s*$", "", raw_title, flags=re.IGNORECASE)
+    title_full = clean_text(raw_title)
 
     # subtitle: plain text only (Hero renders as Text without dangerouslySetInnerHTML,
     # so any <br/>/<strong> would be displayed as literal text).
     subtitle_tag = hero.find("p")
-    subtitle = clean_text(subtitle_tag.get_text(separator=" ")) if subtitle_tag else ""
+    subtitle = clean_text(subtitle_tag.get_text()) if subtitle_tag else ""
 
     # CTAs
     primary, secondary = None, None

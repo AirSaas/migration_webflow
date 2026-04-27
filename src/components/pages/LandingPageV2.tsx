@@ -60,15 +60,28 @@ function renderSection(section: LandingSection, index: number): ReactNode {
 
     case "intro": {
       const level = (section.headingLevel ?? 2) as 2 | 3 | 4;
-      const compact = level >= 3 && !section.body;
+      // Skip empty intros (defensive — parser drops them already)
+      if (!section.title && !section.body) return null;
+      // Sub-heading without body (level >= 3) → render as standalone H3
+      // band (compact, no section padding) so consecutive sub-headings
+      // visually group rather than each becoming a giant orphan section.
+      const isSubheading = level >= 3 && !section.body;
+      if (isSubheading) {
+        return (
+          <div
+            key={index}
+            className="flex justify-center px-[1.5rem] pt-[1.5rem] pb-[0.5rem] md:px-[3rem] md:pt-[2rem] lg:px-[10rem] bg-white"
+          >
+            <Heading level={level} align="center">
+              {section.title!}
+            </Heading>
+          </div>
+        );
+      }
       return (
         <section
           key={index}
-          className={
-            compact
-              ? "flex flex-col items-center gap-[0.75rem] px-[1.5rem] py-[1.25rem] md:px-[3rem] md:py-[1.5rem] lg:px-[10rem] bg-white text-center"
-              : "flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white text-center"
-          }
+          className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white text-center"
         >
           {section.title ? (
             <Heading level={level} align="center">
