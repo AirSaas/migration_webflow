@@ -46,7 +46,25 @@ export default async function BlogArticleRoute({
     notFound();
   }
 
-  const publishedDate = article.meta.publishedDate || undefined;
+  // Format "17/9/2025" (D/M/Y from Webflow) → "17 septembre 2025"
+  const FRENCH_MONTHS = [
+    "janvier", "février", "mars", "avril", "mai", "juin",
+    "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+  ];
+  const formatPublishedDate = (raw: string | null | undefined): string | undefined => {
+    if (!raw) return undefined;
+    const m = raw.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+    if (m) {
+      const day = parseInt(m[1], 10);
+      const month = parseInt(m[2], 10);
+      const year = parseInt(m[3], 10);
+      if (month >= 1 && month <= 12) {
+        return `${day} ${FRENCH_MONTHS[month - 1]} ${year}`;
+      }
+    }
+    return raw;
+  };
+  const publishedDate = formatPublishedDate(article.meta.publishedDate);
 
   const heroImage = article.meta.heroImage?.src || DEFAULT_HERO_IMAGE;
   const heroImageAlt = article.meta.heroImage?.alt || article.meta.h1;

@@ -125,12 +125,12 @@ def extract_hero(soup: BeautifulSoup):
         return None
     h1 = hero.find("h1")
     # Use the full clean text as title — splitting strong/em is fragile
-    title_full = clean_text(h1.get_text()) if h1 else ""
+    title_full = clean_text(h1.get_text(separator=" ")) if h1 else ""
 
     # subtitle: plain text only (Hero renders as Text without dangerouslySetInnerHTML,
     # so any <br/>/<strong> would be displayed as literal text).
     subtitle_tag = hero.find("p")
-    subtitle = clean_text(subtitle_tag.get_text()) if subtitle_tag else ""
+    subtitle = clean_text(subtitle_tag.get_text(separator=" ")) if subtitle_tag else ""
 
     # CTAs
     primary, secondary = None, None
@@ -144,14 +144,28 @@ def extract_hero(soup: BeautifulSoup):
         elif secondary is None:
             secondary = {"label": label, "href": href}
 
-    # Hero image: skip generic decorative SVGs (check-circle, ellipses)
+    # Hero image: skip generic decorative SVGs / icons. Only keep real
+    # product mockups / hero illustrations.
     img_src, img_alt = None, ""
+    DECORATIVE_PATTERNS = [
+        "check-circle", "ellipse", "decoration", "arrow", "arrow_down",
+        "/icon-", "/icon_", "_icon.", "icon-portfolio", "icon-feature",
+        "/svg/", "_logo.", "-logo.", "logo_", "ovh.svg", "iso27001",
+        "scaleway",
+    ]
     for img in hero.find_all("img"):
         src = normalize_src(img.get("src"))
         if not src:
             continue
-        # Skip decorative icons
-        if any(skip in src.lower() for skip in ["check-circle", "ellipse", "decoration"]):
+        src_lower = src.lower()
+        # Skip decorative SVGs (icons, arrows, logos, badges)
+        if any(p in src_lower for p in DECORATIVE_PATTERNS):
+            continue
+        # Skip standalone .svg unless its filename suggests a real illustration
+        if src_lower.endswith(".svg") and not any(
+            keyword in src_lower
+            for keyword in ["mockup", "screen", "dashboard", "illustration", "hero"]
+        ):
             continue
         img_src, img_alt = src, img.get("alt") or ""
         break
@@ -291,15 +305,23 @@ def extract_intros(soup: BeautifulSoup, taken_sections: set):
         if title_text is not None or current_body_parts:
             body = "".join(current_body_parts)
             if "fréquente" not in (title_text or "").lower():
-                out.append({
-                    "type": "intro",
-                    "title": title_text,
-                    "body": body or None,
-                })
-                emitted = True
+                # Skip emitting intro with just a title and no body (looks like
+                # a stub/orphan heading on the page). Sub-headings (level=3)
+                # are exempt — they're intentionally compact.
+                if title_text and not body and "level" not in (title_text or ""):
+                    pass
+                else:
+                    out.append({
+                        "type": "intro",
+                        "title": title_text,
+                        "body": body or None,
+                    })
+                    emitted = True
+        # Filter out truly empty intros from `out` (defensive — mostly already done above)
         if emitted:
             taken_sections.add(id(sect))
-    return out
+    # Final sweep: drop intros where both title and body are missing/empty
+    return [o for o in out if (o.get("title") or o.get("body"))]
 
 
 def extract_faq(soup: BeautifulSoup):
