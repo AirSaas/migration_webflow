@@ -151,9 +151,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[2.5rem] md:px-[3rem] md:py-[3.5rem] lg:px-[10rem] lg:py-[4.5rem] bg-primary-2"
         >
           {section.title ? (
-            <Text size="sm" align="center" className="uppercase tracking-widest text-text-light">
+            <Heading level={3} align="center">
               {section.title}
-            </Text>
+            </Heading>
           ) : null}
           <div className="flex flex-wrap items-center justify-center gap-[2rem] md:gap-[3rem] max-w-[91.25rem] w-full">
             {section.logos.slice(0, 12).map((logo, i) => (

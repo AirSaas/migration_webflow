@@ -177,35 +177,33 @@ def extract_feature_splits(soup: BeautifulSoup):
         h = text_block.find(["h2", "h3"])
         if not h:
             continue
-        # Title + highlight
-        strong = h.find("strong")
-        title_highlight = clean_text(strong.get_text()) if strong else None
-        title_plain = clean_text(h.get_text())
-        if title_highlight:
-            title_plain = title_plain.replace(title_highlight, "").strip()
-        # Body paragraphs + bullets
+        # Use FULL title — splitting on <strong> produced fragmented/reversed titles
+        title_full = clean_text(h.get_text())
+        # Body paragraphs + bullets — bullets become H3 sub-features in render,
+        # so verifier picks them up.
         body_parts = []
         bullets = []
+        seen_p = set()
         for child in text_block.find_all(recursive=False):
             if child is h:
                 continue
             if child.name == "p":
-                body_parts.append(inline_html(child))
+                html = inline_html(child)
+                if html and html not in seen_p:
+                    body_parts.append(html)
+                    seen_p.add(html)
             elif child.name in ("ul", "ol"):
                 for li in child.find_all("li", recursive=False):
-                    bullets.append(inline_html(li))
-        for p in text_block.find_all("p"):
-            html = inline_html(p)
-            if html and html not in body_parts:
-                body_parts.append(html)
+                    bullet_html = inline_html(li)
+                    if bullet_html:
+                        bullets.append(bullet_html)
         body = " ".join(body_parts)
         img_src, img_alt = first_img(img_block) if img_block else (None, "")
         out.append(
             {
                 "type": "feature-split",
                 "reversed": is_left,
-                "title": title_plain or title_highlight or "",
-                "titleHighlight": title_highlight,
+                "title": title_full,
                 "body": body,
                 "bullets": bullets if bullets else None,
                 "imageSrc": img_src,
