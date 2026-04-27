@@ -125,7 +125,7 @@ After all 4 are migrated, delete `_legacy/sections/` in a cleanup commit.
 
 | Item | Why deferred | What to do when you hit it |
 |---|---|---|
-| `HubspotCtaEmbed` | External script loader + env var dependency. Only 8 blog articles need it. | Inline: `<div id="hs-cta-wrapper-${ctaId}" />` + add the loader script `https://js.hscta.net/cta/current.js` once in `layout.tsx`. Promote to DS when ≥2 articles use it. |
+| `HubspotCtaEmbed` | ✅ **Approved for build (backlog)** — was previously deferred but proposal accepted (see §11 A2). 8 blog articles use the pattern, ≥2 threshold cleared. Build before Phase 1 blog rebuild to avoid inline tech debt. | New `library-design/ui/HubspotCtaEmbed.tsx`: props `portalId`, `ctaId`, optional `fallbackHref` + `fallbackLabel`. Singleton script loader (`window.__hsctaLoaderInjected` flag, NOT one script per CTA). `<Skeleton>` loading state. Fallback `<Button variant="primary">` if JS blocked. `@useWhen` scoped to `BlogArticleBody` only. Tests cover 3 paths: success / script-blocked / no-JS. |
 | Strapi content-type `article` | Schema not defined. Blocks content migration but not DS rebuild. | Propose schema + generate TypeScript types before wiring pages. |
 | `src/components/cms/ArticleBodyRenderer` | Blocks → DS components glue. Only needed when Strapi is wired. | Map block types (`rich-text`, `figure`, `blockquote`, etc.) to DS components (Heading, Text, IllustrationFrame, Quote, etc.). |
 | ~~Playwright snapshots for 11 new components~~ | ✅ **Resolved (commit `b5a3596`)** | `tests/visual/ds-components-storybook.spec.ts` covers the 11 components + `LpExamplePage` blueprint. 12 baselines committed. Run `npm run test:visual` (Storybook auto-started by playwright.config webServer). |
@@ -212,3 +212,41 @@ By the time you're done with a UI task:
 - [ ] Pre-commit hook passed
 
 **If all 10 boxes are checked**, the code is DS-compliant and ready to merge. Welcome to the team.
+
+---
+
+## 11. Active proposals — review log
+
+Living section. Append every proposal that needs a DS-level decision so the next agent has the reasoning trail (not just the final state).
+
+### A1 — `TestimonialsFrame.min` 2 → 1 — ❌ rejected (2026-04-27)
+
+**Proposed by**: external agent reviewing 26-pages audit residuals.
+**Scope**: 3 pages with a single testimonial (1 LP + 1 Équipes + 1 Solution).
+**Verdict**: **rejected**. Reasons:
+
+1. Contradicts current `@dontUse`: the contract explicitly says "for a single hero testimonial — just render a `<TestimonialCard>` inline".
+2. A "frame" is a grid wrapper. A grid of 1 cell is a fork (need a centered single-card layout) that adds branching logic + breaks the "frames render grids" mental model.
+3. Solution exists already: pages with 1 testimonial compose inline:
+   ```tsx
+   <section className="...same padding shape as TestimonialsFrame...">
+     <SectionHeading titleHighlight="..." title="..." />
+     <TestimonialCard {...quote} className="max-w-[42rem] mx-auto" />
+   </section>
+   ```
+4. If the inline pattern repeats ≥ 2 sites after rebuild → promote to a NEW dedicated `<SingleTestimonial>` ui-component, don't bend the frame.
+
+**Action**: external agent updates the 3 page templates to use the inline pattern. Frame contract stays at min=2.
+
+### A2 — `HubspotCtaEmbed` build — ✅ approved (2026-04-27)
+
+**Proposed by**: external agent reviewing blog audit residuals.
+**Scope**: 8 blog articles with HubSpot lead-magnet (whitepaper / demo book / etc.).
+**Verdict**: **approved**, build BEFORE Phase 1 (blog rebuild). Effort S (~60 lines).
+
+**Refinements added to original proposal**:
+1. Singleton script loader — guard via `window.__hsctaLoaderInjected` flag so the script `js.hscta.net/cta/current.js` is injected once (not 8 times if 8 CTAs render on the same article — rare but possible).
+2. Loading state — wrap container in `min-h-[3rem]` with `<Skeleton>` placeholder while script loads.
+3. Tests cover 3 paths: success (script + CTA renders), failure (adblock / CSP — fallback Button shown with `fallbackHref`), no-JS (server-rendered fallback).
+
+**Status**: see §6 row "HubspotCtaEmbed" — backlog item ready for build by next agent.
