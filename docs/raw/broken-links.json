@@ -120,56 +120,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -313,56 +265,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -506,56 +410,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -699,56 +555,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -884,56 +692,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1069,56 +829,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1254,56 +966,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1439,56 +1103,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1624,56 +1240,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1809,56 +1377,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1986,56 +1506,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2179,56 +1651,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2372,56 +1796,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2509,14 +1885,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/outil-ppm",
-        "resolved": "http://localhost:3000/fr/solution/outil-ppm",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -2573,56 +1941,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2766,56 +2086,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2959,56 +2231,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3152,56 +2376,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3337,56 +2513,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3530,56 +2658,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3723,56 +2803,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3860,30 +2892,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/rapport-flash",
-        "resolved": "http://localhost:3000/fr/solution/rapport-flash",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -3940,56 +2948,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4133,56 +3093,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4318,56 +3230,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4503,56 +3367,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4688,56 +3504,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4873,56 +3641,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5058,56 +3778,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5187,14 +3859,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -5259,56 +3923,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5388,14 +4004,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/outil-ppm",
-        "resolved": "http://localhost:3000/fr/solution/outil-ppm",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -5452,56 +4060,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5581,14 +4141,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -5645,56 +4197,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5774,14 +4278,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -5838,56 +4334,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5967,14 +4415,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/",
         "resolved": "https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/",
         "status": 0,
@@ -6048,56 +4488,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6249,56 +4641,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6442,56 +4786,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6627,56 +4923,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6756,14 +5004,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "http://gestion-de-projet/le-guide-du-mode-projet",
         "resolved": "http://gestion-de-projet/le-guide-du-mode-projet",
         "status": 0,
@@ -6829,56 +5069,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6958,22 +5150,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -7030,56 +5206,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7159,22 +5287,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -7231,56 +5343,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7360,14 +5424,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/",
         "resolved": "https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/",
         "status": 0,
@@ -7433,56 +5489,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7562,14 +5570,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "#",
         "classify": "EMPTY",
         "severity": "P2",
@@ -7580,14 +5580,6 @@
         "raw": "#",
         "classify": "EMPTY",
         "severity": "P2",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-decider-en-copil",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-decider-en-copil",
-        "status": 404,
-        "severity": "P1",
         "isCta": false
       },
       {
@@ -7648,56 +5640,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7849,56 +5793,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7978,14 +5874,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "status": 404,
@@ -8050,56 +5938,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8179,30 +6019,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/rapport-flash",
-        "resolved": "http://localhost:3000/fr/solution/rapport-flash",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
         "status": 404,
@@ -8267,56 +6083,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8396,22 +6164,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/analyse-des-risques-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/analyse-des-risques-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -8468,56 +6220,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8597,14 +6301,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "status": 404,
@@ -8669,56 +6365,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8798,22 +6446,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-animer-un-comite-de-pilotage",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-animer-un-comite-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -8870,56 +6502,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -9055,56 +6639,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -9184,14 +6720,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -9248,56 +6776,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -9377,14 +6857,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse",
         "status": 404,
@@ -9449,56 +6921,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -9578,64 +7002,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/rapport-flash",
-        "resolved": "http://localhost:3000/fr/solution/rapport-flash",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions",
-        "resolved": "http://localhost:3000/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-animer-un-comite-de-pilotage",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-animer-un-comite-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-decider-en-copil",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-decider-en-copil",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-mettre-en-place-un-comite-de-pilotage",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-en-place-un-comite-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -9698,56 +7066,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -9827,22 +7147,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/le-guide-du-mode-projet",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/le-guide-du-mode-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -9899,56 +7203,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -10028,22 +7284,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/plan-de-communication-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/plan-de-communication-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -10100,56 +7340,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -10293,56 +7485,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -10430,48 +7574,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/lean-portfolio-management",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/lean-portfolio-management",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/revue-de-portefeuille",
-        "resolved": "http://localhost:3000/fr/solution/revue-de-portefeuille",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
         "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -10526,56 +7630,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -10655,14 +7711,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -10719,56 +7767,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -10848,14 +7848,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -10912,56 +7904,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -11041,22 +7985,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/rapport-flash",
-        "resolved": "http://localhost:3000/fr/solution/rapport-flash",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-gestion-de-projet",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-gestion-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -11113,56 +8041,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -11298,56 +8178,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -11427,14 +8259,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -11499,56 +8323,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -11628,14 +8404,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -11700,56 +8468,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -11837,48 +8557,8 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/comment-reussir-un-projet-transverse",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-reussir-un-projet-transverse",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/analyse-des-risques-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/analyse-des-risques-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/la-revue-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/la-revue-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/tout-savoir-sur-le-budget-previsionnel-projet",
         "resolved": "http://localhost:3000/gestion-de-projet/tout-savoir-sur-le-budget-previsionnel-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/budgetiser-un-projet-sans-se-louper",
-        "resolved": "http://localhost:3000/gestion-de-projet/budgetiser-un-projet-sans-se-louper",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -11895,70 +8575,6 @@
         "kind": "a",
         "raw": "/gestion-de-projet/le-macro-planning-pourquoi-et-comment-sen-servir",
         "resolved": "http://localhost:3000/gestion-de-projet/le-macro-planning-pourquoi-et-comment-sen-servir",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-faire-un-bon-point-davancement-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-faire-un-bon-point-davancement-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/la-revue-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/la-revue-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-animer-un-bilan-projet-efficace",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-animer-un-bilan-projet-efficace",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/plan-de-communication-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/plan-de-communication-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/fiche-projet-exemple-et-methodologie",
-        "resolved": "http://localhost:3000/gestion-de-projet/fiche-projet-exemple-et-methodologie",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -12021,56 +8637,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -12206,56 +8774,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -12335,14 +8855,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -12399,56 +8911,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -12600,56 +9064,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -12729,22 +9145,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/plan-de-communication-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/plan-de-communication-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -12801,56 +9201,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -12993,56 +9345,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -13130,14 +9434,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -13194,56 +9490,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -13323,30 +9571,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/rapport-flash",
-        "resolved": "http://localhost:3000/fr/solution/rapport-flash",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -13403,56 +9627,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -13540,48 +9716,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/lean-portfolio-management",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/lean-portfolio-management",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/revue-de-portefeuille",
-        "resolved": "http://localhost:3000/fr/solution/revue-de-portefeuille",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
         "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -13636,56 +9772,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -13765,96 +9853,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/management-de-portefeuille-de-projet",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/management-de-portefeuille-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/chef-de-projet-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/chef-de-projet-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/role-du-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/role-du-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/comment-mettre-en-place-un-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/comment-mettre-en-place-un-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/reporting-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/reporting-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/chef-de-projet-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/chef-de-projet-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/role-du-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/role-du-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/comment-mettre-en-place-un-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/comment-mettre-en-place-un-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/reporting-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/reporting-pmo",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -13909,56 +9909,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -14038,14 +9990,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/pi-safe",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/pi-safe",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -14110,56 +10054,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -14303,56 +10199,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -14432,14 +10280,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -14504,56 +10344,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -14697,56 +10489,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -14826,14 +10570,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
         "resolved": "http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
         "status": 0,
@@ -14899,56 +10635,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -15092,56 +10780,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -15285,56 +10925,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -15422,48 +11014,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/lean-portfolio-management",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/lean-portfolio-management",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/revue-de-portefeuille",
-        "resolved": "http://localhost:3000/fr/solution/revue-de-portefeuille",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
         "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -15518,56 +11070,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -15647,14 +11151,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/role-du-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/role-du-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -15711,56 +11207,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -15896,56 +11344,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -16025,14 +11425,6 @@
       },
       {
         "kind": "a",
-        "raw": "/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien",
         "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien",
         "status": 404,
@@ -16097,56 +11489,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -16226,14 +11570,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/pi-safe",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/pi-safe",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -16298,56 +11634,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -16427,22 +11715,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/outil-ppm",
-        "resolved": "http://localhost:3000/fr/solution/outil-ppm",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
-        "resolved": "http://localhost:3000/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers",
         "resolved": "http://localhost:3000/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers",
         "status": 404,
@@ -16461,14 +11733,6 @@
         "kind": "a",
         "raw": "/gestion-de-projet/gestion-de-portefeuille-projets-comment-selectionner-les-bons-projets",
         "resolved": "http://localhost:3000/gestion-de-projet/gestion-de-portefeuille-projets-comment-selectionner-les-bons-projets",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -16539,56 +11803,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -16668,22 +11884,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/metier-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/metier-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -16740,56 +11940,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -16933,56 +12085,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -17062,22 +12166,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/gestion-de-projet/metier-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/metier-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
-        "resolved": "http://localhost:3000/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -17134,56 +12222,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -17263,30 +12303,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/solution/rapport-flash",
-        "resolved": "http://localhost:3000/fr/solution/rapport-flash",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "resolved": "http://localhost:3000/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/gestion-de-projet/comment-animer-un-bilan-projet-efficace",
-        "resolved": "http://localhost:3000/gestion-de-projet/comment-animer-un-bilan-projet-efficace",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/meetings-pages",
         "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
@@ -17343,56 +12359,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -17528,56 +12496,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/blog",
-        "resolved": "http://localhost:3000/fr/blog",
-        "status": 500,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/podcast",
-        "resolved": "http://localhost:3000/fr/blog/podcast",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/blog/nouveautes",
-        "resolved": "http://localhost:3000/fr/blog/nouveautes",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/temoignages",
         "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/management-de-portefeuille-projet",
-        "resolved": "http://localhost:3000/fr/solution/management-de-portefeuille-projet",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/flash-report",
-        "resolved": "http://localhost:3000/fr/solution/flash-report",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/solution/tableau-de-bord-dsi",
-        "resolved": "http://localhost:3000/fr/solution/tableau-de-bord-dsi",
         "status": 404,
         "severity": "P1",
         "isCta": false

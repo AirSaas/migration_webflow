@@ -17,6 +17,53 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       // =============================================
+      // Webflow legacy → rebuild paths
+      // (catches internal links inside parsed Webflow content + external
+      //  inbound traffic from the old site structure)
+      // =============================================
+      {
+        // Webflow had a slug `rapport-flash` that the rebuild renamed to
+        // `flash-report-projet`. Override the generic /fr/solution/:slug
+        // catch-all for this specific slug.
+        source: "/fr/solution/rapport-flash",
+        destination: "/fr/solutions/flash-report-projet",
+        permanent: true,
+      },
+      {
+        // Webflow used /fr/solution/X (singular). Rebuild lives under
+        // /fr/solutions/X (plural) — fixes ~280 internal nav links.
+        source: "/fr/solution/:slug",
+        destination: "/fr/solutions/:slug",
+        permanent: true,
+      },
+      {
+        // Webflow blog articles lived at /gestion-de-projet/{slug} (no
+        // locale prefix). Rebuild canonical is /fr/blog/{slug}.
+        source: "/gestion-de-projet/:slug",
+        destination: "/fr/blog/:slug",
+        permanent: true,
+      },
+      {
+        // Some inline links use the locale-prefixed legacy form.
+        source: "/fr/gestion-de-projet/:slug",
+        destination: "/fr/blog/:slug",
+        permanent: true,
+      },
+      {
+        // Empty blog category (podcast hub) → main articles index until
+        // dedicated category page is rebuilt in Phase 7.
+        source: "/fr/blog/podcast",
+        destination: "/fr/blog/articles",
+        permanent: true,
+      },
+      {
+        // Same for nouveautes category.
+        source: "/fr/blog/nouveautes",
+        destination: "/fr/blog/articles",
+        permanent: true,
+      },
+
+      // =============================================
       // Blog URL cleanup (supprimer les -2 et -3)
       // =============================================
       { source: "/blog-2", destination: "/blog", permanent: true },
