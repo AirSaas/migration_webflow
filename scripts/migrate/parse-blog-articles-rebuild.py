@@ -44,8 +44,53 @@ BODY_SELECTORS = [
 ]
 
 
+ZWSP_RE = re.compile(r"[​‌‍⁠﻿]")
+
+
 def clean_text(s):
-    return re.sub(r"\s+", " ", unescape(s or "")).strip()
+    if not s:
+        return ""
+    s = ZWSP_RE.sub("", unescape(s))
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def strip_speaker_placeholder(html: str) -> str:
+    """Remove Webflow CMS authoring instructions that leak into rendered callouts.
+
+    Source pattern (visible to end users):
+        Speaker avatar:
+        <a href="...">insert the link to the speaker page between: href="https://LINK_SPEAKER_PAGE" Speaker avatar: change url of "background-image" to ...</a>
+        end Speaker avatar:
+        <real expert quote>
+
+    We strip from the first `Speaker avatar:` line up to and including
+    `end Speaker avatar:` (case-insensitive). Whatever follows is the actual
+    quote content.
+    """
+    if not html or "Speaker avatar" not in html:
+        return html
+    cleaned = re.sub(
+        r"Speaker avatar:.*?end Speaker avatar:\s*",
+        "",
+        html,
+        count=0,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    # Defensive : if the closing marker is missing in the source, fall back to
+    # stripping the lone opening line + the placeholder anchor.
+    cleaned = re.sub(
+        r"Speaker avatar:\s*<a[^>]*>[^<]*LINK_SPEAKER_PAGE[^<]*</a>\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(
+        r"Speaker avatar:[^<]*?(LINK_SPEAKER_PAGE|change url of)[^<]*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    return cleaned.strip()
 
 
 def slugify(text):
@@ -262,8 +307,12 @@ def parse_block(el):
         # Insight callout (citation-blog, a-retenir-podcast1, etc.)
         if re.search(r"(citation-blog|a-retenir|callout|insight|highlight)", classes, re.I):
             html = inline_html(el)
-            if html:
-                return {"type": "insight-callout", "html": html}
+            html = strip_speaker_placeholder(html)
+            # Drop callouts whose content is empty after stripping CMS template
+            # boilerplate — they would render as visible empty boxes.
+            if not html or len(re.sub(r"<[^>]+>|\s|[​-‍﻿]", "", html)) < 10:
+                return None
+            return {"type": "insight-callout", "html": html}
         # HubSpot CTA embed: external lead-magnet popup. We can't reproduce
         # the JS popup, so fall back to /meetings-pages (demo booking) which
         # is the natural next-step CTA on AirSaas.

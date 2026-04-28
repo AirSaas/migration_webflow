@@ -52,13 +52,90 @@ def fetch_pages(page_type: str) -> list:
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
+# Zero-width chars Webflow scatters inside paragraphs as decorative spacing.
+# Strip them everywhere so they never reach the rendered DOM as visible empty
+# paragraphs / heading-orphan sections.
+ZWSP_RE = re.compile(r"[​‌‍⁠﻿]")
+
 
 def clean_text(s: str) -> str:
-    return re.sub(r"\s+", " ", unescape(s or "")).strip()
+    if not s:
+        return ""
+    s = ZWSP_RE.sub("", unescape(s))
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def heading_text(tag: Tag) -> str:
+    """Heading-aware text extraction with word boundaries preserved.
+
+    Plain `get_text()` collapses `<strong>PPM</strong>pour` to `PPMpour` (real
+    word-boundary lost). Using `separator=" "` everywhere instead breaks
+    decorative drop-caps like `<em class="heading__pill">A</em>joutez` (becomes
+    `A joutez`). We walk the tree and emit a space separator only when the
+    inline tag is NOT a drop-cap (`heading__pill`, `dropcap`, etc.) or `<br/>`.
+    """
+    if tag is None:
+        return ""
+
+    DECORATIVE_CLASSES = ("heading__pill", "drop-cap", "dropcap", "first-letter")
+
+    def is_decorative(child):
+        cls = child.get("class") or []
+        cls_str = " ".join(cls).lower()
+        return any(d in cls_str for d in DECORATIVE_CLASSES)
+
+    parts: list[str] = []
+
+    def walk(node):
+        for child in node.children:
+            if isinstance(child, NavigableString):
+                parts.append(unescape(str(child)))
+            elif isinstance(child, Tag):
+                name = child.name
+                if name == "br":
+                    parts.append(" ")
+                    continue
+                if name in ("strong", "b", "em", "i", "span", "a", "mark", "u"):
+                    decorative = is_decorative(child)
+                    if not decorative:
+                        # Insert a separator BEFORE the inline tag so
+                        # `<strong>PPM</strong>pour` → "PPM pour" and
+                        # `désormais <strong>en</strong>multilingue` → "désormais en multilingue".
+                        if parts and not parts[-1].endswith((" ", "\n")):
+                            parts.append(" ")
+                    walk(child)
+                    if not decorative:
+                        # Separator AFTER the inline tag too, before the next
+                        # adjacent text node.
+                        parts.append(" ")
+                else:
+                    walk(child)
+
+    walk(tag)
+    text = ZWSP_RE.sub("", "".join(parts))
+    text = re.sub(r"\s+", " ", text)
+    # Re-glue French apostrophe contractions: `L' outil` → `L'outil`.
+    text = re.sub(r"([’'ʼ])\s+(\w)", r"\1\2", text)
+    return text.strip()
+
+
+def is_visually_empty(html_or_text: str) -> bool:
+    """True if the string is empty after stripping ZWSP, whitespace, and trivial
+    HTML wrappers (`<p></p>`, `<br/>`, etc.)."""
+    if not html_or_text:
+        return True
+    s = ZWSP_RE.sub("", html_or_text)
+    s = re.sub(r"</?(p|br|span)\s*/?>", "", s, flags=re.I)
+    s = re.sub(r"\s+", "", s)
+    return not s
 
 
 def inline_html(tag: Tag) -> str:
-    """Serialize inline content with <strong>, <em>, <a>, <br>, <strong> preserved."""
+    """Serialize inline content with <strong>, <em>, <a>, <br> preserved.
+
+    Returns "" if the resulting markup is visually empty (only ZWSP / whitespace
+    inside trivial tags) — so callers can `if not inline_html(p): skip` reliably.
+    """
     parts = []
     for child in tag.children:
         if isinstance(child, NavigableString):
@@ -66,17 +143,25 @@ def inline_html(tag: Tag) -> str:
         elif isinstance(child, Tag):
             name = child.name
             if name in ("strong", "b"):
-                parts.append(f"<strong>{inline_html(child)}</strong>")
+                inner = inline_html(child)
+                if inner:
+                    parts.append(f"<strong>{inner}</strong>")
             elif name in ("em", "i"):
-                parts.append(f"<em>{inline_html(child)}</em>")
+                inner = inline_html(child)
+                if inner:
+                    parts.append(f"<em>{inner}</em>")
             elif name == "a":
                 href = child.get("href", "#")
-                parts.append(f'<a href="{href}">{inline_html(child)}</a>')
+                inner = inline_html(child)
+                if inner:
+                    parts.append(f'<a href="{href}">{inner}</a>')
             elif name == "br":
                 parts.append("<br/>")
             else:
                 parts.append(inline_html(child))
-    return re.sub(r"\s+", " ", "".join(parts)).strip()
+    out = ZWSP_RE.sub("", "".join(parts))
+    out = re.sub(r"\s+", " ", out).strip()
+    return "" if is_visually_empty(out) else out
 
 
 def normalize_src(src):
@@ -124,13 +209,10 @@ def extract_hero(soup: BeautifulSoup):
     if not hero:
         return None
     h1 = hero.find("h1")
-    # Use the full clean text as title — splitting strong/em is fragile
-    # Use plain get_text (no separator). separator=" " introduced regressions
-    # like "L'outil" → "L' outil" when <em>/<strong> wrap fragments mid-word.
-    # Accept that some Webflow source HTML has concat artifacts (rare).
-    raw_title = h1.get_text() if h1 else ""
-    # Strip " - AirSaas" / "| AirSaas" suffixes that come from CMS <title> tags
-    # leaking into H1.
+    # heading_text uses separator=" " then repairs French apostrophe spacing,
+    # so we get word-boundary-correct titles (no `PPMpour` concat bug) without
+    # introducing the `L' outil` regression.
+    raw_title = heading_text(h1)
     raw_title = re.sub(r"\s*[-|]\s*AirSaas\s*$", "", raw_title, flags=re.IGNORECASE)
     title_full = clean_text(raw_title)
 
@@ -200,8 +282,7 @@ def extract_feature_splits(soup: BeautifulSoup):
         h = text_block.find(["h2", "h3"])
         if not h:
             continue
-        # Use FULL title — splitting on <strong> produced fragmented/reversed titles
-        title_full = clean_text(h.get_text())
+        title_full = heading_text(h)
         # Body paragraphs + bullets — bullets become H3 sub-features in render,
         # so verifier picks them up.
         body_parts = []
@@ -291,8 +372,16 @@ def extract_intros(soup: BeautifulSoup, taken_sections: set):
         for el in sect.find_all(["h2", "h3", "h4", "p", "ul", "ol"], recursive=True):
             if el.find_parent(class_="wrapper__faq"):
                 continue
+            # Skip elements that live inside a .container__features__section :
+            # those are owned by extract_feature_splits and would otherwise
+            # produce duplicate H3 entries (the "title-less intro with
+            # subSections" pattern).
+            if el.find_parent(class_="container__features__section"):
+                continue
             tag = el.name
-            text = clean_text(el.get_text())
+            # Headings need word-boundary preservation (PPMpour bug); body text
+            # only needs ZWSP/whitespace cleanup.
+            text = heading_text(el) if tag in ("h2", "h3", "h4") else clean_text(el.get_text())
             if not text and tag in ("h2", "h3", "h4"):
                 continue
             if tag == "h2":
@@ -527,6 +616,23 @@ def parse_page(row: dict, page_type: str) -> dict:
             s for s in splits
             if normalize_for_dedup(s.get("title") or "") != hero_title_norm
         ]
+
+    # Drop title-only intros (heading without body or subSections) — they
+    # render as visually empty boxes (typical Webflow source quirk: H2 stub
+    # with content scattered into adjacent feature-splits).
+    intros = [
+        i for i in intros
+        if (i.get("body") and not is_visually_empty(i.get("body") or ""))
+        or i.get("subSections")
+    ]
+    # Drop feature-splits that have no body, no bullets, and no image —
+    # nothing to show.
+    splits = [
+        s for s in splits
+        if (s.get("body") and not is_visually_empty(s.get("body") or ""))
+        or s.get("bullets")
+        or s.get("imageSrc")
+    ]
 
     sections.extend(intros)
     sections.extend(splits)

@@ -1,0 +1,2126 @@
+[
+  {
+    "slug": "ppm",
+    "type": "lp",
+    "path": "/fr/lp/ppm",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/lp/ppm",
+      "perf": 100,
+      "a11y": 96,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 341.71299999999997,
+      "cls": 0.004883,
+      "inp": null,
+      "fcp": 301.71299999999997,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pmo",
+    "type": "lp",
+    "path": "/fr/lp/pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/lp/pmo",
+      "perf": 100,
+      "a11y": 96,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 377.46455,
+      "cls": 0.004592000000000001,
+      "inp": null,
+      "fcp": 257.4299,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "lp",
+    "path": "/fr/lp/capacity-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/lp/capacity-planning",
+      "perf": 100,
+      "a11y": 96,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 402.4163,
+      "cls": 0.0026320000000000002,
+      "inp": null,
+      "fcp": 282.4163,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pi-planning",
+    "type": "lp",
+    "path": "/fr/lp/pi-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/lp/pi-planning",
+      "perf": 100,
+      "a11y": 96,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 422.6805,
+      "cls": 0.002114,
+      "inp": null,
+      "fcp": 262.6805,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "automatiser-la-com-projet",
+    "type": "produit",
+    "path": "/fr/produit/automatiser-la-com-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/produit/automatiser-la-com-projet",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 398.47915,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 277.6798,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "budget",
+    "type": "produit",
+    "path": "/fr/produit/budget",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/produit/budget",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 509.11480000000006,
+      "cls": 0.040318,
+      "inp": null,
+      "fcp": 309.1148,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "produit",
+    "path": "/fr/produit/capacity-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/produit/capacity-planning",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 595.9816999999999,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 267.5377,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "priorisation-par-equipes",
+    "type": "produit",
+    "path": "/fr/produit/priorisation-par-equipes",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/produit/priorisation-par-equipes",
+      "perf": 99,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 967.8604249999997,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 255.81579999999997,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "reporting-projet",
+    "type": "produit",
+    "path": "/fr/produit/reporting-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/produit/reporting-projet",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 359.2803,
+      "cls": 0.001739,
+      "inp": null,
+      "fcp": 279.2803,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "traduction-one-click-avec-deepl",
+    "type": "produit",
+    "path": "/fr/produit/traduction-one-click-avec-deepl",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/produit/traduction-one-click-avec-deepl",
+      "perf": 98,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1098.453525,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 260.41479999999996,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "airsaas-et-les-experts-de-la-transfo",
+    "type": "solution",
+    "path": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/airsaas-et-les-experts-de-la-transfo",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 740.6255,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 272.05050000000006,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "flash-report",
+    "type": "solution",
+    "path": "/fr/solutions/flash-report",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/flash-report",
+      "perf": 91,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1971.2528750000004,
+      "cls": 0.003216,
+      "inp": null,
+      "fcp": 254.62250000000003,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "flash-report-projet",
+    "type": "solution",
+    "path": "/fr/solutions/flash-report-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/flash-report-projet",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 409.59432499999997,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 269.59169999999995,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "gestion-portefeuille-projet",
+    "type": "solution",
+    "path": "/fr/solutions/gestion-portefeuille-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/gestion-portefeuille-projet",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 494.32989999999984,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 254.2939,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "management-de-portefeuille-projet",
+    "type": "solution",
+    "path": "/fr/solutions/management-de-portefeuille-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/management-de-portefeuille-projet",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 389.0246,
+      "cls": 0.004066,
+      "inp": null,
+      "fcp": 269.0246,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "outil-ppm",
+    "type": "solution",
+    "path": "/fr/solutions/outil-ppm",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/outil-ppm",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 454.95709999999997,
+      "cls": 0.002355,
+      "inp": null,
+      "fcp": 254.95709999999997,
+      "tbt": 0.5,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "outils-de-pilotage-projet",
+    "type": "solution",
+    "path": "/fr/solutions/outils-de-pilotage-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/outils-de-pilotage-projet",
+      "perf": 94,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1668.8455,
+      "cls": 0.004968,
+      "inp": null,
+      "fcp": 270.813,
+      "tbt": 3,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "portfolio-management",
+    "type": "solution",
+    "path": "/fr/solutions/portfolio-management",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/portfolio-management",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 415.3563,
+      "cls": 0.001073,
+      "inp": null,
+      "fcp": 255.35629999999998,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "revue-de-portefeuille",
+    "type": "solution",
+    "path": "/fr/solutions/revue-de-portefeuille",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/revue-de-portefeuille",
+      "perf": 93,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1805.55435,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 254.4441,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "tableau-de-bord-dsi",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-dsi",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-dsi",
+      "perf": 100,
+      "a11y": 99,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 426.7581,
+      "cls": 0.002355,
+      "inp": null,
+      "fcp": 266.7581,
+      "tbt": 0.5,
+      "a11yFails": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "tableau-de-bord-gestion-de-projet",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-gestion-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-gestion-de-projet",
+      "perf": 90,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 2031.6706999999997,
+      "cls": 0.001117,
+      "inp": null,
+      "fcp": 395.55690000000004,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "tableau-de-bord-portefeuille-de-projet",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-portefeuille-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-portefeuille-de-projet",
+      "perf": 100,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 471.4614,
+      "cls": 0.0010969999999999999,
+      "inp": null,
+      "fcp": 271.4614,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comite-direction",
+    "type": "equipe",
+    "path": "/fr/equipes/comite-direction",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/equipes/comite-direction",
+      "perf": 99,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 827.2741000000001,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 255.27409999999998,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "direction-de-la-transformation",
+    "type": "equipe",
+    "path": "/fr/equipes/direction-de-la-transformation",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/equipes/direction-de-la-transformation",
+      "perf": 99,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1031.5264500000003,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 259.5179,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "it-et-operation",
+    "type": "equipe",
+    "path": "/fr/equipes/it-et-operation",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/equipes/it-et-operation",
+      "perf": 98,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1142.9064249999997,
+      "cls": 0.000406,
+      "inp": null,
+      "fcp": 258.9644,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "outil-pmo",
+    "type": "equipe",
+    "path": "/fr/equipes/outil-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/equipes/outil-pmo",
+      "perf": 99,
+      "a11y": 100,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1007.9724750000001,
+      "cls": 0.023587,
+      "inp": null,
+      "fcp": 255.9475,
+      "tbt": 0,
+      "a11yFails": [],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+    "type": "blog",
+    "path": "/fr/blog/10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+      "perf": 95,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1016.444525,
+      "cls": 0.11620500000000002,
+      "inp": null,
+      "fcp": 310.817,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "analyse-des-risques-projet",
+    "type": "blog",
+    "path": "/fr/blog/analyse-des-risques-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/analyse-des-risques-projet",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 922.5692,
+      "cls": 0.08805000000000002,
+      "inp": null,
+      "fcp": 350.5692,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+      "perf": 99,
+      "a11y": 96,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 379.57724999999994,
+      "cls": 0.07026299999999999,
+      "inp": null,
+      "fcp": 299.55715,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "budget-previsionnel-projet",
+    "type": "blog",
+    "path": "/fr/blog/budget-previsionnel-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/budget-previsionnel-projet",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 748.2705000000001,
+      "cls": 0.08805500000000001,
+      "inp": null,
+      "fcp": 296.27049999999997,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "budgetiser-un-projet-sans-se-louper",
+    "type": "blog",
+    "path": "/fr/blog/budgetiser-un-projet-sans-se-louper",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/budgetiser-un-projet-sans-se-louper",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 990.4042,
+      "cls": 0.088067,
+      "inp": null,
+      "fcp": 338.36580000000004,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "cadrage-projet",
+    "type": "blog",
+    "path": "/fr/blog/cadrage-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/cadrage-projet",
+      "perf": 88,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1663.8240000000005,
+      "cls": 0.148691,
+      "inp": null,
+      "fcp": 330.824,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "blog",
+    "path": "/fr/blog/capacity-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/capacity-planning",
+      "perf": 94,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1469.2896000000003,
+      "cls": 0.086425,
+      "inp": null,
+      "fcp": 333.28960000000006,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "capacity-planning-definition",
+    "type": "blog",
+    "path": "/fr/blog/capacity-planning-definition",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/capacity-planning-definition",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 845.5409999999999,
+      "cls": 0.08803300000000001,
+      "inp": null,
+      "fcp": 326.65749999999997,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "chef-de-projet-pmo",
+    "type": "blog",
+    "path": "/fr/blog/chef-de-projet-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/chef-de-projet-pmo",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1035.7077,
+      "cls": 0.08803300000000001,
+      "inp": null,
+      "fcp": 299.7077,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "chef-de-projet-transverse",
+    "type": "blog",
+    "path": "/fr/blog/chef-de-projet-transverse",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/chef-de-projet-transverse",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 519.4900500000001,
+      "cls": 0.086539,
+      "inp": null,
+      "fcp": 339.4509,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comite-de-pilotage-definitions-et-incomprehensions",
+    "type": "blog",
+    "path": "/fr/blog/comite-de-pilotage-definitions-et-incomprehensions",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comite-de-pilotage-definitions-et-incomprehensions",
+      "perf": 98,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 742.2950249999999,
+      "cls": 0.08693500000000001,
+      "inp": null,
+      "fcp": 323.25509999999997,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comite-pilotage-projet",
+    "type": "blog",
+    "path": "/fr/blog/comite-pilotage-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comite-pilotage-projet",
+      "perf": 99,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 461.6918750000001,
+      "cls": 0.057948,
+      "inp": null,
+      "fcp": 321.06275000000005,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-animer-un-bilan-projet-efficace",
+    "type": "blog",
+    "path": "/fr/blog/comment-animer-un-bilan-projet-efficace",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-animer-un-bilan-projet-efficace",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 828.1205,
+      "cls": 0.088181,
+      "inp": null,
+      "fcp": 336.1205,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-animer-un-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-animer-un-comite-de-pilotage",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-animer-un-comite-de-pilotage",
+      "perf": 94,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1389.6419250000004,
+      "cls": 0.08810400000000002,
+      "inp": null,
+      "fcp": 342.8057,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+    "type": "blog",
+    "path": "/fr/blog/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+      "perf": 89,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1562.0295,
+      "cls": 0.13881400000000002,
+      "inp": null,
+      "fcp": 384.0295,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-decider-en-copil",
+    "type": "blog",
+    "path": "/fr/blog/comment-decider-en-copil",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-decider-en-copil",
+      "perf": 96,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 742.910525,
+      "cls": 0.11620500000000002,
+      "inp": null,
+      "fcp": 365.40689999999995,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-elaborer-un-reporting-efficace",
+    "type": "blog",
+    "path": "/fr/blog/comment-elaborer-un-reporting-efficace",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-elaborer-un-reporting-efficace",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 857.921725,
+      "cls": 0.08799400000000002,
+      "inp": null,
+      "fcp": 301.21025000000003,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-faire-un-bon-point-davancement-projet",
+    "type": "blog",
+    "path": "/fr/blog/comment-faire-un-bon-point-davancement-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-faire-un-bon-point-davancement-projet",
+      "perf": 88,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1610.3754000000001,
+      "cls": 0.148721,
+      "inp": null,
+      "fcp": 334.3754,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+      "perf": 95,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1195.3123,
+      "cls": 0.09365400000000002,
+      "inp": null,
+      "fcp": 295.2397000000001,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 545.830175,
+      "cls": 0.08817000000000001,
+      "inp": null,
+      "fcp": 299.2162,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-mettre-en-place-un-pmo",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-en-place-un-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-mettre-en-place-un-pmo",
+      "perf": 92,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1164.692,
+      "cls": 0.14868699999999999,
+      "inp": null,
+      "fcp": 363.692,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-mettre-une-bonne-meteo-projet",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-une-bonne-meteo-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-mettre-une-bonne-meteo-projet",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 702.2058499999999,
+      "cls": 0.08647700000000001,
+      "inp": null,
+      "fcp": 319.0310999999999,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "comment-reussir-un-projet-transverse",
+    "type": "blog",
+    "path": "/fr/blog/comment-reussir-un-projet-transverse",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/comment-reussir-un-projet-transverse",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 697.491375,
+      "cls": 0.08820200000000002,
+      "inp": null,
+      "fcp": 310.09349999999995,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "copil-projet-ou-comite-de-pilotage-projet-les-bases",
+    "type": "blog",
+    "path": "/fr/blog/copil-projet-ou-comite-de-pilotage-projet-les-bases",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/copil-projet-ou-comite-de-pilotage-projet-les-bases",
+      "perf": 90,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1361.3486500000004,
+      "cls": 0.148521,
+      "inp": null,
+      "fcp": 345.1499,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "demarche-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/demarche-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/demarche-de-projet",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 478.66599999999994,
+      "cls": 0.060287999999999994,
+      "inp": null,
+      "fcp": 318.66599999999994,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "fiche-projet-exemple-et-methodologie",
+    "type": "blog",
+    "path": "/fr/blog/fiche-projet-exemple-et-methodologie",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/fiche-projet-exemple-et-methodologie",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 695.55385,
+      "cls": 0.08651400000000001,
+      "inp": null,
+      "fcp": 317.0359,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "gestion-de-portefeuille-projet-pme",
+    "type": "blog",
+    "path": "/fr/blog/gestion-de-portefeuille-projet-pme",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/gestion-de-portefeuille-projet-pme",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 467.67895,
+      "cls": 0.060295999999999995,
+      "inp": null,
+      "fcp": 347.66589999999997,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
+      "perf": 99,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 754.1985,
+      "cls": 0.060416,
+      "inp": null,
+      "fcp": 426.4557,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "td-has-header",
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "jalon-projet",
+    "type": "blog",
+    "path": "/fr/blog/jalon-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/jalon-projet",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 440.85169999999994,
+      "cls": 0.060271,
+      "inp": null,
+      "fcp": 300.85169999999994,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "kanban-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/kanban-gestion-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/kanban-gestion-de-projet",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 516.2919250000001,
+      "cls": 0.060263,
+      "inp": null,
+      "fcp": 296.25975000000005,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "kpi-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/kpi-gestion-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/kpi-gestion-de-projet",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 834.4082000000001,
+      "cls": 0.08814500000000002,
+      "inp": null,
+      "fcp": 302.4082,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "type": "blog",
+    "path": "/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 497.1265,
+      "cls": 0.060385,
+      "inp": null,
+      "fcp": 337.1265,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "la-revue-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/la-revue-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/la-revue-de-projet",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 461.5706,
+      "cls": 0.057283999999999995,
+      "inp": null,
+      "fcp": 321.5706,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "le-diagramme-de-gantt-comment-sen-servir",
+    "type": "blog",
+    "path": "/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 654.3520000000001,
+      "cls": 0.08805500000000001,
+      "inp": null,
+      "fcp": 304.67400000000004,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "le-grand-guide-de-la-conduite-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/le-grand-guide-de-la-conduite-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/le-grand-guide-de-la-conduite-de-projet",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 873.9879000000001,
+      "cls": 0.08803300000000001,
+      "inp": null,
+      "fcp": 381.9879,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "le-guide-du-mode-projet",
+    "type": "blog",
+    "path": "/fr/blog/le-guide-du-mode-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/le-guide-du-mode-projet",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1069.6396,
+      "cls": 0.08686100000000001,
+      "inp": null,
+      "fcp": 337.52350000000007,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 359.4533,
+      "cls": 0.060263,
+      "inp": null,
+      "fcp": 319.22775,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+    "type": "blog",
+    "path": "/fr/blog/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 418.5257999999999,
+      "cls": 0.057964999999999996,
+      "inp": null,
+      "fcp": 298.52354999999994,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+    "type": "blog",
+    "path": "/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 575.0657000000002,
+      "cls": 0.060377,
+      "inp": null,
+      "fcp": 335.0657,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "lean-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/lean-portfolio-management",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/lean-portfolio-management",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 498.59709999999995,
+      "cls": 0.032545,
+      "inp": null,
+      "fcp": 338.59709999999995,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "type": "blog",
+    "path": "/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+      "perf": 99,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 934.444475,
+      "cls": 0.060377,
+      "inp": null,
+      "fcp": 345.3446,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "macro-planning",
+    "type": "blog",
+    "path": "/fr/blog/macro-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/macro-planning",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 845.3235999999999,
+      "cls": 0.08805500000000001,
+      "inp": null,
+      "fcp": 313.19295,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "management-de-portefeuille-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/management-de-portefeuille-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/management-de-portefeuille-de-projet",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 586.0614999999999,
+      "cls": 0.060334,
+      "inp": null,
+      "fcp": 426.06089999999995,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "td-has-header",
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "metier-pmo",
+    "type": "blog",
+    "path": "/fr/blog/metier-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/metier-pmo",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 540.985625,
+      "cls": 0.030293,
+      "inp": null,
+      "fcp": 360.1835,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pi-planning",
+    "type": "blog",
+    "path": "/fr/blog/pi-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/pi-planning",
+      "perf": 99,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 530.51,
+      "cls": 0.058471999999999996,
+      "inp": null,
+      "fcp": 410.2544,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pi-safe",
+    "type": "blog",
+    "path": "/fr/blog/pi-safe",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/pi-safe",
+      "perf": 94,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1350.3269,
+      "cls": 0.08803300000000001,
+      "inp": null,
+      "fcp": 295.3269,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pilotage-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/pilotage-de-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/pilotage-de-projet",
+      "perf": 97,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 839.8368,
+      "cls": 0.08803300000000001,
+      "inp": null,
+      "fcp": 307.83680000000004,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "plan-capacitaire",
+    "type": "blog",
+    "path": "/fr/blog/plan-capacitaire",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/plan-capacitaire",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 497.9769,
+      "cls": 0.060295999999999995,
+      "inp": null,
+      "fcp": 337.9769,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "plan-de-communication-projet",
+    "type": "blog",
+    "path": "/fr/blog/plan-de-communication-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/plan-de-communication-projet",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 774.8126,
+      "cls": 0.08812600000000001,
+      "inp": null,
+      "fcp": 348.0086,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "planification-de-la-capacite",
+    "type": "blog",
+    "path": "/fr/blog/planification-de-la-capacite",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/planification-de-la-capacite",
+      "perf": 91,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1250.6857,
+      "cls": 0.151227,
+      "inp": null,
+      "fcp": 295.6857,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "planification-de-la-demande-capacity-planning",
+    "type": "blog",
+    "path": "/fr/blog/planification-de-la-demande-capacity-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/planification-de-la-demande-capacity-planning",
+      "perf": 100,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 424.24640000000005,
+      "cls": 0.05879499999999999,
+      "inp": null,
+      "fcp": 303.74075,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "portefeuille-projet",
+    "type": "blog",
+    "path": "/fr/blog/portefeuille-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/portefeuille-projet",
+      "perf": 99,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 724.1423,
+      "cls": 0.058721999999999996,
+      "inp": null,
+      "fcp": 448.13629999999995,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "td-has-header",
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pourquoi-mettre-en-place-un-pmo",
+    "type": "blog",
+    "path": "/fr/blog/pourquoi-mettre-en-place-un-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/pourquoi-mettre-en-place-un-pmo",
+      "perf": 95,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1283.4890999999998,
+      "cls": 0.088115,
+      "inp": null,
+      "fcp": 302.4891,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "pourquoi-vos-18-millions",
+    "type": "blog",
+    "path": "/fr/blog/pourquoi-vos-18-millions",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/pourquoi-vos-18-millions",
+      "perf": 100,
+      "a11y": 96,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 496.759,
+      "cls": 0.060295999999999995,
+      "inp": null,
+      "fcp": 336.759,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "preparer-comite-de-pilotage-d-un-projet",
+    "type": "blog",
+    "path": "/fr/blog/preparer-comite-de-pilotage-d-un-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/preparer-comite-de-pilotage-d-un-projet",
+      "perf": 98,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 696.2566250000001,
+      "cls": 0.08803300000000001,
+      "inp": null,
+      "fcp": 306.0565,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "program-increment-planning",
+    "type": "blog",
+    "path": "/fr/blog/program-increment-planning",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/program-increment-planning",
+      "perf": 100,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 541.37645,
+      "cls": 0.058551,
+      "inp": null,
+      "fcp": 381.37225,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "project-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/project-portfolio-management",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/project-portfolio-management",
+      "perf": 88,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1628.5399499999999,
+      "cls": 0.151227,
+      "inp": null,
+      "fcp": 379.83335,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "reporting-pmo",
+    "type": "blog",
+    "path": "/fr/blog/reporting-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/reporting-pmo",
+      "perf": 96,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 896.7553,
+      "cls": 0.11503700000000001,
+      "inp": null,
+      "fcp": 346.0013,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "retour-sur-agile-en-seine-2023",
+    "type": "blog",
+    "path": "/fr/blog/retour-sur-agile-en-seine-2023",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/retour-sur-agile-en-seine-2023",
+      "perf": 88,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 1897.3623000000002,
+      "cls": 0.116287,
+      "inp": null,
+      "fcp": 380.3623,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "role-du-pmo",
+    "type": "blog",
+    "path": "/fr/blog/role-du-pmo",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/role-du-pmo",
+      "perf": 99,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 641.21995,
+      "cls": 0.071124,
+      "inp": null,
+      "fcp": 314.4299500000001,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "tout-savoir-sur-la-note-de-cadrage-projet",
+    "type": "blog",
+    "path": "/fr/blog/tout-savoir-sur-la-note-de-cadrage-projet",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/tout-savoir-sur-la-note-de-cadrage-projet",
+      "perf": 98,
+      "a11y": 97,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 872.5517000000001,
+      "cls": 0.086589,
+      "inp": null,
+      "fcp": 340.501,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  },
+  {
+    "slug": "trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+    "type": "blog",
+    "path": "/fr/blog/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+    "desktop": {
+      "finalUrl": "http://localhost:3000/fr/blog/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+      "perf": 100,
+      "a11y": 95,
+      "bp": 96,
+      "seo": 100,
+      "lcp": 347.85220000000004,
+      "cls": 0.058855,
+      "inp": null,
+      "fcp": 347.85220000000004,
+      "tbt": 0,
+      "a11yFails": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0
+        }
+      ],
+      "seoFails": []
+    }
+  }
+]

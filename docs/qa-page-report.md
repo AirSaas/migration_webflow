@@ -1,6 +1,6 @@
 # QA report — regex/DOM (qa-page.mjs)
 
-**Date** : 2026-04-27T14:26:49.405Z
+**Date** : 2026-04-28T14:33:02.065Z
 
 **Total** : 88 pages — **88 PASS** / 0 WARN / 0 BLOCK
 
@@ -22,29 +22,29 @@
 |---|---|---|---|---|---|---|
 | `comment-animer-un-comite-de-pilotage` | blog | PASS | 0 | 1 | 0 | 0 |
 | `lean-portfolio-management` | blog | PASS | 0 | 1 | 0 | 0 |
-| `capacity-planning` | lp | PASS | 0 | 0 | 0 | 0 |
-| `automatiser-la-com-projet` | produit | PASS | 0 | 0 | 0 | 0 |
-| `pmo` | lp | PASS | 0 | 0 | 0 | 0 |
 | `pi-planning` | lp | PASS | 0 | 0 | 0 | 0 |
+| `pmo` | lp | PASS | 0 | 0 | 0 | 0 |
 | `ppm` | lp | PASS | 0 | 0 | 0 | 0 |
+| `capacity-planning` | lp | PASS | 0 | 0 | 0 | 0 |
 | `budget` | produit | PASS | 0 | 0 | 0 | 0 |
-| `capacity-planning` | produit | PASS | 0 | 0 | 0 | 0 |
-| `traduction-one-click-avec-deepl` | produit | PASS | 0 | 0 | 0 | 0 |
-| `reporting-projet` | produit | PASS | 0 | 0 | 0 | 0 |
-| `airsaas-et-les-experts-de-la-transfo` | solution | PASS | 0 | 0 | 0 | 0 |
+| `automatiser-la-com-projet` | produit | PASS | 0 | 0 | 0 | 0 |
 | `priorisation-par-equipes` | produit | PASS | 0 | 0 | 0 | 0 |
+| `reporting-projet` | produit | PASS | 0 | 0 | 0 | 0 |
+| `capacity-planning` | produit | PASS | 0 | 0 | 0 | 0 |
+| `airsaas-et-les-experts-de-la-transfo` | solution | PASS | 0 | 0 | 0 | 0 |
+| `traduction-one-click-avec-deepl` | produit | PASS | 0 | 0 | 0 | 0 |
 | `flash-report` | solution | PASS | 0 | 0 | 0 | 0 |
 | `flash-report-projet` | solution | PASS | 0 | 0 | 0 | 0 |
 | `gestion-portefeuille-projet` | solution | PASS | 0 | 0 | 0 | 0 |
-| `management-de-portefeuille-projet` | solution | PASS | 0 | 0 | 0 | 0 |
 | `outil-ppm` | solution | PASS | 0 | 0 | 0 | 0 |
+| `management-de-portefeuille-projet` | solution | PASS | 0 | 0 | 0 | 0 |
 | `portfolio-management` | solution | PASS | 0 | 0 | 0 | 0 |
 | `outils-de-pilotage-projet` | solution | PASS | 0 | 0 | 0 | 0 |
 | `revue-de-portefeuille` | solution | PASS | 0 | 0 | 0 | 0 |
-| `tableau-de-bord-gestion-de-projet` | solution | PASS | 0 | 0 | 0 | 0 |
-| `tableau-de-bord-portefeuille-de-projet` | solution | PASS | 0 | 0 | 0 | 0 |
-| `comite-direction` | equipe | PASS | 0 | 0 | 0 | 0 |
 | `direction-de-la-transformation` | equipe | PASS | 0 | 0 | 0 | 0 |
+| `tableau-de-bord-portefeuille-de-projet` | solution | PASS | 0 | 0 | 0 | 0 |
+| `tableau-de-bord-gestion-de-projet` | solution | PASS | 0 | 0 | 0 | 0 |
+| `comite-direction` | equipe | PASS | 0 | 0 | 0 | 0 |
 | `tableau-de-bord-dsi` | solution | PASS | 0 | 0 | 0 | 0 |
 | `it-et-operation` | equipe | PASS | 0 | 0 | 0 | 0 |
 | `outil-pmo` | equipe | PASS | 0 | 0 | 0 | 0 |
@@ -70,8 +70,8 @@
 | `comment-mettre-une-bonne-meteo-projet` | blog | PASS | 0 | 0 | 0 | 0 |
 | `comment-reussir-un-projet-transverse` | blog | PASS | 0 | 0 | 0 | 0 |
 | `comment-mettre-en-place-un-pmo` | blog | PASS | 0 | 0 | 0 | 0 |
-| `fiche-projet-exemple-et-methodologie` | blog | PASS | 0 | 0 | 0 | 0 |
 | `demarche-de-projet` | blog | PASS | 0 | 0 | 0 | 0 |
+| `fiche-projet-exemple-et-methodologie` | blog | PASS | 0 | 0 | 0 | 0 |
 | `copil-projet-ou-comite-de-pilotage-projet-les-bases` | blog | PASS | 0 | 0 | 0 | 0 |
 | `jalon-projet` | blog | PASS | 0 | 0 | 0 | 0 |
 | `gestion-de-portefeuille-projet-pme` | blog | PASS | 0 | 0 | 0 | 0 |
@@ -92,17 +92,17 @@
 | `pi-safe` | blog | PASS | 0 | 0 | 0 | 0 |
 | `pilotage-de-projet` | blog | PASS | 0 | 0 | 0 | 0 |
 | `plan-capacitaire` | blog | PASS | 0 | 0 | 0 | 0 |
-| `planification-de-la-demande-capacity-planning` | blog | PASS | 0 | 0 | 0 | 0 |
 | `management-de-portefeuille-de-projet` | blog | PASS | 0 | 0 | 0 | 0 |
+| `planification-de-la-demande-capacity-planning` | blog | PASS | 0 | 0 | 0 | 0 |
 | `pi-planning` | blog | PASS | 0 | 0 | 0 | 0 |
 | `planification-de-la-capacite` | blog | PASS | 0 | 0 | 0 | 0 |
 | `plan-de-communication-projet` | blog | PASS | 0 | 0 | 0 | 0 |
 | `pourquoi-mettre-en-place-un-pmo` | blog | PASS | 0 | 0 | 0 | 0 |
-| `preparer-comite-de-pilotage-d-un-projet` | blog | PASS | 0 | 0 | 0 | 0 |
 | `pourquoi-vos-18-millions` | blog | PASS | 0 | 0 | 0 | 0 |
+| `preparer-comite-de-pilotage-d-un-projet` | blog | PASS | 0 | 0 | 0 | 0 |
+| `reporting-pmo` | blog | PASS | 0 | 0 | 0 | 0 |
 | `role-du-pmo` | blog | PASS | 0 | 0 | 0 | 0 |
 | `portefeuille-projet` | blog | PASS | 0 | 0 | 0 | 0 |
-| `reporting-pmo` | blog | PASS | 0 | 0 | 0 | 0 |
 | `program-increment-planning` | blog | PASS | 0 | 0 | 0 | 0 |
 | `project-portfolio-management` | blog | PASS | 0 | 0 | 0 | 0 |
 | `retour-sur-agile-en-seine-2023` | blog | PASS | 0 | 0 | 0 | 0 |

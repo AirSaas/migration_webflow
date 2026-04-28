@@ -1,15 +1,8 @@
 [
   {
-    "slug": "capacity-planning",
+    "slug": "pi-planning",
     "type": "lp",
-    "url": "/fr/lp/capacity-planning",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "automatiser-la-com-projet",
-    "type": "produit",
-    "url": "/fr/produit/automatiser-la-com-projet",
+    "url": "/fr/lp/pi-planning",
     "status": 200,
     "issues": []
   },
@@ -21,16 +14,16 @@
     "issues": []
   },
   {
-    "slug": "pi-planning",
+    "slug": "ppm",
     "type": "lp",
-    "url": "/fr/lp/pi-planning",
+    "url": "/fr/lp/ppm",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "ppm",
+    "slug": "capacity-planning",
     "type": "lp",
-    "url": "/fr/lp/ppm",
+    "url": "/fr/lp/capacity-planning",
     "status": 200,
     "issues": []
   },
@@ -42,16 +35,16 @@
     "issues": []
   },
   {
-    "slug": "capacity-planning",
+    "slug": "automatiser-la-com-projet",
     "type": "produit",
-    "url": "/fr/produit/capacity-planning",
+    "url": "/fr/produit/automatiser-la-com-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "traduction-one-click-avec-deepl",
+    "slug": "priorisation-par-equipes",
     "type": "produit",
-    "url": "/fr/produit/traduction-one-click-avec-deepl",
+    "url": "/fr/produit/priorisation-par-equipes",
     "status": 200,
     "issues": []
   },
@@ -63,6 +56,13 @@
     "issues": []
   },
   {
+    "slug": "capacity-planning",
+    "type": "produit",
+    "url": "/fr/produit/capacity-planning",
+    "status": 200,
+    "issues": []
+  },
+  {
     "slug": "airsaas-et-les-experts-de-la-transfo",
     "type": "solution",
     "url": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
@@ -70,9 +70,9 @@
     "issues": []
   },
   {
-    "slug": "priorisation-par-equipes",
+    "slug": "traduction-one-click-avec-deepl",
     "type": "produit",
-    "url": "/fr/produit/priorisation-par-equipes",
+    "url": "/fr/produit/traduction-one-click-avec-deepl",
     "status": 200,
     "issues": []
   },
@@ -98,16 +98,16 @@
     "issues": []
   },
   {
-    "slug": "management-de-portefeuille-projet",
+    "slug": "outil-ppm",
     "type": "solution",
-    "url": "/fr/solutions/management-de-portefeuille-projet",
+    "url": "/fr/solutions/outil-ppm",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "outil-ppm",
+    "slug": "management-de-portefeuille-projet",
     "type": "solution",
-    "url": "/fr/solutions/outil-ppm",
+    "url": "/fr/solutions/management-de-portefeuille-projet",
     "status": 200,
     "issues": []
   },
@@ -133,9 +133,9 @@
     "issues": []
   },
   {
-    "slug": "tableau-de-bord-gestion-de-projet",
-    "type": "solution",
-    "url": "/fr/solutions/tableau-de-bord-gestion-de-projet",
+    "slug": "direction-de-la-transformation",
+    "type": "equipe",
+    "url": "/fr/equipes/direction-de-la-transformation",
     "status": 200,
     "issues": []
   },
@@ -147,16 +147,16 @@
     "issues": []
   },
   {
-    "slug": "comite-direction",
-    "type": "equipe",
-    "url": "/fr/equipes/comite-direction",
+    "slug": "tableau-de-bord-gestion-de-projet",
+    "type": "solution",
+    "url": "/fr/solutions/tableau-de-bord-gestion-de-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "direction-de-la-transformation",
+    "slug": "comite-direction",
     "type": "equipe",
-    "url": "/fr/equipes/direction-de-la-transformation",
+    "url": "/fr/equipes/comite-direction",
     "status": 200,
     "issues": []
   },
@@ -349,16 +349,16 @@
     "issues": []
   },
   {
-    "slug": "fiche-projet-exemple-et-methodologie",
+    "slug": "demarche-de-projet",
     "type": "blog",
-    "url": "/fr/blog/fiche-projet-exemple-et-methodologie",
+    "url": "/fr/blog/demarche-de-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "demarche-de-projet",
+    "slug": "fiche-projet-exemple-et-methodologie",
     "type": "blog",
-    "url": "/fr/blog/demarche-de-projet",
+    "url": "/fr/blog/fiche-projet-exemple-et-methodologie",
     "status": 200,
     "issues": []
   },
@@ -516,16 +516,16 @@
     "issues": []
   },
   {
-    "slug": "planification-de-la-demande-capacity-planning",
+    "slug": "management-de-portefeuille-de-projet",
     "type": "blog",
-    "url": "/fr/blog/planification-de-la-demande-capacity-planning",
+    "url": "/fr/blog/management-de-portefeuille-de-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "management-de-portefeuille-de-projet",
+    "slug": "planification-de-la-demande-capacity-planning",
     "type": "blog",
-    "url": "/fr/blog/management-de-portefeuille-de-projet",
+    "url": "/fr/blog/planification-de-la-demande-capacity-planning",
     "status": 200,
     "issues": []
   },
@@ -558,6 +558,13 @@
     "issues": []
   },
   {
+    "slug": "pourquoi-vos-18-millions",
+    "type": "blog",
+    "url": "/fr/blog/pourquoi-vos-18-millions",
+    "status": 200,
+    "issues": []
+  },
+  {
     "slug": "preparer-comite-de-pilotage-d-un-projet",
     "type": "blog",
     "url": "/fr/blog/preparer-comite-de-pilotage-d-un-projet",
@@ -565,9 +572,9 @@
     "issues": []
   },
   {
-    "slug": "pourquoi-vos-18-millions",
+    "slug": "reporting-pmo",
     "type": "blog",
-    "url": "/fr/blog/pourquoi-vos-18-millions",
+    "url": "/fr/blog/reporting-pmo",
     "status": 200,
     "issues": []
   },
@@ -582,13 +589,6 @@
     "slug": "portefeuille-projet",
     "type": "blog",
     "url": "/fr/blog/portefeuille-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "reporting-pmo",
-    "type": "blog",
-    "url": "/fr/blog/reporting-pmo",
     "status": 200,
     "issues": []
   },

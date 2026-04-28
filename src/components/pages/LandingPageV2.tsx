@@ -254,10 +254,15 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       );
 
     case "testimonials": {
-      if (!section.testimonials || section.testimonials.length === 0) return null;
-      // If any testimonial has href, render as clickable grid (custom wrapper),
-      // otherwise use TestimonialsFrame DS section as before.
-      const anyHref = section.testimonials.some((t) => t.href);
+      // Defensive : LLM extraction occasionally classifies anonymous quotes
+      // (pain-point phrases, "Vous n'entendrez plus…") as testimonials. The
+      // TestimonialCard component requires both text and name — drop entries
+      // missing either.
+      const validTestimonials = (section.testimonials || []).filter(
+        (t) => t && typeof t.text === "string" && t.text.length > 0 && typeof t.name === "string" && t.name.length > 0,
+      );
+      if (validTestimonials.length === 0) return null;
+      const anyHref = validTestimonials.some((t) => t.href);
       if (anyHref) {
         return (
           <section
@@ -270,7 +275,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
               </Heading>
             ) : null}
             <div className="grid grid-cols-1 gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3 w-full max-w-[91.25rem]">
-              {section.testimonials.slice(0, 6).map((t, i) => {
+              {validTestimonials.slice(0, 6).map((t, i) => {
                 const card = (
                   <TestimonialCard
                     quote={t.text}
@@ -303,7 +308,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           titleHighlight={section.titleHighlight}
           readMoreLabel="Lire la suite"
           readLessLabel="Voir moins"
-          testimonials={section.testimonials.slice(0, 6).map((t) => ({
+          testimonials={validTestimonials.slice(0, 6).map((t) => ({
             quote: t.text,
             name: t.name,
             role: t.role || t.company || "",

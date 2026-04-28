@@ -725,12 +725,6 @@
         "html": "De façon générale,<strong>le manque de transparence écrite peut conduire à de lourds échecs</strong>."
       },
       {
-        "type": "heading",
-        "level": 4,
-        "text": "‍",
-        "id": "section"
-      },
-      {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea97c4f01323fc67c113f9_all-projects.jpg",
         "alt": "Capture écran Airsaas",
@@ -1019,7 +1013,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "❌Idée reçue n°3 : Les solutions tout-en-un sont toujours préférables‍",
+        "text": "❌Idée reçue n°3 : Les solutions tout-en-un sont toujours préférables",
         "id": "idée-reçue-n3-les-solutions-tout-en-un-sont-toujours-préférables"
       },
       {
@@ -1613,7 +1607,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/matthieu-grymonprez\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nAu niveau budget, l'idée, c'est de fonctionner sur enveloppe fixe. Et moi, je cape l'investissement général, d'Adeo dans le digital, par rapport à la croissance de l'entreprise. On considère que ce ne sont pas des projets, donc ils n'ont pas de fin. Ce sont des produits. Quand on transforme la boîte en orientation product management, l'organisation financière doit aller avec.\nMatthieu Grymonprez\nCDO/CIO ADEO. Invité de l’épisode N°30 du Podcast CIO Révolution produit par AirSaas.B"
+        "html": "Au niveau budget, l'idée, c'est de fonctionner sur enveloppe fixe. Et moi, je cape l'investissement général, d'Adeo dans le digital, par rapport à la croissance de l'entreprise. On considère que ce ne sont pas des projets, donc ils n'ont pas de fin. Ce sont des produits. Quand on transforme la boîte en orientation product management, l'organisation financière doit aller avec.\nMatthieu Grymonprez\nCDO/CIO ADEO. Invité de l’épisode N°30 du Podcast CIO Révolution produit par AirSaas.B"
       },
       {
         "type": "paragraph",
@@ -1996,7 +1990,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/isabelle-perussi-andre\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \n\"Le plus long dans les projets ce n’est pas la mise en place d'un système d’information. C’est plutôt la réflexion en amont du côté de l'entreprise et de ses métiers sur la question du comment est ce qu’ils veulent travailler…!”.\nIsabelle André Perussi\nDSI Ouigo et DG Squirrel (extrait de l'épisode 34 du Podcast CIO Révolution produit par AirSaas)."
+        "html": "\"Le plus long dans les projets ce n’est pas la mise en place d'un système d’information. C’est plutôt la réflexion en amont du côté de l'entreprise et de ses métiers sur la question du comment est ce qu’ils veulent travailler…!”.\nIsabelle André Perussi\nDSI Ouigo et DG Squirrel (extrait de l'épisode 34 du Podcast CIO Révolution produit par AirSaas)."
       },
       {
         "type": "paragraph",
@@ -2014,7 +2008,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/frederic-navarro\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \n\"Durant nos réunions de métier / SI mensuelles, on négocie ! Si la direction concernée n'arrive pas à déléguer, à mettre des équipes c'est qu'il n'y a pas de valeur derrière ! Et si au bout d'un certain nombre de fois...il n’arrive pas à dégager du temps...des fois on se rend compte que le projet n'est pas la vraie priorité...alors on lance alors un autre projet !\nFrédéric Navarro\nDSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)."
+        "html": "\"Durant nos réunions de métier / SI mensuelles, on négocie ! Si la direction concernée n'arrive pas à déléguer, à mettre des équipes c'est qu'il n'y a pas de valeur derrière ! Et si au bout d'un certain nombre de fois...il n’arrive pas à dégager du temps...des fois on se rend compte que le projet n'est pas la vraie priorité...alors on lance alors un autre projet !\nFrédéric Navarro\nDSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)."
       },
       {
         "type": "heading",
@@ -3973,7 +3967,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/thomas-vrignaud\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nS’il y a la possibilité de découper un projet, il ne faut pas hésiter à le découper au maximum de manière à avoir plusieurs petits problèmes plutôt qu’un immense problème très complexe à résoudre. Les petits problèmes solubles à court terme nécessitent un livrable intermédiaire permettant de valider, de réfuter, de réajuster les objectifs et les gains.\nThomas Vrignaud\nCIO - CDO <br/>Invité épisode 14 Podcast CIO Révolution"
+        "html": "S’il y a la possibilité de découper un projet, il ne faut pas hésiter à le découper au maximum de manière à avoir plusieurs petits problèmes plutôt qu’un immense problème très complexe à résoudre. Les petits problèmes solubles à court terme nécessitent un livrable intermédiaire permettant de valider, de réfuter, de réajuster les objectifs et les gains.\nThomas Vrignaud\nCIO - CDO <br/>Invité épisode 14 Podcast CIO Révolution"
       },
       {
         "type": "heading",
@@ -4017,7 +4011,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/frederic-riou\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nJe crois beaucoup à la dualité du pilotage car avoir une direction qui n’est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l’explicite, les rôles doivent concrètement être définis à l’avance et la confiance doit régner.\nFrédéric Riou\nCIO - CDO <br/>Invité épisode 29 Podcast CIO Révolution"
+        "html": "Je crois beaucoup à la dualité du pilotage car avoir une direction qui n’est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l’explicite, les rôles doivent concrètement être définis à l’avance et la confiance doit régner.\nFrédéric Riou\nCIO - CDO <br/>Invité épisode 29 Podcast CIO Révolution"
       },
       {
         "type": "heading",
@@ -4118,7 +4112,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/olivier-perrin\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nLa mise en place de comité de pilotage a aussi permis d'impliquer les Key Users de chaque métier, afin qu'ils puissent être le relais des bonnes pratiques transmises par la DSI : un rôle capital pour réussir à manager le changement !\nOlivier Perrin\nCIO <br/>Invité épisode 17 Podcast CIO Révolution"
+        "html": "La mise en place de comité de pilotage a aussi permis d'impliquer les Key Users de chaque métier, afin qu'ils puissent être le relais des bonnes pratiques transmises par la DSI : un rôle capital pour réussir à manager le changement !\nOlivier Perrin\nCIO <br/>Invité épisode 17 Podcast CIO Révolution"
       },
       {
         "type": "paragraph",
@@ -4168,7 +4162,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/patrick-valentin\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nLe suivi de l'exécution du plan de la transformation s'est vite complexifié. Les équipes ont passé trop de temps à faire du reporting. On a manqué d'outils de suivi de l'exécution pour vraiment se focaliser sur l'impact de ce qu'on cherchait à faire. Nos MVP ne se sont pas traduits en minimum viable product mais en maximum viable product.\nPatrick Valentin\nCIO - CDO <br/>Invité épisode 7 Podcast CIO Révolution"
+        "html": "Le suivi de l'exécution du plan de la transformation s'est vite complexifié. Les équipes ont passé trop de temps à faire du reporting. On a manqué d'outils de suivi de l'exécution pour vraiment se focaliser sur l'impact de ce qu'on cherchait à faire. Nos MVP ne se sont pas traduits en minimum viable product mais en maximum viable product.\nPatrick Valentin\nCIO - CDO <br/>Invité épisode 7 Podcast CIO Révolution"
       },
       {
         "type": "paragraph",
@@ -4378,7 +4372,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "\"L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu... il est important que chacun ait pu s'exprimer, et comprenne le choix et la décision qui a été prise.\"\nGilles de Richemond\nCEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas.\n Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/gilles-de-richemond\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "\"L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu... il est important que chacun ait pu s'exprimer, et comprenne le choix et la décision qui a été prise.\"\nGilles de Richemond\nCEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
       },
       {
         "type": "paragraph",
@@ -4616,7 +4610,7 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Raison 2 : L'équipe est en conflit larvé‍‍",
+        "text": "Raison 2 : L'équipe est en conflit larvé",
         "id": "raison-2-léquipe-est-en-conflit-larvé"
       },
       {
@@ -5527,12 +5521,6 @@
         "id": "les-bonnes-pratiques-et-la-bonne-attitude-pour-animer-votre-comité-de-pilotage"
       },
       {
-        "type": "heading",
-        "level": 2,
-        "text": "‍",
-        "id": "section"
-      },
-      {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc9899029_62ea8a14bbc7822eed6635a0_copil-bestpractice-min.jpeg",
         "alt": "attitude copil",
@@ -5679,10 +5667,6 @@
       {
         "label": "Les bonnes pratiques et la bonne attitude pour animer votre comité de pilotage",
         "href": "#les-bonnes-pratiques-et-la-bonne-attitude-pour-animer-votre-comité-de-pilotage"
-      },
-      {
-        "label": "‍",
-        "href": "#section"
       }
     ]
   },
@@ -5962,7 +5946,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/gilles-de-richemond\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nLe pragmatisme ? C’est dépasser les intérêts ! L’enjeu c’est de savoir comment tu peux choisir les vrais projets intéressants pour l’entreprise. Faire en sorte de \"passer du client roi à l’entreprise reine\".\n\nPour dépasser les intérêts individuels, on peut adopter une approche collaborative, visuelle, et agile pour créer les conditions d’un dialogue, pour refaire du sens commun et engager les acteurs de l’entreprise à s’associer réellement sur les projets intéressant non pas pour chaque direction mais pour toute l’entreprise.\nFrédéric Dufau-Joël\nDSI pendant 20 ans - Coach interne La boîte à Outils Groupe SAMSE"
+        "html": "Le pragmatisme ? C’est dépasser les intérêts ! L’enjeu c’est de savoir comment tu peux choisir les vrais projets intéressants pour l’entreprise. Faire en sorte de \"passer du client roi à l’entreprise reine\".\n\nPour dépasser les intérêts individuels, on peut adopter une approche collaborative, visuelle, et agile pour créer les conditions d’un dialogue, pour refaire du sens commun et engager les acteurs de l’entreprise à s’associer réellement sur les projets intéressant non pas pour chaque direction mais pour toute l’entreprise.\nFrédéric Dufau-Joël\nDSI pendant 20 ans - Coach interne La boîte à Outils Groupe SAMSE"
       },
       {
         "type": "paragraph",
@@ -6088,7 +6072,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/frederic-navarro\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nSur la base d’une cinquantaine de projets, 3 ou 4 sont de niveau 1, considérés comme majeurs seront régulièrement évoqués par la DSI avec la direction. Cinq ou six seront de niveau 2 et ensuite chaque direction et/ou département va avoir un certain nombre de petites missions, petits sujets à traiter. En général, le processus de reclassification est quelque chose de rapide s’il est fait de cette manière.\nFrédéric Navarro - DSI\nInvité ep. 28 Podcast CIO Révolution"
+        "html": "Sur la base d’une cinquantaine de projets, 3 ou 4 sont de niveau 1, considérés comme majeurs seront régulièrement évoqués par la DSI avec la direction. Cinq ou six seront de niveau 2 et ensuite chaque direction et/ou département va avoir un certain nombre de petites missions, petits sujets à traiter. En général, le processus de reclassification est quelque chose de rapide s’il est fait de cette manière.\nFrédéric Navarro - DSI\nInvité ep. 28 Podcast CIO Révolution"
       },
       {
         "type": "paragraph",
@@ -6440,7 +6424,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Il y a quelques sujets sur lesquels nous n’avons pas trouvé de mode de fonctionnement pérenne. Le premier est le relevé de décisions. Cela peut paraître anecdotique, mais nous sommes régulièrement confrontés au sujet. Même si, sur la plupart des instances, nous avons des comptes rendus dans lesquels débats, actions et décisions sont consignés, <strong>il est fastidieux de les éplucher pour retrouver toutes les décisions qui ont été prises, surtout sur des sujets (et il y en a beaucoup) qui ont une périodicité annuelle.</strong> Et <strong>la motivation des décisions (qui est sans doute le sujet le plus important)</strong> n’est pas non plus toujours clairement consignée. Un registre centralisé et accessible à tous serait sans doute une bonne idée, mais malgré quelques tentatives, nous n’avons pas réussi à ancrer cette habitude.\n<br/>\"Devenir une entreprise agile - Les leçons de 20 ans de transformation\"\nLudovic Cinquin\n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn"
+        "html": "Il y a quelques sujets sur lesquels nous n’avons pas trouvé de mode de fonctionnement pérenne. Le premier est le relevé de décisions. Cela peut paraître anecdotique, mais nous sommes régulièrement confrontés au sujet. Même si, sur la plupart des instances, nous avons des comptes rendus dans lesquels débats, actions et décisions sont consignés, <strong>il est fastidieux de les éplucher pour retrouver toutes les décisions qui ont été prises, surtout sur des sujets (et il y en a beaucoup) qui ont une périodicité annuelle.</strong> Et <strong>la motivation des décisions (qui est sans doute le sujet le plus important)</strong> n’est pas non plus toujours clairement consignée. Un registre centralisé et accessible à tous serait sans doute une bonne idée, mais malgré quelques tentatives, nous n’avons pas réussi à ancrer cette habitude.\n<br/>\"Devenir une entreprise agile - Les leçons de 20 ans de transformation\"\nLudovic Cinquin"
       },
       {
         "type": "paragraph",
@@ -6616,7 +6600,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Tips pour éviter le monopole de 10' d'une personne c'est le tour de parole sans être interrompu déjà. Après il faut être dans un COPIL autour de 10 membres... Sinon il faut prévoir un COPIL avec 2/3 décisions à prendre. Si la culture d'entreprise est très Top down et non collégiale, il convient d'avoir uniquement identifié le ou les 2 décideurs.Pour éviter l'effet, \"on n'a pas assez d'éléments, on ne peut pas décider\", il est nécessaire d'avoir envoyé les annexes de la prise de décision et d'avoir préparé (si décisions projets) un consensus ou les 2 alternatives.Et finalement, il faut surtout avoir précisé la ou les questions et ne pas passer à autre chose sans avoir la réponse.\nStéphan Boisson\nGroup Chief Digital & Information Officer · Comexposium\n Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/gilles-de-richemond\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Tips pour éviter le monopole de 10' d'une personne c'est le tour de parole sans être interrompu déjà. Après il faut être dans un COPIL autour de 10 membres... Sinon il faut prévoir un COPIL avec 2/3 décisions à prendre. Si la culture d'entreprise est très Top down et non collégiale, il convient d'avoir uniquement identifié le ou les 2 décideurs.Pour éviter l'effet, \"on n'a pas assez d'éléments, on ne peut pas décider\", il est nécessaire d'avoir envoyé les annexes de la prise de décision et d'avoir préparé (si décisions projets) un consensus ou les 2 alternatives.Et finalement, il faut surtout avoir précisé la ou les questions et ne pas passer à autre chose sans avoir la réponse.\nStéphan Boisson\nGroup Chief Digital & Information Officer · Comexposium"
       },
       {
         "type": "figure",
@@ -6649,7 +6633,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/gilles-de-richemond\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nL'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu...il est important que chacun ait pu s'exprimer...Et comprenne le choix et la décision qui a été prise.\nGilles de Richemond\nCEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
+        "html": "L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu...il est important que chacun ait pu s'exprimer...Et comprenne le choix et la décision qui a été prise.\nGilles de Richemond\nCEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
       }
     ],
     "faq": [],
@@ -7489,7 +7473,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/frederic-navarro\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \n\"On a instauré un dialogue mensuel métier au cours duquel chacun comprend le vocabulaire et les enjeux de chacun. Un dialogue ou chacun accepte de se remettre en cause. Et, au bout de 6 mois, on a une vraie vision de chaque département dans son rythme pour avancer, et chacun s'engage\".\nFrédéric Navarro\nDSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)"
+        "html": "\"On a instauré un dialogue mensuel métier au cours duquel chacun comprend le vocabulaire et les enjeux de chacun. Un dialogue ou chacun accepte de se remettre en cause. Et, au bout de 6 mois, on a une vraie vision de chaque département dans son rythme pour avancer, et chacun s'engage\".\nFrédéric Navarro\nDSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)"
       },
       {
         "type": "paragraph",
@@ -8684,7 +8668,7 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "☀️ Soleil : Le projet progresse comme prévu..‍",
+        "text": "☀️ Soleil : Le projet progresse comme prévu..",
         "id": "soleil-le-projet-progresse-comme-prévu"
       },
       {
@@ -8774,7 +8758,7 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "‍Signaux faibles : quelques nuages et averses ?",
+        "text": "Signaux faibles : quelques nuages et averses ?",
         "id": "signaux-faibles-quelques-nuages-et-averses"
       },
       {
@@ -10146,7 +10130,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "‍Le constat général :",
+        "text": "Le constat général :",
         "id": "le-constat-général"
       },
       {
@@ -10390,7 +10374,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "🤦‍♂️ Démarche projet : les 7 erreurs !",
+        "text": "🤦♂️ Démarche projet : les 7 erreurs !",
         "id": "démarche-projet-les-7-erreurs"
       },
       {
@@ -10450,7 +10434,7 @@
         "href": "#gestion-de-projet-de-transformation-les-éléments-clés"
       },
       {
-        "label": "🤦‍♂️ Démarche projet : les 7 erreurs !",
+        "label": "🤦♂️ Démarche projet : les 7 erreurs !",
         "href": "#démarche-projet-les-7-erreurs"
       },
       {
@@ -10865,7 +10849,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/laurent-beliot\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nIl faut revenir aux fondamentaux : il faut se questionner sur le business, sur les contraintes métiers, où est-ce qu’il est nécessaire d’avoir de la souplesse, etc. Pour réussir à bien lister l’ensemble des attentes, et classifier ces attentes, les prioriser, afin d’y voir clair.\nLaurent Béliot\nDSI en temps partagé - episode 24 Podcast CIO Révolution by AirSaas"
+        "html": "Il faut revenir aux fondamentaux : il faut se questionner sur le business, sur les contraintes métiers, où est-ce qu’il est nécessaire d’avoir de la souplesse, etc. Pour réussir à bien lister l’ensemble des attentes, et classifier ces attentes, les prioriser, afin d’y voir clair.\nLaurent Béliot\nDSI en temps partagé - episode 24 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -10912,7 +10896,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/pierre-raschi\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nQuand on est dans une PME, on est à mi-chemin entre le besoin d’opérationnel et le besoin de stratégie. Il faut être capable de faire le grand écart quotidiennement.\nPierre Raschi\nDirecteur général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
+        "html": "Quand on est dans une PME, on est à mi-chemin entre le besoin d’opérationnel et le besoin de stratégie. Il faut être capable de faire le grand écart quotidiennement.\nPierre Raschi\nDirecteur général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -10943,7 +10927,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/alexis-de-nervaux\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nSi on ne fait pas cet exercice de priorisation en fonction du payback, on peut se retrouver à dépenser pas mal d’argent en transformation digitale pour des projets qui ont un impact business faible sur l’entreprise. L’idée, c’est d’avoir une remontée des projets par direction et ensuite les prioriser en fonction du payback que ça peut représenter pour l’entreprise.\nAlexis de Nervaux\nCIO & CDO - episode 48 Podcast CIO Révolution by AirSaas"
+        "html": "Si on ne fait pas cet exercice de priorisation en fonction du payback, on peut se retrouver à dépenser pas mal d’argent en transformation digitale pour des projets qui ont un impact business faible sur l’entreprise. L’idée, c’est d’avoir une remontée des projets par direction et ensuite les prioriser en fonction du payback que ça peut représenter pour l’entreprise.\nAlexis de Nervaux\nCIO & CDO - episode 48 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -10999,7 +10983,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/alexia-schmitt\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nUn point indispensable dans la transfo, c'est la communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace.\nLa transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque : \"Ouhlala, on va remplacer mon job\". C'est clé dans la réussite et l'adoption des changements. Quand on communique en continu sur des sujets, chacun a le loisir de réagir. Cela instaure un dialogue qui est très sain pour la réussite de changements structurants comme ceux qu'on est en train de faire.\nAlexia Schmitt\nCIO - Episode 22 Podcast CIO Révolution by AirSaas"
+        "html": "Un point indispensable dans la transfo, c'est la communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace.\nLa transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque : \"Ouhlala, on va remplacer mon job\". C'est clé dans la réussite et l'adoption des changements. Quand on communique en continu sur des sujets, chacun a le loisir de réagir. Cela instaure un dialogue qui est très sain pour la réussite de changements structurants comme ceux qu'on est en train de faire.\nAlexia Schmitt\nCIO - Episode 22 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -11068,7 +11052,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/pierre-raschi\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nLe premier conseil que je pourrais donner à un dirigeant de PME, c’est d’identifier ses axes de valeurs. Comment peut-on créer de la valeur grâce au digital\n?\nPierre Raschi\nDirecteur Général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
+        "html": "Le premier conseil que je pourrais donner à un dirigeant de PME, c’est d’identifier ses axes de valeurs. Comment peut-on créer de la valeur grâce au digital\n?\nPierre Raschi\nDirecteur Général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -11084,7 +11068,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/pierre-raschi\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nLes PME ont deux choix. Elles peuvent recruter un DSI costaud, taillé pour le poste mais qui va s’ennuyer car il n’y a pas assez de projets à piloter. Le second, c’est de faire appel à un responsable informatique, plus jeune, que l’on va faire grandir avec la société, mais lorsqu’ils deviennent DSI, ils sont beaucoup trop dans l’opérationnel. Notre objectif, c’est de proposer un troisième choix, d’accompagner ces DSI, pendant un ou deux jours par semaine.\nPierre Raschi\nDirecteur Général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
+        "html": "Les PME ont deux choix. Elles peuvent recruter un DSI costaud, taillé pour le poste mais qui va s’ennuyer car il n’y a pas assez de projets à piloter. Le second, c’est de faire appel à un responsable informatique, plus jeune, que l’on va faire grandir avec la société, mais lorsqu’ils deviennent DSI, ils sont beaucoup trop dans l’opérationnel. Notre objectif, c’est de proposer un troisième choix, d’accompagner ces DSI, pendant un ou deux jours par semaine.\nPierre Raschi\nDirecteur Général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "heading",
@@ -12409,12 +12393,6 @@
         "html": "En résumé, les jalons sont semblables à des bornes, des panneaux sur une route vous indiquant l'état d'avancement de votre gestion de projets."
       },
       {
-        "type": "heading",
-        "level": 2,
-        "text": "‍",
-        "id": "section"
-      },
-      {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37d7a5606d8e8fab0fb3e_Project-Milestones-.jpg",
         "alt": "project milestones",
@@ -12495,7 +12473,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Trouver le bon nombre de jalons ‍",
+        "text": "Trouver le bon nombre de jalons",
         "id": "trouver-le-bon-nombre-de-jalons"
       },
       {
@@ -12517,7 +12495,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Penser à assortir une échéance pour chaque jalon ‍",
+        "text": "Penser à assortir une échéance pour chaque jalon",
         "id": "penser-à-assortir-une-échéance-pour-chaque-jalon"
       },
       {
@@ -12541,7 +12519,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Des exemples de choix de jalons ‍",
+        "text": "Des exemples de choix de jalons",
         "id": "des-exemples-de-choix-de-jalons"
       },
       {
@@ -12639,10 +12617,6 @@
         "href": "#quest-ce-que-quun-jalon-projet"
       },
       {
-        "label": "‍",
-        "href": "#section"
-      },
-      {
         "label": "Pourquoi faire des jalons projets ?",
         "href": "#pourquoi-faire-des-jalons-projets"
       },
@@ -12651,7 +12625,7 @@
         "href": "#comment-faire-les-jalons-de-son-projet"
       },
       {
-        "label": "Trouver le bon nombre de jalons ‍",
+        "label": "Trouver le bon nombre de jalons",
         "href": "#trouver-le-bon-nombre-de-jalons"
       },
       {
@@ -13187,7 +13161,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Quels sont les KPI les plus utilisés ? ‍Les KPI de coûts",
+        "text": "Quels sont les KPI les plus utilisés ? Les KPI de coûts",
         "id": "quels-sont-les-kpi-les-plus-utilisés-les-kpi-de-coûts"
       },
       {
@@ -13285,7 +13259,7 @@
         "href": "#comment-utiliser-des-kpi-pour-la-gestion-de-projet"
       },
       {
-        "label": "Quels sont les KPI les plus utilisés ? ‍Les KPI de coûts",
+        "label": "Quels sont les KPI les plus utilisés ? Les KPI de coûts",
         "href": "#quels-sont-les-kpi-les-plus-utilisés-les-kpi-de-coûts"
       },
       {
@@ -13949,7 +13923,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "‍Faites le lien entre le passé et le futur de votre projet",
+        "text": "Faites le lien entre le passé et le futur de votre projet",
         "id": "faites-le-lien-entre-le-passé-et-le-futur-de-votre-projet"
       },
       {
@@ -16351,7 +16325,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: <a href=\"https://www.airsaas.io/podcasts-speakers/thomas-vrignaud\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\"  Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a> end Speaker avatar: Il n'y a aucun projet qui se passe comme prévu ! Les directions générales apprécient la transparence. Ce qu'elles n'apprécient pas, c'est quand vous cachez quelque chose et que, trois ans plus tard, elles découvrent qu'il y a eu un écart dans la trajectoire.Thomas VrignaudCIO - CDO<br/>Extrait de l'épisode 14 du Podcast CIO Révolution by AirSaas"
+        "html": "Il n'y a aucun projet qui se passe comme prévu ! Les directions générales apprécient la transparence. Ce qu'elles n'apprécient pas, c'est quand vous cachez quelque chose et que, trois ans plus tard, elles découvrent qu'il y a eu un écart dans la trajectoire.Thomas VrignaudCIO - CDO<br/>Extrait de l'épisode 14 du Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -16881,7 +16855,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/sylvain-bourdette\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a> end Speaker avatar: Le fait d’expliquer aux métiers qu’on a pris le temps de choisir leur projet prioritaire, qu’on a réussi à l’inclure dans le capacitaire, si tout cela est bien rodé, ça facilite immédiatement la relation entre DSI et métiers, même dans les moments plus compliqués.Sylvain Bourdette<br/>CIO Indexia Groupe<br/>Invité épisode 59 Podcast CIO Révolution by AirSaas Saison 3 : Le CIO pivot de la transformation de l'entreprise en collaboration avec Alliancy Le  mag"
+        "html": "Le fait d’expliquer aux métiers qu’on a pris le temps de choisir leur projet prioritaire, qu’on a réussi à l’inclure dans le capacitaire, si tout cela est bien rodé, ça facilite immédiatement la relation entre DSI et métiers, même dans les moments plus compliqués.Sylvain Bourdette<br/>CIO Indexia Groupe<br/>Invité épisode 59 Podcast CIO Révolution by AirSaas Saison 3 : Le CIO pivot de la transformation de l'entreprise en collaboration avec Alliancy Le  mag"
       },
       {
         "type": "paragraph",
@@ -19489,13 +19463,13 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "PMO, c'est quoi ?‍",
+        "text": "PMO, c'est quoi ?",
         "id": "pmo-cest-quoi"
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "‍Que signifie PMO ?",
+        "text": "Que signifie PMO ?",
         "id": "que-signifie-pmo"
       },
       {
@@ -19525,7 +19499,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "PMO, c'est quoi ?‍",
+        "text": "PMO, c'est quoi ?",
         "id": "pmo-cest-quoi"
       },
       {
@@ -19535,7 +19509,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "‍Que signifie PMO ?",
+        "text": "Que signifie PMO ?",
         "id": "que-signifie-pmo"
       },
       {
@@ -19717,7 +19691,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le PI Planning, c’est un processus partagé. La notion de “partagé” est importante parce que, tout l’intérêt de ce process, c’est que les gens qui y participent sont ceux qui y mettent l’argent - donc ceux qui attendent des bénéfices du livrable. Le PI Planning les oblige à se poser les bonnes questions sur la valeur associée au projet. Ça met les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le PI Planning, c’est un processus partagé. La notion de “partagé” est importante parce que, tout l’intérêt de ce process, c’est que les gens qui y participent sont ceux qui y mettent l’argent - donc ceux qui attendent des bénéfices du livrable. Le PI Planning les oblige à se poser les bonnes questions sur la valeur associée au projet. Ça met les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "paragraph",
@@ -19764,7 +19738,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le framework SAFe considère qu’un Program Increment a une durée spécifique, mais il est possible d’adapter cette temporalité. Les valeurs temporelles comme le trimestre sont très ancrées dans la culture humaine, ce qui peut permettre de rendre les échéances du PI Planning plus aisément compréhensibles par tous. Sans oublier qu’en France, la temporalité trimestrielle permet d’éviter de positionner le prochain PI Planning pendant une période de vacances.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le framework SAFe considère qu’un Program Increment a une durée spécifique, mais il est possible d’adapter cette temporalité. Les valeurs temporelles comme le trimestre sont très ancrées dans la culture humaine, ce qui peut permettre de rendre les échéances du PI Planning plus aisément compréhensibles par tous. Sans oublier qu’en France, la temporalité trimestrielle permet d’éviter de positionner le prochain PI Planning pendant une période de vacances.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -19776,7 +19750,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Pour les équipes qui sont habituées au contexte SAFe, on peut utiliser le terme de Program Increment Planning. Mais, dans un contexte de gestion de portefeuille de projets, il peut être déroutant d'utiliser le terme \"PI Planning\" — car les parties prenantes vont vouloir se raccrocher à la méthodologie SAFe. Donc autant ne garder que les principes intéressants du PI Planning, et utiliser un terme moins jargonnant, qui correspond à la culture de l'organisation : par exemple, Quarter Plan.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Pour les équipes qui sont habituées au contexte SAFe, on peut utiliser le terme de Program Increment Planning. Mais, dans un contexte de gestion de portefeuille de projets, il peut être déroutant d'utiliser le terme \"PI Planning\" — car les parties prenantes vont vouloir se raccrocher à la méthodologie SAFe. Donc autant ne garder que les principes intéressants du PI Planning, et utiliser un terme moins jargonnant, qui correspond à la culture de l'organisation : par exemple, Quarter Plan.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -19808,7 +19782,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le processus de Program Increment Planning permet de mieux contrôler le budget d'un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l'enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le processus de Program Increment Planning permet de mieux contrôler le budget d'un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l'enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "paragraph",
@@ -19881,7 +19855,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le RTE, est quelqu’un que l’on choisit pour sa capacité d’animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c’est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d’autres PI Plannings pour se préparer.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le RTE, est quelqu’un que l’on choisit pour sa capacité d’animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c’est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d’autres PI Plannings pour se préparer.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -19911,7 +19885,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "La vision du projet est ce qui permet d’exprimer, à court ou à plus long terme, là où on veut collectivement aller. Le but final de la vision du PI est d’embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l’entreprise.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "La vision du projet est ce qui permet d’exprimer, à court ou à plus long terme, là où on veut collectivement aller. Le but final de la vision du PI est d’embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l’entreprise.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -19941,7 +19915,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu’on ne fabrique pas un monolithe, qu’il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : Découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l’habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu’on ne fabrique pas un monolithe, qu’il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : Découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l’habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -19966,7 +19940,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Cette checklist permet de s'assurer de la qualité des échanges entre les participants, et de guider ceux qui sont un peu perdus pendant le Program Increment Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Cette checklist permet de s'assurer de la qualité des échanges entre les participants, et de guider ceux qui sont un peu perdus pendant le Program Increment Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -20070,7 +20044,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Un PI Planning est une séance de planification. Toutes les personnes nécessaires à la planification et aux arbitrages doivent être présentes. Par contre, attention à ne pas considérer cette réunion comme du “tourisme industriel”. Si des personnes ne sont pas nécessaires, autant ne pas les inviter. Leur présence risque de polluer le PI Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Un PI Planning est une séance de planification. Toutes les personnes nécessaires à la planification et aux arbitrages doivent être présentes. Par contre, attention à ne pas considérer cette réunion comme du “tourisme industriel”. Si des personnes ne sont pas nécessaires, autant ne pas les inviter. Leur présence risque de polluer le PI Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -20129,7 +20103,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Ce qui peut faire qu'un PI Planning ne fonctionne pas, c'est de réunir des gens qui ont des objectifs vraiment antinomiques, qui les empêchent d'avoir envie de travailler les uns avec les autres. Mais sachez qu'il est même possible de faire des trains multi-organismes, avec des partenaires business. Un signe que la réussite du PI Planning tient surtout au fait que le projet soit bien sponsorisé des deux côtés. Le PI Planning n'est pas un outil magique : tout le monde doit comprendre qu'on cherche une victoire collective, un processus gagnant/gagnant, malgré les éventuelles inadhérences politiques.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Ce qui peut faire qu'un PI Planning ne fonctionne pas, c'est de réunir des gens qui ont des objectifs vraiment antinomiques, qui les empêchent d'avoir envie de travailler les uns avec les autres. Mais sachez qu'il est même possible de faire des trains multi-organismes, avec des partenaires business. Un signe que la réussite du PI Planning tient surtout au fait que le projet soit bien sponsorisé des deux côtés. Le PI Planning n'est pas un outil magique : tout le monde doit comprendre qu'on cherche une victoire collective, un processus gagnant/gagnant, malgré les éventuelles inadhérences politiques.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -20182,7 +20156,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le support de travail en amont d’un PI Planning, c’est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation “à la louche” de l’effort. Et quand on a un sujet de capacité, il peut être intéressant d’essayer d’identifier, en amont, quel goulot d’étranglement pourrait émerger.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le support de travail en amont d’un PI Planning, c’est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation “à la louche” de l’effort. Et quand on a un sujet de capacité, il peut être intéressant d’essayer d’identifier, en amont, quel goulot d’étranglement pourrait émerger.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -20223,7 +20197,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à “brûler les vaisseaux” : chacun doit s’engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l’engagement via un acte de communication fort, en publiant des posts sur l’Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l’engagement.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à “brûler les vaisseaux” : chacun doit s’engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l’engagement via un acte de communication fort, en publiant des posts sur l’Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l’engagement.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -20235,7 +20209,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -20329,7 +20303,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Si les équipes font du Scrum, on conserve toutes les cérémonies Scrum, ce qui permet de traiter les dérives qui ont pu apparaître entre la planification en PI Planning et le déroulement effectif. Et, juste avant le prochain PI Planning, on fait une séance de revue de la réalisation effective du PI (en termes de valeur atteinte plus qu'en termes de features) et d'amélioration, cérémonie appelée Inspect & Adapt.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Si les équipes font du Scrum, on conserve toutes les cérémonies Scrum, ce qui permet de traiter les dérives qui ont pu apparaître entre la planification en PI Planning et le déroulement effectif. Et, juste avant le prochain PI Planning, on fait une séance de revue de la réalisation effective du PI (en termes de valeur atteinte plus qu'en termes de features) et d'amélioration, cérémonie appelée Inspect & Adapt.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -20486,7 +20460,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -20514,7 +20488,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "La vision du projet est ce qui permet d’exprimer, à court ou à plus long terme, là où on veut collectivement aller. Il peut s’agir d’une nouvelle réglementation à suivre, de projets vers lesquels l’entreprise se dirige, de concurrents qui arrivent sur le marché… Il peut s’agir d’éléments qui ne vont pas forcément impacter le PI SAFe à venir, et d’éléments aussi bien positifs que négatifs. Le but final de la vision du PI est d’embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l’entreprise.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "La vision du projet est ce qui permet d’exprimer, à court ou à plus long terme, là où on veut collectivement aller. Il peut s’agir d’une nouvelle réglementation à suivre, de projets vers lesquels l’entreprise se dirige, de concurrents qui arrivent sur le marché… Il peut s’agir d’éléments qui ne vont pas forcément impacter le PI SAFe à venir, et d’éléments aussi bien positifs que négatifs. Le but final de la vision du PI est d’embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l’entreprise.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -20541,7 +20515,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le support de travail en amont d’un PI Planning, c’est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation “à la louche” de l’effort. Et quand on a un sujet de capacité, il peut être intéressant d’essayer d’identifier, en amont, quel goulot d’étranglement pourrait émerger.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le support de travail en amont d’un PI Planning, c’est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation “à la louche” de l’effort. Et quand on a un sujet de capacité, il peut être intéressant d’essayer d’identifier, en amont, quel goulot d’étranglement pourrait émerger.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -20602,7 +20576,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à “brûler les vaisseaux” : chacun doit s’engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l’engagement via un acte de communication fort, en publiant des posts sur l’Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l’engagement.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à “brûler les vaisseaux” : chacun doit s’engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l’engagement via un acte de communication fort, en publiant des posts sur l’Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l’engagement.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -20610,7 +20584,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le processus de PI SAFe permet de mieux contrôler le budget d’un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l’enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le processus de PI SAFe permet de mieux contrôler le budget d’un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l’enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -20628,7 +20602,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu’on ne fabrique pas un monolithe, qu’il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l’habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu’on ne fabrique pas un monolithe, qu’il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l’habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -20650,7 +20624,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "L’animateur de PI Planning, le RTE, est quelqu’un que l’on choisit pour sa capacité d’animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c’est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d’autres PI Plannings pour se préparer.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "L’animateur de PI Planning, le RTE, est quelqu’un que l’on choisit pour sa capacité d’animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c’est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d’autres PI Plannings pour se préparer.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -20784,7 +20758,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: <a href=\"https://www.airsaas.io/podcasts-speakers/benito-diz\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\"  Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a> end Speaker avatar: Quand on a vécu depuis plusieurs dizaines années avec MOA-AMOA-MOE, il a fallu faire sauter aussi les barrières historiques des silos qui existaient.  Nous avons mis en place des formations sur l'efficience des développements pour les membres de la DSI et pour les métiers. Pour expliquer les rôles, les attendus et les engagements de chacun.Benito DizCIO - DSI<br/>Invité épisode 9 Podcast CIO Révolution by AirSaas"
+        "html": "Quand on a vécu depuis plusieurs dizaines années avec MOA-AMOA-MOE, il a fallu faire sauter aussi les barrières historiques des silos qui existaient.  Nous avons mis en place des formations sur l'efficience des développements pour les membres de la DSI et pour les métiers. Pour expliquer les rôles, les attendus et les engagements de chacun.Benito DizCIO - DSI<br/>Invité épisode 9 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "heading",
@@ -20798,7 +20772,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: <a href=\"https://www.airsaas.io/podcasts-speakers/frederic-riou\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\"  Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a> end Speaker avatar: Je crois beaucoup à la dualité du pilotage, car avoir une direction qui n’est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l’explicite, les rôles doivent concrètement être définis à l’avance et la confiance doit régner.Frédéric Riou<br/>CIO  Biogaran<br/>Invité épisode 29 Podcast CIO Révolution by AirSaas"
+        "html": "Je crois beaucoup à la dualité du pilotage, car avoir une direction qui n’est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l’explicite, les rôles doivent concrètement être définis à l’avance et la confiance doit régner.Frédéric Riou<br/>CIO  Biogaran<br/>Invité épisode 29 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -20839,7 +20813,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: <a href=\"https://www.airsaas.io/podcasts-speakers/benito-diz\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\"  Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a> end Speaker avatar: Je ne parle pas d'agile mais d'efficience. Parce que je veux pas me reporter à des carcans, y compris le manifeste de 2001 : c’est pas le but de dire \"on fait de l’agile pour de l’agile, on fait du modèle en V pour du modèle en V, de l’API management pour de l'API management, du cloud pour du cloud\"… On fait quelque chose qui est compris par tout le monde et qui apporte une valeur ajoutée !.\nBenito DizCIO - DSI<br/>Invité épisode 9 Podcast CIO Révolution by AirSaas"
+        "html": "Je ne parle pas d'agile mais d'efficience. Parce que je veux pas me reporter à des carcans, y compris le manifeste de 2001 : c’est pas le but de dire \"on fait de l’agile pour de l’agile, on fait du modèle en V pour du modèle en V, de l’API management pour de l'API management, du cloud pour du cloud\"… On fait quelque chose qui est compris par tout le monde et qui apporte une valeur ajoutée !.\nBenito DizCIO - DSI<br/>Invité épisode 9 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -24997,7 +24971,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le PI Planning, c’est un processus partagé. La notion de “partagé” est importante parce que, tout l’intérêt de ce process, c’est que les gens qui y participent sont ceux qui y mettent l’argent - donc ceux qui attendent des bénéfices du livrable. Le PI Planning les oblige à se poser les bonnes questions sur la valeur associée au projet. Ça met les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le PI Planning, c’est un processus partagé. La notion de “partagé” est importante parce que, tout l’intérêt de ce process, c’est que les gens qui y participent sont ceux qui y mettent l’argent - donc ceux qui attendent des bénéfices du livrable. Le PI Planning les oblige à se poser les bonnes questions sur la valeur associée au projet. Ça met les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "paragraph",
@@ -25044,7 +25018,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le framework SAFe considère qu’un Program Increment a une durée spécifique, mais il est possible d’adapter cette temporalité. Les valeurs temporelles comme le trimestre sont très ancrées dans la culture humaine, ce qui peut permettre de rendre les échéances du PI Planning plus aisément compréhensibles par tous. Sans oublier qu’en France, la temporalité trimestrielle permet d’éviter de positionner le prochain PI Planning pendant une période de vacances.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le framework SAFe considère qu’un Program Increment a une durée spécifique, mais il est possible d’adapter cette temporalité. Les valeurs temporelles comme le trimestre sont très ancrées dans la culture humaine, ce qui peut permettre de rendre les échéances du PI Planning plus aisément compréhensibles par tous. Sans oublier qu’en France, la temporalité trimestrielle permet d’éviter de positionner le prochain PI Planning pendant une période de vacances.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -25056,7 +25030,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Pour les équipes qui sont habituées au contexte SAFe, on peut utiliser le terme de Program Increment Planning. Mais, dans un contexte de gestion de portefeuille de projets, il peut être déroutant d'utiliser le terme \"PI Planning\" — car les parties prenantes vont vouloir se raccrocher à la méthodologie SAFe. Donc autant ne garder que les principes intéressants du PI Planning, et utiliser un terme moins jargonnant, qui correspond à la culture de l'organisation : par exemple, Quarter Plan.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Pour les équipes qui sont habituées au contexte SAFe, on peut utiliser le terme de Program Increment Planning. Mais, dans un contexte de gestion de portefeuille de projets, il peut être déroutant d'utiliser le terme \"PI Planning\" — car les parties prenantes vont vouloir se raccrocher à la méthodologie SAFe. Donc autant ne garder que les principes intéressants du PI Planning, et utiliser un terme moins jargonnant, qui correspond à la culture de l'organisation : par exemple, Quarter Plan.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -25088,7 +25062,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le processus de Program Increment Planning permet de mieux contrôler le budget d'un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l'enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le processus de Program Increment Planning permet de mieux contrôler le budget d'un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l'enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "paragraph",
@@ -25161,7 +25135,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le RTE, est quelqu’un que l’on choisit pour sa capacité d’animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c’est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d’autres PI Plannings pour se préparer.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le RTE, est quelqu’un que l’on choisit pour sa capacité d’animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c’est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d’autres PI Plannings pour se préparer.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -25191,7 +25165,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "La vision du projet est ce qui permet d’exprimer, à court ou à plus long terme, là où on veut collectivement aller. Le but final de la vision du PI est d’embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l’entreprise.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "La vision du projet est ce qui permet d’exprimer, à court ou à plus long terme, là où on veut collectivement aller. Le but final de la vision du PI est d’embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l’entreprise.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -25221,7 +25195,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu’on ne fabrique pas un monolithe, qu’il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : Découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l’habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu’on ne fabrique pas un monolithe, qu’il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : Découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l’habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -25246,7 +25220,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Cette checklist permet de s'assurer de la qualité des échanges entre les participants, et de guider ceux qui sont un peu perdus pendant le Program Increment Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Cette checklist permet de s'assurer de la qualité des échanges entre les participants, et de guider ceux qui sont un peu perdus pendant le Program Increment Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -25350,7 +25324,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Un PI Planning est une séance de planification. Toutes les personnes nécessaires à la planification et aux arbitrages doivent être présentes. Par contre, attention à ne pas considérer cette réunion comme du “tourisme industriel”. Si des personnes ne sont pas nécessaires, autant ne pas les inviter. Leur présence risque de polluer le PI Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Un PI Planning est une séance de planification. Toutes les personnes nécessaires à la planification et aux arbitrages doivent être présentes. Par contre, attention à ne pas considérer cette réunion comme du “tourisme industriel”. Si des personnes ne sont pas nécessaires, autant ne pas les inviter. Leur présence risque de polluer le PI Planning.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -25409,7 +25383,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Ce qui peut faire qu'un PI Planning ne fonctionne pas, c'est de réunir des gens qui ont des objectifs vraiment antinomiques, qui les empêchent d'avoir envie de travailler les uns avec les autres. Mais sachez qu'il est même possible de faire des trains multi-organismes, avec des partenaires business. Un signe que la réussite du PI Planning tient surtout au fait que le projet soit bien sponsorisé des deux côtés. Le PI Planning n'est pas un outil magique : tout le monde doit comprendre qu'on cherche une victoire collective, un processus gagnant/gagnant, malgré les éventuelles inadhérences politiques.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Ce qui peut faire qu'un PI Planning ne fonctionne pas, c'est de réunir des gens qui ont des objectifs vraiment antinomiques, qui les empêchent d'avoir envie de travailler les uns avec les autres. Mais sachez qu'il est même possible de faire des trains multi-organismes, avec des partenaires business. Un signe que la réussite du PI Planning tient surtout au fait que le projet soit bien sponsorisé des deux côtés. Le PI Planning n'est pas un outil magique : tout le monde doit comprendre qu'on cherche une victoire collective, un processus gagnant/gagnant, malgré les éventuelles inadhérences politiques.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "heading",
@@ -25462,7 +25436,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le support de travail en amont d’un PI Planning, c’est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation “à la louche” de l’effort. Et quand on a un sujet de capacité, il peut être intéressant d’essayer d’identifier, en amont, quel goulot d’étranglement pourrait émerger.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le support de travail en amont d’un PI Planning, c’est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation “à la louche” de l’effort. Et quand on a un sujet de capacité, il peut être intéressant d’essayer d’identifier, en amont, quel goulot d’étranglement pourrait émerger.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -25503,7 +25477,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à “brûler les vaisseaux” : chacun doit s’engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l’engagement via un acte de communication fort, en publiant des posts sur l’Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l’engagement.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à “brûler les vaisseaux” : chacun doit s’engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l’engagement via un acte de communication fort, en publiant des posts sur l’Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l’engagement.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -25515,7 +25489,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/elodie-grasset-digital-data-ai/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.\nElodie Clémentine Grasset\nConsultante et formatrice indépendante et ex-CDO Groupe Air Liquide"
       },
       {
         "type": "heading",
@@ -25609,7 +25583,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Si les équipes font du Scrum, on conserve toutes les cérémonies Scrum, ce qui permet de traiter les dérives qui ont pu apparaître entre la planification en PI Planning et le déroulement effectif. Et, juste avant le prochain PI Planning, on fait une séance de revue de la réalisation effective du PI (en termes de valeur atteinte plus qu'en termes de features) et d'amélioration, cérémonie appelée Inspect & Adapt.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe\n Speaker avatar: \n<a href=\"https://www.linkedin.com/in/michel-levaslot/\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar:"
+        "html": "Si les équipes font du Scrum, on conserve toutes les cérémonies Scrum, ce qui permet de traiter les dérives qui ont pu apparaître entre la planification en PI Planning et le déroulement effectif. Et, juste avant le prochain PI Planning, on fait une séance de revue de la réalisation effective du PI (en termes de valeur atteinte plus qu'en termes de features) et d'amélioration, cérémonie appelée Inspect & Adapt.\nMichel Levaslot\nAdjoint de Direction - Transformation de la DSI et animateur d’un club SAFe"
       },
       {
         "type": "paragraph",
@@ -28808,7 +28782,7 @@
       },
       {
         "type": "insight-callout",
-        "html": "Speaker avatar: \n<a href=\"https://www.airsaas.io/podcasts-speakers/emmanuelle-courtois\">insert the link to the speaker page between: href=\"https://LINK_SPEAKER_PAGE\" \n Speaker avatar: change url of \"background-image\" to the url of the image in linkedIn</a>\n end Speaker avatar: \nQuand on bascule dans le digital, on doit forcément faire attention au parcours utilisateur. L’ergonomie est beaucoup plus importante que dans un système SAP. On va s’intéresser en détail sur les méthodes de travail des utilisateurs et essayer de savoir comment l’outil qu’on va lui proposer va être efficace pour que cela améliore son travail au quotidien.\n\nUn utilisateur qui n'a plus besoin de faire d'effort pour utiliser ses outils peut se concentrer sur autre chose : il gagne donc forcément en productivité !\nEmmanuelle Courtois\nDSI du Siège de Danone - episode 23 Podcast CIO Révolution by AirSaas"
+        "html": "Quand on bascule dans le digital, on doit forcément faire attention au parcours utilisateur. L’ergonomie est beaucoup plus importante que dans un système SAP. On va s’intéresser en détail sur les méthodes de travail des utilisateurs et essayer de savoir comment l’outil qu’on va lui proposer va être efficace pour que cela améliore son travail au quotidien.\n\nUn utilisateur qui n'a plus besoin de faire d'effort pour utiliser ses outils peut se concentrer sur autre chose : il gagne donc forcément en productivité !\nEmmanuelle Courtois\nDSI du Siège de Danone - episode 23 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",

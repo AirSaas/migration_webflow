@@ -11,10 +11,12 @@
  * (stories are intentional demo / palette showcases).
  */
 
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { execSync } from "node:child_process";
+import { dirname, join } from "node:path";
 
 const ROOT = process.cwd();
+const REPORT_JSON = join(ROOT, "docs/raw/ds-audit.json");
 
 // Rules — each entry has a name, a regex, and a description for the report.
 // Regexes run over raw file text; use word boundaries / context where possible.
@@ -230,10 +232,14 @@ function main() {
   const files = listTrackedFiles();
   let totalHits = 0;
   const report = [];
+  const jsonReport = { date: new Date().toISOString(), totalHits: 0, rules: [] };
 
   for (const rule of RULES) {
     const hits = runRule(rule, files);
-    if (hits.length === 0) continue;
+    if (hits.length === 0) {
+      jsonReport.rules.push({ name: rule.name, description: rule.description, hits: 0, items: [] });
+      continue;
+    }
     totalHits += hits.length;
     report.push(`\n❌ ${rule.name}  (${hits.length} hit${hits.length > 1 ? "s" : ""})`);
     report.push(`   ${rule.description}`);
@@ -243,16 +249,28 @@ function main() {
     if (hits.length > 20) {
       report.push(`   … and ${hits.length - 20} more`);
     }
+    jsonReport.rules.push({
+      name: rule.name,
+      description: rule.description,
+      hits: hits.length,
+      items: hits,
+    });
   }
+
+  jsonReport.totalHits = totalHits;
+  mkdirSync(dirname(REPORT_JSON), { recursive: true });
+  writeFileSync(REPORT_JSON, JSON.stringify(jsonReport, null, 2));
 
   if (totalHits === 0) {
     console.log("✅ DS audit clean — no rule violations.");
+    console.log(`   JSON → ${REPORT_JSON}`);
     process.exit(0);
   }
 
   console.log(`DS audit — ${totalHits} violation(s):`);
   console.log(report.join("\n"));
   console.log("\nRules: docs/ds-rules.md");
+  console.log(`JSON  → ${REPORT_JSON}`);
   process.exit(1);
 }
 
