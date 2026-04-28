@@ -8,14 +8,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -48,22 +40,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/video/ppm",
         "resolved": "http://localhost:3000/fr/video/ppm",
         "status": 404,
@@ -74,14 +50,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -113,14 +81,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -153,22 +113,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/video/pmo",
         "resolved": "http://localhost:3000/fr/video/pmo",
         "status": 404,
@@ -179,14 +123,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -218,14 +154,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -258,22 +186,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/livre-blanc/capacity-planning",
         "resolved": "http://localhost:3000/fr/livre-blanc/capacity-planning",
         "status": 404,
@@ -284,14 +196,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -323,14 +227,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -363,22 +259,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/video/pi-planning",
         "resolved": "http://localhost:3000/fr/video/pi-planning",
         "status": 404,
@@ -389,14 +269,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -428,14 +300,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -468,32 +332,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -525,14 +365,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -565,32 +397,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -622,14 +430,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -662,32 +462,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -719,14 +495,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -759,32 +527,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -816,14 +560,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -856,32 +592,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -913,14 +625,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -953,32 +657,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1010,14 +690,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1050,24 +722,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1099,14 +755,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1139,40 +787,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1204,14 +820,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1244,40 +852,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1309,14 +885,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1349,40 +917,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1414,14 +950,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1454,40 +982,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1519,14 +1015,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1559,40 +1047,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1624,14 +1080,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1664,40 +1112,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1729,14 +1145,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1769,32 +1177,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1826,14 +1210,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1866,40 +1242,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -1931,14 +1275,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -1971,40 +1307,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2036,14 +1340,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2076,40 +1372,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2141,14 +1405,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2181,40 +1437,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2246,14 +1470,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2286,32 +1502,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2343,14 +1535,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2383,32 +1567,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2440,14 +1600,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2480,32 +1632,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2537,14 +1665,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2577,32 +1697,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2634,14 +1730,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2674,32 +1762,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2731,14 +1795,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2771,14 +1827,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -2787,24 +1835,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2836,14 +1868,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2876,32 +1900,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -2933,14 +1933,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -2973,32 +1965,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3030,14 +1998,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3070,32 +2030,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3127,14 +2063,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3167,14 +2095,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/",
         "resolved": "https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/",
         "status": 0,
@@ -3192,24 +2112,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3241,14 +2145,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3281,48 +2177,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3354,14 +2210,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3394,40 +2242,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3459,14 +2275,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3499,32 +2307,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3556,14 +2340,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3596,14 +2372,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "http://gestion-de-projet/le-guide-du-mode-projet",
         "resolved": "http://gestion-de-projet/le-guide-du-mode-projet",
         "status": 0,
@@ -3613,24 +2381,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3662,14 +2414,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3702,32 +2446,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3759,14 +2479,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3799,32 +2511,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3856,14 +2544,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -3896,14 +2576,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/",
         "resolved": "https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/",
         "status": 0,
@@ -3913,24 +2585,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -3962,14 +2618,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4002,14 +2650,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "#",
         "classify": "EMPTY",
         "severity": "P2",
@@ -4020,28 +2660,12 @@
         "raw": "#",
         "classify": "EMPTY",
         "severity": "P2",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
         "isCta": false
       },
       {
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4073,14 +2697,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4113,14 +2729,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
         "resolved": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
         "status": 404,
@@ -4137,24 +2745,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4186,14 +2778,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4226,14 +2810,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "status": 404,
@@ -4242,24 +2818,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4291,14 +2851,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4331,14 +2883,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
         "status": 404,
@@ -4347,24 +2891,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4396,14 +2924,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4436,32 +2956,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4493,14 +2989,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4533,14 +3021,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "status": 404,
@@ -4549,24 +3029,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4598,14 +3062,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4638,32 +3094,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4695,14 +3127,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4735,32 +3159,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4792,14 +3192,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4832,32 +3224,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4889,14 +3257,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -4929,14 +3289,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse",
         "status": 404,
@@ -4945,24 +3297,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -4994,14 +3330,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5034,14 +3362,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
         "status": 404,
@@ -5050,24 +3370,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5099,14 +3403,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5139,32 +3435,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5196,14 +3468,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5236,32 +3500,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5293,14 +3533,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5333,14 +3565,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
         "resolved": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
         "status": 404,
@@ -5349,24 +3573,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5398,14 +3606,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5438,22 +3638,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
         "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
         "status": 404,
@@ -5464,14 +3648,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5503,14 +3679,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5543,32 +3711,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5600,14 +3744,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5640,32 +3776,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5697,14 +3809,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5737,32 +3841,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5794,14 +3874,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5834,32 +3906,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5891,14 +3939,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -5931,14 +3971,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -5947,24 +3979,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -5996,14 +4012,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6036,14 +4044,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -6052,24 +4052,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6101,14 +4085,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6135,14 +4111,6 @@
         "kind": "a",
         "raw": "/fr/microsoft-teams-airsaas",
         "resolved": "http://localhost:3000/fr/microsoft-teams-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6181,24 +4149,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6230,14 +4182,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6270,32 +4214,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6327,14 +4247,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6367,32 +4279,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6424,14 +4312,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6464,14 +4344,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
         "resolved": "http://localhost:3000/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
         "status": 404,
@@ -6488,24 +4360,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6537,14 +4393,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6577,32 +4425,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6634,14 +4458,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6674,14 +4490,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "#",
         "classify": "EMPTY",
         "severity": "P2",
@@ -6689,24 +4497,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6738,14 +4530,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6778,14 +4562,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
         "resolved": "http://localhost:3000/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
         "status": 404,
@@ -6794,24 +4570,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6843,14 +4603,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6883,32 +4635,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -6940,14 +4668,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -6980,22 +4700,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
         "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
         "status": 404,
@@ -7006,14 +4710,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7045,14 +4741,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7085,32 +4773,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7142,14 +4806,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7182,40 +4838,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7247,14 +4871,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7287,40 +4903,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7352,14 +4936,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7392,14 +4968,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
         "status": 404,
@@ -7408,24 +4976,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7457,14 +5009,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7497,40 +5041,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7562,14 +5074,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7602,14 +5106,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
         "resolved": "http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
         "status": 0,
@@ -7619,24 +5115,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7668,14 +5148,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7708,40 +5180,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7773,14 +5213,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7813,40 +5245,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7878,14 +5278,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -7918,22 +5310,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
         "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
         "status": 404,
@@ -7944,14 +5320,6 @@
         "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -7983,14 +5351,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8023,32 +5383,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8080,14 +5416,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8120,32 +5448,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8177,14 +5481,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8217,14 +5513,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien",
         "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien",
         "status": 404,
@@ -8233,24 +5521,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8282,14 +5554,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8322,40 +5586,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8387,14 +5619,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8421,14 +5645,6 @@
         "kind": "a",
         "raw": "/fr/microsoft-teams-airsaas",
         "resolved": "http://localhost:3000/fr/microsoft-teams-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8467,24 +5683,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8516,14 +5716,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8556,32 +5748,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8613,14 +5781,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8653,14 +5813,6 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "https://www.linkedin.com/in/ACoAAAUinb0ByhtaIDmkR6yoTsWv1lFPacEnu2s",
         "resolved": "https://www.linkedin.com/in/ACoAAAUinb0ByhtaIDmkR6yoTsWv1lFPacEnu2s",
         "status": 999,
@@ -8669,24 +5821,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8718,14 +5854,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8758,32 +5886,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8815,14 +5919,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8855,32 +5951,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
@@ -8912,14 +5984,6 @@
     "issues": [
       {
         "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/les-integrations",
         "resolved": "http://localhost:3000/fr/les-integrations",
         "status": 404,
@@ -8952,32 +6016,8 @@
       },
       {
         "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/meetings-pages",
-        "resolved": "http://localhost:3000/fr/meetings-pages",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
         "raw": "/fr/pourquoi-airsaas",
         "resolved": "http://localhost:3000/fr/pourquoi-airsaas",
-        "status": 404,
-        "severity": "P1",
-        "isCta": false
-      },
-      {
-        "kind": "a",
-        "raw": "/fr/temoignages",
-        "resolved": "http://localhost:3000/fr/temoignages",
         "status": 404,
         "severity": "P1",
         "isCta": false
