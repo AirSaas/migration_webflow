@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Changements restants — DS + rebuild · AirSaas</title>
+<style>
+  :root{
+    --fg:#111827; --muted:#6b7280; --bg:#ffffff; --panel:#f8fafc;
+    --border:#e5e7eb; --primary:#3a51e2; --primary-20:#d7dcf5;
+    --ds:#3a51e2; --content:#d97706; --dev:#16a34a;
+    --p1:#dc2626; --p2:#d97706; --p3:#2563eb; --p4:#6b7280;
+    --effort-xs:#16a34a; --effort-s:#84cc16; --effort-m:#d97706; --effort-l:#dc2626;
+  }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--fg);background:var(--bg);margin:0;line-height:1.55;font-size:15px}
+  .wrap{max-width:1100px;margin:0 auto;padding:32px 28px 80px}
+  .cover{background:linear-gradient(135deg,#f5f7ff 0%,#eef1fb 100%);
+         border-radius:24px;padding:36px 40px;margin-bottom:28px;
+         border:1px solid var(--primary-20)}
+  .cover h1{margin:0 0 8px;font-size:30px;font-weight:800;letter-spacing:-0.02em;color:var(--primary)}
+  .cover .sub{color:var(--muted);font-size:15px;margin-bottom:18px}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}
+  .stat{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+  .stat .n{font-size:22px;font-weight:800;display:block;line-height:1.1}
+  .stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;margin-top:4px}
+  .stat.ds .n{color:var(--ds)}
+  .stat.content .n{color:var(--content)}
+  .stat.dev .n{color:var(--dev)}
+  .group{margin-top:32px;border-left:4px solid var(--primary);padding-left:20px}
+  .group.ds{border-left-color:var(--ds)}
+  .group.content{border-left-color:var(--content)}
+  .group.dev{border-left-color:var(--dev)}
+  .group h2{font-size:22px;margin:0 0 4px;font-weight:700}
+  .group .owner{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px;font-weight:600}
+  .item{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px 22px;margin-bottom:14px}
+  .item.skip{background:var(--panel);border-style:dashed;opacity:0.8}
+  .item-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+  .item-num{font-size:13px;color:var(--muted);font-weight:700;min-width:22px}
+  .item h3{margin:0;font-size:17px;font-weight:700;flex:1}
+  .item h3 code{background:#eef1fb;padding:2px 7px;border-radius:4px;font-size:0.92em;color:var(--primary)}
+  .badges{display:flex;gap:6px;flex-wrap:wrap}
+  .badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:10.5px;font-weight:700;
+         text-transform:uppercase;letter-spacing:0.04em;color:#fff;white-space:nowrap}
+  .badge.p1{background:var(--p1)}
+  .badge.p2{background:var(--p2)}
+  .badge.p3{background:var(--p3)}
+  .badge.p4{background:var(--p4)}
+  .badge.xs{background:var(--effort-xs)}
+  .badge.s{background:var(--effort-s)}
+  .badge.m{background:var(--effort-m)}
+  .badge.l{background:var(--effort-l)}
+  .field{margin:8px 0}
+  .field-label{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;margin-right:6px}
+  .field-value{font-size:14px}
+  .field.how .field-label{display:block;margin-bottom:4px}
+  .field.how .field-value{background:var(--panel);border-radius:6px;padding:10px 14px;border-left:3px solid var(--primary);font-size:13.5px}
+  code{background:#f3f4f6;padding:2px 5px;border-radius:4px;font-size:0.9em;
+       font-family:"SF Mono",Menlo,Consolas,monospace;color:#111827}
+  .decision{background:#fffbeb;border:1px solid #fcd34d;border-radius:8px;padding:10px 14px;margin-top:8px;font-size:13.5px}
+  .decision strong{color:#92400e}
+  ul{margin:6px 0;padding-left:22px}
+  li{margin-bottom:4px;font-size:14px}
+  .flow{background:var(--panel);border-radius:12px;padding:22px 26px;margin-top:14px}
+  .flow h3{margin:0 0 10px;font-size:17px}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+  .step{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+  .step .num{font-size:11px;color:var(--muted);font-weight:700;margin-bottom:4px}
+  .step .t{font-size:14px;font-weight:700;margin-bottom:4px}
+  .step .d{font-size:12.5px;color:var(--muted)}
+  hr{border:none;border-top:1px solid var(--border);margin:28px 0}
+  .muted{color:var(--muted)}
+  .tiny{font-size:12px}
+  .opinion{background:#f0f9ff;border:1px solid #7dd3fc;border-radius:10px;padding:16px 20px;margin:16px 0}
+  .opinion strong{color:#0369a1}
+  @media (max-width:720px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:1fr}
+    .cover{padding:24px 20px}
+    .cover h1{font-size:24px}
+  }
+  @media print{
+    body{font-size:12px}
+    .item,.flow{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="cover">
+    <h1>Changements restants</h1>
+    <div class="sub">Ce qu'il reste à faire avant d'être 100 % rebuild-ready<br/>
+    Baseline : <code>main</code> après merge PR #39 — 2026-04-24</div>
+    <div class="stats">
+      <div class="stat ds"><span class="n">2</span><span class="l">Changements DS (code)</span></div>
+      <div class="stat content"><span class="n">3</span><span class="l">Décisions contenu</span></div>
+      <div class="stat dev"><span class="n">4</span><span class="l">Tâches dev infra</span></div>
+      <div class="stat"><span class="n">0</span><span class="l">Bloquant P1</span></div>
+    </div>
+  </div>
+
+  <!-- Opinion: blog per page -->
+  <div class="opinion">
+    <strong>💡 Blog : faut-il refaire page par page ?</strong><br/>
+    <strong>Non.</strong> Stratégie = <strong>1 parser HTML Webflow + 1 template Dynamic Zone</strong> qui sort les <strong>58 articles standard</strong> automatiquement. Seuls <strong>5 articles</strong> demandent un traitement individuel (voir §B items 3, 4, 5 ci-dessous). Page-par-page = ~63× le travail pour zéro bénéfice ; le parser est plus robuste, tests reproductibles, itérations rapides.
+  </div>
+
+  <!-- GROUPE A · DS CODE -->
+  <div class="group ds">
+    <h2>A · Changements DS (code)</h2>
+    <div class="owner">👥 Équipe dev · avant rebuild</div>
+
+    <!-- A1 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">A1</span>
+        <h3>Relaxer contract <code>TestimonialsFrame.min</code> 2 → 1</h3>
+        <div class="badges">
+          <span class="badge p2">P2</span>
+          <span class="badge xs">XS · 1 ligne</span>
+        </div>
+      </div>
+      <div class="field">
+        <span class="field-label">Scope</span>
+        <span class="field-value">~3 pages (1 LP + 1 Équipes + 1 Solution) qui n'ont qu'1 témoignage à afficher</span>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi</span>
+        <span class="field-value">Contract actuel exige min 2 → blocage sur les pages à 1 témoignage isolé. C'est une relaxation triviale sans impact DS strict.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          Fichier <code>src/components/library-design/sections/TestimonialsFrame.tsx</code> :<br/>
+          1. Update <code>@limits</code> : <code>testimonials: 1–6 items</code><br/>
+          2. Update validator <code>assertArrayBounds</code> min 2 → 1<br/>
+          3. Ajuster grid layout pour le cas single (centrer au lieu de grid-cols-3)<br/>
+          4. Ajouter story Storybook « single testimonial »<br/>
+          5. Regen <code>ds-components-reference.md</code>
+        </div>
+      </div>
+    </div>
+
+    <!-- A2 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">A2</span>
+        <h3>Builder <code>HubspotCtaEmbed</code></h3>
+        <div class="badges">
+          <span class="badge p2">P2</span>
+          <span class="badge s">S · ~60 lignes</span>
+        </div>
+      </div>
+      <div class="field">
+        <span class="field-label">Scope</span>
+        <span class="field-value">8 articles blog avec lead-magnet HubSpot (pattern <code>hs-cta-embed-*</code>)</span>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi</span>
+        <span class="field-value">Critique conversion. Les 8 articles actuels injectent un CTA HubSpot (livre blanc, demo book, etc.) qui doit continuer à fonctionner post-migration.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          Nouveau composant <code>src/components/library-design/ui/HubspotCtaEmbed.tsx</code> :<br/>
+          • Props : <code>portalId</code>, <code>ctaId</code>, optionnel <code>fallbackHref</code> + <code>fallbackLabel</code><br/>
+          • Charge dynamiquement le script <code>https://js.hscta.net/cta/current.js</code><br/>
+          • Render un bouton DS stylé (<code>Button</code> variant="primary") en fallback si JS non chargé<br/>
+          • Contract <code>@useWhen</code> : uniquement dans <code>BlogArticleBody</code> ; JAMAIS hors blog<br/>
+          • Story Storybook + test avec script mocké
+        </div>
+      </div>
+      <div class="decision">
+        <strong>🟡 Décision requise :</strong> construire ce composant avant Phase 1 (rebuild blog) <em>OU</em> utiliser iframe HubSpot inline temporaire pour les 8 articles + migration CTA en Phase 3 ? Recommandation : le construire avant — effort S, évite une dette technique.
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUPE B · DÉCISIONS CONTENU -->
+  <div class="group content">
+    <h2>B · Décisions contenu</h2>
+    <div class="owner">👥 Produit + SEO + Marketing</div>
+
+    <!-- B1 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">B1</span>
+        <h3>Canonical slugs blog (3 sets de duplicates)</h3>
+        <div class="badges"><span class="badge p2">SEO critique</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Scope</span>
+        <span class="field-value">3 sets d'articles identiques (HTML strictement identique, slugs différents)</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Sets à trancher</span>
+        <div class="field-value">
+          <strong>Set 1</strong> (triplet, 66017 chars chacun) :<br/>
+          — <code>gestion-portefeuille-projets-vs-gestion-de-projet</code><br/>
+          — <code>management-de-portefeuille-de-projet</code><br/>
+          — <code>portefeuille-projet</code><br/><br/>
+          <strong>Set 2</strong> (pair, 60229 chars) :<br/>
+          — <code>pi-planning</code><br/>
+          — <code>program-increment-planning</code><br/><br/>
+          <strong>Set 3</strong> (signalé dans le sweep) :<br/>
+          — <code>metier-pmo</code> (duplicate d'un autre article à identifier)
+        </div>
+      </div>
+      <div class="decision">
+        <strong>🟡 Action produit/SEO :</strong> choisir <strong>1 slug canonique</strong> par set (basé sur traffic GA + backlinks Search Console) + <strong>301 redirects</strong> pour les autres. Dev implémente les redirects dans <code>next.config</code> ou middleware.
+      </div>
+    </div>
+
+    <!-- B2 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">B2</span>
+        <h3>Sort de l'article <code>portfolio-management</code></h3>
+        <div class="badges"><span class="badge p3">À trancher</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Scope</span>
+        <span class="field-value">1 article — 2.76 MB HTML, aucun marker body standard, 29 occurrences <code>w-dyn-*</code> → visiblement <strong>pas un article de blog</strong> mais une page pillar avec widgets dynamiques</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Options</span>
+        <div class="field-value">
+          <strong>Option 1</strong> — Exclure du rebuild blog + 301 vers une page existante pertinente (ex: <code>/solutions/portfolio-management</code>)<br/>
+          <strong>Option 2</strong> — Convertir en page Next.js dédiée <code>/[locale]/portfolio-management</code> avec composition DS manuelle<br/>
+          <strong>Option 3</strong> — Garder dans blog mais flaguer en "pillar" (template différent) — pas recommandé (complexifie le parser)
+        </div>
+      </div>
+      <div class="decision">
+        <strong>🟡 Recommandation :</strong> Option 2 si traffic significatif (page pillar SEO), sinon Option 1. À vérifier dans Search Console avant trancher.
+      </div>
+    </div>
+
+    <!-- B3 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">B3</span>
+        <h3>Stratégie migration lead-magnets HubSpot</h3>
+        <div class="badges"><span class="badge p2">Conversion</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Scope</span>
+        <span class="field-value">8 articles blog avec CTA HubSpot (lead-magnet livre blanc / démo)</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">À valider côté marketing</span>
+        <div class="field-value">
+          1. Les 8 CTA <code>hs-cta-embed-*</code> actuels sont-ils tous <strong>toujours actifs</strong> dans HubSpot ? (audit tableau de bord)<br/>
+          2. Faut-il <strong>remplacer</strong> par un formulaire Strapi + Zapier webhook HubSpot (plus contrôlable) ou <strong>garder</strong> les embeds HubSpot (plus rapide) ?<br/>
+          3. Les tracking events sont-ils <strong>conservés</strong> (GA4, conversion goals) ?
+        </div>
+      </div>
+      <div class="decision">
+        <strong>🟡 Décision marketing requise avant Phase 1.</strong> Lie à l'item A2 : si on garde HubSpot embeds → A2 obligatoire. Si on migre vers Strapi/Zapier → A2 inutile, remplacé par un composant <code>LeadMagnetForm</code> custom.
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUPE C · INFRA BLOG -->
+  <div class="group dev">
+    <h2>C · Infra blog (avant rebuild articles)</h2>
+    <div class="owner">👥 Équipe dev · Phase 1</div>
+
+    <!-- C1 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">C1</span>
+        <h3>Schéma Strapi <code>blog-article</code> + Dynamic Zone</h3>
+        <div class="badges"><span class="badge p1">Requis Phase 1</span><span class="badge m">M · ~1 jour</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi</span>
+        <span class="field-value">Le template blog fetch les articles depuis Strapi. Sans schéma → impossible de rendre.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          Content-type <code>blog-article</code> :<br/>
+          • Fields : <code>slug</code> (uid), <code>title</code>, <code>hero_image</code>, <code>author</code> (relation), <code>published_date</code>, <code>seo_meta</code>, <code>related_articles</code> (3 relations)<br/>
+          • <strong>Dynamic Zone <code>body</code></strong> avec components : <code>prose.paragraph</code>, <code>prose.heading</code>, <code>prose.list</code>, <code>prose.figure</code>, <code>prose.quote</code>, <code>prose.blockquote</code>, <code>prose.insight-callout</code>, <code>prose.inline-cta</code>, <code>prose.hubspot-cta</code>, <code>prose.table</code>, <code>prose.faq</code><br/>
+          • Proposition détaillée disponible dans <code>docs/ds-audit-collection-gestion-projet.md §9</code>
+        </div>
+      </div>
+    </div>
+
+    <!-- C2 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">C2</span>
+        <h3>Parser Webflow HTML → Dynamic Zone blocks</h3>
+        <div class="badges"><span class="badge p1">Requis Phase 1</span><span class="badge m">M · ~1.5 jour</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi</span>
+        <span class="field-value">Le contenu des 63 articles existe uniquement en HTML Webflow brut (colonne <code>html_content</code> dans Supabase). Il faut le transformer en blocks Strapi typés.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          Script <code>scripts/migrate/blog-articles-to-strapi.mjs</code> :<br/>
+          1. Fetch 63 rows Supabase <code>webflow_pages type='blog'</code><br/>
+          2. Parser HTML avec <code>cheerio</code> (ou jsdom)<br/>
+          3. Mapper les patterns détectés au sweep vers blocks Strapi (voir tableau mapping dans <code>ds-audit-collection-gestion-projet.md §10</code>)<br/>
+          4. Gérer les outliers (items 3, 4, 5) avec flags/skip<br/>
+          5. POST vers Strapi REST API (`/api/blog-articles`)<br/>
+          6. Log des articles skipped + raisons
+        </div>
+      </div>
+    </div>
+
+    <!-- C3 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">C3</span>
+        <h3>Route template <code>/[locale]/blog/[slug]</code></h3>
+        <div class="badges"><span class="badge p1">Requis Phase 1</span><span class="badge m">M · ~1 jour</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi</span>
+        <span class="field-value">Rend les 63 articles depuis les blocks Strapi. Un seul template pour tous → approche clean.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          Créer <code>src/app/[locale]/blog/[slug]/page.tsx</code> :<br/>
+          • Server component, fetch article depuis Strapi par slug<br/>
+          • Compose : <code>Navbar</code> → <code>BlogHero</code> → layout 2 cols (<code>TocSidebar</code> + <code>BlogArticleBody</code>) → <code>BlogRelatedFrame</code> → <code>CtaHighlightFrame</code> → <code>Footer</code><br/>
+          • <code>BlogArticleBody</code> reçoit le Dynamic Zone <code>body</code> et render chaque block via un switch sur <code>__component</code><br/>
+          • Metadata dynamique (SEO) depuis <code>seo_meta</code><br/>
+          • <code>generateStaticParams</code> pour SSG des 63 articles
+        </div>
+      </div>
+    </div>
+
+    <!-- C4 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">C4</span>
+        <h3>Rebuild manuel <code>plan-de-communication-projet</code></h3>
+        <div class="badges"><span class="badge p3">Outlier</span><span class="badge s">S · ~2h</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi</span>
+        <span class="field-value">Article atypique : 77 inline styles + 35 SVG icons (infographic custom). Le parser C2 va échouer ou produire du contenu cassé.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          <strong>Option 1</strong> — Capturer l'infographic en image optimisée (WebP/AVIF) + replacement via <code>IllustrationFrame</code><br/>
+          <strong>Option 2</strong> — Rebuild les 35 SVG en composants DS existants (<code>IconIllustration</code> + layout custom)<br/>
+          Mark l'article comme <code>skip_parser: true</code> dans Strapi et rebuild body manuellement.<br/>
+          Recommandation : Option 1 si l'infographic est purement visuel, Option 2 si le texte doit rester SEO-indexable.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUPE D · REBUILD LANDINGS -->
+  <div class="group dev">
+    <h2>D · Rebuild 26 landings</h2>
+    <div class="owner">👥 Équipe dev · Phase 2 (post-blog)</div>
+
+    <!-- D1 -->
+    <div class="item">
+      <div class="item-head">
+        <span class="item-num">D1</span>
+        <h3>Templates par type (LP · Produit · Équipes · Solution)</h3>
+        <div class="badges"><span class="badge p1">Requis</span><span class="badge l">L · ~4-5 jours</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Scope</span>
+        <span class="field-value">4 LP + 6 Produit + 4 Équipes + 12 Solution = <strong>26 pages</strong></span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Comment</span>
+        <div class="field-value">
+          • <strong>LP</strong> : Hero + TabsFrame + FeatureFrame ×N + ComparisonFrame + CtaHighlightFrame + Footer<br/>
+          • <strong>Produit</strong> : Hero + FeatureSectionStacked + ValuePropositionFrame + TestimonialsFrame + FaqFrame + Footer<br/>
+          • <strong>Équipes</strong> : Hero + StepsFrame + ValuePropositionFrame + TestimonialsFrame + RelatedSolutionsFrame + Footer<br/>
+          • <strong>Solution</strong> : Hero + ProseFrame (long-form) + ValuePropositionFrame + TestimonialsFrame + FeatureFrame + FaqFrame + Footer<br/><br/>
+          <strong>0 nouveau composant DS requis</strong> — tout est composition existante.
+        </div>
+      </div>
+    </div>
+
+    <!-- D2 -->
+    <div class="item skip">
+      <div class="item-head">
+        <span class="item-num">D2</span>
+        <h3>3 patterns P4 inline (NE PAS extraire en composants)</h3>
+        <div class="badges"><span class="badge p4">P4</span><span class="badge s">Inline</span></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Pourquoi inline</span>
+        <span class="field-value">Faible fréquence → extraire en composant = over-engineering. À réévaluer post-rebuild si pattern DRY confirmé.</span>
+      </div>
+      <div class="field how">
+        <span class="field-label">Patterns concernés</span>
+        <div class="field-value">
+          • <strong>Press + Testimonials</strong> (14 pages) → compose <code>LogosBar</code> + grid <code>TestimonialCard</code> manuellement<br/>
+          • <strong>Client Sectors</strong> (3 Équipes) → grid inline avec <code>ClientCard</code> ou custom<br/>
+          • <strong>Industry Stats</strong> (1 Solution) → grid inline de stat cards
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr/>
+
+  <!-- SEQUENCE -->
+  <div class="flow">
+    <h3>Séquence d'exécution recommandée</h3>
+    <p class="tiny muted">Enchaînement optimal pour unblock le rebuild au plus vite avec minimum de dette technique.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="num">PHASE 0 · Jour 1 (matin)</div>
+        <div class="t">Quick wins DS</div>
+        <div class="d">A1 (relax TestimonialsFrame) + A2 (HubspotCtaEmbed) si décision marketing prise.<br/>~3h.</div>
+      </div>
+      <div class="step">
+        <div class="num">PHASE 0 · Jour 1 (après-midi)</div>
+        <div class="t">Décisions produit</div>
+        <div class="d">B1 (canonical slugs) + B2 (portfolio-management) + B3 (HubSpot stratégie). ~0.5j avec stakeholders.</div>
+      </div>
+      <div class="step">
+        <div class="num">PHASE 1 · Jours 2-4</div>
+        <div class="t">Infra blog</div>
+        <div class="d">C1 (Strapi schéma) → C2 (parser) → C3 (template route) → C4 (outlier). ~3 jours.</div>
+      </div>
+      <div class="step">
+        <div class="num">PHASE 1 · Jour 4-5</div>
+        <div class="t">Migration + QA blog</div>
+        <div class="d">Run parser sur 58 articles + traitement outliers + Playwright visual regression.</div>
+      </div>
+      <div class="step">
+        <div class="num">PHASE 2 · Jours 6-10</div>
+        <div class="t">Rebuild landings</div>
+        <div class="d">D1 (4 templates types) + D2 (inline patterns) + QA. ~5 jours.</div>
+      </div>
+      <div class="step">
+        <div class="num">PHASE 3 · Jour 11</div>
+        <div class="t">Consolidation</div>
+        <div class="d">Audit inline patterns DRY → extraire si ≥2 occurrences. Finaliser 301 redirects.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr/>
+
+  <p class="muted tiny"><em>Total : <strong>~11 jours</strong> pour un rebuild complet (26 landings + 63 articles blog), 0 bloquant P1. Détail audit complet : <code>docs/ds-audit-final-2026-04-24.html</code>.</em></p>
+
+</div>
+</body>
+</html>

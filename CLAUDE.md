@@ -10,6 +10,54 @@ Spec complète : `.context/attachments/SPEC_Migration_v4.0_FINAL.md`
 - **Stack** : Next.js 15, Tailwind, Strapi 5, next-intl (7 locales)
 - **Webflow Site ID** : `609552290d93fd43ba0f0849`
 
+## Page rebuild QA — process obligatoire
+
+**RÈGLE ABSOLUE** : NE JAMAIS soumettre une URL/preview au user sans avoir validé les **3 niveaux de QA** ci-dessous. Le verifier `verify-rebuild.mjs` (text coverage) **ne suffit PAS**.
+
+### Process en 4 étapes (bloquant avant handoff)
+
+1. **Regex/DOM check** : `node scripts/qa-page.mjs`
+   - Doit retourner **0 P0** sur toutes les pages
+   - P1 médiane ≤ 3 par page
+2. **LLM check** : `node scripts/qa-llm.mjs`
+   - Envoie chaque page à Claude Sonnet pour détection sémantique
+   - Doit retourner **0 LLM_P0**
+   - LLM_P1 médiane ≤ 2
+3. **Visual sample** : `node scripts/visual-sample-v2.mjs` (si > 5 pages modifiées)
+   - 10 paires screenshots live + rebuild dans `docs/visual-comparison/`
+4. **Combined check** : `docs/qa-combined-report.md` — ≥ 85% pages status `pass`
+
+### Patterns connus à check systématiquement
+
+Liste exhaustive dans [`docs/qa-checklist.md`](./docs/qa-checklist.md). Patterns critiques :
+
+- **HTML literal dans le rendu** (`<br/>`, `<strong>`, entités HTML) → strip dans le parser AVANT data file
+- **Hrefs vides/placeholders** (`href=""`, `href="#"`) sur CTAs et cards → fallback vers route réelle
+- **Heading sizes inadaptés au contexte** : H2 marketing (32-72px) trop gros en body article → downshift level=3 (24-40px)
+- **Hero title fallback "AirSaas"** placeholder → toujours utiliser le vrai titre source
+- **Images placehold.co** quand un vrai asset existe → fallback layout sans image plutôt que placeholder
+- **Sections vides** (heading sans body) → skip ou enrichir
+- **Duplicate content** (testimonial/logo répété) → dedup via Set
+- **Author placeholder** ("AirSaas") au lieu du vrai → extraire `.author__photo` + `.author__text` pairs
+- **Selector exact-match en CSS** : `.author` ne match PAS `.author__photo` (utiliser `.author__photo` direct)
+- **DS Heading max level=4** : downshift les H5/H6 source vers H4
+
+### Procédure si nouveau bug détecté par user
+
+Quand le user signale un bug que regex+LLM n'ont pas détecté :
+
+1. Ajouter le check à `qa-page.mjs` (regex) si automatisable
+2. Sinon enrichir le prompt `qa-llm.mjs` (cas sémantique)
+3. Ajouter le pattern à `docs/qa-checklist.md`
+4. Re-run la suite pour valider que ça catch maintenant
+5. Le pattern devient permanent (régression test)
+
+### Coût LLM check
+
+Sonnet 4.6 sur 88 pages ≈ ~$4-5 par run complet. Avec prompt caching (cache_control sur le system prompt), ça descend à ~$2 sur les runs suivants.
+
+---
+
 ## DS Strict Mode
 
 **AVANT** de modifier ou créer un composant / une page : **LIRE [docs/ds-rules.md](docs/ds-rules.md)** (5 golden rules, decision tree, forbidden patterns, extension process) + **[docs/ds-components-reference.md](docs/ds-components-reference.md)** (inventaire complet des 47 composants DS avec leurs règles `@purpose/@useWhen/@dontUse/@limits/@forbidden`). Regénérer la référence après toute modification de contract via `python3 scripts/generate-ds-reference.py`.

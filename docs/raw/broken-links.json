@@ -1,0 +1,1057 @@
+[
+  {
+    "slug": "ppm",
+    "type": "lp",
+    "path": "/fr/lp/ppm",
+    "pageStatus": 200,
+    "linkCount": 42,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/video/ppm",
+        "resolved": "http://localhost:3000/fr/video/ppm",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "pmo",
+    "type": "lp",
+    "path": "/fr/lp/pmo",
+    "pageStatus": 200,
+    "linkCount": 44,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/video/pmo",
+        "resolved": "http://localhost:3000/fr/video/pmo",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "lp",
+    "path": "/fr/lp/capacity-planning",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/livre-blanc/capacity-planning",
+        "resolved": "http://localhost:3000/fr/livre-blanc/capacity-planning",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "pi-planning",
+    "type": "lp",
+    "path": "/fr/lp/pi-planning",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/video/pi-planning",
+        "resolved": "http://localhost:3000/fr/video/pi-planning",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "automatiser-la-com-projet",
+    "type": "produit",
+    "path": "/fr/produit/automatiser-la-com-projet",
+    "pageStatus": 200,
+    "linkCount": 31,
+    "issues": []
+  },
+  {
+    "slug": "budget",
+    "type": "produit",
+    "path": "/fr/produit/budget",
+    "pageStatus": 200,
+    "linkCount": 36,
+    "issues": []
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "produit",
+    "path": "/fr/produit/capacity-planning",
+    "pageStatus": 200,
+    "linkCount": 32,
+    "issues": []
+  },
+  {
+    "slug": "priorisation-par-equipes",
+    "type": "produit",
+    "path": "/fr/produit/priorisation-par-equipes",
+    "pageStatus": 200,
+    "linkCount": 33,
+    "issues": []
+  },
+  {
+    "slug": "reporting-projet",
+    "type": "produit",
+    "path": "/fr/produit/reporting-projet",
+    "pageStatus": 200,
+    "linkCount": 32,
+    "issues": []
+  },
+  {
+    "slug": "traduction-one-click-avec-deepl",
+    "type": "produit",
+    "path": "/fr/produit/traduction-one-click-avec-deepl",
+    "pageStatus": 200,
+    "linkCount": 31,
+    "issues": []
+  },
+  {
+    "slug": "airsaas-et-les-experts-de-la-transfo",
+    "type": "solution",
+    "path": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
+    "pageStatus": 200,
+    "linkCount": 36,
+    "issues": []
+  },
+  {
+    "slug": "flash-report",
+    "type": "solution",
+    "path": "/fr/solutions/flash-report",
+    "pageStatus": 200,
+    "linkCount": 44,
+    "issues": []
+  },
+  {
+    "slug": "flash-report-projet",
+    "type": "solution",
+    "path": "/fr/solutions/flash-report-projet",
+    "pageStatus": 200,
+    "linkCount": 49,
+    "issues": []
+  },
+  {
+    "slug": "gestion-portefeuille-projet",
+    "type": "solution",
+    "path": "/fr/solutions/gestion-portefeuille-projet",
+    "pageStatus": 200,
+    "linkCount": 54,
+    "issues": []
+  },
+  {
+    "slug": "management-de-portefeuille-projet",
+    "type": "solution",
+    "path": "/fr/solutions/management-de-portefeuille-projet",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": []
+  },
+  {
+    "slug": "outil-ppm",
+    "type": "solution",
+    "path": "/fr/solutions/outil-ppm",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": []
+  },
+  {
+    "slug": "outils-de-pilotage-projet",
+    "type": "solution",
+    "path": "/fr/solutions/outils-de-pilotage-projet",
+    "pageStatus": 200,
+    "linkCount": 51,
+    "issues": []
+  },
+  {
+    "slug": "portfolio-management",
+    "type": "solution",
+    "path": "/fr/solutions/portfolio-management",
+    "pageStatus": 200,
+    "linkCount": 42,
+    "issues": []
+  },
+  {
+    "slug": "revue-de-portefeuille",
+    "type": "solution",
+    "path": "/fr/solutions/revue-de-portefeuille",
+    "pageStatus": 200,
+    "linkCount": 49,
+    "issues": []
+  },
+  {
+    "slug": "tableau-de-bord-dsi",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-dsi",
+    "pageStatus": 200,
+    "linkCount": 48,
+    "issues": []
+  },
+  {
+    "slug": "tableau-de-bord-gestion-de-projet",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-gestion-de-projet",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": []
+  },
+  {
+    "slug": "tableau-de-bord-portefeuille-de-projet",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-portefeuille-de-projet",
+    "pageStatus": 200,
+    "linkCount": 49,
+    "issues": []
+  },
+  {
+    "slug": "comite-direction",
+    "type": "equipe",
+    "path": "/fr/equipes/comite-direction",
+    "pageStatus": 200,
+    "linkCount": 38,
+    "issues": []
+  },
+  {
+    "slug": "direction-de-la-transformation",
+    "type": "equipe",
+    "path": "/fr/equipes/direction-de-la-transformation",
+    "pageStatus": 200,
+    "linkCount": 37,
+    "issues": []
+  },
+  {
+    "slug": "it-et-operation",
+    "type": "equipe",
+    "path": "/fr/equipes/it-et-operation",
+    "pageStatus": 200,
+    "linkCount": 39,
+    "issues": []
+  },
+  {
+    "slug": "outil-pmo",
+    "type": "equipe",
+    "path": "/fr/equipes/outil-pmo",
+    "pageStatus": 200,
+    "linkCount": 41,
+    "issues": []
+  },
+  {
+    "slug": "10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+    "type": "blog",
+    "path": "/fr/blog/10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+    "pageStatus": 200,
+    "linkCount": 47,
+    "issues": []
+  },
+  {
+    "slug": "analyse-des-risques-projet",
+    "type": "blog",
+    "path": "/fr/blog/analyse-des-risques-projet",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "pageStatus": 200,
+    "linkCount": 39,
+    "issues": []
+  },
+  {
+    "slug": "budget-previsionnel-projet",
+    "type": "blog",
+    "path": "/fr/blog/budget-previsionnel-projet",
+    "pageStatus": 200,
+    "linkCount": 39,
+    "issues": []
+  },
+  {
+    "slug": "budgetiser-un-projet-sans-se-louper",
+    "type": "blog",
+    "path": "/fr/blog/budgetiser-un-projet-sans-se-louper",
+    "pageStatus": 200,
+    "linkCount": 45,
+    "issues": []
+  },
+  {
+    "slug": "cadrage-projet",
+    "type": "blog",
+    "path": "/fr/blog/cadrage-projet",
+    "pageStatus": 200,
+    "linkCount": 47,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/",
+        "resolved": "https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/",
+        "status": 0,
+        "error": "fetch failed",
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "blog",
+    "path": "/fr/blog/capacity-planning",
+    "pageStatus": 200,
+    "linkCount": 50,
+    "issues": []
+  },
+  {
+    "slug": "capacity-planning-definition",
+    "type": "blog",
+    "path": "/fr/blog/capacity-planning-definition",
+    "pageStatus": 200,
+    "linkCount": 46,
+    "issues": []
+  },
+  {
+    "slug": "chef-de-projet-pmo",
+    "type": "blog",
+    "path": "/fr/blog/chef-de-projet-pmo",
+    "pageStatus": 200,
+    "linkCount": 42,
+    "issues": []
+  },
+  {
+    "slug": "chef-de-projet-transverse",
+    "type": "blog",
+    "path": "/fr/blog/chef-de-projet-transverse",
+    "pageStatus": 200,
+    "linkCount": 42,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "http://gestion-de-projet/le-guide-du-mode-projet",
+        "resolved": "http://gestion-de-projet/le-guide-du-mode-projet",
+        "status": 0,
+        "error": "fetch failed",
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comite-de-pilotage-definitions-et-incomprehensions",
+    "type": "blog",
+    "path": "/fr/blog/comite-de-pilotage-definitions-et-incomprehensions",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": []
+  },
+  {
+    "slug": "comite-pilotage-projet",
+    "type": "blog",
+    "path": "/fr/blog/comite-pilotage-projet",
+    "pageStatus": 200,
+    "linkCount": 45,
+    "issues": []
+  },
+  {
+    "slug": "comment-animer-un-bilan-projet-efficace",
+    "type": "blog",
+    "path": "/fr/blog/comment-animer-un-bilan-projet-efficace",
+    "pageStatus": 200,
+    "linkCount": 57,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/",
+        "resolved": "https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/",
+        "status": 0,
+        "error": "fetch failed",
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comment-animer-un-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-animer-un-comite-de-pilotage",
+    "pageStatus": 200,
+    "linkCount": 65,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "#",
+        "classify": "EMPTY",
+        "severity": "P2",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "#",
+        "classify": "EMPTY",
+        "severity": "P2",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+    "type": "blog",
+    "path": "/fr/blog/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+    "pageStatus": 200,
+    "linkCount": 47,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
+        "resolved": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comment-decider-en-copil",
+    "type": "blog",
+    "path": "/fr/blog/comment-decider-en-copil",
+    "pageStatus": 200,
+    "linkCount": 46,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comment-elaborer-un-reporting-efficace",
+    "type": "blog",
+    "path": "/fr/blog/comment-elaborer-un-reporting-efficace",
+    "pageStatus": 200,
+    "linkCount": 50,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comment-faire-un-bon-point-davancement-projet",
+    "type": "blog",
+    "path": "/fr/blog/comment-faire-un-bon-point-davancement-projet",
+    "pageStatus": 200,
+    "linkCount": 47,
+    "issues": []
+  },
+  {
+    "slug": "comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+    "pageStatus": 200,
+    "linkCount": 46,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+    "pageStatus": 200,
+    "linkCount": 54,
+    "issues": []
+  },
+  {
+    "slug": "comment-mettre-en-place-un-pmo",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-en-place-un-pmo",
+    "pageStatus": 200,
+    "linkCount": 51,
+    "issues": []
+  },
+  {
+    "slug": "comment-mettre-une-bonne-meteo-projet",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-une-bonne-meteo-projet",
+    "pageStatus": 200,
+    "linkCount": 50,
+    "issues": []
+  },
+  {
+    "slug": "comment-reussir-un-projet-transverse",
+    "type": "blog",
+    "path": "/fr/blog/comment-reussir-un-projet-transverse",
+    "pageStatus": 200,
+    "linkCount": 48,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "copil-projet-ou-comite-de-pilotage-projet-les-bases",
+    "type": "blog",
+    "path": "/fr/blog/copil-projet-ou-comite-de-pilotage-projet-les-bases",
+    "pageStatus": 200,
+    "linkCount": 55,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "demarche-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/demarche-de-projet",
+    "pageStatus": 200,
+    "linkCount": 52,
+    "issues": []
+  },
+  {
+    "slug": "fiche-projet-exemple-et-methodologie",
+    "type": "blog",
+    "path": "/fr/blog/fiche-projet-exemple-et-methodologie",
+    "pageStatus": 200,
+    "linkCount": 48,
+    "issues": []
+  },
+  {
+    "slug": "gestion-de-portefeuille-projet-pme",
+    "type": "blog",
+    "path": "/fr/blog/gestion-de-portefeuille-projet-pme",
+    "pageStatus": 200,
+    "linkCount": 48,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
+        "resolved": "https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
+        "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "jalon-projet",
+    "type": "blog",
+    "path": "/fr/blog/jalon-projet",
+    "pageStatus": 200,
+    "linkCount": 45,
+    "issues": []
+  },
+  {
+    "slug": "kanban-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/kanban-gestion-de-projet",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": []
+  },
+  {
+    "slug": "kpi-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/kpi-gestion-de-projet",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": []
+  },
+  {
+    "slug": "la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "type": "blog",
+    "path": "/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "pageStatus": 200,
+    "linkCount": 50,
+    "issues": []
+  },
+  {
+    "slug": "la-revue-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/la-revue-de-projet",
+    "pageStatus": 200,
+    "linkCount": 51,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "le-diagramme-de-gantt-comment-sen-servir",
+    "type": "blog",
+    "path": "/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
+    "pageStatus": 200,
+    "linkCount": 41,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "le-grand-guide-de-la-conduite-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/le-grand-guide-de-la-conduite-de-projet",
+    "pageStatus": 200,
+    "linkCount": 76,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "resolved": "http://localhost:3000/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/tout-savoir-sur-le-budget-previsionnel-projet",
+        "resolved": "http://localhost:3000/gestion-de-projet/tout-savoir-sur-le-budget-previsionnel-projet",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/le-macro-planning-pourquoi-et-comment-sen-servir",
+        "resolved": "http://localhost:3000/gestion-de-projet/le-macro-planning-pourquoi-et-comment-sen-servir",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "le-guide-du-mode-projet",
+    "type": "blog",
+    "path": "/fr/blog/le-guide-du-mode-projet",
+    "pageStatus": 200,
+    "linkCount": 52,
+    "issues": []
+  },
+  {
+    "slug": "le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "pageStatus": 200,
+    "linkCount": 41,
+    "issues": []
+  },
+  {
+    "slug": "le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+    "type": "blog",
+    "path": "/fr/blog/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+    "pageStatus": 200,
+    "linkCount": 44,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
+        "resolved": "http://localhost:3000/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers",
+        "resolved": "http://localhost:3000/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+    "type": "blog",
+    "path": "/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+    "pageStatus": 200,
+    "linkCount": 45,
+    "issues": []
+  },
+  {
+    "slug": "lean-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/lean-portfolio-management",
+    "pageStatus": 200,
+    "linkCount": 55,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "#",
+        "classify": "EMPTY",
+        "severity": "P2",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "type": "blog",
+    "path": "/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "pageStatus": 200,
+    "linkCount": 59,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
+        "resolved": "http://localhost:3000/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "macro-planning",
+    "type": "blog",
+    "path": "/fr/blog/macro-planning",
+    "pageStatus": 200,
+    "linkCount": 50,
+    "issues": []
+  },
+  {
+    "slug": "management-de-portefeuille-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/management-de-portefeuille-de-projet",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
+        "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "metier-pmo",
+    "type": "blog",
+    "path": "/fr/blog/metier-pmo",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": []
+  },
+  {
+    "slug": "pi-planning",
+    "type": "blog",
+    "path": "/fr/blog/pi-planning",
+    "pageStatus": 200,
+    "linkCount": 40,
+    "issues": []
+  },
+  {
+    "slug": "pi-safe",
+    "type": "blog",
+    "path": "/fr/blog/pi-safe",
+    "pageStatus": 200,
+    "linkCount": 34,
+    "issues": []
+  },
+  {
+    "slug": "pilotage-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/pilotage-de-projet",
+    "pageStatus": 200,
+    "linkCount": 48,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "resolved": "http://localhost:3000/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "plan-capacitaire",
+    "type": "blog",
+    "path": "/fr/blog/plan-capacitaire",
+    "pageStatus": 200,
+    "linkCount": 42,
+    "issues": []
+  },
+  {
+    "slug": "plan-de-communication-projet",
+    "type": "blog",
+    "path": "/fr/blog/plan-de-communication-projet",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
+        "resolved": "http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
+        "status": 0,
+        "error": "fetch failed",
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "planification-de-la-capacite",
+    "type": "blog",
+    "path": "/fr/blog/planification-de-la-capacite",
+    "pageStatus": 200,
+    "linkCount": 43,
+    "issues": []
+  },
+  {
+    "slug": "planification-de-la-demande-capacity-planning",
+    "type": "blog",
+    "path": "/fr/blog/planification-de-la-demande-capacity-planning",
+    "pageStatus": 200,
+    "linkCount": 46,
+    "issues": []
+  },
+  {
+    "slug": "portefeuille-projet",
+    "type": "blog",
+    "path": "/fr/blog/portefeuille-projet",
+    "pageStatus": 200,
+    "linkCount": 53,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/fr/guide/cahier-des-charges-logiciel-ppm",
+        "resolved": "http://localhost:3000/fr/guide/cahier-des-charges-logiciel-ppm",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "pourquoi-mettre-en-place-un-pmo",
+    "type": "blog",
+    "path": "/fr/blog/pourquoi-mettre-en-place-un-pmo",
+    "pageStatus": 200,
+    "linkCount": 54,
+    "issues": []
+  },
+  {
+    "slug": "pourquoi-vos-18-millions",
+    "type": "blog",
+    "path": "/fr/blog/pourquoi-vos-18-millions",
+    "pageStatus": 200,
+    "linkCount": 41,
+    "issues": []
+  },
+  {
+    "slug": "preparer-comite-de-pilotage-d-un-projet",
+    "type": "blog",
+    "path": "/fr/blog/preparer-comite-de-pilotage-d-un-projet",
+    "pageStatus": 200,
+    "linkCount": 49,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien",
+        "resolved": "http://localhost:3000/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "program-increment-planning",
+    "type": "blog",
+    "path": "/fr/blog/program-increment-planning",
+    "pageStatus": 200,
+    "linkCount": 40,
+    "issues": []
+  },
+  {
+    "slug": "project-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/project-portfolio-management",
+    "pageStatus": 200,
+    "linkCount": 72,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers",
+        "resolved": "http://localhost:3000/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/portfolio-management-pourquoi-il-faut-en-finir-avec-excel",
+        "resolved": "http://localhost:3000/gestion-de-projet/portfolio-management-pourquoi-il-faut-en-finir-avec-excel",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/gestion-de-portefeuille-projets-comment-selectionner-les-bons-projets",
+        "resolved": "http://localhost:3000/gestion-de-projet/gestion-de-portefeuille-projets-comment-selectionner-les-bons-projets",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      },
+      {
+        "kind": "a",
+        "raw": "/gestion-de-projet/pourquoi-developper-une-gestion-de-portefeuille-projets-dans-une-pme",
+        "resolved": "http://localhost:3000/gestion-de-projet/pourquoi-developper-une-gestion-de-portefeuille-projets-dans-une-pme",
+        "status": 404,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "reporting-pmo",
+    "type": "blog",
+    "path": "/fr/blog/reporting-pmo",
+    "pageStatus": 200,
+    "linkCount": 52,
+    "issues": []
+  },
+  {
+    "slug": "retour-sur-agile-en-seine-2023",
+    "type": "blog",
+    "path": "/fr/blog/retour-sur-agile-en-seine-2023",
+    "pageStatus": 200,
+    "linkCount": 59,
+    "issues": [
+      {
+        "kind": "a",
+        "raw": "https://www.linkedin.com/in/ACoAAAUinb0ByhtaIDmkR6yoTsWv1lFPacEnu2s",
+        "resolved": "https://www.linkedin.com/in/ACoAAAUinb0ByhtaIDmkR6yoTsWv1lFPacEnu2s",
+        "status": 999,
+        "severity": "P1",
+        "isCta": false
+      }
+    ]
+  },
+  {
+    "slug": "role-du-pmo",
+    "type": "blog",
+    "path": "/fr/blog/role-du-pmo",
+    "pageStatus": 200,
+    "linkCount": 50,
+    "issues": []
+  },
+  {
+    "slug": "tout-savoir-sur-la-note-de-cadrage-projet",
+    "type": "blog",
+    "path": "/fr/blog/tout-savoir-sur-la-note-de-cadrage-projet",
+    "pageStatus": 200,
+    "linkCount": 56,
+    "issues": []
+  },
+  {
+    "slug": "trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+    "type": "blog",
+    "path": "/fr/blog/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+    "pageStatus": 200,
+    "linkCount": 41,
+    "issues": []
+  }
+]

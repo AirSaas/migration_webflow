@@ -1,0 +1,402 @@
+{
+  "produit": {
+    "automatiser-la-com-projet": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control%20tower%20email%20FR%20%28screen%29.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6645f73c0195b1d0919ff025_Block%20-%20people%20involved%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/665480333f9e9a2b8d42e921_Control%20tower%20email%20FR-2.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66548033d9773064e28e0257_Control%20tower%20email%20FR-3.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6bd015108e78239180_Control%20tower%20email%20FR-2.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6bfecf8fe772bb2c52_Control%20tower%20email%20FR-3.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663cc3639d8f5c910c1cb133_Prioritization%20per%20team%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+      ]
+    },
+    "budget": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbefc6521c27b9a3836ebc_Budget%20screen.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f323015aaa9b92b42e6397_ADD%20EXPENSES%20LINES.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f401cfa1c5e13cc3adf9a3_Budget%20graphics%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf0caa595317d71d53652_Teams%20budget.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf0fe7414e2b3845dbb9f_Des%20indicateurs.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf13616fcb88f01125d9b_Feed%20budget.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f327d0f3cd55dfdb3ad2d5_Analytical%20axes.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+      ]
+    },
+    "capacity-planning": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6787bda3d16737c6ddb82fd5_Modal%20-%20Livrable.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334dad60affe8f9f6cf3db_Screen%20marketing%20temps.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663cc3639d8f5c910c1cb133_Prioritization%20per%20team%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+      ]
+    },
+    "priorisation-par-equipes": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07b7eeea99ee02f71c97_Prioritization%20per%20team%20ppt.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07e315eb20b766f71fb9_Prioritization%20per%20team%20notification.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646051756191ce3dc501429_Portfolio%20project%20priority.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+      ]
+    },
+    "reporting-projet": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6645c08a054447c12df6647a_modale%20activation%20reminder.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422c2062f8e4b86c4a3030_Presentation%20cadrage%20slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664602d0797ac9294687de0e_Portfolio-%20bt-presentation.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664601436288365bdf5ec9bf_Presentation%20Execution%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663cc3639d8f5c910c1cb133_Prioritization%20per%20team%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+      ]
+    },
+    "traduction-one-click-avec-deepl": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66339df65cf2a6c1d863cf5f_copil-deepl-illustration.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646003be55efbd36750d4e9_post-deepl-illustration.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6639e095d5f0439995046338_deepl-illustration.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663cc3639d8f5c910c1cb133_Prioritization%20per%20team%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6646284da53aa7e6aca6d77b_Control%20tower%20email%20FR%20(screen).webp"
+      ]
+    }
+  },
+  "solution": {
+    "airsaas-et-les-experts-de-la-transfo": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f8389fb184b54765f33b8d_1.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f83da75ca3d601a12ea714_Bootcamp%20logo%20diapo.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f838874a91bc68afa89603_2.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f838df5204999f80ba57be_3.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f838fb960d05b29ca41c09_4.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f838bf7a199a77d2f764d8_5.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f8386a4e26082bfd28ba13_6.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f84d82c72005c3ac0b0ef7_AirSaas%20Tools.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65eecd3466cd11301a067e06_logotype-LPDT_white-horizontal.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f85859a1bf7bf2aba81598_1-min-min.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f858894c75e0adf6cb8cdb_2-min-min.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f85cca98b4c748841efd5c_3-min-min.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f855fbf7413a09dd567fc1_4-min.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f8586f009c668ce5972c56_5-min-min.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f8585b6653ddac349d27be_6-min-min.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/672b7ea76145ce12e1a414fc_Joanne%20Deval.jpeg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67a5cd9d94ea875970d1c35e_Roland%20Bouchut.jpg",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/672909a238949f7e2f5fb208_Michae%CC%88l%20Sanchez.jpeg",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6728f6f1b9e8b28a424f1970_Benoi%CC%82t%20Rosaz.jpeg",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154da4d1602634d196ad78_tihibault-baheux.webp"
+      ]
+    },
+    "flash-report": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72da0c3898a0380300909_Portfolio%20project%20filter%20open.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a7bb239ce496a6f00ac37f_metier-it.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659446696cfdb8c043b15796_calendar_illustration.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010d54008b63e9415adb6_outil11.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp"
+      ]
+    },
+    "flash-report-projet": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d4872337663b8b88c2c66a_Presentation-review-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d7437ca9f8f8d31e9a639b_Programmes%20analytics.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d7381a68b84adf7cb36003_Portfolio%20projects%20kanban%20status.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a7bb239ce496a6f00ac37f_metier-it.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659446696cfdb8c043b15796_calendar_illustration.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010d54008b63e9415adb6_outil11.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp"
+      ]
+    },
+    "gestion-portefeuille-projet": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72da0c3898a0380300909_Portfolio%20project%20filter%20open.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd47790f0e45_outil3.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4c030f0e65_Ameliorez-.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd1ad70f0e63_Partagez-.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd96500f0e62_Augmentez-.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fdab9a0f0e4a_outil8.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd6f640f0e4f_outil10.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd8da50f0e50_outil11.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd42890f0e53_outil12.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd08150f0e54_outil13.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4a760f0e5b_outil15.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fda8f90f0e07_Qualifiez1b.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72e40db63dfa85954ccc5_Feed%20main.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70979f3aaee0cbfd859cc_Feed%20search%20solution.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg"
+      ]
+    },
+    "management-de-portefeuille-projet": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d4872337663b8b88c2c66a_Presentation-review-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659c49b1c11c7db42bdbe382_portfolio1-min.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d740ad0d75cbc3c06eba7f_Project%20page%20zoom%20importance-risk.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d7381a68b84adf7cb36003_Portfolio%20projects%20kanban%20status.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659446696cfdb8c043b15796_calendar_illustration.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a6a9328dd6d654d8262628_PMO-DSI.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp"
+      ]
+    },
+    "outil-ppm": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d705feadffd7e3d62baec2_Project%20page%20effort%20and%20budget%20consumed.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d473f144eace1121240b18_Modal%20-%20create%20project.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d706b1f7b6d596a3ed07bc_Project%20page%20feed.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65df5fc43b89570d447c3af6_Graphic-PM.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65df6a73003911b97babb1a4_Graphic-activities.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70979f3aaee0cbfd859cc_Feed%20search%20solution.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg"
+      ]
+    },
+    "outils-de-pilotage-projet": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d473f144eace1121240b18_Modal%20-%20create%20project.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72da0c3898a0380300909_Portfolio%20project%20filter%20open.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a7bb239ce496a6f00ac37f_metier-it.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4c030f0e65_Ameliorez-.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65cb1c26011557f1b1f33b74_Graphic%20Communiquez%20interne.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fdab9a0f0e4a_outil8.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd6f640f0e4f_outil10.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd8da50f0e50_outil11.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd42890f0e53_outil12.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd08150f0e54_outil13.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4a760f0e5b_outil15.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fda8f90f0e07_Qualifiez1b.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72e40db63dfa85954ccc5_Feed%20main.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg"
+      ]
+    },
+    "portfolio-management": {
+      "hero": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d473f144eace1121240b18_Modal%20-%20create%20project.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d73278ff90d9fe4f02eeb8_Portfolio%20project%20reminder%20late.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659c4b7b9b402047debe417c_portfolio4.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/665480333f9e9a2b8d42e921_Control%20tower%20email%20FR-2.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66548033d9773064e28e0257_Control%20tower%20email%20FR-3.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6bd015108e78239180_Control%20tower%20email%20FR-2.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6bfecf8fe772bb2c52_Control%20tower%20email%20FR-3.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/62013ae734f579791eb5aa96_guion-g.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/62013b7ba5410f4f91017870_guion-az.svg"
+      ]
+    },
+    "revue-de-portefeuille": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d4872337663b8b88c2c66a_Presentation-review-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3b2244fc905908e85593_Portfolio%20integrated.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d7381a68b84adf7cb36003_Portfolio%20projects%20kanban%20status.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66865ccd6319bebdceb619e4_Presentation-review-slide.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659ed24faa749ab95880701a_portfolio8.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp"
+      ]
+    },
+    "tableau-de-bord-dsi": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd67b20f0e6f_dashboard.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/667c312ec05d161e0bc770b6_Programmes%20analytics%20en.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd35ed0f0e71_1.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd17cf0f0e87_2.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fdde5c0f0e46_outil4.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd06800f0e86_3.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4d920f0e88_7105959688182da7475c8681c14e857d_4.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd0e210f0e8a_7.svg"
+      ]
+    },
+    "tableau-de-bord-gestion-de-projet": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd67b20f0e6f_dashboard.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66867e827c10da64f5ea6d52_Graphic%20IT.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd0e210f0e8a_7.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd42890f0e53_outil12.svg"
+      ]
+    },
+    "tableau-de-bord-portefeuille-de-projet": {
+      "hero": null,
+      "sections": [
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d4872337663b8b88c2c66a_Presentation-review-slide.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010195cd30eca1a1bd8bb_outil10.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010d54008b63e9415adb6_outil11.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010238635278f1f6cecf1_outil12.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d73abfdd38dac29b4e219c_Project%20page%20zoom%20weather.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+        "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+        "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp"
+      ]
+    }
+  },
+  "equipe": {
+    "comite-direction": {
+      "hero": null,
+      "sections": []
+    },
+    "direction-de-la-transformation": {
+      "hero": null,
+      "sections": []
+    },
+    "it-et-operation": {
+      "hero": null,
+      "sections": []
+    },
+    "outil-pmo": {
+      "hero": null,
+      "sections": []
+    }
+  }
+}

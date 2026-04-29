@@ -1,0 +1,5 @@
+[2026-04-27T07:48:23.346Z] elapsed=16.5s ok=1 fail=0
+[2026-04-27T07:51:29.172Z] elapsed=156.1s ok=13 fail=75
+[2026-04-27T07:54:45.730Z] method=playwright elapsed=9.4s ok=1 fail=0
+[2026-04-27T07:56:29.473Z] method=playwright elapsed=97.8s ok=74 fail=0
+[2026-04-27T08:07:49.409Z] method=cloudflare elapsed=138.0s ok=88 fail=0

@@ -9,6 +9,7 @@
 import type { BlogCard } from "@/components/library-design/ui/BlogCard";
 import type { BlogCollectionFrame } from "@/components/library-design/sections/BlogCollectionFrame";
 import type { Footer } from "@/components/library-design/sections/Footer";
+import { ACTIVE_BLOG_ARTICLES } from "@/data/blog-articles";
 
 type BlogCardProps = React.ComponentProps<typeof BlogCard>;
 type CollectionAuthor = NonNullable<
@@ -58,49 +59,44 @@ const SHARED_FR = {
   authorsMoreLabel: "autres",
 };
 
-/* ─── Collection 1: Articles ─── */
+/* ─── Collection 1: Articles (wired to real 62 articles) ─── */
 
-const ARTICLES: BlogCardProps[] = [
-  {
-    ...SHARED_FR,
-    thumbnailSrc: "https://placehold.co/600x400/3c51e2/ffffff?text=Le%C3%A7ons+DSI+2023",
-    thumbnailAlt: "Couverture de l'article : leçons DSI 2023",
-    date: "Le 12/10/2021",
-    title: "Mes 12 leçons de 2023 pour les DSI qui veulent changer de niveau de jeu",
-    excerpt:
-      "Retour d'expérience après 120 missions : les réflexes qui font la différence entre une DSI perçue comme un centre de coûts et un partenaire stratégique.",
-    href: "/fr/blog/lecons-dsi-2023",
-    authors: [AUTHOR_BR],
-    categoryLabel: "La newsletter des DSI",
-    categoryHref: "/fr/blog/newsletter-dsi",
-  },
-  {
-    ...SHARED_FR,
-    thumbnailSrc: "https://placehold.co/600x400/2d8a4e/ffffff?text=PMO+strat%C3%A9gique",
-    thumbnailAlt: "Illustration PMO stratégique",
-    date: "Le 02/03/2026",
-    title: "Transformer votre PMO en levier stratégique : les 7 étapes clés",
-    excerpt:
-      "Un plan actionnable pour faire évoluer un PMO de fonction de contrôle à partenaire de la direction générale.",
-    href: "/fr/blog/pmo-strategique",
-    authors: [AUTHOR_BR, AUTHOR_MC],
-    categoryLabel: "Gestion de projets",
-    categoryHref: "/fr/blog/categorie/gestion-projets",
-  },
-  {
-    ...SHARED_FR,
-    thumbnailSrc: "https://placehold.co/600x400/ff922b/ffffff?text=Capacity+Planning",
-    thumbnailAlt: "Illustration capacity planning",
-    date: "Le 15/04/2026",
-    title: "Capacity planning : dire non avec des données et pas au feeling",
-    excerpt:
-      "Comment construire une vue capacitaire actionnable pour vos équipes projet et vos sponsors.",
-    href: "/fr/blog/capacity-planning",
-    authors: [AUTHOR_BR],
-    categoryLabel: "Capacity Planning",
-    categoryHref: "/fr/blog/categorie/capacity-planning",
-  },
-];
+function excerpt(text: string, max = 180): string {
+  if (!text) return "";
+  if (text.length <= max) return text;
+  return text.slice(0, max).replace(/\s+\S*$/, "") + "…";
+}
+
+function formatDate(iso: string | null): string {
+  if (!iso) return "Gestion de projet";
+  try {
+    const d = new Date(iso);
+    return `Le ${d.toLocaleDateString("fr-FR", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+    })}`;
+  } catch {
+    return "Gestion de projet";
+  }
+}
+
+const ARTICLES: BlogCardProps[] = ACTIVE_BLOG_ARTICLES.slice(0, 9).map((article) => ({
+  ...SHARED_FR,
+  thumbnailSrc:
+    article.meta.heroImage ||
+    `https://placehold.co/600x400/3c51e2/ffffff?text=${encodeURIComponent(
+      article.slug.slice(0, 30),
+    )}`,
+  thumbnailAlt: article.meta.title,
+  date: formatDate(article.meta.publishedDate),
+  title: article.meta.title.slice(0, 115),
+  excerpt: excerpt(article.meta.description),
+  href: `/fr/blog/${article.slug}`,
+  authors: [AUTHOR_BR],
+  categoryLabel: "Gestion de projet",
+  categoryHref: "/fr/blog/articles",
+}));
 
 /* ─── Collection 2: Podcast ─── */
 
