@@ -59,7 +59,7 @@ export default function MeetingsPagesRoute() {
           >
             Réserver un créneau
           </a>
-          <Text size="sm" tone="muted" align="center">
+          <Text size="sm" align="center" className="text-text-muted">
             Vous serez redirigé vers notre calendrier de réservation.
           </Text>
         </div>

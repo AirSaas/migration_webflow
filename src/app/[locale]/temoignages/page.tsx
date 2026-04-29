@@ -37,7 +37,7 @@ export default function TemoignagesRoute() {
               className="flex flex-col gap-[0.75rem] rounded-[1rem] border border-border bg-white p-[1.5rem] hover:border-primary hover:shadow-md transition-all"
             >
               {card.context ? (
-                <Text size="sm" tone="muted">
+                <Text size="sm" className="text-text-muted">
                   {card.context}
                 </Text>
               ) : null}
