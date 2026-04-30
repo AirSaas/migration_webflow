@@ -28,6 +28,7 @@
 | Fakes/placeholders | 2 majeurs (testimonials Capacity + KPIs CODIR) |
 | Images mismatch | 3 confirmés |
 | CTAs inline manquantes | 7+ |
+| Trust badges Hero PPM manquants | 5 (point `[1.11]`) |
 | Violations DS Strict | 3+ (`style={{}}` inline CtaFrame) |
 
 ### Top 5 actions prioritaires
@@ -37,6 +38,7 @@
 3. **[P3]** Ajouter `<TabsFrame>` hero-adjacent sur PPM + CapacityPlanning (4 LPs concernées) — findings `[1.1]` + `[3.1]`
 4. **[P4]** Restaurer les 6+ sections éditoriales long-form sur GestionPortefeuille (utiliser `<ProseFrame variant="reading">`) — findings `[4.1]` à `[4.7]`
 5. **[P5]** Corriger images mismatch — findings `[1.5]` (Roadmap COMEX) + `[3.10]` (Capacity ×2)
+6. **[P6]** Ajouter Hero `bottomTags` PPM (5 trust badges) — finding `[1.11]`
 
 ### Patterns DS à considérer
 
@@ -305,17 +307,44 @@ Remplacé par `<ValuePropositionFrame>` (3 cards courtes) dans rebuild.
 
 ### `[4.2]` ❌ MISSING — Section "Avancez plus sereinement avec votre équipe" + 4 sous-sections
 
-Section H3 "Avancez plus sereinement" avec 4 sous-sections :
+Section H3 "Avancez plus sereinement" avec 4 sous-sections, toutes absentes du rebuild :
+
 - `[4.2.a]` "Diminuez la frustration entre les métiers et l'IT"
 - `[4.2.b]` "Vers un meilleur cadrage des projets"
 - `[4.2.c]` "Des équipes plus engagées autour d'un objectif clair"
 - `[4.2.d]` "Communiquez sur les avancées"
 
-Aucune trace dans le rebuild.
+🎨 **Pattern DS à utiliser** : `<FeatureFrame imageSize="narrow">`
 
-🎨 **Note** : pour ces sections la live utilise des graphics plus petits + plus de texte. DS expose `<FeatureFrame imageSize="compact">` ou `"narrow"` — devrait être utilisé ici.
+La prop `imageSize` du `FeatureFrame` accepte 3 valeurs :
+- `"default"` → 60% image / 40% texte (pour screenshots produit)
+- `"compact"` → 40% image / 60% texte
+- `"narrow"` → 33% image / 67% texte (pour graphics éditoriaux)
 
-📍 `SolutionGestionPortefeuilleProjetPage.tsx` — section absente
+Ces 4 sous-sections live affichent toutes un graphic schématique illustratif (PAS un screenshot produit) + 2-3 paragraphes de texte explicatif. Le rebuild utilise `"default"` partout (60/40) qui sur-emphasise l'illustration. → Devrait passer `"narrow"` pour donner plus d'espace au texte.
+
+Code attendu (copy-paste pattern) :
+
+```tsx
+<FeatureFrame
+  imagePosition="right"
+  imageSize="narrow"        // 33% illustration / 67% texte
+  title="Diminuez la frustration entre les métiers et l'IT"
+  richContent={
+    <>
+      <Text>Vos équipes se plaignent du manque...</Text>
+      <Text>AirSaas propose une structure commune...</Text>
+      <Text>L'outil place le collaboratif au premier plan...</Text>
+    </>
+  }
+  imageSrc="/illustration-frustration.svg"
+  imageAlt="Schéma illustratif"
+/>
+```
+
+✅ Story canonical livrée 2026-04-27 : `Sections / Features Sections / FeatureFrame / Rich Text / EditorialIllustration` — copy exact de `[4.2.a]`, copy-paste prêt.
+
+📍 `SolutionGestionPortefeuilleProjetPage.tsx` — section absente (à insérer après le hero + testimonials, avant le CtaFrame intermédiaire)
 
 ### `[4.3]` ❌ MISSING — Section "Une distinction à faire" (2 colonnes)
 
@@ -347,9 +376,9 @@ Section éditoriale "Exemple des DSI" + 3 sous-sections (mission technique → b
 
 📍 `SolutionGestionPortefeuilleProjetPage.tsx` — section absente
 
-### `[4.8]` ⚠️ ORDER ISSUE — TestimonialsFrame mal placée
+### `[4.8]` ⚠️ ORDER ISSUE — TestimonialsFrame mal placée et régler sur 4 colonnes adaptatives
 
-Live affiche "Ils parlent de nous" en 2e position (juste après le Hero). Rebuild la place à la FIN de la page.
+Live affiche "Ils parlent de nous" en 2e position (juste après le Hero). Rebuild la place à la FIN de la page. **Régler aussi le rendu sur 4 colonnes adaptatives** pour matcher le live.
 
 📍 `SolutionGestionPortefeuilleProjetPage.tsx:220-246`
 
@@ -410,11 +439,11 @@ Live affiche ces 4 cards **SANS valeurs numériques explicites** (juste icônes 
 
 📍 `EquipeComiteDirectionPage.tsx:200-247`
 
-### `[5.3]` 🎨 VISUAL CHROME — Pas de check icons dans colonne "Avec AirSaas"
+### `[5.3]` 🎨 CONTENT MISMATCH — "7 raisons" Sans AirSaas / Avec AirSaas — le style de la section « ComparisonFrame » n'est pas correct
 
-`ComparisonTableFrame` colonne "Avec AirSaas" affiche des **STRINGS DESCRIPTIFS** ("Reporting décisionnel uniforme..."), **PAS de check icons**.
+`ComparisonTableFrame` colonne "Avec AirSaas" affiche des **STRINGS DESCRIPTIFS** ("Reporting décisionnel uniforme..."), **PAS de check icons** comme attendu visuellement. Plus largement, le **chrome de la section ne matche pas le live** (titre, layout des colonnes, présentation Sans/Avec AirSaas).
 
-→ **Le DS doit supporter cell `type="check"` comme alternative au string.** Extension livrée 2026-04-27 (voir commit après ce doc).
+→ **DS doit supporter cell `type="check"` comme alternative au string.** Extension `<ComparisonTableFrame>` cell `{ type: "check" | "x", text: string }` livrée 2026-04-27 (commit `96c61a5`).
 
 📍 `EquipeComiteDirectionPage.tsx:208-247` (rows.values)
 
@@ -430,9 +459,9 @@ Live a un CTA "Laissez nos clients vous parler d'AirSaas" → `/fr/temoignages`.
 
 📍 `EquipeComiteDirectionPage.tsx` — CTA absent
 
-### `[5.6]` ⚠️ CONTENT MISMATCH — 4ème press item "LMI" manquant
+### `[5.6]` ⚠️ CONTENT MISMATCH — 4ème press item "LMI" manquant et adapter en 4 colonnes adaptatives
 
-Live a 4 press items (Alliancy / JDN / Le Point / LMI). Rebuild a 3 dans `pressTestimonials`. → manque "Le Monde Informatique".
+Live a 4 press items (Alliancy / JDN / Le Point / LMI). Rebuild a 3 dans `pressTestimonials`. → manque "Le Monde Informatique". **Adapter aussi le layout en 4 colonnes adaptatives** pour matcher le rendu live.
 
 📍 `EquipeComiteDirectionPage.tsx` — pressTestimonials array
 
