@@ -540,6 +540,10 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - logos: array of { src, alt, width?, height? } — rendered grayscale at 70% opacity
 - label: optional — if omitted, no leading label is rendered. Pass a localized string from CMS / i18n.
+- size: "md" (default, 2.5rem / 4.14rem heights) | "lg" (3rem / 5.5rem heights). LP / Solution heroes typically want "lg" for a more present trust strip.
+
+**Forbidden:**
+- Do NOT pass arbitrary width/height per logo in the data and expect them to render visually — heights are forced by the `size` prop. The width/height fields only set the underlying <img> intrinsic dimensions for layout-shift hints.
 
 ---
 

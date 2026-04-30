@@ -276,7 +276,7 @@ Living section. Append every proposal that needs a DS-level decision so the next
 | `<FeatureFrame imageSize>` — agent uses `default` everywhere; should use `narrow` (33%) or `compact` (40%) for editorial sections with graphic illustrations (not screenshots) — see `[4.2.a]` "Diminuez la frustration" | guidance / story | pending |
 | `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light = visual dissonance on 4 pages | redesign chrome OR forbid combo | pending |
 | `<Hero layout>` default — agent overuses `"split"` on 10/12 Solution pages where `"centered"` is more appropriate | guidance / Storybook story | pending |
-| `<LogosBar>` default size — logos rendered too small (height 40px) | expose `size="lg"` prop OR widen default | pending |
+| `<LogosBar>` default size — logos rendered too small (height 40px) | expose `size="lg"` prop OR widen default | ✅ shipped 2026-04-27 — `size="md"` (4.14rem desktop, default) \| `"lg"` (5.5rem desktop). LP heroes should pass `size="lg"`. Story `LogosBar / SizeComparison` shows both. |
 | Footer `copyrightIcon` — 1 page uses `<span>FR</span>` text, 4 pages use `🇫🇷` emoji | enforce emoji partout | pending (1-line fix per page) |
 | `<CtaHighlightFrame>` to use for single CTA — agent wraps single `<CardCta>` in `<CtaFrame>` with `style={{ gridColumn: "1/-1", width: "70%" }}` inline (DS Strict violation) | guidance / lint rule | pending — 3 callsites to fix |
 
