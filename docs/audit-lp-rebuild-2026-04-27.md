@@ -42,6 +42,7 @@
 
 - `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light → revoir chrome pour cohérence (4 pages affectées)
 - `<Hero layout>` default → centered (pas split par défaut sur Solutions)
+- **`<Hero>` `bottomTags` limit 0-4 → relaxer à 0-6** (live PPM a 5 badges, voir `[1.11]`)
 - `<LogosBar>` default size → augmenter height ou exposer prop `size="lg"`
 - **`<ComparisonTableFrame>` → ajouter cell `type="check"`** comme alternative à text content (extension DS livrée 2026-04-27)
 - Footer `copyrightIcon` → enforcer emoji 🇫🇷 partout (1 page diverge)
@@ -115,6 +116,24 @@ Live a "⚠️ Vous vous reconnaissez ?" comme titre du ComparisonFrame. Rebuild
 `imageSrc=Flash-report-export-modal.webp`. Path sous `/assets/pages/lp/ppm/` qui est gitignored localement. Vercel runs `download-assets.mjs` au build. À vérifier visuellement en prod.
 
 📍 `PpmPage.tsx:107`
+
+### `[1.11]` ❌ MISSING — Hero `bottomTags` (5 trust badges)
+
+Live affiche 5 trust badges en `bottomTags` sous les CTAs du Hero, chacun préfixé d'une icône check verte (variant=success) :
+
+1. `+100 clients nous font confiance`
+2. `no credit card`
+3. `Opérationnel en 1 mois`
+4. `all features`
+5. `Accompagnement premium inclus`
+
+Le rebuild ne passe **aucun** `bottomTags` au Hero PPM.
+
+⚠️ **Limit DS contraignant** : `<Hero>` `@limits` actuel `bottomTags: 0–4`. Live a 5 trust badges → soit relaxer la limite à 0-6, soit grouper (`+100 clients` + `no credit card` + `all features` peuvent fusionner en 1 tag "+100 clients · no credit card · all features").
+
+🎨 **Pattern visual chrome** : badges affichés en row centered avec icône `CircleCheck` verte (variant `success` du Tag DS), séparés par un gap. Le rebuild de CapacityPlanning utilise déjà ce pattern (`bottomTags` 2 items "Opérationnel en 1 mois" + "Accompagnement premium inclus") — **PpmPage doit faire pareil avec les 5 items live**.
+
+📍 `PpmPage.tsx:95-109` (Hero) — `bottomTags` non passé
 
 ---
 
