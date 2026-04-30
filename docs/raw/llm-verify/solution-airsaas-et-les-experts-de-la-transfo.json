@@ -1,0 +1,14 @@
+{
+  "type": "solution",
+  "slug": "airsaas-et-les-experts-de-la-transfo",
+  "verifiedAt": "2026-04-30T19:25:46.810Z",
+  "flagsCount": 1,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.5.title",
+      "sample": "AirSaas dans le tooling des missions"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.5.title\" contains \"AirSaas dans le tooling des missions\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

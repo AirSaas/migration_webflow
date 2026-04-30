@@ -1,0 +1,19 @@
+{
+  "type": "equipe",
+  "slug": "direction-de-la-transformation",
+  "verifiedAt": "2026-04-30T19:25:39.663Z",
+  "flagsCount": 2,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.body",
+      "sample": "<p>Parce que la transformation de l'entreprise nécessite un profond changement dans sa culture, le d"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.6.title",
+      "sample": "Pilotez les projets de manière macro"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.3.body\" contains \"<p>Parce que la transformation de l'entreprise nécessite un profond changement dans sa culture, le d\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.6.title\" contains \"Pilotez les projets de manière macro\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

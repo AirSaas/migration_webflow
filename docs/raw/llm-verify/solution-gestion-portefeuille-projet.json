@@ -1,0 +1,44 @@
+{
+  "type": "solution",
+  "slug": "gestion-portefeuille-projet",
+  "verifiedAt": "2026-04-30T19:25:47.093Z",
+  "flagsCount": 7,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.0.title",
+      "sample": "L'outil de gestion de portefeuille projet"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.2.testimonials.2.text",
+      "sample": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revue projet en supprimant les PowerPo"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.body",
+      "sample": "<p>De nombreuses personnes assimilent les outils de gestion de projets aux outils de gestion de port"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.22.title",
+      "sample": "Deux styles de DSI représentés par des pyramides de Maslow"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.22.body",
+      "sample": "<p>Pour opposer ces deux styles de DSI, on pourrait les représenter par des pyramides de Maslow : d'"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.27.body",
+      "sample": "<p>Tous les outils portent une méthodologie en eux. Une des astuces pour optimiser le taux d'adoptio"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.30.title",
+      "sample": "Un outil PPM intuitif et intégré à vos outils existants"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.0.title\" contains \"L'outil de gestion de portefeuille projet\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.2.testimonials.2.text\" contains \"Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revue projet en supprimant les PowerPo\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.16.body\" contains \"<p>De nombreuses personnes assimilent les outils de gestion de projets aux outils de gestion de port\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.22.title\" contains \"Deux styles de DSI représentés par des pyramides de Maslow\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.22.body\" contains \"<p>Pour opposer ces deux styles de DSI, on pourrait les représenter par des pyramides de Maslow : d'\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.27.body\" contains \"<p>Tous les outils portent une méthodologie en eux. Une des astuces pour optimiser le taux d'adoptio\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.30.title\" contains \"Un outil PPM intuitif et intégré à vos outils existants\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

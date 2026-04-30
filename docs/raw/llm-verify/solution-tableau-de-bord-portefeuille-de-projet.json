@@ -1,0 +1,29 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-portefeuille-de-projet",
+  "verifiedAt": "2026-04-30T19:25:48.996Z",
+  "flagsCount": 4,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.title",
+      "sample": "Une vue macro au service de votre"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Pas besoin de reporter vos données à la main grâce aux"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.15.title",
+      "sample": "Communiquez aisément avec"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.title",
+      "sample": "Co-construisez vos tableaux de bord avec"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.3.title\" contains \"Une vue macro au service de votre\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.4.title\" contains \"Pas besoin de reporter vos données à la main grâce aux\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.15.title\" contains \"Communiquez aisément avec\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.title\" contains \"Co-construisez vos tableaux de bord avec\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

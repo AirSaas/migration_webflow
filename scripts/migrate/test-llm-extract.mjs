@@ -45,6 +45,7 @@ async function fetchOnePage(type, slug) {
 import { landingPageJsonSchema, blogArticleJsonSchema } from "./llm-parse-schemas.mjs";
 import { SYSTEM_PROMPT_V2 } from "./llm-prompt-v2.mjs";
 import { validate, generateFeedback, summarize } from "./llm-validators.mjs";
+import { buildImageContext, formatImageContextForPrompt } from "./llm-image-context.mjs";
 
 const ENV = loadEnv();
 const MODEL = "claude-opus-4-7";
@@ -211,12 +212,17 @@ async function fetchPageHtml(type, slug) {
 }
 
 function buildUserPrompt(slug, type, html, feedback) {
+  const imageCtx = type === "blog" ? "" : formatImageContextForPrompt(buildImageContext(html));
   let userText = `Page slug: ${slug}\nPage type: ${type}\n\n`;
   if (feedback) {
-    userText += `${feedback}\n\nHTML source (already-cleaned, with SVG/nav/footer stripped):\n\n\`\`\`html\n${html}\n\`\`\``;
+    userText += `${feedback}\n\n`;
   } else {
-    userText += `Walk this rendered Webflow HTML top-to-bottom and emit ONE entry per visible section in the sections array. Target 8-15 sections for landings.\n\nHTML source (already-cleaned, with SVG/nav/footer stripped):\n\n\`\`\`html\n${html}\n\`\`\``;
+    userText += `Walk this rendered Webflow HTML top-to-bottom and emit ONE entry per visible section in the sections array. Target 8-15 sections for landings.\n\n`;
   }
+  if (imageCtx) {
+    userText += `${imageCtx}\n\n`;
+  }
+  userText += `HTML source (already-cleaned, with SVG/nav/footer stripped):\n\n\`\`\`html\n${html}\n\`\`\``;
   return userText;
 }
 
