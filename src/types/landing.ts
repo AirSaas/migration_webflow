@@ -20,6 +20,10 @@ export interface HeroSection {
   /** Main title (rest of H1). */
   title: string;
   subtitle?: string;
+  /** Optional inline-HTML body below the subtitle (extra paragraph). */
+  body?: string;
+  /** Optional bullet list rendered below the subtitle (live: trust tags). */
+  bullets?: string[];
   primaryCta?: { label: string; href: string };
   secondaryCta?: { label: string; href: string };
   /** Hero illustration / mockup image (full URL). */
@@ -44,10 +48,16 @@ export interface FeatureSplitSection {
   reversed?: boolean; // image left vs right
   title: string;
   titleHighlight?: string; // e.g. <strong> portion
+  /** Optional small subtitle between title and body. */
+  subtitle?: string;
   body?: string; // inline HTML (paragraphs, bullets)
   imageSrc?: string | null;
   imageAlt?: string;
   bullets?: string[];
+  /** Inline CTA on the text side. */
+  primaryCta?: { label: string; href: string };
+  /** Optional H3 sub-blocks rendered as nested {title, body} pairs. */
+  subSections?: { title?: string | null; body?: string | null }[];
 }
 
 /** Numbered bullet list with emojis (e.g. "Vous vous reconnaissez ?"). */
@@ -72,6 +82,7 @@ export interface StatsSection {
 export interface LogoBarSection {
   type: "logo-bar";
   title?: string;
+  subtitle?: string;
   variant?: "client" | "press" | "partner";
   logos: { src: string; alt: string }[];
 }
@@ -104,10 +115,15 @@ export interface TestimonialsSection {
 export interface CustomerTestimonialsSection {
   type: "customer-testimonials";
   title?: string;
+  subtitle?: string;
+  /** Trailing CTA below the grid ("Voir les témoignages"). */
+  primaryCta?: { label: string; href: string };
   testimonials: {
-    text: string;
+    /** Optional — many customer-testimonial layouts show metadata-only cards. */
+    text?: string;
     name: string;
     role?: string;
+    company?: string;
     avatarSrc?: string | null;
   }[];
 }
@@ -116,8 +132,13 @@ export interface CustomerTestimonialsSection {
 export interface ComparisonTableSection {
   type: "comparison-table";
   title?: string;
+  subtitle?: string;
   columns: string[];
   rows: string[][];
+  /** Inline CTA below the table ("Réservez une démo"). */
+  ctaLabel?: string;
+  ctaHref?: string;
+  primaryCta?: { label: string; href: string };
 }
 
 /** Numbered steps (deployment, how it works). */
@@ -146,6 +167,19 @@ export interface CtaSection {
   ctaLabel: string;
   ctaHref?: string;
   videoHref?: string;
+  /**
+   * Optional dual-card CTA (live: "Réserver une démo" + "Découvrir vidéo").
+   * When `items` is set with 2+ entries, the renderer can show a card grid
+   * instead of the single ctaLabel/ctaHref.
+   */
+  items?: {
+    title: string;
+    description?: string;
+    ctaLabel?: string;
+    ctaHref?: string;
+    videoHref?: string;
+    iconSrc?: string | null;
+  }[];
 }
 
 /** Icon row (security badges, integrations). */
@@ -168,6 +202,8 @@ export interface RelatedSection {
 /** Trust badges row (under hero). */
 export interface TrustBadgesSection {
   type: "trust-badges";
+  title?: string;
+  subtitle?: string;
   badges: { label: string; iconSrc?: string | null }[];
 }
 

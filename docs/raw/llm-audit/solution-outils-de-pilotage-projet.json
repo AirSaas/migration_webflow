@@ -1,0 +1,198 @@
+{
+  "type": "solution",
+  "slug": "outils-de-pilotage-projet",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title and titleHighlight split is acceptable; subtitle and CTA match live."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Outil le plus simple au monde",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "stats",
+        "title": "3 stats",
+        "verdict": "OK",
+        "note": "Live label was '3x moins cher que les outils du marché' — extraction shortened to '3x moins cher'. Minor."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Accompagnez le cadrage des projets",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Pilotage par la valeur",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Reportez en un clic",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Prenez de la hauteur",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "cta",
+        "title": "CTA temps et contrôle",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "intro",
+        "title": "Valorisez le travail de votre équipe",
+        "verdict": "OK",
+        "note": "H2 banner with no body, faithful."
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Diminuez la friction avec les métiers",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Augmentez le taux de réussite",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Communiquez mieux en interne",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "cta",
+        "title": "CTA temps et contrôle (2)",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "intro",
+        "title": "Différentes typologies",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Outils de pilotage d'un projet unique",
+        "verdict": "OK",
+        "note": "List items merged from two separate live sections — faithful consolidation."
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Gestion de portefeuilles de projets",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "intro",
+        "title": "La naissance récente",
+        "verdict": "OK",
+        "note": "Subsections capture H3 blocks faithfully; live had a graphic figure missing here but text faithful."
+      },
+      {
+        "index": 17,
+        "type": "cta",
+        "title": "CTA temps et contrôle (3)",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "intro",
+        "title": "Visions hétérogènes",
+        "verdict": "OK",
+        "note": "Three subsections present. The live also has a Maslow pyramid visual section that's not extracted but it's image-only."
+      },
+      {
+        "index": 19,
+        "type": "intro",
+        "title": "Choisir son outil",
+        "verdict": "OK"
+      },
+      {
+        "index": 20,
+        "type": "feature-split",
+        "title": "All-in-one VS spécialisés",
+        "verdict": "OK",
+        "note": "Body merges the split section with the following text-only section faithfully."
+      },
+      {
+        "index": 21,
+        "type": "feature-split",
+        "title": "Centrés sur l'expérience utilisateur",
+        "verdict": "OK",
+        "note": "Body combines preceding split section text + the H3 feed section. Faithful merge."
+      },
+      {
+        "index": 22,
+        "type": "intro",
+        "title": "Méthodologies / Vecteur de changement",
+        "verdict": "OK",
+        "note": "Two H3 subsections faithfully captured."
+      },
+      {
+        "index": 23,
+        "type": "intro",
+        "title": "Quel type d'outil AirSaas ?",
+        "verdict": "OK"
+      },
+      {
+        "index": 24,
+        "type": "feature-split",
+        "title": "Souple et intégrable - Jira",
+        "verdict": "OK"
+      },
+      {
+        "index": 25,
+        "type": "feature-split",
+        "title": "Microsoft Teams",
+        "verdict": "OK"
+      },
+      {
+        "index": 26,
+        "type": "feature-split",
+        "title": "Méthodologie pour impliquer les métiers",
+        "verdict": "OK",
+        "note": "Body merges the split section + the bg banner H2 + p--highlight conclusion. Faithful consolidation."
+      },
+      {
+        "index": 27,
+        "type": "cta",
+        "title": "CTA Découvrez",
+        "verdict": "OK"
+      }
+    ],
+    "missingFromExtract": [
+      {
+        "liveSectionDescription": "Maslow pyramid visual block ('Pour matérialiser un idéal type de ces deux visions...') with two SVG images side by side",
+        "suggestedType": "feature-split or image block"
+      },
+      {
+        "liveSectionDescription": "Image/graphic illustrating 'Depuis combien de temps...' (outil10.svg) and 'Quel a été le premier besoin' (outil11.svg with caption) — text captured but accompanying images not represented as feature-split",
+        "suggestedType": "feature-split images"
+      }
+    ],
+    "globalVerdict": "FAITHFUL",
+    "summary": "Extraction is faithful and complete in textual content. Hero, stats, intros, feature-splits and CTAs all match the live HTML, with sensible consolidations of multi-block sections (lists carried into the relevant feature-split, conclusions merged into the preceding section). Minor stat label was shortened ('3x moins cher' vs '3x moins cher que les outils du marché'). The Maslow pyramid visual block and a couple of decorative subsection images aren't represented as their own image blocks, but the underlying text content has been captured. No hallucinations, no truncations, no wrong field assignments, no obviously wrong product images."
+  }
+}

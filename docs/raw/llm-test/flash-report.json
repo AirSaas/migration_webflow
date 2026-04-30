@@ -1,0 +1,200 @@
+{
+  "type": "solution",
+  "slug": "flash-report",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Flash report automatisé pour DSI et PMO | AirSaas",
+      "description": "AirSaas automatise vos flash reports projets et fluidifie la prise de décision en Copil. La solution préférée des DSI et PMO."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "La solution de flash report automatisée préférée des DSI et PMO",
+        "titleHighlight": "flash report",
+        "subtitle": "Parce que vous avez plus à apporter à la transformation de votre entreprise que des PowerPoints chronophages, AirSaas automatise vos reportings projets et fluidifie la prise de décision en Copil.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        }
+      },
+      {
+        "type": "intro",
+        "title": "Une solution de reporting projet à votre image : efficace et moderne",
+        "body": "<p>Sur une interface simple à prendre en main et orientée expérience utilisateur, AirSaas automatise vos reportings projets, avec une idée en tête : aider vos décisionnaires à avoir la bonne vision de votre transformation d'entreprise.</p>"
+      },
+      {
+        "type": "icon-row",
+        "items": [
+          {
+            "label": "Votre rapport flash généré en un clic — Finies les longues heures passées sur PowerPoint : votre flash report consolide automatiquement toutes les données-clés à présenter à votre Copil, au format PPT ou PDF."
+          },
+          {
+            "label": "Un document 100% personnalisable — Votre flash report a beau être automatisé aux couleurs de votre entreprise, vous gardez la main sur son contenu, et y ajoutez tous les éléments qui vous semblent importants pour prendre les bonnes décisions."
+          },
+          {
+            "label": "Une journée de travail par semaine économisée — C'est en moyenne ce qu'économisent les PMO et BRM avec le flash report automatisé d'AirSaas. Focalisez-vous sur la vraie valeur que vous apportez : la gouvernance de votre portefeuille projet, et le coaching des métiers."
+          }
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Toutes vos données consolidées en un seul clic",
+        "titleHighlight": "en un seul clic",
+        "body": "<p>Vous passez un temps fou à chercher les informations à droite et à gauche, auprès de vos chefs de projets et sur vos outils de gestion de tâche ? Cette époque est révolue !</p><p>AirSaas vous permet d'observer toutes les données relatives à votre portfolio de projets, consolidées et mises à jour en temps réel. La data est homogénéisée, et reportée automatiquement dans votre flash report - le tout en un seul clic.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Des rapports qui facilitent la prise de décision",
+        "titleHighlight": "Des rapports",
+        "body": "<p>La structure de votre flash report AirSaas aide vos décisionnaires à visualiser rapidement le contexte de vos projets, ainsi que les décisions à prendre.</p><p>Après des slides d'introduction qui rappellent les grandes lignes de vos projets (tableau de bord, planning, timeline…), les membres du Copil visualisent tout ce dont ils ont besoin pour prendre leurs décisions en deux slides : jalons, statuts, risques et météos des projets, métriques d'avancée, gains attendus, ressources humaines et budgets impliqués…</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Reporting projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Une structure fixe, mais personnalisable",
+        "titleHighlight": "personnalisable",
+        "body": "<p>AirSaas crée automatiquement votre flash report au format .ppt ou .pdf, selon une structure ultra-lisible. Le design de votre présentation est personnalisable aux couleurs de votre entreprise.</p><p>Si besoin, customisez le contenu de votre reporting, en y ajoutant des métriques-clés supplémentaires, un récapitulatif des décisions à prendre, ou encore des précisions sur le planning de vos projets.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "imageAlt": "Flash report"
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du temps et du contrôle",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Plus qu'une solution de reporting flash : une solution de gouvernance projet complète",
+        "body": "<p>En du flash report automatisé, les autres fonctionnalités AirSaas vous font changer votre manière de gouverner votre portefeuille projet.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Une roadmap collaborative de vos projets",
+        "titleHighlight": "roadmap",
+        "body": "<p>Avec AirSaas, créez des vues filtrées pour visualiser les éléments-clés de vos différents projets à même la plateforme : points d'attention, retards, météos…</p><p>De quoi assurer un pilotage macro de vos projets, pour vous focaliser sur ce qui requiert une attention immédiate de vos équipes métiers et décideurs business.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "timeline projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Une vision Kanban qui simplifie votre gouvernance",
+        "titleHighlight": "Kanban",
+        "body": "<p>Centralisez sur votre dashboard toutes les décisions prises et à prendre sur vos projets, sous un format aisément lisible par toutes vos parties prenantes.</p><p>Le but ? Fluidifier la prise de décision, en évitant les données parasites qui rallongent vos réunions.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72da0c3898a0380300909_Portfolio%20project%20filter%20open.webp",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Des fiches de cadrage de projet collaboratives",
+        "titleHighlight": "projet collaboratives",
+        "body": "<p>Remplissez vos fiches de cadrage de manière collaborative, et développez une culture projet homogène dans toute l'entreprise.</p><p>Avec AirSaas, vos chefs de projet montent en puissance, pour faire avancer plus vite la transformation de votre organisation.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "imageAlt": "Reporting projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Des intégrations natives pour faciliter la remontée d'informations",
+        "titleHighlight": "intégrations natives",
+        "body": "<p>Toutes les informations cruciales provenant des outils de gestion de tâches (Jira, Asana…) sont centralisées sur AirSaas, pour éviter la déperdition d'informations.</p><p>Les informations d'avancement de vos projets sont diffusées automatiquement sur vos canaux de communication interne (Microsoft Teams), pour que chacun soit toujours au courant.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
+        "imageAlt": "Optimisation des ressources disponibles"
+      },
+      {
+        "type": "cta",
+        "title": "Faites passer votre gouvernance projet à la vitesse supérieure",
+        "titleHighlight": "votre gouvernance projet",
+        "subtitle": "Choisissez une solution PPM collaborative et moderne, qui simplifie votre flash report et accélère vos prises de décisions.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Les bonnes pratiques de flash report qui mènent vos projets plus loin, plus vite",
+        "body": "<p>Un bon rapport flash, c'est bien. Mais y associer les bonnes pratiques de gouvernance projet, c'est mieux ! Pensez à appliquer ces trois conseils pour en faire un outil-clé de la transformation de votre entreprise.</p>"
+      },
+      {
+        "type": "steps",
+        "title": "Les bonnes pratiques",
+        "steps": [
+          {
+            "title": "Mettez en valeur le ressenti de vos équipes",
+            "description": "Inclure dans votre reporting les métriques d'avancée de vos projets ne suffit pas. Pour impliquer chacun de manière forte dans vos projets, mettez en avant dans vos présentations les points d'attention ou les succès rencontrés, selon ce que vous en dit votre équipe de pilotage, vos responsables de projet, voire vos utilisateurs finaux. Parce qu'ensemble, on avance plus loin."
+          },
+          {
+            "title": "Définissez votre fréquence d'envoi de reporting",
+            "description": "Faites de vos reportings un véritable rendez-vous pour toutes vos parties prenantes, en définissant une fréquence à laquelle vous envoyez vos rapports. La bonne pratique ? Un reporting mensuel bien ficelé, qui met tout le monde au diapason de l'avancée de la transformation de l'entreprise."
+          },
+          {
+            "title": "Envoyez vos reportings projets à l'avance",
+            "description": "Envoyez à tous les membres du Copil votre reporting en amont de votre réunion, et utilisez-le comme support de présentation le jour J. Ainsi, tout le monde visualise les mêmes éléments, et les décisions se prennent plus rapidement."
+          }
+        ]
+      },
+      {
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "quotes": [
+          {
+            "text": "Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex",
+            "source": "Alliancy",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+          },
+          {
+            "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
+            "source": "JDN Journal du Net",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
+          },
+          {
+            "text": "Une nouvelle manière d'embarquer les équipes",
+            "source": "Le Point",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+          },
+          {
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "Le Monde Informatique",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "title": "Ce qu'en disent nos clients",
+        "testimonials": [
+          {
+            "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+            "name": "Thomas Sagnimorte",
+            "role": "DSI chez Millet Mountain Group",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/thomas-sagnimorte-593b2b1_cest-tellement-agr%C3%A9able-de-co-construire-activity-7084118266675101697-6OuH/"
+          },
+          {
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia. Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
+            "name": "Marie-Odile Lhomme",
+            "role": "Chief Digital & Information Officer",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/molhomme_mon-top-workshop-de-la-semaine-%C3%A9tait-avec-activity-7080456869751713792-NQT9/"
+          },
+          {
+            "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revu projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+            "name": "Clement Royer",
+            "role": "DSI - ICT MANAGER chez Chiesi France",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7122982646506278912/"
+          }
+        ]
+      }
+    ]
+  }
+}

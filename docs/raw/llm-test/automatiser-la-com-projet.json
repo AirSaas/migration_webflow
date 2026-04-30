@@ -1,0 +1,73 @@
+{
+  "type": "produit",
+  "slug": "automatiser-la-com-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "description": "Bien communiquer, c'est 50% du succès de vos projets. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Automatisez la communication projet",
+        "titleHighlight": "Email \"bilan de santé\" :",
+        "subtitle": "Bien communiquer, c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+        "primaryCta": {
+          "label": "Je veux une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control%20tower%20email%20FR%20%28screen%29.webp",
+        "imageAlt": "Bilan de santé"
+      },
+      {
+        "type": "pain-points",
+        "title": "Vous n'entendrez bientôt plus ces phrases ...",
+        "items": [
+          "“Je dois envoyer un PPT avec l'avancée des projets à ma boss toutes les 2 semaines”",
+          "\"Le directeur marketing veut savoir où ça en est, mais n'a pas le temps d'aller sur AirSaas\"",
+          "“La DG m'écrit sur Whatsapp pour avoir une update”"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Ajoutez les sponsors sur vos projets",
+        "body": "<p>Ajoutez les sponsors sur vos projets et ils recevront le bilan de santé de tous leurs projets, le lundi matin par email.</p><p>Aussi simple que ça.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6645f73c0195b1d0919ff025_Block%20-%20people%20involved%20screen.webp",
+        "imageAlt": "Personnes impliquées"
+      },
+      {
+        "type": "feature-split",
+        "title": "Un récap' complet et synthétique",
+        "titleHighlight": "récap' complet",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
+        "imageAlt": "Bilan de santé",
+        "reversed": true,
+        "subSections": [
+          {
+            "title": "Tendance des projets vitaux",
+            "body": "Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment."
+          },
+          {
+            "title": "Tendance de leurs projets à eux",
+            "body": "Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet."
+          },
+          {
+            "title": "Projets en retard d'actualisation",
+            "body": "Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquilles !"
+          }
+        ],
+        "body": "<p><strong>Recevez l'email \"Bilan de santé\" tous les lundi matin !</strong></p>"
+      },
+      {
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "subtitle": "Discutons-en et bénéficiez d'une démo sur mesure",
+        "ctaLabel": "Je veux une démo",
+        "ctaHref": "/fr/meetings-pages"
+      }
+    ]
+  }
+}

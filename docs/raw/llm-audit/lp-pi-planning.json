@@ -1,0 +1,135 @@
+{
+  "type": "lp",
+  "slug": "pi-planning",
+  "audit": {
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "missingFromExtract": [
+      {
+        "liveSectionDescription": "Hero tag/eyebrow above title: 'Pour les RTE, PMO SAFe et équipes agiles à l'échelle'",
+        "suggestedType": "hero.eyebrow"
+      },
+      {
+        "liveSectionDescription": "Hero interactive tabs showcasing 6 product views (Portfolio, Quarter plan, Capacitaire, Priorisation, Roadmap, Reporting) with Lottie animations",
+        "suggestedType": "tabs / product-showcase"
+      },
+      {
+        "liveSectionDescription": "Comparison table subtitle 'Le quotidien du RTE transformé.'",
+        "suggestedType": "section.subtitle"
+      },
+      {
+        "liveSectionDescription": "CTA section has two cards (Réserver une démo + Découvrir la vidéo) with descriptions, not just two links",
+        "suggestedType": "cta-dual-card"
+      }
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "verdict": "INCOMPLETE",
+        "note": "Missing eyebrow tag 'Pour les RTE, PMO SAFe et équipes agiles à l'échelle' and the interactive tabs/Lottie product showcase."
+      },
+      {
+        "index": 1,
+        "type": "logo-bar",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "stats",
+        "verdict": "OK"
+      },
+      {
+        "index": 3,
+        "type": "pain-points",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "intro",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Connecteur Jira"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Vue Business"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Roadmap"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Capacité"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Flash Report"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Suivi continu"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "IA découpage"
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Scénarios IA"
+      },
+      {
+        "index": 13,
+        "type": "comparison-table",
+        "verdict": "INCOMPLETE",
+        "note": "Missing subtitle 'Le quotidien du RTE transformé.'"
+      },
+      {
+        "index": 14,
+        "type": "icon-row",
+        "verdict": "OK",
+        "note": "Item labels combine product name + description; on live they are separated as h3 + p, but content faithfully reproduced."
+      },
+      {
+        "index": 15,
+        "type": "testimonials",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "faq",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "trust-badges",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "cta",
+        "verdict": "INCOMPLETE",
+        "note": "Live has two CTA cards each with own heading + description (Réserver une démo / Découvrir vidéo). Extraction collapses to single CTA + videoHref, losing the second card's heading and description text."
+      }
+    ],
+    "summary": "Extraction is largely faithful: all main feature-split sections, stats, pain-points, comparison rows, FAQ, testimonial and trust badge are correctly captured with canonical fields. Main gaps: (1) hero is missing the eyebrow tag and the interactive product-tabs/Lottie showcase below the headline; (2) comparison table missing its subtitle; (3) the final CTA section is reduced to a single CTA when live shows two parallel CTA cards with their own descriptions."
+  }
+}

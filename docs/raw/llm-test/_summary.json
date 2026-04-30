@@ -1,0 +1,35 @@
+{
+  "startedAt": "2026-04-29T12:55:01.963Z",
+  "totalCost": 2.1397649999999997,
+  "totalTokens": {
+    "input": 84771,
+    "output": 11576,
+    "cacheRead": 0,
+    "cacheWrite": 0
+  },
+  "results": [
+    {
+      "type": "lp",
+      "slug": "capacity-planning",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 19,
+        "types": [
+          "hero",
+          "logo-bar",
+          "stats",
+          "pain-points",
+          "feature-split",
+          "steps",
+          "icon-row",
+          "testimonials",
+          "trust-badges",
+          "faq",
+          "cta"
+        ]
+      },
+      "errors": []
+    }
+  ]
+}

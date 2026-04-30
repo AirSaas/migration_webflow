@@ -1,0 +1,181 @@
+{
+  "type": "solution",
+  "slug": "outil-ppm",
+  "audit": {
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero AirSaas outil PPM",
+        "verdict": "OK"
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Quels sont les meilleurs logiciels PPM ?",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "intro",
+        "title": "Enfin l'outil PPM... + 3 cards",
+        "verdict": "OK",
+        "note": "Live has separate intro heading then 3-column grid; extraction merged as subSections which is acceptable."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Prenez des décisions avisées en Copil",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Gagnez du temps en reporting",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Améliorez votre gestion des ressources",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Suivez la consommation des budgets",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "cta",
+        "title": "Choisissez de gagner du temps",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "intro",
+        "title": "Faites avancer les projets sereinement",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Fluidifiez les relations IT et métiers",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Améliorez la phase de cadrage",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Augmentez l'engagement des équipes",
+        "verdict": "INCOMPLETE",
+        "note": "Live has an SVG image (dashboard.svg) for this section; extraction omitted imageSrc. Acceptable if generic icons skipped."
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "Partagez vos avancées",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "cta",
+        "title": "Choisissez de gagner du temps (2)",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "intro",
+        "title": "Une erreur à éviter : confondre PM et PPM",
+        "verdict": "OK"
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Le PM : outil de gestion de projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "feature-split",
+        "title": "Le PPM : outil de gestion de portefeuille",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "intro",
+        "title": "Un bref retour historique sur les outils PPM",
+        "verdict": "OK",
+        "note": "Live has each subsection with its own SVG image; extraction collapses into subSections without images. Content faithful."
+      },
+      {
+        "index": 18,
+        "type": "cta",
+        "title": "CTA 3",
+        "verdict": "OK"
+      },
+      {
+        "index": 19,
+        "type": "intro",
+        "title": "Les différentes visions de la gestion de projet",
+        "verdict": "OK",
+        "note": "Live has 3 separate sections with images; extraction merged as subSections losing images."
+      },
+      {
+        "index": 20,
+        "type": "feature-split",
+        "title": "Deux visions de DSI - pyramides Maslow",
+        "verdict": "WRONG_IMAGE",
+        "note": "Live has TWO Maslow pyramid SVGs side by side (outil14a.svg + outil14b.svg); extraction shows only one. This is a known SVG diagram, not a product mockup."
+      },
+      {
+        "index": 21,
+        "type": "intro",
+        "title": "Visions opposées de la gestion de projets",
+        "verdict": "OK"
+      },
+      {
+        "index": 22,
+        "type": "feature-split",
+        "title": "Un outil PPM intuitif - Jira",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is an SVG icon (outil18a.svg), not a real product mockup. Faithful to live but flagged per rule."
+      },
+      {
+        "index": 23,
+        "type": "feature-split",
+        "title": "Microsoft Teams",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is an SVG icon (outil18b.svg). Faithful to live but flagged."
+      },
+      {
+        "index": 24,
+        "type": "feature-split",
+        "title": "Un outil PPM avec une UX forte",
+        "verdict": "OK"
+      },
+      {
+        "index": 25,
+        "type": "intro",
+        "title": "Méthodologie collaborative pour impliquer les métiers",
+        "verdict": "OK",
+        "note": "Last paragraph 'AirSaas est donc solution PPM légère...' is from a separate p--highlight block on live, correctly merged."
+      },
+      {
+        "index": 26,
+        "type": "cta",
+        "title": "AirSaas : le logiciel PPM nouvelle génération",
+        "verdict": "OK"
+      }
+    ],
+    "summary": "Extraction is faithful and well-structured. All major sections present in the correct order. Minor issues: (1) Maslow pyramids feature-split shows only one of two SVGs; (2) Jira and Teams sections use SVG icons rather than product mockups (faithful to live, but icons not mockups); (3) Some intro subSections in the historical/visions parts collapse what live presents as multiple feature blocks with side images — content preserved but accompanying SVGs dropped. No hallucinations detected."
+  }
+}

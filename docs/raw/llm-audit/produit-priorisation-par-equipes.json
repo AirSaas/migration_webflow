@@ -1,0 +1,53 @@
+{
+  "type": "produit",
+  "slug": "priorisation-par-equipes",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK"
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "La manière la plus simple",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "feature-split",
+        "title": "Chaque équipe définie ses prios",
+        "verdict": "OK"
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Soyez notifié",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Organisez la roadmap",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "faq",
+        "title": "Vos questions",
+        "verdict": "OK"
+      }
+    ],
+    "missingFromExtract": [],
+    "globalVerdict": "FAITHFUL",
+    "summary": "Extraction faithfully reproduces all live sections: hero, intro, three feature-splits (with correct alternating reversed), CTA, and FAQ with three items. Texts, images, and links match the source HTML."
+  }
+}

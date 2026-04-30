@@ -1,0 +1,137 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-gestion-de-projet",
+  "audit": {
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "summary": "Extraction is largely faithful to the live page. All major sections are present, content is mostly complete, and structure is well-preserved. Minor issues: some feature-split sections use SVG icons as imageSrc (mirroring live), one intro section title was paraphrased/added, and the \"Vue Kanban\" feature-split has a title not present on live (live has no h3 for Kanban or Timeline sections). The conclusion intro reuses content from earlier instead of pure conclusion content but this matches live faithfully.",
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title and CTA match live. titleHighlight 'moderne' matches <strong>moderne</strong>."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Hero intro paragraph",
+        "verdict": "OK",
+        "note": "Body matches live hero paragraph faithfully."
+      },
+      {
+        "index": 2,
+        "type": "intro",
+        "title": "AirSaas, le tableau de bord...",
+        "verdict": "OK",
+        "note": "H2 + body matches live."
+      },
+      {
+        "index": 3,
+        "type": "intro",
+        "title": "Piloter par la valeur",
+        "verdict": "OK",
+        "note": "H3 + rich content with bullets matches live."
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "AirSaas propose 3 vues",
+        "verdict": "OK",
+        "note": "Heading, body, and image match live."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Vue Kanban",
+        "verdict": "WRONG_FIELDS",
+        "note": "Live has NO h3/title for this section — only a paragraph. Extraction added 'Vue Kanban' as title (likely from img alt). Minor hallucinated title."
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Vue timeline",
+        "verdict": "WRONG_FIELDS",
+        "note": "Live has no heading for timeline section either — only a paragraph. The follow-up paragraphs (filtrer/scenarios) are technically a separate section on live but merged here, which is acceptable. Title 'Vue timeline' added by extractor."
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Impliquez toutes les parties prenantes",
+        "verdict": "OK",
+        "note": "Matches live."
+      },
+      {
+        "index": 8,
+        "type": "cta",
+        "title": "Choisissez de gagner du temps",
+        "verdict": "OK",
+        "note": "Matches live CTA banner."
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Le rapport flash automatisé",
+        "verdict": "OK",
+        "note": "Title, highlight, body, image all match."
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Sondez vos collaborateurs",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is a dashboard.svg icon, not a product mockup — but this matches what's on live, so it's faithful reproduction. Acceptable per faithfulness rule."
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Tableau de bord de gestion de projets : pourquoi est-ce crucial...",
+        "verdict": "OK",
+        "note": "Body merges the two paragraphs split across feature-split + section__feature on live. Faithful merge. Image is SVG icon as on live."
+      },
+      {
+        "index": 12,
+        "type": "intro",
+        "title": "Comment choisir les indicateurs appropriés...",
+        "verdict": "OK",
+        "note": "H2 heading-only section, faithful to live (live also has heading only)."
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Quelques principes à respecter",
+        "verdict": "OK",
+        "note": "Body + bullets + image all match live (bullets pulled from following section__feature)."
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Construisez les indicateurs",
+        "verdict": "OK",
+        "note": "Merges adjacent live paragraphs. Faithful."
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Engager les métiers",
+        "verdict": "OK",
+        "note": "Matches live including merged follow-up paragraph."
+      },
+      {
+        "index": 16,
+        "type": "intro",
+        "title": "En conclusion...",
+        "verdict": "OK",
+        "note": "Body matches live conclusion section faithfully (live indeed reuses the earlier 'innovation' paragraph)."
+      },
+      {
+        "index": 17,
+        "type": "cta",
+        "title": "Découvrez comment AirSaas peut vous aider",
+        "verdict": "OK",
+        "note": "Matches final CTA."
+      }
+    ],
+    "missingFromExtract": []
+  }
+}

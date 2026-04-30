@@ -1,0 +1,46 @@
+{
+  "type": "produit",
+  "slug": "automatiser-la-com-projet",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, highlight, subtitle, CTA, image all match live."
+      },
+      {
+        "index": 1,
+        "type": "pain-points",
+        "title": "Vous n'entendrez bientôt plus ces phrases",
+        "verdict": "OK",
+        "note": "Three quote items match live testimonials block."
+      },
+      {
+        "index": 2,
+        "type": "feature-split",
+        "title": "Ajoutez les sponsors sur vos projets",
+        "verdict": "OK",
+        "note": "Title, body, image match live."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Un récap' complet et synthétique",
+        "verdict": "OK",
+        "note": "Sub-sections faithfully reproduce the three h4/p blocks. Image is the first of three stacked mockups; live actually shows three images stacked but only one was extracted - acceptable simplification."
+      },
+      {
+        "index": 4,
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "verdict": "OK",
+        "note": "CTA matches live."
+      }
+    ],
+    "missingFromExtract": [],
+    "summary": "Extraction is faithful to the live page. All five sections (hero, pain-points, two feature-splits with sub-sections, and final CTA) reproduce live content accurately. Minor note: the third feature-split on live shows three stacked screenshot images, but only the primary one is referenced — acceptable for a single imageSrc field."
+  }
+}

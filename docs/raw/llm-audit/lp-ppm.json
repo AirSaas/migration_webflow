@@ -1,0 +1,124 @@
+{
+  "type": "lp",
+  "slug": "ppm",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [
+      {
+        "liveSectionDescription": "Hero tabs widget showing 6 product tabs (Portfolio, Quarter plan, Capacitaire, Priorisation, Roadmap, Reporting) with Lottie animations - this is part of the hero visual on live but extracted hero has no imageSrc/visual representation",
+        "suggestedType": "hero-tabs or hero with imageSrc"
+      }
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "verdict": "OK",
+        "note": "Title, highlight, subtitle, CTAs and bullets all match. Live also has a 'PPM nouvelle génération' tag and an interactive Lottie tabs visual not represented in the JSON, but the textual content is faithful."
+      },
+      {
+        "index": 1,
+        "type": "logo-bar",
+        "verdict": "OK",
+        "note": "Title and 5 client logos match exactly."
+      },
+      {
+        "index": 2,
+        "type": "stats",
+        "verdict": "OK",
+        "note": "All 4 stats with values and labels match live."
+      },
+      {
+        "index": 3,
+        "type": "pain-points",
+        "verdict": "OK",
+        "note": "Title and 4 items match live (with bold formatting stripped, which is acceptable)."
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Flash Report - title, subtitle (tag 'Gain de temps immédiat'), body, 4 bullets and image all match."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Roadmap COMEX - matches live, reversed=true correct (image left)."
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Priorisation - all fields match."
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Décisions pilotables - all fields match, reversed correctly set."
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Portfolio - matches live."
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Capacité - matches live, reversed correct."
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "verdict": "OK",
+        "note": "Scénarios IA - matches live."
+      },
+      {
+        "index": 11,
+        "type": "icon-row",
+        "verdict": "OK",
+        "note": "Title, subtitle, 3 items with icons and labels (heading + description merged via em dash) match live."
+      },
+      {
+        "index": 12,
+        "type": "testimonials",
+        "verdict": "OK",
+        "note": "Both testimonials with text, name, role, company, avatar, linkedin URL match live faithfully."
+      },
+      {
+        "index": 13,
+        "type": "trust-badges",
+        "verdict": "OK",
+        "note": "4 badges with labels combining heading + subtext via em dash, icons match."
+      },
+      {
+        "index": 14,
+        "type": "logo-bar",
+        "verdict": "OK",
+        "note": "Partner integration logos - 6 logos match live."
+      },
+      {
+        "index": 15,
+        "type": "steps",
+        "verdict": "OK",
+        "note": "4 steps with titles and descriptions match live."
+      },
+      {
+        "index": 16,
+        "type": "faq",
+        "verdict": "OK",
+        "note": "5 FAQ Q&A pairs match live."
+      },
+      {
+        "index": 17,
+        "type": "cta",
+        "verdict": "OK",
+        "note": "Final CTA section with title, subtitle and 2 cards (démo + vidéo) with proper labels, hrefs and icons match live."
+      }
+    ],
+    "summary": "Extraction is highly faithful to live page. All 18 sections present on live are reproduced with correct content, canonical fields and proper image assignments. Only minor gap: the hero on live includes a Lottie-animated tabs widget showcasing 6 product views, which is not represented as an imageSrc in the extracted hero (acceptable since it's an interactive Lottie animation, not a static product mockup). All feature-split images point to real product webp mockups, not icons. Testimonial fields (name/role/company/avatar/linkedin) are canonically assigned. Stats use value+label canonically."
+  }
+}

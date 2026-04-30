@@ -1,0 +1,191 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-dsi",
+  "audit": {
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title/highlight split matches live h1. Subtitle and CTA correct."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "AirSaas, le tableau de bord DSI nouvelle génération",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "intro",
+        "title": "Le pilotage par la valeur",
+        "verdict": "OK",
+        "note": "On live, h3 heading and body are in two separate <section> elements but content is correctly merged."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Pour la planification, AirSaas propose trois vues...",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Vue Kanban",
+        "verdict": "WRONG_FIELDS",
+        "note": "On live, this section has no h3 heading - the title 'Vue Kanban' was taken from the alt text. Live only shows the paragraph body. Minor fidelity issue."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Vue timeline",
+        "verdict": "WRONG_FIELDS",
+        "note": "Same issue: live has no h3 here, just a paragraph. Title 'Vue timeline' came from alt text."
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Embarquez par une bonne communication",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is an SVG icon (5.svg) - faithful to live which uses the same SVG, so this is acceptable reproduction."
+      },
+      {
+        "index": 7,
+        "type": "cta",
+        "title": "CTA Choisissez de gagner du temps...",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Le rapport flash automatisé",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Suivi de l'indicateur d'adhésion",
+        "verdict": "WRONG_IMAGE",
+        "note": "Image is dashboard.svg icon - faithful to live."
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Devenez un centre de profit plutôt qu'un centre de coût",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Suivre la valeur générée par la DSI",
+        "verdict": "WRONG_FIELDS",
+        "note": "On live, this feature-split has NO h3 heading - the section displays only body text + image. Title was synthesized."
+      },
+      {
+        "index": 12,
+        "type": "intro",
+        "title": "Toutes les directions avaient leurs tableaux de bord - maintenant, vous aussi",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Des données consolidées",
+        "verdict": "WRONG_IMAGE",
+        "note": "1.svg icon - faithful to live."
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Des indicateurs intelligents d'aide à la décision",
+        "verdict": "WRONG_IMAGE",
+        "note": "2.svg icon - faithful to live."
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Simple et collaboratif by design",
+        "verdict": "WRONG_IMAGE",
+        "note": "outil4.svg icon - faithful to live."
+      },
+      {
+        "index": 16,
+        "type": "cta",
+        "title": "CTA second",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "intro",
+        "title": "Pourquoi utiliser un tableau de bord est essentiel...",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "intro",
+        "title": "L'importance des indicateurs choisis...",
+        "verdict": "MISSING_ON_LIVE",
+        "note": "Heading-only section on live (no body), faithfully reproduced."
+      },
+      {
+        "index": 19,
+        "type": "feature-split",
+        "title": "La transposition infortune des systèmes traditionnels...",
+        "verdict": "OK",
+        "note": "Body merges content from two adjacent sections (heading section + padding--0px section) on live. Acceptable consolidation."
+      },
+      {
+        "index": 20,
+        "type": "feature-split",
+        "title": "D'un tableau de bord centre de coûts à un tableau de bord centre de profit",
+        "verdict": "OK",
+        "note": "Same merge behavior with following padding--0px paragraph section - acceptable."
+      },
+      {
+        "index": 21,
+        "type": "feature-split",
+        "title": "Le tableau de bord de la DSI au service de la direction générale",
+        "verdict": "WRONG_IMAGE",
+        "note": "5.svg icon - faithful to live. Body correctly merges following padding--0px section."
+      },
+      {
+        "index": 22,
+        "type": "intro",
+        "title": "Comment construire des indicateurs du tableau de bord pertinents ?",
+        "verdict": "MISSING_ON_LIVE",
+        "note": "Heading-only on live."
+      },
+      {
+        "index": 23,
+        "type": "feature-split",
+        "title": "Des principes à respecter...",
+        "verdict": "WRONG_IMAGE",
+        "note": "5.svg icon - faithful. Body correctly merges with the bullet list from following padding--0px section."
+      },
+      {
+        "index": 24,
+        "type": "feature-split",
+        "title": "Penser les indicateurs de tableau de bord comme le reflet des objectifs...",
+        "verdict": "WRONG_IMAGE",
+        "note": "7.svg icon - faithful. Body merges following section."
+      },
+      {
+        "index": 25,
+        "type": "feature-split",
+        "title": "Impliquer les métiers dans la fabrication des indicateurs...",
+        "verdict": "WRONG_IMAGE",
+        "note": "7.svg icon - faithful. Body merges following section."
+      },
+      {
+        "index": 26,
+        "type": "cta",
+        "title": "Découvrez comment AirSaas peut vous aider",
+        "verdict": "OK"
+      }
+    ],
+    "summary": "Extraction is largely faithful to live. All major sections are present in the right order. The hero, intros and CTAs are correctly typed. Several feature-split sections lack an h3 on live (Vue Kanban, Vue timeline, Suivre la valeur générée par la DSI) but the extraction synthesized titles from alt/context which slightly diverges from strict fidelity. Many imageSrc values point to decorative SVG icons (1.svg, 2.svg, 5.svg, 7.svg, outil4.svg, dashboard.svg) - these match the live page exactly so they are faithful reproductions, though the design system would prefer real product mockups. Two intro headings (L'importance des indicateurs / Comment construire) appear without body on live and are correctly reproduced as such. Body merges across adjacent live sections (heading section + padding--0px continuation) are sensibly performed. No hallucinated sections detected; no live sections missing from extract."
+  }
+}

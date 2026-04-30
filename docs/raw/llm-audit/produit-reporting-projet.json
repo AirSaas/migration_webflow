@@ -1,0 +1,66 @@
+{
+  "type": "produit",
+  "slug": "reporting-projet",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, highlight, subtitle and CTA match live."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Prenons de la hauteur",
+        "verdict": "OK",
+        "note": "Body matches live (minor typo on live 'niveau de d'abstraction' was cleaned)."
+      },
+      {
+        "index": 2,
+        "type": "feature-split",
+        "title": "Une fiche projet homogène",
+        "verdict": "OK",
+        "note": "Image (cadrage slide), reversed=true (image left), body match."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Un reporting généré en un clic",
+        "verdict": "OK",
+        "note": "Image right, body matches."
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Un reporting customisable",
+        "verdict": "OK",
+        "note": "reversed=true (image left), body matches."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Plus besoin d'aller à la pêche aux informations",
+        "verdict": "OK",
+        "note": "Live displays this as section__feature with mockup below; extraction maps to feature-split which is acceptable."
+      },
+      {
+        "index": 6,
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "faq",
+        "title": "Vos questions sur le reporting AirSaas",
+        "verdict": "OK",
+        "note": "3 items match. titleHighlight 'Vos questions' aligns with live <strong>."
+      }
+    ],
+    "summary": "Faithful extraction. All 8 sections present on live are reproduced with correct titles, highlights, bodies, images and CTAs. Section 5 (pêche aux informations) is structured slightly differently on live (full-width feature with mockup) but content/image are correctly captured under feature-split."
+  }
+}
