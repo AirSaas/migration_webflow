@@ -42,7 +42,7 @@
 
 - `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light → revoir chrome pour cohérence (4 pages affectées)
 - `<Hero layout>` default → centered (pas split par défaut sur Solutions)
-- **`<Hero>` `bottomTags` limit 0-4 → relaxer à 0-6** (live PPM a 5 badges, voir `[1.11]`)
+- ✅ **`<Hero>` `bottomTags` limit 0-4 → 0-6** — relaxé 2026-04-27. Live PPM a 5 badges (voir `[1.11]`). Story `Hero / FiveTrustBadges` livré comme référence copy-paste.
 - `<LogosBar>` default size → augmenter height ou exposer prop `size="lg"`
 - **`<FeatureFrame imageSize>` mal exploité** — la prop accepte `"default"` (60% image) | `"compact"` (40% image) | `"narrow"` (33% image). Pour sections **éditoriales avec graphic illustratif** (pas screenshot produit), utiliser `imageSize="narrow"` ou `"compact"` pour donner plus d'espace au texte. **Le rebuild utilise `default` partout** → screenshots et illustrations occupent la même proportion. Cas concret : `[4.2.a]` "Diminuez la frustration entre les métiers et l'IT" en live a un graphic schématique petit + ~3 paragraphes texte → devrait être `imageSize="narrow"`. Idem pour `[4.2.b]`, `[4.2.c]`, `[4.2.d]`.
 - **`<ComparisonTableFrame>` → ajouter cell `type="check"`** comme alternative à text content (extension DS livrée 2026-04-27)

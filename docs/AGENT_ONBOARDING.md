@@ -272,7 +272,7 @@ Living section. Append every proposal that needs a DS-level decision so the next
 | Pattern | Action | Status |
 |---|---|---|
 | `<ComparisonTableFrame>` cell `{ type: "check" \| "x", text: string }` for icon + descriptive text in same cell | DS extension | ✅ shipped 2026-04-27 (commit `96c61a5`) |
-| `<Hero>` `bottomTags` limit `0–4` → `0–6` (live PPM has 5 trust badges) | DS limit relax | pending — see `[1.11]` |
+| `<Hero>` `bottomTags` limit `0–4` → `0–6` (live PPM has 5 trust badges) | DS limit relax | ✅ shipped 2026-04-27 — story `Hero / FiveTrustBadges` is the canonical copy-paste reference for `[1.11]` |
 | `<FeatureFrame imageSize>` — agent uses `default` everywhere; should use `narrow` (33%) or `compact` (40%) for editorial sections with graphic illustrations (not screenshots) — see `[4.2.a]` "Diminuez la frustration" | guidance / story | pending |
 | `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light = visual dissonance on 4 pages | redesign chrome OR forbid combo | pending |
 | `<Hero layout>` default — agent overuses `"split"` on 10/12 Solution pages where `"centered"` is more appropriate | guidance / Storybook story | pending |

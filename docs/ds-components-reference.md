@@ -1056,7 +1056,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - subtitle: max 220 chars
 - eyebrow: max 30 chars (uppercase, tracking)
 - navItems: 2–7 top-level items
-- bottomTags: 0–4
+- bottomTags: 0–6 (live LP PPM has 5 trust badges; cap at 6 — past 6 the row wraps awkwardly on tablet)
 
 **Forbidden:**
 - Do NOT render multiple <Hero> on a single page
