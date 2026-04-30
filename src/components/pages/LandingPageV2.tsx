@@ -9,6 +9,11 @@ import { ValuePropositionFrame } from "@/components/library-design/sections/Valu
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { ComparisonTableFrame } from "@/components/library-design/sections/ComparisonTableFrame";
 import { StepsFrame } from "@/components/library-design/sections/StepsFrame";
+import { TabsFrame } from "@/components/library-design/sections/TabsFrame";
+import { ComparisonFrame } from "@/components/library-design/sections/ComparisonFrame";
+import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
+import { HighlightFrame } from "@/components/library-design/sections/HighlightFrame";
+import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
@@ -17,10 +22,63 @@ import { ListInline } from "@/components/library-design/ui/ListInline";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
 import { Tag } from "@/components/library-design/ui/Tag";
 import { Button } from "@/components/library-design/ui/Button";
-import { GearsIcon } from "@/components/library-design/ui/icons/illustration-icons";
+import {
+  GearsIcon,
+  CalendarDayIcon,
+  BullseyeArrowIcon,
+  SuitcaseIcon,
+  ChevronCircleIcon,
+  StopwatchIcon,
+  CalendarStarIcon,
+  BoltLightningIcon,
+  CommentsIcon,
+  IndustryIcon,
+  LockKeyholeIcon,
+  CircleCheckIcon,
+  CircleXmarkIcon,
+  BanIcon,
+  CirclePlusIcon,
+  ArrowsRotateIcon,
+  AtomIcon,
+  DollyIcon,
+  ClipboardCheckIcon,
+  FlagCheckeredIcon,
+} from "@/components/library-design/ui/icons/illustration-icons";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 import type { LandingPage, LandingSection } from "@/types/landing";
+
+const ICON_BY_NAME: Record<string, React.ComponentType> = {
+  gears: GearsIcon,
+  "calendar-day": CalendarDayIcon,
+  "bullseye-arrow": BullseyeArrowIcon,
+  suitcase: SuitcaseIcon,
+  "chevron-circle": ChevronCircleIcon,
+  stopwatch: StopwatchIcon,
+  "calendar-star": CalendarStarIcon,
+  "bolt-lightning": BoltLightningIcon,
+  comments: CommentsIcon,
+  industry: IndustryIcon,
+  "lock-keyhole": LockKeyholeIcon,
+  "circle-check": CircleCheckIcon,
+  "circle-xmark": CircleXmarkIcon,
+  ban: BanIcon,
+  "circle-plus": CirclePlusIcon,
+  "arrows-rotate": ArrowsRotateIcon,
+  atom: AtomIcon,
+  dolly: DollyIcon,
+  "clipboard-check": ClipboardCheckIcon,
+  "flag-checkered": FlagCheckeredIcon,
+};
+
+function iconNode(iconName: string | undefined, fallback: React.ComponentType = GearsIcon) {
+  const Cmp = (iconName && ICON_BY_NAME[iconName]) || fallback;
+  return (
+    <IconIllustration variant="dark" size="lg">
+      <Cmp />
+    </IconIllustration>
+  );
+}
 
 const PLACEHOLDER_HERO =
   "https://placehold.co/1200x700/e8eafc/3a51e2?text=AirSaas";
@@ -492,6 +550,137 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             ))}
           </div>
         </section>
+      );
+
+    case "tabs-frame":
+      if (!section.tabs || section.tabs.length === 0) return null;
+      return (
+        <TabsFrame
+          key={index}
+          variant={section.variant || "light"}
+          sticky={section.sticky}
+          tabs={section.tabs}
+        />
+      );
+
+    case "cta-highlight":
+      return (
+        <CtaHighlightFrame
+          key={index}
+          titlePrefix={section.titlePrefix}
+          titleHighlight={section.titleHighlight}
+          titleSuffix={section.titleSuffix}
+          subtitle={section.subtitle}
+          ctaLabel={section.ctaLabel}
+          ctaHref={section.ctaHref}
+        />
+      );
+
+    case "comparison-frame":
+      if (!section.items || section.items.length === 0) return null;
+      return (
+        <ComparisonFrame
+          key={index}
+          emoji={section.emoji}
+          title={section.title}
+          subtitle={section.subtitle ?? ""}
+          items={section.items.map((it) => ({
+            value: it.value,
+            description: it.description,
+          }))}
+        />
+      );
+
+    case "pillar-frame":
+      if (!section.pillars || section.pillars.length === 0) return null;
+      return (
+        <PillarFrame
+          key={index}
+          variant={section.variant || "light"}
+          tag={section.tag}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          subtitle={section.subtitle}
+          columns={section.columns}
+          pillars={section.pillars.map((p) => ({
+            icon: iconNode(p.iconName),
+            title: p.title,
+            description: p.description,
+            example: p.example,
+            exampleLabel: p.exampleLabel,
+          }))}
+        />
+      );
+
+    case "highlight-frame":
+      if (!section.items || section.items.length === 0) return null;
+      return (
+        <HighlightFrame
+          key={index}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          subtitle={section.subtitle}
+          items={section.items.map((it) => ({
+            value: it.value,
+            description: it.description,
+          }))}
+        />
+      );
+
+    case "feature-stacked":
+      return (
+        <FeatureSectionStacked
+          key={index}
+          titleGradient={section.titleGradient}
+          titleDark={section.titleDark}
+          titleDarkPrefix={section.titleDarkPrefix}
+          subtitle={section.subtitle}
+          listItems={section.listItems}
+          imageSrc={section.imageSrc}
+          imageAlt={section.imageAlt}
+          variant={section.variant}
+        />
+      );
+
+    case "value-proposition":
+      if (!section.items || section.items.length === 0) return null;
+      return (
+        <ValuePropositionFrame
+          key={index}
+          variant={section.variant || "light"}
+          tag={section.tag}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          subtitle={section.subtitle}
+          columns={section.columns}
+        >
+          {section.items.map((it, i) => (
+            <FeatureCard
+              key={i}
+              title={it.title}
+              description={it.description ?? ""}
+            />
+          ))}
+        </ValuePropositionFrame>
+      );
+
+    case "steps-rich":
+      if (!section.steps || section.steps.length === 0) return null;
+      return (
+        <StepsFrame
+          key={index}
+          variant={section.variant || "light"}
+          tag={section.tag}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          subtitle={section.subtitle}
+          steps={section.steps.map((s) => ({
+            icon: iconNode(s.iconName),
+            title: s.title,
+            description: s.description,
+            number: s.number,
+          }))}
+        />
       );
 
     case "raw":
