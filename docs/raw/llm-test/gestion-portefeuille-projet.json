@@ -1,0 +1,341 @@
+{
+  "type": "solution",
+  "slug": "gestion-portefeuille-projet",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "L'outil de gestion de portefeuille projet nouvelle génération",
+      "description": "AirSaas est l'outil PPM nouvelle génération qui aide les DSI et directions générales à accélérer leurs prises de décision, garder une transparence totale sur les priorités projets et impliquer les métiers."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "L'outil de gestion de portefeuille projet",
+        "titleHighlight": "nouvelle génération",
+        "subtitle": "La transformation de votre entreprise mérite un outil PPM qui vous aide à dépasser les problèmes les plus fréquents en gestion de portefeuille de projets. Grâce à AirSaas, accélérez votre prise de décision, gardez une transparence totale sur les priorités de vos projets, et dites adieu au micro-management de tâches.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        }
+      },
+      {
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "quotes": [
+          {
+            "text": "Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex",
+            "source": "Alliancy",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+          },
+          {
+            "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
+            "source": "JDN Journal du NET",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
+          },
+          {
+            "text": "Une nouvelle manière d'embarquer les équipes",
+            "source": "Le Point",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+          },
+          {
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "lemondeinformatique.fr",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "testimonials": [
+          {
+            "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+            "name": "Thomas Sagnimorte",
+            "role": "DSI chez Millet Mountain Group",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/thomas-sagnimorte-593b2b1_cest-tellement-agr%C3%A9able-de-co-construire-activity-7084118266675101697-6OuH/"
+          },
+          {
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia. Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression... et les premiers résultats! On continue!",
+            "name": "Marie-Odile Lhomme",
+            "role": "Chief Digital & Information Officer",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/molhomme_mon-top-workshop-de-la-semaine-%C3%A9tait-avec-activity-7080456869751713792-NQT9/"
+          },
+          {
+            "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revue projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+            "name": "Clement Royer",
+            "role": "DSI - ICT MANAGER chez Chiesi France",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7122982646506278912/"
+          }
+        ]
+      },
+      {
+        "type": "intro",
+        "title": "L'outil de portefeuille projets préféré des DSI et directions générales",
+        "body": "<p>De nombreux outils de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/management-de-portefeuille-de-projet\">gestion de portefeuille projet</a> sont proposés sur le marché : en quoi AirSaas se différencie-il des outils existants ?</p>"
+      },
+      {
+        "type": "icon-row",
+        "items": [
+          {
+            "label": "Prise en main facile : le portefeuille de projet le plus simple au monde. AirSaas est conçu pour être utilisé aussi bien par les équipes IT que par les responsables métiers, sans aucune formation. Invitez vos collaborateurs à profiter d'une interface ergonomique et au design épuré.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/655631a708d82baf3269e0a8_easy_icon.svg"
+          },
+          {
+            "label": "Portefeuille projet orienté valeur : donnez à votre organe de gouvernance projet le meilleur dispositif de prise de décision. Le portefeuille de projets AirSaas permet de rassembler dans une vue synthétique la combinaison des indicateurs nécessaires à une prise de décision orientée par la valeur.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6556318978b37d7d79fa3505_graphic_icon.svg"
+          },
+          {
+            "label": "Sans changer vos outils préférés : le portefeuille de projets ne doit pas vous contraindre à abandonner vos outils de gestion de projets préférés. AirSaas se connecte aux outils les plus populaires du marché (Jira, Azure DevOps, Asana, etc.) pour faire remonter les informations essentielles à un pilotage macro de vos activités.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f20288ac20bd5a7643fc_calendar2-icon-min.svg"
+          }
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Décidez de manière avisée en Copil grâce au tableau de bord",
+        "body": "<p>La stratégie de l'entreprise est claire, l'organe de gouvernance projet est en place, il faut maintenant mettre à disposition des indicateurs pertinents et à jour pour prioriser les projets en fonction des urgences, gains potentiels, ressources accessibles, etc.</p><p>La performance de votre Copil dépend de votre capacité à prendre les bonnes décisions dans les bons délais. AirSaas vous donne accès à un <a href=\"https://www.airsaas.io/fr/solution/revue-de-portefeuille\">tableau de bord de votre portefeuille projet</a>. Vous pouvez utiliser les filtres pour trouver les projets sur lesquels vous devez concentrer vos efforts.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72da0c3898a0380300909_Portfolio%20project%20filter%20open.webp",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Améliorez l'efficacité du reporting sur les projets en cours",
+        "body": "<p>L'importance d'un bon <a href=\"https://www.airsaas.io/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet\">reporting</a> n'est plus à prouver. Plus les dirigeants et le management de l'entreprise est au courant de l'avancée des différents projets, plus les frustrations diverses disparaissent. Le problème est que le processus de collecte des informations nécessaire à ce reporting est une tâche chronophage pour vos collaborateurs.</p><p>C'est pour cela que nous vous proposons le rapport flash automatique. Générez une présentation (.ppt, .pdf, url) en un clic, avec l'ensemble des données à jour mises en forme dans des slides aux couleurs de votre entreprise.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "imageAlt": "Reporting projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Optimisez les ressources humaines disponibles",
+        "body": "<p>Chaque vue du portefeuille de projets vous apporte des connaissances différentes. La timeline donne une vision d'ensemble des projets avec leurs jalons associés. Vous pouvez en un clin d'œil apercevoir les dépassements, les dépendances, et les projets à mener en parallèle.</p><p>Envisagez différents scénarios en déplaçant les projets dans le temps et choisissez la stratégie apportant le plus grand bénéfice. L'outil vous affichera des recommandations en fonction de différents facteurs (disponibilité des ressources, importance du projet, retard sur des jalons importants, etc.)</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "Optimisation des ressources disponibles"
+      },
+      {
+        "type": "feature-split",
+        "title": "Observez la consommation de vos ressources et de votre budget",
+        "body": "<p>Le suivi des budgets et l'optimisation des ressources est clé dans le métier de DSI. C'est la combinaison à suivre en continu pour piloter ses activités.</p><p>AirSaas récupère les temps et budgets consommés grâce à ses connecteurs avec vos outils financiers et de gestion de projets. D'autre part, un module de déclaration est accessible pour avoir des informations à jour, consolidées et exportables.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd47790f0e45_outil3.svg",
+        "imageAlt": "Pilotage budgétaire",
+        "reversed": true
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Avancez plus sereinement avec votre équipe",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "Diminuez la frustration entre les métiers et l'IT",
+        "body": "<p>Vos équipes se plaignent du manque d'engagement des métiers sur les projets demandés. Et du côté des métiers, la frustration se ressent sur les retards et la non-prise en compte de leurs demandes.</p><p>AirSaas propose une structure commune à suivre pour la mise en place d'un projet. La vue dashboard permet une compréhension partagée des contraintes de développement et une prise de décision collégiale par l'organe de gouvernance.</p><p>L'outil place le collaboratif au premier plan et permet de faire remonter les problèmes rencontrés, les succès du parcours, partager les compte-rendus de réunions, etc. pour impliquer les équipes autour d'un intérêt commun.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Vers un meilleur cadrage des projets",
+        "body": "<p>Une mauvaise définition du projet est souvent la première source de frustration des équipes IT, et toujours l'une des raisons principales de retard de livraison du projet.</p><p>Sur AirSaas, les utilisateurs sont accompagnés à se poser les bonnes questions et remplir les informations clés à un bon cadrage (gains espérés, critères de réussite, efforts à fournir, etc.). Ensuite, gardons en tête que le remplissage peut se faire de façon collaborative et asynchrone jusqu'au moment où le projet peut passer à l'état \"prêt à valider\" et être présenté au comité de pilotage.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4c030f0e65_Ameliorez-.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Des équipes plus engagées autour d'un objectif clair",
+        "body": "<p>Mesurer régulièrement le degré de confiance dans le succès du projet auprès des équipes est essentiel. Ainsi vous pourrez rectifier le tir avant que l'échec annoncé ne devienne trop coûteux pour l'entreprise. Sur AirSaas, vous pouvez envoyer un sondage à intervalle régulier, et ainsi améliorer l'engagement des équipes en écoutant leurs préoccupations et en fluidifiant la collaboration entre les métiers et l'IT.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd1ad70f0e63_Partagez-.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Communiquez sur les avancées",
+        "body": "<p>Le contenu de votre plan de communication doit permettre aux responsables métiers et à votre direction de comprendre l'état d'avancement général, les points bloquants et les risques de glissement. Il doit aussi valoriser les succès pour motiver les équipes et inciter les récalcitrants à rejoindre le mouvement des projets qui réussissent. Le reporting est souvent considéré comme une activité chronophage. AirSaas vous aide dans ce processus en vous permettant de générer automatiquement vos rapports flash à envoyer en un clic.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd96500f0e62_Augmentez-.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Une distinction à faire : différencier les outils de gestion de projet et de gestion de portefeuille de projet",
+        "body": "<p>De nombreuses personnes assimilent les outils de gestion de projets aux outils de gestion de portefeuille de projet. Pourtant, ces deux types d'outils ne servent pas les mêmes objectifs.</p><p>Mais alors quelle est la différence entre ces deux typologies de logiciels ?</p>",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "La gestion de projet",
+        "body": "<p>L'outil de gestion de projet vise à assurer le pilotage optimal d'un projet en particulier. Souvent grâce à un tableau de bord, il va simplifier différentes tâches :</p>",
+        "bullets": [
+          "Le suivi de la réalisation des objectifs du projet",
+          "Le contrôle des délais des tâches assignées aux membres de l'équipe du projet",
+          "L'organisation et l'optimisation de la réalisation de chaque phase du projet",
+          "Le fait de garder une visibilité sur le déroulement du projet sous tous ses aspects",
+          "L'implication et l'engagement de chaque collaborateur sur le projet"
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fdab9a0f0e4a_outil8.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "La gestion d'un portefeuille de projets",
+        "body": "<p>Contrairement à l'outil de gestion de projet, la mise en place d'outil de gestion de portefeuille de projets permet d'optimiser l'exécution de plusieurs projets simultanément.</p><p>A mesure qu'elle se développe, une société est amenée à mener de plus en plus de projets en même temps. Si une bonne communication et une organisation structurée peuvent suffire pour diriger quelques projets conjointement, il arrive forcément un moment où la mise en place d'outil de gestion d'un portefeuille de projets devient un allié incontournable pour garder une efficience opérationnelle.</p><p>Pour résumer, à quoi sert un outil de gestion d'un portefeuille de projets ? Il permet notamment :</p>",
+        "bullets": [
+          "de hiérarchiser les différents projets en fonction de leur priorité",
+          "d'assurer une visibilité optimale sur l'ensemble des projets et leurs étapes",
+          "d'impliquer tous les responsables de projets via l'assignation d'objectifs",
+          "de faciliter la mise en place d'une méthodologie collaborative sur les projets tout en brisant les silos entre services/directions"
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "imageAlt": "La gestion d'un portefeuille de projets",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Rapide historique des outils de gestion de portefeuille de projets",
+        "headingLevel": 2,
+        "subSections": [
+          {
+            "title": "À quand remonte l'apparition des outils de gestion de portefeuilles de projets ?",
+            "body": "Si les premiers outils de pilotage de portefeuilles de projets ont été créés il y a une quarantaine d'années, on peut tout de même noter que de nouveaux logiciels continuent à faire leur apparition régulièrement. Aujourd'hui, tous ces outils couvrent les besoins de gestion de portefeuille de projets, mais cela n'a pas toujours été le cas ! En effet, certains d'entre eux ont initialement été créés pour permettre la gestion de projets."
+          },
+          {
+            "title": "Quelle était la première problématique ciblée : la gestion de projet ou la gestion de portefeuille de projets ?",
+            "body": "En regardant ce graphique, on peut se rendre compte que plus de la moitié des outils de gestion de portefeuilles de projets ont en fait initialement été pensés pour répondre aux besoins de gestion de projet. Ce n'est qu'ensuite que ces derniers ont été complétés afin de couvrir les deux problématiques en même temps : la gestion de projet et la gestion de portefeuilles de projets. Il faut tout de même remarquer que certains de ces outils avaient été développés pour répondre à ces deux besoins (Sciforma, Ganttic) et que Planview était même axé dès son origine sur la gestion d'un portefeuille de projets. Aujourd'hui, il est très rare de rencontrer un outil qui ne couvre pas les deux aspects simultanément."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Des visions différentes du pilotage de projet : l'exemple des DSI",
+        "body": "<p>Une des raisons pour laquelle les logiciels de gestion de portefeuilles de projets ne proposent pas tous les mêmes fonctionnalités : cela dépend de la manière dont ils ont été pensés historiquement, mais c'est aussi une conséquence de la vision de la gestion de projets qu'ils défendent.</p><p>Mais pourquoi existe-t-il différentes visions de la gestion de projet dans les DSI ?</p>",
+        "headingLevel": 2,
+        "subSections": [
+          {
+            "title": "La gestion de portefeuille : d'une mission centrée technique à une mission centrée business",
+            "body": "Le rôle de la DSI a fortement évolué dans les dernières décennies. D'une direction axée principalement sur la technique, elle est aujourd'hui bien plus impliquée dans la résolution des besoins business métiers. En plus de l'obligation d'assurer le fonctionnement opérationnel des systèmes d'information et du site de l'entreprise, on attend maintenant de la DSI qu'elle soit créatrice de valeur pour son organisation. La nature de leurs projets ayant évolué, les attentes des DSI en matière de gestion de portefeuilles de projets ont donc progressivement évolué eux aussi."
+          },
+          {
+            "title": "L'essor du digital : un vecteur de changement des besoins des DSI en gestion de portefeuille projets",
+            "body": "L'avènement du digital offre la possibilité aux DSI d'accompagner leur entreprise différemment, et notamment en pesant davantage dans l'exécution des objectifs business. Une DSI qui digitalise les workflows des métiers leur apporte aujourd'hui énormément en simplifiant leur quotidien et en optimisant leur efficacité. La DSI peut même aider une entreprise à changer de business model en l'accompagnant dans la mise en place de nouveaux services en ligne."
+          },
+          {
+            "title": "D'une DSI axée sur le contrôle des process à une DSI collaborant étroitement avec les métiers",
+            "body": "Les transformations décrites précédemment amènent forcément un changement dans la façon dont la DSI va interagir avec les collaborateurs de son entreprise. Une DSI axée principalement sur des missions techniques aura plus tendance à essayer de garder sous contrôle le comportement des différents utilisateurs des systèmes d'informations. Alors qu'une DSI qui souhaite apporter de la valeur dans le cœur de métier de ses collaborateurs aura besoin de développer une relation plus étroite avec ces derniers. Ainsi, en fonction de la mission que se donne la DSI, cette dernière n'aura pas besoin du même type d'outil de gestion de portefeuilles de projets."
+          }
+        ]
+      },
+      {
+        "type": "intro",
+        "title": "Des visions opposées de la gestion de portefeuille de projets qui amènent à la mise en place d'outils différents",
+        "body": "<p>Une fois que l'on a compris que les outils de gestion de portefeuille de projets n'offrent pas tous les mêmes fonctionnalités, il faut s'interroger : quel est le type d'outil qui permettra d'atteindre les objectifs de sa DSI ?</p>",
+        "headingLevel": 2,
+        "subSections": [
+          {
+            "title": "Des outils de gestion de portefeuille de projets variés selon les besoins de sa DSI",
+            "body": "Bien sûr, il existe des outils de pilotage de portefeuille de projet plus ou moins complets, proposant des fonctionnalités variées comme : la gestion des ressources, le contrôle budgétaire, la gestion des risques, l'animation des instances des différents projets, la centralisation de toutes les informations essentielles, le pilotage de la rentabilité des projets, la construction d'une communication efficiente entre équipes."
+          }
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Les outils de gestion de portefeuilles de projets all-in-one VS ceux qui s'intègrent aux outils existants",
+        "body": "<p>Certains outils de gestion de portefeuille de projets comme les ERP essayent de répondre à l'ensemble des besoins que peuvent avoir les DSI. S'ils sont souvent efficaces, il faut reconnaître qu'ils manquent toutefois de flexibilité une fois mis en place.</p><p>A l'inverse, d'autres outils (notamment ceux en mode SaaS) proposent moins de fonctionnalités mais ont la capacité de s'intégrer aux outils déjà installés. Opter pour ce genre de solutions permet d'éviter les doublons, et surtout de réduire le coût de change de son outil.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4a760f0e5b_outil15.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Les outils de gestion d'un portefeuille de projets avec un espace collaboratif structuré",
+        "body": "<p>Dans le cas où le DSI souhaiterait instaurer une collaboration plus poussée avec les métiers de son entreprise, il peut être très intéressant pour lui d'opter pour la mise en place d'un outil comprenant un espace collaboratif. En effet, cet espace va permettre de structurer les échanges et de centraliser les informations importantes bien plus efficacement que sur des logiciels comme Slack ou Teams. Ainsi, ce genre d'outil peut être un vrai levier pour impliquer les métiers, et optimiser leur accompagnement par les équipes IT.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fda8f90f0e07_Qualifiez1b.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Les outils de gestion de portefeuille de projets qui misent sur l'UX",
+        "body": "<p>Les logiciels de gestion d'un portefeuille de projets qui ont été développés pour fournir une expérience utilisateur de haute qualité présentent deux avantages majeurs pour une DSI.</p><p>Tout d'abord, il est bien plus facile de réussir à impliquer les métiers lorsqu'on leur propose un outil avec une interface intuitive. L'autre avantage majeur se situe au niveau du taux d'adoption du logiciel de portefeuille de projets : les outils misant sur l'UX offrent une prise en main rapide et sans trop de friction aux métiers.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d72e40db63dfa85954ccc5_Feed%20main.webp",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Choisir son outil en fonction des méthodes de travail déjà installées",
+        "body": "<p>Tous les outils portent une méthodologie en eux. Une des astuces pour optimiser le taux d'adoption d'un nouveau logiciel dans son entreprise est de porter son choix vers la mise en place d'un outil avec une méthodologie intrinsèque proche de celle de son entreprise : que ce soit au niveau des objectifs que l'on vise, des méthodes de travail déjà installées, ou encore de la vision que l'on a de la gestion d'un portefeuille de projets par la DSI.</p><p><strong>Pour résumer :</strong> choisissez un outil dont la méthodologie intrinsèque n'est pas trop éloignée de la réalité de votre entreprise ou, à défaut, de celle que vous souhaitez installer.</p>",
+        "headingLevel": 3
+      },
+      {
+        "type": "intro",
+        "title": "Où se situe AirSaas dans le spectre de tous ces outils de gestion de portefeuille de projets ?",
+        "body": "<p>AirSaas est un outil de gestion de portefeuilles projets plutôt léger qui ne vise pas à être un logiciel tout-en-un, mais qui comporte la plupart des fonctionnalités clés dont une DSI a besoin pour assurer l'exécution de ses projets.</p>",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "Un outil PPM intuitif et intégré à vos outils existants",
+        "body": "<p><strong>Jira</strong></p><p>En s'intégrant à Jira, AirSaas vous permet d'obtenir automatiquement les données d'avancement des projets sur la plateforme. Cela vous permettra d'avoir une vue globale de l'ensemble des projets et de leurs états d'avancement sans efforts.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fda84e0f0e5d_outil18a.svg",
+        "imageAlt": "Jira"
+      },
+      {
+        "type": "feature-split",
+        "title": "Microsoft Teams",
+        "body": "<p>AirSaas est intégré à Microsoft Teams. Les informations les plus importantes sur les projets en cours seront envoyées automatiquement sur vos canaux de communication Teams dédiés. Avec cette intégration, vous pourrez partager simplement l'avancée des projets avec l'ensemble de l'entreprise.</p><p>Si vous utilisez d'autres solutions n'hésitez pas à nous le dire !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd60480f0e5e_outil18b.svg",
+        "imageAlt": "Microsoft Teams",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Un outil PPM avec une UX forte",
+        "body": "<p>Notre pari : pour parvenir à impliquer les métiers, la DSI a besoin de l'<a href=\"/fr/solution/outil-ppm\">outil PPM</a> qu'ils sauront prendre en main rapidement, sans friction. Nous pensons que ce n'est pas en forçant les métiers à travailler sur des logiciels complexes que les entreprises parviendront à briser les logiques de silos et à structurer une collaboration étroite métiers/DSI.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70979f3aaee0cbfd859cc_Feed%20search%20solution.webp",
+        "imageAlt": "Un outil PPM avec une UX forte",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Un outil PPM portant une méthodologie collaborative pour impliquer les métiers",
+        "body": "<p>Nous avons poussé la logique collaborative jusqu'au bout : AirSaas propose un moteur de recherche de solutions (externes/internes) accessibles aux responsables métiers. Lorsqu'un métier a un besoin, il cherche déjà des solutions de son côté sans forcément prévenir la DSI qui peut même finir par se retrouver face à du Shadow IT.</p><p>Notre idée ici est de donner une solution à la DSI pour encadrer ces pratiques et structurer leurs efforts de recherche de solutions, tout en leur faisant comprendre les contraintes techniques du SI.</p><p><strong>AirSaas</strong> est donc une solution PPM légère, qui s'intègre à l'existant, et qui porte une méthodologie collaborative forte afin d'impliquer les métiers.</p>",
+        "headingLevel": 3
+      },
+      {
+        "type": "cta",
+        "title": "Découvrez comment",
+        "titleHighlight": "AirSaas peut vous aider",
+        "subtitle": "Adoptez dès maintenant une solution efficace de reporting projet.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      }
+    ]
+  }
+}

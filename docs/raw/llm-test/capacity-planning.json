@@ -1,0 +1,120 @@
+{
+  "type": "produit",
+  "slug": "capacity-planning",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Capacity Planning - Pouvons-nous réellement faire ces projets ? | AirSaas",
+      "description": "Grâce à la vue Capacitaire d'AirSaas, ayez les bases d'une discussion pragmatique pour répondre : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?"
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Pouvons-nous réellement faire ces projets ?",
+        "titleHighlight": "Capacitaire :",
+        "subtitle": "Grâce à la vue Capacitaire, vous aurez les bases d'une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+        "primaryCta": {
+          "label": "Je veux une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "imageAlt": "Capacity Marketing"
+      },
+      {
+        "type": "intro",
+        "title": "Une réponse à toutes vos questions",
+        "body": "<ul><li>Pourrait-on faire plus de projets le prochain trimestre ?</li><li>Doit-on recruter ?</li><li>Quelle surcharge acceptons-nous d'avoir ?</li></ul><p><strong>N'avancez plus \"au feeling\", la vue Capacitaire vous aidera à répondre à ces questions, par équipe et sur l'ensemble de votre organisation.</strong></p>"
+      },
+      {
+        "type": "intro",
+        "title": "Mise en place rapide, simple à maintenir dans le temps",
+        "body": "<p>Mettre en place un capacitaire est souvent une démarche lourde et chronophage. Le maintenir dans le temps est mission impossible.<br/>Pour palier à ça nous avons pris le parti suivant :</p><p><em>\"Nous préférons avoir un capacitaire approximativement juste plutôt que précisément faux\"</em></p><p>Voici comment nous le concrétisons.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Les Scénarios",
+        "body": "<p>Ce qui limite le build c'est la capacité réelle des équipes à faire les projets. Comment montrer dynamiquement et visuellement cette réalité au top management ?</p><p><strong>Trouvez le scénario qui fonctionne</strong></p><p>Agencez les projets et visualisez l'impact sur les équipes jusqu'à trouver le scénario que toutes sont en capacité de mener à bien.</p>",
+        "bullets": [
+          "Inclure / exclure / déplacer les projets sur la timeline",
+          "Visualisation temps réel des impacts",
+          "Export en PDF des scénarios"
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67973435cf37dd18cddcdffa_Page%20Scenarios%20FR.webp",
+        "imageAlt": "Scenarios quarter plan"
+      },
+      {
+        "type": "feature-split",
+        "title": "Estimation du temps nécessaire au livrable",
+        "body": "<p>Pas besoin de rentrer dans le détail micro. Une taille de t-shirt à l'échelle du livrable suffit pour avoir une bonne estimation du temps nécessaire.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6787bda3d16737c6ddb82fd5_Modal%20-%20Livrable.webp",
+        "imageAlt": "Livrable"
+      },
+      {
+        "type": "feature-split",
+        "title": "Estimation des temps nécessaires et disponibles par équipe",
+        "body": "<p>Lorsque que vous allez configurer votre capacitaire, il est essentiel de se projeter sur le temps que l'on a disponible pour les projets (aka le build). Plutôt que le faire à la personne, nous vous proposons de le faire à l'échelle de l'équipe.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334dad60affe8f9f6cf3db_Screen%20marketing%20temps.webp",
+        "imageAlt": "Capacity Marketing team",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Sur l'échelle de temps qui fait sens : au trimestre, au semestre, au PI",
+        "body": "<p>Tenir un capacitaire à la semaine nécessite que l'ensemble des tâches commencent et terminent dans un intervalle d'une semaine. Chez AirSaas, nous souhaitons vous apporter une vue plus macro, plus proche de vos réalités. Vous pouvez choisir l'échelle de temps de capacitaire : au trimestre, au semestre ou en fonction de la durée de votre PI.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334d9cdc63af6332011de0_Dropdown_temps.webp",
+        "imageAlt": "Tableau de bord de gestion de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Une vue simple et actionnable",
+        "body": "<p>Visualisez en un clin d'oeil si vous êtes dans les clous... ou dans les choux. Grâce à cette vue vous avez les bases d'une discussion pragmatique pour prendre les décisions :</p>",
+        "bullets": [
+          "Peut-on faire plus de projets ? Faut-il en enlever ?",
+          "Quels sont les livrables qui nous plombent ? Peut-on les découper ?",
+          "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?"
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "imageAlt": "Capacity Marketing"
+      },
+      {
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "subtitle": "Discutons-en et bénéficiez d'une démo sur mesure",
+        "ctaLabel": "Je veux une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "faq",
+        "title": "Vos questions sur le capacitaire AirSaas",
+        "items": [
+          {
+            "question": "Comment je fais pour prioriser si j'ai des compétences différentes dans mon équipe ?",
+            "answer": "Tout l'enjeu est de bien découper les équipes en regroupant les personnes aux compétences homogènes. Par exemple : marketing data, sécurité IT, IT data, etc."
+          },
+          {
+            "question": "Les t-shirt sizing sont-ils personnalisables ?",
+            "answer": "Oui ! Et si vous avez une idée plus précise du temps nécessaire pour un livrable, vous pouvez aussi l'écrire."
+          },
+          {
+            "question": "Comment fixer la temporalité (trimestre, mois, PI) ?",
+            "answer": "A vous de choisir ! Ce qui semble bien marcher, c'est le trimestre, car on se cale sur la temporalité de l'organisation (finance, commerciale)."
+          },
+          {
+            "question": "Si j'ai des projets ou features qui dépassent cette temporalité, comment faire ?",
+            "answer": "On découpe ! Vous avez bien sûr en tête le dernier projet ERP ou CRM qui a duré 18 mois. Nous vous proposons de le découper en livrables qui permettent de mesurer l'avancement et de reprioriser ce qui doit être fait."
+          },
+          {
+            "question": "Est-ce que ça suffit pour un capacitaire ?",
+            "answer": "Oui, pour savoir ce qu'il possible de faire au niveau macro. C'est ce qu'il manque souvent au top management pour prioriser. Ensuite, vous pouvez faire un capacitaire à la personne à 2 ou 3 mois, mais pas plus."
+          },
+          {
+            "question": "J'ai certaines personnes comme les \"architectes IT\" qui n'ont pas d'équipe à proprement parler. Comment intégrer cela dans AirSaas ?",
+            "answer": "Pas de souci : vous créez une équipe pour l'architecte IT."
+          }
+        ]
+      }
+    ]
+  }
+}

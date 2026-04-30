@@ -1,0 +1,148 @@
+{
+  "type": "solution",
+  "slug": "airsaas-et-les-experts-de-la-transfo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "AirSaas et les experts de la transfo",
+      "description": "Surdélivrer vos missions avec AirSaas : la solution PPM pour experts de la transformation, ESN, cabinets de conseil, managers de transition et PMO."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Surdélivrer vos missions avec",
+        "titleHighlight": "AirSaas",
+        "subtitle": "AirSaas c'est la solution la plus simple pour partager en continu une vue macro d'un projet transverse, d'un programme ou d'un portefeuille projet et mettre l'impact chez vos client au coeur de votre stratégie. Êtes-vous prêt à construire la bonne gouvernance pour vos missions ? Vous pouvez aligner vos donneurs d'ordres et vos parties prenantes sans effort et vous concentrer sur l'essentiel : dépasser les attentes de vos clients sur le delivery.",
+        "primaryCta": {
+          "label": "Réserver une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/668566e02bd789b8eb53e8fd_Register%20illustration.webp",
+        "imageAlt": "AirSaas celebration"
+      },
+      {
+        "type": "intro",
+        "title": "Engagez-vous pour la transformation",
+        "body": "<p>Expert transfo, ESN, Cabinets de conseils, Manager de transition, Consultants, PMO, Directeur de programmes ou de projets, qu'attendent <strong>vos clients</strong> ? Des PowerPoints pour leur expliquer la vie ou un impact immédiat sur le périmètre qui <strong>vous est confié</strong> ?</p><p>Outiller sa mission c'est démontrer par la preuve qu'une bonne gouvernance, qu'un bon pilotage se structure et peut faire grandir la culture projet de votre client.</p><p>AirSaas est une entreprise étendue qui partage avec des experts une <strong>volonté commune</strong> d'accompagner ceux qui font, ceux qui décident et ceux qui organisent <strong>à mieux travailler ensemble</strong>.</p>"
+      },
+      {
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "quotes": [
+          {
+            "text": "Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex",
+            "source": "Alliancy",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+          },
+          {
+            "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
+            "source": "JDN Journal du NET",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
+          },
+          {
+            "text": "Une nouvelle manière d'embarquer les équipes",
+            "source": "Le Point",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+          },
+          {
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "lemondeinformatique.fr",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "title": "Ils témoignent",
+        "testimonials": [
+          {
+            "name": "Joanne Deval",
+            "role": "Technology, Business and People. Advising, Mentoring and Teaching. #CIO #data #cyber #IT #IA #board member",
+            "text": "Merci Thomas POITAU ! Une belle aventure humaine qui commence, suite en effet à une histoire de hasard et de confiance, et aussi de convictions et de valeurs partagées 😊",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/672b7ea76145ce12e1a414fc_Joanne%20Deval.jpeg",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7186242034779746304/"
+          },
+          {
+            "name": "Roland Bouchut",
+            "role": "Chief Information Officer | Chief Executive Officer | ExCom Member",
+            "text": "Merci Bertran Ruiz Thomas POITAU, travailler avec une équipe aussi engagée est un vrai plaisir 🙂, et contribuer avec des solutions claires et impactantes pour nos clients communs fait toute la différence !!!",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67a5cd9d94ea875970d1c35e_Roland%20Bouchut.jpg",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288461778865250304/"
+          },
+          {
+            "name": "Marie-Odile Lhomme",
+            "role": "Chief Digital & Information Officer - membre FrenchWomenCIO - Administratrice CRiP - VP@Arce Avenir Femmes - ESSEC Alumni",
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou. Un beau partenariat AirSaas Bertran Ruiz ! Heureuse de constater au jour le jour la progression... et les premiers résultats ! On continue !",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/molhomme_mon-top-workshop-de-la-semaine-%C3%A9tait-avec-activity-7080456869751713792-NQT9/"
+          },
+          {
+            "name": "Michaël Sanchez PMP®",
+            "role": "Directeur Projets & Programmes IT | Expert Logiciels Sur Mesure | Certifié PMP, ITIL V4, PSM, PSPO, Swish.ai | Membre PMI & CJD | Fondateur MS Consulting Bureau de Projets Externalisé PPM & ITSM",
+            "text": "Le PPT a disparu depuis longtemps chez nous pour les rapports CODIR/PIL/MEX... Mais avec AirSaas c'est encore un niveau de performance supplémentaire. Bien outillés, on délivre sec 🏅🥂",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/672909a238949f7e2f5fb208_Michae%CC%88l%20Sanchez.jpeg",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7183486810319151105"
+          },
+          {
+            "name": "Benoît Rosaz",
+            "role": "Transformation Digitale - Manager de transition - CIO / CTO - Directeur de projet - Freelance",
+            "text": "AirSaas ne construit pas seulement un outil, mais y adjoint une philosophie, une approche et une communauté dynamique Les Pro. de la Transfo by Airsaas. Bref une vrai SOLUTION. Bravo AirSaas",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6728f6f1b9e8b28a424f1970_Benoi%CC%82t%20Rosaz.jpeg",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7247130712393269248"
+          },
+          {
+            "name": "Thibault Baheux",
+            "role": "Direction de projet & PMO",
+            "text": "La prise de conscience commence à se faire dans les CODIR. Ce qui leur manque par contre, c'est d'avoir une vision concrète du portefeuille de projets de l'organisation, et c'est là qu'entre en jeu Airsaas.",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154da4d1602634d196ad78_tihibault-baheux.webp",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7115238386918940672/"
+          }
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Se former entre experts, par des pairs",
+        "body": "<p>Dans un format de bootcamp hybride en 4 semaines, participez à 6 masterclass et obtenez les postures et tactiques pour faire d'AirSaas un catalyseur de transformation.</p><p>Les deux dernières masterclass en présentiel à Paris sont suivies par les désormais réputés Bal de Promo.</p><p>ESN, cabinets de conseils, des bootcamps sur mesure pour vos équipes sont possibles.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f8389fb184b54765f33b8d_1.webp",
+        "imageAlt": "BootCamp",
+        "primaryCta": {
+          "label": "🗓️ Infos et réservations",
+          "href": "/fr/bootcamp-airsaas-expert-10-18-juin-2025"
+        }
+      },
+      {
+        "type": "feature-split",
+        "title": "AirSaas dans le tooling des missions",
+        "body": "<p>Chaque mission pour accompagner des clients à repenser leur Target Operating Model.</p><p>Outillés avec AirSaas, vous imprimez une nouvelle donne chez vos clients et vous prouvez qu'en structurant la gouvernance d'un projet, d'un programme et en simplifiant le reporting, vous vous concentrez sur l'essentiel : la qualité du delivery.</p><p>Airsaas vous fournit sa solution PPM et vous pouvez l'utiliser pour vos clients grâce mode multi-workspace.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f84d82c72005c3ac0b0ef7_AirSaas%20Tools.webp",
+        "imageAlt": "AirSaas : people + process + tool",
+        "primaryCta": {
+          "label": "Je book une démo",
+          "href": "https://meetings.hubspot.com/bertran-ruiz/demo-airsaas-team"
+        },
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "You never walk alone",
+        "body": "<p>AirSaas est une entreprise étendue et on partage avec sa Communauté des Pro. de la Transfo. un fit culturel, beaucoup de Co-Business et des events toute l'année.</p><p>Nous accueillons de nouveaux membres cooptés ou après un premier échange sur nos attentes et engagements respectifs.</p><p>Partenaires, cette communauté de 200+ experts vous intéresse ?</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65f85859a1bf7bf2aba81598_1-min-min.webp",
+        "imageAlt": "LPDT",
+        "primaryCta": {
+          "label": "En savoir plus",
+          "href": "/fr/lesprodelatransfo"
+        }
+      },
+      {
+        "type": "cta",
+        "title": "Prêt à surdélivrer vos missions avec",
+        "titleHighlight": "AirSaas",
+        "subtitle": "Réservez une démo et découvrez comment outiller vos missions de transformation.",
+        "ctaLabel": "Réserver une démo",
+        "ctaHref": "/fr/meetings-pages"
+      }
+    ]
+  }
+}

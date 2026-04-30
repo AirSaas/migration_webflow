@@ -1,0 +1,198 @@
+{
+  "type": "equipe",
+  "slug": "direction-de-la-transformation",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "sections": [
+      {
+        "type": "hero",
+        "title": "L'outil des Directions de la transformation pour mieux piloter",
+        "titleHighlight": "leurs grands programmes",
+        "subtitle": "Découvrez la solution qui accompagne les directions de la transformation à piloter l'ensemble des projets de l'entreprise en collaboration avec les métiers et l'IT. Avec AirSaas, positionnez vous au centre de cette transformation.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3b2244fc905908e85593_Portfolio%20integrated.webp",
+        "imageAlt": "Portfolio integrated"
+      },
+      {
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "quotes": [
+          {
+            "text": "Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex",
+            "source": "Alliancy",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+          },
+          {
+            "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
+            "source": "JDN Journal du NET",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
+          },
+          {
+            "text": "Une nouvelle manière d'embarquer les équipes",
+            "source": "Le Point",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+          },
+          {
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "lemondeinformatique.fr",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "testimonials": [
+          {
+            "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+            "name": "Thomas Sagnimorte",
+            "role": "DSI chez Millet Mountain Group",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/thomas-sagnimorte-593b2b1_cest-tellement-agr%C3%A9able-de-co-construire-activity-7084118266675101697-6OuH/"
+          },
+          {
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou. Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
+            "name": "Marie-Odile Lhomme",
+            "role": "Chief Digital & Information Officer",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/molhomme_mon-top-workshop-de-la-semaine-%C3%A9tait-avec-activity-7080456869751713792-NQT9/"
+          },
+          {
+            "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revu projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+            "name": "Clement Royer",
+            "role": "DSI - ICT MANAGER chez Chiesi France",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7122982646506278912/"
+          }
+        ]
+      },
+      {
+        "type": "intro",
+        "title": "La direction de la transformation au centre du changement culturel de l'entreprise",
+        "body": "<p>Parce que la transformation de l'entreprise nécessite un profond changement dans sa culture, le directeur de la transformation digitale doit intégrer à sa mission cet accompagnement.<br/>Sans transparence, il ne peut y avoir d'engagement.<br/>La solution collaborative AirSaas permet aux équipes de comprendre et collaborer autour des projets de transformation de manière simple et compréhensible par tous.</p>"
+      },
+      {
+        "type": "stats",
+        "title": "Pourquoi adopter AirSaas",
+        "items": [
+          {
+            "value": "3 min",
+            "label": "C'est le temps qu'il vous faudra pour prendre en main l'outil"
+          },
+          {
+            "value": "100%",
+            "label": "de visibilité sur l'état de santé des projets"
+          },
+          {
+            "value": "1 jour",
+            "label": "Temps économisé par projet par mois à faire votre reporting manuel"
+          },
+          {
+            "value": "Merci",
+            "label": "C'est ce que vous dira le CoDir après avoir mis en place AirSaas !"
+          }
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Animez clairement et simplement",
+        "titleHighlight": "le comité de pilotage",
+        "body": "Pilotez par la décision : Pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n'avez pas la bonne information.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Portfolio decisions"
+      },
+      {
+        "type": "feature-split",
+        "title": "Pilotez les projets de manière macro",
+        "body": "Priorisez en continu et soyez agile grâce votre roadmap collaborative.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "Portfolio timeline",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Uniformisez le reporting projet",
+        "body": "Générez votre flash report en un clic et envoyez le de manière régulière aux sponsors métiers. Ils ne pourront plus dire « je ne savais pas ! »"
+      },
+      {
+        "type": "feature-split",
+        "title": "Faites gagner 1 jour par semaine à vos chefs de projet",
+        "body": "En 5 minutes par semaine et par projet, les chefs de projets font remonter les informations cruciales pour le suivi de projet : Jalon, décision à prendre, point d'attention.<br/>Evitez les réunions « informationnelles » et les rush de dernière minute pour faire un reporting.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d6fd5da1f291f6011dee8d_Portfolio%20share%20decision.webp",
+        "imageAlt": "Portfolio share decision",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Améliorer en continu votre manière de faire des projets",
+        "body": "<p>Générez en un clic le bilan d'un projet contenant les métriques (délai, coût, engagement, etc.) mais aussi les retours « DAKI » de l'équipe projet. Parfait pour s'améliorer ensemble.</p>",
+        "subSections": [
+          {
+            "title": "DROP",
+            "body": "Ce que vous souhaitez arrêter. Exemple : Démarrer un projet sans avoir nommé de sponsor."
+          },
+          {
+            "title": "ADD",
+            "body": "Ce que vous aimeriez essayer. Exemple : Ajouter un utilisateur final à chaque review."
+          },
+          {
+            "title": "KEEP",
+            "body": "Ce qu'il faut garder. Exemple : Le point d'avancement bi-mensuel avec le flash report."
+          },
+          {
+            "title": "IMPROVE",
+            "body": "Ce que vous souhaitez améliorer. Exemple : Améliorer la précision des maquettes pour couvrir tous les effets de bord."
+          }
+        ]
+      },
+      {
+        "type": "comparison-table",
+        "title": "Nos clients Directeurs de la transfo. ne peuvent plus imaginer leurs vies sans AirSaas",
+        "columns": [
+          "Sans AirSaas",
+          "Avec AirSaas"
+        ],
+        "rows": [
+          [
+            "Des projets sur PowerPoint ou Excel",
+            "Un cadrage projet collaboratif et uniforme"
+          ],
+          [
+            "Un reporting projet / Copil à la main",
+            "Une reporting décisionnel automatique"
+          ],
+          [
+            "Être noyé par l'information",
+            "Se focaliser sur les décisions, les points d'attentions.."
+          ],
+          [
+            "Lutter en interne pour piloter à la tâche",
+            "Piloter par les jalons"
+          ]
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de reporting projet.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "feature-split",
+        "title": "AirSaas s'intégre à vos outils",
+        "body": "Synchronisez vos outils de gestions de projets et profitez d'une vue macro sur AirSaas.<br/>Connectez votre MS Teams et tenez informés vos collaborateurs.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d48497b08e93531f3ba49b_Graphic%20Integrations.webp",
+        "imageAlt": "Automation - integrations"
+      }
+    ],
+    "meta": {
+      "title": "Direction de la transformation — AirSaas",
+      "description": "L'outil des Directions de la transformation pour mieux piloter leurs grands programmes. AirSaas accompagne les directions de la transformation à piloter l'ensemble des projets de l'entreprise."
+    }
+  }
+}

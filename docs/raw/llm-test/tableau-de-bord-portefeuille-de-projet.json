@@ -1,0 +1,242 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-portefeuille-de-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Le tableau de bord de portefeuille de projet collaboratif et moderne",
+      "description": "AirSaas, le tableau de bord de portefeuille de projet personnalisable préféré des PMO et DSI pour fluidifier la gouvernance des programmes de transformation."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Le tableau de bord de portefeuille de projet",
+        "titleHighlight": "collaboratif et moderne",
+        "subtitle": "En matière de portfolio project management, chaque entreprise présente des besoins différents. C'est pour satisfaire ces besoins qu'AirSaas a développé un tableau de bord de portefeuille de projet personnalisable, à l'expérience utilisateur fluide, qui fluidifie la gouvernance des programmes de transformation au quotidien.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        }
+      },
+      {
+        "type": "intro",
+        "title": "Le tableau de bord de portefeuille de projet préféré des PMO et DSI",
+        "body": "<p>AirSaas a été conçu grâce aux retours de professionnels de la transformation d'entreprise sur leurs outils traditionnels de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\">gestion de portefeuilles de projets</a>. Manque de simplicité d'utilisation des tableaux de bord, manque de visibilité à la fois macro et spécifique à chaque projet, manque de personnalisation des dashboards en fonction des spécificités de leur organisation : leurs précieux retours étaient nombreux.</p><p>Face à ces retours, la plateforme AirSaas a été développée comme un outil gain-de-temps pour les DSI et PMO qui veulent obtenir une visibilité en temps réel sur leur <a href=\"https://www.airsaas.io/fr/gestion-de-projet/management-de-portefeuille-de-projet\">portfolio de projets</a>, et qui cherchent à accélérer la prise de décision en Copil.</p>"
+      },
+      {
+        "type": "intro",
+        "title": "Visualisez votre portefeuille de projets en mode macro",
+        "body": "<p>Grâce à AirSaas, sortez des <a href=\"https://www.airsaas.io/fr/solution/outils-de-pilotage-projet\">outils de gestion de projet traditionnels</a> qui rentrent trop dans le suivi de tâches micro, et gagnez du temps avec une vue exhaustive de l'ensemble de vos données-clés. L'objectif : vous focaliser sur la gouvernance de votre portefeuille, dans une vue multi-projets hyper claire.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Une vue macro au service de votre",
+        "titleHighlight": "planification stratégique",
+        "body": "<p>Si AirSaas est le tableau de bord de portefeuille projet préféré de bon nombre de PMO et DSI, c'est parce qu'il permet de bénéficier d'une vue macro de l'ensemble des projets qu'ils gèrent.</p><p>Sur la plateforme, toutes les informations-clés dont vous avez besoin sont rassemblées et consolidées, toujours à jour. Cette vue exhaustive vous fait prendre de la hauteur, et vous aide à <a href=\"https://www.airsaas.io/fr/gestion-de-projet/kpi-gestion-de-projet\">prendre les meilleures décisions</a>, en fonction des priorités stratégiques de votre organisation.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "planification stratégique",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Pas besoin de reporter vos données à la main grâce aux",
+        "titleHighlight": "intégrations natives",
+        "body": "<p>La marketplace d'intégrations natives d'AirSaas facilite la mise à jour de vos tableaux de bord de gestion de projets, en évitant le report de données à la main.</p><p>Vous y trouverez des intégrations à vos outils de gestion de tâches préférés (Jira, Asana, ClickUp, Monday), à vos outils de communication interne (Microsoft Teams), ou à votre logiciel de service client (Zendesk).</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
+        "imageAlt": "intégrations natives"
+      },
+      {
+        "type": "intro",
+        "title": "Personnalisez les vues de votre tableau de bord de portefeuille projet",
+        "body": "<p>Au-delà d'une vue macro, vous devez pouvoir vous focaliser sur les projets qui en ont besoin - ceux qui sont à risques, dont les délais ont été dépassés, ou qui viennent tout juste d'être lancés. Les vues personnalisables d'AirSaas, filtrées selon la météo, l'état d'avancement ou encore les risques des projets, sont idéales pour la préparation de votre Copil ou de vos <a href=\"https://www.airsaas.io/fr/gestion-de-projet/reporting-pmo\">bilans de projets</a>.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "La vue",
+        "titleHighlight": "liste",
+        "body": "<p>Elle vous permet de suivre l'avancée de chacun de vos projets et des indicateurs qui y sont liés. Passez en revue vos projets pour savoir à tout moment où vous en êtes, et comment faire évoluer vos projets vers la prochaine étape.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "imageAlt": "List"
+      },
+      {
+        "type": "feature-split",
+        "title": "La vue",
+        "titleHighlight": "Kanban",
+        "body": "<p>Besoin de repérer des tendances générales dans votre portefeuille de projets ? Passez en vue Kanban, et observez les états d'avancement de vos projets pour optimiser votre stratégie de pilotage.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
+        "imageAlt": "Kanban",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "La vue",
+        "titleHighlight": "timeline",
+        "body": "<p>Sous forme de diagramme de Gantt, elle vous permet d'organiser vos projets sur le temps long. Repérez à l'avance les surcharges en termes de gestion des ressources et les dépendances inter-projets, et anticipez les retards.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "Timeline"
+      },
+      {
+        "type": "cta",
+        "title": "Faites passer votre portfolio management à",
+        "titleHighlight": "la vitesse supérieure",
+        "subtitle": "Choisissez un outil PPM collaboratif et moderne, qui simplifie vos prises de décisions et booste votre reporting.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Automatisez votre reporting",
+        "body": "<p>Finie la perte de temps passée à récolter et consolider les données à droite et à gauche, auprès des métiers, des chefs de projets et de toutes les parties prenantes opérationnelles. En plus d'un tableau de bord de portefeuille de projet, AirSaas vous propose une fonctionnalité de flash report automatisé, qui vous fait gagner en moyenne une journée de travail par semaine.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Un flash report pour fluidifier la prise de",
+        "titleHighlight": "décision",
+        "body": "<p>Le reporting flash automatisé d'AirSaas permet à vos différentes parties prenantes (décisionnaires, sponsors, chefs d'équipe et de projet…) de comprendre quelles décisions doivent être prises sur le moment.</p><p>Sa structure rappelle les grandes lignes des projets (planning, timeline, indicateurs-clés…) pour ensuite rentrer dans le détails des projets urgents. Jalons, statuts, risques et météos des projets, métriques d'avancée, gains attendus, ressources humaines et budgets impliqués : tout s'y trouve pour faciliter votre prise de décision.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Portfolio decisions"
+      },
+      {
+        "type": "feature-split",
+        "title": "Une",
+        "titleHighlight": "structure bien huilée et personnalisable",
+        "body": "<p>Le flash report d'AirSaas se crée en un clic au format .ppt ou .pdf, dans une structure aisément lisible. Vous pouvez personnaliser le design de votre présentation aux couleurs de votre entreprise, et décider d'y ajouter des métriques-clés supplémentaires, un récapitulatif des décisions à prendre, ou encore des précisions sur les plannings de vos projets.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "imageAlt": "Reporting projet",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Collaborez pour mieux transformer",
+        "body": "<p>Grâce à AirSaas, vous n'êtes plus seul dans votre portfolio management. Vos chefs de projets et métiers vous aident très aisément, en vous aidant à cadrer vos projets en amont, et en vous indiquant les changements à l'œuvre sur leurs projets au quotidien. Tout le monde est informé, et votre transformation d'entreprise va plus vite, plus loin.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Co-créez vos fiches de",
+        "titleHighlight": "cadrage",
+        "body": "<p>Sur AirSaas, créez les fiches de cadrage de vos projets en mode collaboratif, sur une structure fixe qui standardise votre culture projet. Les chefs de projet remplissent ces fiches grâce à une méthodologie forte - pour qu'aucun projet ne commence jamais sur le mauvais pied.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "imageAlt": "cadrage",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Communiquez aisément avec",
+        "titleHighlight": "toutes vos parties prenantes",
+        "body": "<p>Depuis AirSaas, paramétrez les notifications que vous envoyez à vos équipes opérationnelles lorsqu'un projet est à risque. Vous pouvez également envoyer automatiquement des bilans de la période, paramétrables à échéances fixes sur la plateforme.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "imageAlt": "Communiquez"
+      },
+      {
+        "type": "feature-split",
+        "title": "Partagez vos",
+        "titleHighlight": "bilans de projet pour motiver tout le monde",
+        "body": "<p>Quand un projet se termine, il est temps d'en tirer les bonnes pratiques et ce qui peut être amélioré en matière de gestion de projet. Engagez vos différentes parties prenantes grâce aux bilans de projets AirSaas, que vous concevez automatiquement via la plateforme.</p><p>Analysez les coûts, les délais, l'engagement de vos équipes et leurs retours DAKI, et félicitez chacun pour les efforts accomplis - et ceux à venir !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d4872337663b8b88c2c66a_Presentation-review-slide.webp",
+        "imageAlt": "bilans de projet",
+        "reversed": true
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de",
+        "titleHighlight": "gagner du temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant un tableau de bord de portefeuille de projet efficace, dont l'expérience utilisateur se met au service de votre portfolio management.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Les clés de succès pour concevoir votre tableau de bord de gouvernance projet",
+        "body": "<p>Bon nombre de PMO ou de DSI choisissent de partir d'un modèle de tableau de bord de portefeuille de projet pour concevoir le leur. Cependant, la meilleure pratique consiste à créer le vôtre propre, grâce à l'aide d'un outil PPM performant. Suivez ces règles d'or pour faire en sorte que vos tableaux de bord suivent et boostent vraiment votre performance.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Choisissez bien vos",
+        "titleHighlight": "indicateurs de performance",
+        "body": "<p>Les indicateurs que vous intégrez à votre tableau de bord de portefeuille de projet doivent à la fois analyser le passé, le présent, et les événements à venir dans votre portfolio. Il sont à la fois des outils de reporting, et des clés pour piloter votre gouvernance.</p><p>Construisez vos indicateurs à la fois autour de vos processus (KPI dynamiques) et de vos résultats (KPI statiques). Veillez également à ce qu'ils soient comparables entre eux lorsque cela est possible.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010195cd30eca1a1bd8bb_outil10.svg",
+        "imageAlt": "indicateurs de performance"
+      },
+      {
+        "type": "feature-split",
+        "title": "Construisez",
+        "titleHighlight": "les KPI de votre tableau de bord en fonction de vos besoins",
+        "body": "<p>S'il est tentant de partir d'un template de tableau de bord universel, il est crucial d'adapter les indicateurs qui s'y trouvent aux ambitions et besoins de votre entreprise. Il s'agit d'un élément essentiel pour assurer le pilotage de votre DSI.</p><p>Prenez en compte le contexte de votre entreprise (collaborateurs, projets menés, résultats escomptés), ainsi que ce que vous savez de chacune de ses activités.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010d54008b63e9415adb6_outil11.svg",
+        "imageAlt": "les KPI",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Co-construisez vos tableaux de bord avec",
+        "titleHighlight": "les métiers",
+        "body": "<p>Pour obtenir un tableau de bord de portfolio management personnalisé, impliquez les directions métiers dans son élaboration. Après tout, ce sont eux les destinataires et utilisateurs des solutions que vos projets développent !</p><p>Créez vos indicateurs dans des groupes de travail qui rassemblent responsables métiers et membres de votre DSI. C'est là le gage d'un tableau de bord bien ficelé, et de livrables adaptés aux attentes de leurs utilisateurs finaux.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a010238635278f1f6cecf1_outil12.svg",
+        "imageAlt": "les métiers"
+      },
+      {
+        "type": "feature-split",
+        "title": "Rendez vos",
+        "titleHighlight": "indicateurs limpides pour tous",
+        "body": "<p>Un bon tableau de bord de portefeuille de projet doit être aisément lisible par l'ensemble de vos parties prenantes.</p><p>Veillez donc à nommer chacun de vos indicateurs, et à les définir pour vous assurer que chacun utilise la même définition. Si possible, liez à chaque indicateur un objectif chiffré. Et n'oubliez pas de définir la fréquence à laquelle votre indicateur doit être mis à jour : semestrielle, mensuelle, ou hebdomadaire.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d73abfdd38dac29b4e219c_Project%20page%20zoom%20weather.webp",
+        "imageAlt": "Project page zoom weather",
+        "reversed": true
+      },
+      {
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "quotes": [
+          {
+            "text": "Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex",
+            "source": "Alliancy",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+          },
+          {
+            "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
+            "source": "JDN Journal du NET",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
+          },
+          {
+            "text": "Une nouvelle manière d'embarquer les équipes",
+            "source": "Le Point",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+          },
+          {
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "lemondeinformatique.fr",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "testimonials": [
+          {
+            "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+            "name": "Thomas Sagnimorte",
+            "role": "DSI chez Millet Mountain Group",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/thomas-sagnimorte-593b2b1_cest-tellement-agr%C3%A9able-de-co-construire-activity-7084118266675101697-6OuH/"
+          },
+          {
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou .Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
+            "name": "Marie-Odile Lhomme",
+            "role": "Chief Digital & Information Officer",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/molhomme_mon-top-workshop-de-la-semaine-%C3%A9tait-avec-activity-7080456869751713792-NQT9/"
+          },
+          {
+            "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revu projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+            "name": "Clement Royer",
+            "role": "DSI - ICT MANAGER chez Chiesi France",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7122982646506278912/"
+          }
+        ]
+      }
+    ]
+  }
+}

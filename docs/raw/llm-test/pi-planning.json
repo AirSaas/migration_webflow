@@ -1,0 +1,325 @@
+{
+  "type": "lp",
+  "slug": "pi-planning",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "PI Planning : l'outil pour RTE et PMO SAFe — AirSaas",
+      "description": "Synchronisez vos features Jira, nettoyez vos données, donnez une vue claire aux métiers et au Comex. Opérationnel en 1 PI, pas en 6 mois."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Miro + Jira + PowerBI :",
+        "titleHighlight": "ce n'est pas comme ça qu'un RTE embarque les métiers.",
+        "subtitle": "Synchronisez vos features Jira, nettoyez vos données, donnez une vue claire aux métiers et au Comex. Opérationnel en 1 PI, pas en 6 mois.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "secondaryCta": {
+          "label": "▶️ Découvrir l'outil PI Planning en vidéo →",
+          "href": "/fr/video/pi-planning"
+        },
+        "bullets": [
+          "Import Jira en quelques clics",
+          "Nettoyage des données dans AirSaas",
+          "Accompagnement pragmatique et efficace"
+        ]
+      },
+      {
+        "type": "logo-bar",
+        "title": "+100 clients nous font confiance",
+        "variant": "client",
+        "logos": [
+          {
+            "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720368e03462cd41c11729_a13d225b215af0e53a7964065967944e_Kiabi_logo.png",
+            "alt": "Kiabi"
+          },
+          {
+            "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972037fc6ee2292e44d081d_fe57fb680f0c33b81f076642544a654b_altavia-logo1.svg",
+            "alt": "Altavia"
+          },
+          {
+            "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69720391f503687fd8cffdc5_edadc55b8b1d54df28c931f40a90bac8_valrhona-logo.png",
+            "alt": "Valrhona"
+          },
+          {
+            "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203a185b8a45b56d55be8_d38155b4ecfc2a9ceb9cf0eca287f8f3_Intuis_logo.png",
+            "alt": "Intuis"
+          },
+          {
+            "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697203ae54a8c4604da51b0f_62cd70262a9f94a8e2b542662ffaaee4_SNCF_logo.svg",
+            "alt": "SNCF"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "0",
+            "label": "PowerBI à maintenir"
+          },
+          {
+            "value": "Jira",
+            "label": "Synchro native"
+          },
+          {
+            "value": "1 PI",
+            "label": "pour être opérationnel"
+          },
+          {
+            "value": "-80%",
+            "label": "de temps reporting"
+          }
+        ]
+      },
+      {
+        "type": "pain-points",
+        "title": "⚠️ Le quotidien du RTE aujourd'hui",
+        "items": [
+          "Le Program Board vit sur Miro pendant 2 jours. Après, c'est le chaos.",
+          "Vous passez plus de temps à customiser Jira qu'à piloter votre train. Vous êtes devenu certifié Jira, pas certifié RTE.",
+          "Les reports Jira sont moches. Et comme la donnée n'est pas clean, ça coûte cher d'en faire des vrais.",
+          "Une feature pas finie en fin de PI ? Vous la décalez et perdez l'historique. Ou vous bricolez. Au bout de 3 PI, c'est le chaos.",
+          "Les métiers ne se connectent pas à Jira. Et vous le savez.",
+          "Vous êtes devenu expert Excel/PowerBI alors que votre job c'est de faire livrer."
+        ]
+      },
+      {
+        "type": "intro",
+        "title": "AirSaas : la couche business au-dessus de Jira",
+        "body": "<p>On ne remplace pas Jira. On le rend compréhensible pour les humains normaux.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Import Jira → Nettoyage → Vue claire",
+        "subtitle": "Connecteur Jira",
+        "body": "<p>Vos données Jira sont sales ? Pas grave. Importez vos features, nettoyez et structurez dans AirSaas avant de finaliser. Vous gardez Jira pour les devs, vous avez enfin une vue propre pour les métiers.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6481a14febfcd09672746347_outils-AirSaas-Jira2.png",
+        "imageAlt": "Jira",
+        "bullets": [
+          "Import des features Jira",
+          "Nettoyage des données dans AirSaas (pas dans Jira)",
+          "Remontée des consommés et de la charge",
+          "Synchro continue"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Sync Features Jira. Enlevez le bruit. Parlez initiatives.",
+        "subtitle": "Vue Business",
+        "body": "<p>Vos features Jira remontent dans AirSaas. Les tickets et stories en dessous ? On les enlève du radar. Le Comex voit des initiatives business, pas du bruit technique.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659ffa347659957234f8d0ea_Portfolio%20projects%20kanban%20date-min.png",
+        "imageAlt": "Portfolio",
+        "reversed": true,
+        "bullets": [
+          "Features Jira ↔ Features AirSaas (sync)",
+          "Tickets/stories masqués (zéro bruit)",
+          "Agrégation en initiatives lisibles",
+          "Langage métier, pas langage dev"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Roadmap partageable aux sponsors",
+        "subtitle": "Nouveau",
+        "body": "<p>Vos sponsors ne se connectent pas à Jira. Partagez une roadmap dynamique via un lien sécurisé. Lecture seule, expiration configurable.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69723755551cb6f361ab8f4d_7be57ee9b39e8acfd6704c4479c49a6e_Roadmap%20page%20fr.webp",
+        "imageAlt": "Roadmap",
+        "bullets": [
+          "Lien sécurisé sans connexion requise",
+          "Vue temps réel (pas un export figé)",
+          "Les métiers voient enfin la roadmap",
+          "Fini les slides à mettre à jour"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "\"Peut-on prendre ce projet ?\" Enfin une réponse.",
+        "subtitle": "Capacité",
+        "body": "<p>La vélocité ne répond pas à la question du métier. Visualisez la charge vs capacité de chaque équipe sur les prochains PI. Répondez avec des données, pas au feeling.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69257da9e86301a387b7b761_quarter%20plan%20teams%20EN.webp",
+        "imageAlt": "Capacity",
+        "reversed": true,
+        "bullets": [
+          "Vue capacité par équipe et par PI",
+          "Alerte surcharge automatique",
+          "T-shirt sizing (S, M, L, XL)",
+          "Scénarios d'arbitrage"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Flash Report en 1 clic",
+        "subtitle": "Gain de temps",
+        "body": "<p>Vous passiez 2 jours à construire des slides pour le Comex. Maintenant, vos données Jira génèrent un reporting business en 1 clic. Toujours à jour.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
+        "imageAlt": "Flash report",
+        "bullets": [
+          "Données Jira → Reporting Comex automatique",
+          "Format présentation ou export",
+          "Personnalisable par audience",
+          "Historique des versions"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Les objectifs PI ne disparaissent plus",
+        "subtitle": "Suivi continu",
+        "body": "<p>Le PI Planning c'est 2 jours intenses... puis les objectifs disparaissent. Avec AirSaas, le suivi est continu. Vous savez où vous en êtes à tout moment.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "imageAlt": "Capacity",
+        "reversed": true,
+        "bullets": [
+          "Objectifs PI visibles en permanence",
+          "Taux de delivery par PI",
+          "Identification des blocages",
+          "Amélioration continue cycle après cycle"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "IA pour découper vos initiatives",
+        "subtitle": "Intelligence Artificielle",
+        "body": "<p>L'IA vous aide à découper vos initiatives en se basant sur vos équipes et leur vélocité passée. Fini les estimations au doigt mouillé.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697746f56686d9257b4bca36_AI%20Agent%20team.webp",
+        "imageAlt": "Agent AI",
+        "bullets": [
+          "Analyse de la vélocité historique par équipe",
+          "Suggestions de découpage réalistes",
+          "Prise en compte des compétences équipes",
+          "Estimations basées sur des données, pas du feeling"
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Scénarios d'arbitrage avec l'IA",
+        "subtitle": "Intelligence Artificielle",
+        "body": "<p>Passez de \"roadmap figée\" à \"scénarios A/B/C\". L'IA structure ce qui manque, puis vous comparez les options en minutes : capacité consommée, délais, risques, valeur.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67973435cf37dd18cddcdffa_Page%20Scenarios%20FR.webp",
+        "imageAlt": "Scenario",
+        "reversed": true,
+        "bullets": [
+          "Comparaison visuelle des scénarios",
+          "Impact sur la capacité en temps réel",
+          "Arbitrages documentés et traçables",
+          "Fonctionne même avec des données imparfaites"
+        ]
+      },
+      {
+        "type": "comparison-table",
+        "title": "Avant / Après AirSaas",
+        "columns": [
+          "😤 Avant (bricolage)",
+          "😎 Après (AirSaas)"
+        ],
+        "rows": [
+          [
+            "Miro pour le PI Planning",
+            "Suivi PI dynamique et persistant"
+          ],
+          [
+            "PowerBI pour les dashboards",
+            "Flash Report en 1 clic"
+          ],
+          [
+            "Excel pour la capacité",
+            "Vue capacitaire par équipe et par PI"
+          ],
+          [
+            "Jira pour les devs, rien pour les métiers",
+            "Roadmap partageable aux sponsors"
+          ],
+          [
+            "3 semaines pour un reporting",
+            "3 minutes pour un reporting"
+          ]
+        ]
+      },
+      {
+        "type": "icon-row",
+        "title": "Pourquoi pas Jira Align, PowerBI ou piplanning.io ?",
+        "subtitle": "On ne vous jette pas la pierre. Vous avez essayé. Voici pourquoi ça coince.",
+        "items": [
+          {
+            "label": "Jira Align — 6 mois de déploiement. Prix délirant. Usine à gaz que seul le RTE utilise vraiment.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6977794c7aed903dafee7a69_Icon%20hourglass.svg"
+          },
+          {
+            "label": "PowerBI + Jira — Maintenance infinie. Casse à chaque évolution workflow. Compétences BI requises.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6977795d02abed92e1389a8c_Icon%20gear.svg"
+          },
+          {
+            "label": "piplanning.io — Super pour l'event PI Planning. Et après ? Rien pour le suivi, rien pour le Comex.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697779654d83d86f57b923d1_Icon%20calendar.svg"
+          },
+          {
+            "label": "AirSaas : 1 PI de setup, prix accessible, utilisé au quotidien par les équipes ET le Comex."
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "title": "Ils ont arrêté le bricolage",
+        "testimonials": [
+          {
+            "text": "AirSaas nous permet de piloter notre capacité à faire en transverse avec tous les métiers. Cela rend les arbitrages comex concrets et pragmatiques.",
+            "name": "Sébastien Louyot",
+            "role": "CIO",
+            "company": "Altavia (3000 pers.)",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fc4f5c7aaa0397c28a50_Sebastien%20Louyot.jpg",
+            "linkedinUrl": "https://www.linkedin.com/in/slouyot/"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "Questions fréquentes",
+        "items": [
+          {
+            "question": "Ça remplace Jira ?",
+            "answer": "Non. Jira reste votre outil de delivery pour les équipes. AirSaas est la couche business au-dessus : reporting, roadmap, capacité, communication avec les métiers et le Comex."
+          },
+          {
+            "question": "Ça marche avec plusieurs ARTs ?",
+            "answer": "Oui. Vue consolidée multi-train. Chaque ART garde son autonomie, vous avez une vision globale pour le pilotage transverse."
+          },
+          {
+            "question": "Combien ça coûte ?",
+            "answer": "Prix accessible. Parlons-en lors d'une démo."
+          },
+          {
+            "question": "Mes données Jira sont sales, c'est un problème ?",
+            "answer": "Non. Vous importez vos features puis vous nettoyez et structurez dans AirSaas avant de finaliser. Pas besoin de faire le ménage dans Jira."
+          },
+          {
+            "question": "Combien de temps pour démarrer ?",
+            "answer": "1 PI pour être opérationnel. Pas 6 mois comme Jira Align. Accompagnement dédié par nos experts inclus."
+          }
+        ]
+      },
+      {
+        "type": "trust-badges",
+        "title": "Sécurité au top",
+        "badges": [
+          {
+            "label": "AirSaas passe la porte des DSI les plus exigeantes.",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Arrêtez le bricolage. Embarquez enfin les métiers.",
+        "subtitle": "Rejoignez les RTE et PMO qui ont transformé leur pilotage.",
+        "ctaLabel": "Choisir un créneau →",
+        "ctaHref": "/fr/meetings-pages",
+        "videoHref": "/fr/video/pi-planning"
+      }
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "type": "equipe",
+  "slug": "outil-pmo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "L'outil PPM pour un PMO moderne",
+      "description": "AirSaas est la solution la plus simple pour avoir une vue macro consolidée du portefeuille projet. Le PPM moderne pour un PMO efficace."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "L'outil PPM",
+        "titleHighlight": "pour un PMO moderne",
+        "subtitle": "AirSaas c'est la solution la plus simple pour avoir une vue macro consolidée du portefeuille projet. Avec AirSaas vous n'aurez plus besoin de faire des PowerPoints et de courir après les chefs de projets pour avoir les informations clefs. Et oui un PPM peut avoir une UX au top",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3b2244fc905908e85593_Portfolio%20integrated.webp",
+        "imageAlt": "Portfolio integrated"
+      },
+      {
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "quotes": [
+          {
+            "text": "Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex",
+            "source": "Alliancy",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+          },
+          {
+            "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
+            "source": "JDN Journal du NET",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
+          },
+          {
+            "text": "Une nouvelle manière d'embarquer les équipes",
+            "source": "Le Point",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+          },
+          {
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "lemondeinformatique.fr",
+            "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
+          }
+        ]
+      },
+      {
+        "type": "testimonials",
+        "testimonials": [
+          {
+            "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+            "name": "Thomas Sagnimorte",
+            "role": "DSI chez Millet Mountain Group",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/thomas-sagnimorte-593b2b1_cest-tellement-agr%C3%A9able-de-co-construire-activity-7084118266675101697-6OuH/"
+          },
+          {
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia. Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression... et les premiers résultats! On continue!",
+            "name": "Marie-Odile Lhomme",
+            "role": "Chief Digital & Information Officer",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+            "linkedinUrl": "https://www.linkedin.com/posts/molhomme_mon-top-workshop-de-la-semaine-%C3%A9tait-avec-activity-7080456869751713792-NQT9/"
+          },
+          {
+            "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revu projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+            "name": "Clement Royer",
+            "role": "DSI - ICT MANAGER chez Chiesi France",
+            "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+            "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7122982646506278912/"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "title": "Les chiffres qui vous feront adopter AirSaas",
+        "items": [
+          {
+            "value": "80%",
+            "label": "C'est la réduction moyenne du nombre de réunions projets constatée après 4 mois d'utilisation d'AirSaas. Pourquoi faire un meeting quand l'information est claire, centralisée et accessible à tous ?"
+          },
+          {
+            "value": "100%",
+            "label": "C'est le taux de réduction du nombre de projet lancé sans capacité à faire ou sans objectif clair."
+          },
+          {
+            "value": "30K€",
+            "label": "C'est le montant annuel moyen que vous dépensez en temps-homme pour faire du PowerPoint projet (si vous avez plus de 20 projets)."
+          }
+        ]
+      },
+      {
+        "type": "intro",
+        "title": "Une plateforme de gouvernance projet à la hauteur de vos ambitions",
+        "body": "<p>Notre mission ? Vous permettre de devenir le pivot de la transformation de l'entreprise en structurant la gouvernance de tous les projets, grâce à une plateforme simple que le top management va adorer. La vôtre ? Faire passer votre entreprise à l'étape supérieure en gouvernance de projet !</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Partagez simplement les roadmaps",
+        "titleHighlight": "à toute l'organisation",
+        "body": "<p>Une roadmap, ça bouge, ça vit, c'est un élément clé pour aligner le top management en continu. Avec AirSaas, plus besoin de faire des PowerPoints à rallonge : l'information est centralisée, partageable et sympa à visualiser (parce que quand c'est beau, c'est quand même plus impactant).</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "Portfolio timeline"
+      },
+      {
+        "type": "feature-split",
+        "title": "Un capacity planning par équipe simple et actionnable",
+        "body": "<p>Visualisez en un clin d'oeil si vous êtes dans les clous... ou dans les choux. Grâce à cette vue vous avez les bases d'une discussion pragmatique pour prendre les décisions :</p>",
+        "bullets": [
+          "Peut-on faire plus de projets ? Faut-il en enlever ?",
+          "Quels sont les jalons qui nous plombent ? Peut-on les découper ?",
+          "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?"
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "imageAlt": "Capacity Marketing"
+      },
+      {
+        "type": "feature-split",
+        "title": "Chaque directeur définit ses prios",
+        "body": "<p>Demandez aux directeurs de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix. C'est simple, transparent et puissant.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp",
+        "imageAlt": "Priorisation options"
+      },
+      {
+        "type": "feature-split",
+        "title": "Diffusez un cadrage projet standardisé",
+        "body": "<p>Remplissez les fiches cadrage de projet de manière collaborative, et guidez vos collaborateurs vers un véritable niveau d'excellence en gestion de projet. A vous une culture projet homogénéisée !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
+        "imageAlt": "Presentation scope",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Une newsletter sponsor que votre direction va adorer",
+        "subtitle": "Recevez l'email \"Bilan de santé\" tous les lundi matin !",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
+        "imageAlt": "Bilan de santé",
+        "subSections": [
+          {
+            "title": "Tendance des projets vitaux",
+            "body": "Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment."
+          },
+          {
+            "title": "Tendance de leurs projets à eux",
+            "body": "Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet."
+          },
+          {
+            "title": "Projets en retard d'actualisation",
+            "body": "Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquile !"
+          }
+        ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Votre reporting projet en un clic",
+        "body": "<p>Générez votre <strong>reporting flash en un seul clic</strong>, et homogénéisez vos présentations, pour faciliter la prise de décision. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "imageAlt": "Flash report ppt"
+      },
+      {
+        "type": "feature-split",
+        "title": "Fluidifiez votre prise de décisions importantes et urgentes",
+        "body": "<p><strong>Centralisez vos décisions</strong> sous forme de Kanban, et partagez-les aisément avec toutes les parties prenantes de vos projets. Finies les informations perdues dans vos mails ou flux de discussions instantanées !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Portfolio decisions",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Impliquez simplement les chefs de projet",
+        "body": "<p>En 5 minutes par semaine par projet, les chefs de projets remontent les informations cruciales pour le suivi : Jalon, décision à prendre, point d'attention.<br/>Evitez les réunions \"informationnelles\" et les rush de dernière minute pour faire un reporting.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "imageAlt": "Project page"
+      },
+      {
+        "type": "feature-split",
+        "title": "Animez clairement et simplement vos CoPil",
+        "body": "<p>Pilotez par la décision : Pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n'avez pas la bonne information.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Portfolio decisions",
+        "reversed": true
+      },
+      {
+        "type": "cta",
+        "title": "Et si vous repreniez le contrôle de votre portefeuille de projets ?",
+        "subtitle": "Adoptez dès maintenant une solution de gestion de gouvernance moderne, qui fait gagner vos projets en temps et en efficacité.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "feature-split",
+        "title": "Grâce à sa marketplace AirSaas s'intègre nativement à vos outils du quotidien",
+        "body": "<p>Centralisez toutes vos informations cruciales (tickets, jalons…) depuis vos outils de gestion de tâches sur AirSaas, et diffusez-les via vos canaux de communication interne. Tout le monde est au diapason, et vous gouvernez de manière optimale.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d484f5bef7b761e48fea37_Automation%20-%20integrations.webp",
+        "imageAlt": "Automation - integrations"
+      },
+      {
+        "type": "comparison-table",
+        "title": "Nos clients ne peuvent plus imaginer leurs vies sans AirSaas",
+        "columns": [
+          "Sans AirSaas",
+          "Avec AirSaas"
+        ],
+        "rows": [
+          [
+            "Des projets cadrés sur PowerPoint ou Excel, sans collaboration et sans homogénéité",
+            "Un cadrage projet collaboratif et uniformisé, guidé par des bonnes pratiques en la matière"
+          ],
+          [
+            "Un reporting projet / CoPil à la main, qui vous prend un temps significatif",
+            "Un reporting décisionnel généré automatiquement aux couleurs de votre entreprise"
+          ],
+          [
+            "Trop de micro-information dispersée entre vos différents outils de gestion de tâches et de ticketing",
+            "Un focus sur les décisions et les points d'attentions de vos projets, grâce à une gouvernance structurée"
+          ],
+          [
+            "Une difficulté pour les chefs de projet à comprendre les décisions prises et à prendre",
+            "Une véritable transparence de vos projets pour toutes les parties prenantes de votre entreprise"
+          ],
+          [
+            "Un pilotage à la tâche complexe",
+            "Un pilotage agile par les jalons de vos projets"
+          ],
+          [
+            "Une culture projet hétérogène, voire inexistante",
+            "Une culture projet standardisée, qui pousse tous les collaborateurs vers l'excellence"
+          ],
+          [
+            "Du micro-management pour gérer vos différents collaborateurs",
+            "Une responsabilisation de chacun, grâce à une vision simplifiée et collaborative de l'avancement des projets"
+          ]
+        ]
+      },
+      {
+        "type": "customer-testimonials",
+        "title": "Laissez nos clients vous parler d'AirSaas",
+        "testimonials": [
+          {
+            "text": "Groupe Picoty — Énergie et combustibles — 1300 employés",
+            "name": "Laurent Citton",
+            "role": "Directeur des Systèmes d'Information Groupe chez Picoty"
+          },
+          {
+            "text": "Hôtellerie & loisirs — 40000 employés",
+            "name": "Émilie Lecart",
+            "role": "CIO Office"
+          },
+          {
+            "text": "Altavia — Communication et marketing — 2800 employés",
+            "name": "Sébastien Louyot",
+            "role": "Group CIO"
+          },
+          {
+            "text": "Dynamical — Conseil — 2 employés",
+            "name": "David Langlade",
+            "role": "Conseil / DSI de transition CTO/ - CIO"
+          },
+          {
+            "text": "Chiesi France — Santé-Pharma — 6500 employés",
+            "name": "Clément Royer",
+            "role": "DSI - ICT MANAGER chez Chiesi France"
+          },
+          {
+            "text": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés",
+            "name": "Aurore Butrot",
+            "role": "DSI Intuis (Ex Groupe Muller)"
+          },
+          {
+            "text": "Comexposium — Événementiel — 900 employés",
+            "name": "Stephan Boisson",
+            "role": "Group Chief Digital & Information Officer Comexposium"
+          },
+          {
+            "text": "Indexia Groupe — Assurance et Distribution — 3000 employés",
+            "name": "Sylvain Bourdette",
+            "role": "DSI/CTO/Pro de la transfo"
+          },
+          {
+            "text": "Caduciel — Santé - Editeur de logiciel — 50 employés",
+            "name": "Vincent Potel",
+            "role": "Directeur Général de transition"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Consultez les témoignages de nos clients",
+        "ctaLabel": "Voir les témoignages",
+        "ctaHref": "/fr/temoignages"
+      }
+    ]
+  }
+}
