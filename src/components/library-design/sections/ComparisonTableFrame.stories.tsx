@@ -68,6 +68,63 @@ export const Default: Story = {
 };
 
 /**
+ * Check + descriptive text variant — used when each cell needs both an
+ * icon AND short qualitative explanation (e.g. "Avec AirSaas" column on
+ * `/equipes/comite-direction` "7 raisons" table). Pass cell value as
+ * `{ type: "check" | "x", text: "..." }` to render the icon centered
+ * above multi-line text.
+ */
+export const CheckWithText: Story = {
+  args: {
+    titleHighlight: "5 raisons",
+    title:
+      "pour lesquelles les directions générales adorent AirSaas",
+    featuresLabel: "Quotidien CODIR",
+    columns: [
+      { label: "Sans AirSaas" },
+      { label: "Avec AirSaas", highlight: true },
+    ],
+    rows: [
+      {
+        feature: "Reporting projet / CoPil",
+        values: [
+          { type: "x", text: "Reporting à la main, trop hétérogène et chronophage" },
+          { type: "check", text: "Reporting décisionnel uniforme, généré automatiquement" },
+        ],
+      },
+      {
+        feature: "Pilotage",
+        values: [
+          { type: "x", text: "Pilotage à la tâche, complexe à suivre" },
+          { type: "check", text: "Pilotage agile par les jalons, vue macro parfaite" },
+        ],
+      },
+      {
+        feature: "Culture projet",
+        values: [
+          { type: "x", text: "Culture projet interne hétérogène, voire inexistante" },
+          { type: "check", text: "Culture standardisée qui pousse vers l'excellence" },
+        ],
+      },
+      {
+        feature: "Management",
+        values: [
+          { type: "x", text: "Micro-management pour gérer vos collaborateurs" },
+          { type: "check", text: "Responsabilisation de chacun grâce à une vision simplifiée" },
+        ],
+      },
+      {
+        feature: "Intégrations",
+        values: [
+          { type: "x", text: "Micro-information dispersée entre différents outils" },
+          { type: "check", text: "Synchronisation native avec vos outils" },
+        ],
+      },
+    ],
+  },
+};
+
+/**
  * Three-column variant — AirSaas vs two competitors.
  */
 export const ThreeCompetitors: Story = {

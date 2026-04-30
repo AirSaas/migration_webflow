@@ -909,10 +909,12 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - rows: 3–15 (past 15 the page gets heavy — split into multiple tables)
 - row.label: max 80 chars
 - cell string values: max 40 chars
+- cell `{ type, text }` variant: text max 120 chars (multi-line allowed below icon)
 
 **Forbidden:**
 - Do NOT mix boolean + string cells in the same column (visual inconsistency)
 - Do NOT use for "avec / sans" paired narrative — use <ComparisonDualFrame>
+- Do NOT mix `{ type: "check" }` and `{ type: "x" }` in the same column unless the table is intentionally a "good vs bad" split per row
 
 ---
 
