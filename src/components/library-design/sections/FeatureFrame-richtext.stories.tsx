@@ -118,3 +118,52 @@ export const NarrowImageLeft: Story = {
     imageAlt: "Narrow illustration",
   },
 };
+
+/**
+ * Editorial section with graphic illustration — canonical pattern.
+ *
+ * Mirrors the live live `/solution/gestion-portefeuille-projet` section
+ * "Diminuez la frustration entre les métiers et l'IT" (audit finding
+ * `[4.2.a]`) which uses a small schematic graphic + 3 paragraphs of
+ * narrative text. Use `imageSize="narrow"` (33% image / 67% text) for
+ * THIS pattern, NOT the `default` (60% image) which over-emphasizes the
+ * illustration vs the text.
+ *
+ * Decision rule:
+ * - `imageSize="default"` → product screenshot, image is the focal point
+ * - `imageSize="compact"` → balanced screenshot + text
+ * - `imageSize="narrow"` → editorial graphic illustration + multi-paragraph
+ *    text. Text carries the message, image is supporting.
+ */
+export const EditorialIllustration: Story = {
+  args: {
+    imagePosition: "right",
+    imageSize: "narrow",
+    title: "Diminuez la frustration entre les métiers et l'IT",
+    richContent: (
+      <>
+        <p>
+          Vos équipes se plaignent du manque d&apos;engagement des métiers
+          sur les projets demandés. Et du côté des métiers, la frustration
+          se ressent sur les retards et la non-prise en compte de leurs
+          demandes.
+        </p>
+        <p>
+          AirSaas propose une structure commune à suivre pour la mise en
+          place d&apos;un projet. La vue dashboard permet une compréhension
+          partagée des contraintes de développement et une prise de décision
+          collégiale par l&apos;organe de gouvernance.
+        </p>
+        <p>
+          L&apos;outil place le collaboratif au premier plan et permet de
+          faire remonter les problèmes rencontrés, les succès du parcours,
+          partager les compte-rendus de réunions, etc. pour impliquer les
+          équipes autour d&apos;un intérêt commun.
+        </p>
+      </>
+    ),
+    imageSrc:
+      "https://placehold.co/600x800/e8eafc/3c51e2?text=Schéma+métiers↔IT",
+    imageAlt: "Schéma illustratif de la collaboration entre métiers et IT",
+  },
+};

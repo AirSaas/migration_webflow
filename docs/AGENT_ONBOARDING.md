@@ -273,7 +273,7 @@ Living section. Append every proposal that needs a DS-level decision so the next
 |---|---|---|
 | `<ComparisonTableFrame>` cell `{ type: "check" \| "x", text: string }` for icon + descriptive text in same cell | DS extension | ✅ shipped 2026-04-27 (commit `96c61a5`) |
 | `<Hero>` `bottomTags` limit `0–4` → `0–6` (live PPM has 5 trust badges) | DS limit relax | ✅ shipped 2026-04-27 — story `Hero / FiveTrustBadges` is the canonical copy-paste reference for `[1.11]` |
-| `<FeatureFrame imageSize>` — agent uses `default` everywhere; should use `narrow` (33%) or `compact` (40%) for editorial sections with graphic illustrations (not screenshots) — see `[4.2.a]` "Diminuez la frustration" | guidance / story | pending |
+| `<FeatureFrame imageSize>` — agent uses `default` everywhere; should use `narrow` (33%) or `compact` (40%) for editorial sections with graphic illustrations (not screenshots) — see `[4.2.a]` "Diminuez la frustration" | guidance / story | ✅ shipped 2026-04-27 — story `Sections / Features Sections / FeatureFrame / Rich Text / EditorialIllustration` is the canonical copy-paste reference (uses exact copy from `[4.2.a]`) |
 | `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light = visual dissonance on 4 pages | redesign chrome OR forbid combo | pending |
 | `<Hero layout>` default — agent overuses `"split"` on 10/12 Solution pages where `"centered"` is more appropriate | guidance / Storybook story | pending |
 | `<LogosBar>` default size — logos rendered too small (height 40px) | expose `size="lg"` prop OR widen default | ✅ shipped 2026-04-27 — `size="md"` (4.14rem desktop, default) \| `"lg"` (5.5rem desktop). LP heroes should pass `size="lg"`. Story `LogosBar / SizeComparison` shows both. |
