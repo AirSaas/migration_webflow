@@ -439,13 +439,20 @@ Live affiche ces 4 cards **SANS valeurs numériques explicites** (juste icônes 
 
 📍 `EquipeComiteDirectionPage.tsx:200-247`
 
-### `[5.3]` 🎨 CONTENT MISMATCH — "7 raisons" Sans AirSaas / Avec AirSaas — le style de la section « ComparisonFrame » n'est pas correct
+### `[5.3]` 🎨 CONTENT MISMATCH — "7 raisons" Sans AirSaas / Avec AirSaas — mauvais composant DS utilisé
 
-`ComparisonTableFrame` colonne "Avec AirSaas" affiche des **STRINGS DESCRIPTIFS** ("Reporting décisionnel uniforme..."), **PAS de check icons** comme attendu visuellement. Plus largement, le **chrome de la section ne matche pas le live** (titre, layout des colonnes, présentation Sans/Avec AirSaas).
+🚨 **À corriger** : utiliser `<ComparisonFrame>` (numbered list "Avec / Sans" éditoriale) **PAS** `<ComparisonTableFrame>` (feature grid technique).
 
-→ **DS doit supporter cell `type="check"` comme alternative au string.** Extension `<ComparisonTableFrame>` cell `{ type: "check" | "x", text: string }` livrée 2026-04-27 (commit `96c61a5`).
+Le rebuild utilise actuellement `<ComparisonTableFrame>` qui rend une grille technique (rows × colonnes "Sans AirSaas" / "Avec AirSaas"). Mais le live `[5.3]` "7 raisons pour lesquelles les directions générales adorent AirSaas" est un pattern éditorial **numbered-list** (avant/après narratif), exactement la signature de `<ComparisonFrame>` :
 
-📍 `EquipeComiteDirectionPage.tsx:208-247` (rows.values)
+| DS | Quand l'utiliser |
+|---|---|
+| `<ComparisonFrame>` | Avec/sans narratif numéroté, before/after sur 1 page (ce cas) |
+| `<ComparisonTableFrame>` | Feature matrix multi-colonnes, plan comparison, "Avec/sans" technique avec check icons |
+
+→ **Action** : rebuild agent doit refactorer la section `[5.3]` avec `<ComparisonFrame>` (voir story `Sections / Comparison Sections / ComparisonFrame` pour le pattern). L'extension `ComparisonTableFrame` cell `{ type, text }` reste utile pour d'autres cas (e.g. plan pricing) mais n'est PAS la bonne réponse ici.
+
+📍 `EquipeComiteDirectionPage.tsx:200-247` — refactor complet de la section
 
 ### `[5.4]` ❌ MISSING — Carrousel/Slider Industries (10 secteurs)
 
