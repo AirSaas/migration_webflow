@@ -1,0 +1,85 @@
+{
+  "type": "produit",
+  "slug": "budget",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero - Le suivi budgétaire",
+        "verdict": "OK",
+        "note": "Title is 'Le suivi budgétaire de vos projets' with 'Le suivi budgétaire' highlighted. Extracted title is just the highlight portion, missing 'de vos projets' suffix - minor incomplete."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Un suivi facile sans prise de tête",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "feature-split",
+        "title": "Un cadrage simplifié avec un budget détaillé",
+        "verdict": "OK"
+      },
+      {
+        "index": 3,
+        "type": "intro",
+        "title": "Des rituels de suivi budgétaire puissants",
+        "verdict": "OK",
+        "note": "Live has 'C'est un vrai plus...' as h3 sub-heading; extraction captures it as bold paragraph - acceptable."
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Des vues consolidées à partager facilement",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Prenez en compte le coût humain des projets",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Des indicateurs pour piloter sereinement",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Garder un œil sur les dépenses additionnelles",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Une personnalisation des dépenses adaptée à votre organisation",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "intro",
+        "title": "Les budgets sont un thème central...",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "faq",
+        "title": "FAQ",
+        "verdict": "OK"
+      }
+    ],
+    "missingFromExtract": [],
+    "globalVerdict": "FAITHFUL",
+    "summary": "Extraction is faithful and complete. All 12 live sections are represented in correct order with canonical fields. Minor note: hero title omits the 'de vos projets' suffix after the highlighted portion, but titleHighlight is correctly identified. All images point to real product mockups (webp screens). Feature-split alternation (reversed) matches live left/right pattern. FAQ items match exactly. Intro lists are properly converted to ul markup. No hallucinations, no truncations."
+  }
+}

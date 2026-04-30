@@ -1,9 +1,9 @@
 {
   "type": "solution",
   "slug": "outil-ppm",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
-  "errors": [],
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
   "result": {
     "meta": {
       "title": "AirSaas : un outil PPM nouvelle génération - Logiciel PPM",
@@ -198,17 +198,24 @@
         "subSections": [
           {
             "title": "La gestion de projet : d'un prisme technique à un prisme business",
-            "body": "La plupart des livres blancs sur le sujet s'accordent à dire que dans les dernières décennies, la DSI est passée d'un rôle largement cantonné à un aspect technique à une mission centrée sur les besoins business des métiers. La DSI n'est plus réduite à assurer le fonctionnement du run, en fournissant une assistance purement technique, mais elle doit aussi comprendre les besoins des différents collaborateurs afin de leur apporter de la valeur dans leur coeur de métier. Les attentes qu'ont les DSI d'un outil pour piloter leurs projets ont donc forcément énormément évoluées : d'un outil de suivi de gestion des problématiques techniques, les DSI ont souvent besoin que leur PPM simplifie la communication avec les métiers et la remontée de leurs besoins, notamment en passant par l'intermédiaire du chef de projet."
+            "body": "La plupart des livres blancs sur le sujet s'accordent à dire que dans les dernières décennies, la DSI est passée d'un rôle largement cantonné à un aspect technique à une mission centrée sur les besoins business des métiers. La DSI n'est plus réduite à assurer le fonctionnement du run, en fournissant une assistance purement technique, mais elle doit aussi comprendre les besoins des différents collaborateurs afin de leur apporter de la valeur dans leur coeur de métier.<br><br>Les attentes qu'ont les DSI d'un outil pour piloter leurs projets ont donc forcément énormément évoluées : d'un outil de suivi de gestion des problématiques techniques, les DSI ont souvent besoin que leur PPM simplifie la communication avec les métiers et la remontée de leurs besoins, notamment en passant par l'intermédiaire du chef de projet."
           },
           {
             "title": "L'impact de l'essor du poids du digital sur les besoins des DSI en gestion de projets",
-            "body": "Le développement du digital permet aux DSI d'aider leur entreprise de manière différente, et notamment en contribuant davantage à la réussite des objectifs business. Par exemple, une DSI peut structurer la digitalisation des process, ce qui entraîne des gains de temps pour les métiers et aide ces derniers à être compétitifs face aux entreprises concurrentes. Elle peut même participer à la création de valeur, notamment en accompagnant le changement de business modèle de l'entreprise. Ce changement structurel du poids du digital pour une entreprise amène donc à confier davantage de missions à la DSI. Ainsi, puisque la DSI a de nouvelles responsabilités, elle pilote ses projets différemment, et attend donc de nouvelles fonctionnalités de la part de ses outils PPM, ce qui amène ces derniers à évoluer !"
+            "body": "Le développement du digital permet aux DSI d'aider leur entreprise de manière différente, et notamment en contribuant davantage à la réussite des objectifs business. Par exemple, une DSI peut structurer la digitalisation des process, ce qui entraîne des gains de temps pour les métiers et aide ces derniers à être compétitifs face aux entreprises concurrentes. Elle peut même participer à la création de valeur, notamment en accompagnant le changement de business modèle de l'entreprise. On peut aussi penser à l'anecdote de Pierre Raschi, DG de Référence DSI, où il raconte comment une DSI en temps partagé a permis à une boucherie de renouveler sa clientèle vieillissante grâce au digital.<br><br>Ce changement structurel du poids du digital pour une entreprise amène donc à confier davantage de missions à la DSI. Ainsi, puisque la DSI a de nouvelles responsabilités, elle pilote ses projets différemment, et attend donc de nouvelles fonctionnalités de la part de ses outils PPM, ce qui amène ces derniers à évoluer !"
           },
           {
             "title": "Un changement de paradigme : du contrôle des process, à un besoin d'impliquer les collaborateurs",
             "body": "Les deux changements que l'on a vus ci-dessus impliquent une évolution dans la manière qu'a la DSI de collaborer avec les différents services et équipes de son entreprise. Une DSI axée sur la technique essayait plutôt de contrôler les comportements des collaborateurs afin qu'ils ne soient freinés par aucun problème technique et que le SI ne soit pas affecté négativement. Aujourd'hui, si elle veut réussir à impacter le business de l'entreprise de manière positive, la DSI doit être capable de comprendre finement les besoins des métiers et donc de collaborer étroitement avec ces derniers. Et une telle collaboration nécessite de briser les silos qui peuvent exister entre les services, ou au sein même des équipes, et d'impliquer chacun des collaborateurs. Ainsi, une DSI qui souhaite contrôler tous les processus existants n'aura pas besoin du même type d'outil que celle qui cherche à structurer une collaboration forte avec ses collaborateurs."
           }
         ]
+      },
+      {
+        "type": "feature-split",
+        "title": "Deux visions de DSI illustrées par les pyramides de Maslow",
+        "body": "<p>En grossissant le trait, on peut matérialiser deux visions majeures de DSI qui s'opposent grâce à ces pyramides de Maslow :</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd5c2a0f0e55_outil14a.svg",
+        "imageAlt": "Pyramides de Maslow illustrant les deux visions opposées de DSI"
       },
       {
         "type": "intro",
@@ -222,7 +229,7 @@
           },
           {
             "title": "Les PPM tout-en-un VS les PPM qui s'intègrent aux applications existantes",
-            "body": "Certains PPM comme les ERP ambitionnent de répondre à tous les besoins des DSI sur un seul et même logiciel. Bon nombre d'entre eux sont efficaces, mais le manque de flexibilité d'une telle solution une fois implémentée oblige à prendre le temps de s'interroger avant de faire son choix. A l'inverse, d'autres logiciels (souvent des SaaS) offrent moins de fonctionnalités mais proposent de s'intégrer aux outils existants. Ils permettront ainsi d'éviter les doublons et de diminuer le coût de change d'un outil : là où la montée de version d'un outil PPM lourd sera un projet majeur, long, et coûteux."
+            "body": "Certains PPM comme les ERP ambitionnent de répondre à tous les besoins des DSI sur un seul et même logiciel. Bon nombre d'entre eux sont efficaces, mais le manque de flexibilité d'une telle solution une fois implémentée oblige à prendre le temps de s'interroger avant de faire son choix.<br><br>A l'inverse, d'autres logiciels (souvent des SaaS) offrent moins de fonctionnalités mais proposent de s'intégrer aux outils existants. Ils permettront ainsi d'éviter les doublons et de diminuer le coût de change d'un outil : là où la montée de version d'un outil PPM lourd sera un projet majeur, long, et coûteux.<br><br>Ces deux types d'outils ne correspondent pas à la même vision du rôle de la DSI. Dans le cas des logiciels qui s'intègrent à l'existant, la DSI est perçue comme n'ayant plus à acquérir un outil lui permettant d'avancer sur tous les fronts, mais plutôt comme devant être capable de connecter et de déconnecter différents outils, en fonction de l'évolution de l'entreprise. L'idée est d'être en capacité de coller aux besoins existant, constamment, et à moindre coût."
           },
           {
             "title": "Les PPM qui proposent un espace d'échange collaboratif",
@@ -230,15 +237,18 @@
           },
           {
             "title": "Les PPM qui misent sur l'UX",
-            "body": "L'avantage qu'amène le choix de ces PPM est double. Tout d'abord, si l'on souhaite impliquer les collaborateurs d'une entreprise sur des sujets aussi techniques que ceux traités par la DSI, mieux vaut le faire sur une interface qui leur plaira. Les PPM qui misent sur l'UX ont donc généralement une interface suffisamment intuitive pour faciliter la collaboration entre les profils techniques et business. Le second avantage est d'augmenter le taux d'adoption de ces PPM : les collaborateurs ne mettront que quelques heures à se roder à l'utilisation de ces nouveaux logiciels plutôt que quelques jours."
+            "body": "L'avantage qu'amène le choix de ces PPM est double. Tout d'abord, si l'on souhaite impliquer les collaborateurs d'une entreprise sur des sujets aussi techniques que ceux traités par la DSI, mieux vaut le faire sur une interface qui leur plaira. Il n'y a rien de plus décourageant que d'être invité à travailler sur un Excel géant lorsque l'on n'est pas la personne ayant passé des dizaines d'heures à le créer. Les PPM qui misent sur l'UX ont donc généralement une interface suffisamment intuitive pour faciliter la collaboration entre les profils techniques et business.<br><br>Le second avantage est d'augmenter le taux d'adoption de ces PPM : les collaborateurs ne mettront que quelques heures à se roder à l'utilisation de ces nouveaux logiciels plutôt que quelques jours, ce qui peut être un levier très intéressant si l'objectif est de mobiliser rapidement."
           },
           {
             "title": "L'importance d'adapter la méthodologie portée par l'outil à la réalité de son organisation",
-            "body": "Aucun outil n'est réellement neutre, chacun d'entre eux porte intrinsèquement une méthodologie. Si l'on souhaite maximiser le taux d'adoption de son outil PPM, l'un des facteurs clé est d'en choisir un qui porte une méthodologie adaptée au fonctionnement de son organisation : aux niveaux des processus existants, des objectifs fixés, ou même de sa vision de la gestion de projets. Prendre un outil PPM portant une méthodologie opposée à celle qui est en place serait aussi contre-productif que de nager à contre-courant."
+            "body": "Aucun outil n'est réellement neutre, chacun d'entre eux porte intrinsèquement une méthodologie. Si l'on souhaite maximiser le taux d'adoption de son outil PPM, l'un des facteurs clé est d'en choisir un qui porte une méthodologie adaptée au fonctionnement de son organisation : aux niveaux des processus existants, des objectifs fixés, ou même de sa vision de la gestion de projets.<br><br>Prendre un outil PPM portant une méthodologie opposée à celle qui est en place serait aussi contre-productif que de nager à contre-courant. Ainsi, il est primordial de s'interroger sur la méthodologie que l'on souhaite appliquer, afin de choisir son outil PPM en conséquence."
           },
           {
             "title": "Changer la culture d'une entreprise grâce à l'interface utilisateur",
-            "body": "S'il vaut mieux adopter un outil dont la méthodologie est proche de la réalité de votre fonctionnement, un outil PPM peut aussi être un levier pour faire évoluer vos méthodes de travail ainsi que la culture de votre entreprise. En effet, la culture d'une entreprise est le fruit du comportement qu'elle adopte face à un environnement particulier. Donc si l'on change l'environnement, notamment en changeant les logiciels utilisés, on change la culture ! Pour résumer : choisissez un outil qui porte une méthodologie proche de celle que vous promouvez actuellement ou au moins de celle que vous souhaitez instaurer."
+            "body": "S'il vaut mieux adopter un outil dont la méthodologie est proche de la réalité de votre fonctionnement, un outil PPM peut aussi être un levier pour faire évoluer vos méthodes de travail ainsi que la culture de votre entreprise. En effet, la culture d'une entreprise est le fruit du comportement qu'elle adopte face à un environnement particulier. Donc si l'on change l'environnement, notamment en changeant les logiciels utilisés, on change la culture !<br><br>Il est donc possible de se servir d'un nouvel outil pour impulser un changement de pratiques. Cependant, il faut tout de même veiller à ce que le changement souhaité ne soit pas à l'opposé de ce que vous promouvez actuellement. En effet, s'il n'est pas accompagné par des décisions et des directives allant dans le même sens, un outil à lui seul ne peut pas bousculer les habitudes ancrées dans une organisation."
+          },
+          {
+            "body": "<strong>Pour résumer :</strong> choisissez un outil qui porte une méthodologie proche de celle que vous promouvez actuellement ou au moins de celle que vous souhaitez instaurer."
           }
         ]
       },
@@ -250,8 +260,17 @@
       },
       {
         "type": "feature-split",
-        "title": "Un outil PPM intuitif et intégré à vos outils existant",
-        "body": "<p><strong>Jira</strong></p><p>En s'intégrant à Jira vous aurez automatiquement les données d'avancement des projets dans AirSaas. Cela vous permettra d'avoir une vue globale de l'ensemble des projets et de leurs états d'avancement sans efforts.</p><p><strong>Microsoft Teams</strong></p><p>AirSaas est intégré à Microsoft Teams. Automatiquement les informations les plus importantes sur les projets en cours seront envoyées sur vos canaux de communication Teams dédiés. Avec cette intégration, vous pourrez partager simplement l'avancée des projets avec l'ensemble de l'entreprise. Si vous utilisez d'autres solutions, n'hésitez pas à nous le dire !</p>"
+        "title": "Un outil PPM intuitif et intégré à vos outils existant — Jira",
+        "body": "<p><strong>Jira</strong></p><p>En s'intégrant à Jira vous aurez automatiquement les données d'avancement des projets dans AirSaas. Cela vous permettra d'avoir une vue globale de l'ensemble des projets et de leurs états d'avancement sans efforts.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fda84e0f0e5d_outil18a.svg",
+        "imageAlt": "Intégration Jira"
+      },
+      {
+        "type": "feature-split",
+        "title": "Microsoft Teams",
+        "body": "<p><strong>Microsoft Teams</strong></p><p>AirSaas est intégré à Microsoft Teams. Automatiquement les informations les plus importantes sur les projets en cours seront envoyées sur vos canaux de communication Teams dédiés. Avec cette intégration, vous pourrez partager simplement l'avancée des projets avec l'ensemble de l'entreprise. Si vous utilisez d'autres solutions, n'hésitez pas à nous le dire !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd60480f0e5e_outil18b.svg",
+        "imageAlt": "Intégration Microsoft Teams"
       },
       {
         "type": "feature-split",

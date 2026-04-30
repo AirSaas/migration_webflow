@@ -1,9 +1,9 @@
 {
   "type": "lp",
   "slug": "ppm",
-  "iteration": 2,
-  "outcome": "RETRY_PASS",
-  "errors": [],
+  "iteration": 3,
+  "outcome": "REFINED",
+  "previousOutcome": "RETRY_PASS",
   "result": {
     "meta": {
       "title": "PPM nouvelle génération — Un PPM avec une UX au top",
@@ -337,9 +337,25 @@
         "type": "cta",
         "title": "De contremaître à coach d'organisation",
         "subtitle": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
-        "ctaLabel": "Réserver une démo",
+        "ctaLabel": "Choisir un créneau →",
         "ctaHref": "/fr/meetings-pages",
-        "videoHref": "/fr/video/ppm"
+        "videoHref": "/fr/video/ppm",
+        "items": [
+          {
+            "title": "Réserver une démo",
+            "description": "30 min avec un expert pour voir AirSaas en action sur vos cas d'usage.",
+            "ctaLabel": "Choisir un créneau →",
+            "ctaHref": "/fr/meetings-pages",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg"
+          },
+          {
+            "title": "Découvrir l'outil PPM en vidéo (5 min)",
+            "description": "Découvrez comment AirSaas révolutionne l'organisation projet.",
+            "ctaLabel": "Voir la vidéo →",
+            "ctaHref": "/fr/video/ppm",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df92ad8c9961f891111f_Icon%20video.svg"
+          }
+        ]
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
   "type": "solution",
   "slug": "management-de-portefeuille-projet",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
-  "errors": [],
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
   "result": {
     "meta": {
       "title": "Management de portefeuille projet — AirSaas",
@@ -15,6 +15,7 @@
         "title": "L'outil de management de",
         "titleHighlight": "portefeuille projet",
         "subtitle": "AirSaas a été conçu pour vous aider à transformer votre entreprise de manière efficace, en vous faisant gagner en temps et en visibilité sur votre portfolio. Révolutionnez votre management de portefeuille de projet en gardant une vision précise de vos priorités, des décisions à prendre, et en communiquant mieux au quotidien.",
+        "body": "<p>qui révolutionne votre gouvernance</p>",
         "primaryCta": {
           "label": "Réservez une démo",
           "href": "/fr/meetings-pages"
@@ -204,7 +205,6 @@
       },
       {
         "type": "testimonials",
-        "title": "Ce qu'en disent nos clients",
         "testimonials": [
           {
             "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",

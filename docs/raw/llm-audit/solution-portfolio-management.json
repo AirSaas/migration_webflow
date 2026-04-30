@@ -1,0 +1,171 @@
+{
+  "type": "solution",
+  "slug": "portfolio-management",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, subtitle, CTA all match live."
+      },
+      {
+        "index": 1,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK",
+        "note": "All 4 press quotes with logos match live."
+      },
+      {
+        "index": 2,
+        "type": "testimonials",
+        "title": "LinkedIn testimonials",
+        "verdict": "OK",
+        "note": "3 testimonials faithfully extracted. Marie-Odile role slightly truncated vs live (live had longer title duplicated) but acceptable."
+      },
+      {
+        "index": 3,
+        "type": "stats",
+        "title": "Les chiffres",
+        "verdict": "OK",
+        "note": "3 stats with values and labels match."
+      },
+      {
+        "index": 4,
+        "type": "intro",
+        "title": "Une plateforme de gouvernance projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Partagez simplement les roadmaps",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Capacity planning par équipe",
+        "verdict": "OK",
+        "note": "Bullets correctly extracted from blockquotes."
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Chaque directeur définit ses prios",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Diffusez un cadrage projet standardisé",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "steps",
+        "title": "Newsletter sponsor",
+        "verdict": "OK",
+        "note": "3 steps match. Note: live also had 3 email mockup images not represented, but steps content is faithful."
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Reporting projet en un clic",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Fluidifiez prise de décisions",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "intro",
+        "title": "5 bonnes pratiques",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Cadrage de projet optimal",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Réduisez les durées",
+        "verdict": "OK"
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Marketez avec impact",
+        "verdict": "OK",
+        "note": "No image on extracted side, live had a Lottie animation (no static image). Acceptable."
+      },
+      {
+        "index": 16,
+        "type": "feature-split",
+        "title": "Ritualisez vos reportings",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "feature-split",
+        "title": "Transparence au coeur du portfolio",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is portfolio4.svg — this is the live image but it's an SVG illustration, not a product mockup. Faithful to live, so could be OK; flagging per rubric."
+      },
+      {
+        "index": 18,
+        "type": "cta",
+        "title": "Reprenez le contrôle",
+        "verdict": "OK"
+      },
+      {
+        "index": 19,
+        "type": "feature-split",
+        "title": "Marketplace AirSaas intégrations",
+        "verdict": "INCOMPLETE",
+        "note": "Live has a slider with 2 images (Automation-integrations + Graphic Integrations); extraction kept only one image. Minor."
+      },
+      {
+        "index": 20,
+        "type": "comparison-table",
+        "title": "Sans/Avec AirSaas",
+        "verdict": "OK",
+        "note": "All 7 rows extracted faithfully with CTA."
+      },
+      {
+        "index": 21,
+        "type": "customer-testimonials",
+        "title": "Laissez nos clients vous parler",
+        "verdict": "OK",
+        "note": "9 testimonials with names/roles. The 'text' field is filled with the case study slug-derived title rather than a quote; live doesn't have actual quote text on cards (just author + sector + employee count), so this is a reasonable adaptation. Sector/employee count metadata not preserved."
+      }
+    ],
+    "missingFromExtract": [
+      {
+        "liveSectionDescription": "Hero Lottie video animation (Video-PMO.json) — not represented as image/video in hero",
+        "suggestedType": "hero media"
+      },
+      {
+        "liveSectionDescription": "Newsletter sponsor section's 3 email mockup images (Control tower email FR-1/2/3)",
+        "suggestedType": "image gallery within steps"
+      },
+      {
+        "liveSectionDescription": "Customer testimonials cards' Sector + Number of employees metadata (only embedded into 'role' string)",
+        "suggestedType": "structured testimonial metadata"
+      },
+      {
+        "liveSectionDescription": "Customer-testimonials intro paragraph: 'Qui de mieux pour vous parler de la plateforme que ceux qui l'utilisent au quotidien...'",
+        "suggestedType": "section subtitle"
+      }
+    ],
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "summary": "Extraction is highly faithful to the live page. All major sections (hero, press quotes, testimonials, stats, intro, feature-splits, steps, CTA, comparison table, customer testimonials) are present, in correct order, with accurate copy. Minor gaps: hero Lottie video not represented, newsletter section's email mockups missing, marketplace slider reduced to one image, and customer testimonial cards lose sector/employee structured metadata (folded into role string with case-study titles substituted as 'text'). One feature-split uses an SVG illustration (portfolio4.svg) which is faithful to live but not a product mockup."
+  }
+}

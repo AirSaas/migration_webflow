@@ -1,0 +1,60 @@
+{
+  "type": "solution",
+  "slug": "airsaas-et-les-experts-de-la-transfo",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Surdélivrer vos missions avec AirSaas",
+        "verdict": "OK",
+        "note": "Title split correctly into title + titleHighlight, subtitle merges both paragraphs faithfully, primary CTA inferred from navbar demo link."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Engagez-vous pour la transformation",
+        "verdict": "OK",
+        "note": "Body faithfully reproduces the 3 paragraphs from the live section."
+      },
+      {
+        "index": 2,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK",
+        "note": "All 4 press quotes with correct sources and logos."
+      },
+      {
+        "index": 3,
+        "type": "testimonials",
+        "title": "Ils témoignent",
+        "verdict": "OK",
+        "note": "All 6 testimonials with names, roles, text, avatars and LinkedIn URLs match live. Title 'Ils témoignent' is not present on live but is reasonable section heading. Note: live page does not have an explicit title for this block."
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Se former entre experts, par des pairs",
+        "verdict": "OK",
+        "note": "Body, image, CTA all match live (first slide image used)."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "AirSaas dans le tooling des missions",
+        "verdict": "OK",
+        "note": "Reversed layout matches live (image on left), body and CTA correct."
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "You never walk alone",
+        "verdict": "OK",
+        "note": "Body, first slide image, CTA all match live."
+      }
+    ],
+    "summary": "Extraction is faithful to the live page. Hero, intro, press quotes (4), testimonials (6 with full data), and 3 feature-split sections all reproduce live content accurately. The testimonials section title 'Ils témoignent' is a reasonable inference though not explicitly present in HTML. No major omissions or hallucinations detected."
+  }
+}

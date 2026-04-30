@@ -1,10 +1,14 @@
 {
   "type": "equipe",
   "slug": "direction-de-la-transformation",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
-  "errors": [],
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
   "result": {
+    "meta": {
+      "title": "Direction de la transformation — AirSaas",
+      "description": "L'outil des Directions de la transformation pour mieux piloter leurs grands programmes. AirSaas accompagne les directions de la transformation à piloter l'ensemble des projets de l'entreprise."
+    },
     "sections": [
       {
         "type": "hero",
@@ -150,6 +154,12 @@
         ]
       },
       {
+        "type": "feature-split",
+        "title": "Presentation reviews",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66865ccd6319bebdceb619e4_Presentation-review-slide.png",
+        "imageAlt": "Presentation reviews"
+      },
+      {
         "type": "comparison-table",
         "title": "Nos clients Directeurs de la transfo. ne peuvent plus imaginer leurs vies sans AirSaas",
         "columns": [
@@ -189,10 +199,6 @@
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d48497b08e93531f3ba49b_Graphic%20Integrations.webp",
         "imageAlt": "Automation - integrations"
       }
-    ],
-    "meta": {
-      "title": "Direction de la transformation — AirSaas",
-      "description": "L'outil des Directions de la transformation pour mieux piloter leurs grands programmes. AirSaas accompagne les directions de la transformation à piloter l'ensemble des projets de l'entreprise."
-    }
+    ]
   }
 }

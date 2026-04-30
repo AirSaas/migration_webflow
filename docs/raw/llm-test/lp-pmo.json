@@ -1,9 +1,9 @@
 {
   "type": "lp",
   "slug": "pmo",
-  "iteration": 2,
-  "outcome": "RETRY_PASS",
-  "errors": [],
+  "iteration": 3,
+  "outcome": "REFINED",
+  "previousOutcome": "RETRY_PASS",
   "result": {
     "meta": {
       "title": "Outil PMO — Pilotez la transformation avec AirSaas",
@@ -13,7 +13,7 @@
       {
         "type": "hero",
         "title": "80 projets côté DSI. 80 côté Marketing. 80 côté Finance. Et toujours pas de vue commune au Codir ?",
-        "subtitle": "AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\".",
+        "subtitle": "L'outil des PMO modernes — AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\".",
         "primaryCta": {
           "label": "Réservez une démo",
           "href": "/fr/meetings-pages"
@@ -21,7 +21,43 @@
         "secondaryCta": {
           "label": "▶️ Découvrir l'outil PMO en vidéo (5 min)",
           "href": "/fr/video/pmo"
-        }
+        },
+        "bullets": [
+          "L'outil des PMO modernes",
+          "+100 clients nous font confiance",
+          "Accompagnement premium inclus"
+        ]
+      },
+      {
+        "type": "icon-row",
+        "title": "Découvrez AirSaas en action",
+        "subtitle": "Une suite complète pour piloter votre portefeuille projets de bout en bout.",
+        "items": [
+          {
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678557124f678e343b52b670_icon-portfolio-color.svg",
+            "label": "Portfolio"
+          },
+          {
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg",
+            "label": "Quarter plan"
+          },
+          {
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67855725b0e15e8685feb59b_icon-capacity-color.svg",
+            "label": "Capacitaire"
+          },
+          {
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg",
+            "label": "Priorisation"
+          },
+          {
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868500077117c7399a63d7_icon-roadmap-color.svg",
+            "label": "Roadmap"
+          },
+          {
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686557fa477c469417d74_icon-report-color.svg",
+            "label": "Reporting"
+          }
+        ]
       },
       {
         "type": "logo-bar",
@@ -253,6 +289,7 @@
       {
         "type": "trust-badges",
         "title": "Sécurité au top",
+        "subtitle": "AirSaas passe la porte des DSI les plus exigeantes.",
         "badges": [
           {
             "label": "ISO 27001 — Certifié",
@@ -354,7 +391,23 @@
         "subtitle": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
         "ctaLabel": "Choisir un créneau →",
         "ctaHref": "/fr/meetings-pages",
-        "videoHref": "/fr/video/pmo"
+        "videoHref": "/fr/video/pmo",
+        "items": [
+          {
+            "title": "Réserver une démo",
+            "description": "30 min pour voir comment AirSaas peut transformer votre quotidien de PMO.",
+            "ctaLabel": "Choisir un créneau →",
+            "ctaHref": "/fr/meetings-pages",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg"
+          },
+          {
+            "title": "Découvrir l'outil PMO en vidéo (5 min)",
+            "description": "Comment AirSaas transforme le quotidien des PMO.",
+            "ctaLabel": "Voir la vidéo →",
+            "ctaHref": "/fr/video/pmo",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df92ad8c9961f891111f_Icon%20video.svg"
+          }
+        ]
       }
     ]
   }

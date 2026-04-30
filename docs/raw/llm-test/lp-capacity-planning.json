@@ -1,9 +1,9 @@
 {
   "type": "lp",
   "slug": "capacity-planning",
-  "iteration": 2,
-  "outcome": "RETRY_PASS",
-  "errors": [],
+  "iteration": 4,
+  "outcome": "REFINED",
+  "previousOutcome": "REFINED",
   "result": {
     "meta": {
       "title": "Capacity Planning simplifié — AirSaas",
@@ -22,7 +22,43 @@
         "secondaryCta": {
           "label": "📘 Découvrir le guide Capacity Planning",
           "href": "/fr/livre-blanc/capacity-planning"
-        }
+        },
+        "bullets": [
+          "Capacity Planning simplifié",
+          "Opérationnel en 1 mois",
+          "Accompagnement premium inclus"
+        ]
+      },
+      {
+        "type": "icon-row",
+        "title": "Découvrez AirSaas en 6 vues produit",
+        "subtitle": "Portfolio, Quarter plan, Capacitaire, Priorisation, Roadmap, Reporting — explorez chaque module.",
+        "items": [
+          {
+            "label": "Portfolio",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678557124f678e343b52b670_icon-portfolio-color.svg"
+          },
+          {
+            "label": "Quarter plan",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg"
+          },
+          {
+            "label": "Capacitaire",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67855725b0e15e8685feb59b_icon-capacity-color.svg"
+          },
+          {
+            "label": "Priorisation",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg"
+          },
+          {
+            "label": "Roadmap",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868500077117c7399a63d7_icon-roadmap-color.svg"
+          },
+          {
+            "label": "Reporting",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686557fa477c469417d74_icon-report-color.svg"
+          }
+        ]
       },
       {
         "type": "logo-bar",
@@ -76,12 +112,12 @@
         "type": "pain-points",
         "title": "⚠️ Les vrais problèmes du capacity planning",
         "items": [
-          "Les outils existants sont trop complexes → personne ne les maintient",
-          "Vous avez un Excel à 1200 colonnes que vous seul comprenez",
-          "Impossible de répondre à : \"Peut-on prendre ce projet ?\"",
-          "Vos prévisions sont précisément fausses plutôt qu'approximativement justes",
-          "Le PMO devrait gérer la capacité. Mais il est saturé par le quotidien pour s'en occuper.",
-          "De l'idée floue à un projet positionné, ça prend des mois. Réunions, allers-retours, estimations au doigt mouillé..."
+          "Les outils existants sont <strong>trop complexes →</strong> personne ne les maintient",
+          "Vous avez un Excel à <strong>1200 colonnes</strong> que vous seul comprenez",
+          "Impossible de répondre à : <strong>\"Peut-on prendre ce projet ?\"</strong>",
+          "Vos prévisions sont <strong>précisément fausses</strong> plutôt qu'approximativement justes",
+          "Le PMO devrait gérer la capacité. Mais il est <strong>saturé par le quotidien</strong> pour s'en occuper.",
+          "De l'idée floue à un projet positionné, ça prend <strong>des mois</strong>. Réunions, allers-retours, estimations au doigt mouillé..."
         ]
       },
       {
@@ -265,6 +301,8 @@
       },
       {
         "type": "trust-badges",
+        "title": "Sécurité au top",
+        "subtitle": "AirSaas passe la porte des DSI les plus exigeantes.",
         "badges": [
           {
             "label": "ISO 27001 — Certifié",
@@ -334,7 +372,23 @@
         "title": "Arrêtez de lancer des projets sans capacité",
         "subtitle": "Découvrez comment AirSaas simplifie votre capacity planning. AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
         "ctaLabel": "Choisir un créneau →",
-        "ctaHref": "/fr/meetings-pages"
+        "ctaHref": "/fr/meetings-pages",
+        "items": [
+          {
+            "title": "Réserver une démo",
+            "description": "30 min pour voir comment AirSaas peut transformer votre quotidien de PMO.",
+            "ctaLabel": "Choisir un créneau →",
+            "ctaHref": "/fr/meetings-pages",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg"
+          },
+          {
+            "title": "Découvrir le guide Capacity Planning",
+            "description": "Quarter Plan & gestion capacitaire : la méthode complète.",
+            "ctaLabel": "Télécharger le Book →",
+            "ctaHref": "/fr/livre-blanc/capacity-planning",
+            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972801168caa1a15dae4416_Icon%20book.svg"
+          }
+        ]
       }
     ]
   }

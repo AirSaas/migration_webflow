@@ -1,0 +1,106 @@
+{
+  "type": "equipe",
+  "slug": "comite-direction",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title/highlight/subtitle/CTA/image faithful to live."
+      },
+      {
+        "index": 1,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "testimonials",
+        "title": "LinkedIn testimonials",
+        "verdict": "OK",
+        "note": "3 testimonials match live."
+      },
+      {
+        "index": 3,
+        "type": "intro",
+        "title": "L'outil-clé...",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "stats",
+        "title": "Les chiffres",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Animez clairement...",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Roadmap projet macro partagée",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Uniformisez les reportings",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Obtenez la bonne information",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Suivez l'avancée de vos programmes",
+        "verdict": "OK",
+        "note": "Live shows a Lottie video instead of image; extraction omits image which is acceptable."
+      },
+      {
+        "index": 10,
+        "type": "comparison-table",
+        "title": "7 raisons...",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "cta",
+        "title": "Rendez vos comités...",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "Intégrations natives",
+        "verdict": "OK",
+        "note": "Live has a 2-image carousel; extraction takes the first image only — acceptable simplification."
+      },
+      {
+        "index": 13,
+        "type": "customer-testimonials",
+        "title": "Laissez nos clients...",
+        "verdict": "WRONG_FIELDS",
+        "note": "The 'text' field stores the company+sector+employee count meta (not a testimonial quote). Live has no quote text — only company/sector/employees per card. Mapping company meta into 'text' is a reasonable adaptation but not a true testimonial quote."
+      },
+      {
+        "index": 14,
+        "type": "cta",
+        "title": "Consultez les témoignages",
+        "verdict": "OK"
+      }
+    ],
+    "missingFromExtract": [],
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "summary": "Extraction is highly faithful to the live page. All 15 sections are present in correct order with accurate content, images, CTAs and stats. Only nuance: the customer-testimonials block stuffs company/sector/employee meta into the `text` field since live cards have no quote — a defensible adaptation but slightly off canonical testimonial schema. Feature-split #9 (programs) drops the live Lottie video, and the integrations feature-split takes only the first slide of a 2-slide carousel, both acceptable."
+  }
+}

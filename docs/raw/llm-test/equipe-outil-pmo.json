@@ -1,9 +1,9 @@
 {
   "type": "equipe",
   "slug": "outil-pmo",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
-  "errors": [],
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
   "result": {
     "meta": {
       "title": "L'outil PPM pour un PMO moderne",
@@ -80,7 +80,7 @@
         "items": [
           {
             "value": "80%",
-            "label": "C'est la réduction moyenne du nombre de réunions projets constatée après 4 mois d'utilisation d'AirSaas. Pourquoi faire un meeting quand l'information est claire, centralisée et accessible à tous ?"
+            "label": "C'est la réduction moyenne du nombre de réunions projets constatée après 4 mois d'utilisation d'Airsaas. Pourquoi faire un meeting quand l'information est claire, centralisée et accessible à tous ?"
           },
           {
             "value": "100%",
@@ -233,56 +233,59 @@
             "Du micro-management pour gérer vos différents collaborateurs",
             "Une responsabilisation de chacun, grâce à une vision simplifiée et collaborative de l'avancement des projets"
           ]
-        ]
+        ],
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
       },
       {
         "type": "customer-testimonials",
         "title": "Laissez nos clients vous parler d'AirSaas",
+        "subtitle": "Qui de mieux pour vous parler de la plateforme que ceux qui l'utilisent au quotidien pour améliorer la gestion de leurs projets de transformation ?",
         "testimonials": [
           {
-            "text": "Groupe Picoty — Énergie et combustibles — 1300 employés",
             "name": "Laurent Citton",
-            "role": "Directeur des Systèmes d'Information Groupe chez Picoty"
+            "role": "Directeur des Systèmes d'Information Groupe chez Picoty",
+            "company": "Groupe Picoty — Énergie et combustibles — 1300 employés"
           },
           {
-            "text": "Hôtellerie & loisirs — 40000 employés",
             "name": "Émilie Lecart",
-            "role": "CIO Office"
+            "role": "CIO Office",
+            "company": "Hôtellerie & loisirs — 40000 employés"
           },
           {
-            "text": "Altavia — Communication et marketing — 2800 employés",
             "name": "Sébastien Louyot",
-            "role": "Group CIO"
+            "role": "Group CIO",
+            "company": "Altavia — Communication et marketing — 2800 employés"
           },
           {
-            "text": "Dynamical — Conseil — 2 employés",
             "name": "David Langlade",
-            "role": "Conseil / DSI de transition CTO/ - CIO"
+            "role": "Conseil / DSI de transition CTO/ - CIO",
+            "company": "Dynamical — Conseil — 2 employés"
           },
           {
-            "text": "Chiesi France — Santé-Pharma — 6500 employés",
             "name": "Clément Royer",
-            "role": "DSI - ICT MANAGER chez Chiesi France"
+            "role": "DSI - ICT MANAGER chez Chiesi France",
+            "company": "Chiesi France — Santé-Pharma — 6500 employés"
           },
           {
-            "text": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés",
             "name": "Aurore Butrot",
-            "role": "DSI Intuis (Ex Groupe Muller)"
+            "role": "DSI Intuis (Ex Groupe Muller)",
+            "company": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés"
           },
           {
-            "text": "Comexposium — Événementiel — 900 employés",
             "name": "Stephan Boisson",
-            "role": "Group Chief Digital & Information Officer Comexposium"
+            "role": "Group Chief Digital & Information Officer Comexposium",
+            "company": "Comexposium — Événementiel — 900 employés"
           },
           {
-            "text": "Indexia Groupe — Assurance et Distribution — 3000 employés",
             "name": "Sylvain Bourdette",
-            "role": "DSI/CTO/Pro de la transfo"
+            "role": "DSI/CTO/Pro de la transfo",
+            "company": "Indexia Groupe — Assurance et Distribution — 3000 employés"
           },
           {
-            "text": "Caduciel — Santé - Editeur de logiciel — 50 employés",
             "name": "Vincent Potel",
-            "role": "Directeur Général de transition"
+            "role": "Directeur Général de transition",
+            "company": "Caduciel — Santé - Editeur de logiciel — 50 employés"
           }
         ]
       },

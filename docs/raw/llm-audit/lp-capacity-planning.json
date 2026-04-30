@@ -1,0 +1,143 @@
+{
+  "type": "lp",
+  "slug": "capacity-planning",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, highlight, subtitle, CTAs and bullets all match live."
+      },
+      {
+        "index": 1,
+        "type": "icon-row",
+        "title": "6 vues produit tabs",
+        "verdict": "OK",
+        "note": "Tab labels and icons reproduced. Title/subtitle synthesized but faithful since live tabs have no explicit heading."
+      },
+      {
+        "index": 2,
+        "type": "logo-bar",
+        "title": "Client logos",
+        "verdict": "OK",
+        "note": "All 5 logos preserved with correct title."
+      },
+      {
+        "index": 3,
+        "type": "stats",
+        "title": "Stats",
+        "verdict": "OK",
+        "note": "All 4 stats with values and labels match."
+      },
+      {
+        "index": 4,
+        "type": "pain-points",
+        "title": "Vrais problèmes",
+        "verdict": "OK",
+        "note": "All 6 pain points with bold formatting preserved."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Agent IA Brief projet",
+        "verdict": "OK",
+        "note": "Body, image, bullets all faithful."
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Agent IA Découpage projet",
+        "verdict": "OK",
+        "note": "Reversed correctly, image and bullets match."
+      },
+      {
+        "index": 7,
+        "type": "steps",
+        "title": "De l'idée au scénario",
+        "verdict": "OK",
+        "note": "5 steps preserved. Last step on live shows '→' as number rather than '5' but title 'Scénario en 10 min' kept."
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Vue capacitaire par équipe",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Capacité future des équipes",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "T-shirt sizing",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Scénarios",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "KPI Quarter Plan",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Par équipe pas par personne",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "icon-row",
+        "title": "Notre parti pris",
+        "verdict": "INCOMPLETE",
+        "note": "Live has 3 cards each with separate title (Macro/Maintenable/Actionnable) and description. Extraction merges them into a single label string per item, losing structured title/description split."
+      },
+      {
+        "index": 15,
+        "type": "testimonials",
+        "title": "Témoignages",
+        "verdict": "OK",
+        "note": "Both testimonials preserved with avatars, names, roles, companies, LinkedIn URLs."
+      },
+      {
+        "index": 16,
+        "type": "trust-badges",
+        "title": "Sécurité",
+        "verdict": "OK",
+        "note": "4 badges preserved; labels combine title + description with em-dash which is acceptable."
+      },
+      {
+        "index": 17,
+        "type": "steps",
+        "title": "Opérationnel en 1 mois",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "faq",
+        "title": "FAQ",
+        "verdict": "OK"
+      },
+      {
+        "index": 19,
+        "type": "cta",
+        "title": "Final CTA",
+        "verdict": "OK",
+        "note": "Two action items with icons, labels, hrefs preserved."
+      }
+    ],
+    "missingFromExtract": [],
+    "globalVerdict": "FAITHFUL",
+    "summary": "Extraction is highly faithful to the live page. All 20 sections from the live HTML are present in the JSON in the correct order with correct content, images, CTAs, and bullets. Minor weakness: the 'Notre parti pris' icon-row collapses the three card titles (Macro, pas micro / Maintenable / Actionnable) and their descriptions into single label strings rather than preserving structured title+description fields. Otherwise, hero highlight, pain points, all feature-splits with correct image alternation, stats, testimonials with LinkedIn URLs, trust badges, FAQ items, and final dual-CTA all match live."
+  }
+}

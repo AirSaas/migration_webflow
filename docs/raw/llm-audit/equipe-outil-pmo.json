@@ -1,0 +1,127 @@
+{
+  "type": "equipe",
+  "slug": "outil-pmo",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK"
+      },
+      {
+        "index": 1,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "testimonials",
+        "title": "LinkedIn testimonials",
+        "verdict": "OK",
+        "note": "Marie-Odile Lhomme role on live had a longer/repetitive description; extraction shortened it to a clean 'Chief Digital & Information Officer' which is a slight simplification but faithful in spirit."
+      },
+      {
+        "index": 3,
+        "type": "stats",
+        "title": "Les chiffres",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "intro",
+        "title": "Une plateforme de gouvernance projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Partagez simplement les roadmaps",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Capacity planning",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Chaque directeur définit ses prios",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Diffusez un cadrage projet standardisé",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Newsletter sponsor",
+        "verdict": "OK",
+        "note": "subSections faithfully captured the 3 sub-blocks; subtitle line moved to top-level (faithful)."
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Reporting projet en un clic",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Fluidifiez votre prise de décisions",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "Impliquez les chefs de projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Animez vos CoPil",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "cta",
+        "title": "Reprenez le contrôle",
+        "verdict": "OK"
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Marketplace intégrations",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "comparison-table",
+        "title": "Sans/Avec AirSaas",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "customer-testimonials",
+        "title": "Laissez nos clients vous parler",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "cta",
+        "title": "Consultez les témoignages",
+        "verdict": "OK"
+      }
+    ],
+    "summary": "Extraction is highly faithful to the live PMO page. All 19 sections map cleanly to live content: hero, press quotes (4), LinkedIn testimonials (3), stats (3), intro, 9 feature-split blocks (including the special newsletter section with subSections), a CTA, comparison table (7 rows × 2 columns), customer testimonials grid (9 cases), and a final CTA. Images are real product mockups, not icons. Minor simplification: Marie-Odile Lhomme's role text on live is duplicated/long; extraction normalized it to 'Chief Digital & Information Officer' — acceptable cleanup. No hallucinated sections; no live sections missing from the extraction."
+  }
+}

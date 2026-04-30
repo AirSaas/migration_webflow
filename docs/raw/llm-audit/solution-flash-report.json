@@ -1,0 +1,118 @@
+{
+  "type": "solution",
+  "slug": "flash-report",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, subtitle and CTA match. Live also has a Lottie video animation, not a static image — extraction omits any imageSrc which is acceptable."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Une solution de reporting projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "icon-row",
+        "title": "3-column benefits",
+        "verdict": "OK",
+        "note": "Live has separate heading + paragraph per item; extraction concatenates with em-dash into label. Acceptable but not canonical (could use title+description)."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Toutes vos données consolidées",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Des rapports qui facilitent la prise de décision",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Une structure fixe, mais personnalisable",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "cta",
+        "title": "Choisissez de gagner du temps",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "intro",
+        "title": "Plus qu'une solution de reporting flash",
+        "verdict": "OK",
+        "note": "Body 'En du flash report automatisé...' is awkward but reproduces live faithfully."
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Une roadmap collaborative",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Une vision Kanban",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Des fiches de cadrage",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Des intégrations natives",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "cta",
+        "title": "Faites passer votre gouvernance projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "intro",
+        "title": "Les bonnes pratiques de flash report",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "steps",
+        "title": "Les bonnes pratiques",
+        "verdict": "OK",
+        "note": "Live renders the 3 best practices as alternating feature-split sections with small SVG icons; collapsing them into a steps list is a reasonable design-system mapping."
+      },
+      {
+        "index": 15,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "testimonials",
+        "title": "Ce qu'en disent nos clients",
+        "verdict": "OK",
+        "note": "Title 'Ce qu'en disent nos clients' is not on the live page (live only has the press section heading 'Ils parlent de nous' before the embedded testimonial cards) — minor heading addition for design-system needs. Marie-Odile Lhomme role is shortened from a longer live string, acceptable trim."
+      }
+    ],
+    "summary": "Extraction is faithful to the live page. All 17 sections map cleanly to live content (hero, intro, 3-col benefits, alternating feature-splits, two CTAs, best-practices, press quotes, testimonials). Minor notes: hero on live uses a Lottie animation rather than a static screenshot (no imageSrc in extract — fine); the icon-row labels merge live's per-tile heading + paragraph with an em-dash; the 3 best-practice tiles on live are alternating feature-splits collapsed into a steps section; testimonials section gets a fabricated heading 'Ce qu'en disent nos clients' which doesn't exist verbatim on live but is a reasonable design-system addition. No hallucinated sections, no truncations, all CTAs/hrefs and image URLs match live."
+  }
+}

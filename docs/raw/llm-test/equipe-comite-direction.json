@@ -1,9 +1,9 @@
 {
   "type": "equipe",
   "slug": "comite-direction",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
-  "errors": [],
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
   "result": {
     "meta": {
       "title": "Comité de direction — AirSaas",
@@ -185,6 +185,7 @@
       {
         "type": "customer-testimonials",
         "title": "Laissez nos clients vous parler d'AirSaas",
+        "subtitle": "C'est ceux qui s'en servent au quotidien qui en parlent le mieux ! Découvrez comment nos clients utilisent AirSaas pour rendre leurs comités de direction plus efficaces, et faire avancer leurs projets de transformation plus agilement.",
         "testimonials": [
           {
             "text": "Groupe Picoty — Énergie et combustibles — 1300 employés",

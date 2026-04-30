@@ -1,9 +1,9 @@
 {
   "type": "solution",
   "slug": "airsaas-et-les-experts-de-la-transfo",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
-  "errors": [],
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
   "result": {
     "meta": {
       "title": "AirSaas et les experts de la transfo",
@@ -134,14 +134,6 @@
           "label": "En savoir plus",
           "href": "/fr/lesprodelatransfo"
         }
-      },
-      {
-        "type": "cta",
-        "title": "Prêt à surdélivrer vos missions avec",
-        "titleHighlight": "AirSaas",
-        "subtitle": "Réservez une démo et découvrez comment outiller vos missions de transformation.",
-        "ctaLabel": "Réserver une démo",
-        "ctaHref": "/fr/meetings-pages"
       }
     ]
   }

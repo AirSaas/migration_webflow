@@ -1,0 +1,148 @@
+{
+  "type": "solution",
+  "slug": "revue-de-portefeuille",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title/highlight split correctly matches live <strong> bolding. Subtitle and CTA match."
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Le tableau de bord préféré",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "icon-row",
+        "title": "3 bullets",
+        "verdict": "OK",
+        "note": "Combines heading + paragraph as single label with em dash. Faithful merge."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Vos données consolidées",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Des vues personnalisables",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Reporting flash automatisé",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Expérience utilisateur moderne",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "cta",
+        "title": "Gagner du temps et du contrôle",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "intro",
+        "title": "Fluidifiez votre gouvernance",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Collaborez fiches de cadrage",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Bilans de projets",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Intégrations natives",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "cta",
+        "title": "Simplifiez vos revues",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "intro",
+        "title": "6 clés",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Prioriser",
+        "verdict": "OK"
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Inviter les bonnes personnes",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "feature-split",
+        "title": "Envoyer reporting en amont",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "feature-split",
+        "title": "Adopter une structure claire",
+        "verdict": "OK",
+        "note": "Live has a Lottie animation in image slot; extraction omits image (no static src). Acceptable since no static asset exists."
+      },
+      {
+        "index": 18,
+        "type": "feature-split",
+        "title": "Ritualiser",
+        "verdict": "OK"
+      },
+      {
+        "index": 19,
+        "type": "feature-split",
+        "title": "Aller au-delà des chiffres",
+        "verdict": "OK",
+        "note": "Live image is an SVG icon (portfolio8.svg). Extraction wisely omits it rather than including a non-mockup."
+      },
+      {
+        "index": 20,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK"
+      },
+      {
+        "index": 21,
+        "type": "testimonials",
+        "title": "Témoignages",
+        "verdict": "OK",
+        "note": "Marie-Odile role shortened to canonical title — acceptable cleanup."
+      }
+    ],
+    "summary": "Extraction is faithful and complete. All 22 sections from live are mapped to appropriate design-system types. Hero, icon-row (3 bullets merged), 4 feature-splits in first block, mid-page CTA, second intro+3 feature-splits, second CTA, third intro+6 feature-splits (with 2 missing image fields where live had Lottie/SVG icon), press-quotes (4 items) and testimonials (3 items) all correctly extracted. Title/highlight splits match live <strong> markup. Image URLs match live mockups."
+  }
+}
