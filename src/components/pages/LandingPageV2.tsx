@@ -329,11 +329,16 @@ function renderSection(section: LandingSection, index: number): ReactNode {
               {section.title}
             </Heading>
           ) : null}
+          {section.subtitle ? (
+            <Text size="lg" align="center" className="max-w-[60rem]">
+              {section.subtitle}
+            </Text>
+          ) : null}
           <div className="grid grid-cols-1 gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3 w-full max-w-[91.25rem]">
             {section.testimonials.slice(0, 6).map((t, i) => (
               <TestimonialCard
                 key={i}
-                quote={t.text}
+                quote={t.text || t.company || ""}
                 name={t.name}
                 role={t.role || ""}
                 readMoreLabel="Lire la suite"
