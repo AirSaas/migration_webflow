@@ -250,3 +250,111 @@ Living section. Append every proposal that needs a DS-level decision so the next
 3. Tests cover 3 paths: success (script + CTA renders), failure (adblock / CSP — fallback Button shown with `fallbackHref`), no-JS (server-rendered fallback).
 
 **Status**: see §6 row "HubspotCtaEmbed" — backlog item ready for build by next agent.
+
+### A3 — Rebuild fidelity audit on 5 LPs — ⚠️ findings logged (2026-04-27)
+
+**Proposed by**: Marianela after manual visual review of 5 representative pages on `lp-rebuild` branch (PpmPage, SolutionAirsaasExpertsTransfo, CapacityPlanning, SolutionGestionPortefeuilleProjet, EquipeComiteDirection).
+
+**Method**: per-section comparison of `docs/live-captures/{type}/{slug}.md` (Webflow ground truth captured 2026-04-23) vs the rebuild `.tsx` source. Full report in `docs/audit-lp-rebuild-2026-04-27.md` with 44+ findings IDed `[1.1]..[5.9]`.
+
+**Verdict**: rebuild **non pixel-fidèle**. Not a DS gap — every pattern observed is already covered by the 64 DS components. The rebuild simply did not use them correctly.
+
+**Top 5 findings (P1):**
+
+1. **`[3.8]` Placeholder testimonials** on CapacityPlanning — names "Sophie Lefèvre / Marc Durand / Claire Martin" are invented. Replace with the real ones from the live capture (Sébastien Louyot @Altavia + Aurore Butrot @Intuis).
+2. **`[5.1]` Invented KPIs** on EquipeComiteDirection — "70% / 1h / 120j / 4×" are fabricated; live shows the same 4 cards without explicit numbers. Either source the numbers or remove them.
+3. **`[1.1]` + `[3.1]` TabsFrame missing on 4 LPs** — hero-adjacent 6-anchor tabs absent across all 4 LPs (PPM, PMO, Capacity, PI Planning). `<TabsFrame>` exists in the DS but is unused. Use the canonical `LpExamplePage` blueprint as reference.
+4. **`[4.1]`–`[4.7]` Solution gestion-portefeuille-projet** stripped of 6+ editorial long-form sections. The page is SEO long-form on live; rebuild replaced it with a marketing template. Use `<ProseFrame variant="reading">` to restore the editorial sections.
+5. **`[1.5]` + `[3.10]` Image mismatches** — Roadmap COMEX shows portfolio-decisions image; CapacityPlanning swapped 2 images between sections (Agent IA Découpage ↔ Vue capacitaire).
+
+**Patterns DS extensions identified (action items for DS team):**
+
+| Pattern | Action | Status |
+|---|---|---|
+| `<ComparisonTableFrame>` cell `{ type: "check" \| "x", text: string }` for icon + descriptive text in same cell | DS extension | ✅ shipped 2026-04-27 (commit `96c61a5`) |
+| `<Hero>` `bottomTags` limit `0–4` → `0–6` (live PPM has 5 trust badges) | DS limit relax | pending — see `[1.11]` |
+| `<FeatureFrame imageSize>` — agent uses `default` everywhere; should use `narrow` (33%) or `compact` (40%) for editorial sections with graphic illustrations (not screenshots) — see `[4.2.a]` "Diminuez la frustration" | guidance / story | pending |
+| `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light = visual dissonance on 4 pages | redesign chrome OR forbid combo | pending |
+| `<Hero layout>` default — agent overuses `"split"` on 10/12 Solution pages where `"centered"` is more appropriate | guidance / Storybook story | pending |
+| `<LogosBar>` default size — logos rendered too small (height 40px) | expose `size="lg"` prop OR widen default | pending |
+| Footer `copyrightIcon` — 1 page uses `<span>FR</span>` text, 4 pages use `🇫🇷` emoji | enforce emoji partout | pending (1-line fix per page) |
+| `<CtaHighlightFrame>` to use for single CTA — agent wraps single `<CardCta>` in `<CtaFrame>` with `style={{ gridColumn: "1/-1", width: "70%" }}` inline (DS Strict violation) | guidance / lint rule | pending — 3 callsites to fix |
+
+**"The right way" — concrete code patterns for the rebuild agent:**
+
+```tsx
+// ❌ Wrong — single CTA forced via inline style hack
+<CtaFrame title="...">
+  <CardCta {...props} style={{ gridColumn: "1 / -1", width: "70%" }} />
+</CtaFrame>
+
+// ✅ Right — single CTA = CtaHighlightFrame
+<CtaHighlightFrame
+  titlePrefix="..."
+  titleHighlight="..."
+  ctaLabel="..."
+  ctaHref="..."
+/>
+```
+
+```tsx
+// ❌ Wrong — table column with text strings only
+<ComparisonTableFrame
+  columns={[{ label: "Sans" }, { label: "Avec", highlight: true }]}
+  rows={[
+    { feature: "Reporting", values: ["Manuel", "Automatique uniforme"] },
+  ]}
+/>
+
+// ✅ Right — table column with icon + descriptive text combo (new variant)
+<ComparisonTableFrame
+  columns={[{ label: "Sans" }, { label: "Avec", highlight: true }]}
+  rows={[
+    {
+      feature: "Reporting",
+      values: [
+        { type: "x", text: "Manuel, hétérogène et chronophage" },
+        { type: "check", text: "Reporting décisionnel uniforme automatisé" },
+      ],
+    },
+  ]}
+/>
+```
+
+```tsx
+// ❌ Wrong — editorial section with graphic illustration uses default imageSize
+<FeatureFrame
+  imagePosition="right"
+  title="Diminuez la frustration..."
+  subtitle="..."
+  imageSrc="/illustration.svg"
+  imageAlt="..."
+/>
+// → image takes 60% of width, text squeezed at 40%
+
+// ✅ Right — editorial illustration uses narrow imageSize (33% image, 67% text)
+<FeatureFrame
+  imagePosition="right"
+  imageSize="narrow"
+  title="Diminuez la frustration..."
+  subtitle="..."
+  richContent={<>{/* multi-paragraph text */}</>}
+  imageSrc="/illustration.svg"
+  imageAlt="..."
+/>
+```
+
+```tsx
+// ❌ Wrong — single testimonial wrapped in TestimonialsFrame (forces grid of 1)
+<TestimonialsFrame title="Ils parlent" titleHighlight="de nous"
+  testimonials={[ { quote, name, role } ]}  // breaks min=2 contract
+/>
+
+// ✅ Right — single testimonial = inline composition (no frame)
+<section className="flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.125rem] lg:px-[10rem] lg:py-[6.25rem] bg-primary-2">
+  <SectionHeading titleHighlight="..." title="..." />
+  <TestimonialCard {...quote} className="max-w-[42rem] mx-auto" />
+</section>
+```
+
+**Action**: rebuild agent on `lp-rebuild` branch processes the audit findings by priority. The full per-section breakdown with code refs is in `docs/audit-lp-rebuild-2026-04-27.md`.
