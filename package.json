@@ -40,7 +40,6 @@
     "@vitest/browser-playwright": "^4.1.2",
     "@vitest/coverage-v8": "^4.1.2",
     "chrome-launcher": "^1.2.1",
-    "docx": "^9.6.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "eslint-plugin-storybook": "^10.3.4",
