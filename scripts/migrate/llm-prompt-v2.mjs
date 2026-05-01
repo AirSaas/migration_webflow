@@ -195,6 +195,20 @@ RÈGLES D'EXTRACTION (à respecter strictement) :
 # 16. FOOTER ICON & SMALL DETAILS
 - Le footer copyrightIcon doit toujours être l'emoji "🇫🇷" (PAS la chaîne "FR" en texte). Si tu vois "FR" en texte, corrige-le en emoji.
 
+# 17. CAPACITÉS DS ÉTENDUES (mises à jour Marianela 2026-04-30)
+- Hero \`bullets\` (= bottomTags / trust badges sous le titre) — limite étendue 0-4 → **0-6**. Si live a 5 ou 6 trust badges visibles, émets-les TOUS dans \`bullets[]\` (ne regroupe pas, ne tronque pas).
+  Exemple PPM live : ["+100 clients", "no credit card", "Opérationnel en 1 mois", "all features", "Accompagnement premium inclus"] = 5 badges.
+- comparison-table \`rows\` — chaque cellule peut être soit une string (legacy), soit un objet \`{ type: "check"|"x", text: string }\` pour combiner icône + texte descriptif.
+  Quand le live affiche une icône check/x AVEC un texte explicatif (pattern "Sans/Avec AirSaas" finding [5.3]), émets l'objet :
+  rows: [
+    [
+      "Reporting",
+      { "type": "x", "text": "Manuel, hétérogène et chronophage" },
+      { "type": "check", "text": "Reporting décisionnel uniforme automatisé" }
+    ]
+  ]
+  Si pas d'icône (juste du texte de comparaison plat), reste en strings.
+
 OBJECTIF : 8-15 sections, fields canoniques, zéro encoding leak, zéro placeholder leak, ZÉRO hallucination de KPI / testimonial / image / section non présent dans le source.
 `;
 
