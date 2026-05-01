@@ -9,12 +9,24 @@ import {
 
 /**
  * Cell value for a comparison column.
- * - `true`  → green check
- * - `false` → red X
+ * - `true`  → green check icon
+ * - `false` → red X icon
  * - string  → rendered as text (e.g. "Limité", "Sur devis")
+ * - `{ type: "check" | "x"; text: string }` → icon centered above descriptive text
+ *   (e.g. live "Avec AirSaas" column with ✓ + "Reporting décisionnel uniforme...")
  * - ReactNode → fully custom content
  */
-export type ComparisonCell = boolean | string | React.ReactNode;
+export type ComparisonCellWithText = {
+  type: "check" | "x";
+  /** Descriptive text shown below the icon. Max 120 chars. */
+  text: string;
+};
+
+export type ComparisonCell =
+  | boolean
+  | string
+  | ComparisonCellWithText
+  | React.ReactNode;
 
 export interface ComparisonRow {
   /** Bold feature name */
@@ -68,10 +80,13 @@ interface ComparisonTableFrameProps {
  *   - rows: 3–15 (past 15 the page gets heavy — split into multiple tables)
  *   - row.label: max 80 chars
  *   - cell string values: max 40 chars
+ *   - cell `{ type, text }` variant: text max 120 chars (multi-line allowed below icon)
  *
  * @forbidden
  *   - Do NOT mix boolean + string cells in the same column (visual inconsistency)
  *   - Do NOT use for "avec / sans" paired narrative — use <ComparisonDualFrame>
+ *   - Do NOT mix `{ type: "check" }` and `{ type: "x" }` in the same column unless
+ *     the table is intentionally a "good vs bad" split per row
  */
 export function ComparisonTableFrame({
   titleHighlight,
@@ -84,9 +99,15 @@ export function ComparisonTableFrame({
   className,
 }: ComparisonTableFrameProps) {
   // Build a CSS grid template: feature column flexes, value columns are fixed.
-  // 1fr for the feature column, then `9rem` per value column on lg+,
-  // collapsing to a more compact `5.5rem` on mobile.
+  // Two layouts:
+  //   - default (boolean / short string cells): narrow value columns (5.5rem
+  //     mobile, 9rem desktop) since cells are mostly icons or 1-2 word strings
+  //   - text-cells (when any cell uses { type, text } variant): wider value
+  //     columns (1fr each) so descriptive text wraps naturally below the icon
   const valueColCount = columns.length;
+  const hasTextCells = rows.some((row) =>
+    row.values.some((v) => isCellWithText(v)),
+  );
 
   return (
     <section
@@ -127,13 +148,13 @@ export function ComparisonTableFrame({
         }
         .cmp-row {
           display: grid;
-          grid-template-columns: 1fr repeat(${valueColCount}, 5.5rem);
+          grid-template-columns: ${hasTextCells ? `minmax(10rem, 1fr) repeat(${valueColCount}, minmax(8rem, 1fr))` : `1fr repeat(${valueColCount}, 5.5rem)`};
           column-gap: 0.625rem;
           align-items: stretch;
         }
         @media (min-width: 768px) {
           .cmp-row {
-            grid-template-columns: 1fr repeat(${valueColCount}, 9rem);
+            grid-template-columns: ${hasTextCells ? `minmax(14rem, 1fr) repeat(${valueColCount}, minmax(14rem, 1.2fr))` : `1fr repeat(${valueColCount}, 9rem)`};
             column-gap: 0.875rem;
           }
         }
@@ -248,47 +269,87 @@ export function ComparisonTableFrame({
   );
 }
 
+function CheckIconBadge({ ariaLabel }: { ariaLabel: string }) {
+  return (
+    <span
+      aria-label={ariaLabel}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "2rem",
+        height: "2rem",
+        fontSize: "2rem",
+        color: "var(--color-success-text)",
+        lineHeight: 1,
+      }}
+    >
+      <CircleCheckIcon color="var(--color-success-text)" />
+    </span>
+  );
+}
+
+function XIconBadge({ ariaLabel }: { ariaLabel: string }) {
+  return (
+    <span
+      aria-label={ariaLabel}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "2rem",
+        height: "2rem",
+        fontSize: "2rem",
+        color: "var(--color-warning)",
+        lineHeight: 1,
+      }}
+    >
+      <CircleXmarkIcon color="var(--color-warning)" />
+    </span>
+  );
+}
+
+function isCellWithText(value: ComparisonCell): value is ComparisonCellWithText {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    !Array.isArray(value) &&
+    "type" in value &&
+    "text" in value &&
+    (value.type === "check" || value.type === "x")
+  );
+}
+
 function ComparisonValue({ value }: { value: ComparisonCell }) {
   if (value === true) {
-    return (
-      <span
-        aria-label="Oui"
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "2rem",
-          height: "2rem",
-          fontSize: "2rem",
-          color: "var(--color-success-text)",
-          lineHeight: 1,
-        }}
-      >
-        <CircleCheckIcon color="var(--color-success-text)" />
-      </span>
-    );
+    return <CheckIconBadge ariaLabel="Oui" />;
   }
   if (value === false) {
-    return (
-      <span
-        aria-label="Non"
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "2rem",
-          height: "2rem",
-          fontSize: "2rem",
-          color: "var(--color-warning)",
-          lineHeight: 1,
-        }}
-      >
-        <CircleXmarkIcon color="var(--color-warning)" />
-      </span>
-    );
+    return <XIconBadge ariaLabel="Non" />;
   }
   if (typeof value === "string") {
     return <span className="cmp-cell-text">{value}</span>;
+  }
+  if (isCellWithText(value)) {
+    return (
+      <span
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "0.5rem",
+        }}
+      >
+        {value.type === "check" ? (
+          <CheckIconBadge ariaLabel="Oui" />
+        ) : (
+          <XIconBadge ariaLabel="Non" />
+        )}
+        <span className="cmp-cell-text" style={{ textAlign: "center" }}>
+          {value.text}
+        </span>
+      </span>
+    );
   }
   return <>{value}</>;
 }

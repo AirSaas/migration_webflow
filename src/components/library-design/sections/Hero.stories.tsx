@@ -149,3 +149,40 @@ export const Dark: Story = {
     imageAlt: "AirSaas product screenshot",
   },
 };
+
+/**
+ * Five trust badges — live LP PPM pattern.
+ *
+ * Mirrors the Hero on `airsaas.io/fr/lp/ppm` which shows 5 trust badges
+ * below the CTAs (point [1.11] of audit-lp-rebuild-2026-04-27.md). The
+ * `bottomTags` limit was relaxed from 0-4 to 0-6 (commit 2026-04-27) to
+ * support this canonical pattern. Use as copy-paste reference when fixing
+ * the LP PPM rebuild.
+ */
+export const FiveTrustBadges: Story = {
+  args: {
+    eyebrow: "OUTIL PPM",
+    title: "Un PPM avec une UX au top ?",
+    titleHighlight: "Ça existe.",
+    subtitle:
+      "Brief projet assisté par IA, flash report en 1 clic, roadmap partageable, vue macro consolidée. L'outil PPM que votre équipe va vraiment adopter.",
+    primaryCta: {
+      label: "Réservez une démo",
+      href: "/fr/meetings-pages",
+    },
+    secondaryCta: {
+      label: "▶️ Découvrir l'outil PPM en vidéo (5 min)",
+      href: "/fr/video/ppm",
+    },
+    bottomTags: [
+      { label: "+100 clients nous font confiance", variant: "success" },
+      { label: "no credit card", variant: "success" },
+      { label: "Opérationnel en 1 mois", variant: "success" },
+      { label: "all features", variant: "success" },
+      { label: "Accompagnement premium inclus", variant: "success" },
+    ],
+    imageSrc:
+      "https://placehold.co/1457x857/e8eafc/3a51e2?text=Flash+Report+Screenshot",
+    imageAlt: "AirSaas flash report screenshot",
+  },
+};

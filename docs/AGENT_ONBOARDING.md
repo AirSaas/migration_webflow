@@ -125,7 +125,7 @@ After all 4 are migrated, delete `_legacy/sections/` in a cleanup commit.
 
 | Item | Why deferred | What to do when you hit it |
 |---|---|---|
-| `HubspotCtaEmbed` | External script loader + env var dependency. Only 8 blog articles need it. | Inline: `<div id="hs-cta-wrapper-${ctaId}" />` + add the loader script `https://js.hscta.net/cta/current.js` once in `layout.tsx`. Promote to DS when ≥2 articles use it. |
+| `HubspotCtaEmbed` | ✅ **Approved for build (backlog)** — was previously deferred but proposal accepted (see §11 A2). 8 blog articles use the pattern, ≥2 threshold cleared. Build before Phase 1 blog rebuild to avoid inline tech debt. | New `library-design/ui/HubspotCtaEmbed.tsx`: props `portalId`, `ctaId`, optional `fallbackHref` + `fallbackLabel`. Singleton script loader (`window.__hsctaLoaderInjected` flag, NOT one script per CTA). `<Skeleton>` loading state. Fallback `<Button variant="primary">` if JS blocked. `@useWhen` scoped to `BlogArticleBody` only. Tests cover 3 paths: success / script-blocked / no-JS. |
 | Strapi content-type `article` | Schema not defined. Blocks content migration but not DS rebuild. | Propose schema + generate TypeScript types before wiring pages. |
 | `src/components/cms/ArticleBodyRenderer` | Blocks → DS components glue. Only needed when Strapi is wired. | Map block types (`rich-text`, `figure`, `blockquote`, etc.) to DS components (Heading, Text, IllustrationFrame, Quote, etc.). |
 | ~~Playwright snapshots for 11 new components~~ | ✅ **Resolved (commit `b5a3596`)** | `tests/visual/ds-components-storybook.spec.ts` covers the 11 components + `LpExamplePage` blueprint. 12 baselines committed. Run `npm run test:visual` (Storybook auto-started by playwright.config webServer). |
@@ -212,3 +212,150 @@ By the time you're done with a UI task:
 - [ ] Pre-commit hook passed
 
 **If all 10 boxes are checked**, the code is DS-compliant and ready to merge. Welcome to the team.
+
+---
+
+## 11. Active proposals — review log
+
+Living section. Append every proposal that needs a DS-level decision so the next agent has the reasoning trail (not just the final state).
+
+### A1 — `TestimonialsFrame.min` 2 → 1 — ❌ rejected (2026-04-27)
+
+**Proposed by**: external agent reviewing 26-pages audit residuals.
+**Scope**: 3 pages with a single testimonial (1 LP + 1 Équipes + 1 Solution).
+**Verdict**: **rejected**. Reasons:
+
+1. Contradicts current `@dontUse`: the contract explicitly says "for a single hero testimonial — just render a `<TestimonialCard>` inline".
+2. A "frame" is a grid wrapper. A grid of 1 cell is a fork (need a centered single-card layout) that adds branching logic + breaks the "frames render grids" mental model.
+3. Solution exists already: pages with 1 testimonial compose inline:
+   ```tsx
+   <section className="...same padding shape as TestimonialsFrame...">
+     <SectionHeading titleHighlight="..." title="..." />
+     <TestimonialCard {...quote} className="max-w-[42rem] mx-auto" />
+   </section>
+   ```
+4. If the inline pattern repeats ≥ 2 sites after rebuild → promote to a NEW dedicated `<SingleTestimonial>` ui-component, don't bend the frame.
+
+**Action**: external agent updates the 3 page templates to use the inline pattern. Frame contract stays at min=2.
+
+### A2 — `HubspotCtaEmbed` build — ✅ approved (2026-04-27)
+
+**Proposed by**: external agent reviewing blog audit residuals.
+**Scope**: 8 blog articles with HubSpot lead-magnet (whitepaper / demo book / etc.).
+**Verdict**: **approved**, build BEFORE Phase 1 (blog rebuild). Effort S (~60 lines).
+
+**Refinements added to original proposal**:
+1. Singleton script loader — guard via `window.__hsctaLoaderInjected` flag so the script `js.hscta.net/cta/current.js` is injected once (not 8 times if 8 CTAs render on the same article — rare but possible).
+2. Loading state — wrap container in `min-h-[3rem]` with `<Skeleton>` placeholder while script loads.
+3. Tests cover 3 paths: success (script + CTA renders), failure (adblock / CSP — fallback Button shown with `fallbackHref`), no-JS (server-rendered fallback).
+
+**Status**: see §6 row "HubspotCtaEmbed" — backlog item ready for build by next agent.
+
+### A3 — Rebuild fidelity audit on 5 LPs — ⚠️ findings logged (2026-04-27)
+
+**Proposed by**: Marianela after manual visual review of 5 representative pages on `lp-rebuild` branch (PpmPage, SolutionAirsaasExpertsTransfo, CapacityPlanning, SolutionGestionPortefeuilleProjet, EquipeComiteDirection).
+
+**Method**: per-section comparison of `docs/live-captures/{type}/{slug}.md` (Webflow ground truth captured 2026-04-23) vs the rebuild `.tsx` source. Full report in `docs/audit-lp-rebuild-2026-04-27.md` with 44+ findings IDed `[1.1]..[5.9]`.
+
+**Verdict**: rebuild **non pixel-fidèle**. Not a DS gap — every pattern observed is already covered by the 64 DS components. The rebuild simply did not use them correctly.
+
+**Top 5 findings (P1):**
+
+1. **`[3.8]` Placeholder testimonials** on CapacityPlanning — names "Sophie Lefèvre / Marc Durand / Claire Martin" are invented. Replace with the real ones from the live capture (Sébastien Louyot @Altavia + Aurore Butrot @Intuis).
+2. **`[5.1]` Invented KPIs** on EquipeComiteDirection — "70% / 1h / 120j / 4×" are fabricated; live shows the same 4 cards without explicit numbers. Either source the numbers or remove them.
+3. **`[1.1]` + `[3.1]` TabsFrame missing on 4 LPs** — hero-adjacent 6-anchor tabs absent across all 4 LPs (PPM, PMO, Capacity, PI Planning). `<TabsFrame>` exists in the DS but is unused. Use the canonical `LpExamplePage` blueprint as reference.
+4. **`[4.1]`–`[4.7]` Solution gestion-portefeuille-projet** stripped of 6+ editorial long-form sections. The page is SEO long-form on live; rebuild replaced it with a marketing template. Use `<ProseFrame variant="reading">` to restore the editorial sections.
+5. **`[1.5]` + `[3.10]` Image mismatches** — Roadmap COMEX shows portfolio-decisions image; CapacityPlanning swapped 2 images between sections (Agent IA Découpage ↔ Vue capacitaire).
+
+**Patterns DS extensions identified (action items for DS team):**
+
+| Pattern | Action | Status |
+|---|---|---|
+| `<ComparisonTableFrame>` cell `{ type: "check" \| "x", text: string }` for icon + descriptive text in same cell | DS extension | ✅ shipped 2026-04-27 (commit `96c61a5`) |
+| `<ComparisonFrame>` vs `<ComparisonTableFrame>` — agent picked the wrong DS component for `[5.3]` "7 raisons Sans/Avec AirSaas" (used Table grid, should use ComparisonFrame numbered-list) | guidance | rebuild agent must refactor — see `[5.3]`. Rule: editorial Avec/sans narrative = `<ComparisonFrame>` ; feature matrix multi-col = `<ComparisonTableFrame>` |
+| `<Hero>` `bottomTags` limit `0–4` → `0–6` (live PPM has 5 trust badges) | DS limit relax | ✅ shipped 2026-04-27 — story `Hero / FiveTrustBadges` is the canonical copy-paste reference for `[1.11]` |
+| `<FeatureFrame imageSize>` — agent uses `default` everywhere; should use `narrow` (33%) or `compact` (40%) for editorial sections with graphic illustrations (not screenshots) — see `[4.2.a]` "Diminuez la frustration" | guidance / story | ✅ shipped 2026-04-27 — story `Sections / Features Sections / FeatureFrame / Rich Text / EditorialIllustration` is the canonical copy-paste reference (uses exact copy from `[4.2.a]`) |
+| `<ValuePropositionFrame variant="dark">` + `<FeatureCard>` light = visual dissonance on 4 pages | redesign chrome OR forbid combo | pending |
+| `<Hero layout>` default — agent overuses `"split"` on 10/12 Solution pages where `"centered"` is more appropriate | guidance / Storybook story | pending |
+| `<LogosBar>` default size — logos rendered too small (height 40px) | expose `size="lg"` prop OR widen default | ✅ shipped 2026-04-27 — `size="md"` (4.14rem desktop, default) \| `"lg"` (5.5rem desktop). LP heroes should pass `size="lg"`. Story `LogosBar / SizeComparison` shows both. |
+| Footer `copyrightIcon` — 1 page uses `<span>FR</span>` text, 4 pages use `🇫🇷` emoji | enforce emoji partout | pending (1-line fix per page) |
+| `<CtaHighlightFrame>` to use for single CTA — agent wraps single `<CardCta>` in `<CtaFrame>` with `style={{ gridColumn: "1/-1", width: "70%" }}` inline (DS Strict violation) | guidance / lint rule | pending — 3 callsites to fix |
+
+**"The right way" — concrete code patterns for the rebuild agent:**
+
+```tsx
+// ❌ Wrong — single CTA forced via inline style hack
+<CtaFrame title="...">
+  <CardCta {...props} style={{ gridColumn: "1 / -1", width: "70%" }} />
+</CtaFrame>
+
+// ✅ Right — single CTA = CtaHighlightFrame
+<CtaHighlightFrame
+  titlePrefix="..."
+  titleHighlight="..."
+  ctaLabel="..."
+  ctaHref="..."
+/>
+```
+
+```tsx
+// ❌ Wrong — table column with text strings only
+<ComparisonTableFrame
+  columns={[{ label: "Sans" }, { label: "Avec", highlight: true }]}
+  rows={[
+    { feature: "Reporting", values: ["Manuel", "Automatique uniforme"] },
+  ]}
+/>
+
+// ✅ Right — table column with icon + descriptive text combo (new variant)
+<ComparisonTableFrame
+  columns={[{ label: "Sans" }, { label: "Avec", highlight: true }]}
+  rows={[
+    {
+      feature: "Reporting",
+      values: [
+        { type: "x", text: "Manuel, hétérogène et chronophage" },
+        { type: "check", text: "Reporting décisionnel uniforme automatisé" },
+      ],
+    },
+  ]}
+/>
+```
+
+```tsx
+// ❌ Wrong — editorial section with graphic illustration uses default imageSize
+<FeatureFrame
+  imagePosition="right"
+  title="Diminuez la frustration..."
+  subtitle="..."
+  imageSrc="/illustration.svg"
+  imageAlt="..."
+/>
+// → image takes 60% of width, text squeezed at 40%
+
+// ✅ Right — editorial illustration uses narrow imageSize (33% image, 67% text)
+<FeatureFrame
+  imagePosition="right"
+  imageSize="narrow"
+  title="Diminuez la frustration..."
+  subtitle="..."
+  richContent={<>{/* multi-paragraph text */}</>}
+  imageSrc="/illustration.svg"
+  imageAlt="..."
+/>
+```
+
+```tsx
+// ❌ Wrong — single testimonial wrapped in TestimonialsFrame (forces grid of 1)
+<TestimonialsFrame title="Ils parlent" titleHighlight="de nous"
+  testimonials={[ { quote, name, role } ]}  // breaks min=2 contract
+/>
+
+// ✅ Right — single testimonial = inline composition (no frame)
+<section className="flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.125rem] lg:px-[10rem] lg:py-[6.25rem] bg-primary-2">
+  <SectionHeading titleHighlight="..." title="..." />
+  <TestimonialCard {...quote} className="max-w-[42rem] mx-auto" />
+</section>
+```
+
+**Action**: rebuild agent on `lp-rebuild` branch processes the audit findings by priority. The full per-section breakdown with code refs is in `docs/audit-lp-rebuild-2026-04-27.md`.
