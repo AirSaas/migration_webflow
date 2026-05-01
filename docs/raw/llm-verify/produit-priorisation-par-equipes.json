@@ -1,0 +1,29 @@
+{
+  "type": "produit",
+  "slug": "priorisation-par-equipes",
+  "verifiedAt": "2026-04-30T19:25:46.172Z",
+  "flagsCount": 4,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.2.title",
+      "sample": "Chaque équipe définie ses prios"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.title",
+      "sample": "Soyez notifié lorsque les priorités changent"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Organisez la roadmap de façon éclairée"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.body",
+      "sample": "<p>Sur vos portfolios, affichez la priorité de chaque projet validée par l'équipe en demande. Cette "
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.2.title\" contains \"Chaque équipe définie ses prios\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.3.title\" contains \"Soyez notifié lorsque les priorités changent\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.4.title\" contains \"Organisez la roadmap de façon éclairée\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.4.body\" contains \"<p>Sur vos portfolios, affichez la priorité de chaque projet validée par l'équipe en demande. Cette \" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

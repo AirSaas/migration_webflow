@@ -45,11 +45,13 @@ async function fetchOnePage(type, slug) {
 import { landingPageJsonSchema, blogArticleJsonSchema } from "./llm-parse-schemas.mjs";
 import { SYSTEM_PROMPT_V2 } from "./llm-prompt-v2.mjs";
 import { validate, generateFeedback, summarize } from "./llm-validators.mjs";
+import { buildImageContext, formatImageContextForPrompt } from "./llm-image-context.mjs";
 
 const ENV = loadEnv();
 const MODEL = "claude-opus-4-7";
 const MAX_ITERATIONS = 3;
-const BUDGET_CAP_USD = 80;
+// Bumped for Phase 6 (62 blogs × ~$1 each = ~$62). Adjust if needed.
+const BUDGET_CAP_USD = 150;
 const OUT_DIR = join(REPO_ROOT, "docs/raw/llm-test");
 
 // Opus 4.7 pricing
@@ -97,11 +99,36 @@ const TEST_PAGES_FULL = [
 const args = process.argv.slice(2);
 const slugFilter = args.find((a) => a.startsWith("--slug="))?.slice(7);
 const typeFilter = args.find((a) => a.startsWith("--type="))?.slice(7)?.split(",");
-const TEST_PAGES = TEST_PAGES_FULL.filter((p) => {
-  if (slugFilter && p.slug !== slugFilter) return false;
-  if (typeFilter && !typeFilter.includes(p.type)) return false;
-  return true;
-});
+
+async function fetchSlugsFromSupabase(types) {
+  const inList = types.map((t) => `"${t}"`).join(",");
+  const url =
+    `${SUPABASE_URL}/rest/v1/airsaas_pages_rebuild` +
+    `?type=in.(${types.join(",")})&select=type,slug&order=slug&limit=200`;
+  const res = await fetch(url, {
+    headers: {
+      apikey: SUPABASE_ANON_KEY,
+      Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+      Accept: "application/json",
+    },
+  });
+  if (!res.ok) throw new Error(`Supabase ${res.status} listing ${inList}`);
+  return await res.json();
+}
+
+// If --type=blog is passed (a type not in the hardcoded landings list),
+// fetch slugs dynamically from Supabase. Useful for the 62 blogs in Phase 6.
+let TEST_PAGES;
+if (typeFilter && typeFilter.includes("blog")) {
+  TEST_PAGES = await fetchSlugsFromSupabase(typeFilter);
+  if (slugFilter) TEST_PAGES = TEST_PAGES.filter((p) => p.slug === slugFilter);
+} else {
+  TEST_PAGES = TEST_PAGES_FULL.filter((p) => {
+    if (slugFilter && p.slug !== slugFilter) return false;
+    if (typeFilter && !typeFilter.includes(p.type)) return false;
+    return true;
+  });
+}
 
 let totalCost = 0;
 let totalTokens = { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 };
@@ -211,12 +238,17 @@ async function fetchPageHtml(type, slug) {
 }
 
 function buildUserPrompt(slug, type, html, feedback) {
+  const imageCtx = type === "blog" ? "" : formatImageContextForPrompt(buildImageContext(html));
   let userText = `Page slug: ${slug}\nPage type: ${type}\n\n`;
   if (feedback) {
-    userText += `${feedback}\n\nHTML source (already-cleaned, with SVG/nav/footer stripped):\n\n\`\`\`html\n${html}\n\`\`\``;
+    userText += `${feedback}\n\n`;
   } else {
-    userText += `Walk this rendered Webflow HTML top-to-bottom and emit ONE entry per visible section in the sections array. Target 8-15 sections for landings.\n\nHTML source (already-cleaned, with SVG/nav/footer stripped):\n\n\`\`\`html\n${html}\n\`\`\``;
+    userText += `Walk this rendered Webflow HTML top-to-bottom and emit ONE entry per visible section in the sections array. Target 8-15 sections for landings.\n\n`;
   }
+  if (imageCtx) {
+    userText += `${imageCtx}\n\n`;
+  }
+  userText += `HTML source (already-cleaned, with SVG/nav/footer stripped):\n\n\`\`\`html\n${html}\n\`\`\``;
   return userText;
 }
 

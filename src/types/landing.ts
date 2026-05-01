@@ -213,6 +213,106 @@ export interface RawSection {
   html: string;
 }
 
+/** Tab anchors row (typically hero-adjacent) — links to in-page sections. */
+export interface TabsFrameSection {
+  type: "tabs-frame";
+  variant?: "light" | "dark";
+  sticky?: boolean;
+  tabs: { label: string; href: string }[];
+}
+
+/** Single highlight CTA card with tri-part gradient title. */
+export interface CtaHighlightSection {
+  type: "cta-highlight";
+  titlePrefix: string;
+  titleHighlight: string;
+  titleSuffix?: string;
+  subtitle?: string;
+  ctaLabel: string;
+  ctaHref?: string;
+}
+
+/** Numbered comparison list (pain-points alternate variant with value/desc tuples). */
+export interface ComparisonFrameSection {
+  type: "comparison-frame";
+  emoji?: string;
+  title: string;
+  subtitle?: string;
+  items: { value: string | number; description: string }[];
+}
+
+/** Non-sequential principles grid (DROP/ADD style, 2-3 columns). */
+export interface PillarFrameSection {
+  type: "pillar-frame";
+  variant?: "light" | "dark";
+  tag?: string;
+  title: string;
+  titleHighlight?: string;
+  subtitle?: string;
+  columns?: 2 | 3;
+  pillars: {
+    iconName?: string;
+    title: string;
+    description: string;
+    example?: string;
+    exampleLabel?: string;
+  }[];
+}
+
+/** Vertically stacked zigzag highlights with big gradient values. */
+export interface HighlightFrameSection {
+  type: "highlight-frame";
+  title: string;
+  titleHighlight?: string;
+  subtitle?: string;
+  items: { value: string | number; description: string }[];
+}
+
+/** Stacked feature with title + list + bleed image. */
+export interface FeatureStackedSection {
+  type: "feature-stacked";
+  titleGradient: string;
+  titleDark?: string;
+  titleDarkPrefix?: string;
+  subtitle?: string;
+  listItems?: string[];
+  imageSrc?: string;
+  imageAlt: string;
+  variant?: "default" | "primary2";
+}
+
+/** Generic value proposition grid (flexible columns + cards). */
+export interface ValuePropositionSection {
+  type: "value-proposition";
+  variant?: "light" | "dark";
+  tag?: string;
+  title: string;
+  titleHighlight?: string;
+  subtitle?: string;
+  columns?: 2 | 3 | 4 | 5 | 6;
+  items: {
+    iconName?: string;
+    title: string;
+    description?: string;
+  }[];
+}
+
+/** Rich steps frame with explicit numbers + icons (variant of "steps"). */
+export interface StepsRichSection {
+  type: "steps-rich";
+  variant?: "light" | "dark";
+  tag?: string;
+  title: string;
+  titleHighlight?: string;
+  subtitle?: string;
+  steps: {
+    number?: number;
+    iconName?: string;
+    title: string;
+    description: string;
+  }[];
+}
+
 export type LandingSection =
   | HeroSection
   | IntroSection
@@ -230,6 +330,14 @@ export type LandingSection =
   | IconRowSection
   | RelatedSection
   | TrustBadgesSection
+  | TabsFrameSection
+  | CtaHighlightSection
+  | ComparisonFrameSection
+  | PillarFrameSection
+  | HighlightFrameSection
+  | FeatureStackedSection
+  | ValuePropositionSection
+  | StepsRichSection
   | RawSection;
 
 export interface LandingPage {

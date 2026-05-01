@@ -69,6 +69,40 @@ TYPES DE SECTIONS DISPONIBLES (17 types — utilise le bon \`type\` discriminato
 17. raw — Fallback générique pour sections non-classifiables.
     Fields: { type: "raw", html: string }
     À utiliser EN DERNIER RECOURS uniquement.
+
+—— TYPES DS ÉTENDUS (Phase 1, à utiliser quand le DOM matche) ——
+
+18. tabs-frame — Row de tabs ancres juste sous le hero (Portfolio / Quarter plan / Capacitaire / etc.). Ressemble à des liens-ancres horizontaux.
+    Fields: { type: "tabs-frame", variant?: "light"|"dark", sticky?: boolean, tabs: [{label, href}] }
+    Détection : 3-6 \`<a href="#anchor">\` groupés horizontalement, souvent dans une div .tabs ou avec class "w-tabs-link". Si live a un widget Lottie/Tab → tabs-frame.
+
+19. cta-highlight — Single CTA banner premium avec titre tri-part (prefix dark + highlight gradient + suffix dark).
+    Fields: { type: "cta-highlight", titlePrefix, titleHighlight, titleSuffix?, subtitle?, ctaLabel, ctaHref? }
+    Préfère cta-highlight à cta quand il n'y a qu'UNE seule CardCta (pas de dual-card).
+
+20. comparison-frame — Liste numérotée de pain-points / oppositions avec emoji + value/description tuples.
+    Fields: { type: "comparison-frame", emoji?, title, subtitle?, items: [{value, description}] }
+    Différent de pain-points : items sont des tuples (numéro/icône, description), pas des strings.
+
+21. pillar-frame — Grille de principes non-séquentiels (DROP / ADD / etc.) — 2-3 colonnes avec icônes.
+    Fields: { type: "pillar-frame", variant?: "light"|"dark", tag?, title, titleHighlight?, subtitle?, columns?: 2|3, pillars: [{iconName?, title, description, example?, exampleLabel?}] }
+    iconName : optionnel slug en kebab-case ("gears", "calendar-day", "lock-keyhole", "circle-check"). Si tu n'es pas sûr, omet iconName.
+
+22. highlight-frame — Liste verticale zigzag avec gros chiffres gradient à gauche, descriptions à droite (gains / bénéfices).
+    Fields: { type: "highlight-frame", title, titleHighlight?, subtitle?, items: [{value, description}] }
+    Différent de stats : items affichés verticalement, pas en row.
+
+23. feature-stacked — Section title + listItems puce + image qui bleed dans la suivante.
+    Fields: { type: "feature-stacked", titleGradient, titleDark?, titleDarkPrefix?, subtitle?, listItems?: [string], imageSrc?, imageAlt, variant?: "default"|"primary2" }
+    À utiliser quand image n'est pas en split mais full-bleed sous le texte.
+
+24. value-proposition — Grille générique de cards (3-5 cards de "Notre parti pris", "Nos chiffres", etc.) avec colonnes flexibles.
+    Fields: { type: "value-proposition", variant?: "light"|"dark", tag?, title, titleHighlight?, subtitle?, columns?: 2|3|4|5|6, items: [{iconName?, title, description?}] }
+    Préfère value-proposition à stats si les items sont des CARDS de texte (pas des metrics value+label).
+
+25. steps-rich — StepsFrame avec icônes explicites + numéros (variante riche du \`steps\`).
+    Fields: { type: "steps-rich", variant?: "light"|"dark", tag?, title, titleHighlight?, subtitle?, steps: [{number?, iconName?, title, description}] }
+    Préfère steps-rich à steps quand le live a clairement des icônes par étape.
 `;
 
 export const EXTRACTION_RULES = `
@@ -130,7 +164,38 @@ RÈGLES D'EXTRACTION (à respecter strictement) :
 - Préserve les hrefs tels quels du source. Si href absolu vers airsaas.io, conserve la forme courte (/fr/...).
 - Si href est vide ou "#" sur un CTA → utilise "/fr/meetings-pages" comme fallback raisonnable.
 
-OBJECTIF : 8-15 sections, fields canoniques, zéro encoding leak, zéro placeholder leak, zéro hallucination de contenu non présent dans le source.
+# 13. ANTI-HALLUCINATION (CRITIQUE — règle inviolable)
+- Tu n'inventes JAMAIS un KPI, un chiffre, un pourcentage, une métrique. Si tu vois une icône / une carte SANS chiffre explicite dans le HTML source → tu mets value="" ou tu omets l'item.
+  Exemples concrets de bugs passés :
+    × "70%" sur la page CODIR alors que live n'avait que des icônes sans chiffre → INTERDIT, omet
+    × "1h" / "120j" / "4×" idem si pas dans le DOM → INTERDIT, omet
+- Tu n'inventes JAMAIS un \`testimonial.name\`, \`role\`, \`company\`. Le name DOIT correspondre exactement à un nom dans le HTML source. Vérifie par grep mental.
+  Bug passé : "Sophie Lefèvre @Kiabi", "Marc Durand @Valrhona", "Claire Martin @Decathlon" inventés sur Capacity → INTERDIT.
+  Si tu n'as que des photos sans nom textuel → omet la section testimonials.
+- Tu n'inventes JAMAIS une URL d'image. Pour chaque \`imageSrc\`, l'URL DOIT apparaître quelque part dans le HTML source (\`<img src=...>\` ou \`background-image: url(...)\`). Sinon l'image cassera en prod.
+- Tu n'inventes JAMAIS de section. Si tu hésites "live a-t-il vraiment cette section ?" → ne l'émets PAS.
+
+# 14. INLINE CTA (à extraire — pas seulement les CTAs hero/cta)
+- Quand une section feature-split / pain-points / steps-rich contient un \`<a href="...">Bouton</a>\` à la fin du body (souvent classé .button ou .btn--primary), tu l'extrais comme \`primaryCta: {label, href}\`.
+- Exemples de patterns à attraper :
+    × Bootcamp : "🗓️ Infos et réservations" → /fr/bootcamp-airsaas-...
+    × Tooling : "Je book une démo" → meetings.hubspot.com
+    × LPDT : "En savoir plus" → /fr/lesprodelatransfo
+    × Témoignages : "Laissez nos clients vous parler" → /fr/temoignages
+- Pour comparison-table : si live a un bouton "Réservez une démo" sous la table → ajoute ctaLabel/ctaHref au section.
+
+# 15. IMAGE-CONTEXT MATCH (réduit les image swaps)
+- Pour chaque section avec imageSrc, l'image choisie doit être **proche** dans le DOM du titre/body de la section. Ne pioche pas une image au hasard du document.
+- Heuristique : utilise l'image qui apparaît dans le même \`<div class="container__features__section">\` ou le même bloc parent que le \`<h2>\`/\`<h3>\` de la section.
+- Si l'IMAGE-CONTEXT MAP est fourni dans le user message (mapping image → titre proche), respecte-le strictement. Si une image y apparaît avec sectionTitle="X", tu l'utilises uniquement pour la section dont le titre est X (ou très proche).
+- Bugs passés à éviter :
+    × Roadmap COMEX → Portfolio decisions image (mauvaise pioche)
+    × Capacity Agent IA / Vue capacitaire images swappées (cross-pollution)
+
+# 16. FOOTER ICON & SMALL DETAILS
+- Le footer copyrightIcon doit toujours être l'emoji "🇫🇷" (PAS la chaîne "FR" en texte). Si tu vois "FR" en texte, corrige-le en emoji.
+
+OBJECTIF : 8-15 sections, fields canoniques, zéro encoding leak, zéro placeholder leak, ZÉRO hallucination de KPI / testimonial / image / section non présent dans le source.
 `;
 
 export const SYSTEM_PROMPT_V2 = `Tu es un extracteur de structure de page web qui transforme du HTML rendu Webflow en données typées TypeScript pour un site Next.js avec un Design System strict.

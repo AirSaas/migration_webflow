@@ -1,0 +1,44 @@
+{
+  "type": "solution",
+  "slug": "flash-report",
+  "verifiedAt": "2026-04-30T19:25:40.338Z",
+  "flagsCount": 7,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.title",
+      "sample": "Toutes vos données consolidées en un seul clic"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.5.title",
+      "sample": "Une structure fixe, mais personnalisable"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.8.title",
+      "sample": "Une roadmap collaborative de vos projets"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.9.title",
+      "sample": "Une vision Kanban qui simplifie votre gouvernance"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.10.title",
+      "sample": "Des fiches de cadrage de projet collaboratives"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.11.title",
+      "sample": "Des intégrations natives pour faciliter la remontée d'informations"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.title",
+      "sample": "Ce qu'en disent nos clients"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.3.title\" contains \"Toutes vos données consolidées en un seul clic\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.5.title\" contains \"Une structure fixe, mais personnalisable\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.8.title\" contains \"Une roadmap collaborative de vos projets\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.9.title\" contains \"Une vision Kanban qui simplifie votre gouvernance\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.10.title\" contains \"Des fiches de cadrage de projet collaboratives\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.11.title\" contains \"Des intégrations natives pour faciliter la remontée d'informations\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.16.title\" contains \"Ce qu'en disent nos clients\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

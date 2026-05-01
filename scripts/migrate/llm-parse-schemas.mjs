@@ -186,6 +186,14 @@ const landingSectionSchema = {
         "icon-row",
         "related",
         "trust-badges",
+        "tabs-frame",
+        "cta-highlight",
+        "comparison-frame",
+        "pillar-frame",
+        "highlight-frame",
+        "feature-stacked",
+        "value-proposition",
+        "steps-rich",
         "raw",
       ],
     },
@@ -244,6 +252,41 @@ const landingSectionSchema = {
     ctaLabel: { type: "string" },
     ctaHref: { type: "string" },
     videoHref: { type: "string" },
+    // Phase 1 schema extension : new section type fields
+    tabs: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          label: { type: "string" },
+          href: { type: "string" },
+        },
+      },
+    },
+    sticky: { type: "boolean" },
+    titlePrefix: { type: "string" },
+    titleSuffix: { type: "string" },
+    emoji: { type: "string" },
+    columns: { type: "integer", enum: [2, 3, 4, 5, 6] },
+    pillars: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          iconName: { type: "string" },
+          title: { type: "string" },
+          description: { type: "string" },
+          example: { type: "string" },
+          exampleLabel: { type: "string" },
+        },
+      },
+    },
+    titleGradient: { type: "string" },
+    titleDark: { type: "string" },
+    titleDarkPrefix: { type: "string" },
+    listItems: { type: "array", items: { type: "string" } },
+    steps: { type: "array" },
+    tag: { type: "string" },
   },
 };
 

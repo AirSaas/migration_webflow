@@ -1,0 +1,29 @@
+{
+  "type": "produit",
+  "slug": "reporting-projet",
+  "verifiedAt": "2026-04-30T19:25:46.394Z",
+  "flagsCount": 4,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.2.title",
+      "sample": "Une fiche projet homogène"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.title",
+      "sample": "Un reporting généré en un clic"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Un reporting customisable"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.7.items.1.answer",
+      "sample": "Oui : AirSaas utilise l'API de Deepl pour une traduction de qualité avec un niveau de sécurité au to"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.2.title\" contains \"Une fiche projet homogène\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.3.title\" contains \"Un reporting généré en un clic\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.4.title\" contains \"Un reporting customisable\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.7.items.1.answer\" contains \"Oui : AirSaas utilise l'API de Deepl pour une traduction de qualité avec un niveau de sécurité au to\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

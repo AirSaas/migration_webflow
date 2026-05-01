@@ -1,0 +1,69 @@
+{
+  "type": "solution",
+  "slug": "management-de-portefeuille-projet",
+  "verifiedAt": "2026-04-30T19:25:47.317Z",
+  "flagsCount": 12,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.title",
+      "sample": "Une planification stratégique simplifiée grâce à votre vue macro"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Des intégrations natives pour limiter le report de données manuel"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.11.title",
+      "sample": "Votre reporting, véritable outil d'aide à la décision"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.12.title",
+      "sample": "Une structure personnalisable et ultra-lisible"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.14.title",
+      "sample": "Des fiches de cadrage co-créées"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.15.title",
+      "sample": "Une communication fluide avec tous les acteurs de votre transformation"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.title",
+      "sample": "Des bilans de projet bien huilés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.19.title",
+      "sample": "Réduire la durée des projets dans votre portefeuille"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.20.title",
+      "sample": "Définir un ordre d'exécution des différents projets"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.title",
+      "sample": "Privilégier l'achèvement de projets en cours que le lancement de nouveaux projets"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.22.title",
+      "sample": "Ritualiser votre portfolio project management"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.23.title",
+      "sample": "Renforcer la culture projet dans votre entreprise"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.3.title\" contains \"Une planification stratégique simplifiée grâce à votre vue macro\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.4.title\" contains \"Des intégrations natives pour limiter le report de données manuel\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.11.title\" contains \"Votre reporting, véritable outil d'aide à la décision\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.12.title\" contains \"Une structure personnalisable et ultra-lisible\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.14.title\" contains \"Des fiches de cadrage co-créées\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.15.title\" contains \"Une communication fluide avec tous les acteurs de votre transformation\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.16.title\" contains \"Des bilans de projet bien huilés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.19.title\" contains \"Réduire la durée des projets dans votre portefeuille\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.20.title\" contains \"Définir un ordre d'exécution des différents projets\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.title\" contains \"Privilégier l'achèvement de projets en cours que le lancement de nouveaux projets\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- ... +2 more.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

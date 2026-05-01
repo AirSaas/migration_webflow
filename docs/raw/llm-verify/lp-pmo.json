@@ -1,0 +1,24 @@
+{
+  "type": "lp",
+  "slug": "pmo",
+  "verifiedAt": "2026-04-30T19:25:43.304Z",
+  "flagsCount": 3,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.0.subtitle",
+      "sample": "L'outil des PMO modernes — AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoi"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.1.title",
+      "sample": "Découvrez AirSaas en action"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.1.subtitle",
+      "sample": "Une suite complète pour piloter votre portefeuille projets de bout en bout."
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.0.subtitle\" contains \"L'outil des PMO modernes — AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoi\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.1.title\" contains \"Découvrez AirSaas en action\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.1.subtitle\" contains \"Une suite complète pour piloter votre portefeuille projets de bout en bout.\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

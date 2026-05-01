@@ -44,6 +44,74 @@ function loadLlmData(): Map<string, LlmRow> {
   }
 }
 
+type DesignerGateEntry = {
+  type: string;
+  slug: string;
+  verdict: string;
+  verifyFlags: number;
+  fabricatedSamples: string[];
+  rebuildHref: string;
+  liveHref: string;
+};
+
+function liveUrlFor(type: string, slug: string): string {
+  const base = "https://www.airsaas.io";
+  if (type === "lp") return `${base}/fr/lp/${slug}`;
+  if (type === "produit") return `${base}/fr/produit/${slug}`;
+  if (type === "solution") return `${base}/fr/solution/${slug}`;
+  if (type === "equipe") return `${base}/fr/equipes/${slug}`;
+  if (type === "blog") return `${base}/fr/gestion-de-projet/${slug}`;
+  return base;
+}
+
+function rebuildHrefFor(type: string, slug: string): string {
+  if (type === "lp") return `/fr/lp/${slug}`;
+  if (type === "produit") return `/fr/produit/${slug}`;
+  if (type === "solution") return `/fr/solutions/${slug}`;
+  if (type === "equipe") return `/fr/equipes/${slug}`;
+  if (type === "blog") return `/fr/blog/${slug}`;
+  return `/fr/${slug}`;
+}
+
+function loadDesignerGate(): DesignerGateEntry[] {
+  const verifyDir = join(process.cwd(), "docs/raw/llm-verify");
+  const auditDir = join(process.cwd(), "docs/raw/llm-audit");
+  if (!existsSync(verifyDir) || !existsSync(auditDir)) return [];
+
+  const fs = require("node:fs") as typeof import("node:fs");
+  const verifyFiles = fs.readdirSync(verifyDir).filter((f) => f.endsWith(".json"));
+  const entries: DesignerGateEntry[] = [];
+
+  for (const f of verifyFiles) {
+    try {
+      const verify = JSON.parse(fs.readFileSync(join(verifyDir, f), "utf8"));
+      const auditPath = join(auditDir, f);
+      const audit = existsSync(auditPath)
+        ? JSON.parse(fs.readFileSync(auditPath, "utf8"))
+        : null;
+      const verdict = audit?.audit?.globalVerdict || "—";
+      const verifyFlags = verify.flagsCount || 0;
+      // Flagged only if verify caught something OR audit non-FAITHFUL
+      if (verifyFlags === 0 && verdict === "FAITHFUL") continue;
+      const fabricatedSamples = (verify.flags || [])
+        .slice(0, 3)
+        .map((flag: { type: string; sample: string }) => `[${flag.type}] ${flag.sample.slice(0, 80)}`);
+      entries.push({
+        type: verify.type,
+        slug: verify.slug,
+        verdict,
+        verifyFlags,
+        fabricatedSamples,
+        rebuildHref: rebuildHrefFor(verify.type, verify.slug),
+        liveHref: liveUrlFor(verify.type, verify.slug),
+      });
+    } catch {
+      // ignore malformed
+    }
+  }
+  return entries.sort((a, b) => b.verifyFlags - a.verifyFlags);
+}
+
 // Status tiers reflect REAL severity for human review:
 // - PASS  : 0 P0, 0-1 P1 (clean or minor polish only)
 // - WARN  : 0 P0, 2-3 P1 (a few visible polish issues)
@@ -212,6 +280,7 @@ export default function AdminIndexRoute() {
 
   const allLandings = [...lpItems, ...produitItems, ...solutionItems, ...equipeItems];
   const totals = tally([...allLandings, ...blogItems]);
+  const designerGate = loadDesignerGate();
 
   return (
     <main className="flex min-h-screen flex-col bg-background px-[1.5rem] py-[3rem] md:px-[3rem] lg:px-[6rem]">
@@ -227,6 +296,71 @@ export default function AdminIndexRoute() {
             <strong>PASS</strong> = clean. <strong>WARN</strong> = 2-3 issues visibles. <strong>HEAVY</strong> = ≥4 issues visibles (presque cassée). <strong>BLOCK</strong> = ≥1 P0 (sections vides, contenu manquant). Cliquer sur "voir détails" pour lire les descriptions exactes des issues. Source : <code>docs/raw/qa-llm.json</code>.
           </Text>
         </header>
+
+        {designerGate.length > 0 ? (
+          <section className="flex flex-col gap-[1rem]">
+            <div className="flex items-baseline justify-between gap-[1rem]">
+              <Heading level={2} align="left">
+                Designer Gate — pages flaggées ({designerGate.length})
+              </Heading>
+              <Text size="sm" className="text-text-muted">
+                Verify flags + audit non-FAITHFUL · ouvrir rebuild + live côte à côte
+              </Text>
+            </div>
+            <ul className="bg-white rounded-[0.5rem] border border-warning-30 px-[1rem] py-[0.5rem]">
+              {designerGate.map((entry) => (
+                <li
+                  key={`${entry.type}-${entry.slug}`}
+                  className="flex flex-col gap-[0.5rem] py-[0.75rem] border-b border-border last:border-b-0"
+                >
+                  <div className="flex flex-wrap items-center gap-[0.75rem]">
+                    <span className="inline-block min-w-[7rem] text-center text-xs font-mono font-semibold px-[0.5rem] py-[0.125rem] rounded bg-warning-10 text-warning">
+                      {entry.verdict}
+                    </span>
+                    <span className="inline-block min-w-[5rem] text-xs font-mono text-text-muted">
+                      {entry.verifyFlags} verify
+                    </span>
+                    <span className="font-medium flex-1 truncate">
+                      {entry.type}/{entry.slug}
+                    </span>
+                    <Link
+                      href={entry.rebuildHref}
+                      className="text-primary hover:underline text-sm"
+                      target="_blank"
+                    >
+                      Rebuild ↗
+                    </Link>
+                    <Link
+                      href={entry.liveHref}
+                      className="text-primary hover:underline text-sm"
+                      target="_blank"
+                    >
+                      Live ↗
+                    </Link>
+                  </div>
+                  {entry.fabricatedSamples.length > 0 ? (
+                    <details className="ml-[7rem]">
+                      <summary className="cursor-pointer text-xs text-text-muted hover:text-foreground">
+                        {entry.fabricatedSamples.length} fabricated sample
+                        {entry.fabricatedSamples.length > 1 ? "s" : ""} — voir
+                      </summary>
+                      <ul className="mt-[0.5rem] flex flex-col gap-[0.25rem] pl-[1rem] border-l-2 border-border">
+                        {entry.fabricatedSamples.map((sample, i) => (
+                          <li
+                            key={i}
+                            className="text-xs text-text-p font-mono"
+                          >
+                            {sample}
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <section className="flex flex-col gap-[1rem]">
           <div className="flex items-baseline justify-between gap-[1rem]">

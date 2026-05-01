@@ -1,0 +1,24 @@
+{
+  "type": "produit",
+  "slug": "capacity-planning",
+  "verifiedAt": "2026-04-30T19:25:39.177Z",
+  "flagsCount": 3,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Estimation du temps nécessaire au livrable"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.5.title",
+      "sample": "Estimation des temps nécessaires et disponibles par équipe"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.6.title",
+      "sample": "Sur l'échelle de temps qui fait sens : au trimestre, au semestre, au PI"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.4.title\" contains \"Estimation du temps nécessaire au livrable\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.5.title\" contains \"Estimation des temps nécessaires et disponibles par équipe\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.6.title\" contains \"Sur l'échelle de temps qui fait sens : au trimestre, au semestre, au PI\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}
