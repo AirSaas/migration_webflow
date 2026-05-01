@@ -1,0 +1,29 @@
+{
+  "type": "lp",
+  "slug": "capacity-planning",
+  "verifiedAt": "2026-04-30T19:25:41.427Z",
+  "flagsCount": 4,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.1.title",
+      "sample": "Découvrez AirSaas en 6 vues produit"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.1.subtitle",
+      "sample": "Portfolio, Quarter plan, Capacitaire, Priorisation, Roadmap, Reporting — explorez chaque module."
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.11.body",
+      "sample": "<p>Que se passe-t-il si on décale ce projet ? Si on ajoute celui-là ? Visualisez l'impact en temps r"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.19.items.1.description",
+      "sample": "Quarter Plan & gestion capacitaire : la méthode complète."
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.1.title\" contains \"Découvrez AirSaas en 6 vues produit\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.1.subtitle\" contains \"Portfolio, Quarter plan, Capacitaire, Priorisation, Roadmap, Reporting — explorez chaque module.\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.11.body\" contains \"<p>Que se passe-t-il si on décale ce projet ? Si on ajoute celui-là ? Visualisez l'impact en temps r\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.19.items.1.description\" contains \"Quarter Plan & gestion capacitaire : la méthode complète.\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

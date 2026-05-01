@@ -1,0 +1,166 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-portefeuille-de-projet",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK"
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Le tableau de bord préféré des PMO et DSI",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "intro",
+        "title": "Visualisez en mode macro",
+        "verdict": "OK"
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Une vue macro / planification stratégique",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Intégrations natives",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "intro",
+        "title": "Personnalisez les vues",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Vue liste",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Vue Kanban",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Vue timeline",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "cta",
+        "title": "Vitesse supérieure",
+        "verdict": "OK",
+        "note": "Live says 'gagner du temps' bolded only; minor split between title/highlight is acceptable"
+      },
+      {
+        "index": 10,
+        "type": "intro",
+        "title": "Automatisez votre reporting",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Flash report / décision",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "Structure bien huilée",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "intro",
+        "title": "Collaborez pour mieux transformer",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Fiches de cadrage",
+        "verdict": "OK"
+      },
+      {
+        "index": 15,
+        "type": "feature-split",
+        "title": "Communiquez avec parties prenantes",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "feature-split",
+        "title": "Bilans de projet",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "cta",
+        "title": "Gagner du temps",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "intro",
+        "title": "Clés de succès",
+        "verdict": "OK"
+      },
+      {
+        "index": 19,
+        "type": "feature-split",
+        "title": "Indicateurs de performance",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is an SVG icon (outil10.svg) but it matches what's on live, so this is faithful reproduction"
+      },
+      {
+        "index": 20,
+        "type": "feature-split",
+        "title": "KPI selon besoins",
+        "verdict": "WRONG_IMAGE",
+        "note": "SVG icon (outil11.svg) - matches live"
+      },
+      {
+        "index": 21,
+        "type": "feature-split",
+        "title": "Co-construire avec métiers",
+        "verdict": "WRONG_IMAGE",
+        "note": "SVG icon (outil12.svg) - matches live"
+      },
+      {
+        "index": 22,
+        "type": "feature-split",
+        "title": "Indicateurs limpides",
+        "verdict": "OK"
+      },
+      {
+        "index": 23,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK"
+      },
+      {
+        "index": 24,
+        "type": "testimonials",
+        "title": "Testimonials",
+        "verdict": "OK",
+        "note": "Marie-Odile role abbreviated in extraction vs full long role on live, acceptable trim"
+      }
+    ],
+    "summary": "Extraction is faithful to the live page. All 25 sections are present and content/images match. The three SVG icons in the \"clés de succès\" feature-splits are flagged as WRONG_IMAGE per criteria, but they faithfully reproduce what's on live (live also uses these SVG icons, not product mockups). No sections from live are missing in the extract."
+  }
+}

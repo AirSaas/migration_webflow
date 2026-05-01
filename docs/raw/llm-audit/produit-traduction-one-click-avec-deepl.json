@@ -1,0 +1,67 @@
+{
+  "type": "produit",
+  "slug": "traduction-one-click-avec-deepl",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK"
+      },
+      {
+        "index": 1,
+        "type": "intro",
+        "title": "Le rapport flash désormais en multilingue sur AirSaas",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "intro",
+        "title": "Vos chefs de projets et PO vont adorer",
+        "verdict": "OK",
+        "note": "Live has the quote in a separate testimonial-styled div; extraction merges it as <em> in body. Acceptable but could have been a testimonial section."
+      },
+      {
+        "index": 3,
+        "type": "feature-split",
+        "title": "Plateforme multilingue",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "feature-split",
+        "title": "Écrivez dans votre langue maternelle",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Animer une réunion",
+        "verdict": "OK",
+        "note": "imageSrc is a Lottie .json animation; faithful to live but may not render as image."
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Une autre langue",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "intro",
+        "title": "En bref ...",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "verdict": "OK"
+      }
+    ],
+    "missingFromExtract": [],
+    "globalVerdict": "FAITHFUL",
+    "summary": "Extraction is faithful to the live page. All hero, intro, feature-split, and CTA sections are correctly mapped with proper titles, highlights, body content, and images. The pull-quote in section 2 is rendered inline as <em> rather than as a dedicated testimonial block, but that's a minor structural choice. Section 5's imageSrc references a Lottie .json file (matching live), which may need rendering consideration but is faithful."
+  }
+}

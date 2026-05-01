@@ -1,0 +1,149 @@
+{
+  "type": "lp",
+  "slug": "pmo",
+  "audit": {
+    "globalVerdict": "MOSTLY_FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, subtitle, CTAs, bullets all match live. Tag 'L'outil des PMO modernes' correctly captured as bullet."
+      },
+      {
+        "index": 1,
+        "type": "icon-row",
+        "title": "Découvrez AirSaas en action",
+        "verdict": "INCOMPLETE",
+        "note": "Live has 6 tabs (Portfolio, Quarter plan, Capacitaire, Priorisation, Roadmap, Reporting) with Lottie animations as a tabbed showcase. The icon-row labels match but live has no 'Découvrez AirSaas en action' / 'Une suite complète...' heading - this title/subtitle appears fabricated."
+      },
+      {
+        "index": 2,
+        "type": "logo-bar",
+        "title": "Ils pilotent avec AirSaas",
+        "verdict": "OK",
+        "note": "5 logos match exactly."
+      },
+      {
+        "index": 3,
+        "type": "stats",
+        "title": "Stats",
+        "verdict": "OK",
+        "note": "All 4 stat values and labels match."
+      },
+      {
+        "index": 4,
+        "type": "pain-points",
+        "title": "Le quotidien du PMO aujourd'hui",
+        "verdict": "OK",
+        "note": "All 4 pain points faithfully captured."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Agent IA de qualification",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Email Bilan de santé",
+        "verdict": "OK",
+        "note": "Reversed correctly set for left-aligned image variant."
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Flash Report",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Kanban des décisions",
+        "verdict": "OK",
+        "note": "Live has duplicate bullet 'Owner et échéance assignés' twice; extraction de-duped to 'Statut et suivi en temps réel' which is a small fabrication, but reasonable cleanup."
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "title": "Cadrage projet guidé",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "KPI Quarter Plan",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Planification trimestrielle",
+        "verdict": "OK",
+        "note": "Live has duplicated text 'Alignement DSI / Métiers / ComexAlignement DSI / Métiers / Comex' — extraction correctly cleaned this."
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "Gestion de la capacité",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Vision globale du portefeuille",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "icon-row",
+        "title": "De contremaître à coach d'organisation",
+        "verdict": "OK",
+        "note": "Labels combine title + description from live cards, content faithful."
+      },
+      {
+        "index": 15,
+        "type": "testimonials",
+        "title": "Ils parlent de nous",
+        "verdict": "OK",
+        "note": "Both testimonials match. Note: Alexandre F.'s LinkedIn URL points to clement-royer which mirrors live HTML (likely a live bug, faithfully reproduced)."
+      },
+      {
+        "index": 16,
+        "type": "trust-badges",
+        "title": "Sécurité au top",
+        "verdict": "OK",
+        "note": "Labels combine heading + sub e.g. 'ISO 27001 — Certifié', faithful to live structure."
+      },
+      {
+        "index": 17,
+        "type": "logo-bar",
+        "title": "Connecté à votre écosystème",
+        "verdict": "OK"
+      },
+      {
+        "index": 18,
+        "type": "steps",
+        "title": "Comment ça marche",
+        "verdict": "OK"
+      },
+      {
+        "index": 19,
+        "type": "faq",
+        "title": "Questions fréquentes",
+        "verdict": "OK"
+      },
+      {
+        "index": 20,
+        "type": "cta",
+        "title": "Prêt à devenir le PMO stratégique",
+        "verdict": "OK",
+        "note": "Title, subtitle, both CTA cards match live."
+      }
+    ],
+    "summary": "Extraction is mostly faithful. The hero, stats, pain-points, all 8 feature-splits, testimonials, trust-badges, logo bars, steps, FAQ and final CTA all match live content accurately. Two minor issues: (1) the first icon-row's title 'Découvrez AirSaas en action' and subtitle appear fabricated — live has no such heading, just a tabbed Lottie showcase with the 6 module icons; (2) the Kanban des décisions section has a small bullet substitution where live had a duplicated bullet. No sections from live are missing from the extraction."
+  }
+}

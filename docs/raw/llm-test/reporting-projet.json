@@ -1,0 +1,90 @@
+{
+  "type": "produit",
+  "slug": "reporting-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Reporting projet — AirSaas",
+      "description": "Découvrez comment AirSaas transforme le reporting projet en plaisir : fiches projet homogènes, rapport flash en un clic, customisable et automatisé."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Découvrez enfin le plaisir du",
+        "titleHighlight": "reporting projet",
+        "subtitle": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas, impliquer les sponsors, avoir des décisions éclairées prises rapidement, des risques adressés dans le timing imparti. Mais disons la vérité : il est vécu comme une corvée par ceux qui le produisent et n'est jamais lu par ceux qui le reçoivent. Dommage... Découvrez comment nous avons craqué le problème.",
+        "primaryCta": {
+          "label": "Je veux une démo",
+          "href": "/fr/meetings-pages"
+        }
+      },
+      {
+        "type": "intro",
+        "title": "Prenons de la hauteur",
+        "body": "<p>Voici les 3 principales raisons pour lesquelles le reporting projet ne fonctionne pas dans les organisations :</p><ul><li><strong>1 • Pas le bon niveau d'abstraction</strong> : trop précis, tout le monde est perdu. Trop macro il n'apporte pas de valeur. Il faut trouver le juste milieu.</li><li><strong>2 • Trop chronophage</strong> : si le responsable passe 3 jours par mois à chercher et consolider les informations il ne tiendra pas sur la durée.</li><li><strong>3 • Chacun son format</strong> : si tous les reportings sont différents d'un projet à un autre, leur lecture devient trop compliquée.</li></ul><p><strong>Le reporting doit être homogène, clair, rapide à produire.</strong></p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Une fiche projet homogène",
+        "titleHighlight": "projet homogène",
+        "body": "Sur AirSaas, les fiches projets récapitulent les informations essentielles. Les éléments de cadrage (gains attendus, personnes impliquées, timeline des jalons, etc.) et les avancées d'exécution (progression, décisions à prendre, nouveaux risques, etc.). Pour plus de clarté, elles ont le même format d'un projet à l'autre.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422c2062f8e4b86c4a3030_Presentation%20cadrage%20slide.webp",
+        "imageAlt": "Flash reporting cadrage",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Un reporting généré en un clic",
+        "titleHighlight": "en un clic",
+        "body": "En un clic, générez le rapport flash aux couleurs de votre organisation, exportable au format PowerPoint ou PDF. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664602d0797ac9294687de0e_Portfolio-%20bt-presentation.webp",
+        "imageAlt": "Report flash"
+      },
+      {
+        "type": "feature-split",
+        "title": "Un reporting customisable",
+        "titleHighlight": "customisable",
+        "body": "Faites passer les bons messages dans votre rapport flash en épinglant les décisions à afficher, les points d'attention à aborder, les comptes rendu des dernières réunions, les derniers points succès de l'équipe, etc.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664601436288365bdf5ec9bf_Presentation%20Execution%20screen.webp",
+        "imageAlt": "Execution presentation",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Plus besoin d'aller à la pêche aux informations",
+        "titleHighlight": "pêche aux informations",
+        "body": "Sur AirSaas, passez un deal avec vos chefs de projets : « ce projet doit être à jour toutes les 2 semaines, le jeudi ». On s'occupe d'envoyer les rappels de mise à jour et vous donnons accès aux écrans de contrôle.",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6645c08a054447c12df6647a_modale%20activation%20reminder.webp",
+        "imageAlt": "modale activation reminder"
+      },
+      {
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "subtitle": "Discutons-en et bénéficiez d'une démo sur mesure",
+        "ctaLabel": "Je veux une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "faq",
+        "title": "Vos questions sur le reporting AirSaas",
+        "titleHighlight": "Vos questions",
+        "items": [
+          {
+            "question": "Je peux customiser le reporting ?",
+            "answer": "Oui ! Le rapport flash est personnalisable avec vos couleurs et votre logo. Vous pouvez ensuite choisir les éléments que vous voulez montrer."
+          },
+          {
+            "question": "On peut traduire le rapport flash automatiquement ?",
+            "answer": "Oui : AirSaas utilise l'API de Deepl pour une traduction de qualité avec un niveau de sécurité au top."
+          },
+          {
+            "question": "Comment je rajoute les éléments de risques, de décisions ?",
+            "answer": "C'est très simple : les chefs de projet ou Product Owners font remonter les décisions dans les compte-rendus de réunion depuis AirSaas. Ces décisions et risques sont automatiquement ajoutés dans le rapport flash. Vous pouvez bien sûr les enlever en un clic."
+          }
+        ]
+      }
+    ]
+  }
+}

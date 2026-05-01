@@ -31,7 +31,7 @@ interface ValuePropositionFrameProps {
   titleHighlight?: string;
   /** Second part of the title — rendered in dark-to-primary gradient (light) or white (dark) */
   title: string;
-  subtitle: string;
+  subtitle?: string;
   /** Number of columns at lg breakpoint (default 4). 2 | 3 | 4 | 5 | 6. */
   columns?: 2 | 3 | 4 | 5 | 6;
   children: React.ReactNode;
@@ -86,14 +86,16 @@ export function ValuePropositionFrame({
           </Heading>
         )}
 
-        <Text
-          size="md"
-          align="center"
-          maxWidth="52.9375rem"
-          className={isDark ? "text-white" : undefined}
-        >
-          {subtitle}
-        </Text>
+        {subtitle && (
+          <Text
+            size="md"
+            align="center"
+            maxWidth="52.9375rem"
+            className={isDark ? "text-white" : undefined}
+          >
+            {subtitle}
+          </Text>
+        )}
       </div>
 
       {/* Grid of cards — passed as children for flexibility */}

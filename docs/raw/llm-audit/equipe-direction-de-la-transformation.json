@@ -1,0 +1,97 @@
+{
+  "type": "equipe",
+  "slug": "direction-de-la-transformation",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "summary": "Extraction faithfully reproduces all sections of the live page in correct order. Hero, press quotes, testimonials, intro, stats, feature splits, DAKI sub-sections, comparison table, CTA, and integrations are all present with accurate content. The \"Uniformisez le reporting projet\" feature-split correctly omits an image since the live page uses a Lottie animation (not an image) in that slot. The \"Presentation reviews\" section uses a real product mockup image. Testimonial role for Marie-Odile Lhomme was shortened from a long duplicated string on live to a clean \"Chief Digital & Information Officer\" — minor faithful normalization.",
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK"
+      },
+      {
+        "index": 1,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK"
+      },
+      {
+        "index": 2,
+        "type": "testimonials",
+        "title": "Testimonials",
+        "verdict": "OK",
+        "note": "Marie-Odile Lhomme role was shortened from a duplicated long live string to a clean canonical title."
+      },
+      {
+        "index": 3,
+        "type": "intro",
+        "title": "La direction de la transformation au centre du changement",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "stats",
+        "title": "Pourquoi adopter AirSaas",
+        "verdict": "OK"
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Animez clairement et simplement le comité de pilotage",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Pilotez les projets de manière macro",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Uniformisez le reporting projet",
+        "verdict": "OK",
+        "note": "Live uses a Lottie animation instead of an image; extraction faithfully omits imageSrc."
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Faites gagner 1 jour par semaine",
+        "verdict": "OK"
+      },
+      {
+        "index": 9,
+        "type": "intro",
+        "title": "Améliorer en continu (DAKI)",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "title": "Presentation reviews",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "comparison-table",
+        "title": "Sans/Avec AirSaas",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "cta",
+        "title": "Choisissez de gagner du temps et du contrôle",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "AirSaas s'intégre à vos outils",
+        "verdict": "OK"
+      }
+    ],
+    "missingFromExtract": []
+  }
+}

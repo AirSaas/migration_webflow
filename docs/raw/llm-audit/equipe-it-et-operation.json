@@ -1,0 +1,121 @@
+{
+  "type": "equipe",
+  "slug": "it-et-operation",
+  "audit": {
+    "globalVerdict": "FAITHFUL",
+    "missingFromExtract": [],
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "verdict": "OK",
+        "title": "Hero IT & Opérations"
+      },
+      {
+        "index": 1,
+        "type": "press-quotes",
+        "verdict": "OK",
+        "title": "Ils parlent de nous"
+      },
+      {
+        "index": 2,
+        "type": "testimonials",
+        "verdict": "OK",
+        "title": "LinkedIn testimonials",
+        "note": "Marie-Odile Lhomme role on live is longer (includes 'membre FrenchWomenCIO...'); extraction shortens to 'Chief Digital & Information Officer' which is acceptable canonical form."
+      },
+      {
+        "index": 3,
+        "type": "intro",
+        "verdict": "OK",
+        "title": "Et si vous étiez vraiment au centre"
+      },
+      {
+        "index": 4,
+        "type": "stats",
+        "verdict": "OK",
+        "title": "Les chiffres"
+      },
+      {
+        "index": 5,
+        "type": "intro",
+        "verdict": "OK",
+        "title": "La plateforme qui fluidifie"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Centralisez"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Collaborez"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Uniformisez"
+      },
+      {
+        "index": 9,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Poussez"
+      },
+      {
+        "index": 10,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Animez"
+      },
+      {
+        "index": 11,
+        "type": "cta",
+        "verdict": "OK",
+        "title": "Gagnez en temps"
+      },
+      {
+        "index": 12,
+        "type": "comparison-table",
+        "verdict": "OK",
+        "title": "Sans/Avec AirSaas"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "verdict": "OK",
+        "title": "Marketplace AirSaas"
+      },
+      {
+        "index": 14,
+        "type": "intro",
+        "verdict": "OK",
+        "title": "Injectez de la méthodologie"
+      },
+      {
+        "index": 15,
+        "type": "related",
+        "verdict": "OK",
+        "title": "Podcast CIO Révolution"
+      },
+      {
+        "index": 16,
+        "type": "customer-testimonials",
+        "verdict": "OK",
+        "title": "Laissez nos clients vous parler",
+        "note": "Text field stores 'Company — Sector — Employees' summary, faithful to live data points."
+      },
+      {
+        "index": 17,
+        "type": "cta",
+        "verdict": "OK",
+        "title": "CTA témoignages"
+      }
+    ],
+    "summary": "Extraction is faithful to the live page. All 18 sections are present in the correct order, with canonical fields properly assigned. Hero, press quotes, LinkedIn testimonials, intros, stats, 5 feature-splits, mid-page CTA, comparison table, marketplace feature, methodology intro, podcast related items, customer testimonials grid, and final CTA all match the live HTML. Minor abbreviation of Marie-Odile Lhomme's lengthy role title is acceptable. Customer testimonials use the 'text' field as a meta-summary (company — sector — employees) rather than a quote, which is a reasonable mapping given live shows no quote text in those cards."
+  }
+}

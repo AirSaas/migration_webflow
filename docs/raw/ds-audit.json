@@ -1,0 +1,48 @@
+{
+  "date": "2026-04-28T07:29:35.345Z",
+  "totalHits": 0,
+  "rules": [
+    {
+      "name": "no-hex-color",
+      "description": "Hardcoded hex color — use a token from globals.css",
+      "hits": 0,
+      "items": []
+    },
+    {
+      "name": "no-rgba-literal",
+      "description": "rgba()/rgb()/hsl()/hsla() literal — use a token or shadow var",
+      "hits": 0,
+      "items": []
+    },
+    {
+      "name": "no-default-tw-palette",
+      "description": "Default Tailwind palette class — use a project token",
+      "hits": 0,
+      "items": []
+    },
+    {
+      "name": "no-arbitrary-color-or-text",
+      "description": "Arbitrary color/typography Tailwind value (bg-[#…], text-[14px]) — tokenize it. Spacing arbitraries (px-[1.5rem], gap-[2rem], w-[10rem]) are permitted.",
+      "hits": 0,
+      "items": []
+    },
+    {
+      "name": "no-raw-heading",
+      "description": "Raw <h1-h6> tag — use <Heading level={N}>",
+      "hits": 0,
+      "items": []
+    },
+    {
+      "name": "no-inline-fontSize",
+      "description": "Inline style={{ fontSize: \"...\" }} — use <Heading> / <Text> / token",
+      "hits": 0,
+      "items": []
+    },
+    {
+      "name": "no-webkit-gradient-inline",
+      "description": "Inline WebkitBackgroundClip pattern — use <GradientText>",
+      "hits": 0,
+      "items": []
+    }
+  ]
+}

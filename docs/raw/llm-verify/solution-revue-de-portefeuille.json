@@ -1,0 +1,24 @@
+{
+  "type": "solution",
+  "slug": "revue-de-portefeuille",
+  "verifiedAt": "2026-04-30T19:25:46.751Z",
+  "flagsCount": 3,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Des vues personnalisables pour"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.11.title",
+      "sample": "Synchronisez vos outils préférés grâce à"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.18.title",
+      "sample": "Ritualiser votre revue de"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.4.title\" contains \"Des vues personnalisables pour\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.11.title\" contains \"Synchronisez vos outils préférés grâce à\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.18.title\" contains \"Ritualiser votre revue de\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

@@ -1,0 +1,209 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-dsi",
+  "iteration": 2,
+  "outcome": "REFINED",
+  "previousOutcome": "PASS_FIRST_TRY",
+  "result": {
+    "meta": {
+      "title": "Tableau de bord DSI - AirSaas",
+      "description": "Le tableau de bord DSI nouvelle génération pour piloter par la valeur, mesurer les indicateurs clés et devenir le business partner des métiers."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Le tableau de bord",
+        "titleHighlight": "que tous les DSI attendaient",
+        "subtitle": "Le vieil adage disant \"on ne peut pas améliorer ce que l'on ne mesure pas\" s'applique particulièrement à la Direction des Systèmes d'Information. Avant même d'\"améliorer\", \"mesurer\" permet d'éviter les glissements rapides, propres aux métiers de l'IT, ayant des forts impacts sur le client, interne ou externe (retards, surcoûts, etc.). La mesure et le suivi des indicateurs clés permettent ensuite les améliorations, les optimisations, la mise en place de stratégies de pilotage ambitieuses avec la Direction Générale.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        }
+      },
+      {
+        "type": "intro",
+        "title": "AirSaas, le tableau de bord DSI nouvelle génération",
+        "body": "<p>Dans un contexte où la transformation des entreprises s'accélère, où l'innovation n'est plus cantonnée à un département mais un impératif à la compétitivité de l'entreprise, les <a href=\"https://www.airsaas.io/fr/solution/outils-de-pilotage-projet\">projets digitaux</a> se multiplient et mettent la direction des systèmes d'information au centre de toutes les attentions. Nous avons créé le tableau de bord idéal pour vous permettre de satisfaire les attentes de la Direction Générale et devenir le premier business partner des métiers.</p>",
+        "headingLevel": 2
+      },
+      {
+        "type": "intro",
+        "title": "Le pilotage par la valeur",
+        "body": "<p>La clé de la réussite pour l'entreprise est de <strong>prioriser les investissements</strong> qui lui apporteront le plus de valeur. Le rôle du DSI est de mettre en place la <strong>gouvernance</strong> et les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/kpi-gestion-de-projet\">indicateurs</a> permettant de prendre les bonnes décisions afin d'optimiser le pilotage des projets à mener.</p><p>Pour cela, il faut pouvoir rassembler les membres de direction autour d'un tableau de bord DSI présentant les données essentielles des différentes activités afin d'être <strong>efficace dans la prise de décision</strong>.</p><p>Les indicateurs principaux se rassemblent en 3 domaines :</p><ul><li>Domaine de la planification et de l'avancée des projets</li><li>Domaine du pilotage des ressources</li><li>Domaine du suivi des budgets</li></ul>",
+        "headingLevel": 3
+      },
+      {
+        "type": "feature-split",
+        "title": "Pour la planification, AirSaas propose trois vues ayant chacune une utilité différente",
+        "body": "<p>La vue liste permet, pour un état d'avancement donné, de <a href=\"https://www.airsaas.io/fr/solution/tableau-de-bord-gestion-de-projet\">passer en revue les projets</a> avec tous les indicateurs au premier plan. Quelles sont les actions à prendre pour faire passer ces projets à l'état suivant ?</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "imageAlt": "Des vues différentes pour mieux piloter les projets"
+      },
+      {
+        "type": "feature-split",
+        "title": "Vue Kanban",
+        "body": "<p>La vue Kaban est plutôt dédiée à l'observation de la répartition des projets en fonction des états d'avancement. Elle permet souvent de sentir des tendances (beaucoup de projets en attente de validation, trop de projets en cours en parallèle, etc.) et d'ainsi optimiser le pilotage de la performance.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Vue Kanban",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Vue timeline",
+        "body": "<p>La vue timeline permet de s'assurer de la répartition des projets dans le temps. A-t-on une surcharge à un moment donné, allons-nous livrer à temps, est-on en retard, etc. ?</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "Vue timeline"
+      },
+      {
+        "type": "feature-split",
+        "title": "Embarquez par une bonne communication",
+        "body": "<p>Un projet réussi, c'est un projet livré dans les temps, au bon prix, mais aussi un projet qui a une adhésion forte de la part du client. Pour cela, il faut arriver à l'impliquer dans le cadrage et sur toute la durée du build du projet. Une bonne communication est également indispensable pour garder la confiance de votre Direction Générale. Il faut arriver, à fréquence régulière, à dresser le tableau de l'avancée des projets, l'évolution des indicateurs clés, le suivi de la performance et sonder l'adhésion des équipes. Car l'humain reste le facteur numéro un du succès (ou de l'échec) de vos projets.</p><p>Pour cela nous mettons deux outils à votre disposition.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "feature-split",
+        "title": "Le rapport flash automatisé",
+        "body": "<p>Le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\">reporting</a> est essentiel. Il est malgré tout chronophage et souvent délaissé. Nous vous donnons la possibilité de générer des <a href=\"https://www.airsaas.io/fr/solution/flash-report-projet\">rapports flash</a> en un clic. Exportables en PDF ou en PowerPoint, vous pouvez ainsi tenir au courant les parties prenantes de l'avancée de vos activités. Le rapport flash rassemble les projets sur lesquels vous souhaitez communiquer. Pour chacun d'entre eux, deux slides sont générées : une slide de rappel des informations de cadrage, et une contenant les éléments clés de l'exécution.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "imageAlt": "Rapport flash"
+      },
+      {
+        "type": "feature-split",
+        "title": "Suivi de l'indicateur d'adhésion",
+        "body": "<p>Nous mettons à disposition un outil de sondage anonyme de confiance des parties prenantes dans l'adhésion du projet en cours. Plus ce degré de confiance est élevé, plus votre projet aura de chance d'être un succès. Au contraire s'il est faible, il faut agir vite. Rien de pire qu'un projet terminé mais ne correspondant pas au besoin du client. En un clic, envoyez le sondage à toutes les personnes intervenant sur le projet. Faites-le à intervalle régulier et évitez les mauvaises surprises dans le pilotage de vos projets.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd67b20f0e6f_dashboard.svg",
+        "imageAlt": "Sondage collaborateur",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Devenez un centre de profit plutôt qu'un centre de coût",
+        "body": "<p>Historiquement, la DSI a toujours été vue comme un centre de coûts. Anciennement sous la responsabilité de la Direction des Finances, la DSI est maintenant de plus en plus valorisée et a sa place aux comités de direction des entreprises.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
+        "imageAlt": "Transformer la DSI"
+      },
+      {
+        "type": "feature-split",
+        "title": "Suivre la valeur générée par la DSI",
+        "body": "<p>Dans une démarche d'amélioration de la performance de l'entreprise (innovation et optimisation des processus) il est important de :</p><ul><li>S'assurer que vos projets contribuent aux objectifs de l'entreprise définis par la direction générale</li><li>S'assurer que pour chaque projet, le ou les gains visés soient définis et mesurables</li></ul><p>Le tableau de bord DSI AirSaas vous permet de suivre la valeur générée par la DSI pour l'entreprise - autant sur les gains apportés que sur la contribution aux objectifs annuels de l'entreprise.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/667c312ec05d161e0bc770b6_Programmes%20analytics%20en.webp",
+        "imageAlt": "tableau de bord DSI",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Toutes les directions avaient leurs tableaux de bord - maintenant, vous aussi",
+        "body": "<p>Vous n'avez pas attendu AirSaas pour vous constituer votre propre tableau de bord de la DSI, et vous avez raison. A la suite d'audits de plusieurs dizaines de DSI, nous avons développé un tableau de bord de pilotage pour les DSI.</p>",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "Des données consolidées",
+        "body": "<p>Souvent mise en place sur Excel ou sur des outils de visualisation, les tableaux de bord que nous avons pu observer ne disposent pas d'une donnée consolidée. AirSaas se connecte aux différents outils de gestion de projet et vous propose une abstraction. La donnée est consolidée autours des projets, des solutions partenaires, des équipes impliquées, etc. pour vous permettre d'afficher et de suivre les indicateurs indispensables au pilotage de votre activité.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd35ed0f0e71_1.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Des indicateurs intelligents d'aide à la décision",
+        "body": "<p>L'objectif ici est d'apporter des éléments d'attention aux DSI afin de leur simplifier la prise de décision. Par exemple, lorsqu'un projet nécessite une prise de décision depuis plusieurs semaines alors qu'il est stratégique pour une direction métier, il est important d'en être informé pour optimiser le pilotage de la performance de sa DSI.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd17cf0f0e87_2.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Simple et collaboratif by design",
+        "body": "<p>Il est essentiel d'impliquer les équipes dans cette démarche. Pour cela il faut un outil simple, ne nécessitant pas de formation et permettant de travailler ensemble en fonction des droits d'accès de chacun. AirSaas a été conçu comme point de rencontre entre la DSI et les directions métiers.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fdde5c0f0e46_outil4.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "intro",
+        "title": "Pourquoi utiliser un tableau de bord est essentiel pour le pilotage d'un système d'information ?",
+        "body": "<p>Si les DSI étaient auparavant centrées principalement sur des problématiques techniques, elles deviennent de plus en plus orientées business : le pilotage du système d'information est maintenant considéré dans une entreprise comme un levier important de création de valeur.</p><p>Mais si elle souhaite être en capacité d'aider son entreprise à atteindre ses objectifs business, le pilotage de la DSI doit être optimal. Et c'est là qu'un tableau de bord prospectif devient indispensable à la bonne gouvernance du système d'information.</p><p>En effet, si une organisation veut évoluer, elle doit forcément se donner les moyens de s'évaluer. Sinon, comment savoir si elle progresse et atteint ses objectifs ? Ainsi le tableau de bord prospectif est l'outil qui permet à la DSI de s'assurer un pilotage efficace au travers d'objectifs à court, moyen et long terme. Le but du tableau de bord prospectif est d'assurer que les buts seront atteints sans être entravés par une problématique d'ordre opérationnelle, ou organisationnelle.</p><p>Pour synthétiser, un tableau de bord de la DSI permet de :</p><ul><li>Assurer le pilotage optimal de la DSI</li><li>Instaurer une communication interne efficace</li><li>Repérer les tendances au sein de l'entreprise</li><li>Assurer la gestion du suivi dans le temps de chaque objectif</li><li>Analyser les écarts entre les objectifs fixés et ceux atteints</li><li>Responsabiliser chacun des collaborateurs en leur assignant la gestion d'objectifs</li></ul>",
+        "headingLevel": 2
+      },
+      {
+        "type": "intro",
+        "title": "L'importance des indicateurs choisis pour assurer un pilotage optimal du système d'information",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "La transposition infortune des systèmes traditionnels de gestion aux tableaux de bord des DSI",
+        "body": "<p>Comme l'expliquent Philippe Rosé et Christophe Legrenzi dans leur ouvrage \"Les tableaux de bord de la DSI\", les systèmes d'information ont pendant longtemps été évalués grâce à des tableaux de bord et des indicateurs qui n'étaient pas adaptés à l'analyse du pilotage d'une DSI.</p><p>En effet, ce sont les indicateurs de performance issus du monde industriel qui ont été transposés dans les tableaux de bord afin d'analyser l'activité des DSI. Cependant, ces indicateurs traditionnels de pilotage (comprenant la comptabilité ou encore le contrôle budgétaire) ne sont pas du tout adaptés à l'élaboration d'un tableau de bord de la maintenance du système d'information qui assure le suivi d'activités qui, par nature, sont transverses. A l'inverse, ces indicateurs du monde industriel ont été pensés dans une logique de contrôle des coûts : ils visent à découper chaque service opérationnel en unités plus petites, afin de connaître le coût que chacune de ces unités occasionne et, ainsi, pouvoir penser des méthodes pour réduire ces mêmes coûts.</p><p>Ainsi, la transposition de ces indicateurs dans les tableaux de bord a été néfaste à l'évaluation des activités relatives au pilotage du système d'information. Elle a d'ailleurs impacté la manière dont sont perçues les DSI dans les entreprises et dans de nombreux articles.</p><ul><li>Les aspects technologiques et financiers des DSI étaient correctement évalués par ces indicateurs de performance dans les tableaux de bords, mais ils se révélaient incapables de traiter les informations relatives à la communication, aux collaborateurs ou encore à au pilotage de la stratégie de l'entreprise.</li><li>Les informations traitées par ces indicateurs concernent le passé et le présent, mais très rarement le futur. Ces tableaux de bords sont donc bien plus proches d'un simple rapport d'activités que d'un véritable outil de pilotage de la performance !</li></ul><p>Ainsi, il n'est pas rare que les informations données par les tableaux de bord de la DSI ne reflètent pas vraiment son activité dans sa globalité, mais soient essentiellement axés sur le contrôle des budgets et le pilotage des technologies.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd06800f0e86_3.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "D'un tableau de bord centre de coûts à un tableau de bord centre de profit",
+        "body": "<p>Cette manière d'évaluer les performances de la DSI a forcément amené les entreprises à analyser les systèmes d'information en fonction de ce qu'ils coûtent. Conséquence : le pilotage des systèmes d'information via les tableaux de bord se fait principalement par les coûts et non par la valeur qu'ils peuvent apporter.</p><p>A titre d'exemple : il a été constaté qu'une large majorité des tableaux de bord des DSI incorporent une notion de budget, alors que seulement 20% d'entre elles ont mis en place des indicateurs afin d'évaluer la valeur produite par la DSI ! Dès lors, on comprend que les SI soient majoritairement perçus comme des centres de coûts et non de valeur. Et si les entreprises se sont habituées à centrer leurs tableaux de bord sur les coûts plutôt que sur la valeur, c'est en partie parce que ce sont les systèmes de gestion industriels qui ont été transposés, mais aussi parce qu'inventer des indicateurs permettant de mesurer la valeur produite pas une DSI est complexe ! Cette vision de la Direction des Systèmes d'Information par le prisme des coûts plutôt que par celui de la valeur est ainsi majoritairement représenté dans les Directions Générales des entreprises, ce qui impacte forcément fortement la prise de décision en matière de transformation digitale.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd4d920f0e88_7105959688182da7475c8681c14e857d_4.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Le tableau de bord de la DSI au service de la direction générale",
+        "body": "<p>Les tableaux de bord de la DSI sont indispensables à la direction générale si cette dernière veut piloter correctement la transformation digitale de l'entreprise : en effet, les indicateurs du tableau de bord de la direction sont essentiels pour rendre compte du pilotage de la DSI et donner des informations permettant une gouvernance optimale des ressources humaines et budgétaires de l'entreprise.</p><p>Parmi les usages principaux du tableau de bord de la direction :</p><ul><li>Quel est le coût total de l'informatique dans l'entreprise ?</li><li>Les ressources sont-elles engagées sur les projets apportant le plus de valeur ?</li><li>A quel point l'informatique apporte de la valeur aux différents métiers et à la performance globale de l'entreprise ?</li><li>Où se situe la performance des SI par rapport à la concurrence ?</li><li>Quels sont les futurs projets sur lesquels investir ?</li></ul><p>Plusieurs de ces questions sont orientées vers les coûts de la DSI pour l'entreprise (qui représentent en moyenne entre 1% et 5% du budget total de l'entreprise en fonction des secteurs), mais plusieurs d'entre elles requièrent des indicateurs centrés sur la valeur produite par la DSI.</p><p>Pourtant, de nombreux tableaux de bord soumis aux directions générales se réduisent à une analyse de la dimension budgétaire des DSI. Ainsi, en se penchant sur les tableaux de bord, un grand nombre de DG se retrouve face à une solution de facilité : juger les performances de la DSI en fonction du rapport entre le budget que coûte l'informatique et le chiffre d'affaires de l'entreprise.</p><p>L'objectif de performance principal devient donc de ne pas trop dépenser - alors même qu'il est évident que la performance d'une DSI ne peut pas être évaluée par sa simple capacité à respecter les budgets.</p><p>Pire : il peut être tentant pour des DG de comparer le budget dépensé par leur entreprise pour leurs systèmes d'informations aux sommes investies par des entreprises concurrentes. Mais il a été démontré que chaque entreprise ne délimite pas les sommes qui doivent être considérées comme investies par la DSI en se basant sur les mêmes principes ! De plus, en fonction des secteurs, les besoins de digitalisation ne sont pas du tout semblables.</p><p>Ainsi, essayer de se comparer à ses concurrents par le prisme budgétaire est un piège pour les DG.</p><p>Les Directions Générales doivent donc inciter les DSI à créer des indicateurs de tableau de bord prospectif permettant de mesurer leur performance en fonction de la valeur créée par rapport aux intérêts stratégiques de l'entreprise. Les Directions Générales n'ayant pas compris l'importance d'optimiser les indicateurs du tableau de bord prospectif pour peser dans la stratégie globale de l'entreprise prennent, eux, du retard sur leurs concurrents.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "intro",
+        "title": "Comment construire des indicateurs du tableau de bord pertinents ?",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "Des principes à respecter dans la construction des indicateurs d'un tableau de bord",
+        "body": "<p>Suivre quelques principes formels lors de la construction des indicateurs des tableaux de bord est essentiel pour contrôler le pilotage de la DSI :</p><ul><li>Tous les indicateurs du tableau de bord informatique de la Direction des Systèmes d'Informations doivent être nommés</li><li>Tous les indicateurs du tableau de bord informatique de la DSI doivent être définis et la définition doit être connu par tous</li><li>Chaque indicateur du tableau de bord informatique de la Direction des Systèmes d'Informations doit être assorti d'un objectif : sans, il devient inutile</li><li>Les indicateurs du tableau de bord informatique de la Direction doivent prendre en compte, le passé, le présent mais aussi le futur</li><li>Pensez à construire des indicateurs de tableau de bord évaluant des résultats (statiques) mais aussi des processus (dynamiques)</li><li>Construisez vos indicateurs de tableau de bord des études de vos activités afin qu'ils puissent être comparables entre eux</li><li>Indiquez la fréquence de mise à jour de l'indicateur de tableau de bord (annuelle / trimestrielle / mensuelle / journalière…)</li></ul>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "feature-split",
+        "title": "Penser les indicateurs de tableau de bord comme le reflet des objectifs de l'entreprise",
+        "body": "<p>Bien qu'on puisse trouver des tableaux de bords avec des indicateurs de performance déjà pensés et prévus pour pouvoir s'appliquer à toute entreprise, la solution optimale est d'opter pour la personnalisation.</p><p>Chaque tableau de bord servant au pilotage d'une DSI doit être construit au regard des objectifs de l'entreprise : ces derniers doivent refléter ses ambitions stratégiques.</p><p>Chaque organisation possède un fonctionnement spécifique, un tableau de bord informatique générique aura donc une efficacité limitée. Ainsi, les tableaux de bord les plus efficaces sont ceux qui décrivent le pilotage des systèmes d'information au regard du contexte de leur entreprise.</p><p>Un tableau de bord informatique est donc complexe à construire et requiert de prendre du recul sur les activités de l'entreprise : l'une des meilleures méthodes pour arriver à un tableau de bord représentatif du réel est d'impliquer les directions métiers dans sa conception.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd0e210f0e8a_7.svg",
+        "imageAlt": "Pilotage de projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Impliquer les métiers dans la fabrication des indicateurs du tableau de bord informatique",
+        "body": "<p>Très souvent, les métiers sont très peu (voire pas du tout) impliqués dans la construction des indicateurs de performance et des tableaux de bord de la DSI. C'est une preuve supplémentaire qui témoigne que la majorité des tableaux de bord des DSI sont créés dans une logique centrée sur l'informatique, alors même que les bénéficiaires directs des solutions apportées seront bel et bien les métiers.</p><p>Impliquer les métiers dans l'élaboration des tableaux de bord est indispensable pour faire coller les indicateurs à la situation réelle de l'entreprise. L'idéal est de former des équipes constituées de responsables métiers (si possible volontaires) et accompagnées par des membres des équipes de la DSI. Ainsi, les responsables métiers pourront indiquer les axes qui leurs apportent le plus de valeur et qui leurs semblent donc le plus pertinent d'évaluer et de suivre régulièrement grâce au tableau de bord.</p><p><strong>Pour résumer,</strong> construisez vos indicateurs de tableaux de bord :</p><ul><li>en respectant des principes de forme, afin qu'ils soient réellement exploitables</li><li>en les adaptant aux objectifs spécifiques de votre entreprise</li><li>en impliquant les directions métiers dans leur élaboration</li></ul><p>Si vous suivez ces principes, vous aurez de bonnes chances d'aboutir à un tableau de bord permettant réellement de piloter votre DSI de manière optimale.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd0e210f0e8a_7.svg",
+        "imageAlt": "Pilotage de projet"
+      },
+      {
+        "type": "cta",
+        "title": "Découvrez comment",
+        "titleHighlight": "AirSaas peut vous aider",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      }
+    ]
+  }
+}

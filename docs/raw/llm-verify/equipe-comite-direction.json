@@ -1,0 +1,59 @@
+{
+  "type": "equipe",
+  "slug": "comite-direction",
+  "verifiedAt": "2026-04-30T19:25:39.309Z",
+  "flagsCount": 10,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.7.title",
+      "sample": "Uniformisez les reportings projets"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.0.text",
+      "sample": "Groupe Picoty — Énergie et combustibles — 1300 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.1.text",
+      "sample": "Hôtellerie & loisirs — 40000 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.2.text",
+      "sample": "Altavia — Communication et marketing — 2800 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.3.text",
+      "sample": "Dynamical — Conseil — 2 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.4.text",
+      "sample": "Chiesi France — Santé-Pharma — 6500 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.5.text",
+      "sample": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.6.text",
+      "sample": "Comexposium — Événementiel — 900 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.7.text",
+      "sample": "Indexia Groupe — Assurance et Distribution — 3000 employés"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.testimonials.8.text",
+      "sample": "Caduciel — Santé - Editeur de logiciel — 50 employés"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.7.title\" contains \"Uniformisez les reportings projets\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.0.text\" contains \"Groupe Picoty — Énergie et combustibles — 1300 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.1.text\" contains \"Hôtellerie & loisirs — 40000 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.2.text\" contains \"Altavia — Communication et marketing — 2800 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.3.text\" contains \"Dynamical — Conseil — 2 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.4.text\" contains \"Chiesi France — Santé-Pharma — 6500 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.5.text\" contains \"Groupe Intuis (Ex Muller) — Industrie — 1000 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.6.text\" contains \"Comexposium — Événementiel — 900 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.7.text\" contains \"Indexia Groupe — Assurance et Distribution — 3000 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.testimonials.8.text\" contains \"Caduciel — Santé - Editeur de logiciel — 50 employés\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

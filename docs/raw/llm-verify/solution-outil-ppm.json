@@ -1,0 +1,19 @@
+{
+  "type": "solution",
+  "slug": "outil-ppm",
+  "verifiedAt": "2026-04-30T19:25:47.568Z",
+  "flagsCount": 2,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.20.title",
+      "sample": "Deux visions de DSI illustrées par les pyramides de Maslow"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.22.body",
+      "sample": "<p>Comme décrit en haut de page, AirSaas est un outil de gestion de portefeuilles projets plutôt lég"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.20.title\" contains \"Deux visions de DSI illustrées par les pyramides de Maslow\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.22.body\" contains \"<p>Comme décrit en haut de page, AirSaas est un outil de gestion de portefeuilles projets plutôt lég\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

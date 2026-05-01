@@ -1,0 +1,1498 @@
+[
+  {
+    "slug": "ppm",
+    "type": "lp",
+    "path": "/fr/lp/ppm",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/lp/ppm",
+        "rebuildUrl": "http://localhost:3000/fr/lp/ppm",
+        "diffPercent": 19.164075370675455,
+        "diffPixels": 3350187,
+        "dimensions": {
+          "width": 1440,
+          "height": 12140
+        }
+      }
+    }
+  },
+  {
+    "slug": "pmo",
+    "type": "lp",
+    "path": "/fr/lp/pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/lp/pmo",
+        "rebuildUrl": "http://localhost:3000/fr/lp/pmo",
+        "diffPercent": 17.442853695727994,
+        "diffPixels": 3440875,
+        "dimensions": {
+          "width": 1440,
+          "height": 13699
+        }
+      }
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "lp",
+    "path": "/fr/lp/capacity-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/lp/capacity-planning",
+        "rebuildUrl": "http://localhost:3000/fr/lp/capacity-planning",
+        "diffPercent": 15.806226331788,
+        "diffPixels": 2978500,
+        "dimensions": {
+          "width": 1440,
+          "height": 13086
+        }
+      }
+    }
+  },
+  {
+    "slug": "pi-planning",
+    "type": "lp",
+    "path": "/fr/lp/pi-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/lp/pi-planning",
+        "rebuildUrl": "http://localhost:3000/fr/lp/pi-planning",
+        "diffPercent": 17.99408356932227,
+        "diffPixels": 3446486,
+        "dimensions": {
+          "width": 1440,
+          "height": 13301
+        }
+      }
+    }
+  },
+  {
+    "slug": "automatiser-la-com-projet",
+    "type": "produit",
+    "path": "/fr/produit/automatiser-la-com-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/produit/automatiser-la-com-projet",
+        "rebuildUrl": "http://localhost:3000/fr/produit/automatiser-la-com-projet",
+        "diffPercent": 41.39373448859019,
+        "diffPixels": 3015517,
+        "dimensions": {
+          "width": 1440,
+          "height": 5059
+        }
+      }
+    }
+  },
+  {
+    "slug": "budget",
+    "type": "produit",
+    "path": "/fr/produit/budget",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/produit/budget",
+        "rebuildUrl": "http://localhost:3000/fr/produit/budget",
+        "diffPercent": 27.745211300786487,
+        "diffPixels": 3674487,
+        "dimensions": {
+          "width": 1440,
+          "height": 9197
+        }
+      }
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "produit",
+    "path": "/fr/produit/capacity-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/produit/capacity-planning",
+        "rebuildUrl": "http://localhost:3000/fr/produit/capacity-planning",
+        "diffPercent": 27.76963679873985,
+        "diffPixels": 3666925,
+        "dimensions": {
+          "width": 1440,
+          "height": 9170
+        }
+      }
+    }
+  },
+  {
+    "slug": "priorisation-par-equipes",
+    "type": "produit",
+    "path": "/fr/produit/priorisation-par-equipes",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/produit/priorisation-par-equipes",
+        "rebuildUrl": "http://localhost:3000/fr/produit/priorisation-par-equipes",
+        "diffPercent": 37.222353972634245,
+        "diffPixels": 3107739,
+        "dimensions": {
+          "width": 1440,
+          "height": 5798
+        }
+      }
+    }
+  },
+  {
+    "slug": "reporting-projet",
+    "type": "produit",
+    "path": "/fr/produit/reporting-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/produit/reporting-projet",
+        "rebuildUrl": "http://localhost:3000/fr/produit/reporting-projet",
+        "diffPercent": 36.41070577014783,
+        "diffPixels": 3664956,
+        "dimensions": {
+          "width": 1440,
+          "height": 6990
+        }
+      }
+    }
+  },
+  {
+    "slug": "traduction-one-click-avec-deepl",
+    "type": "produit",
+    "path": "/fr/produit/traduction-one-click-avec-deepl",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/produit/traduction-one-click-avec-deepl",
+        "rebuildUrl": "http://localhost:3000/fr/produit/traduction-one-click-avec-deepl",
+        "diffPercent": 33.56232625726561,
+        "diffPixels": 3187347,
+        "dimensions": {
+          "width": 1440,
+          "height": 6595
+        }
+      }
+    }
+  },
+  {
+    "slug": "airsaas-et-les-experts-de-la-transfo",
+    "type": "solution",
+    "path": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/airsaas-et-les-experts-de-la-transfo",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/airsaas-et-les-experts-de-la-transfo",
+        "diffPercent": 38.24681104569667,
+        "diffPixels": 3274233,
+        "dimensions": {
+          "width": 1440,
+          "height": 5945
+        }
+      }
+    }
+  },
+  {
+    "slug": "flash-report",
+    "type": "solution",
+    "path": "/fr/solutions/flash-report",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/flash-report",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/flash-report",
+        "diffPercent": 14.484429460243003,
+        "diffPixels": 2845808,
+        "dimensions": {
+          "width": 1440,
+          "height": 13644
+        }
+      }
+    }
+  },
+  {
+    "slug": "flash-report-projet",
+    "type": "solution",
+    "path": "/fr/solutions/flash-report-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/flash-report-projet",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/flash-report-projet",
+        "diffPercent": 14.661198714716111,
+        "diffPixels": 3628330,
+        "dimensions": {
+          "width": 1440,
+          "height": 17186
+        }
+      }
+    }
+  },
+  {
+    "slug": "gestion-portefeuille-projet",
+    "type": "solution",
+    "path": "/fr/solutions/gestion-portefeuille-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/gestion-portefeuille-projet",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/gestion-portefeuille-projet",
+        "diffPercent": 9.795866517937988,
+        "diffPixels": 4067761,
+        "dimensions": {
+          "width": 1440,
+          "height": 28837
+        }
+      }
+    }
+  },
+  {
+    "slug": "management-de-portefeuille-projet",
+    "type": "solution",
+    "path": "/fr/solutions/management-de-portefeuille-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/management-de-portefeuille-projet",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/management-de-portefeuille-projet",
+        "diffPercent": 14.505604489314699,
+        "diffPixels": 4055210,
+        "dimensions": {
+          "width": 1440,
+          "height": 19414
+        }
+      }
+    }
+  },
+  {
+    "slug": "outil-ppm",
+    "type": "solution",
+    "path": "/fr/solutions/outil-ppm",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/outil-ppm",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/outil-ppm",
+        "diffPercent": 9.98384721813485,
+        "diffPixels": 3908173,
+        "dimensions": {
+          "width": 1440,
+          "height": 27184
+        }
+      }
+    }
+  },
+  {
+    "slug": "outils-de-pilotage-projet",
+    "type": "solution",
+    "path": "/fr/solutions/outils-de-pilotage-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/outils-de-pilotage-projet",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/outils-de-pilotage-projet",
+        "diffPercent": 9.766717940926988,
+        "diffPixels": 3702930,
+        "dimensions": {
+          "width": 1440,
+          "height": 26329
+        }
+      }
+    }
+  },
+  {
+    "slug": "portfolio-management",
+    "type": "solution",
+    "path": "/fr/solutions/portfolio-management",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/portfolio-management",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/portfolio-management",
+        "diffPercent": 10.822782483383332,
+        "diffPixels": 3238367,
+        "dimensions": {
+          "width": 1440,
+          "height": 20779
+        }
+      }
+    }
+  },
+  {
+    "slug": "revue-de-portefeuille",
+    "type": "solution",
+    "path": "/fr/solutions/revue-de-portefeuille",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/revue-de-portefeuille",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/revue-de-portefeuille",
+        "diffPercent": 14.950647337528702,
+        "diffPixels": 3614923,
+        "dimensions": {
+          "width": 1440,
+          "height": 16791
+        }
+      }
+    }
+  },
+  {
+    "slug": "tableau-de-bord-dsi",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-dsi",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-dsi",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-dsi",
+        "diffPercent": 11.485031183702683,
+        "diffPixels": 3594631,
+        "dimensions": {
+          "width": 1440,
+          "height": 21735
+        }
+      }
+    }
+  },
+  {
+    "slug": "tableau-de-bord-gestion-de-projet",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-gestion-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-gestion-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-gestion-de-projet",
+        "diffPercent": 16.182730304483886,
+        "diffPixels": 3400626,
+        "dimensions": {
+          "width": 1440,
+          "height": 14593
+        }
+      }
+    }
+  },
+  {
+    "slug": "tableau-de-bord-portefeuille-de-projet",
+    "type": "solution",
+    "path": "/fr/solutions/tableau-de-bord-portefeuille-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/solution/tableau-de-bord-portefeuille-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/solutions/tableau-de-bord-portefeuille-de-projet",
+        "diffPercent": 14.220006882608507,
+        "diffPixels": 3702412,
+        "dimensions": {
+          "width": 1440,
+          "height": 18081
+        }
+      }
+    }
+  },
+  {
+    "slug": "comite-direction",
+    "type": "equipe",
+    "path": "/fr/equipes/comite-direction",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/equipes/comite-direction",
+        "rebuildUrl": "http://localhost:3000/fr/equipes/comite-direction",
+        "diffPercent": 12.374517632635598,
+        "diffPixels": 2406319,
+        "dimensions": {
+          "width": 1440,
+          "height": 13504
+        }
+      }
+    }
+  },
+  {
+    "slug": "direction-de-la-transformation",
+    "type": "equipe",
+    "path": "/fr/equipes/direction-de-la-transformation",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/equipes/direction-de-la-transformation",
+        "rebuildUrl": "http://localhost:3000/fr/equipes/direction-de-la-transformation",
+        "diffPercent": 14.040571756855504,
+        "diffPixels": 2336441,
+        "dimensions": {
+          "width": 1440,
+          "height": 11556
+        }
+      }
+    }
+  },
+  {
+    "slug": "it-et-operation",
+    "type": "equipe",
+    "path": "/fr/equipes/it-et-operation",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/equipes/it-et-operation",
+        "rebuildUrl": "http://localhost:3000/fr/equipes/it-et-operation",
+        "diffPercent": 10.968407943894606,
+        "diffPixels": 2409768,
+        "dimensions": {
+          "width": 1440,
+          "height": 15257
+        }
+      }
+    }
+  },
+  {
+    "slug": "outil-pmo",
+    "type": "equipe",
+    "path": "/fr/equipes/outil-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/equipes/outil-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/equipes/outil-pmo",
+        "diffPercent": 10.305041297657182,
+        "diffPixels": 2625065,
+        "dimensions": {
+          "width": 1440,
+          "height": 17690
+        }
+      }
+    }
+  },
+  {
+    "slug": "10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+    "type": "blog",
+    "path": "/fr/blog/10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+        "rebuildUrl": "http://localhost:3000/fr/blog/10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+        "diffPercent": 15.7224082460761,
+        "diffPixels": 4699214,
+        "dimensions": {
+          "width": 1440,
+          "height": 20756
+        }
+      }
+    }
+  },
+  {
+    "slug": "analyse-des-risques-projet",
+    "type": "blog",
+    "path": "/fr/blog/analyse-des-risques-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/analyse-des-risques-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/analyse-des-risques-projet",
+        "diffPercent": 16.005712304817024,
+        "diffPixels": 4247788,
+        "dimensions": {
+          "width": 1440,
+          "height": 18430
+        }
+      }
+    }
+  },
+  {
+    "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+        "rebuildUrl": "http://localhost:3000/fr/blog/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+        "diffPercent": 15.46128625778016,
+        "diffPixels": 3322717,
+        "dimensions": {
+          "width": 1440,
+          "height": 14924
+        }
+      }
+    }
+  },
+  {
+    "slug": "budget-previsionnel-projet",
+    "type": "blog",
+    "path": "/fr/blog/budget-previsionnel-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/budget-previsionnel-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/budget-previsionnel-projet",
+        "diffPercent": 17.792984950823556,
+        "diffPixels": 2162232,
+        "dimensions": {
+          "width": 1440,
+          "height": 8439
+        }
+      }
+    }
+  },
+  {
+    "slug": "budgetiser-un-projet-sans-se-louper",
+    "type": "blog",
+    "path": "/fr/blog/budgetiser-un-projet-sans-se-louper",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper",
+        "rebuildUrl": "http://localhost:3000/fr/blog/budgetiser-un-projet-sans-se-louper",
+        "diffPercent": 15.534940167272826,
+        "diffPixels": 3649493,
+        "dimensions": {
+          "width": 1440,
+          "height": 16314
+        }
+      }
+    }
+  },
+  {
+    "slug": "cadrage-projet",
+    "type": "blog",
+    "path": "/fr/blog/cadrage-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/cadrage-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/cadrage-projet",
+        "diffPercent": 15.353518280636122,
+        "diffPixels": 3270152,
+        "dimensions": {
+          "width": 1440,
+          "height": 14791
+        }
+      }
+    }
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "blog",
+    "path": "/fr/blog/capacity-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/capacity-planning",
+        "rebuildUrl": "http://localhost:3000/fr/blog/capacity-planning",
+        "diffPercent": 11.314270690178013,
+        "diffPixels": 2805740,
+        "dimensions": {
+          "width": 1440,
+          "height": 17221
+        }
+      }
+    }
+  },
+  {
+    "slug": "capacity-planning-definition",
+    "type": "blog",
+    "path": "/fr/blog/capacity-planning-definition",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/capacity-planning-definition",
+        "rebuildUrl": "http://localhost:3000/fr/blog/capacity-planning-definition",
+        "diffPercent": 13.300034916498472,
+        "diffPixels": 2498768,
+        "dimensions": {
+          "width": 1440,
+          "height": 13047
+        }
+      }
+    }
+  },
+  {
+    "slug": "chef-de-projet-pmo",
+    "type": "blog",
+    "path": "/fr/blog/chef-de-projet-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/chef-de-projet-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/blog/chef-de-projet-pmo",
+        "diffPercent": 16.26895777178796,
+        "diffPixels": 2172882,
+        "dimensions": {
+          "width": 1440,
+          "height": 9275
+        }
+      }
+    }
+  },
+  {
+    "slug": "chef-de-projet-transverse",
+    "type": "blog",
+    "path": "/fr/blog/chef-de-projet-transverse",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/chef-de-projet-transverse",
+        "rebuildUrl": "http://localhost:3000/fr/blog/chef-de-projet-transverse",
+        "diffPercent": 16.757027131703236,
+        "diffPixels": 3911251,
+        "dimensions": {
+          "width": 1440,
+          "height": 16209
+        }
+      }
+    }
+  },
+  {
+    "slug": "comite-de-pilotage-definitions-et-incomprehensions",
+    "type": "blog",
+    "path": "/fr/blog/comite-de-pilotage-definitions-et-incomprehensions",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comite-de-pilotage-definitions-et-incomprehensions",
+        "diffPercent": 18.346724197788028,
+        "diffPixels": 3551280,
+        "dimensions": {
+          "width": 1440,
+          "height": 13442
+        }
+      }
+    }
+  },
+  {
+    "slug": "comite-pilotage-projet",
+    "type": "blog",
+    "path": "/fr/blog/comite-pilotage-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comite-pilotage-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comite-pilotage-projet",
+        "diffPercent": 16.469584448507653,
+        "diffPixels": 2983261,
+        "dimensions": {
+          "width": 1440,
+          "height": 12579
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-animer-un-bilan-projet-efficace",
+    "type": "blog",
+    "path": "/fr/blog/comment-animer-un-bilan-projet-efficace",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-animer-un-bilan-projet-efficace",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-animer-un-bilan-projet-efficace",
+        "diffPercent": 13.740523695157112,
+        "diffPixels": 4064315,
+        "dimensions": {
+          "width": 1440,
+          "height": 20541
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-animer-un-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-animer-un-comite-de-pilotage",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-animer-un-comite-de-pilotage",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-animer-un-comite-de-pilotage",
+        "diffPercent": 27.154025908848528,
+        "diffPixels": 12466044,
+        "dimensions": {
+          "width": 1440,
+          "height": 31881
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+    "type": "blog",
+    "path": "/fr/blog/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+        "diffPercent": 12.48392301620467,
+        "diffPixels": 3871674,
+        "dimensions": {
+          "width": 1440,
+          "height": 21537
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-decider-en-copil",
+    "type": "blog",
+    "path": "/fr/blog/comment-decider-en-copil",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-decider-en-copil",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-decider-en-copil",
+        "diffPercent": 17.633185389777708,
+        "diffPixels": 4872430,
+        "dimensions": {
+          "width": 1440,
+          "height": 19189
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-elaborer-un-reporting-efficace",
+    "type": "blog",
+    "path": "/fr/blog/comment-elaborer-un-reporting-efficace",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-elaborer-un-reporting-efficace",
+        "diffPercent": 12.16788987885392,
+        "diffPixels": 2733570,
+        "dimensions": {
+          "width": 1440,
+          "height": 15601
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-faire-un-bon-point-davancement-projet",
+    "type": "blog",
+    "path": "/fr/blog/comment-faire-un-bon-point-davancement-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-point-davancement-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-faire-un-bon-point-davancement-projet",
+        "diffPercent": 11.42202089991853,
+        "diffPixels": 2916179,
+        "dimensions": {
+          "width": 1440,
+          "height": 17730
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+        "diffPercent": 18.010857888275016,
+        "diffPixels": 4224915,
+        "dimensions": {
+          "width": 1440,
+          "height": 16290
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-en-place-un-comite-de-pilotage",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+        "diffPercent": 30.991452209087424,
+        "diffPixels": 8531922,
+        "dimensions": {
+          "width": 1440,
+          "height": 19118
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-mettre-en-place-un-pmo",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-en-place-un-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-en-place-un-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-mettre-en-place-un-pmo",
+        "diffPercent": 23.395479549612602,
+        "diffPixels": 6097124,
+        "dimensions": {
+          "width": 1440,
+          "height": 18098
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-mettre-une-bonne-meteo-projet",
+    "type": "blog",
+    "path": "/fr/blog/comment-mettre-une-bonne-meteo-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-une-bonne-meteo-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-mettre-une-bonne-meteo-projet",
+        "diffPercent": 15.904408451038293,
+        "diffPixels": 4291442,
+        "dimensions": {
+          "width": 1440,
+          "height": 18738
+        }
+      }
+    }
+  },
+  {
+    "slug": "comment-reussir-un-projet-transverse",
+    "type": "blog",
+    "path": "/fr/blog/comment-reussir-un-projet-transverse",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/comment-reussir-un-projet-transverse",
+        "rebuildUrl": "http://localhost:3000/fr/blog/comment-reussir-un-projet-transverse",
+        "diffPercent": 16.210479129077253,
+        "diffPixels": 4053761,
+        "dimensions": {
+          "width": 1440,
+          "height": 17366
+        }
+      }
+    }
+  },
+  {
+    "slug": "copil-projet-ou-comite-de-pilotage-projet-les-bases",
+    "type": "blog",
+    "path": "/fr/blog/copil-projet-ou-comite-de-pilotage-projet-les-bases",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases",
+        "rebuildUrl": "http://localhost:3000/fr/blog/copil-projet-ou-comite-de-pilotage-projet-les-bases",
+        "diffPercent": 9.418214474133382,
+        "diffPixels": 2913438,
+        "dimensions": {
+          "width": 1440,
+          "height": 21482
+        }
+      }
+    }
+  },
+  {
+    "slug": "demarche-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/demarche-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/demarche-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/demarche-de-projet",
+        "diffPercent": 20.089090848426324,
+        "diffPixels": 4094221,
+        "dimensions": {
+          "width": 1440,
+          "height": 14153
+        }
+      }
+    }
+  },
+  {
+    "slug": "fiche-projet-exemple-et-methodologie",
+    "type": "blog",
+    "path": "/fr/blog/fiche-projet-exemple-et-methodologie",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie",
+        "rebuildUrl": "http://localhost:3000/fr/blog/fiche-projet-exemple-et-methodologie",
+        "diffPercent": 13.88946638946639,
+        "diffPixels": 2982324,
+        "dimensions": {
+          "width": 1440,
+          "height": 14911
+        }
+      }
+    }
+  },
+  {
+    "slug": "gestion-de-portefeuille-projet-pme",
+    "type": "blog",
+    "path": "/fr/blog/gestion-de-portefeuille-projet-pme",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme",
+        "rebuildUrl": "http://localhost:3000/fr/blog/gestion-de-portefeuille-projet-pme",
+        "diffPercent": 16.43133626282883,
+        "diffPixels": 4011507,
+        "dimensions": {
+          "width": 1440,
+          "height": 16954
+        }
+      }
+    }
+  },
+  {
+    "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/gestion-portefeuille-projets-vs-gestion-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
+        "diffPercent": 8.291589016487022,
+        "diffPixels": 3950909,
+        "dimensions": {
+          "width": 1440,
+          "height": 33090
+        }
+      }
+    }
+  },
+  {
+    "slug": "jalon-projet",
+    "type": "blog",
+    "path": "/fr/blog/jalon-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/jalon-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/jalon-projet",
+        "diffPercent": 13.996171539466387,
+        "diffPixels": 2382865,
+        "dimensions": {
+          "width": 1440,
+          "height": 11823
+        }
+      }
+    }
+  },
+  {
+    "slug": "kanban-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/kanban-gestion-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/kanban-gestion-de-projet",
+        "diffPercent": 15.053204709976079,
+        "diffPixels": 2325684,
+        "dimensions": {
+          "width": 1440,
+          "height": 10729
+        }
+      }
+    }
+  },
+  {
+    "slug": "kpi-gestion-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/kpi-gestion-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/kpi-gestion-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/kpi-gestion-de-projet",
+        "diffPercent": 13.506496094372707,
+        "diffPixels": 2304554,
+        "dimensions": {
+          "width": 1440,
+          "height": 11849
+        }
+      }
+    }
+  },
+  {
+    "slug": "la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "type": "blog",
+    "path": "/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+        "rebuildUrl": "http://localhost:3000/fr/blog/la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+        "diffPercent": 12.410174167386824,
+        "diffPixels": 2688282,
+        "dimensions": {
+          "width": 1440,
+          "height": 15043
+        }
+      }
+    }
+  },
+  {
+    "slug": "la-revue-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/la-revue-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/la-revue-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/la-revue-de-projet",
+        "diffPercent": 12.532573639418242,
+        "diffPixels": 2452755,
+        "dimensions": {
+          "width": 1440,
+          "height": 13591
+        }
+      }
+    }
+  },
+  {
+    "slug": "le-diagramme-de-gantt-comment-sen-servir",
+    "type": "blog",
+    "path": "/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir",
+        "rebuildUrl": "http://localhost:3000/fr/blog/le-diagramme-de-gantt-comment-sen-servir",
+        "diffPercent": 17.714296479777726,
+        "diffPixels": 2162618,
+        "dimensions": {
+          "width": 1440,
+          "height": 8478
+        }
+      }
+    }
+  },
+  {
+    "slug": "le-grand-guide-de-la-conduite-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/le-grand-guide-de-la-conduite-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/le-grand-guide-de-la-conduite-de-projet",
+        "diffPercent": 11.776855079588538,
+        "diffPixels": 5059450,
+        "dimensions": {
+          "width": 1440,
+          "height": 29834
+        }
+      }
+    }
+  },
+  {
+    "slug": "le-guide-du-mode-projet",
+    "type": "blog",
+    "path": "/fr/blog/le-guide-du-mode-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/le-guide-du-mode-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/le-guide-du-mode-projet",
+        "diffPercent": 10.52410370036553,
+        "diffPixels": 2690264,
+        "dimensions": {
+          "width": 1440,
+          "height": 17752
+        }
+      }
+    }
+  },
+  {
+    "slug": "le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "type": "blog",
+    "path": "/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+        "rebuildUrl": "http://localhost:3000/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+        "diffPercent": 18.927570437033115,
+        "diffPixels": 2574301,
+        "dimensions": {
+          "width": 1440,
+          "height": 9445
+        }
+      }
+    }
+  },
+  {
+    "slug": "le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+    "type": "blog",
+    "path": "/fr/blog/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+        "rebuildUrl": "http://localhost:3000/fr/blog/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+        "diffPercent": 16.40860852527393,
+        "diffPixels": 3122020,
+        "dimensions": {
+          "width": 1440,
+          "height": 13213
+        }
+      }
+    }
+  },
+  {
+    "slug": "le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+    "type": "blog",
+    "path": "/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+        "rebuildUrl": "http://localhost:3000/fr/blog/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+        "diffPercent": 13.346502516004774,
+        "diffPixels": 3148835,
+        "dimensions": {
+          "width": 1440,
+          "height": 16384
+        }
+      }
+    }
+  },
+  {
+    "slug": "lean-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/lean-portfolio-management",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/lean-portfolio-management",
+        "rebuildUrl": "http://localhost:3000/fr/blog/lean-portfolio-management",
+        "diffPercent": 13.546695293583536,
+        "diffPixels": 5156154,
+        "dimensions": {
+          "width": 1440,
+          "height": 26432
+        }
+      }
+    }
+  },
+  {
+    "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "type": "blog",
+    "path": "/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+        "diffPercent": 17.1853388514544,
+        "diffPixels": 4958039,
+        "dimensions": {
+          "width": 1440,
+          "height": 20035
+        }
+      }
+    }
+  },
+  {
+    "slug": "macro-planning",
+    "type": "blog",
+    "path": "/fr/blog/macro-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/macro-planning",
+        "rebuildUrl": "http://localhost:3000/fr/blog/macro-planning",
+        "diffPercent": 13.512764632627647,
+        "diffPixels": 2343762,
+        "dimensions": {
+          "width": 1440,
+          "height": 12045
+        }
+      }
+    }
+  },
+  {
+    "slug": "management-de-portefeuille-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/management-de-portefeuille-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/management-de-portefeuille-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/management-de-portefeuille-de-projet",
+        "diffPercent": 8.290329824384674,
+        "diffPixels": 3950309,
+        "dimensions": {
+          "width": 1440,
+          "height": 33090
+        }
+      }
+    }
+  },
+  {
+    "slug": "metier-pmo",
+    "type": "blog",
+    "path": "/fr/blog/metier-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/metier-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/blog/metier-pmo",
+        "diffPercent": 9.924842487950123,
+        "diffPixels": 2895942,
+        "dimensions": {
+          "width": 1440,
+          "height": 20263
+        }
+      }
+    }
+  },
+  {
+    "slug": "pi-planning",
+    "type": "blog",
+    "path": "/fr/blog/pi-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/pi-planning",
+        "rebuildUrl": "http://localhost:3000/fr/blog/pi-planning",
+        "diffPercent": 8.385981331258556,
+        "diffPixels": 3155893,
+        "dimensions": {
+          "width": 1440,
+          "height": 26134
+        }
+      }
+    }
+  },
+  {
+    "slug": "pi-safe",
+    "type": "blog",
+    "path": "/fr/blog/pi-safe",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/pi-safe",
+        "rebuildUrl": "http://localhost:3000/fr/blog/pi-safe",
+        "diffPercent": 13.007893293474346,
+        "diffPixels": 2485465,
+        "dimensions": {
+          "width": 1440,
+          "height": 13269
+        }
+      }
+    }
+  },
+  {
+    "slug": "pilotage-de-projet",
+    "type": "blog",
+    "path": "/fr/blog/pilotage-de-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/pilotage-de-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/pilotage-de-projet",
+        "diffPercent": 12.86659812736693,
+        "diffPixels": 2658198,
+        "dimensions": {
+          "width": 1440,
+          "height": 14347
+        }
+      }
+    }
+  },
+  {
+    "slug": "plan-capacitaire",
+    "type": "blog",
+    "path": "/fr/blog/plan-capacitaire",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/plan-capacitaire",
+        "rebuildUrl": "http://localhost:3000/fr/blog/plan-capacitaire",
+        "diffPercent": 11.541021056813667,
+        "diffPixels": 2649246,
+        "dimensions": {
+          "width": 1440,
+          "height": 15941
+        }
+      }
+    }
+  },
+  {
+    "slug": "plan-de-communication-projet",
+    "type": "blog",
+    "path": "/fr/blog/plan-de-communication-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/plan-de-communication-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/plan-de-communication-projet",
+        "diffPercent": 16.354982323983215,
+        "diffPixels": 4752156,
+        "dimensions": {
+          "width": 1440,
+          "height": 20178
+        }
+      }
+    }
+  },
+  {
+    "slug": "planification-de-la-capacite",
+    "type": "blog",
+    "path": "/fr/blog/planification-de-la-capacite",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/planification-de-la-capacite",
+        "rebuildUrl": "http://localhost:3000/fr/blog/planification-de-la-capacite",
+        "diffPercent": 13.385254890741649,
+        "diffPixels": 2358075,
+        "dimensions": {
+          "width": 1440,
+          "height": 12234
+        }
+      }
+    }
+  },
+  {
+    "slug": "planification-de-la-demande-capacity-planning",
+    "type": "blog",
+    "path": "/fr/blog/planification-de-la-demande-capacity-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/planification-de-la-demande-capacity-planning",
+        "rebuildUrl": "http://localhost:3000/fr/blog/planification-de-la-demande-capacity-planning",
+        "diffPercent": 15.929357248482996,
+        "diffPixels": 2499125,
+        "dimensions": {
+          "width": 1440,
+          "height": 10895
+        }
+      }
+    }
+  },
+  {
+    "slug": "portefeuille-projet",
+    "type": "blog",
+    "path": "/fr/blog/portefeuille-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/portefeuille-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/portefeuille-projet",
+        "diffPercent": 8.3175430643699,
+        "diffPixels": 3963276,
+        "dimensions": {
+          "width": 1440,
+          "height": 33090
+        }
+      }
+    }
+  },
+  {
+    "slug": "pourquoi-mettre-en-place-un-pmo",
+    "type": "blog",
+    "path": "/fr/blog/pourquoi-mettre-en-place-un-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/blog/pourquoi-mettre-en-place-un-pmo",
+        "diffPercent": 21.548864680215868,
+        "diffPixels": 5404869,
+        "dimensions": {
+          "width": 1440,
+          "height": 17418
+        }
+      }
+    }
+  },
+  {
+    "slug": "pourquoi-vos-18-millions",
+    "type": "blog",
+    "path": "/fr/blog/pourquoi-vos-18-millions",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/pourquoi-vos-18-millions",
+        "rebuildUrl": "http://localhost:3000/fr/blog/pourquoi-vos-18-millions",
+        "diffPercent": 12.359020512243598,
+        "diffPixels": 2636624,
+        "dimensions": {
+          "width": 1440,
+          "height": 14815
+        }
+      }
+    }
+  },
+  {
+    "slug": "preparer-comite-de-pilotage-d-un-projet",
+    "type": "blog",
+    "path": "/fr/blog/preparer-comite-de-pilotage-d-un-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/preparer-comite-de-pilotage-d-un-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/preparer-comite-de-pilotage-d-un-projet",
+        "diffPercent": 27.573916806834404,
+        "diffPixels": 7632769,
+        "dimensions": {
+          "width": 1440,
+          "height": 19223
+        }
+      }
+    }
+  },
+  {
+    "slug": "program-increment-planning",
+    "type": "blog",
+    "path": "/fr/blog/program-increment-planning",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/program-increment-planning",
+        "rebuildUrl": "http://localhost:3000/fr/blog/program-increment-planning",
+        "diffPercent": 8.441132454104062,
+        "diffPixels": 3176648,
+        "dimensions": {
+          "width": 1440,
+          "height": 26134
+        }
+      }
+    }
+  },
+  {
+    "slug": "project-portfolio-management",
+    "type": "blog",
+    "path": "/fr/blog/project-portfolio-management",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management",
+        "rebuildUrl": "http://localhost:3000/fr/blog/project-portfolio-management",
+        "diffPercent": 13.939908167512376,
+        "diffPixels": 7555854,
+        "dimensions": {
+          "width": 1440,
+          "height": 37641
+        }
+      }
+    }
+  },
+  {
+    "slug": "reporting-pmo",
+    "type": "blog",
+    "path": "/fr/blog/reporting-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/reporting-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/blog/reporting-pmo",
+        "diffPercent": 12.002033486756185,
+        "diffPixels": 3029006,
+        "dimensions": {
+          "width": 1440,
+          "height": 17526
+        }
+      }
+    }
+  },
+  {
+    "slug": "retour-sur-agile-en-seine-2023",
+    "type": "blog",
+    "path": "/fr/blog/retour-sur-agile-en-seine-2023",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/retour-sur-agile-en-seine-2023",
+        "rebuildUrl": "http://localhost:3000/fr/blog/retour-sur-agile-en-seine-2023",
+        "diffPercent": 24.39867374607767,
+        "diffPixels": 11171938,
+        "dimensions": {
+          "width": 1440,
+          "height": 31798
+        }
+      }
+    }
+  },
+  {
+    "slug": "role-du-pmo",
+    "type": "blog",
+    "path": "/fr/blog/role-du-pmo",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/role-du-pmo",
+        "rebuildUrl": "http://localhost:3000/fr/blog/role-du-pmo",
+        "diffPercent": 19.622495737425403,
+        "diffPixels": 4640265,
+        "dimensions": {
+          "width": 1440,
+          "height": 16422
+        }
+      }
+    }
+  },
+  {
+    "slug": "tout-savoir-sur-la-note-de-cadrage-projet",
+    "type": "blog",
+    "path": "/fr/blog/tout-savoir-sur-la-note-de-cadrage-projet",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet",
+        "rebuildUrl": "http://localhost:3000/fr/blog/tout-savoir-sur-la-note-de-cadrage-projet",
+        "diffPercent": 12.064127787146337,
+        "diffPixels": 2781486,
+        "dimensions": {
+          "width": 1440,
+          "height": 16011
+        }
+      }
+    }
+  },
+  {
+    "slug": "trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+    "type": "blog",
+    "path": "/fr/blog/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+    "widths": {
+      "1440": {
+        "liveUrl": "https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+        "rebuildUrl": "http://localhost:3000/fr/blog/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+        "diffPercent": 14.527550767706785,
+        "diffPixels": 3519735,
+        "dimensions": {
+          "width": 1440,
+          "height": 16825
+        }
+      }
+    }
+  }
+]

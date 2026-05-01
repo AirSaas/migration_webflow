@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 
-ROOT = Path("/Users/marianela/Documents/Website-Airsaas")
+ROOT = Path(__file__).resolve().parent.parent
 UI_DIR = ROOT / "src/components/library-design/ui"
 SECTIONS_DIR = ROOT / "src/components/library-design/sections"
 

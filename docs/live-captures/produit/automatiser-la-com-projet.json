@@ -1,0 +1,396 @@
+{
+  "url": "https://airsaas.io/produit/automatiser-la-com-projet",
+  "type": "produit",
+  "slug": "automatiser-la-com-projet",
+  "capturedAt": "2026-04-23T13:33:58.519Z",
+  "meta": {
+    "title": "Automatiser la com' projet",
+    "description": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+    "ogTitle": "Automatiser la com' projet",
+    "ogDescription": "Bien communiquer c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine."
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "Email \"bilan de santé\" : Automatisez la communication projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Bien communiquer, c'est 50% du succès de vos projets. Mais ça prend un temps fou et on rentre souvent trop dans le détail. Découvrez l'email \"bilan de santé\" qui partage juste le bon niveau d'information, automatiquement, une fois par semaine.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "Vous n'entendrez bientôt plus ces phrases ...",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Ajoutez les sponsors sur vos projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ajoutez les sponsors sur vos projets et ils recevront le bilan de santé de tous leurs projets, le lundi matin par email. Aussi simple que ça.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Un récap' complet et synthétique",
+      "href": null
+    },
+    {
+      "tag": "h4",
+      "text": "Tendance des projets vitaux",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment.",
+      "href": null
+    },
+    {
+      "tag": "h4",
+      "text": "Tendance de leurs projets à eux",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet.",
+      "href": null
+    },
+    {
+      "tag": "h4",
+      "text": "Projets en retard d'actualisation",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquilles !",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Recevez l'email \"Bilan de santé\" tous les lundi matin !",
+      "href": null
+    },
+    {
+      "tag": "h4",
+      "text": "Tendance des projets vitaux",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment.",
+      "href": null
+    },
+    {
+      "tag": "h4",
+      "text": "Tendance de leurs projets à eux",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention.",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "En un clic, ils peuvent accéder à la fiche projet.",
+      "href": null
+    },
+    {
+      "tag": "h4",
+      "text": "Projets en retard d'actualisation",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquile !",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Recevez l'email \"Bilan de santé\" tous les lundi matin !",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Vous voulez l'essayer ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Discutons-en et bénéficiez d'une démo sur mesure",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h3",
+      "text": "Nos solutions...",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Capacity planning : Pouvons-nous réellement faire ces projets ?",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à la vue Capacitaire, vous aurez les bases d’une discussion pragmatique pour répondre à la question : est-on capable de faire les projets prévus cette année, ce semestre, ce trimestre ?",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "h2",
+      "text": "La priorisation des projets, par équipe en demande",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Lorsqu'en Codir il faut prioriser les 125 projets du portfolio, c'est un peu dur de s'y retrouver...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/priorisation-par-equipes"
+    },
+    {
+      "tag": "h2",
+      "text": "Découvrez enfin le plaisir du reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Le reporting projet est essentiel pour créer de l'adhésion et s'assurer que les projets ne dérapent pas...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "h2",
+      "text": "Le rapport flash désormais en multilingue dans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Présenter simplement ses projets, ses programmes et son portefeuille, c'est toujours un casse tête dans les organisations multilingues...",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control%20tower%20email%20FR%20%28screen%29.webp",
+      "alt": "Bilan de santé",
+      "width": 1431,
+      "height": 1048,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control-tower-email-FR--screen-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+      "alt": "AirSaas testimonials",
+      "width": 69,
+      "height": 50,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/63d102838842ec12a9b1ce93_quote-left.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6645f73c0195b1d0919ff025_Block%20-%20people%20involved%20screen.webp",
+      "alt": "Personnes impliquées",
+      "width": 2450,
+      "height": 1556,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/6645f73c0195b1d0919ff025_Block---people-involved-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
+      "alt": "Bilan de santé",
+      "width": 1267,
+      "height": 459,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/66543b6b307a64952dc9c936_Control-tower-email-FR-1.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/665480333f9e9a2b8d42e921_Control%20tower%20email%20FR-2.png",
+      "alt": "Bilan de santé",
+      "width": 1267,
+      "height": 597,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/665480333f9e9a2b8d42e921_Control-tower-email-FR-2.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66548033d9773064e28e0257_Control%20tower%20email%20FR-3.png",
+      "alt": "Bilan de santé",
+      "width": 1267,
+      "height": 328,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/66548033d9773064e28e0257_Control-tower-email-FR-3.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6bd015108e78239180_Control%20tower%20email%20FR-2.png",
+      "alt": "Bilan de santé",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/66543b6bd015108e78239180_Control-tower-email-FR-2.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6bfecf8fe772bb2c52_Control%20tower%20email%20FR-3.png",
+      "alt": "Bilan de santé",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/66543b6bfecf8fe772bb2c52_Control-tower-email-FR-3.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/66334ee7bcfcb0aa45802537_Capacity-screen.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663cc3639d8f5c910c1cb133_Prioritization%20per%20team%20ppt.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/663cc3639d8f5c910c1cb133_Prioritization-per-team-ppt.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422d1e8363fb3be7ec829c_Presentation%20cadrage%20slide.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/66422d1e8363fb3be7ec829c_Presentation-cadrage-slide.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6633a76d5f19bfbf5c45d7d4_langue_profile.webp",
+      "alt": "Integrations",
+      "width": null,
+      "height": null,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/6633a76d5f19bfbf5c45d7d4_langue_profile.webp"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/produit/automatiser-la-com-projet/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Je veux une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/capacity-planning"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/priorisation-par-equipes"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/reporting-projet"
+    },
+    {
+      "tag": "a",
+      "text": "voir plus",
+      "href": "/fr/produit/traduction-one-click-avec-deepl"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}

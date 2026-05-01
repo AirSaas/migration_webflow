@@ -7,8 +7,95 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "cdn.prod.website-files.com" },
+      { protocol: "https", hostname: "uploads-ssl.webflow.com" },
+      { protocol: "https", hostname: "placehold.co" },
+    ],
+  },
   async redirects() {
     return [
+      // =============================================
+      // Webflow legacy → rebuild paths
+      // (catches internal links inside parsed Webflow content + external
+      //  inbound traffic from the old site structure)
+      // =============================================
+      {
+        // Webflow had a slug `rapport-flash` that the rebuild renamed to
+        // `flash-report-projet`. Override the generic /fr/solution/:slug
+        // catch-all for this specific slug.
+        source: "/fr/solution/rapport-flash",
+        destination: "/fr/solutions/flash-report-projet",
+        permanent: true,
+      },
+      {
+        // Webflow used /fr/solution/X (singular). Rebuild lives under
+        // /fr/solutions/X (plural) — fixes ~280 internal nav links.
+        source: "/fr/solution/:slug",
+        destination: "/fr/solutions/:slug",
+        permanent: true,
+      },
+      {
+        // Webflow blog articles lived at /gestion-de-projet/{slug} (no
+        // locale prefix). Rebuild canonical is /fr/blog/{slug}.
+        source: "/gestion-de-projet/:slug",
+        destination: "/fr/blog/:slug",
+        permanent: true,
+      },
+      {
+        // Some inline links use the locale-prefixed legacy form.
+        source: "/fr/gestion-de-projet/:slug",
+        destination: "/fr/blog/:slug",
+        permanent: true,
+      },
+      {
+        // Empty blog category (podcast hub) → main articles index until
+        // dedicated category page is rebuilt in Phase 7.
+        source: "/fr/blog/podcast",
+        destination: "/fr/blog/articles",
+        permanent: true,
+      },
+      {
+        // Same for nouveautes category.
+        source: "/fr/blog/nouveautes",
+        destination: "/fr/blog/articles",
+        permanent: true,
+      },
+      {
+        // Live site canonical is /fr/legal/cookies — match it here so
+        // inbound links from old footers continue to work.
+        source: "/fr/cookies",
+        destination: "/fr/legal/cookies",
+        permanent: true,
+      },
+      {
+        // /fr/conditions and /fr/confidentialite were never live but are
+        // referenced from footers in the parsed content. Redirect them to
+        // mentions-legales (canonical legal hub) until dedicated pages ship.
+        source: "/fr/conditions",
+        destination: "/fr/mentions-legales",
+        permanent: true,
+      },
+      {
+        source: "/fr/confidentialite",
+        destination: "/fr/mentions-legales",
+        permanent: true,
+      },
+      {
+        // /fr/alternative/sciforma was referenced from nav but never had a
+        // live page. Redirect to the main PPM landing until a proper
+        // comparison page ships.
+        source: "/fr/alternative/sciforma",
+        destination: "/fr/lp/ppm",
+        permanent: true,
+      },
+      {
+        source: "/fr/alternative/planview",
+        destination: "/fr/lp/ppm",
+        permanent: true,
+      },
+
       // =============================================
       // Blog URL cleanup (supprimer les -2 et -3)
       // =============================================

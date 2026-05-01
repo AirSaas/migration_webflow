@@ -1,0 +1,79 @@
+{
+  "type": "solution",
+  "slug": "portfolio-management",
+  "verifiedAt": "2026-04-30T19:25:46.130Z",
+  "flagsCount": 14,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.7.title",
+      "sample": "Chaque directeur définit ses prios"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.title",
+      "sample": "Commencez par un cadrage de projet optimal"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.14.title",
+      "sample": "Réduisez les durées de vos projets dans le portefeuille"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.title",
+      "sample": "Ritualisez vos reportings"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.17.title",
+      "sample": "Placez la transparence au coeur de votre portfolio project management"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.0.text",
+      "sample": "Cas client Picoty - Quarter plan roadmap DSI"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.1.text",
+      "sample": "Donner du rythme à la roadmap projet grâce au Quarter plan"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.2.text",
+      "sample": "Aligner capacité à faire et demandes entrantes grâce à Quarter plan"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.3.text",
+      "sample": "Améliorer son suivi de mission en tant qu'indépendant"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.4.text",
+      "sample": "Rationaliser les rituels autour du portfolio projet"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.5.text",
+      "sample": "Copiloter la stratégie et les opérations grâce à AirSaas + Asana - Groupe Intuis"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.6.text",
+      "sample": "Transformer la relation entre l'IT et les métiers et se focaliser sur la valeur, les infos pertinent"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.7.text",
+      "sample": "Renforcer les liens de confiance avec les directions métiers grâce à AirSaas - Indexia Group"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.testimonials.8.text",
+      "sample": "Management de transition - Caduciel"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.7.title\" contains \"Chaque directeur définit ses prios\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.title\" contains \"Commencez par un cadrage de projet optimal\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.14.title\" contains \"Réduisez les durées de vos projets dans le portefeuille\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.16.title\" contains \"Ritualisez vos reportings\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.17.title\" contains \"Placez la transparence au coeur de votre portfolio project management\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.testimonials.0.text\" contains \"Cas client Picoty - Quarter plan roadmap DSI\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.testimonials.1.text\" contains \"Donner du rythme à la roadmap projet grâce au Quarter plan\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.testimonials.2.text\" contains \"Aligner capacité à faire et demandes entrantes grâce à Quarter plan\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.testimonials.3.text\" contains \"Améliorer son suivi de mission en tant qu'indépendant\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.21.testimonials.4.text\" contains \"Rationaliser les rituels autour du portfolio projet\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- ... +4 more.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

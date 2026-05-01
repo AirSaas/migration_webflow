@@ -1,0 +1,576 @@
+{
+  "url": "https://airsaas.io/equipes/direction-de-la-transformation",
+  "type": "equipes",
+  "slug": "direction-de-la-transformation",
+  "capturedAt": "2026-04-23T13:35:29.567Z",
+  "meta": {
+    "title": "L'outil du DSI pour un PPM moderne, intégré à vos outils préférés",
+    "description": "L'outil des DSI qui veulent garder le contrôle et la visibilité sur l’ensemble des projets digitaux tout en accélérant la transformation de leur entreprise",
+    "ogTitle": "L'outil du DSI pour un PPM moderne, intégré à vos outils préférés",
+    "ogDescription": "L'outil des DSI qui veulent garder le contrôle et la visibilité sur l’ensemble des projets digitaux tout en accélérant la transformation de leur entreprise"
+  },
+  "blocks": [
+    {
+      "tag": "h1",
+      "text": "L'outil des Directions de la transformation pour mieux piloter leurs grands programmes",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Découvrez la solution qui accompagne les directions de la transformation à piloter l’ensemble des projets de l’entreprise en collaboration avec les métiers et l’IT. Avec AirSaas, positionnez vous au centre de cette transformation.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "Ils parlent de nous",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "“Hub de pilotage [...] donnant le bon niveau de visibilité aux métiers, aux Codir et Comex”",
+      "href": "https://www.alliancy.fr/comexposium-dsi-dialogue-metiers-evenementiel"
+    },
+    {
+      "tag": "a",
+      "text": "“AirSaas vise à rendre réel l’alignement entre les directions métiers, la DSI et la direction générale”",
+      "href": "https://www.journaldunet.com/solutions/dsi/1514525-airsaas-la-solution-pour-piloter-les-plans-de-transformation-des-entreprises/"
+    },
+    {
+      "tag": "a",
+      "text": "“Une nouvelle manière d’embarquer les équipes”",
+      "href": "https://www.lepoint.fr/services/gouvernance-projet-comment-airsaas-aide-les-entrepri[…]eurs-programmes-de-transformation-05-12-2022-2500422_4345.php"
+    },
+    {
+      "tag": "a",
+      "text": "“la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets”",
+      "href": "https://www.lemondeinformatique.fr/actualites/lire-aurore-butrot-dsi-d-intuis-revient-sur-le-pilotage-des-projets-it-89605.html"
+    },
+    {
+      "tag": "p",
+      "text": "Thomas Sagnimorte",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "DSI chez Millet Mountain Group",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Marie-Odile Lhomme",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Chief Digital & Information Officer-membre FrenchWomenCIO-Administratrice CRiP-VP@Arce Avenir Femmes-ESSEC Alumni Chief Digital & Information Officer-membre FrenchWomenCIO-Administratrice CRiP-VP@Arce Avenir Femmes-ESSEC Alumni",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou .Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Clement Royer",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "DSI - ICT MANAGER chez Chiesi France",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Avec l'outil AirSaas nous avons pu ritualiser nos réunions de revu projet en supprimant les PowerPoints et les réunions peu efficaces. Cela nous permet d'avoir toute la DSI alignée et informée sur l'ensemble des projets au quotidien. Un outil vraiment TOP !",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "La direction de la transformation au centre du changement culturel de l’entreprise",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Parce que la transformation de l’entreprise nécessite un profond changement dans sa culture, le directeur de la transformation digitale doit intégrer à sa mission cet accompagnement. Sans transparence, il ne peut y avoir d’engagement. La solution collaborative AirSaas permet aux équipes de comprendre et collaborer autour des projets de transformation de manière simple et compréhensible par tous.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Pourquoi adopter AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "C’est le temps qu’il vous faudra pour prendre en main l’outil",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "de visibilité sur l’état de santé des projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Temps économisé par projet par mois à faire votre reporting manuel",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "C’est ce que vous dira le CoDir après avoir mis en place AirSaas !",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Animez clairement et simplement le comité de pilotage",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Pilotez par la décision : Pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n’avez pas la bonne information.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Pilotez les projets de manière macro",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Priorisez en continu et soyez agile grâce votre roadmap collaborative.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Uniformisez le reporting projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Générez votre flash report en un clic et envoyez le de manière régulière aux sponsors métiers. Ils ne pourront plus dire “je ne savais pas !”",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "Faites gagner 1 jour par semaine à vos chefs de projet",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "En 5 minutes par semaine et par projet, les chefs de projets font remonter les informations cruciales pour le suivi de projet : Jalon, décision à prendre, point d’attention. Evitez les réunions “informationnelles” et les rush de dernière minute pour faire un reporting.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Améliorer en continu votre manière de faire des projets",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Générez en un clic le bilan d’un projet contenant les métriques (délai, coût, engagement, etc.) mais aussi les retours “DAKI” de l’équipe projet. Parfait pour s’améliorer ensemble.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "DROP",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ce que vous souhaitez arrêter.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "ADD",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ce que vous aimeriez essayer.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "KEEP",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ce qu’il faut garder.",
+      "href": null
+    },
+    {
+      "tag": "h3",
+      "text": "IMPROVE",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Ce que vous souhaitez améliorer.",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Nos clients Directeurs de la transfo. ne peuvent plus imaginer leurs vies sans AirSaas",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Des projets sur PowerPoint ou Excel",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un cadrage projet collaboratif et uniforme",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Un reporting projet / Copil à la main",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Une reporting décisionnel automatique",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Être noyé par l’information",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Se focaliser sur les décisions, les points d’attentions..",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Lutter en interne pour piloter à la tâche",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Piloter par les jalons",
+      "href": null
+    },
+    {
+      "tag": "h2",
+      "text": "Choisissez de gagner du temps et du contrôle",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Adoptez dès maintenant une solution efficace de reporting projet.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "h2",
+      "text": "AirSaas s’intégre à vos outils",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Synchronisez vos outils de gestions de projets et profitez d’une vue macro sur AirSaas. Connectez votre MS Teams et tenez informés vos collaborateurs.",
+      "href": null
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Plateforme de Gestion du Consentement : Personnalisez vos Options",
+      "href": null
+    },
+    {
+      "tag": "p",
+      "text": "Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.",
+      "href": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3b2244fc905908e85593_Portfolio%20integrated.webp",
+      "alt": "Portfolio integrated",
+      "width": 1920,
+      "height": 1266,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65ce3b2244fc905908e85593_Portfolio-integrated.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65547ebafb400e80682f4459_arrow_down.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 48,
+      "height": 67,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65547ebafb400e80682f4459_arrow_down.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d102838842ec12a9b1ce93_quote-left.svg",
+      "alt": "AirSaas testimonials",
+      "width": 69,
+      "height": 50,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/63d102838842ec12a9b1ce93_quote-left.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10687150c6042f155dcd4_logo-alliancy-monotone.png",
+      "alt": "Alliancy",
+      "width": 427,
+      "height": 164,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/63d10687150c6042f155dcd4_logo-alliancy-monotone.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png",
+      "alt": "JDN Journal du NET",
+      "width": 570,
+      "height": 259,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/63d106ab9c5e18b386c84505_JDN-monotone.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png",
+      "alt": "Le Point",
+      "width": 800,
+      "height": 188,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/63d10458acb275dbac3ecb65_LePoint-monotone.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png",
+      "alt": "lemondeinformatique.fr",
+      "width": 1276,
+      "height": 255,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/64141ec10a541a09487cd1ec_LMI.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp",
+      "alt": "",
+      "width": 800,
+      "height": 800,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/66154ad9e5406b2f6686f963_thomas-sagnimorte.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66154e9586f923137ec7a754_linkedin-embed-logo.png",
+      "alt": "",
+      "width": 75,
+      "height": 75,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/66154e9586f923137ec7a754_linkedin-embed-logo.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/66154d91a69420f9a97694fe_marie-odile-lhomme.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154db4a1cc5e0256fc6539_clement-royer.webp",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/66154db4a1cc5e0256fc6539_clement-royer.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/61fd68ee177ba19a9b23718a_guion.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 42,
+      "height": 13,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/61fd68ee177ba19a9b23718a_guion.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07032fd5d4c89add4bf_timer_icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/6555f07032fd5d4c89add4bf_timer_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f07bf0920f43f2eb11cc_percentage_icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/6555f07bf0920f43f2eb11cc_percentage_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f0864d585032b0b0937f_calendar_icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 77,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/6555f0864d585032b0b0937f_calendar_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6555f090b3688c139d87efed_merci_icon-min.svg",
+      "alt": "pourquoi AirSaas",
+      "width": 76,
+      "height": 87,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/6555f090b3688c139d87efed_merci_icon-min.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+      "alt": "Portfolio decisions",
+      "width": 1920,
+      "height": 1219,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65d35c96ec9fbf11d78e4b44_Portfolio-decisions--show-projects-title-.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+      "alt": "Portfolio timeline",
+      "width": 1920,
+      "height": 1346,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65ce3c00c0a4886fc8e9f671_Portfolio-project-timeline-view.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d6fd5da1f291f6011dee8d_Portfolio%20share%20decision.webp",
+      "alt": "Portfolio share decision",
+      "width": 1920,
+      "height": 1219,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65d6fd5da1f291f6011dee8d_Portfolio-share-decision.webp"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6556237862e1a1a1d72d9df3_icon%20drop%202.svg",
+      "alt": "Drop",
+      "width": 102,
+      "height": 102,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/6556237862e1a1a1d72d9df3_icon-drop-2.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6556238979a924a271ddd7ea_icon%20add%202.svg",
+      "alt": "Add",
+      "width": 96,
+      "height": 96,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/6556238979a924a271ddd7ea_icon-add-2.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65562399e486fc275d2ae5b3_icon%20keep%202.svg",
+      "alt": "Keep",
+      "width": 104,
+      "height": 101,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65562399e486fc275d2ae5b3_icon-keep-2.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/655623eaaa629c57da467734_icon%20improve%202.svg",
+      "alt": "Improve",
+      "width": 102,
+      "height": 112,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/655623eaaa629c57da467734_icon-improve-2.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66865ccd6319bebdceb619e4_Presentation-review-slide.png",
+      "alt": "",
+      "width": 1953,
+      "height": 1240,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/66865ccd6319bebdceb619e4_Presentation-review-slide.png"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/62013ae734f579791eb5aa96_guion-g.svg",
+      "alt": "sans AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/62013ae734f579791eb5aa96_guion-g.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/62013b7ba5410f4f91017870_guion-az.svg",
+      "alt": "avec AirSaas",
+      "width": 66,
+      "height": 16,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/62013b7ba5410f4f91017870_guion-az.svg"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d48497b08e93531f3ba49b_Graphic%20Integrations.webp",
+      "alt": "Automation - integrations",
+      "width": 1920,
+      "height": 1346,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/65d48497b08e93531f3ba49b_Graphic-Integrations.webp"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2018/12/illu-three-cookies.png?auto=format&fit=crop&w=170&h=auto&dpr=1",
+      "alt": "",
+      "width": 170,
+      "height": 81,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/illu-three-cookies.png"
+    },
+    {
+      "src": "https://axeptio.imgix.net/2019/01/thumbprint-full.png?hex=&hue=244&sat=-32&bri=6&w=200",
+      "alt": "",
+      "width": 200,
+      "height": 134,
+      "localPath": "/assets/pages/equipes/direction-de-la-transformation/thumbprint-full.png"
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "“Une nouvelle manière d’embarquer les équipes”",
+      "href": "https://www.lepoint.fr/services/gouvernance-projet-comment-airsaas-aide-les-entrepri[…]eurs-programmes-de-transformation-05-12-2022-2500422_4345.php"
+    },
+    {
+      "tag": "a",
+      "text": "Réservez une démo",
+      "href": "/fr/meetings-pages"
+    },
+    {
+      "tag": "a",
+      "text": "Lire la politique de confidentialité",
+      "href": "https://www.airsaas.io/fr/legal/charte-de-confidentialite"
+    },
+    {
+      "tag": "button",
+      "text": "Consentements certifiés par",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Non merci",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "Je choisis",
+      "href": null
+    },
+    {
+      "tag": "button",
+      "text": "OK pour moi",
+      "href": null
+    }
+  ]
+}

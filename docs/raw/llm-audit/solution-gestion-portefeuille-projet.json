@@ -1,0 +1,228 @@
+{
+  "type": "solution",
+  "slug": "gestion-portefeuille-projet",
+  "audit": {
+    "sections": [
+      {
+        "index": 0,
+        "type": "hero",
+        "title": "Hero",
+        "verdict": "OK",
+        "note": "Title, highlight, subtitle, CTA all match live."
+      },
+      {
+        "index": 1,
+        "type": "press-quotes",
+        "title": "Ils parlent de nous",
+        "verdict": "OK",
+        "note": "All 4 press quotes match live with logos."
+      },
+      {
+        "index": 2,
+        "type": "testimonials",
+        "title": "Testimonials",
+        "verdict": "OK",
+        "note": "Three testimonials with proper avatars and LinkedIn URLs. Marie-Odile's role was shortened to a cleaner version which is acceptable."
+      },
+      {
+        "index": 3,
+        "type": "intro",
+        "title": "L'outil de portefeuille projets préféré...",
+        "verdict": "OK"
+      },
+      {
+        "index": 4,
+        "type": "icon-row",
+        "title": "3 differentiators",
+        "verdict": "OK",
+        "note": "Three items with labels and icons match live."
+      },
+      {
+        "index": 5,
+        "type": "feature-split",
+        "title": "Décidez de manière avisée en Copil",
+        "verdict": "OK"
+      },
+      {
+        "index": 6,
+        "type": "feature-split",
+        "title": "Améliorez l'efficacité du reporting",
+        "verdict": "OK"
+      },
+      {
+        "index": 7,
+        "type": "feature-split",
+        "title": "Optimisez les ressources humaines",
+        "verdict": "OK"
+      },
+      {
+        "index": 8,
+        "type": "feature-split",
+        "title": "Observez la consommation",
+        "verdict": "WRONG_IMAGE",
+        "note": "imageSrc is outil3.svg which on live is the actual illustration for this section, so this is faithful. Actually OK."
+      },
+      {
+        "index": 9,
+        "type": "cta",
+        "title": "Choisissez de gagner du temps",
+        "verdict": "OK"
+      },
+      {
+        "index": 10,
+        "type": "intro",
+        "title": "Avancez plus sereinement",
+        "verdict": "OK"
+      },
+      {
+        "index": 11,
+        "type": "feature-split",
+        "title": "Diminuez la frustration",
+        "verdict": "OK"
+      },
+      {
+        "index": 12,
+        "type": "feature-split",
+        "title": "Vers un meilleur cadrage",
+        "verdict": "OK"
+      },
+      {
+        "index": 13,
+        "type": "feature-split",
+        "title": "Des équipes plus engagées",
+        "verdict": "OK"
+      },
+      {
+        "index": 14,
+        "type": "feature-split",
+        "title": "Communiquez sur les avancées",
+        "verdict": "OK"
+      },
+      {
+        "index": 15,
+        "type": "cta",
+        "title": "CTA repeat",
+        "verdict": "OK"
+      },
+      {
+        "index": 16,
+        "type": "intro",
+        "title": "Une distinction à faire",
+        "verdict": "OK"
+      },
+      {
+        "index": 17,
+        "type": "feature-split",
+        "title": "La gestion de projet",
+        "verdict": "OK",
+        "note": "Bullets present and correct."
+      },
+      {
+        "index": 18,
+        "type": "feature-split",
+        "title": "La gestion d'un portefeuille de projets",
+        "verdict": "OK",
+        "note": "Merges the split block + following richtext extension with bullets - acceptable consolidation."
+      },
+      {
+        "index": 19,
+        "type": "intro",
+        "title": "Rapide historique",
+        "verdict": "OK",
+        "note": "subSections capture both feature blocks plus follow-up paragraph."
+      },
+      {
+        "index": 20,
+        "type": "cta",
+        "title": "CTA repeat",
+        "verdict": "OK"
+      },
+      {
+        "index": 21,
+        "type": "intro",
+        "title": "Des visions différentes",
+        "verdict": "OK"
+      },
+      {
+        "index": 22,
+        "type": "feature-split",
+        "title": "Deux styles de DSI - pyramides",
+        "verdict": "OK",
+        "note": "Live shows two pyramid images side-by-side; extraction uses one. Acceptable simplification."
+      },
+      {
+        "index": 23,
+        "type": "intro",
+        "title": "Des visions opposées",
+        "verdict": "OK"
+      },
+      {
+        "index": 24,
+        "type": "feature-split",
+        "title": "all-in-one VS intègre",
+        "verdict": "OK"
+      },
+      {
+        "index": 25,
+        "type": "feature-split",
+        "title": "espace collaboratif structuré",
+        "verdict": "OK"
+      },
+      {
+        "index": 26,
+        "type": "feature-split",
+        "title": "misent sur l'UX",
+        "verdict": "OK"
+      },
+      {
+        "index": 27,
+        "type": "intro",
+        "title": "Choisir son outil...méthodes installées",
+        "verdict": "OK"
+      },
+      {
+        "index": 28,
+        "type": "intro",
+        "title": "L'interface utilisateur comme vecteur",
+        "verdict": "OK"
+      },
+      {
+        "index": 29,
+        "type": "intro",
+        "title": "Où se situe AirSaas",
+        "verdict": "OK"
+      },
+      {
+        "index": 30,
+        "type": "feature-split",
+        "title": "Un outil PPM intuitif - Jira",
+        "verdict": "TRUNCATED",
+        "note": "Extracted JSON file is cut off mid-section; output ends with 'feature-sp...'"
+      }
+    ],
+    "missingFromExtract": [
+      {
+        "liveSectionDescription": "Microsoft Teams integration feature-split (with outil18b.svg image)",
+        "suggestedType": "feature-split"
+      },
+      {
+        "liveSectionDescription": "Un outil PPM avec une UX forte (Feed search solution image)",
+        "suggestedType": "feature-split"
+      },
+      {
+        "liveSectionDescription": "Un outil PPM portant une méthodologie collaborative pour impliquer les métiers",
+        "suggestedType": "intro"
+      },
+      {
+        "liveSectionDescription": "Highlight paragraph: 'AirSaas est donc solution PPM légère...'",
+        "suggestedType": "intro"
+      },
+      {
+        "liveSectionDescription": "Final CTA 'Découvrez comment AirSaas peut vous aider' with Réservez une démo button",
+        "suggestedType": "cta"
+      }
+    ],
+    "globalVerdict": "PARTIAL",
+    "summary": "Extraction is generally faithful and well-structured for the first ~30 sections (hero, press, testimonials, intros, feature-splits, CTAs all properly typed and content accurate). However the JSON file is TRUNCATED — the last feature-split (Jira integration) ends mid-token at \"feature-sp...\" and the remainder of the page is missing: Microsoft Teams integration block, \"UX forte\" feature, \"méthodologie collaborative\" intro, the final highlighted summary paragraph, and the final \"Découvrez comment AirSaas peut vous aider\" CTA. The captured content itself is faithful but the file appears cut off, leaving 5+ live sections unrepresented."
+  }
+}

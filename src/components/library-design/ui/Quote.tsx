@@ -9,7 +9,7 @@ interface QuoteProps {
   /** Optional circular avatar for the author. Displayed next to `author`. */
   authorAvatar?: string;
   /** Alt text for the author avatar. Defaults to "". */
-  authorAvatarAlt: string;
+  authorAvatarAlt?: string;
   /** Hide the decorative quote icon. Default: shown. Ignored in `variant="pull"` (always hidden). */
   hideIcon?: boolean;
   /** Horizontal alignment. Default "center" — matches stacked
@@ -136,7 +136,7 @@ export function Quote({
           {authorAvatar && (
             <img
               src={authorAvatar}
-              alt={authorAvatarAlt}
+              alt={authorAvatarAlt ?? ""}
               className="rounded-full object-cover shrink-0"
               style={{ width: "2.5rem", height: "2.5rem" }}
               loading="lazy"

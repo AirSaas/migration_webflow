@@ -1,0 +1,14 @@
+{
+  "type": "solution",
+  "slug": "outils-de-pilotage-projet",
+  "verifiedAt": "2026-04-30T19:25:44.800Z",
+  "flagsCount": 1,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.subSections.0.body",
+      "sample": "<p>On voit qu'il existait déjà des outils de pilotage de projet sur le marché dès 1980, mais que de "
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.16.subSections.0.body\" contains \"<p>On voit qu'il existait déjà des outils de pilotage de projet sur le marché dès 1980, mais que de \" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}

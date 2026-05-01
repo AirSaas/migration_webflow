@@ -65,7 +65,7 @@ interface FeatureFrameProps {
   ctaHref?: string;
   /** Screenshot/illustration source */
   imageSrc?: string;
-  imageAlt: string;
+  imageAlt?: string;
   /** Background color of the illustration frame */
   imageBgColor?: string;
   /** Optional DOM id on the root `<section>` — scroll-spy target for TabsFrame / TocSidebar. */
@@ -202,7 +202,7 @@ export function FeatureFrame({
     >
       <img
         src={imageSrc}
-        alt={imageAlt}
+        alt={imageAlt ?? ""}
         className="w-full h-auto rounded-[0.625rem] object-cover"
         loading="lazy"
       />

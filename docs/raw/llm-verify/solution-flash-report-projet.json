@@ -1,0 +1,79 @@
+{
+  "type": "solution",
+  "slug": "flash-report-projet",
+  "verifiedAt": "2026-04-30T19:25:40.032Z",
+  "flagsCount": 14,
+  "flags": [
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.3.title",
+      "sample": "Votre flash report 100% automatisé"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.4.title",
+      "sample": "Des intégrations natives pour éviter le report de données manuel"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.6.title",
+      "sample": "Une structure fixe hyper-lisible"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.7.title",
+      "sample": "Une personnalisation pour coller à vos objectifs stratégiques"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.10.title",
+      "sample": "Votre reporting : l'allié pour vous aider dans vos décisions"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.13.title",
+      "sample": "Une vue macro pour simplifier votre planification stratégique"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.14.title",
+      "sample": "Des vues personnalisables sur votre portefeuille de projets"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.15.title",
+      "sample": "Vos fiches de cadrage de projet collaboratives"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.title",
+      "sample": "L'outil collaboratif idéal pour mieux communiquer"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.16.body",
+      "sample": "<p>Paramétrez sur votre plateforme les notifications que vous voulez envoyer à vos équipes opération"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.19.title",
+      "sample": "Intégrez le ressenti de vos équipes à vos flash reports"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.20.title",
+      "sample": "Tenez-vous à une fréquence d'envoi de reporting fixe"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.title",
+      "sample": "Envoyez vos reportings projets en amont du Copil"
+    },
+    {
+      "type": "FABRICATED_TEXT",
+      "path": "sections.21.titleHighlight",
+      "sample": "Envoyez vos reportings projets"
+    }
+  ],
+  "feedback": "Your previous extraction has FABRICATED content not present in the source HTML. Fix specifically these :\n\n## Texts not found in source HTML — REMOVE these from the output :\n- field \"sections.3.title\" contains \"Votre flash report 100% automatisé\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.4.title\" contains \"Des intégrations natives pour éviter le report de données manuel\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.6.title\" contains \"Une structure fixe hyper-lisible\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.7.title\" contains \"Une personnalisation pour coller à vos objectifs stratégiques\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.10.title\" contains \"Votre reporting : l'allié pour vous aider dans vos décisions\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.13.title\" contains \"Une vue macro pour simplifier votre planification stratégique\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.14.title\" contains \"Des vues personnalisables sur votre portefeuille de projets\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.15.title\" contains \"Vos fiches de cadrage de projet collaboratives\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.16.title\" contains \"L'outil collaboratif idéal pour mieux communiquer\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- field \"sections.16.body\" contains \"<p>Paramétrez sur votre plateforme les notifications que vous voulez envoyer à vos équipes opération\" which doesn't appear in the source. Either it's hallucinated, or it's a paraphrase — re-emit the exact source text or omit the field.\n- ... +4 more.\n\nRe-emit the COMPLETE extract via the extract_landing_page tool with these issues fixed.\n"
+}
