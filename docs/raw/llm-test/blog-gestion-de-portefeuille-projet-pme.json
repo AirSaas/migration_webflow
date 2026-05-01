@@ -1,0 +1,472 @@
+{
+  "type": "blog",
+  "slug": "gestion-de-portefeuille-projet-pme",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Pourquoi développer une gestion de portefeuille projets dans une PME ?",
+      "h1": "Pourquoi développer une gestion de portefeuille projets dans une PME ?",
+      "description": "Découvrez pourquoi et comment mettre en place une gestion de portefeuille projets dans une PME : bénéfices, démarche, digitalisation et 10 critères clés pour choisir votre outil PPM.",
+      "publishedDate": "30/9/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "30/9/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6336a8d7e6b26823ad7b3746_PPM-PME-AirSaas-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Gestion de portefeuille de projets : définition et usages",
+        "href": "#gestion-de-portefeuille-de-projets-definition-et-usages"
+      },
+      {
+        "label": "Gestion d'un portefeuille de projet dans une PME : quels bénéfices, et pour qui ?",
+        "href": "#gestion-dun-portefeuille-de-projet-dans-une-pme-quels-benefices-et-pour-qui"
+      },
+      {
+        "label": "La démarche portefeuille projets dans les PME : un levier d'engagement et de business",
+        "href": "#la-demarche-portefeuille-projets-dans-les-pme-un-levier-dengagement-et-de-business"
+      },
+      {
+        "label": "La digitalisation de la démarche de portefeuille de projets de PME pour innover malgré des ressources limitées",
+        "href": "#la-digitalisation-de-la-demarche-de-portefeuille-de-projets-de-pme-pour-innover-malgre-des-ressources-limitees"
+      },
+      {
+        "label": "Conclusions & recommandations",
+        "href": "#conclusions-and-recommandations"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Les PME ont les mêmes attentes au niveau de la transformation numérique que les ETI et grands groupes, à la différence près que leurs ressources et budgets sont moindres, et que les compétences en interne sont parfois moins identifiées ou dédiées."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'accélération digitale est là, et il est aujourd'hui vital de s'outiller pour piloter et surfer sur cette vague avec autre chose qu'un tableur Excel et une présentation Power^Point !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une démarche de standardisation du pilotage projet, assistée par une plateforme peut se révéler judicieuse."
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"https://www.oberlo.fr/blog/petites-entreprises-en-france\">D'après l'INSEE</a>, en 2022 les PME représentaient 3,8 % des entreprises en France, soit environ 144 400 PME en tout. Les grandes entreprises et entreprises de taille intermédiaire ne constituant que 0,2 % des entreprises en France, soit 7 600 entreprises au total."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les PME constituent bien le cœur du tissu économique Français."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et bonne nouvelle : <strong>la gestion de portefeuille de projets n'est pas réservée aux ETI et grands comptes !</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "gestion-de-portefeuille-de-projets-definition-et-usages",
+        "text": "Gestion de portefeuille de projets : définition et usages"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le portfolio management, que l'on retrouve aussi sous les dénominations « <a href=\"https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management\">Project Portfolio Management</a> » ou « gestion de portefeuille de projets est défini par Wikipédia comme \"<em>la discipline traitant des projets pris d'un point de vue global dans un but de sélection et d'arbitrage</em>\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Alors que la gestion de projet s'attache à « bien faire les projets » - domaine de l'opérationnel -, la gestion de portefeuille de projets vise à « <strong>faire les bons projets</strong> » - domaine du décisionnel."
+      },
+      {
+        "type": "quote",
+        "text": "Il faut revenir aux fondamentaux : il faut se questionner sur le business, sur les contraintes métiers, où est-ce qu'il est nécessaire d'avoir de la souplesse, etc. Pour réussir à bien lister l'ensemble des attentes, et classifier ces attentes, les prioriser, afin d'y voir clair.",
+        "author": "Laurent Béliot",
+        "caption": "DSI en temps partagé - episode 24 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "La couverture fonctionnelle des plateformes logicielles associées aux pratiques de portefeuilles de projets est plus ou moins large selon les éditeurs, elle peut inclure :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La gestion du <strong>temps</strong>",
+          "La gestion des <strong>ressources</strong>",
+          "La gestion de <strong>projet</strong>",
+          "La gestion <strong>budgétaire</strong>,",
+          "La gestion des <strong>décisions</strong>",
+          "La gestion du <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\"><strong>reporting</strong></a> unifié",
+          "La gestion du <strong>portefeuille de projets</strong>",
+          "La gestion des <strong>demandes entrantes</strong>",
+          "La gestion de la <strong>collaboration</strong>"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdc3b9c48984919821f939_63369b34e6da8e7c4a685496_PPM-Airsaas-min.jpeg",
+        "alt": "couverture fonctionnelle type des outils PPM",
+        "caption": "Couverture fonctionnelle / produits des solutions de gestion de portefeuille projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "A l'image des ERP des années 2000/2010, certaines solutions sont très, voire trop larges... Même si les promesses du \"tout en 1\" sont tentantes. Attention à l'adoption et à la conduite du changement dans votre déploiement. La multiplication des fonctionnalités, la densité du menu du logiciel, est paradoxalement un signe de futurs problèmes dans leur utilisation en entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans les lignes qui suivent, on vous en dit plus sur le contenu et on partage <strong>une stratégie pragmatique pour implémenter une solution de gestion de portefeuille de projets efficacement dans votre PME</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "gestion-dun-portefeuille-de-projet-dans-une-pme-quels-benefices-et-pour-qui",
+        "text": "Gestion d'un portefeuille de projet dans une PME : quels bénéfices, et pour qui ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Combler le gap entre vision et exécution</strong>. Et suivre toutes vos initiatives au même endroit C'est la promesse des démarches et outils de gestion du portefeuille de projets !"
+      },
+      {
+        "type": "quote",
+        "text": "Quand on est dans une PME, on est à mi-chemin entre le besoin d'opérationnel et le besoin de stratégie. Il faut être capable de faire le grand écart quotidiennement.",
+        "author": "Pierre Raschi",
+        "caption": "Directeur général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec une plateforme comme AirSaas au sein de votre entreprise vous pourrez bénéficier de cinq avantages clés :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-cadrage-projet-avec-les-metiers\"><strong>Cadrages projets</strong></a><strong> collaboratifs</strong> et uniformes",
+          "<strong>Reportings</strong> décisionnels <strong>automatiques</strong>",
+          "<strong>Focalisation</strong> sur la <strong>prise de décision</strong>, les points d'attentions",
+          "<strong>Pilotage</strong> par les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons</strong></a>",
+          "<a href=\"https://www.airsaas.io/gestion-de-projet/comment-animer-un-bilan-projet-efficace\"><strong>Bilan projet</strong></a> dans une seule plateforme."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "L'accélération de la transition digitale a en effet pour conséquence une augmentation du flux d'initiatives et projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Suivre vos \"chantiers\" et le management de projet avec un tableur Excel n'est plus une option !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour suivre vos investissements, vos objectifs stratégiques, une gestion de portefeuilles de projets moderne peut vous aider à définir un périmètre clair d'initiatives ET d'exécution."
+      },
+      {
+        "type": "quote",
+        "text": "Si on ne fait pas cet exercice de priorisation en fonction du payback, on peut se retrouver à dépenser pas mal d'argent en transformation digitale pour des projets qui ont un impact business faible sur l'entreprise. L'idée, c'est d'avoir une remontée des projets par direction et ensuite les prioriser en fonction du payback que ça peut représenter pour l'entreprise.",
+        "author": "Alexis de Nervaux",
+        "caption": "CIO & CDO - episode 48 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les objectifs sont bien de <strong>concentrer et prioriser les efforts</strong> ! On risque sinon de verser, non pas dans l'agilité des processus, mais dans l'agitation et la non-priorisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les outils modernes de Portfolio Project Management sont donc situés à la fois au niveau stratégique et opérationnel dans votre organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est précisément sur ces deux axes que la mise en place d'un outil de gestion du portefeuille projets vous apportera de la valeur ajoutée et des bénéfices, directs et indirects :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Plus de transparence</strong> dans le fonctionnement",
+          "<strong>Un cadre clair</strong> et unique pour suivre l'avancement des initiatives",
+          "<strong>Une capitalisation sur les projets menés</strong>, de leur cadrage à leur exécution, jusqu'au bilan projet",
+          "Un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet\"><strong>Kanban</strong></a><strong> des décisions</strong> à prendre contribuant à une nouvelle efficience de votre gouvernance de la transformation de votre organisation",
+          "<strong>La diffusion d'une culture projet forte</strong>, sans effort, dans toute l'entreprise",
+          "Enfin, <strong>plus de plaisir dans l'utilisation</strong> : finissez-en aujourd'hui avec votre Excel à 1200 colonnes !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est peut-être pour vous, managers et dirigeants de PME, que le pragmatisme est le plus important ! Inutile de lire un des énièmes livres blancs : lancez-vous."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-demarche-portefeuille-projets-dans-les-pme-un-levier-dengagement-et-de-business",
+        "text": "La démarche portefeuille projets dans les PME : un levier d'engagement et de business"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le premier facteur d'échec évoqué pour les projets transverses qui n'apportent pas les résultats escomptés est le manque d'alignement et de communication entre l'IT, les métiers et le Codir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour le dire en deux mots : <strong>sans transparence, pas d'engagement.</strong>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdc3b9c48984919821f944_63369dd475a0b2e1ed0c9e56_silos-entreprise-airsaas.jpeg",
+        "alt": "Silos en entreprise",
+        "caption": "Ensemble de silos organisationnels, le nombre n'est pas représentatif :)"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est de ce constat et par la volonté de vouloir aider les ETI et PME à réussir à travailler en \"cross silos\" horizontaux (DSI - métiers), mais aussi en \"cross silos\" verticaux (chef de projets - PMO - direction), qu'AirSaas s'est développé."
+      },
+      {
+        "type": "quote",
+        "text": "Un point indispensable dans la transfo, c'est la communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace. La transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque : \"Ouhlala, on va remplacer mon job\". C'est clé dans la réussite et l'adoption des changements. Quand on communique en continu sur des sujets, chacun a le loisir de réagir. Cela instaure un dialogue qui est très sain pour la réussite de changements structurants comme ceux qu'on est en train de faire.",
+        "author": "Alexia Schmitt",
+        "caption": "CIO - Episode 22 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez une stratégie d'entreprise ? C'est tout ce dont vous avez besoin pour commencer avec AirSaas !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Trois axes de travail seront alors à adresser pour amener un fonctionnement plus coopératif de votre gestions de projets. Qui génère de la performance versus un fonctionnement type \"sur contrôle\" pour éviter la dérive des activités."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "renforcer-le-sens-la-vision",
+        "text": "Renforcer le sens, la vision"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ayez un bon storytelling des programmes de transformation / axes stratégiques. Par exemple : \"le programme d'excellence commerciale 2022 (projet CRM, projet analyse comportementale, projet analyse prédictive, projet site web...) doit nous amener à rentrer dans le top 3 européen\". Sinon; au bout de quelques mois, les projets n'auront plus de sens, et le manque de motivation des équipes peut vite se faire ressentir."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "redefinir-les-roles-et-redevabilites-des-ressources-humaines",
+        "text": "Redéfinir les rôles et redevabilités des ressources humaines"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est quoi un sponsor ? Un chef de projet ? Un référent métier ? Quels sont les droits et devoirs de chacun dans la gestion de projets ? Sans règle du jeu, personne ne sera responsable de rien."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "faire-evoluer-les-rituels-et-la-communication-sur-le-suivi-de-projet",
+        "text": "Faire évoluer les rituels et la communication sur le suivi de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tous les mardis, réunion chef de projet + référent métier de 5 minutes par projet : décisions à prendre, points d'attention",
+          "Tous les vendredis, envoi du <a href=\"https://www.airsaas.io/fr/solution/flash-report\">rapport flash</a> à l'ensemble des parties-prenantes",
+          "Tous les mois, Copil sur les enjeux du mois prochain, et alignement sur le temps métiers disponible"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec cette démarche stratégique et un logiciel de gestion de portefeuille projet moderne, vous serez plus a même d'évaluer les projets qui contribuent à votre stratégie ET qui permettent d'obtenir les objectifs et résultats visés de façon engageante et coopérative."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-digitalisation-de-la-demarche-de-portefeuille-de-projets-de-pme-pour-innover-malgre-des-ressources-limitees",
+        "text": "La digitalisation de la démarche de portefeuille de projets de PME pour innover malgré des ressources limitées"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de portefeuille de projets : une démarche réservée aux grandes entreprises ? Certainement pas ! Au contraire, les PME peuvent parfois mieux tirer leur épingle du jeu. Pourquoi ? Parce qu'elles ont intrinsèquement plus d'agilité et parfois, disons-le, de motivation, qu'au sein d'une ETI ou d'un grand groupe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui : le cycle de décision d'une PME est, en général, différent d'une ETI ou d'un grand groupe. La plupart des silos organisationnels ne sont pas encore \"enkystés\"."
+      },
+      {
+        "type": "quote",
+        "text": "Le premier conseil que je pourrais donner à un dirigeant de PME, c'est d'identifier ses axes de valeurs. Comment peut-on créer de la valeur grâce au digital ?",
+        "author": "Pierre Raschi",
+        "caption": "Directeur Général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous n'avez pas de ressources ou de compétences disponibles pour travailler sur la transformation ? Tant mieux. On peut tout à fait créer une culture projet forte en s'appuyant sur des outils et une démarche. Les plateformes constitueront une assistance précieuse au pilotage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le parallèle avec le vélo à assistance électrique est tout indiqué ! Oui : même dans un environnement contraint par le manque de temps et ressources, ajouter un moteur à votre pilotage projet est possible."
+      },
+      {
+        "type": "paragraph",
+        "html": "En complément de votre \"outillage\", le pilotage demeure un enjeu majeur. Une autre piste possible sera de recourir a un PMO/CDIO/DSI en temps partagé."
+      },
+      {
+        "type": "quote",
+        "text": "Les PME ont deux choix. Elles peuvent recruter un DSI costaud, taillé pour le poste mais qui va s'ennuyer car il n'y a pas assez de projets à piloter. Le second, c'est de faire appel à un responsable informatique, plus jeune, que l'on va faire grandir avec la société, mais lorsqu'ils deviennent DSI, ils sont beaucoup trop dans l'opérationnel. Notre objectif, c'est de proposer un troisième choix, d'accompagner ces DSI, pendant un ou deux jours par semaine.",
+        "author": "Pierre Raschi",
+        "caption": "Directeur Général - Référence DSI - Episode 8 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusions-and-recommandations",
+        "text": "Conclusions & recommandations"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pme-10-criteres-cles-pour-choisir-votre-outil-ppm",
+        "text": "PME : 10 critères clés pour choisir votre outil PPM"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "1-le-design-de-linterface",
+        "text": "1. Le design de l'interface"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour une vraie adoption par les utilisateurs au quotidien, c'est le critère numéro 1 ! Optez pour une <strong>solution \"light\"</strong> <strong>versus</strong> le progiciel \"tout en 1\" type ERP projet \"obèse\"."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "2-les-fonctionnalites-cles-innovantes",
+        "text": "2. Les fonctionnalités clés innovantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si votre besoin est de commencer rapidement, fuyez aujourd'hui les solutions aux couvertures fonctionnelles trop larges. Visez le \"B.A-BA\" du PPM et des automatisations-clés. Avec, par exemple, la fonction de reporting en un clic et standardisé"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "3-la-dimension-collaborative-de-la-solution",
+        "text": "3. La dimension collaborative de la solution"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au cours du cycle de vie du projet, comment sont pensées les interactions entre les acteurs transverses ? Les logiciels qui sortent du lot incluent en particulier le renforcement du collaboratif en synchrone et asynchrone."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "4-la-vision-la-philosophie-derriere-loutil",
+        "text": "4. La vision, la philosophie, derrière l'outil"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'évolution des méthodes vers toujours plus d'hybride entre agilité et cycle en V nécessitera une approche souple du canevas méthodologique proposé. Aujourd'hui, tout est projet, de 3 jours à 3 ans..."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "5-louverture-de-la-solution",
+        "text": "5. L'ouverture de la solution"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne perdez plus de temps en re-saisie de données. Les PPM modernes sont conçus comme de véritables \"hubs\" permettant à un ensemble d'applications déjà existantes dans votre organisation de communiquer entre elles. Que ce soit avec vos outils de gestion de projet (Wrike, Jira, Asana, Trello) ou avec vos outils de communication (Teams, par exemple), Airsaas rassemble vos données projets dans un tableau de bord."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "6-la-conformite-rgpd-et-cloud-act",
+        "text": "6. La conformité RGPD et Cloud Act"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce point n'est pas anecdotique en gestion de projets. Et trop souvent oublié dans les phases d'avant-vente."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "7-la-capacite-de-reversibilite",
+        "text": "7. La capacité de réversibilité"
+      },
+      {
+        "type": "paragraph",
+        "html": "Elle peut être coûteuse, voire impossible. Ce point n'est pas anecdotique, et trop souvent oublié également. Notre conseil : interrogez les éditeurs sur leurs pratiques et faites un test de \"rollback\" (export de données) avant de signer le contrat."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "8-la-securite",
+        "text": "8. La sécurité"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un check par votre RSSI peut permettre de vous assurer que tout est ok pour identifier et protéger l'accès à des données stratégiques. Chiffrez si possible les données pour vous apporter un peu plus de sérénité."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "9-le-prix-de-tous-les-types-de-licences-et-du-set-up-pack",
+        "text": "9. Le prix de tous les types de licences et du set up pack"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pas seulement le prix facial des licences utilisateurs actifs, mais également le prix des licences pour les profils secondaires, type ambassadeurs métiers."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "10-lediteur-et-la-communaute-dutilisateurs",
+        "text": "10. L'éditeur et la communauté d'utilisateurs"
+      },
+      {
+        "type": "paragraph",
+        "html": "Last but not least des 10 critères : les hommes derrière l'outil. Quel support, quels conseils et quelles relations l'éditeur vous propose-t-il avant, pendant et après la vente ? Propose-t-il une communauté d'utilisateurs ? Quelle vision du marché porte-t-il ? Quelle communication fournit-il sur sa roadmap?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "ppm-les-prerequis-et-astuces-pour-se-lancer-dans-une-pme",
+        "text": "PPM : Les prérequis et astuces pour se lancer dans une PME"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Identifiez et sélectionnez quelques plateformes</strong> PPM, pas seulement via les plateformes type Capterra : elles ont des angles morts. Demandez à votre réseau aussi !",
+          "<strong>Shortlistez</strong> 2 à 3 outils,",
+          "<strong>Contactez les éditeurs</strong> pour un RFI (Request for Information)",
+          "<strong>Etablissez vos critères prioritaires</strong> parmi ceux proposés et votre contexte organisationnel",
+          "<strong>Demandez aux éditeurs des contacts intégrateurs internes ou externes</strong> : évitez autant que possible d'y aller seul sans accompagnement par un facilitateur général.",
+          "<strong>Créez un groupe pilote composé de chef de projets / métiers / sponsor</strong> avec qui cela se passe déjà bien, et qui ont envie de changer de <a href=\"https://www.airsaas.io/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise\">démarche projet</a>.",
+          "Privilégiez sur ce type de mise en œuvre démarche progressive pour commencer, avec une tactique d'implémentation positive, sur un petit nombre de projets pour faire \"tache d'huile\" sur une future utilisation générale.",
+          "Fixez vous des limites ! Réaliser une transition culturelle et de gouvernance est un challenge qui en vaut la peine... mais au bon rythme !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'avez compris : le développement de portefeuilles de projets en PME peut faciliter vos différentes transitions digitales, environnementales et organisationnelles. Pour un meilleur alignement stratégique, plus d'efficacité... et de plaisir aussi !"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

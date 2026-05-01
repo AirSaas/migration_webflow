@@ -1,0 +1,503 @@
+{
+  "type": "blog",
+  "slug": "lean-portfolio-management",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers",
+      "h1": "Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers",
+      "description": "Découvrez le Lean Portfolio Management : une approche Lean-agile pour aligner en continu la direction générale, l'IT et les métiers, et muscler l'efficacité de votre portfolio management.",
+      "publishedDate": "14/11/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "14/11/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/637282ddbdb2ae01ff017954_lean-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Les 3 problèmes liés à la gestion actuelle de portefeuille projets",
+        "href": "#les-3-problemes-lies-a-la-gestion-actuelle-de-portefeuille-projets"
+      },
+      {
+        "label": "L'approche Lean agile",
+        "href": "#lapproche-lean-agile"
+      },
+      {
+        "label": "Lean Portfolio management : comment l'implémenter ?",
+        "href": "#lean-portfolio-management-comment-limplementer"
+      },
+      {
+        "label": "À retenir : l'alignement en continu est la clé !",
+        "href": "#a-retenir-lalignement-en-continu-est-la-cle"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Les questions de priorisation et de recherche d'efficacité opérationnelle de la transformation sont des sujets qui préoccupent de nombreux dirigeants. \"Tout le monde se gratte la tête\" résumait avec humour un membre de la communauté AirSaas Pro de la Transfo, DSI expérimenté, lors d'une interview."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et avouons-le, les <strong>directions générales et métiers</strong> sont parfois difficiles à embarquer dans une <strong>culture Lean-agile</strong> de gestion des portefeuilles projets, vue souvent comme un sujet purement IT."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372777e36584e69b2eebab4_image-asset-min.jpeg",
+        "alt": "Dessin humour alignement business / IT",
+        "caption": "L'art d'aligner l'IT et les métiers dans les organisations"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article nous allons nous intéresser à l'exécution de votre stratégie d'entreprise en continu, et à l'exécution de votre stratégie commerciale sur l'angle de la gestion de portefeuille Lean. Au dialogue et à la coopération entre les silos, à votre flux de valeur, à la répartition budgétaire. On cherchera à en savoir plus sur des approches promettant d'améliorer votre processus agile et de renforcer la valeur ajoutée de vos projets. En un mot : on cherchera à <strong>muscler l'efficacité de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/portfolio-management-pourquoi-il-faut-en-finir-avec-excel\">portfolio management</a>.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "On parlera de Kanban, de value stream mapping, de frameworks agiles à l'échelle, de management visuel et peut-être même d'un agile release trains !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Disclaimer ! Ces sujets sont complexes. Attention, si vous cherchiez un article no brainer... restez un peu !<br/>Ici nous avons ici l'objectif de traiter ces thèmes, en partageant des convictions, et en restant le plus pragmatique possible - le tout, avec un filtre \"anti langue de bois\" activé."
+      },
+      {
+        "type": "paragraph",
+        "html": "Du reste, on saupoudrera cet article de quelques pincées d'historique et de sémantique sur le Lean, notamment quand il s'agira de comprendre l'origine et le sens des concepts clés. Parce que revenir aux sens des mots permet d'avoir une approche basée sur le principe et la démarche versus une approche simpliste, type boîte à outils !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les 3 problèmes liés à la gestion actuelle de portefeuille projets",
+        "id": "les-3-problemes-lies-a-la-gestion-actuelle-de-portefeuille-projets"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La gestion actuelle de portefeuille est trop statique",
+        "id": "la-gestion-actuelle-de-portefeuille-est-trop-statique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Planifier un an à l'avance n'est plus réaliste. Dans ce fameux monde VICA (volatile incertain complexe et ambigu), lorsque le marché, le management, ou le scope connaissent des changements rapides et des perturbations, <strong>les méthodes traditionnelles de gestion de portefeuille de produits ne permettent plus de gérer efficacement</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un exemple parmi tant d'autres. Les équipes agiles livrent sur des sprints de 2 à 3 semaines alors que, dans bien des cas, les portefeuilles sont figés sur l'année !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette <strong>contradiction temporelle</strong> s'applique également à la prise de décision. Celle-ci est souvent jugée par les opérationnels comme étant trop longue, et impliquant trop de gens."
+      },
+      {
+        "type": "paragraph",
+        "html": "De même, sur des échelles de temps à 18 mois, les estimations budgétaires sont imaginaires ! Et finalement, peu importe le fond : ce qui est important, c'est de convaincre la finance pour obtenir les budgets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La valeur livrée est inversement proportionnelle au temps passé",
+        "id": "la-valeur-livree-est-inversement-proportionnelle-au-temps-passe"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il faut le rappeler encore : la valeur livrée n'est pas la quantité livrée !"
+      },
+      {
+        "type": "paragraph",
+        "html": "La philosophie agile met l'accent sur la livraison de fonctionnalités à valeur ajoutée, dans un délai réduit, comme l'un des indicateurs de réussite pour l'équipe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le schéma ci-dessous illustre cette tendance, et nous invite à lutter contre le syndrome du \"toujours plus\" déconnecté de la valeur livrée."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372769ad3fafa7dae1df7ae_9582760d-8d4b-4255-93d8-c7509761df38.png",
+        "alt": "Pas besoin d'une formation de trois jours...Une image vaut mille mots",
+        "caption": "Pas besoin d'une formation de trois jours...Une image vaut mille mots"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "On ne voit pas assez la \"big picture\" de la transformation",
+        "id": "on-ne-voit-pas-assez-la-big-picture-de-la-transformation"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour mieux prioriser et aligner en continu, <strong>on a besoin de voir une \"grande image\" !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "D'une façon générale, on peut le dire : les directions générales, IT, métiers, et les chefs de projets ont trop de sujets à adresser. Sans des regroupements synthétiques, il est très difficile de vraiment travailler ensemble, de coopérer."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d865ac5b58cf4e7ed4990f_62714920747026c0d398526b_transformation.jpeg",
+        "alt": "Une vision claire qui fera \"sens\" pour tous !",
+        "caption": "Une vision claire qui fera sens pour tous !"
+      },
+      {
+        "type": "paragraph",
+        "html": "À partir d'une \"big picture\" les différentes parties prenantes pourront mieux <strong>évaluer l'importance individuelle relative de chacun des projets</strong> soumis."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et plus encore : grâce à cette vision globale, nous pourrons regrouper certaines demandes et pourrons peut-être voir des synergies et regrouper ces différentes idées de projets pour créer un programme ! Un programme et / ou un plan de transformation qui fera du sens pour les collaborateurs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "L'approche Lean agile",
+        "id": "lapproche-lean-agile"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Lean story : origines et utilité du concept",
+        "id": "lean-story-origines-et-utilite-du-concept"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lean thinking, startup, Lean entreprise, manufacturing, Lean budgeting, Lean management, gouvernance, Lean office, Lean <a href=\"https://www.airsaas.io/fr/gestion-de-projet/etre-pmo-en-2023-les-mutations-dun-metier\">PMO</a>, Lean Portfolio Management..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au secours : le Lean a été mis à toutes les sauces ! Alors, avant de nous focaliser sur la gestion de portefeuille Lean, un retour aux sources s'impose."
+      },
+      {
+        "type": "paragraph",
+        "html": "La traduction littérale de Lean est \"maigre\". Parmi les acceptions courantes, on retiendra celle de « au plus juste »."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif est de <strong>tendre vers la performance</strong> (en matière de productivité, de qualité, de délais et de coûts) grâce à l'<strong>amélioration continue</strong> et à l'élimination des gaspillages, tout ceci dans le but de créer de la valeur pour satisfaire le client. <strong>L'idée centrale du Lean, c'est donc la création de valeur.</strong>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/637289dd9695438c9d5bd631_airsaas-lean-min.jpg",
+        "alt": "Pilotage par la valeur - et chasse au gaspillage"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est autour des années 1990 que l'expression \"Lean production\" est apparue et que ses principes ont été formalisés dans l'ouvrage <em>The machine that changed the world</em> écrit par James Womack, Daniel T. Jones et Daniel Roos. Puis dans <em>Lean thinking</em> publié en 1996 par les mêmes auteurs."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/637279539b9143e3e165f56f_The-Machine-That-Changed-the-World.jpeg",
+        "alt": "The Machine That Changed the World",
+        "caption": "Le livre The Machine That Changed the World"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'agilité à l'échelle",
+        "id": "lagilite-a-lechelle"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/637287a74f6cff2866a3d764_Capture%20d%E2%80%99e%CC%81cran%202022-11-11%20a%CC%80%2010.33.27.png",
+        "alt": "agilité humour",
+        "caption": "Source : geek & poke"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>modèles de déploiement de l'agilité à grande échelle</strong> (« <em>scale up</em> » en anglais) sont autant adulés que décriés ! Usine à gaz de la transformation pour certains, cadre d'organisation génial pour les autres... ce qui est sûr, c'est qu'on ne peut pas généraliser. Les frameworks sont nombreux. SAFe, Nexus, Spotify, Scum at Scale, LeSS ou encore DAD... et en prime, ils évoluent rapidement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces différents cadres proposent des démarches plus ou moins ambitieuses et surtout à géométrie variable. Avec le Lean Portfolio Management, SaFE, on entre dans <strong>l'organisation quasi industrielle des flux de travail</strong>. Dans des interdépendances à l'échelle d'une entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les enjeux sont en tous les cas de réussir à obtenir la valeur ciblée par l'agilité tout en l'adaptant à plusieurs équipes digitales - parfois des dizaines !"
+      },
+      {
+        "type": "paragraph",
+        "html": "La mise en place de ces frameworks de Lean Portfolio Management à l'échelle impliquera une compréhension des mécanismes de définition stratégique, des cycles budgétaires, du contrôle de gestion, et l'implication du top management ! Complexe à implémenter dans les organisations, cela peut se révéler extrêmement puissant dans les effets qu'ils peuvent produire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention donc à bien prendre en compte la taille, le secteur et la structure d'activité de votre organisation avant de vous lancer. De nombreux retours d'expériences confirment la pertinence de ce système dans des organisations orientées full produit comme dans le secteur de la banque-assurance, qui ne font que du développement logiciel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on ne tient pas compte de l'ensemble des paramètres et des critères clés, dans des organisations qui ne sont pas \"full produit\" on risque d'arriver avec une grosse massue pour planter une punaise !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un DSI, Pro de la Transfo., interrogé au sujet de SAFe nous le confirme :"
+      },
+      {
+        "type": "quote",
+        "text": "Avec SAFe, il y a des concepts bien. Il faut prendre les trucs intéressants et sortir du dogme. Tu peux organiser en SAFE un département... mais toute l'entreprise sur du vertical, aïe, aïe, aïe !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63728752e4fbfbdf900b8bc7_safe-Portfolio_airsaas.jpg",
+        "alt": "Framework safe",
+        "caption": "Source : SAFe for Lean Enterprises"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne nous laissons pas impressionner par ce schéma et restons sur <strong>la philosophie générale de SAFe</strong> qui repose sur neuf principes :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Adopter une <strong>vision économique</strong>",
+          "Appliquer la <strong>pensée systémique</strong>",
+          "<strong>Prendre en compte la variabilité</strong>, préserver les options",
+          "Construire progressivement avec des <strong>cycles d'apprentissage rapides</strong> et intégrés",
+          "Poser des jalons sur l'<strong>évaluation objective des systèmes de travail</strong>",
+          "<strong>Visualiser et limiter les <em>Work in Progress</em></strong>, réduire les tailles de lots et gérer les longueurs de file d'attente",
+          "<strong>Appliquer une cadence et se synchroniser</strong> avec la planification inter-domaine",
+          "<strong>Libérer la motivation intrinsèque</strong> des collaborateurs",
+          "<strong>Décentraliser la prise de décision</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé, même si vous ne travaillez pas avec une armée de coachs Lean-agiles au sein d'une grande banque du CAC40, ces principes sont autant de bonnes pratiques et opportunités de changements."
+      },
+      {
+        "type": "paragraph",
+        "html": "Inspirez-vous de cette culture pour créer et faire vivre votre démarche de Lean portfolio \"ad'hoc\" - c'est-à-dire, vraiment adaptée à votre organisation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Lean Portfolio Management : le découpage des projets en mode light !",
+        "id": "lean-portfolio-management-le-decoupage-des-projets-en-mode-light"
+      },
+      {
+        "type": "quote",
+        "text": "Ceux qui maîtrisent la livraison de logiciels à grande échelle définiront le paysage économique du 21ème siècle.",
+        "author": "Mik Kersten, du projet au produit"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de projet vise à répondre à des exigences spécifiques et à terminer un projet donné dans les délais et le budget convenus."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'un de ses points forts est d'apporter une concentration d'attention et de moyens avec une \"juste\" tension. Une mobilisation qui permet en théorie de faire mieux coopérer temporairement des départements transverses de l'entreprise, hors silos."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'un de ses points faibles est que, lorsqu'ils sont mal découpés les portefeuilles ne sont plus agiles ! Ils deviennent \"obèses\" !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les revues de portefeuille n'ont alors plus d'enjeu, ni de bande passante pour le <strong>ré</strong>-ordonnancement des priorités... Avec pour conséquence une potentielle forte démobilisation dans les équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>L'apport clé du Lean Portfolio Management sera</strong> <strong>de changer l'horizon de temps</strong>. De fonctionner par exemple au \"quarter\" - même pour un projet ERP/CRM ! Nous y reviendrons plus bas dans l'article."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, nous attirons votre attention sur un point complexe du processus : l'idée n'est pas de basculer en mode full produit, mais bien de faire cohabiter le côté produit et projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Car oui : même si le fonctionnement en « mode produit » est l'un des apports intéressants des approches de Lean Portfolio Management, celui-ci n'est pas du tout adapté à une grande majorité d'organisations type ETI et PME."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6373c2909e475d58110aba46_airsaas-prouct-project-min.png",
+        "alt": "Approche combinant projet et produit pour réussir votre transfo.",
+        "caption": "Faire cohabiter le côté produit et projet : les deux démarches ne sont pas opposées, bien au contraire - elles interagissent !"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est un peu le paradoxe des modèles de delivery modernes. Nous sommes de plus en plus amenés à créer une culture de livraison \"hybride\". <strong>Le bon mix entre culture projet approche produit</strong>."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372769b4a2f743527fd7bc8_e2bea265-c809-44be-8603-295dfcfa2414.png",
+        "alt": "La nécessité de changer la façon de développer les systèmes numériques",
+        "caption": "La nécessité de changer la façon de développer les systèmes numériques"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un des leviers à activer pour suivre le rythme des évolutions est d'appliquer une approche Lean-agile dans la gestion de portefeuille vers plus de « Business Agility » pour votre transformation digitale."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'approche Lean-agile s'appuie sur le principe Lean de <strong>décentralisation de la décision</strong> et de transfert des responsabilités aux personnes les plus au contact du terrain."
+      },
+      {
+        "type": "paragraph",
+        "html": "De façon académique, voire parfois indigeste, la définition du Lean Portfolio Management est la suivante :"
+      },
+      {
+        "type": "quote",
+        "text": "La gestion de portefeuille Lean (LPM) est une démarche qui vise à aligner la stratégie et l'exécution. En appliquant des approches de pensée systémiques au financement de la stratégie et des investissements, aux opérations de portefeuille Agile et à la gouvernance en donnant la priorité aux initiatives de développement de produits et d'applications."
+      },
+      {
+        "type": "paragraph",
+        "html": "De façon schématique, voire plus explicite, le processus de LPM est le suivant :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/637284cd0097463fdb9b50eb_lpm.jpg",
+        "alt": "Lean portfolio management"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le processus de Lean Portfolio Management se décompose en <strong>deux étapes :</strong> <strong>l'instruction des demandes</strong> en amont et le <strong>pilotage opérationnel</strong> des initiatives retenues en aval."
+      },
+      {
+        "type": "paragraph",
+        "html": "S'il est exécuté correctement, le LPM augmente votre agilité. Cela se produit lorsque la planification, les processus de financement et la stratégie commerciale de l'entreprise s'alignent sur les résultats commerciaux souhaités par l'entreprise. Derrière ces termes, il y a bien des hommes et des femmes de l'IT, de la direction générale et des métiers qui cherchent à s'aligner !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Lean Portfolio management : comment l'implémenter ?",
+        "id": "lean-portfolio-management-comment-limplementer"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372841f129dd4bd8eec3bb1_airsaas-lean-start-min.jpg",
+        "alt": "Think lean",
+        "caption": "Gestion de portefeuille Lean - mise à jour en cours"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Découper en \"quarter\" pour s'aligner sur la roadmap de l'entreprise",
+        "id": "decouper-en-quarter-pour-saligner-sur-la-roadmap-de-lentreprise"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le passage au mode produit change l'horizon de temps. Nous l'avons vu plus haut : l'un des problèmes de la gestion de projet actuelle réside dans la temporalité trop éloignée des rythmes entreprise et clients. Reformater son portefeuille pour une <strong>meilleure adéquation avec le timing de l'organisation</strong> est un conseil simple, efficace et rentable pour votre feuille de route !"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'exemple ci-dessous présente un modèle de découpage annuel Lean agile."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63752154f2da816c5281eb98_Examen%20du%20portefeuille%20strate%CC%81gique%20Synchronisation%20du%20portefeuille%20Budge%CC%81tisation%20participative.jpg",
+        "alt": "Lean portfolio management",
+        "caption": "Lean portfolio management : s'adapter en permanence !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une méthodologie avec des livraisons rapides de ce qui a été priorisé contribuera à un rythme de travail plus naturel que l'effet tunnel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Toujours pour renforcer ces nouveaux rituels de gouvernance projet, nous partageons avec plaisir ici, le tips d'un CIO expérimenté :"
+      },
+      {
+        "type": "quote",
+        "text": "Lors de chaque \"review\" de bilan, j'invite les chefs de projets / PMO au restaurant pour leur dire merci !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/637540f146bfef93df3bd388_merci.jpg",
+        "alt": "Invitation à un moment festif à chaque grand jalon !",
+        "caption": "Une invitation à un moment festif à chaque grand jalon !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Rappelez-vous, c'est <strong>l'esprit d'équipe qu'il faut développer</strong> !"
+      },
+      {
+        "type": "paragraph",
+        "html": "N'oublions pas de célébrer les étapes clés de ces rituels comme il se doit."
+      },
+      {
+        "type": "quote",
+        "text": "Le fait d'expliquer aux métiers qu'on a pris le temps de choisir leur projet prioritaire, qu'on a réussi à l'inclure dans le capacitaire, si tout cela est bien rodé, ça facilite immédiatement la relation entre DSI et métiers, même dans les moments plus compliqués.",
+        "author": "Sylvain Bourdette, CIO Indexia Groupe — Invité épisode 59 Podcast CIO Révolution by AirSaas Saison 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Miser sur le management visuel et l'UX de vos outils",
+        "id": "miser-sur-le-management-visuel-et-lux-de-vos-outils"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les approches Lean et agile ont en commun de <strong>rendre visible le travail à faire</strong>, les opérations, le portefeuille projet. Que ce soit au sein d'une obeya room, d'un <a href=\"http://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet\">Kanban</a>, d'un mind mapping, l'idée est bien de donner à voir de la façon la plus claire et engageante possible."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si l'on souhaite impliquer les collaborateurs d'une entreprise sur des sujets aussi techniques que ceux traités par la DSI, mieux vaut le faire sur une interface qui leur plaira."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les outils PPM qui misent sur l'UX ont donc généralement une interface suffisamment intuitive pour faciliter l'alignement en continu de la direction générale, de l'IT et de chaque direction métier."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Utiliser un outil de Lean Portfolio Managment",
+        "id": "utiliser-un-outil-de-lean-portfolio-managment"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372769b978c6da6e3c04dde_62615a9763962fbaf216b064_mobile_workflow-min-min.png",
+        "alt": "La solution pour aligner en continu la direction générale, l'IT et les directions business - Airsaas",
+        "caption": "Airsaas : la solution pour aligner en continu la direction générale, l'IT et les directions business"
+      },
+      {
+        "type": "paragraph",
+        "html": "La solution de gestion de portefeuille d'AirSaas aide les entreprises à adopter un état d'esprit Lean et agile. Celle-ci maximise la coopération en continu entre clients fournisseurs, directions métiers, IT et générales en connectant leurs équipes, produits et portefeuilles à leurs buts et objectifs à travers divers cadres. Tout cela pour aider les entreprises à atteindre l'agilité dans toute l'entreprise."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372769c66dff924993bab7b_609552290d93fd22170f0e67_pilotage-min.svg",
+        "alt": "Lean Portfolio Dashboard",
+        "caption": "Lean Portfolio Dashboard"
+      },
+      {
+        "type": "paragraph",
+        "html": "Donnez à votre organe de gouvernance projet <strong>un dispositif de prise de décision.</strong> Le portefeuille de projets AirSaas permet de rassembler dans une vue synthétique la combinaison des indicateurs nécessaires à une prise de décision orientée par la valeur."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "À retenir : l'alignement en continu est la clé !",
+        "id": "a-retenir-lalignement-en-continu-est-la-cle"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le passage au mode Lean Portfolio change l'horizon de temps.",
+          "Le Lean Portfolio Management est une démarche systémique tournée vers l'adaptation continue.",
+          "L'alignement et la confiance ne se décrètent pas !...Cela se construit pas à pas dans la sincérité et le respect mutuel."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Prenez en considération le Lean Portfolio Management dès maintenant pour une transformation d'entreprise réussie !"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

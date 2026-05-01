@@ -1,0 +1,380 @@
+{
+  "type": "blog",
+  "slug": "role-du-pmo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "PMO et Codir : comment trouver la juste posture avec la direction ?",
+      "h1": "PMO et Codir : comment trouver la juste posture avec la direction ?",
+      "description": "Le positionnement du PMO face au Codir et aux chefs de projet conditionne la qualité des décisions et la réussite des projets. Symptômes, juste posture et bonne métrique.",
+      "publishedDate": "1/3/2023",
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "1/3/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fe2572bfe3ed203f17a5c5_ro%CC%82le%20pmo-min.jpg",
+        "alt": "Rôle du PMO"
+      }
+    },
+    "toc": [
+      {
+        "label": "Les symptômes d'un PMO dysfonctionnel",
+        "href": "#les-symptomes-dun-pmo-dysfonctionnel"
+      },
+      {
+        "label": "La \"juste\" posture du PMO avec son Codir",
+        "href": "#la-juste-posture-du-pmo-avec-son-codir"
+      },
+      {
+        "label": "La \"juste\" posture entre PMO et chefs de projets",
+        "href": "#la-juste-posture-entre-pmo-et-chefs-de-projets"
+      },
+      {
+        "label": "Le rôle souhaité du PMO dans le processus global",
+        "href": "#le-role-souhaite-du-pmo-dans-le-processus-global"
+      },
+      {
+        "label": "Comment bien se positionner en tant que PMO ?",
+        "href": "#comment-bien-se-positionner-en-tant-que-pmo"
+      },
+      {
+        "label": "L'enjeu de la relation entre le PMO et le sponsor dans le processus",
+        "href": "#lenjeu-de-la-relation-entre-le-pmo-et-le-sponsor-dans-le-processus"
+      },
+      {
+        "label": "Quelle est la bonne métrique pour un PMO dans l'entreprise ?",
+        "href": "#quelle-est-la-bonne-metrique-pour-un-pmo-dans-lentreprise"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"/fr/gestion-de-projet/metier-pmo\">PMO</a> a beau être la colonne vertébrale de la gouvernance projet, sa relation avec le Codir reste souvent un exercice d'équilibriste. Trop dans le contrôle, il se fait rejeter par les équipes. Trop dans le service, il devient invisible pour la direction."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le positionnement du PMO face au Codir et aux chefs de projet conditionne tout : la qualité des décisions, la vitesse d'exécution, et au final la réussite ou l'échec des projets. Pourtant, peu de PMO identifient clairement ce levier. Le résultat ? Le PMO finit par jouer le rôle de fusible en cas de dysfonctionnement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Deux profils se retrouvent souvent en difficulté :"
+      },
+      {
+        "type": "paragraph",
+        "html": "- Le PMO issu de la chefferie de projet : il reste trop proche du terrain, fait \"du projet\", et ne sait pas comment faire évoluer sa posture. On peut être un très bon chef de projet et un très mauvais PMO — et inversement."
+      },
+      {
+        "type": "paragraph",
+        "html": "- Le PMO qui ne vient pas du terrain : il gravite autour du Codir, se met à dos les équipes projets, et finit par relayer des informations déconnectées de la réalité opérationnelle."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet article détaille les symptômes d'un positionnement dysfonctionnel, et propose un cadre pour trouver la juste posture entre direction et équipes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-symptomes-dun-pmo-dysfonctionnel",
+        "text": "Les symptômes d'un PMO dysfonctionnel"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d8652edced0ea565de1199_63fe2e3a119889aeaead9d10_pmo2-min.jpeg",
+        "alt": "Board",
+        "caption": "Directeurs in progress"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "incomprehensions-et-frustrations",
+        "text": "Incompréhensions et frustrations"
+      },
+      {
+        "type": "paragraph",
+        "html": "On ne peut pas aborder l'historique des relations sans expliquer d'abord les raisons qui font que ce sujet mérite d'être abordé."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il y a souvent des dysfonctionnements ou des imprévus dans un projet. Mais quand ces dysfonctionnements touchent une majorité de projets dans un programme, voire dans l'ensemble d'un processus projet, alors il est important de rechercher les éléments communs à ces dysfonctionnements pour pouvoir les adresser."
+      },
+      {
+        "type": "paragraph",
+        "html": "Parmi les signaux qui peuvent indiquer des dysfonctionnements au niveau de la gestion des programmes projets et des relations entre les parties prenantes du processus, on retrouve bien souvent des latences dans les projets et des frustrations."
+      },
+      {
+        "type": "paragraph",
+        "html": "Résultat : incompréhension et frustrations pour la chefferie de projet quand des décisions non-prises ou des changements de décisions déstabilisent la gestion de projet ou encore, quand des projets sont dépriorisés ou abandonnés. Incompréhension et frustrations également des décisionnaires quand la chefferie de projet s'engage dans la complétion d'un jalon ou de livrables et qu'au final ils ne sont pas tenus."
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous pouvons dire avec confiance aujourd'hui que le PMO a un rôle à jouer dans la résolution de ces problématiques - voire, qu'il en vient en grande partie du rôle du PMO."
+      },
+      {
+        "type": "paragraph",
+        "html": "Son incapacité à faire partie de la solution réside souvent dans son positionnement face aux parties prenantes. On a identifié plusieurs positionnements qui pose problème dans l'historique de ces relations : le PMO \"passe-plats\", le PMO trop focalisé sur le Codir, ou vers les chefs de projets... Focus ici sur les symptômes à surveiller."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour comprendre quand et pourquoi ce rôle devient indispensable, lire <a href=\"/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo\">pourquoi mettre en place un PMO</a>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-pmo-passe-plats",
+        "text": "Le PMO passe-plats"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d8652edced0ea565de118f_63fe2ca69358f8c8cb70aa4a_PMO%2520passe%2520plat-min.jpeg",
+        "alt": "PMO project management office Passe-plats en entreprise",
+        "caption": "Project Management Office \"passe-plats\" en entreprise ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est la position que le PMO adopte quand il joue un rôle essentiellement de reporting aux parties prenantes. Il n'apporte que peu ou pas de valeur dans le processus, son action est bridée (souvent à la définition de son rôle par l'entreprise) et il reporte les actions et informations du terrain vers le Codir - et inversement les informations et directives données par le Codir à la chefferie /gestion de projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PMO passe-plat, c'est un peu comme passer au travers de sa vie en n'y étant qu'un simple spectateur. Il n'y a absolument aucun intérêt à créer un rôle de PMO pour qu'il soit endossé de cette manière."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il participe à creuser le fossé entre le Codir et la chefferie de projet où la communication est faible, les échanges peu constructifs - et encore, quand ils existent ! On reste souvent dans une dynamique très top down avec des décisions décorrélées de la réalité terrain."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-pmo-trop-focalise-sur-le-codir",
+        "text": "Le PMO trop focalisé sur le Codir"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d8652edced0ea565de119e_63fe2d3d8556b03270d32a2c_pmo4-min.jpeg",
+        "alt": "PMO au Codir",
+        "caption": "Un Project Management Office trop Codir"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les PMO étaient habituellement plus tournés dans leur relation au Codir, faisant une priorité pour apporter les informations et éléments voulus par le Codir. Avec une relation de \"grand petit chef\" avec les chefs de projets, et une relation entre PMO et Codir en \"front commun\" face aux chefs de projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il fait de son rôle une priorité quand il s'agit de fournir beaucoup de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/reporting-pmo\" target=\"_blank\">reporting</a>, et les équipes projets vont avoir un sentiment de contrôle et de micromanagement. Mais, dans les faits, les équipes n'auront pas de décisions ou le support du Codir, ni un PMO permettant une gestion fluide du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Petit à petit, le PMO va se mettre à dos les équipes projets et assister à l'effondrement de l'engagement des équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au final, on se retrouve avec des Codir qui prennent des décisions sur de la fausse donnée, car on demande trop de reportings aux équipes - ce qui ne leur facilite pas la vie, surtout en mode \"best effort\". Et on finit par donner des informations pour donner des informations, et on multiplie les informations \"bullshit\" servant souvent à se couvrir plutôt que d'avoir du temps qualitatif à passer pour faire avancer les projets stratégiques."
+      },
+      {
+        "type": "paragraph",
+        "html": "En conséquence, cela génère une méfiance et défiance vis-à-vis du PMO de la part des chefs de projets, ce qui l'amène lui-même à obtenir des données fausses issues du management de projet sur lequel faire son pilotage de portefeuille de projets. Et donc, en conséquence, une direction qui pilote sur des données fausses également. Du coup la direction pense que ça avance - et quand elle se rend compte que ce n'est pas le cas, le PMO \"saute\" en attendant le prochain fusible."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-pmo-trop-focalise-vers-les-chefs-de-projets",
+        "text": "Le PMO (trop) focalisé vers les chefs de projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "D'un autre côté, un PMO qui vient de la chefferie de projet aura souvent du mal à se positionner et dysfonctionnera aussi. Car il va \"faire du projet\", s'impliquer beaucoup avec les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/chef-de-projet-pmo\" target=\"_blank\">chefs de projet</a>, et ne va pas faire avancer les décisions avec le Codir. La raison : les décideurs n'auront pas compris l'état des lieux des différentes situations sur lesquelles on leur demande de statuer."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO n'arrivera donc pas à obtenir ces décisions rapides pour la gestion de projet, car les membres du Codir auront perdu de vue les éléments des projets et n'auront pas assez d'infos ou un niveau de compréhension suffisamment clair pour distiller les bonnes décisions ou les bons insights aux équipes projets."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-juste-posture-du-pmo-avec-son-codir",
+        "text": "La \"juste\" posture du PMO avec son Codir"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les décisionnaires ont besoin de comprendre l'état des lieux, une réalité terrain, afin d'être en mesure de fournir les bonnes décisions et actions correctives."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour ce faire, le rôle du PMO est de donner une image claire de la réalité terrain, sur l'avancement et l'évolution de la gestion de projet. Il doit être en mesure de communiquer au bon niveau, afin de synthétiser les informations clés, pour toujours remettre les évènements dans le cadre cognitif des objectifs du projet et des objectifs stratégiques d'entreprise. Les informations doivent être communiquées au Codir sous forme d'actionnables, permettant au Codir de prendre des décisions rapides, implémentables facilement."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-juste-posture-entre-pmo-et-chefs-de-projets",
+        "text": "La \"juste\" posture entre PMO et chefs de projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il doit être assez proche des collaborateurs, pour comprendre leurs problématiques, les aider dans le processus opérationnel, la démarche, et la gestion de projet en leur rendant la vie plus facile. Mais surtout, il doit être en mesure d'obtenir pour la chefferie de projet des décisions rapides sur les éléments clés dont elle a besoin pour faire avancer leurs actions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il doit être un soutien à la chefferie de projet, leur permettant d'identifier et d'anticiper les difficultés ainsi que les ressources nécessaires à la complétion des objectifs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le cas de chefs de projets en mode \"best effort\", le PMO joue un rôle de formation et de coaching aux services et équipes, afin de les aider à monter en compétence et d'atteindre une autonomie suffisante dans la gestion de ces projets - mais également en favorisant l'engagement des collaborateurs dans la gestion de projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-role-souhaite-du-pmo-dans-le-processus-global",
+        "text": "Le rôle souhaité du PMO dans le processus global"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du PMO idéal, c'est ce juste milieu à trouver entre \"ne pas faire les projets\" et \"aider les collaborateurs en essayant de leur faciliter la vie dans la gestion de projet\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "En même temps, le PMO a un bon accès aux informations. Par conséquent, il peut bien faire remonter les bons actionnables, en les communiquant au bon niveau de discours au Codir, ce qui permet d'obtenir des décisions et actions correctives rapides."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO doit apporter clarté et anticipation afin de faciliter la communication et la compréhension entre les parties prenantes des projets, et ainsi fluidifier le suivi et l'avancement."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-bien-se-positionner-en-tant-que-pmo",
+        "text": "Comment bien se positionner en tant que PMO ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d8652edced0ea565de1189_63fe2d8d005215b2ef91458c_pmo5-min.jpeg",
+        "alt": "PMO",
+        "caption": "Repères pour une mise en œuvre"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-facilitateur-le-tiers-de-confiance",
+        "text": "Un facilitateur, le tiers de confiance"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO doit partager son temps entre ces deux parties prenantes, il doit être un allié des deux parties, et jouer ce rôle de facilitateur pour fluidifier la communication et l'accès aux informations nécessaires, afin de faire avancer les projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour qu'il puisse mettre de l'huile dans les rouages, il ne doit pas se positionner dans une relation de clients à fournisseurs. Il doit créer une relation partenariale avec les deux parties, comme le ferait un tiers de confiance afin de s'assurer de pouvoir créer des situations win-win entre toutes les parties."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela permettra également de rappeler à l'ensemble des collaborateurs et instances leurs droits et leurs devoirs. D'où l'importance dans la démarche projet pour le PMO de bien définir et communiquer sur les rôles et responsabilités de chaque partie prenante, afin de pouvoir garantir le bon fonctionnement du processus dans la réussite des objectifs relatifs aux projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "entre-le-marteau-et-lenclume-pas-de-soucis",
+        "text": "Entre le marteau et l'enclume, pas de soucis !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d8652edced0ea565de118c_63fe2dd5c119d8111002a8b3_pmo6-min.png",
+        "alt": "PMO entre le marteau et l'enclume",
+        "caption": "Attention aux processus métiers du PMO !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO peut parfois se retrouver dans cette situation délicate - ou en cas de dysfonctionnements il se retrouve face à une forte concentration de frustrations des différentes parties."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici pour bien gérer ces situations et garder la tête froide, il est important de rester dans le factuel, ne pas rentrer dans le registre des émotions et adopter la casquette de \"problem solver\". Être en mesure de bien fluidifier la communication et trouver les situations de win-win permettra au PMO de passer ces étapes délicates, certes inconfortables, mais souvent inévitables dans la gestion de projets à l'échelle d'une entreprise."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "structurer-une-demarche-projet-basee-sur-le-srr-pour-bien-positionner-les-acteurs",
+        "text": "Structurer une démarche projet basée sur le SRR pour bien positionner les acteurs"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'un des outils du PMO pour fluidifier la conduite des projets et la communication, menant vers des décisions rapides, est la <a href=\"https://www.airsaas.io/fr/gestion-de-projet/demarche-de-projet\" target=\"_blank\">démarche projet</a> mise en place."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'une des méthodologies qui se montre très efficace est une démarche drivée par l'engagement, les jalons, les décisions et qui est centrée autour du SRR (pour Sens, Rôle, Rituel)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le concept SRR permet de bien définir et communiquer les rôles et responsabilités de chacun, tout en y donnant du sens pour tout le monde, et en mettant en place des rituels qui permettent de bien adopter les concepts et la culture projet pour tous."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "lenjeu-de-la-relation-entre-le-pmo-et-le-sponsor-dans-le-processus",
+        "text": "L'enjeu de la relation entre le PMO et le sponsor dans le processus"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le sponsor du projet est le collaborateur ou l'organisation qui a initié le projet et qui en assume la responsabilité finale. On a coutume de dire que c'est \"celui qui paye\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est important que le PMO et le sponsor du projet entretiennent une relation de travail solide et efficace pour garantir le succès du projet. Voici quelques éléments clés qui peuvent aider à définir les relations entre un PMO et un sponsor :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Communication</strong> : il est essentiel que le PMO et le sponsor du projet communiquent de manière régulière et efficace afin de s'assurer que tous les aspects du projet sont gérés de manière appropriée.",
+          "<strong>Responsabilités</strong> : le PMO est responsable de la gestion du projet, tandis que le sponsor du projet est responsable de la décision finale et de l'approbation des changements. Il est important que ces responsabilités soient clairement définies et que chacun comprenne son propre rôle dans le projet.",
+          "<strong>Collaboration</strong> : le PMO et le sponsor du projet doivent travailler ensemble de manière collaborative pour atteindre les objectifs du projet. Cela peut inclure la définition des priorités, la résolution de problèmes et la prise de décision qui ne nécessite pas le Codir."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé, il est important que le PMO et le sponsor du projet entretiennent une relation de travail solide et efficace pour garantir le succès du projet. Cela implique une communication claire et régulière, des responsabilités bien définies et une collaboration active."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelle-est-la-bonne-metrique-pour-un-pmo-dans-lentreprise",
+        "text": "Quelle est la bonne métrique pour un PMO dans l'entreprise ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fe2581ce62313f927c048e_a4d2800c-9cc1-4ded-b03e-698f24155d6b.png",
+        "alt": "Dashboard",
+        "caption": "Tout pour aider direction générale et PMO à tourner les \"boutons\" au bon niveau"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'aurez peut-être déjà deviné à ce stade : une des missions et indicateur qui serait parfaitement adaptée au rôle du PMO de nos jours serait donc plutôt la capacité à faire décider et la rapidité avec laquelle il aide à faire prendre des décisions aux Codir permettant d'améliorer la gestion de projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sa capacité à faire prendre ces décisions rapides viendra de sa capacité à communiquer au bon niveau avec le Codir, de fluidifier les échanges d'informations entre le Codir et les collaborateurs projet, tout en facilitant le travail de ces derniers afin de garantir l'intégrité des informations et aider dans la conduite opérationnelle des projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le Codir à peu de décisions à prendre, c'est peut-être qu'il n'y a pas assez d'informations qui remontent des collaborateurs projets. A contrario, s'il y a beaucoup de décisions à prendre qui remontent en Codir mais que peu de décisions sont prises, ça ne fonctionnera pas non plus. C'est un équilibre subtil que de trouver le juste rôle du PMO - mais un équilibre atteignable !"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

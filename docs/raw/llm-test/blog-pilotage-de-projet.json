@@ -1,0 +1,386 @@
+{
+  "type": "blog",
+  "slug": "pilotage-de-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "À quoi ressemble le pilotage de projet moderne ?",
+      "h1": "À quoi ressemble le pilotage de projet moderne ?",
+      "description": "Pandémie, guerre des talents IT et explosion des projets transverses ont créé un contexte de sables mouvants pour le pilotage de projet. Découvrez les croyances à revisiter, les méthodes hybrides, les outils PPM et les 7 étapes pour faire progresser la culture projet dans votre entreprise.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "4/8/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "4/8/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f7c31438b271d7e45c638a_pilotage-projet.jpg",
+        "alt": "Pilotage de projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Partage des tâches et mythe du chef de projet héros solitaire : deux croyances à revisiter",
+        "href": "#partage-des-taches-et-mythe-du-chef-de-projet-heros-solitaire-deux-croyances-a-revisiter"
+      },
+      {
+        "label": "Pilotage hybride et outils PPM : des ingrédients clés pour réussir le pilotage de projet transverse aujourd'hui",
+        "href": "#pilotage-hybride-et-outils-ppm-des-ingredients-cles-pour-reussir-le-pilotage-de-projet-transverse-aujourdhui"
+      },
+      {
+        "label": "7 étapes pour faire progresser la culture projet dans son entreprise (sans y laisser 3 ans de vie !)",
+        "href": "#7-etapes-pour-faire-progresser-la-culture-projet-dans-son-entreprise-sans-y-laisser-3-ans-de-vie"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Pandémie, guerre des talents IT et explosion des projets transverses ont créé <strong>un contexte de sables mouvants</strong> pour les organisations souhaitant un pilotage de projet plus efficace avec des méthodes agiles, traditionnelles ou hybrides."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce fameux monde VICA (Volatile, Incertain, Complexe et Ambigu) est bien là ! Ajoutez-y une pincée d'intelligence artificielle, une vague de Grande Démission, et une culture projet super hétérogène : vous obtiendrez un contexte de travail complexe, ou, pour rester positif, passionnant !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans ces conditions, avant même de penser à s'adapter au mieux, l'art de bien piloter un projet nécessitera une compétence clé : le discernement. Cet article porte cette intention : vous aider à vous orienter. Contribuer à une meilleure lecture de ce qui se joue, pour ne verser ni dans le \"positivisme\" ni dans la défiance facile."
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui : <strong>le pilotage de projet aussi est une activité en transition qui nécessite des mises à jour de nos approches et compétences ainsi que des partages d'expériences</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Quelles croyances doit-on revisiter pour moins subir et échouer à délivrer des projets ? Qu'est-ce qu'il faut ajouter pour garder du plaisir et de l'efficience dans la démarche ? Quelles sont les tendances intéressantes à surveiller pour suivre et anticiper les évolutions du pilotage de projet ? Et enfin quelles sont les 7 étapes clés pour faire progresser la culture projet de l'entreprise ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'article à lire pour enlever le frein à main de votre <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> et le limiteur de vitesse de transformation de l'entreprise !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Partage des tâches et mythe du chef de projet héros solitaire : deux croyances à revisiter",
+        "id": "partage-des-taches-et-mythe-du-chef-de-projet-heros-solitaire-deux-croyances-a-revisiter"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Sortir du partage des tâches en silos MOA-AMOA-MOE",
+        "id": "sortir-du-partage-des-taches-en-silos-moa-amoa-moe"
+      },
+      {
+        "type": "paragraph",
+        "html": "En gestion de projet, l'héritage d'années de MOA/MOE et de pratique avec des référentiels d'outils de gestion de projets type \"à la tâche\" ont conditionnés notre vision de la réalisation en liste des tâches, planning et ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "On a longtemps cru qu'en se répartissant des tâches dans un planning, \"ça passerait\". On a aussi misé sur LE super Project Manager pour la réussite. Le Top Gun rassurant pour piloter un projet, mais fonctionnant en mode silo entre MOA/MOE..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et, à la fin, le projet ne correspondait même pas au besoin réel. L'adoption des outils et le ROI étant le plus souvent négligeables. Un comble quand on connaît l'énergie et le talent déployés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la vraie vie, on réussit une gestion de projet grâce à l'engagement individuel et collectif, versus une approche centrée sur le suivi et contrôle des tâches. 80 % des projets n'ont pas besoin d'une planification type Gantt aujourd'hui. Une équipe engagée suffira !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62eae08ccb335202a139b71a_gantt-rassure-equipe-assure.png",
+        "alt": "Citation Ludovic Lajoie - Gantt Project",
+        "caption": "Merci Ludovic. Cette citation cadeau est à mettre en page de garde de vos supports Coproj/Copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Préparer un énième planning de Gantt ne vous protégera pas contre une livraison, en retard, hors budget, d'un projet sans adoption des utilisateurs."
+      },
+      {
+        "type": "quote",
+        "text": "Quand on a vécu depuis plusieurs dizaines années avec MOA-AMOA-MOE, il a fallu faire sauter aussi les barrières historiques des silos qui existaient. Nous avons mis en place des formations sur l'efficience des développements pour les membres de la DSI et pour les métiers. Pour expliquer les rôles, les attendus et les engagements de chacun.",
+        "author": "Benito Diz — CIO - DSI, Invité épisode 9 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La fin du mythe du chef de projet héros solitaire",
+        "id": "la-fin-du-mythe-du-chef-de-projet-heros-solitaire"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette responsabilité est trop lourde pour qu'une seule personne puisse tout faire et mener des travaux de plus en plus complexes et de résoudre des problèmes difficiles presque quotidiennement."
+      },
+      {
+        "type": "quote",
+        "text": "Je crois beaucoup à la dualité du pilotage, car avoir une direction qui n'est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l'explicite, les rôles doivent concrètement être définis à l'avance et la confiance doit régner.",
+        "author": "Frédéric Riou — CIO Biogaran, Invité épisode 29 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Aujourd'hui, le rôle du chef de projet s'est éloigné de quelqu'un qui peut cocher les actions et tâches comme terminées sur un diagramme de Gantt pour aller vers <strong>une position de leadership stratégique</strong> permettant d'effectuer des changements dans une organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour se résumer, nous partageons ici trois convictions :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Un projet = une équipe.</strong> On réussit un projet grâce à l'engagement individuel et collectif sur des objectifs, pas sur le contrôle des tâches et de l'avancement de phases.",
+          "<strong>La chefferie de projet = un co-pilotage métier/Tech/sponsor</strong>.",
+          "Idéalement, un projet clé se réalise dans <strong>un espace-temps qui reste humain :</strong> des délais de 9 mois par exemple - comme une gestation !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pilotage hybride et outils PPM : des ingrédients clés pour réussir le pilotage de projet transverse aujourd'hui",
+        "id": "pilotage-hybride-et-outils-ppm-des-ingredients-cles-pour-reussir-le-pilotage-de-projet-transverse-aujourdhui"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les méthodes hybrides pour faciliter le pilotage projet",
+        "id": "les-methodes-hybrides-pour-faciliter-le-pilotage-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le manifeste agile à déjà 20 ans ! L'une des tendances de gestion de projet que nous constatons de plus en plus est l'acceptation que les approches de gestion hybrides sont la voie à suivre pour une meilleure exécution."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le \"full agile\" véritable peine à sortir du cadre des équipes IT/digitales. Dans ce contexte, <strong>le semi agile est une hybridation intéressante</strong> pour les entreprises recherchant une mise à jour méthodologique de leurs méthodes de livraison."
+      },
+      {
+        "type": "quote",
+        "text": "Je ne parle pas d'agile mais d'efficience. Parce que je veux pas me reporter à des carcans, y compris le manifeste de 2001 : c'est pas le but de dire \"on fait de l'agile pour de l'agile, on fait du modèle en V pour du modèle en V, de l'API management pour de l'API management, du cloud pour du cloud\"… On fait quelque chose qui est compris par tout le monde et qui apporte une valeur ajoutée !",
+        "author": "Benito Diz — CIO - DSI, Invité épisode 9 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "On visera toujours des itérations continues pour le développement avec une implication significative des clients dans les livrables à toutes les phases, mais gérées dans le cadre d'une structure de gouvernance et de décisions avec le comité de pilotage d'un projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'essor de la gestion de projet hybride est une bonne nouvelle parce que :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La plupart des grandes organisations ne sont pas équipées pour gérer l'ensemble de leurs opérations dans un framework agile cohérent",
+          "Les projets sont plus complexes que jamais. Ils impliquent beaucoup plus d'individus et expertise : plus que ce qui pourrait composer une équipe Scrum au sens strict !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Logiciel de gestion de portefeuille projet (PPM) : la nouvelle génération est là",
+        "id": "logiciel-de-gestion-de-portefeuille-projet-ppm-la-nouvelle-generation-est-la"
+      },
+      {
+        "type": "paragraph",
+        "html": "Fini le pilotage avec un logiciel dédié, isolé de l'écosystème de l'entreprise ! Au fur et à mesure que notre environnement devient plus complexe, incertain - et disons-le, parfois politique – nous avons besoin de plus en plus d'outils nouvelle génération pour aider à réaliser des projets transverses dans ce type d'environnement et contraintes."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'usage d'une plateforme moderne permettra d'<strong>uniformiser les </strong><a href=\"https://www.airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\"><strong>cadrages</strong></a><strong>, le </strong><a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\"><strong>suivi des projets</strong></a><strong>, le reporting et la gouvernance.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "(Note du rédacteur : Je vous propose de relire la phrase ci-dessus une seconde fois ! :-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui : plus l'entreprise grandit et son volume de projet avec, plus la capacité de garder un niveau de communication clair, cohérent, simple d'accès pour tout le monde est clé. L'augmentation du nombre d'initiatives et de projets en cours, venant des métiers, rend la gestion de portefeuille utile voire indispensable pour de plus en plus d'organisation de toutes tailles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les développeurs utilisent Jira, le marketing est fan de Trello, la direction de l'innovation est sur Wrike, la qualité est fan de ZenDesk, les RH utilisent Monday, la DSI est sur Teams.... Au secours : les silos sont de retour ! L'enjeu est bien de <strong>proposer un outil macro, partagé ET qui se synchronise</strong> avec les autres plateformes utilisées au quotidien."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62eae1b4ab965deaa837fd03_synchro-outils-min.png",
+        "alt": "AirSaas outil macro, partagé ET qui se synchronise avec les autres plateformes : idéal pour votre pilotage de projet",
+        "caption": "AirSaas est un outil macro, partagé ET qui se synchronise avec les autres plateformes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour un vrai impact sur la réalisation de la transformation de l'entreprise, on cherchera à inclure et collaborer avec les différents métiers et parties prenantes dans un même espace-temps. L'objectif poursuivi étant d'y voir clair dans le périmètre pour faciliter la prise de décision, prioriser par la valeur, collaborativement et en continu. Tout un programme sans une plateforme adaptée !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bonne nouvelle pour la fonction de pilote. <strong>L'automatisation et l'uniformisation du reporting</strong> sont accessibles et constituent désormais une vraie assistance au pilotage de projet. Une aide simple pour automatiser et simplifier les tâches répétitives à faible valeur ajoutée (par exemple la collecte des données, l'envoi d'un reporting flash, <a href=\"https://www.airsaas.io/gestion-de-projet/analyse-des-risques-projet\">l'identification des risques</a> et les ressaisies de données...)."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/616fd320191fb9e48982f69c_Export-flash.jpg",
+        "alt": "Rapport flash - flash report - reporting projet",
+        "caption": "Le pouvoir d'un reporting projet homogène et automatisé"
+      },
+      {
+        "type": "paragraph",
+        "html": "Uniformiser la forme, c'est dire : on va se faciliter la vie pour piloter un projet, pour se comprendre quel que soit l'enjeu que nous affrontons. De quoi, en passant, réduire aussi la fatigue cognitive de tout le monde."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La matrice de Knoster : la recette d'un changement global efficace",
+        "id": "la-matrice-de-knoster-la-recette-dun-changement-global-efficace"
+      },
+      {
+        "type": "paragraph",
+        "html": "Gardons bien en tête le côté complexe, humain et donc multifactoriel du pilotage d'un projet de transformation. C'est ce qui en fait la saveur ! La <a href=\"https://agilityportal.io/blog/knoster-model-for-change\">matrice de Knoster</a> (cf tableau ci-dessous) propose une grille de lecture très pertinente, des modèles, pour faire un check des éléments et indicateurs indispensables d'un pilotage moderne."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62714b94e7e643ce851a39a2_matrice-knoster-projet-airsaas.jpg",
+        "alt": "Matrice de Knoster conduite de changement",
+        "caption": "Matrice de Knoster pour limiter faux départ, pagaille ou confusion dans le pilotage des projets"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Sans vision</strong>, on crée de la confusion au sein des parties prenantes d'un projet",
+          "<strong>Sans savoir-faire</strong>, on engendre la peur",
+          "<strong>Sans bénéfice au changement</strong>, on renforce la résistance",
+          "<strong>Sans ressources humaines et financières</strong>, on génère de la frustration",
+          "<strong>Sans plan d'actions</strong> projet structuré et suivi, on génère de la pagaille"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "7 étapes pour faire progresser la culture projet dans son entreprise (sans y laisser 3 ans de vie !)",
+        "id": "7-etapes-pour-faire-progresser-la-culture-projet-dans-son-entreprise-sans-y-laisser-3-ans-de-vie"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62eae4d2e5f84506331a2168_culture%20projet%20%20entreprise.jpeg",
+        "alt": "Carte Mind map 7 étapes pour faire progresser la culture projet dans son entreprise",
+        "caption": "Aide mémoire sur la culture projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 - Partager le diagnostic",
+        "id": "1-partager-le-diagnostic"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il faut arriver à <strong>partager un même constat avec les équipes</strong> (projet, métier, direction) : il y a trop de sujets, tout le monde est sous l'eau, les gens demandent tout le temps \"où vous en êtes\". On est dans un RUN permanent. Ça rame..."
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ Si le constat n'est pas partagé, ça sera compliqué de dire \"on va changer nos méthodes de travail\". Ici l'enjeu est de créer les conditions et choisir un moment clé notamment pour libérer la parole sur le diagnostic."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2 - Établir une vision commune des priorités",
+        "id": "2-etablir-une-vision-commune-des-priorites"
+      },
+      {
+        "type": "paragraph",
+        "html": "Définir avec le Codir / Copil ce qui est vital et ce qui ne l'est pas."
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ Sinon vous allez encore vous retrouver avec une liste de 70 projets tous super importants, et une équipe de trois personnes pour les porter."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3 - Avoir un bon storytelling des programmes de transformation / axes stratégiques",
+        "id": "3-avoir-un-bon-storytelling-des-programmes-de-transformation-axes-strategiques"
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple : \"le programme d'excellence commerciale (projet CRM, projet analyse comportementale, projet analyse prédictive...) doit nous amener à rentrer dans le top 3 Européen\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ Sinon, au bout de quelques mois, les projets n'auront plus de sens, et le manque de motivation des équipes peut vite se faire ressentir."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4 - Adopter une plateforme pour uniformiser le management de projets",
+        "id": "4-adopter-une-plateforme-pour-uniformiser-le-management-de-projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Commencez par mettre en place une plateforme comme AirSaas pour uniformiser le cahier des charges, les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-cadrage-projet-avec-les-metiers\">cadrages projets</a>, le suivi des projets, le reporting et la gouvernance."
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ Si les équipes ne sont pas toutes matures en gestion de projet, alors les mettre sur Jira sera l'échec assuré, tout comme essayer de leur faire faire un Gantt, essayer d'avoir des fiches de cadrage compréhensibles et bien pensées sur PowerPoint."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5 - Définir les rôles, la comitologie commune, les règles du jeu",
+        "id": "5-definir-les-roles-la-comitologie-commune-les-regles-du-jeu"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est quoi un sponsor ? Un chef de projet ? Un référent métier ? Droits et devoirs de chacun ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ Sans ça, personne ne sera responsable de rien."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6 - Mettre en place les rituels",
+        "id": "6-mettre-en-place-les-rituels"
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ Tous les mardis, réunion chef de projet + référent métier de cinq minutes par projet : décisions à prendre, point d'attention."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous les vendredis, envoi du rapport flash à l'ensemble des parties prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous les mois, Copil sur les enjeux du mois prochain et alignement sur le temps métiers disponible."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7 - Parler du positif",
+        "id": "7-parler-du-positif"
+      },
+      {
+        "type": "paragraph",
+        "html": "🙍🏻‍♂️ OK il faut résoudre les problèmes, mais il faut surtout embarquer en continu les équipes. Alors parlez des succès, <a href=\"https://www.airsaas.io/gestion-de-projet/plan-de-communication-projet\">communiquez-les</a>. Donnez envie. Connaître et travailler sur les points forts des talents de l'équipe, c'est le secret !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez maintenant une vision mise à jour de ce qui se joue aujourd'hui dans le pilotage du projet. Prochaine étape proposée : zoomer sur un ingrédient clé - <a href=\"/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>le jalon projet : une technique pour séquencer vos projets intelligemment.</strong></a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "type": "blog",
+  "slug": "budget-previsionnel-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Tout savoir sur le budget prévisionnel projet",
+      "h1": "Tout savoir sur le budget prévisionnel projet",
+      "description": "Découvrez les bonnes pratiques pour préparer le budget prévisionnel de votre projet : définition, intérêt et étapes clés pour anticiper dépenses et recettes.",
+      "author": {
+        "name": "Simon Vacher",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
+      },
+      "publishedDate": "8/10/2021",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37e7d9f36f78330171279_4.jpg",
+        "alt": "Tout savoir sur le budget prévisionnel projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un budget prévisionnel ?",
+        "href": "#quest-ce-quun-budget-previsionnel"
+      },
+      {
+        "label": "Pourquoi établir un budget prévisionnel pour un projet ?",
+        "href": "#pourquoi-etablir-un-budget-previsionnel-pour-un-projet"
+      },
+      {
+        "label": "Comment préparer un budget prévisionnel ?",
+        "href": "#comment-preparer-un-budget-previsionnel"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Pour vous différencier de vos concurrents, la gestion des ressources est primordiale dans la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> : en optimisant leur utilisation, vous ferez mieux avec les mêmes moyens !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et le budget prévisionnel est un atout important de la gestion des ressources : il permet d'avoir une visibilité détaillée sur l'ensemble des recettes et des dépenses de votre projet. Grâce à lui, vous pouvez anticiper les obstacles que vous pourriez rencontrer et fixer un cap pour votre projet ! Bien sur le budget est partie intégrante de la fiche projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Découvrez ici <strong>les bonnes pratiques pour préparer le budget prévisionnel de votre projet à venir</strong> - pas besoin d'être expert-comptable ou banquier pour le faire !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-quun-budget-previsionnel",
+        "text": "Qu'est-ce qu'un budget prévisionnel ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Faire un budget prévisionnel est indispensable lorsque l'on veut créer un projet : s'il peut servir à convaincre des supérieurs ou des investisseurs de l'intérêt de financer votre projet, il permettra dans tous les cas à toutes les parties impliquées dans le projet d'avoir une visibilité sur l'ensemble de sa réalisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le budget prévisionnel d'un projet, s'il est réaliste, décrit le plus précisément possible les dépenses ainsi que les recettes qui seront affiliées à votre projet. Une des astuces consiste à se baser sur des projets similaires menés par d'autres entreprises en faisant une étude de marché, afin que vos prévisions budgétaires collent au maximum aux dépenses et recettes futures."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien entendu, si ce n'est pas la première année que vous menez ce type de projet, vous pouvez vous baser sur vos chiffres des années précédentes pour élaborer votre budget."
+      },
+      {
+        "type": "paragraph",
+        "html": "Votre prévisionnel peut se faire sur un tableur Excel, ou bien sur un outil comptable dédié, qui permet de recenser vos prévisions sur une plateforme collaborative."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-etablir-un-budget-previsionnel-pour-un-projet",
+        "text": "Pourquoi établir un budget prévisionnel pour un projet ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "anticiper-et-ajuster-votre-projet",
+        "text": "Anticiper et ajuster votre projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'intérêt premier d'un <a href=\"https://www.legalstart.fr/fiches-pratiques/comptabilite-entreprise/comment-faire-budget-previsionnel/\" target=\"_blank\">budget prévisionnel</a> est d'essayer d'accroître votre visibilité sur le futur de votre projet - ou autrement dit, d'anticiper votre gestion de projet !"
+      },
+      {
+        "type": "paragraph",
+        "html": "En effet, construire le prévisionnel financier de votre projet est l'une des meilleures solutions pour estimer sa faisabilité. Vous allez pouvoir calculer la marge de rentabilité que vous espérez atteindre (ou au moins l'équilibre budgétaire) et réaliser des ajustements sur votre stratégie si vous vous rendez compte que votre business plan ou votre plan de financement ne tiennent pas la route."
+      },
+      {
+        "type": "paragraph",
+        "html": "Autre astuce : vous pouvez même réaliser plusieurs budgets prévisionnels qui représentent les différents scénarios que vous envisagez, et qui prennent en compte les imprévus que vous pouvez imaginer (problème d'approvisionnement, nouveaux concurrents qui changent le marché…)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "garder-le-cap-durant-le-projet",
+        "text": "Garder le cap durant le projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Votre budget prévisionnel sera un outil redoutable d'aide à la décision au fur et à mesure de la réalisation du projet. En effet, votre budget vous permet de vérifier mois par mois que vous ne vous éloignez pas trop de votre stratégie initiale et que les décisions que vous avez prises ont bien eu l'impact que vous aviez prévu."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le budget prévisionnel est donc un outil de suivi de projet très efficace pour vérifier que vous collez bien à ce que vous aviez planifié : c'est un guide qui indique le cap que vous aviez prévu de prendre !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-allie-de-poids-pour-votre-management",
+        "text": "Un allié de poids pour votre management"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le budget prévisionnel de projet peut aussi être un levier intéressant pour manager vos équipes en tant que porteur de projet. Il peut, d'une part, servir à montrer à vos équipes que vos moyens ne sont pas illimités, ou qu'elles ont dépensé plus qu'il était prévu à l'origine, afin de les convaincre de faire attention."
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'inverse, élaborer un budget prévisionnel ambitieux aura un effet engageant important sur vos équipes. Elles se sentiront galvanisées de prendre part à un projet avec autant de moyens, ce qui accroîtra leur motivation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le budget prévisionnel est donc un argument de poids pour appuyer vos décisions auprès de vos équipes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-preparer-un-budget-previsionnel",
+        "text": "Comment préparer un budget prévisionnel ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "avoir-fait-linventaire-de-vos-ressources",
+        "text": "Avoir fait l'inventaire de vos ressources"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un prérequis indispensable : pour réaliser un budget prévisionnel, vous devez lister l'ensemble des ressources à votre disposition. On parle ici des ressources matérielles, humaines, mais aussi du temps (nombre de jours) dont vous disposez pour mener à bien ce projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "decouper-vos-budgets-previsionnels",
+        "text": "Découper vos budgets prévisionnels"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour des projets de longue durée, il est préférable de calculer votre budget en le découpant de manière mensuelle. Plusieurs raisons à cela."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout d'abord, il sera souvent plus simple de prévoir vos dépenses mensuelles plutôt qu'annuelles : les marges d'erreurs seront réduites !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ensuite, une budgétisation mensuelle apportera une meilleure capacité d'anticipation : si vous vous forcez à budgétiser chaque mois, vous devrez alors être plus précis sur le temps que vous prévoyez pour faire chaque tâche."
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus, la mensualisation ne vous enlève rien. Nous ne vous apprenons rien si nous vous rappelons que pour établir votre budget annuel, vous n'aurez qu'à additionner le budget de chacun de vos 12 mois."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "impliquer-vos-collaborateurs-dans-la-confection-de-votre-budget",
+        "text": "Impliquer vos collaborateurs dans la confection de votre budget"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous voulez prévoir efficacement vos dépenses et vos recettes, il est primordial d'impliquer les premiers concernés par ces dernières : vos collaborateurs. Il sera bien plus simple de réussir à anticiper les bons montants en les calculant avec ceux qui oeuvreront au quotidien sur le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chacun de vos collaborateurs sera à même de vous donner une idée précise de l'importance des recettes et dépenses liées aux tâches dont il est responsable."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous risquez d'obtenir un budget prévisionnel bien plus proche de la réalité en interrogeant vos collaborateurs sur leurs domaines de prédilection, qu'en confiant la réalisation de l'entièreté du budget à un consultant."
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus, vous obtiendrez un engagement d'autant plus important de la part de vos équipes si vous les avez impliquées dès la conception du budget du projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "prendre-garde-a-bien-evaluer-vos-depenses",
+        "text": "Prendre garde à bien évaluer vos dépenses"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est inutile de gonfler vos dépenses. Ne les surévaluez pas, ce n'est pas une bonne idée. Vous pouvez garder une très légère marge de sécurité si vous craignez de dépasser les montants que vous avez prévus, ou que les sommes sont vraiment dures à prévoir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Par contre, il est vivement conseillé de mettre de côté une réserve pour l'année sur votre plan de trésorerie afin de pouvoir faire face aux imprévus."
+      },
+      {
+        "type": "paragraph",
+        "html": "De la même manière, évitez de sous-évaluer vos dépenses. Chiffrer un budget trop restreint pour les tâches que vous avez à accomplir obligera à une hiérarchisation entre les différentes tâches que vous aviez prévues, ce qui sera forcément source de tension dans vos équipes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "eviter-autant-que-possible-de-sous-estimer-les-delais",
+        "text": "Éviter autant que possible de sous-estimer les délais"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sous-estimer vos délais reviendra à faire travailler pendant plus longtemps que prévu vos équipes - et donc à exploser le budget prévisionnel du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "De nombreuses études ont montré qu'il était commun d'être trop optimiste lorsqu'on estime la durée de réalisation d'une tâche. Ainsi, interrogez vos collaborateurs sur le délai dont ils estiment avoir besoin pour accomplir leurs missions, et ajoutez une marge de sécurité par précaution (souvent entre 20 et 30% selon les collaborateurs)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-budget-previsionnel-nest-pas-statique-faites-le-evoluer",
+        "text": "Un budget prévisionnel n'est pas statique : faites-le évoluer !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si, pour le confectionner en amont, vous êtes bien obligé d'essayer de prévoir le réel, il arrivera un moment où vos hypothèses se vérifieront ou s'infirmeront. Lorsque durant votre projet, vous obtenez davantage d'informations sur les dépenses et les recettes auxquelles vous allez faire face, servez-vous en pour retravailler votre budget prévisionnel !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, il est conseillé de faire un bilan chaque mois sur vos dépenses et recettes effectives, et de les comparer à vos prévisions financières. Important : lorsque vous corrigez votre budget prévisionnel en cours d'année, n'oubliez pas de garder la version antérieure - cela évitera de perdre le cap, mais sera aussi très intéressant à revoir lorsque vous aurez bien avancé sur le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\" target=\"_blank\">découvrez comment construire un budget de projet sans vous louper</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'élaboration du budget prévisionnel de votre projet est terminée ? Vous pouvez désormais l'intégrer à votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie\" target=\"_blank\">fiche projet</a>."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

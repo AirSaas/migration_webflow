@@ -1,0 +1,503 @@
+{
+  "type": "blog",
+  "slug": "le-guide-du-mode-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment faire passer mon entreprise en mode projet ?",
+      "h1": "Comment faire passer mon entreprise en mode projet ?",
+      "description": "Découvrez ce qu'est le mode projet, pourquoi l'adopter et comment le mettre en place dans votre entreprise. Bonnes pratiques, cahier des charges et note de cadrage.",
+      "publishedDate": "8/10/2021",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f376d2d6406549eff2092b_1-min%20(1).jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce que c'est, le mode projet ?",
+        "href": "#quest-ce-que-cest-le-mode-projet"
+      },
+      {
+        "label": "Pourquoi travailler en mode projet ?",
+        "href": "#pourquoi-travailler-en-mode-projet"
+      },
+      {
+        "label": "Comment travailler en mode projet ?",
+        "href": "#comment-travailler-en-mode-projet"
+      },
+      {
+        "label": "Définir le projet : l'intérêt d'un cahier des charges du projet",
+        "href": "#definir-le-projet-linteret-dun-cahier-des-charges-du-projet"
+      },
+      {
+        "label": "Aide-mémoire : 10 bonnes pratiques du mode projet",
+        "href": "#aide-memoire-10-bonnes-pratiques-du-mode-projet"
+      },
+      {
+        "label": "Mode projet et note de cadrage",
+        "href": "#mode-projet-et-note-de-cadrage"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Passer en mode projet suppose d'aller encore plus loin en repensant toute votre organisation : de la définition du projet commun, à sa communication, à la structuration des équipes et de leur chef !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Découvrez ici les bonnes raisons et les clés pour adopter ce mode de travail."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13bc_62f3742013ce5e8e913ebdd3_Project-page-feed.jpeg",
+        "alt": "Communication projet",
+        "caption": "Centralisez la communication projet dans le cadre du travail en mode projet"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-que-cest-le-mode-projet",
+        "text": "Qu'est-ce que c'est, le mode projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le fonctionnement en mode projet peut être décrit par trois caractéristiques principales :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Une organisation autour d'un <strong>livrable commun</strong>",
+          "Une équipe <strong>pluridisciplinaire</strong>",
+          "Chapeautée par un <strong>chef d'orchestre</strong> : le <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\">chef de projet</a>"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-organisation-autour-dun-projet-commun",
+        "text": "Une organisation autour d'un projet commun"
+      },
+      {
+        "type": "paragraph",
+        "html": "Toute l'équipe et la méthodologie mise en place doivent être pensées autour du projet, que ce soit au niveau du budget, des délais affectés à chaque tâche ou encore des méthodes de travail choisies. Toute l'organisation doit être centrée sur un objectif précis : la réalisation optimale du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un des principaux défis du mode projet consiste à <strong>mettre en place une collaboration efficace</strong> entre toutes les personnes impliquées dans le projet, en prenant notamment en compte les missions que chacun à réaliser en parallèle."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'équipe idéale pour réaliser un projet est composée de personnes avec des profils différents : leurs compétences, qualifications et expertises doivent être complémentaires et couvrir l'ensemble du spectre du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le choix de l'équipe est donc une des étapes les plus importantes pour parvenir à réellement travailler en mode projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13ca_62f374757aa393210a62307e_People-involve.jpeg",
+        "alt": "Equipes impliquées en mode projet",
+        "caption": "L'équipe projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-transversalite-des-equipes",
+        "text": "Une transversalité des équipes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Afin de parvenir à recruter tous les profils nécessaires à l'accomplissement du projet, les équipes qui travaillent en mode projet proviennent généralement de services différents. Elles peuvent habituellement travailler dans des services différents au sein d'une même entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si cette transversalité des équipes est pratique pour composer l'équipe idéale, elle entraîne aussi des conséquences sur plusieurs aspects de votre organisation :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Tout le monde n'a pas la même maturité méthodologique</strong>. Votre méthodologie de travail doit donc être pensée en prenant en compte les différences entre chacun des membres de votre équipe (habitude propre à son service, à la culture de son entreprise, outil différent…).",
+          "<strong>Le management l'équipe</strong> : il doit lui aussi être adapté à la diversité des profils ainsi qu'aux spécificités du projet mené. Le chef de projet n'est pas le \"chef\" des personnes mais le leader du projet. Il est responsable du travail des autres.",
+          "Les personnes venant de différents horizons ou services, il faut être très clair sur le temps disponible de chacun et ce tout le long du projet. Cadrer une \"enveloppe temps\"."
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13b1_62f374dfe3e506143bcd1b6a_Team-involve.jpeg",
+        "alt": "Equipes impliquées",
+        "caption": "Les équipes impliquées dans le projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, pour <strong>souder les membres de votre équipe</strong> malgré leurs différences, il sera primordial de structurer votre équipe autour de l'intérêt commun que chacun d'entre eux partage. Il faudra penser à communiquer en continu sur l'impact que ce projet peut avoir sur l'entreprise et les clients."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-equipe-chapeautee-par-un-chef-de-projet",
+        "text": "Une équipe chapeautée par un chef de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour solidariser votre équipe autour du projet, il est indispensable de nommer un chef de projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13c1_62f375b65a05665b12ad0e61_intro-project.jpeg",
+        "alt": "Le chef de projet",
+        "caption": "Le responsable projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Son rôle sera d'assurer la réalisation du projet à travers différentes fonctions :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Il répartit les tâches</strong> entre les membres de l'équipe en fonction des compétences de chacun",
+          "<strong>Il fixe les délais</strong> assignés à chaque tâche et s'assure qu'ils sont tenus",
+          "<strong>Il anime les réunions</strong> d'équipes et accompagne chacun des collaborateurs",
+          "<strong>Il assure un suivi global</strong> de l'ensemble du projet et reporte avec un outil de gestion",
+          "<strong>Il mobilise les sponsors</strong> du projet lorsque c'est nécessaire",
+          "<strong>Il veille à ce que les décisions soient prises</strong> par les bonnes personnes dans les bons délais"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"https://www.reussirsesprojets.com/qualites-chef-de-projet/\">chef de projet</a> doit donc être <strong>doté d'une personnalité forte</strong>, afin de parvenir à s'imposer auprès de son équipe lorsque c'est nécessaire, de la remobiliser en cas de baisse de régime et plus largement de leur <strong>partager sa vision du chemin</strong> vers l'objectif commun : la réalisation optimale du projet !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-travailler-en-mode-projet",
+        "text": "Pourquoi travailler en mode projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si l'on parvient à créer une symbiose entre les différents membres de l'équipe et les compétences qu'ils apportent, alors travailler en mode projet présente de nombreux avantages."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "On <strong>brise l'organisation pyramidale</strong> classique et les frictions qu'elle génère",
+          "On <strong>brise les silos</strong> entre services, ce qui améliore la coordination des collaborateurs",
+          "On <strong>obtient une vision précise</strong> des tâches qui composent le projet ainsi que des délais assignés",
+          "La <strong>communication</strong> entre les membres de l'équipe est optimisée et le <strong>partage d'informations simplifié</strong>",
+          "On <strong>responsabilise les collaborateurs</strong>, ce qui stimule leur motivation, leur intelligence collective ainsi que leurs facultés à innover",
+          "La <strong>charge de travail est mieux répartie</strong> entre les membres de l'équipe, mais aussi dans le temps",
+          "La <strong>cohésion de votre équipe est renforcée</strong>, ce qui développe la coopération et la confiance que se portent les collaborateurs"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous ces avantages que présente le mode projet amènent deux conséquences sur la réalisation de vos projets. Tout d'abord, <strong>vous pouvez entreprendre des projets complexes</strong> : tous ces avantages permettent à vos équipes de réaliser des projets impossibles à exécuter sans ce mode particulier d'organisation. Ensuite, vos projets sont menés plus rapidement, coûtent généralement moins cher, et sont de meilleure qualité."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cependant, il y a un prix à payer : mettre en place le mode projet est complexe et requiert d'y passer du temps. En effet, si les collaborateurs recrutés ne sont pas suffisamment disponibles, que le budget alloué n'est pas en accord avec les objectifs, ou que vous ne parvenez pas à rassembler autour d'un objectif commun les profils hétérogènes que vous avez choisis, alors il y a toutes les chances pour que votre projet échoue."
+      },
+      {
+        "type": "paragraph",
+        "html": "Heureusement, il existe des bonnes pratiques pour parvenir à travailler en mode projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-travailler-en-mode-projet",
+        "text": "Comment travailler en mode projet ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "constituer-son-equipe-projet",
+        "text": "Constituer son équipe projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "La première étape est de <strong>réunir les bonnes personnes</strong> autour de votre projet. Vous devez vous poser plusieurs questions :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Quelles sont les qualités et compétences nécessaires à la réalisation de mon projet ?",
+          "Les profils que je recrute sont-ils complémentaires et aptes à travailler ensemble ?",
+          "Les collaborateurs ont-ils suffisamment de disponibilités pour accomplir leurs tâches ?",
+          "Sont-ils suffisamment concernés par le projet sur lesquels ils devront travailler ?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois l'équipe projet constituée, il faut alors assigner les rôles et les responsabilités à chacun des membres du groupe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette étape permet de responsabiliser chaque collaborateur sur les tâches qui lui sont attribuées, et d'optimiser la coopération dans la mesure où chacun a son champ de compétence bien délimité."
+      },
+      {
+        "type": "paragraph",
+        "html": "Après l'équipe, il faut trouver le chef de projet idéal !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "trouver-le-chef-de-projet-adapte",
+        "text": "Trouver le chef de projet adapté"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il vous faut parvenir à trouver le profil qui parviendra à manager votre équipe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il sera <strong>garant de la bonne exécution</strong> du projet tout au long de sa réalisation : répartition des tâches, planification, coordination des intervenants ainsi que du management du groupe."
+      },
+      {
+        "type": "paragraph",
+        "html": "En terme de soft skills : il doit être capable de fédérer, de rassembler, mais aussi de faire respecter ses décisions - d'autant plus qu'il arrive qu'il n'ait pas de supériorité hiérarchique forte par rapport aux autres collaborateurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit donc posséder des compétences managériales, relationnelles et communicationnelles fortes pour parvenir à orchestrer et piloter le mode projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13ae_62f3762a13ce5e51323ed323_Creation-responsable.jpeg",
+        "alt": "L'adéquation entre le chef de projet et le projet",
+        "caption": "Le bon chef de projet pour le bon projet"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "definir-le-projet-linteret-dun-cahier-des-charges-du-projet",
+        "text": "Définir le projet : l'intérêt d'un cahier des charges du projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Même s'il n'existe pas de modèle universel applicable, il est indispensable de <strong>définir clairement les limites de votre projet</strong>. Sans cela, le chef de projet et son équipe n'auront pas suffisamment d'informations pour assurer la réalisation de leurs objectifs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il y a donc une liste d'éléments (non exhaustive) à définir en amont du projet :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le <strong>contexte</strong> et les <strong>enjeux</strong> du projet",
+          "Les <strong>objectifs</strong> à atteindre",
+          "Le <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\"><strong>budget</strong> alloué</a>",
+          "Une estimation de la charge initiale maximale",
+          "Les outils et méthodes envisagées",
+          "Les <strong>ressources</strong> humaines disponibles",
+          "Les <strong>risques</strong> potentiels",
+          "Les <strong>délais</strong> à respecter dans le planning du projet",
+          "La place du projet par rapport à un ensemble d'autres chantiers"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13b9_62f3767188c0c35f4604ba8a_Project-info.jpeg",
+        "alt": "note de cadrage",
+        "caption": "Note de cadrage"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces contenus serviront tout autant pour le choix de la composition de votre équipe que pour assurer la gestion du projet tout au long de sa réalisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces informations doivent être inscrites dans un cahier des charges : ce sera le document commun qui centralisera tous ces éléments pour l'ensemble des parties prenantes du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Coucher ces éléments sur le papier facilite la coopération</strong> : cela évite tout malentendu ou chevauchement sur les tâches attribuées et ainsi réduit les frictions potentielles dans votre équipe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le cahier des charges peut être basé sur la <a href=\"https://www.airsaas.io/fr/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\">note de cadrage</a> rédigée en amont du projet et a tout intérêt à être complété durant l'exécution du projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "sensibiliser-au-mode-projet",
+        "text": "Sensibiliser au mode projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le mode projet présente de nombreux avantages, il faut tout de même rappeler qu'il est très éloigné des méthodes et de l'organisation traditionnelle à laquelle vos collaborateurs sont habitués."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et comme tout changement de pratique, la question du passage au mode projet ne manquera pas de provoquer des réactions de la part de l'équipe que vous souhaitez constituer. Les réactions potentielles vont de l'indifférence à l'appréhension, en passant par l'enthousiasme. L'important est d'<strong>éviter de provoquer un rejet total.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pas de recette miracle : la façon dont vous vous y prendrez dépendra de votre personnalité, mais Il est surtout primordial que vous preniez le temps de sensibiliser vos collaborateurs au nouveau fonctionnement qui les attend."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pas de panique pour autant ! Si vous leur présentez les avantages du mode projet et que vous les rassurez sur leurs interrogations, il y a toutes les chances pour que vous parveniez à les convaincre de se lancer. Pour vous faciliter le mode projet nous avons regroupé 10 bonnes pratiques ci-dessous."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "aide-memoire-10-bonnes-pratiques-du-mode-projet",
+        "text": "Aide-mémoire : 10 bonnes pratiques du mode projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "definissez-les-objectifs-et-contenus-de-votre-projet-clarifier",
+        "text": "Définissez les objectifs et contenus de votre projet #clarifier"
+      },
+      {
+        "type": "paragraph",
+        "html": "On ne réussit que par rapport aux objectifs. C'est la base. Et cependant, dans la vraie vie avant de démarrer un projet, on oublie parfois de <strong>définir clairement les objectifs et aussi ceux que l'on ne poursuivra pas !</strong> Cela vous aidera à vous concentrer sur ce que vous voulez accomplir, votre terrain de jeu, et à vous assurer que tout le monde travaille vers les mêmes objectifs, dans le même but. Cela implique un cahier des charges précis et également donc, de dire ce que le projet ne fera pas, sa portée réelle."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "creez-avec-les-metiers-un-plan-de-projet-cooperer",
+        "text": "Créez (avec les métiers) un plan de projet #coopérer"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un <strong>plan de projet co créé avec les métiers et partagé avec les parties prenantes</strong> doit inclure des échéanciers, <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\">des jalons</a>, des budgets, des ressources et des risques. Étant donné qu'une partie de vos ressources critiques est constituée par vos partenaires métiers. Il devrait également inclure une répartition des tâches et des responsabilités, afin que chacun sache ce qu'il doit faire sur la feuille de route et l'engagement que cela représentera. Le travail collaboratif entre les différents acteurs est la clé du management de projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "attribuez-des-roles-et-des-responsabilites-vraiment-claires-aux-acteurs-du-projet-informer",
+        "text": "Attribuez des rôles et des responsabilités (vraiment) claires aux acteurs du projet : #informer"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tel le chef d'orchestre, assurez-vous que <strong>chacun connaît et comprend sa place et son rôle</strong> et ses responsabilités dans le projet. Cela aidera à s'assurer que les tâches sont terminées à temps et selon les exigences requises le rôle et par cette approche de la gestion de projets qui bouscule le management et les hiérarchies établies dans les entreprises."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "utilisez-des-outils-de-gestion-de-projet-outiller",
+        "text": "Utilisez des outils de gestion de projet #outiller"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il existe de nombreux outils de gestion de projet disponibles qui peuvent vous aider à suivre les progrès, à gérer les tâches et à collaborer avec les membres de l'équipe. Un outil de gestion embarque avec lui une philosophie, une façon de travailler. Par exemple, partager un diagramme de Gantt, une charge, pour votre gestion de projets peut se révéler contreproductif si vous cherchez à convaincre et à adopter une bonne communication."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "communiquez-regulierement-impacter",
+        "text": "Communiquez régulièrement #impacter"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Une communication régulière</strong> est essentielle lorsque l'on travaille sur un projet. Cela permet de s'assurer que tout le monde est sur la même longueur d'onde et que tout problème, question ou préoccupation est traité rapidement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur ce thème et ces activités, il existe des méthodes, en particulier le <a href=\"https://www.e-marketing.fr/Definitions-Glossaire/Modele-Lasswell-242443.htm\">modèle de Laswell</a> : \"Qui dit quoi, à qui, au travers de quel médium, avec quel résultat ?\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "surveillez-les-progres-evaluer",
+        "text": "Surveillez les progrès #évaluer"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous devez suivre l'évolution du projet, l'atteinte des objectifs pour vous assurer qu'il reste sur la bonne voie. Des <strong>rapports d'avancement réguliers</strong> et des mises à jour de statut peuvent vous aider à identifier rapidement les problèmes et à prendre des mesures correctives si nécessaire."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "restez-flexible-assouplir",
+        "text": "Restez flexible : #assouplir"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un scénario, mais de la souplesse ! Les projets peuvent changer, et vous devez être prêt à vous adapter si les choses ne se déroulent pas comme prévu. <strong>Être flexible et ouvert aux nouvelles idées</strong> peut vous aider à surmonter les obstacles qui pourraient survenir dans votre management de projets. Devenez yogi projet ! Vive la souplesse."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "gerez-les-risques-derisquer",
+        "text": "Gérez les risques #dérisquer"
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque projet comporte des risques. Sans entrer dans une usine à gaz Excel, vous devez vous y préparer. <a href=\"https://www.airsaas.io/gestion-de-projet/analyse-des-risques-projet\">Identifiez les risques</a> potentiels dès le début et mettez en place des plans pour les atténuer."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "celebrez-toutes-les-reussites-ritualiser",
+        "text": "Célébrez toutes les réussites #ritualiser"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lorsqu'un projet est terminé ou même un jalon majeur, avec succès ou non, prenez le temps de <strong>célébrer avec votre équipe le positif, de dire merci</strong> ! Chacun sa façon de le faire - mais reconnaître le travail acharné de chaque collaborateur et les efforts accomplis aidera à remonter le moral et à garder tout le monde motivé."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "apprenez-vraiment-de-vos-experiences-capitaliser",
+        "text": "Apprenez (vraiment) de vos expériences #capitaliser"
+      },
+      {
+        "type": "paragraph",
+        "html": "Après avoir terminé un projet, <strong>prenez le temps de réfléchir à la manière dont vous avez travaillé.</strong> Ce qui a bien fonctionné et à ce qui n'a pas fonctionné. Les agilistes ont intégré ces activités de rétro depuis longtemps. Ces pratiques vous aideront à améliorer votre efficacité et vos processus et manières de faire, et à assurer que les projets futurs soient encore plus réussis. Quel que soit le type de méthode adoptée, le plus important, c'est de capitaliser."
+      },
+      {
+        "type": "paragraph",
+        "html": "En conclusion : pour profiter de tous les avantages du mode projet, vous allez devoir prendre le temps de penser votre projet, de trouver le chef de projet adéquat, de constituer une équipe complémentaire, et de convaincre cette dernière de vous suivre dans cette aventure !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bonne chance !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mode-projet-et-note-de-cadrage",
+        "text": "Mode projet et note de cadrage"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le cadre du fonctionnement du mode projet de nombreuses équipes utilisent <strong>la note de cadrage comme outil en soutien au mode projet</strong> : la note de cadrage est un document synthétique qui récapitule l'ensemble des points clés de votre projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il peut donc être très intéressant d'adapter l'utilisation de la note de cadrage au mode projet. Rappelez tous les points essentiels à vos équipes, pour simplifier leur adaptation et simplifier la collaboration autour de votre but commun : la réalisation du projet ! Pour en savoir plus sur le sujet, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\">rendez-vous sur notre article sur la note de cadrage projet</a>."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

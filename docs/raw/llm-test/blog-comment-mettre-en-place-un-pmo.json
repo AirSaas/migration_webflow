@@ -1,0 +1,393 @@
+{
+  "type": "blog",
+  "slug": "comment-mettre-en-place-un-pmo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment mettre en place un PMO ?",
+      "h1": "Comment mettre en place un PMO ?",
+      "description": "Découvrez quand, comment et pourquoi mettre en place un PMO dans votre entreprise : critères de décision, profil idéal, gouvernance, quick-wins et bonnes pratiques.",
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "25/2/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "publishedDate": "25/2/2023",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ed73ba2092e1215ffbd6_PMO-min.jpg",
+        "alt": "Comment mettre en place un PMO"
+      }
+    },
+    "toc": [
+      {
+        "label": "Quand se pose la question de la mise en place d'un PMO ?",
+        "href": "#quand-se-pose-la-question-de-la-mise-en-place-dun-pmo"
+      },
+      {
+        "label": "Que faut-il mettre en place avant l'arrivée d'un PMO ?",
+        "href": "#que-faut-il-mettre-en-place-avant-larrivee-dun-pmo"
+      },
+      {
+        "label": "Quel profil rechercher ?",
+        "href": "#quel-profil-rechercher"
+      },
+      {
+        "label": "À quelles difficultés faut-il s'attendre au début ?",
+        "href": "#a-quelles-difficultes-faut-il-sattendre-au-debut"
+      },
+      {
+        "label": "Quelle est sa meilleure position pour agir ?",
+        "href": "#quelle-est-sa-meilleure-position-pour-agir"
+      },
+      {
+        "label": "Comment communiquer et mettre le PMO dans de bonnes conditions ?",
+        "href": "#comment-communiquer-et-mettre-le-pmo-dans-de-bonnes-conditions"
+      },
+      {
+        "label": "Comment organiser ou réorganiser la gouvernance des projets ?",
+        "href": "#comment-organiser-ou-reorganiser-la-gouvernance-des-projets"
+      },
+      {
+        "label": "Ne sous-estimez pas l'importance des \"quick wins\"",
+        "href": "#ne-sous-estimez-pas-limportance-des-quick-wins"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8e7db537877c35f464429_mise%20en%20place%20PMO.jpg",
+        "alt": "project management office - bureau des projets",
+        "caption": "Bienvenue dans le pragmatic project management office - bureau des projets"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quand-se-pose-la-question-de-la-mise-en-place-dun-pmo",
+        "text": "Quand se pose la question de la mise en place d'un PMO ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "À partir de quand se lancer ? C'est une question qu'on nous pose très souvent. En effet, ce rôle est devenu de plus en plus important pour les entreprises afin de faire face à l'accélération de l'innovation et l'explosion des projets transverses."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il semble cependant que les mêmes freins reviennent quand on se pose la question de la mise en place d'un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/metier-pmo\" target=\"_blank\">PMO</a>. L'entreprise est-elle suffisamment grande pour justifier la création de ce type de poste ? Est-on assez structuré en interne pour le mettre en place ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "La <strong>taille de l'entreprise</strong> est <strong>moins importante que le nombre de projets ainsi que l'investissement qu'ils représentent</strong>. Moins l'effectif est important avec un grand nombre de projets, plus l'implication en mode \"best effort\" des équipes est importante."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec des collaborateurs qui prennent le rôle de chef de projet en plus de leurs fonctions habituelles, rôle pour lequel, si ce n'est pas leur cœur de métier, on peut s'attendre à une efficacité plus faible et de nombreux projets deviennent très difficiles à mener à bien."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans de nombreux cas, l'échec des projets peut coûter bien plus cher que l'embauche d'un PMO."
+      },
+      {
+        "type": "paragraph",
+        "html": "La question de la structuration de l'entreprise devrait être prise à l'envers ici. Le rôle d'un PMO est d'aider à structurer une démarche et une culture visant la montée en compétences de tous les collaborateurs sur les projets et ainsi améliorer la réussite de ces projets, en participant également à une meilleure efficacité pour les collaborateurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il peut donc être un élément important dans la structuration d'une entreprise pour faire face à une montée en charge sur l'activité cœur de métier. C'est toujours mieux que de mettre une majorité de projets en stand-by ou en échec chronique."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "trois-criteres-pour-decider-du-recrutement-dun-pmo",
+        "text": "Trois critères pour décider du recrutement d'un PMO ?"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Premier critère, purement ROIste, dans les ratios généralement constatés, le bon moment pour mettre en place un PMO est quand la somme des projets transverses ou de transformation atteint 400K€ à 500K€. Provisionner 15% à 20% de la valeur de son <a href=\"https://www.airsaas.io/fr/gestion-de-projet/gestion-portefeuille-projets-vs-gestion-de-projet\" target=\"_blank\">portefeuille projet</a> dans la mise en place d'un PMO semble être une bonne pratique pour sécuriser les investissements actuels mais aussi améliorer l'efficience des futurs investissements.",
+          "Quand les projets dérapent ! Second contexte à prendre en compte pour passer le cap. Quand votre projet ERP glisse depuis 18 mois… c'est le signe qu'il vous manque de \"l'huile\". Recruter ou s'adjoindre les services d'un PMO externe permettra en outre d'économiser du temps passé par les collaborateurs clés sur les projets et ainsi mieux gérer leurs activités cœur de métier.",
+          "Enfin, troisième critère plus subjectif, <strong>quand le DG à l'impression que ça rame</strong> ! C'est le signe qu'il va falloir piloter un peu plus ce sujet-là. Ne pas s'installer dans le manque d'efficience, transparence et de confiance."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Besoin de creuser le sujet ? <a href=\"https://www.airsaas.io/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo\" target=\"_blank\">Rendez-vous sur notre article \"Pourquoi mettre en place un PMO ?\"</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "que-faut-il-mettre-en-place-avant-larrivee-dun-pmo",
+        "text": "Que faut-il mettre en place avant l'arrivée d'un PMO ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8e5e1685d831215c93dac_c4981d32-6f42-4256-b0ee-ff5eb8256e62.png",
+        "alt": "PMO Les clés d'une mise en œuvre réussie",
+        "caption": "Les clés d'une mise en œuvre réussie"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avant l'arrivée d'un PMO, il est important de mettre en place les éléments suivants :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Identifier les besoins de l'entreprise en termes de gestion de projet et déterminer comment un PMO peut aider à les satisfaire.",
+          "Définir le rôle et les responsabilités du PMO, ainsi que les ressources dont il aura besoin pour remplir ses fonctions. (N'hésitez pas à faire évoluer cette vision en prenant conseil à l'extérieur ou en fonction des éléments apportés sur la table par les candidats)",
+          "Choisir un responsable pour le PMO qui lui donnera les moyens de réussir, en lui fournissant notamment les ressources nécessaires et lui permettant d'ouvrir les bonnes portes et d'avoir la bonne influence dans l'entreprise.",
+          "Communiquer sur le PMO auprès de tous les membres de l'entreprise, afin de les sensibiliser à son rôle et à ses responsabilités, et de leur fournir les informations nécessaires pour travailler en collaboration avec lui."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En mettant en place ces éléments avant l'arrivée du PMO, vous vous assurez que le PMO dispose des moyens minimums nécessaires pour remplir ses fonctions et que tous les membres de l'entreprise sont informés de son rôle et de ses responsabilités. Cela vous permettra également de réduire les problèmes potentiels qui pourraient survenir au cours du processus de mise en place du PMO."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention les quatre points ci-dessus constituent la base… Mais <strong>ça ne suffira pas</strong> pour une prise de fonction de PMO efficace !"
+      },
+      {
+        "type": "paragraph",
+        "html": "À travers nos échanges avec les DSI, Directions générales, sponsors… Nous avons acquis la conviction qu'il y a trois prérequis supplémentaires."
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Le PMO est rattaché à la Direction</strong>. Oui c'est un rôle stratégique !",
+          "<strong>Le PMO est positionné comme un facilitateur</strong> versus un contrôleur qui \"enm….e\" tout le monde. Il doit donner envie et fédérer !",
+          "On donne (vraiment) au PMO <strong>les capacités, la permission de challenger les sponsors et décideurs</strong>… Vous tuez ce rôle si le PMO se fait rembarrer à chaque remontée."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quel-profil-rechercher",
+        "text": "Quel profil rechercher ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8eba04e476a361c88ba79_profil-pmo.jpg",
+        "alt": "Profil type PMO",
+        "caption": "Chefs de projets ou PMO ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour trouver le profil idéal pour un poste de PMO, il est important de rechercher quelqu'un qui a :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Une solide expérience en gestion de projet transverse et/ou de transformation",
+          "Des compétences en communication et en collaboration, pour travailler efficacement avec les différents membres de l'équipe de projet et gérer les relations avec les différents intervenants.",
+          "Des compétences en organisation et en planification, pour organiser les différents projets entre eux et aider à les gérer pour qu'ils soient menés à bien dans les délais impartis.",
+          "Des compétences en gestion des risques et en résolution de problèmes, pour identifier et gérer les risques qui peuvent survenir au cours d'un projet et trouver des solutions pour les résoudre.",
+          "Une connaissance approfondie des outils et des technologies de gestion de projet, pour consolider sa démarche afin de mieux gérer les projets de l'entreprise.",
+          "<strong>Le plus :</strong> Un candidat avec une très bonne culture des projets de transformation, une bonne vision des enjeux et solutions basées sur des retours d'expérience et proche d'un réseau d'acteurs sur ces thèmes afin de rester à jour sur les évolutions des enjeux autour de la transformation d'entreprise."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "On attend également que le PMO fasse le lien entre les chefs de projets et les métiers avec l'exécutif et le top management. Pour cela vous aurez besoin d'un profil capable d'évoluer dans les deux sphères, son rôle étant d'aider et de faciliter, il doit comprendre les besoins et avoir les prérequis techniques pour supporter les équipes et les services dans leur rôle d'exécution mais également avec une forte appétence et compréhension business pour communiquer au bon niveau avec le Codir / Comex."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Les compétences projet, c'est le minimum, la base !</strong> Vous l'avez compris le rôle de PMO contrôleur à l'ancienne ne fonctionnera pas avec juste le service minimum, <strong>on recherche un profil type capitaine d'équipe</strong> vs un \"chefaillon\". On cherche quelqu'un de pédagogue, il doit <strong>donner envie et fédérer !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "La situation optimale c'est quand vous avez un PMO qui est monté en interne et qui est coaché par quelqu'un d'externe le cas échéant. Il aura la légitimité et des tips pour trouver sa posture."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-quelles-difficultes-faut-il-sattendre-au-debut",
+        "text": "À quelles difficultés faut-il s'attendre au début ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ebbced7c97e69c7bae23_pmo%20start.jpg",
+        "alt": "Les débuts en tant que PMO",
+        "caption": "Bienvenue dans les portefeuilles de projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lors de la mise en place d'un PMO, il est possible de rencontrer les difficultés suivantes :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Résistance au changement : il est possible que certains membres de l'entreprise soient réticents à l'idée de travailler avec un PMO et qu'ils aient du mal à s'adapter aux nouvelles méthodes de travail.",
+          "Manque d'outils adaptés : \"pour qui possède un marteau tout ressemble à un clou\".",
+          "Problèmes de communication : il est possible que les différents membres de l'entreprise ne soient pas sur la même longueur d'onde en ce qui concerne les objectifs et les responsabilités du PMO, ce qui peut entraîner des malentendus et des difficultés à travailler en collaboration.",
+          "Manque de soutien : il est possible que le PMO ne bénéficie pas du soutien nécessaire de la part de la direction, ce qui peut limiter son efficacité et sa capacité à remplir ses fonctions de manière adéquate.",
+          "Le manque d'exemplarité : si votre Codir ne donne pas l'exemple pas la peine d'attendre des métiers, PMO et chef de projet de compenser… Par un phénomène de mimétisme hiérarchique, chacun s'adaptera à la \"norme\", bonne et mauvaise ^^"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour éviter ces difficultés, il est important de planifier soigneusement la mise en place du PMO et de communiquer clairement avec tous les membres de l'entreprise pour leur expliquer le rôle et les responsabilités du PMO, ainsi que les avantages qu'il peut apporter à l'entreprise."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelle-est-sa-meilleure-position-pour-agir",
+        "text": "Quelle est sa meilleure position pour agir ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ebe10df711c3525a20fd_impact%20-%20pmo.jpg",
+        "alt": "Posture de PMO",
+        "caption": "Une feuille de route seule ne suffit pas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il y a plusieurs éléments à considérer pour identifier la position dans laquelle intégrer le PMO dans l'objectif d'en obtenir le meilleur résultat :"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "lentite-avec-la-plus-grande-maturite-projet-dans-lentreprise",
+        "text": "L'entité avec la plus grande maturité projet dans l'entreprise :"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif est pour le PMO d'être dans une position où il va pouvoir agir assez rapidement. Il aura besoin de concentrer son énergie dans le développement ou la restructuration des opérations projets et de la gouvernance et pouvoir s'imprégner de la direction stratégique donnée à ses actions par le top management. S'il passe trop de temps à mettre à niveau ou à convertir l'équipe dans laquelle il travaille, son énergie et ses résultats risquent fortement d'en pâtir."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'idéal ici est que le PMO puisse évoluer dans l'entité de l'entreprise la plus mature en conduite de projet et qui partage la vision de la structuration à venir."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "entite-dinfluence-et-de-bienveillance",
+        "text": "Entité d'influence et de bienveillance :"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'autre aspect, presque plus important que le point précédent, sera que le PMO puisse agir et avoir le soutien depuis l'entité qui à la dimension la plus transverse dans l'entreprise, et qui est la plus appréciée par les collaborateurs de l'entreprise et les autres services. S'il est rattaché à des personnalités qui ont de l'influence et qui sont appréciés alors cela facilitera la diffusion d'une nouvelle culture et évitera les freins rencontrés par le PMO, ainsi que les potentielles guerres d'ego dans les services."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "proximite-avec-le-codircomex",
+        "text": "Proximité avec le Codir/Comex"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, un des rôles clés du PMO est de pouvoir obtenir des décisions rapides pour les projets, de la part des membres du Codir/Comex, il doit être en mesure de leur transmettre toutes les informations nécessaires permettant la prise de ces décisions. Pour ce faire, il doit avoir une position proche de ces instances de décisions, comme avoir un N+1 membre du directoire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le bénéfice secondaire, et qu'étant rattaché à un membre de direction, cela anticipera également les potentiels freins projet liés à l'ego et la volonté de certains collaborateurs de vouloir briller aux dépens de l'objectif des projets ou de vouloir asseoir une quelconque autorité toxique."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-communiquer-et-mettre-le-pmo-dans-de-bonnes-conditions",
+        "text": "Comment communiquer et mettre le PMO dans de bonnes conditions ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ebf5302f85bde7130001_communication-airsaas.jpg",
+        "alt": "Communiquer sur le rôle de PMO",
+        "caption": "Avoir ou pas un plan de communication"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour communiquer efficacement sur le PMO et le mettre dans de bonnes conditions, voici quelques conseils :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Communiquez clairement sur le rôle et les responsabilités du PMO auprès de tous les membres de l'entreprise. Expliquez en quoi le PMO peut les aider dans leur travail et comment ils peuvent travailler en collaboration avec lui.",
+          "Faites une présentation du PMO lors d'une réunion de kick off pour informer tous les membres de l'entreprise des nouvelles méthodes de travail qui seront mises en place et leur expliquer comment elles vont leur faciliter la vie.",
+          "Donnez au PMO les outils lui permettant de bien travailler, de bien communiquer et interagir avec les parties prenantes pour qu'il puisse remplir ses fonctions de manière efficace. Cela peut inclure des outils de gouvernance projet, des logiciels, ou tout autre type de ressource qui lui sera utile."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-organiser-ou-reorganiser-la-gouvernance-des-projets",
+        "text": "Comment organiser ou réorganiser la gouvernance des projets ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ec094e476ab27e893b84_gouvernance%20projet.jpg",
+        "alt": "Gouvernance projet / PMO",
+        "caption": "Les étapes clés d'une gouvernance"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gouvernance des projets est un sujet qui peut être délicat, surtout quand elle est réorganisée à la suite de l'arrivée d'un PMO. On souhaite mettre en place une gouvernance efficace et adaptée qui facilitera la conduite des projets, le suivi global et la prise de décision, pas à déclencher des guerres d'ego ou d'amplifier la résistance aux changements."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour organiser ou réorganiser la gouvernance des projets dans l'entreprise, pas la peine de sortir major du project management institute :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Assurez-vous du fait que la stratégie de l'organisation existe bien et qu'elle est partagée ! Donner du sens : Il ne suffit pas d'un plan stratégique tous les 5 ans, il faut le faire vivre !",
+          "Ensuite, descendez d'un niveau jusqu'aux grands programmes identifiés. Le sont-ils ? Car oui… avant même de vouloir améliorer la gouvernance il faut vérifier que chacun sait \"où on va collectivement ?\"",
+          "Ensuite, mettez-vous d'accord sur des cycles de priorisation au regard des cycles budgétaires en place.",
+          "Enfin, revenez aux fondamentaux humains. Une bonne gouvernance projet restera toujours d'avoir un sponsor, un chef de projet, un référent métier vraiment disponible. Sans oublier la création de nouveaux rituels clés de synchronisation et communications, réguliers et respectés !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Après seulement, la question des outils sera la dernière clé. Oui, l'assistance à la gouvernance est un \"must have\". Et oui, chaque outil embarque avec lui une philosophie. Favoriser un management par l'engagement, les jalons et les décisions. <strong>Airsaas</strong> a été spécialement conçu dans ce sens."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "ne-sous-estimez-pas-limportance-des-quick-wins",
+        "text": "Ne sous-estimez pas l'importance des \"quick wins\""
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ec7d14d852f41c6b2de3_quick%20win.jpg",
+        "alt": "Quick wins PMO",
+        "caption": "La gestion de projets est un art !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les quick-wins sont des actions rapides et faciles à mettre en place qui permettent d'obtenir rapidement des résultats positifs et visibles. Ils sont indispensables lorsqu'on crée un nouveau poste, particulièrement de PMO, qui est souvent un rôle plus méconnu (quand il est nouveau) et source de résistance au changement quand mal onboardé dans l'entreprise. Les quick-wins permettent de montrer rapidement sa valeur ajoutée et de créer de la confiance et de l'engagement sur son action auprès de ses collègues et de la direction."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est important de trouver des quick-wins qui sont en lien avec les objectifs de l'entreprise et qui peuvent être réalisées rapidement, sans nécessiter des ressources importantes. Cela peut être, par exemple, la mise en place de processus de travail plus efficaces, la résolution de problèmes qui ont été identifiés comme des freins à la performance des projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il ne faut bien évidemment pas se concentrer que sur les quick-wins dans les premiers temps de prise de poste, il faudra en parallèle qu'il mène des actions de fond pour mettre en place la démarche projet et les projets stratégiques dont les résultats ne seront visibles qu'à plus moyens termes."
+      },
+      {
+        "type": "paragraph",
+        "html": "En revanche, soutenir le PMO dans la résolution de quick-wins permettra de donner du crédit et du poids à son action et ainsi faciliter la confiance et l'engagement des collaborateurs dans la démarche."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "type": "blog",
+  "slug": "la-revolution-numerique-au-sein-du-secteur-de-lindustrie-industrie-4-0",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "La révolution numérique au sein du secteur de l'industrie : Industrie 4.0",
+      "h1": "La révolution numérique au sein du secteur de l'industrie : Industrie 4.0",
+      "description": "Découvrez comment les DSI accompagnent la transformation vers l'industrie 4.0 : supply chain, maintenance prédictive, cybersécurité, best of breed et hypercroissance.",
+      "author": {
+        "name": "Le Blog AirSaas",
+        "category": "Gestion de projets"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f39029eb74964f0b9f547b_Project%20image%20copy-min.jpg",
+        "alt": "La révolution numérique au sein du secteur de l'industrie : Industrie 4.0"
+      }
+    },
+    "toc": [
+      {
+        "label": "La supply chain débute avec les fournisseurs : comment la DSI accompagne le changement vers l'industrie 4.0?",
+        "href": "#la-supply-chain-debute-avec-les-fournisseurs-comment-la-dsi-accompagne-le-changement-vers-lindustrie-40"
+      },
+      {
+        "label": "30 ans pour optimiser la supply chain : un processus long et fastidieux",
+        "href": "#30-ans-pour-optimiser-la-supply-chain-un-processus-long-et-fastidieux"
+      },
+      {
+        "label": "Le défi de construire sa propre chaîne de production dans l'industrie 4.0",
+        "href": "#le-defi-de-construire-sa-propre-chaine-de-production-dans-lindustrie-40"
+      },
+      {
+        "label": "Le best of breed tend à s'imposer face au modèle monolithe",
+        "href": "#le-best-of-breed-tend-a-simposer-face-au-modele-monolithe"
+      },
+      {
+        "label": "Quand le marketing et l'IT travaille ensemble pour concevoir une solution",
+        "href": "#quand-le-marketing-et-lit-travaille-ensemble-pour-concevoir-une-solution"
+      },
+      {
+        "label": "La maintenance connectée pour prévenir les pannes machines dans les lignes de production",
+        "href": "#la-maintenance-connectee-pour-prevenir-les-pannes-machines-dans-les-lignes-de-production"
+      },
+      {
+        "label": "L'enjeu cybersécurité dans l'industrie 4.0 : comment rebondir après avoir subi une attaque massive ?",
+        "href": "#lenjeu-cybersecurite-dans-lindustrie-40-comment-rebondir-apres-avoir-subi-une-attaque-massive"
+      },
+      {
+        "label": "Hypercroissance : d'une PME à une ETI industrielle",
+        "href": "#hypercroissance-dune-pme-a-une-eti-industrielle"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-supply-chain-debute-avec-les-fournisseurs-comment-la-dsi-accompagne-le-changement-vers-lindustrie-40",
+        "text": "La supply chain débute avec les fournisseurs : comment la DSI accompagne le changement vers l'industrie 4.0?"
+      },
+      {
+        "type": "quote",
+        "text": "Au vu de notre positionnement dans la chaîne de valeur, la DSI est clairement au centre de la relation de l'entreprise avec les fournisseurs et les clients pour résoudre leurs problèmes, améliorer les processus, et leur offrir une expérience simplifiée.",
+        "author": "Olivier Fiquet dans l'épisode \"Quantifier et qualifier la performance de la supply chain grâce à l'IT\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec la pandémie de Covid-19 et la Guerre en Ukraine, la tension au sein de la supply chain est monté d'un cran, que ce soit du côté des fournisseurs. Dans ce premier podcast, Olivier Fiquet revient sur la relation qu'il entretient, en tant que DSI, avec ses fournisseurs. L'entreprise pour laquelle il travaille est en étroite relation avec des milliers de fournisseurs qui ont des maturités technologiques très différentes. Si certaines ont d'ores et déjà enclenché leur transformation, ce n'est pas forcément le cas pour d'autres qui ont besoin d'être accompagnées. Découvrons quelles techniques Olivier Fiquet qu'il a mise en œuvre pour réduire au maximum <a href=\"https://www.airsaas.io/podcast-cio-revolution/quantifier-et-qualifier-la-performance-de-la-supply-chain-grace-a-lit-olivier-fiquet\">la tension de la supply chain</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Face au manque de référentiel et de maturité de ce premier maillon de la supply chain, il est intéressant de voir que la DSI d'un groupe a la volonté d'aider ses fournisseurs à faire des choix technologiques ou à utiliser de bonnes plateformes. Pour tenir les promesses clients en termes de coûts et de délais, Olivier Fiquet et ses équipes souhaitent obtenir <strong>le plus d'informations possibles autour de la réception des matières premières</strong>. Sans avoir une supply chain numérisée, cela n'est pas possible."
+      },
+      {
+        "type": "paragraph",
+        "html": "À titre d'exemple, Olivier Fiquet présente son projet : avec l'aide de ses équipes, celui-ci a mis en place un outil spécifique et adapté pour ses fournisseurs. Cette solution a pour but de relancer ces derniers à l'aide de notifications et de mails afin qu'ils puissent envoyer à temps toutes les informations nécessaires quant à l'arrivée des matières premières. Grâce à l'envoi d'une notification au bon moment, les fournisseurs sont informés et peuvent tenir les délais."
+      },
+      {
+        "type": "paragraph",
+        "html": "En parallèle, <strong>l'enjeu au niveau de la donnée est très important</strong>. Par moments, les métiers ou les fournisseurs n'obtiennent pas les données nécessaires à temps ce qui brise la supply chain. Dans d'autres situations, elle se retrouve avec un très grand nombre d'informations pas forcément structurées. La difficulté réside dans la sélection et la classification de la donnée, de bien comprendre ce qui est de l'ordre de l'urgent ou de l'important pour que la supply chain soit performante. La relation entre les métiers et les fournisseurs est un pilier pour le passage vers <a href=\"https://www.airsaas.io/fr/secteur/industrie-transformation-digitale\">l'industrie 4.0</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "30-ans-pour-optimiser-la-supply-chain-un-processus-long-et-fastidieux",
+        "text": "30 ans pour optimiser la supply chain : un processus long et fastidieux"
+      },
+      {
+        "type": "quote",
+        "text": "Pendant des années, nous avons travaillé sur l'infra-logistique de nos lignes de fabrication afin de la simplifier, de l'optimiser, notamment grâce à l'arrivée de l'automatisation et des machines. [...] Le système industriel que l'entreprise possède aujourd'hui est l'aboutissement de projets ayant commencé il y a plus de 25 ans.",
+        "author": "Daniel Freyd dans l'épisode \"La DSI au centre de chaque étape de la supply chain\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Daniel Freyd revient sur les trente années où son entreprise a été en constante transformation. Depuis son arrivée, il y maintenant vingt ans, il a énormément travaillé, lui et toutes ses équipes afin de faire évoluer la <a href=\"https://www.airsaas.io/podcast-cio-revolution/la-dsi-au-centre-de-chaque-etape-de-la-supply-chain-daniel-freyd\">supply chain</a>. De la modélisation de l'aménagement des pièces à vivre, jusqu'à la pose des meubles, chaque maillon de la supply chain a été accompagné par la DSI :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Enregistrement de la commande en magasin</strong> : un concepteur-vendeur discute avec le client de l'ensemble des produits que ces derniers souhaitent acheter.",
+          "Envoi de la commande aux fournisseurs : la DSI envoie de manière automatiser des prévisions sur la quantité de matières premières souhaitée par l'entreprise.",
+          "<strong>Établissement du capacité planning et du capacity machine</strong> : avec plusieurs milliers de meubles envoyés chaque jour, des outils mis au point par la DSI permettent de vérifier l'ensemble des disponibilités au niveau de la main-d'œuvre, des outils de construction, des lieux de construction, etc. Le tout en respectant à la lettre la demande des clients.",
+          "<strong>La maintenance des machines</strong> : la DSI a pour objectif d'éviter les pannes insoutenables (une panne de plus de deux heures a des conséquences lourdes sur le business).",
+          "<strong>Fabrication des meubles et contrôle qualité</strong> : des outils ont été conçus en interne (grâce à l'IA et à la vision par ordinateur) afin de contrôler chaque meuble au plus vite.",
+          "<strong>Envoi, livraison et pose</strong> : la DSI intervient une dernière fois avec ses partenaires logistiques qu'elle accompagne également."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus, selon les périodes de l'année, la supply chain et la chaîne de production sont plus ou moins sollicitées. Avec les autres directions métiers, la DSI prend le temps de trouver des solutions, que ce soit au niveau des ressources humaines (recrutement des opérateurs, formation adaptée, gestion de la main-d'œuvre, etc.), mais aussi au niveau des fournisseurs (prendre également en compte leur calendrier) et de la data (prise de commande, confirmation, suivi)."
+      },
+      {
+        "type": "paragraph",
+        "html": "On voit clairement toute la difficulté et les nombreux paramètres qu'a dû prendre en compte l'entreprise afin d'optimiser la supply chain. Il est impressionnant de voir à quel point que le système d'information est imbriqué dans l'ensemble des étapes de la supply chain pour apporter un maximum d'informations."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-defi-de-construire-sa-propre-chaine-de-production-dans-lindustrie-40",
+        "text": "Le défi de construire sa propre chaîne de production dans l'industrie 4.0"
+      },
+      {
+        "type": "quote",
+        "text": "A Fuji Electric France, on a conçu nous même notre chaîne de production, qui est différente de la maison mère située au Japon. C'est un véritable succès collectif car des bancs techniques ont été conçus il y a maintenant vingt ans et continuent de fonctionner aujourd'hui.",
+        "author": "Pierre Duriez dans l'épisode \"Une DSI indépendante des choix de la société mère : l'exemple de Fuji Electric\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Le DSI de Fuji Electric France, Pierre Duriez, nous explique comment sa filiale a réussi à se détacher de la <a href=\"https://www.airsaas.io/podcast-cio-revolution/une-dsi-independante-des-choix-de-la-societe-mere-lexemple-de-fuji-electric-pierre-duriez\">chaîne de production</a> de la société mère en mettant en place sa propre chaîne de production. La branche française de cette entreprise a décidé de faire appel à la DSI pour y parvenir. Les équipes de Pierre Duriez ont porté le lead dans la structuration de l'équipe projet :"
+      },
+      {
+        "type": "paragraph",
+        "html": "Premièrement, il y a eu <strong>un travail autour de l'utilisation de briques pouvant communiquer les unes avec les autres</strong>. L'objectif est d'apporter une aide aux différents business units travaillant dans la chaîne de production dans leurs tâches du quotidien. Pour choisir ces solutions, la DSI est passée par une <a href=\"https://www.airsaas.io/fr/innovation-veille-technologique\">veille technologique</a> active, s'appuyant sur de vraies expériences et pas uniquement sur les présentations que peuvent faire les éditeurs. Ils ont notamment testé plusieurs solutions afin de les comparer grâce à des proof of concept et sont allés au contact d'entreprises qui exploitaient des solutions qui les intéressaient. Au lieu d'avoir une solution tout-en-un beaucoup plus complexe à manipuler, il se trouve avec un \"SI en légo\" dont les briques sont connectées entre elles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Deuxièmement, il s'est intéressé à <strong>la collaboration qui existe entre les différentes entités et ces différentes briques métiers</strong>. Dans les deux collaborations, l'enjeu principal est le transfert (envoi et réception) de la data et de l'information. En travaillant autour des flux de données, la DSI a fait en sorte que chaque entité puisse avoir facilement accès aux données qui la concernent. En maîtrisant la donnée, l'entreprise a aussi la possibilité de tracer l'ensemble des faits et gestes de chaque maillon de la chaîne de production. Cela permet d'avoir accès à des reportings ou des tableaux de bords détaillés et donc, de favoriser la prise de décision pour améliorer la performance de la chaîne."
+      },
+      {
+        "type": "paragraph",
+        "html": "Troisièmement, la DSI s'est penchée sur la question suivante : <strong>comment prioriser les projets d'amélioration en continu ?</strong> Selon l'importance des projets, ces derniers sont priorisés selon le temps passé à leur réalisation. La projection à très court terme est imposée pour les tâches du quotidien ou pour les problèmes qu'il faut très vite résoudre. La projection sur le moyen terme permet de se laisser un peu plus de temps pour améliorer ou renouveler l'existant. Enfin, la projection sur le long terme permet de lancer des projets structurants (nouvelles fonctionnalités, nouvelles briques, etc.)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-best-of-breed-tend-a-simposer-face-au-modele-monolithe",
+        "text": "Le best of breed tend à s'imposer face au modèle monolithe"
+      },
+      {
+        "type": "quote",
+        "text": "Il y a un très fort besoin d'agilité dans cette entreprise. Il peut exister des périodes creuses où on ne va pas spécialement avoir besoin de nous, mais à tout moment, un projet peut très vite arriver. [...] Maintenant, est-ce que pour le bien de l'entreprise, il faut aller vers du monolithe ou peaufiner, aller plus en profondeur dans le modèle best of breed ?",
+        "author": "Serge Maurey dans l'épisode \"Le modèle best of breed contre le modèle monolithe pour un maximum d'agilité\""
+      },
+      {
+        "type": "paragraph",
+        "html": "DSI du groupe CMR, Serge Maurey s'est longtemps posé la même question : doit-il travailler pour structurer son SI en un seul bloc ou bien que celui-ci est composé de nombreuses briques technologiques ? Plutôt que d'adopter une suite logicielle \"tout-en-un\" provenant d'un seul éditeur, il se questionne autour des briques qu'il peut utiliser autour d'un ERP centralisé."
+      },
+      {
+        "type": "paragraph",
+        "html": "Revenons sur l'exemple présenté par Serge Maurey : à son arrivée au sein de cette entreprise, le DSI de la firme s'appuyait sur un ERP central gérant une bonne partie des besoins métiers mais pas tous. En plus de cela, certaines solutions périphériques à cet ERP étaient déjà utilisées par les métiers. En prenant le temps d'analyser son socle SI, Serge Maurey a pris en compte que le SI était déjà sous la forme d'un modèle <a href=\"https://www.airsaas.io/podcast-cio-revolution/le-modele-best-of-breed-contre-le-modele-monolithe-pour-un-maximum-dagilite-serge-maurey\">best of breed</a>. Il a impliqué ses équipes afin de le parfaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Deux changements significatifs permettant la mise en place d'un modèle best of breed plus prononcé, remettant en question le périmètre de l'ERP :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "De plus en plus de <strong>solutions SaaS</strong>, spécifiques à certains besoins, sont développées. Ces outils sont très intéressants pour les métiers car ils tentent de répondre à leurs attentes globales et possèdent de très bonnes API.",
+          "<strong>Les outils d'intégration d'API</strong> se sont également améliorés, ce qui permet d'intégrer toutes les solutions souhaitées bien plus facilement qu'avant. Il est plus facile d'interconnecter les solutions SaaS et gérer la synchronisation."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, on voit que la mise en place d'un modèle monolithe tend à disparaître au profit du modèle best of breed. La véritable interrogation étant de définir le champ d'action de l'ERP et de savoir si l'on propose de plus en plus de briques pour les directions métiers. Cette question semble guider les DSI pour qu'une entreprise industrielle tende vers l'industrie 4.0"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quand-le-marketing-et-lit-travaille-ensemble-pour-concevoir-une-solution",
+        "text": "Quand le marketing et l'IT travaille ensemble pour concevoir une solution"
+      },
+      {
+        "type": "quote",
+        "text": "On a tout fait pour que Thibault (directeur du marketing) n'ait pas l'étiquette du Product Owner alors qu'il n'avait pas les compétences nécéssaires pour l'être, même si ironiquement, il l'a indirectement été : c'est lui qui porte le métier, qui sait ce qui se passe sur le terrain et qui a donc tranché quand il fallait prendre des décisions importantes.",
+        "author": "Jean-Stève Hadjistavrou accompagné de Thibault Cognon dans l'épisode \"Quand la DSI et le marketing s'allient pour créer un service dans l'industrie\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Voici un exemple concret de transformation vers une industrie 4.0 : quand le métier et la DSI s'associent et collaborent pour concevoir un service ensemble, pour ses clients. C'est le cas de l'entreprise Sames Kremlin avec la direction marketing & innovation de Thibault Cognon. Ce dernier a sollicité la direction des systèmes d'information de Jean-Stève Hadjistavrou afin d'automatiser le pilotage des robots industriels."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le double objectif de ce projet est le suivant : <strong>remédier au manque d'effectif qualifié</strong> et éviter de perdre du temps dans <strong>la formation de nouveaux opérateurs</strong>. Ainsi, en travaillant main dans la main, <a href=\"https://www.airsaas.io/podcast-cio-revolution/quand-la-dsi-et-le-marketing-sallient-pour-creer-un-service-dans-lindustrie-\">le marketing et la DSI</a> travaillent pour le business."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le cadre de cette relation, chaque direction a apporté sa pierre à l'édifice et a accompagné l'autre afin que chacun puisse mettre ses compétences au profit du projet. Le marketing a apporté un maximum d'information à la DSI afin de faciliter son travail en étant présent dans les usines. Cette présence a permis à la direction marketing de prendre les décisions quant à l'avancement du projet. D'un autre côté, la DSI s'est focalisée sur tout l'aspect technologique du projet. Les deux entités ont fait équipe en se posant toujours la même question : qu'est-ce que nous souhaitons obtenir à la fin ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les deux entités ont posé ensemble les contraintes techniques et juridiques liées au projet afin d'avancer en connaissance de cause. Le fait d'associer la DSI et la direction métier afin d'atteindre un même but a permis de faire naître un nouveau service client."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-maintenance-connectee-pour-prevenir-les-pannes-machines-dans-les-lignes-de-production",
+        "text": "La maintenance connectée pour prévenir les pannes machines dans les lignes de production"
+      },
+      {
+        "type": "quote",
+        "text": "La maintenance prédictive, l'idée, c'est d'arriver à anticiper des pannes de machines dans les lignes de production, de manière à éviter un arrêt brutal. Ainsi, il est possible de réparer la machine pour que la panne ne se produise jamais. C'est mon tout nouveau défi.",
+        "author": "Alexis de Nervaux dans l'épisode \"La maintenance prédictive dans l'industrie 4.0\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Alexis de Nervaux, déjà intervenu dans le cadre du podcast CIO Révolution (ep.16 - \"Avoir la double casquette CIO & CDO\") revient dans cette saison dédié à la révolution numérique dans l'industrie. Celui-ci évoque l'un de ses derniers projets qu'il a en tête depuis maintenant plusieurs mois. Ce projet s'appuie sur le constant suivant : éviter la moindre panne machine provoquant des retards dans la production. Par effet boule de neige, les délais ne sont pas respectés, ce qui peut affecter l'image de marque."
+      },
+      {
+        "type": "paragraph",
+        "html": "La <a href=\"https://www.airsaas.io/podcast-cio-revolution/la-maintenance-predictive-dans-lindustrie-alexis-de-nervaux\">maintenance connectée</a> consiste à <strong>anticiper les défaillances machines</strong>. En allant au-devant d'une panne ou d'un dysfonctionnement, il est possible d'engager les réparations nécessaires afin qu'elles ne produisent jamais. Bien choisies, les solutions de maintenance connectée constitue une véritable aide pour la prise de décision dans des situations critiques. Bien entendu, pour que cela puisse fonctionner, il faut que la solution choisie soit la plus performante possible, alors même que le parc de machine est très hétérogène. Alexis de Nervaux s'est lancé dans un processus strict de sélection :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Première étape : <strong>analyser le marché des solutions de maintenance connectée</strong> pour comprendre leur fonctionnement, comprendre les différentes techniques et méthodes utilisées, faire une liste des fonctionnalités, voir comment elles peuvent être mises en place à petite, moyenne ou grande échelle, voir si ces solutions sont faciles d'utilisation, etc.",
+          "Seconde étape : <strong>choisir un petit panel de solutions à tester au sein d'une usine</strong> choisie au préalable, c'est le projet \"smart maintenance\". En choisissant une seule usine (en l'occurrence une où les pannes peuvent être fréquentes), Alexis de Nervaux a testé trois solutions différentes. Il a pu se rendre rapidement compte que la première ne convenait absolument pas, que la seconde n'était pas adaptée aux besoins de l'entreprise, et que la troisième était celle qu'il allait privilégier sur le long terme.",
+          "Troisième étape : tenter d'<strong>établir un périmètre plus important</strong> pour déployer la solution à plus grand échelle en identifiant les usines pour lesquelles, la maintenance prédictive serait la plus performante."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ironiquement, puisque ces tests-là sont concluants tout en apportant un éclairage sur cette technologie aux usines et aux opérateurs, certaines usines ont voulu s'emparer de ce projet beaucoup plus rapidement que ce qu'avait prévu Alexis de Nervaux. Par moments, il est difficile d'impliquer les métiers dans certains projets, mais quand ces projets fonctionnent et ont de l'intérêt pour les métiers, ces derniers prennent le temps de s'y intéresser. Parfois, il peut y avoir un emballement dans le déploiement de la solution, les métiers voulant absolument acquérir l'outil. C'est à la DSI de freiner le jeu et de faire en sorte que le déploiement se passe pour le mieux."
+      },
+      {
+        "type": "paragraph",
+        "html": "La maintenance connectée et plus largement les outils d'intelligence artificielle ou liées à l'internet des objets sont des exemples concrets prouvant que l'innovation peut aider les entreprises à se transformer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "lenjeu-cybersecurite-dans-lindustrie-40-comment-rebondir-apres-avoir-subi-une-attaque-massive",
+        "text": "L'enjeu cybersécurité dans l'industrie 4.0 : comment rebondir après avoir subi une attaque massive ?"
+      },
+      {
+        "type": "quote",
+        "text": "On est passé d'une société qui avait l'habitude de mettre gérer son budget au cas par cas, qui n'a pas pour habitude de consacrer une grosse partie de son chiffre d'affaire à l'IT, vers une entreprise qui a un positionnement quasi digital, dans lequel le budget IT est bien supérieur et tourné vers d'autres sujets comme la sécurité.",
+        "author": "Sylvain Coquio dans l'épisode \"La cybersécurité dans le monde de l'industrie\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Le 21 février 2021, l'entreprise Manutan subit de plein fouet le ransomware DoppelPaymer. Sylvain Coquio, DSI du groupe Manutan est revenu sur la manière dont l'entreprise a rebondi après avoir subi une telle attaque. Après une longue restructuration au niveau de sa <a href=\"https://www.airsaas.io/podcast-cio-revolution/la-cybersecurite-dans-le-monde-de-lindustrie-sylvain-coquio\">cybersécurité</a>, Manutan a su se relever et rebondir en s'appuyant sur quatre piliers fondamentaux :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>La concrète refonte du SI.</strong> Dès que celui-ci a été attaque, l'ensemble de l'entreprise ne fonctionnait plus. Toute l'entreprise s'est aperçue de l'importance du système d'information. Dans le cadre où le système d'information d'une entreprise est obsolète, vieillissant et pas ordonnée, il y a de grandes chances que celui-ci soit très vulnérable et une proie facile pour les hackeurs. Le legacy constitue une porte d'entrée mal verrouillée pour ces personnes malveillantes. Sylvain Coquio s'est donc attelé à reprendre en main le legacy et à proposer de nouvelles solutions indépendantes les unes des autres.",
+          "<strong>Le recrutement de nouvelles compétences.</strong> Lors de chaque trimestre, Sylvain Coquio fait le point en faisant appel à des spécialistes de la cybersécurité afin de comprendre, connaître et assimiler les tendances et nouveaux risques que les entreprises peuvent encourir. De plus, une nouvelle direction a été créée : la direction Marketing Business Technology (MBT), présente au Comex dans le but de créer une synergie entre les équipes marketing, les équipes d'expérience client, l'e-commerce, la data, le master data management et l'IT.",
+          "<strong>Le changement du paradigme budgétaire.</strong> L'entreprise a progressivement augmenté son budget IT afin de se tourner vers un positionnement plus digital. Cela génère d'immenses attentes, notamment auprès des directions métiers qui sont impatientes d'obtenir de nouvelles composantes. Sylvain Coquio doit aller jongler entre les projets sur le long terme (comme la refonte de la SI), la proposition de solutions sur le court terme pour assouvir les besoins des business units.",
+          "<strong>La sensibilisation des collaborateurs.</strong> Manutan a lancé de grandes campagnes de formation afin de sensibiliser chaque employé autour des gestes et des notions basiques pour éviter tout nouveau risque d'attaque. Chaque nouvelle recrue passe par cette formation obligatoire et doit répondre à un test validant les acquis qu'il doit maîtriser. Si l'évaluation n'est pas réussie, celui-ci doit suivre à nouveau la formation."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à un travail concret mené autour de ces quatre piliers, Manutan a réussi à se relever après avoir subi une attaque de grande envergure. Involontairement, cette cyberattaque a également prouvé que toutes les entités de l'entreprise étaient capable de collaborer et de se serrer les coudes pour résoudre des problèmes tout en transformant l'entreprise. La cybersécurité est un enjeu primordial pour l'industrie 4.0."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "hypercroissance-dune-pme-a-une-eti-industrielle",
+        "text": "Hypercroissance : d'une PME à une ETI industrielle"
+      },
+      {
+        "type": "quote",
+        "text": "Pour moi, lorsqu'une entreprise comme une PME devient une ETI, c'est à ce moment-là qu'elle se rend compte qu'elle n'a plus que jamais besoin de la DSI. [...] Aujourd'hui, nos principaux clients sont d'immenses groupes. Ils demandent logiquement à ce qu'on ait des interconnexions avec eux du même niveau que les leurs. Pour être capable de se mettre à niveau, on est obligé de surperformer.",
+        "author": "Emmanuel Artigue dans l'épisode \"Les enjeux SI d'une PME qui se transforme en ETI\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans ce dernier podcast, Emmanuel Artigue, DSI de Toupret, évoque les enjeux SI d'une PME qui se mue en ETI. Il s'agit d'un moment clé de la vie d'une entreprise où l'IT a totalement son rôle à jouer. Grâce à son déploiement à l'international, l'entreprise est en croissance constante depuis près de 20 ans et a réussi à franchir le seuil des 250 collaborateurs depuis peu."
+      },
+      {
+        "type": "paragraph",
+        "html": "La direction IT d'Emmanuel Artigue tente d'accompagner les filiales de l'entreprise dans leur stratégie de transformation tout en gérant leur hypercroissance. Ces filiales sont semi-intégrées : si certaines d'entre elles ont pris le parti d'intégrer l'ERP de la maison mère, d'autres ont fait le choix d'être indépendantes de par leur taille ou de par la spécificité du marché dans lequel elles sont. Pour essayer de \"lutter\" contre l'élargissement du shadow IT, Emmanuel Artigue a préféré <strong>s'adapter, vivre avec, et accompagner</strong> ces entités afin de leur fournir un maximum d'agilité."
+      },
+      {
+        "type": "paragraph",
+        "html": "Afin d'accélérer la transformation de l'entreprise, il a été obligé <strong>d'externaliser certaines compétences</strong>, afin de passer de 90 % des compétences en interne à un équilibre parfait entre compétences externes et interne. À terme, il souhaite que près de deux tiers des compétences soient externalisés afin que les équipes en interne puissent se focaliser sur des projets structurants et en lien avec la croissance de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour Emmanuel Artigue, le DSI accompagne ce passage de <a href=\"https://www.airsaas.io/podcast-cio-revolution/les-enjeux-si-dune-pme-qui-se-transforme-en-eti-emmanuel-artigue\">PME à ETI</a> grâce <strong>aux multiples casquettes</strong> du rôle qu'il endosse. Il concilie les profils du technologue (en tant que spécialiste de l'IT), du stratège (celui qui va continuellement se demander comment l'IT va apporter à l'entreprise) et de l'opérationnel (pour faire en sorte faire évoluer la culture d'entreprise vers la transformation). C'est avec un DSI pilotant la transformation grâce aux différentes casquettes qu'il possède que les entreprises transitent vers l'industrie 4.0."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

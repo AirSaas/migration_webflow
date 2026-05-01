@@ -1,0 +1,305 @@
+{
+  "type": "blog",
+  "slug": "comite-de-pilotage-definitions-et-incomprehensions",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comité de pilotage : définition(s) et incompréhension(s)",
+      "h1": "Comité de pilotage : définition(s) et incompréhension(s)",
+      "description": "Décryptage des 5 notions clés du comité de pilotage projet (Copil, jalons, chef de projet, key user, reporting) : théorie, pratique et incompréhensions courantes.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "30/6/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "30/6/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62bd74e32ad1dc0f5b32c5bd_copil-projet-defintion.jpg",
+        "alt": "Comité de pilotage : définition"
+      }
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Dans les entreprises <strong>tout le monde parle projet... mais personne ne parle de la même chose !</strong> Pire, on constate très souvent que les bases de la conduite de réunion de comité de pilotage ne sont pas maîtrisées. Idem pour les titres des missions, le nom des poste... Tout est galvaudé."
+      },
+      {
+        "type": "paragraph",
+        "html": "Que vous soyez dirigeants, DSI, directeur de la transformation, PMO, BRM, responsable de BU, PO, scrum master, développeur, chef de projet senior ou débutant, dans les lignes qui suivent, on vous a concocté une \"antisèche\" conceptuelle. L'idée : revenir sur ce qui se joue derrière les mots ou expressions clés régulièrement utilisés en comité de pilotage d'un projet."
+      },
+      {
+        "type": "quote",
+        "text": "Mal nommer les choses, c'est ajouter au malheur du monde.",
+        "author": "Albert Camus"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour faire court, deux problèmes sont à considérer dans le déroulement du projet : comprendre et être compris."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comprendre la portée réelle et symbolique de chaque mot-clé, pour comprendre de quoi on parle - et surtout saisir ce qui n'est pas dit.<br/>Puis, <strong>être compris, par ses pairs</strong> au sein du projet, et/ou par les parties prenantes du comité de pilotage moins \"acculturées\" au fonctionnement d'un projet technique."
+      },
+      {
+        "type": "paragraph",
+        "html": "On va démystifier 5 notions simples : celle de sponsor, de Copil, de jalons, de chef de projet, de key user et de reporting."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour chaque terme, on va s'intéresser à la théorie et à la pratique, aux principales erreurs et/ou incompréhensions. Enfin, on illustrera les sujets avec les avis de \"Pros de La Transfo.\" interviewés lors du Podcast CIO Révolution produit par AirSaas. Objectif valeur !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet article fait partie de la série <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases</a> qui recense l'essentiel des éléments simples et pragmatiques à connaitre sur le comité de pilotage projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d1789d30123fdecb8a4aad_62ea8af8debf3e01b90bcaaa_cbo-airsaas-fxdessinateur.jpeg",
+        "alt": "Chief bullshit officer FX Dessinateur"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Copil : 5 expressions clés pour mieux se comprendre"
+      },
+      {
+        "type": "paragraph",
+        "html": "Découvrez votre micro-kit de survie sémantique pour mieux se comprendre lors de votre prochain comité de pilotage."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les jalons : votre meilleur GPS"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/jalon-projet\">jalons du projet</a> sont semblables à des panneaux sur une route vous indiquant l'état d'avancement de votre trajet. Ils marquent la fin d'une étape et un point d'arrêt dans le processus de gestion de projet. Ils orientent le pilotage du Copil tel le GPS projet !"
+      },
+      {
+        "type": "paragraph",
+        "html": "En pratique, ces jalons sont ce qui rythme les projets. Ils permettent d'aligner les équipes sur les objectifs, et de découper les projets en plusieurs étapes clés. Point trop n'en faut ! En donner trop, c'est rendre illisible le suivi efficace."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "L'incompréhension courante autour des jalons"
+      },
+      {
+        "type": "paragraph",
+        "html": "On ne transforme pas une organisation en commençant par inviter les équipes à faire de la gestion de projet \"à la tache\". Le but est bien de structurer, communiquer et ensuite piloter un plan de transformation. Dans un pilotage du projet et un reporting, je partage l'état des jalons, pas des tâches !"
+      },
+      {
+        "type": "quote",
+        "text": "S'il y a la possibilité de découper un projet, il ne faut pas hésiter à le découper au maximum de manière à avoir plusieurs petits problèmes plutôt qu'un immense problème très complexe à résoudre. Les petits problèmes solubles à court terme nécessitent un livrable intermédiaire permettant de valider, de réfuter, de réajuster les objectifs et les gains.",
+        "author": "Thomas Vrignaud — CIO - CDO, Invité épisode 14 Podcast CIO Révolution"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Chef de projet : la fin du \"héros solitaire\""
+      },
+      {
+        "type": "paragraph",
+        "html": "En théorie, on présente fréquemment le chef de projet comme un Superman. Le pilote, <strong>chargé de mener le projet et de gérer son (bon) déroulement</strong>. D'animer une équipe transverse et éphémère. Le garant du respect du triangle \"Coûts-Qualité-Délai\" avec même une nouvelle passion : la <a href=\"https://www.airsaas.io/fr/gestion-de-projet/analyse-des-risques-projet\">gestion des risques</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "En pratique, la majorité des projets ne se passent pas comme cela, car la coopération ne se décrète pas ! Les chefs de projet vont chercher à influencer, à s'aligner avec le sponsor et le métier. Les relations humaines sont primordiales dans ce travail et rendent l'exercice très subtil. En étant situé hors hiérarchie classique, ce rôle transversal de management de projet est doublement délicat."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d1789d30123fdecb8a4aaa_62ea8b39bbc7827476664599_chef-deprojet-min.jpeg",
+        "alt": "Les assiettes tournantes ou la métaphore du chef de projet"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Deux erreurs et incompréhensions courantes autour du chef de projet"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Confondre chef de projet et chefferie de projet.</strong> Le terme de \"chef\" induit en effet beaucoup trop un exercice du pouvoir solitaire et non collaboratif. Mais c'est bien un groupe, une \"chefferie\" formée par le trio chef de projet technique / chef de projet métier / sponsor projet qui est en responsabilité du pilotage. Le \"co-management\" est dans l'ADN de la transformation digitale !",
+          "<strong>Confondre projet et programme.</strong> C'est peut-être le syndrome le plus néfaste pour votre comité de pilotage. La perte d'énergie qui résulte de cette méprise est colossale. On ne pilote pas la construction de plusieurs maisons en se focalisant sur des détails ! Ne pas regarder son portefeuille par le haut vous lancera dans une noyade assurée."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Je crois beaucoup à la dualité du pilotage car avoir une direction qui n'est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l'explicite, les rôles doivent concrètement être définis à l'avance et la confiance doit régner.",
+        "author": "Frédéric Riou — CIO - CDO, Invité épisode 29 Podcast CIO Révolution"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Comité de pilotage : attention aux fuites de responsabilités"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d1789e30123fdecb8a4ab7_62ea8b699d1225e5fdee5fd1_plan-action.jpeg",
+        "alt": "Image d'illustration COPIL - Source JMB @CyberJMB"
+      },
+      {
+        "type": "paragraph",
+        "html": "En théorie, le comité de pilotage serait <strong>une équipe dont</strong> <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-decider-en-copil\"><strong>le rôle est de décider.</strong></a> Un Copil désigne une réunion généralement constituée d'un membre de chaque métier impliqué dans le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "En pratique, les sujets d'arbitrage remontés en comité de pilotage sont complexes, et le temps disponible y est limité. Qui plus est on a rarement toutes les directions représentées à chaque Copil. On assiste parfois à un désengagement progressif, voire à une véritable fuite de responsabilité très problématique !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Deux erreurs et incompréhensions courantes"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Confondre Coproj et Copil</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "COPROJ : Micro = Répartitions des tâches"
+      },
+      {
+        "type": "paragraph",
+        "html": "COPIL : Macro = Arbitrages et décisions"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>La \"séparation\" des responsabilités</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Si chaque organe de pilotage à son rôle et ses redevabilités dans le déroulement du projet, l'équipe de projet et le comité de pilotage sont tous deux responsables de la réussite."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Fixez des normes élevées.</strong> Le comité de pilotage doit exiger des performances de l'équipe de projet tout en montrant simultanément où leur aide rendra cela possible. Exigez des informations claires, un dialogue ouvert, le respect des faits, ainsi que des attentes et des responsabilités écrites pour le comité de pilotage et l'équipe de projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Key user : le pire et le meilleur allié de la conduite du changement"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d1789e30123fdecb8a4acb_62ea8bcc7722a50875e65b97_jack-nicholson-no-min.gif",
+        "alt": "Gif Jack Nicholson NO",
+        "caption": "Quand tu demandes à un \"volontaire\" d'être key user du Copil sur le gros projet ERP à venir"
+      },
+      {
+        "type": "paragraph",
+        "html": "En théorie, <strong>l'utilisateur clé est le représentant des utilisateurs finaux.</strong> Il est l'un des mieux placé du comité de pilotage pour évaluer et innover sur la création de valeur apportée par un nouveau service."
+      },
+      {
+        "type": "paragraph",
+        "html": "En pratique, cette fonction requiert un subtil mélange de bonne vision terrain et de capacité à prendre du recul pour identifier les contournements possibles."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Incompréhensions et erreurs courantes autour du key user"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>L'utilisateur clé ne redescend pas l'information au groupe de personnes concernées.</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "On parle de key user - mais l'acception conforme serait plutôt : \"groupe de key users et son représentant\" !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est primordial que celui-ci ait à la fois suffisamment de leadership pour décider en séance et suffisamment d'intelligence pour savoir quand il ne doit plus décider seul pour retourner communiquer et consulter sa \"base\", pour des décisions avec une dimension plus politique."
+      },
+      {
+        "type": "quote",
+        "text": "La mise en place de comité de pilotage a aussi permis d'impliquer les Key Users de chaque métier, afin qu'ils puissent être le relais des bonnes pratiques transmises par la DSI : un rôle capital pour réussir à manager le changement !",
+        "author": "Olivier Perrin — CIO, Invité épisode 17 Podcast CIO Révolution"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du métier est primordial, et c'est une vraie charge, une vraie mission. On n'attribue parfois pas suffisamment de temps, de formation et de rémunération pour valoriser et \"engager\" durablement ce rôle très stratégique dans la conduite de projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Reporting : du flux continu, sinon rien"
+      },
+      {
+        "type": "paragraph",
+        "html": "En théorie, le PMO/chef de projet a comme rôle d'établir des <strong>tableaux de bord et</strong> <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\"><strong>reportings</strong></a> périodiques pour communiquer au comité de pilotage les grandes métriques relatives au projet. Idéalement, ils doivent être le plus synthétiques et visuels possible."
+      },
+      {
+        "type": "paragraph",
+        "html": "En pratique, il y passe des heures, voire des jours. Et il n'y a rien de plus décourageant que d'être invité à travailler sur un Excel géant une fois par mois lorsque l'on n'est pas la personne ayant passé des dizaines d'heures à le créer."
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé : l'usage d'une plateforme vous simplifiera la gouvernance (listing des décisions à prendre, vue Copil, etc.)"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d1789e30123fdecb8a4ac0_62bdfca88290d29985904cb5_report-flash.png",
+        "alt": "Capture d'écran Flash Report sur la plateforme AirSaas",
+        "caption": "Générez votre flash report en un clic et envoyez le de manière régulière aux différentes parties prenantes"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "La méprise courante autour du reporting en Copil projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Confondre reporting et tableau de bord !</strong> Un reporting complet inclut à la fois un tableau de bord et le compte rendu, les faits marquants, etc. Des chiffres et des faits."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Communiquer vers le comité de pilotage de façon continue favorise la transparence</strong> et la décision au sein des entreprises. Le comité de pilotage peut et doit avoir accès aux données du cadrage et de la mise en œuvre entre les réunions."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'utilisation de logiciels type PPM avec une interface suffisamment intuitive et un accès permanent permet de faciliter la collaboration entre les profils techniques et business."
+      },
+      {
+        "type": "quote",
+        "text": "Le suivi de l'exécution du plan de la transformation s'est vite complexifié. Les équipes ont passé trop de temps à faire du reporting. On a manqué d'outils de suivi de l'exécution pour vraiment se focaliser sur l'impact de ce qu'on cherchait à faire. Nos MVP ne se sont pas traduits en minimum viable product mais en maximum viable product.",
+        "author": "Patrick Valentin — CIO - CDO, Invité épisode 7 Podcast CIO Révolution"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bravo vous avez fait une mise à jour de ce qu'il faut bien saisir pour limiter la confusion. Une fois qu'on se comprend, cela ne sous-entend pas qu'on s'entend ! Il arrive en effet que les relations entre participants du comité soient tendues, voire agressives."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment gérer les personnalités difficiles ? Comment réagir en cas d'agressivité ? On a été puiser dans notre vécu, analyser l'état de l'art de la documentation, on a interrogé nos amis Pros de la Transfo., pour vous proposer 7 astuces qui vous faciliteront la vie de bureau. C'est par ici : <a href=\"/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage\">Comment gérer l'agressivité dans la réunion du comité de pilotage ?</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

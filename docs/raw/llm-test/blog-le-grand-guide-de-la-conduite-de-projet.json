@@ -1,0 +1,68 @@
+{
+  "type": "blog",
+  "slug": "le-grand-guide-de-la-conduite-de-projet",
+  "iteration": 3,
+  "outcome": "FAIL",
+  "errors": [
+    {
+      "type": "structure",
+      "detail": "blocks must be an array"
+    }
+  ],
+  "result": {
+    "meta": {
+      "title": "Le grand guide de la conduite de projet",
+      "h1": "Le grand guide de la conduite de projet",
+      "description": "Dossier grand format pour DSI/CIO, Directeurs des études, Chefs de projet et PMO : démarche projet, cadrage, budget, jalons, reporting, communication et pilotage moderne.",
+      "publishedDate": "10/5/2022",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "10/5/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea94cb5bd878297241d8d0_Project%20image%20(4)-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Comment mettre en place une démarche de projet dans votre entreprise ?",
+        "href": "#comment-mettre-en-place-une-demarche-de-projet-dans-votre-entreprise"
+      },
+      {
+        "label": "Comment faire un bon cadrage projet ?",
+        "href": "#comment-faire-un-bon-cadrage-projet"
+      },
+      {
+        "label": "Comment budgétiser un projet ?",
+        "href": "#comment-budgetiser-un-projet"
+      },
+      {
+        "label": "Comment organiser votre conduite de projet ?",
+        "href": "#comment-organiser-votre-conduite-de-projet"
+      },
+      {
+        "label": "4 réunions pour assurer le pilotage de vos projets au quotidien",
+        "href": "#4-reunions-pour-assurer-le-pilotage-de-vos-projets-au-quotidien"
+      },
+      {
+        "label": "Plan de communication projet : comment éviter l'échec ?",
+        "href": "#plan-de-communication-projet-comment-eviter-lechec"
+      },
+      {
+        "label": "Comment élaborer un reporting projet efficace ?",
+        "href": "#comment-elaborer-un-reporting-projet-efficace"
+      },
+      {
+        "label": "Tout savoir sur la fiche projet",
+        "href": "#tout-savoir-sur-la-fiche-projet"
+      },
+      {
+        "label": "Le pilotage de projet moderne",
+        "href": "#le-pilotage-de-projet-moderne"
+      }
+    ]
+  }
+}

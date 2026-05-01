@@ -1,0 +1,13 @@
+{
+  "type": "blog",
+  "slug": "copil-projet-ou-comite-de-pilotage-projet-les-bases",
+  "iteration": 1,
+  "outcome": "API_ERROR",
+  "errors": [
+    {
+      "type": "api-error",
+      "detail": "fetch failed"
+    }
+  ],
+  "result": null
+}

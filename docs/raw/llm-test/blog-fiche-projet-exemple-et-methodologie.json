@@ -1,0 +1,356 @@
+{
+  "type": "blog",
+  "slug": "fiche-projet-exemple-et-methodologie",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "blocks": [
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44be5_62f382435a05664617ad8c2e_6269623ae08e865e4c48f096_Project-page-setup%25252Bexecution-min.jpeg",
+        "alt": "Cadrage et exécution projet",
+        "caption": "Cadrage et exécution projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fiche de projet est un outil essentiel car elle <strong>définit</strong> avec précision<strong> toute l'organisation</strong> du projet ou d'une partie de ce dernier. C'est un livrable important car le chef de projet doit y lister toutes les phases, les étapes et les actions qui devront être accomplies dans la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet.</a> Lorsque vous passez en revue vos projets vous pouvez envoyer un <a href=\"https://www.airsaas.io/fr/solution/flash-report\">rapport flash</a> qui centralise les fiches projets actualisées aux différentes parties prenantes."
+      },
+      {
+        "type": "inline-cta",
+        "text": "Si vous voulez télécharger notre modèle de fiche projet c'est par ici :",
+        "label": "Télécharger ⇣",
+        "href": "https://hubs.ly/Q02NlZ8Q0"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qu'est-ce qu'une fiche de projet ou plan projet ?",
+        "id": "quest-ce-quune-fiche-de-projet-ou-plan-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est un peu la recette du projet. Certains diront \"<strong>la carte d'identité du ou des projets sur lesquels vous travaillez. </strong>Sans organisation ni planification, les équipes prennent des risques inutiles et mettent en danger l'atteinte des résultats. Les fiches projet sont des livrables dans lesquels figurent tous les \"ingrédients\" nécessaires. Elles servent à <strong>rendre les projets compréhensibles </strong>par toutes les <strong>parties prenantes</strong> et à mettre en avant les enjeux principaux. La fiche projet ne fait<strong> pas office de contrat</strong> mais <strong>apporte de la transparence</strong> entre un prestataire et son client, ou entre les parties prenantes au sein d'une même entreprise."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c16_62f3825c13ce5e53bf3f66b1_6269623ae08e86360848f068_Deal-min.jpeg",
+        "alt": "une équipe soudée"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quelles sont les questions auxquelles répond la fiche de projet ?",
+        "id": "quelles-sont-les-questions-auxquelles-repond-la-fiche-de-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Des informations essentielles doivent figurer dans vos fiches projet. Elles doivent permettre de répondre à certaines questions clé :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Quels sont les <strong>objectifs principaux</strong> du projet ?",
+          "<strong>Qui est le donneur d'ordre</strong> / qui exécute ? / avec le soutien de qui ?",
+          "Comment sera organisée la gestion de projet ?",
+          "Quelle est la <strong>fréquence d'envoi des livrables</strong> ?",
+          "De quelles <strong>ressources</strong> dispose-t-on ?",
+          "Quels sont <strong>les risques</strong> et<strong> les contraintes</strong> liées au projet ?"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44bfb_62f382b5e38c6d1d9b1fc7d1_6269623ae08e86ba4548f07e_Creation-Gain.jpeg",
+        "alt": "gain projet",
+        "caption": "Gain projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un document de pilotage des activités liées à un projet",
+        "id": "un-document-de-pilotage-des-activites-liees-a-un-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "La fiche projet est donc un véritable <strong>outil de gestion</strong> de vos projets. Elle <strong>centralise</strong> en un lieu unique toutes <strong>les informations utiles</strong> à son<strong> bon déroulement</strong> et en précise le contexte."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est en quelque sorte un<strong> résumé simplifié du projet</strong> qui permet d'en piloter les grands axes. En un clin d'œil, grâce aux fiches, sans effectuer une recherche trop poussée, tous les intervenants ont une vision claire du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au sein d'un projet, les fiches sont des<strong> outils d'échange et de</strong> partage consultables à n'importe quel moment avec votre équipe, que vous travaillez tous sur le même site ou à distance."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44bd5_62ea90660383f80c7a3f8b33_Project-page-feed-min.jpeg",
+        "alt": "Piloter l'exécution projet",
+        "caption": "Piloter l'exécution projet"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qui rédige les fiches de projet ?",
+        "id": "qui-redige-les-fiches-de-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est souvent <strong>le chef de projet</strong> qui va s'atteler à la description du projet et proposer une <strong>première version</strong>. De nombreux formats sont possibles. Certains utilisent le programme informatique Word tout simplement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Selon le contexte, un programme comme Microsoft Word permet de rédiger des fiches de projets de manière simple en suivant un modèle prédéfini. Mais attention, cet outil a ses limites. En effet, une fiche projet rédigé sur <strong>Word</strong> à <strong>l'inconvénient</strong> de ne <strong>pas pouvoir être mise à jour de manière collaborative</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans tous les cas, le chef de projet aura besoin du soutien des autres parties prenantes pour bien rédiger sa fiche, et ne passer trop de temps en phase de recherche."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Voici un exemple de fiche de description projet :",
+        "id": "voici-un-exemple-de-fiche-de-description-projet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c0b_62f3836213ce5e009d3f6ac1_6269623ae08e86cf3348f06b_setup.jpeg",
+        "alt": "Modèle de rapport flash",
+        "caption": "Modèle de rapport flash"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les inconvénients d'une fiche descriptive de projet statique",
+        "id": "les-inconvenients-dune-fiche-descriptive-de-projet-statique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention, car en utilisant Word pour vos fiches projet, vous aurez également tendance à utiliser toujours le même modèle de document, alors que chacun le sait <strong>chaque projet est différent</strong> : dans son déroulement, son objectif global ou dans les actions à mener au jour le jour. Dans la pratique, une fois votre fiche projet rédigée et envoyée, une seule version sera disponible et il sera difficile d'y faire un ajout ou de préciser certains points dans la mesure où le document n'est pas disponible en ligne."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "D'autres modèles de fiche existent",
+        "id": "dautres-modeles-de-fiche-existent"
+      },
+      {
+        "type": "paragraph",
+        "html": "Des outils de gestion de projet proposent <strong>d'autres façons de rédiger des fiches projets</strong>. En allant directement <strong>chercher l'information dans votre système IT</strong> ou vos outils de reporting, la rédaction de vos fiches est facilitée et vous pouvez choisir entre différentes versions."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c27_62f370f834986741dc2e6b30_Project-metrics.jpeg",
+        "alt": "Fiche cadrage projet",
+        "caption": "Fiche cadrage projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Plusieurs fiches en fonction des projets",
+        "id": "plusieurs-fiches-en-fonction-des-projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Tous les projets sont différents </strong>et la fiche doit <strong>s'adapter au contexte</strong> aussi bien qu'aux enjeux. Par conséquent la description de chaque projet est unique. Il est donc souhaitable de <strong>disposer de plusieurs modèles </strong>de fiche projet. Bien sûr ces différentes versions pourront être <strong>réutilisées par la suite pour gagner du temps</strong> sur un prochain projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les types de fiche projet les plus courants sont les suivantes :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Pré-projet</strong>. Avant de valider un projet, il est parfois nécessaire de <strong>demander des validations en interne</strong>. Une fiche de pré-projet est parfois nécessaire.",
+          "<strong>Projet interne</strong> : cette fiche est souvent plus concise que pour un projet classique parce qu'elle <strong>s'adresse à des interlocuteurs qui sont des collègues.</strong> Ils sont déjà au courant du projet et la fiche doit aller droit au but.",
+          "<strong>Multi-projets</strong>. Il arrive que certains projets fassent partie d'une <strong>stratégie globale de déploiement</strong>. C'est souvent le cas dans les projets de développement de produits numériques. Une seule et même fiche peut donc <strong>regrouper plusieurs fiches</strong>. On utilisera le même genre de modèle que pour un projet classique.",
+          "<strong>Micro-projet</strong> : Parfois, un projet n'implique que très peu de personnes et ne demande pas une gestion compliquée ni la mobilisation de ressources conséquentes. Un <strong>document très succinct</strong> peut alors suffire."
+        ]
+      },
+      {
+        "type": "inline-cta",
+        "text": "Si vous voulez télécharger notre modèle de fiche projet c'est par ici :",
+        "label": "Télécharger ⇣",
+        "href": "https://hubs.ly/Q02NlZ8Q0"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qu'est-ce qu'une fiche projet réussie ?",
+        "id": "quest-ce-quune-fiche-projet-reussie"
+      },
+      {
+        "type": "paragraph",
+        "html": "La fiche projet <strong>conditionne le futur du projet et ses bons résultats</strong>. Il n'y a pas de recette miracle mais plusieurs actions sont à réaliser pour être certains de n'oublier aucunes tâches ni aucune étape dans votre fiche projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un travail de recherche minutieux",
+        "id": "un-travail-de-recherche-minutieux"
+      },
+      {
+        "type": "paragraph",
+        "html": "La phase de recherche est un point d'attention crucial. Tel un journaliste ou un enquêteur, le project manager doit rassembler toutes les informations liées au projet, avant de commencer à rédiger sa fiche. <strong>Mettez-vous dans la peau de quelqu'un qui prend le projet en cours de route </strong>et qui n'y connaît rien. Listez bien tous les points importants, toutes les activités et les étapes nécessaires à la réalisation du projet. Une fiche est un document pratique et en phase avec les objectifs à atteindre."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Se poser les bonnes questions",
+        "id": "se-poser-les-bonnes-questions"
+      },
+      {
+        "type": "paragraph",
+        "html": "De quelles <strong>informations</strong> a-t-on besoin que votre <strong>fiche soit utile et permette d'interagir avec les autres parties prenantes</strong>. Pensez à toutes les questions que l'on pourrait vous poser dans les réunions. Tous les participants ne maîtrisent pas forcément votre domaine d'expertise. À vous d'être explicite en réunion."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Soyez synthétique",
+        "id": "soyez-synthetique"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Obligez-vous à décrire votre projet en une phrase et une seule.</strong> Cette étape est fondamentale et démontrera votre esprit de synthèse auprès du sponsor et des autres intervenants dont vous recherchez le soutien au sein de ce projet. Votre fiche doit tenir en une page et une seule. Forcez-vous à réaliser un travail de simplification à chaque fois que cela est possible."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "N'oubliez personne dans votre fiche",
+        "id": "noubliez-personne-dans-votre-fiche"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est l'<strong>erreur classique</strong>. Les fiches doivent <strong>absolument faire référence à tous les acteurs impliqués</strong>. Vous avez besoin du soutien de tout le monde et votre fiche doit impliquer tout le monde. Faites également figurer les coordonnées de chaque acteur, client ou prestataire pour les joindre plus facilement."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44bf4_62f37cc85606d84d53b0f203_People-involve-min.jpeg",
+        "alt": "Photo De Personnes S'appuyant Sur Une Table En Bois",
+        "caption": "Mettez en valeur les personnes impliquées dans le projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Faites figurer les informations clés selon un plan défini",
+        "id": "faites-figurer-les-informations-cles-selon-un-plan-defini"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quels sont les objectifs ? Combien ça coûte ? Quels sont les délais ? (quelle est la date de livraison) Quels sont les risques ? Quels sont les points d'attention et quelle action est à mener en priorité? <strong>Ne répondez pas à ces questions à la légère</strong>. S'il vous manque des informations, contactez le service concerné en amont et <strong>vérifiez vos hypothèses</strong>. Lorsque vous aurez réuni tous les éléments, alors vous pourrez commencer votre travail."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c1c_62f3840e50d801373d5a7fbd_6269623ae08e8662ea48f0a0_Pinned-messages.jpeg",
+        "alt": "Points projets",
+        "caption": "Les points clefs du projets"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Soyez réaliste dans la rédaction de votre fiche",
+        "id": "soyez-realiste-dans-la-redaction-de-votre-fiche"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fiche doit être au service du projet, lui apporter une notion de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/cadrage-projet\">cadrage</a>, en <strong>décrire les étapes clé mais sans enjoliver la situation.</strong> En promettant trop en rédigeant votre fiche projet, vous risquez de mettre certaines personnes en porte à faux et ce ne serait pas leur rendre service. Au bout du compte, en tant que leader sur ce projet, vous avez un <strong>devoir de transparence </strong>vis-à-vis des membres de l'équipe et des prestataires <strong>lors de la conception des fiches.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment bien présenter votre projet ?",
+        "id": "comment-bien-presenter-votre-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "La fiche projet n'est que l<strong>a première étape du projet</strong>. Vous avez à présent toutes les cartes en main pour présenter votre projet et le rendre explicite pour le reste des parties-prenantes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Ne pas s'isoler",
+        "id": "ne-pas-sisoler"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est une mission qui a l'air simple en apparence mais en réalité peut s'avérer délicate. Vous êtes parfois pris dans un jeu politique qui nuit au projet.<strong> Ne vous isolez pas dans une posture dirigiste</strong> qui peut paraître confortable au début."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Communiquer, anticiper",
+        "id": "communiquer-anticiper"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au contraire, le <strong>bon chef de projet est un communicant </strong>et il sait aussi anticiper. Grâce à des échanges fréquents, il se forge une perception toujours plus fine du projet dans toutes ses dimensions afin de l'intégrer du mieux possible. Percevoir les <strong>impacts du projet sur les plans organisationnels, technologiques et culturels </strong>est une des règles du succès."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Vendre son projet avant tout !",
+        "id": "vendre-son-projet-avant-tout"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un bon <strong>projet</strong> doit quand même <strong>se vendre, même en interne</strong>. Le bon <strong>chef de projet </strong>est aussi un \"<strong>expert en marketing</strong>\". Bien sûr il faut prendre soin d'étudier avec les responsables concernés leur vision propre du projet. Mais il s'agit aussi de <strong>présenter</strong> les enjeux <strong>sous leurs plus beaux atours</strong>. C'est le seul moyen d'établir les alliances nécessaires à la réussite. Sur ce point, lisez l'article sur comment réussir <a href=\"/gestion-de-projet/plan-de-communication-projet\">un plan de communication projet.</a>"
+      },
+      {
+        "type": "inline-cta",
+        "text": "Si vous voulez télécharger notre modèle de fiche projet c'est par ici :",
+        "label": "Télécharger ⇣",
+        "href": "https://hubs.ly/Q02NlZ8Q0"
+      }
+    ],
+    "meta": {
+      "title": "Fiche projet : méthodologie & exemple",
+      "h1": "Fiche projet : méthodologie & exemple",
+      "description": "Découvrez comment rédiger une fiche projet efficace : définition, méthodologie, exemples et bonnes pratiques pour cadrer et piloter vos projets.",
+      "publishedDate": "10/10/2021",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "10/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38451b9b831262a2710ed_3.jpg",
+        "alt": "Fiche projet : méthodologie & exemple"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'une fiche de projet ou plan projet ?",
+        "href": "#quest-ce-quune-fiche-de-projet-ou-plan-projet"
+      },
+      {
+        "label": "Qui rédige les fiches de projet ?",
+        "href": "#qui-redige-les-fiches-de-projet"
+      },
+      {
+        "label": "Qu'est-ce qu'une fiche projet réussie ?",
+        "href": "#quest-ce-quune-fiche-projet-reussie"
+      },
+      {
+        "label": "Comment bien présenter votre projet ?",
+        "href": "#comment-bien-presenter-votre-projet"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}
