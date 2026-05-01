@@ -540,6 +540,10 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - logos: array of { src, alt, width?, height? } — rendered grayscale at 70% opacity
 - label: optional — if omitted, no leading label is rendered. Pass a localized string from CMS / i18n.
+- size: "md" (default, 2.5rem / 4.14rem heights) | "lg" (3rem / 5.5rem heights). LP / Solution heroes typically want "lg" for a more present trust strip.
+
+**Forbidden:**
+- Do NOT pass arbitrary width/height per logo in the data and expect them to render visually — heights are forced by the `size` prop. The width/height fields only set the underlying <img> intrinsic dimensions for layout-shift hints.
 
 ---
 
@@ -909,10 +913,12 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - rows: 3–15 (past 15 the page gets heavy — split into multiple tables)
 - row.label: max 80 chars
 - cell string values: max 40 chars
+- cell `{ type, text }` variant: text max 120 chars (multi-line allowed below icon)
 
 **Forbidden:**
 - Do NOT mix boolean + string cells in the same column (visual inconsistency)
 - Do NOT use for "avec / sans" paired narrative — use <ComparisonDualFrame>
+- Do NOT mix `{ type: "check" }` and `{ type: "x" }` in the same column unless the table is intentionally a "good vs bad" split per row
 
 ---
 
@@ -1054,7 +1060,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - subtitle: max 220 chars
 - eyebrow: max 30 chars (uppercase, tracking)
 - navItems: 2–7 top-level items
-- bottomTags: 0–4
+- bottomTags: 0–6 (live LP PPM has 5 trust badges; cap at 6 — past 6 the row wraps awkwardly on tablet)
 
 **Forbidden:**
 - Do NOT render multiple <Hero> on a single page

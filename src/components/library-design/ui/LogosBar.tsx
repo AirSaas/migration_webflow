@@ -7,9 +7,19 @@ interface Logo {
   height?: number;
 }
 
+type LogosBarSize = "md" | "lg";
+
 interface LogosBarProps {
   label?: string;
   logos: Logo[];
+  /**
+   * Visual size of the rendered logos.
+   * - "md" (default) — 2.5rem (40px) mobile, 4.14rem (66px) desktop
+   * - "lg" — 3rem (48px) mobile, 5.5rem (88px) desktop. Use on landing
+   *   pages where the logo strip is a primary trust signal and the bar
+   *   has room to breathe.
+   */
+  size?: LogosBarSize;
   className?: string;
 }
 
@@ -23,10 +33,20 @@ interface LogosBarProps {
  * @limits
  *   - logos: array of { src, alt, width?, height? } — rendered grayscale at 70% opacity
  *   - label: optional — if omitted, no leading label is rendered. Pass a localized string from CMS / i18n.
+ *   - size: "md" (default, 2.5rem / 4.14rem heights) | "lg" (3rem / 5.5rem heights). LP / Solution heroes typically want "lg" for a more present trust strip.
+ *
+ * @forbidden
+ *   - Do NOT pass arbitrary width/height per logo in the data and expect them to render visually — heights are forced by the `size` prop. The width/height fields only set the underlying <img> intrinsic dimensions for layout-shift hints.
  */
+const SIZE_HEIGHTS: Record<LogosBarSize, string> = {
+  md: "h-[2.5rem] md:h-[4.14rem]",
+  lg: "h-[3rem] md:h-[5.5rem]",
+};
+
 export function LogosBar({
   label,
   logos,
+  size = "md",
   className,
 }: LogosBarProps) {
   return (
@@ -63,7 +83,10 @@ export function LogosBar({
             alt={logo.alt}
             width={logo.width}
             height={logo.height}
-            className="h-[2.5rem] w-auto object-contain grayscale opacity-70 md:h-[4.14rem]"
+            className={cn(
+              SIZE_HEIGHTS[size],
+              "w-auto object-contain grayscale opacity-70",
+            )}
             loading="lazy"
           />
         ))}

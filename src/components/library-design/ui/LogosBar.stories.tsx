@@ -48,3 +48,39 @@ export const AllVariants: Story = {
     </div>
   ),
 };
+
+/**
+ * Size comparison — md (default) vs lg.
+ *
+ * Use `size="lg"` on landing pages where the logo strip is a primary trust
+ * signal (LP PPM, LP Capacity, etc. — see audit finding [1.7] which flagged
+ * default md as too small for LP heroes). Use `size="md"` on denser pages
+ * where the strip is one of many social proofs.
+ */
+export const SizeComparison: Story = {
+  render: () => (
+    <div className="flex flex-col gap-12 py-8">
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">
+          size=&quot;md&quot; (default — 2.5rem mobile / 4.14rem desktop)
+        </span>
+        <LogosBar
+          label="Ils nous font confiance"
+          logos={sampleLogos}
+          size="md"
+        />
+      </div>
+
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">
+          size=&quot;lg&quot; (LP heroes — 3rem mobile / 5.5rem desktop)
+        </span>
+        <LogosBar
+          label="Ils nous font confiance"
+          logos={sampleLogos}
+          size="lg"
+        />
+      </div>
+    </div>
+  ),
+};
