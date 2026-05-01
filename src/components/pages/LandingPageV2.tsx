@@ -15,6 +15,7 @@ import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
 import { HighlightFrame } from "@/components/library-design/sections/HighlightFrame";
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
 import { Footer } from "@/components/library-design/sections/Footer";
+import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
@@ -95,6 +96,11 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       // If no real image, use centered text-only layout (LP-style); avoid
       // rendering placehold.co which is jarring.
       const hasImage = !!section.imageSrc;
+      // Map bullets (string[]) into bottomTags (HeroTag[]). Cap at 6 (DS limit
+      // post Marianela bump from 0-4 to 0-6).
+      const bottomTags = (section.bullets || [])
+        .slice(0, 6)
+        .map((label) => ({ label, variant: "success" as const }));
       return (
         <Hero
           key={index}
@@ -109,6 +115,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           subtitle={section.subtitle || ""}
           primaryCta={section.primaryCta || undefined}
           secondaryCta={section.secondaryCta || undefined}
+          bottomTags={bottomTags.length > 0 ? bottomTags : undefined}
           imageSrc={hasImage ? section.imageSrc || undefined : undefined}
           imageAlt={section.imageAlt || ""}
           floatingCards={false}
@@ -265,23 +272,13 @@ function renderSection(section: LandingSection, index: number): ReactNode {
               {section.title}
             </Heading>
           ) : null}
-          <div className="flex flex-wrap items-center justify-center gap-[2rem] md:gap-[3rem] max-w-[91.25rem] w-full">
-            {section.logos.slice(0, 12).map((logo, i) => (
-              <div
-                key={i}
-                className="flex items-center justify-center"
-                style={{ minWidth: "8rem", height: "3rem" }}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={logo.src}
-                  alt={logo.alt || ""}
-                  className="max-h-[3rem] w-auto object-contain"
-                  loading="lazy"
-                />
-              </div>
-            ))}
-          </div>
+          <LogosBar
+            logos={section.logos.slice(0, 12).map((logo) => ({
+              src: logo.src,
+              alt: logo.alt || "",
+            }))}
+            size="lg"
+          />
         </section>
       );
 
@@ -415,7 +412,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           title={section.title || "Comparaison"}
           columns={section.columns.map((c) => ({ label: c }))}
           rows={section.rows.map(([feature, ...values]) => ({
-            feature: feature || "",
+            feature: typeof feature === "string" ? feature : "",
+            // Cell may be a string OR a {type, text} tuple — pass through
+            // either shape, ComparisonTableFrame handles both.
             values,
           }))}
         />

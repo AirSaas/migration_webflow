@@ -15,6 +15,8 @@ export interface LandingMeta {
 /** Top hero with title + subtitle + primary CTA + optional mockup image. */
 export interface HeroSection {
   type: "hero";
+  /** Optional small label above the title (eyebrow / pill). */
+  tag?: string;
   /** First part of the title (often the gradient pill / accent). */
   titleHighlight?: string;
   /** Main title (rest of H1). */
@@ -46,6 +48,8 @@ export interface IntroSection {
 export interface FeatureSplitSection {
   type: "feature-split";
   reversed?: boolean; // image left vs right
+  /** Optional small eyebrow tag above the title. */
+  tag?: string;
   title: string;
   titleHighlight?: string; // e.g. <strong> portion
   /** Optional small subtitle between title and body. */
@@ -53,6 +57,8 @@ export interface FeatureSplitSection {
   body?: string; // inline HTML (paragraphs, bullets)
   imageSrc?: string | null;
   imageAlt?: string;
+  /** DS imageSize : default 60/40, narrow 33/67 (editorial), compact 40/60. */
+  imageSize?: "default" | "compact" | "narrow";
   bullets?: string[];
   /** Inline CTA on the text side. */
   primaryCta?: { label: string; href: string };
@@ -128,13 +134,21 @@ export interface CustomerTestimonialsSection {
   }[];
 }
 
+/**
+ * Comparison-table cell : plain string (legacy) OR an icon-with-text tuple
+ * for the new variant (DS commit 96c61a5 — fixes audit finding [5.3]).
+ */
+export type ComparisonTableCell =
+  | string
+  | { type: "check" | "x"; text: string };
+
 /** Comparison table (sans/avec or avant/après). */
 export interface ComparisonTableSection {
   type: "comparison-table";
   title?: string;
   subtitle?: string;
   columns: string[];
-  rows: string[][];
+  rows: ComparisonTableCell[][];
   /** Inline CTA below the table ("Réservez une démo"). */
   ctaLabel?: string;
   ctaHref?: string;
@@ -196,6 +210,9 @@ export interface RelatedSection {
   title?: string;
   titleHighlight?: string;
   subtitle?: string;
+  /** Optional inline CTA at the end ("Voir tout"). */
+  ctaLabel?: string;
+  ctaHref?: string;
   items: { title: string; description?: string; imageSrc?: string | null; href: string }[];
 }
 
