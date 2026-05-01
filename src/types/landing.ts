@@ -128,13 +128,21 @@ export interface CustomerTestimonialsSection {
   }[];
 }
 
+/**
+ * Comparison-table cell : plain string (legacy) OR an icon-with-text tuple
+ * for the new variant (DS commit 96c61a5 — fixes audit finding [5.3]).
+ */
+export type ComparisonTableCell =
+  | string
+  | { type: "check" | "x"; text: string };
+
 /** Comparison table (sans/avec or avant/après). */
 export interface ComparisonTableSection {
   type: "comparison-table";
   title?: string;
   subtitle?: string;
   columns: string[];
-  rows: string[][];
+  rows: ComparisonTableCell[][];
   /** Inline CTA below the table ("Réservez une démo"). */
   ctaLabel?: string;
   ctaHref?: string;
