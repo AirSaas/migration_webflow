@@ -1,0 +1,51 @@
+{
+  "type": "blog",
+  "slug": "pi-planning",
+  "iteration": 3,
+  "outcome": "FAIL",
+  "errors": [
+    {
+      "type": "structure",
+      "detail": "blocks must be an array"
+    }
+  ],
+  "result": {
+    "meta": {
+      "title": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+      "h1": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+      "description": "Découvrez comment réussir votre PI Planning : définition, bénéfices, préparation, déroulé, outils et suivi pour aligner vos équipes IT et métiers.",
+      "publishedDate": "19/2/2026",
+      "author": {
+        "category": "Gestion de projets",
+        "publishedDate": "19/2/2026",
+        "name": ""
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3b8ff9507e294d9f896_PI%20Planning.jpg",
+        "alt": "PI Planning"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un PI Planning ?",
+        "href": "#quest-ce-quun-pi-planning"
+      },
+      {
+        "label": "À quoi ressemble un PI Planning réussi avec des bénéfices concrets ?",
+        "href": "#a-quoi-ressemble-un-pi-planning-reussi-avec-des-benefices-concrets"
+      },
+      {
+        "label": "Dès sa préparation, faites de votre PI Planning un atout pour transformer",
+        "href": "#des-sa-preparation-faites-de-votre-pi-planning-un-atout-pour-transformer"
+      },
+      {
+        "label": "Quels outils pour un PI Planning qui se déroule parfaitement ?",
+        "href": "#quels-outils-pour-un-pi-planning-qui-se-deroule-parfaitement"
+      },
+      {
+        "label": "Après le PI Planning : assurer le suivi pour ne pas perdre la valeur créée",
+        "href": "#apres-le-pi-planning-assurer-le-suivi-pour-ne-pas-perdre-la-valeur-creee"
+      }
+    ]
+  }
+}

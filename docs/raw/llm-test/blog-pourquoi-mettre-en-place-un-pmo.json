@@ -1,0 +1,378 @@
+{
+  "type": "blog",
+  "slug": "pourquoi-mettre-en-place-un-pmo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Pourquoi mettre en place un PMO ?",
+      "h1": "Pourquoi mettre en place un PMO ?",
+      "description": "Découvrez pourquoi mettre en place un PMO (Project Management Office) dans votre entreprise : enjeux, impact RH, culture projet, collaboration interservices et bon timing.",
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "26/2/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "publishedDate": "26/2/2023",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f9aca975301ae018a7bf06_why%20pmo-min.jpg",
+        "alt": "Pourquoi mettre en place un PMO"
+      }
+    },
+    "toc": [
+      {
+        "label": "L'envolée des projets transverses",
+        "href": "#lenvolee-des-projets-transverses"
+      },
+      {
+        "label": "Projets silos et transformation, le parfait oxymore",
+        "href": "#projets-silos-et-transformation-le-parfait-oxymore"
+      },
+      {
+        "label": "L'impact RH des projets transverses",
+        "href": "#limpact-rh-des-projets-transverses"
+      },
+      {
+        "label": "Difficultés pour les différents services à collaborer",
+        "href": "#difficultes-pour-les-differents-services-a-collaborer"
+      },
+      {
+        "label": "La gestion de projet, si on demande, tout le monde sait faire",
+        "href": "#la-gestion-de-projet-si-on-demande-tout-le-monde-sait-faire"
+      },
+      {
+        "label": "Diffuser la bonne culture projet pour donner de l'air aux équipes",
+        "href": "#diffuser-la-bonne-culture-projet-pour-donner-de-lair-aux-equipes"
+      },
+      {
+        "label": "Communication, clarté projet et meilleures décisions",
+        "href": "#communication-clarte-projet-et-meilleures-decisions"
+      },
+      {
+        "label": "Investissez dans vos équipes à travers un PMO",
+        "href": "#investissez-dans-vos-equipes-a-travers-un-pmo"
+      },
+      {
+        "label": "Quel est le bon moment, quelle est la bonne taille d'entreprise pour mettre en place un PMO ?",
+        "href": "#quel-est-le-bon-moment-quelle-est-la-bonne-taille-dentreprise-pour-mettre-en-place-un-pmo"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3e69ce2ca4c58ebea1c4_PMO-1-min.png",
+        "alt": "PMO Bureau des projets",
+        "caption": "project management office - terme anglo saxon pour bureau des projets"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "lenvolee-des-projets-transverses",
+        "text": "L'envolée des projets transverses"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'accélération digitale génère des <strong>enjeux forts d'adaptation et de transformation</strong> pour les entreprises qui se traduisent par une explosion du nombre de projets transverses et des projets de transformations, notamment digitaux."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette prolifération de projets a <strong>multiplié</strong> les <strong>obstacles structurels et culturels</strong> pour les organisations. Elles ont pourtant un <strong>besoin quasi vital d'innover</strong> avec efficience pour mener à bien tous ces projets transverses <strong>sans</strong> pour autant <strong>déstabiliser ce qui fonctionne</strong> dans les verticales métiers."
+      },
+      {
+        "type": "paragraph",
+        "html": "De nombreux exemples ont démontré que ces projets de transformation sont indispensables pour la survie même de l'entreprise. Cependant ils génèrent beaucoup de nouvelles problématiques, parmi lesquelles le syndrome du projet raté : environ 70% des projets échouent (études Mc Kinsey, IBM et Project Management Institute)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "projets-silos-et-transformation-le-parfait-oxymore",
+        "text": "Projets silos et transformation, le parfait oxymore"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3e9b96fb86ebcf881f11_PMO-2-min.png",
+        "alt": "Les paradoxes de la mission de PMO",
+        "caption": "project management office vs silos"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les projets de transformation sont à la très grande majorité transverses et possèdent un aspect digital, avec des services ayant des appétences plus ou moins importantes pour cet aspect-là."
+      },
+      {
+        "type": "paragraph",
+        "html": "Quand ils sont menés de manière isolée dans chaque service, on se rend compte d'u<strong>n gaspillage de ressources</strong> avec des <strong>projets menés en doublon</strong> par plusieurs services parfois en simultané."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la conduite des projets en silos, <strong>la pédagogie par l'erreur coûte cher à l'entreprise.</strong> Le <strong>manque d'ouverture à l'extérieur et aux autres services</strong> ne permet pas d'accéder aux retours d'expériences nécessaires pour <strong>rendre la conduite de projets plus simple</strong> et plus <strong>efficace</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ensuite dans le cas d'une gouvernance mono-service des projets de transformation on abandonne souvent beaucoup de projets en phase d'implémentation, ceci est lié notamment aux non-conformités avec les process de l'entreprise et à la mauvaise implication des autres services en amont."
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus, avec cette gouvernance mono-service, on rentre dans une dynamique de <strong>\"techno push\"</strong> induite souvent par une incompréhension des besoins métiers (ou un besoin relégué au second plan par rapport aux desseins du service en question), générant un climat pesant autour de ces projets, une dynamique de clients/fournisseurs qui s'installe entre les métiers et le service en charge, avec dans le pire des cas, des guerres d'ego et jeux politiques renforçant la résistance aux changements."
+      },
+      {
+        "type": "paragraph",
+        "html": "Plutôt que de rassembler autour d'objectifs d'entreprise, les projets menés \"en silos\" finissent généralement en relatif échec, générant frustrations et sentiment de pertes de temps. Cela diffuse par la même occasion une dynamique toxique pour la poursuite de la transformation dans l'entreprise et surtout ne favorise pas l'engagement des collaborateurs \"fatigués\" par ce type de projet en mode échec systématique."
+      },
+      {
+        "type": "paragraph",
+        "html": "Rappelons-le : <strong>un seul service métier ne peut transformer à lui seul toute l'entreprise.</strong> Il s'agit d'un enjeu collectif qui nécessite à tous de pouvoir se <strong>repérer, s'adapter et se projeter</strong>. Une transition où les silos sont alors un véritable problème structurel."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3eea4311849ae9aef307_silos-min.jpeg",
+        "alt": "Les silos d'une entreprise",
+        "caption": "Organisation classique d'une entreprise - départements sales, marketing, etc"
+      },
+      {
+        "type": "paragraph",
+        "html": "Plus loin nous verrons également un autre échec des projets en silos : l'incapacité des différents services à collaborer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "limpact-rh-des-projets-transverses",
+        "text": "L'impact RH des projets transverses"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3f182b794fe40158cf5a_impact-pmo-min.png",
+        "alt": "Impact d'un PMO dans votre organisation",
+        "caption": "pmo project management office - portefeuille de projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Les équipes sont sous l'eau ? Et si on leur ajoutait une casquette de chef de projet transverse en plus ?</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec cette flambée de nouveaux projets, il faut bien évidemment des nouveaux rôles et collaborateurs pour les mener à bien. On a dans ces projets, souvent besoin de connaissances métier en ne pouvant justifier que rarement l'immobilisation d'un ETP."
+      },
+      {
+        "type": "paragraph",
+        "html": "On en demande de plus en plus aux collaborateurs clés, souvent déjà bien chargés par leurs activités principales de travailler sur toujours plus de projets et ce, en mode best effort."
+      },
+      {
+        "type": "paragraph",
+        "html": "La <strong>gestion de projet transverse</strong> n'est en réalité <strong>pas aussi évidente qu'il y paraît</strong> et a besoin, avec la multiplication des projets, de se structurer ainsi que de <strong>s'appuyer sur une culture forte</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "À cause de la <strong>multiplication de la charge de travail</strong> et des tâches, de la <strong>charge mentale</strong>, ou de la dépriorisation des projets et du <strong>manque de sens pour les équipes,</strong> on constate très souvent un <strong>manque d'engagement des collaborateurs</strong> dans les projets, moteur nécessaire et essentiel de leurs réussites."
+      },
+      {
+        "type": "paragraph",
+        "html": "On constate également souvent, une très <strong>mauvaise adoption des solutions</strong> et des technologies, qui contribue un peu plus a<strong>u désengagement et à l'échec des projets.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ceci peut aussi s'expliquer par une nécessité des projets pour être menés à bien, d'un <strong>nombre de compétences</strong> à avoir qui est <strong>grandissant</strong> et qui, sans formations et sans ressources supplémentaires, contribuent à la mise en échec des équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il arrive que pour certains projets on puisse justifier l'embauche de compétences spécifiques face à ces nouveaux besoins, particulièrement pour les aspects digitaux, cependant ces profils sont en tension sur le marché et de plus en plus difficiles à recruter car de plus en plus demandés. De plus, si le digital n'est pas cœur de métier ou n'est pas très imprégné dans l'entreprise, les <strong>probabilités de faire des erreurs de recrutement augmentent.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, même en passant par l'externe et la sous-traitance il faut un <strong>minimum de ces connaissances en interne</strong> pour arriver à <strong>suivre et à challenger ces nouvelles prestations.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici <strong>le </strong><a href=\"https://www.airsaas.io/fr/gestion-de-projet/metier-pmo\"><strong>PMO</strong></a><strong> a un rôle fort à jouer</strong>, il va pouvoir <strong>aider les collaborateurs à mieux adapter leur gestion de projets</strong> pour <strong>rendre leur temps limité plus efficace</strong> ainsi que les aider sur les bonnes pratiques et les réalités du marché du digital."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "difficultes-pour-les-differents-services-a-collaborer",
+        "text": "Difficultés pour les différents services à collaborer"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3f2896fb86b4c188a67d_coop-pmo-min.png",
+        "alt": "coopération PMO",
+        "caption": "project management vs project management office"
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous pouvons citer ici quelques barrières connues qui empêchent la collaboration :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Temps et ressources</strong> à allouer pour les projets <strong>en conflit avec les activités</strong> principales",
+          "<strong>Façons de travailler différentes</strong> selon les <strong>services</strong>",
+          "<strong>Difficulté</strong> à identifier qui pourrait <strong>aider</strong> dans les autres services, de <strong>demander</strong> de l'aide, ne <strong>pas arriver à travailler ensemble</strong>.",
+          "Guerre d'ego",
+          "<strong>Réticence</strong> <strong>à donner du temps</strong> en best effort",
+          "<strong>Communication</strong> et <strong>suivi difficile</strong>",
+          "<strong>Incapacité à fonctionner efficacement en mode projet</strong>, avec les bonnes méthodes et outils"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PMO ici pourra agir dans la résolution ou l'anticipation des problèmes ci-dessus. Son rôle consiste à mettre en place et à adapter des outils et une culture ayant pour but de participer à solder ces points."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-gestion-de-projet-si-on-demande-tout-le-monde-sait-faire",
+        "text": "La gestion de projet, si on demande, tout le monde sait faire"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on considère la gestion de projet, comme un processus de gestion et d'exécution d'un ensemble de tâches défini, alors la majorité des collaborateurs, peu importe leur rôle, font de la gestion de projet. Le <strong>biais cognitif</strong> fréquemment rencontré est le suivant : Si un collaborateur a été capable de mener à bien un ou plusieurs projets dans son service, alors il mènera à bien un projet transverse, car qu'il soit transverse ou métier, ça reste un projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cependant, vos chefs de projet feront face à de nombreuses difficultés supplémentaires, et parfois nouvelles et très peu documentées, qu'il s'agisse de soft skills (ex : comment influencer/manager les parties prenantes sans liens hiérarchiques et sans déclencher de guerres d'ego) ou de hard skills (ex : méthodes de gestion de projets en open innovation et interservices, gestion de portefeuille intégrée et efficace, etc.)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PMO sera plus expérimenté dans la gestion de ce type de projets et opérations. Il aura l'habitude de ces nouveaux types de relations interpersonnelles. Un des avantages du PMO est son ouverture à l'extérieur, par la nature de son rôle mais également par son appétence pour la recherche de REX et de bonnes pratiques, il pourra plus facilement les diffuser dans l'entreprise de par sa position et le nouveau canal de communication ouvert."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "diffuser-la-bonne-culture-projet-pour-donner-de-lair-aux-equipes",
+        "text": "Diffuser la bonne culture projet pour donner de l'air aux équipes"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3f352b794f6a3f58da49_pmo4-min.png",
+        "alt": "rôle du pmo chef d'orchestre",
+        "caption": "rôle du pmo chef d'orchestre ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu est de prendre un <strong>virage managérial \"radical\".</strong> De passer d'une culture du contrôle de l'exécution des tâches, de la relance des collaborateurs voire de chasse aux reportings <strong>à une posture de \"cultivateur\" d'une culture projet adaptée à l'entreprise</strong>. Une culture ouverte permettant de clarifier et <strong>créer une vision désilotée.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les actions du PMO devraient permettre <strong>un nivellement par le haut au sein des équipes</strong> en termes de compétences et de connaissance métiers."
+      },
+      {
+        "type": "paragraph",
+        "html": "S'il est assorti d'une réelle exemplarité du Codir, ce contexte nouveau peut contribuer à une vraie efficacité opérationnelle accrue et augmenter la capacité de l'entreprise et de son management à se <strong>transformer</strong> plus rapidement <strong>et surtout, en continu</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu premier sera de se donner de nouvelles règles du jeu. De créer des repères stables et motivants, pour permettre à chacun de mieux <strong>s'adapter aux évolutions technologiques et organisationnelles</strong> qui bousculent ses missions. D'inscrire les projets dans des programmes. Cela peut entre autres permettre d'empêcher le statu quo de s'installer, vrai poison face à l'accélération de l'innovation."
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé le rôle du PMO contribue donc <strong>à harmoniser les </strong><a href=\"https://www.airsaas.io/fr/gestion-de-projet/demarche-de-projet\"><strong>démarches projets</strong></a>, <strong>à optimiser les efforts, apporter des outils adaptés</strong> ce qui amène à <strong>une gestion de portefeuille projet plus performante et pragmatique</strong>. Avec des nouveaux outils et process et comportements, la solution résidera en grande partie dans l'implication et l'<strong>engagement de tous</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au niveau des équipes, cela passe par la <strong>création d'un langage commun</strong>, d'une coordination de projet interservices, d'une clarification du sens des projets pour les collaborateurs ainsi que de la définition d'un rôle clair pour chacun, leur évitant ainsi de perdre du temps sur \"comment\" mener le projet et de se concentrer plus efficacement sur le fond."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette efficacité gagnée, permettra de réduire l'impact de l'engagement en best effort et de réduire la charge mentale liée à ces projets, rendant les collaborateurs plus performants dans la conduite de projet mais surtout plus sereins."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "communication-clarte-projet-et-meilleures-decisions",
+        "text": "Communication, clarté projet et meilleures décisions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un article précédent on abordait les prises de décisions souvent trop longues ou partielles, identifiées parmi les causes importantes d'échecs des projets de transformation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Échecs, que l'on pouvait imputer aux manques d'informations, d'accès facile à l'information et de clarté sur les projets qui induisent les ½ ou non-décisions en <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-decider-en-copil\">Copil</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à ses actions sur la culture projet et sa connexion avec les services et les collaborateurs le PMO pourra apporter une vision transverse désilottée et avec les bons outils. Cela permettra de jouer un rôle déterminant dans le traitement cognitif de l'information pour le top management, <strong>apportant une clarté dans tous les projets jusqu'ici difficiles</strong> et in fine, <strong>permettra de prendre de meilleures décisions</strong> et surtout, <strong>bien plus rapidement</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "investissez-dans-vos-equipes-a-travers-un-pmo",
+        "text": "Investissez dans vos équipes à travers un PMO"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3f3f7d4e52400e0f6c5f_why-PMO-invest-min.png",
+        "alt": "Investir pour accompagner votre croissance",
+        "caption": "Vers une nouvelle feuille de route"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quand un projet prend de l'ampleur ou qu'il est soit plus complexe ou plus ambitieux, on pense souvent à l'embauche d'un chef de projet, la plupart des entreprises ne peuvent pas embaucher un chef de projet par projet transverses à mener, et ce même si on donne plusieurs projets à un ETP."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Tous les collaborateurs ont un aspect de chefferie de projet dans leurs activités</strong>, plus ou moins simples. Les problématiques de conduite de projets sont souvent plus liées à des problèmes d'engagement, de collaboration, d'efficacité et de gestion du best effort que d'un nombre de chefs de projets disponibles. <strong>On peut faire mieux avec moins,</strong> si on adopte une <strong>culture projet adaptée</strong> et qu'on investit dans la montée en compétences des collaborateurs de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Faites monter en compétences vos effectifs et investissez dans l'humain pour que tout le monde travaille mieux ensemble au sein d'une plateforme et que l'entreprise devienne efficace dans la mise en œuvre de la feuille de route de transformation digitale. Embauchez moins et formez mieux et <strong>l'arrivée d'un PMO sera le moyen le plus pragmatique pour y arriver.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quel-est-le-bon-moment-quelle-est-la-bonne-taille-dentreprise-pour-mettre-en-place-un-pmo",
+        "text": "Quel est le bon moment, quelle est la bonne taille d'entreprise pour mettre en place un PMO ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63fb3f4b4311849367af063c_pmo-now-min.png",
+        "alt": "Timing de mise en place du rôle de PMO",
+        "caption": "Votre pmo doit arriver au bon moment et avec les bons \"logiciels\" dans les organisations"
+      },
+      {
+        "type": "paragraph",
+        "html": "Parmi toutes les questions c'est celle qui <strong>revient le plus souvent</strong> : quand est-ce qu'une entreprise est assez grande ou mature pour mettre en place un PMO ? Pour avoir souvent entendu \"<strong><em>Mais on est trop petit pour prendre un PMO</em></strong>\" ou encore \"<strong><em>On n'est pas assez structuré pour ouvrir un poste de PMO</em></strong>\".<br/>Et bien justement, avant de répondre à la question, commentons les deux derniers points récurrents :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Ce n'est pas la taille de l'entreprise qui importe, mais le nombre de projets et l'investissement</strong> qu'ils représentent. Plus l'entreprise a un effectif réduit et s'apprête à absorber une forte croissance, plus c'est pertinent. Il y aura moins de personnes à embarquer dans la nouvelle culture projet et une fois adoptée, elle se diffusera plus facilement pour chaque nouvel arrivant dans l'entreprise. Disons qu'il y aura moins d'efforts à fournir et moins de résistance aux changements.",
+          "Le fait que l'entreprise ne soit pas encore bien structurée ou qu'elle soit en train de le faire n'est pas un problème mais au contraire une réelle opportunité, <strong>le travail du PMO est justement d'aider à structurer une démarche permettant d'absorber plus de projets transverses</strong> et <strong>d'augmenter</strong> <strong>les chances de leurs réussites</strong>. De plus, cette démarche et culture faisant augmenter l'efficacité des équipes, cela permettra d'absorber encore mieux la montée en charge pour laquelle l'entreprise est en train de se structurer."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Un bon indicateur pour mettre en place un PMO est quand la somme des projets transverses ou de transformation atteint 400K€ à 500K€. Provisionner 10% à 20% de la valeur de son portefeuille dans la mise en place d'un PMO semble être une bonne pratique pour sécuriser ces investissements actuels mais aussi améliorer l'investissement projets futurs. Il permettra également de <strong>faire des gains sur le temps passé par les collaborateurs sur les projets.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un dernier mot ...au-delà des meilleurs indicateurs rationnels, ROIsables...il y a un troisième critère que vous pouvez prendre en compte pour envisager de créer ce rôle...Quand votre projet CRM/ERP glisse depuis 18 mois et que votre DG <strong>à l'impression que vous ramez</strong>. ! OK on entre en pleine subjectivité ...mais peut être le signe qu'il va falloir gouverner votre transformation autrement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-en-place-un-pmo\">consultez notre article sur comment mettre en place un PMO</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour approfondir, découvrez <a href=\"/fr/gestion-de-projet/role-du-pmo\">comment le PMO doit se positionner face au Codir</a>."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

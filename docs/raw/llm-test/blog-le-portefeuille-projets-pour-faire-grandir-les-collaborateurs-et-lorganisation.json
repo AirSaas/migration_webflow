@@ -1,0 +1,268 @@
+{
+  "type": "blog",
+  "slug": "le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Le portefeuille projets pour faire grandir les collaborateurs et l'organisation",
+      "h1": "Le portefeuille projets pour faire grandir les collaborateurs et l'organisation",
+      "description": "Faut-il attendre d'être mature en gestion de projet pour lancer une démarche de portefeuille projets ? Arguments pour, contre, retour d'expérience PMO et verdict.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "1/5/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "1/5/2023",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644fbfa227c55147fd413a16_PPM%20vs%20PM%20(1)-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Cinq niveaux de maturité en gestion de projet pour une entreprise :",
+        "href": "#cinq-niveaux-de-maturite-en-gestion-de-projet-pour-une-entreprise"
+      },
+      {
+        "label": "Les arguments contre une démarche de portefeuilles de projets dans une organisation pas assez \"mature\" en gestion de projets",
+        "href": "#les-arguments-contre-une-demarche-de-portefeuilles-de-projets-dans-une-organisation-pas-assez-mature-en-gestion-de-projets"
+      },
+      {
+        "label": "Les arguments pour une démarche de portefeuilles de projet dans une organisation pas assez \"mature\" en gestion de projet.",
+        "href": "#les-arguments-pour-une-demarche-de-portefeuilles-de-projet-dans-une-organisation-pas-assez-mature-en-gestion-de-projet"
+      },
+      {
+        "label": "Retour d'expérience sur la mise en place de la fonction PMO - Bureau des projets dans une structure à faible maturité projet",
+        "href": "#retour-dexperience-sur-la-mise-en-place-de-la-fonction-pmo-bureau-des-projets-dans-une-structure-a-faible-maturite-projet"
+      },
+      {
+        "label": "Le verdict : n'attendez pas que votre entreprise soit \"mature\" en gestion de projet pour lancer une démarche de gestion de portefeuille, sinon elle ne le sera jamais !",
+        "href": "#le-verdict-nattendez-pas-que-votre-entreprise-soit-mature-en-gestion-de-projet-pour-lancer-une-demarche-de-gestion-de-portefeuille-sinon-elle-ne-le-sera-jamais"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644f9604c5625d462c6f386f_maturite%CC%81%20(4)-min.jpg",
+        "alt": "Ma boîte est elle trop immature en gestion de projet ?",
+        "caption": "Dsi / project management office en plein atelier de prise de décision stratégique ^^"
+      },
+      {
+        "type": "paragraph",
+        "html": "<em>\"Ma boîte n'est pas assez mature en gestion de projet pour aller vers une gestion de Portefeuille projets.\"</em>"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est la phrase que nous entendons le plus souvent lors des démonstrations d'AirSaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour rappel, AirSaas rentre dans la catégorie des PPM (Portfolio Project Management) mais on préfère se définir comme un <strong>outil de gouvernance projet</strong>. -> cf. notre grand guide : \"<a href=\"/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques\">Portfolio project management le top 10 des bonnes pratiques</a>\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article nous vous proposons de <strong>revenir sur les arguments</strong> les plus courants en faveur d'un immobilisme sur les processus de gouvernance et de les confronter aux arguments d'un éditeur engagé en faveur de l'implémentation d'un outil de gouvernance moderne !  <br/>Vous allez <strong>entendre le procureur et l'avocat !</strong> À vous de vous faire votre jugement à la fin. ^^"
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous partagerons aussi un retour d'expérience sur la mise en œuvre de la fonction PMO - Bureau des projets dans une structure à faible maturité projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bonne lecture."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "cinq-niveaux-de-maturite-en-gestion-de-projet-pour-une-entreprise",
+        "text": "Cinq niveaux de maturité en gestion de projet pour une entreprise :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644fc127c077ef35e77aa01c_maturite%CC%81-projet.jpg",
+        "alt": "Les 5 stades de maturité en gestion de projet",
+        "caption": "Toutes les entreprises ont une solution de transformation et innovation à leur portée"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Niveau initial</strong> : À ce niveau, l'entreprise n'a <strong>pas encore de processus de gestion de projet formalisés</strong>. Les projets sont gérés de manière ad hoc, sans objectifs, normes ni procédures établies.",
+          "<strong>Niveau de base</strong> : À ce niveau, l'entreprise a établi des processus de gestion de projet de base, mais ils ne sont <strong>pas encore uniformément appliqués</strong> dans toute l'entreprise. La gestion de projet est encore considérée comme une activité secondaire.",
+          "<strong>Niveau intermédiaire</strong> : À ce niveau, l'entreprise a des processus de gestion de projet solides et uniformément appliqués dans toute l'entreprise. La gestion de projet est considérée comme une activité clé et est <strong>intégrée à la stratégie globale</strong> de l'entreprise.",
+          "<strong>Niveau avancé</strong> : À ce niveau, l'entreprise a établi <strong>une culture de gestion de projet</strong> forte, et la gestion de projet est considérée comme une compétence clé pour les employés. L'entreprise utilise des méthodes de gestion de projet avancées et le rôle de <strong>PMO est considéré comme stratégique.</strong> Elle est en mesure de gérer des projets complexes et à grande échelle.",
+          "<strong>Niveau de pointe (aka Ninja !)</strong> : À ce niveau, l'entreprise a atteint l'excellence en matière de gestion de projet et utilise des méthodes et des outils de pointe. La gestion de projet est intégrée dans tous les processus de l'entreprise, et elle est <strong>considérée comme un avantage concurrentiel.</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien sûr, lorsqu'on évoque la culture <strong>on est en pleine subjectivité</strong>. Il est important de noter que chaque entreprise a son propre rythme et sa propre trajectoire de développement en matière de gestion de projet, et que l'atteinte de chaque niveau de maturité peut prendre du temps."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-arguments-contre-une-demarche-de-portefeuilles-de-projets-dans-une-organisation-pas-assez-mature-en-gestion-de-projets",
+        "text": "Les arguments contre une démarche de portefeuilles de projets dans une organisation pas assez \"mature\" en gestion de projets"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644fc077bf2fa10ad799c90e_entreprise-maturite%CC%81-projet-PPM-min(1).jpg",
+        "alt": "Les arguments contre une démarche de portefeuilles de projet",
+        "caption": "Durée, prix, clients, logiciel, DSI, mise en œuvre, fonctions, enjeux, rh, marketing, tout peut être prétexte à ne pas changer de solution"
+      },
+      {
+        "type": "paragraph",
+        "html": "Voici une sélection des 7 arguments qui pourraient être avancés contre le passage au portfolio project management (PPM) dans une entreprise qui n'est pas assez mature en gestion de projet :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Coûts élevés</strong> : Le passage au PPM peut impliquer des coûts élevés, notamment en termes de formation des équipes, d'acquisition de nouveaux outils et de mise en place de processus plus complexes.",
+          "<strong>Résistance au changement</strong> : Les équipes pourraient résister au changement et avoir du mal à s'adapter à une nouvelle approche de gestion de projet.",
+          "<strong>Complexité accrue</strong> : Le PPM peut être perçu comme trop complexe et difficile à mettre en place, surtout si l'entreprise n'a pas encore une culture de gestion de projet solide.",
+          "<strong>Temps de mise en place</strong> : La mise en place du PPM peut prendre du temps, ce qui pourrait retarder les projets en cours.",
+          "<strong>Adaptabilité</strong> : Le PPM peut ne pas être adapté à tous les types de projets et certaines entreprises pourraient avoir besoin d'une approche plus flexible.",
+          "<strong>Perte de contrôle</strong> : Les équipes pourraient avoir l'impression de perdre le contrôle sur leurs projets, car la gestion est centralisée à un niveau plus élevé.",
+          "<strong>Nécessité de changements organisationnels</strong> : Le PPM peut nécessiter des changements organisationnels importants pour être efficace, ce qui peut être difficile à mettre en place dans une entreprise qui n'est pas suffisamment mature en gestion de projet."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est important de prendre en compte ces contre-arguments <strong>avant de décider de passer au portefeuille de projets</strong>. Il est possible que certains d'entre eux soient plus pertinents pour votre entreprise que d'autres."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-arguments-pour-une-demarche-de-portefeuilles-de-projet-dans-une-organisation-pas-assez-mature-en-gestion-de-projet",
+        "text": "Les arguments pour une démarche de portefeuilles de projet dans une organisation pas assez \"mature\" en gestion de projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644fc03714d787c0576e61f8_maturite%CC%81-PPM-min.jpg",
+        "alt": "Les contres arguments pour une démarche de Portefeuille project management dans une organisation pas assez mature en gestion de projet.",
+        "caption": "Quelle valeur ? Quel outil ?"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Coûts élevés</strong> : Oui, si on compare un outil d'alignement de gouvernance à un logiciel collaboratif...c'est sûr. Sauf qu'en l'occurrence <strong>on touche à l'OS de votre boîte</strong> ! Et bien que la mise en place du PPM puisse impliquer des coûts initiaux, les avantages à long terme peuvent largement justifier ces investissements, notamment en termes d'amélioration de la performance, de réduction des coûts, de fidélisation des talents et d'<strong>alignement stratégique</strong> !",
+          "<strong>Résistance au changement</strong> : surtout, <strong>ne pas parler de changement</strong> ! Il est vrai que le changement peut être difficile à accepter pour certaines équipes, mais une communication claire et une formation adéquate peuvent aider à réduire la résistance et faciliter l'adaptation à la nouvelle approche de gouvernance. Changer, c'est exister demain ! Demandez à Kodak et BlackBerry ! (Sur ce point, on vous reccomande de jetter un clic sur la matrice de Knoster pour un changement réussi. cf le Blog Pro de la Transfo - article Pilotage de projet ce qui a changé en 2023).",
+          "<strong>Complexité accrue</strong> : Bien que le PPM puisse sembler complexe au premier abord, Au contraire <strong>prendre de la hauteur est un processus 100% naturel</strong>. Ce qui est complexe c'est de gérer les projets de façon micro ! Et, une fois le set up et les trois premières semaines passées, lorsque l'outil, les process et rôles sont en place, la gestion de projet peut elle aussi se simplifier, <strong>devenir plus efficace</strong> et être moins sujette à des erreurs et des retards.",
+          "<strong>Temps de mise en place</strong> : Bien que la mise en place du PPM puisse prendre du temps (compter 1 à 2 mois en moyenne), cela peut aider à établir une base solide pour une gestion de projet plus efficace et plus efficiente à long terme. <strong>Le fait d'y voir plus clair sur l'ensemble du processus et d'automatiser le reporting</strong> aux instances dirigeantes, permettra in fine de <strong>dépolluer vos chefs de projets</strong> avec certains chantiers toxiques et de leur <strong>dégager du temps</strong> de bande passante.",
+          "<strong>Adaptabilité</strong> : Bien que le PPM puisse ne pas être adapté à tous les types de projets, il peut être modulable pour s'adapter à différentes situations et contextes. On le répète, ce n'est <strong>pas réservé aux start-up, ETI et grands groupes</strong>, à partir du moment où vous êtes sur un marché et que vous <strong>faites des projets transverses, vous êtes concernés</strong> ! Quelque soit vos secteurs, tout le monde est concerné !",
+          "<strong>Perte de contrôle</strong> : là, on touche un point sensible ! Oui, en craquant les silos horizontaux et verticaux, certains chefs de projets <strong>\"barons\" vont perdre une partie de leur pouvoir</strong> au profit d'une <strong>activité mieux partagée</strong> avec les parties prenantes experts métiers, key users, directions générales et sponsors. Et bien que la gestion de projet soit centralisée à un niveau plus élevé, cela aidera à assurer une meilleure visibilité, une meilleure affectation des ressources et une meilleure coordination des projets, ce qui peut en fin de compte améliorer le contrôle et la gouvernance des projets.",
+          "<strong>Nécessité de changements organisationnels :</strong> Bien que le PPM puisse nécessiter des changements organisationnels importants, cela peut aider à aligner la gestion de projet sur la stratégie globale de l'entreprise et à améliorer la communication et la prise de décisions à tous les niveaux. Adopter une démarche de portefeuille de projets et l'un des logiciels compagnon est un pari. <strong>Le pari de faire grandir les collaborateurs et l'organisation.</strong>"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "retour-dexperience-sur-la-mise-en-place-de-la-fonction-pmo-bureau-des-projets-dans-une-structure-a-faible-maturite-projet",
+        "text": "Retour d'expérience sur la mise en place de la fonction PMO - Bureau des projets dans une structure à faible maturité projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettre en place une fonction PMO et un portfolio project management : par quoi commencer ? Comment passer du \"niveau de base\" au \"niveau intermédiaire\" de maturité ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Constance VIVIER, PMO, et membre de la communauté Pro de la Transfo, nous partage ici un bref retour d'expérience, plus d'un an après, de la mise en place d'un bureau des projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Adopter un langage commun"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout d'abord, il vous faudra <strong>poser le socle</strong> : créer ou formaliser un langage projet commun à toute l'entreprise, que ce soit le nom et l'objectif des livrables projets, des phases projets et des instances de gouvernance… Ce sera une bonne idée si vous co-construisez ce cycle de vie projet avec quelques personnes expérimentées. Pour le partager ensuite à l'ensemble de la communauté projets, la mise en place d'ateliers participatifs (sur le modèle de la Fresque du Climat où les participants re-construisaient le cycle projet et ses livrables, en étant guidés par le PMO) en a conquis plus d'un pour son côté ludique et qui \"décomplexifie\" le sujet. Ces \"Fresques\" sont aussi une façon de répondre aux interrogations des chefs de projets et de commencer à insuffler une nouvelle façon d'envisager les choses, en introduisant la gestion de PPM et la nécessaire priorisation des projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Instaurer des rituels"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du PMO doit s'instaurer progressivement et il peut s'incarner notamment par la mise en place de rituels, que ce soit des COPIL et/ou des points bilatéraux avec les chefs de projets. Il est important d'instaurer une fréquence ajustée aux besoins, mais suivie : cela donne le \"tempo\" à la communauté projet… qui peut d'ailleurs être restreinte dans un premier temps, puis s'agrandir de façon progressive en lien avec la maturité projet de l'entreprise. Tous ces rituels doivent être accompagnés du même objectif : apporter de la valeur, autrement le Chef de projet y viendra à reculons et le verra comme une simple perte de temps."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Formaliser les processus"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois ce socle établi, je me suis appuyée sur la démarche de management des processus de l'entreprise. J'ai formalisé et partagé le processus du pilotage du portefeuille de projets, afin de faire prendre connaissance aux parties prenantes du pourquoi, du comment, et du RACI de la mise en place du management de portefeuille projets, des différentes catégories de projets définies et leurs impacts (notamment en termes de reporting et gouvernance)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Après le processus, on enchaîne avec la rédaction et le partage de procédures, qui servent à éclairer des points bloquants pour l'ensemble de la communauté projets. Le rôle du PMO est parfaitement mis en lumière quand des façons de travailler sont clarifiées et que des problèmes sont résolus !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Normaliser les méthodes projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur la base de \"le PMO propose, les chefs de projets disposent\" (pour commencer), le PMO met à disposition de la communauté des modèles de livrables projets, à la fois pour faire gagner du temps aux chefs de projets, et pour faire monter en compétence l'ensemble du groupe, harmoniser les pratiques. Sur ce point des modèles de livrables, ne pas hésiter à faire du test&learn, et à co-construire avec des chefs de projets que vous savez déjà bien outillés sur l'un ou l'autre des pans de la gestion de projet. De même, pour normaliser les méthodes projets et le processus de PPM, <strong>outillez-vous.</strong>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644fbfd427c55157dd41691c_maturite%CC%81%20(3)-min.jpg",
+        "alt": "",
+        "caption": "Principes actifs à l'œuvre"
+      },
+      {
+        "type": "paragraph",
+        "html": "À la manière d'un sachet de thé dans de l'eau chaude, vous <strong>infusez progressivement dans l'entreprise la culture projet</strong>, de la gestion de projet au PPM, vers l'excellence opérationnelle. Prochaine étape ? Laisser infuser, ajouter un peu de lait et remuer pour atteindre le niveau avancé…"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-verdict-nattendez-pas-que-votre-entreprise-soit-mature-en-gestion-de-projet-pour-lancer-une-demarche-de-gestion-de-portefeuille-sinon-elle-ne-le-sera-jamais",
+        "text": "Le verdict : n'attendez pas que votre entreprise soit \"mature\" en gestion de projet pour lancer une démarche de gestion de portefeuille, sinon elle ne le sera jamais !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui, en matière de transformations et d'innovation managériale la structure agit sur la culture...et réciproquement."
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé, <strong>les processus de gouvernance et d'exécution sont différents ET complémentaires. Votre</strong> transformation mérite une démarche efficace !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien sûr, si rien n'est \"noir ou blanc\" en matière de conseils et de relations humaines. Il y a néanmoins des fondamentaux ! La performance, le gain de parts de marché, la coopération et les processus de décisions, d'investissement, de portefeuilles de projets ne <strong>sont pas réservés aux ETI</strong> !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Investir dans le but implémenter un bureau des projets / assorti de solutions type de gouvernance type PPM - PMO as a service est un effort qui permettra de <strong>structurer et amplifier une démarche déjà en place</strong> naturellement. Vos équipes pourront y voir clair en un coup d'œil, dégager un temps précieux sur leur plan de charge pour se focaliser sur ce qui compte : <strong>les relations et la bonne coopération transverse ! Faites vos choix ^^</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et pour creuser ce point clé, rendez-vous sur l'article \"<a href=\"/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers\">Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers\".</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "type": "blog",
+  "slug": "project-portfolio-management",
+  "iteration": 3,
+  "outcome": "FAIL",
+  "errors": [
+    {
+      "type": "structure",
+      "detail": "blocks must be an array"
+    }
+  ],
+  "result": {
+    "meta": {
+      "title": "Project portfolio management : le top 10 des bonnes pratiques",
+      "h1": "Project portfolio management : le top 10 des bonnes pratiques",
+      "description": "Découvrez les 10 bonnes pratiques de Project Portfolio Management (PPM) : redonner du sens, réduire les durées, redéfinir les rôles, créer des rituels, prioriser, cultiver la transparence et renforcer la culture de transformation.",
+      "publishedDate": "2023-03-01",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "1/3/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63977013ce0aa527482b769b_ppm-top1-bestpracice.jpg",
+        "alt": "Project portfolio management : le top 10 des bonnes pratiques"
+      }
+    },
+    "toc": [
+      {
+        "label": "1. Redonner du sens aux grands programmes de transfo dans votre Project Portfolio Management",
+        "href": "#1-redonner-du-sens-aux-grands-programmes-de-transfo-dans-votre-project-portfolio-management"
+      },
+      {
+        "label": "2. Réduire les durées des projets de votre portefeuille",
+        "href": "#2-reduire-les-durees-des-projets-de-votre-portefeuille"
+      },
+      {
+        "label": "3. Redéfinir les rôles de chaque membre",
+        "href": "#3-redefinir-les-roles-de-chaque-membre"
+      },
+      {
+        "label": "4. Créer des rituels pas des réunions !",
+        "href": "#4-creer-des-rituels-pas-des-reunions"
+      },
+      {
+        "label": "5. Définissez ce qui est vital ! Puis l'ordre d'exécution",
+        "href": "#5-definissez-ce-qui-est-vital-puis-lordre-dexecution"
+      },
+      {
+        "label": "6. Rendez bien visible tous les projets du portefeuille",
+        "href": "#6-rendez-bien-visible-tous-les-projets-du-portefeuille"
+      },
+      {
+        "label": "7. N'attendez pas d'être \"mature\" en gestion de projet pour moderniser votre gouvernance !",
+        "href": "#7-nattendez-pas-detre-mature-en-gestion-de-projet-pour-moderniser-votre-gouvernance"
+      },
+      {
+        "label": "8. Le changement c'est maintenant, ou pas !",
+        "href": "#8-le-changement-cest-maintenant-ou-pas"
+      },
+      {
+        "label": "9. Cultivez la transparence pour permettre à chacun de s'informer (efficacement) sur le portefeuille projet",
+        "href": "#9-cultivez-la-transparence-pour-permettre-a-chacun-de-sinformer-efficacement-sur-le-portefeuille-projet"
+      },
+      {
+        "label": "10. Renforcez (durablement) la culture de transformation dans votre organisation",
+        "href": "#10-renforcez-durablement-la-culture-de-transformation-dans-votre-organisation"
+      }
+    ]
+  }
+}

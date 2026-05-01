@@ -1,0 +1,393 @@
+{
+  "type": "blog",
+  "slug": "le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Suivi de projet : comment bien aligner les parties prenantes de vos projets ?",
+      "h1": "Suivi de projet : comment bien aligner les parties prenantes de vos projets ?",
+      "description": "Découvrez comment moderniser le suivi de projet et 5 leviers efficaces pour maintenir l'alignement durable des parties prenantes de vos projets de transformation.",
+      "publishedDate": "7/7/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "7/7/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea64583733b4c641cca17c_suivi-projet-alignement-parties-prenantes-min.jpeg",
+        "alt": "Suivi de projet : alignement des parties prenantes"
+      }
+    },
+    "toc": [
+      {
+        "label": "Rappel : qu'est-ce qu'un suivi de projet ?",
+        "href": "#rappel-quest-ce-quun-suivi-de-projet"
+      },
+      {
+        "label": "Le suivi de projet traditionnel s'occupe peu (ou mal) des parties prenantes",
+        "href": "#le-suivi-de-projet-traditionnel-soccupe-peu-ou-mal-des-parties-prenantes"
+      },
+      {
+        "label": "5 leviers (modernes) pour maintenir l'alignement des parties prenantes avec efficacité",
+        "href": "#5-leviers-modernes-pour-maintenir-lalignement-des-parties-prenantes-avec-efficacite"
+      },
+      {
+        "label": "À retenir",
+        "href": "#a-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>Pas de bonne exécution de stratégie sans l'adhésion de vos parties prenantes !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On va s'intéresser à des <strong>méthodes efficaces en gestion de projet moderne</strong> qui permettront à une équipe projet d'influencer positivement ses parties prenantes - et ce de façon durable !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>D'ailleurs, peut-être êtes-vous en train de vous demander : \"Mais pourquoi donc m'intéresserais-je à cet angle mort de la gestion de projet\" ? Parce que <strong>l'alignement de vos parties prenantes est une ressource critique</strong> ! Parce que votre projet mérite à chacune des étapes l'engagement constant fort de vos parties prenantes.<br><br>Oui : le budget et les efforts consentis par les membres de l'équipe très impliqués dans les tâches ont besoin du support et de l'alignement de personnes plus éloignées mais concernées, et ce de façon durable. Pour un avancement efficace l'enjeu est de conserver un bon niveau d'énergie, d'engagement autour de l'équipe de projet. Un véritable défi si on n'applique pas de solutions et méthodes de travail modernes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Focus ici sur le concept de suivi de projet</strong>, et cinq leviers pour moderniser cette démarche au sein de votre organisation.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "rappel-quest-ce-quun-suivi-de-projet",
+        "text": "Rappel : qu'est-ce qu'un suivi de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un rappel formation si vous arrivez de la planète \"je ne connais pas les projets\" : <strong>le </strong><a href=\"https://blog-gestion-de-projet.com/gestion-de-projet/controle-suivi-de-projet/\" target=\"_blank\"><strong>suivi de projet</strong></a><strong> a pour but de contrôler la bonne exécution</strong> selon le planning établi, la qualité attendue et que les ressources humaines, matérielles et financières sont bien respectées, ainsi que le statut des jalons. C'est un outil de contrôle et de validation. Il sert les objectifs du projet - vous avez donc de bonnes raisons de vous y attarder un instant.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Quant à elles, les parties prenantes, sont des personnes qui ont un intérêt quelconque dans le résultat de votre projet. Les personnes qui vont impacter ou être impactés dans la durée par le projet. Il y en a toujours plus qu'on ne pense ! Cette notion quelque peu vague recouvre des réalités bien différentes. Quand c'est flou, il y a un loup. À vous d'apporter de la précision. C'est un adage bien connu en gestion de projet !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour creuser le sujet, consulter notre <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\" target=\"_blank\">grand guide de la conduite de projet</a>.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-suivi-de-projet-traditionnel-soccupe-peu-ou-mal-des-parties-prenantes",
+        "text": "Le suivi de projet traditionnel s'occupe peu (ou mal) des parties prenantes"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "On est témoin depuis des années de projets qui, soit négligent leurs parties prenantes, soit à l'opposé sont écrasés par le poids de leurs parties prenantes.",
+          "Le processus de gestion de projet lui-même est l'objet d'écarts types énormes entre des organisations à forte culture projet, uniformisée et outillée, et celles plus informelles pseudo \"agiles\", voire toxiques pour une entreprise.",
+          "Il existe un \"fossé informationnel\" entre les managers de projet, la DG, l'équipe, et les parties prenantes internes et externes. Facteur aggravant : quand l'information parvient jusqu'aux parties prenantes, elle l'est rarement dans un vocabulaire inclusif, en français dans le texte. Car oui ça jargonne sec au sein de la tech ! Essayons de parler la même langue entre acteurs pour atteindre les mêmes objectifs.",
+          "Enfin, autour des projets eux-mêmes, il y a une tendance générale au désengagement dans les grandes entreprises."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "la-matrice-pouvoirinteret-des-parties-prenantes-est-elle-encore-adaptee",
+        "text": "La matrice Pouvoir/Intérêt des parties prenantes est-elle encore adaptée ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Parlons de la <em>stakeholder map</em>, cette méthode de cartographie des parties prenantes qui est enseignée dans les formations en gestion de projet. On nous apprend l'importance d'un plan de gestion pour situer les différents acteurs clés sur une matrice pouvoir d'influence / intérêt. C'est sans aucun doute une bonne base de réflexion pour formaliser votre stratégie, et n'oublier aucunes parties prenantes. Il y en a toujours plus qu'on ne pense ! Attention : chaque projet doit inclure tout le monde : fournisseurs et sous-traitants sont aussi des parties prenantes.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea63e4dc7075f6681ede9d_15acb6f3-77e2-429c-b54a-459a7ef33c96-min.png",
+        "alt": "Matrice impact parties prenantes",
+        "caption": "Matrice impact / parties prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Néanmoins, si on schématise volontairement, cette approche du plan projet sous-entend de focaliser son attention et sa communication sur les parties prenantes clés. Quelque part, c'est ne pas avoir compris l'évolution culturelle liée à la digitalisation des organisations. Une évolution qui à permis <strong>plus d'horizontalité dans les rapports en entreprise</strong>. Tout le monde compte. N'importe quel collaborateur doit pouvoir interagir sur le suivi d'avancement du projet à travers des moyens de communication variés.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Un point indispensable dans la transfo., ce sont les aspects de communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace. La transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque.",
+        "author": "Alexia Schmitt, Directrice de la Transformation et des Systèmes d'Information Centrimex — épisode 22 du Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "suivi-de-projet-larrivee-des-plateformes-change-la-donne",
+        "text": "Suivi de projet : l'arrivée des plateformes change la donne"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Fini le pilotage par email ou un blog projet !</strong> On a maintenant une gestion de projet augmentée. Rappelez-vous l'exemple de l'automobile, et des premiers régulateurs et limiteurs de vitesse. Ils se généralisent aujourd'hui ! Dans le suivi de projet, une modernisation des processus est en route. Ne doutons pas de ces mises à jour en cours. Et choisissons le meilleur assistant, la meilleure aide pour tous les membres de l'équipe.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c29a3937b20e00d9499c6c_tdb-airsaas.png",
+        "alt": "Capture écran AirSaas",
+        "caption": "Rejoignez les équipes projet / parties prenantes qui réussissent"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "5-leviers-modernes-pour-maintenir-lalignement-des-parties-prenantes-avec-efficacite",
+        "text": "5 leviers (modernes) pour maintenir l'alignement des parties prenantes avec efficacité"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'alignement ça ne se décrète pas...ça se construit pas à pas dans la sincérité et le respect mutuel. Chaque partie prenante peut ou pas faire le choix de s'aligner malgré les difficultés rencontrées - ou à cause d'elles. Pour nous faciliter la vie et trouver des pistes de solutions on a listé 5 leviers d'action. Découvrez ici notre sélection.</p>"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Établissez le \"pourquoi\" clair de chacun",
+          "Instaurez des rituels",
+          "Fixez la transparence à 100 %",
+          "Redonnez une direction claire ou tout le monde sera perdu !",
+          "Surprenez vos parties prenantes !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "1-etablissez-le-pourquoi-clair-de-chaque-partie-prenante",
+        "text": "1. Etablissez le \"pourquoi ?\" clair, de chaque partie prenante"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c6a5d78fedcc2b88c831b2_cercle-or-startwhy-airsaas.png",
+        "alt": "Le cercle d'or commencez par le pourquoi",
+        "caption": "Le cercle d'or commencez par le pourquoi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dès le cadrage du plan projet, vos premières consultations serviront à <strong>identifier le \"pourquoi\" clair de vos parties prenantes</strong>. Pourquoi veulent-elles être impliquées dans le projet ! Qu'est-ce qu'elles en attendent à titre personnel ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Grâce à cette étape vous comprendrez clairement ce qui est fondamental pour eux, leur \"mission\".</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Attention : de façon globale, ils sont sans doute OK avec les objectifs du projet. Creusez ! Car dans le détail ils peuvent vous dire \"non je n'aime pas vraiment ça\". Tout est normal. Ce qui est fondamental à ce stade, c'est de formaliser l'accord. Tous les chefs de projet le savent : ce qui n'est pas écrit n'existe pas. Cela fait partie des contraintes du métier. \"<strong>Factualisez\" et établissez ensemble, dans un accord collectif, les indicateurs à suivre tout au long du projet.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Enfin rappelons-le : après la discussion avec les dirigeants, pour une bonne mise en œuvre, menez cette démarche à tous les étages, et continuez avec toutes les parties prenantes de la transformation, pour réellement aligner l'ensemble de vos planètes de transfo. digitale.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le travail de cartographie matrice pouvoir/intérêt décrit ci-dessus vous servira utilement de point de départ pour travailler ce levier.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "2-instaurez-des-rituels-avec-vos-parties-prenantes",
+        "text": "2. Instaurez des rituels avec vos parties prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Connaissez-vous la différence entre un rituel et une habitude ? Le premier est pratiqué de façon \"choisie\", le second en mode \"automatique\" et parfois \"subie\".</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Soignez vos rituels</strong> avec les parties prenantes. Routines et rituels sont ce qui donnera le rythme !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Vous voulez sortir du \"désalignement\" chronique ? Insufflez le rythme dont le projet à besoin. <strong>Banalisez, crantez, \"sacralisez\" des rituels clairs dans les emplois du temps des parties prenantes.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Par exemple :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Tous les mardis</strong> : un point de synchronisation et de planification du projet d'une demi-heure",
+          "<strong>Tous les vendredis</strong>* : le flash report est envoyé automatiquement à toutes les parties prenantes de suivi du projet"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>* oui, oui, pas une fois tous les mois...!</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62bdfca88290d29985904cb5_report-flash.png",
+        "alt": "Flash rapport AirSaas",
+        "caption": "Le rapport flash automatique est votre meilleur allié vis-à-vis de vos parties prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Cela prendra du temps, certes - mais le jeu en vaut la chandelle. Quand vous êtes impliqué dans une œuvre, vous ne la critiquez plus de la même manière. Vous basculez dans la co-construction.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Allez au-delà de la simple écoute et répondez aux préoccupations ou aux griefs soulevés par les parties prenantes. <strong>Démontrez que vous êtes disposé à avoir une conversation</strong> et à vous engager dans une discussion significative sur les problèmes rencontré lors du suivi des projets.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Parce que la transformation c'est avant tout une aventure humaine, avoir une communication transversale est indispensable. Sinon, ça risque de piquer !</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "3-transparence-a-100-percent-engagement-a-100-percent",
+        "text": "3. Transparence à 100 % = engagement à 100 % !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Cette injonction à la transparence est sans doute la plus difficile à suivre. Et pourtant, elle est un vrai marqueur de respect. Elle renforcera la confiance, et donc l'engagement, des parties prenantes. Elle est l'une des recettes pour sortir du cercle vicieux : silos d'informations -> frustration -> désengagement. Finis, les reportings dans un logiciel de gestion de projet siloté et caché !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Soyez intransigeants : zéro conversation privée, pas de silos d'informations dans vos méthodes de management de projet. Rappelons-le : <strong>sans transparence pas d'engagement !</strong> Plus on met de barrières plus on essaye de cacher, plus ça se retourne contre nous. Rien de bon ne peut venir du manque de transparence vis-à-vis des parties prenantes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bien sûr, les informations sensibles sont des informations sensibles que vous mettez dans votre tiroir et que vous garderez sous clé. Mais <strong>essayez d'éviter les vides d'informations ou de communication où rien n'est dit à cause de la peur</strong>. Sinon, ce qui risque de se passer dans l'esprit des parties prenantes : ils s'inventent des histoires. Vous ne leur parlez pas du programme et de la façon dont il se déroule ? Ils se font leur propre version ! Et elle sera sans doute pire que la réalité. Rappelez-vous la nature à horreur du vide.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Soyez <strong>transparents avec les délais, la gestion des ressources, le tableau de bord, le budget, les outils de suivi, les données</strong> : c'est la seule façon d'établir la confiance.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si vous échouez faites savoir aux gens que vous échouez. Si vous ne savez pas ce que vous faites, faites savoir aux gens que vous ne savez pas ce que vous faites. C'est facile.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Il n'y a aucun projet qui se passe comme prévu ! Les directions générales apprécient la transparence. Ce qu'elles n'apprécient pas, c'est quand vous cachez quelque chose et que, trois ans plus tard, elles découvrent qu'il y a eu un écart dans la trajectoire.",
+        "author": "Thomas Vrignaud, CIO - CDO — épisode 14 du Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bonne nouvelle : à l'opposé des anciens outils de gestion de des tâches et de projets \"silotés\", avec AirSaas, vous pourrez assurer une transparence totale sur l'avancement des projets, les décisions, les objectifs, les moyens, les résultats !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Objectif : 100% de visibilité sur l'état de santé et le déroulement du projet.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "4-une-direction-claire-ou-tout-le-monde-sera-perdu",
+        "text": "4. Une direction claire, ou tout le monde sera perdu"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Donnez et <strong>rappelez le sens du projet dans la stratégie mise en place par l'entreprise.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Repartagez fréquemment au-delà de l'évolution du projet, la \"grande image\", le sens global de ce à quoi chacun contribue.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62714920747026c0d398526b_transformation.jpeg",
+        "alt": "programme versus projet",
+        "caption": "Une vision claire qui fera \"sens\" pour tous"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On l'a déjà dit au kick-off ? Oui, et de l'eau a coulé sous les ponts. Dans une époque de sur-information chronique, c'est plus que probable que beaucoup de vos parties prenantes aient oublié la moitié des informations clés sur le sens et la portée du projet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Quels sont les objectifs stratégiques auxquels le projet participe ? Dans quel programme de transformation s'insère-t-il ? Quelle est la valeur métier créée pour l'entreprise, ses clients ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bref : sortons la tête du guidon !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Confucius (encore lui !) le soulignait \"<em>Si vous ne savez pas où vous allez, n'importe quel chemin vous y mènera.</em>\" De la même manière, dans un programme de transformation, si vous n'avez pas de plan, vous allez suivre le plan de quelqu'un d'autre à la place !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La <a href=\"https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets\" target=\"_blank\">gestion de portefeuille de projets</a>, ou bien le <em>project management</em> seul, nécessitent des feuilles de routes collaboratives.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'objectif reste d'y voir clair dans la gestion de projets pour des décisions, priorisations par la valeur, par le collaboratif et en continu !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et rappelons-le : un écart dans la trajectoire, ça arrive tout le temps. Dans un monde mouvant, ce qui est important, c'est d'ajuster ! Les schémas directeurs à trois ans sont morts : vive les <em>rolling roadmaps</em> collaboratives qui s'actualisent tout en gardant le cap des objectifs.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "5-ajoutez-du-fun-surprenez-vos-parties-prenantes",
+        "text": "5. Ajoutez du fun, surprenez vos parties prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un projet de transformation bouscule les organisations les process, les habitudes... en dehors de vos réunions de suivi de projet, <strong>prenez soin de vos parties prenantes</strong> dans cette phase de transition.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À force de focaliser sur la gestion des risques, les objectifs, la valeur, on finit par oublier que nous avons tous en commun un grand besoin de variété, de plaisir, de créativité... Bref : variez les plaisirs ! Soyez authentiques et fun.</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Utilisez des outils visuels</strong> : des GIF et tous les \"artefacts\" légers",
+          "<strong>Renouvelez vos processus</strong> en puisant dans la panoplie des jeux agiles \"qui font le travail\"",
+          "<strong>Remercier chacune des parties prenantes</strong> du projet avec un cadeau à l'issue d'un grand jalon ou d'échéances importantes",
+          "<strong>Dépaysez le lieu du comité projet</strong>, son heure, son format...",
+          "<strong>Invitez des personnalités extérieures</strong> à l'entreprise*"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>* Tips de DSI :</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On peut parfois <strong>faire appel à des personnalités extérieures à l'entreprise</strong> afin de redonner du peps à la vision ou à l'exécution du projet, ou encore faire appel à des experts qui permettront de clarifier certains sujets et/ou à éliminer certains biais cognitifs potentiellement bloquants de certaines parties prenantes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Astuce à double tranchant cependant. Car l'\"invité surprise\" ponctuel peut arriver comme un \"cheveu sur la soupe\", c'est un élément perturbateur dont la valeur ajoutée est toute relative. Si c'est un expert, alors pourquoi ne pas lui demander de rédiger une note de recommandation sur un sujet précis et l'envoyer aux personnes concernées en amont de la réunion ? Bref : <strong>surprenez, innovez toujours avec modération et discernement !</strong></p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-retenir",
+        "text": "À retenir"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Au-delà donc du prérequis d'une cartographie dynamique des parties prenantes et des premiers leviers présentés, gardons bien en tête <strong>le côté humain et donc complexe, d'un projet de transformation.</strong> C'est ce qui en fait la saveur !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Vous avez toutes les clés pour vous appuyer sur vos parties prenantes ? Vous savez comment mettre en place une méthode pragmatique. Pour finir le geste, l'équipe Pro. de la Transfo. vous propose de découvrir un article spécial sur le <a href=\"/gestion-de-projet/plan-de-communication-projet\" target=\"_blank\">Plan de communication projet : comment éviter l'échec ?</a></p>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

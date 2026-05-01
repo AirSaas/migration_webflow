@@ -1,0 +1,13 @@
+{
+  "type": "blog",
+  "slug": "metier-pmo",
+  "iteration": 1,
+  "outcome": "API_ERROR",
+  "errors": [
+    {
+      "type": "api-error",
+      "detail": "fetch failed"
+    }
+  ],
+  "result": null
+}

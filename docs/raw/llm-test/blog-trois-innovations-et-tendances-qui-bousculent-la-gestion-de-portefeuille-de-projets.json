@@ -1,0 +1,416 @@
+{
+  "type": "blog",
+  "slug": "trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Trois innovations et tendances qui bousculent la gestion de portefeuille de projets",
+      "h1": "Trois innovations et tendances qui bousculent la gestion de portefeuille de projets",
+      "description": "Découvrez trois innovations majeures qui transforment la gestion de portefeuille de projets : interconnexion des outils via API, design UX/UI minimaliste, et IA au service du PPM.",
+      "publishedDate": "26/9/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "26/9/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330b49f2ea6e2c24bd35495_innovationPPM-Airsaas.jpg",
+        "alt": "Trois innovations et tendances qui bousculent la gestion de portefeuille de projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "PPM : trois innovations qui font la différence",
+        "href": "#ppm-trois-innovations-qui-font-la-difference"
+      },
+      {
+        "label": "À retenir : la technologie est une aide précieuse au pilotage du portefeuille de projets",
+        "href": "#a-retenir-la-technologie-est-une-aide-precieuse-au-pilotage-du-portefeuille-de-projets"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Dans une étude publiée à l'occasion du <strong>Program & Portfolio Management Summit en juin 2020, l'institut d'études </strong>Gartner annonçait que \"<em>d'ici 2030, 80 % des tâches relatives à la gestion de projet seront éliminées à mesure que l'intelligence artificielle prendra en charge les fonctions traditionnelles de cette discipline, telles que la collecte, le suivi et le reporting des données.</em>\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Gartner précisait sa prévision en ajoutant que « <strong><em>Le marché se concentrera d'abord sur l'offre d'avantages supplémentaires en termes d'expérience utilisateur</em></strong><em> pour les professionnels de la gestion de projet et, plus tard, les aidera à devenir de meilleurs planificateurs et gestionnaires</em> »."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà d'un effet d'annonce marketing <strong>qu'en est-il concrètement</strong> dans les pratiques en entreprise aujourd'hui ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>À quoi rêvent nos algorithmes ? ;</strong>-) Comment le management de l'innovation sera-t-il impacté par la technologie ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus en plus d'aspects de la gestion de projet seront réalisables par l'IA. Exemples : gestion des ressources et des coûts, tableaux de bord de reporting, détection des dérives dans le budget ou les plans, …"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article on va s'intéresser à une dimension concrète, <strong>en zoomant sur trois innovations autour des usages</strong> qui nous semble pertinentes."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le développement de l'usage des API </strong>pour une<strong> interconnexion </strong>toujours plus forte des outils de gestion de portefeuille de projets avec les écosystèmes applicatifs au sein de votre entreprise.",
+          "<strong>L'importance prise par le design des interfaces</strong> et la mobilité dans la conception des outils de portefeuille de projets",
+          "Et enfin les <strong>avancées technologique autour de l'IA</strong> avec l'automatisation, le data to texte, les analyse prédictive, le big data, les chatbots..."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Et, spoiler alerte ! On ne parlera<strong> pas que de très haute technologie </strong>mais également de ruptures d'usages. En particulier dans le second axe d'innovation lié au design des solutions de gestion de portefeuilles de projets actuelles."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Combler le gap entre vision et exécution</strong>. C'est la promesse des outils de gestion du portefeuille projets. ! Regardons de plus près <strong>ce qui peut contribuer à faciliter cette démarche </strong>!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PPM : trois innovations qui font la différence",
+        "id": "ppm-trois-innovations-qui-font-la-difference"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La tendance de fond : l'interconnexion des outils",
+        "id": "la-tendance-de-fond-linterconnexion-des-outils"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Les PPM innovants ne cherchent plus à tout faire tout seul !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les intégrations et les connexions SaaS se sont développées récemment, et les entreprises veulent un outil de portefeuilles de projets qui fonctionne avec leurs technologies existantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "En effet les différents métiers de l'entreprise ont leurs outils quotidiens préférés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Des outils comme Atlassian JIRA, Wrike, Microsoft Azure DevOps, Asana et Trello ont changé la façon dont les chefs de projets planifient, attribuent et partagent les actions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Des outils d'analyse commerciale comme Power BI et Tableau ont simplifié la création de tableaux de bords."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin des outils comme slack et teams ont contribué à fluidifier une partie de la communication au sein des organisations. En particulier depuis la pandémie."
+      },
+      {
+        "type": "paragraph",
+        "html": "Rappelons-le, il est inutile de mener une conduite du changement sur tous les fronts.<strong> L'interconnexion des outils à travers les API permettra de renforcer certains usages bien ancrés tout en profitant d'une vue macro</strong> via un outil de pilotage stratégique, comme AirSaas par exemple. :-)"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330adebae9a8fdcececfb9a_hub-airsaas.png",
+        "alt": "Votre hub opérationnel intégré à vos outils - Que ce soit avec vos outils de gestion de projet (Wrike,jira, Asana) ou avec vos outils de communication, Airsaas rassemble vos données projets",
+        "caption": "Votre hub opérationnel intégré à vos outils - Que ce soit avec vos outils de gestion de projet (Wrike,jira, Asana) ou avec vos outils de communication, Airsaas rassemble vos données projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans ce contexte de<strong> \"best of breed\"</strong> étendu. L'usage d'une <strong>solution macro</strong> interconnectée aux différents outils <strong>vous offrira le meilleur des différents usages</strong>. On parlera dans certains cas de \"logiciel parapluie\" pour décrire ce positionnement méta."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention toutefois, avec en quelque sorte une <strong>prolifération de saas disséminés</strong> un peu partout dans l'entreprise, il peut être <strong>utile</strong> de se<strong> poser régulièrement pour formaliser une charte des usages</strong> cibles de votre \"tooling\" saas interne. Pour l'instant le record connu est celui de 224 saas utilisés au sein de Doctolib. Source : Sébastien Louyot - Directeur IT Services - au sein de Doctolib lors de l'épisode 37 du Podcast CIO Révolution produit par AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au niveau du portefeuille. Concrètement cette approche permet la collecte, l'automatisation en temps réel et la synchronisation d'une plateforme avec votre écosystème de données."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au sein d'AirSaas vous pouvez par exemple :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Récupérer votre<strong> liste des projets </strong>avec leurs attributs",
+          "Ajouter le <strong>temps passé par équipe par projet</strong> sur vos projets AirSaas",
+          "Récupérer la<strong> liste des jalons</strong> d'un projet",
+          "Récupérer et modifier les<strong> budgets</strong> d'un projet",
+          "et d'autres à venir"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330af1ca49e6f569eb5ab29_api.png",
+        "alt": "API AirSaas",
+        "caption": "Mise en place API - Plateforme AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Dernière intégration en date au sein d'AirSaas : Teams",
+        "id": "derniere-integration-en-date-au-sein-dairsaas-teams"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Teams</strong> est devenu l'<strong>outil majeur de la communication interne </strong>au sein des entreprises."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Tous les collaborateurs </strong>de votre organisation <strong>ne disposent pas d'une licence AirSaas</strong> et vous avez néanmoins <strong>besoin d'embarquer les key user</strong> dans vos projets ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois Teams ajoutée à votre espace de travail AirSaas, vous pouvez <strong>connecter un projet au canal Teams de votre choix</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Concrètement une fois les deux applications \"branchées\", les posts importants de ce projet peuvent être poussés vers Teams (<strong>publication standard, points succès, points d'attention, décisions et comptes rendus</strong>). Les changements de<strong> statuts de décisions</strong>, de points d'attention, de météo et de risque aussi (seulement si un message y est associé)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le cadre de cette intégration AirSaas/Teams, vous aurez également <strong>la possibilité de récupérer la liste de vos décisions à prendre</strong> et <strong>prendre une décision dans un projet sans sortir de Teams</strong>. CQFD !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330af7fa49e6fb844b5d93b_AirSaas_bot-inte%CC%81gration-Teams-PPM.png",
+        "alt": "AirSaas / Teams screenshot récupération de décisions à prendre",
+        "caption": "Mise en œuvre de l'interconnexion AirSaas / Teams sur la récupération de décisions à prendre"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>outils PPM nouvelle génération</strong> permettent donc une meilleure i<strong>ntégration d'applications.</strong> Les applications intégrées ou synchronisées permettront à toutes les parties prenantes de mieux unir leurs forces sur des projets, fusionnant les intérêts et<strong> permettant</strong> que <strong>l'investissement technologique porte ses fruits</strong> en termes de parts de marché."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>intégrations</strong> sont essentielles car elles <strong>permettent d'automatiser certaines étapes</strong> et de se <strong>débarrasser de beaucoup d'erreurs </strong>que les gens commettent."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La tendance minimalisme & design UX et UI fortes au service de l'expérience collaborateur",
+        "id": "la-tendance-minimalisme-and-design-ux-et-ui-fortes-au-service-de-lexperience-collaborateur"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330b05ed3c66e1cb85fb535_kiss.png",
+        "alt": "Simplicité",
+        "caption": "L'un des meilleurs conseils produigué :-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Les PPM innovants donnent envie aux métiers de passer du temps sur l'outil !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Inviter les métiers, référents transformations à contribuer dans un ERP, un fichier excel ou gantt..c'est fini. <strong>Les UI au top</strong> sont un must have."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous voulez donner envie... Offrez une solution innovante sur cet axe également. <strong>Placez ce critère en bonne place dans votre grille de choix</strong>. Encore une fois, ce n'est pas la couverture fonctionnelle de l'outil qui compte....c'est son<strong> adoption la plus large !</strong> L'objectif est bien de faciliter la remontée et circulation d'information par différentes tactiques, et notamment en donnant envie aux utilisateurs de \"jardiner\" leurs données régulièrement."
+      },
+      {
+        "type": "quote",
+        "text": "Quand on bascule dans le digital, on doit forcément faire attention au parcours utilisateur. L'ergonomie est beaucoup plus importante que dans un système SAP. On va s'intéresser en détail sur les méthodes de travail des utilisateurs et essayer de savoir comment l'outil qu'on va lui proposer va être efficace pour que cela améliore son travail au quotidien. Un utilisateur qui n'a plus besoin de faire d'effort pour utiliser ses outils peut se concentrer sur autre chose : il gagne donc forcément en productivité !",
+        "author": "Emmanuelle Courtois",
+        "caption": "DSI du Siège de Danone - episode 23 Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur ce thème du minimalisme, n'oublions pas l'importance du mobile !"
+      },
+      {
+        "type": "paragraph",
+        "html": "CNBC rapporte que 72,6% des personnes utiliseront des téléphones pour accéder à Internet d'ici 2025."
+      },
+      {
+        "type": "paragraph",
+        "html": "Alors que le digital devient \"mobile first\". Cela soulève des enjeux de conception, comme la création d'interfaces light et responsive adaptées à ces nouveaux usages."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'avez compris, <strong>le minimalisme </strong>dans la gestion de portefeuille projet<strong> est tendance </strong>!"
+      },
+      {
+        "type": "paragraph",
+        "html": "Citons par exemple la montée en puissance du <a href=\"https://www.airsaas.io/fr/gestion-de-projet/lean-portfolio-management\" target=\"_blank\">Lean Portfolio management (LPM)</a> qui illustre cette recherche de sobriété...buzzword du moment."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin,<strong> l'innovation</strong> dans le champ de l'expérience utilisateur / collaborateur <strong>passera également par la façon dont l'éditeur opère sa communication vis-à-vis des communautés</strong> d'utilisateurs. Proposer un espace ouvert permettant d'interagir sur les différentes features actuelles ou à venir. Disposer de <strong>courtes vidéos</strong> centrées sur les usages clés...tout cela n'est pas une innovation technologique. Mais apporte une <strong>rupture d'usage</strong> avec une démarche produit ouverte. Pour toujours plus d'appropriation des parties prenantes. Là encore, vous l'aurez compris ce critère discret est à prendre en compte. Oui un PPM peut avoir une UX au top et une communication produits efficiente !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'innovation c'est parfois simple !",
+        "id": "linnovation-cest-parfois-simple"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un exemple : le jour où une célèbre marque de ketchup a proposé de simplement retourner la bouteille pour la poser sur la table vers le bas...tout le monde à suivi. Mais au-delà de l'anecdote, l'usage de ces bouteilles mieux adaptées au contexte des consommateurs a explosé ! <strong>C'est ce qui est en jeu dans l'innovation en gestion de portefeuille : l'adoption</strong> au-delà de l'IT, par le reste de l'entreprise et de ses métiers !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330b0f2b1374a72fd673af5_ui%20ux%20.jpeg",
+        "alt": "UI / UX",
+        "caption": "R&D simple pour une innovation dans les pratiques des utilisateurs"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La tendance \"algo & robots\" : automatisations, hyperpersonnalisation et IA au service du management de portefeuille de projets",
+        "id": "la-tendance-algo-and-robots-automatisations-hyperpersonnalisation-et-ia-au-service-du-management-de-portefeuille-de-projets"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6330b12910aaa100159ee0f6_image.png",
+        "alt": "Dessin d'humour ROBOTS en entreprise",
+        "caption": "Accélération digitale / Transformation et changement sont le quotidient des organisations"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'intelligence artificielle (IA) renvoie à \"une application capable de traiter des tâches qui sont, pour l'heure, réalisées de manière plus satisfaisante par des êtres humains dans la mesure où elles impliquent des processus mentaux de haut niveau comme l'apprentissage perceptuel, l'organisation de la mémoire et l'esprit critique\". C'est ainsi que le scientifique américain Marvin Lee Minsky, considéré comme le père de l'IA, a défini ce concept en 1956."
+      },
+      {
+        "type": "paragraph",
+        "html": "Alors que bon nombre de ces fonctionnalités sont disponibles depuis des années (le concept remonte à près de quatre décennies), les avancées technologiques récentes permettent de disposer de meilleurs outils d'assistance au pilotage de transformation."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Exemple 1 : L'IA en mode assistant, avec Les technologies de génération de textes",
+        "id": "exemple-1-lia-en-mode-assistant-avec-les-technologies-de-generation-de-textes"
+      },
+      {
+        "type": "paragraph",
+        "html": "La génération de texte est l'<strong>une des tendances actuelles du machine learning</strong>. Les systèmes d'IA qui apprennent en absorbant des milliards de mots extraits d'internet et génèrent du texte en réponse à diverses requêtes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Concrètement il s'agit ici<strong> d'aider les utilisateurs sur la génération de contenus</strong>. Car oui tout le monde n'aime pas rédiger ou n'a pas toujours envie de prendre le temps."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les technologies de génération de textes sont entre autres basées sur <strong>GPT 3, l'algorithme d'open AI</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "On est ici sur <strong>une IA qui aidera à grandir dans la compétence</strong>. On peut par exemple citer les fonctions de détection de tonalité dans les messages qui peuvent suggérer d'autres options aux rédacteurs."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Exemple 2 : Génération de reporting décisionnel automatique",
+        "id": "exemple-2-generation-de-reporting-decisionnel-automatique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Chez AirSaas nous proposons un<strong> tableau de bord automatisé</strong>, <strong>réduisant</strong> considérablement <strong>les frais</strong> généraux <strong>liés aux reportings manuels</strong>. L'équipe de management et toutes les parties prenantes ont les données à portée de main pour prendre des décisions en temps réel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette approche permet d'<strong>automatiser de manière intelligente</strong> la <strong>collecte</strong> des informations dont vous avez besoin pour <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\" target=\"_blank\">élaborer votre <strong>reporting</strong></a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>La collecte, l'analyse et la communication de données</strong> représentent une grande partie de la discipline du PPM.<strong> L'IA améliorera les résultats de ces tâches</strong>, y compris la capacité d'analyser les données plus rapidement que les humains et d'utiliser ces résultats pour améliorer les performances globales."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les projets reposent sur de grands ensembles de données d'informations structurées. Jusqu'à récemment, les data scientists devaient « connecter les points » manuellement. Pas étonnant que l'intelligence artificielle atteigne la gestion au niveau du portefeuille."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Citons également le usecase d'alerting</strong> quand quelque chose risque de mal tourner dans le projet. Par exemple <strong>l'alerte des interdépendances automatiques</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Après la collecte, l'automatisation des envois de reporting est également une fonctionnalité \"nice to have\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien sûr tout cela ne remplace pas un comité projet ou de direction....Nous ne disons pas cela. Par contre, bien utilisées, ces diverses automatisations <strong>permettent de dégager du temps aux chefs de projets</strong>....Et en prime...plus personne ne pourra dire \" je ne savais pas !\"."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "À retenir : la technologie est une aide précieuse au pilotage du portefeuille de projets",
+        "id": "a-retenir-la-technologie-est-une-aide-precieuse-au-pilotage-du-portefeuille-de-projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous venons de balayer trois des innovations technologiques et d'usages qui<strong> bousculent la gestion de portefeuille projets</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les promesses de l'IA comme assistant au pilotage sont en passe d'être tenues."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Des services d'assistance de haute qualité</strong> tels que des chatbots et d'autres assistants automatisés peuvent alléger votre charge de travail.",
+          "<strong>Le traitement du langage naturel</strong> (NLP) et la commande vocale simplifient les logiciels",
+          "L'équation magique pour réussir votre transformation avec des outils de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/management-de-portefeuille-de-projet\" target=\"_blank\">management de portefeuille de projet</a> est : <strong>Experience utilisateur + Automatisation x Service </strong>!"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "N'oublions pas néanmoins que <strong>le plus gros changement est humain</strong>. Et c'est une autre histoire que nous vous proposerons dans un prochain article du blog Pro de la Transfo. !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ceci étant, en guise de teasing, nous terminons cet article sur <strong>une ouverture vers deux macros tendances</strong> <strong>organisationnelles </strong>à considérer dès aujourd'hui dans le design de votre stratégie de transformation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'informatique dirigée par l'entreprise",
+        "id": "linformatique-dirigee-par-lentreprise"
+      },
+      {
+        "type": "paragraph",
+        "html": "La décentralisation de l'informatique est en marche. L'informatique dirigée par l'entreprise - où les employés, et non l'informatique, décident de la technologie à utiliser - promet de rendre les travailleurs plus productifs, de réagir plus rapidement aux conditions du marché et d'augmenter la satisfaction au travail. Les entreprises peuvent se préparer à cette tendance en adoptant des politiques pour gouverner et sécuriser la technologie acquise via un processus d'achat décentralisé plutôt qu'un processus de type command & contrôle ignorant le shadow it et la décentralisation en marche."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Vers un modèle de gestion de portefeuille adaptatif axé sur la création de valeur",
+        "id": "vers-un-modele-de-gestion-de-portefeuille-adaptatif-axe-sur-la-creation-de-valeur"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'idée est de se concentrer sur <strong>la transformation de l'organisation de \"Projets\" en \"Produits\"</strong>, car les projets sont toujours en retard, tandis que les produits sont publiés en continu."
+      },
+      {
+        "type": "paragraph",
+        "html": "De nombreuses organisations ont « flirté » avec le PPM. Ils ont essayé des évaluations numériques ou mesurées formelles pour la sélection et la hiérarchisation des projets, puis les ont rapidement rejetées comme étant rigides, chronophages ou fournissant des résultats erronés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <strong>PPM \"à papa\" cède progressivement la place à un outil PPM nouvelle génération </strong>avec une gestion de portefeuille allégée avec ses flux de valeur qui semblent être le prochain \"big thing\" ou une super tendance dans la gestion au niveau du portefeuille. Les flux de valeur sont de grandes « équipes » - capables de se former, de s'organiser et apparemment de prendre de meilleures décisions au niveau du portefeuille dans une course pour fournir plus de valeur plus rapidement."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

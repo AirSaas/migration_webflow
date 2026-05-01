@@ -1,0 +1,429 @@
+{
+  "type": "blog",
+  "slug": "pourquoi-vos-18-millions",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-vos-18-millions-dinvestissements-de-transformation-ne-produisent-que-30percent-des-resultats-attendus",
+        "text": "Pourquoi vos 18 millions d'investissements de transformation ne produisent que 30% des résultats attendus"
+      },
+      {
+        "type": "paragraph",
+        "html": "Septembre 2025. Vous sortez de votre revue budgétaire annuelle avec un constat qui vous glace le sang."
+      },
+      {
+        "type": "paragraph",
+        "html": "18 millions d'euros investis dans la transformation business, l'optimisation des processus, la modernisation du SI. Trois ans de projets stratégiques. Des équipes mobilisées. Des consultants payés au prix fort."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le résultat ? 30% des objectifs atteints. 70% de gaspillage organisé."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous n'êtes pas seuls. Dans les couloirs des ETI françaises, le même aveu circule en off : \"Nos transformations n'aboutissent jamais vraiment.\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Pourtant, ce n'est pas faute de vision. Ni de budget. Ni même de talents."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le problème est ailleurs. Plus profond. Plus structurel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il se niche dans cette incapacité collective à synchroniser l'ambition stratégique avec la réalité opérationnelle. Dans cette désynchronisation chronique entre ce que le COMEX décide en janvier et ce que les équipes peuvent vraiment livrer en décembre."
+      },
+      {
+        "type": "quote",
+        "text": "On pilote nos projets stratégiques comme si on dirigeait encore une PME de 50 personnes. Avec les mêmes outils, les mêmes réflexes, le même tempo. Sauf qu'on fait 500 millions de CA et qu'on a 3000 salariés.",
+        "author": "DG, groupe serviciel"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les entreprises de taille intermédiaire naviguent aujourd'hui dans un monde que même les meilleurs dashboards n'avaient pas anticipé. Un monde où les marges se réduisent plus vite que les arbitrages, où les transitions numériques et environnementales convergent sans coordination, où les cycles politiques raccourcissent et les réglementations se multiplient."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette tribune n'est pas un plaidoyer pour un outil de plus. C'est un constat partagé par des dirigeants lucides : le problème n'est pas la vision, c'est le rythme."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "lillusion-du-pilotage-strategique",
+        "text": "L'illusion du pilotage stratégique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans de nombreuses ETI, la gouvernance repose sur une conviction rassurante mais dangereuse : suivre six projets stratégiques, c'est piloter l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le DG présente sa matrice. Le DAF détaille ses points mensuels. Le DSI expose son backlog. Le Chief of Staff fait la synthèse. Tout semble maîtrisé."
+      },
+      {
+        "type": "quote",
+        "text": "Je croyais avoir la main sur nos transformations. En réalité, je ne gérais qu'une vitrine, pas la réalité opérationnelle.",
+        "author": "DG, groupe technologique, 1 400 salariés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Car derrière ces quelques projets \"visibles\", se cache une tout autre réalité :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "40 à 80 initiatives réellement actives dans l'organisation",
+          "Des interdépendances entre directions totalement invisibles au COMEX",
+          "Des arbitrages systématiquement reportés ou contournés",
+          "Une incapacité collective à évaluer le coût réel du portefeuille"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Quand j'ai voulu connaître le nombre exact de projets en cours, il a fallu 3 semaines pour établir une liste fiable. Trois semaines dans une organisation de 2 100 personnes.",
+        "author": "Chief Transformation Officer"
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #1",
+        "html": "👉 Se concentrer sur les seuls projets \"phares\" sans vision globale, c'est piloter en regardant uniquement le rétroviseur."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #2",
+        "html": "👉 Le vrai risque stratégique ne vient jamais de ce qu'on surveille, mais de ce qu'on a cessé de regarder."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68caf865243ab3a0272c602a_Pourquoi%20vos%2018%20millions-image%201-min.jpg",
+        "alt": "L'illusion du pilotage stratégique"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "crm-finance-data-pourquoi-la-gouvernance-projet-est-restee-a-lage-des-powerpoint",
+        "text": "CRM, finance, data… pourquoi la gouvernance projet est restée à l'âge des PowerPoint"
+      },
+      {
+        "type": "paragraph",
+        "html": "Prenez du recul sur vos outils de pilotage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour vos ventes, vous disposez d'un CRM moderne : pipelines en temps réel, taux de conversion, forecasts actualisés quotidiennement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour vos finances, vous pilotez avec des BI consolidées, des reportings automatisés, des KPI fiables qui donnent le pouls de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et pour vos projets de transformation – ceux qui déterminent votre compétitivité future ? Vous avez des PowerPoint et des tableaux Excel partagés."
+      },
+      {
+        "type": "quote",
+        "text": "Nous gérons nos projets stratégiques avec les mêmes méthodes qu'en 2004. PowerPoint pour présenter, Excel pour calculer, réunions pour arbitrer. C'est aberrant.",
+        "author": "COO, ETI de services, 1 900 salariés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pendant que toutes les fonctions support ont opéré leur révolution digitale, la gouvernance projet est restée artisanale :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Aucune vision centralisée du portefeuille réel",
+          "Pas de suivi partagé des capacités ou de la charge",
+          "Des estimations de livrables approximatives, souvent déconnectées des réalités terrain"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le contraste est saisissant : ces mêmes entreprises qui traquent chaque euro de CA et analysent chaque conversion client naviguent à vue sur leurs investissements les plus structurants."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #3",
+        "html": "👉 La maturité projet des ETI accuse 15 ans de retard sur leur maturité commerciale. Paradoxal quand l'avenir se joue sur leur capacité à se transformer."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #4",
+        "html": "👉 Piloter sans visibilité sur les dérives de planning et de ressources, c'est programmer ses échecs en silence."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-mal-invisible-des-comex-quand-chacun-vit-dans-sa-propre-temporalite",
+        "text": "Le mal invisible des COMEX : quand chacun vit dans sa propre temporalité"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un autre fléau ronge les directions d'ETI : l'asynchronisme décisionnel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Autour de la même table, quatre univers temporels coexistent sans jamais se rencontrer :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le DG projette sa vision à horizon 2028 : marchés, capitaux, disruptions",
+          "Le DAF raisonne au trimestre : marges, budgets, arbitrages financiers",
+          "L'IT oscille entre l'urgence hebdomadaire : incidents, bugs, maintenance",
+          "Le terrain vit l'immédiateté quotidienne : clients, commandes, réclamations"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Nous partageons la même stratégie, mais nous ne vivons pas au même rythme. Résultat : nous n'avançons jamais vraiment ensemble.",
+        "author": "CIO, industrie, 2 200 salariés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Face aux blocages, les réflexes sont prévisibles :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Formation d'une task force \"projet critique\"",
+          "Mise en place d'un \"pilotage renforcé\"",
+          "Attente passive que la prochaine crise force les décisions"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette cacophonie temporelle explique pourquoi tant de transformations s'enlisent. Pas par manque de vision ou de moyens, mais par incapacité à créer un tempo commun d'exécution."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les équipes courent dans des directions alignées, mais à des vitesses incompatibles."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #5",
+        "html": "👉 Dans les COMEX d'ETI, le vrai problème n'est pas le désaccord stratégique, mais le décalage temporel structurel."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #6",
+        "html": "👉 Sans rythme d'exécution partagé, la meilleure stratégie se transforme en catalogue de bonnes intentions."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68caf8c6e6ba82688dd64848_Pourquoi%20vos%2018%20millions-image%202-min.jpg",
+        "alt": "Le mal invisible des COMEX"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-quarter-plan-la-solution-qui-reconcilie-vision-et-execution",
+        "text": "Le quarter plan : la solution qui réconcilie vision et exécution"
+      },
+      {
+        "type": "paragraph",
+        "html": "Face à cette désynchronisation chronique, une pratique gagne du terrain dans les COMEX les plus matures : le quarter plan."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention : il ne s'agit pas d'un énième comité de pilotage trimestriel. La différence est fondamentale."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un COPIL classique regarde dans le rétroviseur : \"Où en sommes-nous ? Pourquoi ce retard ?\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Le quarter plan regarde l'horizon : \"Que pouvons-nous réellement accomplir dans les 90 prochains jours avec nos ressources actuelles ?\""
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est une discipline de gouvernance qui impose un nouveau rythme organisationnel, centré sur deux piliers :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Vision capacitaire : évaluation honnête de ce que chaque direction peut absorber comme charge de travail",
+          "Arbitrage prospectif : choix assumés sur ce qui entre dans le trimestre et ce qui en sort"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le principe : tous les 90 jours, trois exercices non négociables : ✅ Revue exhaustive du portefeuille réel de projets ✅ Évaluation des capacités disponibles par direction ✅ Arbitrages assumés : ce qui avance, ce qui ralentit, ce qui s'arrête"
+      },
+      {
+        "type": "quote",
+        "text": "Notre premier quarter plan a été un électrochoc. 30% de nos projets ont été abandonnés séance tenante. Des projets que personne n'osait remettre en question depuis des mois.",
+        "author": "DAF, BTP, 2 400 salariés"
+      },
+      {
+        "type": "quote",
+        "text": "Nous ne nous alignons plus seulement sur ce qu'il faut faire, mais sur ce que nous pouvons réellement accomplir dans les 90 jours qui viennent.",
+        "author": "Chief of Staff, retail, 1 800 salariés"
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #7",
+        "html": "👉 Dans le contexte économique actuel, réduire le gaspillage des ressources internes est devenu un impératif de survie."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #8",
+        "html": "👉 Le quarter plan ne contraint pas la stratégie : il la rend enfin exécutable."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "ce-que-changent-les-comex-qui-passent-a-90-jours",
+        "text": "Ce que changent les COMEX qui passent à 90 jours"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les directions générales qui ont basculé en quarter plan observent trois mutations profondes dans leur mode de fonctionnement :"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Révolution dans la priorisation</strong> : fini les débats interminables sur les projets \"moyennement prioritaires\". La contrainte temporelle force les décisions. Un projet est soit dans le trimestre, soit il ne l'est pas."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Transformation des arbitrages</strong> : le périmètre des projets s'adapte désormais aux ressources disponibles, et non l'inverse. Le scope creep – cette dérive naturelle qui fait grossir les projets – devient enfin maîtrisable."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Synchronisation organisationnelle</strong> : toutes les directions fonctionnent sur la même cadence. Un calendrier unique remplace la cacophonie des plannings individuels."
+      },
+      {
+        "type": "quote",
+        "text": "Nous n'avons pas supprimé nos comités de pilotage. Nous les avons rendus enfin utiles : ils servent à décider, plus seulement à constater.",
+        "author": "COO, ETI logistique, 1 600 salariés"
+      },
+      {
+        "type": "quote",
+        "text": "Depuis l'adoption de ce rythme trimestriel, nos projets souffrent moins de dérives de périmètre et génèrent plus d'impact business. Nos directions métiers le reconnaissent.",
+        "author": "CIO, santé, 2 900 salariés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le quarter plan révèle une vérité managériale : la contrainte temporelle libère la décision."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #9",
+        "html": "👉 Le quarter plan n'améliore pas mécaniquement vos projets. Il transforme votre COMEX en véritable instance de pilotage."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight #10",
+        "html": "👉 Savoir dire \"non\" au bon moment vaut toutes les roadmaps du monde."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-vrai-pouvoir-des-comex-en-2026-le-tempo",
+        "text": "Le vrai pouvoir des COMEX en 2026 ? Le tempo."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'époque de la gouvernance d'apparat est révolue."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les plans stratégiques triennaux, les roadmaps ambitieuses et les six projets phares du DG ne suffisent plus à naviguer dans la complexité actuelle."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce qui séparera demain les ETI performantes de celles qui stagnent ne sera ni leur capacité d'investissement, ni leur sophistication technologique, mais leur maîtrise du rythme organisationnel."
+      },
+      {
+        "type": "paragraph",
+        "html": "La différence se joue dans cette capacité collective à synchroniser vision stratégique et exécution opérationnelle, à ajuster en continu sans perdre le cap."
+      },
+      {
+        "type": "quote",
+        "text": "Un COMEX qui ne maîtrise pas son tempo, c'est comme un orchestre symphonique où chaque musicien jouerait dans sa propre partition. Individuellement, chacun excelle. Collectivement, c'est la cacophonie.",
+        "author": "CIO, groupe industriel, 1 700 salariés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les ETI qui s'imposeront dans les années à venir seront celles qui auront compris cette évidence : dans un environnement volatil, la vraie compétence stratégique n'est pas de prévoir l'imprévisible, mais de s'adapter rapidement quand l'imprévu survient."
+      },
+      {
+        "type": "insight-callout",
+        "label": "🧠 Insight final",
+        "html": "👉 Dans un monde en perpétuelle mutation, le véritable luxe managérial n'est plus d'avoir une stratégie parfaite. 👉 C'est d'avoir une stratégie que l'on peut réajuster intelligemment tous les 90 jours."
+      }
+    ],
+    "meta": {
+      "title": "Pourquoi vos millions de transformation s'évaporent : le vrai pouvoir est dans le tempo",
+      "h1": "Pourquoi vos millions de transformation s'évaporent : le vrai pouvoir est dans le tempo",
+      "description": "Pourquoi 70% des budgets de transformation des ETI partent en fumée ? Découvrez comment le quarter plan réconcilie vision stratégique et exécution.",
+      "publishedDate": "17/9/2025",
+      "author": {
+        "name": "",
+        "category": "Gestion de projets",
+        "publishedDate": "17/9/2025"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68d2911114f69523913f12f5_Pourquoi%20vos%2018%20millions.jpg",
+        "alt": "Pourquoi vos 18 millions de transformation"
+      }
+    },
+    "toc": [
+      {
+        "label": "Pourquoi vos 18 millions d'investissements de transformation ne produisent que 30% des résultats attendus",
+        "href": "#pourquoi-vos-18-millions-dinvestissements-de-transformation-ne-produisent-que-30percent-des-resultats-attendus"
+      },
+      {
+        "label": "L'illusion du pilotage stratégique",
+        "href": "#lillusion-du-pilotage-strategique"
+      },
+      {
+        "label": "CRM, finance, data… pourquoi la gouvernance projet est restée à l'âge des PowerPoint",
+        "href": "#crm-finance-data-pourquoi-la-gouvernance-projet-est-restee-a-lage-des-powerpoint"
+      },
+      {
+        "label": "Le mal invisible des COMEX : quand chacun vit dans sa propre temporalité",
+        "href": "#le-mal-invisible-des-comex-quand-chacun-vit-dans-sa-propre-temporalite"
+      },
+      {
+        "label": "Le quarter plan : la solution qui réconcilie vision et exécution",
+        "href": "#le-quarter-plan-la-solution-qui-reconcilie-vision-et-execution"
+      },
+      {
+        "label": "Ce que changent les COMEX qui passent à 90 jours",
+        "href": "#ce-que-changent-les-comex-qui-passent-a-90-jours"
+      },
+      {
+        "label": "Le vrai pouvoir des COMEX en 2026 ? Le tempo.",
+        "href": "#le-vrai-pouvoir-des-comex-en-2026-le-tempo"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

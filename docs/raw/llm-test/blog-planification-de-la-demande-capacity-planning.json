@@ -1,0 +1,271 @@
+{
+  "type": "blog",
+  "slug": "planification-de-la-demande-capacity-planning",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Si vous gérez des projets IT ou métiers, vous avez forcément entendu parler de planification de la demande et de capacity planning. Deux concepts souvent confondus, alors qu'ils répondent à des enjeux bien distincts."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'un côté, <strong>la planification de la demande</strong> consiste à lister et prioriser tout ce que l'entreprise veut faire : nouvelles fonctionnalités, évolutions, projets stratégiques..."
+      },
+      {
+        "type": "paragraph",
+        "html": "De l'autre, <strong>le Capacity Planning</strong> vise à s'assurer qu'on a les ressources nécessaires (humaines, techniques, budgétaires) pour les réaliser."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et c'est là que ça coince souvent."
+      },
+      {
+        "type": "paragraph",
+        "html": "Beaucoup d'entreprises passent du temps à définir leurs demandes, mais sans vérifier si elles sont réalistes en fonction des capacités disponibles. Résultat : des roadmaps intenables, des équipes en surcharge et des arbitrages faits dans l'urgence. À l'inverse, certaines sociétés sont focalisées sur leurs contraintes de ressources sans avoir une vision claire des besoins métiers, ce qui mène à une sous-exploitation des équipes et un manque de valeur créée."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu est donc d'équilibrer ces deux approches : faire coïncider ce que l'on veut faire avec ce que l'on peut réellement faire. C'est ici qu'intervient un bon cadre de gouvernance, avec des outils adaptés pour piloter à la fois la demande et la capacité."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article, on va voir <strong>les différences fondamentales entre planification de la demande et Capacity Planning</strong>, pourquoi elles sont indissociables, et surtout comment les intégrer intelligemment pour éviter de tomber dans le piège des projets irréalisables ou des équipes surchargées."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-que-la-planification-de-la-demande",
+        "text": "Qu'est-ce que la planification de la demande ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "On appelle \"planification de la demande\" (ou parfois \"gestion de la demande\") un processus qui vise à <strong>prévoir la demande future de l'entreprise en projets</strong>. Ses objectifs principaux : répondre à la demande des clients (externes comme internes), et favoriser la transformation et l'innovation au sein de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "En somme, la planification de la demande consiste à récolter les besoins futurs de l'entreprise en termes de produits, de services ou de features. Elle vous permet de canaliser les projets entrants, pour être sûr de ne vous lancer que dans les initiatives qui ont de réelles chances d'aboutir."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67d14a18d038eb3653397ab8_gestion-de-la-demande-airsaas.png",
+        "alt": ""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-que-le-capacity-planning",
+        "text": "Qu'est-ce que le Capacity Planning ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "On appelle Capacity Planning, ou plan capacitaire, le processus de <strong>planification des ressources nécessaires pour répondre à des besoins déjà identifiés</strong>. L'objectif de la planification de la capacité est de s'assurer que la capacité disponible est suffisante pour répondre à la demande."
+      },
+      {
+        "type": "paragraph",
+        "html": "En somme, un Capacity Planning consiste à évaluer et optimiser les ressources disponibles (humaines et financières) pour répondre efficacement à la demande existante ou prévue."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67d14a39b4b35c1d21be0f8f_suivi-capacitaire.png",
+        "alt": ""
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour creuser le sujet, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/capacity-planning-definition\">rendez-vous sur notre article \"Capacity Planning : définition et principes de base\"</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-differences-cles-entre-planification-de-la-demande-et-capacity-planning",
+        "text": "Les différences clés entre planification de la demande et capacity planning"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "des-objectifs-differents",
+        "text": "Des objectifs différents"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout d'abord, on n'utilise pas ces deux méthodologies pour les mêmes raisons."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'un côté, la planification de la demande vise à <strong>anticiper les besoins</strong> des différentes parties prenantes de l'entreprise. L'accent est donc mis sur la prévision de ces besoins, grâce à une analyse des tendances historiques et des comportements des clients, mais aussi une récolte des attentes des différents acteurs de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "De l'autre, le Capacity Planning se concentre sur <strong>l'allocation et la gestion des ressources pour répondre à ces besoins</strong>. Cette approche se concentre donc sur l'adaptation des ressources disponibles aux besoins prévisionnels. Elle s'assure que l'entreprise dispose de suffisamment de ressources, que ce soit en termes de capacité de production ou de main-d'œuvre, pour satisfaire la demande."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "des-donnees-utilisees-differentes",
+        "text": "Des données utilisées différentes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Qui dit méthodes différentes, dit data différente à utiliser."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'un côté, la planification de la demande va se baser sur <strong>les données historiques de l'entreprise</strong>, ses prévisions ou ses tendances, ainsi que sur les demandes remontées par les métiers.<br/>De l'autre, le Capacity Planning va se focaliser sur <strong>la capacité actuelle</strong>, ses contraintes et ses projections en termes de charge de travail."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'où la nécessité d'adopter des outils différents pour mener à bien ces deux méthodes."
+      },
+      {
+        "type": "paragraph",
+        "html": "On vous en dit plus à la fin de cet article sur les outils pour concevoir votre Capacity Planning - mais si vous êtes impatient, vous pouvez d'ores et déjà <a href=\"https://www.airsaas.io/fr/produit/capacity-planning\">découvrir la solution Airsaas et ses fonctionnalités de capacitaire macro</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "la-complementarite-entre-planification-de-la-demande-et-capacity-planning",
+        "text": "La complémentarité entre planification de la demande et Capacity Planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si ces deux méthodes ont un intérêt pour la gestion de projet dans l'entreprise, elles n'ont pas les mêmes liens avec votre portefeuille de projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "La planification de la demande peut influencer vos projets, car elle vous permet d'identifier des périodes de forte demande, des pics de charge de travail, ou encore des livrables à développer rapidement pour vous assurer que l'entreprise garde son avantage concurrentiel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Capacity Planning vous permet de vous assurer que vous pouvez exécuter vos projets de manière fluide, sans être freiné par un manque de ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "En somme, quand la planification de la demande répond à la question \"Que devons-nous faire comme projets ?\", le Capacity Planning permet de se poser la question \"Pouvons-nous faire ces projets ?\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est pourquoi plan capacitaire et planification de la demande sont aussi complémentaires ! Les deux méthodes forment <strong>les deux faces d'une même pièce : l'équilibre entre besoins et ressources</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "En combinant ces deux approches, vous pouvez <strong>maximiser l'efficacité opérationnelle de votre organisation</strong>. Une planification de la demande fiable permet à votre Capacity Planning de fonctionner sur des bases solides, tandis qu'un Capacity Planning bien géré assure que les prévisions de la demande peuvent être réalisées sans rupture ou retard."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Ensemble, ils créent une stratégie intégrée</strong>, où la demande guide les priorités et les ressources garantissent leur exécution."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'idée : planifier des réunions de la gestion de la demande (ou request reviews) toutes les deux semaines avec des duos IT - Métier, vous permettant de récolter la demande des différentes parties prenantes. Par la suite, les éléments récoltés vous permettent d'organiser votre Capacity Planning sur un temps plus long - quarter, semestre ou PI, selon la temporalité de votre organisation."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c0254d7662945f0bda0459_culture-capacity-planning.png",
+        "alt": ""
+      },
+      {
+        "type": "hubspot-cta",
+        "label": "Réserver une démo",
+        "href": "https://7979190.hs-sites.com/hs-web-interactive-7979190-188471577013",
+        "id": "188471577013"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quels-outils-pour-un-capacity-planning-maitrise",
+        "text": "Quels outils pour un Capacity Planning maîtrisé ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Concevoir un Capacity Planning vous demande de récolter toute la demande actuelle et planifiée de votre entreprise, puis l'aligner avec les ressources disponibles sur la période."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si la méthode vous est totalement inconnue, n'hésitez pas à consulter <a href=\"http://www.airsaas.io/fr/gestion-de-projet/plan-capacitaire\">notre guide en sept étapes pour concevoir votre plan capacitaire</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais, si vous avez déjà créé un Capacity Planning, vous le savez : fonctionner sur un seul tableau Excel peut vite devenir un casse-tête sans nom. En effet, votre planning doit être collaboratif, et aisément mis à jour en fonction de la fluctuation de la demande et des ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est pour aider les DSI, PMO et chefs de projet à mieux gérer la capacité de production de leur entreprise que nous avons conçu la fonctionnalité Capacity Planning d'Airsaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est simple : sur Airsaas, vous concevez un capacitaire par équipe pour la période que vous souhaitez : trimestre, semestre, ou PI. Ainsi, vous vous focalisez sur le build réel de l'entreprise.<br/>Chaque équipe remonte dans Airsaas les ressources qu'elle peut mettre à disposition pour vos projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il vous suffit ensuite simplement de faire des scénarios pour évaluer où attribuer vos ressources en fonction des priorités. Une étape simple, grâce à la vue Capacitaire, qui permet de voir en un clin d'œil où vos projets bloquent, et quelles sont les ressources supplémentaires dont vous avez besoin."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c02737c3f7b9a4eb992582_capacitaire-airsaas.png",
+        "alt": ""
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne perdez plus votre temps (précieux) sur des capacitaires à la personne et à la tâche : optez pour un Capacity Planning pragmatique avec Airsaas !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et maintenant que vous avez bien saisi les différences majeures entre planification de la demande et Capacity Planning, vous êtes prêt à vous lancer dans votre plan capacitaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"https://www.airsaas.io/fr/produit/capacity-planning\">Demandez une démo Airsaas</a>, et laissez notre plateforme de gestion de portefeuille projet rationaliser la transformation de votre entreprise."
+      }
+    ],
+    "meta": {
+      "title": "Planification de la demande et Capacity Planning : quelles différences ?",
+      "h1": "Planification de la demande et Capacity Planning : quelles différences ?",
+      "description": "Découvrez les différences clés entre planification de la demande et Capacity Planning, leur complémentarité et les outils pour piloter efficacement vos projets.",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3cc625434050c28f97f_Planification%20de%20la%20demande.jpg",
+        "alt": "Planification de la demande"
+      },
+      "author": {
+        "category": "Gestion de projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce que la planification de la demande ?",
+        "href": "#quest-ce-que-la-planification-de-la-demande"
+      },
+      {
+        "label": "Qu'est-ce que le Capacity Planning ?",
+        "href": "#quest-ce-que-le-capacity-planning"
+      },
+      {
+        "label": "Les différences clés entre planification de la demande et capacity planning",
+        "href": "#les-differences-cles-entre-planification-de-la-demande-et-capacity-planning"
+      },
+      {
+        "label": "La complémentarité entre planification de la demande et Capacity Planning",
+        "href": "#la-complementarite-entre-planification-de-la-demande-et-capacity-planning"
+      },
+      {
+        "label": "Quels outils pour un Capacity Planning maîtrisé ?",
+        "href": "#quels-outils-pour-un-capacity-planning-maitrise"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

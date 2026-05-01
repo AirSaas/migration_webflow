@@ -1,0 +1,354 @@
+{
+  "type": "blog",
+  "slug": "macro-planning",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Le macro planning : Pourquoi et comment s'en servir !",
+      "h1": "Le macro planning : Pourquoi et comment s'en servir !",
+      "description": "Découvrez ce qu'est un macro planning, ses différences avec le micro planning, ses avantages et inconvénients, et comment le créer efficacement pour piloter vos projets.",
+      "author": {
+        "name": "Simon Vacher",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
+      },
+      "publishedDate": "8/10/2021",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37eaf0d180f5c6a129c92_6.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un macro planning ?",
+        "href": "#quest-ce-quun-macro-planning"
+      },
+      {
+        "label": "Macro planning et micro planning : quelles différences ?",
+        "href": "#macro-planning-et-micro-planning-quelles-differences"
+      },
+      {
+        "label": "Pourquoi utiliser un macroplanning dans sa gestion de projet ?",
+        "href": "#pourquoi-utiliser-un-macroplanning-dans-sa-gestion-de-projet"
+      },
+      {
+        "label": "Comment créer un macro planning ?",
+        "href": "#comment-creer-un-macro-planning"
+      },
+      {
+        "label": "Peut on se passer d'un diagramme de Gantt pour un macro planning ?",
+        "href": "#peut-on-se-passer-dun-diagramme-de-gantt-pour-un-macro-planning"
+      },
+      {
+        "label": "L'agilité comme alternative dans la planification",
+        "href": "#lagilite-comme-alternative-dans-la-planification"
+      },
+      {
+        "label": "Le no estimate : une approche radicale et honnête du macro planning ?",
+        "href": "#le-no-estimate-une-approche-radicale-et-honnete-du-macro-planning"
+      },
+      {
+        "label": "Conclusions - à retenir",
+        "href": "#conclusions-a-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Le cadrage projet est une phase essentielle de la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> pour définir efficacement le plan que l'on prévoit d'exécuter pour mener à bien son exécution. Le macro planning lui, est ou outil parfait pour communiquer ce qui a été pensé lors de la phase de cadrage : en un coup d'œil, l'ensemble des parties concernées peuvent avoir une idée des prochaines étapes à réaliser ainsi que des délais qui y sont assignés. C'est le support de communication idéal pour votre comité de pilotage qui sera intégré dans votre <a href=\"/fr/solution/rapport-flash\">rapport flash</a> !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-quun-macro-planning",
+        "text": "Qu'est-ce qu'un macro planning ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d8620e6f1e642cdb163164_644bac69154c15992130e296_macroplanning-min.jpeg",
+        "alt": "Qu'est-ce qu'un macro planning et comment créer le vôtre",
+        "caption": "Chronologie des grandes étapes et jalons, Gantt, tâches - Un article sur l'art de la planification"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans une <strong>phase d'initialisation du projet,</strong> la constitution de plannings est l'une des premières choses que l'on apprend en gestion de projet. C'est un élément indispensable à quiconque veut garantir la réalisation d'un projet d'une certaine qualité, sans exploser les coûts et en respectant les délais."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette tâche incombe généralement au <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\">chef de projet</a> : le planning sera un outil de travail primordial pour lui et son équipe. Un planning doit donc être suffisamment détaillé pour contenir les informations principales au bon déroulement du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais si le chef de projet se sert de la planification pour communiquer avec son équipe, il aura aussi besoin d'en parler avec d'autres acteurs : son supérieur, le commanditaire du projet, des prestataires externes, ou encore les futurs utilisateurs du produit créé !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Et c'est ici qu'intervient le macro planning !</strong><br/>Si le planning classique très détaillé est souvent trop complexe pour une personne ne travaillant pas sur le projet de manière permanente, le macro planning lui est idéal comme support de communication avec tous ces types d'acteurs !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces derniers auront besoin d'une vision synthétique des points principaux du projet, d'une « vue hélicoptère » qui balaye les grandes étapes et les jalons principaux."
+      },
+      {
+        "type": "paragraph",
+        "html": "La définition d'un macro planning est donc : un planning simplifié qui doit être agréable et facile à lire : idéalement il tient en une seule page !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour toutes ces raisons, le macro planning est considéré comme l'un des supports de communication les plus utiles lors des comités de pilotage ou des comités de directions. Chacun des participants peut alors prendre conscience des aspects principaux du projet en un coup d'œil, ce qui facilite les débats."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce macro planning sera créé lors du début du projet et permettra d'assurer la communication avec toutes les parties externes au projet tout au long de son exécution. Tout comme un planning classique, il devra lui aussi être mis à jour continuellement !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "macro-planning-et-micro-planning-quelles-differences",
+        "text": "Macro planning et micro planning : quelles différences ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour symboliser le macro planning, nous avons utilisé l'image d'une « vue hélicoptère » qui permet de prendre de la hauteur et d'avoir une visibilité globale sur les grandes étapes du projet en quelques secondes."
+      },
+      {
+        "type": "paragraph",
+        "html": "S'il fallait symboliser le micro planning de la même manière, alors ce dernier serait plutôt une « vue au microscope » de la planification du projet !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Contrairement au macro planning, le micro planning est centré autour d'un périmètre bien plus petit au sein du projet (souvent une tâche, ou même une des phases d'une tâche), mais rentre aussi davantage en profondeur."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme le microplanning est extrêmement détaillé, il prend beaucoup de temps à être mis en place : il n'est pas rare qu'un micro planning soit à la minute près !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le micro planning est pratique lorsqu'il faut passer au peigne fin un process ou une tâche à faire, il souffre évidemment d'un défaut le rendant inutile dans de nombreuses situations : il est vulnérable à tout évènement imprévu et demande une actualisation permanente, dépendante de l'avancement du projet réel.<br/><br/>La macro planning et le micro planning du projet dont donc deux outils très différents qui sont à votre disposition : servez-vous-en intelligemment en fonction de vos besoins !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-utiliser-un-macroplanning-dans-sa-gestion-de-projet",
+        "text": "Pourquoi utiliser un macroplanning dans sa gestion de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme le micro planning, le macro planning comporte son lot d'avantages et d'inconvénients. Voici une liste des principaux d'entre eux."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-avantages-dun-macro-planning",
+        "text": "Les avantages d'un macro planning"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Puisqu'il est synthétique, le macro planning est très rapide à réaliser",
+          "Toutes les grandes phases du projet sont résumées en un coup d'œil",
+          "Un document compréhensible par tous, y compris des personnes externes au projet",
+          "Le macro planning n'a pas à être sans cesse actualisé"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-inconvenients-dun-macro-planning",
+        "text": "Les inconvénients d'un macro planning"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Offre un degré de précision trop faible pour suffire à l'équipe interne du projet",
+          "Le macro planning n'est pas assez détaillé pour permettre la répartition de la liste de différentes tâches et de la charge de travail."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-creer-un-macro-planning",
+        "text": "Comment créer un macro planning ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme précisé, le macro planning se fait dès la phase d'initialisation du projet. Il s'intégrera à votre <a href=\"https://airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\">note de cadrage</a>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cependant, à ce stade du projet, il n'existe pas encore de cahier des charges qui détaille de l'ensemble des tâches à réaliser."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-differentes-etapes-de-creation-dun-macro-planning",
+        "text": "Les différentes étapes de création d'un macro planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, pour créer votre macro planning, il vous faudra passer par plusieurs étapes-clés :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Estimer quelles sont les phases principales</strong> qui constitueront le projet <strong>et leurs échéances</strong>",
+          "<strong>Rattacher les </strong><a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons-clés</strong></a><strong> principaux</strong> (soit les grandes échéances) à chacune de ces phases principales",
+          "<strong>Etablir des dépendances</strong> entre les différentes phases si elles existents",
+          "<strong>Définir le temps prévisionnel nécessaire</strong> pour accomplir chacune de ces phases"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "L'idéal est d'arriver à réunir autour de la table chacun des responsables des macro-tâches qui devront être exécutée. De cette manière, vous aurez une estimation de la durée des tâches qui ne sera pas parfaite, mais qui aura le mérite d'être réaliste.<br/><br/>De plus, en réunissant les bonnes personnes pour la confection du macro planning, l'exercice devrait être vite bouclé : si toutes les personnes compétentes sont autour de la table, votre macro planning sera rédigé en moins d'une heure !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-outils-cles-pour-creer-votre-macro-planning",
+        "text": "Les outils-clés pour créer votre macro planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous disposez déjà probablement d'un outil qui vous permet de créer et de gérer votre macro planning au quotidien."
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple, un macro planning peut prendre la forme de :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Un tableur Excel tout ce qu'il y a de plus simple",
+          "Une slide PowerPoint bien ficelée",
+          "Un outil de calendrier projet collaboratif",
+          "Votre logiciel de gestion de projet ou de gestion des tâches traditionnel, comme Trello ou Asana"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le plus important est que cet outil vous permette de visualiser aisément les phases principales du projet, ses jalons-clés, ainsi que ses dépendances. Plus il sera lisible, plus il sera bien intégré par les équipes qui en ont besoin."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "peut-on-se-passer-dun-diagramme-de-gantt-pour-un-macro-planning",
+        "text": "Peut on se passer d'un diagramme de Gantt pour un macro planning ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"https://www.manager-go.com/gestion-de-projet/dossiers-methodes/construction-gantt\">diagramme de Gantt</a> est un peu le \"must-have\" de tous les chefs de projet débutants en gestion de projets cherchant à rassurer les parties prenantes. Sa lecture est pourtant un véritable tue-l'amour ! Un peu comme lorsqu'on invitait des collaborateurs sur des logiciels comme Excel ou MS Project ! L'avantage du macro planning est justement de parler à tout le monde. On a besoin d'y voir clair dans les jalons et délais pas dans les tâches."
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de projet efficace ne se limite pas en effet à l'utilisation de logiciels - c'est un acte de management. C'est un ensemble de processus qu'une organisation macro permettra de rendre plus visible."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le macro planning et le diagramme de Gantt sont deux outils de planification souvent utilisés par une équipe dans le domaine de la gestion de projet. Le macro planning est un plan global et stratégique qui permet d'identifier les grandes étapes et les objectifs à atteindre, tandis que le diagramme de Gantt est un outil plus détaillé et opérationnel qui permet de planifier les tâches à effectuer et leur durée."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le macro planning est donc un outil de gestion de projet plus adapté lors de la phase de planification globale d'un projet, tandis que les diagrammes de Gantt sont plus adaptés pour la planification opérationnelle et le suivi des tâches. Il est donc recommandé d'utiliser les deux outils en complémentarité, pour une planification efficace et complète."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "lagilite-comme-alternative-dans-la-planification",
+        "text": "L'agilité comme alternative dans la planification"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un rappel sur l'origine. En février 2001, aux États-Unis, 17 spécialistes du développement de logiciels proposent un changement d'approche dans la conduite de projet. Plus empirique, moins prédictive, cette alternative pose l'hypothèse que les cycles de développement logiciel classiques ne correspondent plus aux contraintes et aux exigences d'<strong>organisations en constante évolution</strong>. Le Manifeste agile était né ! 4 valeurs et 12 principes clés."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'utilisation d'un Macro planning en agilité est un moyen efficace de visualiser les grandes phases et les jalons importants d'un p<strong>rojet tout en restant flexible pour répondre aux changements</strong> de la réalité. Il permet de donner une vision globale du projet, d'identifier les dépendances et les risques potentiels. Cela peut aider à mieux planifier les ressources nécessaires, les délais et les coûts."
+      },
+      {
+        "type": "paragraph",
+        "html": "Voici comment utiliser un macro planning en agilité :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Identifiez les grandes phases du projet :</strong> En agilité, les grandes phases du projet sont souvent définies en fonction des livrables. Par exemple, dans un projet de développement logiciel, les phases peuvent inclure la planification, l'analyse, la conception, le développement, les tests et le déploiement. Il est important d'impliquer toutes les parties prenantes pour identifier ces grandes phases et s'assurer que tous sont d'accord sur leur ordre et leur contenu.",
+          "<strong>Définissez les jalons importants :</strong> Une fois que les grandes phases ont été identifiées, il est important de définir les jalons importants qui vont aider à suivre la progression du projet. Les jalons doivent être spécifiques, mesurables, atteignables, pertinents et temporels (SMART). Les jalons peuvent inclure des livrables tels que des documents, des versions logicielles, des tests réussis, des formations, des déploiements, etc.",
+          "<strong>Créez un (macro) diagramme de Gantt</strong> : Un diagramme de Gantt est un outil de visualisation qui permet de représenter les grandes phases du projet et les jalons importants dans le temps. Il est important de mettre à jour régulièrement le diagramme de Gantt pour refléter la progression réelle du projet. Le diagramme de Gantt peut être partagé avec toutes les parties prenantes pour faciliter la communication et la collaboration.",
+          "<strong>Restez flexible</strong> : En agilité, il est important de rester flexible et de s'adapter aux changements de la réalité. Le macro planning doit être utilisé comme une feuille de route globale et non comme un plan strict. Il est important de mettre à jour régulièrement le Macro planning en fonction de l'évolution du projet. Chaque jalon peut être révisé, ajouté ou supprimé en fonction des changements de priorités et des obstacles rencontrés."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "L'utilisation d'un macro planning en agilité est un des moyens efficace de visualiser les grandes phases et les jalons importants d'un projet tout en restant flexible pour répondre aux changements de la réalité. Il permet à la fois de mieux planifier les ressources nécessaires, les délais et les coûts et également de mieux communiquer. Cependant, il est important de rester vraiment flexible et d'être prêt à s'adapter aux changements de la réalité de ce fameux monde VICA (volatile, incertain, complexe et ambigu)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-no-estimate-une-approche-radicale-et-honnete-du-macro-planning",
+        "text": "Le no estimate : une approche radicale et honnête du macro planning ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous connaissez le courant du <a href=\"https://www.bearstudio.fr/blog/developpement/no-estimate\">no estimate</a> ? Il est popularisé en France par le coach agile Frédéric Le Guedois dont les conférences font salle comble !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il s'agit d'un fonctionnement basé sur la confiance mutuelle, la priorisation, et l'agilité. Il repose en quelque sorte sur le mode de la régie avec une facturation au temps passé. Si le <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budget</a> est variable pour plus de souplesse, le temps de mission et les équipes dédiées au projet peuvent être fixées par avance."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "5-arguments-en-faveur-du-no-estimate",
+        "text": "5 arguments en faveur du \"no estimate\" :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Gain de temps : L'estimation de projet peut prendre beaucoup de temps et ne garantit pas la précision des résultats. Le \"no estimate\" permet de se concentrer sur les tâches importantes plutôt que de passer du temps à essayer de prédire l'avenir.",
+          "Évite les biais : L'estimation peut être influencée par des biais cognitifs, tels que l'effet de halo ou l'effet de confirmation, qui peuvent fausser les résultats. En évitant l'estimation, on peut éviter ces biais et obtenir des résultats plus justes.",
+          "Encourage l'adaptabilité : Lorsque les estimations sont prises comme des engagements fermes, cela peut entraîner une résistance au changement et une inflexibilité. Le \"no estimate\" encourage une approche plus adaptative en permettant une plus grande flexibilité pour répondre aux changements de priorités et aux imprévus.",
+          "Réduit le stress : Les estimations peuvent causer du stress aux membres de l'équipe car elles peuvent être perçues comme des engagements stricts et difficiles à respecter. Le \"no estimate\" permet de réduire ce stress en permettant à l'équipe de se concentrer sur la qualité et la livraison plutôt que sur les délais stricts.",
+          "Améliore la transparence : Les estimations peuvent être perçues comme subjectives et peuvent être mal interprétées par les parties prenantes. Le \"no estimate\" permet de rendre le processus plus transparent en mettant l'accent sur la collaboration et"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusions-a-retenir",
+        "text": "Conclusions - à retenir"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le macro planning est complémentaire au micro planning, qui offre une vue plus détaillée des tâches et des ressources nécessaires à la réalisation du projet. Le macroplanning s'avère être un must-have, notamment si vous devez piloter un portefeuille de projets assez conséquent."
+      },
+      {
+        "type": "paragraph",
+        "html": "Découvrez parmi nos autres articles celui consacré à un autre enjeu clé : <a href=\"/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\">Le suivi de projet pour garder aligné les parties prenantes</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}
