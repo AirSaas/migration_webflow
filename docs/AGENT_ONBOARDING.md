@@ -285,7 +285,7 @@ Living section. Append every proposal that needs a DS-level decision so the next
 | `<LogosBar>` size on internal sections — agent uses `size="lg"` everywhere; should use `"md"` for inner sections, only `"lg"` for LP heroes where strip is primary trust signal | guidance | rebuild agent — read `LogosBar / SizeComparison` story; LP hero = `lg`, every other usage = `md` (default) |
 | StepsFrame visual — rebuild agent reports the rendered steps don't match the live design | needs spec | pending — Marianela to share live screenshot so DS team can compare and decide if it's a chrome update or a story misuse |
 | FeatureFrame default ImageLeft — yellow pale frame (`imageBgColor`) not respected on rebuild | needs verification | pending — likely [INTÉGRATION] (agent omits `imageBgColor` prop), but verify on a callsite first |
-| "Un récap' complet" — rebuild renders 2 separate `<img>` instead of the single fused image used in the live + Storybook canonical | [INTÉGRATION] | rebuild agent — render as single `<img>` with the fused asset (already canonical in story) |
+| "Un récap' complet" / "Une newsletter sponsor" — rebuild splits into 2-3 separate `<FeatureFrame>` blocks each with its own image, instead of ONE fused composite image + multi-arrow text | [DS guidance + INTÉGRATION] | ✅ canonical story shipped 2026-05-04: `Sections / Features Sections / FeatureFrame / Rich Text / CompositeImageWithArrowedText`. Pattern: ONE `<FeatureFrame>` + `richContent` with 3 H5 (each prefixed `→` if image right, `←` if left) + 1 composite `imageSrc` (filename suffix `-composite.png`). Same pattern in `HomePage.tsx:651` (live ref). |
 
 **"The right way" — concrete code patterns for the rebuild agent:**
 
