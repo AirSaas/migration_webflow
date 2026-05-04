@@ -46,6 +46,8 @@
 - `<Hero layout>` default → centered (pas split par défaut sur Solutions)
 - ✅ **`<Hero>` `bottomTags` limit 0-4 → 0-6** — relaxé 2026-04-27. Live PPM a 5 badges (voir `[1.11]`). Story `Hero / FiveTrustBadges` livré comme référence copy-paste.
 - ✅ `<LogosBar>` size prop livré 2026-04-27 — `size="md"` (default, 4.14rem desktop) | `"lg"` (5.5rem desktop pour heroes LP). Story `SizeComparison` montre les 2.
+- ✅ **`<TestimonialsFrame>` adaptive grid livré 2026-05-04** — `grid-cols = min(N, 3)`. Hoy 2 cards = 2 cols (1/2 frame), N=1 centered (cap 28rem), N≥3 = 3 cols max. Story `AdaptiveGrid` montre los 3 casos. Resuelve el feedback "no se ajustan al ancho del frame".
+- ✅ **`<LogosBar>` integrations chrome livré 2026-05-04** — props `variant="plain"` + `preserveColor={true}`. Rule: client logos default (`bordered` + grayscale), integration logos (Jira/Slack/Teams…) = `plain` + colored. Stories `IntegrationsPlainColored` + `VariantComparison`. Resuelve "Connecté à votre écosystème" findings.
 - ✅ **`<FeatureFrame imageSize>` guidance shipée 2026-04-27** — story canonical `EditorialIllustration` livrée (sections/FeatureFrame/Rich Text/EditorialIllustration) avec le copy exact de `[4.2.a]` "Diminuez la frustration entre les métiers et l'IT". Décision : `default` (60% image) pour screenshots produit · `compact` (40%) pour balance · `narrow` (33%) pour graphic illustratif éditorial + 3 paragraphes texte. Rebuild agent peut copier-coller la story comme reference pour `[4.2.a]`–`[4.2.d]`.
 - **`<ComparisonTableFrame>` → ajouter cell `type="check"`** comme alternative à text content (extension DS livrée 2026-04-27)
 - Footer `copyrightIcon` → enforcer emoji 🇫🇷 partout (1 page diverge)
