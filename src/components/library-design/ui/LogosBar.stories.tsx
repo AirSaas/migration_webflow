@@ -49,6 +49,69 @@ export const AllVariants: Story = {
   ),
 };
 
+const integrationLogos = [
+  { src: "https://placehold.co/120x80/0052cc/ffffff?text=Jira&font=lato", alt: "Jira", width: 120, height: 80 },
+  { src: "https://placehold.co/120x80/f06a6a/ffffff?text=Asana&font=lato", alt: "Asana", width: 120, height: 80 },
+  { src: "https://placehold.co/120x80/6264a7/ffffff?text=Teams&font=lato", alt: "Microsoft Teams", width: 120, height: 80 },
+  { src: "https://placehold.co/120x80/4a154b/ffffff?text=Slack&font=lato", alt: "Slack", width: 120, height: 80 },
+  { src: "https://placehold.co/120x80/ff6900/ffffff?text=Monday&font=lato", alt: "Monday", width: 120, height: 80 },
+];
+
+/**
+ * Integrations variant — plain chrome (no borders, white bg) + color preserved.
+ *
+ * Pattern for sections like "Connecté à votre écosystème" where the logos are
+ * brand integrations (Jira, Asana, Slack…) and color is meaningful. Audit
+ * finding [DS-B/C 2026-05-04]: rebuild agent rendered integration logos
+ * grayscale + with the trust-strip border chrome, which felt visually wrong.
+ *
+ * Rule of thumb:
+ *   - Customer / press logos     → variant="bordered" (default), preserveColor=false
+ *   - Integration / partner logos → variant="plain",  preserveColor=true
+ */
+export const IntegrationsPlainColored: Story = {
+  args: {
+    logos: integrationLogos,
+    variant: "plain",
+    preserveColor: true,
+    size: "lg",
+  },
+};
+
+/**
+ * Variant comparison — bordered (default, grayscale) vs plain colored (integrations).
+ *
+ * Side-by-side reference to make the decision rule obvious for the rebuild agent.
+ */
+export const VariantComparison: Story = {
+  render: () => (
+    <div className="flex flex-col gap-12 py-8">
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">
+          variant=&quot;bordered&quot; + preserveColor=false (DEFAULT — client trust strip)
+        </span>
+        <LogosBar
+          label="Ils nous font confiance"
+          logos={sampleLogos}
+          size="lg"
+        />
+      </div>
+
+      <div className="flex flex-col gap-2 px-4">
+        <span className="text-sm font-medium text-text-muted">
+          variant=&quot;plain&quot; + preserveColor=true (integrations grid — bg white, no chrome)
+        </span>
+        <LogosBar
+          logos={integrationLogos}
+          variant="plain"
+          preserveColor
+          size="lg"
+        />
+      </div>
+    </div>
+  ),
+};
+
 /**
  * Size comparison — md (default) vs lg.
  *
