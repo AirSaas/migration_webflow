@@ -209,6 +209,53 @@ RÈGLES D'EXTRACTION (à respecter strictement) :
   ]
   Si pas d'icône (juste du texte de comparaison plat), reste en strings.
 
+# 18. HERO LP — eyebrow + 5 trust badges + image mockup REQUIS (audit R1)
+- Si la page est une LP (slug commence par /lp/) le hero DOIT inclure :
+  - \`tag\` : l'eyebrow au-dessus du H1 (ex: "PPM nouvelle génération", "Outil PMO", "Pour les RTE PMO SAFe et équipes agiles")
+  - \`bullets[]\` : 3-5 trust badges visibles sous les CTAs (ex: "+100 clients nous font confiance", "no credit card", "Opérationnel en 1 mois", "all features", "Accompagnement premium inclus")
+  - \`imageSrc\` : screenshot produit dominant (le dashboard / les tabs Portfolio-Quarter-Capacitaire sont BAKÉS DEDANS le screenshot, ne pas créer une section tabs-frame séparée)
+- Pattern à NE JAMAIS faire : créer une section \`tabs-frame\` séparée sous le hero LP. Les tabs sont dans l'image.
+
+# 19. ANTI-FRAGMENTATION sur Solutions (audit R5)
+- Quand tu vois plusieurs H3/H4 consécutifs SANS image individuelle, qui décrivent un même thème (ex: 3 sub-titres "Diminuez la frustration / Vers un meilleur cadrage / Des équipes plus engagées" sous "Avancez plus sereinement") :
+  - Émets UNE \`feature-split\` avec le H2 parent en \`title\` + les H3/H4 dans \`subSections: [{title, body}]\`
+  - PAS N \`intro\` séparées avec un H3 chacune.
+- Critère pratique : si N H3 consécutifs ont chacun < 200 mots de body et partagent un même H2 parent → fusion en subSections.
+- Bug à éviter : Δ +5 sections moyenne sur Solutions (et +23 sur outil-ppm) parce que chaque H3 → nouvelle section orpheline.
+
+# 20. ANTI-CTA-LOOP — max 1 cta orphelin/page (audit R40)
+- Émets MAX 1 section \`cta\` (ou \`cta-highlight\`) par page, située en BAS de page (l'outro final).
+- Les CTAs trouvés DANS le body d'une feature-split (ex: bouton "Réserver une démo", "Infos et réservations Bootcamp") DOIVENT être émis en \`feature-split.primaryCta\` — PAS comme une section cta séparée.
+- Bug à éviter : 2-4 sections cta intermédiaires par page (Solutions, Produit) — c'était le cas avant.
+
+# 21. FEATUREFRAME imageSize narrow vs default (audit R6)
+- Si l'image d'une feature-split est une **illustration éditoriale / schéma / diagramme** (svg, illustration vectorielle, graphique abstrait — patterns: filename suffix \`.svg\`, "illustration", "schema", "diagram", "outil10/11/12.svg", "graph") → \`imageSize: "narrow"\` (33% width image, 67% texte).
+- Si l'image est un **screenshot produit** (dashboard, mockup webp/png photo-réaliste) → \`imageSize: "default"\` (60% image, 40% texte) ou omis (default).
+- Si l'image est un **logo/badge décoratif** → omet \`imageSrc\` et émets juste le texte (pas de feature-split avec image).
+
+# 22. INLINE HYPERLINKS dans body fields (audit R25)
+- Préserve TOUS les \`<a href="...">mot</a>\` inline dans les body fields (feature-split.body, intro.body, etc.).
+- Bug à éviter : strip les <a> et garder juste le texte plat. Les inline hyperlinks portent du SEO interne et de la navigation contextuelle.
+- Permis dans body : \`<p>\`, \`<strong>\`, \`<em>\`, \`<a href="...">\`, \`<br/>\`, \`<ul>/<ol>/<li>\`. Tout le reste = strip.
+
+# 23. COMPOSITE IMAGE multi-arrows (audit R7)
+- Si une section live affiche UNE image composite (1 fichier image final) avec 2-3 H4/H5 disposés autour avec flèches → émets UNE \`feature-split\` avec :
+  - 1 \`imageSrc\` (filename suffix souvent \`-composite\`, \`-fused\`, ou similaire)
+  - \`subSections: [{title: "→ H4", body: "..."}, {title: "→ H5", body: "..."}]\` (les arrows en préfixe, ou via DS canonical CompositeImageWithArrowedText)
+- Bug à éviter : splitter en 3 feature-splits séparés chacun avec sa portion d'image cropped.
+
+# 24. BLOG — quotes/citations préservées (audit R18)
+- Quand le live a des \`<blockquote>\` (citations encadrées avec author en bas), émets un \`quote\` block, PAS un \`paragraph\`.
+- Le \`quote\` block a \`{type: "quote", text, author?, authorAvatar?, caption?}\`.
+
+# 25. BLOG — "À retenir" / "À noter" → insight-callout (audit R20)
+- Quand le live a un encadré "À retenir", "À noter", "Bon à savoir", "Le point clé", "En résumé", émets un \`insight-callout\` block, PAS un paragraph.
+- Le \`insight-callout\` a \`{type: "insight-callout", html, label?}\` où label peut être "À retenir" / "À noter" / etc.
+
+# 26. BLOG — tableaux structurés → table block (audit R21)
+- Quand le live a un \`<table>\` avec headers + rows, émets un \`table\` block, PAS une list ou des paragraphes.
+- Le \`table\` block a \`{type: "table", headers: [string], rows: [[string]]}\`.
+
 OBJECTIF : 8-15 sections, fields canoniques, zéro encoding leak, zéro placeholder leak, ZÉRO hallucination de KPI / testimonial / image / section non présent dans le source.
 `;
 

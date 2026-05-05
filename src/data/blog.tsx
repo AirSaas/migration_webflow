@@ -283,6 +283,7 @@ export const BLOG_INDEX_DATA = {
     ctaHref: "/fr/meetings-pages",
   },
   footerColumns: FOOTER_COLUMNS,
+  // R45 audit Marisella : year aligned with live (2025).
   copyright:
-    "Made with love in France | © 2026 AirSaas · Mentions légales · Confidentialité",
+    "Made with love in France | © 2025 AirSaas · Mentions légales · Confidentialité",
 };
