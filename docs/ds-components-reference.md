@@ -91,7 +91,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<RelatedArticlesFrame>` | "Further reading" block at the end of a blog article — centered primary-gradient title + white rounded card listing o… |
 | `<RelatedSolutionsFrame>` | Cross-sell grid — 3 image-first cards each linking to a related solution or product. Rendered at the bottom (or top) … |
 | `<SliderFrame>` | Centered title + subtitle + interactive screenshot carousel. |
-| `<StepsFrame>` | Horizontal row of numbered sequential steps — each step has a large primary-gradient number, an icon, a short title, … |
+| `<StepsFrame>` | Sequential deployment / onboarding flow rendered as a zigzag row of bordered cards with large floating numbered badge… |
 | `<TableOfContentsFrame>` | Article-level table of contents — centered primary-gradient title + white rounded card listing anchor links to each a… |
 | `<TabsFrame>` | Hero-adjacent horizontal pill-tab bar — 3–6 anchor links that smooth-scroll to sections lower on the page. Active tab… |
 | `<TestimonialsFrame>` | Section wrapper for testimonial cards: gradient heading + 3-col grid. |
@@ -538,12 +538,15 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Don't use** — As a full case-studies section — use a dedicated logo grid or testimonials section. For a single featured logo, use a plain <img>.
 
 **Limits:**
-- logos: array of { src, alt, width?, height? } — rendered grayscale at 70% opacity
+- logos: array of { src, alt, width?, height? }
 - label: optional — if omitted, no leading label is rendered. Pass a localized string from CMS / i18n.
 - size: "md" (default, 2.5rem / 4.14rem heights) | "lg" (3rem / 5.5rem heights). LP / Solution heroes typically want "lg" for a more present trust strip.
+- variant: "bordered" (default) | "plain" (no borders + divider, white bg). "plain" for integration grids that should sit flush.
+- preserveColor: false (default — grayscale at 70% opacity, for client trust strips) | true (for integration logos where brand color matters).
 
 **Forbidden:**
 - Do NOT pass arbitrary width/height per logo in the data and expect them to render visually — heights are forced by the `size` prop. The width/height fields only set the underlying <img> intrinsic dimensions for layout-shift hints.
+- Do NOT use variant="plain" + preserveColor=false on a hero — without the borders, a grayscale strip can feel like a layout glitch. Either keep "bordered" or pair "plain" with preserveColor=true.
 
 ---
 
@@ -1229,8 +1232,8 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 📄 [`src/components/library-design/sections/StepsFrame.tsx`](src/components/library-design/sections/StepsFrame.tsx)
 
-**Purpose** — Horizontal row of numbered sequential steps — each step has a large primary-gradient number, an icon, a short title, and a description. Cards are visually connected by chevron indicators between them on desktop (hidden on mobile, where steps stack).
-**Use when** — Presenting a linear deployment / onboarding / how-it-works flow of 3–5 discrete steps that must be read in order (e.g. "Lancez votre déploiement en 4 étapes").
+**Purpose** — Sequential deployment / onboarding flow rendered as a zigzag row of bordered cards with large floating numbered badges (alternating left/right). Designed for storytelling — each card has a primary-blue border, a soft white body, and a primary-tinted description so the gaze travels through the steps with rhythm.
+**Use when** — Presenting 3–5 discrete sequential steps that must be read in order (e.g. "Lancez votre déploiement en 4 étapes" or "Onboarding en X étapes").
 **Don't use** — For non-sequential principles or methodology pillars (use <PillarFrame>). For metrics / stats grids (use <ValuePropositionFrame> + <FeatureCard>). For a zigzag vertical list with big outside numbers (use <HighlightFrame>).
 
 **Limits:**
@@ -1240,7 +1243,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - subtitle: max 260 chars
 - steps: 3–5 items (below 3 looks sparse; above 5 the row breaks on md)
 - step.title: max 24 chars (e.g. "Kick-off", "Go live")
-- step.description: max 180 chars
+- step.description: max 160 chars (cards are tighter than the old layout)
 - step.number: 1–9 (auto-derived from index if omitted)
 
 **Forbidden:**
@@ -1248,6 +1251,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - Do NOT pass className with bg / text / font / padding overrides
 - Do NOT mix items with and without explicit step.number (all or none)
 - Do NOT nest another StepsFrame inside a step card
+- Do NOT add concentric decorative rings to the section background — banned by the DS rules
 
 ---
 
@@ -1306,10 +1310,11 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - title: max 40 chars (gradient dark-to-primary)
 - titleHighlight: max 40 chars (gradient primary)
-- testimonials: 2–6 items (renders grid-cols-3 at lg — 2 items center on md+)
+- testimonials: 1–6 items. Grid is **adaptive** based on count to fill the frame: N=1 → 1 col centered (constrained to ~28rem so the card doesn't stretch end-to-end) N=2 → 2 cols (each card takes 1/2 width, no orphan empty col) N≥3 → 3 cols max (rows wrap for N=4..6) Mobile always 1 col, md breakpoint is 2 cols (or 1 if N=1).
 
 **Forbidden:**
 - Do NOT mix testimonials prop AND children — children wins, testimonials ignored
+- Do NOT pass more than 6 items — past that the grid feels like a wall. Use a slider or paginated catalog instead.
 
 ---
 

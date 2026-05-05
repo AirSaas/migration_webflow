@@ -57,6 +57,9 @@ next-env.d.ts
 # live-page capture screenshots (regenerate via scripts/capture-live-pages.mjs)
 docs/live-captures/**/*.png
 
+# rebuild-vs-live full-page captures (180MB, regenerate via scripts/capture-rebuild-vs-live.mjs)
+docs/audit-screenshots/pages/
+
 # playwright mcp logs
 .playwright-mcp/
 

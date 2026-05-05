@@ -120,6 +120,63 @@ export const NarrowImageLeft: Story = {
 };
 
 /**
+ * Composite-image pattern — ONE fused image + multi-arrow text.
+ *
+ * Mirrors the live home page section "Une newsletter sponsor que votre
+ * direction va adorer" (and the same pattern repeats on multiple Solution /
+ * Produit pages: "Un récap' complet et synthétique", etc.).
+ *
+ * Two non-negotiable rules for this pattern:
+ *
+ * 1. **ONE composite/fused image** — not 2 or 3 separate images stacked.
+ *    The asset file should be named with a `-composite.png` suffix to
+ *    signal it's the fused version (e.g. `newsletter-sponsor-composite.png`).
+ *    The image shows the ENTIRE artifact (the email card with KPIs +
+ *    project table, the dashboard with all panels, etc.).
+ *
+ * 2. **`richContent` with 3 H5 + paragraph blocks**, each H5 prefixed by an
+ *    ASCII arrow (`→` if `imagePosition="right"`, `←` if `imagePosition="left"`).
+ *    Each arrow + heading + paragraph describes ONE part of the composite
+ *    image. The arrows visually point from the text toward the image.
+ *
+ * Audit 2026-05-04 finding: the rebuild agent split this pattern into 2-3
+ * separate `<FeatureFrame>` blocks each with its own image — destroying the
+ * "one fused asset + multi-pointer text" relationship the live design
+ * relies on. This story is the copy-paste reference.
+ */
+export const CompositeImageWithArrowedText: Story = {
+  args: {
+    imagePosition: "right",
+    titleHighlight: "Une newsletter sponsor",
+    title: "que votre direction va adorer",
+    richContent: (
+      <>
+        <h5>→ Tendance des projets vitaux</h5>
+        <p>
+          Un récapitulatif de la santé des projets vitaux de votre
+          organisation pour leur permettre de &ldquo;sentir&rdquo; la
+          tendance du moment.
+        </p>
+        <h5>→ Tendance de leurs projets à eux</h5>
+        <p>
+          Un aperçu de leurs projets, ceux en amélioration et ceux en
+          dégradation qui nécessitent leur attention. En un clic, ils
+          peuvent accéder à la fiche projet.
+        </p>
+        <h5>→ Projets en retard d&apos;actualisation</h5>
+        <p>
+          Un rappel des projets qui méritent d&apos;être mis à jour. Si
+          cette section est vide, vous êtes tranquilles !
+        </p>
+      </>
+    ),
+    imageSrc:
+      "https://placehold.co/900x700/f3f3fc/3a51e2?text=Composite+image%0A%28fused+KPIs+%2B+project+table%29",
+    imageAlt: "Composite — KPIs + project trend table fused into one image",
+  },
+};
+
+/**
  * Editorial section with graphic illustration — canonical pattern.
  *
  * Mirrors the live live `/solution/gestion-portefeuille-projet` section

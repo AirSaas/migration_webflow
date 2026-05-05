@@ -22,10 +22,16 @@ interface Testimonial {
  * @limits
  *   - title: max 40 chars (gradient dark-to-primary)
  *   - titleHighlight: max 40 chars (gradient primary)
- *   - testimonials: 2–6 items (renders grid-cols-3 at lg — 2 items center on md+)
+ *   - testimonials: 1–6 items. Grid is **adaptive** based on count to fill the frame:
+ *       N=1 → 1 col centered (constrained to ~28rem so the card doesn't stretch end-to-end)
+ *       N=2 → 2 cols (each card takes 1/2 width, no orphan empty col)
+ *       N≥3 → 3 cols max (rows wrap for N=4..6)
+ *     Mobile always 1 col, md breakpoint is 2 cols (or 1 if N=1).
  *
  * @forbidden
  *   - Do NOT mix testimonials prop AND children — children wins, testimonials ignored
+ *   - Do NOT pass more than 6 items — past that the grid feels like a wall.
+ *     Use a slider or paginated catalog instead.
  */
 interface TestimonialsFrameProps {
   /** Dark-to-primary gradient part of the title */
@@ -76,23 +82,32 @@ export function TestimonialsFrame({
         )}
       </Heading>
 
-      {children ?? (
-        <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
-          {testimonials?.map((t, i) => (
-            <TestimonialCard
-              key={i}
-              quote={t.quote}
-              name={t.name}
-              role={t.role}
-              avatarSrc={t.avatarSrc}
-              truncateAt={truncateAt}
-              readMoreLabel={readMoreLabel}
-              readLessLabel={readLessLabel}
-              className="flex-1"
-            />
-          ))}
-        </div>
-      )}
+      {children ?? (() => {
+        const count = testimonials?.length ?? 0;
+        const adaptiveGrid =
+          count === 1
+            ? "md:grid-cols-1 lg:grid-cols-1 lg:max-w-[28rem] lg:mx-auto"
+            : count === 2
+            ? "md:grid-cols-2 lg:grid-cols-2"
+            : "md:grid-cols-2 lg:grid-cols-3";
+        return (
+          <div className={cn("grid grid-cols-1 gap-[1rem] items-stretch w-full", adaptiveGrid)}>
+            {testimonials?.map((t, i) => (
+              <TestimonialCard
+                key={i}
+                quote={t.quote}
+                name={t.name}
+                role={t.role}
+                avatarSrc={t.avatarSrc}
+                truncateAt={truncateAt}
+                readMoreLabel={readMoreLabel}
+                readLessLabel={readLessLabel}
+                className="flex-1"
+              />
+            ))}
+          </div>
+        );
+      })()}
     </section>
   );
 }

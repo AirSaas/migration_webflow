@@ -130,6 +130,53 @@ export const CompanyOnly: Story = {
   ),
 };
 
+/**
+ * Adaptive grid — N=1 single centered card, N=2 two-col, N=3+ three-col.
+ *
+ * Use this story to verify that the grid fills the frame correctly regardless
+ * of how many testimonials are passed in. Audit finding [DS-A 2026-05-04]
+ * (rebuild agent reported cards not adapting to frame width when N=2).
+ *
+ * Rule: `grid-cols = min(N, 3)`. For N=4..6 the third row wraps.
+ */
+export const AdaptiveGrid: Story = {
+  render: () => {
+    const t1 = {
+      quote: "AirSaas a transformé notre pilotage. Visibilité totale en quelques semaines.",
+      name: "Sébastien Louyot",
+      role: "CIO @Altavia",
+    };
+    const t2 = {
+      quote: "Mise en place rapide et adoption immédiate par les équipes. On gagne 1 jour par mois.",
+      name: "Aurore Butrot",
+      role: "DSI @Groupe Intuis",
+    };
+    const t3 = {
+      quote: "Hub de pilotage donnant le bon niveau de visibilité aux métiers, aux Codir et Comex.",
+      name: "Thomas Sagnimorte",
+      role: "DSI @Millet Mountain Group",
+    };
+    return (
+      <div className="flex flex-col">
+        <div className="px-[2rem] py-[1rem] bg-primary-5">
+          <span className="text-sm font-medium text-text-muted">N=1 — single card centered, capped at ~28rem so it doesn&apos;t stretch end-to-end</span>
+        </div>
+        <TestimonialsFrame title="Un seul" titleHighlight="témoignage" testimonials={[t1]} />
+
+        <div className="px-[2rem] py-[1rem] bg-primary-5">
+          <span className="text-sm font-medium text-text-muted">N=2 — two columns, each card takes 1/2 of the frame width (no orphan empty col)</span>
+        </div>
+        <TestimonialsFrame title="Deux" titleHighlight="témoignages" testimonials={[t1, t2]} />
+
+        <div className="px-[2rem] py-[1rem] bg-primary-5">
+          <span className="text-sm font-medium text-text-muted">N=3 — three columns, max grid</span>
+        </div>
+        <TestimonialsFrame title="Trois" titleHighlight="témoignages" testimonials={[t1, t2, t3]} />
+      </div>
+    );
+  },
+};
+
 /** Company cards zigzag — 4 columns with staggered layout */
 export const CompanyZigzag: Story = {
   args: {
