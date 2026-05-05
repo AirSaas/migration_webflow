@@ -14,6 +14,10 @@ import { ComparisonFrame } from "@/components/library-design/sections/Comparison
 import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
 import { HighlightFrame } from "@/components/library-design/sections/HighlightFrame";
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
+import { IconRowFrame } from "@/components/library-design/sections/IconRowFrame";
+import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { CardCta } from "@/components/library-design/ui/CardCta";
+import { IconBadge } from "@/components/library-design/ui/IconBadge";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { Heading } from "@/components/library-design/ui/Heading";
@@ -450,7 +454,29 @@ function renderSection(section: LandingSection, index: number): ReactNode {
         />
       );
 
-    case "cta":
+    case "cta": {
+      // Dual-card CTA : 2+ items → <CtaFrame> + <CardCta> children
+      // Single-card CTA : <CtaHighlightFrame> (DS canonical for single CTA)
+      const items = section.items || [];
+      if (items.length >= 2) {
+        return (
+          <CtaFrame
+            key={index}
+            title={section.title}
+            subtitle={section.subtitle ?? ""}
+          >
+            {items.slice(0, 2).map((item, i) => (
+              <CardCta
+                key={i}
+                title={item.title}
+                description={item.description ?? ""}
+                ctaLabel={item.ctaLabel ?? section.ctaLabel}
+                ctaHref={item.ctaHref ?? item.videoHref ?? section.ctaHref}
+              />
+            ))}
+          </CtaFrame>
+        );
+      }
       return (
         <CtaHighlightFrame
           key={index}
@@ -461,57 +487,63 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           ctaHref={section.ctaHref}
         />
       );
+    }
 
     case "icon-row":
       if (!section.items || section.items.length === 0) return null;
       return (
-        <section
+        <IconRowFrame
           key={index}
-          className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[2.5rem] md:px-[3rem] md:py-[3.5rem] lg:px-[10rem] lg:py-[4rem] bg-white"
-        >
-          {section.title ? (
-            <Heading level={3} align="center">
-              {section.title}
-            </Heading>
-          ) : null}
-          {section.subtitle ? (
-            <Text size="md" align="center" maxWidth="50rem">
-              {section.subtitle}
-            </Text>
-          ) : null}
-          <div className="flex flex-wrap items-center justify-center gap-[2.5rem]">
-            {section.items.map((item, i) => (
-              <div key={i} className="flex flex-col items-center gap-[0.5rem]">
+          singleTitle={section.title}
+          subtitle={section.subtitle}
+          items={section.items.map((item) => ({
+            icon: (
+              <IconBadge variant="light" size="md">
                 {item.iconSrc ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={item.iconSrc}
-                    alt=""
-                    className="h-[2.5rem] w-auto"
-                    loading="lazy"
-                  />
-                ) : null}
-                <Text size="sm">{item.label}</Text>
-              </div>
-            ))}
-          </div>
-        </section>
+                  <img src={item.iconSrc} alt="" className="h-[1.5rem] w-auto" loading="lazy" />
+                ) : (
+                  <CircleCheckIcon />
+                )}
+              </IconBadge>
+            ),
+            label: item.label,
+          }))}
+        />
       );
 
-    case "trust-badges":
+    case "trust-badges": {
       if (!section.badges || section.badges.length === 0) return null;
+      // 4 badges = 4 cards of "Sécurité au top". Use ValuePropositionFrame
+      // dark variant + FeatureCard so the chrome matches DS canonical.
+      const cols = Math.min(4, Math.max(2, section.badges.length)) as 2 | 3 | 4;
       return (
-        <section
+        <ValuePropositionFrame
           key={index}
-          className="flex flex-wrap items-center justify-center gap-[1rem] px-[1.5rem] py-[1.5rem] md:px-[3rem] bg-white"
+          variant="dark"
+          title={section.title || "Sécurité au top"}
+          subtitle={section.subtitle}
+          columns={cols}
         >
           {section.badges.map((b, i) => (
-            <Tag key={i} variant="muted">
-              {b.label}
-            </Tag>
+            <FeatureCard
+              key={i}
+              icon={
+                <IconBadge variant="solid" size="md">
+                  {b.iconSrc ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={b.iconSrc} alt="" className="h-[1.5rem] w-auto" loading="lazy" />
+                  ) : (
+                    <LockKeyholeIcon />
+                  )}
+                </IconBadge>
+              }
+              title={b.label}
+            />
           ))}
-        </section>
+        </ValuePropositionFrame>
       );
+    }
 
     case "related":
       if (!section.items || section.items.length === 0) return null;
