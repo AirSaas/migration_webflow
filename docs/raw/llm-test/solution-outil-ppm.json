@@ -1,9 +1,9 @@
 {
   "type": "solution",
   "slug": "outil-ppm",
-  "iteration": 2,
-  "outcome": "REFINED",
-  "previousOutcome": "PASS_FIRST_TRY",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
   "result": {
     "meta": {
       "title": "AirSaas : un outil PPM nouvelle génération - Logiciel PPM",
@@ -13,7 +13,6 @@
       {
         "type": "hero",
         "title": "AirSaas : un outil PPM nouvelle génération - Logiciel ppm",
-        "titleHighlight": "AirSaas",
         "subtitle": "Souvent complexes et coûteux à implémenter, AirSaas propose un outil PPM nouvelle génération. Finissez-en aujourd'hui avec votre Excel à 1200 colonnes !",
         "primaryCta": {
           "label": "Réservez une démo",
@@ -23,32 +22,30 @@
       {
         "type": "intro",
         "title": "Quels sont les meilleurs logiciels PPM ? L'exemple AirSaas",
-        "body": "<p>Un outil PPM (<a href=\"https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management\">Project Portfolio Management</a>), permet de donner de la visibilité aux managers et de prioriser les projets en fonction des retombées potentielles pour l'entreprise.</p>",
-        "headingLevel": 2
+        "body": "<p>Un outil PPM (<a href=\"https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management\">Project Portfolio Management</a>), permet de donner de la visibilité aux managers et de prioriser les projets en fonction des retombées potentielles pour l'entreprise.</p>"
       },
       {
-        "type": "intro",
+        "type": "pillar-frame",
         "title": "Enfin l'outil PPM que toutes les Directions attendaient",
-        "headingLevel": 2,
-        "subSections": [
+        "columns": 3,
+        "pillars": [
           {
             "title": "Simplissime",
-            "body": "Fini les 5 jours de formation, importez votre Excel, invitez votre équipe et c'est parti. L'interface est ergonomique et intuitive, la prise en main se fait dés le premier jour."
+            "description": "Fini les 5 jours de formation, importez votre Excel, invitez votre équipe et c'est parti. L'interface est ergonomique et intuitive, la prise en main se fait dés le premier jour."
           },
           {
             "title": "PPM orienté valeur",
-            "body": "Un PPM ne doit pas simplement vous aider à mieux piloter vos projets, il doit vous permettre d'apporter plus de valeur à l'entreprise. AirSaas vous permet de suivre les indicateurs essentiels et mesurer le retour sur investissement de vos actions."
+            "description": "Un PPM ne doit pas simplement vous aider à mieux piloter vos projets, il doit vous permettre d'apporter plus de valeur à l'entreprise. AirSaas vous permet de suivre les indicateurs essentiels et mesurer le retour sur investissement de vos actions."
           },
           {
             "title": "Connecté à vos outils du quotidien",
-            "body": "Dans un monde où les outils se multiplient, il est essentiel de ne pas avoir à ressaisir l'information d'un outil à l'autre ou de chercher le document partagé de partout. AirSaas se connecte à vos outils de communication, de finance, de développement, pour simplifier le quotidien de tout le monde dans l'entreprise."
+            "description": "Dans un monde où les outils se multiplient, il est essentiel de ne pas avoir à ressaisir l'information d'un outil à l'autre ou de chercher le document partagé de partout. AirSaas se connecte à vos outils de communication, de finance, de développement, pour simplifier le quotidien de tout le monde dans l'entreprise."
           }
         ]
       },
       {
         "type": "feature-split",
         "title": "Prenez des décisions avisées en Copil",
-        "titleHighlight": "Prenez",
         "body": "<p>Pour prendre les bonnes décisions il faut les bonnes informations en entrée, à jour et consolidées. La performance de votre activité dépend de votre capacité à être efficace dans la gestion de vos comités de pilotage.</p><p>AirSaas vous fourni un tableau de bord de tous vos projets, filtrable suivant les indicateurs essentiels, permettant de ne voir que les informations importantes à la prise de décision.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
         "imageAlt": "Portfolio decisions"
@@ -56,7 +53,6 @@
       {
         "type": "feature-split",
         "title": "Gagnez du temps en reporting",
-        "titleHighlight": "Gagnez",
         "body": "<p>Vos équipes reçoivent régulièrement des questions sur l'état d'avancement des projets, le manager passe beaucoup de temps à remplir des slides Powerpoint en glanant les informations à gauche et à droite.</p><p>Nous avons créé pour vous le <a href=\"https://www.airsaas.io/fr/solution/flash-report-projet\">rapport flash</a>. En un clic une présentation (.ppt, .pdf, url) est générée, contenant les slides projet avec toutes les données à jour. Vous pouvez maintenant tenir au courant la direction générale et les responsables métiers de l'avancée de vos activités, des ressources humaines mobilisées, etc.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
         "imageAlt": "Reporting flash avec votre logiciel PPM",
@@ -65,7 +61,6 @@
       {
         "type": "feature-split",
         "title": "Améliorez votre gestion des ressources",
-        "titleHighlight": "Améliorez",
         "body": "<p>La vue timeline vous permet d'avoir une <a href=\"https://www.airsaas.io/fr/gestion-de-projet/capacity-planning\">vision d'ensemble des projets</a> en cours et leurs jalons associés. Vous pouvez déplacer les éléments grâce au cliquer-glisser et envisager des nouveaux scénarios. Assurez-vous de la disponibilité des ressources et priorisez les projets par importance, solution ou logiciel choisi, évaluation de l'importance pour le métier, etc.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
         "imageAlt": "Gestion des ressources depuis votre outil PPM"
@@ -73,66 +68,37 @@
       {
         "type": "feature-split",
         "title": "Suivez la consommation des budgets et des ressources",
-        "titleHighlight": "Suivez",
         "body": "<p>Vous ne pouvez pas être pris au dépourvu, vous devez surveiller la consommation de vos budgets et de vos ressources en continu. Pour cela, AirSaas se connecte à vos outils de développement pour récupérer les jours homme consommés et vos outils financiers pour les budgets consommés. L'objectif est de vous fournir une vue consolidée et exportable.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d705feadffd7e3d62baec2_Project%20page%20effort%20and%20budget%20consumed.webp",
         "imageAlt": "Project page effort and budget consumed",
         "reversed": true
       },
       {
-        "type": "cta",
-        "title": "Choisissez de gagner du temps et du contrôle",
-        "titleHighlight": "temps et du contrôle",
-        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
-        "ctaLabel": "Réservez une démo",
-        "ctaHref": "/fr/meetings-pages"
-      },
-      {
-        "type": "intro",
-        "title": "Faites avancer les projets sereinement",
-        "headingLevel": 2
-      },
-      {
         "type": "feature-split",
-        "title": "Fluidifiez les relations entre l'IT et les métiers",
+        "title": "Faites avancer les projets sereinement",
+        "subtitle": "Fluidifiez les relations entre l'IT et les métiers",
         "body": "<p>Les métiers reprochent la lenteur du département IT et la non prise en compte de leurs besoins. L'IT manque de ressources et reproche aux métiers leur manque d'investissement. AirSaas apporte un workflow commun et une vue consolidée permettant de mettre en avant les jeux de contrainte de chacun.</p><p>AirSaas est collaboratif \"by design\" permettant de rassembler les parties prenantes autour d'un même outil, compréhensible de tous.</p><p>L'outil permet un reporting régulier, ainsi qu'une remontée des problèmes rencontrés et des succès du parcours pour engager les équipes et avancer sereinement.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
-        "imageAlt": "Pilotage de projet"
-      },
-      {
-        "type": "feature-split",
-        "title": "Améliorez la phase de cadrage",
-        "body": "<p>Au menu, un cadrage guidé où les utilisateurs sont accompagnés pour remplir les informations essentielles au bon démarrage (gains espérés, critères de réussite, effort à fournir, etc.), auquel on ajoute la possibilité de les remplir de façon collaborative et asynchrone. Quand le niveau de remplissage est suffisant, le projet peut partir en validation au comité de pilotage.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d473f144eace1121240b18_Modal%20-%20create%20project.webp",
-        "imageAlt": "Cadrage de projet dans votre logiciel PPM",
-        "reversed": true
-      },
-      {
-        "type": "feature-split",
-        "title": "Augmentez l'engagement des équipes",
-        "body": "<p>Envoyez un sondage régulier et anonyme aux membres de l'équipe pour sonder leur degré de confiance dans le succès du projet. Grâce à l'outil AirSaas, vous créez un lien de coopération entre l'IT et les métiers. Les métiers ne sont plus les clients de l'IT, et l'IT n'est plus au service des métiers. La mise en œuvre d'une collaboration saine est essentielle à la réussite des projets, tout au long de leur cycle de vie.</p>"
-      },
-      {
-        "type": "feature-split",
-        "title": "Partagez vos avancées",
-        "body": "<p>Le plan de communication est indispensable à la réussite de vos projets et de votre équipe. Tenez au courant les membres du Comex et les responsables métier pour diminuer la frustration, mettre en avant les succès et inciter d'autres collaborateurs à rejoindre le mouvement des projets qui fonctionnent. Une tâche qui normalement est chronophage, mais le rapport flash automatique va grandement vous aider !</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d706b1f7b6d596a3ed07bc_Project%20page%20feed.webp",
-        "imageAlt": "Project page",
-        "reversed": true
-      },
-      {
-        "type": "cta",
-        "title": "Choisissez de gagner du temps et du contrôle",
-        "titleHighlight": "temps et du contrôle",
-        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
-        "ctaLabel": "Réservez une démo",
-        "ctaHref": "/fr/meetings-pages"
+        "imageAlt": "Pilotage de projet",
+        "subSections": [
+          {
+            "title": "Améliorez la phase de cadrage",
+            "body": "<p>Au menu, un cadrage guidé où les utilisateurs sont accompagnés pour remplir les informations essentielles au bon démarrage (gains espérés, critères de réussite, effort à fournir, etc.), auquel on ajoute la possibilité de les remplir de façon collaborative et asynchrone. Quand le niveau de remplissage est suffisant, le projet peut partir en validation au comité de pilotage.</p>"
+          },
+          {
+            "title": "Augmentez l'engagement des équipes",
+            "body": "<p>Envoyez un sondage régulier et anonyme aux membres de l'équipe pour sonder leur degré de confiance dans le succès du projet. Grâce à l'outil AirSaas, vous créez un lien de coopération entre l'IT et les métiers. Les métiers ne sont plus les clients de l'IT, et l'IT n'est plus au service des métiers. La mise en œuvre d'une collaboration saine est essentielle à la réussite des projets, tout au long de leur cycle de vie.</p>"
+          },
+          {
+            "title": "Partagez vos avancées",
+            "body": "<p>Le plan de communication est indispensable à la réussite de vos projets et de votre équipe. Tenez au courant les membres du Comex et les responsables métier pour diminuer la frustration, mettre en avant les succès et inciter d'autres collaborateurs à rejoindre le mouvement des projets qui fonctionnent. Une tâche qui normalement est chronophage, mais le rapport flash automatique va grandement vous aider !</p>"
+          }
+        ]
       },
       {
         "type": "intro",
         "title": "Une erreur à éviter : confondre les PM et les PPM",
-        "body": "<p>Il y a souvent une confusion entre les outils de PM (Project Management / gestion de projet ) et les outils de PPM (Portefolio Project Management : gestion de portefeuille de projets), bien qu'ils n'aient pas les mêmes objectifs.</p><p>Commençons donc par différencier ces deux types d'outil de pilotage de projet.</p>",
-        "headingLevel": 2
+        "body": "<p>Il y a souvent une confusion entre les outils de PM (Project Management / gestion de projet ) et les outils de PPM (Portefolio Project Management : gestion de portefeuille de projets), bien qu'ils n'aient pas les mêmes objectifs.</p><p>Commençons donc par différencier ces deux types d'outil de pilotage de projet.</p>"
       },
       {
         "type": "feature-split",
@@ -171,106 +137,75 @@
         "subSections": [
           {
             "title": "Quand est-ce que les logiciels ppm ont commencé à apparaître ?",
-            "body": "Si les premiers outils de gestion de projet ont commencé à apparaître dès les années 80, on remarque tout de même que de nouvelles entreprises ont depuis continué de développer des logiciels concurrents. Une autre chose intéressante : si ces logiciels répondent aujourd'hui tous aux problématiques de gestion de portefeuilles de projets, chacun d'entre eux n'a pas initialement été développé pour servir les mêmes objectifs ! Certains priorisaient la gestion de projets, tandis que d'autres abordaient dès le début la gestion des portefeuilles de projets."
+            "body": "<p>Si les premiers outils de gestion de projet ont commencé à apparaître dès les années 80, on remarque tout de même que de nouvelles entreprises ont depuis continué de développer des logiciels concurrents. Une autre chose intéressante : si ces logiciels répondent aujourd'hui tous aux problématiques de gestion de portefeuilles de projets, chacun d'entre eux n'a pas initialement été développé pour servir les mêmes objectifs ! Certains priorisaient la gestion de projets, tandis que d'autres abordaient dès le début la gestion des portefeuilles de projets.</p>"
           },
           {
             "title": "Quel besoin est apparu en premier : la gestion de projet ou de portefeuille de projets ?",
-            "body": "On peut voir qu'une majorité des outils de gestion de portefeuille projets ont en fait commencé par proposer des services de gestion de projet ! Ce n'est que par la suite, que ces derniers ont été complétés afin de permettre de mener plusieurs projets de front de manière optimale."
-          },
-          {
-            "body": "On peut quand même noter que des outils étaient axés dès le début sur la gestion de portefeuille projets (Planview), même si certains d'entre eux proposaient en parallèle des fonctions de gestion de projet (Sciforma, Ganttic). Aujourd'hui, la quasi-totalité de ces logiciels répondent aux deux besoins : la gestion de projet et la gestion de portefeuille de projets. On constate donc bien qu'il existe une nécessité de fluidifier la prise de décision dans les entreprises, que ce soit à l'échelle de la gestion d'un projet, ou à une échelle plus globale à l'aide d'un outil PPM."
+            "body": "<p>On peut voir qu'une majorité des outils de gestion de portefeuille projets ont en fait commencé par proposer des services de gestion de projet ! Ce n'est que par la suite, que ces derniers ont été complétés afin de permettre de mener plusieurs projets de front de manière optimale.</p><p>On peut quand même noter que des outils étaient axés dès le début sur la gestion de portefeuille projets (Planview), même si certains d'entre eux proposaient en parallèle des fonctions de gestion de projet (Sciforma, Ganttic).</p><p>Aujourd'hui, la quasi-totalité de ces logiciels répondent aux deux besoins : la gestion de projet et la gestion de portefeuille de projets. On constate donc bien qu'il existe une nécessité de fluidifier la prise de décision dans les entreprises, que ce soit à l'échelle de la gestion d'un projet, ou à une échelle plus globale à l'aide d'un outil PPM.</p>"
           }
         ]
-      },
-      {
-        "type": "cta",
-        "title": "Choisissez de gagner du temps et du contrôle",
-        "titleHighlight": "temps et du contrôle",
-        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
-        "ctaLabel": "Réservez une démo",
-        "ctaHref": "/fr/meetings-pages"
       },
       {
         "type": "intro",
         "title": "Les différentes visions de la gestion de projet : l'exemple des DSI",
         "body": "<p>Si les logiciels de gestion de portefeuilles de projets ne présentent pas tous les mêmes fonctionnalités, c'est en partie dû à la manière dont ils ont été construits historiquement, mais c'est aussi une conséquence de la vision de la gestion de projets qu'ils défendent.</p><p>Mais pourquoi existe-t-il différentes visions de la gestion de projet dans les DSI ?</p>",
-        "headingLevel": 2,
         "subSections": [
           {
             "title": "La gestion de projet : d'un prisme technique à un prisme business",
-            "body": "La plupart des livres blancs sur le sujet s'accordent à dire que dans les dernières décennies, la DSI est passée d'un rôle largement cantonné à un aspect technique à une mission centrée sur les besoins business des métiers. La DSI n'est plus réduite à assurer le fonctionnement du run, en fournissant une assistance purement technique, mais elle doit aussi comprendre les besoins des différents collaborateurs afin de leur apporter de la valeur dans leur coeur de métier.<br><br>Les attentes qu'ont les DSI d'un outil pour piloter leurs projets ont donc forcément énormément évoluées : d'un outil de suivi de gestion des problématiques techniques, les DSI ont souvent besoin que leur PPM simplifie la communication avec les métiers et la remontée de leurs besoins, notamment en passant par l'intermédiaire du chef de projet."
+            "body": "<p>La plupart des livres blancs sur le sujet s'accordent à dire que dans les dernières décennies, la DSI est passée d'un rôle largement cantonné à un aspect technique à une mission centrée sur les besoins business des métiers. La DSI n'est plus réduite à assurer le fonctionnement du run, en fournissant une assistance purement technique, mais elle doit aussi comprendre les besoins des différents collaborateurs afin de leur apporter de la valeur dans leur coeur de métier.</p><p>Les attentes qu'ont les DSI d'un outil pour piloter leurs projets ont donc forcément énormément évoluées : d'un outil de suivi de gestion des problématiques techniques, les DSI ont souvent besoin que leur PPM simplifie la communication avec les métiers et la remontée de leurs besoins, notamment en passant par l'intermédiaire du chef de projet.</p>"
           },
           {
             "title": "L'impact de l'essor du poids du digital sur les besoins des DSI en gestion de projets",
-            "body": "Le développement du digital permet aux DSI d'aider leur entreprise de manière différente, et notamment en contribuant davantage à la réussite des objectifs business. Par exemple, une DSI peut structurer la digitalisation des process, ce qui entraîne des gains de temps pour les métiers et aide ces derniers à être compétitifs face aux entreprises concurrentes. Elle peut même participer à la création de valeur, notamment en accompagnant le changement de business modèle de l'entreprise. On peut aussi penser à l'anecdote de Pierre Raschi, DG de Référence DSI, où il raconte comment une DSI en temps partagé a permis à une boucherie de renouveler sa clientèle vieillissante grâce au digital.<br><br>Ce changement structurel du poids du digital pour une entreprise amène donc à confier davantage de missions à la DSI. Ainsi, puisque la DSI a de nouvelles responsabilités, elle pilote ses projets différemment, et attend donc de nouvelles fonctionnalités de la part de ses outils PPM, ce qui amène ces derniers à évoluer !"
+            "body": "<p>Le développement du digital permet aux DSI d'aider leur entreprise de manière différente, et notamment en contribuant davantage à la réussite des objectifs business. Par exemple, une DSI peut structurer la digitalisation des process, ce qui entraîne des gains de temps pour les métiers et aide ces derniers à être compétitifs face aux entreprises concurrentes. Elle peut même participer à la création de valeur, notamment en accompagnant le changement de business modèle de l'entreprise. On peut aussi penser à l'anecdote de Pierre Raschi, DG de Référence DSI, où il raconte comment une DSI en temps partagé a permis à une boucherie de renouveler sa clientèle vieillissante grâce au digital.</p><p>Ce changement structurel du poids du digital pour une entreprise amène donc à confier davantage de missions à la DSI. Ainsi, puisque la DSI a de nouvelles responsabilités, elle pilote ses projets différemment, et attend donc de nouvelles fonctionnalités de la part de ses outils PPM, ce qui amène ces derniers à évoluer !</p>"
           },
           {
             "title": "Un changement de paradigme : du contrôle des process, à un besoin d'impliquer les collaborateurs",
-            "body": "Les deux changements que l'on a vus ci-dessus impliquent une évolution dans la manière qu'a la DSI de collaborer avec les différents services et équipes de son entreprise. Une DSI axée sur la technique essayait plutôt de contrôler les comportements des collaborateurs afin qu'ils ne soient freinés par aucun problème technique et que le SI ne soit pas affecté négativement. Aujourd'hui, si elle veut réussir à impacter le business de l'entreprise de manière positive, la DSI doit être capable de comprendre finement les besoins des métiers et donc de collaborer étroitement avec ces derniers. Et une telle collaboration nécessite de briser les silos qui peuvent exister entre les services, ou au sein même des équipes, et d'impliquer chacun des collaborateurs. Ainsi, une DSI qui souhaite contrôler tous les processus existants n'aura pas besoin du même type d'outil que celle qui cherche à structurer une collaboration forte avec ses collaborateurs."
+            "body": "<p>Les deux changements que l'on a vus ci-dessus impliquent une évolution dans la manière qu'a la DSI de collaborer avec les différents services et équipes de son entreprise. Une DSI axée sur la technique essayait plutôt de contrôler les comportements des collaborateurs afin qu'ils ne soient freinés par aucun problème technique et que le SI ne soit pas affecté négativement. Aujourd'hui, si elle veut réussir à impacter le business de l'entreprise de manière positive, la DSI doit être capable de comprendre finement les besoins des métiers et donc de collaborer étroitement avec ces derniers. Et une telle collaboration nécessite de briser les silos qui peuvent exister entre les services, ou au sein même des équipes, et d'impliquer chacun des collaborateurs. Ainsi, une DSI qui souhaite contrôler tous les processus existants n'aura pas besoin du même type d'outil que celle qui cherche à structurer une collaboration forte avec ses collaborateurs.</p>"
           }
         ]
-      },
-      {
-        "type": "feature-split",
-        "title": "Deux visions de DSI illustrées par les pyramides de Maslow",
-        "body": "<p>En grossissant le trait, on peut matérialiser deux visions majeures de DSI qui s'opposent grâce à ces pyramides de Maslow :</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd5c2a0f0e55_outil14a.svg",
-        "imageAlt": "Pyramides de Maslow illustrant les deux visions opposées de DSI"
       },
       {
         "type": "intro",
         "title": "Des visions opposées de la gestion de projets qui requièrent la mise en place de PPM différents",
         "body": "<p>Une fois que l'on a compris que les PPM ne répondaient pas tous aux mêmes besoins, il faut se poser une question : quel outil PPM va être adapté à ma vision du rôle de la DSI ainsi qu'à mes objectifs ?</p>",
-        "headingLevel": 2,
         "subSections": [
           {
             "title": "Des PPM variés selon les besoins de sa DSI",
-            "body": "Bien sûr, il existe des PPM qui proposent différentes fonctionnalités, plus ou moins poussées : arbitrage des projets, pilotage des ressources, construction budgétaire, gestion des risques, animation des instances projet, reporting des informations essentielles, contrôle de la rentabilité, espace de communication simplifié. Mais au-delà de cette liste de fonctionnalités, il est possible de mettre en avant des styles de PPM opposés pour les différencier plus facilement."
+            "body": "<p>Bien sûr, il existe des PPM qui proposent différentes fonctionnalités, plus ou moins poussées :</p><ul><li>arbitrage des projets</li><li>pilotage des ressources</li><li>construction budgétaire</li><li>gestion des risques</li><li>animation des instances projet</li><li>reporting des informations essentielles</li><li>contrôle de la rentabilité</li><li>espace de communication simplifié</li></ul><p>Mais au-delà de cette liste de fonctionnalités, il est possible de mettre en avant des styles de PPM opposés pour les différencier plus facilement.</p>"
           },
           {
             "title": "Les PPM tout-en-un VS les PPM qui s'intègrent aux applications existantes",
-            "body": "Certains PPM comme les ERP ambitionnent de répondre à tous les besoins des DSI sur un seul et même logiciel. Bon nombre d'entre eux sont efficaces, mais le manque de flexibilité d'une telle solution une fois implémentée oblige à prendre le temps de s'interroger avant de faire son choix.<br><br>A l'inverse, d'autres logiciels (souvent des SaaS) offrent moins de fonctionnalités mais proposent de s'intégrer aux outils existants. Ils permettront ainsi d'éviter les doublons et de diminuer le coût de change d'un outil : là où la montée de version d'un outil PPM lourd sera un projet majeur, long, et coûteux.<br><br>Ces deux types d'outils ne correspondent pas à la même vision du rôle de la DSI. Dans le cas des logiciels qui s'intègrent à l'existant, la DSI est perçue comme n'ayant plus à acquérir un outil lui permettant d'avancer sur tous les fronts, mais plutôt comme devant être capable de connecter et de déconnecter différents outils, en fonction de l'évolution de l'entreprise. L'idée est d'être en capacité de coller aux besoins existant, constamment, et à moindre coût."
+            "body": "<p>Certains PPM comme les ERP ambitionnent de répondre à tous les besoins des DSI sur un seul et même logiciel. Bon nombre d'entre eux sont efficaces, mais le manque de flexibilité d'une telle solution une fois implémentée oblige à prendre le temps de s'interroger avant de faire son choix.</p><p>A l'inverse, d'autres logiciels (souvent des SaaS) offrent moins de fonctionnalités mais proposent de s'intégrer aux outils existants. Ils permettront ainsi d'éviter les doublons et de diminuer le coût de change d'un outil : là où la montée de version d'un outil PPM lourd sera un projet majeur, long, et coûteux.</p><p>Ces deux types d'outils ne correspondent pas à la même vision du rôle de la DSI. Dans le cas des logiciels qui s'intègrent à l'existant, la DSI est perçue comme n'ayant plus à acquérir un outil lui permettant d'avancer sur tous les fronts, mais plutôt comme devant être capable de connecter et de déconnecter différents outils, en fonction de l'évolution de l'entreprise. L'idée est d'être en capacité de coller aux besoins existant, constamment, et à moindre coût.</p>"
           },
           {
             "title": "Les PPM qui proposent un espace d'échange collaboratif",
-            "body": "Selon la vision qu'aura le DSI de son rôle pour l'entreprise, un espace collaboratif incorporé directement dans son outil PPM peut vraiment simplifier son quotidien et celui de ses équipes. Si la plupart des entreprises utilisent déjà des canaux \"classiques\" pour faire remonter les besoins métiers à la DSI (Teams, Slack), faire le choix d'utiliser un PPM qui propose une interface d'échange plus structurée permet de centraliser l'information afin de collaborer plus efficacement."
+            "body": "<p>Selon la vision qu'aura le DSI de son rôle pour l'entreprise, un espace collaboratif incorporé directement dans son outil PPM peut vraiment simplifier son quotidien et celui de ses équipes. Si la plupart des entreprises utilisent déjà des canaux \"classiques\" pour faire remonter les besoins métiers à la DSI (Teams, Slack), faire le choix d'utiliser un PPM qui propose une interface d'échange plus structurée permet de centraliser l'information afin de collaborer plus efficacement.</p>"
           },
           {
             "title": "Les PPM qui misent sur l'UX",
-            "body": "L'avantage qu'amène le choix de ces PPM est double. Tout d'abord, si l'on souhaite impliquer les collaborateurs d'une entreprise sur des sujets aussi techniques que ceux traités par la DSI, mieux vaut le faire sur une interface qui leur plaira. Il n'y a rien de plus décourageant que d'être invité à travailler sur un Excel géant lorsque l'on n'est pas la personne ayant passé des dizaines d'heures à le créer. Les PPM qui misent sur l'UX ont donc généralement une interface suffisamment intuitive pour faciliter la collaboration entre les profils techniques et business.<br><br>Le second avantage est d'augmenter le taux d'adoption de ces PPM : les collaborateurs ne mettront que quelques heures à se roder à l'utilisation de ces nouveaux logiciels plutôt que quelques jours, ce qui peut être un levier très intéressant si l'objectif est de mobiliser rapidement."
+            "body": "<p>L'avantage qu'amène le choix de ces PPM est double. Tout d'abord, si l'on souhaite impliquer les collaborateurs d'une entreprise sur des sujets aussi techniques que ceux traités par la DSI, mieux vaut le faire sur une interface qui leur plaira. Il n'y a rien de plus décourageant que d'être invité à travailler sur un Excel géant lorsque l'on n'est pas la personne ayant passé des dizaines d'heures à le créer. Les PPM qui misent sur l'UX ont donc généralement une interface suffisamment intuitive pour faciliter la collaboration entre les profils techniques et business.</p><p>Le second avantage est d'augmenter le taux d'adoption de ces PPM : les collaborateurs ne mettront que quelques heures à se roder à l'utilisation de ces nouveaux logiciels plutôt que quelques jours, ce qui peut être un levier très intéressant si l'objectif est de mobiliser rapidement.</p>"
           },
           {
             "title": "L'importance d'adapter la méthodologie portée par l'outil à la réalité de son organisation",
-            "body": "Aucun outil n'est réellement neutre, chacun d'entre eux porte intrinsèquement une méthodologie. Si l'on souhaite maximiser le taux d'adoption de son outil PPM, l'un des facteurs clé est d'en choisir un qui porte une méthodologie adaptée au fonctionnement de son organisation : aux niveaux des processus existants, des objectifs fixés, ou même de sa vision de la gestion de projets.<br><br>Prendre un outil PPM portant une méthodologie opposée à celle qui est en place serait aussi contre-productif que de nager à contre-courant. Ainsi, il est primordial de s'interroger sur la méthodologie que l'on souhaite appliquer, afin de choisir son outil PPM en conséquence."
+            "body": "<p>Aucun outil n'est réellement neutre, chacun d'entre eux porte intrinsèquement une méthodologie. Si l'on souhaite maximiser le taux d'adoption de son outil PPM, l'un des facteurs clé est d'en choisir un qui porte une méthodologie adaptée au fonctionnement de son organisation : aux niveaux des processus existants, des objectifs fixés, ou même de sa vision de la gestion de projets.</p><p>Prendre un outil PPM portant une méthodologie opposée à celle qui est en place serait aussi contre-productif que de nager à contre-courant. Ainsi, il est primordial de s'interroger sur la méthodologie que l'on souhaite appliquer, afin de choisir son outil PPM en conséquence.</p>"
           },
           {
             "title": "Changer la culture d'une entreprise grâce à l'interface utilisateur",
-            "body": "S'il vaut mieux adopter un outil dont la méthodologie est proche de la réalité de votre fonctionnement, un outil PPM peut aussi être un levier pour faire évoluer vos méthodes de travail ainsi que la culture de votre entreprise. En effet, la culture d'une entreprise est le fruit du comportement qu'elle adopte face à un environnement particulier. Donc si l'on change l'environnement, notamment en changeant les logiciels utilisés, on change la culture !<br><br>Il est donc possible de se servir d'un nouvel outil pour impulser un changement de pratiques. Cependant, il faut tout de même veiller à ce que le changement souhaité ne soit pas à l'opposé de ce que vous promouvez actuellement. En effet, s'il n'est pas accompagné par des décisions et des directives allant dans le même sens, un outil à lui seul ne peut pas bousculer les habitudes ancrées dans une organisation."
-          },
-          {
-            "body": "<strong>Pour résumer :</strong> choisissez un outil qui porte une méthodologie proche de celle que vous promouvez actuellement ou au moins de celle que vous souhaitez instaurer."
+            "body": "<p>S'il vaut mieux adopter un outil dont la méthodologie est proche de la réalité de votre fonctionnement, un outil PPM peut aussi être un levier pour faire évoluer vos méthodes de travail ainsi que la culture de votre entreprise. En effet, la culture d'une entreprise est le fruit du comportement qu'elle adopte face à un environnement particulier. Donc si l'on change l'environnement, notamment en changeant les logiciels utilisés, on change la culture !</p><p>Il est donc possible de se servir d'un nouvel outil pour impulser un changement de pratiques. Cependant, il faut tout de même veiller à ce que le changement souhaité ne soit pas à l'opposé de ce que vous promouvez actuellement. En effet, s'il n'est pas accompagné par des décisions et des directives allant dans le même sens, un outil à lui seul ne peut pas bousculer les habitudes ancrées dans une organisation.</p><p><strong>Pour résumer :</strong> choisissez un outil qui porte une méthodologie proche de celle que vous promouvez actuellement ou au moins de celle que vous souhaitez instaurer.</p>"
           }
         ]
       },
       {
         "type": "intro",
         "title": "Où se situe AirSaas dans le spectre de tous ces outils de gestion de projet ?",
-        "body": "<p>Comme décrit en haut de page, AirSaas est un outil de gestion de portefeuilles projets plutôt léger qui ne vise pas à être un logiciel tout-en-un, mais qui comporte la plupart des fonctionnalités clé dont une DSI a besoin pour assurer l'exécution de ses projets.</p>",
-        "headingLevel": 2
+        "body": "<p>Comme décrit en haut de page, AirSaas est un outil de gestion de portefeuilles projets plutôt léger qui ne vise pas à être un logiciel tout-en-un, mais qui comporte la plupart des fonctionnalités clé dont une DSI a besoin pour assurer l'exécution de ses projets.</p>"
       },
       {
         "type": "feature-split",
-        "title": "Un outil PPM intuitif et intégré à vos outils existant — Jira",
-        "body": "<p><strong>Jira</strong></p><p>En s'intégrant à Jira vous aurez automatiquement les données d'avancement des projets dans AirSaas. Cela vous permettra d'avoir une vue globale de l'ensemble des projets et de leurs états d'avancement sans efforts.</p>",
+        "title": "Un outil PPM intuitif et intégré à vos outils existant",
+        "body": "<p><strong>Jira</strong></p><p>En s'intégrant à Jira vous aurez automatiquement les données d'avancement des projets dans AirSaas. Cela vous permettra d'avoir une vue globale de l'ensemble des projets et de leurs états d'avancement sans efforts.</p><p><strong>Microsoft Teams</strong></p><p>AirSaas est intégré à Microsoft Teams. Automatiquement les informations les plus importantes sur les projets en cours seront envoyées sur vos canaux de communication Teams dédiés. Avec cette intégration, vous pourrez partager simplement l'avancée des projets avec l'ensemble de l'entreprise. Si vous utilisez d'autres solutions, n'hésitez pas à nous le dire !</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fda84e0f0e5d_outil18a.svg",
-        "imageAlt": "Intégration Jira"
-      },
-      {
-        "type": "feature-split",
-        "title": "Microsoft Teams",
-        "body": "<p><strong>Microsoft Teams</strong></p><p>AirSaas est intégré à Microsoft Teams. Automatiquement les informations les plus importantes sur les projets en cours seront envoyées sur vos canaux de communication Teams dédiés. Avec cette intégration, vous pourrez partager simplement l'avancée des projets avec l'ensemble de l'entreprise. Si vous utilisez d'autres solutions, n'hésitez pas à nous le dire !</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd60480f0e5e_outil18b.svg",
-        "imageAlt": "Intégration Microsoft Teams"
+        "imageAlt": "Jira et Microsoft Teams"
       },
       {
         "type": "feature-split",
@@ -278,18 +213,19 @@
         "body": "<p>Notre pari : pour parvenir à impliquer les métiers, la DSI a besoin de le outil PPM qu'ils sauront prendre en main rapidement, sans friction. Nous pensons que ce n'est pas en forçant les métiers à travailler sur des outils complexes que les entreprises parviendront à briser les logiques de silos et à structurer une collaboration étroite métiers/DSI.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70979f3aaee0cbfd859cc_Feed%20search%20solution.webp",
         "imageAlt": "Un outil PPM avec une UX forte",
-        "reversed": true
+        "reversed": true,
+        "subSections": [
+          {
+            "title": "Un outil PPM portant une méthodologie collaborative pour impliquer les métiers",
+            "body": "<p>Nous avons poussé la logique collaborative jusqu'au bout : AirSaas propose un moteur de recherche de solutions (externes/internes) accessibles aux responsables métiers.</p><p>Lorsqu'un métier à un besoin, il cherche déjà des solutions de son côté sans forcément prévenir la DSI qui peut même finir par se retrouver face à du Shadow IT.</p><p>Notre idée ici est de donner une solution à la DSI pour encadrer ces pratiques et structurer leurs efforts de recherche de solutions, tout en leur faisant comprendre les contraintes techniques du SI.</p><p><strong>AirSaas</strong> est donc solution PPM légère, qui s'intègre à l'existant, et qui porte une méthodologie collaborative forte afin d'impliquer les métiers.</p>"
+          }
+        ]
       },
       {
-        "type": "intro",
-        "title": "Un outil PPM portant une méthodologie collaborative pour impliquer les métiers",
-        "body": "<p>Nous avons poussé la logique collaborative jusqu'au bout : AirSaas propose un moteur de recherche de solutions (externes/internes) accessibles aux responsables métiers.</p><p>Lorsqu'un métier à un besoin, il cherche déjà des solutions de son côté sans forcément prévenir la DSI qui peut même finir par se retrouver face à du Shadow IT.</p><p>Notre idée ici est de donner une solution à la DSI pour encadrer ces pratiques et structurer leurs efforts de recherche de solutions, tout en leur faisant comprendre les contraintes techniques du SI.</p><p><strong>AirSaas</strong> est donc solution PPM légère, qui s'intègre à l'existant, et qui porte une méthodologie collaborative forte afin d'impliquer les métiers.</p>",
-        "headingLevel": 3
-      },
-      {
-        "type": "cta",
-        "title": "AirSaas : le logiciel PPM nouvelle génération",
-        "titleHighlight": "AirSaas",
+        "type": "cta-highlight",
+        "titlePrefix": "AirSaas : ",
+        "titleHighlight": "le logiciel PPM",
+        "titleSuffix": " nouvelle génération",
         "subtitle": "N'hésitez pas à bénéficier de la version gratuite de AirSaas.",
         "ctaLabel": "Réservez une démo",
         "ctaHref": "/fr/meetings-pages"

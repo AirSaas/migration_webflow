@@ -709,7 +709,8 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             icon: iconNode(s.iconName),
             title: s.title,
             description: s.description,
-            number: s.number,
+            // Coerce string number ("1") to int (Opus quirk)
+            number: typeof s.number === "string" ? parseInt(s.number, 10) || undefined : s.number,
           }))}
         />
       );

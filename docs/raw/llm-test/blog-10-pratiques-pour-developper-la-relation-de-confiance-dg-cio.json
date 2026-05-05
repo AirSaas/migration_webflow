@@ -8,7 +8,7 @@
     "meta": {
       "title": "10 tips pour la relation DG/CIO",
       "h1": "10 tips pour la relation DG/CIO",
-      "description": "10 pratiques concrètes co-construites par la communauté des Pro. de la Transfo. pour développer une relation de confiance entre CIO et Direction Générale, du build au run.",
+      "description": "10 pratiques pour développer la relation de confiance DG/CIO : du cadrage initial au run des 1to1, les astuces des Pro. de la Transfo. pour co-piloter la transformation.",
       "publishedDate": "15/7/2023",
       "author": {
         "name": "Pro. de la Transfo.",
@@ -87,13 +87,13 @@
       },
       {
         "type": "paragraph",
-        "html": "→ <a href=\"https://drive.google.com/file/d/1meC0KrcoqJ63ePRe2quXxgN_S-Aw-UEo/view?usp=drive_link\">Lien vers version HD au format PDF imprimable</a>"
+        "html": "-> <a href=\"https://drive.google.com/file/d/1meC0KrcoqJ63ePRe2quXxgN_S-Aw-UEo/view?usp=drive_link\" target=\"_blank\">Lien vers version HD au format PDF imprimable</a>"
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Transparence en continu : offrir à la DG la capacité de co-piloter la transfo de son organisation",
-        "id": "transparence-en-continu-offrir-a-la-dg-la-capacite-de-co-piloter-la-transfo-de-son-organisation"
+        "id": "transparence-en-continu-offrir-a-la-dg-la-capacite-de-co-piloter-la-transfo-de-son-organisation",
+        "text": "Transparence en continu : offrir à la DG la capacité de co-piloter la transfo de son organisation"
       },
       {
         "type": "paragraph",
@@ -102,8 +102,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "1 : Tout se joue avant d'accepter le poste",
-        "id": "1-tout-se-joue-avant-daccepter-le-poste"
+        "id": "1-tout-se-joue-avant-daccepter-le-poste",
+        "text": "1 : Tout se joue avant d'accepter le poste"
       },
       {
         "type": "figure",
@@ -113,13 +113,13 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>On s'accorde sur un pacte de gouvernance et fonctionnement précis.</strong> Plutôt qu'un échange sur des concepts flous et galvaudés \"on fera de l'agilité\" ^^... On pose un mode de fonctionnement, on formalise des engagements et redevabilités réciproques, et on s'assure que la direction est OK avec les changements culturels à venir. (Rituels, workflow des décisions clés, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budgets</a>...)"
+        "html": "<strong>On s'accorde sur un pacte de gouvernance et fonctionnement précis.</strong> Plutôt qu'un échange sur des concepts flous et galvaudés \"on fera de l'agilité\" ^^... On pose un mode de fonctionnement, on formalise des engagements et redevabilités réciproques, et on s'assure que la direction est OK avec les changements culturels à venir. (Rituels, workflow des décisions clés, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\" target=\"_blank\">budgets</a>...)"
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "2 : Prévoir le \"shadow\" budget, une réserve tactique pour les idées (parfois ^^) géniales de son DG",
-        "id": "2-prevoir-le-shadow-budget-une-reserve-tactique-pour-les-idees-parfois-geniales-de-son-dg"
+        "id": "2-prevoir-le-shadow-budget-une-reserve-tactique-pour-les-idees-parfois-geniales-de-son-dg",
+        "text": "2 : Prévoir le \"shadow\" budget, une réserve tactique pour les idées (parfois ^^) géniales de son DG"
       },
       {
         "type": "figure",
@@ -134,8 +134,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3 : Ne jamais présenter seul des projets transverses !",
-        "id": "3-ne-jamais-presenter-seul-des-projets-transverses"
+        "id": "3-ne-jamais-presenter-seul-des-projets-transverses",
+        "text": "3 : Ne jamais présenter seul des projets transverses !"
       },
       {
         "type": "figure",
@@ -150,8 +150,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "4 : Faire preuve d'empathie... comprendre et intégrer les objectifs de la DG",
-        "id": "4-faire-preuve-dempathie-comprendre-et-integrer-les-objectifs-de-la-dg"
+        "id": "4-faire-preuve-dempathie-comprendre-et-integrer-les-objectifs-de-la-dg",
+        "text": "4 : Faire preuve d'empathie... comprendre et intégrer les objectifs de la DG"
       },
       {
         "type": "figure",
@@ -166,8 +166,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "5 : \"De la transparence naît la confiance\" Partager la roadmap dynamique en continu",
-        "id": "5-de-la-transparence-nait-la-confiance-partager-la-roadmap-dynamique-en-continu"
+        "id": "5-de-la-transparence-nait-la-confiance-partager-la-roadmap-dynamique-en-continu",
+        "text": "5 : \"De la transparence naît la confiance\" Partager la roadmap dynamique en continu"
       },
       {
         "type": "figure",
@@ -177,23 +177,23 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>Transparence by design !</strong> Offrir l'accès en continu aux avancées d'un plan, avec le bon niveau de granularité c'est la clé. Proposer le choix des armes : un lien permanent dans les favoris du navigateur, un PPT de synthèse à retrouver dans la boîte mail, une ligne Whatsapp d'urgence...<br/>Reste à optimiser la mise à jour de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets\">portefeuille de projets</a> avec vos chefs de projets et partenaires. Mais le jeu en vaut vraiment la chandelle. Foi d'éditeur de solution de gouvernance ;)"
+        "html": "<strong>Transparence by design !</strong> Offrir l'accès en continu aux avancées d'un plan, avec le bon niveau de granularité c'est la clé. Proposer le choix des armes : un lien permanent dans les favoris du navigateur, un PPT de synthèse à retrouver dans la boîte mail, une ligne Whatsapp d'urgence...<br/>Reste à optimiser la mise à jour de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets\" target=\"_blank\">portefeuille de projets</a> avec vos chefs de projets et partenaires. Mais le jeu en vaut vraiment la chandelle. Foi d'éditeur de solution de gouvernance ;)"
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Optimiser le \"run\" de ses RDV avec le DG",
-        "id": "optimiser-le-run-de-ses-rdv-avec-le-dg"
+        "id": "optimiser-le-run-de-ses-rdv-avec-le-dg",
+        "text": "Optimiser le \"run\" de ses RDV avec le DG"
       },
       {
         "type": "paragraph",
-        "html": "Le cadre est posé ? Désormais la <strong>phase d'exécution</strong> commence... on vous a préparé 5 autres pratiques pour muscler vos RDV !"
+        "html": "Le cadre est posé ? Désormais la <strong>phase d'exécution</strong> commence...on vous a préparé 5 autres pratiques pour muscler vos RDV !"
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "6 : Préparer un 1 on 1 comme une épreuve sportive",
-        "id": "6-preparer-un-1-on-1-comme-une-epreuve-sportive"
+        "id": "6-preparer-un-1-on-1-comme-une-epreuve-sportive",
+        "text": "6 : Préparer un 1 on 1 comme une épreuve sportive"
       },
       {
         "type": "figure",
@@ -221,8 +221,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "7 : Gare au small talk !",
-        "id": "7-gare-au-small-talk"
+        "id": "7-gare-au-small-talk",
+        "text": "7 : Gare au small talk !"
       },
       {
         "type": "figure",
@@ -237,8 +237,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "8 : Si ça jargonne...tu sonnes !",
-        "id": "8-si-ca-jargonnetu-sonnes"
+        "id": "8-si-ca-jargonnetu-sonnes",
+        "text": "8 : Si ça jargonne...tu sonnes !"
       },
       {
         "type": "figure",
@@ -248,7 +248,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>La tech, ça jargonne sec</strong> ! Utile pour aller vite et créer un sentiment d'appartenance avec votre équipe... Cette \"habitude\" peut se retourner contre vous. Pédagogie, communication véritable, le 1to1 efficace n'accepte pas un mot de jargon au cours du RDV ! Vous parlez en user stories avec vos dev ? Faîtes de même avec les DG."
+        "html": "<strong>La tech, ça jargonne sec</strong> ! Utile pour aller vite et créer un sentiment d'appartenance avec votre équipe...Cette \"habitude\" peut se retourner contre vous. Pédagogie, communication véritable, le 1to1 efficace n'accepte pas un mot de jargon au cours du RDV ! Vous parlez en user stories avec vos dev ? Faîtes de même avec les DG."
       },
       {
         "type": "paragraph",
@@ -257,8 +257,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "9 : Rendez-vous catastrophe ? Apprendre à retourner la situation !",
-        "id": "9-rendez-vous-catastrophe-apprendre-a-retourner-la-situation"
+        "id": "9-rendez-vous-catastrophe-apprendre-a-retourner-la-situation",
+        "text": "9 : Rendez-vous catastrophe ? Apprendre à retourner la situation !"
       },
       {
         "type": "figure",
@@ -283,8 +283,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "10 : L'after est important pour conclure",
-        "id": "10-lafter-est-important-pour-conclure"
+        "id": "10-lafter-est-important-pour-conclure",
+        "text": "10 : L'after est important pour conclure"
       },
       {
         "type": "figure",

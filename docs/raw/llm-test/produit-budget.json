@@ -1,0 +1,107 @@
+{
+  "type": "produit",
+  "slug": "budget",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Le suivi budgétaire de vos projets | AirSaas",
+      "description": "Pilotez vos budgets projet en temps réel avec AirSaas : cadrage détaillé, vues consolidées, indicateurs de fiabilité et personnalisation par axes analytiques."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Le suivi budgétaire",
+        "titleHighlight": "de vos projets",
+        "subtitle": "Le budget, c'est un peu le GPS des projets du portfolio. Il permet de maintenir le cap, tout en évitant les dérives. C'est aussi un indicateur qui témoigne de la bonne avancée des projets. Gardez un œil dessus pour mieux contrôler les dépenses !",
+        "primaryCta": {
+          "label": "Je veux une démo",
+          "href": "/fr/meetings-pages"
+        },
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbefc6521c27b9a3836ebc_Budget%20screen.webp",
+        "imageAlt": "Budget page"
+      },
+      {
+        "type": "intro",
+        "title": "Un suivi facile sans prise de tête",
+        "body": "<p>Avoir une photo en temps réel est essentiel à chaque phase du projet pour savoir où vous en êtes. Cela permet de faire son suivi budgétaire facilement et de le présenter à ses supérieurs en quelques clics directement depuis AirSaas.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Un cadrage simplifié avec un budget détaillé",
+        "body": "<p>Pour chaque projet en phase de cadrage, vos chefs de projets ajoutent plusieurs lignes de dépenses détaillées et classées en CAPEX et en OPEX pour anticiper les coûts et objectiver l'étape de validation.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f323015aaa9b92b42e6397_ADD%20EXPENSES%20LINES.webp",
+        "imageAlt": "ADD EXPENSES"
+      },
+      {
+        "type": "intro",
+        "title": "Des rituels de suivi budgétaire puissants",
+        "body": "<p>Brillez lors de vos points budgétaires !</p><p>Grâce au suivi des dépenses \"<strong>engagées</strong>\", \"<strong>consommées</strong>\" et \"<strong>atterrissage</strong>\" vous pourrez répondre à toutes les questions :</p><ul><li>Quels sont les dérapages à anticiper d'ici la fin du trimestre ?</li><li>Sur quel programme a-t-on encore du budget disponible ?</li><li>Comment justifier cette demande de rallonge ?</li><li>Pourquoi a-t-on doublé les dépenses sur ce projet ?</li><li>À combien penses-tu atterrir d'ici la fin du semestre ?</li></ul><p><em>C'est un vrai plus pour vos prochains arbitrages budgétaires</em></p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Des vues consolidées à partager facilement",
+        "body": "<p>Parce que le visuel, ça compte, vous pouvez enfin choisir le groupe de projets qui vous intéresse pour basculer sur la vue budgétaire et ainsi, obtenir une image plus parlante grâce aux graphiques. Ces vues consolidées sont facilement partageables avec les membres du COMEX lors des réunions.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f401cfa1c5e13cc3adf9a3_Budget%20graphics%20screen.webp",
+        "imageAlt": "Des vues consolidées à partager facilement"
+      },
+      {
+        "type": "feature-split",
+        "title": "Prenez en compte le coût humain des projets",
+        "body": "<p>Le coût humain est le plus important poste de dépense dans les budgets. Qu'il soit interne ou externe, ne l'oublions pas. Sur AirSaas renseigner les TJM des équipes et découvrez le coût humain de vos projets.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf0caa595317d71d53652_Teams%20budget.webp",
+        "imageAlt": "Prenez en compte le coût humain des projets",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Des indicateurs pour piloter sereinement",
+        "body": "<p>Suivre les budgets project, c'est bien, mais pour cela il faut pouvoir faire confiance à la \"fraicheur\" des données renseignées. Pour chaque ligne de dépense, la date de dernière mise à jour est visible. AirSaas vous propose également un indicateur de fiabilité pour un contrôle renforcé !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf0fe7414e2b3845dbb9f_Des%20indicateurs.webp",
+        "imageAlt": "Des indicateurs pour piloter sereinement"
+      },
+      {
+        "type": "feature-split",
+        "title": "Garder un œil sur les dépenses additionnelles",
+        "body": "<p>Difficile de prévoir toutes les dépenses nécessaires lors de la création du budget en phase de cadrage ! Si de nouvelles dépenses apparaissent lors de la phase d'exécution, pas de souci ! Vous pouvez les ajouter à celles qui étaient déjà planifiées pour plus d'agilité, tout en gardant une trace de ce qui avait été validé lors du cadrage !</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66fbf13616fcb88f01125d9b_Feed%20budget.webp",
+        "imageAlt": "Garder un œil sur les dépenses additionnelles",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Une personnalisation des dépenses adaptée à votre organisation",
+        "body": "<p>AirSaas s'adapte à tous les types d'organisations pour que votre suivi budgétaire soit encore plus compréhensible ! Pour chaque dépense, vos chefs de projets peuvent renseigner un axe analytique. Vous pouvez ensuite accéder aux graphiques consolidés des dépenses projets par axe et ainsi découvrir les principaux postes de coûts. Si les axes analytiques proposés ne sont pas suffisants, pas de problème, vous pouvez ajouter les vôtres en un clic.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66f327d0f3cd55dfdb3ad2d5_Analytical%20axes.webp",
+        "imageAlt": "Analytical axes"
+      },
+      {
+        "type": "intro",
+        "title": "Les budgets sont un thème central en ce qui concerne la gestion de portefeuille projets.",
+        "body": "<p>Avec <strong>AirSaas</strong>, c'est simple de :</p><ul><li>Suivre les sommes des dépenses planifiées / engagées / consommées</li><li>Anticiper les atterrissages de vos projets pour faire les arbitrages nécessaires</li><li>Avoir une vision \"temps réel\" des budgets disponibles à ré-allouer</li><li>Découvrir la répartition des axes analytiques pour mieux conceptualiser vos dépenses</li></ul>"
+      },
+      {
+        "type": "cta",
+        "title": "Vous voulez l'essayer ?",
+        "subtitle": "Discutons-en et bénéficiez d'une démo sur mesure",
+        "ctaLabel": "Je veux une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "faq",
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Est-il possible de modifier le budget planifié ?",
+            "answer": "Oui… mais non. Une fois que le projet est validé au cadrage, la somme entrée en planifié ne change plus. Cependant, vous pouvez ajouter des nouvelles lignes de dépense si besoin. Un tag \"modifié\" apparaîtra alors sur la somme totale en planifié."
+          },
+          {
+            "question": "Qu'est-ce qui est visible en vues consolidées ?",
+            "answer": "La liste des projets avec leurs détails et les dates de mise à jour, les sommes Opex et Capex, et la répartition du budget par axes analytiques."
+          }
+        ]
+      }
+    ]
+  }
+}

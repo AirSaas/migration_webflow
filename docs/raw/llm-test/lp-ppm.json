@@ -1,17 +1,18 @@
 {
   "type": "lp",
   "slug": "ppm",
-  "iteration": 3,
+  "iteration": 2,
   "outcome": "RETRY_PASS",
   "errors": [],
   "result": {
     "meta": {
-      "title": "PPM nouvelle génération — AirSaas",
-      "description": "Un PPM avec une UX au top. Brief projet assisté par IA, flash report en 1 clic, roadmap partageable, vue macro consolidée. L'outil PPM que votre équipe va vraiment adopter."
+      "title": "Un PPM avec une UX au top ? Ça existe.",
+      "description": "Brief projet assisté par IA, flash report en 1 clic, roadmap partageable, vue macro consolidée. L'outil PPM que votre équipe va vraiment adopter."
     },
     "sections": [
       {
         "type": "hero",
+        "tag": "PPM nouvelle génération",
         "title": "Un PPM avec une UX au top ?",
         "titleHighlight": "Ça existe.",
         "subtitle": "Brief projet assisté par IA, flash report en 1 clic, roadmap partageable, vue macro consolidée. L'outil PPM que votre équipe va vraiment adopter.",
@@ -90,114 +91,122 @@
       },
       {
         "type": "feature-split",
+        "tag": "Gain de temps immédiat",
         "title": "Flash Report en 1 clic",
-        "subtitle": "Fini les 2 jours de PowerPoint. En un clic, générez un rapport complet, à jour, aux couleurs de votre entreprise. Partagez-le par email ou via un lien sécurisé.",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
-        "imageAlt": "Flash report",
+        "body": "<p>Fini les 2 jours de PowerPoint. En un clic, générez un rapport complet, à jour, aux couleurs de votre entreprise. Partagez-le par email ou via un lien sécurisé.</p>",
         "bullets": [
           "Export PDF, PPT ou lien web",
           "Personnalisable aux couleurs de l'entreprise",
           "Données toujours à jour",
           "Envoi automatique programmable"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
+        "imageAlt": "Flash report"
       },
       {
         "type": "feature-split",
+        "tag": "Nouveau",
         "title": "Roadmap COMEX partageable en un clic",
-        "subtitle": "Partagez une roadmap dynamique avec le Comex via un lien sécurisé, sans qu'ils aient besoin de se connecter. Lecture seule, expiration configurable, droits personnalisés.",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69723755551cb6f361ab8f4d_7be57ee9b39e8acfd6704c4479c49a6e_Roadmap%20page%20fr.webp",
-        "imageAlt": "Roadmap",
-        "reversed": true,
+        "body": "<p>Partagez une roadmap dynamique avec le Comex via un lien sécurisé, sans qu'ils aient besoin de se connecter. Lecture seule, expiration configurable, droits personnalisés.</p>",
         "bullets": [
           "Export PDF, PPT ou lien web",
           "Droits de lecture configurables",
           "Expiration automatique",
           "Roadmap et Flash Report = même source de vérité"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69723755551cb6f361ab8f4d_7be57ee9b39e8acfd6704c4479c49a6e_Roadmap%20page%20fr.webp",
+        "imageAlt": "Roadmap",
+        "reversed": true
       },
       {
         "type": "feature-split",
+        "tag": "Clarté absolue",
         "title": "Priorisation explicite #1, #2, #3",
-        "subtitle": "Chaque équipe doit pouvoir dire ce qui est #1, #2, #3 — pas un \"top 10\". Et dès que l'ordre change, tout le monde le voit. Fini les \"projets zombies\".",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07b7eeea99ee02f71c97_Prioritization%20per%20team%20ppt.webp",
-        "imageAlt": "Prioritization",
+        "body": "<p>Chaque équipe doit pouvoir dire ce qui est #1, #2, #3 — pas un \"top 10\". Et dès que l'ordre change, tout le monde le voit. Fini les \"projets zombies\".</p>",
         "bullets": [
           "Liste unique par équipe",
           "Changements visibles (qui, quoi, pourquoi)",
           "Vue d'arbitrage inter-directions",
           "Historique des décisions"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07b7eeea99ee02f71c97_Prioritization%20per%20team%20ppt.webp",
+        "imageAlt": "Prioritization"
       },
       {
         "type": "feature-split",
+        "tag": "Nouveau",
         "title": "Décisions pilotables",
-        "subtitle": "Les décisions changent, se perdent dans les CR, et chacun en garde une version différente. AirSaas transforme les décisions en objets pilotables avec owner, échéance et impact sur la roadmap.",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
-        "imageAlt": "Decisions",
-        "reversed": true,
+        "body": "<p>Les décisions changent, se perdent dans les CR, et chacun en garde une version différente. AirSaas transforme les décisions en objets pilotables avec owner, échéance et impact sur la roadmap.</p>",
         "bullets": [
           "Owner et échéance assignés",
           "Suivi du statut en temps réel",
           "Impact visible sur la roadmap",
           "Historique complet"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Décisions",
+        "reversed": true
       },
       {
         "type": "feature-split",
+        "tag": "Vue macro",
         "title": "Portfolio consolidé multi-vues",
-        "subtitle": "Tableau de bord, Kanban, Timeline, Liste filtrable... Visualisez votre portefeuille comme vous le souhaitez. Filtrez par météo, équipe, priorité, objectif.",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
-        "imageAlt": "Portfolio",
+        "body": "<p>Tableau de bord, Kanban, Timeline, Liste filtrable... Visualisez votre portefeuille comme vous le souhaitez. Filtrez par météo, équipe, priorité, objectif.</p>",
         "bullets": [
           "Vue Liste, Kanban, Timeline, Dashboard",
           "Filtres personnalisables",
           "Drill-down par direction / équipe",
           "Export en 1 clic"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "imageAlt": "Portfolio"
       },
       {
         "type": "feature-split",
+        "tag": "Quarter Plan",
         "title": "Capacité par quarter et par équipe",
-        "subtitle": "Visualisez en un clin d'œil la charge vs capacité de chaque équipe, trimestre par trimestre. Enfin un moyen simple de savoir si vous pouvez prendre ce nouveau projet.",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
-        "imageAlt": "Project capacity",
-        "reversed": true,
+        "body": "<p>Visualisez en un clin d'œil la charge vs capacité de chaque équipe, trimestre par trimestre. Enfin un moyen simple de savoir si vous pouvez prendre ce nouveau projet.</p>",
         "bullets": [
           "Vue capacité par équipe et par trimestre",
           "Alerte surcharge automatique",
           "T-shirt sizing (S, M, L, XL)",
           "Arbitrer avant de créer de la friction"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "imageAlt": "Project capacity",
+        "reversed": true
       },
       {
         "type": "feature-split",
+        "tag": "Intelligence Artificielle",
         "title": "Scénarios d'arbitrage avec l'IA",
-        "subtitle": "Passez de \"roadmap figée\" à \"scénarios A/B/C\". L'IA structure ce qui manque, puis vous comparez les options en minutes : capacité consommée, délais, risques, valeur.",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67973435cf37dd18cddcdffa_Page%20Scenarios%20FR.webp",
-        "imageAlt": "Scenario",
+        "body": "<p>Passez de \"roadmap figée\" à \"scénarios A/B/C\". L'IA structure ce qui manque, puis vous comparez les options en minutes : capacité consommée, délais, risques, valeur.</p>",
         "bullets": [
           "Comparaison visuelle des scénarios",
           "Impact sur la capacité en temps réel",
           "Arbitrages documentés et traçables",
           "Fonctionne même avec des données imparfaites"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67973435cf37dd18cddcdffa_Page%20Scenarios%20FR.webp",
+        "imageAlt": "Scenario"
       },
       {
-        "type": "icon-row",
+        "type": "value-proposition",
         "title": "Pourquoi les équipes adoptent AirSaas",
         "subtitle": "Un PPM n'a de valeur que s'il est utilisé. Voici ce qui fait la différence.",
+        "columns": 3,
         "items": [
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69713280b27de780c7775ee6_203b113cc180eb6931ef0a8ddc2cbba2_icon-bolt-lightning.svg",
-            "label": "Prise en main immédiate — Interface intuitive. Vos équipes l'utilisent dès le premier jour."
+            "title": "Prise en main immédiate",
+            "description": "Interface intuitive. Vos équipes l'utilisent dès le premier jour."
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971ff01a7f3ce6e4b8ce053_icon-link.svg",
-            "label": "Connecté à vos outils — Jira, Asana, Monday, Teams, Slack... Pas de double saisie."
+            "title": "Connecté à vos outils",
+            "description": "Jira, Asana, Monday, Teams, Slack... Pas de double saisie."
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971ff0b75739080d15a29ee_icon-table-pivot.svg",
-            "label": "UX pensée pour tous — Du chef de projet au Comex, chacun trouve l'info dont il a besoin."
+            "title": "UX pensée pour tous",
+            "description": "Du chef de projet au Comex, chacun trouve l'info dont il a besoin."
           }
         ]
       },
@@ -224,25 +233,26 @@
         ]
       },
       {
-        "type": "icon-row",
+        "type": "value-proposition",
         "title": "Sécurité au top",
         "subtitle": "AirSaas passe la porte des DSI les plus exigeantes.",
+        "columns": 4,
         "items": [
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f7b1eaf68ed532f897af_8750bc0764839f1b1c60a6cb17023c85_iso%20logo.png",
-            "label": "ISO 27001 — Certifié"
+            "title": "ISO 27001",
+            "description": "Certifié"
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971fb08d2be715d801e6f02_icon-location-dot.svg",
-            "label": "Hébergé en France — Scaleway"
+            "title": "Hébergé en France",
+            "description": "Scaleway"
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f962a433d423c44ff913_icon-vial-circle-check.svg",
-            "label": "Pentest — Résultats sur demande"
+            "title": "Pentest",
+            "description": "Résultats sur demande"
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971f961b010ee2a19dcb8ed_icon-lock-keyhole.svg",
-            "label": "SSO / SAML — Intégration AD"
+            "title": "SSO / SAML",
+            "description": "Intégration AD"
           }
         ]
       },
@@ -250,6 +260,7 @@
         "type": "logo-bar",
         "title": "Connecté à votre écosystème",
         "subtitle": "AirSaas s'intègre à vos outils pour éviter la double saisie.",
+        "variant": "partner",
         "logos": [
           {
             "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b15f543597b4684dd2_Icon%20Jira.svg",
@@ -330,7 +341,7 @@
         "type": "cta",
         "title": "De contremaître à coach d'organisation",
         "subtitle": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
-        "ctaLabel": "Choisir un créneau →",
+        "ctaLabel": "Réserver une démo",
         "ctaHref": "/fr/meetings-pages",
         "videoHref": "/fr/video/ppm"
       }

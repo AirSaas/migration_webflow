@@ -1,26 +1,25 @@
 {
-  "type": "equipe",
-  "slug": "outil-pmo",
-  "iteration": 1,
-  "outcome": "PASS_FIRST_TRY",
+  "type": "solution",
+  "slug": "portfolio-management",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
   "errors": [],
   "result": {
     "meta": {
-      "title": "L'outil PPM pour un PMO moderne",
-      "description": "AirSaas, la solution la plus simple pour avoir une vue macro consolidée du portefeuille projet. Un PPM avec une UX au top, pensé pour les PMO modernes."
+      "title": "Portfolio management — La solution qui accélère la transformation de votre entreprise",
+      "description": "AirSaas est la solution de portfolio management qui accélère votre prise de décision, garde une transparence totale sur les priorités projets et dit adieu au micro-management."
     },
     "sections": [
       {
         "type": "hero",
-        "title": "L'outil PPM",
-        "titleHighlight": "pour un PMO moderne",
-        "subtitle": "AirSaas c'est la solution la plus simple pour avoir une vue macro consolidée du portefeuille projet. Avec AirSaas vous n'aurez plus besoin de faire des PowerPoints et de courir après les chefs de projets pour avoir les informations clefs. Et oui un PPM peut avoir une UX au top",
+        "title": "La solution de",
+        "titleHighlight": "portfolio management",
+        "titleSuffix": "qui accélère la transformation de votre entreprise",
+        "subtitle": "La transformation de votre entreprise mérite un outil PPM qui vous aide à dépasser les problèmes les plus fréquents en gestion de portefeuille de projets. Grâce à AirSaas, accélérez votre prise de décision, gardez une transparence totale sur les priorités de vos projets, et dites adieu au micro-management de tâches.",
         "primaryCta": {
           "label": "Réservez une démo",
           "href": "/fr/meetings-pages"
-        },
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3b2244fc905908e85593_Portfolio%20integrated.webp",
-        "imageAlt": "Portfolio integrated"
+        }
       },
       {
         "type": "press-quotes",
@@ -42,7 +41,7 @@
             "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
           },
           {
-            "text": "La DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
             "source": "Le Monde Informatique",
             "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
           }
@@ -50,6 +49,7 @@
       },
       {
         "type": "testimonials",
+        "title": "Témoignages LinkedIn",
         "testimonials": [
           {
             "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
@@ -108,26 +108,24 @@
       },
       {
         "type": "feature-split",
-        "title": "Un capacity planning par équipe simple et actionnable",
-        "body": "<p>Visualisez en un clin d'oeil si vous êtes dans les clous... ou dans les choux. Grâce à cette vue vous avez les bases d'une discussion pragmatique pour prendre les décisions :</p>",
-        "bullets": [
-          "Peut-on faire plus de projets ? Faut-il en enlever ?",
-          "Quels sont les jalons qui nous plombent ? Peut-on les découper ?",
-          "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?"
-        ],
+        "title": "Un capacity planning par équipe",
+        "titleHighlight": "simple et actionnable",
+        "body": "<p>Visualisez en un clin d'oeil si vous êtes dans les clous... ou dans les choux. Grâce à cette vue vous avez les bases d'une discussion pragmatique pour prendre les décisions :</p><ul><li>Peut-on faire plus de projets ? Faut-il en enlever ?</li><li>Quels sont les jalons qui nous plombent ? Peut-on les découper ?</li><li>Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?</li></ul>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
-        "imageAlt": "Capacity screen"
+        "imageAlt": "Capacity planning par équipe"
       },
       {
         "type": "feature-split",
-        "title": "Chaque directeur définit ses prios",
+        "title": "Chaque directeur définit",
+        "titleHighlight": "ses prios",
         "body": "<p>Demandez aux directeurs de prioriser parmi les projets dont son équipe est à l'origine. Deux projets ne peuvent pas avoir la même priorité. Une fois prêts, ils valident leur choix. C'est simple, transparent et puissant.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/663d07a346b12e77e37ddd72_Prioritization%20per%20team%20ppt%20d%26d.webp",
         "imageAlt": "Priorisation options"
       },
       {
         "type": "feature-split",
-        "title": "Diffusez un cadrage projet standardisé",
+        "title": "Diffusez un cadrage projet",
+        "titleHighlight": "standardisé",
         "body": "<p>Remplissez les fiches cadrage de projet de manière collaborative, et guidez vos collaborateurs vers un véritable niveau d'excellence en gestion de projet. A vous une culture projet homogénéisée !</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
         "imageAlt": "Presentation scope",
@@ -135,22 +133,22 @@
       },
       {
         "type": "feature-split",
-        "title": "Une newsletter sponsor",
-        "titleHighlight": "que votre direction va adorer",
+        "title": "Une newsletter sponsor que votre direction va adorer",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
-        "imageAlt": "Bilan de santé",
+        "imageAlt": "Bilan de santé email",
+        "reversed": true,
         "subSections": [
           {
             "title": "Tendance des projets vitaux",
-            "body": "<p>Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment.</p>"
+            "body": "Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment."
           },
           {
             "title": "Tendance de leurs projets à eux",
-            "body": "<p>Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet.</p>"
+            "body": "Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet."
           },
           {
             "title": "Projets en retard d'actualisation",
-            "body": "<p>Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquile !</p>"
+            "body": "Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquile !"
           }
         ]
       },
@@ -164,30 +162,62 @@
       },
       {
         "type": "feature-split",
-        "title": "Fluidifiez votre prise de décisions importantes et urgentes",
+        "title": "Fluidifiez votre prise de décisions",
+        "titleHighlight": "importantes et urgentes",
         "body": "<p><strong>Centralisez vos décisions</strong> sous forme de Kanban, et partagez-les aisément avec toutes les parties prenantes de vos projets. Finies les informations perdues dans vos mails ou flux de discussions instantanées !</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
         "imageAlt": "Portfolio decisions",
         "reversed": true
       },
       {
-        "type": "feature-split",
-        "title": "Impliquez simplement les chefs de projet",
-        "body": "<p>En 5 minutes par semaine par projet, les chefs de projets remontent les informations cruciales pour le suivi : Jalon, décision à prendre, point d'attention.<br/>Evitez les réunions \"informationnelles\" et les rush de dernière minute pour faire un reporting.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d5a7778369803dea86381b_Project%20page.webp",
-        "imageAlt": "Project page"
+        "type": "intro",
+        "title": "5 bonnes pratiques de portfolio management pour transformer votre entreprise plus efficacement",
+        "body": "<p>Avoir un bon logiciel de gestion de portefeuille projet est crucial. Mais n'oubliez pas d'appliquer ces cinq bonnes pratiques à votre portfolio management au quotidien, pour en faire un véritable outil opérationnel et collaboratif, au service de votre transfo.</p>"
       },
       {
         "type": "feature-split",
-        "title": "Animez clairement et simplement vos CoPil",
-        "body": "<p>Pilotez par la décision : Pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n'avez pas la bonne information.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
-        "imageAlt": "Portfolio decisions",
+        "title": "Commencez par",
+        "titleHighlight": "un cadrage de projet optimal",
+        "body": "<p>Vous le savez mieux que quiconque : il est crucial de savoir qui fait quoi dans chaque projet. Qui est le sponsor ? Qui sont les key users ? Quel chef de projet prend quoi en charge ? Vous devez mettre en place les droits, devoirs et règles que chacun doit suivre, pour que le mode projet soit bien suivi par chacun.</p><p>Co-créez vos fiches de cadrage avec les chefs de projet sur AirSaas, pour les impliquer dès le départ, et diffuser une culture projet qui aligne chacune des parties prenantes de la transformation de l'entreprise.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d473f144eace1121240b18_Modal%20-%20create%20project.webp",
+        "imageAlt": "Cadrage de projet dans votre logiciel PPM"
+      },
+      {
+        "type": "feature-split",
+        "title": "Réduisez les durées",
+        "titleHighlight": "de vos projets dans le portefeuille",
+        "body": "<p>Votre challenge : faire en sorte qu'un projet ne dépasse jamais les trois mois. Voilà la clé pour dynamiser votre roadmap avec toutes vos parties prenantes, et vous aligner sur les besoins de l'entreprise, qui nécessite de plus en plus d'innovations et d'agilité.</p><p>Découpez en différentes phases vos \"gros\" projets, pour rendre votre processus de gestion de portfolio projet plus dynamique.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d73278ff90d9fe4f02eeb8_Portfolio%20project%20reminder%20late.webp",
+        "imageAlt": "Reduisez les durees",
         "reversed": true
       },
       {
         "type": "feature-split",
-        "title": "Grâce à sa marketplace AirSaas s'intègre nativement à vos outils du quotidien",
+        "title": "Marketez avec impact",
+        "titleHighlight": "vos programmes de transformation",
+        "body": "<p>Bien communiquer les enjeux stratégiques liés à chacun de vos grands programmes est crucial pour motiver les différentes parties prenantes - et notamment les métiers et les équipes IT.</p><p>Donnez du sens à vos programmes dans la manière dont vous les formulez dans votre outil de portfolio management.</p>"
+      },
+      {
+        "type": "feature-split",
+        "title": "Ritualisez vos",
+        "titleHighlight": "reportings",
+        "body": "<p>Votre reporting est l'élément-clé qui vous permet de prioriser, de fluidifier la prise de décision en Copil, mais aussi de motiver tous les acteurs de la transformation de votre entreprise au quotidien.</p><p>Gagnez du temps sur la création de vos reportings en utilisant un outil PPM qui automatise votre flash report, dans un format aisément compréhensible.</p><p>Puis envoyez ce reporting flash à toutes vos parties prenantes à intervalles réguliers, pour leur permettre de faire une revue de portefeuille projet claire, et de visualiser aisément les urgences et les risques en cours.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "imageAlt": "Reporting",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Placez la transparence au coeur",
+        "titleHighlight": "de votre portfolio project management",
+        "body": "<p>La transparence permet de générer de l'engagement de la part des différents acteurs de vos projets, et vous aide à les solliciter rapidement en cas d'urgence ou d'avancement à plat.</p><p>Facilitez l'accès de tout le monde aux différents jalons de vos projets et aux décisions qui sont prises, en centralisant tout sur une même plateforme qui permet d'avoir des vues personnalisables sur le portfolio de projets.</p><p>Sponsors, métiers, directions générales, chefs de projets : tout le monde a le même accès à la même information, pour être bien aligné autour des priorités et des besoins de chaque projet.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659c4b7b9b402047debe417c_portfolio4.svg",
+        "imageAlt": "la transparence au coeur de votre portfolio"
+      },
+      {
+        "type": "feature-split",
+        "title": "Grâce à sa marketplace AirSaas",
+        "titleHighlight": "s'intègre nativement à vos outils du quotidien",
         "body": "<p>Centralisez toutes vos informations cruciales (tickets, jalons…) depuis vos outils de gestion de tâches sur AirSaas, et diffusez-les via vos canaux de communication interne. Tout le monde est au diapason, et vous gouvernez de manière optimale.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d484f5bef7b761e48fea37_Automation%20-%20integrations.webp",
         "imageAlt": "Automation - integrations"
@@ -237,47 +267,47 @@
         "title": "Laissez nos clients vous parler d'AirSaas",
         "testimonials": [
           {
-            "text": "Groupe Picoty — Énergie et combustibles — 1300 employés",
+            "text": "Groupe Picoty — Énergie et combustibles · 1300 employés",
             "name": "Laurent Citton",
             "role": "Directeur des Systèmes d'Information Groupe chez Picoty"
           },
           {
-            "text": "Hôtellerie & loisirs — 40000 employés",
+            "text": "Hôtellerie & loisirs · 40000 employés",
             "name": "Émilie Lecart",
             "role": "CIO Office"
           },
           {
-            "text": "Altavia — Communication et marketing — 2800 employés",
+            "text": "Altavia — Communication et marketing · 2800 employés",
             "name": "Sébastien Louyot",
             "role": "Group CIO"
           },
           {
-            "text": "Dynamical — Conseil — 2 employés",
+            "text": "Dynamical — Conseil · 2 employés",
             "name": "David Langlade",
             "role": "Conseil / DSI de transition CTO/ - CIO"
           },
           {
-            "text": "Chiesi France — Santé-Pharma — 6500 employés",
+            "text": "Chiesi France — Santé-Pharma · 6500 employés",
             "name": "Clément Royer",
             "role": "DSI - ICT MANAGER chez Chiesi France"
           },
           {
-            "text": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés",
+            "text": "Groupe Intuis (Ex Muller) — Industrie · 1000 employés",
             "name": "Aurore Butrot",
             "role": "DSI Intuis (Ex Groupe Muller)"
           },
           {
-            "text": "Comexposium — Événementiel — 900 employés",
+            "text": "Comexposium — Événementiel · 900 employés",
             "name": "Stephan Boisson",
             "role": "Group Chief Digital & Information Officer Comexposium"
           },
           {
-            "text": "Indexia Groupe — Assurance et Distribution — 3000 employés",
+            "text": "Indexia Groupe — Assurance et Distribution · 3000 employés",
             "name": "Sylvain Bourdette",
             "role": "DSI/CTO/Pro de la transfo"
           },
           {
-            "text": "Caduciel — Santé - Editeur de logiciel — 50 employés",
+            "text": "Caduciel — Santé - Editeur de logiciel · 50 employés",
             "name": "Vincent Potel",
             "role": "Directeur Général de transition"
           }

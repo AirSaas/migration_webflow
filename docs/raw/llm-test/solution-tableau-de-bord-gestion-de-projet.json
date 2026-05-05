@@ -1,0 +1,137 @@
+{
+  "type": "solution",
+  "slug": "tableau-de-bord-gestion-de-projet",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Tableau de bord de gestion de projet moderne | AirSaas",
+      "description": "Le tableau de bord de gestion de projet moderne, conçu pour les DSI. Pilotez par la valeur, impliquez les parties prenantes et automatisez le reporting."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "title": "Le tableau de bord de gestion de projet",
+        "titleHighlight": "moderne",
+        "subtitle": "Comme tout organe de direction, la DSI a un besoin constant de mesurer son activité : c'est seulement de cette manière qu'elle est à même d'optimiser chacun de ses processus de gestion de projet et de réduire le nombre de dérapages avec des conséquences négatives fortes pour le client (dépassement des coûts, des délais de livraisons des projets…). Mesurer ses performances grâce à des indicateurs permet ainsi de calibrer les changements à implémenter afin d'augmenter la productivité de ses services et de pouvoir exécuter des projets encore plus ambitieux.",
+        "primaryCta": {
+          "label": "Réservez une démo",
+          "href": "/fr/meetings-pages"
+        }
+      },
+      {
+        "type": "intro",
+        "title": "AirSaas, le tableau de bord de gestion de projet conçu pour les DSI",
+        "body": "<p>L'importance de l'innovation ne cesse de s'accroitre pour les entreprises : les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/pilotage-de-projet\">projets digitaux</a> se multiplient et leurs réussites deviennent une condition sine qua none à la compétitivité de l'organisation. En conséquence, les entreprises ont de plus en plus d'attentes envers les DSI, qui se retrouvent souvent au coeur des nouvelles stratégies mises en place.</p><p>Notre tableau de bord gestion de projet été créé afin de permettre à la DSI d'être en capacité de répondre aux besoins de son entreprise et de collaborer étroitement avec les métiers.</p>"
+      },
+      {
+        "type": "intro",
+        "title": "Piloter par la valeur",
+        "headingLevel": 3,
+        "body": "<p>Une des clés pour assurer la pérennité de son entreprise est de savoir hiérarchiser les projets afin de prioriser ceux qui crééront le plus de valeur. Si elle veut être performante, la DSI doit créer des <a href=\"https://www.airsaas.io/fr/gestion-de-projet/kpi-gestion-de-projet\">indicateurs</a> qui permettront à la direction de prendre les meilleures décisions et d'assurer un pilotage optimal des projets IT.</p><p>Pour cela il faut être en capacité d'informer efficacement les membres du board. L'<a href=\"https://www.airsaas.io/fr/solution/outils-de-pilotage-projet\">outil idéal</a> pour cela est un tableau de bord gestion de projet possédant des indicateurs offrant une visibilité sur trois des domaines principaux :</p><ul><li>La planification et le suivi de chaque projet</li><li>Le suivi des ressources disponibles</li><li>La gestion des budgets</li></ul>"
+      },
+      {
+        "type": "feature-split",
+        "title": "AirSaas propose 3 vues pour offrir une visibilité totale sur vos projets :",
+        "body": "<p>Un suivi de l'avancée de chacun de vos projets, avec les indicateurs les plus importants. Ainsi vous savez constamment quelle est la prochaine étape pour faire évoluer vos projets.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
+        "imageAlt": "Portfolio projects list"
+      },
+      {
+        "type": "feature-split",
+        "title": "Vue Kanban",
+        "body": "<p>Une vue Kanban qui aide à repérer des tendances générales parmi vos projets afin d'optimiser votre stratégie de pilotage.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
+        "imageAlt": "Vue Kanban",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Vue timeline",
+        "body": "<p>Une vue timeline pour organiser l'exécution de tous vos projets sur le temps long. Elle permet de repérer en amont les surcharges de travail et d'anticiper les retards.</p><p>Vous avez la possibilité de filtrer ces vues en fonction de différents indicateurs : leur importance métier, la météo du projet, les équipes qui travaillent dessus, les objectifs qui y sont assignés...</p><p>AirSaas simplifie ainsi la gestion de vos ressources et budgets : vous pouvez créer différents scénarios, projeter l'exécution de plusieurs projets, et ainsi observer leur impact sur votre performance. De cette manière, vous pouvez répartir votre force de travail de manière optimale.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
+        "imageAlt": "Vue timeline"
+      },
+      {
+        "type": "feature-split",
+        "title": "Impliquez toutes les parties prenantes",
+        "body": "<p>L'objectif suprême est de parvenir à livrer un projet qui satisfait parfaitement votre client tout en respectant les délais prévus. Un des facteurs principaux pour y parvenir est d'impliquer votre client dès la phase du cadrage, et tout au long de l'exécution du projet.</p><p>De même, vous devez aussi être constamment en capacité d'informer votre direction de l'avancée ainsi que de l'état de tous vos projets, afin de lui permettre de <a href=\"/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\">piloter au mieux l'entreprise</a>.</p><p>Nous avons créé deux outils pour vous aider à atteindre ces objectifs.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
+        "imageAlt": "Impliquez toutes les parties prenantes",
+        "reversed": true
+      },
+      {
+        "type": "cta",
+        "title": "Choisissez de gagner du",
+        "titleHighlight": "temps et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution efficace de flash report projet",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      },
+      {
+        "type": "feature-split",
+        "title": "Le rapport flash automatisé",
+        "body": "<p>Si le reporting est indispensable au bon déroulement d'un projet, il reste trop souvent délaissé, notamment parce qu'il requiert énormément de temps. C'est pourquoi nous vous offrons la possibilité de générer automatiquement des rapports flash. Exportables au format PDF ou PowerPoint, ils vous permettent de communiquer sur vos avancées à l'ensemble des parties impliquées dans vos projets.</p><p><a href=\"/fr/solution/rapport-flash\">Le rapport flash</a> est composé de deux slides : l'une rappelle toutes les informations de cadrage, tandis que l'autre comporte toutes les informations nécessaires à la bonne exécution du projet.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
+        "imageAlt": "Rapport flash automatique"
+      },
+      {
+        "type": "feature-split",
+        "title": "Sondez vos collaborateurs grâce à l'indicateur d'adhésion",
+        "body": "<p>Les chances de succès d'un projet augmentent lorsque ses parties prenantes ont confiance dans son exécution. Nous avons créé un outil de sondage anonyme afin que vous puissiez connaître le degré de confiance de chacune des parties dans vos projets. Ainsi, vous aurez les capacités de réagir à temps afin d'éviter de livrer un produit trop éloigné des attentes de votre client.</p><p>Vous pouvez envoyez ce sondage à toutes les personnes impliquées sur votre projet en moins d'une minute. Sonder régulièrement leur degré de confiance vous permettra d'assurer un résultat à la hauteur des espérances de chacun.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd67b20f0e6f_dashboard.svg",
+        "imageAlt": "Sondage collaborateurs",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Tableau de bord de gestion de projets : pourquoi est-ce crucial pour une direction des systèmes d'information ?",
+        "body": "<p>A mesure que le digital se développe, les DSI sont de plus en plus amenées à se voir confier des missions touchant au coeur du business de leur entreprise : le système d'information est aujourd'hui considéré comme un des facteurs clés de la création de valeur.</p><p>Si une DSI souhaite accompagner le développement de son entreprise, elle doit diriger l'exécution de ses projets de manière optimale. Et justement, le tableau de bord de gestion de projet se révèle très vite être indispensable à un pilotage efficient d'une DSI.</p><p>Si l'on désire améliorer ses process, il faut d'abord être capable d'évaluer ses pratiques actuelles : c'est la meilleure manière pour savoir si les méthodes mises en place sont efficaces et permettent d'atteindre les objectifs fixés. Un <a href=\"/fr/solution/tableau-de-bord-dsi\">tableau de bord</a> projet permet donc d'assurer le pilotage des aspects opérationnels des projets IT, à court comme à long terme, mais aussi :</p><ul><li>à assurer l'exécution optimale de chaque projet</li><li>à structurer une communication interne performante</li><li>à analyser les tendances grâce à une visibilité sur l'ensemble des projets</li><li>à suivre les avancées de chaque projet au regard des objectifs fixés</li><li>à impliquer les collaborateurs en leur affectant à chacun des objectifs</li></ul>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd66030f0e89_5.svg",
+        "imageAlt": "Tableau de bord de gestion de projet"
+      },
+      {
+        "type": "intro",
+        "title": "Comment choisir les indicateurs appropriés pour son tableau de bord projet ?",
+        "headingLevel": 2
+      },
+      {
+        "type": "feature-split",
+        "title": "Quelques principes à respecter pour une gestion de portefeuille optimale",
+        "body": "<p>Il est important de respecter certaines règles de forme lors de l'élaboration des indicateurs, afin de s'assurer qu'ils soient pertinents :</p><ul><li>Il est indispensable de nommer chacun des indicateurs</li><li>Il faut aussi définir chaque indicateur, et s'assurer que chaque collaborateur utilise la même définition</li><li>Il faut assortir chaque indicateur d'un objectif, si possible chiffré : à défaut, ils perdent presque tout intérêt</li><li>Les indicateurs doivent analyser le passé, le présent, mais aussi les évènements à venir : ils ne servent pas seulement à rapporter, mais bien à piloter</li><li>Les indicateurs construits autours de processus (dynamiques) sont tout aussi importants que ceux qui évaluent des résultats (statiques) : ne vous cantonnez pas à l'un de ces deux types</li><li>Pensez vos indicateurs de sorte qu'ils puissent être comparés entre eux lorsque c'est possible.</li><li>Rappeler la fréquence à laquelle votre indicateur devra être mis à jour (semestrielle/mensuelle/hebdomadaire).</li></ul>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66867e827c10da64f5ea6d52_Graphic%20IT.svg",
+        "imageAlt": "gestion de portefeuille optimale"
+      },
+      {
+        "type": "feature-split",
+        "title": "Construisez les indicateurs de tableau de bord projet en fonction des ambitions de votre organisation",
+        "body": "<p>Il existe des tableaux de bord dont le choix des indicateurs pertinents est déjà pensé, et qui ont pour vocation d'être capable de s'adapter à toutes, ou au moins, à un grand nombre d'entreprises. Cependant, prendre le temps d'élaborer des indicateurs personnalisés à son organisation reste la meilleure solution.</p><p>Chaque entreprise a des objectifs différents, et des caractéristiques qui lui sont propres : aussi, utiliser un template de tableau de bord universel ne peut avoir qu'une efficacité réduite. A l'inverse, un tableau de bord de gestion de projet dont les indicateurs ont été pensés en fonction des ambitions d'une entreprise sera forcément plus performant pour accompagner le pilotage d'une DSI.</p><p>Mais construire des critères en prenant en compte le contexte de l'entreprise (ses collaborateurs, les projets menés, les résultats que l'on souhaite atteindre) prend beaucoup de temps et est complexe. En effet, il faut une connaissance poussée de chacune des activités de l'organisation. Ainsi, il est fortement conseillé d'engager les directions métiers dans l'élaboration du tableau de bord et de ses indicateurs.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd0e210f0e8a_7.svg",
+        "imageAlt": "Vos indicateurs de tableau de bord projet",
+        "reversed": true
+      },
+      {
+        "type": "feature-split",
+        "title": "Engager les métiers dans la fabrication des indicateurs du tableau de bord",
+        "body": "<p>Il n'est pas rare que les directions métiers ne soient que très peu sollicitées dans l'élaboration des tableaux de bord des DSI. Pourtant, ce sont bien les métiers qui sont les destinataires et les utilisateurs de la grande majorité des solutions sur lesquelles travaillent les équipes IT !</p><p>Engager les directions métiers dans la construction et la mise en œuvre des indicateurs de vos tableaux de bord vous permet de juger de l'avancée de vos projets selon les critères qui importent au client final. C'est donc la meilleure manière de contrôler que le produit livré offre une pleine satisfaction à ses utilisateurs.</p><p>Il est donc conseillé de créer ces indicateurs en formant des groupes de travail regroupant des responsables métiers ainsi que des membres de votre DSI.</p>",
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/609552290d93fd42890f0e53_outil12.svg",
+        "imageAlt": "Engagez les métiers dans la construction des indicateurs"
+      },
+      {
+        "type": "intro",
+        "title": "En conclusion, voici les deux règles principales à respecter pour élaborer des indicateurs de tableaux de bord qui boosteront vos performances :",
+        "headingLevel": 2,
+        "body": "<p>L'importance de l'innovation ne cesse de s'accroitre pour les entreprises : les projets digitaux se multiplient et leur réussite deviennent une condition sine qua none à la compétitivité de l'organisation. En conséquence, les entreprises ont de plus en plus d'attentes envers les DSI, qui se retrouvent souvent au coeur des nouvelles stratégies mises en place.</p><p>Notre tableau de bord projet a été créé afin de permettre à la DSI d'être en capacité de répondre aux besoins de son entreprise et de collaborer étroitement avec les métiers.</p><ul><li>Pensez-les au regard des caractéristiques propres de votre entreprise</li><li>Co-construisez les avec des responsables métiers impliqués</li></ul><p>En suivant ces principes, vous maximisez vos chances de créer un tableau de bord simplifiant véritablement le pilotage de votre DSI.</p>"
+      },
+      {
+        "type": "cta",
+        "title": "Découvrez comment",
+        "titleHighlight": "AirSaas",
+        "titleSuffix": "peut vous aider",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
+      }
+    ]
+  }
+}
