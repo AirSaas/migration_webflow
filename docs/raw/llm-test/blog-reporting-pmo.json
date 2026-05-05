@@ -1,0 +1,484 @@
+{
+  "type": "blog",
+  "slug": "reporting-pmo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Tout savoir sur le reporting PMO",
+      "h1": "Tout savoir sur le reporting PMO",
+      "description": "Tout savoir sur le reporting PMO : définition, bonnes pratiques, critères clés, fréquence et exemples pour réussir votre pilotage de portefeuille projets.",
+      "publishedDate": "30/11/2023",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "30/11/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/658087d8f4d5e6bdb6f54cb4_Reporting%20PMO-min.jpg",
+        "alt": "Reporting PMO"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un reporting projet, et pourquoi est-ce important de (bien) le faire ?",
+        "href": "#quest-ce-quun-reporting-projet-et-pourquoi-est-ce-important-de-bien-le-faire"
+      },
+      {
+        "label": "Comment réussir votre reporting PMO ?",
+        "href": "#comment-reussir-votre-reporting-pmo"
+      },
+      {
+        "label": "9 critères-clés pour un reporting PMO efficace",
+        "href": "#9-criteres-cles-pour-un-reporting-pmo-efficace"
+      },
+      {
+        "label": "Quand ? Quelle fréquence adopter ? Quel temps de production ?",
+        "href": "#quand-quelle-frequence-adopter-quel-temps-de-production"
+      },
+      {
+        "label": "Ce qu'il faut retenir",
+        "href": "#ce-quil-faut-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "La question du reporting <a href=\"/fr/gestion-de-projet/metier-pmo\">PMO</a> n'est pas à prendre à la légère : partager une compréhension commune de l'état de santé et des enjeux du portefeuille projet avec l'ensemble des parties prenantes peut changer la dynamique d'une organisation ! L'importance des tableaux de bord projets et indicateurs de performance au sein des organisations n'est plus à démontrer."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème : dans le management de projet, la perception du reporting est parfois vue comme négative par les chefs de projets et PMO !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et vous, vous le voyez plus comme un outil choisi d'aide à la décision ou bien comme un instrument de contrôle managérial \"subi\" ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous pensez que cet outil de communication et les démarches qui lui sont associées sont parfois mal comprises, vous êtes au bon endroit pour <strong>mieux comprendre l'intérêt, repérer les meilleures pratiques en PPM</strong> et tout simplement améliorer votre usage actuel du reporting."
+      },
+      {
+        "type": "paragraph",
+        "html": "Après une définition (toujours utile !), cet article traitera du rôle des données dans la prise de décision, raison d'être, usages, pièges à éviter, process et façon de faire des PMO, rythme, personnes concernées et parties prenantes.... Tout pour relever les grands défis liés à la mise en œuvre de cette pratique et réussir vos pilotages de portefeuilles."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qu'est-ce qu'un reporting projet, et pourquoi est-ce important de (bien) le faire ?",
+        "id": "quest-ce-quun-reporting-projet-et-pourquoi-est-ce-important-de-bien-le-faire"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Définition du reporting projet",
+        "id": "definition-du-reporting-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Notre <a href=\"https://fr.wikipedia.org/wiki/Communication_de_donn%C3%A9es\" target=\"_blank\">encyclopédie en ligne préférée</a> le rappelle : \"La <strong>communication de données</strong> (en anglais reporting) est l'action consistant à faire un rapport de ses activités.\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Outil de communication, le reporting permet essentiellement de matérialiser des données de votre portefeuille de projets. Il fait partie des outils de gestion clés du PMO."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et en prime, un reporting PMO efficace = <strong>la clé du leadership en </strong><a href=\"http://www.airsaas.io/fr/gestion-de-projet/role-du-pmo\" target=\"_blank\"><strong>Codir</strong></a><strong>.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Exemple de flash Report AirSaas",
+        "id": "exemple-de-flash-report-airsaas"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f1a76cf5f64ee9e5d9c_37215105-a478-40b4-ada5-66c78ace95dc.png",
+        "alt": "Exemple de flash Report AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un reporting PMO : pour quoi faire ?",
+        "id": "un-reporting-pmo-pour-quoi-faire"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce rappel est fondamental. Le reporting a deux fonctions principales :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "être analysé afin <strong>d'orienter les décisions stratégiques ;</strong>",
+          "<strong>guider les managers</strong> et leurs équipes vers l'atteinte des objectifs préalablement fixés."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Les rapports sont vitaux pour toutes les organisations, ils nous permettent de transmettre des informations, d'identifier un problème et d'aider à élaborer des prévisions futures."
+      },
+      {
+        "type": "paragraph",
+        "html": "Surtout dans un contexte d'explosion du nombre de projets transverses et de projets de transformations !"
+      },
+      {
+        "type": "paragraph",
+        "html": "En s'appuyant sur des indicateurs de pilotage opérationnel de la performance (appelés aussi KPIs pour Key Performance Indicators), on peut mesurer et piloter la trajectoire d'un \"chantier\" de manière efficace, ou à l'inverse se rendre compte de certains points de blocage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un bon reporting PMO doit permettre à chacun de <strong>discerner rapidement l'état actuel de l'environnement de</strong> chaque projet du portfolio. Les décideurs en particulier doivent voir à première vue ce qui doit être décidé. Cela parait tomber sous le sens...mais on peut vite se prendre les pieds dans le tapis de l'excès d'information mal présentés qui plus est."
+      },
+      {
+        "type": "paragraph",
+        "html": "Car le reporting est <strong>avant tout un outil d'aide à la décision</strong> vs un outil de contrôle comme on le pense souvent. Il doit <strong>amener les parties prenantes à se poser des questions</strong> : \"Quelle suite à donner au projet?\" ; \"De quelles compétences avons-nous besoin ?\", \"Pourquoi avons-nous pris du retard sur le planning de ce point précis ?\". \"Pourquoi le rythme de delivery est-il en train de baisser ?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment réussir votre reporting PMO ?",
+        "id": "comment-reussir-votre-reporting-pmo"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les 7 questions initiales à vous poser",
+        "id": "les-7-questions-initiales-a-vous-poser"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Question 1 : Quel est mon objectif avec ces rapports ?",
+        "id": "question-1-quel-est-mon-objectif-avec-ces-rapports"
+      },
+      {
+        "type": "paragraph",
+        "html": "Qu'est-ce que je veux suivre et contrôler ? Dans tous les cas, un reporting de projet a pour finalité l'action, la planification des tâches et la prise de décision. Pour ce faire, les meilleurs reporting de projets ont tous un point en commun, ils permettent au lecteur de visualiser l'information en un clin d'œil pour que chacun à son niveau dans l'entreprise puisse faire les bons choix."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/etre-pmo-en-2023-les-mutations-dun-metier\" target=\"_blank\">PMO</a> doit garantir la qualité des reportings en s'assurant que les données sont à jour et qu'elles sont correctes et fiables."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Question 2 : Qui va être amené à prendre une décision avec ces reportings ?",
+        "id": "question-2-qui-va-etre-amene-a-prendre-une-decision-avec-ces-reportings"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vos rapports sont destinés à être lus ! Cartographier les lecteurs est un investissement utile. Il y aura en effet X formats cibles, X vues du portefeuille différentes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette seconde question implique d'<strong>identifier les niveaux de confidentialité</strong> : diffusion restreinte, élargie ou tout public."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Question 3 : Les futurs lecteurs ont il été associés à la construction du reporting ?",
+        "id": "question-3-les-futurs-lecteurs-ont-il-ete-associes-a-la-construction-du-reporting"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour eux, ce reporting est il vu comme un flicage du management ou bien un outil d'aide au pilotage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Leur a-t-on demandé après le premier reporting s'ils étaient satisfaits du format, du rythme, de la visibilité ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pourront-ils interagir, éditer ou commenter le contenu ?"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Question 4 : De quelles données ai-je besoin pour cela ?",
+        "id": "question-4-de-quelles-donnees-ai-je-besoin-pour-cela"
+      },
+      {
+        "type": "paragraph",
+        "html": "En fonction de vos grands personas, de vos lecteurs vous aurez autant de niveaux de lecture de rythmes de reporting potentiels. En exemple voici un : Contenu type de reporting pour C Level"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Backlog",
+          "Risques",
+          "Ressources",
+          "Charges",
+          "Décisions"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Plutôt que d'inventer l'eau chaude sur ce point, appuyez-vous sur les smart frameworks proposés par les outils avec des tableaux de bord de gestion de projet pré établis comme AirSaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "Autre point : la data c'est bien, mais le contexte avec, c'est quand même mieux !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Autre point clé sur la forme et le design d'information au delà d'une donnée brute : la compréhension du message passe aussi par la contextualisation - ajout de commentaire, légende... Derrière chaque changement de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-une-bonne-meteo-projet\" target=\"_blank\">météo du projet</a>, par exemple, on doit accéder facilement au détail."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Question 5 : Quel niveau de détail est le plus adapté ?",
+        "id": "question-5-quel-niveau-de-detail-est-le-plus-adapte"
+      },
+      {
+        "type": "paragraph",
+        "html": "« Tout est poison, rien n'est poison, c'est la dose qui fait le poison » (Paracelse, médecin et alchimiste Russe)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui, à l'opposé des démarches data driven excessives, le reporting minimaliste a le vent en poupe."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f1968269ce9bf4901b7_18e9193e-101b-4763-9101-36d9a1f10280.png",
+        "alt": "L'importance d'une bonne analyse ^^"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quatre exemples de vues pour votre reporting",
+        "id": "quatre-exemples-de-vues-pour-votre-reporting"
+      },
+      {
+        "type": "paragraph",
+        "html": "<em>\"La forme c'est le fond qui remonte à la surface\" - </em><strong><em>Victor Hugo.</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'importance du design n'est plus à démonter, autant pour faciliter la collecter que pour développer la compréhension."
+      },
+      {
+        "type": "paragraph",
+        "html": "\"Si c'est plus compliqué qu'Instagram, on a perdu !\", confie Simon Vacher CPO d'AirSaas. En effet, l'outil doit être adopté par le chef de projet, le PMO, les métiers, les dirigeants..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chez AirSaas nous proposons quatre types de vues."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "La vue tableau, ou vue Spreadsheet",
+        "id": "la-vue-tableau-ou-vue-spreadsheet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f19a66b827a9749fd42_08c18b94-1c56-4d7d-8909-b673cab25265.png",
+        "alt": "Toutes les catégories sur une seule page !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette vue est utile pour:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "voir un maximum sur votre page courante",
+          "agencer l'ordre des colonnes les unes par rapport aux autres",
+          "classer l'ordre des projets manuellement en cliqué/déposé (drag and drop pour les english)",
+          "choisir les colonnes que vous souhaitez afficher"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "La vue Timeline, pour voir la répartition dans le temps",
+        "id": "la-vue-timeline-pour-voir-la-repartition-dans-le-temps"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f196e3b38e1280f5cc6_4112c387-b2c0-4d25-8a40-a4d0b0c5a42d.png",
+        "alt": "vue timeline"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien plus qu'un simple diagramme de Gantt. La vue chronologique vous offrent une grande flexibilité pour définir l'étendue de vos projets, ajuster les échéances et personnaliser vos processus."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "La vue Kanban, pour montrer un passage d'étapes",
+        "id": "la-vue-kanban-pour-montrer-un-passage-detapes"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f19268856cbb5a4a46d_6919a2e9-ef91-406e-882e-3c45150ecdda.png",
+        "alt": "Management visuel"
+      },
+      {
+        "type": "paragraph",
+        "html": "Utilisé dans ce contexte, le <a href=\"http://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet\" target=\"_blank\">Kanban</a> de votre portfolio sert à vous faciliter une gestion visuelle des projets et de ses différentes phases."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "La vue liste",
+        "id": "la-vue-liste"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f19787cfbf628969762_6fcd52f7-f56b-46d8-b108-fdfdad52795d.png",
+        "alt": "Tout pour un suivi projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le contexte du portfolio la vue liste est utile pour faire un focus sur un ensemble d'éléments dans un groupe"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "9 critères-clés pour un reporting PMO efficace",
+        "id": "9-criteres-cles-pour-un-reporting-pmo-efficace"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Semi-Automatisé</strong> avec des features de reporting projet automatisées.",
+          "<strong>Vision adaptable</strong> du smartphone au grand écran.",
+          "<strong>Donnée exportable</strong> (XLS, PPT..)",
+          "<strong>Imprimable</strong> : parfois l'analyse est plus aisée avec le format papier",
+          "<strong>Filtrable</strong>, triable : votre outil doit permettre de trier toutes vos données en fonction de vos audiences",
+          "<strong>Agréable</strong> : non ce n'est pas le cas de tous les outils et oui c'est un détail clé pour l'adoption",
+          "<strong>Authentique</strong> / <strong>Transparent</strong> : si les données sont maquillées, on n'ira pas loin !",
+          "<strong>Synthétique</strong> et accès au détails contexte des saisies de données (c'est la clé)",
+          "<strong>Un reporting moderne</strong> doit capter l'attention de son lecteur : pertinence, bonne présentation, standardisation de la mise en forme.. tout pour permettre d'en tirer des conclusions."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quand ? Quelle fréquence adopter ? Quel temps de production ?",
+        "id": "quand-quelle-frequence-adopter-quel-temps-de-production"
+      },
+      {
+        "type": "paragraph",
+        "html": "Horaire, quotidienne, hebdo, mensuelle aucune réponse universelle à cette question n'existe... mais il y a des bonnes pratiques en fonction des types de projet de votre portfolio."
+      },
+      {
+        "type": "paragraph",
+        "html": "Longtemps, la pratique des PMO au sein des entreprises a été de proposer un reporting mensuel au format PowerPoint."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème :le reporting projet que vous recevez tous les deux mois ne permet de faire des arbitrages rapides et de lever les risques rapidement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Aujourd'hui retenez que les organisations qui \"sur-performent\" proposent un reporting \"on demand\". Sur les projets du chemin critique la fréquence hebdomadaire tend à s'imposer a minima."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les équipes qui utilisent AirSaas envoient le rapport flash aux différentes parties prenantes une fois par semaine. (Oui oui - pas une fois tous les mois...)"
+      },
+      {
+        "type": "quote",
+        "text": "La clé c'est de fournir de l'information pertinente et d'avoir les moyens de la faire vivre au fil de l'eau, car on n'a pas besoin d'attendre qu'un CODIR ou un Comité projet se réunisse pour communiquer sur ce qui se passe.",
+        "author": "Stéphan Boisson - Chief Digital & Information Officer, Digital Whirl Catalyser chez SCC, Utilisateur AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et comme chaque projet ne nécessite pas forcement une mise à jour à la semaine, voici notre conseil pour mettre en place un suivi encore plus fin : accordez-vous avec votre chef de projet sur une fréquence de mise à jour de la santé du projet grâce à l'option rappel de mise à jour depuis la page projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f195710cf5a1d6a38dc_91a5bfb9-3962-4038-8f31-75fd30e1d9c5.png",
+        "alt": "Avec AirSaas votre organisation peut activer le rappel auto. des informations"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quel temps de production du rapport ?",
+        "id": "quel-temps-de-production-du-rapport"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avant l'apparition d'un outil \"ad hoc\", la bureaucratie se glissait dans chaque tableau de bord !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un DSI client témoignait du fait \"qu'un PMO externe lui prenait <strong>2 à 3 jours par mois</strong> pour consolider le fichier du portfolio Excel et rendre compte de l'état des lieux de l'exécution des projets dans un PowerPoint, au risque d'oublier les décisions importantes à prendre\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème secondaire, pour le lecteur : l'outil impose une relecture versus une \"vue\" sur le delta sur ce qui a changé et nécéssite une attention et ou une décision."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec AirSaas le reporting projet pour la direction se fait un en clic avec une synthèse de l'état d'avancement, les décisions à prendre, les risques et cela ne prendra pas plus de 5 minutes par semaine à vos chefs de projet de faire remonter ces informations."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour le PMO auteur du reporting, comme pour ses destinataires, le temps est précieux."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/65681f19f098583e3a19fe36_a5c14d16-7a92-4a63-a51b-e428e477fa23.png",
+        "alt": "Qualité vs temps passé à formaliser"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ce qu'il faut retenir",
+        "id": "ce-quil-faut-retenir"
+      },
+      {
+        "type": "paragraph",
+        "html": "\"On ne peut changer que ce que l'on voit\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'avez compris il est fondamental de disposer d'un bureau de gestion de projets transverse, ou d'un PMO, axé sur le processus de reporting projets de (toute) l' entreprise versus une seule direction."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'impact des rapports données et indicateurs dans le process de décision est connu, en prime le fait de lui adjoindre des infos de contexte, (pourquoi la météo est en orange ?) est un puissant levier pour faciliter la prise de décision à partir de vos données."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au delà de toute les bonnes pratiques en création de rapports listées ici, on ne saurait que trop souligner l'importance d'une assistance au reporting pour limiter les erreurs. Utiliser une plateforme est aujourd'hui un \"must have\" au sein d'une organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et n'oubliez pas un <strong>reporting PMO efficace = la clé du leadership en</strong> <strong>CODIR.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le reporting est essentiel au bon pilotage du projet, il ne faut<strong> jamais oublier qu'il y a des femmes et des hommes derrière.</strong> Et que nos reporting ne sont pas une excuse pour oublier le bon sens, l'humanité et l'importance du management."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous êtes prêts pour creuser pleinement ce thème ? On vous conseille (vraiment) la lecture de cet article qui va zoome sur les \"howto\" : \"<a href=\"/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\">Comment élaborer un reporting projet efficace ?</a>\""
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,32 +1,30 @@
 {
-  "startedAt": "2026-04-29T12:55:01.963Z",
-  "totalCost": 2.1397649999999997,
+  "startedAt": "2026-05-01T09:13:51.445Z",
+  "totalCost": 2.5575,
   "totalTokens": {
-    "input": 84771,
-    "output": 11576,
+    "input": 28915,
+    "output": 10576,
     "cacheRead": 0,
-    "cacheWrite": 0
+    "cacheWrite": 70964
   },
   "results": [
     {
-      "type": "lp",
-      "slug": "capacity-planning",
+      "type": "equipe",
+      "slug": "comite-direction",
       "iteration": 2,
       "outcome": "RETRY_PASS",
       "summary": {
-        "sections": 19,
+        "sections": 14,
         "types": [
           "hero",
-          "logo-bar",
-          "stats",
-          "pain-points",
-          "feature-split",
-          "steps",
-          "icon-row",
+          "press-quotes",
           "testimonials",
-          "trust-badges",
-          "faq",
-          "cta"
+          "intro",
+          "stats",
+          "feature-split",
+          "comparison-table",
+          "cta",
+          "related"
         ]
       },
       "errors": []

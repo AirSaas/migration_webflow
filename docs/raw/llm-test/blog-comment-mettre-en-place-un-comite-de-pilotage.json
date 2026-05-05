@@ -1,0 +1,13 @@
+{
+  "type": "blog",
+  "slug": "comment-mettre-en-place-un-comite-de-pilotage",
+  "iteration": 1,
+  "outcome": "API_ERROR",
+  "errors": [
+    {
+      "type": "api-error",
+      "detail": "fetch failed"
+    }
+  ],
+  "result": null
+}

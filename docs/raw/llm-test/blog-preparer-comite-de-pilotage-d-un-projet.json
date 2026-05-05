@@ -1,0 +1,397 @@
+{
+  "type": "blog",
+  "slug": "preparer-comite-de-pilotage-d-un-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Vous préparez votre prochain comité de pilotage d'un projet, et vous ne savez pas réellement à quoi vous attendre ? Alors c'est que vous devez passer plus de temps sur sa préparation !"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif de cet article : vous aider à muscler cette préparation et être prêt à toutes les éventualités lors de votre Copil à venir !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet article fait partie de la série <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases</a> qui recense l'essentiel des éléments simples et pragmatiques à connaitre sur le comité de pilotage projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e620_62c2a421759161de6022b1a7_f0ef116c-0e8a-450b-86c9-806f909eaa63-min.jpeg",
+        "alt": "Prépa copil"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Identifier et déterminer les objectifs du comité de pilotage d'un projet",
+        "id": "identifier-et-determiner-les-objectifs-du-comite-de-pilotage-dun-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un Copil ne doit pas être votre énième réunion de la semaine ou du mois. Un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\">comité de pilotage</a> n'est pas non plus un groupe de travail vu comme un atelier collaboratif pour co-construire le projet, il ne doit pas permettre de répondre à des questions opérationnelles ou métiers que vous auriez pu glaner par ailleurs pendant les phases précédentes de la conduite du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout ceci doit avoir été réalisé en amont, dans des sessions de travail en plus petit groupe (Task Force). Et le chef de projet, ainsi que le sponsor, doivent avoir une idée très claire de ce qu'ils attendent de chaque session de comité de pilotage d'un projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "\"No Pain, No Gain\"",
+        "id": "no-pain-no-gain"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e629_62c2a46880979dc90d055c19_6919e1a5-cdf7-43e2-87d5-3cb7c4697ad0-min.png",
+        "alt": "no pain no gain"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les objectifs d'un comité ne peuvent pas se réduire à un but informatif ou à garder tout le monde informé et valorisé."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si il n'y a pas de problème à résoudre ou à anticiper, alors l'objet même de tenir un comité de pilotage d'un projet est strictement inutile. Les comités de pilotage se tiennent en général tous les 45 à 60 jours environ, pendant la durée du projet, aussi l'idée est de se concentrer sur ce qui peut être problématique immédiatement ou d'ici le/les prochains Copil."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de pilotage doit servir au chef de projet pour <strong>mobiliser et activer des ressources ou des actions nécessaires au projet</strong> et qui nécessitent le soutien du sponsor et des Top Managers de l'entreprise. Il doit pouvoir s'appuyer sur le sponsor pour obtenir ce dont il a besoin pour mener à bien le projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "\"Il n'y a pas de vent favorable pour celui qui ne sait pas où il va\"",
+        "id": "il-ny-a-pas-de-vent-favorable-pour-celui-qui-ne-sait-pas-ou-il-va"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e62c_62c2a4806078ed14044b2f36_f42688e1-5dd0-4418-a538-8d18c14ff316-min.jpeg",
+        "alt": "Citation projet - vent favorable"
+      },
+      {
+        "type": "paragraph",
+        "html": "Votre capacité à bien définir les objectifs dépendra du travail de préparation fait par le chef de projet en amont, mais aussi de sa capacité à écouter, à évaluer et anticiper les risques et les facteurs bloquants qu'il aura identifiés tout au long de la mise en place du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces rendez-vous auront beaucoup plus d'impact s'ils servent au manager de projet à débloquer des aspects en aval du projet, à en dérisquer d'autres, ou à amener à prendre des décisions clés que le chef de projet n'est pas en position de réaliser par ailleurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "De ce fait, il est important de rassembler en amont tous les éléments nécessaire à la <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-decider-en-copil\">prise de décision en Copil</a>, et d'avoir proposé une stratégie à suivre au sponsor, ainsi que des recommandations quant au différentes options possibles et leurs impacts avant le jour du Copil. Le chef de projet doit connaître le positionnement de chacun des acteurs du projet plus ou moins précisément, afin qu'il n'y ait pas de surprise pendant le comité de pilotage."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le sponsor ne doit rien découvrir pendant le comité de pilotage",
+        "id": "le-sponsor-ne-doit-rien-decouvrir-pendant-le-comite-de-pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e623_62ea82304a84154f23c1ddc4_82b121c6-ebaa-48b0-9b18-604028180897-min.jpeg",
+        "alt": "sponsor copil projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Que ce soit le chef de projet ou le sponsor, aucun d'eux ne doit découvrir d'éléments dimensionnant, d'informations ou de positionnements de membres pouvant remettre en cause la capacité d'arbitrage et de décision pendant le Copil, au risque de le rendre inefficace et de devoir le reporter. Voire, dans certains cas, remettre le projet lui-même en question"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du chef de projet est donc d'investiguer pour rassembler ce type d'informations, afin d'en faire des synthèses au sponsor, au fil de l'eau et tout au long du projet. Il est nécessaire de lui faire part des potentiels facteurs bloquants, risques et problèmes, de manière à ce qu'il puisse jouer pleinement son rôle de sponsor."
+      },
+      {
+        "type": "paragraph",
+        "html": "Contrairement à ce que l'on peut entendre d'habitude, ne faites pas remonter ces points clés au sponsor seulement deux ou trois jours avant le comité de pilotage d'un projet. L'idée est de pouvoir lui laisser le temps d'évaluer les situations et de prendre les bonnes décisions. Pour cela, vous pouvez lui soumettre une stratégie à adopter, mais garder en tête qu'il doit avoir du temps devant lui."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Placer le projet au dessus des intérêts personnels",
+        "id": "placer-le-projet-au-dessus-des-interets-personnels"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e642_62ea8289df96d8705cc802f8_dca91451-d3a7-42c3-b59a-c36e0802c3c7-min-min.jpeg",
+        "alt": "Montagne projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le projet et le Copil ne doivent pas être une tribune permettant à des personnalités de faire passer leurs priorités ou intérêts personnels. Le rassemblement d'autant de personnes clés de l'entreprise autour de la table pourrait être tentant pour certains de dériver du plan de la réunion."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avoir un ordre du jour carré et une bonne gestion des personnalités fait bien évidemment partie de la solution. Mais il est bon d'ajouter à ça un bon plan de communication pour valoriser l'implication de chacun. C'est aussi là où le chef de projet doit mettre son égo de côté. Si le projet réussit, ce n'est pas grâce à lui, mais grâce à la participation de tous. Et s'il donne assez de raisons aux personnalités ambitieuses de briller à travers le projet dans l'intérêt global de l'entreprise, alors il aura rempli une partie, parfois difficile, de sa mission."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Rester proche du terrain et des membres du comité de pilotage",
+        "id": "rester-proche-du-terrain-et-des-membres-du-comite-de-pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e62f_62ea82d11d124a688760b2b0_69bcfe0a-a84a-454c-816a-394e9d19d80e-min.jpeg",
+        "alt": "proximité terrain copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Récolter des informations sur la réalité terrain et les bloquants associés et augmenter le leadership du <a href=\"https://www.airsaas.io/fr/gestion-de-projet/chef-de-projet-transverse\">chef de projet transverse</a> : voilà l'un de vos rôles. On peut également citer le fait de faire preuve d'écoute et de considération de tous les avis des parties prenantes. Et de récolter les positionnements de certains par rapport au projet, et sonder ceux qui faciliteront les opérations, ainsi que ceux qui le feront ralentir."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'important ici est de pouvoir anticiper les risques ou points facilitateurs pour le projet, et bien écouter les retours métiers. Cela permettra également de relever et identifier toute tension, frustration ou non-dit qui doivent être traités avant et à la marge du comité de pilotage du projet. La première approche consiste à essayer de comprendre, de trouver des solutions ou de le désamorcer pour le chef de projet - et, dans un second temps, si cela ne fonctionne pas ou représente un trop gros risque, de s'appuyer sur le sponsor sur la bonne stratégie à adopter."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Rappel des objectifs clés d'un comité de pilotage projet",
+        "id": "rappel-des-objectifs-cles-dun-comite-de-pilotage-projet"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Prendre des décisions et faire des arbitrages.</strong>",
+          "<strong>Veiller au bon déroulement du projet</strong> et s'assurer qu'il est <strong>en accord avec les stratégies globales de l'entreprise.</strong>",
+          "<strong>Évaluer la qualité et la santé du projet à chaque réunion</strong>. Si certains problèmes doivent être améliorés, les principaux intervenants peuvent les soulever pour les résoudre.",
+          "<strong>Donner au chef de projet le pouvoir d'agir</strong> et d'utiliser les ressources de l'entreprise pour mener l'exécution, l'avancement du projet.",
+          "<strong>Résoudre les conflits entre départements</strong>, les problèmes liés au coût, au temps, au risque, aux ressources, à la qualité et à la portée.",
+          "<strong>Surveiller les progrès du projet par rapport aux objectifs convenus</strong> et <strong>résoudre les problèmes</strong> qui ne permettent pas au projet de progresser à temps."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Toute la préparation doit s'articuler autour de ces points, et permettre de répondre à ces objectifs"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les clés pour bien préparer votre prochain comité de pilotage d'un projet",
+        "id": "les-cles-pour-bien-preparer-votre-prochain-comite-de-pilotage-dun-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Piloter un Copil n'est pas chose aisée - donc autant faire preuve d'une planification au cordeau pour y arriver serein !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Avoir rassemblé toutes les informations nécessaires à la prises de décision et aux arbitrages",
+        "id": "avoir-rassemble-toutes-les-informations-necessaires-a-la-prises-de-decision-et-aux-arbitrages"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e658_62ea831544e58a4cd2ffb7cf_02ef1429-4e1e-43fa-b594-d980d06f44f1-min.jpeg",
+        "alt": "bibliothèque"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de pilotage d'un projet est le moment d'aborder tous les aspects du projet qui nécessitent une prise de position tranchée ou des choix/décisions stratégiques. Pour cela tout le monde doit pouvoir s'exprimer, donner son avis ou encore lever des points d'attention, et repartir à la fin de ce comité avec toutes ces décisions actées pour faire avancer correctement le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il faut avoir identifié, recensé et préparé avec le sponsor, à l'avance et au fil de l'eau, tous les éléments du projet qui nécessitent de telles décisions ou actions correctives dans le prochain Copil."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les membres du comité de pilotage d'un projet doivent savoir à l'avance quelles sont les décisions clés du prochain Copil, afin que tout le monde puisse avoir le temps de réfléchir et évaluer l'impact des décisions. Tous les documents, ordre du jour et annexes, doivent être transmis, au moins une semaine, et idéalement 15 jours, avant le jour du comité de pilotage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est donc primordial pour tout cela, que les objectifs et livrables attendus soient clairs et d'avoir établi les règles du jeu quant à la façon de prendre des décisions et instaurer les principes de gouvernance<strong>.</strong> Cette grille de lecture commune permettra d'instaurer un cadre connu et compris de tous - ce qui accélère les prises de décisions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Instaurer le feedback pour anticiper les facteurs bloquants",
+        "id": "instaurer-le-feedback-pour-anticiper-les-facteurs-bloquants"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e632_62ea8362dbd70f379da8ad1d_84d32479-7203-4080-a63a-939a6f530321-min.jpeg",
+        "alt": "Copil Feedback"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous passez suffisamment de temps et d'écoute avec les membres du Copil projet, vous récolterez la vision des membres, et vous aurez la possibilité de bien comprendre où le projet se situe pour eux. Cela vous permet, par la même occasion, d'identifier les problématiques techniques, politiques et financières qui ne seraient pas exprimées en comité de pilotage du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Particulièrement quand il y'a des prise de positions tranchées non-partagées ou des désaccords importants entre parties prenantes qui parfois n'ont pas le même pouvoir/influence dans l'entreprise, on peut passer à côté d'élément clés si cela génère des non-dits et des frustrations."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettez en place les bons outils pour récolter les informations. Dans beaucoup de cas, certaines des informations ne sont pas communiquées car il n'y a pas d'instance ou de rendez-vous adaptés :"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Des formulaires de feedback rapides à remplir et anonyme",
+        "id": "des-formulaires-de-feedback-rapides-a-remplir-et-anonyme"
+      },
+      {
+        "type": "paragraph",
+        "html": "Peu importe le support du moment. Il doit être anonyme et rapide à remplir - car l'important, c'est que tout le monde le remplisse. Utilisez-le avec parcimonie afin de conserver la participation. Un outil type Typeform fera très bien l'affaire, et donnera au chef de projet et au sponsor une très bonne idée de la position des membres sur la conduite de projet. De temps temps en temps, il permettra également de faire ressortir des informations qui restent autrement des non-dits."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Des rendez-vous à la marge des Copil ou des sessions de travail projet",
+        "id": "des-rendez-vous-a-la-marge-des-copil-ou-des-sessions-de-travail-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Afin de fluidifier les étapes du projets, le project manager, selon les besoins à venir, fera en sorte d'intégrer à la réflexion, l'action ou par anticipation, les métiers pertinents pour l'exécution du projet en cours ou à avenir et les managers des services concernés quand il y'a un besoin en ressources. Le sponsor pourra prendre le relais avec les Tops Managers pour les besoins en ressources. L'idée est ici que tout le monde connaisse avant le comité de pilotage d'un projet les besoins, afin de faciliter l'arbitrage le jour du Copil."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Planifier le Copil longtemps à l'avance",
+        "id": "planifier-le-copil-longtemps-a-lavance"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e63c_62ea83e4130ed4f8f849be36_5bf2173d-fbfe-470a-af2c-0bd0d5ebd42a-min.jpeg",
+        "alt": "Agenda copil"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "S'assurer de la présence de toutes les parties prenantes",
+        "id": "sassurer-de-la-presence-de-toutes-les-parties-prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Plus les membres du comité de pilotage ont un rôle important ou de l'influence dans l'entreprise, plus il y aura de difficultés à trouver un créneau libre pour tout le monde. Et qui dit non-présence de toutes les parties prenantes, dit risques supplémentaires de non-décisions ou décisions partielles pour le management de projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, prévoyez votre comité de pilotage du projet 45 ou 60 jours à l'avance. Cela devrait suffire - mais pensez à vous adapter à votre organisation et prendre plus de marge si nécessaire."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "S'assurer que toutes les parties prenantes aient assez de temps de préparation",
+        "id": "sassurer-que-toutes-les-parties-prenantes-aient-assez-de-temps-de-preparation"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le projet a besoin de ressources, de réponses métiers ou tiers ainsi que de réflexion quant à des prises de décisions à venir, le chef de projet doit laisser assez de temps à chacun pour pouvoir faire ce qui est attendu de lui avant le comité de pilotage d'un projet. Et comme vu précédemment : leur communiquer l'ordre du jour au moins 15 jours à l'avance."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Une présentation synthétique et un ordre du jour qui va droit au but",
+        "id": "une-presentation-synthetique-et-un-ordre-du-jour-qui-va-droit-au-but"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e639_62ea844656d69a85eb435d37_e30e3bfb-a44d-45cd-89bb-335cfd1c5d57-min-min.jpeg",
+        "alt": "sprint"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Liste des participants",
+          "Décisions du derniers comité de pilotage",
+          "Performance : roadmap prévue -vs- avancement réel / budget prévu -vs- dépenses à date",
+          "Les prochains gros jalons et enjeux",
+          "Tableau de bord (vue d'ensemble), suivi de l'avancement du projet et des KPIs",
+          "Décisions à prendre",
+          "Questions",
+          "Prochaines étapes",
+          "Dates et jalons du prochain comité de pilotage du projet"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Faites attention à ne pas utiliser de support de présentation qui rentre trop dans le détail comme les outils de gestion de projet. Le risque ? Perdre bon nombre de collaborateurs pendant la réunion. Si vous souhaitez gagner du temps sans passer des heures à refaire un PowerPoint pour chaque comité de pilotage et donner de la visibilité sur les éléments essentiels pour un Copil l L'outil AirSaas a spécialement été conçu pour résoudre ces problèmes-là."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin sur le sujet, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-modele-de-presentation-pour-votre-comite-de-pilotage\">découvrez notre modèle de présentation pour votre comité de pilotage</a>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Présenter des nouvelles positives, c'est aussi anticiper des facteurs bloquants",
+        "id": "presenter-des-nouvelles-positives-cest-aussi-anticiper-des-facteurs-bloquants"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d864c195c1ae278463e63f_62ea84914a8415747dc1f6ce_4f2bd82a-9c98-48ef-b2a6-88f490053563-min.jpeg",
+        "alt": "Positif copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Que ce soit pour valoriser le travail accompli ou partager de bons résultats, évitez l'inertie dans un projet, le désengagement et le sentiment que le projet n'avance pas, ou pas comme prévu."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est aussi le moment de canaliser les personnalités plus ambitieuses en mettant en avant le travail réalisé qui va dans le sens et l'intérêt du projet avec de récompenser les bons comportements et de faciliter le management transverse de ces ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet et le sponsor ne doivent pas négliger la perception que le projet donne aux parties prenantes. Le projet doit être un moteur de changements positifs et un bon plan de communication consiste à s'assurer de conserver une bonne dynamique pour la suite du projet. Une véritable conduite du changement doit donc opérer !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Connaître et anticiper les objections avant le comité de pilotage",
+        "id": "connaitre-et-anticiper-les-objections-avant-le-comite-de-pilotage"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'aurez compris dans cet article : l'accent est mis sur l'humain et les relations humaines. Elles sont tellement souvent à l'origine de défaillances projets qu'elles représentent des points d'attention majeurs dans la gestion de projet. Avec tout le travail de préparation énoncé en amont, le chef de projet doit maintenant connaître toutes les objections des membres et préparer avec le sponsor le bon plan d'action."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour toutes les objections pendant le comité de pilotage qui n'auraient pas été anticipées ou qu'il a été décidé d'écarter vous pouvez toujours \"être vague, précisément...\", utilisez l'astuce du frigo/parking développé dans notre autre article : <a href=\"/gestion-de-projet/copil-projet-5-astuces-pour-que-tout-se-passe-bien\">Copil projet : 5 astuces pour que tout se passe bien</a>."
+      }
+    ],
+    "meta": {
+      "title": "Comment bien préparer le comité de pilotage d'un projet ?",
+      "h1": "Comment bien préparer le comité de pilotage d'un projet ?",
+      "description": "Préparez efficacement votre comité de pilotage projet : objectifs, ordre du jour, anticipation des objections et bonnes pratiques pour des Copil productifs.",
+      "publishedDate": "2022-07-04",
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "4/7/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2a70c692292515dbb828a_prepa-copil-min.jpg",
+        "alt": "Comment bien préparer le comité de pilotage d'un projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Identifier et déterminer les objectifs du comité de pilotage d'un projet",
+        "href": "#identifier-et-determiner-les-objectifs-du-comite-de-pilotage-dun-projet"
+      },
+      {
+        "label": "Les clés pour bien préparer votre prochain comité de pilotage d'un projet",
+        "href": "#les-cles-pour-bien-preparer-votre-prochain-comite-de-pilotage-dun-projet"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

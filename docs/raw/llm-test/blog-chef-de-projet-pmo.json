@@ -1,0 +1,265 @@
+{
+  "type": "blog",
+  "slug": "chef-de-projet-pmo",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "La relation du PMO avec le chef de projet",
+      "h1": "La relation du PMO avec le chef de projet",
+      "description": "Focus sur les responsabilités du chef de projet et du PMO, et les liens qui existent entre ces deux acteurs de la transformation d'une entreprise.",
+      "publishedDate": "26/4/2023",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "26/4/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6449317d4dfb52ce6009acca_La%20relation%20du%20PMO%20avec%20le%20chef%20de%20projet-min.jpg",
+        "alt": "La relation du PMO avec le chef de projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qui est le PMO ?",
+        "href": "#qui-est-le-pmo"
+      },
+      {
+        "label": "Quelles différences entre chef de projet et PMO ?",
+        "href": "#quelles-differences-entre-chef-de-projet-et-pmo"
+      },
+      {
+        "label": "Pourquoi se doter d'un PMO en présence d'un chef de projet ?",
+        "href": "#pourquoi-se-doter-dun-pmo-en-presence-dun-chef-de-projet"
+      },
+      {
+        "label": "Quelles interactions entre le PMO et le chef de projet ?",
+        "href": "#quelles-interactions-entre-le-pmo-et-le-chef-de-projet"
+      },
+      {
+        "label": "Quels softs skills pour gérer sa relation avec le chef de projet ?",
+        "href": "#quels-softs-skills-pour-gerer-sa-relation-avec-le-chef-de-projet"
+      },
+      {
+        "label": "Conclusion",
+        "href": "#conclusion"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Le PMO dans une organisation exerce une fonction de structuration et d'assistance dans la réalisation des projets. Ses fonctions sont peu connues, rendant parfois compliquée la relation qu'il a avec le chef de projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette méconnaissance de l'importance du PMO amène des fois à se poser des questions sur son utilité, déjà que le chef de projet est présent."
+      },
+      {
+        "type": "paragraph",
+        "html": "Focus ici sur les responsabilités du chef de projet et du PMO, et les liens qui existent entre ces deux acteurs de la transformation d'une entreprise."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "qui-est-le-pmo",
+        "text": "Qui est le PMO ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'adoption des <a href=\"https://blog-gestion-de-projet.com/gestion-de-projet/outils-methodes-gestion-projet/\">méthodologies de gestion de projet</a> a mis en lumière le rôle de Project Management Office. Au sein de l'entreprise, le PMO est la structure ou la personne chargée de coordonner les différents projets pour qu'ils soient en adéquation avec la stratégie de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple, lorsqu'une organisation désire réduire son empreinte carbone, elle s'appuiera sur une personne ou une structure en interne qui s'assurera que tous les projets initiés ou dirigés par l'organisation seront en concordance avec les exigences du programme écologique. Dans ce cas, le PMO facilitera le partage des ressources, des outils, des méthodes et des techniques afin de faire aligner les projets sur cet objectif spécifique de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il existe plusieurs types de PMO qui ont des rôles et des responsabilités différents."
+      },
+      {
+        "type": "paragraph",
+        "html": "On peut retrouver dans une entreprise ou dans une organisation un EPMO. L'objectif de celui-ci est de faire aligner tous les programmes ou projets de l'entreprise avec les objectifs de ce dernier en mettant en place la bonne gouvernance. Dans l'exemple qu'on vient d'aborder, il a un rôle d'appui stratégique."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais on peut également retrouver un PMO au sein d'un département ou d'un portefeuille. Concrètement, un département comme la logistique ou les approvisionnements peut disposer en son sein d'un PMO qui apportera son soutien aux services du département. Il sera donc le vecteur de l'entreprise pour faire passer les objectifs de cette dernière dans les projets que le département gère."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, on peut retrouver le Project Management Office qui vient en soutien à l'équipe projet. Sur le projet, il accompagne directement le chef projet dans l'établissement de ses processus. C'est ainsi celui qui prend en charge la conformité des documents et process du projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "quel-est-le-role-du-pmo",
+        "text": "Quel est le rôle du PMO ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/etre-pmo-en-2023-les-mutations-dun-metier\">PMO</a> peut être positionné à divers niveaux hiérarchiques au sein de l'organisation. Pour autant, il dispose toujours d'une vision transversale des projets et des portefeuilles de l'entreprise ou de l'organisation et a une position stratégique en son sein."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le monde du travail, le rôle et les responsabilités du PMO sont peu vulgarisés. En conséquence, on perçoit mal l'utilité d'un PMO au sein de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "La mission du PMO est de garantir un alignement opérationnel et économique des projets avec les objectifs de l'entreprise ou de l'organisation. Il exerce une fonction de structuration et d'assistance dans la réalisation des différents projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sa position l'oblige aussi à coordonner les projets pour, s'il le faut, prioriser les uns sur les autres en accord avec les objectifs et les engagements présents et futurs de l'organisation. C'est également son devoir d'accompagner au mieux les équipes métiers pour qu'elles puissent satisfaire au mieux la vision de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, par sa fonction de diffusion de la bonne gouvernance à travers la méthodologie de gestion de projets, il devient le garant de la ventilation des règles, modèles de documents, manuels de procédures, processus, etc."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelles-differences-entre-chef-de-projet-et-pmo",
+        "text": "Quelles différences entre chef de projet et PMO ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'aurez peut-être déjà compris : là où le PMO gère l'ensemble de la chefferie de projet de l'entreprise (en étant responsable des processus et des méthodologies mises en place), le chef de projet se charge d'organiser les différentes phases d'un projet (ou de plusieurs projets) en particulier."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la plupart des entreprises, il n'existe pas de lien de hiérarchique entre chef de projet et PMO. Cependant, on demande souvent au PMO d'avoir une vision macro du travail des différents chefs de projets de l'organisation. Il doit superviser et contrôler le portefeuille projet, gérer les budgets, et allouer les différentes ressources nécessaires pour que chaque chef de projet puisse se focaliser sur les aspects opérationnels de son rôle."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-se-doter-dun-pmo-en-presence-dun-chef-de-projet",
+        "text": "Pourquoi se doter d'un PMO en présence d'un chef de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO est confronté à certains enjeux. L'un de ces enjeux est de parvenir à lever les obstacles et les oppositions qu'il rencontre en entreprise. Beaucoup sont persuadés que recruter un PMO alors que le chef de projet est déjà là est une dilapidation des ressources de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Or, dans une organisation, il faut une personne ou une structure capable d'avoir le recul nécessaire et la vue d'ensemble qu'il faut pour aligner les projets à la stratégie de l'organisation. De plus, le PMO est le garant de la bonne gouvernance. En ce sens, il ventile les processus validés qui pourront garantir à tout le monde le bon fonctionnement des projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO est aussi une plus-value dans la gestion de projet par sa capacité à apporter une meilleure maîtrise des délais et du budget. Il met ainsi en place des indicateurs clés de performance qu'il suit pour s'assurer de la bonne santé des projets. Parce qu'au niveau de l'organisation, selon les responsabilités qui lui sont attribuées, c'est lui le garant de la bonne marche des projets et de l'équilibre entre la qualité, les délais et les coûts."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien souvent, le chef de projet n'a pas la vue d'ensemble du PMO, c'est pour cela que ce dernier doit être présent. Qui d'autre mieux que lui pourra faire le suivi des changements internes (fusions, réorganisations, acquisitions, initiatives stratégiques,…) et le suivi des nouvelles opportunités afin de connaître les meilleurs outils et processus ? Qui est plus habilité que le PMO pour traiter les demandes externes au projet et découvrir les besoins de nouvelles compétences ou de nouveaux processus ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Par ailleurs, bien que le chef de projet soit présent, l'organisation peut décider d'établir un PMO. Plusieurs raisons peuvent être à la base de ce choix stratégique :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Changement de process et besoin d'accompagnement du changement,",
+          "Une nouvelle organisation interne,",
+          "Une nouvelle gouvernance axée sur une communication claire et des responsabilités bien définies,",
+          "Un établissement et une gestion du respect des normes,",
+          "Une charge de travail des chefs de projet assez élevée entraînant un besoin d'accompagnement et de structuration sur la gestion des projets,",
+          "Un examen et une gestion des risques,",
+          "Une mise en place de nouveaux outils, de reportings réguliers ou de plannings complexes."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé, les objectifs du PMO peuvent coïncider avec ceux d'un chef de projet. C'est notamment le cas lorsque les deux cherchent à bien mener les projets dans le respect des délais et des coûts impartis. C'est aussi le cas lorsqu'ils doivent remonter les KPI de suivi et le taux d'avancement ou encore leur obligation de respecter et d'intégrer les process."
+      },
+      {
+        "type": "paragraph",
+        "html": "Toutefois, là où le chef de projet cherchera à suivre l'atteinte des objectifs de manière concrète sur le terrain, le PMO devra s'assurer que les projets suivent bien la stratégie de l'entreprise. Il se donne un peu plus de recul et joue un rôle d'harmonisation. Cela lui permet d'être le coach des chefs de projets pour être à leur côté et les aider."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et cela marche puisqu'une récente étude menée en France a démontré qu'avec un PMO, les projets reviennent moins chers, sont mieux alignés sur la stratégie de l'entreprise, réussissent plus souvent et plus rapidement. D'un autre côté, les clients sont plus satisfaits par la productivité, la gouvernance et la communication."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour creuser le sujet, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo\">rendez-vous sur notre article \"Pourquoi mettre en place un PMO ?\"</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelles-interactions-entre-le-pmo-et-le-chef-de-projet",
+        "text": "Quelles interactions entre le PMO et le chef de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Entre le PMO et les différents chefs de projet, doit exister une communication claire et permanente. Le PMO est censé être le chef d'orchestre. Il œuvre donc en synergie avec les chefs de projet pour contrôler la cohérence des projets et accompagner les chefs de projet dans le bon déroulement des projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du PMO n'est pas figé et peut varier d'une structure à une autre. Aussi, les interactions peuvent légèrement varier selon le type de PMO dont dispose l'organisation. Cette dernière peut également décider de faire évoluer son PMO en fonction de ses besoins."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-mettre-en-place-un-pmo\">consultez nos bonnes pratiques sur comment mettre en place un PMO</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quels-softs-skills-pour-gerer-sa-relation-avec-le-chef-de-projet",
+        "text": "Quels softs skills pour gérer sa relation avec le chef de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au sein de l'organisation, le PMO a certaines responsabilités. C'est pour cela qu'un bon PMO doit développer certaines aptitudes bien précises afin de mener à bien sa mission :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Une communication claire et efficace : pour éviter les confusions et les perceptions erronées qui peuvent coûter cher au projet,",
+          "Une vision large : pour ne pas perdre de vue l'objectif du projet,",
+          "Une organisation systématique : pour pouvoir structurer les informations et rester efficace,",
+          "Une bonne maîtrise de soi : pour rester calme, prendre des décisions rationnelles sans se laisser submerger par les émotions ou les circonstances,",
+          "Un esprit critique : afin d'analyser objectivement les informations reçues et les faits reportés,",
+          "Une capacité à être factuel et à relever les incohérences à temps,",
+          "Une bonne diplomatie pour gérer les conflits et désamorcer les situations compliquées en tête-à-tête,",
+          "L'intuition : ce sixième sens permet d'être attentif et alerte face aux incohérences afin de prendre des décisions en se basant parfois sur son intime conviction,",
+          "Le courage : nécessaire pour faire des choix cornéliens ou recadrer les collaborateurs si nécessaire."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusion",
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est désormais acquis que le PMO a un grand rôle à jouer dans l'implémentation de la méthodologie de gestion de projets au sein des organisations. Sa coordination des projets avec la stratégie de l'organisation est capitale."
+      },
+      {
+        "type": "paragraph",
+        "html": "Même si ses fonctions sont encore peu connues si l'on effectue une petite comparaison avec les modèles anglo-saxons, la tendance va vers une généralisation du rôle du PMO dans les organisations."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela augure d'une meilleure efficacité des projets et d'une meilleure satisfaction de toutes les parties prenantes. Mieux, cela permettra d'améliorer les relations entre le PMO et les chefs de projet ; deux postes aux compétences techniques similaires, mais qui ne sont nullement en concurrence."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

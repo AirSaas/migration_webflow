@@ -1,0 +1,316 @@
+{
+  "type": "blog",
+  "slug": "comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment gérer l'agressivité dans les réunions de pilotage ?",
+      "h1": "Comment gérer l'agressivité dans les réunions de pilotage ?",
+      "description": "Comment réagir face à l'agressivité en comité de pilotage ? Découvrez 7 conseils pratiques pour gérer les comportements difficiles, recadrer sans s'embraser et préserver le climat de vos Copil.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "17/6/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "17/6/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ac094db1450036c1fb3e6a_copil-projet-agreessivite-min.jpg",
+        "alt": "Comment gérer l'agressivité dans les réunions de pilotage"
+      }
+    },
+    "toc": [
+      {
+        "label": "Repérer les types \"d'agression\" en réunion de pilotage : lesquelles sanctionner ou non ?",
+        "href": "#reperer-les-types-dagression-en-reunion-de-pilotage-lesquelles-sanctionner-ou-non"
+      },
+      {
+        "label": "7 conseils pour gérer l'agressivité dans les comités de pilotage",
+        "href": "#7-conseils-pour-gerer-lagressivite-dans-les-comites-de-pilotage"
+      },
+      {
+        "label": "Le mot de la fin : vigilance et prévention pour éviter tout excès d'agressivité",
+        "href": "#le-mot-de-la-fin-vigilance-et-prevention-pour-eviter-tout-exces-dagressivite"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "On a tous en tête un email violent, une personne qui fait peur aux autres membres de la réunion de pilotage. Celle qui ne laisse pas les autres finir leur idée, leur coupe la parole sans arrêt. Quelqu'un qui hausse la voix, crie, tape éventuellement du poing sur la table ou quitte le Copil en claquant la porte ! Et avouons-le : le contexte de pandémie et confinement n'a pas arrangé la situation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bienheureux ceux qui lors de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-animer-un-comite-de-pilotage\">l'animation d'un comité de pilotage</a> n'ont jamais été perturbés par un ou plusieurs membres. Agressifs, faux experts, adeptes du mutisme... Mais <strong>comment réagir face au manque de respect ?</strong> Y a-t-il des façons de recadrer une personnalité difficile ? Qui doit intervenir ? Comment agir et stopper habilement les comportements à risques avant qu'il ne soit trop tard ? Qu'est-ce que veut dire travailler sur le climat dans les comités de pilotage ? Enfin, comment évaluer ce qui est un comportement hors-jeu sanctionnable ? Ce qui ne l'est pas ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "En creux : comment gérer sa propre agressivité, pour garder son \"self-control\", son \"anger management\" ? On vous dit l'essentiel de ce qu'il faut connaître sur l'agressivité, on vous a préparé le kit de survie en milieu hostile. Vous repartirez avec une sélection des 7 astuces à mobiliser lorsque cela se produit."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet article fait partie d'un dossier <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases</a> qui reprend l'essentiel à savoir sur le comité de pilotage projet - des éléments simples et pragmatiques."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "reperer-les-types-dagression-en-reunion-de-pilotage-lesquelles-sanctionner-ou-non",
+        "text": "Repérer les types \"d'agression\" en réunion de pilotage : lesquelles sanctionner ou non ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Rappelons que l'agressivité est une réaction à une émotion de colère et/ou de frustration. Elle peut être une conséquence de la peur, du manque d'assurance, de l'envie, de la jalousie, du fait que l'on ne sache pas comment agir dans ce comité projet..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avant tout, la première chose à faire est de savoir identifier ce qui est du registre de la loi et ce qui ne l'est pas. Que ce soit en tant qu'animateur du processus de Copil, de chef de projet ou de participant, votre responsabilité est de savoir reconnaître ce qui est du domaine de l'acceptable, et ou du non négociable. Nul n'est censé ignorer la loi, même dans la gestion de projet !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "deux-stades-de-comportement-agressif-pour-deux-reactions",
+        "text": "Deux stades de comportement agressif pour deux réactions"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "L'agression \"<strong>hors la loi</strong>\" : je sanctionne !",
+          "L'agresseur <strong>irrespectueux, juste à la limite de la violence</strong> : je recadre et \"on\" re négocie les règles."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Premier cas : aucune question à se poser, on sanctionne.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une agressivité qui dépasse la limite. L'agression physique, l'agression verbale violente... L'objectif ici n'est pas de composer ou négocier. Mais bel et bien de mettre les gens en sécurité. En entreprise comme ailleurs aucune des parties-prenantes n'est censé ignorer la loi."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d085ca2ae5522f08c87248_62ac0853a465af801fa657af_agression-redflag-arisaas.jpeg",
+        "alt": "Red flag en cas d'agressivité hors cadre",
+        "caption": "Colère, frustration : rien ne justifie l'agressivité \"ouverte\" qui s'en prend aux personnes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur ce point, il est important de <strong>faire la différence entre des erreurs</strong>, une agressivité par exemple liée à un excès d'émotion, <strong>et des fautes</strong>. Par exemple un comportement \"volontaire\" qui met en \"danger\" l'intégrité d'un autre individu et le collectif. La réaction à adopter est avant tout d'arrêter le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\">comité de pilotage</a> si besoin. Pour protéger les personnes. Pour ensuite formaliser le conflit, factualiser, laisser une trace écrite de ce qui vient de se produire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici, votre responsabilité individuelle ou en tant que cadre est de ne pas fermer les yeux. L'organisation \"doit\" sanctionner un comportement. Montrer qu'il y a une conséquence, qu'il n'y a pas d'impunité. En un mot à faire preuve de courage managérial."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le second stade de comportement agressif, on retrouve le profil plus classique de <strong>l'agressif, impoli, irrespectueux qui exerce à la limite du carton rouge.</strong> Exemple : il hausse la voix, crie, se lève, lance une phrase à \"l'emporte-pièce\" pour attaquer personnellement certains membres de la réunion de pilotage, voire tout le Copil ! Il s'en prend aux personnes, pas à ce qu'elles font. Idem : <strong>ici un recadrage et une remédiation sur les règles sont à prévoir</strong>. En cas d'irrespect ou d'agression verbale, rappelez de manière ciblée les règles de discussion convenues pour les réunions de pilotage. Demandez aux participants de s'y tenir et d'éviter un comportement agressif pendant tout l'avancement du projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d085ca2ae5522f08c8724b_62ac0a4a136f69945f3ddd76_copil-tension-airsaaas.jpeg",
+        "alt": "agressivité dans les copil",
+        "caption": "Problème d'agressivité : réagissez."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans ce même type, on reconnaît moins facilement <strong>le passif agressif occasionnel.</strong> Celui qui ignore même qu'il est agressif. C'est un membre du Copil qui ne laisse pas les autres finir leur idée, leur coupe la parole sans arrêt. Quelqu'un qui réagit par des commentaires subjectifs, notamment par des attitudes et un langage non verbal explicite, voire des soupirs type \"Pff\"... Bref : un irrespect, une agressivité contenue, mais clairement présente. Nous verrons ci-dessous dans les 10 astuces comment réagir face à l'agressivité de ce type."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'emblée, s'il n'y avait qu'une chose à retenir : vous aurez à mener un recadrage individuel et une négociation collective sur les règles de base de votre réunion de pilotage collective."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "7-conseils-pour-gerer-lagressivite-dans-les-comites-de-pilotage",
+        "text": "7 conseils pour gérer l'agressivité dans les comités de pilotage"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "ignorer-empirer-prenez-le-comportement-agressif-au-serieux-et-ne-pas-le-minimiser",
+        "text": "Ignorer = empirer - Prenez le comportement agressif au sérieux et ne pas le minimiser"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>L'agressif est une personne qui attaque et cherche la confrontation.</strong> Il n'attend de vous qu'une seule chose : que vous répliquiez de manière agressive. Au contraire, gardez votre calme et laissez-le s'exprimer jusqu'à retrouver son propre calme et sa capacité d'écoute, sans quoi vous ne réussirez pas à vous faire entendre."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Empêchez l'interlocuteur irrespectueux de monopoliser le débat</strong>, favorisez l'esprit collectif, base du mode projet. Notez les opinions exprimées à l'aide de mots-clés par exemple. Montrez que vous prenez au sérieux l'opinion du membre du comité. Demandez-lui et à l'équipe de projet d'associer d'autres mots-clés afin de récapituler cette opinion."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>N'ignorez pas : au contraire, requestionnez son opinion</strong> : \"Comment parviens-tu à cette conclusion ?\" \"Pour quelle raison emploies-tu ce ton ?\". Recentrez ses interventions sur l'objet de la présentation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "maintenez-un-langage-non-verbal-decontracteet-refletez-lagressivite",
+        "text": "Maintenez un langage non verbal \"décontracté\" et reflétez l'agressivité"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Ne vous laissez pas emporter par vos émotions</strong>. Choisissez vos réactions. Une pratique basique : concentrez-vous pendant un instant en toute conscience sur votre respiration. L'œil lointain."
+      },
+      {
+        "type": "paragraph",
+        "html": "\"Ne paraissez jamais étonné\" serait un peu la règle d'or. Pensez au film <em>Itinéraire d'un enfant gâté</em> et à la scène culte où Jean-Paul Belmondo entraîne Richard Anconina à l'art oratoire. Plus facile à dire qu'à faire. Attention : l'idée est de rester vous-même, d'utiliser un langage non verbal décontracté et détaché. Entraînez-vous pour trouver votre \"poker face\", pas ce sourire crispé :-) ! C'est votre vrai sourire, l'humour qui va faire le travail."
+      },
+      {
+        "type": "paragraph",
+        "html": "Souvent les gens ne se rendent pas compte de leur agressivité. Une des astuces qui fonctionne : reprendre la même phrase que votre agresseur avec une autre intonation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "ne-vous-sentez-pas-oblige-de-repondre-a-toutes-les-agressions-verbales",
+        "text": "Ne vous sentez pas obligé de répondre à toutes les agressions verbales"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Utilisez le silence comme outil d'apaisement</strong>. Si vous souhaitez répondre, choisissez vos batailles pour contre-attaquer par surprise. Mieux vaut une riposte qui touche que cinq contre-attaques molles !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on vous coupe la parole, n'hésitez pas à répondre avec une phrase simple et calme. Du type \"Oui, j'aimerais beaucoup entendre ton avis là-dessus, et je termine ce que j'ai à dire pour te laisser réagir.\" Notez le \"Oui et\" à la place du \"Non, mais...\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la mesure du possible, <strong>n'en faites pas une affaire personnelle.</strong> Essayez même de vous désensibiliser, en général les agresseurs s'en prennent à tout le monde. Malgré les apparences vous n'êtes pas forcément visé !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "reagir-face-au-manque-de-respect-appuyez-sur-pause",
+        "text": "Réagir face au manque de respect : appuyez sur \"pause\""
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d085ca2ae5522f08c87250_62ea8cd54a841502f0c253da_exemple-irrespect.jpeg",
+        "alt": "Photo Gérald Darmanin Apolline de Malherbe",
+        "caption": "L'exemple emblématique d'un \"clash\" entre le ministre de l'intérieur et une journaliste"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez peut être vu passer cet échange où, confronté aux derniers chiffres de l'insécurité, le ministre de l'Intérieur Gérald Darmanin a jugé l'analyse de la journaliste \"un peu populiste\" et n'a pas hésité à la prendre de haut. \"Est-ce que vous me laissez parler, madame ? Votre présentation est très rapide et un peu populiste. (...) Non mais ne vous vexez pas, calmez-vous, madame, ça va bien se passer\", lance-t-il alors sur un ton condescendant."
+      },
+      {
+        "type": "paragraph",
+        "html": "\"Je vous demande pardon ?\", réagit Apolline de Malherbe, outrée. \"Ça va bien se passer\", répète Gérald Darmanin. La journaliste reprend et souligne \"Gérald Darmanin, attendez, comment vous me parlez ?\" s'indigne-t-elle. \"Je trouve ça sidérant votre manière de répondre. Ce n'est pas une réponse, c'est presque une offense\", souligne-t-elle. \"Ne vous vexez pas, je réponds comme vous m'agressez\", tente de répliquer le ministre."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au moment où l'interview sort du cadre habituel de la joute oratoire pour devenir une attaque irrespectueuse, la réaction de la journaliste est un modèle du genre. Elle met ses bras en croix en disant tout simplement \"Pause on arrête de jouer\" sur un ton calme et déterminé. En esquivant une question de fond, l'interlocuteur a créé une seconde polémique."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un rappel : ce n'est jamais une bonne idée de dire à quelqu'un : \"calme-toi\". En conduite de projet, en gouvernance, ou dans la vie de tous les jours !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "art-du-feedback-cnv-soyez-au-niveau-sur-les-fondamentaux-de-la-communication",
+        "text": "Art du feedback, CNV : soyez au niveau sur les fondamentaux de la communication"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mieux vaut prévenir que guérir. N'hésitez pas à effectuer une piqûre de rappel bien utile des trois méthodes de communication bienveillante / non violentes (OSCAR, DESC et OSBD) pour transformer vos messages difficiles en feedbacks constructifs et efficaces ! Y compris dans un email."
+      },
+      {
+        "type": "paragraph",
+        "html": "Une image vaut mille mots. Pour cette remise à niveau, rien de mieux que le <em>Sketchnote</em> (magistral) créé par Maxence Walbrou, coach, facilitateur et illustrateur."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d085ca2ae5522f08c87254_62ea8d33891af0954c51eb7d_feedback-bloculus.jpeg",
+        "alt": "Illustration Maxence Walbrou",
+        "caption": "Source illustration Maxence Walbrou - Blog bloculus.com article \"Sauvez des vies faites des feedbacks\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "travaillez-sur-le-climat-avant-pendant-et-apres-les-reunions-de-pilotage",
+        "text": "Travaillez sur le climat avant, pendant et après les réunions de pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d085ca2ae5522f08c87257_62ac0b5088d4191c9d445bcf_copli-regulation-airsaas.jpeg",
+        "alt": "Travail sur le climat"
+      },
+      {
+        "type": "paragraph",
+        "html": "En cas de signaux faibles d'agressivité à répétition, le travail de prévention peut encore être réalisé. Il peut s'agir par exemple de <strong>se mettre d'accord sur des règles de fonctionnement</strong> - sorte de \"code d'honneur\" collectif avant les comités. On négocie ensemble les règles relatives à la communication, l'écoute active, l'usage des smartphones, l'emploi du \"Je\" versus le \"On\". Et encore, à limiter le \"tu qui tue\". Bref : on négocie et on en parle des besoins de chacun."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous pouvez aussi décider d'alléger le portefeuille projet ! Définissez clairement ce qui est vital et concentrez la réunion de pilotage dessus - de toute façon vous n'aurez pas le temps de faire autre chose."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Un des secrets est de respecter les temps d'inclusion.</strong> Ces moments type \"ice breaker\", ou météo personnelle, sont là pour créer un climat propice aux échanges constructifs, pour libérer la parole. Ne faites pas l'impasse sur ces moments plus légers. Alterner temps forts et temps morts est une bonne façon de faire baisser la (sur-)tension inutile ; et éviter toute violence."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Enfin sachez interrompre un Copil avant que la colère ne l'emporte !</strong> Si les émotions ne redescendent toujours pas, interrompez la réunion de pilotage. Faites une pause de dix minutes qui permettra à chacun de se calmer. Profitez de la pause pour prendre le collaborateur en tête à tête et pour discuter au calme de son comportement agressif."
+      },
+      {
+        "type": "paragraph",
+        "html": "À froid, après le Copil, n'hésitez pas à revenir vers le membre qui a eu un comportement agressif pour prendre un rendez-vous informel afin d'entendre ce qui n'a pas été dit."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "savoir-demander-de-laide-quand-lagressivite-est-devenue-ingerable-dans-le-projet",
+        "text": "Savoir demander de l'aide quand l'agressivité est devenue ingérable dans le projet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d085ca2ae5522f08c87244_62ac0bfaa1fafbde9f0e15ca_help-airsaas-copil-projet.jpeg",
+        "alt": "Touche HELP en copil",
+        "caption": "Face à des situations dysfonctionnelles, signalez et transmettez la gestion à des experts"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous n'êtes pas seuls ! <strong>Un signalement très factuel est à transmettre par écrit auprès de votre hiérarchie</strong> et des Ressources Humaines. Plusieurs solutions sont envisageables collectivement si la situation a dégénéré. Récemment par exemple une médiation a été menée au sein d'une DSI ou avait lieu une croissance forte et une fusion / réorganisation interminable. Ces contextes cumulés généraient de grandes difficultés et une violence ouverte dans les échanges."
+      },
+      {
+        "type": "paragraph",
+        "html": "Autre exemple de solution possible : un travail de baromètre social peut utilement être mené. Mais n'oubliez pas que la prévention des risques psychosociaux est un métier !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-pilotage-projet\">consultez nos 5 astuces pour que tout se passe bien en comité de pilotage projet</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-mot-de-la-fin-vigilance-et-prevention-pour-eviter-tout-exces-dagressivite",
+        "text": "Le mot de la fin : vigilance et prévention pour éviter tout excès d'agressivité"
+      },
+      {
+        "type": "paragraph",
+        "html": "En management de projet comme dans toute chose, c'est l'excès qui est toxique. Un peu d'agressivité est tolérable. Il ne faut pas dramatiser. Il faut le souligner également : quand c'est passionnel, cela veut également dire qu'il y a de l'engagement ! <strong>Savoir opposer ses désaccords, même vertement, peut parfois être très bénéfique.</strong> Restons simplement vigilants sur les comportements excessifs et intraitables sur toute violence illégale."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez lu les 7 astuces pour décrypter et parer plus sereinement les éventuels futurs comportements agressifs en réunion de pilotage. Le décryptage et le déminage de comportements limites vous ont intéressé ? Poursuivez sur le thème de la prévention avec la lecture de l'article <a href=\"/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage\">Comment bien préparer un comité de pilotage ?</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

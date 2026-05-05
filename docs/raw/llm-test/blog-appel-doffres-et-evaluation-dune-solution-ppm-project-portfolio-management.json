@@ -1,0 +1,389 @@
+{
+  "type": "blog",
+  "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Appel d'offres et évaluation d'une solution PPM (Project Portfolio Management)",
+      "h1": "Appel d'offres et évaluation d'une solution PPM (Project Portfolio Management)",
+      "description": "Réussir un appel d'offres PPM : 7 idées reçues à combattre et une grille de lecture Personnes / Processus / Outils pour choisir la bonne solution.",
+      "publishedDate": "17/6/2024",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "17/6/2024",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/667035cc119301d2f3a9ef4b_PPM-min%20(1).jpg",
+        "alt": "Appel d'offres et évaluation d'une solution PPM"
+      }
+    },
+    "toc": [
+      {
+        "label": "L'essentiel en quelques mots…",
+        "href": "#lessentiel-en-quelques-mots"
+      },
+      {
+        "label": "Sept idées reçues 💡 à combattre pour réussir vos appels d'offre",
+        "href": "#sept-idees-recues-a-combattre-pour-reussir-vos-appels-doffre"
+      },
+      {
+        "label": "Conclusions",
+        "href": "#conclusions"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "lessentiel-en-quelques-mots",
+        "text": "L'essentiel en quelques mots…"
+      },
+      {
+        "type": "paragraph",
+        "html": "Imaginez-vous un instant à la place des éditeurs de solutions PPM lorsqu'ils reçoivent un nouvel appel d'offres. Souvent, ces documents sont génériques, remplis de \"copier-coller\" de consultants, et basés sur d'anciennes consultations à peine modifiées. Ils contiennent presque toujours une longue liste de critères à la Prévert, classant dans Excel les fonctionnalités du \"must-have\" au \"nice-to-have\". C'est souvent le début de l'échec."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour un éditeur engagé, répondre à un appel d'offres signifie répondre à une liste de fonctionnalités où, généralement, la démarche n'est pas clairement définie, voire mal conçue. Bien que les fonctionnalités techniques soient importantes, elles ne doivent pas éclipser d'autres aspects cruciaux tels que la maturité des processus actuels, l'implication du top management, la convivialité de la solution, la force de sa communauté, le support client, la scalabilité et l'intégration avec d'autres outils existants. <strong>Une solution théoriquement techniquement parfaite mais difficile à utiliser ou mal soutenue peut rapidement devenir un fardeau et ne pas être adoptée.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu n'est donc pas seulement de remplir une feuille de score fonctionnelle, mais de <strong>se projeter dans un autre paradigme</strong>. Il s'agit de challenger la maturité actuelle de l'organisation et ses acteurs sur les usages liés à la gouvernance de projet. Où en sont-ils actuellement en termes de maturité pour chaque processus abordé et où veulent-ils aller ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "En un mot, il s'agit d'adopter une nouvelle perspective pour ce projet, non seulement en termes de logiciel, mais en tant que projet socio-technique orienté sur les usages. Cette vision globale est ce que nous vous proposons de développer dans l'article ci-dessous. Notre objectif est de <strong>partager nos convictions</strong> pour vous aider à créer votre propre vue \"3D\" d'un appel d'offres PPM, avec une grille de lecture orientée sur les Personnes, les Processus et les Outils (PPT). Et vraiment réussir la modernisation de votre gouvernance de projet !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/667009264793e37bd0d59984_people-process-tool-airsaas.jpg",
+        "alt": "People + Process + Tools",
+        "caption": "People + Process + Tools"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bonne nouvelle, vous êtes au bon endroit pour percevoir non seulement la lettre mais aussi l'esprit de ces démarches et outils. Après un bref rappel des fondamentaux académiques du processus d'appel d'offres, nous déboulonnerons sept grandes idées reçues. Ensuite, pour ne rien oublier, nous détaillerons les neuf étapes d'un appel d'offres, avec pour chacune un résumé des objectifs clés et des moyens à mobiliser."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bonne lecture 👍"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "sept-idees-recues-a-combattre-pour-reussir-vos-appels-doffre",
+        "text": "Sept idées reçues 💡 à combattre pour réussir vos appels d'offre"
+      },
+      {
+        "type": "paragraph",
+        "html": "Fort d'une centaine d'implémentations PPM et de notre participation à de nombreux appels d'offres nous avons eu envie de partager notre vision de cette démarche en listant les sept grandes idées reçues auxquelles nous nous sommes parfois confrontés. On a écrit cet article pour pouvoir le transmettre à nos interlocuteurs du prochain appel d'offre PPM ! (pourquoi pas vous !)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Disclaimer : bien sûr nous ne prétendons pas détenir une vérité absolue ! juste nous sommes passionnés par ce que nous entreprenons avec et pour nos clients et travaillons depuis près de cinq ans sur ces questions !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "idee-recue-n1-on-est-dans-la-selection-dun-outil-versus-la-construction-dune-demarche",
+        "text": "❌ Idée reçue n°1 : On est dans la sélection d'un outil, versus la construction d'une démarche"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong><em>Réalité : Un PPM moderne n'est pas une sorte \"d'ERP Projet\" de la DSI… Non ! ici on parle de gouvernance et de transfo. (efficace) de toute votre organisation !</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Historiquement, c'est vrai le PPM était un outil centralisant l'ensemble des données projet dans une optique plus ERP projet. On était plutôt sur des outils très peu collaboratifs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Or, vous l'avez constaté, il y a de plus en plus de projets et ces projets sont reliés à la transformation de l'organisation au travail cross silos (horizontaux et verticaux). Oui et on s'aperçoit qu'il y a besoin d'avoir plus de collaboratif et d'engagement de la part du top management."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Un changement de paradigme est nécessaire ! L'implication du top management est la brique fondamentale du futur projet d'implémentation.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Car derrière le mot PPM on va surtout s'intéresser à la gouvernance projet de votre organisation, à la façon dont votre top management va embarquer (ou pas) dans une autre culture !"
+      },
+      {
+        "type": "paragraph",
+        "html": "On va s'intéresser à la façon dont vos utilisateurs pourront visualiser en un clin d'œil toutes les informations-clés dans une seule plateforme collaborative, à la façon de faciliter la prise de décision, et gagner du temps sur les reportings."
+      },
+      {
+        "type": "paragraph",
+        "html": "Gardons ça vraiment en tête tout au long du processus, quels sont les nouveaux usages clés qui feront évoluer la gouvernance projet, et comment faire en sorte de soutenir l'adoption de ces nouvelles habitudes, et ce en continu !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour chaque persona, quels sont leurs niveaux de maturité par rapport au processus qu'on veut mettre en place ? Ensuite, on s'intéresse à la façon dont l'outil va pouvoir soutenir la progression de ce process vers des taux d'adoption qu'on vise sur chacun des process."
+      },
+      {
+        "type": "quote",
+        "text": "Généralement les outils sont silotés, verticalisés pour ceux qui faisaient de la gestion de projet. Là, c'est très différent d'avoir pensé tout de suite à son ouverture vers la DG et les directions métiers pour embarquer d'autres services à utiliser cet outil !",
+        "author": "Cyril Mallet — utilisateur AirSaas, DSI adjoint Chambre des Notaires de Paris"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>L'implication du top management est bien la brique fondamentale de la capacité à prioriser, mais aussi à suivre, à décider, à communiquer, à dérisquer les projets… et tout ça, en continu !</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "idee-recue-n2-tous-les-processus-lies-au-ppm-sont-au-meme-niveau-de-maturite-dans-lorganisation",
+        "text": "❌ Idée reçue n°2 : tous les processus liés au PPM sont au même niveau de maturité dans l'organisation"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong><em>Réalité : Non, le niveau (réel) de maturité de chaque processus doit être pris en compte avant de vous lancer et ce pour chaque \"persona\". La question centrale, c'est bien la montée en charge des personnes et de challenger les process actuels à cette occasion.</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous connaissez sans doute ce grand principe informatique du GIGO (\"garbage in Garbage Out\") ? L'idée selon laquelle des données d'entrée défectueuses ou absurdes produisent des sorties absurdes ou « déchets »."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le principe s'applique également avec un appel d'offres PPM. Si vous implémentez une solution sur un processus à maturité faible. En ce sens que les nouveaux usages attendus en gouvernance ne seront pas au rendez-vous si leurs prémisses sont déjà erronées !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Essayez de fournir une formule 1 à un apprenti conducteur en conduite accompagnée … ça peut marcher … mais ça peut aussi le déstabiliser s'il n'y a pas un accompagnement spécifique !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui tous vos processus ne sont pas, \"iso\" ni, à conserver tel quel. L'appel d'offre est aussi l'occasion de mettre à jour votre modèle organisationnel cible. (Target Operating Model)."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>En résumé : Il peut donc être intéressant pour chaque persona ciblé, d'identifier lister les processus clés et leur niveau de maturité actuelle / cible. Établir une sorte de pyramide de maturité de l'organisation dans sa gouvernance projet.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est un peu l'histoire de l'œuf et la poule. Si on est sur un processus moins mature, l'outil va certes aider à structurer mais ce ne sera pas le même besoin de solution et d'accompagnement."
+      },
+      {
+        "type": "paragraph",
+        "html": "En prime, si le couple persona / process n'est pas au top de maturité. Il faut aussi, à notre sens, accepter que l'outil va être apprenant des deux côtés."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>On veut regarder le taux d'adoption par process et par persona pour mieux évaluer le ROI et réussir une transformation durable de la gouvernance.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "idee-recue-n3-les-solutions-tout-en-un-sont-toujours-preferables",
+        "text": "❌ Idée reçue n°3 : Les solutions tout-en-un sont toujours préférables"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong><em>Réalité : Aucun outil ne répondra à votre liste au père noël des feature ! L'enjeu clé c'est que votre PPM reste connecté à l'écosystème des meilleurs outils du marché.</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une solution intégrée peut sembler idéale, mais elle peut également être trop complexe ou rigide pour répondre efficacement à des besoins spécifiques. Parfois, une combinaison de plusieurs outils spécialisés peut offrir une flexibilité et une adaptabilité supérieures."
+      },
+      {
+        "type": "paragraph",
+        "html": "Gestion du temps, des ressources, de la demande, du portefeuille, gestion de projet et de programme, gestion financière… pour chacun de ces sept grands blocs d'usages, si on se lance dans la liste de toutes les fonctionnalités à analyser pour couvrir l'ensemble des besoins des personnes, on y sera encore dans trois mois ! Et surtout aucun outil ne pourra satisfaire tous les métiers."
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui on assume de vous dire que ce n'est pas la peine de rédiger un cahier des charges détaillé de 100 pages et de préparer une scoring card excel de must / nice to have comparant X critères pondérés et (sur) rationalisés."
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'heure des API ce n'est plus l'enjeu majeur. Si la gestion de projet sous JIRA Asana ou Wrike fonctionne… laissez la fonctionner, et connectez-y votre solution de PPM transverse."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/667131f8804b8af932b5126b_Illustration%20AirSaas%20-%20aLL%202-min.png",
+        "alt": "Outil PPM - appel d'offre",
+        "caption": "PPM connecté à l'écosystème des applications utilisées dans votre contexte"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un monde où les outils se multiplient, il est essentiel de ne pas avoir à ressaisir l'information d'un outil à l'autre. AirSaas se connecte à vos outils de communication, de finance, de développement, pour simplifier le quotidien de tout le monde dans l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Certains PPM un peu comme les ERP ambitionnent de répondre à tous les besoins des orgas sur un seul et même logiciel. Bon nombre d'entre eux sont efficaces, mais le manque de flexibilité d'une telle solution une fois implémentée oblige à prendre le temps de s'interroger avant de faire son choix."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6670346633e942a59f88fc72_ppmallinone.jpg",
+        "alt": "PPM all in one",
+        "caption": "PPM \"All in One\" :-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Choisir une stratégie d'outil intégré plutôt que \"tout en un\" facilitera votre appel d'offre PPM</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "idee-recue-n-4-il-faut-commencer-par-un-appel-doffres",
+        "text": "❌ Idée reçue n°4 : Il faut commencer par un Appel d'offres"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong><em>Réalité : Non, pas forcément, par exemple chez AirSaas, on n'aime pas toujours travailler sur un appel d'offre initial. Pourquoi ? Parce que appel d'offre dit gros, gros déploiement, gros projet… On propose souvent à nos clients une première phase de POC de la démarche et de test de l'outil pendant 6 mois à un an.</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Concrètement au lieu d'allonger la phase d'étude RFI puis RFP… le budget temps des internes et des consultants est utilisé pour passer à l'action. On propose un premier workshop avec une centaine de questions pour évaluer la maturité de l'organisation actuelle."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un atelier avec vous, nous et avec des membres sélectionnés au sein de la communauté Pro de la Transfo d'AirSaas (des DSI, PMO, Directeurs Transfos, ancien DG, etc.) Bref des gens qui sont déjà passés par là et qui connaissent les problématiques et solutions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un second workshop, on vous restitue les constats. Avec chacun des constats, c'est des problèmes. Il y avait des tactiques organisationnelles qui sont plus ou moins proches de AirSaas. Il y en a certaines, c'est très bon, il y en a certaines autres qui sont très près."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ensuite, dans le troisième workshop, on va définir un manifeste projet organisationnel. C'est quoi votre lexique commun ? Déjà, je suis certain que le mot projet, le mot programme, le mot jalon n'ont même pas des définitions communes au sein de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>À l'issue de ces trois ateliers, on sera collectivement en mesure de se projeter vers une démarche réaliste au vu du contexte et de la maturité de l'organisation et de ses collaborateurs sur les grands process soutenus par l'outil compagnon.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans cette démarche la data sur laquelle vous allez vous reposer va être fausse en continu. Vos données stratégiques, vous les préférez relativement justes ou précisément fausses ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "idee-recue-n-5-un-outil-ppm-cest-magique",
+        "text": "❌ Idée reçue n°5 : Un outil PPM c'est magique !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong><em>Réalité : il est fondamental d'être plus ambitieux sur l'adhésion à la démarche d'animation autour de l'outil et aussi de tenir compte de l'importance de la communauté derrière l'outil.</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avez-vous déjà entendu la phrase \"on est très agile, on utilise des post-its\" ? C'est pareil pour la gouvernance projet… il ne suffit pas de brancher une solution de gouvernance aussi idéale soit-elle pour se transformer !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on devait chiffrer (ok c'est subjectif) nous dirions que l'outil représentera seulement un tiers de la solution aux problématiques adressées par votre organisation !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui, outre l'outil, la communauté autour de l'éditeur est un gage de future adoption."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et, néanmoins la réussite de l'implémentation d'une autre culture projet passe aussi pour un autre tiers par le management et les sponsors à qui on va demander de s'impliquer en continu. De changer d'habitude et de rituels."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le dernier tiers est bien sûr celui de vos utilisateurs clés, notamment des chefs de projets dans toutes les directions concernées, qui verront dans l'outil non pas un truc de reporting en plus mais un support réel pour diminuer le nombre de réunions, limiter les ressaisies d'infos, accélérer les prises de décision, garder une transparence totale sur les priorités des projets, et dire adieu au micro-management."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "idee-recue-n6-la-phase-de-mise-en-oeuvre-nest-pas-une-priorite-lors-de-la-selection",
+        "text": "❌ Idée reçue n°6 : La phase de mise en œuvre n'est pas une priorité lors de la sélection"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong><em>Réalité : La complexité de la mise en œuvre d'une solution PPM est souvent sous-estimée. Une solution facile à déployer et à adopter par les équipes peut faire toute la différence. L'implication des parties prenantes dès le début du processus est également fondamentale.</em></strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si l'interface utilisateur est complexe et non intuitive, si elle nécessite des formations intensives pour que les employés puissent l'utiliser efficacement. La courbe d'apprentissage élevée découragera l'adoption généralisée, et la plupart des fonctionnalités avancées resteront inutilisées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour optimiser vos chances de réussite plutôt qu'un \"ERP Projet\", choisissez la simplicité. AirSaas propose un outil PPM nouvelle génération et simple."
+      },
+      {
+        "type": "paragraph",
+        "html": "Simple, parce qu'utilisable par tous. Simple, parce que doté d'une interface ergonomique et intuitive, et simple parce que sa prise en main se fera dès le premier jour."
+      },
+      {
+        "type": "quote",
+        "text": "Si c'est plus compliqué qu'instagram, on a perdu.",
+        "author": "Simon — CPO cofondateur d'AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Oui, un outil PPM n'est pas forcément complexe et coûteux à implémenter. Une solution facile à déployer et à adopter par les équipes peut faire toute la différence. L'implication des parties prenantes dès le début du processus est également fondamentale.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusions",
+        "text": "Conclusions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PPM ne doit pas simplement vous aider à mieux piloter vos projets, il doit permettre d'apporter plus de valeur à l'entreprise. AirSaas vous permet par exemple de suivre les indicateurs essentiels et mesurer le retour sur investissement de vos actions."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est parce qu'il a été conçu avec une communauté de Pro de la Transfo que cette orientation sur la valeur est au cœur de la solution AirSaas !"
+      },
+      {
+        "type": "paragraph",
+        "html": "En remettant en question cette idée reçue, les organisations peuvent adopter une approche plus nuancée et éclairée lors de la sélection de solutions PPM, en se concentrant sur la valeur réelle et l'alignement stratégique."
+      },
+      {
+        "type": "paragraph",
+        "html": "En combattant ces idées reçues, <strong>les organisations peuvent donc améliorer considérablement leurs chances de succès dans l'évaluation et la sélection de solutions PPM.</strong> Un processus d'appel d'offres bien conçu, basé sur des critères objectifs et des évaluations pratiques, est essentiel pour choisir une solution qui non seulement répond aux besoins actuels mais aussi s'adapte aux évolutions futures de l'organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce changement de paradigme reposera donc sur <strong>cinq principes forts</strong> :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>La connaissance des processus clés des personas</strong> ET de leur <strong>niveau de maturité</strong> actuelle / cible",
+          "Le <strong>test de l'outil en situation</strong> avec des vraies données pendant quelques mois.",
+          "La mise en place d'<strong>un accompagnement de la Transfo. avec un Pro</strong> de la Transfo Software with a Service (#SWAS).",
+          "<strong>L'implication continue du top management</strong> dans cette démarche.",
+          "Se <strong>concentrer sur l'impact</strong> et la valeur !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Vous l'avez compris, il n'existe pas de solution PPM parfaite. Chaque outil a ses forces et ses faiblesses. Plutôt que de transmettre un doc excel froid, l'important est de sentir celui qui va \"matcher\" celui qui va s'aligner le mieux avec vos processus, votre culture d'entreprise et vos objectifs stratégiques.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "La suite sur notre page dédiée à <a href=\"/fr/solution/outil-ppm\">l'outil PPM nouvelle génération - Logiciel ppm</a>"
+      },
+      {
+        "type": "inline-cta",
+        "label": "Réserver une démo",
+        "href": "/fr/meetings-pages"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "type": "blog",
+  "slug": "comment-animer-un-bilan-projet-efficace",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment animer un bilan projet efficace",
+      "h1": "Comment animer un bilan projet efficace",
+      "description": "Bilan de projet, clôture, rétrospective : pourquoi, comment et avec qui animer un bilan projet efficace ? Méthodes, formats-types et bonnes pratiques.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "20/4/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "20/4/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37a042a9d959fb9575d1d_bilan-de-projet-min.jpg",
+        "alt": "Bilan de projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un bilan projet ?",
+        "href": "#quest-ce-quun-bilan-projet"
+      },
+      {
+        "label": "Pourquoi faire un bilan projet ?",
+        "href": "#pourquoi-faire-un-bilan-projet"
+      },
+      {
+        "label": "Que doit inclure un bilan de projet ?",
+        "href": "#que-doit-inclure-un-bilan-de-projet"
+      },
+      {
+        "label": "Comment organiser un bilan de projet ?",
+        "href": "#comment-organiser-un-bilan-de-projet"
+      },
+      {
+        "label": "Qui inviter au bilan ?",
+        "href": "#qui-inviter-au-bilan"
+      },
+      {
+        "label": "Les 7 habitudes des bilans projets efficaces",
+        "href": "#les-7-habitudes-des-bilans-projets-efficaces"
+      },
+      {
+        "label": "Quelles méthodes de bilan de projet dans le bâtiment, ou chez les militaires ?",
+        "href": "#quelles-methodes-de-bilan-de-projet-dans-le-batiment-ou-chez-les-militaires"
+      },
+      {
+        "label": "5 formats-types de bilan de projet",
+        "href": "#5-formats-types-de-bilan-deprojet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "En <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> on parle de bilan de projet, clôture, retrospective, débriefing, amélioration continue... appelez-le comme vous voulez. L'idée c'est de s'arrêter ! S'arrêter de produire, pour réfléchir. Réfléchir avant d'agir à nouveau. Un rituel, avec à la clé un enjeu majeur : s'améliorer collectivement ! Mais au delà des intentions, 99% des DSI nous disent qu'au final, ils n'ont jamais le temps de faire leur bilan de projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "A l'image du kick-off, <strong>le bilan projet est un \"<em>must</em>\"</strong>. Traduisez : à partir d'une certaine taille d'entreprise, il s'agit d'un passage obligé dans la <a href=\"https://www.airsaas.io/fr/gestion-de-projet/gestion-portefeuille-projets-vs-gestion-de-projet\">gestion de portefeuille projet</a>. Si on veut faire chic, on peut dire que c'est une activité \"méta\" à haute valeur ajoutée dans la culture de votre organisation \"apprenante\". Si on veut appeler un chat un chat, il s'agit d'un investissement qui vaut le coup !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais alors qu'est-ce qu'un bilan projet ? Que doit-il inclure ? Pourquoi le réaliser ? Comment le réaliser efficacement ? Quelles sont les nouvelles tendances ? Et enfin : quelles sont les trames-types que vous pouvez utiliser ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "On fait le bilan du bilan : c'est parti !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-quun-bilan-projet",
+        "text": "Qu'est-ce qu'un bilan projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le dictionnaire, la définition du mot bilan est la suivante : Bilan (de l'italien <em>bilancio</em>, balance) signifie « état de l'actif et du passif d'une entreprise » et, par extension, somme des aspects positifs et négatifs de quelque chose, résultat global."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c187768_624aece1459ce8e503a3444d_capture-AirSaas.png",
+        "alt": "Illustration phases projet",
+        "caption": "Vous êtes ici ! Le bilan a autant d'importance que le cadrage et l'exécution d'un projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans <a href=\"https://www.skills4all.com/pmbok-quest-ce-que-la-methodologie-pmbok/\"><strong>le \"PMBok</strong>®</a>, <strong>\"</strong>l'Ancien Testament du chef de projet\", le processus de bilan est baptisé \"clôture\". Il a la même importance que les phases d'initialisation, de planification, d'exécution, de suivi et de contrôle. A ceci près qu'il s'agit de \"la fin du geste\". Et donc, de la fin du lien contractuel entre les parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette phase contient : \"La réception de l'approbation du client, l'archivage des documents, la clôture des contrats, l'évaluation des enseignements tirés et la récompense des performances font tous partie du processus de clôture.\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Un bilan de projet vise donc à faire le point pour aboutir à des propositions d'améliorations pour chacun des aspects du projet à prendre en compte pour les prochains \"chantiers\". On cherche bien sûr à identifier ce qui a donné de bons résultats et, ce qui en a donné de moins bons<strong>.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Responsable de projets digitaux, vous le savez : les études nous rappellent que les 3/4 des projets n'atteignent pas leurs objectifs (1) !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-faire-un-bilan-projet",
+        "text": "Pourquoi faire un bilan projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "La fin d'un projet est le bon moment pour :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ancrer des apprentissages forts",
+          "Libérer la parole",
+          "S'évaluer individuellement et collectivement",
+          "Célébrer et remercier les parties prenantes",
+          "Analyser",
+          "S'améliorer",
+          "Mettre à jour la documentation.",
+          "Transmettre les clés du <a href=\"https://www.airsaas.io/gestion-de-projet/le-pilotage-de-projet-en-2023\">pilotage</a> à une autre équipe en charge de l'exploitation",
+          "Se reposer !",
+          "Construire l'\"esprit d'équipe\""
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "La fin d'un projet n'est pas le bon moment pour :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Régler ses comptes - vous n'êtes pas au tribunal !",
+          "Créer un sous-projet dans le projet",
+          "Se taire"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "🚫Attention : sont souvent confondus le bilan projet et la <a href=\"https://www.airsaas.io/gestion-de-projet/la-revue-de-projet\">revue de projet</a> ! Les revues de projet ont lieu à chaque fin de phase majeure et sont souvent planifiées dès le début du projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-5-mauvaises-raisons-pour-lesquelles-les-gens-ne-font-pas-de-bilan-projet",
+        "text": "Les 5 (mauvaises) raisons pour lesquelles les gens ne font pas de bilan projet"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "raison-1-je-nai-pas-le-temps",
+        "text": "Raison 1 : Je n'ai pas le temps"
+      },
+      {
+        "type": "paragraph",
+        "html": "Non : \"je ne veux pas prendre le temps\", ce n'est pas pareil."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "raison-2-lequipe-est-en-conflit-larve",
+        "text": "Raison 2 : L'équipe est en conflit larvé"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui - et c'est pour ça, dans la mesure du possible, qu'il faut libérer la parole. C'est dans ces moments-là que se construit l'esprit d'équipe."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "raison-3-le-projet-plus-personne-ne-veut-en-entendre-parler-cest-un-flop",
+        "text": "Raison 3 : Le projet plus personne ne veut en entendre parler, c'est un flop"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous voulez poursuivre dans cette direction et enchainer les flops... ne changez rien !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "raison-4-je-nai-pas-de-budget",
+        "text": "Raison 4 : Je n'ai pas de budget"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment ça ? Vous avez un projet de transformation stratégique et vous n'avez pas de budget prévisionnel ?"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "raison-5-ca-ne-sert-a-rien",
+        "text": "Raison 5 : Ça ne sert à rien"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on a fait des débriefs en continu, ça ne sert en effet peut être à rien à chaud. Mais si l'on veut faire le bilan de la valeur à moyen terme, c'est une autre vision du projet qui se dévoile."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "que-doit-inclure-un-bilan-de-projet",
+        "text": "Que doit inclure un bilan de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le contenu type d'un bilan projet \"classique\" est le suivant :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le projet a-t-il atteint ses objectifs</strong> ? Respect des coûts, des délais, du périmètre, de la qualité...",
+          "Le <strong>déroulement</strong> du projet",
+          "La <strong>coordination</strong> des équipes",
+          "La <strong>satisfaction</strong> du client",
+          "Le <strong>retour d'expérience</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Traditionnellement, les DSI se concentrent sur ce premier axe. 🚫 Erreur !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment améliorer ce processus en tenant compte de l'évolution du rôle de la DSI, devenu partenaire business stratégique à part entière ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "comment-innover-sur-le-bilan-de-projet-revue-des-nouvelles-tendances",
+        "text": "Comment innover sur le bilan de projet ? Revue des nouvelles tendances"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec l'accélération digitale et la globalisation de la culture agile et l'évolution de la place du DSI au sein des organisations, des nouvelles pratiques sont apparues. Les méthodes et le rituel de bilan aussi s'est transformé ! Revue de quelques exemples issus de constats terrains et interviews de DSI."
+      },
+      {
+        "type": "heading",
+        "level": 5,
+        "id": "deux-bilans-valent-mieux-quun",
+        "text": "Deux bilans valent mieux qu'un"
+      },
+      {
+        "type": "paragraph",
+        "html": "De façon générale, la valeur ajoutée et les gains escomptés d'un projet ne sont pas visibles dès la clôture et mise en production ! Il peut être pertinent d'un point de vue marketing de la DSI entre autres de créer ce temps de reporting et de consolidation des gains visés autour de la fameuse \"business value\". Quelle est la valeur globale générée et quels ont été les gains effectifs du projets à 6 mois / 1 an ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Autre exemple, simplement au niveau du vocabulaire : le terme de \"bilan projet\" à fait place aux \"retrospectives\". De la même façon que dans la culture de livraison des développements, les itérations courtes sont désormais plus en vogue, plus de retrospectives intermédiaires sont réalisées."
+      },
+      {
+        "type": "paragraph",
+        "html": "De par son récent statut de business partner à part entière, la DSI, positionnée comme leader de transformation, adresse désormais les chantiers stratégiques. Les bilans projets ne sont plus opérés en silos, mais bel et bien en interdépendances. Il s'agit se <strong>proposer aux équipes une vision globale de la cathédrale à laquelle ils ont contribués.</strong><br/>Au delà du contenu du projet, on cherchera donc à replacer le projet dans son contexte global ! A-t-il contribué à l'avancement d'un ou plusieurs grands chantier stratégiques de l'organisation ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Outre les traditionnelles questions ouvertes type les + et les - sur différents axes, on constate de plus en plus que les bilans de projets ouvrent le dialogue sur des questions plus ciblées. Par exemple : \"Si vous deviez refaire ce projet, qu'auriez-vous aimé savoir dès le début ?\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Quelque chose qui permette de structurer les \"<em>lessons learned</em>\", ce qui a été vécu, digéré et qui peut ensuite être diffusé : les comportements, au-delà des outils !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, <em>remote</em> oblige, le télétravail a favorisé la réalisation de bilans de projets à distance. Peut-on faire un bon bilans de projets à distance ? Les enjeux émotionnels, personnels et collectifs sont tels qu'il serait dommage de se priver de la dynamique et de l'énergie d'un moment de partage, de vie d'équipe \"en vrai\". C'est comme proposer de prendre un verre... en visio !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Néanmoins, si vous n'avez pas le choix, l'utilisation d'outils dédiés à ce type de processus peut faciliter votre bilan. On peut citer Klaxoon, Miro ou autre. Les éditeurs l'ont bien compris en proposant quelques templates de retros. Ceci dit, vous verrez à la fin de cet article qu'un simple modèle PowerPoint de 5 pages suffit à animer ce processus."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-organiser-un-bilan-de-projet",
+        "text": "Comment organiser un bilan de projet ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-prealable-deux-phases-et-trois-dimensions",
+        "text": "Un préalable, deux phases et trois dimensions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un prérequis \"primordial\" : réaliser votre bilan final de projet \"à froid\". En effet, si le débriefing à chaud est indispensable il n'est pas suffisant pour ancrer des apprentissages et changements culturels durables.<br/><br/>Deux phases clés à respecter dans le cadre de tout bilan de projet :<br/>Tout d'abord <strong>on libère la parole</strong> ! Pour y parvenir, il convient entre autres de poser un cadre sécurisant, en annonçant par exemple clairement les intentions et la portée du processus : à qui sera destiné le bilan ? Une fois le cadre posé, il peut être utile de proposer un \"<em>ice breaker</em>\". Une fois les conditions réunies, on réalise le bilan à proprement parler. En utilisant l'une des grilles agiles, Lean....peu importe. (Vous découvrirez à la fin de cet article 5 modèles pour cela).<br/>Enfin, on peut aller vers la phase 2 : les solutions, le plan d'action. C'est souvent cette phase qui est négligée. D'expérience, on passe trop de temps sur la phase 1."
+      },
+      {
+        "type": "paragraph",
+        "html": "Trois dimensions du bilan projet : <strong>l'individu, le collectif, et le corporate</strong>.<br/>L'évaluation individuelle est réalisée par chaque individu de l'équipe C'est un pléonasme ? En fait, pas tant que ça ! On a trop tendance à évaluer les autres. \"Tu as fait ça ...tu aurais du...\" le fameux \"Tu qui tues\" ! Idéalement, c'est à chacun de \"s'auto-débriefer\". Si on prend le temps de réaliser un bilan projet de qualité, c'est le scénario idéal."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>La réussite de la dimension collective</strong> peut quand à elle être évaluée par tous. Avec une place particulière au PMO / <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\">chef de projet</a>, dont c'est la responsabilité d'animer le collectif. Pour cela, il peut préparer une série de questions ouvertes, par exemple \" Si tu devais refaire ce projet qu'est-ce que tu aurais aimé savoir dès le début ?\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, il restera à <strong>évaluer la dynamique de l'entreprise</strong>. Le projet a été réalisé dans un contexte stratégique, au milieu d'enjeux corporate qu'il convient d'analyser et rappeler."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tips : pour les axes 2 et 3, proposez aux parties prenantes des \"TRIP\". Comprendre un Temps de Réflexion Individuel Préalable. 1 minute de réflexion en solo, avant toute mise en commun. Cela ne vous vaccinera pas contre l'effet de groupe, mais peut permettre une plus grande variété de réponses."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "qui-inviter-au-bilan",
+        "text": "Qui inviter au bilan ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au minimum, ce processus se tiendra en présence de votre équipe complète. Celle qui a \"contribué\" activement . La bonne pratique est de convier les personnes ayant au moins contribué à 30 / 50% de leur temps."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le Product Owner (maître d'ouvrage, ou un chef de projet fonctionnel, selon l'organisation de l'équipe)",
+          "Tous les membres de l'équipe",
+          "Un facilitateur \"coach d'organisation\""
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-7-habitudes-des-bilans-projets-efficaces",
+        "text": "Les 7 habitudes des bilans projets efficaces"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c18776e_624af58e50a0a041af40ae0e_habitudesprojet.jpeg",
+        "alt": "Conduite du changement",
+        "caption": "Le pouvoir des habitudes...!"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Je programme, dès le lancement, le moment du bilan à plusieurs étapes du projet</strong>, par des évaluations intermédiaires et un bilan final.",
+          "<strong>Je confie l'animation du processus de bilan à un spécialiste du coaching / facilitateur</strong>. Qui, idéalement, n'a pas eu de rôle actif dans le projet. L'objectif est de poser un cadre sécurisant. Plus facile à dire qu'à faire ! Un bilan de qualité implique en effet franchise et honnêteté de la part des participants - c'est peut être là le point de vigilance essentiel dans une rétrospective efficace.",
+          "<strong>Je prends le temps ! On ne synthétise pas 1 an de projet en 1 heure</strong> ! En fonction de votre contexte et de la taille de l'organisation, on consacrera un temps \"adapté\", idéalement équivalent à la phase de pré-cadrage.",
+          "<strong>Je réalise deux bilans</strong> : celui du premier axe, le tryptique \"coût-qualité-délais\", et un autre une fois les gains de la transformation business ancrés, celui de la valeur ajoutée métier. C'est celui ci qui est rarement réalisé ! Nous ne sommes plus dans le bilan à chaud des retros périodiques, mais bien dans un moment d'analyse à froid.",
+          "<strong>J'utilise des outils visuels</strong> : le management visuel, le post-it, le Klaxoon... peu importe l'outil pourvu qu'on soit dans une démarche \"légère\". Tout sauf Excel ! L'expérience utilisateur/collaborateur encore et toujours. Oui : à ce stade nul besoin de sur-détailler : on cherche à obtenir une vision globale et synthétique.",
+          "<strong>Je suis attentif à l'ambiance de travail à la \"décontraction\".</strong> On est aussi là pour \"relâcher la pression\" en passant un moment \"apprenant\" et convivial !",
+          "<strong>Je prévois des gratifications concrètes.</strong> Des sucreries aux cadeaux goodies, en passant par un restaurant et en allant jusqu'à une prime, la palette est large pour ne pas seulement \"payer en mots\" !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelles-methodes-de-bilan-de-projet-dans-le-batiment-ou-chez-les-militaires",
+        "text": "Quelles méthodes de bilan de projet dans le bâtiment, ou chez les militaires ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il n'y a pas que la tech dans la vie ! En dehors de l'industrie numérique, comment procède-t-on pour analyser les écarts entre le <a href=\"https://www.airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\">cadrage</a>, l'exécution et la livraison ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans entrer dans tous les détails, nous avons sélectionné deux exemples de pratiques en terme de bilans de projets hors IT."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-bilans-projets-dans-le-batiment",
+        "text": "Les bilans projets dans le bâtiment ?"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c187774_62f3793c03388a6e90911bec_bilan-projet-btp.jpeg",
+        "alt": "bilans projets dans le bâtiment",
+        "caption": "Des bilans projets en continu plutôt qu'à la fin quand c'est trop tard"
+      },
+      {
+        "type": "quote",
+        "text": "On ne prend jamais le temps de faire un retour ! Ce qui est important c'est de réaliser des bilans hebdos. En fait, on se le dit tout le temps, en permanence et on formalise une fois par mois. Ce serait interminable de faire un bilan de projet sur une opération comme un immeuble avec 5 ans de projet, plus la garantie qui court après la livraison...",
+        "author": "Lionel C., Directeur de programme immobilier au sein d'un promoteur national"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si ce témoignage n'est bien sur pas représentatif d'un secteur d'activité tout entier, il est néanmoins intéressant de se rendre compte que cette industrie du bâtiment, dite plus \"mature\" que l'IT, procède de cette façon, dans une culture du bilan de projet implicite et continue."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-bilan-de-projet-chez-les-militaires",
+        "text": "Le bilan de projet chez les militaires"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c18777a_62f37931ab1b888fe60b4f8e_bilan-projet-armee.jpeg",
+        "alt": "bilan de projet dans l'armée",
+        "caption": "Pas de droit à l'erreur. Chaque mission donne lieu à un débriefing individuel et collectif."
+      },
+      {
+        "type": "paragraph",
+        "html": "Retour d'expérience de Gilles Jurine. 15 ans de service actif dans l'Armée de l'Air. Gilles a assuré les fonctions de pilote de chasse, d'instructeur et de responsable formation au sein de l'École de l'Air de Salon de Provence. \"Le meilleur débriefing après une mission, c'est lorsqu'individuellement chacun s'auto-débriefe sur la mission. Versus un débriefing descendant\". Les 5 invariants de chaque mission sont : Préparation - Briefing- Réalisation de la mission - Débriefing - Rapport de mission. Le débriefing est dit \"à chaud\", et le rapport à froid\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "5-formats-types-de-bilan-deprojet",
+        "text": "5 formats-types de bilan de projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "1-la-grille-tout-terrain-utile-pour-toute-taille-dequipe",
+        "text": "1. La grille \"tout terrain\", utile pour toute taille d'équipe."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ce qui a fonctionné ☑",
+          "Ce qui serait à améliorer ↗",
+          "Les mercis 🙏",
+          "Les bonnes idées 💡",
+          "Et surtout, le plan d'action post retrospective ✅"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "2-le-modele-mad-sad-glad",
+        "text": "2. Le modèle \"Mad-Sad-Glad\""
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c187777_62f379b252988d6b8a412bd3_glad-sad-mad-AirSaas-min.jpeg",
+        "alt": "MAD SAD GLAD bilan projet",
+        "caption": "Mad-Sad-Glad : bilan de projet sur un axe plus \"émotionnel\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"https://www.neatro.io/modeles-retrospective/glad-sad-mad/\">modèle Mad Sad Glad</a> est une technique de rétrospective agile. Cette technique se concentre sur le bien-être émotionnel de l'équipe de développement de projet. Ce faisant, cela contribue à améliorer le moral de l'équipe et à créer un environnement positif."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les icônes emoji sont utilisées pour visualiser les sentiments sur les pratiques agiles. Bien que la plupart des réunions rétrospectives se fassent selon une méthode traditionnelle de tableau blanc, cette présentation vous aidera à faire passer la réunion sur les médias numériques. Le modèle PowerPoint peut également être utilisé comme thème de diapositives Google pour les réunions virtuelles."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "3-le-modele-4l-liked-learned-lacked-and-longed-for",
+        "text": "3. Le modèle 4L : Liked, Learned, Lacked, & Longed For"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c187771_62f379db349867e0d82eb3c4_4L.jpeg",
+        "alt": "Bilan projet 4L",
+        "caption": "le 4L : un modèle très complet pour une organisation \"apprenante\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec cette grille type, il s'agit de formaliser, clarifier et cartographier ce que les équipes ont aimé, appris, manqué et souhaité - plus connu sous le nom de rétrospective 4L ! Ce format de rétrospective populaire est apprécié des agilistes et scrum masters pour sa simplicité et sa capacité à aider les équipes à établir des objectifs à court et à long terme pour des améliorations futures."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "4-le-daki-drop-add-keep-improve",
+        "text": "4. Le \"DAKI\" Drop, Add, Keep, Improve"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66cdd070adf047149c187780_624af2076027e9da2973f3a7_DAKI.png",
+        "alt": "bilan projet DAKI",
+        "caption": "Le modèle de rétrospective D.A.K.I"
+      },
+      {
+        "type": "paragraph",
+        "html": "Notre préféré ! Un modèle \"capitalisable\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "5-le-starfish",
+        "text": "5. Le Starfish"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <a href=\"https://blog.myagilepartner.fr/index.php/2018/07/12/starfish-retrospective/\">Starfish</a> est une technique de cartographie conceptuelle utilisée dans le processus de rétrospective de projet agile et scrum. Il donne un aperçu général pour estimer le succès global d'un projet. Cette présentation du diagramme rétrospectif fournit une illustration de la forme en étoile de mer en 5 étapes. La forme en étoile de mer, métaphore de la technique rétrospective, engagera un public et communiquera efficacement chaque idée. La rétrospective Starfish est un outil orienté vers l'action, conçu pour inciter les participants à créer des idées positives et exploitables. Au lieu de prendre des notes sur ce qui s'est bien passé ou non, cette méthode permet d'entrer dans des détails spécifiques. Il encourage une équipe à discuter d'idées qui génèrent de la valeur."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous le voyez : la pratique du bilan de projet s'est elle aussi transformée - influencée par l'emergence des cultures lean, agiles, digitales et le développement des processus d'intelligence collective.<br/>La méthode du bilan de projet est désormais réalisée en plusieurs fois, associe généralement plus de parties prenantes et mélange souvent plusieurs entités métiers."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous voulez approfondir cette notion clé, poursuivez votre lecture avec l'article suivant : \"<a href=\"https://www.airsaas.io/gestion-de-projet/la-revue-de-projet\">La revue projet : un point d'étape pour tirer les leçons de vos erreurs</a><strong>.</strong>\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Sources et références"
+      },
+      {
+        "type": "paragraph",
+        "html": "(1) Source : étude nord-américaine intitulée « Conduire le changement : Pourquoi les efforts de transformation échouent », publiée en 1995 dans <em>Harvard Business Review</em> - seuls 30% des changements organisationnels réussissent."
+      },
+      {
+        "type": "paragraph",
+        "html": "(2) Le <em>Project Management Body of Knowledge</em> (<strong>PMBOK</strong>) est le guide du Project Management Institute définissant les champs de connaissance couvrant la gestion de projet, et recensant les bonnes pratiques professionnelles en la matière."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "type": "blog",
+  "slug": "demarche-de-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment instaurer une démarche de projet dans mon entreprise ?",
+      "h1": "Comment instaurer une démarche de projet dans mon entreprise ?",
+      "description": "Découvrez pourquoi et comment mettre en place une démarche projet pragmatique et standardisée dans votre entreprise pour piloter efficacement la transformation.",
+      "publishedDate": "4/5/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "4/5/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea955c7a189107aaa7cb8f_Project%20image%20(3)-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Rapide rappel des fondamentaux",
+        "href": "#rapide-rappel-des-fondamentaux"
+      },
+      {
+        "label": "Les étapes-types d'une démarche de projet",
+        "href": "#les-etapes-types-dune-demarche-de-projet"
+      },
+      {
+        "label": "Trois raisons pour lesquelles mettre en place une (vraie) démarche de projet dans mon entreprise !",
+        "href": "#trois-raisons-pour-lesquelles-mettre-en-place-une-vraie-demarche-de-projet-dans-mon-entreprise"
+      },
+      {
+        "label": "Comment s'y prendre pour piloter efficacement une démarche de projet ?",
+        "href": "#comment-sy-prendre-pour-piloter-efficacement-une-demarche-de-projet"
+      },
+      {
+        "label": "⛰️ Gestion de projet de transformation : les éléments clés !",
+        "href": "#gestion-de-projet-de-transformation-les-elements-cles"
+      },
+      {
+        "label": "🤦‍♂️ Démarche projet : les 7 erreurs !",
+        "href": "#demarche-projet-les-7-erreurs"
+      },
+      {
+        "label": "Les points-clés à retenir",
+        "href": "#les-points-cles-a-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "La <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> <strong>aussi est un métier en transformation !</strong> Accélération digitale, multiplication des projets transverses et environnement \"VICA\" (volatile incertain complexe et ambigu) rendent la maîtrise de cet art toujours plus exigeant."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article nous explorerons en détail <strong>pourquoi et comment mettre en place une démarche projet pragmatique et (un peu) standardisée</strong>. L'occasion de déconstruire quelques préjugés sur la méthode et de vous aider à <strong>développer votre culture projet efficace</strong> 🔥 !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "rapide-rappel-des-fondamentaux",
+        "text": "Rapide rappel des fondamentaux"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un projet est un ensemble d'actions que nous souhaitons entreprendre, pour atteindre un but... Un mot qui vient du latin \"projectum de projicere\", littéralement « <strong>jeter quelque chose vers l'avant</strong> » !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au delà de la définition et des outils, ce sont bien <strong>les questions clés de l'exercice du pouvoir et de la réalisation de la transformation</strong> de l'entreprise qui sont en jeu."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-etapes-types-dune-demarche-de-projet",
+        "text": "Les étapes-types d'une démarche de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quelle que soit votre méthode de gestion de projet, une démarche de projet respecte a priori des étapes et utilise des outils !"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<a href=\"https://www.airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\"><strong>Cadrage</strong></a> général des objectifs, étapes et des besoins, avec le métier ;",
+          "Choix des <strong>méthodologies</strong> de livraison, des exigences, des outils, de l'équipe et de la gouvernance projet ;",
+          "<strong>Planification</strong> macro / jalons / plan de communication ;",
+          "<strong>Exécution</strong> et respect du triptyque \"coût-qualité-délais\" ;",
+          "<strong>Tests et recette ;</strong>",
+          "<strong>Livraison ;</strong>",
+          "<a href=\"https://www.airsaas.io/gestion-de-projet/comment-animer-un-bilan-projet-efficace\"><strong>Bilan projet</strong></a> et amélioration ;"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Derrière ce tableau des étapes \"académique\" et idéal... quelle réalité ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-constat-general",
+        "text": "Le constat général :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Quasiment toutes les entreprises ont une <strong>culture projet hétérogène</strong> et les <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\"><strong>chefs de projets</strong></a> ont également des <strong>niveaux très variables</strong> ;",
+          "<strong>La DSI a longtemps été en pointe sur ces questions,</strong> et les <strong>métiers pas trop \"matures\"</strong> sur la gestion de projet ;",
+          "On <strong>semble s'être collectivement habitué à ce que les chantiers IT soient en retard</strong>, plus cher et/ou \"hors sujets\" ;",
+          "N'importe quel outil de CRM offre une bonne vision globale de la performance commerciale avec des reportings variés... <strong>la performance opérationnelle des projets de transformation d'entreprise est quant à elle très difficile à visualiser et partager</strong>...",
+          "On remarque enfin, fréquemment, l'<strong>absence d'amélioration continue ou de bilan projet</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En synthèse : le projet, <strong>tout le monde connait...mais, généralement, personne ne met la même définition et réalisation derrière.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "trois-raisons-pour-lesquelles-mettre-en-place-une-vraie-demarche-de-projet-dans-mon-entreprise",
+        "text": "Trois raisons pour lesquelles mettre en place une (vraie) démarche de projet dans mon entreprise !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pour-que-ca-avance-et-vraiment",
+        "text": "💪 Pour que ça avance, et vraiment !"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'emergence de plus en plus de projets transverses, rassemblant des business unit différentes <strong>a rendu indispensable le recours à des équipes pluridisciplinaires</strong>, \"hors silos\". Cette coordination est, a priori, plus facile si on regroupe des gens dans une phase de temps et de moyens définis. <strong>L'avancement de vos projets et, a fortiori, l'efficience de votre transformation en dépend.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pour-sortir-des-fausses-priorisations",
+        "text": "🚥 Pour sortir des fausses priorisations !"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'accélération digitale a pour corollaire une <strong>augmentation du flux d'initiatives</strong>. Extra !...sauf si on ne définit pas <strong>un périmètre clair d'initiatives et d'exécution</strong>. Les objectifs sont bien de concentrer et prioriser les efforts ! On risque sinon de verser non pas dans l'agilité...mais dans l'agitation et la fausse <strong>priorisation.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Délivrer avec méthode...! se fixer des échéances, des objectifs par étapes, permet d'être efficace ! <strong>Choisir...C'est avancer !</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pour-suivre-ou-se-depense-votre-argent-et-votre-temps",
+        "text": "💸 Pour suivre ou se dépense votre argent et votre temps... !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Si on traite les questions en flux continu,</strong> type \"run\", ....comme fait-on pour évaluer les résultats, le <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budget</a> et la valeur ajoutée crée ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les étapes ou jalons des projets permettent de proposer régulièrement une vue précise de ce qu'on fait, et de ce qu'on ne fait pas, de <strong>piloter par la valeur !</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-sy-prendre-pour-piloter-efficacement-une-demarche-de-projet",
+        "text": "Comment s'y prendre pour piloter efficacement une démarche de projet ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "changer-dangle-de-vue",
+        "text": "👀 Changer d'angle de vue"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'héritage d'années de pratique avec des référentiels d'outils de gestion de projets type \"à la tâche\" ont conditionné notre vision de la réalisation en liste des tâches, planning et ressources, ...puis portefeuille."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3e25f74114711c9400b1a_demarche.jpg",
+        "alt": "Pyramide démarche projet",
+        "caption": "8 chances sur 10 de \"subir\" une transformation inefficace"
+      },
+      {
+        "type": "paragraph",
+        "html": "⚠️ Non ! On ne transforme pas une organisation en commençant <strong>par forcer les équipes à faire de la gestion de projet \"à la tâche\"</strong>, le but est bien bien de structurer, communiquer et ensuite piloter un plan de transformation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "standardiser-plusieurs-demarches",
+        "text": "↔️ Standardiser plusieurs démarches"
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention au syndrome du \"canon pour la mouche\". Tous les projets n'ont pas la même définition...les mêmes contraintes et besoins en terme de méthodes de réalisation. On en distinguera trois grands types et leur démarches associées."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "les projets IT qui sont déjà bien gérés dans Azure devops/Jira, etc.",
+          "les projets importants / risqués ou il faut impliquer les métiers fortement",
+          "et les projets plus petits ou l'implication des métiers est nécessaire mais ou il y a moins de risques."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "A partir ce ce simple découpage...vous pourrez appréhender une re définition des do's et dont' de la gestion de projet par catégorie, avec un outil compagnon comme AirSaas."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "creer-et-vendre-un-plan-de-transformation-dabord",
+        "text": "🏡 Créer et vendre un plan de transformation d'abord..."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62714920747026c0d398526b_transformation.jpeg",
+        "alt": "Une vision claire qui fera \"sens\" pour tous !",
+        "caption": "Une vision claire qui fera \"sens\" pour tous !"
+      },
+      {
+        "type": "paragraph",
+        "html": "De façon schématique, les grandes phases d'une approche de projet (efficace) sont :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Je <strong>vends un</strong> <a href=\"https://www.appvizer.fr/magazine/operations/ppm/plan-de-transformation\"><strong>plan de transformation</strong></a>, qui donne du sens...pour tout le monde !",
+          "Je <strong>canalise mon objectif initial</strong>, sur des projets à \"courte portée\" !",
+          "Je <strong>\"caste\" la premières équipe projet</strong>, avec des individus et directions qui se connaissent... et s'apprécient.",
+          "Dans mon <a href=\"https://www.airsaas.io/gestion-de-projet/le-pilotage-de-projet-en-2023\">pilotage du projet</a> et reporting, <strong>je partage des</strong> <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons</strong></a> <strong>pas des tâches</strong> !",
+          "Je <strong>valorise vraiment cette équipe : les contributeurs</strong>, key users, responsable métiers..."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le détail :"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "je-vends-un-plan-de-transformation-qui-donne-du-sens",
+        "text": "Je vends un plan de transformation qui donne du sens !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Simplifions-nous la tâche en entrant par le \"haut du portefeuille\" ! Le plus important c'est bien d'<strong>avoir une vision globale de ce qu'on veut faire,</strong> pour prioriser <strong>avant même de dire comment on exécutera !</strong> Car oui il faut le répéter <strong>ça ne sert à rien de des mettre des tâches dans des projets qu'on ne va pas faire</strong> !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "je-calibre-mon-objectif-initial-sur-23-projets-a-courte-portee-pour-avoir-des-succes",
+        "text": "Je calibre mon objectif initial sur 2/3 projets à \"courte portée\" pour avoir des succès !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple sur un rythme de 3-6 ou 9 mois maximum...vos premiers \"bébés projet\" ne seront ni des prématurés, type quick-win\"- ni de futurs Tanguys, type chantier ERP à perpétuité !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "je-caste-les-premieres-equipes-projets-avec-des-individus-et-directions-qui-se-connaissent-et-sapprecient",
+        "text": "Je \"caste\" les premières équipes projets avec des individus et directions qui se connaissent et s'apprécient..."
+      },
+      {
+        "type": "paragraph",
+        "html": "On pense bien trop souvent que c'est la gestion des tâches qui fait réussir. Ce qui créé la réussite du projet... c'est l'équipe ! Après chacun a ses bonnes pratiques... la DSI peut aller chercher une direction avec qui ça se passe déjà bien... pour engranger des succès modèles. On appelle cela la stratégie de la tache d'huile !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "dans-mon-pilotage-et-reporting-je-partage-letat-du-projet-des-jalons-pas-des-taches",
+        "text": "Dans mon pilotage et reporting, je partage l'état du projet des jalons, pas des tâches !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Je met à jour les éléments clés : décisions à prendre, points d'attentions, jalons pour communiquer à tout le top management l'état du projet ;"
+      },
+      {
+        "type": "paragraph",
+        "html": "J'intègre les autres directions à AirSaas pour faire en sorte d'avoir une communication globale unifiée, et une <strong>vision des projets et initiatives transformantes toujours</strong> à jour."
+      },
+      {
+        "type": "paragraph",
+        "html": "J'envoie les rapport flash a un public large, aux parties prenantes une fois par semaine. (oui oui pas une fois tous les mois...!)"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "je-valorise-vraiment-les-contributeurs-key-users-responsable-metiers",
+        "text": "Je valorise vraiment les contributeurs, key users, responsable métiers..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les fondamentaux restent les fondamentaux : un sponsor qui joue son rôle, des métiers bien impliqué dans le cadrage...un comité de pilotage....les bons outils...une direction de la transformation qui valorise vraiment ses contributeurs avec une attention au triangle \"Ambiance-sens-salaire\" !"
+      },
+      {
+        "type": "paragraph",
+        "html": "En synthèse, pour une re définition de votre gestion de projet...nous vous révélons l'une des <strong>équations de l'algorithme d'efficacité projet</strong> d'AirSaas :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62e93ed52c6694604fd3abc2_airsaas-nl-1-min.jpeg",
+        "alt": "Equation démarche Projet ROI",
+        "caption": "Equipe + Comité de pilotage + rapport flash + priorisation = efficacité projet ² !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "gestion-de-projet-de-transformation-les-elements-cles",
+        "text": "⛰️ Gestion de projet de transformation : les éléments clés !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au delà des outils donc, la démarche ce sont des méthodes et des étapes clés."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62714b94e7e643ce851a39a2_matrice-knoster-projet-airsaas.jpg",
+        "alt": "Matrice de Knoster",
+        "caption": "Matrice de Knoster pour une démarche de projet de changement."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Sans vision</strong>, on crée de la <strong>confusion</strong>.",
+          "<strong>Sans savoir-faire</strong>, on engendre la <strong>peur</strong>.",
+          "<strong>Sans bénéfice au changement</strong>, on renforce la <strong>résistance.</strong>",
+          "<strong>Sans ressources</strong>, on génère de la <strong>frustration</strong>.",
+          "<strong>Sans plan d'actions</strong> structuré et suivi, on génère de la <strong>pagaille</strong>"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "demarche-projet-les-7-erreurs",
+        "text": "🤦‍♂️ Démarche projet : les 7 erreurs !"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Confondre outils et démarche</strong> projet : la démarche elle, inclura l'humain !",
+          "<strong>Croire que le plus beau diagramme de Gantt ou Asana vous protège de l'échec</strong> ! it's the team, stupid !",
+          "<strong>Confondre démarche de projet et programme :</strong> la valeur ajoutée doit être visualisée globalement.",
+          "<strong>Ne pas</strong> (du tout) <strong>tenir compte des résistances au changement</strong> dans un projet : <em>« Les gens ne détestent pas le changement. Il détestent juste la manière dont vous essayez de les faire changer »</em> M. Kanazawa",
+          "<strong>Confondre agilité et agitation</strong> : l'important c'est l'efficacité !",
+          "<strong>Donnez la priorité à... trop de priorités</strong> ! un peu comme un croisement avec des feux oranges clignotants partout !",
+          "<strong>Choisir les mauvais outils</strong> : \"quand on a qu'un marteau tout ressemble à un clou\" !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-points-cles-a-retenir",
+        "text": "Les points-clés à retenir"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Disons le clairement :</strong> 80 % des projets ne nécessiteront pas de Gantt ou de priorisation à la tâche !",
+          "En <strong>visualisant le portefeuille, c'est-à-dire un ensemble de projets ordonné et piloté par la valeur</strong> entre les métiers et la DSI, il deviendra <strong>plus facile de gérer une partie des frustrations</strong> et d'impliquer le Top Management en traitant des sujets qui sont fondamentaux : stratégie, dialogue et coopération entre les silos, répartition budgétaire..",
+          "Créer les conditions d'une démarche de projet efficace demande un <strong>travail d'acculturation et une montée en compétences sur les pratiques et la philosophie pas seulement agile... mais \"pragmatique\" !</strong> Ne pensez pas uniquement management de projet, mais également conduite du changement et leadership."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois les fondamentaux généraux de la démarche établis, le prochain challenge sera de passer en mode projet dans le détail. La lecture de cet article devrait vous y aider : <a href=\"/fr/gestion-de-projet/le-guide-du-mode-projet\">Comment faire passer mon entreprise en mode projet</a> ?"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

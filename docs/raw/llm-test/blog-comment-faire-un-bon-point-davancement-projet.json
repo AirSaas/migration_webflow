@@ -1,0 +1,482 @@
+{
+  "type": "blog",
+  "slug": "comment-faire-un-bon-point-davancement-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment faire un bon point d'avancement projet ?",
+      "h1": "Comment faire un bon point d'avancement projet ?",
+      "description": "Découvrez les ingrédients d'un point d'avancement de projet moderne, transparent et efficace : pièges à éviter et 12 bonnes pratiques de PMO/DSI.",
+      "publishedDate": "28/5/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "28/5/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea918a9bacb825b5c1c869_avancement-min.jpg",
+        "alt": "Comment faire un bon point d'avancement projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Les pièges à éviter pour les points d'avancement",
+        "href": "#les-pieges-a-eviter-pour-les-points-davancement"
+      },
+      {
+        "label": "12 pratiques pour garder les points d'avancement sur la bonne voie",
+        "href": "#12-pratiques-pour-garder-les-points-davancement-sur-la-bonne-voie"
+      },
+      {
+        "label": "À retenir",
+        "href": "#a-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "\"Le projet ne marche pas ! On communiquera sur l'avancement quand ce sera OK.\" Voici ce qu'on entend encore trop souvent dans les couloirs. Et c'est surtout ce qu'il faut continuer à faire pour être bien certain de passer à côté du sujet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans les lignes qui suivent, vous découvrirez <strong>les ingrédients d'un point d'avancement moderne, transparent et efficace</strong> (et donc des méthodes pour réussir votre <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a>)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Musclez votre suivi de l'avancement : c'est bien le message clé. Cela peut sembler simpliste comme levier de succès, et néanmoins, la bonne tenue de ces points peut faire toute la différence entre le succès et l'échec du projet. Bonne nouvelle : ça n'a pas besoin d'être compliqué !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quelles sont les erreurs courantes et points de vigilance à surveiller ? Comment animer ce processus pour en faire à la fois un rituel simple et engageant ? Nous avons regroupé et commenté 12 bonnes pratiques et retours d'expériences de PMO/DSI. En synthèse, on va voir comment vous aider à faire avancer votre projet efficacement."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-pieges-a-eviter-pour-les-points-davancement",
+        "text": "Les pièges à éviter pour les points d'avancement"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Chaque projet nécessite des synchronisations régulières</strong> où les parties prenantes se réunissent pour discuter des objectifs, de la qualité, des jalons, des tâches et de l'avancement des travaux."
+      },
+      {
+        "type": "paragraph",
+        "html": "Outre la fonction de reporting auprès des différentes instances concernées, bien animé, ce point d'avancement remplira également un rôle d'alignement des équipes impliquées."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-manque-dinformation-de-contexte",
+        "text": "Le manque d'information de contexte"
+      },
+      {
+        "type": "paragraph",
+        "html": "Disposer d'une information de progression isolée de son contexte ne permet pas aux parties prenantes du projet de s'orienter, et donc de décider avec discernement dans la complexité."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un rappel, pour être efficace <strong>les trois ingrédients d'un point d'avancement de projet</strong> sont :"
+      },
+      {
+        "type": "paragraph",
+        "html": "1️⃣ Le rappel rapide du <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-cadrage-projet-avec-les-metiers\">cadrage</a> (pourquoi on le fait ? sur quel périmètre ? etc.)"
+      },
+      {
+        "type": "paragraph",
+        "html": "2️⃣ L'état des lieux de l'avancement (progression, point d'attention, décisions à prendre, etc.)"
+      },
+      {
+        "type": "paragraph",
+        "html": "3️⃣ Et le rappel temporel (qu'est-ce qui nous attend ?)"
+      },
+      {
+        "type": "paragraph",
+        "html": "La <strong>bonne collecte et transmission de ces informations</strong> sont l'une des clés de la réussite de ce processus. Grâce au rappel du contexte et de la timeline, on favorise la capacité à s'orienter pour chacun. On a effet besoin de disposer à la fois à de tous les ingrédients ci-dessus, mais également du contexte de ces données, pour saisir le niveau de progression réel du projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "labsence-de-concision",
+        "text": "L'absence de concision"
+      },
+      {
+        "type": "paragraph",
+        "html": "On est là pour un seul objectif : <strong>formaliser un état avancement, pas en débattre.</strong> Pensez au triage aux urgences. Pas d'opération dans le couloir s'il vous plaît !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "limprecision",
+        "text": "L'imprécision"
+      },
+      {
+        "type": "paragraph",
+        "html": "On constate trop régulièrement des <strong>projets</strong> d'envergures qui ne sont pas planifiés et documentés en détail. L'attribution d'une action, des jalons et tâches du projet est parfois arbitraire, ce qui en rend le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\">suivi du projet</a> difficile."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque chef de projet a en général sa propre méthode de rapport de point d'avancement. Dans une grande équipe, <strong>ce manque d'uniformité crée de la confusion auprès des managers,</strong> qui ne bénéficient pas de trames de travail identiques."
+      },
+      {
+        "type": "paragraph",
+        "html": "De nombreux grands chantiers n'utilisent pas de véritable outil de gestion de projet pour un suivi efficace."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "la-fuite-de-responsabilite-devenue-discipline-olympique-en-gestion-de-projet",
+        "text": "La \"fuite de responsabilité\", devenue discipline olympique en gestion de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les points d'avancement projet sont des moments de vérité par rapport à la projection initiale, à l'atteinte des résultats, et rendent visible la bonne coopération de chacun - ou pas ! Les tensions y sont légitimes et fréquentes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les collaborateurs sont en effet potentiellement appelés à rendre des comptes et à s'engager sur un objectif et des nouveaux résultats clés. <strong>Obtenir un engagement individuel et collectif</strong> durable est un défi moderne pour tout chef de projet transverse parfois confronté à de la mauvaise volonté, voire de la mauvaise foi."
+      },
+      {
+        "type": "paragraph",
+        "html": "Néanmoins, la tendance à la généralisation de l'usage de plateformes de collaboration projet a rendu plus visible le désengagement éventuel de certains. Dans ce contexte, votre rôle est de rappeler le cadre, les rôles et redevabilités de chacun."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous constatez qu'une situation de ce type survient fréquemment, échangez tout d'abord avec l'intéressé sur la base d'observations concrètes. Faites lui part de vos besoins généraux dans votre rôle, puis formulez une demande claire. Écoutez bien les réponses, les besoins exprimés. En cas de blocage avéré, formalisez le litige. Un appel au sponsor sera peut-être nécessaire. Un rappel : la coopération, ça ne se décrète pas !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans juger cette tendance à une forme de désengagement observée dans de nombreuses grandes entreprises, dans votre rôle de chef de projet, il vous faut néanmoins en tenir compte pour rester dans une forme de discernement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "lexces-de-reunions",
+        "text": "L'excès de réunions"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d17c7bae68096320d1af97_6290e971028f0364f784b346_1646379000029.jpeg",
+        "alt": "Reunion inutiles",
+        "caption": "Dites stop à l'abus de réunion \"informationnelles\""
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Ne vous réunissez que lorsqu'il n'y a pas d'autre moyen pratique d'atteindre vos objectifs dans un projet</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà de l'intérêt \"social\" pour une équipe, qui peut être traité dans un autre espace que celui du point d'avancement projet, il n'est pas toujours justifiable de réunir physiquement des personnes simplement pour partager leur statut ou fournir des informations sur des tâches."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un sens ou dans l'autre, surveillez la fréquence des réunions dans un projet. Leur abus ou leur absence peut nuire à la productivité."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "12-pratiques-pour-garder-les-points-davancement-sur-la-bonne-voie",
+        "text": "12 pratiques pour garder les points d'avancement sur la bonne voie"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "faites-en-un-sujet-dequipe",
+        "text": "Faites-en un sujet d'équipe"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce sont les collaborateurs et leurs bonnes relations qui font avancer et qui transforment, au-delà du suivi des tâches et des outils mis en place."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu est bel et bien de diffuser et faire vivre une culture de co-responsabilité : l'esprit d'équipe, en somme. Pour y parvenir, allez jusqu'à modifier la définition de la grille d'évaluation et de rémunération s'il le faut. Objectivez le fait qu'on évalue aussi la coopération dans la relation du groupe projet. <strong>#</strong>TeamSpirit"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "utilisez-la-technologie-pour-piloter-par-la-decision",
+        "text": "Utilisez la technologie pour piloter par la décision"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne soyez plus pris de court parce que vous n'avez pas la bonne information. En utilisant le bon outil, vous aurez accès à toutes les décisions à prendre et historiques clés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec Airsaas, on a créé une plateforme pour vous simplifier la gouvernance (listing des décisions à prendre, vue Copil, etc.)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les métiers et l'IT sont parfois en tension. Pour faire avancer les sujets sereinement une solution pragmatique est de proposer une vue consolidée via une plateforme, un workflow partagé permettant de rassembler les parties prenantes autour d'un même outil, compréhensible de tous. Le dashboard : c'est autour de cette vue que vous allez vous réunir toutes les X semaines pour faire un point d'avancement ! #CollaboratifByDesign"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44bd5_62ea90660383f80c7a3f8b33_Project-page-feed-min.jpeg",
+        "alt": "Capture écran appli AirSaas",
+        "caption": "Reporting régulier, remontée des décisions prises, problèmes rencontrés et des succès pour engager les équipes et avancer sereinement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "automatisez-en-utilisant-des-outils-de-reporting-pour-communiquer-lavancement-du-projet",
+        "text": "Automatisez, en utilisant des outils de reporting pour communiquer l'avancement du projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Météo, progression, point d'attention, décisions à prendre... Vous avez saisi toutes ces informations ? Plutôt que de rédiger un rapport, automatisez l'envoi d'un e-mail au format court et précis, une fois par semaine pour ne pas noyer sous l'information. #WeeklyEmails"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "synchronisez-en-interconnectant-vos-outils-pour-eviter-les-doubles-saisies-des-points-davancement",
+        "text": "Synchronisez, en interconnectant vos outils pour éviter les doubles saisies des points d'avancement"
+      },
+      {
+        "type": "paragraph",
+        "html": "Rappelez-vous comment on faisait avant : \"Je copie/colle le détail du projet depuis la feuille de cadrage, récupère les efforts restants sur Jira, envoie un message sur Teams pour avoir l'état d'avancement, jalons...\" STOP !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Créez les projets sur AirSaas, définissez les priorités en comité de pilotage, et recevez toutes les informations d'avancement directement sur vos canaux de communication synchronisés, comme Microsoft Teams."
+      },
+      {
+        "type": "paragraph",
+        "html": "AirSaas se connecte aux outils les plus populaires du marché (Jira, Azure devOps, Asana...) pour faire remonter les informations essentielles à un pilotage macro de vos activités. #SmartSync"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "dites-stop-a-linfoxication-et-merci-aux-jalons",
+        "text": "Dites stop à l'infoxication et merci aux jalons"
+      },
+      {
+        "type": "paragraph",
+        "html": "Menez des examens formels des progrès par rapport au plan à des points critiques définis dans le plan de projet lorsque des étapes importantes sont terminées. Lors des jalons."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne noyez pas vos équipes et interlocuteurs sous un diagramme de Gantt de suivi d'avancement des tâches. #ThinkJalon"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etablissez-de-bons-objectifs",
+        "text": "Établissez de bons objectifs"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "on-ne-reussit-que-par-rapport-aux-objectifs-fixes",
+        "text": "On ne réussit que par rapport aux objectifs fixés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous ne pouvez pas suivre un avancement de ce que vous n'avez pas établi ! Les bons objectifs sont réalistes, clairs et mesurables. Quel que soit votre choix de méthode (OKR, SMART, SMAC...), rédigez une esquisse des objectifs de votre projet, puis examinez-les pour voir s'ils répondent aux exigences."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention cependant : pas la peine de tout mesurer. Tout n'est pas KPIsable ou ROIsable."
+      },
+      {
+        "type": "paragraph",
+        "html": "À retenir : aucun projet ne démarre si les objectifs ne sont pas clairement établis ! #KPI"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "rendez-votre-projet-visuel",
+        "text": "Rendez votre projet visuel"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d17c7bae68096320d1afb2_6291d51b32a5ceca64de856a_avancement-visual-management-min.jpeg",
+        "alt": "Exemple d'affiche projet montrant le cheminement projet",
+        "caption": "Montrez le cheminement d'un projet en dessinant une montagne pour traiter les projets et missions à atteindre en plusieurs étapes"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "de-lascaux-a-instagram-le-pouvoir-des-images-est-une-constante",
+        "text": "De Lascaux à Instagram : le pouvoir des images est une constante"
+      },
+      {
+        "type": "paragraph",
+        "html": "75 % des neurorécepteurs du cerveau sont dédiés au traitement de l'information visuelle et spatiale. Source : Dan Roam, <em>Convaincre en deux coups de crayon</em>"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'agile, le lean, le design ont cette souche commune : <strong>rendre un objectif, un procédé et un résultat plus visible, plus clair.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et en gestion de projet, les solutions sont nombreuses : <a href=\"http://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet\">Kanban</a>, affiche projet, mindmapping, plateforme avec une interface visuelle au top... Vous pouvez tenir au courant vos collègues des mises à jour de l'état d'avancement grâce à un management visuel attractif et efficace. Par exemple, grâce à l'attribut météo projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "À retenir : il est très motivant pour une équipe de visualiser les objectifs et KPI qu'elle a contribué à établir ainsi que les progrès réalisés (ou non) vers ces objectifs. #SimplifierPourAmplifier"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "adaptez-le-point-davancement-projet-a-vos-differentes-cibles",
+        "text": "Adaptez le point d'avancement projet à vos différentes cibles"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les Directions Générales ayant compris que les cycles de trois ans de projet ne marchent plus et qu'il va falloir prioriser en continu. Elles cherchent de plus en plus à comprendre la réalité de l'avancement des travaux dans la conduite de projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8395f5cd3d844d55773d1_62ea90d5e93adcb759569555_all-projects-min2.jpeg",
+        "alt": "Capture écran appli AirSaas montrant les modèles de présentation différents par cible",
+        "caption": "Une seule mise à jour de votre avancement projet, différentes vues pour chaque typologie de reporting"
+      },
+      {
+        "type": "paragraph",
+        "html": "En utilisant une plateforme dédiée, une seule saisie de la progression sera nécessaire. Et plusieurs filtres plus tard, vos mises à jour et les différents états d'avancement pré-enregistrés dans le menu seront prêts à être démultipliés aux différents lecteurs, sous forme de flash report, par exemple. #ProduceOnceDisplayEverywhere"
+      },
+      {
+        "type": "paragraph",
+        "html": "Exemple d'usage en reporting :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Sur Teams, pour une communication des points d'avancement du projet \"larges\"</strong> auprès de l'ensemble des personnes qui seront concernées par les résultats du projet.",
+          "<strong>Pour l'équipe projet, l'envoi de façon régulière à l'ensemble des parties prenantes</strong> d'un <a href=\"https://www.airsaas.io/fr/solution/flash-report\">rapport flash</a> au format PowerPoint grâce à un outil dédié comme AirSaas."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "concentrez-vous-sur-les-faits-observables",
+        "text": "Concentrez-vous sur les faits observables"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lors des échanges sur la progression des différents sujets, factualisez ! Demandez à chaque personne d'<strong>étayer ses opinions par des faits, en les illustrant avec un exemple concret</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif est de garder une équipe concentrée sur la prise de bonnes décisions fondées sur des faits. Et n'oubliez pas de rester souple."
+      },
+      {
+        "type": "quote",
+        "text": "Si les faits ne correspondent pas à la théorie, changez les faits.",
+        "author": "A. Einstein"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "donnez-des-reperes-temporels-clairs",
+        "text": "Donnez des repères temporels clairs"
+      },
+      {
+        "type": "paragraph",
+        "html": "Proposer un avancement projet implique de zoomer et dé-zoomer en permanence sur les données, de <strong>faciliter l'orientation de chacun dans la transformation en cours</strong>. Problème : quand on a beaucoup de chantiers le rapport devient très vite illisible."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dessinez les chemins critiques du projet pour définir une feuille de route adaptée et cohérente. Elle vous permettra de donner de la visibilité sur les échéances et les actions en cours, passées et à venir, ainsi qu'à monitorer l'état de santé de l'avancement du projet. Le chemin vers chaque objectif et vers le résultat final."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "une-ligne-de-temps-qui-permet",
+        "text": "Une ligne de temps qui permet :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "De grouper les items du rapport par météo, risque, objectif, statut et importance",
+          "De naviguer dans le temps de l'avancement du projet (un peu à la Google Maps)"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d17c7bae68096320d1afac_62ea9133dc70751b9f21198e_timeline-min.jpeg",
+        "alt": "Captiue écran appli AirSaas montrant la time line du portefeuille projet",
+        "caption": "Une ligne de temps, pour une vision temporelle claire : indispensable"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-type-de-projet-un-type-de-suivi",
+        "text": "Un type de projet = un type de suivi"
+      },
+      {
+        "type": "paragraph",
+        "html": "Micro-projet, projet transverse, d'entreprise, \"POC\", projet bac à sable, stratégique, légal, de direction, de département... On se mélange les post-it ! Et surtout : on risque le syndrome du canon pour la mouche, c'est-à-dire sortir l'artillerie lourde de votre management de projet pour rien."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans perdre de vue les fondamentaux d'un point d'avancement de projet : une mise à jour sur la progression. Il est important que le chef de projet adapte son action, ses outils, au type de projet suivi."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur ce thème, découvrez par exemple la définition / classification de Frédéric Navarro, quatre fois DSI et aujourd'hui directeur de projet indépendant au sein d'ESINFO. Extrait de l'épisode 28 de CIO Révolution, le Podcast produit par AirSaas :"
+      },
+      {
+        "type": "quote",
+        "text": "\"On a instauré un dialogue mensuel métier au cours duquel chacun comprend le vocabulaire et les enjeux de chacun. Un dialogue ou chacun accepte de se remettre en cause. Et, au bout de 6 mois, on a une vraie vision de chaque département dans son rythme pour avancer, et chacun s'engage\".",
+        "author": "Frédéric Navarro — DSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un <strong>dialogue constant avec l'ensemble des directions métiers</strong>, il a catégorisé chaque projet à l'aide de 4 différents niveaux (projet stratégique, légal, de direction, de département). En fonction de l'avancement de chaque typologie, l'ensemble est repriorisé pour des points d'avancement spécifiques chaque mois."
+      },
+      {
+        "type": "paragraph",
+        "html": "Besoins, différentes étapes d'avancements, ressources, compétences demandées... le projet est alors présenté sous tous ces aspects. Les différents départements métiers interviennent au fur et à mesure afin de discuter des responsabilités qu'elles auraient dans le cadre de ce projet ainsi que de ses disponibilités."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d17c7bae68096320d1af9e_6291bcaa799a82696652be4a_design-projet-min.jpeg",
+        "alt": "Illustration d'une pratique de DSI - pyramide projets",
+        "caption": "Ces quatre niveaux constituent une base de classement, mais ce n'est en rien ce qui permet de scorer les différents projets et leur avancement"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur la base d'une cinquantaine de chantiers menés par la DSI, trois ou quatre sont de niveau 1, considérés comme majeurs, seront régulièrement évoqués par la DSI avec la Direction. Cinq ou six seront de niveau 2, et ensuite chaque direction et/ou département va avoir un certain nombre de petites missions, de petits sujets à traiter. En général, le processus de définition / reclassification est quelque chose de rapide s'il est fait de cette manière."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-retenir",
+        "text": "À retenir"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Les <strong>trois ingrédients indispensables</strong> d'un processus de point d'avancement de projet efficace sont <strong>la fréquence continue, la standardisation et l'adaptation à vos typologies</strong> des personnes.",
+          "Avoir un trop beau planning de Gantt, envoyer un trop long email, produire le rapport PowerPoint le plus design du CAC40 ne suffit pas ? Ce sont <strong>les collaborateurs et leurs bonnes relations qui font avancer les projets et qui transforment l'entreprise !</strong>",
+          "Un bon point d'avancement remplit un <strong>rôle d'alignement des équipes.</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Vos points d'avancement de projet sont sur la bonne voie ? C'est le moment de revisiter un classique, et de mettre à jour votre vision de l'<a href=\"/gestion-de-projet/analyse-des-risques-projet\">analyse des risques projet.</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}
