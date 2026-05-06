@@ -191,7 +191,7 @@ export default async function BlogArticleRoute({
         <span className="inline-flex items-center gap-[0.375rem]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/assets/logos/airsaas-logo.svg"
+            src="/assets/icons/airsaas-icon.svg"
             alt=""
             aria-hidden="true"
             className="h-[1.25rem] w-auto"

@@ -16,9 +16,12 @@ import { HighlightFrame } from "@/components/library-design/sections/HighlightFr
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
 import { IconRowFrame } from "@/components/library-design/sections/IconRowFrame";
 import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { RelatedSolutionsFrame } from "@/components/library-design/sections/RelatedSolutionsFrame";
 import { CardCta } from "@/components/library-design/ui/CardCta";
 import { IconBadge } from "@/components/library-design/ui/IconBadge";
 import { Footer } from "@/components/library-design/sections/Footer";
+import { PAGES as SOLUTION_PAGES } from "@/data/landings-v2/solutions";
+import { PAGES as PRODUIT_PAGES } from "@/data/landings-v2/produit";
 import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
@@ -688,6 +691,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           {section.items.map((it, i) => (
             <FeatureCard
               key={i}
+              icon={it.iconName ? iconNode(it.iconName) : undefined}
               title={it.title}
               description={it.description ?? ""}
             />
@@ -729,7 +733,7 @@ const FOOTER_COPYRIGHT_ICON = (
   <span className="inline-flex items-center gap-[0.375rem]">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
-      src="/assets/logos/airsaas-logo.svg"
+      src="/assets/icons/airsaas-icon.svg"
       alt=""
       aria-hidden="true"
       className="h-[1.25rem] w-auto"
@@ -738,10 +742,57 @@ const FOOTER_COPYRIGHT_ICON = (
   </span>
 );
 
+// R3 audit Marisella : Solutions + Produit pages need a RelatedSolutionsFrame
+// at the bottom (3 image-first sibling cards). Auto-append when data has no
+// `related` section and page type is solution/produit.
+function buildRelatedSolutions(page: LandingPage) {
+  if (page.type !== "solution" && page.type !== "produit") return null;
+  if (page.sections.some((s) => s.type === "related")) return null;
+  const pool = page.type === "solution" ? SOLUTION_PAGES : PRODUIT_PAGES;
+  const siblings = pool.filter((p) => p.slug !== page.slug).slice(0, 3);
+  if (siblings.length < 3) return null;
+  const basePrefix = page.type === "solution" ? "/fr/solutions" : "/fr/produit";
+  return siblings.map((s) => {
+    const heroSection = s.sections.find((x) => x.type === "hero");
+    const heroImg = (heroSection && "imageSrc" in heroSection ? heroSection.imageSrc : null) || null;
+    return {
+      imageSrc: heroImg || "https://placehold.co/600x375/e8eafc/3a51e2?text=AirSaas",
+      imageAlt: s.meta.title,
+      title: s.meta.title.slice(0, 80),
+      description: s.meta.description.slice(0, 140),
+      href: `${basePrefix}/${s.slug}`,
+    };
+  });
+}
+
+// R40 + N1 audit Marisella : dedupe orphan CTAs. If the data has 2+ `cta`
+// or `cta-highlight` sections, only render the LAST one (the page outro).
+// Inline CTAs in feature-split.primaryCta still render normally.
+function dedupeCtas(sections: LandingSection[]): LandingSection[] {
+  const ctaIndices = sections
+    .map((s, i) => ({ type: s.type, i }))
+    .filter((x) => x.type === "cta" || x.type === "cta-highlight")
+    .map((x) => x.i);
+  if (ctaIndices.length <= 1) return sections;
+  const lastCtaIdx = ctaIndices[ctaIndices.length - 1];
+  const dropIdx = new Set(ctaIndices.slice(0, -1));
+  return sections.filter((_, i) => !dropIdx.has(i) || i === lastCtaIdx);
+}
+
 export default function LandingPageV2({ page }: { page: LandingPage }) {
+  const relatedSolutions = buildRelatedSolutions(page);
+  const sections = dedupeCtas(page.sections);
   return (
     <main className="flex min-h-screen flex-col bg-background">
-      {page.sections.map((section, i) => renderSection(section, i))}
+      {sections.map((section, i) => renderSection(section, i))}
+      {relatedSolutions ? (
+        <RelatedSolutionsFrame
+          title="Découvrez nos autres solutions"
+          subtitle="Tout AirSaas dans une plateforme unique."
+          solutions={relatedSolutions}
+          linkLabel="Voir plus"
+        />
+      ) : null}
       <Footer
         columns={BLOG_INDEX_DATA.footerColumns}
         copyright={BLOG_INDEX_DATA.copyright}
