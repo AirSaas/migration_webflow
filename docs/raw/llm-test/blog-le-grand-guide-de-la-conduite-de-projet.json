@@ -13,14 +13,14 @@
     "meta": {
       "title": "Le grand guide de la conduite de projet",
       "h1": "Le grand guide de la conduite de projet",
-      "description": "Dossier grand format pour DSI/CIO, Directeurs des études, Chefs de projet et PMO : démarche projet, cadrage, budget, jalons, reporting, communication et pilotage moderne.",
-      "publishedDate": "10/5/2022",
+      "description": "Dossier grand format AirSaas : démarche, cadrage, budget, organisation, réunions, plan de communication, reporting, fiche projet et pilotage moderne. Astuces opérationnelles pour les Pros de la Transfo.",
       "author": {
         "name": "Bertran Ruiz",
         "category": "Gestion de projets",
         "publishedDate": "10/5/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
       },
+      "publishedDate": "10/5/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea94cb5bd878297241d8d0_Project%20image%20(4)-min.jpg",
         "alt": "Gestion de Projets"

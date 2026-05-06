@@ -8,14 +8,14 @@
     "meta": {
       "title": "Comment instaurer une démarche de projet dans mon entreprise ?",
       "h1": "Comment instaurer une démarche de projet dans mon entreprise ?",
-      "description": "Découvrez pourquoi et comment mettre en place une démarche projet pragmatique et standardisée dans votre entreprise pour piloter efficacement la transformation.",
-      "publishedDate": "4/5/2022",
+      "description": "Pourquoi et comment mettre en place une démarche projet pragmatique et standardisée dans votre entreprise. Étapes-types, raisons, pilotage efficace, éléments clés et erreurs à éviter.",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "4/5/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
+      "publishedDate": "4/5/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea955c7a189107aaa7cb8f_Project%20image%20(3)-min.jpg",
         "alt": "Gestion de Projets"
@@ -88,13 +88,13 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "<a href=\"https://www.airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\"><strong>Cadrage</strong></a> général des objectifs, étapes et des besoins, avec le métier ;",
+          "<a href=\"https://www.airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\" target=\"_blank\"><strong>Cadrage</strong></a> général des objectifs, étapes et des besoins, avec le métier ;",
           "Choix des <strong>méthodologies</strong> de livraison, des exigences, des outils, de l'équipe et de la gouvernance projet ;",
           "<strong>Planification</strong> macro / jalons / plan de communication ;",
           "<strong>Exécution</strong> et respect du triptyque \"coût-qualité-délais\" ;",
           "<strong>Tests et recette ;</strong>",
           "<strong>Livraison ;</strong>",
-          "<a href=\"https://www.airsaas.io/gestion-de-projet/comment-animer-un-bilan-projet-efficace\"><strong>Bilan projet</strong></a> et amélioration ;"
+          "<a href=\"https://www.airsaas.io/gestion-de-projet/comment-animer-un-bilan-projet-efficace\" target=\"_blank\"><strong>Bilan projet</strong></a> et amélioration ;"
         ]
       },
       {
@@ -111,7 +111,7 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Quasiment toutes les entreprises ont une <strong>culture projet hétérogène</strong> et les <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\"><strong>chefs de projets</strong></a> ont également des <strong>niveaux très variables</strong> ;",
+          "Quasiment toutes les entreprises ont une <strong>culture projet hétérogène</strong> et les <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\" target=\"_blank\"><strong>chefs de projets</strong></a> ont également des <strong>niveaux très variables</strong> ;",
           "<strong>La DSI a longtemps été en pointe sur ces questions,</strong> et les <strong>métiers pas trop \"matures\"</strong> sur la gestion de projet ;",
           "On <strong>semble s'être collectivement habitué à ce que les chantiers IT soient en retard</strong>, plus cher et/ou \"hors sujets\" ;",
           "N'importe quel outil de CRM offre une bonne vision globale de la performance commerciale avec des reportings variés... <strong>la performance opérationnelle des projets de transformation d'entreprise est quant à elle très difficile à visualiser et partager</strong>...",
@@ -160,7 +160,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>Si on traite les questions en flux continu,</strong> type \"run\", ....comme fait-on pour évaluer les résultats, le <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budget</a> et la valeur ajoutée crée ?"
+        "html": "<strong>Si on traite les questions en flux continu,</strong> type \"run\", ....comme fait-on pour évaluer les résultats, le <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\" target=\"_blank\">budget</a> et la valeur ajoutée crée ?"
       },
       {
         "type": "paragraph",
@@ -235,10 +235,10 @@
         "type": "list",
         "ordered": true,
         "items": [
-          "Je <strong>vends un</strong> <a href=\"https://www.appvizer.fr/magazine/operations/ppm/plan-de-transformation\"><strong>plan de transformation</strong></a>, qui donne du sens...pour tout le monde !",
+          "Je <strong>vends un</strong> <a href=\"https://www.appvizer.fr/magazine/operations/ppm/plan-de-transformation\" target=\"_blank\"><strong>plan de transformation</strong></a>, qui donne du sens...pour tout le monde !",
           "Je <strong>canalise mon objectif initial</strong>, sur des projets à \"courte portée\" !",
           "Je <strong>\"caste\" la premières équipe projet</strong>, avec des individus et directions qui se connaissent... et s'apprécient.",
-          "Dans mon <a href=\"https://www.airsaas.io/gestion-de-projet/le-pilotage-de-projet-en-2023\">pilotage du projet</a> et reporting, <strong>je partage des</strong> <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons</strong></a> <strong>pas des tâches</strong> !",
+          "Dans mon <a href=\"https://www.airsaas.io/gestion-de-projet/le-pilotage-de-projet-en-2023\" target=\"_blank\">pilotage du projet</a> et reporting, <strong>je partage des</strong> <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\" target=\"_blank\"><strong>jalons</strong></a> <strong>pas des tâches</strong> !",
           "Je <strong>valorise vraiment cette équipe : les contributeurs</strong>, key users, responsable métiers..."
         ]
       },
@@ -377,7 +377,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Une fois les fondamentaux généraux de la démarche établis, le prochain challenge sera de passer en mode projet dans le détail. La lecture de cet article devrait vous y aider : <a href=\"/fr/gestion-de-projet/le-guide-du-mode-projet\">Comment faire passer mon entreprise en mode projet</a> ?"
+        "html": "Une fois les fondamentaux généraux de la démarche établis, le prochain challenge sera de passer en mode projet dans le détail. La lecture de cet article devrait vous y aider : <a href=\"/fr/gestion-de-projet/le-guide-du-mode-projet\" target=\"_blank\">Comment faire passer mon entreprise en mode projet</a> ?"
       }
     ],
     "related": [

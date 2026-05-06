@@ -8,14 +8,14 @@
     "meta": {
       "title": "Comment faire une météo projet claire et compréhensible ?",
       "h1": "Comment faire une météo projet claire et compréhensible ?",
-      "description": "Découvrez comment mettre en place une météo projet claire et efficace : définition, bénéfices, erreurs à éviter et alternatives visuelles pour un reporting projet performant.",
-      "publishedDate": "13/4/2022",
+      "description": "Découvrez comment mettre en place une météo projet pertinente : usages fondamentaux, bonnes pratiques, erreurs courantes à éviter et alternatives visuelles pour vos états de santé projet.",
       "author": {
         "name": "Jérôme Dard",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png",
         "category": "Gestion de projets",
-        "publishedDate": "13/4/2022",
-        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+        "publishedDate": "13/4/2022"
       },
+      "publishedDate": "13/4/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f36d0c33f545261135cd82_meteo-projet-airsaas-min.jpg",
         "alt": "Météo projet AirSaas"
@@ -57,7 +57,7 @@
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b15_6247101b95f4a4562cfa3fd0_27379b47-3c96-4060-b561-4b071f5ad3db.png",
-        "alt": "Capture écran AirSaas - météo projet",
+        "alt": "Capture écran AirSaas - mété",
         "caption": "Trois états de météo projet type"
       },
       {
@@ -147,7 +147,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Agrémenter les tableaux de synthèse d'indicateurs permet de <strong>simplifier la lecture des données</strong> et de rendre compte rapidement de la situation globale...et du contexte."
+        "html": "Agrémenter les tableaux de synthèse d'indicateurs permet de <strong>simplifier la lecture des données </strong>et de rendre compte rapidement de la situation globale...et du contexte."
       },
       {
         "type": "heading",
@@ -177,7 +177,7 @@
       },
       {
         "type": "paragraph",
-        "html": "La météo projet offre une véritable <strong>cartographie des activités en cours et des éventuels signaux faibles, symptômes ou syndromes de dysfonctionnements</strong> de votre système. !"
+        "html": "La météo projet offre une véritable <strong>cartographie des activités en cours et des éventuels signaux faibles, symptômes ou syndromes de dysfonctionnements </strong>de votre système. !"
       },
       {
         "type": "heading",
@@ -197,7 +197,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Aïe ...l'équipe n'a pas vu le soleil depuis longtemps...<strong>Attention</strong>, d'une part au moral des troupes et d'autre part <strong>aux causes réelles de cette mauvaise conjoncture répétée.</strong> Un <strong>travail d'analyse des causes</strong> sur les problématiques rencontrées peut (devrait) utilement être mené."
+        "html": "Aïe ...l'équipe n'a pas vu le soleil depuis longtemps...<strong>Attention</strong>, d'une part au moral des troupes et d'autre part<strong> aux causes réelles de cette mauvaise conjoncture répétée.</strong> Un <strong>travail d'analyse des causes</strong> sur les problématiques rencontrées peut (devrait) utilement être mené."
       },
       {
         "type": "heading",
@@ -211,11 +211,11 @@
       },
       {
         "type": "paragraph",
-        "html": "En vous <strong>concentrant sur les signaux faibles et / ou symptômes fréquents</strong>, c'est à dire les sujets compliqués voire bloquants, vous pourrez déterminer avec précision où concentrer les ressources pour optimiser votre gestion de projet. <strong>Mesurer c'est piloter !</strong>"
+        "html": "En vous<strong> concentrant sur les signaux faibles et / ou symptômes fréquents</strong>, c'est à dire les sujets compliqués voire bloquants, vous pourrez déterminer avec précision où concentrer les ressources pour optimiser votre gestion de projet. <strong>Mesurer c'est piloter !</strong>"
       },
       {
         "type": "paragraph",
-        "html": "Finalement cet indicateur est un <strong>outil de reporting visuel</strong> assez <strong>proche des outils de management visuel</strong> issues des méthodes de production <strong>du lean management. Celui qu'on regarde le plus !</strong>"
+        "html": "Finalement cet indicateur est un <strong>outil de reporting visuel </strong>assez<strong> proche des outils de management visuel </strong>issues des méthodes de production <strong>du lean management. Celui qu'on regarde le plus !</strong>"
       },
       {
         "type": "heading",
@@ -237,7 +237,7 @@
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b18_62471c06b22b5c1d964df38a_3typeou4meteo-projet.png",
         "alt": "3 statuts météo",
-        "caption": "Avec un 4e statut on dépassera plus facilement le côté \"tous les projets ont la moyenne\"..."
+        "caption": "Avec un 4e statut on dépassera plus facilement le côté \"tous les  projets ont la moyenne\"..."
       },
       {
         "type": "paragraph",
@@ -281,7 +281,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Focalisé sur des usages avancés....on oublie souvent ce point de méthode basique en gestion de projet....<strong>Se mettre d'accord</strong> avec toutes les parties prenantes sur <strong>ce qui fait passer d'un statut météo projet à un autre.</strong> C'est fondamental."
+        "html": "Focalisé sur des usages avancés....on oublie souvent ce point de méthode basique en gestion de projet....<strong>Se mettre d'accord </strong>avec toutes les parties prenantes sur <strong>ce qui fait passer d'un statut météo projet à un autre. </strong>C'est fondamental."
       },
       {
         "type": "heading",
@@ -297,11 +297,11 @@
       },
       {
         "type": "paragraph",
-        "html": "☀️ Connaitre la météo et le risque d'un projet c'est bien, <strong>savoir pourquoi il est dans cette état c'est encore mieux.</strong> En un clic sur \"Voir le détail\", retrouver l'explication de pourquoi votre projet est bloqué depuis deux semaines !"
+        "html": "☀️ Connaitre la météo et le risque d'un projet c'est bien, <strong>savoir pourquoi il est dans cette état c'est encore mieux. </strong>En un clic sur \"Voir le détail\", retrouver l'explication de pourquoi votre projet est bloqué depuis deux semaines !"
       },
       {
         "type": "paragraph",
-        "html": "On à besoin que <strong>l'information du changement de statut soit compréhensible par tous.</strong> Pour y parvenir votre météo projet peut être \"auto-portante\"."
+        "html": "On à besoin que<strong> l'information du changement de statut soit compréhensible par tous.</strong> Pour y parvenir votre météo projet peut être \"auto-portante\"."
       },
       {
         "type": "paragraph",
@@ -325,7 +325,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Donc, <strong>le statut météo ne devrait pas être utilisé pour cacher des problèmes.</strong> C'est plutôt une façon de <strong>rechercher du support et des conseils du sponsor et des parties prenantes</strong>. Utilisez une définition de statut commune pour communiquer."
+        "html": "Donc,<strong> le statut météo ne devrait pas être utilisé pour cacher des problèmes. </strong>C'est plutôt une façon de <strong>rechercher du support et des conseils du sponsor et des parties prenantes</strong>. Utilisez une définition de statut commune pour communiquer."
       },
       {
         "type": "heading",
@@ -352,7 +352,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "2. Le diagnostic \"ABCDEFG\"",
+        "text": "2.Le diagnostic \"ABCDEFG\"",
         "id": "2le-diagnostic-abcdefg"
       },
       {

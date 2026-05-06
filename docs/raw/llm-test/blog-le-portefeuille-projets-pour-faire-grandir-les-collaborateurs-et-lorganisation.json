@@ -8,14 +8,14 @@
     "meta": {
       "title": "Le portefeuille projets pour faire grandir les collaborateurs et l'organisation",
       "h1": "Le portefeuille projets pour faire grandir les collaborateurs et l'organisation",
-      "description": "Faut-il attendre d'être mature en gestion de projet pour lancer une démarche de portefeuille projets ? Arguments pour, contre, retour d'expérience PMO et verdict.",
+      "description": "Faut-il attendre d'être 'mature' en gestion de projet pour passer au portefeuille de projets ? Arguments pour, contre, et retour d'expérience PMO.",
+      "publishedDate": "1/5/2023",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "1/5/2023",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
-      "publishedDate": "1/5/2023",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/644fbfa227c55147fd413a16_PPM%20vs%20PM%20(1)-min.jpg",
         "alt": "Gestion de Projets"
@@ -64,7 +64,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Dans cet article nous vous proposons de <strong>revenir sur les arguments</strong> les plus courants en faveur d'un immobilisme sur les processus de gouvernance et de les confronter aux arguments d'un éditeur engagé en faveur de l'implémentation d'un outil de gouvernance moderne !  <br/>Vous allez <strong>entendre le procureur et l'avocat !</strong> À vous de vous faire votre jugement à la fin. ^^"
+        "html": "Dans cet article nous vous proposons de <strong>revenir sur les arguments</strong> les plus courants en faveur d'un immobilisme sur les processus de gouvernance et de les confronter aux arguments d'un éditeur engagé en faveur de l'implémentation d'un outil de gouvernance moderne ! <br/>Vous allez <strong>entendre le procureur et l'avocat !</strong> À vous de vous faire votre jugement à la fin. ^^"
       },
       {
         "type": "paragraph",
@@ -77,8 +77,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "cinq-niveaux-de-maturite-en-gestion-de-projet-pour-une-entreprise",
-        "text": "Cinq niveaux de maturité en gestion de projet pour une entreprise :"
+        "text": "Cinq niveaux de maturité en gestion de projet pour une entreprise :",
+        "id": "cinq-niveaux-de-maturite-en-gestion-de-projet-pour-une-entreprise"
       },
       {
         "type": "figure",
@@ -104,8 +104,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "les-arguments-contre-une-demarche-de-portefeuilles-de-projets-dans-une-organisation-pas-assez-mature-en-gestion-de-projets",
-        "text": "Les arguments contre une démarche de portefeuilles de projets dans une organisation pas assez \"mature\" en gestion de projets"
+        "text": "Les arguments contre une démarche de portefeuilles de projets dans une organisation pas assez \"mature\" en gestion de projets",
+        "id": "les-arguments-contre-une-demarche-de-portefeuilles-de-projets-dans-une-organisation-pas-assez-mature-en-gestion-de-projets"
       },
       {
         "type": "figure",
@@ -137,8 +137,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "les-arguments-pour-une-demarche-de-portefeuilles-de-projet-dans-une-organisation-pas-assez-mature-en-gestion-de-projet",
-        "text": "Les arguments pour une démarche de portefeuilles de projet dans une organisation pas assez \"mature\" en gestion de projet."
+        "text": "Les arguments pour une démarche de portefeuilles de projet dans une organisation pas assez \"mature\" en gestion de projet.",
+        "id": "les-arguments-pour-une-demarche-de-portefeuilles-de-projet-dans-une-organisation-pas-assez-mature-en-gestion-de-projet"
       },
       {
         "type": "figure",
@@ -162,8 +162,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "retour-dexperience-sur-la-mise-en-place-de-la-fonction-pmo-bureau-des-projets-dans-une-structure-a-faible-maturite-projet",
-        "text": "Retour d'expérience sur la mise en place de la fonction PMO - Bureau des projets dans une structure à faible maturité projet"
+        "text": "Retour d'expérience sur la mise en place de la fonction PMO - Bureau des projets dans une structure à faible maturité projet",
+        "id": "retour-dexperience-sur-la-mise-en-place-de-la-fonction-pmo-bureau-des-projets-dans-une-structure-a-faible-maturite-projet"
       },
       {
         "type": "paragraph",
@@ -226,8 +226,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "le-verdict-nattendez-pas-que-votre-entreprise-soit-mature-en-gestion-de-projet-pour-lancer-une-demarche-de-gestion-de-portefeuille-sinon-elle-ne-le-sera-jamais",
-        "text": "Le verdict : n'attendez pas que votre entreprise soit \"mature\" en gestion de projet pour lancer une démarche de gestion de portefeuille, sinon elle ne le sera jamais !"
+        "text": "Le verdict : n'attendez pas que votre entreprise soit \"mature\" en gestion de projet pour lancer une démarche de gestion de portefeuille, sinon elle ne le sera jamais !",
+        "id": "le-verdict-nattendez-pas-que-votre-entreprise-soit-mature-en-gestion-de-projet-pour-lancer-une-demarche-de-gestion-de-portefeuille-sinon-elle-ne-le-sera-jamais"
       },
       {
         "type": "paragraph",
@@ -247,7 +247,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Et pour creuser ce point clé, rendez-vous sur l'article \"<a href=\"/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers\">Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers\".</a>"
+        "html": "Et pour creuser ce point clé, rendez-vous sur l'article \"<a href=\"/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers\">Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers\"</a>."
       }
     ],
     "related": [

@@ -21,6 +21,8 @@ export interface HeroSection {
   titleHighlight?: string;
   /** Main title (rest of H1). */
   title: string;
+  /** Optional trailing dark portion of the title (after titleHighlight). */
+  titleSuffix?: string;
   subtitle?: string;
   /** Optional inline-HTML body below the subtitle (extra paragraph). */
   body?: string;
@@ -37,6 +39,12 @@ export interface HeroSection {
 export interface IntroSection {
   type: "intro";
   title?: string | null;
+  /** Optional gradient/highlight portion of the title (e.g. tri-part heading). */
+  titleHighlight?: string;
+  /** Optional dark prefix part of the title (before titleHighlight). */
+  titlePrefix?: string;
+  /** Optional trailing dark portion of the title. */
+  titleSuffix?: string;
   body?: string | null; // inline HTML
   /** Optional heading level — defaults to 2; some sub-headings emit as 3. */
   headingLevel?: 2 | 3 | 4;
@@ -52,6 +60,8 @@ export interface FeatureSplitSection {
   tag?: string;
   title: string;
   titleHighlight?: string; // e.g. <strong> portion
+  /** Optional trailing dark part of the title (after titleHighlight). */
+  titleSuffix?: string;
   /** Optional small subtitle between title and body. */
   subtitle?: string;
   body?: string; // inline HTML (paragraphs, bullets)
@@ -323,7 +333,8 @@ export interface StepsRichSection {
   titleHighlight?: string;
   subtitle?: string;
   steps: {
-    number?: number;
+    /** Step number — accept number OR string (Opus parfois "1" string). */
+    number?: number | string;
     iconName?: string;
     title: string;
     description: string;

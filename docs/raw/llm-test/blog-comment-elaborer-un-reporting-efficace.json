@@ -8,17 +8,17 @@
     "meta": {
       "title": "Comment élaborer un reporting projet efficace ?",
       "h1": "Comment élaborer un reporting projet efficace ?",
-      "description": "Découvrez comment construire un reporting projet efficace : objectifs, indicateurs clés, choix des données, fréquence, granularité et outils de pilotage.",
+      "description": "Outil de communication et d'analyse, le reporting projet a pour objectif de rendre compte de manière régulière de l'avancée d'un projet. Découvrez comment construire un reporting efficace, synthétique et orienté action.",
+      "publishedDate": "8/10/2021",
       "author": {
         "name": "Simon Vacher",
         "category": "Gestion de projets",
         "publishedDate": "8/10/2021",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
       },
-      "publishedDate": "8/10/2021",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3819a0ae83ff1d7668d5e_6-2.jpg",
-        "alt": "Comment élaborer un reporting projet efficace ?"
+        "alt": "Gestion de Projets"
       }
     },
     "toc": [
@@ -94,7 +94,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Le parti pris du reporting projet est qu'en s'appuyant sur des indicateurs de performances (appelés aussi KPIs pour Key Performance Indicators), on peut mesurer et piloter la trajectoire d'un projet de manière efficace, ou à l'inverse se rendre compte de certains points de blocage."
+        "html": "Le parti pris du reporting projet est qu'en s'appuyant sur des indicateurs de performances (appelés aussi KPIs pour Key Performance Indicators) , on peut mesurer et piloter la trajectoire d'un projet de manière efficace, ou à l'inverse se rendre compte de certains points de blocage."
       },
       {
         "type": "paragraph",
@@ -114,7 +114,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Le reporting est donc avant tout un outil d'aide à la décision, et pas du tout un outil de contrôle comme on le pense souvent. Il doit amener les parties prenantes à se poser des questions : \"Quelle suite à donner au projet ?\", \"De quelles compétences avons-nous besoin ?\", \"Pourquoi avons-nous pris du retard sur ce point précis ?\", \"Pourquoi le rythme de delivery est-il en train de baisser ?\". Ce sont toutes ces questions auxquelles les membres de l'équipe projet doivent pouvoir répondre si le reporting est pertinent."
+        "html": "Le reporting est donc avant tout un outil d'aide à la décision, et pas du tout un outil de contrôle comme on le pense souvent. Il doit amener les parties prenantes à se poser des questions : \"Quelle suite à donner au projet?\", \"De quelles compétences avons-nous besoin ?\", \"Pourquoi avons-nous pris du retard sur ce point précis ?\". \"Pourquoi le rythme de delivery est-il en train de baisser ?\". Ce sont toutes ces questions auxquelles les membres de l'équipe projet doivent pouvoir répondre si le reporting est pertinent."
       },
       {
         "type": "figure",
@@ -138,11 +138,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Il faut donc faire directement le lien entre le choix des données présentes dans vos tableaux de bord et les besoins des différents destinataires. La première question à se poser n'est donc pas \"Quelles données inclure dans mon reporting ?\" mais :"
+        "html": "Il faut donc faire directement le lien entre le choix des données présentes dans vos tableaux de bord et les besoins des différents destinataires. La première question à se poser n'est donc pas \"Quelles données inclure dans mon reporting?\" mais :"
       },
       {
         "type": "paragraph",
-        "html": "\"Qui va consulter ces indicateurs et qu'en attendent-ils ?\", \"Quels peuvent-être les solutions que mon rapport apporte par rapport aux problématiques soulevées la semaine dernière ?\".... Et seulement ensuite : \"Quelles sont les informations clés dont j'ai besoin ?\""
+        "html": "\"Qui va consulter ces indicateurs et qu'en attendent-ils ?\", \"Quels peuvent-être les solutions que mon rapport apporte par rapport aux problématiques soulevées la semaine dernière?\".... Et seulement ensuite : \"Quelles sont les informations clés dont j'ai besoin ?\""
       },
       {
         "type": "heading",

@@ -8,7 +8,7 @@
     "meta": {
       "title": "Comment mettre en place un PMO ?",
       "h1": "Comment mettre en place un PMO ?",
-      "description": "Découvrez quand, comment et pourquoi mettre en place un PMO dans votre entreprise : critères de décision, profil idéal, gouvernance, quick-wins et bonnes pratiques.",
+      "description": "Guide pratique pour mettre en place un PMO en entreprise : quand le recruter, quel profil, quelle position, comment communiquer et organiser la gouvernance.",
       "author": {
         "name": "Jonas Roman",
         "category": "Gestion de projets",
@@ -18,7 +18,7 @@
       "publishedDate": "25/2/2023",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8ed73ba2092e1215ffbd6_PMO-min.jpg",
-        "alt": "Comment mettre en place un PMO"
+        "alt": "Gestion de Projets"
       }
     },
     "toc": [
@@ -60,7 +60,7 @@
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f8e7db537877c35f464429_mise%20en%20place%20PMO.jpg",
         "alt": "project management office - bureau des projets",
-        "caption": "Bienvenue dans le pragmatic project management office - bureau des projets"
+        "caption": "Bienvenue dans le pragmatic project management office  - bureau des projets"
       },
       {
         "type": "heading",
@@ -74,7 +74,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Il semble cependant que les mêmes freins reviennent quand on se pose la question de la mise en place d'un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/metier-pmo\" target=\"_blank\">PMO</a>. L'entreprise est-elle suffisamment grande pour justifier la création de ce type de poste ? Est-on assez structuré en interne pour le mettre en place ?"
+        "html": "Il semble cependant que les mêmes freins reviennent quand on se pose la question de la mise en place d'un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/metier-pmo\">PMO</a>. L'entreprise est-elle suffisamment grande pour justifier la création de ce type de poste ? Est-on assez structuré en interne pour le mettre en place ?"
       },
       {
         "type": "paragraph",
@@ -106,14 +106,14 @@
         "type": "list",
         "ordered": true,
         "items": [
-          "Premier critère, purement ROIste, dans les ratios généralement constatés, le bon moment pour mettre en place un PMO est quand la somme des projets transverses ou de transformation atteint 400K€ à 500K€. Provisionner 15% à 20% de la valeur de son <a href=\"https://www.airsaas.io/fr/gestion-de-projet/gestion-portefeuille-projets-vs-gestion-de-projet\" target=\"_blank\">portefeuille projet</a> dans la mise en place d'un PMO semble être une bonne pratique pour sécuriser les investissements actuels mais aussi améliorer l'efficience des futurs investissements.",
-          "Quand les projets dérapent ! Second contexte à prendre en compte pour passer le cap. Quand votre projet ERP glisse depuis 18 mois… c'est le signe qu'il vous manque de \"l'huile\". Recruter ou s'adjoindre les services d'un PMO externe permettra en outre d'économiser du temps passé par les collaborateurs clés sur les projets et ainsi mieux gérer leurs activités cœur de métier.",
+          "Premier critère, purement ROIste, dans les ratios généralement constatés, le bon moment pour mettre en place un PMO est quand la somme des projets transverses ou de transformation atteint 400K€ à 500K€. Provisionner 15% à 20% de la valeur de son <a href=\"https://www.airsaas.io/fr/gestion-de-projet/gestion-portefeuille-projets-vs-gestion-de-projet\">portefeuille projet</a> dans la mise en place d'un PMO semble être une bonne pratique pour sécuriser les investissements actuels mais aussi améliorer l'efficience des futurs investissements.",
+          "Quand les projets dérapent ! Second contexte à prendre en compte pour passer le cap. Quand votre projet ERP glisse depuis 18 mois…c'est le signe qu'il vous manque de \"l'huile\". Recruter ou s'adjoindre les services d'un PMO externe permettra en outre d'économiser du temps passé par les collaborateurs clés sur les projets et ainsi mieux gérer leurs activités cœur de métier.",
           "Enfin, troisième critère plus subjectif, <strong>quand le DG à l'impression que ça rame</strong> ! C'est le signe qu'il va falloir piloter un peu plus ce sujet-là. Ne pas s'installer dans le manque d'efficience, transparence et de confiance."
         ]
       },
       {
         "type": "paragraph",
-        "html": "Besoin de creuser le sujet ? <a href=\"https://www.airsaas.io/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo\" target=\"_blank\">Rendez-vous sur notre article \"Pourquoi mettre en place un PMO ?\"</a>"
+        "html": "Besoin de creuser le sujet ? <a href=\"https://www.airsaas.io/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo\">Rendez-vous sur notre article \"Pourquoi mettre en place un PMO ?\"</a>"
       },
       {
         "type": "heading",
@@ -147,7 +147,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Attention les quatre points ci-dessus constituent la base… Mais <strong>ça ne suffira pas</strong> pour une prise de fonction de PMO efficace !"
+        "html": "Attention les quatre points ci-dessus constituent la base …Mais <strong>ça ne suffira pas</strong> pour une prise de fonction de PMO efficace !"
       },
       {
         "type": "paragraph",
@@ -158,8 +158,8 @@
         "ordered": true,
         "items": [
           "<strong>Le PMO est rattaché à la Direction</strong>. Oui c'est un rôle stratégique !",
-          "<strong>Le PMO est positionné comme un facilitateur</strong> versus un contrôleur qui \"enm….e\" tout le monde. Il doit donner envie et fédérer !",
-          "On donne (vraiment) au PMO <strong>les capacités, la permission de challenger les sponsors et décideurs</strong>… Vous tuez ce rôle si le PMO se fait rembarrer à chaque remontée."
+          "<strong>Le PMO est positionné comme un facilitateur</strong> versus un contrôleur qui \"enm….e\" tout le monde. il doit donner envie et fédérer !",
+          "On donne (vraiment) au PMO <strong>les capacités, la permission de challenger les sponsors et décideurs</strong>…Vous tuez ce rôle si le PMO se fait rembarrer à chaque remontée."
         ]
       },
       {
@@ -226,7 +226,7 @@
           "Manque d'outils adaptés : \"pour qui possède un marteau tout ressemble à un clou\".",
           "Problèmes de communication : il est possible que les différents membres de l'entreprise ne soient pas sur la même longueur d'onde en ce qui concerne les objectifs et les responsabilités du PMO, ce qui peut entraîner des malentendus et des difficultés à travailler en collaboration.",
           "Manque de soutien : il est possible que le PMO ne bénéficie pas du soutien nécessaire de la part de la direction, ce qui peut limiter son efficacité et sa capacité à remplir ses fonctions de manière adéquate.",
-          "Le manque d'exemplarité : si votre Codir ne donne pas l'exemple pas la peine d'attendre des métiers, PMO et chef de projet de compenser… Par un phénomène de mimétisme hiérarchique, chacun s'adaptera à la \"norme\", bonne et mauvaise ^^"
+          "Le manque d'exemplarité : si votre Codir ne donne pas l'exemple pas la peine d'attendre des métiers, PMO et chef de projet de compenser…Par un phénomène de mimétisme hiérarchique, chacun s'adaptera à la \"norme\", bonne et mauvaise ^^"
         ]
       },
       {
@@ -337,7 +337,7 @@
         "ordered": true,
         "items": [
           "Assurez-vous du fait que la stratégie de l'organisation existe bien et qu'elle est partagée ! Donner du sens : Il ne suffit pas d'un plan stratégique tous les 5 ans, il faut le faire vivre !",
-          "Ensuite, descendez d'un niveau jusqu'aux grands programmes identifiés. Le sont-ils ? Car oui… avant même de vouloir améliorer la gouvernance il faut vérifier que chacun sait \"où on va collectivement ?\"",
+          "Ensuite, descendez d'un niveau jusqu'aux grands programmes identifiés. Le sont-ils ? Car oui…avant même de vouloir améliorer la gouvernance il faut vérifier que chacun sait \"où on va collectivement ?\"",
           "Ensuite, mettez-vous d'accord sur des cycles de priorisation au regard des cycles budgétaires en place.",
           "Enfin, revenez aux fondamentaux humains. Une bonne gouvernance projet restera toujours d'avoir un sponsor, un chef de projet, un référent métier vraiment disponible. Sans oublier la création de nouveaux rituels clés de synchronisation et communications, réguliers et respectés !"
         ]

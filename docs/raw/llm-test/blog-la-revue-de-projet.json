@@ -8,14 +8,14 @@
     "meta": {
       "title": "La revue de projet : un point d'étape pour tirer les leçons de vos erreurs",
       "h1": "La revue de projet : un point d'étape pour tirer les leçons de vos erreurs",
-      "description": "Découvrez comment organiser une revue de projet efficace : définition, types, objectifs, participants, bonnes pratiques et astuces pour tirer les leçons de vos projets.",
+      "description": "Découvrez à quoi sert une revue de projet, ses différents types, qui inviter, comment la préparer et nos astuces pour la rendre efficace.",
+      "publishedDate": "8/10/2021",
       "author": {
         "name": "Simon Vacher",
         "category": "Gestion de projets",
         "publishedDate": "8/10/2021",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
       },
-      "publishedDate": "8/10/2021",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3712bd6406519fcf1cc3e_2.jpg",
         "alt": "Gestion de Projets"
@@ -159,7 +159,7 @@
           "<strong>Discuter des problèmes</strong> que chacun a rencontrés dans ses dossiers afin de trouver collectivement des solutions",
           "<strong>Débattre</strong> de réajustements potentiels",
           "<strong>Prendre des décisions</strong> sur la suite du projet",
-          "<strong>Renforcer la</strong> <a href=\"https://www.collock.com/2020/08/25/comment-renforcer-cohesion-equipe-nouveau-projet/\"><strong>cohésion</strong> de l'équipe</a>",
+          "<strong>Renforcer la </strong><a href=\"https://www.collock.com/2020/08/25/comment-renforcer-cohesion-equipe-nouveau-projet/\"><strong>cohésion</strong> de l'équipe</a>",
           "<strong>Créer des habitudes</strong> collaboratives entre les membres de l'équipe"
         ]
       },

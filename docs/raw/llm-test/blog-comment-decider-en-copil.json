@@ -8,17 +8,17 @@
     "meta": {
       "title": "Comment décider en Copil ?",
       "h1": "Comment décider en Copil ?",
-      "description": "Découvrez comment prendre les bonnes décisions en comité de pilotage : 2 pièges à éviter, 2 prérequis, 5 modes de décision et une checklist pour une prise de décision durable.",
+      "description": "Découvrez 5 modes de décision pour comité de pilotage, deux pièges à éviter et une checklist pour des prises de décision durables en Copil.",
+      "publishedDate": "12/6/2022",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "12/6/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
-      "publishedDate": "12/6/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62a647e53ec20c14d109fd3a_Project%20image%20(8)-min.jpg",
-        "alt": "Comment décider en Copil ?"
+        "alt": "Comment décider en Copil"
       }
     },
     "toc": [
@@ -42,31 +42,31 @@
     "blocks": [
       {
         "type": "paragraph",
-        "html": "Ça vous arrive d'avoir des projets bloqués à cause de décisions qui ne sont pas prises ? Ou de vous demander pourquoi cette décision avait été prise ? On sait que dans les Copil, les décisions peuvent être parfois difficiles à prendre. On a tous en tête une personne qui monopolise la parole pendant dix minutes. Quelqu'un qui demande un détail précis qui nous empêche de parler du fond."
+        "html": "<p>Ça vous arrive d'avoir des projets bloqués à cause de décisions qui ne sont pas prises ? Ou de vous demander pourquoi cette décision avait été prise ? On sait que dans les Copil, les décisions peuvent être parfois difficiles à prendre. On a tous en tête une personne qui monopolise la parole pendant dix minutes. Quelqu'un qui demande un détail précis qui nous empêche de parler du fond.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Si vous êtes un fidèle lecteur de notre blog des \"Pros de la Transfo.\" vous connaissez l'équation \"<strong>1/2 décision = bordel au carré</strong>\". Formule écrite par Olivier Bas, vice-président d'Havas, auteur, conférencier et enseignant dans le livre <em>Like ton job</em>."
+        "html": "<p>Si vous êtes un fidèle lecteur de notre blog des \"Pros de la Transfo.\" vous connaissez l'équation \"<strong>1/2 décision = bordel au carré</strong>\". Formule écrite par Olivier Bas, vice-président d'Havas, auteur, conférencier et enseignant dans le livre <em>Like ton job</em>.</p>"
       },
       {
         "type": "paragraph",
-        "html": "<strong>Sans gouvernance claire, les projets sont lancés, arrêtés ou prolongés de manière irrationnelle.</strong> La DSI et la Direction de la Transformation sont au centre de cet enjeu."
+        "html": "<p><strong>Sans gouvernance claire, les projets sont lancés, arrêtés ou prolongés de manière irrationnelle.</strong> La DSI et la Direction de la Transformation sont au centre de cet enjeu.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Oui : parmi toutes les responsabilités d'un comité de pilotage de projets, celle de prendre des décisions pertinentes est sans doute la plus difficile. <strong>Comment prendre les bonnes décisions rapidement et avec un fort engagement de tous</strong> les membres du comité ?"
+        "html": "<p>Oui : parmi toutes les responsabilités d'un comité de pilotage de projets, celle de prendre des décisions pertinentes est sans doute la plus difficile<strong>.</strong> <strong>Comment prendre les bonnes décisions rapidement et avec un fort engagement de tous</strong> les membres du comité ?</p>"
       },
       {
         "type": "paragraph",
-        "html": "Dans les lignes qui suivent, nous apporterons un éclairage différent sur ce qui se joue dans ce type de réunion, ainsi que des astuces pour mieux gérer certaines situations de blocage."
+        "html": "<p>Dans les lignes qui suivent, nous apporterons un éclairage différent sur ce qui se joue dans ce type de réunion, ainsi que des astuces pour mieux gérer certaines situations de blocage.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Préparez-vous à découvrir ou revisiter les avantages et inconvénients de cinq modes de prise de décisions possibles en Copil. Vous découvrirez aussi deux pièges à éviter et deux prérequis à respecter. Des retours d'expérience en gestion de projet qui peuvent vous aider à choisir le mode de choix le plus adapté en fonction de la décision à prendre. Pour peut-être retrouver le chemin d'un comité de pilotage utile et aussi décisif que possible !"
+        "html": "<p>Préparez-vous à découvrir ou revisiter les avantages et inconvénients de cinq modes de prise de décisions possibles en Copil. Vous découvrirez aussi deux pièges à éviter et deux prérequis à respecter. Des retours d'expérience en gestion de projet qui peuvent vous aider à choisir le mode de choix le plus adapté en fonction de la décision à prendre. Pour peut-être retrouver le chemin d'un comité de pilotage utile et aussi décisif que possible !</p>"
       },
       {
         "type": "paragraph",
-        "html": "Faciliter les décisions stratégiques. Une thématique que tout PMO ou directeur de projet devrait travailler dans la mise en place générale. Si ce n'est pas le cas, ça tombe bien : un rapide détour par l'article <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases</a> vous sera très utile."
+        "html": "<p>Faciliter les décisions stratégiques<strong>.</strong> Une thématique que tout PMO ou directeur de projet devrait travailler dans la mise en place générale. Si ce n'est pas le cas, ça tombe bien : un rapide détour par l'article <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases</a> vous sera très utile.</p>"
       },
       {
         "type": "heading",
@@ -82,7 +82,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Lionel M., ancien DSI de transition interrogé sur son retour d'expérience sur ces thématiques nous a confié :"
+        "html": "<p>Lionel M., ancien DSI de transition interrogé sur son retour d'expérience sur ces thématiques nous a confié :</p>"
       },
       {
         "type": "quote",
@@ -92,7 +92,7 @@
       },
       {
         "type": "paragraph",
-        "html": "On parle beaucoup d'intelligence collective, mais assez peu de son pendant : l'idiotie collective ! Car, c'est une conviction : il n'y a pas d'entre deux. Un peu comme pour la prise de poids. On prend ou on perd. Ici, on est collectivement intelligents ou bien idiots collectivement. Désolé."
+        "html": "<p>On parle beaucoup d'intelligence collective, mais assez peu de son pendant : l'idiotie collective ! Car, c'est une conviction : il n'y a pas d'entre deux. Un peu comme pour la prise de poids. On prend ou on perd. Ici, on est collectivement intelligents ou bien idiots collectivement. Désolé.</p>"
       },
       {
         "type": "heading",
@@ -102,15 +102,15 @@
       },
       {
         "type": "paragraph",
-        "html": "Le fait que l'être humain devienne un mouton est un phénomène vieux comme le monde. <strong>L'effet du groupe</strong> sur l'individu est ce que l'on appelle en psychologie, le conformisme : lorsque votre avis entre en conflit avec celui du groupe, vous avez tendance à conformer votre jugement à celui du groupe. Tout est normal."
+        "html": "<p>Le fait que l'être humain devienne un mouton est un phénomène vieux comme le monde. <strong>L'effet du groupe</strong> sur l'individu est ce que l'on appelle en psychologie, le conformisme : lorsque votre avis entre en conflit avec celui du groupe, vous avez tendance à conformer votre jugement à celui du groupe. Tout est normal.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Outre le conformisme de la pensée de groupe, il existe un \"symptôme\" moins connu, mais critique en gestion de projet : celui de <strong>la polarisation collective.</strong> Il est démontré que les décisions de groupe peuvent conduire à des prises de risque plus élevées qu'en individuel. Le groupe a en effet tendance à prendre une option plus extrême que la moyenne des positions initiales de chacun. On parle alors d'un effet de polarisation."
+        "html": "<p>Outre le conformisme de la pensée de groupe, il existe un \"symptôme\" moins connu, mais critique en gestion de projet : celui de <strong>la polarisation collective.</strong> Il est démontré que les décisions de groupe peuvent conduire à des prises de risque plus élevées qu'en individuel. Le groupe a en effet tendance à prendre une option plus extrême que la moyenne des positions initiales de chacun. On parle alors d'un effet de polarisation.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Il a ainsi été identifié comme étant à l'origine de l'échec de l'invasion ratée de la Baie des Cochons en 1961 à Cuba soutenu par les Etats-Unis, ou encore de l'explosion de la navette spatiale Challenger."
+        "html": "<p>Il a ainsi été identifié comme étant à l'origine de l'échec de l'invasion ratée de la Baie des Cochons en 1961 à Cuba soutenu par les Etats-Unis, ou encore de l'explosion de la navette spatiale Challenger.</p>"
       },
       {
         "type": "heading",
@@ -120,15 +120,15 @@
       },
       {
         "type": "paragraph",
-        "html": "En entreprise, et singulièrement dans les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\">comités de pilotage projet</a>, de nombreuses variantes sont observées. L'une des plus navrante est appelée <strong>l'effet HIPPO, acronyme anglais signifiant <em>Highest Paid Person's Opinion</em>.</strong> Autrement dit : les opinions de la personne la plus hautement placée hiérarchiquement dans les membres du comité ont une tendance naturelle à être retenues."
+        "html": "<p>En entreprise, et singulièrement dans les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\">comités de pilotage projet</a>, de nombreuses variantes sont observées. L'une des plus navrante est appelée <strong>l'effet HIPPO, acronyme anglais signifiant <em>Highest Paid Person's Opinion</em>.</strong> Autrement dit : les opinions de la personne la plus hautement placée hiérarchiquement dans les membres du comité ont une tendance naturelle à être retenues.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Une des astuces basiques pour tenter d'éviter ce biais en Copil peut consister à demander au plus grand \"chef à plume\" présent au comité de pilotage de parler en dernier à chaque tour de table. Mais l'expérience montre que, sur la durée, ça ne suffit pas - et souvent même, quand il ne parle pas, il s'exprime tout de même !"
+        "html": "<p>Une des astuces basiques pour tenter d'éviter ce biais en Copil peut consister à demander au plus grand \"chef à plume\" présent au comité de pilotage de parler en dernier à chaque tour de table. Mais l'expérience montre que, sur la durée, ça ne suffit pas - et souvent même, quand il ne parle pas, il s'exprime tout de même !</p>"
       },
       {
         "type": "paragraph",
-        "html": "Rien de nouveau, de grave ou d'irrémédiable. Ceci étant, sachant cela, maintenant que nous nous sommes souvenus de cet effet de groupe et des principaux biais, nous n'avons plus d'excuses pour ne pas améliorer ce processus dans notre gestion de projet."
+        "html": "<p>Rien de nouveau, de grave ou d'irrémédiable. Ceci étant, sachant cela, maintenant que nous nous sommes souvenus de cet effet de groupe et des principaux biais, nous n'avons plus d'excuses pour ne pas améliorer ce processus dans notre gestion de projet.</p>"
       },
       {
         "type": "heading",
@@ -144,7 +144,7 @@
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d07a330577213943104f73_62a64a8979fb263a633db2f8_fxdessinateur.jpeg",
-        "alt": "Chef de projet / PMO hésitant entre inno et comme d'habitude Source : FX Dessinateur",
+        "alt": "Chef de projet / PMO hésitant entre inno et comme d'habitude",
         "caption": "Chef de projet sortant d'un comité de pilotage. Crédit image : FX Dessinateur"
       },
       {
@@ -155,15 +155,15 @@
       },
       {
         "type": "paragraph",
-        "html": "Avant toute bonne pratique, la base de la base c'est de s'assurer que les enjeux attachés à la décision sont bien intégrés par les parties prenantes, le sponsor, le chef de projet IT et métier, et le management."
+        "html": "<p>Avant toute bonne pratique, la base de la base c'est de s'assurer que les enjeux attachés à la décision sont bien intégrés par les parties prenantes, le sponsor, le chef de projet IT et métier, et le management.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Rien de pire que de devoir découvrir et analyser en séance les données, souvent complexes, d'un choix stratégique sur lequel se prononcer."
+        "html": "<p>Rien de pire que de devoir découvrir et analyser en séance les données, souvent complexes, d'un choix stratégique sur lequel se prononcer.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Sur cette problématique découvrez le retour d'expérience de l'entreprise OCTO Tech :"
+        "html": "<p>Sur cette problématique découvrez le retour d'expérience de l'entreprise OCTO Tech :</p>"
       },
       {
         "type": "figure",
@@ -173,24 +173,25 @@
       },
       {
         "type": "quote",
-        "text": "Il y a quelques sujets sur lesquels nous n'avons pas trouvé de mode de fonctionnement pérenne. Le premier est le relevé de décisions. Cela peut paraître anecdotique, mais nous sommes régulièrement confrontés au sujet. Même si, sur la plupart des instances, nous avons des comptes rendus dans lesquels débats, actions et décisions sont consignés, il est fastidieux de les éplucher pour retrouver toutes les décisions qui ont été prises, surtout sur des sujets (et il y en a beaucoup) qui ont une périodicité annuelle. Et la motivation des décisions (qui est sans doute le sujet le plus important) n'est pas non plus toujours clairement consignée. Un registre centralisé et accessible à tous serait sans doute une bonne idée, mais malgré quelques tentatives, nous n'avons pas réussi à ancrer cette habitude. \"Devenir une entreprise agile - Les leçons de 20 ans de transformation\"",
-        "author": "Ludovic Cinquin"
+        "text": "Il y a quelques sujets sur lesquels nous n'avons pas trouvé de mode de fonctionnement pérenne. Le premier est le relevé de décisions. Cela peut paraître anecdotique, mais nous sommes régulièrement confrontés au sujet. Même si, sur la plupart des instances, nous avons des comptes rendus dans lesquels débats, actions et décisions sont consignés, il est fastidieux de les éplucher pour retrouver toutes les décisions qui ont été prises, surtout sur des sujets (et il y en a beaucoup) qui ont une périodicité annuelle. Et la motivation des décisions (qui est sans doute le sujet le plus important) n'est pas non plus toujours clairement consignée. Un registre centralisé et accessible à tous serait sans doute une bonne idée, mais malgré quelques tentatives, nous n'avons pas réussi à ancrer cette habitude.",
+        "author": "Ludovic Cinquin",
+        "caption": "Devenir une entreprise agile - Les leçons de 20 ans de transformation"
       },
       {
         "type": "paragraph",
-        "html": "Développer une gouvernance agile et/ou efficace ne s'improvise pas seul. Les logiciels sont désormais nos alliés pour objectiver et faciliter les arbitrages. Les coachs d'organisation le disent : ces plateformes sont des <em>must have</em> !"
+        "html": "<p>Développer une gouvernance agile et/ou efficace ne s'improvise pas seul. Les logiciels sont désormais nos alliés pour objectiver et faciliter les arbitrages. Les coachs d'organisation le disent : ces plateformes sont des <em>must have</em> !</p>"
       },
       {
         "type": "paragraph",
-        "html": "Les responsables projet doivent en effet pouvoir <strong>faire remonter de manière simple, synthétique et précises les décisions à prendre</strong> pour faire avancer le projet.<br/>Et les clients internes, sponsors, membres du comité de pilotage et ou comité de direction, etc. doivent pouvoir prendre des décisions dans les temps impartis pour ne pas retarder l'exécution et la conduite de projet."
+        "html": "<p>Les responsables projet doivent en effet pouvoir <strong>faire remonter de manière simple, synthétique et précises les décisions à prendre</strong> pour faire avancer le projet.<br/>Et les clients internes, sponsors, membres du comité de pilotage et ou comité de direction, etc. doivent pouvoir prendre des décisions dans les temps impartis pour ne pas retarder l'exécution et la conduite de projet.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Pour le management, il est souvent difficile d'avoir une vision claire de l'ensemble des décisions à prendre, et du contexte synthétique et précis. Et <em>a posteriori</em>, il est difficile d'avoir l'historique des décisions importantes (actées ou non) sur le projet. Difficile pour comprendre comment on en est arrivé là."
+        "html": "<p>Pour le management, il est souvent difficile d'avoir une vision claire de l'ensemble des décisions à prendre, et du contexte synthétique et précis. Et <em>a posteriori</em>, il est difficile d'avoir l'historique des décisions importantes (actées ou non) sur le projet. Difficile pour comprendre comment on en est arrivé là.</p>"
       },
       {
         "type": "paragraph",
-        "html": "<strong>L'usage d'une plateforme vous simplifiera la gouvernance</strong> (listing des décisions à prendre, vue Copil, etc.) Vous ne serez plus pris de court parce que vous n'avez pas la bonne information."
+        "html": "<p><strong>L'usage d'une plateforme vous simplifiera la gouvernance</strong> (listing des décisions à prendre, vue Copil, etc.) Vous ne serez plus pris de court parce que vous n'avez pas la bonne information.</p>"
       },
       {
         "type": "figure",
@@ -206,7 +207,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Chaque décision a un statut (à l'étude / en cours / prise / plus d'actualité). Une fois créée, chaque décision a sa propre page sur laquelle vous pouvez poster, commenter, changer les attributs de la décision, et retrouver le projet associé."
+        "html": "<p>Chaque décision a un statut (à l'étude / en cours / prise / plus d'actualité). Une fois créée, chaque décision a sa propre page sur laquelle vous pouvez poster, commenter, changer les attributs de la décision, et retrouver le projet associé.</p>"
       },
       {
         "type": "quote",
@@ -221,19 +222,19 @@
       },
       {
         "type": "paragraph",
-        "html": "Vous avez accès aux données. Top ! Le second prérequis consiste à fixer le cadre et les limites au pouvoir de chacune des équipes, instance et parties prenantes. \"Les bonnes clôtures font de bons voisins\"."
+        "html": "<p>Vous avez accès aux données. Top ! Le second prérequis consiste à fixer le cadre et les limites au pouvoir de chacune des équipes, instance et parties prenantes. \"Les bonnes clôtures font de bons voisins\".</p>"
       },
       {
         "type": "paragraph",
-        "html": "De façon générale, les trois principales redevabilités d'un comité de pilotage sont de <strong>prendre des décisions et faire des arbitrages</strong>, de <strong>veiller au bon déroulement du projet</strong> et <strong>s'assurer qu'il est en accord avec les stratégies globales de l'entreprise.</strong> Pas de décider de tout ! Pourtant, on peut dire qu'on a parfois vu un Copil s'occuper de la couleur du site web au lieu de tenter de résoudre des conflits entre départements, ou de s'occuper de donner véritablement au chef de projet le pouvoir d'agir et d'utiliser les ressources de l'entreprise, par exemple."
+        "html": "<p>De façon générale, les trois principales redevabilités d'un comité de pilotage sont de <strong>prendre des décisions et faire des arbitrages</strong>, de <strong>veiller au bon déroulement du projet</strong> et <strong>s'assurer qu'il est en accord avec les stratégies globales de l'entreprise.</strong> Pas de décider de tout ! Pourtant, on peut dire qu'on a parfois vu un Copil s'occuper de la couleur du site web au lieu de tenter de résoudre des conflits entre départements, ou de s'occuper de donner véritablement au chef de projet le pouvoir d'agir et d'utiliser les ressources de l'entreprise, par exemple.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Pour déminer cette tendance naturelle du Copil à se mêler de ce qui ne le regarde pas, soyez attentif aux frontières de l'autorité dans le projet, du rôle, et des redevabilités de chaque instance. Comité de direction, Copil, chef de projet IT, sponsor, chef de projet métier... votre gouvernance projet mérite un design clair !"
+        "html": "<p>Pour déminer cette tendance naturelle du Copil à se mêler de ce qui ne le regarde pas, soyez attentif aux frontières de l'autorité dans le projet, du rôle, et des redevabilités de chaque instance. Comité de direction, Copil, chef de projet IT, sponsor, chef de projet métier... votre gouvernance projet mérite un design clair !</p>"
       },
       {
         "type": "paragraph",
-        "html": "Concrètement l'idée est de <strong>charter les responsabilités</strong>. Aux côtés du RACI projet, vous pouvez par exemple établir des critères clés pour définir qui décide sur quoi. Un exemple : une ligne de flottaison budgétaire au-dessus de laquelle le comité de pilotage est consulté et décisionnaire. En dessous, la subsidiarité s'applique. Et surtout : une fois le principe posé, vous couvrirez les choix de vos collaborateurs quels qu'ils soient. Car rappelons-le : 8 fois sur 10, ce sera très bien ! La prise d'initiative sera vraiment encouragée."
+        "html": "<p>Concrètement l'idée est de <strong>charter les responsabilités</strong>. Aux côtés du RACI projet, vous pouvez par exemple établir des critères clés pour définir qui décide sur quoi<strong>.</strong> Un exemple : une ligne de flottaison budgétaire au-dessus de laquelle le comité de pilotage est consulté et décisionnaire. En dessous, la subsidiarité s'applique. Et surtout : une fois le principe posé, vous couvrirez les choix de vos collaborateurs quels qu'ils soient. Car rappelons-le : 8 fois sur 10, ce sera très bien ! La prise d'initiative sera vraiment encouragée.</p>"
       },
       {
         "type": "heading",
@@ -244,11 +245,12 @@
       {
         "type": "quote",
         "text": "Comme l'ont montré les résultats de nombreuses recherches, les individus acceptent et adhèrent aux décisions prises par le groupe (les autorités ou instances), même lorsque celles-ci leur sont défavorables, s'ils croient en la « valeur du groupe ». Autrement dit, s'ils pensent avoir affaire à des personnes honnêtes, intègres et compétentes. Cependant, la confiance sociale n'est jamais totalement gagnée. Elle dépend, entre autres, des informations concernant la manière dont les groupes ont procédé pour aboutir à cette décision.",
-        "caption": "Groupe et décisions collectives de Ewa Drozda-Senkowska, François Ric et Dominique Muller"
+        "author": "Ewa Drozda-Senkowska, François Ric et Dominique Muller",
+        "caption": "Groupe et décisions collectives"
       },
       {
         "type": "paragraph",
-        "html": "On a consolidé ci-dessous 5 approches, de la plus autoritaire et rapide à la plus lente et consensuelle. Tour d'horizon des différentes démarches de gouvernance d'un projet en entreprise."
+        "html": "<p>On a consolidé ci-dessous 5 approches, de la plus autoritaire et rapide à la plus lente et consensuelle. Tour d'horizon des différentes démarches de gouvernance d'un projet en entreprise.</p>"
       },
       {
         "type": "heading",
@@ -294,7 +296,7 @@
         "items": [
           "Caractéristique : Vote à la majorité ou a l'unanimité.",
           "Avantages : une forme de démocratie projet.",
-          "Inconvénient : un peu comme en politique, ce mode de scrutin peut générer des frustrations. Si une décision est prise à 51% de personnes pour, il y aura 49% de membres du groupe qui étaient contre et devront vivre avec la décision.",
+          "Inconvénient : un peu comme en politique, ce mode de scrutin peut générer des frustrations<strong>.</strong> Si une décision est prise à 51% de personnes pour, il y aura 49% de membres du groupe qui étaient contre et devront vivre avec la décision.",
           "Notre conseil : le vote est une pratique à mi-chemin entre les excès d'autorité et de consensus. Si les différents biais de l'effet de groupe sont évités, alors le vote peut se révéler une pratique moderne et engageante en réunion de comité."
         ]
       },
@@ -327,7 +329,7 @@
           "Caractéristiques : On décide en s'assurant qu'une proposition ne recueille aucune objection sérieuse, plutôt que de chercher à contenter tout le monde et tomber dans le consensus mou. Le dicton le rappelle :\"mieux vaut du dur sûr que du mou flou !\"",
           "Avantages : on ne dévalorise pas l'idée du porteur de la demande en cherchant le consensus. Prise de décision agile par essence. Les egos y sont sous contrôle et un temps de parole permet à chacun de « questionner » et réagir.",
           "Limites : la principale est la bonne foi des participants. Attention également si trop de décisions de type « opérationnel » se font au consentement, cela peut se révéler chronophage et limiter l'autonomie des membres des équipes projet dans leurs rôles et domaine d'autorité.",
-          "Notre conseil : tester le consentement idéalement avec un facilitateur la première fois. Les méthodes agiles et les gouvernances inspirées par l'entreprise libéreé et l'holacratie utilisent depuis longtemps ce mode de décision."
+          "Notre conseil : tester le consentement idéalement avec un facilitateur la première fois. Les méthodes agiles et les gouvernances inspirées par l'entreprise libérée et l'holacratie utilisent depuis longtemps ce mode de décision."
         ]
       },
       {
@@ -367,15 +369,15 @@
       },
       {
         "type": "paragraph",
-        "html": "Le mot de la fin : <strong>ce qui crée le comportement, c'est le cadre !</strong> Agissez sur la gouvernance, une meilleure gestion de projet suivra."
+        "html": "<p>Le mot de la fin : <strong>ce qui crée le comportement, c'est le cadre !</strong> Agissez sur la gouvernance, une meilleure gestion de projet suivra.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Vous avez maintenant toutes les cartes en main pour mieux gérer certaines situations d'indécisions. Pour aller plus loin et finir d'améliorer votre prochain Copil, on vous recommande la lecture de l'article suivant : <a href=\"/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage\">Comment bien préparer un comité de pilotage ?</a> Car oui : tout est dans la préparation ! L'article à lire pour muscler votre préparation : définition des objectifs, interactions avec le sponsor, place des intérêts personnels, gestion des risques et des désaccords avant..."
+        "html": "<p>Vous avez maintenant toutes les cartes en main pour mieux gérer certaines situations d'indécisions. Pour aller plus loin et finir d'améliorer votre prochain Copil, on vous recommande la lecture de l'article suivant : <a href=\"/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage\">Comment bien préparer un comité de pilotage ?</a> Car oui : tout est dans la préparation ! L'article à lire pour muscler votre préparation : définition des objectifs, interactions avec le sponsor, place des intérêts personnels, gestion des risques et des désaccords avant...</p>"
       },
       {
         "type": "quote",
-        "text": "L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu... il est important que chacun ait pu s'exprimer... Et comprenne le choix et la décision qui a été prise.",
+        "text": "L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu...il est important que chacun ait pu s'exprimer...Et comprenne le choix et la décision qui a été prise.",
         "author": "Gilles de Richemond",
         "caption": "CEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
       }

@@ -8,14 +8,14 @@
     "meta": {
       "title": "La révolution numérique au sein du secteur de l'industrie : Industrie 4.0",
       "h1": "La révolution numérique au sein du secteur de l'industrie : Industrie 4.0",
-      "description": "Découvrez comment les DSI accompagnent la transformation vers l'industrie 4.0 : supply chain, maintenance prédictive, cybersécurité, best of breed et hypercroissance.",
+      "description": "Comment la DSI accompagne le passage vers l'industrie 4.0 : supply chain, chaîne de production, best of breed, maintenance connectée, cybersécurité et hypercroissance.",
       "author": {
-        "name": "Le Blog AirSaas",
+        "name": "",
         "category": "Gestion de projets"
       },
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f39029eb74964f0b9f547b_Project%20image%20copy-min.jpg",
-        "alt": "La révolution numérique au sein du secteur de l'industrie : Industrie 4.0"
+        "alt": "Gestion de Projets"
       }
     },
     "toc": [
@@ -62,7 +62,8 @@
       {
         "type": "quote",
         "text": "Au vu de notre positionnement dans la chaîne de valeur, la DSI est clairement au centre de la relation de l'entreprise avec les fournisseurs et les clients pour résoudre leurs problèmes, améliorer les processus, et leur offrir une expérience simplifiée.",
-        "author": "Olivier Fiquet dans l'épisode \"Quantifier et qualifier la performance de la supply chain grâce à l'IT\""
+        "author": "Olivier Fiquet",
+        "caption": "dans l'épisode \"Quantifier et qualifier la performance de la supply chain grâce à l'IT\""
       },
       {
         "type": "paragraph",
@@ -89,7 +90,8 @@
       {
         "type": "quote",
         "text": "Pendant des années, nous avons travaillé sur l'infra-logistique de nos lignes de fabrication afin de la simplifier, de l'optimiser, notamment grâce à l'arrivée de l'automatisation et des machines. [...] Le système industriel que l'entreprise possède aujourd'hui est l'aboutissement de projets ayant commencé il y a plus de 25 ans.",
-        "author": "Daniel Freyd dans l'épisode \"La DSI au centre de chaque étape de la supply chain\""
+        "author": "Daniel Freyd",
+        "caption": "dans l'épisode \"La DSI au centre de chaque étape de la supply chain\""
       },
       {
         "type": "paragraph",
@@ -124,7 +126,8 @@
       {
         "type": "quote",
         "text": "A Fuji Electric France, on a conçu nous même notre chaîne de production, qui est différente de la maison mère située au Japon. C'est un véritable succès collectif car des bancs techniques ont été conçus il y a maintenant vingt ans et continuent de fonctionner aujourd'hui.",
-        "author": "Pierre Duriez dans l'épisode \"Une DSI indépendante des choix de la société mère : l'exemple de Fuji Electric\""
+        "author": "Pierre Duriez",
+        "caption": "dans l'épisode \"Une DSI indépendante des choix de la société mère : l'exemple de Fuji Electric\""
       },
       {
         "type": "paragraph",
@@ -151,7 +154,8 @@
       {
         "type": "quote",
         "text": "Il y a un très fort besoin d'agilité dans cette entreprise. Il peut exister des périodes creuses où on ne va pas spécialement avoir besoin de nous, mais à tout moment, un projet peut très vite arriver. [...] Maintenant, est-ce que pour le bien de l'entreprise, il faut aller vers du monolithe ou peaufiner, aller plus en profondeur dans le modèle best of breed ?",
-        "author": "Serge Maurey dans l'épisode \"Le modèle best of breed contre le modèle monolithe pour un maximum d'agilité\""
+        "author": "Serge Maurey",
+        "caption": "dans l'épisode \"Le modèle best of breed contre le modèle monolithe pour un maximum d'agilité\""
       },
       {
         "type": "paragraph",
@@ -186,7 +190,8 @@
       {
         "type": "quote",
         "text": "On a tout fait pour que Thibault (directeur du marketing) n'ait pas l'étiquette du Product Owner alors qu'il n'avait pas les compétences nécéssaires pour l'être, même si ironiquement, il l'a indirectement été : c'est lui qui porte le métier, qui sait ce qui se passe sur le terrain et qui a donc tranché quand il fallait prendre des décisions importantes.",
-        "author": "Jean-Stève Hadjistavrou accompagné de Thibault Cognon dans l'épisode \"Quand la DSI et le marketing s'allient pour créer un service dans l'industrie\""
+        "author": "Jean-Stève Hadjistavrou accompagné de Thibault Cognon",
+        "caption": "dans l'épisode \"Quand la DSI et le marketing s'allient pour créer un service dans l'industrie\""
       },
       {
         "type": "paragraph",
@@ -213,7 +218,8 @@
       {
         "type": "quote",
         "text": "La maintenance prédictive, l'idée, c'est d'arriver à anticiper des pannes de machines dans les lignes de production, de manière à éviter un arrêt brutal. Ainsi, il est possible de réparer la machine pour que la panne ne se produise jamais. C'est mon tout nouveau défi.",
-        "author": "Alexis de Nervaux dans l'épisode \"La maintenance prédictive dans l'industrie 4.0\""
+        "author": "Alexis de Nervaux",
+        "caption": "dans l'épisode \"La maintenance prédictive dans l'industrie 4.0\""
       },
       {
         "type": "paragraph",
@@ -249,7 +255,8 @@
       {
         "type": "quote",
         "text": "On est passé d'une société qui avait l'habitude de mettre gérer son budget au cas par cas, qui n'a pas pour habitude de consacrer une grosse partie de son chiffre d'affaire à l'IT, vers une entreprise qui a un positionnement quasi digital, dans lequel le budget IT est bien supérieur et tourné vers d'autres sujets comme la sécurité.",
-        "author": "Sylvain Coquio dans l'épisode \"La cybersécurité dans le monde de l'industrie\""
+        "author": "Sylvain Coquio",
+        "caption": "dans l'épisode \"La cybersécurité dans le monde de l'industrie\""
       },
       {
         "type": "paragraph",
@@ -278,7 +285,8 @@
       {
         "type": "quote",
         "text": "Pour moi, lorsqu'une entreprise comme une PME devient une ETI, c'est à ce moment-là qu'elle se rend compte qu'elle n'a plus que jamais besoin de la DSI. [...] Aujourd'hui, nos principaux clients sont d'immenses groupes. Ils demandent logiquement à ce qu'on ait des interconnexions avec eux du même niveau que les leurs. Pour être capable de se mettre à niveau, on est obligé de surperformer.",
-        "author": "Emmanuel Artigue dans l'épisode \"Les enjeux SI d'une PME qui se transforme en ETI\""
+        "author": "Emmanuel Artigue",
+        "caption": "dans l'épisode \"Les enjeux SI d'une PME qui se transforme en ETI\""
       },
       {
         "type": "paragraph",

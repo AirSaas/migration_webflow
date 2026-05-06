@@ -8,7 +8,7 @@
     "meta": {
       "title": "10 tips pour la relation DG/CIO",
       "h1": "10 tips pour la relation DG/CIO",
-      "description": "10 pratiques concrètes co-construites par la communauté des Pro. de la Transfo. pour développer une relation de confiance entre CIO et Direction Générale, du build au run.",
+      "description": "10 pratiques co-construites avec la communauté des Pro. de la Transfo. pour développer une relation de confiance entre CIO et DG, du build au run.",
       "publishedDate": "15/7/2023",
       "author": {
         "name": "Pro. de la Transfo.",
@@ -87,7 +87,7 @@
       },
       {
         "type": "paragraph",
-        "html": "→ <a href=\"https://drive.google.com/file/d/1meC0KrcoqJ63ePRe2quXxgN_S-Aw-UEo/view?usp=drive_link\">Lien vers version HD au format PDF imprimable</a>"
+        "html": "-> <a href=\"https://drive.google.com/file/d/1meC0KrcoqJ63ePRe2quXxgN_S-Aw-UEo/view?usp=drive_link\" target=\"_blank\">Lien vers version HD au format PDF imprimable</a>"
       },
       {
         "type": "heading",
@@ -113,7 +113,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>On s'accorde sur un pacte de gouvernance et fonctionnement précis.</strong> Plutôt qu'un échange sur des concepts flous et galvaudés \"on fera de l'agilité\" ^^... On pose un mode de fonctionnement, on formalise des engagements et redevabilités réciproques, et on s'assure que la direction est OK avec les changements culturels à venir. (Rituels, workflow des décisions clés, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budgets</a>...)"
+        "html": "<strong>On s'accorde sur un pacte de gouvernance et fonctionnement précis.</strong> Plutôt qu'un échange sur des concepts flous et galvaudés \"on fera de l'agilité\" ^^... On pose un mode de fonctionnement, on formalise des engagements et redevabilités réciproques, et on s'assure que la direction est OK avec les changements culturels à venir. (Rituels, workflow des décisions clés, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\" target=\"_blank\">budgets</a>...)"
       },
       {
         "type": "heading",
@@ -177,7 +177,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>Transparence by design !</strong> Offrir l'accès en continu aux avancées d'un plan, avec le bon niveau de granularité c'est la clé. Proposer le choix des armes : un lien permanent dans les favoris du navigateur, un PPT de synthèse à retrouver dans la boîte mail, une ligne Whatsapp d'urgence...<br/>Reste à optimiser la mise à jour de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets\">portefeuille de projets</a> avec vos chefs de projets et partenaires. Mais le jeu en vaut vraiment la chandelle. Foi d'éditeur de solution de gouvernance ;)"
+        "html": "<strong>Transparence by design !</strong> Offrir l'accès en continu aux avancées d'un plan, avec le bon niveau de granularité c'est la clé. Proposer le choix des armes : un lien permanent dans les favoris du navigateur, un PPT de synthèse à retrouver dans la boîte mail, une ligne Whatsapp d'urgence...<br/>Reste à optimiser la mise à jour de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets\" target=\"_blank\">portefeuille de projets</a> avec vos chefs de projets et partenaires. Mais le jeu en vaut vraiment la chandelle. Foi d'éditeur de solution de gouvernance ;)"
       },
       {
         "type": "heading",
@@ -187,7 +187,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Le cadre est posé ? Désormais la <strong>phase d'exécution</strong> commence... on vous a préparé 5 autres pratiques pour muscler vos RDV !"
+        "html": "Le cadre est posé ? Désormais la <strong>phase d'exécution</strong> commence...on vous a préparé 5 autres pratiques pour muscler vos RDV !"
       },
       {
         "type": "heading",
@@ -248,7 +248,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>La tech, ça jargonne sec</strong> ! Utile pour aller vite et créer un sentiment d'appartenance avec votre équipe... Cette \"habitude\" peut se retourner contre vous. Pédagogie, communication véritable, le 1to1 efficace n'accepte pas un mot de jargon au cours du RDV ! Vous parlez en user stories avec vos dev ? Faîtes de même avec les DG."
+        "html": "<strong>La tech, ça jargonne sec</strong> ! Utile pour aller vite et créer un sentiment d'appartenance avec votre équipe...Cette \"habitude\" peut se retourner contre vous. Pédagogie, communication véritable, le 1to1 efficace n'accepte pas un mot de jargon au cours du RDV ! Vous parlez en user stories avec vos dev ? Faîtes de même avec les DG."
       },
       {
         "type": "paragraph",

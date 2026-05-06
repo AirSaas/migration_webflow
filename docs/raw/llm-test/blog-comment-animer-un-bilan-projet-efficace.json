@@ -8,7 +8,7 @@
     "meta": {
       "title": "Comment animer un bilan projet efficace",
       "h1": "Comment animer un bilan projet efficace",
-      "description": "Bilan de projet, clôture, rétrospective : pourquoi, comment et avec qui animer un bilan projet efficace ? Méthodes, formats-types et bonnes pratiques.",
+      "description": "Bilan projet : définition, raisons, contenu, organisation, participants, 7 habitudes, méthodes hors IT et 5 formats-types (Mad-Sad-Glad, 4L, DAKI, Starfish).",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
@@ -51,7 +51,7 @@
         "href": "#quelles-methodes-de-bilan-de-projet-dans-le-batiment-ou-chez-les-militaires"
       },
       {
-        "label": "5 formats-types de bilan de projet",
+        "label": "5 formats-types de bilan deprojet",
         "href": "#5-formats-types-de-bilan-deprojet"
       }
     ],
@@ -80,7 +80,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Dans le dictionnaire, la définition du mot bilan est la suivante : Bilan (de l'italien <em>bilancio</em>, balance) signifie « état de l'actif et du passif d'une entreprise » et, par extension, somme des aspects positifs et négatifs de quelque chose, résultat global."
+        "html": "Dans le dictionnaire, la définition du mot bilan est la suivante : Bilan (de l'italien <em>bilancio</em>, balance) signifie « état de l'actif et du passif d'une entreprise » et, par extension,  somme des aspects positifs et négatifs de quelque chose, résultat global."
       },
       {
         "type": "figure",
@@ -144,8 +144,9 @@
         ]
       },
       {
-        "type": "paragraph",
-        "html": "🚫Attention : sont souvent confondus le bilan projet et la <a href=\"https://www.airsaas.io/gestion-de-projet/la-revue-de-projet\">revue de projet</a> ! Les revues de projet ont lieu à chaque fin de phase majeure et sont souvent planifiées dès le début du projet."
+        "type": "insight-callout",
+        "label": "Attention",
+        "html": "🚫 Attention : sont souvent confondus le bilan projet et la <a href=\"https://www.airsaas.io/gestion-de-projet/la-revue-de-projet\">revue de projet</a> ! Les revues de projet ont lieu à chaque fin de phase majeure et sont souvent planifiées dès le début du projet."
       },
       {
         "type": "heading",
@@ -262,7 +263,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Outre les traditionnelles questions ouvertes type les + et les - sur différents axes, on constate de plus en plus que les bilans de projets ouvrent le dialogue sur des questions plus ciblées. Par exemple : \"Si vous deviez refaire ce projet, qu'auriez-vous aimé savoir dès le début ?\"."
+        "html": "Outre les traditionnelles questions ouvertes type les + et les - sur différents axes, on constate de plus en plus que les bilans de projets ouvrent le dialogue sur des questions plus ciblées. Par exemple : \"Si vous deviez refaire ce projet, qu'auriez-vous  aimé savoir dès le début ?\"."
       },
       {
         "type": "paragraph",
@@ -290,7 +291,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Un prérequis \"primordial\" : réaliser votre bilan final de projet \"à froid\". En effet, si le débriefing à chaud est indispensable il n'est pas suffisant pour ancrer des apprentissages et changements culturels durables.<br/><br/>Deux phases clés à respecter dans le cadre de tout bilan de projet :<br/>Tout d'abord <strong>on libère la parole</strong> ! Pour y parvenir, il convient entre autres de poser un cadre sécurisant, en annonçant par exemple clairement les intentions et la portée du processus : à qui sera destiné le bilan ? Une fois le cadre posé, il peut être utile de proposer un \"<em>ice breaker</em>\". Une fois les conditions réunies, on réalise le bilan à proprement parler. En utilisant l'une des grilles agiles, Lean....peu importe. (Vous découvrirez à la fin de cet article 5 modèles pour cela).<br/>Enfin, on peut aller vers la phase 2 : les solutions, le plan d'action. C'est souvent cette phase qui est négligée. D'expérience, on passe trop de temps sur la phase 1."
+        "html": "Un prérequis \"primordial\" : réaliser votre bilan final de projet \"à froid\". En effet, si le débriefing à chaud est indispensable il n'est pas suffisant pour ancrer des apprentissages et changements culturels durables."
+      },
+      {
+        "type": "paragraph",
+        "html": "Deux phases clés à respecter dans le cadre de tout bilan de projet :<br/>Tout d'abord <strong>on libère la parole</strong> ! Pour y parvenir, il convient entre autres de poser un cadre sécurisant, en annonçant par exemple clairement les intentions et la portée du processus : à qui sera destiné le bilan ? Une fois le cadre posé, il peut être utile de proposer un \"<em>ice breaker</em>\". Une fois les conditions réunies, on réalise le bilan à proprement parler. En utilisant l'une des grilles agiles, Lean....peu importe. (Vous découvrirez à la fin de cet article 5 modèles pour cela).<br/>Enfin, on peut aller vers la phase 2 : les solutions, le plan d'action. C'est souvent cette phase qui est négligée. D'expérience, on passe trop de temps sur la phase 1."
       },
       {
         "type": "paragraph",
@@ -305,8 +310,9 @@
         "html": "Enfin, il restera à <strong>évaluer la dynamique de l'entreprise</strong>. Le projet a été réalisé dans un contexte stratégique, au milieu d'enjeux corporate qu'il convient d'analyser et rappeler."
       },
       {
-        "type": "paragraph",
-        "html": "Tips : pour les axes 2 et 3, proposez aux parties prenantes des \"TRIP\". Comprendre un Temps de Réflexion Individuel Préalable. 1 minute de réflexion en solo, avant toute mise en commun. Cela ne vous vaccinera pas contre l'effet de groupe, mais peut permettre une plus grande variété de réponses."
+        "type": "insight-callout",
+        "label": "Tips",
+        "html": "Pour les axes 2 et 3, proposez aux parties prenantes des \"TRIP\". Comprendre un Temps de Réflexion Individuel Préalable. 1 minute de réflexion en solo, avant toute mise en commun. Cela ne vous vaccinera pas contre l'effet de groupe, mais peut permettre une plus grande variété de réponses."
       },
       {
         "type": "heading",
@@ -381,7 +387,8 @@
       {
         "type": "quote",
         "text": "On ne prend jamais le temps de faire un retour ! Ce qui est important c'est de réaliser des bilans hebdos. En fait, on se le dit tout le temps, en permanence et on formalise une fois par mois. Ce serait interminable de faire un bilan de projet sur une opération comme un immeuble avec 5 ans de projet, plus la garantie qui court après la livraison...",
-        "author": "Lionel C., Directeur de programme immobilier au sein d'un promoteur national"
+        "author": "Lionel C.",
+        "caption": "Directeur de programme immobilier au sein d'un promoteur national"
       },
       {
         "type": "paragraph",
@@ -494,7 +501,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Si vous voulez approfondir cette notion clé, poursuivez votre lecture avec l'article suivant : \"<a href=\"https://www.airsaas.io/gestion-de-projet/la-revue-de-projet\">La revue projet : un point d'étape pour tirer les leçons de vos erreurs</a><strong>.</strong>\""
+        "html": "Si vous voulez approfondir cette notion clé, poursuivez votre lecture avec l'article suivant : \"<a href=\"https://www.airsaas.io/gestion-de-projet/la-revue-de-projet\">La revue projet : un point d'étape pour tirer les leçons de vos erreurs</a>.\""
       },
       {
         "type": "heading",

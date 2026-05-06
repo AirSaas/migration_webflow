@@ -8,7 +8,7 @@
     "meta": {
       "title": "Le macro planning : Pourquoi et comment s'en servir !",
       "h1": "Le macro planning : Pourquoi et comment s'en servir !",
-      "description": "Découvrez ce qu'est un macro planning, ses différences avec le micro planning, ses avantages et inconvénients, et comment le créer efficacement pour piloter vos projets.",
+      "description": "Le macro planning est l'outil de communication idéal pour partager les grandes étapes et jalons d'un projet en un coup d'œil. Découvrez pourquoi et comment l'utiliser dans votre gestion de projet.",
       "author": {
         "name": "Simon Vacher",
         "category": "Gestion de projets",
@@ -128,7 +128,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Si le micro planning est pratique lorsqu'il faut passer au peigne fin un process ou une tâche à faire, il souffre évidemment d'un défaut le rendant inutile dans de nombreuses situations : il est vulnérable à tout évènement imprévu et demande une actualisation permanente, dépendante de l'avancement du projet réel.<br/><br/>La macro planning et le micro planning du projet dont donc deux outils très différents qui sont à votre disposition : servez-vous-en intelligemment en fonction de vos besoins !"
+        "html": "Si le micro planning est pratique lorsqu'il faut passer au peigne fin un process ou une tâche à faire, il souffre évidemment d'un défaut le rendant inutile dans de nombreuses situations : il est vulnérable à tout évènement imprévu et demande une actualisation permanente, dépendante de l'avancement du projet réel."
+      },
+      {
+        "type": "paragraph",
+        "html": "La macro planning et le micro planning du projet dont donc deux outils très différents qui sont à votre disposition : servez-vous-en intelligemment en fonction de vos besoins !"
       },
       {
         "type": "heading",
@@ -199,14 +203,18 @@
         "ordered": true,
         "items": [
           "<strong>Estimer quelles sont les phases principales</strong> qui constitueront le projet <strong>et leurs échéances</strong>",
-          "<strong>Rattacher les </strong><a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons-clés</strong></a><strong> principaux</strong> (soit les grandes échéances) à chacune de ces phases principales",
+          "<strong>Rattacher les</strong> <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons-clés</strong></a> <strong>principaux</strong> (soit les grandes échéances) à chacune de ces phases principales",
           "<strong>Etablir des dépendances</strong> entre les différentes phases si elles existents",
           "<strong>Définir le temps prévisionnel nécessaire</strong> pour accomplir chacune de ces phases"
         ]
       },
       {
         "type": "paragraph",
-        "html": "L'idéal est d'arriver à réunir autour de la table chacun des responsables des macro-tâches qui devront être exécutée. De cette manière, vous aurez une estimation de la durée des tâches qui ne sera pas parfaite, mais qui aura le mérite d'être réaliste.<br/><br/>De plus, en réunissant les bonnes personnes pour la confection du macro planning, l'exercice devrait être vite bouclé : si toutes les personnes compétentes sont autour de la table, votre macro planning sera rédigé en moins d'une heure !"
+        "html": "L'idéal est d'arriver à réunir autour de la table chacun des responsables des macro-tâches qui devront être exécutée. De cette manière, vous aurez une estimation de la durée des tâches qui ne sera pas parfaite, mais qui aura le mérite d'être réaliste."
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus, en réunissant les bonnes personnes pour la confection du macro planning, l'exercice devrait être vite bouclé : si toutes les personnes compétentes sont autour de la table, votre macro planning sera rédigé en moins d'une heure !"
       },
       {
         "type": "heading",
@@ -328,12 +336,9 @@
         "text": "Conclusions - à retenir"
       },
       {
-        "type": "paragraph",
-        "html": "Le macro planning est complémentaire au micro planning, qui offre une vue plus détaillée des tâches et des ressources nécessaires à la réalisation du projet. Le macroplanning s'avère être un must-have, notamment si vous devez piloter un portefeuille de projets assez conséquent."
-      },
-      {
-        "type": "paragraph",
-        "html": "Découvrez parmi nos autres articles celui consacré à un autre enjeu clé : <a href=\"/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\">Le suivi de projet pour garder aligné les parties prenantes</a>"
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<p>Le macro planning est complémentaire au micro planning, qui offre une vue plus détaillée des tâches et des ressources nécessaires à la réalisation du projet. Le macroplanning s'avère être un must-have, notamment si vous devez piloter un portefeuille de projets assez conséquent.</p><p>Découvrez parmi nos autres articles celui consacré à un autre enjeu clé : <a href=\"/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\">Le suivi de projet pour garder aligné les parties prenantes</a></p>"
       }
     ],
     "related": [

@@ -8,7 +8,7 @@
     "meta": {
       "title": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
       "h1": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
-      "description": "Découvrez 5 astuces (+1 bonus) pour réussir l'animation de votre comité de pilotage projet : pragmatisme, dynamiques relationnelles, prise de décision et bonnes pratiques.",
+      "description": "Découvrez 5 astuces + 1 bonus pour réussir votre comité de pilotage projet : alignement chef de projet IT/Métier, préparation, rhétorique, valorisation des succès et processus de décision.",
       "publishedDate": "1/6/2022",
       "author": {
         "name": "Jérôme Dard",
@@ -140,7 +140,7 @@
       },
       {
         "type": "paragraph",
-        "html": "En technique de communication il est important, voire essentiel, \"<strong>d'accuser réception du message\" de l'émetteur</strong>. Vous vous assurerez de la sorte de ne plus y revenir, et éviterez un parasitisme latent."
+        "html": "En technique de communication il est important, voire essentiel, \"<strong>d'accuser réception du message</strong>\" de l'émetteur. Vous vous assurerez de la sorte de ne plus y revenir, et éviterez un parasitisme latent."
       },
       {
         "type": "paragraph",
@@ -214,7 +214,8 @@
       {
         "type": "quote",
         "text": "L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu... il est important que chacun ait pu s'exprimer, et comprenne le choix et la décision qui a été prise.",
-        "author": "Gilles de Richemond — CEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
+        "author": "Gilles de Richemond",
+        "caption": "CEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
       },
       {
         "type": "paragraph",

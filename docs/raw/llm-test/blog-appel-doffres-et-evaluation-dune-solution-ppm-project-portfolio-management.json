@@ -8,14 +8,14 @@
     "meta": {
       "title": "Appel d'offres et évaluation d'une solution PPM (Project Portfolio Management)",
       "h1": "Appel d'offres et évaluation d'une solution PPM (Project Portfolio Management)",
-      "description": "Réussir un appel d'offres PPM : 7 idées reçues à combattre et une grille de lecture Personnes / Processus / Outils pour choisir la bonne solution.",
-      "publishedDate": "17/6/2024",
+      "description": "Réussir un appel d'offres PPM : sept idées reçues à combattre et conseils pratiques pour évaluer une solution Project Portfolio Management.",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "17/6/2024",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
+      "publishedDate": "17/6/2024",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/667035cc119301d2f3a9ef4b_PPM-min%20(1).jpg",
         "alt": "Appel d'offres et évaluation d'une solution PPM"
@@ -27,7 +27,7 @@
         "href": "#lessentiel-en-quelques-mots"
       },
       {
-        "label": "Sept idées reçues 💡 à combattre pour réussir vos appels d'offre",
+        "label": "Sept idées reçues💡 à combattre pour réussir vos appels d'offre",
         "href": "#sept-idees-recues-a-combattre-pour-reussir-vos-appels-doffre"
       },
       {
@@ -39,8 +39,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "lessentiel-en-quelques-mots",
-        "text": "L'essentiel en quelques mots…"
+        "text": "L'essentiel en quelques mots…",
+        "id": "lessentiel-en-quelques-mots"
       },
       {
         "type": "paragraph",
@@ -48,7 +48,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Pour un éditeur engagé, répondre à un appel d'offres signifie répondre à une liste de fonctionnalités où, généralement, la démarche n'est pas clairement définie, voire mal conçue. Bien que les fonctionnalités techniques soient importantes, elles ne doivent pas éclipser d'autres aspects cruciaux tels que la maturité des processus actuels, l'implication du top management, la convivialité de la solution, la force de sa communauté, le support client, la scalabilité et l'intégration avec d'autres outils existants. <strong>Une solution théoriquement techniquement parfaite mais difficile à utiliser ou mal soutenue peut rapidement devenir un fardeau et ne pas être adoptée.</strong>"
+        "html": "Pour un éditeur engagé, répondre à un appel d'offres signifie répondre à une liste de fonctionnalités où, généralement, la démarche n'est pas clairement définie, voire mal conçue. Bien que les fonctionnalités techniques soient importantes, elles ne doivent pas éclipser d'autres aspects cruciaux tels que la maturité des processus actuels, l'limplication du top management, la convivialité de la solution, la force de sa communauté, le support client, la scalabilité et l'intégration avec d'autres outils existants. <strong>Une solution théoriquement techniquement parfaite mais difficile à utiliser ou mal soutenue peut rapidement devenir un fardeau et ne pas être adoptée.</strong>"
       },
       {
         "type": "paragraph",
@@ -75,8 +75,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "sept-idees-recues-a-combattre-pour-reussir-vos-appels-doffre",
-        "text": "Sept idées reçues 💡 à combattre pour réussir vos appels d'offre"
+        "text": "Sept idées reçues💡 à combattre pour réussir vos appels d'offre",
+        "id": "sept-idees-recues-a-combattre-pour-reussir-vos-appels-doffre"
       },
       {
         "type": "paragraph",
@@ -89,8 +89,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "idee-recue-n1-on-est-dans-la-selection-dun-outil-versus-la-construction-dune-demarche",
-        "text": "❌ Idée reçue n°1 : On est dans la sélection d'un outil, versus la construction d'une démarche"
+        "text": "❌ Idée reçue n°1 : On est dans la sélection d'un outil, versus la construction d'une démarche",
+        "id": "idee-recue-n1-on-est-dans-la-selection-dun-outil-versus-la-construction-dune-demarche"
       },
       {
         "type": "paragraph",
@@ -127,17 +127,17 @@
       {
         "type": "quote",
         "text": "Généralement les outils sont silotés, verticalisés pour ceux qui faisaient de la gestion de projet. Là, c'est très différent d'avoir pensé tout de suite à son ouverture vers la DG et les directions métiers pour embarquer d'autres services à utiliser cet outil !",
-        "author": "Cyril Mallet — utilisateur AirSaas, DSI adjoint Chambre des Notaires de Paris"
+        "author": "Cyril Mallet utilisateur AirSaas - DSI adjoint Chambre des Notaires de Paris"
       },
       {
         "type": "paragraph",
-        "html": "<strong>L'implication du top management est bien la brique fondamentale de la capacité à prioriser, mais aussi à suivre, à décider, à communiquer, à dérisquer les projets… et tout ça, en continu !</strong>"
+        "html": "<strong>L'implication du top management est bien la brique fondamentale de la capacité à prioriser, mais aussi à suivre, à décider, à communiquer, à dérisquer les projets…et tout ça, en continu !</strong>"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "idee-recue-n2-tous-les-processus-lies-au-ppm-sont-au-meme-niveau-de-maturite-dans-lorganisation",
-        "text": "❌ Idée reçue n°2 : tous les processus liés au PPM sont au même niveau de maturité dans l'organisation"
+        "text": "❌ Idée reçue n°2 : tous les processus liés au PPM sont au même niveau de maturité dans l'organisation",
+        "id": "idee-recue-n2-tous-les-processus-lies-au-ppm-sont-au-meme-niveau-de-maturite-dans-lorganisation"
       },
       {
         "type": "paragraph",
@@ -149,19 +149,20 @@
       },
       {
         "type": "paragraph",
-        "html": "Le principe s'applique également avec un appel d'offres PPM. Si vous implémentez une solution sur un processus à maturité faible. En ce sens que les nouveaux usages attendus en gouvernance ne seront pas au rendez-vous si leurs prémisses sont déjà erronées !"
+        "html": "Le principe s'applique également avec un appel d'offres PPM. Si vous implémentez une solution sur un processus à maturité faible. En ce sens que les nouveaux usages attendus en gouvernance ne seront pas au rendez-vous si leurs prémisses sont déjà erronées.!"
       },
       {
         "type": "paragraph",
-        "html": "Essayez de fournir une formule 1 à un apprenti conducteur en conduite accompagnée … ça peut marcher … mais ça peut aussi le déstabiliser s'il n'y a pas un accompagnement spécifique !"
+        "html": "Essayez de fournir une formule 1 à un apprenti conducteur en conduite accompagnée …ça peut marcher …mais ça peut aussi le déstabiliser s'il n'y a pas un accompagnement spécifique !"
       },
       {
         "type": "paragraph",
         "html": "Oui tous vos processus ne sont pas, \"iso\" ni, à conserver tel quel. L'appel d'offre est aussi l'occasion de mettre à jour votre modèle organisationnel cible. (Target Operating Model)."
       },
       {
-        "type": "paragraph",
-        "html": "<strong>En résumé : Il peut donc être intéressant pour chaque persona ciblé, d'identifier lister les processus clés et leur niveau de maturité actuelle / cible. Établir une sorte de pyramide de maturité de l'organisation dans sa gouvernance projet.</strong>"
+        "type": "insight-callout",
+        "label": "En résumé",
+        "html": "Il peut donc être intéressant pour chaque persona ciblé, d'identifier lister les processus clés et leur niveau de maturité actuelle / cible. Établir une sorte de pyramide de maturité de l'organisation dans sa gouvernance projet."
       },
       {
         "type": "paragraph",
@@ -178,8 +179,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "idee-recue-n3-les-solutions-tout-en-un-sont-toujours-preferables",
-        "text": "❌ Idée reçue n°3 : Les solutions tout-en-un sont toujours préférables"
+        "text": "❌ Idée reçue n°3 : Les solutions tout-en-un sont toujours préférables",
+        "id": "idee-recue-n3-les-solutions-tout-en-un-sont-toujours-preferables"
       },
       {
         "type": "paragraph",
@@ -191,7 +192,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Gestion du temps, des ressources, de la demande, du portefeuille, gestion de projet et de programme, gestion financière… pour chacun de ces sept grands blocs d'usages, si on se lance dans la liste de toutes les fonctionnalités à analyser pour couvrir l'ensemble des besoins des personnes, on y sera encore dans trois mois ! Et surtout aucun outil ne pourra satisfaire tous les métiers."
+        "html": "Gestion du temps, des ressources, de la demande, du portefeuille, gestion de projet et de programme, gestion financière… pour chacun de ces sept grands blocs d'usages, si on se lance dans la liste de toutes les fonctionnalités à analyser pour couvrir l'ensemble des besoins des personnes, on y sera encore dans trois mois. ! Et surtout aucun outil ne pourra satisfaire tous les métiers."
       },
       {
         "type": "paragraph",
@@ -199,7 +200,7 @@
       },
       {
         "type": "paragraph",
-        "html": "À l'heure des API ce n'est plus l'enjeu majeur. Si la gestion de projet sous JIRA Asana ou Wrike fonctionne… laissez la fonctionner, et connectez-y votre solution de PPM transverse."
+        "html": "À l'heure des API ce n'est plus l'enjeu majeur. Si la gestion de projet sous JIRA Asana ou Wrike fonctionne…laissez la fonctionner, et connectez-y votre solution de PPM transverse."
       },
       {
         "type": "figure",
@@ -218,7 +219,7 @@
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6670346633e942a59f88fc72_ppmallinone.jpg",
-        "alt": "PPM all in one",
+        "alt": "PPM all in one :-)",
         "caption": "PPM \"All in One\" :-)"
       },
       {
@@ -228,20 +229,20 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "idee-recue-n-4-il-faut-commencer-par-un-appel-doffres",
-        "text": "❌ Idée reçue n°4 : Il faut commencer par un Appel d'offres"
+        "text": "❌ Idée reçue n° 4 : Il faut commencer par un Appel d'offres",
+        "id": "idee-recue-n-4-il-faut-commencer-par-un-appel-doffres"
       },
       {
         "type": "paragraph",
-        "html": "<strong><em>Réalité : Non, pas forcément, par exemple chez AirSaas, on n'aime pas toujours travailler sur un appel d'offre initial. Pourquoi ? Parce que appel d'offre dit gros, gros déploiement, gros projet… On propose souvent à nos clients une première phase de POC de la démarche et de test de l'outil pendant 6 mois à un an.</em></strong>"
+        "html": "<strong><em>Réalité : Non, pas forcément, par exemple chez AirSaas, on on n'aime pas toujours travailler sur un appel d'offre initial. Pourquoi? Parce que appel d'offre dit gros, gros déploiement, gros projet… On propose souvent à nos clients une première phase de POC de la démarche et de test de l'outil pendant 6 mois à un an.</em></strong>"
       },
       {
         "type": "paragraph",
-        "html": "Concrètement au lieu d'allonger la phase d'étude RFI puis RFP… le budget temps des internes et des consultants est utilisé pour passer à l'action. On propose un premier workshop avec une centaine de questions pour évaluer la maturité de l'organisation actuelle."
+        "html": "Concrètement au lieu d'allonger la phase d'étude RFI puis RFP…le budget temps des internes et des consultants est utilisé pour passer à l'action. On propose un premier workshop avec une centaine de questions pour évaluer la maturité de l'organisation actuelle."
       },
       {
         "type": "paragraph",
-        "html": "Un atelier avec vous, nous et avec des membres sélectionnés au sein de la communauté Pro de la Transfo d'AirSaas (des DSI, PMO, Directeurs Transfos, ancien DG, etc.) Bref des gens qui sont déjà passés par là et qui connaissent les problématiques et solutions."
+        "html": "Un atelier avec vous, nous et avec des membres sélectionnés au sein la communauté Pro de la Transfo d'AirSaas (des DSI, PMO, Directeurs Transfos, ancien DG, etc.) Bref des gens qui sont déjà passés par là et qui connaissent les probméatiques et solutions."
       },
       {
         "type": "paragraph",
@@ -249,21 +250,21 @@
       },
       {
         "type": "paragraph",
-        "html": "Ensuite, dans le troisième workshop, on va définir un manifeste projet organisationnel. C'est quoi votre lexique commun ? Déjà, je suis certain que le mot projet, le mot programme, le mot jalon n'ont même pas des définitions communes au sein de l'organisation."
+        "html": "Ensuite, qu'on définit le troisième workshop, c'est qu'on va définir un manifeste projet organisationnel. C'est quoi votre lexique commun ? Déjà, je suis certain que le mot projet, le mot programme, le mot jalon n'ont même pas des définitions communes au sein de l'organisation. Déjà,"
       },
       {
         "type": "paragraph",
-        "html": "<strong>À l'issue de ces trois ateliers, on sera collectivement en mesure de se projeter vers une démarche réaliste au vu du contexte et de la maturité de l'organisation et de ses collaborateurs sur les grands process soutenus par l'outil compagnon.</strong>"
+        "html": "<strong>À l'issue de ces trois ateliers, on sera collectivement en mesure de se projeter vers une démarche réaliser au vu du contexte et de la maturité de l'organisation et des ses collaborateurs sur les grands process soutenus par l'outil compagnon.</strong>"
       },
       {
         "type": "paragraph",
-        "html": "Sans cette démarche la data sur laquelle vous allez vous reposer va être fausse en continu. Vos données stratégiques, vous les préférez relativement justes ou précisément fausses ?"
+        "html": "Sans cette démarche la data sur laquelle vous avez vous reposer va être fausse en continu. Vos données stratégiques, vous les préférez relativement justes ou précisément fausses ?"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "idee-recue-n-5-un-outil-ppm-cest-magique",
-        "text": "❌ Idée reçue n°5 : Un outil PPM c'est magique !"
+        "text": "❌ Idée reçue n° 5 Un outil PPM c'est magique !",
+        "id": "idee-recue-n-5-un-outil-ppm-cest-magique"
       },
       {
         "type": "paragraph",
@@ -271,7 +272,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Avez-vous déjà entendu la phrase \"on est très agile, on utilise des post-its\" ? C'est pareil pour la gouvernance projet… il ne suffit pas de brancher une solution de gouvernance aussi idéale soit-elle pour se transformer !"
+        "html": "Avez vous déjà entendu la phrase \"on est très agile, on utilise des post-its\" ? C'est pareil pour la gouvernance projet…il ne suffit pas de brancher une solution de gouvernance aussi idéale soit elle pour se transformer !"
       },
       {
         "type": "paragraph",
@@ -283,17 +284,17 @@
       },
       {
         "type": "paragraph",
-        "html": "Et, néanmoins la réussite de l'implémentation d'une autre culture projet passe aussi pour un autre tiers par le management et les sponsors à qui on va demander de s'impliquer en continu. De changer d'habitude et de rituels."
+        "html": "Et, néanmoins la réussite de l'implémentation d'une autre culture projet passe par aussi pour un autre tiers par le management et les sponsors à qui on va demander de s'impliquer en continu. De changer d'habitude et de rituels."
       },
       {
         "type": "paragraph",
-        "html": "Le dernier tiers est bien sûr celui de vos utilisateurs clés, notamment des chefs de projets dans toutes les directions concernées, qui verront dans l'outil non pas un truc de reporting en plus mais un support réel pour diminuer le nombre de réunions, limiter les ressaisies d'infos, accélérer les prises de décision, garder une transparence totale sur les priorités des projets, et dire adieu au micro-management."
+        "html": "Le dernier tiers est bien sûr celui de vos utilisateurs clés, notamment des chefs de projets dans toutes les directions concernées, qui verront dans l'outil non pas un truc de reporting en plus mais un support réél pour diminuer le nombre de réunions, limiter les ressaisies d'infos, accélérer les prise de décision, garder une transparence totale sur les priorités des projets, et dire adieu au micro-management."
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "idee-recue-n6-la-phase-de-mise-en-oeuvre-nest-pas-une-priorite-lors-de-la-selection",
-        "text": "❌ Idée reçue n°6 : La phase de mise en œuvre n'est pas une priorité lors de la sélection"
+        "text": "❌ Idée reçue n°6 La phase de mise en œuvre n'est pas une priorité lors de la sélection",
+        "id": "idee-recue-n6-la-phase-de-mise-en-oeuvre-nest-pas-une-priorite-lors-de-la-selection"
       },
       {
         "type": "paragraph",
@@ -313,8 +314,8 @@
       },
       {
         "type": "quote",
-        "text": "Si c'est plus compliqué qu'instagram, on a perdu.",
-        "author": "Simon — CPO cofondateur d'AirSaas"
+        "text": "Si c'est plus compliqué qu'instagram, on a perdu",
+        "author": "Simon - CPO cofondateur d'AirSaas"
       },
       {
         "type": "paragraph",
@@ -323,8 +324,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "conclusions",
-        "text": "Conclusions"
+        "text": "Conclusions",
+        "id": "conclusions"
       },
       {
         "type": "paragraph",
@@ -344,14 +345,14 @@
       },
       {
         "type": "paragraph",
-        "html": "Ce changement de paradigme reposera donc sur <strong>cinq principes forts</strong> :"
+        "html": "Ce changement de paradigme reposera doc sur <strong>cinq principes forts</strong> :"
       },
       {
         "type": "list",
         "ordered": true,
         "items": [
           "<strong>La connaissance des processus clés des personas</strong> ET de leur <strong>niveau de maturité</strong> actuelle / cible",
-          "Le <strong>test de l'outil en situation</strong> avec des vraies données pendant quelques mois.",
+          "Le <strong>test de l'outil en situation</strong> avec des vrais données pendant quelques mois.",
           "La mise en place d'<strong>un accompagnement de la Transfo. avec un Pro</strong> de la Transfo Software with a Service (#SWAS).",
           "<strong>L'implication continue du top management</strong> dans cette démarche.",
           "Se <strong>concentrer sur l'impact</strong> et la valeur !"
@@ -364,11 +365,6 @@
       {
         "type": "paragraph",
         "html": "La suite sur notre page dédiée à <a href=\"/fr/solution/outil-ppm\">l'outil PPM nouvelle génération - Logiciel ppm</a>"
-      },
-      {
-        "type": "inline-cta",
-        "label": "Réserver une démo",
-        "href": "/fr/meetings-pages"
       }
     ],
     "related": [

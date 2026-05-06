@@ -1,19 +1,19 @@
 {
   "type": "blog",
   "slug": "management-de-portefeuille-de-projet",
-  "iteration": 2,
-  "outcome": "API_ERROR",
+  "iteration": 3,
+  "outcome": "FAIL",
   "errors": [
     {
-      "type": "api-error",
-      "detail": "fetch failed"
+      "type": "structure",
+      "detail": "blocks must be an array"
     }
   ],
   "result": {
     "meta": {
       "title": "Management de portefeuille de projet : définition, méthodes et outils",
       "h1": "Management de portefeuille de projet : définition, méthodes et outils",
-      "description": "Guide complet sur la gestion de portefeuille de projets (PPM) : définition, différences avec programme et projet, 7 étapes de déploiement, méthodes de priorisation, KPIs essentiels, choix d'outil PPM et erreurs à éviter.",
+      "description": "Guide complet sur la gestion de portefeuille de projets (PPM) : définition, différences avec projet et programme, 7 étapes de déploiement, méthodes de priorisation, KPIs, outils et erreurs à éviter.",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
@@ -23,7 +23,7 @@
       "publishedDate": "1/2/2026",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6995db9e00db2afd8d4d5013_Gestion%20de%20portefeuille%20de%20projets.jpg",
-        "alt": "Gestion de Projets"
+        "alt": "Gestion de portefeuille de projets"
       }
     },
     "toc": [

@@ -8,17 +8,17 @@
     "meta": {
       "title": "Comment faire un bon point d'avancement projet ?",
       "h1": "Comment faire un bon point d'avancement projet ?",
-      "description": "Découvrez les ingrédients d'un point d'avancement de projet moderne, transparent et efficace : pièges à éviter et 12 bonnes pratiques de PMO/DSI.",
-      "publishedDate": "28/5/2022",
+      "description": "Découvrez les ingrédients d'un point d'avancement projet moderne, transparent et efficace : pièges à éviter et 12 bonnes pratiques de PMO/DSI.",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "28/5/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
+      "publishedDate": "28/5/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea918a9bacb825b5c1c869_avancement-min.jpg",
-        "alt": "Comment faire un bon point d'avancement projet"
+        "alt": "Gestion de Projets"
       }
     },
     "toc": [
@@ -55,8 +55,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "les-pieges-a-eviter-pour-les-points-davancement",
-        "text": "Les pièges à éviter pour les points d'avancement"
+        "text": "Les pièges à éviter pour les points d'avancement",
+        "id": "les-pieges-a-eviter-pour-les-points-davancement"
       },
       {
         "type": "paragraph",
@@ -69,8 +69,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "le-manque-dinformation-de-contexte",
-        "text": "Le manque d'information de contexte"
+        "text": "Le manque d'information de contexte",
+        "id": "le-manque-dinformation-de-contexte"
       },
       {
         "type": "paragraph",
@@ -99,8 +99,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "labsence-de-concision",
-        "text": "L'absence de concision"
+        "text": "L'absence de concision",
+        "id": "labsence-de-concision"
       },
       {
         "type": "paragraph",
@@ -109,8 +109,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "limprecision",
-        "text": "L'imprécision"
+        "text": "L'imprécision",
+        "id": "limprecision"
       },
       {
         "type": "paragraph",
@@ -127,8 +127,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "la-fuite-de-responsabilite-devenue-discipline-olympique-en-gestion-de-projet",
-        "text": "La \"fuite de responsabilité\", devenue discipline olympique en gestion de projet"
+        "text": "La \"fuite de responsabilité\", devenue discipline olympique en gestion de projet",
+        "id": "la-fuite-de-responsabilite-devenue-discipline-olympique-en-gestion-de-projet"
       },
       {
         "type": "paragraph",
@@ -153,8 +153,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "lexces-de-reunions",
-        "text": "L'excès de réunions"
+        "text": "L'excès de réunions",
+        "id": "lexces-de-reunions"
       },
       {
         "type": "figure",
@@ -177,14 +177,14 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "12-pratiques-pour-garder-les-points-davancement-sur-la-bonne-voie",
-        "text": "12 pratiques pour garder les points d'avancement sur la bonne voie"
+        "text": "12 pratiques pour garder les points d'avancement sur la bonne voie",
+        "id": "12-pratiques-pour-garder-les-points-davancement-sur-la-bonne-voie"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "faites-en-un-sujet-dequipe",
-        "text": "Faites-en un sujet d'équipe"
+        "text": "Faites-en un sujet d'équipe",
+        "id": "faites-en-un-sujet-dequipe"
       },
       {
         "type": "paragraph",
@@ -197,8 +197,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "utilisez-la-technologie-pour-piloter-par-la-decision",
-        "text": "Utilisez la technologie pour piloter par la décision"
+        "text": "Utilisez la technologie pour piloter par la décision",
+        "id": "utilisez-la-technologie-pour-piloter-par-la-decision"
       },
       {
         "type": "paragraph",
@@ -221,8 +221,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "automatisez-en-utilisant-des-outils-de-reporting-pour-communiquer-lavancement-du-projet",
-        "text": "Automatisez, en utilisant des outils de reporting pour communiquer l'avancement du projet"
+        "text": "Automatisez, en utilisant des outils de reporting pour communiquer l'avancement du projet",
+        "id": "automatisez-en-utilisant-des-outils-de-reporting-pour-communiquer-lavancement-du-projet"
       },
       {
         "type": "paragraph",
@@ -231,8 +231,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "synchronisez-en-interconnectant-vos-outils-pour-eviter-les-doubles-saisies-des-points-davancement",
-        "text": "Synchronisez, en interconnectant vos outils pour éviter les doubles saisies des points d'avancement"
+        "text": "Synchronisez, en interconnectant vos outils pour éviter les doubles saisies des points d'avancement",
+        "id": "synchronisez-en-interconnectant-vos-outils-pour-eviter-les-doubles-saisies-des-points-davancement"
       },
       {
         "type": "paragraph",
@@ -249,8 +249,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "dites-stop-a-linfoxication-et-merci-aux-jalons",
-        "text": "Dites stop à l'infoxication et merci aux jalons"
+        "text": "Dites stop à l'infoxication et merci aux jalons",
+        "id": "dites-stop-a-linfoxication-et-merci-aux-jalons"
       },
       {
         "type": "paragraph",
@@ -263,14 +263,14 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "etablissez-de-bons-objectifs",
-        "text": "Établissez de bons objectifs"
+        "text": "Établissez de bons objectifs",
+        "id": "etablissez-de-bons-objectifs"
       },
       {
         "type": "heading",
         "level": 4,
-        "id": "on-ne-reussit-que-par-rapport-aux-objectifs-fixes",
-        "text": "On ne réussit que par rapport aux objectifs fixés"
+        "text": "On ne réussit que par rapport aux objectifs fixés",
+        "id": "on-ne-reussit-que-par-rapport-aux-objectifs-fixes"
       },
       {
         "type": "paragraph",
@@ -281,14 +281,15 @@
         "html": "Attention cependant : pas la peine de tout mesurer. Tout n'est pas KPIsable ou ROIsable."
       },
       {
-        "type": "paragraph",
-        "html": "À retenir : aucun projet ne démarre si les objectifs ne sont pas clairement établis ! #KPI"
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<p>aucun projet ne démarre si les objectifs ne sont pas clairement établis ! #KPI</p>"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "rendez-votre-projet-visuel",
-        "text": "Rendez votre projet visuel"
+        "text": "Rendez votre projet visuel",
+        "id": "rendez-votre-projet-visuel"
       },
       {
         "type": "figure",
@@ -299,8 +300,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "de-lascaux-a-instagram-le-pouvoir-des-images-est-une-constante",
-        "text": "De Lascaux à Instagram : le pouvoir des images est une constante"
+        "text": "De Lascaux à Instagram : le pouvoir des images est une constante",
+        "id": "de-lascaux-a-instagram-le-pouvoir-des-images-est-une-constante"
       },
       {
         "type": "paragraph",
@@ -315,14 +316,15 @@
         "html": "Et en gestion de projet, les solutions sont nombreuses : <a href=\"http://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet\">Kanban</a>, affiche projet, mindmapping, plateforme avec une interface visuelle au top... Vous pouvez tenir au courant vos collègues des mises à jour de l'état d'avancement grâce à un management visuel attractif et efficace. Par exemple, grâce à l'attribut météo projet."
       },
       {
-        "type": "paragraph",
-        "html": "À retenir : il est très motivant pour une équipe de visualiser les objectifs et KPI qu'elle a contribué à établir ainsi que les progrès réalisés (ou non) vers ces objectifs. #SimplifierPourAmplifier"
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<p>il est très motivant pour une équipe de visualiser les objectifs et KPI qu'elle a contribué à établir ainsi que les progrès réalisés (ou non) vers ces objectifs. #SimplifierPourAmplifier</p>"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "adaptez-le-point-davancement-projet-a-vos-differentes-cibles",
-        "text": "Adaptez le point d'avancement projet à vos différentes cibles"
+        "text": "Adaptez le point d'avancement projet à vos différentes cibles",
+        "id": "adaptez-le-point-davancement-projet-a-vos-differentes-cibles"
       },
       {
         "type": "paragraph",
@@ -353,8 +355,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "concentrez-vous-sur-les-faits-observables",
-        "text": "Concentrez-vous sur les faits observables"
+        "text": "Concentrez-vous sur les faits observables",
+        "id": "concentrez-vous-sur-les-faits-observables"
       },
       {
         "type": "paragraph",
@@ -372,8 +374,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "donnez-des-reperes-temporels-clairs",
-        "text": "Donnez des repères temporels clairs"
+        "text": "Donnez des repères temporels clairs",
+        "id": "donnez-des-reperes-temporels-clairs"
       },
       {
         "type": "paragraph",
@@ -386,8 +388,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "une-ligne-de-temps-qui-permet",
-        "text": "Une ligne de temps qui permet :"
+        "text": "Une ligne de temps qui permet :",
+        "id": "une-ligne-de-temps-qui-permet"
       },
       {
         "type": "list",
@@ -406,8 +408,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "un-type-de-projet-un-type-de-suivi",
-        "text": "Un type de projet = un type de suivi"
+        "text": "Un type de projet = un type de suivi",
+        "id": "un-type-de-projet-un-type-de-suivi"
       },
       {
         "type": "paragraph",
@@ -424,11 +426,12 @@
       {
         "type": "quote",
         "text": "\"On a instauré un dialogue mensuel métier au cours duquel chacun comprend le vocabulaire et les enjeux de chacun. Un dialogue ou chacun accepte de se remettre en cause. Et, au bout de 6 mois, on a une vraie vision de chaque département dans son rythme pour avancer, et chacun s'engage\".",
-        "author": "Frédéric Navarro — DSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)"
+        "author": "Frédéric Navarro",
+        "caption": "DSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)"
       },
       {
         "type": "paragraph",
-        "html": "Dans un <strong>dialogue constant avec l'ensemble des directions métiers</strong>, il a catégorisé chaque projet à l'aide de 4 différents niveaux (projet stratégique, légal, de direction, de département). En fonction de l'avancement de chaque typologie, l'ensemble est repriorisé pour des points d'avancement spécifiques chaque mois."
+        "html": "Dans un <strong>dialogue constant avec l'ensemble des directions métiers</strong>, il a catégorisé chaque projet à l'aide de 4 différents niveaux (projet stratégique, légal, de direction, de département). En fonction de l'avancement de chaque typologie, l'ensemble est repriorisé pour des points d'avancement spécifiques chaque mois/"
       },
       {
         "type": "paragraph",
@@ -447,15 +450,15 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "a-retenir",
-        "text": "À retenir"
+        "text": "À retenir",
+        "id": "a-retenir"
       },
       {
         "type": "list",
         "ordered": false,
         "items": [
           "Les <strong>trois ingrédients indispensables</strong> d'un processus de point d'avancement de projet efficace sont <strong>la fréquence continue, la standardisation et l'adaptation à vos typologies</strong> des personnes.",
-          "Avoir un trop beau planning de Gantt, envoyer un trop long email, produire le rapport PowerPoint le plus design du CAC40 ne suffit pas ? Ce sont <strong>les collaborateurs et leurs bonnes relations qui font avancer les projets et qui transforment l'entreprise !</strong>",
+          "Avoir un trop beau planning de Gantt, envoyer un trop long email, produire le rapport PowerPoint le plus design du CAC40 ne suffit pas? Ce sont <strong>les collaborateurs et leurs bonnes relations qui font avancer les projets et qui transforment l'entreprise !</strong>",
           "Un bon point d'avancement remplit un <strong>rôle d'alignement des équipes.</strong>"
         ]
       },

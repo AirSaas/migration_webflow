@@ -709,7 +709,8 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             icon: iconNode(s.iconName),
             title: s.title,
             description: s.description,
-            number: s.number,
+            // Coerce string number ("1") to int (Opus quirk)
+            number: typeof s.number === "string" ? parseInt(s.number, 10) || undefined : s.number,
           }))}
         />
       );
@@ -722,6 +723,21 @@ function renderSection(section: LandingSection, index: number): ReactNode {
   }
 }
 
+// R45 audit Marisella : footer copyright must show airsaas logo + 🇫🇷 emoji.
+// copyrightIcon accepts ReactNode, so we render both inline.
+const FOOTER_COPYRIGHT_ICON = (
+  <span className="inline-flex items-center gap-[0.375rem]">
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img
+      src="/assets/logos/airsaas-logo.svg"
+      alt=""
+      aria-hidden="true"
+      className="h-[1.25rem] w-auto"
+    />
+    <span aria-label="Français">🇫🇷</span>
+  </span>
+);
+
 export default function LandingPageV2({ page }: { page: LandingPage }) {
   return (
     <main className="flex min-h-screen flex-col bg-background">
@@ -729,6 +745,7 @@ export default function LandingPageV2({ page }: { page: LandingPage }) {
       <Footer
         columns={BLOG_INDEX_DATA.footerColumns}
         copyright={BLOG_INDEX_DATA.copyright}
+        copyrightIcon={FOOTER_COPYRIGHT_ICON}
       />
     </main>
   );

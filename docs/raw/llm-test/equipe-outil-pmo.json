@@ -1,13 +1,13 @@
 {
   "type": "equipe",
   "slug": "outil-pmo",
-  "iteration": 2,
-  "outcome": "REFINED",
-  "previousOutcome": "PASS_FIRST_TRY",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
   "result": {
     "meta": {
       "title": "L'outil PPM pour un PMO moderne",
-      "description": "AirSaas est la solution la plus simple pour avoir une vue macro consolidée du portefeuille projet. Le PPM moderne pour un PMO efficace."
+      "description": "AirSaas, la solution la plus simple pour avoir une vue macro consolidée du portefeuille projet. Un PPM avec une UX au top, pensé pour les PMO modernes."
     },
     "sections": [
       {
@@ -33,7 +33,7 @@
           },
           {
             "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
-            "source": "JDN Journal du NET",
+            "source": "JDN Journal du Net",
             "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
           },
           {
@@ -42,8 +42,8 @@
             "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d10458acb275dbac3ecb65_LePoint-monotone.png"
           },
           {
-            "text": "la DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
-            "source": "lemondeinformatique.fr",
+            "text": "La DSI a choisi de mettre en place deux solutions complémentaires : AirSaas pour le pilotage stratégique et Asana pour la gestion opérationnelle des projets",
+            "source": "Le Monde Informatique",
             "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/64141ec10a541a09487cd1ec_LMI.png"
           }
         ]
@@ -76,7 +76,8 @@
       },
       {
         "type": "stats",
-        "title": "Les chiffres qui vous feront adopter AirSaas",
+        "title": "Les chiffres",
+        "titleHighlight": "qui vous feront adopter AirSaas",
         "items": [
           {
             "value": "80%",
@@ -115,7 +116,7 @@
           "Doit-on recruter ou mettre l'équipe en tension ? Pendant combien de temps ?"
         ],
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
-        "imageAlt": "Capacity Marketing"
+        "imageAlt": "Capacity screen"
       },
       {
         "type": "feature-split",
@@ -134,28 +135,29 @@
       },
       {
         "type": "feature-split",
-        "title": "Une newsletter sponsor que votre direction va adorer",
-        "subtitle": "Recevez l'email \"Bilan de santé\" tous les lundi matin !",
+        "title": "Une newsletter sponsor",
+        "titleHighlight": "que votre direction va adorer",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66543b6b307a64952dc9c936_Control%20tower%20email%20FR-1.png",
         "imageAlt": "Bilan de santé",
         "subSections": [
           {
             "title": "Tendance des projets vitaux",
-            "body": "Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment."
+            "body": "<p>Un récapitulatif de la santé des projets vitaux de votre organisation pour leur permettre de \"sentir\" la tendance du moment.</p>"
           },
           {
             "title": "Tendance de leurs projets à eux",
-            "body": "Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet."
+            "body": "<p>Un aperçu de leurs projets, ceux en amélioration et ceux en dégradation qui nécessitent leur attention. En un clic, ils peuvent accéder à la fiche projet.</p>"
           },
           {
             "title": "Projets en retard d'actualisation",
-            "body": "Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquile !"
+            "body": "<p>Un rappel des projets qui méritent d'être mis à jour. Si cette section est vide, vous êtes tranquile !</p>"
           }
         ]
       },
       {
         "type": "feature-split",
-        "title": "Votre reporting projet en un clic",
+        "title": "Votre reporting projet",
+        "titleHighlight": "en un clic",
         "body": "<p>Générez votre <strong>reporting flash en un seul clic</strong>, et homogénéisez vos présentations, pour faciliter la prise de décision. Autant de temps gagné pour vous focaliser sur le coaching de vos chefs de projet et votre gouvernance.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
         "imageAlt": "Flash report ppt"
@@ -182,13 +184,6 @@
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
         "imageAlt": "Portfolio decisions",
         "reversed": true
-      },
-      {
-        "type": "cta",
-        "title": "Et si vous repreniez le contrôle de votre portefeuille de projets ?",
-        "subtitle": "Adoptez dès maintenant une solution de gestion de gouvernance moderne, qui fait gagner vos projets en temps et en efficacité.",
-        "ctaLabel": "Réservez une démo",
-        "ctaHref": "/fr/meetings-pages"
       },
       {
         "type": "feature-split",
@@ -240,60 +235,61 @@
       {
         "type": "customer-testimonials",
         "title": "Laissez nos clients vous parler d'AirSaas",
-        "subtitle": "Qui de mieux pour vous parler de la plateforme que ceux qui l'utilisent au quotidien pour améliorer la gestion de leurs projets de transformation ?",
         "testimonials": [
           {
+            "text": "Groupe Picoty — Énergie et combustibles — 1300 employés",
             "name": "Laurent Citton",
-            "role": "Directeur des Systèmes d'Information Groupe chez Picoty",
-            "company": "Groupe Picoty — Énergie et combustibles — 1300 employés"
+            "role": "Directeur des Systèmes d'Information Groupe chez Picoty"
           },
           {
+            "text": "Hôtellerie & loisirs — 40000 employés",
             "name": "Émilie Lecart",
-            "role": "CIO Office",
-            "company": "Hôtellerie & loisirs — 40000 employés"
+            "role": "CIO Office"
           },
           {
+            "text": "Altavia — Communication et marketing — 2800 employés",
             "name": "Sébastien Louyot",
-            "role": "Group CIO",
-            "company": "Altavia — Communication et marketing — 2800 employés"
+            "role": "Group CIO"
           },
           {
+            "text": "Dynamical — Conseil — 2 employés",
             "name": "David Langlade",
-            "role": "Conseil / DSI de transition CTO/ - CIO",
-            "company": "Dynamical — Conseil — 2 employés"
+            "role": "Conseil / DSI de transition CTO/ - CIO"
           },
           {
+            "text": "Chiesi France — Santé-Pharma — 6500 employés",
             "name": "Clément Royer",
-            "role": "DSI - ICT MANAGER chez Chiesi France",
-            "company": "Chiesi France — Santé-Pharma — 6500 employés"
+            "role": "DSI - ICT MANAGER chez Chiesi France"
           },
           {
+            "text": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés",
             "name": "Aurore Butrot",
-            "role": "DSI Intuis (Ex Groupe Muller)",
-            "company": "Groupe Intuis (Ex Muller) — Industrie — 1000 employés"
+            "role": "DSI Intuis (Ex Groupe Muller)"
           },
           {
+            "text": "Comexposium — Événementiel — 900 employés",
             "name": "Stephan Boisson",
-            "role": "Group Chief Digital & Information Officer Comexposium",
-            "company": "Comexposium — Événementiel — 900 employés"
+            "role": "Group Chief Digital & Information Officer Comexposium"
           },
           {
+            "text": "Indexia Groupe — Assurance et Distribution — 3000 employés",
             "name": "Sylvain Bourdette",
-            "role": "DSI/CTO/Pro de la transfo",
-            "company": "Indexia Groupe — Assurance et Distribution — 3000 employés"
+            "role": "DSI/CTO/Pro de la transfo"
           },
           {
+            "text": "Caduciel — Santé - Editeur de logiciel — 50 employés",
             "name": "Vincent Potel",
-            "role": "Directeur Général de transition",
-            "company": "Caduciel — Santé - Editeur de logiciel — 50 employés"
+            "role": "Directeur Général de transition"
           }
         ]
       },
       {
         "type": "cta",
-        "title": "Consultez les témoignages de nos clients",
-        "ctaLabel": "Voir les témoignages",
-        "ctaHref": "/fr/temoignages"
+        "title": "Et si vous repreniez",
+        "titleHighlight": "le contrôle de votre portefeuille de projets ?",
+        "subtitle": "Adoptez dès maintenant une solution de gestion de gouvernance moderne, qui fait gagner vos projets en temps et en efficacité.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
       }
     ]
   }

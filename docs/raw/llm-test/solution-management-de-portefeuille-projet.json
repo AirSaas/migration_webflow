@@ -1,21 +1,22 @@
 {
   "type": "solution",
   "slug": "management-de-portefeuille-projet",
-  "iteration": 2,
-  "outcome": "REFINED",
-  "previousOutcome": "PASS_FIRST_TRY",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
   "result": {
     "meta": {
       "title": "Management de portefeuille projet — AirSaas",
-      "description": "L'outil de management de portefeuille projet qui révolutionne votre gouvernance. Visualisez vos projets, automatisez le reporting, collaborez."
+      "description": "L'outil de management de portefeuille projet qui révolutionne votre gouvernance. Visualisez, automatisez et collaborez avec AirSaas."
     },
     "sections": [
       {
         "type": "hero",
+        "tag": "SOLUTION",
         "title": "L'outil de management de",
         "titleHighlight": "portefeuille projet",
+        "titleSuffix": "qui révolutionne votre gouvernance",
         "subtitle": "AirSaas a été conçu pour vous aider à transformer votre entreprise de manière efficace, en vous faisant gagner en temps et en visibilité sur votre portfolio. Révolutionnez votre management de portefeuille de projet en gardant une vision précise de vos priorités, des décisions à prendre, et en communiquant mieux au quotidien.",
-        "body": "<p>qui révolutionne votre gouvernance</p>",
         "primaryCta": {
           "label": "Réservez une démo",
           "href": "/fr/meetings-pages"
@@ -24,16 +25,20 @@
       {
         "type": "intro",
         "title": "La solution de portfolio project management favorite des PMO et DSI",
+        "titleHighlight": "PMO et DSI",
         "body": "<p>C'est parce que les outils traditionnels de gestion de portefeuille projet n'étaient pas adaptés aux besoins des professionnels de la transformation d'entreprise que nous avons conçu AirSaas.</p><p>À partir des retours de DSI et PMO, nous avons développé la plateforme collaborative de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/management-de-portefeuille-de-projet\">management de portefeuille projet</a> la plus simple au monde : celle qui vous permet de visualiser aisément vos projets, de personnaliser vos tableaux de bord, et d'automatiser votre reporting en quelques clics seulement.</p><p>Fluide et simplissime, AirSaas accompagne désormais les Pro. de la Transfo. qui veulent <a href=\"https://www.airsaas.io/fr/gestion-de-projet/lean-portfolio-management\">accélérer leur prise de décision</a> et mener leurs projets plus loin, plus vite.</p>"
       },
       {
         "type": "intro",
         "title": "Visualisez votre portfolio en vue macro",
+        "titlePrefix": "Visualisez votre portfolio",
+        "titleSuffix": "en vue macro",
         "body": "<p>Perdu dans les outils de gestion de projet traditionnels, qui vous empêchent de sortir du suivi micro des tâches de chaque projet ? Avec AirSaas, profitez d'une vue exhaustive multi-projets de tout ce qui compte pour assurer la gouvernance de votre portefeuille.</p>"
       },
       {
         "type": "feature-split",
         "title": "Une planification stratégique simplifiée grâce à votre vue macro",
+        "titleHighlight": "planification stratégique simplifiée",
         "body": "<p>AirSaas vous permet d'accéder à un tableau de bord de portefeuille projet simple à lire, où toutes vos informations-clés sont rassemblées, consolidées, et à jour en temps réel.</p><p>Prenez de la hauteur sur votre portfolio de projets avec votre vue macro, et prenez des décisions plus rapides, alignées avec les véritables priorités stratégiques de votre entreprise.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
         "imageAlt": "planification stratégique",
@@ -42,6 +47,7 @@
       {
         "type": "feature-split",
         "title": "Des intégrations natives pour limiter le report de données manuel",
+        "titleHighlight": "intégrations natives",
         "body": "<p>Profitez de la marketplace d'intégrations natives d'AirSaas, qui synchronise votre plateforme PPM à vos outils préférés : gestion de tâches (Jira, ClickUp, Asana, Monday), communication interne (Microsoft Teams) et logiciel de service client (Zendesk).</p><p>Vos tableaux de bord se mettent à jour automatiquement et en temps réel avec les données qui comptent.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65c4fa645ae196734feb2eca_integrations-screen-home.webp",
         "imageAlt": "intégrations natives"
@@ -49,11 +55,27 @@
       {
         "type": "intro",
         "title": "Concevez des vues personnalisées de votre tableau de bord",
-        "body": "<p>Le management de projets demande parfois de pouvoir se focaliser sur les projets à risques ou qui viennent tout juste d'être lancés. Profitez des filtres personnalisables d'AirSaas, qui vous aide à visualiser votre portefeuille en fonction de la météo, des risques ou de l'avancement de vos projets.</p>"
+        "titleHighlight": "Concevez des vues personnalisées",
+        "body": "<p>Le management de projets demande parfois de pouvoir se focaliser sur les projets à risques ou qui viennent tout juste d'être lancés. Profitez des filtres personnalisables d'AirSaas, qui vous aide à visualiser votre portefeuille en fonction de la météo, des risques ou de l'avancement de vos projets.</p>",
+        "subSections": [
+          {
+            "title": "La vue liste",
+            "body": "<p>Besoin de suivre l'avancée de vos projets, et de leurs indicateurs-clés ? Rendez-vous sur la vue liste, et passez en revue les différents projets de votre portefeuille aisément.</p>"
+          },
+          {
+            "title": "La vue Kanban",
+            "body": "<p>Pour observer les tendances générales de votre portfolio, choisissez la vue Kanban, et analysez les états d'avancement de vos projets. Rien de tel pour optimiser votre stratégie de pilotage !</p>"
+          },
+          {
+            "title": "La vue timeline",
+            "body": "<p>Cette vue sous forme de diagramme de Gantt est idéale pour optimiser votre gestion des ressources, anticiper les retards, et repérer en amont les dépendances inter-projets. Vous organisez vos projets sur le temps long, pour ne plus rien laisser au hasard.</p>"
+          }
+        ]
       },
       {
         "type": "feature-split",
         "title": "La vue liste",
+        "titleHighlight": "liste",
         "body": "<p>Besoin de suivre l'avancée de vos projets, et de leurs indicateurs-clés ? Rendez-vous sur la vue liste, et passez en revue les différents projets de votre portefeuille aisément.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d707b3e6ce3f9970b2d505_Portfolio%20project%20list%20view.webp",
         "imageAlt": "List"
@@ -61,6 +83,7 @@
       {
         "type": "feature-split",
         "title": "La vue Kanban",
+        "titleHighlight": "Kanban",
         "body": "<p>Pour observer les tendances générales de votre portfolio, choisissez la vue Kanban, et analysez les états d'avancement de vos projets. Rien de tel pour optimiser votre stratégie de pilotage !</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d70552a7607dc102dcc930_Portfolio%20header%20menu.webp",
         "imageAlt": "Kanban",
@@ -69,25 +92,21 @@
       {
         "type": "feature-split",
         "title": "La vue timeline",
+        "titleHighlight": "timeline",
         "body": "<p>Cette vue sous forme de diagramme de Gantt est idéale pour optimiser votre gestion des ressources, anticiper les retards, et repérer en amont les dépendances inter-projets. Vous organisez vos projets sur le temps long, pour ne plus rien laisser au hasard.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
         "imageAlt": "Timeline"
       },
       {
-        "type": "cta",
-        "title": "Boostez votre management de portefeuille projet et votre prise de décision",
-        "subtitle": "Optez pour un outil PPM moderne et simple, où le collaboratif mène vos portefeuilles de projets plus loin, plus rapidement.",
-        "ctaLabel": "Réservez une démo",
-        "ctaHref": "/fr/meetings-pages"
-      },
-      {
         "type": "intro",
         "title": "Automatisez votre flash report",
+        "titleHighlight": "Automatisez",
         "body": "<p>Le Copil approche, et vous perdez un temps fou à récolter les données dont vous avez besoin auprès des chefs de projets, des métiers, et des différentes parties prenantes de vos projets ? Économisez ce temps grâce à la fonctionnalité de reporting automatisée d'AirSaas : elle vous fait gagner une journée de travail par semaine en moyenne.</p>"
       },
       {
         "type": "feature-split",
         "title": "Votre reporting, véritable outil d'aide à la décision",
+        "titleHighlight": "reporting",
         "body": "<p>Avec le flash report automatisé d'AirSaas, vous permettez à chacun de visualiser aisément les décisions qui doivent être prises à l'instant T. Décisionnaires, chefs d'équipe et de projets, sponsors : tout le monde est aligné, pour fluidifier la prise de décision.</p><p>Dans votre reporting, vous transmettez les grandes lignes de vos projets (planning, timeline, KPI…), puis vous rentrez dans le détail des projets urgents. Jalons, risques, météos des projets, KPI d'avancement, ressources humaines et budgets impliqués, gains attendus… Tout ce dont vous avez besoin est là.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
         "imageAlt": "la prise de décision"
@@ -95,6 +114,7 @@
       {
         "type": "feature-split",
         "title": "Une structure personnalisable et ultra-lisible",
+        "titleHighlight": "structure personnalisable",
         "body": "<p>En un clic sur AirSaas, créez votre flash report au format .pdf ou .ppt, et personnalisez-en le design selon la charte de votre entreprise. Vous pouvez également y ajouter des métriques-clés supplémentaires, des précisions sur vos plannings, ou encore un récapitulatif exhaustif des décisions à prendre.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35ce9e34fd87ad7612c9d_Flash%20report%20ppt.webp",
         "imageAlt": "Reporting projet",
@@ -103,11 +123,13 @@
       {
         "type": "intro",
         "title": "Collaborez pour mieux transformer votre entreprise",
+        "titleHighlight": "Collaborez",
         "body": "<p>La gestion de votre portefeuille de projets nécessite une véritable collaboration entre vous, les métiers et les chefs de projet pour être optimale. Sur AirSaas, toutes les parties prenantes apportent leur pierre à l'édifice, depuis le cadrage des projets jusqu'à leur mise en œuvre quotidienne. Plus personne ne peut vous dire : \"Je ne savais pas !\"</p>"
       },
       {
         "type": "feature-split",
         "title": "Des fiches de cadrage co-créées",
+        "titleHighlight": "co-créées",
         "body": "<p>Impliquez chaque chef de projet dans le cadrage de vos projets, depuis la structure fixe AirSaas qui vous permet de définir un standard à votre culture projet. Cette méthodologie forte vous permet de faire démarrer chaque projet sur le bon pied.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35d6a6c51a9712103f44c_Presentation-scope-slide.webp",
         "imageAlt": "cadrage",
@@ -116,6 +138,7 @@
       {
         "type": "feature-split",
         "title": "Une communication fluide avec tous les acteurs de votre transformation",
+        "titleHighlight": "communication fluide",
         "body": "<p>Sur AirSaas, notifiez automatiquement vos équipes opérationnelles quand un projet est à risque, et envoyez des bilans aisément. Tout est paramétrable à échéances fixes, selon les rituels que vous avez créé dans votre management de portefeuille de projet.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d47452aa2dd357ad578e4d_Modal%20-%20people%20involved.webp",
         "imageAlt": "Communiquez"
@@ -123,26 +146,22 @@
       {
         "type": "feature-split",
         "title": "Des bilans de projet bien huilés",
+        "titleHighlight": "bilans de projet",
         "body": "<p>Rien de tel qu'un bilan de projet pour faire le point, et tirer les bonnes pratiques et les points d'amélioration de votre culture projet. Créez l'engagement de chacun en générant des bilans de projets complets : coûts, délais, retours DAKI et engagement de vos équipes s'y retrouvent - et tout le monde en tire les bonnes conclusions</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d4872337663b8b88c2c66a_Presentation-review-slide.webp",
         "imageAlt": "bilans de projet",
         "reversed": true
       },
       {
-        "type": "cta",
-        "title": "Choisissez de gagner du temps et du contrôle",
-        "subtitle": "Adoptez dès maintenant une solution de management de portefeuille projet efficace, à l'expérience utilisateur vraiment fluide.",
-        "ctaLabel": "Réservez une démo",
-        "ctaHref": "/fr/meetings-pages"
-      },
-      {
         "type": "intro",
         "title": "Les 5 règles d'or d'un bon management de portefeuille projet",
+        "titleHighlight": "Les 5 règles",
         "body": "<p>Il ne suffit pas de déployer un bon outil de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management\">portfolio project management</a> pour assurer une gouvernance optimale à votre transformation d'entreprise. Suivez les cinq règles d'or suivantes pour structurer votre démarche, et décupler votre succès.</p>"
       },
       {
         "type": "feature-split",
         "title": "Réduire la durée des projets dans votre portefeuille",
+        "titleHighlight": "la durée des projets",
         "body": "<p>Notre position : un projet ne devrait pas dépasser les trois mois. Les projets longs créent le chaos dans les équipes, qui perdent en engagement avec le temps - et bien souvent, ils ne voient jamais le jour.</p><p>Pour faire en sorte que chaque projet dure trois mois maximum, segmentez vos projets plus longs en plusieurs grandes phases de trois mois chacune. Ainsi, vous motivez toutes les parties prenantes, et vous assurez d'un pilotage des projets optimal.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659c49b1c11c7db42bdbe382_portfolio1-min.svg",
         "imageAlt": "indicateurs de performance"
@@ -150,6 +169,7 @@
       {
         "type": "feature-split",
         "title": "Définir un ordre d'exécution des différents projets",
+        "titleHighlight": "ordre d'exécution",
         "body": "<p>Pour bien piloter votre portefeuille de projet, tout commence par une bonne définition des priorités à accorder à chacun de vos projets. Or, bien souvent, pour la direction, la plupart des projets sont hautement prioritaires : difficile alors de prioriser au quotidien dans votre gouvernance !</p><p>Pour pallier ce souci, définissez un ordre d'exécution des différents projets : lequel vient en premier, puis en deuxième, puis en troisième ?</p><p>Veillez également à éviter de toujours retenir l'avis de la personne la plus haut placée hiérarchiquement dans l'entreprise. Vous pouvez par exemple lui faire donner son avis en dernier lors des tours de table de votre comité de pilotage, pour pouvoir entendre tous les avis, et ne pas favoriser les projets d'une seule et même personne.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d740ad0d75cbc3c06eba7f_Project%20page%20zoom%20importance-risk.webp",
         "imageAlt": "Project page importance-risk",
@@ -158,6 +178,7 @@
       {
         "type": "feature-split",
         "title": "Privilégier l'achèvement de projets en cours que le lancement de nouveaux projets",
+        "titleHighlight": "l'achèvement de projets",
         "body": "<p>Plus vous disposez de projets simultanés dans votre portefeuille, plus il est difficile de les finaliser rapidement. Ainsi, on observe <a href=\"https://www.airsaas.io/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet\">bon nombre d'entreprises lancer un grand nombre de projets</a>, sans jamais les voir s'achever. Privilégier un plus petit nombre de projets à la fois vous permet d'en observer plus rapidement la valeur générée.</p><p>Cette règle d'or demande donc de bien savoir prioriser les projets à lancer en premier. Focalisez-vous sur ceux qui apporteront en premier une véritable valeur ajoutée à votre organisation. Une réflexion, certes subjective, mais qui vous permettra de tirer le plus de ROI de votre management de portefeuille projet !</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d7381a68b84adf7cb36003_Portfolio%20projects%20kanban%20status.webp",
         "imageAlt": "Portfolio projects kanban status"
@@ -165,6 +186,7 @@
       {
         "type": "feature-split",
         "title": "Ritualiser votre portfolio project management",
+        "titleHighlight": "Ritualiser",
         "body": "<p>Un rituel est un ensemble des règles et habitudes fixées - et c'est là l'une clé de votre transformation culturelle réussie. Votre objectif ? Développer de nouvelles habitudes de décisions, communication et coopération, de la journée à l'année, dans vos équipes.</p><p>Organisez dans le temps, à intervalles réguliers, vos <a href=\"https://www.airsaas.io/fr/solution/revue-de-portefeuille\">revues de portefeuille stratégique</a>, votre budgétisation participative, ou encore vos réunions de synchronisation du portefeuille. Et tenez-vous-y : la régularité est l'une des clés du succès de l'alignement autour de ces rituels de gouvernance.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/659446696cfdb8c043b15796_calendar_illustration.svg",
         "imageAlt": "indicateurs limpides",
@@ -173,6 +195,7 @@
       {
         "type": "feature-split",
         "title": "Renforcer la culture projet dans votre entreprise",
+        "titleHighlight": "la culture projet",
         "body": "<p>Votre <a href=\"https://www.airsaas.io/fr/solution/outil-ppm\">outil PPM</a> vous permet d'expliquer à chacun, à même la plateforme, quels sont leurs rôles, comment mieux cadrer des projets en amont, ou encore comment bien communiquer sur les besoins de chaque projet. Cependant, en tant que PMO ou DSI, votre rôle suppose également de promouvoir une véritable culture portfolio project management pragmatique au quotidien.</p><p>Pour cela, définissez trois à sept principes d'action à votre management de portefeuille projet. Par exemple, vous pouvez y promouvoir la sincérité, l'auto-organisation, l'empathie et la confiance, la transparence, ou encore la coopération gagnant-gagnant. Ainsi, chacun est aligné autour de ces grands principes, et reste motivé à tout moment.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65a6a9328dd6d654d8262628_PMO-DSI.svg",
         "imageAlt": "les métiers"
@@ -188,7 +211,7 @@
           },
           {
             "text": "AirSaas vise à rendre réel l'alignement entre les directions métiers, la DSI et la direction générale",
-            "source": "JDN Journal du Net",
+            "source": "JDN Journal du NET",
             "logoSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/63d106ab9c5e18b386c84505_JDN-monotone.png"
           },
           {
@@ -205,6 +228,7 @@
       },
       {
         "type": "testimonials",
+        "title": "Ils parlent de nous",
         "testimonials": [
           {
             "text": "Super outil qui nous permet de fluidifier le pilotage de notre portefeuille projet. Je recommande!",
@@ -228,6 +252,15 @@
             "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7122982646506278912/"
           }
         ]
+      },
+      {
+        "type": "cta-highlight",
+        "titlePrefix": "Choisissez de",
+        "titleHighlight": "gagner du temps",
+        "titleSuffix": "et du contrôle",
+        "subtitle": "Adoptez dès maintenant une solution de management de portefeuille projet efficace, à l'expérience utilisateur vraiment fluide.",
+        "ctaLabel": "Réservez une démo",
+        "ctaHref": "/fr/meetings-pages"
       }
     ]
   }

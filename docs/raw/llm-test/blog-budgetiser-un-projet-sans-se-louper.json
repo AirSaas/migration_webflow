@@ -8,17 +8,17 @@
     "meta": {
       "title": "Comment budgétiser un projet sans se louper",
       "h1": "Comment budgétiser un projet sans se louper",
-      "description": "Découvrez comment budgétiser un projet sans se tromper : estimation par analogie, découpage en tranches, retour d'expérience du CIO d'Adeo et les 6 erreurs à éviter.",
-      "publishedDate": "28/5/2022",
+      "description": "Découvrez comment budgétiser un projet efficacement : estimation par analogie, découpage en tranches, retour d'expérience du CIO d'Adeo, 6 erreurs à éviter et bénéfices d'un budget projet réussi.",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "28/5/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
+      "publishedDate": "28/5/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea9312dbd70fd37ca94f39_Project%20image%20(6)-min.jpg",
-        "alt": "Comment budgétiser un projet sans se louper"
+        "alt": "Gestion de Projets"
       }
     },
     "toc": [
@@ -62,17 +62,17 @@
       },
       {
         "type": "paragraph",
-        "html": "Alors comment sortir \"par le haut\" d'une situation ou <strong>53% des projets dépassent de 189% leurs prévisions budgétaires ! </strong>?  (Source : Chaos report)."
+        "html": "Alors comment sortir \"par le haut\" d'une situation ou <strong>53% des projets dépassent de 189% leurs prévisions budgétaires !</strong> ?  (Source : Chaos report)."
       },
       {
         "type": "paragraph",
-        "html": "Dans cet article nous proposons de sortir (un peu) de la subjectivité générale en matière de budget dans la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a>, en mettant en avant<strong> des pratiques simples et pragmatiques ! </strong>Découvrez le retour d'expérience du CIO d'Adéo et aussi un bref rappel des basiques pour vous permettre de budgéter votre prochain projet sans (trop) vous tromper."
+        "html": "Dans cet article nous proposons de sortir (un peu) de la subjectivité générale en matière de budget dans la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a>, en mettant en avant<strong> des pratiques simples et pragmatiques !</strong> Découvrez le retour d'expérience du CIO d'Adéo et aussi un bref rappel des basiques pour vous permettre de budgéter votre prochain projet sans (trop) vous tromper."
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "relever-le-defi-du-budget-avec-une-estimation-par-analogie",
-        "text": "Relever le défi du budget avec une estimation \"par analogie\""
+        "text": "Relever le défi du budget avec une estimation \"par analogie\"",
+        "id": "relever-le-defi-du-budget-avec-une-estimation-par-analogie"
       },
       {
         "type": "figure",
@@ -104,8 +104,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "decoupez-le-budget-de-projet-en-tranches-credibles",
-        "text": "Découpez le budget de projet en tranches crédibles !"
+        "text": "Découpez le budget de projet en tranches crédibles !",
+        "id": "decoupez-le-budget-de-projet-en-tranches-credibles"
       },
       {
         "type": "paragraph",
@@ -140,8 +140,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "limites-desestimations",
-        "text": "Limites des \"estimations\""
+        "text": "Limites des \"estimations\"",
+        "id": "limites-desestimations"
       },
       {
         "type": "paragraph",
@@ -176,13 +176,14 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "retour-dexperience-du-cio-dadeo-leroy-merlin-etc",
-        "text": "Retour d'expérience du CIO d'Adeo (Leroy Merlin, etc.)"
+        "text": "Retour d'expérience du CIO d'Adeo (Leroy Merlin, etc.)",
+        "id": "retour-dexperience-du-cio-dadeo-leroy-merlin-etc"
       },
       {
         "type": "quote",
         "text": "Au niveau budget, l'idée, c'est de fonctionner sur enveloppe fixe. Et moi, je cape l'investissement général, d'Adeo dans le digital, par rapport à la croissance de l'entreprise. On considère que ce ne sont pas des projets, donc ils n'ont pas de fin. Ce sont des produits. Quand on transforme la boîte en orientation product management, l'organisation financière doit aller avec.",
-        "author": "Matthieu Grymonprez — CDO/CIO ADEO. Invité de l'épisode N°30 du Podcast CIO Révolution produit par AirSaas."
+        "author": "Matthieu Grymonprez",
+        "caption": "CDO/CIO ADEO. Invité de l'épisode N°30 du Podcast CIO Révolution produit par AirSaas."
       },
       {
         "type": "paragraph",
@@ -195,14 +196,14 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "budgetiser-un-projet-les-6-erreurs-facilement-evitables",
-        "text": "Budgétiser un projet : les 6 erreurs facilement évitables"
+        "text": "Budgétiser un projet : les 6 erreurs facilement évitables",
+        "id": "budgetiser-un-projet-les-6-erreurs-facilement-evitables"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "1-sous-estimer-les-delais-et-les-couts-indirects-du-projet",
-        "text": "1. Sous-estimer les délais et les coûts indirects du projet"
+        "text": "1. Sous-estimer les délais et les coûts indirects du projet",
+        "id": "1-sous-estimer-les-delais-et-les-couts-indirects-du-projet"
       },
       {
         "type": "paragraph",
@@ -215,8 +216,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "2-vos-partenaires-sont-co-responsables-de-lestimation-impliquez-les",
-        "text": "2. Vos partenaires sont co responsables de l'estimation : impliquez-les !"
+        "text": "2. Vos partenaires sont co responsables de l'estimation : impliquez-les !",
+        "id": "2-vos-partenaires-sont-co-responsables-de-lestimation-impliquez-les"
       },
       {
         "type": "paragraph",
@@ -233,8 +234,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "3-ne-pas-tenir-compte-de-ses-ressources",
-        "text": "3. Ne pas tenir compte de ses ressources !"
+        "text": "3. Ne pas tenir compte de ses ressources !",
+        "id": "3-ne-pas-tenir-compte-de-ses-ressources"
       },
       {
         "type": "paragraph",
@@ -247,8 +248,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "4-un-budget-previsionnel-nest-pas-statique-faites-le-evoluer",
-        "text": "4. Un budget prévisionnel n'est pas statique : faites-le évoluer !"
+        "text": "4. Un budget prévisionnel n'est pas statique : faites-le évoluer !",
+        "id": "4-un-budget-previsionnel-nest-pas-statique-faites-le-evoluer"
       },
       {
         "type": "paragraph",
@@ -269,8 +270,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "5-attention-au-double-run-de-vos-systemes",
-        "text": "5. Attention au \"double run\" de vos systèmes !"
+        "text": "5. Attention au \"double run\" de vos systèmes !",
+        "id": "5-attention-au-double-run-de-vos-systemes"
       },
       {
         "type": "paragraph",
@@ -309,8 +310,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "6-lerreur-ultime-sous-traiter-cette-tache-au-controleur-de-gestion",
-        "text": "6. L'erreur ultime : sous-traiter cette tâche au contrôleur de gestion :-)"
+        "text": "6. L'erreur ultime : sous-traiter cette tâche au contrôleur de gestion :-)",
+        "id": "6-lerreur-ultime-sous-traiter-cette-tache-au-controleur-de-gestion"
       },
       {
         "type": "paragraph",
@@ -327,14 +328,14 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "les-benefices-dun-budget-projet-reussi",
-        "text": "Les bénéfices d'un budget projet réussi"
+        "text": "Les bénéfices d'un budget projet réussi",
+        "id": "les-benefices-dun-budget-projet-reussi"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "le-budget-sert-a-rendre-le-projet-credible",
-        "text": "Le budget sert à rendre le projet crédible"
+        "text": "Le budget sert à rendre le projet crédible",
+        "id": "le-budget-sert-a-rendre-le-projet-credible"
       },
       {
         "type": "paragraph",
@@ -355,8 +356,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "le-budget-de-projet-sassimile-a-un-contrat-tacite",
-        "text": "Le budget de projet s'assimile à un contrat tacite"
+        "text": "Le budget de projet s'assimile à un contrat tacite",
+        "id": "le-budget-de-projet-sassimile-a-un-contrat-tacite"
       },
       {
         "type": "paragraph",
@@ -369,8 +370,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "le-budget-est-un-media-il-vous-permet-de-tenir-les-parties-prenantes-informees",
-        "text": "Le budget est un média : il vous permet de tenir les parties prenantes informées"
+        "text": "Le budget est un média : il vous permet de tenir les parties prenantes informées",
+        "id": "le-budget-est-un-media-il-vous-permet-de-tenir-les-parties-prenantes-informees"
       },
       {
         "type": "paragraph",
@@ -379,8 +380,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "mieux-budgetiser-permet-danticiper-et-ajuster-son-projet",
-        "text": "Mieux budgétiser permet d'anticiper et ajuster son projet"
+        "text": "Mieux budgétiser permet d'anticiper et ajuster son projet",
+        "id": "mieux-budgetiser-permet-danticiper-et-ajuster-son-projet"
       },
       {
         "type": "paragraph",
@@ -397,8 +398,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "le-budget-projet-mal-tenu-peut-destabiliser-ou-pas-toute-lentreprise",
-        "text": "Le budget projet mal tenu peut déstabiliser, ou pas, toute l'entreprise"
+        "text": "Le budget projet mal tenu peut déstabiliser, ou pas, toute l'entreprise",
+        "id": "le-budget-projet-mal-tenu-peut-destabiliser-ou-pas-toute-lentreprise"
       },
       {
         "type": "paragraph",
@@ -415,8 +416,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "resume",
-        "text": "Résumé"
+        "text": "Résumé",
+        "id": "resume"
       },
       {
         "type": "list",

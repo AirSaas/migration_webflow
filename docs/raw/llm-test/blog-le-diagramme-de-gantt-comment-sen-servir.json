@@ -193,7 +193,7 @@
     "meta": {
       "title": "Le diagramme de Gantt : comment s'en servir ?",
       "h1": "Le diagramme de Gantt : comment s'en servir ?",
-      "description": "Découvrez ce qu'est le diagramme de Gantt, ses bénéfices pour la gestion de projet et la méthode en 5 étapes pour créer le vôtre.",
+      "description": "Découvrez le diagramme de Gantt : définition, bénéfices et méthode en 5 étapes pour créer le vôtre et optimiser la gestion de vos projets.",
       "publishedDate": "7/10/2021",
       "author": {
         "name": "Bertran Ruiz",
@@ -203,7 +203,7 @@
       },
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37f2a1470938aca6b9824_5-2.jpg",
-        "alt": "Le diagramme de Gantt"
+        "alt": "Le diagramme de Gantt : comment s'en servir ?"
       }
     },
     "toc": [

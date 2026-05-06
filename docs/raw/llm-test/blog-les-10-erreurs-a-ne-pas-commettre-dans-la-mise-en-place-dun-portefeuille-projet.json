@@ -8,18 +8,18 @@
     "meta": {
       "title": "Les 10 erreurs à (ne pas) commettre dans la mise en place d'un portefeuille projet ?",
       "h1": "Les 10 erreurs à (ne pas) commettre dans la mise en place d'un portefeuille projet ?",
-      "description": "Découvrez les 10 erreurs les plus fréquentes dans la mise en place d'un portefeuille projet (PPM) et comment les éviter, classées des plus mineures aux plus bloquantes pour votre transformation.",
-      "publishedDate": "3/6/2023",
+      "description": "Top 10 des erreurs à éviter dans la mise en place d'un portefeuille projet : retours d'expériences de DSI/PMO/DG et experts pragmatiques pour réussir votre transformation.",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647a0f99f251445a8e175f20_TOP10%20error-min.jpg",
+        "alt": "Gestion de Projets"
+      },
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "3/6/2023",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
-      "heroImage": {
-        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647a0f99f251445a8e175f20_TOP10%20error-min.jpg",
-        "alt": "Les 10 erreurs à ne pas commettre dans la mise en place d'un portefeuille projet"
-      }
+      "publishedDate": "3/6/2023"
     },
     "toc": [
       {
@@ -39,7 +39,7 @@
         "href": "#7-ne-pas-se-baser-sur-votre-capacitaire-et-partir-dun-besoin-irrealiste"
       },
       {
-        "label": "6 - Choisir un outil PPM trop gros, déconnecté de la GP avec jira, monday, asana ...",
+        "label": "6 - Choisir un outil PPM trop gros\", déconnecté de la GP avec jira, monday, asana ...",
         "href": "#6-choisir-un-outil-ppm-trop-gros-deconnecte-de-la-gp-avec-jira-monday-asana"
       },
       {
@@ -100,18 +100,19 @@
       },
       {
         "type": "paragraph",
-        "html": "Si vous vous reconnaissez certains signaux faibles, symptômes ou syndromes dans plus de 5 erreurs, consultez-nous ...on a des services d'accompagnement qui vous éviteront le \"faux départ\" ^^ et même un <a href=\"/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques\">guide des 10 bonnes pratiques</a> !"
+        "html": "Si vous vous reconnaissez certains signaux faibles, symptômes ou syndromes dans plus de 5 erreurs, consultez-nous ...on a des services d'accompagnement qui vous éviteront le \"faux départ\" ^^ et même un <a href=\"/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques\">guide des 10 bonnes pratiques </a>!"
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "10-communiquer-sur-tous-les-projets-a-tous-de-la-meme-facon",
-        "text": "10 - Communiquer sur tous les projets à tous, de la même façon !"
+        "text": "10 - Communiquer sur tous les projets à tous, de la même façon !",
+        "id": "10-communiquer-sur-tous-les-projets-a-tous-de-la-meme-facon"
       },
       {
         "type": "quote",
-        "text": "🎙 \"Un point indispensable dans la transfo, ce sont les aspects de communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace. La transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque.\"",
-        "author": "Alexia Schmitt, Directrice de la Transformation et des Systèmes d'Information Centrimex, invitée de l'épisode 22 du Podcast CIO Révolution by AirSaas."
+        "text": "🎙\"Un point indispensable dans la transfo, ce sont les aspects de communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace. La transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque.\"",
+        "author": "Alexia Schmitt",
+        "caption": "Directrice de la Transformation et des Systèmes d'Information Centrimex invitée de l'épisode 22 du Podcast CIO Révolution by AirSaas."
       },
       {
         "type": "paragraph",
@@ -127,7 +128,7 @@
       },
       {
         "type": "paragraph",
-        "html": "On vous remet en tête juste ci-dessous la \"<strong>stake holder map</strong>\", <strong>matrice des parties prenantes</strong>, qui permet une première approche de ce processus. Une <strong>base de réflexion</strong> pour formaliser votre <strong>stratégie</strong> et n'oublier aucunes parties prenantes, car <strong>il y en a toujours plus qu'on ne le pense !</strong>"
+        "html": "On vous remet en tête juste ci-dessous la \"<strong>stake holder</strong> <strong>map</strong>\", <strong>matrice des parties prenantes</strong>, qui permet une première approche de ce processus. Une <strong>base de réflexion</strong> pour formaliser votre <strong>stratégie</strong> et n'oublier aucunes parties prenantes, car <strong>il y en a toujours plus qu'on ne le pense !</strong>"
       },
       {
         "type": "paragraph",
@@ -142,8 +143,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "9-vous-navez-pas-une-vraie-visibilite-sur-la-sante-de-votre-portefeuille",
-        "text": "9 - Vous n'avez pas une (vraie) visibilité sur la santé de votre portefeuille"
+        "text": "9 - Vous n'avez pas une (vraie) visibilité sur la santé de votre portefeuille",
+        "id": "9-vous-navez-pas-une-vraie-visibilite-sur-la-sante-de-votre-portefeuille"
       },
       {
         "type": "paragraph",
@@ -162,13 +163,13 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "8-choisir-excel-pour-porter-votre-transfo",
-        "text": "8 - Choisir Excel pour porter votre transfo."
+        "text": "8 - Choisir Excel pour porter votre transfo.",
+        "id": "8-choisir-excel-pour-porter-votre-transfo"
       },
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647adac83530d3a8d4fdb68b_excel-is-not-a-database-bart-simpson-writing-on-a-blackboard.jpg",
-        "alt": "Excel n'est pas un PPM"
+        "alt": "Excel n'est pas un PPM ^^"
       },
       {
         "type": "paragraph",
@@ -187,7 +188,7 @@
         "ordered": false,
         "items": [
           "Excel est <strong>vulnérable aux fraudes et aux erreurs humaines</strong>",
-          "Excel <strong>ne favorise pas</strong> le travail <strong>collaboratif</strong>",
+          "Excel <strong>ne favorise pas</strong> le travail<strong> collaboratif</strong>",
           "Excel est <strong>limitant dans la prise de décisions</strong>",
           "Excel est <strong>inadapté à la continuité du business</strong>",
           "Excel est assez <strong>peu compréhensif</strong> pour la personne qui n'a pas créé le fichier..."
@@ -200,8 +201,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "7-ne-pas-se-baser-sur-votre-capacitaire-et-partir-dun-besoin-irrealiste",
-        "text": "7 - Ne pas se baser sur votre capacitaire et partir d'un besoin irréaliste"
+        "text": "7 - Ne pas se baser sur votre capacitaire et partir d'un besoin irréaliste",
+        "id": "7-ne-pas-se-baser-sur-votre-capacitaire-et-partir-dun-besoin-irrealiste"
       },
       {
         "type": "figure",
@@ -215,11 +216,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Appelons la culture agile, lean startup, product company, méthodes efficaces..peu importe au fond !"
+        "html": "Appelons la culture agile, lean startup, product company, méthodes efficaces..peu importe au fond!"
       },
       {
         "type": "paragraph",
-        "html": "L'enjeu est de ne pas \"sur spécifier\", sur promettre, sur développer...pour <strong>ne pas surconsommer vos ressources humaines</strong> en premier lieu."
+        "html": "L'enjeu est de ne pas \"sur spécifier\", sur promettre, sur développer...pour <strong>ne pas surconsommer vos ressources humaines </strong>en premier lieu."
       },
       {
         "type": "paragraph",
@@ -236,13 +237,13 @@
       {
         "type": "quote",
         "text": "Ayez un dialogue avec votre DG sur le capacitaire, levez ce tabou.",
-        "author": "Retour d'expérience d'un DSI dans le cadre du podcast CIO Révolution by AirSaas"
+        "caption": "Retour d'expérience d'un DSI dans le cadre du podcast CIO Révolution by AirSaas"
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "6-choisir-un-outil-ppm-trop-gros-deconnecte-de-la-gp-avec-jira-monday-asana",
-        "text": "6 - Choisir un outil PPM trop gros, déconnecté de la GP avec jira, monday, asana ..."
+        "text": "6 - Choisir un outil PPM trop gros\", déconnecté de la GP avec jira, monday, asana ...",
+        "id": "6-choisir-un-outil-ppm-trop-gros-deconnecte-de-la-gp-avec-jira-monday-asana"
       },
       {
         "type": "paragraph",
@@ -277,8 +278,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "5-ne-pas-decouper-les-projets-obeses-en-projets-digestes",
-        "text": "5 - Ne pas découper les projets \"obèses\" en projets digestes"
+        "text": "5 - Ne pas découper les projets \"obèses\" en projets digestes",
+        "id": "5-ne-pas-decouper-les-projets-obeses-en-projets-digestes"
       },
       {
         "type": "figure",
@@ -301,8 +302,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "4-permettre-aux-projets-peu-prioritaires-ou-de-faible-valeur-dentrer-et-ou-de-rester-dans-votre-portefeuille",
-        "text": "4 - Permettre aux projets peu prioritaires ou de faible valeur d'entrer et ou de rester dans votre portefeuille"
+        "text": "4 - Permettre aux projets peu prioritaires ou de faible valeur d'entrer et ou de rester dans votre portefeuille",
+        "id": "4-permettre-aux-projets-peu-prioritaires-ou-de-faible-valeur-dentrer-et-ou-de-rester-dans-votre-portefeuille"
       },
       {
         "type": "paragraph",
@@ -318,7 +319,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Autre erreur fréquente dans ce même registre, lorsque la <strong>direction ajoute de nouveaux projets au portefeuille sans examen initial.</strong> Le fameux \"fait du prince\", autrement appelée l'effet \"décision du patron\"."
+        "html": "Autre erreur fréquente dans ce même registre, lorsque la<strong> direction ajoute de nouveaux projets au portefeuille sans examen initial. </strong>Le fameux \"fait du prince\", autrement appelée l'effet \"décision du patron\"."
       },
       {
         "type": "paragraph",
@@ -326,13 +327,13 @@
       },
       {
         "type": "paragraph",
-        "html": "Dans ces cas-là...le <strong>courage managérial est de mise</strong> et si aucune raison centrée sur la valeur n'est réellement avancée...changez d'entreprise !"
+        "html": "Dans ces cas-là...le <strong>courage managérial est de mise </strong>et si aucune raison centrée sur la valeur n'est réellement avancée...changez d'entreprise !"
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "3-envoyer-des-reporting-projets-de-forme-et-frequences-aleatoires",
-        "text": "3 - Envoyer des reporting projets de forme et fréquences aléatoires"
+        "text": "3 - Envoyer des reporting projets de forme et fréquences aléatoires",
+        "id": "3-envoyer-des-reporting-projets-de-forme-et-frequences-aleatoires"
       },
       {
         "type": "paragraph",
@@ -351,25 +352,25 @@
         "ordered": false,
         "items": [
           "Ont du <strong>mal à suivre l'état d'avancement,</strong> la fameuse question mais on en est ou ?",
-          "<strong>Passent plus de temps à essayer de comprendre</strong> les slides du ppt que <strong>le fond des sujets</strong> ...",
+          "<strong>Passent plus de temps à essayer de comprendre </strong>les slides du ppt que <strong>le fond des sujets</strong> ...",
           "Ne les lisent pas .."
         ]
       },
       {
         "type": "paragraph",
-        "html": "<strong>Facilitez la prise de décision</strong> ! Un tout petit changement plein de bon sens, qui à de grands impacts. Avec AirSaas vous n'avez <strong>plus d'excuse pour ne pas envoyer un bon et beau rapport flash</strong>."
+        "html": "<strong>Facilitez la prise de décision </strong>! Un tout petit changement plein de bon sens, qui à de grands impacts. Avec AirSaas vous n'avez <strong>plus d'excuse pour ne pas envoyer un bon et beau rapport flash</strong>."
       },
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62bdfca88290d29985904cb5_report-flash.png",
         "alt": "Rapport Flash",
-        "caption": "Rapport Flash AirSaas - tout pour facilitez la prise de décisions"
+        "caption": "Rapport Flash AirSaas-tout pour facilitez la prise de décisions"
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "2-negliger-le-pilotage-par-les-jalons-et-decisions",
-        "text": "2 - Négliger le pilotage par les jalons et décisions"
+        "text": "2 - Négliger le pilotage par les jalons et décisions",
+        "id": "2-negliger-le-pilotage-par-les-jalons-et-decisions"
       },
       {
         "type": "paragraph",
@@ -377,7 +378,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Pourtant, il est clairement <strong>difficile d'avoir une vision d'ensemble des décisions à prendre et du contexte</strong> synthétique de celles-ci.<br/>Et à postériori sans contenu, il est difficile d'avoir l'historique des décisions importantes (prises ou non) sur tel ou tel projet. Difficile pour comprendre comment on en est arrivé là ..."
+        "html": "Pourtant, il est clairement <strong>difficile d'avoir une vision d'ensemble des décisions à prendre et du contexte</strong> synthétique de celles-ci.<br/>Et à postériori sans contenu, il est difficile d'avoir l'historique des décisions importantes (prises ou non ) sur tel ou tel projet. Difficile pour comprendre comment on en est arrivé là ..."
       },
       {
         "type": "paragraph",
@@ -389,13 +390,13 @@
       },
       {
         "type": "paragraph",
-        "html": "Les décisions tout le monde en parle... Mais elles sont ou ? → Et si vous aviez accès à toutes les décisions à prendre et historique clé pendant le copil ? \"Un kanban des décisions ça change la vie d'une entreprise\""
+        "html": "Les décisions tout le monde en parle... Mais elles sont ou ? --> Et si vous aviez accès à toutes les décisions à prendre et historique clé pendant le copil ? \"Un kanban des décisions ça change la vie d'une entreprise\""
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "1-ne-pas-mettre-a-jour-los-de-votre-entreprise-sa-gouvernance-et-ses-rituels",
-        "text": "1 - Ne pas mettre à jour l'OS de votre entreprise : sa gouvernance et ses rituels !"
+        "text": "1 - Ne pas mettre à jour l'OS de votre entreprise : sa gouvernance et ses rituels !",
+        "id": "1-ne-pas-mettre-a-jour-los-de-votre-entreprise-sa-gouvernance-et-ses-rituels"
       },
       {
         "type": "figure",
@@ -405,7 +406,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Oui, c'est là où il y <strong>le plus de gains potentiels</strong> !"
+        "html": "Oui, c'est là où il y <strong>le plus de gains potentiels </strong>!"
       },
       {
         "type": "paragraph",
@@ -417,19 +418,19 @@
       },
       {
         "type": "paragraph",
-        "html": "Car lorsqu'on pense avoir compris <strong>le concept de PPM</strong> et qu'on évite, pour aller plus vite, un accompagnement, même light, les <strong>risques de méprises</strong> ou de précipitations sont trop nombreux ! Pour n'en citer qu'une, la plus classique.... Penser que l'outil est magique et qu'il fera avancer les choses à lui tout seul !"
+        "html": "Car lorsqu'on pense avoir compris<strong> le concept de PPM</strong> et qu'on évite, pour aller plus vite, un accompagnement, même light, les<strong> risques de méprises</strong> ou de précipitations sont trop nombreux ! Pour n'en citer qu'une, la plus classique.... Penser que l'outil est magique et qu'il fera avancer les choses à lui tout seul !"
       },
       {
         "type": "paragraph",
-        "html": "Premièrement, l'outil PPM n'est qu'un outil (pléonasme !) il ne consiste <strong>pas en une démarche</strong> !"
+        "html": "Premièrement, l'outil PPM n'est qu'un outil (pléonasme !) il ne consiste <strong>pas en une démarche </strong>!"
       },
       {
         "type": "paragraph",
-        "html": "Pour bien faire comprendre ce point autour de vous, utilisez la métaphore du couteau (l'outil) et la démarche (La façon de s'en servir pour couper un aliment ou un doigt !)."
+        "html": "Pour bien faire comprendre ce point autour de vous, utilisez la métaphore du couteau (l'outil) et la démarche (La façon de s'en servir pour couper un aliment ou un doigt ! )."
       },
       {
         "type": "paragraph",
-        "html": "Un <strong>outil donc ne peut pas résoudre les problèmes inhérents à l'organisation</strong> tels que des processus de projet peu clairs, une manière floue de formaliser les exigences d'un projet, un management indécis voire absent, l'absence d'évaluation des risques et de planification de la réponse, etc. Vous le savez, la liste des dysfonctionnements peut être longue !"
+        "html": "Un <strong>outil donc ne peut pas résoudre les problèmes inhérents à l'organisation </strong>tels que des processus de projet peu clairs, une manière floue de formaliser les exigences d'un projet, un management indécis voire absent, l'absence d'évaluation des risques et de planification de la réponse, etc. Vous le savez, la liste des dysfonctionnements peut être longue !"
       },
       {
         "type": "paragraph",
@@ -442,8 +443,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "conclusion",
-        "text": "Conclusion"
+        "text": "Conclusion",
+        "id": "conclusion"
       },
       {
         "type": "paragraph",
@@ -451,7 +452,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Mettre en place un portefeuille projet est une <strong>étape critique</strong> pour les entreprises souhaitant se transformer et moderniser leur gouvernance et gestion de projet. Cependant, les erreurs sont normales, on ne fait pas ça tous les jours ! Et rassurez-vous, une fois en place...on ne le refait pas tous les ans !"
+        "html": "Mettre en place un portefeuille projet est une <strong>étape</strong> <strong>critique</strong> pour les entreprises souhaitant se transformer et moderniser leur gouvernance et gestion de projet. Cependant, les erreurs sont normales, on ne fait pas ça tous les jours ! Et rassurez-vous, une fois en place...on ne le refait pas tous les ans !"
       },
       {
         "type": "paragraph",
