@@ -8,13 +8,13 @@
     "meta": {
       "title": "Le guide pour concevoir un Capacity Planning efficace",
       "h1": "Le guide pour concevoir un Capacity Planning efficace",
-      "description": "Découvrez comment concevoir un Capacity Planning efficace : définition, bénéfices, étapes, bonnes pratiques et outils pour optimiser la gestion de vos ressources et de votre portefeuille de projets.",
+      "description": "Le guide complet pour concevoir un Capacity Planning efficace : définition, bénéfices, étapes pour créer votre plan capacitaire, bonnes pratiques et outils.",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae4b88b03fcfdfe480103_Le%20guide%20pour%20concevoir.jpg",
         "alt": "Le guide pour concevoir un Capacity Planning efficace"
       },
       "author": {
-        "name": "",
+        "name": "Le Blog AirSaas",
         "category": "Gestion de projets"
       }
     },
@@ -497,7 +497,7 @@
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c02737c3f7b9a4eb992582_capacitaire-airsaas.png",
-        "alt": "Capacitaire Airsaas"
+        "alt": "Vue capacitaire Airsaas"
       },
       {
         "type": "paragraph",

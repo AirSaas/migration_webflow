@@ -8,14 +8,14 @@
     "meta": {
       "title": "À quoi ressemble le pilotage de projet moderne ?",
       "h1": "À quoi ressemble le pilotage de projet moderne ?",
-      "description": "Pandémie, guerre des talents IT et explosion des projets transverses ont créé un contexte de sables mouvants pour le pilotage de projet. Découvrez les croyances à revisiter, les méthodes hybrides, les outils PPM et les 7 étapes pour faire progresser la culture projet dans votre entreprise.",
+      "description": "Pandémie, guerre des talents IT et explosion des projets transverses imposent de revisiter le pilotage de projet. Croyances à dépasser, méthodes hybrides, outils PPM et 7 étapes pour faire progresser la culture projet de votre entreprise.",
+      "publishedDate": "4/8/2022",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "4/8/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
-      "publishedDate": "4/8/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63f7c31438b271d7e45c638a_pilotage-projet.jpg",
         "alt": "Pilotage de projet"
@@ -38,7 +38,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "html": "Pandémie, guerre des talents IT et explosion des projets transverses ont créé <strong>un contexte de sables mouvants</strong> pour les organisations souhaitant un pilotage de projet plus efficace avec des méthodes agiles, traditionnelles ou hybrides."
+        "html": "Pandémie, guerre des talents IT et explosion des projets transverses ont créé <strong> </strong>un contexte de sables mouvants pour les organisations souhaitant un pilotage de projet plus efficace avec des méthodes agiles, traditionnelles ou hybrides."
       },
       {
         "type": "paragraph",
@@ -86,7 +86,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Dans la vraie vie, on réussit une gestion de projet grâce à l'engagement individuel et collectif, versus une approche centrée sur le suivi et contrôle des tâches. 80 % des projets n'ont pas besoin d'une planification type Gantt aujourd'hui. Une équipe engagée suffira !"
+        "html": "Dans la vraie vie, on réussit une gestion de projet grâce à l'engagement individuel et collectif,<strong> </strong>versus une approche centrée sur le suivi et contrôle des tâches. 80 % des projets n'ont pas besoin d'une planification type Gantt aujourd'hui. Une équipe engagée suffira !"
       },
       {
         "type": "figure",
@@ -101,7 +101,8 @@
       {
         "type": "quote",
         "text": "Quand on a vécu depuis plusieurs dizaines années avec MOA-AMOA-MOE, il a fallu faire sauter aussi les barrières historiques des silos qui existaient. Nous avons mis en place des formations sur l'efficience des développements pour les membres de la DSI et pour les métiers. Pour expliquer les rôles, les attendus et les engagements de chacun.",
-        "author": "Benito Diz — CIO - DSI, Invité épisode 9 Podcast CIO Révolution by AirSaas"
+        "author": "Benito Diz",
+        "caption": "CIO - DSI — Invité épisode 9 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "heading",
@@ -116,11 +117,12 @@
       {
         "type": "quote",
         "text": "Je crois beaucoup à la dualité du pilotage, car avoir une direction qui n'est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l'explicite, les rôles doivent concrètement être définis à l'avance et la confiance doit régner.",
-        "author": "Frédéric Riou — CIO Biogaran, Invité épisode 29 Podcast CIO Révolution by AirSaas"
+        "author": "Frédéric Riou",
+        "caption": "CIO Biogaran — Invité épisode 29 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
-        "html": "Aujourd'hui, le rôle du chef de projet s'est éloigné de quelqu'un qui peut cocher les actions et tâches comme terminées sur un diagramme de Gantt pour aller vers <strong>une position de leadership stratégique</strong> permettant d'effectuer des changements dans une organisation."
+        "html": "Aujourd'hui, le rôle du chef de projet s'est éloigné de quelqu'un qui peut cocher les actions et tâches comme terminées sur un diagramme de Gantt pour aller vers <strong>une</strong> <strong>position de leadership stratégique </strong>permettant d'effectuer des changements dans une organisation."
       },
       {
         "type": "paragraph",
@@ -131,8 +133,8 @@
         "ordered": false,
         "items": [
           "<strong>Un projet = une équipe.</strong> On réussit un projet grâce à l'engagement individuel et collectif sur des objectifs, pas sur le contrôle des tâches et de l'avancement de phases.",
-          "<strong>La chefferie de projet = un co-pilotage métier/Tech/sponsor</strong>.",
-          "Idéalement, un projet clé se réalise dans <strong>un espace-temps qui reste humain :</strong> des délais de 9 mois par exemple - comme une gestation !"
+          "<strong>La</strong> <strong>chefferie de projet</strong> <strong>= un co-pilotage métier/Tech/sponsor</strong>.",
+          "Idéalement, un projet clé se réalise dans <strong>un espace-temps qui reste humain :</strong> des délais de 9 mois par exemple<strong> - </strong>comme une gestation !"
         ]
       },
       {
@@ -149,7 +151,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Le manifeste agile à déjà 20 ans ! L'une des tendances de gestion de projet que nous constatons de plus en plus est l'acceptation que les approches de gestion hybrides sont la voie à suivre pour une meilleure exécution."
+        "html": "Le manifeste agile à déjà 20 ans !<strong> </strong>L'une des tendances de gestion de projet que nous constatons de plus en plus est l'acceptation que les approches de gestion hybrides sont la voie à suivre pour une meilleure exécution."
       },
       {
         "type": "paragraph",
@@ -158,7 +160,8 @@
       {
         "type": "quote",
         "text": "Je ne parle pas d'agile mais d'efficience. Parce que je veux pas me reporter à des carcans, y compris le manifeste de 2001 : c'est pas le but de dire \"on fait de l'agile pour de l'agile, on fait du modèle en V pour du modèle en V, de l'API management pour de l'API management, du cloud pour du cloud\"… On fait quelque chose qui est compris par tout le monde et qui apporte une valeur ajoutée !",
-        "author": "Benito Diz — CIO - DSI, Invité épisode 9 Podcast CIO Révolution by AirSaas"
+        "author": "Benito Diz",
+        "caption": "CIO - DSI — Invité épisode 9 Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -200,7 +203,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Les développeurs utilisent Jira, le marketing est fan de Trello, la direction de l'innovation est sur Wrike, la qualité est fan de ZenDesk, les RH utilisent Monday, la DSI est sur Teams.... Au secours : les silos sont de retour ! L'enjeu est bien de <strong>proposer un outil macro, partagé ET qui se synchronise</strong> avec les autres plateformes utilisées au quotidien."
+        "html": "Les développeurs utilisent Jira, le marketing est fan de Trello, la direction de l'innovation est sur Wrike, la qualité est fan de ZenDesk, les RH utilisent Monday, la DSI est sur Teams.... Au secours<strong> : </strong>les silos sont de retour<strong> </strong>! L'enjeu est bien de<strong> proposer un outil macro, partagé ET qui se synchronise </strong>avec les autres plateformes utilisées au quotidien."
       },
       {
         "type": "figure",
@@ -224,7 +227,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Uniformiser la forme, c'est dire : on va se faciliter la vie pour piloter un projet, pour se comprendre quel que soit l'enjeu que nous affrontons. De quoi, en passant, réduire aussi la fatigue cognitive de tout le monde."
+        "html": "Uniformiser la forme<strong>,</strong> c'est dire : on va se faciliter la vie pour piloter un projet, pour se comprendre quel que soit l'enjeu que nous affrontons. De quoi, en passant, réduire aussi la fatigue cognitive de tout le monde."
       },
       {
         "type": "heading",
@@ -234,7 +237,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Gardons bien en tête le côté complexe, humain et donc multifactoriel du pilotage d'un projet de transformation. C'est ce qui en fait la saveur ! La <a href=\"https://agilityportal.io/blog/knoster-model-for-change\">matrice de Knoster</a> (cf tableau ci-dessous) propose une grille de lecture très pertinente, des modèles, pour faire un check des éléments et indicateurs indispensables d'un pilotage moderne."
+        "html": "Gardons bien en tête le côté complexe, humain et donc multifactoriel du pilotage d'un projet de transformation. C'est ce qui en fait la saveur ! La <a href=\"https://agilityportal.io/blog/knoster-model-for-change\">matrice de Knoster</a><strong> </strong>(cf tableau ci-dessous)<strong> </strong>propose une grille de lecture très pertinente, des modèles<strong>, </strong>pour faire un check des éléments et indicateurs indispensables d'un pilotage moderne."
       },
       {
         "type": "figure",
@@ -247,9 +250,9 @@
         "ordered": false,
         "items": [
           "<strong>Sans vision</strong>, on crée de la confusion au sein des parties prenantes d'un projet",
-          "<strong>Sans savoir-faire</strong>, on engendre la peur",
-          "<strong>Sans bénéfice au changement</strong>, on renforce la résistance",
-          "<strong>Sans ressources humaines et financières</strong>, on génère de la frustration",
+          "<strong>Sans savoir-faire</strong>, on engendre la<strong> </strong>peur",
+          "<strong>Sans bénéfice au changement</strong>, on renforce la<strong> </strong>résistance",
+          "<strong>Sans ressources humaines et financières</strong>, on génère de la<strong> </strong>frustration",
           "<strong>Sans plan d'actions</strong> projet structuré et suivi, on génère de la pagaille"
         ]
       },
@@ -338,7 +341,7 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "6 - Mettre en place les rituels",
+        "text": "6 - Mettre en place les rituels.",
         "id": "6-mettre-en-place-les-rituels"
       },
       {
@@ -347,7 +350,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Tous les vendredis, envoi du rapport flash à l'ensemble des parties prenantes"
+        "html": "Tous les vendredis, envoi du rapport flash<strong> </strong>à l'ensemble des parties prenantes"
       },
       {
         "type": "paragraph",
@@ -361,7 +364,7 @@
       },
       {
         "type": "paragraph",
-        "html": "🙍🏻‍♂️ OK il faut résoudre les problèmes, mais il faut surtout embarquer en continu les équipes. Alors parlez des succès, <a href=\"https://www.airsaas.io/gestion-de-projet/plan-de-communication-projet\">communiquez-les</a>. Donnez envie. Connaître et travailler sur les points forts des talents de l'équipe, c'est le secret !"
+        "html": "🙍🏻‍♂️ OK il faut résoudre les problèmes, mais il faut surtout embarquer en continu les équipes. Alors parlez des succès, <a href=\"https://www.airsaas.io/gestion-de-projet/plan-de-communication-projet\">communiquez-les</a><strong>.</strong> Donnez envie. Connaître et travailler sur les points forts des talents de l'équipe, c'est le secret !"
       },
       {
         "type": "paragraph",

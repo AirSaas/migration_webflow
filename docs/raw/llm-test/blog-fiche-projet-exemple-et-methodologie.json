@@ -5,6 +5,40 @@
   "outcome": "PASS_FIRST_TRY",
   "errors": [],
   "result": {
+    "meta": {
+      "title": "Fiche projet : méthodologie & exemple",
+      "h1": "Fiche projet : méthodologie & exemple",
+      "description": "Méthodologie et exemple pour rédiger une fiche projet réussie : définition, rédacteurs, bonnes pratiques et conseils de présentation.",
+      "publishedDate": "10/10/2021",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "10/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38451b9b831262a2710ed_3.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'une fiche de projet ou plan projet ?",
+        "href": "#quest-ce-quune-fiche-de-projet-ou-plan-projet"
+      },
+      {
+        "label": "Qui rédige les fiches de projet ?",
+        "href": "#qui-redige-les-fiches-de-projet"
+      },
+      {
+        "label": "Qu'est-ce qu'une fiche projet réussie ?",
+        "href": "#quest-ce-quune-fiche-projet-reussie"
+      },
+      {
+        "label": "Comment bien présenter votre projet ?",
+        "href": "#comment-bien-presenter-votre-projet"
+      }
+    ],
     "blocks": [
       {
         "type": "figure",
@@ -302,40 +336,6 @@
         "text": "Si vous voulez télécharger notre modèle de fiche projet c'est par ici :",
         "label": "Télécharger ⇣",
         "href": "https://hubs.ly/Q02NlZ8Q0"
-      }
-    ],
-    "meta": {
-      "title": "Fiche projet : méthodologie & exemple",
-      "h1": "Fiche projet : méthodologie & exemple",
-      "description": "Découvrez comment rédiger une fiche projet efficace : définition, méthodologie, exemples et bonnes pratiques pour cadrer et piloter vos projets.",
-      "publishedDate": "10/10/2021",
-      "author": {
-        "name": "Bertran Ruiz",
-        "category": "Gestion de projets",
-        "publishedDate": "10/10/2021",
-        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
-      },
-      "heroImage": {
-        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38451b9b831262a2710ed_3.jpg",
-        "alt": "Fiche projet : méthodologie & exemple"
-      }
-    },
-    "toc": [
-      {
-        "label": "Qu'est-ce qu'une fiche de projet ou plan projet ?",
-        "href": "#quest-ce-quune-fiche-de-projet-ou-plan-projet"
-      },
-      {
-        "label": "Qui rédige les fiches de projet ?",
-        "href": "#qui-redige-les-fiches-de-projet"
-      },
-      {
-        "label": "Qu'est-ce qu'une fiche projet réussie ?",
-        "href": "#quest-ce-quune-fiche-projet-reussie"
-      },
-      {
-        "label": "Comment bien présenter votre projet ?",
-        "href": "#comment-bien-presenter-votre-projet"
       }
     ],
     "related": [

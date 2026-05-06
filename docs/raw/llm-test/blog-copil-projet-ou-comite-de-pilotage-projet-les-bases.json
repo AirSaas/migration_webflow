@@ -2,12 +2,693 @@
   "type": "blog",
   "slug": "copil-projet-ou-comite-de-pilotage-projet-les-bases",
   "iteration": 1,
-  "outcome": "API_ERROR",
-  "errors": [
-    {
-      "type": "api-error",
-      "detail": "fetch failed"
-    }
-  ],
-  "result": null
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Copil projet : les bases à connaître sur le bout des doigts",
+      "h1": "Copil projet : les bases à connaître sur le bout des doigts",
+      "description": "Comité de pilotage projet : définition, missions, composition, erreurs à éviter et bonnes pratiques pour réussir vos Copil projet.",
+      "publishedDate": "12/10/2021",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "12/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f36f8e87c554788d75644b_Project%20image.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Copil projet : une définition",
+        "href": "#copil-projet-une-definition"
+      },
+      {
+        "label": "Pourquoi a-t-on besoin d'un comité de pilotage ?",
+        "href": "#pourquoi-a-t-on-besoin-dun-comite-de-pilotage"
+      },
+      {
+        "label": "Quelles sont les missions du comité de pilotage projet ?",
+        "href": "#quelles-sont-les-missions-du-comite-de-pilotage-projet"
+      },
+      {
+        "label": "Quelle est la composition du comité de pilotage ?",
+        "href": "#quelle-est-la-composition-du-comite-de-pilotage"
+      },
+      {
+        "label": "Les erreurs fréquentes à éviter",
+        "href": "#les-erreurs-frequentes-a-eviter"
+      },
+      {
+        "label": "Comment se prépare une réunion de Copil projet?",
+        "href": "#comment-se-prepare-une-reunion-de-copil-projet"
+      },
+      {
+        "label": "Réussir son Copil : les \"top-tips\" pour ne pas se planter",
+        "href": "#reussir-son-copil-les-top-tips-pour-ne-pas-se-planter"
+      },
+      {
+        "label": "Sponsor, jalons, chef de projet, key user, reporting, comité de pilotage : définition(s) et incompréhension(s)",
+        "href": "#sponsor-jalons-chef-de-projet-key-user-reporting-comite-de-pilotage-definitions-et-incomprehensions"
+      },
+      {
+        "label": "Tout est dans la préparation ! Ce qu'il faut faire avant le comité",
+        "href": "#tout-est-dans-la-preparation-ce-quil-faut-faire-avant-le-comite"
+      },
+      {
+        "label": "Le Copil commence ? Ce qu'il faut faire pour l'animer avec efficacité !",
+        "href": "#le-copil-commence-ce-quil-faut-faire-pour-lanimer-avec-efficacite"
+      },
+      {
+        "label": "Le Copil rame ? Comment améliorer le processus de décision ?",
+        "href": "#le-copil-rame-comment-ameliorer-le-processus-de-decision"
+      },
+      {
+        "label": "Comment mettre en place un comité de pilotage efficace ?",
+        "href": "#comment-mettre-en-place-un-comite-de-pilotage-efficace"
+      },
+      {
+        "label": "Comment gérer l'agressivité dans les comités de pilotage ?",
+        "href": "#comment-gerer-lagressivite-dans-les-comites-de-pilotage"
+      },
+      {
+        "label": "Copil : 5 astuces pour que tout se passe bien",
+        "href": "#copil-5-astuces-pour-que-tout-se-passe-bien"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Le comité de pilotage (ou Copil projet) est une instance indispensable dans la transformation d'une entreprise. C'est lui qui fait le lien entre le Codir et les équipes qui mettent en place les projets. Il décrit un groupe de personnes dont la fonction est de prendre des décisions et de veiller à l'atteinte d'un objectif au sein d'une entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Explorons ici en détail son fonctionnement et le rôle qu'il joue dans le processus de gestion globale du projet. Ce sera aussi l'occasion de faire émerger les bonnes pratiques et donner à tous les chefs de projet des conseils utiles pour que vos Copil projet deviennent de vrais moments de décision."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "copil-projet-une-definition",
+        "text": "Copil projet : une définition"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de pilotage est un groupe de personnes - dont fait partie le chef de projet - chargées de <strong>veiller au bon fonctionnement d'un projet dans une entreprise</strong>. Pour améliorer le suivi d'un projet sur le plan de l'observation et des choix à effectuer, il se constitue généralement d'une équipe transversale au projet. Le comité de pilotage est généralement constitué d'un membre de chaque catégorie de rôle."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de projet prend la forme concrète de réunions réalisées au service de la gestion de projet pour en garantir le bon déroulement et le succès final : avancée des travaux, réalisation des objectifs, le respect des délais, de la qualité ou des contraintes budgétaires…"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce comité peut s'appuyer sur l'analyse de métriques issues des activités du projet afin de <strong>prendre des décisions concrètes</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "pourquoi-a-t-on-besoin-dun-comite-de-pilotage",
+        "text": "Pourquoi a-t-on besoin d'un comité de pilotage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de pilotage (ou Copil) projet a pour objectif de mettre de l'huile dans les rouages du fonctionnement d'un projet. C'est une instance décisionnelle qui permet au client et au prestataire/partenaire (interne ou externe) d'avancer sur le même chemin, d'être alignés sur les objectifs et les tâches à réaliser."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un Copil s'organise principalement sur des projets complexes, dans lesquels beaucoup d'intervenants et d'interlocuteurs sont impliqués et/ou quand ceux-ci sont liés par de forts liens d'interdépendance."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un comité de pilotage projet permet aussi de réduire les risques d'échec en suivant de près l'avancement du projet et en partageant la charge décisionnelle entre tous les acteurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu principal du comité de pilotage est de prendre des décisions sur les ou les projets en cours. Le Copil projet n'est PAS une instance de partage d'informations ! Dans toutes les entreprises, la réunion du comité doit avoir comme objectif de décider, de faire des choix sur les sujets \"chauds\" ou importants qui impactent le déroulement du ou des projets et leur mise en œuvre."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelles-sont-les-missions-du-comite-de-pilotage-projet",
+        "text": "Quelles sont les missions du comité de pilotage projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Définition des objectifs, suivi de l'état d'avancement ou prises de décisions finales : le Copil intervient à toutes les étapes du projet. Cette instance a vraiment pour rôle la prise en charge de toutes les décisions relatives au projet. Au menu des réunions de Copil, des choix sont faits aussi bien sur les dates-clés du projet, l'allocation du budget ou sur les négociations contractuelles avec les fournisseurs et prestataires."
+      },
+      {
+        "type": "paragraph",
+        "html": "Récapitulons les missions-clés du Copil projet :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Suivre la progression du projet</strong> par rapport aux grandes étapes du planning et des échéances",
+          "<strong>Arbitrer sur les sujets bloquants</strong> et impactant le déroulement du projet",
+          "<strong>Affecter les ressources nécessaires à la progression du projet</strong> : il remonte au comité stratégique (s'il existe) les problèmes qui ne sont pas de leur ressort, ainsi que les décisions majeures",
+          "Dans les entreprises à taille réduite, le comité de pilotage peut également <strong>réaliser les arbitrages</strong> concernant les orientations stratégiques",
+          "<strong>Faire le point sur l'avancée des livrables</strong> prévus",
+          "<strong>Suivre la consommation du budget</strong> défini initialement et remonter des alertes de surconsommation",
+          "<strong>Monitorer les risques</strong>, leur probabilité de réalisation, et anticiper des solutions"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelle-est-la-composition-du-comite-de-pilotage",
+        "text": "Quelle est la composition du comité de pilotage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les membres du comité de projet sont des dirigeants, des managers ainsi que les équipes métiers concernées par le projet. Le sponsor du projet fait partie intégrante de ce groupe."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "copil-ou-comite-de-direction",
+        "text": "Copil ou Comité de direction ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "En fonction de la taille de l'entreprise, la constitution du Copil projet peut changer. L'élément clé et primordial est que le Copil puisse décider. Si, pour X raisons, la décision pouvait être remise en cause par une personne tierce ou un autre groupe de décision, alors c'est fini : le Copil ne sert à rien."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour les PME, le Copil est constitué du Codir et de manière ponctuelle (par projet) du chef du projet + du sponsor du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans les grandes entreprises, la difficulté réside dans le fait qu'il y a tellement de projets que le Codir ne peut pas participer à tous les Copil projet. C'est là que les problèmes arrivent : le Copil peut ne pas avoir le dernier mot, et cela rajoute donc beaucoup de politique."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83571cd095964a46feaef_62f36d8564f6eb762b228b61_CoDir%2520Copil.jpeg",
+        "alt": "Schéma Codir Copil",
+        "caption": "Schéma lien Codir / Copil"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "qui-detient-vraiment-le-pouvoir",
+        "text": "Qui détient vraiment le pouvoir ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "En gestion de projet, il existe souvent une grande confusion entre exécution du projet et détention du pouvoir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention donc : en tant que chef de projet dans la gestion de projets transverses, vous ne pouvez pas arbitrer seul et prendre des décisions sur les moyens à mettre en œuvre en priorité ou des délais qui dépassent le cadre de la mission. Pour que des décisions soient prises, il faut présenter régulièrement des reportings et mettre en lumière des informations clés au comité de pilotage."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-paradoxe-du-chef-de-projet",
+        "text": "Le paradoxe du chef de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "La majorité du temps, les projets échouent car il y a un désalignement entre les équipes / personnes impliquées. Notre avis (non consensuel) : alors que le chef de projet passe son temps à regarder les taches à faire et rappeler à l'ordre les personnes en retard, il devrait faire preuve de leadership, et créer les conditions d'un alignement en continu. Mais ça sera l'affaire d'un autre article..."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-equipe-dont-le-role-est-de-decider",
+        "text": "Une équipe dont le rôle est de décider"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'équipe du comité de pilotage est comme <strong>un système d'aide à la navigation</strong> qui prendrait <em>in fine</em> les décisions sur la direction à prendre. Les membres du Copil projet sont un relais de pouvoir essentiel dans l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'équipe projet est formée en début de projet par le sponsor, en collaboration étroite avec le chef de projet. Il faut absolument que les experts métiers susceptibles de participer à la prise de décision soient dans l'équipe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Concrètement, les membres du Copil sont à piocher dans la typologie d'acteurs suivante :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sponsor",
+          "Directeur du projet (qui peut également être le sponsor)",
+          "Chef de projet",
+          "Représentant métier en fonction des besoins",
+          "Groupe de \"key users\""
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-erreurs-frequentes-a-eviter",
+        "text": "Les erreurs fréquentes à éviter"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "1-confondre-copil-et-coproj",
+        "text": "1 / Confondre Copil et Coproj"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un comité de projet (Copro ou Coproj) est une réunion organisée par les chefs de projet. Ils sont au courant de toutes les facettes du projet et des enjeux. C'est un point d'étape destiné à faire émerger des points d'arbitrages à soumettre au Copil si besoin."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Coproj est donc une réunion, le plus souvent hebdomadaire, qui réunit un chef de projet client et un chef de projet chez le prestataire si les projets font appel à de l'aide extérieure. Les opérationnels concernés peuvent ainsi coordonner le projet, et s'assurer qu'il avance dans la bonne direction. C'est l'occasion de remonter d'éventuelles problématiques ou retards, mais aussi et surtout de trouver une solution pour organiser la suite des événements."
+      },
+      {
+        "type": "paragraph",
+        "html": "On confond parfois le Coproj avec le premier Copil : un premier comité de pilotage, aussi appelé « <em>kick-off meeting</em> », a généralement lieu avant le démarrage du projet. Ensuite, il peut intervenir lors des étapes clés du projet (fin de phase de cadrage, avant la mise en production…) pour valider les prises de décision."
+      },
+      {
+        "type": "paragraph",
+        "html": "Coproj : Micro = Répartitions des tâches"
+      },
+      {
+        "type": "paragraph",
+        "html": "Copil : Macro = Arbitrages et décisions"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "2-ne-pas-savoir-exactement-ce-qui-se-passe-dans-un-codir",
+        "text": "2/ Ne pas savoir exactement ce qui se passe dans un Codir"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de direction rassemble des personnes qui ont une autorité de décision dans l'entreprise. On l'appelle aussi \"équipe de direction\" ou \"comité exécutif\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les membres du comité de direction se réunissent de façon ponctuelle pour évaluer les projets en cours dans les différents départements de l'entreprise. Ils proposent une vision stratégique pour l'entreprise. Ils entourent ainsi le chef d'entreprise et lui apportent leurs soutien. Ils donnent des avis et des recommandations : le comité de direction est donc une manière de prendre des décisions en commun, qui se veulent être les meilleures pour l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Codir parle projet lors des Copil Projets mais se retrouve aussi pour parler finance, stratégie, fusion / acquisition, RH..."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-se-prepare-une-reunion-de-copil-projet",
+        "text": "Comment se prépare une réunion de Copil projet?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet définit les points à aborder et charge à lui d'intégrer les travaux des parties prenantes concernées ou des groupes de travail constitués pour la résolution d'un problème précis. Aucune information ne doit être découverte pendant le comité de pilotage. <strong>L'agenda</strong> de la réunion doit être bien défini dans un premier temps, puis doit inclure les points essentiels, avant d'être <strong>envoyé</strong> aux participants <strong>48 heures avant</strong> la réunion."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "tout-se-fait-en-amont",
+        "text": "Tout se fait en amont"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout doit être envoyé en amont, au moins <strong>une semaine</strong> à l'avance, aux personnes qui assistent aux réunions. Des documents utiles à la bonne compréhension du projet peuvent également être envoyés par le chef de projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le sponsor doit être au courant de tout, et surtout des sujets critiques qui seront inclus dans la présentation. Idéalement, certaines décisions seront prises avant la réunion entre le chef de projet et sponsor. L'objectif serait d'avoir les <strong>validations</strong> des différents <strong>managers</strong> sur ces sujets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-peu-de-politique",
+        "text": "Un peu de politique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit travailler en amont, avec les participants des comités susceptibles de s'opposer à certaines décisions pour essayer de <strong>désamorcer</strong> la situation et de comprendre de quoi il en retourne exactement. Le chef de projet est donc un négociateur ou en tout cas il doit le devenir. De son tact politique dépend l'avancée du projet. Il doit apaiser les tensions et remettre le projet sur les rails plus souvent qu'à son tour. Le but du jeu est d'éviter au maximum les conflits ouverts entre parties prenantes. Les équipes métiers risquent alors de se désengager des comités de pilotage et aucune des autres instances projet ne pourra débloquer la situation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "deroulement-des-reunions",
+        "text": "Déroulement des réunions"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif des réunions est d'obtenir un point d'avancement sur le projet. Le principal intérêt des réunions est de maintenir des échanges continus entre les différentes équipes techniques et fonctionnelles. Le chef de projet ou directeur de projet anime le Copil. Il présente l'état d'avancement du projet à l'aide de tableaux de bord et d'un <strong>reporting</strong> précis et <strong>synthétique</strong>. Les points sensibles doivent absolument être abordés. Le sponsor donne son accord aux décisions qui sont prises."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les réunions ont lieu le plus souvent une fois par mois. Parfois on met en place une fréquence trimestrielle. La durée d'un Copil est de 1h30 à 2 heures max."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "documents-utilises",
+        "text": "Documents utilisés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les deux documents principalement utilisés sont l'<strong>ordre du jour</strong> et le <strong>compte rendu.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'ordre du jour : analyse du planning, des risques, des actions en cours, des décisions prises et des décisions à prendre, etc. Toutes ces informations sont consignées dans l'ordre du jour communiqué aux participants en amont."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le compte rendu : Un compte rendu s'impose, qui est à envoyer dans les 24 heures par le chef de projet à tous les participants. Les différentes décisions y seront tracées, documentées. Il sera ajouté par la suite aux documents du projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "reussir-son-copil-les-top-tips-pour-ne-pas-se-planter",
+        "text": "Réussir son Copil : les \"top-tips\" pour ne pas se planter"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "1-copil-codir-limportant-cest-de-decider",
+        "text": "1 - Copil - Codir - L'important c'est de décider !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans certaines organisations le Codir englobe le Copil. Peu importe. Si vous êtes chef de projet, assurez-vous que des <strong>décisions soient prises</strong> pour vos projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "2-course-de-fond-vs-sprint",
+        "text": "2 - Course de fond vs Sprint"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Copil n'est pas une réunion. C'est une suite de réunions. Le Copil s'inscrit dans la durée avec une fréquence à respecter. L'idéal c'est qu'il ait lieu tous les mois au minimum, sinon on perd le fil et on ne force pas à prendre les bonnes décisions. Le projet s'enlise et c'est l'échec. Lorsque vous <strong>planifiez</strong> votre premier Copil, envoyez des invitations à toutes les personnes concernées pour les <strong>six mois à venir</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "3-exiger-la-presence-de-toutes-les-personnes-concernees",
+        "text": "3 - Exiger la présence de toutes les personnes concernées"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous les <strong>décisionnaires</strong> doivent absolument être <strong>présents</strong> à chaque Copil. Notre conseil : gérer la participation des membres du Copil en amont des réunions. Une absence annoncée ou constatée signifie souvent que la personne est en désaccord avec le projet ou qu'elle ne sent pas assez considérée au sein du projet. Dans tous les cas une absence peut nuire à la productivité du projet voire même à l'ambiance de la réunion."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "4-un-format-unique",
+        "text": "4 - Un format unique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois qu' un format a été adopté par toutes parties prenantes et qu'il a montré son efficacité, n'en changez pas. La <strong>régularité</strong> permet de se focaliser sur le fond et d'oublier la forme. Mieux vaut passer du temps sur la mise en forme de votre présentation en amont du premier Copil, choisir les bons indicateurs et les codes couleurs pour ensuite figer ce canevas qui servira de base à tous les Copil. Ainsi vous serez plus performants dans le traitement des sujets importants et/ou urgent."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "5-time-keeper",
+        "text": "5 - Time Keeper"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour certains, le temps c'est de l'argent, pour d'autres c'est juste une question de respect du temps des autres et d'efficacité. Une réunion de Copil qui dure 3 heures ne serait pas productive et il y a fort à parier qu'à la prochaine réunion le taux de participation soit en baisse significative. Pour remédier à cette problématique d'horaire nommez un \"time-keeper\" - un maître du temps - qui doit absolument être une personne qui n'est PAS l'organisateur du Copil afin d'éviter toute maladresse."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on se dit 10 mn par \"point\" important, alors c'est 10 mn. le time-keeper a le droit, et doit mettre fin à une discussion afin que le meeting \"avance\". C'est le <strong>garant</strong> d'une certaine <strong>discipline</strong> qui à la longue sera sûrement <strong>appréciée</strong> par la plupart des <strong>membres</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "6-menager-les-frustrations",
+        "text": "6 - Ménager les frustrations"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un Copil n'est pas un règlement de compte en public. Si quelque chose cloche, <strong>faites-en part</strong> à la personne concernée bien <strong>en amont</strong>. Ou si elle est manifestement en cause dans un blocage important sur le projet, faites lui part de votre intention de partager cette information pendant la réunion. L'<strong>effet de surprise</strong> n'est <strong>pas</strong> l'effet <strong>recherché</strong> pendant un Copil"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "7-reporting-en-continu",
+        "text": "7 - Reporting en continu"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le meilleur moyen de ne pas prendre les acteurs du Copil au dépourvu, c'est de <strong>communiquer en continu</strong> sur l'avancée du projet. <a href=\"/fr/solution/rapport-flash\" target=\"_blank\">Envoyez des informations et des reportings actualisés</a> (de nombreux outils sont disponibles) a pour effet de faire réagir les personnes concernées au fur et à mesure qu'elles se sentent concernées. Ainsi, en créant de petits séismes par le biais d'un reporting hebdomadaire, vous serez capable d'anticiper une fronde ou une révolte qui commence à gronder !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83571cd095964a46fead7_62f36e8814709349636af67d_Copil.jpeg",
+        "alt": "Suivi exécution projet",
+        "caption": "Suivi exécution projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "8-linvite-surprise-la-fausse-bonne-idee",
+        "text": "8 - L'invité surprise = la fausse bonne idée"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est justement la pire chose que vous puissiez faire : convier un \"invité surprise\" de manière ponctuelle au Copil. Il n'est peut-être pas au courant du mode de fonctionnement de la réunion et va probablement poser des questions dont la prise en compte et les réponses ont été apportées il y a plusieurs jours voire plusieurs semaines. Un invité ponctuel est comme un cheveu sur la soupe, c'est un élément <strong>perturbateur</strong> dont la valeur ajoutée est toute relative. Si c'est un expert alors pourquoi ne pas lui demander de rédiger une note de recommandation sur un sujet précis et l'envoyer aux personnes concernées en amont de la réunion ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour rappel, le comité de pilotage n'est pas une arène dans laquelle chacun apporte ses informations et arguments. C'est un moment où les décisions sont prises. Et l'invité extérieur n' a pas le droit de vote !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "9-encore-un-peu-de-politique",
+        "text": "9 - (encore) un peu de politique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si la présence d'un expert métier est nécessaire ou souhaitable alors n'hésitez pas une seconde et invitez-le(s) à la réunion ! Ce serait une maladresse que de demander à une personne tierce de parler au nom du métier, vous risqueriez de perdre en crédibilité très rapidement. Les experts métier doivent être valorisés lorsque c'est possible et associés aux décisions qui sont prises. Vous contribuez ainsi à la création d'un <strong>climat</strong> sain et, en tant que chef de projet vous méritez le respect qui vous est dû."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "10-si-la-decision-nest-pas-prise",
+        "text": "10 - Si la décision n'est pas prise"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si dans le temps imparti la décision n'est pas prise ou pire si une 1/2 décision (= bordelx2) est prise alors faites-le remarquer :"
+      },
+      {
+        "type": "quote",
+        "text": "L'objectif du Copil sur ce projet était de prendre une décision sur ce projet. Nous n'avons pas réussi à statuer. Le projet est donc mis en stand-by et prendra du retard à partir d'aujourd'hui."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce qui n'est pas écrit n'existant pas : Mettre cette phrase dans le compte rendu permettra au moment du bilan de mettre chacun fasse à ses <strong>responsabilités</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "11-pause-dejeuner",
+        "text": "11 - Pause-déjeuner"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le \"time-keeper\" a le droit de mettre fin à certaines discussions, il y en a certaines qui méritent pourtant d'être poursuivies en OFF dans l'intérêt du projet. Un bon conseil : organisez vos réunions Copil de 10h à midi. D'une part vous êtes sûr de terminer à l'heure parce que tout le monde a faim ! D'autre part, des échanges informels et non chronométrés peuvent avoir lieu en toute décontraction pendant le déjeuner. C'est une manière de détendre l'atmosphère. L'abus d'alcool est dangereux pour la santé."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "sponsor-jalons-chef-de-projet-key-user-reporting-comite-de-pilotage-definitions-et-incomprehensions",
+        "text": "Sponsor, jalons, chef de projet, key user, reporting, comité de pilotage : définition(s) et incompréhension(s)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour le dire simplement la question c'est la scalabiliy de l'agilité... 😂"
+      },
+      {
+        "type": "paragraph",
+        "html": "Même si tous les métiers ont leurs codes...Dans la tech. ça jargonne sec !<br/><br/>Si vous voulez vraiment inclure les parties prenantes de vos projets dans un environnement clair et faciliter le développement d'une <strong>culture</strong> de transformation commune...sans avoir à former vos équipes pendant des jours....testez AirSaas !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Car oui dans les entreprises tout le monde parle projets...mais personne ne parle de la même chose !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Prenons l'exemple des jalons...L'erreur courante est d'en donner trop, de rendre illisible un suivi efficace<strong>.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un rappel fondamental : dans un pilotage et reporting, je partage l'état des jalons, pas des tâches !<br/>Car, oui on ne transforme pas une organisation en commençant par inviter les équipes à faire de la gestion de projets \"à la tache\". Le but est bien de structurer, communiquer et ensuite piloter un plan de transformation.<br/>On vous a concocté une \"antisèche\" réussite sur 5 mots courants de la gestion de projet, qui pourtant sont souvent mal compris. Sponsor, jalons, chef de projet, key user, reporting, comité de pilotage."
+      },
+      {
+        "type": "paragraph",
+        "html": "En revisitant ce qui se joue derrière les mots ou expressions clés régulièrement utilisés en comité de pilotage d'un projet, on revient au sens, au processus...Et si finalement la clé n'était pas là...mieux se comprendre."
+      },
+      {
+        "type": "paragraph",
+        "html": "Car rappelons-le, un REX ce n'est pas seulement un chien ! :-). <a href=\"/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\" target=\"_blank\">Comité de pilotage : définition(s) et incompréhension(s)</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "tout-est-dans-la-preparation-ce-quil-faut-faire-avant-le-comite",
+        "text": "Tout est dans la préparation ! Ce qu'il faut faire avant le comité"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un Copil ne doit pas être votre énième réunion hebdo ou mensuelle. Ni un groupe de travail vu comme un atelier collaboratif pour co-construire..., il ne doit pas permettre de répondre à des questions opérationnelles ou métiers..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout ceci a déjà été traité en <strong>amont</strong> en plus petit groupe. Et le chef de projet, ainsi que le sponsor doivent avoir une idée très claire de ce qu'ils attendent de chaque session de comité de pilotage projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à tout un travail de préparation, le chef de projet peut notamment connaître toutes les objections des membres et préparer avec le sponsor le bon plan d'action."
+      },
+      {
+        "type": "paragraph",
+        "html": "Définition des objectifs, interactions avec le sponsor, place des intérêts personnels, gestion des désaccords avants, astuce du formulaire anonyme, points de vigilance parties prenantes<a target=\"_blank\" href=\"https://www.airsaas.io/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage\">.</a> Tout pour muscler votre préparation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article <a href=\"/gestion-de-projet/comment-bien-preparer-un-comite-de-pilotage\" target=\"_blank\">Comment bien préparer un comité de pilotage ?</a> L'accent est mis sur l'humain et les relations humaines. Elles sont tellement souvent à l'origine de défaillances projets qu'elles représentent des points d'attention majeurs dans la gestion de projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-copil-commence-ce-quil-faut-faire-pour-lanimer-avec-efficacite",
+        "text": "Le Copil commence ? Ce qu'il faut faire pour l'animer avec efficacité !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité a été préparé avec le maximum d'anticipation...C'est le jour \"J\", l'heure \"H\" ...et vous avez déjà relevé quelques imprévus...une absence d'un des membres, un support mal ficelé... Vous sentez que vous n'êtes pas en pleine possession de vos moyens."
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui et sous <strong>stress</strong> nos comportements changent !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quels sont les déboires à éviter, comment avoir une bonne gestion du temps, des tensions, quel est le support de présentation optimal...Comment gérer le dérapage, les enjeux politiques, quel juste niveau de détails communiquer. Toutes ces questions sont légitimes. En passant en revue notre <strong>check liste</strong> vous vous éviterez des sur tensions inutiles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si la réunion et le chef de projet sont bien préparés, réussir un comité de pilotage est un objectif atteignable ! Lisez cet article pour savoir <a href=\"/gestion-de-projet/comment-animer-un-comite-de-pilotage\" target=\"_blank\">Comment animer un comité de pilotage ?</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "le-copil-rame-comment-ameliorer-le-processus-de-decision",
+        "text": "Le Copil rame ? Comment améliorer le processus de décision ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous l'avons vu plus haut, ce comité est une <strong>équipe</strong> dont le rôle est de décider !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans une entreprise les décisions c'est l'élément central qui bloque ou débloque une situation."
+      },
+      {
+        "type": "paragraph",
+        "html": "MAIS"
+      },
+      {
+        "type": "paragraph",
+        "html": "Personne, aucune entreprise, ne pilote par la décision."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Aucune manière claire de prendre une décision hormis en meeting - - Pas d'historique",
+          "Pas de transparence sur les décisions,",
+          "Pas de possibilité pour un chef de projet de remonter facilement une décision à prendre."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Plus le processus de décision est clair, transparent, facilement \"utilisable\" plus la capacité de l'entreprise à agir est forte. Sinon ça rame !"
+      },
+      {
+        "type": "paragraph",
+        "html": "La décision devrait être aussi <strong>simple</strong> qu'une API."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans prise de décision efficace, les projets sont lancés, stoppés ou prolongés de manière <strong>irrationnelle</strong>. On a tous en tête une personne qui monopolise la parole pendant 10 minutes. Quelqu'un qui demande un détail précis qui nous empêche de parler du fond…Découvrez des astuces pour mieux gérer ces situations-là, et enfin savoir <a href=\"/gestion-de-projet/comment-decider-en-copil\" target=\"_blank\">Comment décider en Copil ?</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-mettre-en-place-un-comite-de-pilotage-efficace",
+        "text": "Comment mettre en place un comité de pilotage efficace ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "On l'a vu plus haut, le comité de pilotage a pour objectif de mettre de l'huile dans les rouages du fonctionnement d'un projet. Mais comment mettre de l'huile dans le fonctionnement de cet organe lui-même ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quels sont les points de vigilance clés sur l'implication des membres, comment désamorcer les tensions, éviter trop de jeux politiques, garder une efficacité dans la durée, quels sont les outils les plus utiles… Si vous vous demandez <a href=\"/gestion-de-projet/comment-mettre-en-place-un-comite-de-pilotage\" target=\"_blank\">Comment mettre en place un comité de pilotage ?</a> Lisez notre article de référence sur cette page."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-gerer-lagressivite-dans-les-comites-de-pilotage",
+        "text": "Comment gérer l'agressivité dans les comités de pilotage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment repérer et gérer les personnalités difficiles dans vos entreprises et réunions de comités de pilotage ? C'est un des enjeux les plus critiques dans toute assemblée celui qui conditionne les conditions de travail. Il existe deux types de comportements agressifs...Un peu comme les premiers secours, notre responsabilité collective est avant tout d'être en capacité de repérer les types \"d'agression\" : celle qu'il faut <strong>sanctionner</strong> et celles sur lesquelles <strong>remédier</strong> !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la seconde catégorie on retrouve le profil plus classique de l'agressif, impoli, irrespectueux qui exerce à la limite du <strong>carton rouge.</strong> Exemple : il hausse la voix, crie, se lève, lance une phrase à\"l'emporte-pièce\" pour attaquer personnellement certains membres, voire tous/ ! Il s'en prend aux personnes versus ce qu'elles font."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention à la prise en compte ...Ignorer = empirer."
+      },
+      {
+        "type": "paragraph",
+        "html": "Idem, ici un recadrage et une <strong>remédiation</strong> sur les règles sont à prévoir. En cas d'irrespect ou d'agression verbale, rappelez de manière ciblée les règles de discussion convenues pour les Copil. Demandez aux participants de s'y tenir et d'éviter un comportement agressif."
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage\" target=\"_blank\">Comment gérer l'agressivité dans les comités de pilotage ?</a> Comment réagir en cas d'agressivité ? Découvrez les 7 astuces sélectionnées pour vous faciliter la vie de bureau."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "copil-5-astuces-pour-que-tout-se-passe-bien",
+        "text": "Copil : 5 astuces pour que tout se passe bien"
+      },
+      {
+        "type": "paragraph",
+        "html": "Félicitations ! La mise à jour s'est bien passée ! Vous avez lu un dossier complet sur cette page. Vous connaissez maintenant les bases du Comité de pilotage, ses outils, ses opérations, toute l'importance dans le déroulement du projet d'une bonne exécution de ce processus au sein de votre entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà des fondamentaux, on vous a préparé sur une autre page 5 astuces premium pour aller plus loin. Des pratiques pragmatiques et activables : découvrez par exemple le contrat relationnel IT/Métier/Sponsor. Vous serez également séduits par un tips \"pépite\" de pure réthorique avec la méthode des réponses vagues & précises à utiliser si vous êtes pris en défaut, etc. Voic notre sélection, forcément subjective, de 5 pratiques, qu'on aurait aimé découvrir, avant notre premier comité :-) <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\" target=\"_blank\">Copil projet : 5 astuces pour que tout se passe bien.</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
 }

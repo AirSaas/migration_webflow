@@ -2,12 +2,376 @@
   "type": "blog",
   "slug": "comment-mettre-en-place-un-comite-de-pilotage",
   "iteration": 1,
-  "outcome": "API_ERROR",
-  "errors": [
-    {
-      "type": "api-error",
-      "detail": "fetch failed"
-    }
-  ],
-  "result": null
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment mettre en place un comité de pilotage ?",
+      "h1": "Comment mettre en place un comité de pilotage ?",
+      "description": "Découvrez comment mettre en place un comité de pilotage (Copil) efficace : rôle, membres, différences avec le Codir et le Coproj, et bonnes pratiques pour piloter vos projets dans la durée.",
+      "publishedDate": "4/7/2022",
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "4/7/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea67d4156de885e5b58180_comment-mettre-en-place-comite-pilotage.jpg",
+        "alt": "Comment mettre en place un comité de pilotage"
+      }
+    },
+    "toc": [
+      {
+        "label": "Pourquoi faire un Copil ?",
+        "href": "#pourquoi-faire-un-copil"
+      },
+      {
+        "label": "Quelle est la différence entre un comité de direction CODIR, un comité de pilotage Copil et un comité de projet COPROJ ?",
+        "href": "#quelle-est-la-difference-entre-un-comite-de-direction-codir-un-comite-de-pilotage-copil-et-un-comite-de-projet-coproj"
+      },
+      {
+        "label": "Quel est le rôle d'un comité de pilotage ?",
+        "href": "#quel-est-le-role-dun-comite-de-pilotage"
+      },
+      {
+        "label": "Quelles sont les personnes qui constituent un comité de pilotage ?",
+        "href": "#quelles-sont-les-personnes-qui-constituent-un-comite-de-pilotage"
+      },
+      {
+        "label": "Désamorcer les enjeux de politique interne au profit des intérêts supérieurs de l'entreprise",
+        "href": "#desamorcer-les-enjeux-de-politique-interne-au-profit-des-interets-superieurs-de-lentreprise"
+      },
+      {
+        "label": "Comment créer un comité de pilotage efficace dans la durée ?",
+        "href": "#comment-creer-un-comite-de-pilotage-efficace-dans-la-duree"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pourquoi faire un Copil ?",
+        "id": "pourquoi-faire-un-copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un projet fonctionne toujours à deux niveau, il part d'un enjeu pour l'entreprise et d'un objectif issu d'une vision stratégique, il implique de ce fait des cadre supérieur de l'entreprise mais également des acteurs qui le mettront en œuvre dans une phase plus opérationnelle, on y retrouvera souvent des services métiers, des compétences spécifiques (internes ou externes) et des fonctions support. Les cadres supérieurs et le sponsor s'assurent de la direction stratégique du projet et de la mise à disposition des ressources et conditions nécessaires à son exécution. Ensuite les autres membres du projet s'affaire à exécuter et réaliser opérationnellement le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème : Le projet peut échouer assez rapidement par manque de vision stratégique, jeux de pouvoir et politique interne, mauvaise allocation des ressources, mauvaise gestion des tensions et des problèmes inhérents à tout projet qui même si planifié parfaitement comportera presque toujours des imprévus. Et l'équipe des opérations ne sera pas toujours en mesure ou à la bonne position dans l'entreprise pour résoudre ces problèmes et prendre les bonnes décisions."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'où l'importance de la mise en place d'un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\">comité de pilotage projet</a> afin d'arbitrer et prendre les décisions stratégiques pour sa réussite, ainsi que de donner les moyens et rassembler les facteurs qui donneront toutes ses chances au projet d'aboutir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le succès ou l'échec d'un projet dépend très souvent des actions menées par celui-ci. Bonne nouvelle, vous pourrez approfondir les fondamentaux dans notre article de référence : <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases.</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quelle est la différence entre un comité de direction CODIR, un comité de pilotage Copil et un comité de projet COPROJ ?",
+        "id": "quelle-est-la-difference-entre-un-comite-de-direction-codir-un-comite-de-pilotage-copil-et-un-comite-de-projet-coproj"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le Codir : Par définition le comité de direction rassemble tous les cadres dirigeants de l'entreprise, cela favorise une gestion horizontale des préoccupations clés et actions stratégiques pour l'entreprise. Il peut survenir par exemple pour la gestion de crise ou encore répondre aux enjeux stratégiques majeurs.",
+          "Le Coproj : Le comité de projet à une vocation très opérationnelle : suivi des tâches et actions en cours, résolution opérationnelle de problématiques selon les arbitrages et décisions stratégique (prise en Copil), coordination et accompagnement des équipes dans les opérations et les difficultés opérationnelles.",
+          "Le Copil : Le comité de pilotage quant à lui est destiné principalement à s'assurer de l'avancement du projet en accord avec les objectifs prédéfini et stratégique pour l'entreprise, il est composés de cadres de l'entreprise qui permettront de faire les arbitrages difficiles mais aussi de donner accès aux ressources et aux conditions qui permettront à la réussite du projet."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quel est le rôle d'un comité de pilotage ?",
+        "id": "quel-est-le-role-dun-comite-de-pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea652fda8fd01771298726_role%20copil-min-min.jpg",
+        "alt": "rôle copil"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Donner la direction stratégique, impliquer et mobiliser les parties prenantes</strong>",
+          "<strong>Prendre des décisions et faire des arbitrages.</strong>",
+          "<strong>Veiller au bon déroulement du projet</strong> et s'assurer qu'il est <strong>en accord avec les stratégies globales de l'entreprise.</strong>",
+          "<strong>Évaluer la qualité et la santé du projet à chaque réunion</strong>. Si certains problèmes doivent être améliorés, les principaux intervenants peuvent les soulever pour les résoudre.",
+          "<strong>Donner au chef de projet le pouvoir d'agir</strong> et d'utiliser les ressources de l'entreprise pour mener l'exécution, l'avancement du projet.",
+          "<strong>Résoudre les conflits entre départements</strong>, les problèmes liés au coût, au temps, au risque, aux ressources, à la qualité et à la portée.",
+          "<strong>Surveiller les progrès du projet par rapport aux objectifs convenus</strong> et <strong>résoudre les problèmes</strong> qui ne permettent pas au projet de progresser à temps."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quelles sont les personnes qui constituent un comité de pilotage ?",
+        "id": "quelles-sont-les-personnes-qui-constituent-un-comite-de-pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea6596ba10f500b5f74b47_casting%20copil-min.jpg",
+        "alt": "casting copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous souhaitez faire un Copil réellement efficace et qui dénote avec ce qui peut se faire habituellement, la sélection des membres du comité est critique et peut changer complètement la dynamique et l'issue d'un projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "En membres clés que l'on retrouve habituellement on aura :"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Le sponsor du projet</strong> : Généralement faisant partie du Codir / Comex, Il donne la direction stratégique au projet, il fait en sorte de pouvoir donner les ressources et conditions nécessaires au chef de projet afin qu'il puisse correctement coordonner l'exécution du projet. Il sera chargé également de trancher dans les arbitrages et décisions difficiles."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Le chef de projet</strong> : C'est le chef d'orchestre du projet, le bras armé du sponsor, ils travaillent tandem afin de s'assurer du bon déroulement du projet, il est soutenu par le sponsor au sein du comité et il est également les yeux et les oreilles du sponsor."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est là où vous avez la possibilité de <strong>ne pas faire comme les autres</strong> : Là où <strong>la plupart n'implique les représentant des métiers</strong> et/ou fonctions support <strong>que plus tard ou ponctuellement</strong>, l'astuce ici est de pouvoir <strong>intégrer tous les représentants des parties prenantes clés dans la vie du projet le plus tôt possible</strong>. En effet, beaucoup de projets ont échoué au moment ou le \"dossier\" tombe sur le bureau, c'est-à-dire, seulement quand on attend des actions opérationnelles de leurs part et c'est souvent là que les problèmes critiques arrivent en interne avec <strong>des causes d'échecs quasi immédiat</strong> rendant la suite du projet vraiment difficile voire qui donne lieu à un No Go."
+      },
+      {
+        "type": "paragraph",
+        "html": "On privilégiera le fait de <strong>les impliquer au plus tôt</strong> afin de pouvoir prendre en compte leurs points d'attention et <strong>fluidifier le futur opérationnel du projet</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'autre particularité sera de nommer <strong>un porteur de projet côté métier</strong>, ce qui permettra de bien impliquer le ou les services clés et d'évangéliser le projet pour les équipes en interne qui sont pour le moment extérieures au projet. Cela permettra au chef de projet de piloter la mise en œuvre tout en travaillant et en aidant le porteur de projet à <strong>bien identifier l'alignement entre le problème à résoudre et la mise en place de solution.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Qui sont les bons membres d'un comité de pilotage ?",
+        "id": "qui-sont-les-bons-membres-dun-comite-de-pilotage"
+      },
+      {
+        "type": "paragraph",
+        "html": "On privilégiera au maximum <strong>les éléments moteurs</strong> de la démarche, qui ont envie de <strong>faire bouger les lignes</strong> et qui ont un attrait pour le projet, on limitera donc les personnalités sceptiques ou hostiles à l'idée du projet ou de sa façon de le mener à bien."
+      },
+      {
+        "type": "paragraph",
+        "html": "On souhaitera pouvoir rassembler les personnes dans l'entreprise <strong>qui possèdent les ressources et l'influence nécessaire</strong> pour la réalisation du projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Qui d'autre peut participer au comité de pilotage ?",
+        "id": "qui-dautre-peut-participer-au-comite-de-pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2e4ff9ad8bb435b1f364f_guest%20copil-min.jpeg",
+        "alt": "Invité mystère copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "On peut parfois faire appel à <strong>des personnalités extérieures</strong> à l'entreprise afin de <strong>donner du peps à la vision ou à l'exécution du projet</strong>, ou encore faire appel à des experts qui permettront de clarifier certains sujets et/ou à <strong>éliminer certains biais cognitifs</strong> potentiellement bloquants de certaines parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il peut être intéressant également pour la direction de l'entreprise ou le sponsor d'impliquer d'autres membres d'autres services ou d'autres filiales ponctuellement afin de les sensibiliser à la démarche si ils veulent la reproduire dans le futur ailleurs sur un autre projet, ou dans une <strong>dynamique d'harmonisation des projets internes</strong> pour <strong>éviter les doublons de projet</strong> ou de solutions à mettre en place."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Désamorcer les enjeux de politique interne au profit des intérêts supérieurs de l'entreprise",
+        "id": "desamorcer-les-enjeux-de-politique-interne-au-profit-des-interets-superieurs-de-lentreprise"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea65e11bc460440167d3e7_copil%20politique-min.jpg",
+        "alt": "Jeu politique COPIL"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le rôle du sponsor dans le Copil",
+        "id": "le-role-du-sponsor-dans-le-copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le comité de pilotage le sponsor est garant de plusieurs choses :"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il donne <strong>la ligne stratégique</strong>, challenge <strong>l'avancement</strong> et joue un rôle clé dans <strong>les arbitrages</strong>. Aussi, il facilitera le travail du chef de projet, en suggérant des idées en lien avec <strong>la stratégie d' entreprise</strong> mais aussi en assurant <strong>la gestion des conflits</strong> dans le cas ou le management transverse ne serait pas suffisant, il a le dernier mot, <strong>il est capable de trancher</strong> en cas de décisions en ballotage et soumettre ou donner des actions correctives durant le Copil."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est garant de l'intérêt de l'entreprise dans le projet et sera <strong>valoriser le bon état d'esprit</strong> ainsi que les actions qui vont dans le sens du projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Placer les intérêts du projet au-dessus des enjeux personnels",
+        "id": "placer-les-interets-du-projet-au-dessus-des-enjeux-personnels"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2e52c41058e5e79931f2b_conflit%20interet%20copil-min.png",
+        "alt": "Conflit copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un grosse partie des projets touchent souvent plusieurs services et plusieurs compétences métiers, aussi les actions d'un projet peuvent s'additionner pour certains avec leurs activités principales, c'est le cas des projets transverses, à ce titre il n'est pas évident pour tout le monde que les actions d'un projet transverses sont tout aussi importantes pour l'entreprise que les actions de leurs missions principales."
+      },
+      {
+        "type": "paragraph",
+        "html": "Aussi il est important de <strong>fixer les règles et le cadre dès le départ</strong> sur l'investissement attendu ainsi que de comment les décisions seront prises et quel est <strong>le rôle attendu de chaque participant.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quant à ceux qui penseraient à la jouer perso, voyant le projet comme une opportunité pour obtenir quelque chose par ailleurs ou simplement pour briller, sachez <strong>ne valoriser que les actions qui font directement avancer le projet</strong> et celles qui <strong>favorisent le team spirit.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Instaurer un climat de confiance ainsi que de valoriser les membres du projet dans leur capacité à mener le groupe vers la réussite du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour creuser le sujet, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage\">découvrez comment gérer l'agressivité dans les comités de pilotage</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment créer un comité de pilotage efficace dans la durée ?",
+        "id": "comment-creer-un-comite-de-pilotage-efficace-dans-la-duree"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Droit au but",
+        "id": "droit-au-but"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea6652dbd70f0628a74f0d_mur%20escalade%20copil-min.jpg",
+        "alt": "Un mur d'escalade analogie copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Chercher le chemin le plus efficace et qualitatif</strong> vers l'atteinte des objectifs du comité de pilotage, peu de monde prend du plaisir ou gagne en efficacité dans les réunions dîtes \"réunionites\","
+      },
+      {
+        "type": "paragraph",
+        "html": "Plus vous aurez dans votre comité de pilotage des membres occupés, plus ils apprécieront <strong>les Copil efficaces</strong> qui vont droit au but. Pour cela il faut se concentrer sur un ordre du jour et <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-modele-de-presentation-pour-votre-comite-de-pilotage\">une <strong>présentation synthétique</strong></a> possible en se restreignant simplement aux <strong>informations nécessaires pour prendre des décisions</strong>. Il peut être très efficace de catégoriser les points de l'ordre du jour par ordre de priorité et d'impact sur le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour rappel, tout vos support doivent se contenter de remplir les objectif du rôle du comité de pilotage cité précédemment. Vous retrouverez plus d'informations sur ce point dans l'article : Comment bien préparer son comité de pilotage"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Informations et outils nécessaires du Copil",
+        "id": "informations-et-outils-necessaires-du-copil"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea66be4b3685f0605aa81b_tooling%20copil-min-min.jpg",
+        "alt": "Outils pilotage projet"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Décisions du derniers comité de pilotage</strong>",
+          "<strong>Performance</strong> : Planning projet VS avancement réel / Budget prévu VS dépenses à date",
+          "Les prochains gros <strong>Jalons et enjeux</strong>",
+          "<strong>Tableau de bord</strong> (vue d'ensemble), suivi de l'avancement du projet et des KPIs",
+          "<strong>Risques et points d'attention</strong>",
+          "<strong>Les décisions à prendre</strong>",
+          "Questions",
+          "Prochaines étapes",
+          "Dates et Jalons du prochain Copil<br/>Faites attention à ne pas utiliser de support de présentation qui rentre trop dans le détails comme les outils de gestion de projet, au risque de perdre bon nombre de collaborateurs pendant la réunion et <strong>si vous souhaitez gagner du temps sans passer des heures à refaire un powerpoint pour chaque comité de pilotage </strong>et donner de la visibilité sur les éléments essentiels pour un Copil : <a href=\"https://www.airsaas.io/fr\">L'outil AirSaas</a> a spécialement été conçu pour résoudre ces problèmes-là."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Intervenants ponctuels et investissement dans le positif",
+        "id": "intervenants-ponctuels-et-investissement-dans-le-positif"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea671cda8fd09a5e29987d_copil%20positif-min.jpg",
+        "alt": "copil Psychologie positive projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il n'y a pas de règles indiquant qu'un comité de pilotage doit se tenir dans la même salle de réunion avec forcément les mêmes personnes, le chef de projet doit avoir le contrôle sur les invitations du comité afin d'être sûr qu'il n'y aura pas de présence contre-productive, ceci étant dit rien ne l'empêche d<strong>'inviter une personnalité</strong> choisi pour une compétences ou parcours spécifique qui pourrait redonner <strong>un bon élan au projet</strong>. <strong>Variez également de lieux</strong>, particulièrement si cela à un lien avec le projet et que ça permette de <strong>sortir les collaborateurs de leurs quotidiens.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Une autre culture Copil est possible</strong> que d'aborder essentiellement que des risques et des facteurs bloquants. Valoriser le travail accompli et utiliser la réalisation de Jalons du projet comme points à célébrer. Trop se concentrer sur les problèmes peut avoir comme conséquences de finir par en créer et il est très important de savoir se concentrer aussi sur ce qui s'est bien passé."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Conserver la valeur du Copil",
+        "id": "conserver-la-valeur-du-copil"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea6776af559208fa104fdb_value%20copil-min.jpg",
+        "alt": "Pilotage par la valeur"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous conserverez la valeur de cette instance si vous conservez <strong>son efficacité et son utilité</strong>. Ne conservez pas un Copil parce que la réunion est calée depuis longtemps si vous n'avez rien de significatif à arbitrer ou d'avancement significatif à montrer. Si vous avez la bonne fréquence de ces réunions, ce problème ne devrait pas se manifester, mais si c'est le cas il vaudra toujours mieux d'écourter ou de reporter une réunion, plutôt que de chercher à étoffer son contenu."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit rendre cet exercice facile pour les participants et s'assurer qu'il conserve un intérêt pour ses membres et pérenniser cette instance."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Ce à quoi un Copil ne sert pas",
+        "id": "ce-a-quoi-un-copil-ne-sert-pas"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2e5e70d244742b247497d_useful%20copil-min.jpeg",
+        "alt": "Utilité copil"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "A simplement informé ou <strong>à but strictement descendant</strong>, selon vos choix de management, il sera plus efficace qu'il soit inclusif et collaboratif",
+          "<strong>A une mise à mort</strong> : Ce n'est pas l'endroit pour descendre le travail ou la mauvaise implication d'un ou de plusieurs collaborateurs. Certains pourraient penser que cela pourrait servir d'exemple et faire rentrer tout le monde dans le rang. Mais sachez ne pas laver votre linge sale en public. Instaurer une dynamique de groupe positive est préférable pour le bien du projet. Privilégiez les rdv individuels pour exprimer si les attentes du projet diffèrent avec les actions de certains collaborateurs.",
+          "<strong>Entrer dans trop de détails techniques</strong>, particulièrement si c'est pour expliquer tout ce que vous avez fait, c'est important de valoriser son travail et le travail de tous, mais rentrer dans un processus de justification imprime rarement une très bonne dynamique."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez mis en place votre copil ? Découvrez <a href=\"/gestion-de-projet/comment-animer-un-comite-de-pilotage\">Comment animer un comité de pilotage ?</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
 }

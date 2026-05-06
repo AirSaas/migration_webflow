@@ -168,7 +168,7 @@
       {
         "type": "hubspot-cta",
         "label": "Réserver une démo",
-        "href": "https://7979190.hs-sites.com/hs-web-interactive-7979190-188471577013",
+        "href": "/fr/meetings-pages",
         "id": "188471577013"
       },
       {
@@ -222,13 +222,14 @@
     "meta": {
       "title": "Planification de la demande et Capacity Planning : quelles différences ?",
       "h1": "Planification de la demande et Capacity Planning : quelles différences ?",
-      "description": "Découvrez les différences clés entre planification de la demande et Capacity Planning, leur complémentarité et les outils pour piloter efficacement vos projets.",
+      "description": "Découvrez les différences clés entre planification de la demande et Capacity Planning, leur complémentarité et les outils pour les piloter efficacement.",
+      "author": {
+        "name": "",
+        "category": "Gestion de projets"
+      },
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3cc625434050c28f97f_Planification%20de%20la%20demande.jpg",
         "alt": "Planification de la demande"
-      },
-      "author": {
-        "category": "Gestion de projets"
       }
     },
     "toc": [

@@ -8,7 +8,7 @@
     "meta": {
       "title": "10 tips pour la relation DG/CIO",
       "h1": "10 tips pour la relation DG/CIO",
-      "description": "10 pratiques pour développer la relation de confiance DG/CIO : du cadrage initial au run des 1to1, les astuces des Pro. de la Transfo. pour co-piloter la transformation.",
+      "description": "10 pratiques co-construites avec la communauté des Pro. de la Transfo. pour développer une relation de confiance entre CIO et DG, du build au run.",
       "publishedDate": "15/7/2023",
       "author": {
         "name": "Pro. de la Transfo.",
@@ -92,8 +92,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "transparence-en-continu-offrir-a-la-dg-la-capacite-de-co-piloter-la-transfo-de-son-organisation",
-        "text": "Transparence en continu : offrir à la DG la capacité de co-piloter la transfo de son organisation"
+        "text": "Transparence en continu : offrir à la DG la capacité de co-piloter la transfo de son organisation",
+        "id": "transparence-en-continu-offrir-a-la-dg-la-capacite-de-co-piloter-la-transfo-de-son-organisation"
       },
       {
         "type": "paragraph",
@@ -102,8 +102,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "1-tout-se-joue-avant-daccepter-le-poste",
-        "text": "1 : Tout se joue avant d'accepter le poste"
+        "text": "1 : Tout se joue avant d'accepter le poste",
+        "id": "1-tout-se-joue-avant-daccepter-le-poste"
       },
       {
         "type": "figure",
@@ -118,8 +118,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "2-prevoir-le-shadow-budget-une-reserve-tactique-pour-les-idees-parfois-geniales-de-son-dg",
-        "text": "2 : Prévoir le \"shadow\" budget, une réserve tactique pour les idées (parfois ^^) géniales de son DG"
+        "text": "2 : Prévoir le \"shadow\" budget, une réserve tactique pour les idées (parfois ^^) géniales de son DG",
+        "id": "2-prevoir-le-shadow-budget-une-reserve-tactique-pour-les-idees-parfois-geniales-de-son-dg"
       },
       {
         "type": "figure",
@@ -134,8 +134,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "3-ne-jamais-presenter-seul-des-projets-transverses",
-        "text": "3 : Ne jamais présenter seul des projets transverses !"
+        "text": "3 : Ne jamais présenter seul des projets transverses !",
+        "id": "3-ne-jamais-presenter-seul-des-projets-transverses"
       },
       {
         "type": "figure",
@@ -150,8 +150,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "4-faire-preuve-dempathie-comprendre-et-integrer-les-objectifs-de-la-dg",
-        "text": "4 : Faire preuve d'empathie... comprendre et intégrer les objectifs de la DG"
+        "text": "4 : Faire preuve d'empathie... comprendre et intégrer les objectifs de la DG",
+        "id": "4-faire-preuve-dempathie-comprendre-et-integrer-les-objectifs-de-la-dg"
       },
       {
         "type": "figure",
@@ -166,8 +166,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "5-de-la-transparence-nait-la-confiance-partager-la-roadmap-dynamique-en-continu",
-        "text": "5 : \"De la transparence naît la confiance\" Partager la roadmap dynamique en continu"
+        "text": "5 : \"De la transparence naît la confiance\" Partager la roadmap dynamique en continu",
+        "id": "5-de-la-transparence-nait-la-confiance-partager-la-roadmap-dynamique-en-continu"
       },
       {
         "type": "figure",
@@ -182,8 +182,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "optimiser-le-run-de-ses-rdv-avec-le-dg",
-        "text": "Optimiser le \"run\" de ses RDV avec le DG"
+        "text": "Optimiser le \"run\" de ses RDV avec le DG",
+        "id": "optimiser-le-run-de-ses-rdv-avec-le-dg"
       },
       {
         "type": "paragraph",
@@ -192,8 +192,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "6-preparer-un-1-on-1-comme-une-epreuve-sportive",
-        "text": "6 : Préparer un 1 on 1 comme une épreuve sportive"
+        "text": "6 : Préparer un 1 on 1 comme une épreuve sportive",
+        "id": "6-preparer-un-1-on-1-comme-une-epreuve-sportive"
       },
       {
         "type": "figure",
@@ -221,8 +221,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "7-gare-au-small-talk",
-        "text": "7 : Gare au small talk !"
+        "text": "7 : Gare au small talk !",
+        "id": "7-gare-au-small-talk"
       },
       {
         "type": "figure",
@@ -237,8 +237,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "8-si-ca-jargonnetu-sonnes",
-        "text": "8 : Si ça jargonne...tu sonnes !"
+        "text": "8 : Si ça jargonne...tu sonnes !",
+        "id": "8-si-ca-jargonnetu-sonnes"
       },
       {
         "type": "figure",
@@ -257,8 +257,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "9-rendez-vous-catastrophe-apprendre-a-retourner-la-situation",
-        "text": "9 : Rendez-vous catastrophe ? Apprendre à retourner la situation !"
+        "text": "9 : Rendez-vous catastrophe ? Apprendre à retourner la situation !",
+        "id": "9-rendez-vous-catastrophe-apprendre-a-retourner-la-situation"
       },
       {
         "type": "figure",
@@ -283,8 +283,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "10-lafter-est-important-pour-conclure",
-        "text": "10 : L'after est important pour conclure"
+        "text": "10 : L'after est important pour conclure",
+        "id": "10-lafter-est-important-pour-conclure"
       },
       {
         "type": "figure",

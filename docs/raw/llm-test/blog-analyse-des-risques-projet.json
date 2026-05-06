@@ -8,7 +8,7 @@
     "meta": {
       "title": "Comment être pragmatique dans l'analyse des risques projet ?",
       "h1": "Comment être pragmatique dans l'analyse des risques projet ?",
-      "description": "Découvrez comment mener une analyse des risques projet pragmatique et moderne : définition, 4 étapes clés, outils digitaux et bonnes pratiques pour sortir des matrices Excel.",
+      "description": "Analyse des risques projet : pourquoi c'est essentiel, qu'est-ce qu'un risque, les 4 étapes clés et comment faire évoluer la gestion opérationnelle des risques en cours de projet.",
       "publishedDate": "4/5/2022",
       "author": {
         "name": "Jérôme Dard",
@@ -196,7 +196,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<p>L'identification des risques et leur traitchef ement doit se faire <strong>à la fois le plus tôt possible dans le projet ET tout au long du cycle de vie du projet</strong>, avec un accent particulier lors des jalons.</p>"
+        "html": "<p>L'identification des risques et leur traitement doit se faire <strong>à la fois le plus tôt possible dans le projet ET tout au long du cycle de vie du projet</strong>, avec un accent particulier lors des jalons.</p>"
       },
       {
         "type": "paragraph",
@@ -304,7 +304,7 @@
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6271380aa1458215745cb356_demidecision.jpeg",
         "alt": "1/2 décision = bordel au carré",
-        "caption": "Source conférence Olivier Bas - Titre d'un chapitre du livre \"Like ton job\" paru chez Dunod."
+        "caption": "Source  conférence Olivier Bas - Titre d'un chapitre du livre \"Like ton job\" paru chez Dunod."
       },
       {
         "type": "paragraph",
@@ -412,7 +412,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<p>Pour approfondir ce dernier axe clé, nous vous recommandons la lecture de l'article : <a href=\"/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\">Le jalon projet : une technique pour séquencer vos projets intelligemment.</a></p>"
+        "html": "<p>Pour approfondir ce dernier axe clé, nous vous recommandons la lecture de l'article :<a href=\"/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"> Le jalon projet : une technique pour séquencer vos projets intelligemment.</a></p>"
       }
     ],
     "related": [

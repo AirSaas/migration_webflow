@@ -5,6 +5,40 @@
   "outcome": "PASS_FIRST_TRY",
   "errors": [],
   "result": {
+    "meta": {
+      "title": "Kanban & gestion de projet : la méthode pour optimiser votre suivi de projet",
+      "h1": "Kanban & gestion de projet : la méthode pour optimiser votre suivi de projet",
+      "description": "Découvrez comment utiliser concrètement le Kanban dans votre gestion de projet : définition, avantages, comparaison physique vs digital et bonnes pratiques.",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "publishedDate": "8/10/2021",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38d15e3e50634f2ce01e8_1-3-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce que c'est que la méthode Kanban ?",
+        "href": "#quest-ce-que-cest-que-la-methode-kanban"
+      },
+      {
+        "label": "Pourquoi utiliser un Kanban dans la gestion de projet ?",
+        "href": "#pourquoi-utiliser-un-kanban-dans-la-gestion-de-projet"
+      },
+      {
+        "label": "Kanban physique -vs- Kanban digital",
+        "href": "#kanban-physique-vs-kanban-digital"
+      },
+      {
+        "label": "Le Kanban comme support de communication intermédiaire",
+        "href": "#le-kanban-comme-support-de-communication-intermediaire"
+      }
+    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -27,8 +61,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "quest-ce-que-cest-que-la-methode-kanban",
-        "text": "Qu'est-ce que c'est que la méthode Kanban ?"
+        "text": "Qu'est-ce que c'est que la méthode Kanban ?",
+        "id": "quest-ce-que-cest-que-la-methode-kanban"
       },
       {
         "type": "paragraph",
@@ -91,8 +125,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "pourquoi-utiliser-un-kanban-dans-la-gestion-de-projet",
-        "text": "Pourquoi utiliser un Kanban dans la gestion de projet ?"
+        "text": "Pourquoi utiliser un Kanban dans la gestion de projet ?",
+        "id": "pourquoi-utiliser-un-kanban-dans-la-gestion-de-projet"
       },
       {
         "type": "paragraph",
@@ -123,8 +157,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "kanban-physique-vs-kanban-digital",
-        "text": "Kanban physique -vs- Kanban digital"
+        "text": "Kanban physique -vs- Kanban digital",
+        "id": "kanban-physique-vs-kanban-digital"
       },
       {
         "type": "paragraph",
@@ -133,8 +167,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "les-avantages-du-kanban-physique",
-        "text": "Les avantages du Kanban physique"
+        "text": "Les avantages du Kanban physique",
+        "id": "les-avantages-du-kanban-physique"
       },
       {
         "type": "paragraph",
@@ -155,8 +189,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "les-avantages-du-kanban-digital",
-        "text": "Les avantages du Kanban digital"
+        "text": "Les avantages du Kanban digital",
+        "id": "les-avantages-du-kanban-digital"
       },
       {
         "type": "paragraph",
@@ -191,8 +225,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "le-kanban-comme-support-de-communication-intermediaire",
-        "text": "Le Kanban comme support de communication intermédiaire"
+        "text": "Le Kanban comme support de communication intermédiaire",
+        "id": "le-kanban-comme-support-de-communication-intermediaire"
       },
       {
         "type": "paragraph",
@@ -215,40 +249,6 @@
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8393b38147e34dd835ba5_62f38cb287c554817f76d1fe_Export-flash-min.jpeg",
         "alt": "export de la fiche projet",
         "caption": "Exportez votre fiche projet en un clic"
-      }
-    ],
-    "meta": {
-      "title": "Kanban & gestion de projet : la méthode pour optimiser votre suivi de projet",
-      "h1": "Kanban & gestion de projet : la méthode pour optimiser votre suivi de projet",
-      "description": "Découvrez la méthode Kanban en gestion de projet : définition, avantages, comparaison Kanban physique vs digital et utilisation comme support de communication.",
-      "publishedDate": "8/10/2021",
-      "author": {
-        "name": "Bertran Ruiz",
-        "category": "Gestion de projets",
-        "publishedDate": "8/10/2021",
-        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
-      },
-      "heroImage": {
-        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38d15e3e50634f2ce01e8_1-3-min.jpg",
-        "alt": "Gestion de Projets"
-      }
-    },
-    "toc": [
-      {
-        "label": "Qu'est-ce que c'est que la méthode Kanban ?",
-        "href": "#quest-ce-que-cest-que-la-methode-kanban"
-      },
-      {
-        "label": "Pourquoi utiliser un Kanban dans la gestion de projet ?",
-        "href": "#pourquoi-utiliser-un-kanban-dans-la-gestion-de-projet"
-      },
-      {
-        "label": "Kanban physique -vs- Kanban digital",
-        "href": "#kanban-physique-vs-kanban-digital"
-      },
-      {
-        "label": "Le Kanban comme support de communication intermédiaire",
-        "href": "#le-kanban-comme-support-de-communication-intermediaire"
       }
     ],
     "related": [

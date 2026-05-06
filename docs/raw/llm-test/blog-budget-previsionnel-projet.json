@@ -51,8 +51,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "quest-ce-quun-budget-previsionnel",
-        "text": "Qu'est-ce qu'un budget prévisionnel ?"
+        "text": "Qu'est-ce qu'un budget prévisionnel ?",
+        "id": "quest-ce-quun-budget-previsionnel"
       },
       {
         "type": "paragraph",
@@ -73,18 +73,18 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "pourquoi-etablir-un-budget-previsionnel-pour-un-projet",
-        "text": "Pourquoi établir un budget prévisionnel pour un projet ?"
+        "text": "Pourquoi établir un budget prévisionnel pour un projet ?",
+        "id": "pourquoi-etablir-un-budget-previsionnel-pour-un-projet"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "anticiper-et-ajuster-votre-projet",
-        "text": "Anticiper et ajuster votre projet"
+        "text": "Anticiper et ajuster votre projet",
+        "id": "anticiper-et-ajuster-votre-projet"
       },
       {
         "type": "paragraph",
-        "html": "L'intérêt premier d'un <a href=\"https://www.legalstart.fr/fiches-pratiques/comptabilite-entreprise/comment-faire-budget-previsionnel/\" target=\"_blank\">budget prévisionnel</a> est d'essayer d'accroître votre visibilité sur le futur de votre projet - ou autrement dit, d'anticiper votre gestion de projet !"
+        "html": "L'intérêt premier d'un <a href=\"https://www.legalstart.fr/fiches-pratiques/comptabilite-entreprise/comment-faire-budget-previsionnel/\">budget prévisionnel</a> est d'essayer d'accroître votre visibilité sur le futur de votre projet - ou autrement dit, d'anticiper votre gestion de projet !"
       },
       {
         "type": "paragraph",
@@ -97,8 +97,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "garder-le-cap-durant-le-projet",
-        "text": "Garder le cap durant le projet"
+        "text": "Garder le cap durant le projet",
+        "id": "garder-le-cap-durant-le-projet"
       },
       {
         "type": "paragraph",
@@ -111,8 +111,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "un-allie-de-poids-pour-votre-management",
-        "text": "Un allié de poids pour votre management"
+        "text": "Un allié de poids pour votre management",
+        "id": "un-allie-de-poids-pour-votre-management"
       },
       {
         "type": "paragraph",
@@ -129,14 +129,14 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "comment-preparer-un-budget-previsionnel",
-        "text": "Comment préparer un budget prévisionnel ?"
+        "text": "Comment préparer un budget prévisionnel ?",
+        "id": "comment-preparer-un-budget-previsionnel"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "avoir-fait-linventaire-de-vos-ressources",
-        "text": "Avoir fait l'inventaire de vos ressources"
+        "text": "Avoir fait l'inventaire de vos ressources",
+        "id": "avoir-fait-linventaire-de-vos-ressources"
       },
       {
         "type": "paragraph",
@@ -145,8 +145,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "decouper-vos-budgets-previsionnels",
-        "text": "Découper vos budgets prévisionnels"
+        "text": "Découper vos budgets prévisionnels",
+        "id": "decouper-vos-budgets-previsionnels"
       },
       {
         "type": "paragraph",
@@ -167,8 +167,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "impliquer-vos-collaborateurs-dans-la-confection-de-votre-budget",
-        "text": "Impliquer vos collaborateurs dans la confection de votre budget"
+        "text": "Impliquer vos collaborateurs dans la confection de votre budget",
+        "id": "impliquer-vos-collaborateurs-dans-la-confection-de-votre-budget"
       },
       {
         "type": "paragraph",
@@ -189,8 +189,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "prendre-garde-a-bien-evaluer-vos-depenses",
-        "text": "Prendre garde à bien évaluer vos dépenses"
+        "text": "Prendre garde à bien évaluer vos dépenses",
+        "id": "prendre-garde-a-bien-evaluer-vos-depenses"
       },
       {
         "type": "paragraph",
@@ -207,8 +207,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "eviter-autant-que-possible-de-sous-estimer-les-delais",
-        "text": "Éviter autant que possible de sous-estimer les délais"
+        "text": "Éviter autant que possible de sous-estimer les délais",
+        "id": "eviter-autant-que-possible-de-sous-estimer-les-delais"
       },
       {
         "type": "paragraph",
@@ -221,8 +221,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "un-budget-previsionnel-nest-pas-statique-faites-le-evoluer",
-        "text": "Un budget prévisionnel n'est pas statique : faites-le évoluer !"
+        "text": "Un budget prévisionnel n'est pas statique : faites-le évoluer !",
+        "id": "un-budget-previsionnel-nest-pas-statique-faites-le-evoluer"
       },
       {
         "type": "paragraph",
@@ -234,11 +234,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Pour aller plus loin, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\" target=\"_blank\">découvrez comment construire un budget de projet sans vous louper</a>."
+        "html": "Pour aller plus loin, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">découvrez comment construire un budget de projet sans vous louper</a>."
       },
       {
         "type": "paragraph",
-        "html": "L'élaboration du budget prévisionnel de votre projet est terminée ? Vous pouvez désormais l'intégrer à votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie\" target=\"_blank\">fiche projet</a>."
+        "html": "L'élaboration du budget prévisionnel de votre projet est terminée ? Vous pouvez désormais l'intégrer à votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie\">fiche projet</a>."
       }
     ],
     "related": [

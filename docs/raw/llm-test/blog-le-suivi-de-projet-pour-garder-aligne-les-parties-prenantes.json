@@ -8,7 +8,7 @@
     "meta": {
       "title": "Suivi de projet : comment bien aligner les parties prenantes de vos projets ?",
       "h1": "Suivi de projet : comment bien aligner les parties prenantes de vos projets ?",
-      "description": "Découvrez comment moderniser le suivi de projet et 5 leviers efficaces pour maintenir l'alignement durable des parties prenantes de vos projets de transformation.",
+      "description": "Découvrez 5 leviers modernes pour maintenir l'alignement des parties prenantes tout au long du suivi de projet : pourquoi clair, rituels, transparence, direction et fun.",
       "publishedDate": "7/7/2022",
       "author": {
         "name": "Jérôme Dard",
@@ -42,7 +42,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "html": "<p>Pas de bonne exécution de stratégie sans l'adhésion de vos parties prenantes !</p>"
+        "html": "<p>Pas de <strong>bonne exécution</strong> de stratégie sans l'adhésion de vos parties prenantes !</p>"
       },
       {
         "type": "paragraph",
@@ -50,7 +50,11 @@
       },
       {
         "type": "paragraph",
-        "html": "<p>D'ailleurs, peut-être êtes-vous en train de vous demander : \"Mais pourquoi donc m'intéresserais-je à cet angle mort de la gestion de projet\" ? Parce que <strong>l'alignement de vos parties prenantes est une ressource critique</strong> ! Parce que votre projet mérite à chacune des étapes l'engagement constant fort de vos parties prenantes.<br><br>Oui : le budget et les efforts consentis par les membres de l'équipe très impliqués dans les tâches ont besoin du support et de l'alignement de personnes plus éloignées mais concernées, et ce de façon durable. Pour un avancement efficace l'enjeu est de conserver un bon niveau d'énergie, d'engagement autour de l'équipe de projet. Un véritable défi si on n'applique pas de solutions et méthodes de travail modernes.</p>"
+        "html": "<p>D'ailleurs, peut-être êtes-vous en train de vous demander : \" Mais pourquoi donc m'intéresserais-je à cet angle mort de la gestion de projet\" ? Parce que <strong>l'alignement de vos parties prenantes est une ressource critique</strong> ! Parce que votre projet mérite à chacune des étapes l'engagement constant fort de vos parties prenantes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Oui : le budget et les efforts consentis par les membres de l'équipe très impliqués dans les tâches ont besoin du support et de l'alignement de personnes plus éloignées mais concernées, et ce de façon durable. Pour un avancement efficace l'enjeu est de conserver un bon niveau d'énergie, d'engagement autour de l'équipe de projet. Un véritable défi si on n'applique pas de solutions et méthodes de travail modernes.</p>"
       },
       {
         "type": "paragraph",
@@ -113,7 +117,8 @@
       {
         "type": "quote",
         "text": "Un point indispensable dans la transfo., ce sont les aspects de communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace. La transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque.",
-        "author": "Alexia Schmitt, Directrice de la Transformation et des Systèmes d'Information Centrimex — épisode 22 du Podcast CIO Révolution by AirSaas"
+        "author": "Alexia Schmitt",
+        "caption": "Directrice de la Transformation et des Systèmes d'Information Centrimex — invitée de l'épisode 22 du Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "heading",
@@ -265,7 +270,8 @@
       {
         "type": "quote",
         "text": "Il n'y a aucun projet qui se passe comme prévu ! Les directions générales apprécient la transparence. Ce qu'elles n'apprécient pas, c'est quand vous cachez quelque chose et que, trois ans plus tard, elles découvrent qu'il y a eu un écart dans la trajectoire.",
-        "author": "Thomas Vrignaud, CIO - CDO — épisode 14 du Podcast CIO Révolution by AirSaas"
+        "author": "Thomas Vrignaud",
+        "caption": "CIO - CDO — Extrait de l'épisode 14 du Podcast CIO Révolution by AirSaas"
       },
       {
         "type": "paragraph",
@@ -343,7 +349,7 @@
         "items": [
           "<strong>Utilisez des outils visuels</strong> : des GIF et tous les \"artefacts\" légers",
           "<strong>Renouvelez vos processus</strong> en puisant dans la panoplie des jeux agiles \"qui font le travail\"",
-          "<strong>Remercier chacune des parties prenantes</strong> du projet avec un cadeau à l'issue d'un grand jalon ou d'échéances importantes",
+          "<strong>Remerciez chacune des parties prenantes</strong> du projet avec un cadeau à l'issue d'un grand jalon ou d'échéances importantes",
           "<strong>Dépaysez le lieu du comité projet</strong>, son heure, son format...",
           "<strong>Invitez des personnalités extérieures</strong> à l'entreprise*"
         ]
@@ -367,12 +373,9 @@
         "text": "À retenir"
       },
       {
-        "type": "paragraph",
-        "html": "<p>Au-delà donc du prérequis d'une cartographie dynamique des parties prenantes et des premiers leviers présentés, gardons bien en tête <strong>le côté humain et donc complexe, d'un projet de transformation.</strong> C'est ce qui en fait la saveur !</p>"
-      },
-      {
-        "type": "paragraph",
-        "html": "<p>Vous avez toutes les clés pour vous appuyer sur vos parties prenantes ? Vous savez comment mettre en place une méthode pragmatique. Pour finir le geste, l'équipe Pro. de la Transfo. vous propose de découvrir un article spécial sur le <a href=\"/gestion-de-projet/plan-de-communication-projet\" target=\"_blank\">Plan de communication projet : comment éviter l'échec ?</a></p>"
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<p>Au-delà donc du prérequis d'une cartographie dynamique des parties prenantes et des premiers leviers présentés, gardons bien en tête <strong>le côté humain et donc complexe, d'un projet de transformation.</strong> C'est ce qui en fait la saveur !</p><p>Vous avez toutes les clés pour vous appuyer sur vos parties prenantes ? Vous savez comment mettre en place une méthode pragmatique. Pour finir le geste, l'équipe Pro. de la Transfo. vous propose de découvrir un article spécial sur le <a target=\"_blank\" href=\"/gestion-de-projet/plan-de-communication-projet\">Plan de communication projet : comment éviter l'échec ?</a></p>"
       }
     ],
     "related": [

@@ -8,14 +8,14 @@
     "meta": {
       "title": "Comment être un bon chef de projet transverse ?",
       "h1": "Comment être un bon chef de projet transverse ?",
-      "description": "Quels sont les enjeux et les difficultés du poste de chef de projet transverse ? Découvrez les outils et compétences clés pour piloter efficacement des projets transverses sans liens hiérarchiques.",
-      "publishedDate": "21/4/2022",
+      "description": "Quels sont les enjeux et difficultés du chef de projet transverse ? Découvrez les outils et compétences clés pour piloter efficacement des projets transverses sans lien hiérarchique.",
       "author": {
         "name": "Bertran Ruiz",
         "category": "Gestion de projets",
         "publishedDate": "21/4/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
       },
+      "publishedDate": "21/4/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f389f9e54e0198db633d40_Project%20image%20(1).jpg",
         "alt": "Gestion de Projets"
@@ -49,8 +49,8 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Difficultés et enjeux du chef de projet transverse",
-        "id": "difficultes-et-enjeux-du-chef-de-projet-transverse"
+        "id": "difficultes-et-enjeux-du-chef-de-projet-transverse",
+        "text": "Difficultés et enjeux du chef de projet transverse"
       },
       {
         "type": "paragraph",
@@ -65,8 +65,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Pas de lien hiérarchique avec l'équipe",
-        "id": "pas-de-lien-hierarchique-avec-lequipe"
+        "id": "pas-de-lien-hierarchique-avec-lequipe",
+        "text": "Pas de lien hiérarchique avec l'équipe"
       },
       {
         "type": "paragraph",
@@ -91,8 +91,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Pas dans la même équipe",
-        "id": "pas-dans-la-meme-equipe"
+        "id": "pas-dans-la-meme-equipe",
+        "text": "Pas dans la même équipe"
       },
       {
         "type": "paragraph",
@@ -101,8 +101,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Des séances de travail dédiées",
-        "id": "des-seances-de-travail-dediees"
+        "id": "des-seances-de-travail-dediees",
+        "text": "Des séances de travail dédiées"
       },
       {
         "type": "paragraph",
@@ -111,8 +111,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Un onboarding des supérieurs hiérarchiques",
-        "id": "un-onboarding-des-superieurs-hierarchiques"
+        "id": "un-onboarding-des-superieurs-hierarchiques",
+        "text": "Un onboarding des supérieurs hiérarchiques"
       },
       {
         "type": "paragraph",
@@ -121,8 +121,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Visibilité, transparence et outils dédiés",
-        "id": "visibilite-transparence-et-outils-dedies"
+        "id": "visibilite-transparence-et-outils-dedies",
+        "text": "Visibilité, transparence et outils dédiés"
       },
       {
         "type": "paragraph",
@@ -135,8 +135,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Les parties-prenantes ne sont pas full-time sur le projet",
-        "id": "les-parties-prenantes-ne-sont-pas-full-time-sur-le-projet"
+        "id": "les-parties-prenantes-ne-sont-pas-full-time-sur-le-projet",
+        "text": "Les parties-prenantes ne sont pas full-time sur le projet"
       },
       {
         "type": "paragraph",
@@ -158,12 +158,12 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Un cadre projet clair et efficace",
-        "id": "un-cadre-projet-clair-et-efficace"
+        "id": "un-cadre-projet-clair-et-efficace",
+        "text": "Un cadre projet clair et efficace"
       },
       {
         "type": "paragraph",
-        "html": "Il est donc ici particulièrement<strong> essentiel que le cadre et les étapes du projet soient parfaitement clairs</strong>. Chacun doit pouvoir <strong>savoir à tout moment où en </strong><strong>est le projet</strong>, et ce qui reste à venir."
+        "html": "Il est donc ici particulièrement<strong> essentiel que le cadre et les étapes du projet soient parfaitement clairs</strong>. Chacun doit pouvoir <strong>savoir à tout moment où en est le projet</strong>, et ce qui reste à venir."
       },
       {
         "type": "paragraph",
@@ -172,8 +172,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Ownership et engagement",
-        "id": "ownership-et-engagement"
+        "id": "ownership-et-engagement",
+        "text": "Ownership et engagement"
       },
       {
         "type": "paragraph",
@@ -190,8 +190,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Les aléas du timing",
-        "id": "les-aleas-du-timing"
+        "id": "les-aleas-du-timing",
+        "text": "Les aléas du timing"
       },
       {
         "type": "paragraph",
@@ -200,8 +200,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Anticiper c'est gagner !",
-        "id": "anticiper-cest-gagner"
+        "id": "anticiper-cest-gagner",
+        "text": "Anticiper c'est gagner !"
       },
       {
         "type": "paragraph",
@@ -223,14 +223,14 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Les 7 outils du chef de projet transversal",
-        "id": "les-7-outils-du-chef-de-projet-transversal"
+        "id": "les-7-outils-du-chef-de-projet-transversal",
+        "text": "Les 7 outils du chef de projet transversal"
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "L'approche orientée problème",
-        "id": "lapproche-orientee-probleme"
+        "id": "lapproche-orientee-probleme",
+        "text": "L'approche orientée problème"
       },
       {
         "type": "paragraph",
@@ -264,8 +264,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "La donnée",
-        "id": "la-donnee"
+        "id": "la-donnee",
+        "text": "La donnée"
       },
       {
         "type": "paragraph",
@@ -286,8 +286,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Le document cadre du projet",
-        "id": "le-document-cadre-du-projet"
+        "id": "le-document-cadre-du-projet",
+        "text": "Le document cadre du projet"
       },
       {
         "type": "paragraph",
@@ -314,8 +314,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Le suivi et la communication",
-        "id": "le-suivi-et-la-communication"
+        "id": "le-suivi-et-la-communication",
+        "text": "Le suivi et la communication"
       },
       {
         "type": "paragraph",
@@ -328,8 +328,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "La culture du feedback et l'ouverture à l'extérieur",
-        "id": "la-culture-du-feedback-et-louverture-a-lexterieur"
+        "id": "la-culture-du-feedback-et-louverture-a-lexterieur",
+        "text": "La culture du feedback et l'ouverture à l'extérieur"
       },
       {
         "type": "paragraph",
@@ -342,8 +342,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Le moment clé",
-        "id": "le-moment-cle"
+        "id": "le-moment-cle",
+        "text": "Le moment clé"
       },
       {
         "type": "paragraph",
@@ -352,8 +352,8 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "Avoir un bon sponsor",
-        "id": "avoir-un-bon-sponsor"
+        "id": "avoir-un-bon-sponsor",
+        "text": "Avoir un bon sponsor"
       },
       {
         "type": "figure",
@@ -364,8 +364,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "C'est lui qui arrive à rebooster la team",
-        "id": "cest-lui-qui-arrive-a-rebooster-la-team"
+        "id": "cest-lui-qui-arrive-a-rebooster-la-team",
+        "text": "C'est lui qui arrive à rebooster la team"
       },
       {
         "type": "paragraph",
@@ -374,8 +374,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Il donne le cap",
-        "id": "il-donne-le-cap"
+        "id": "il-donne-le-cap",
+        "text": "Il donne le cap"
       },
       {
         "type": "paragraph",
@@ -384,8 +384,8 @@
       {
         "type": "heading",
         "level": 4,
-        "text": "Il défend le projet avec le chef de projet transversal au comité de pilotage",
-        "id": "il-defend-le-projet-avec-le-chef-de-projet-transversal-au-comite-de-pilotage"
+        "id": "il-defend-le-projet-avec-le-chef-de-projet-transversal-au-comite-de-pilotage",
+        "text": "Il défend le projet avec le chef de projet transversal au comité de pilotage"
       },
       {
         "type": "paragraph",
@@ -398,8 +398,8 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Les compétences clés d'un bon directeur de projet transverse",
-        "id": "les-competences-cles-dun-bon-directeur-de-projet-transverse"
+        "id": "les-competences-cles-dun-bon-directeur-de-projet-transverse",
+        "text": "Les compétences clés d'un bon directeur de projet transverse"
       },
       {
         "type": "paragraph",

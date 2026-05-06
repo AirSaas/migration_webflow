@@ -8,7 +8,7 @@
     "meta": {
       "title": "Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers",
       "h1": "Le Lean Portfolio Management pour aligner en continu la direction générale, l'IT et les métiers",
-      "description": "Découvrez le Lean Portfolio Management : une approche Lean-agile pour aligner en continu la direction générale, l'IT et les métiers, et muscler l'efficacité de votre portfolio management.",
+      "description": "Découvrez comment le Lean Portfolio Management permet d'aligner en continu la direction générale, l'IT et les métiers grâce à une approche Lean-agile, le découpage en quarter et un management visuel.",
       "publishedDate": "14/11/2022",
       "author": {
         "name": "Jérôme Dard",
@@ -42,29 +42,29 @@
     "blocks": [
       {
         "type": "paragraph",
-        "html": "Les questions de priorisation et de recherche d'efficacité opérationnelle de la transformation sont des sujets qui préoccupent de nombreux dirigeants. \"Tout le monde se gratte la tête\" résumait avec humour un membre de la communauté AirSaas Pro de la Transfo, DSI expérimenté, lors d'une interview."
+        "html": "Les questions de priorisation <strong></strong>et de recherche d'efficacité opérationnelle de la transformation sont des sujets qui préoccupent de nombreux dirigeants. \"Tout le monde se gratte la tête\" résumait avec humour un membre de la communauté AirSaas Pro de la Transfo, DSI expérimenté, lors d'une interview."
       },
       {
         "type": "paragraph",
-        "html": "Et avouons-le, les <strong>directions générales et métiers</strong> sont parfois difficiles à embarquer dans une <strong>culture Lean-agile</strong> de gestion des portefeuilles projets, vue souvent comme un sujet purement IT."
+        "html": "Et avouons-le, les <strong></strong>directions générales et métiers <strong></strong>sont parfois difficiles à embarquer dans une <strong>culture Lean-agile </strong>de gestion des portefeuilles projets, vue souvent comme un sujet purement IT<strong>.</strong>"
       },
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6372777e36584e69b2eebab4_image-asset-min.jpeg",
-        "alt": "Dessin humour alignement business / IT",
+        "alt": "Dessin hmour alignement business / IT",
         "caption": "L'art d'aligner l'IT et les métiers dans les organisations"
       },
       {
         "type": "paragraph",
-        "html": "Dans cet article nous allons nous intéresser à l'exécution de votre stratégie d'entreprise en continu, et à l'exécution de votre stratégie commerciale sur l'angle de la gestion de portefeuille Lean. Au dialogue et à la coopération entre les silos, à votre flux de valeur, à la répartition budgétaire. On cherchera à en savoir plus sur des approches promettant d'améliorer votre processus agile et de renforcer la valeur ajoutée de vos projets. En un mot : on cherchera à <strong>muscler l'efficacité de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/portfolio-management-pourquoi-il-faut-en-finir-avec-excel\">portfolio management</a>.</strong>"
+        "html": "Dans cet article nous allons nous intéresser à l'exécution<strong> </strong>de votre stratégie d'entreprise en continu<strong>, e</strong>t à l'exécution de votre stratégie commerciale sur l'angle de la gestion de portefeuille Lean<strong>.</strong> Au dialogue et à la coopération entre les silos, à votre flux de valeur, à la répartition budgétaire. On cherchera à en savoir plus sur des approches promettant d'améliorer votre processus agile et de renforcer la valeur ajoutée de vos projets. En un mot : on cherchera à <strong>muscler l'efficacité de votre </strong><a href=\"https://www.airsaas.io/fr/gestion-de-projet/portfolio-management-pourquoi-il-faut-en-finir-avec-excel\"><strong>portfolio management</strong></a><strong>.</strong>"
       },
       {
         "type": "paragraph",
-        "html": "On parlera de Kanban, de value stream mapping, de frameworks agiles à l'échelle, de management visuel et peut-être même d'un agile release trains !"
+        "html": "On parlera de Kanban, de value stream mapping, de frameworks agiles à l'échelle,  de management visuel et peut-être même d'un agile release trains !"
       },
       {
         "type": "paragraph",
-        "html": "Disclaimer ! Ces sujets sont complexes. Attention, si vous cherchiez un article no brainer... restez un peu !<br/>Ici nous avons ici l'objectif de traiter ces thèmes, en partageant des convictions, et en restant le plus pragmatique possible - le tout, avec un filtre \"anti langue de bois\" activé."
+        "html": "Disclaimer ! Ces sujets sont complexes. Attention, si vous cherchiez un article no brainer... restez un peu ! <br/>Ici nous avons ici l'objectif de traiter ces thèmes, en partageant des convictions, et en restant le plus pragmatique possible - le tout, avec un<strong> </strong>filtre \"anti langue de bois\" activé<strong>.</strong>"
       },
       {
         "type": "paragraph",
@@ -84,7 +84,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Planifier un an à l'avance n'est plus réaliste. Dans ce fameux monde VICA (volatile incertain complexe et ambigu), lorsque le marché, le management, ou le scope connaissent des changements rapides et des perturbations, <strong>les méthodes traditionnelles de gestion de portefeuille de produits ne permettent plus de gérer efficacement</strong>."
+        "html": "Planifier un an à l'avance n'est plus réaliste<strong>.</strong> Dans ce fameux monde VICA (volatile incertain complexe et ambigu), lorsque le marché, le management, ou le scope connaissent des changements rapides et des perturbations,<strong> les méthodes traditionnelles de gestion de portefeuille de produits ne permettent plus de gérer efficacement</strong>."
       },
       {
         "type": "paragraph",
@@ -92,11 +92,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Cette <strong>contradiction temporelle</strong> s'applique également à la prise de décision. Celle-ci est souvent jugée par les opérationnels comme étant trop longue, et impliquant trop de gens."
+        "html": "Cette <strong>contradiction temporelle</strong> s'applique également à la<strong> </strong>prise de décision<strong>. </strong>Celle-ci est souvent jugée par les opérationnels comme étant trop longue, et impliquant trop de gens."
       },
       {
         "type": "paragraph",
-        "html": "De même, sur des échelles de temps à 18 mois, les estimations budgétaires sont imaginaires ! Et finalement, peu importe le fond : ce qui est important, c'est de convaincre la finance pour obtenir les budgets."
+        "html": "De même, sur des échelles de temps<strong> </strong>à 18 mois, les estimations budgétaires sont imaginaires ! Et finalement, peu importe le fond : ce qui est important, c'est de convaincre la finance pour obtenir les budgets."
       },
       {
         "type": "heading",
@@ -130,7 +130,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Pour mieux prioriser et aligner en continu, <strong>on a besoin de voir une \"grande image\" !</strong>"
+        "html": "Pour mieux prioriser et aligner en continu,<strong> on a besoin de voir une \"grande image\" !</strong>"
       },
       {
         "type": "paragraph",
@@ -144,11 +144,11 @@
       },
       {
         "type": "paragraph",
-        "html": "À partir d'une \"big picture\" les différentes parties prenantes pourront mieux <strong>évaluer l'importance individuelle relative de chacun des projets</strong> soumis."
+        "html": "À partir d'une \"big picture\" les différentes parties prenantes pourront mieux<strong> évaluer l'importance individuelle relative de chacun des projets</strong> soumis."
       },
       {
         "type": "paragraph",
-        "html": "Et plus encore : grâce à cette vision globale, nous pourrons regrouper certaines demandes et pourrons peut-être voir des synergies et regrouper ces différentes idées de projets pour créer un programme ! Un programme et / ou un plan de transformation qui fera du sens pour les collaborateurs."
+        "html": "Et plus encore : grâce à cette vision globale, nous pourrons regrouper certaines demandes et pourrons peut-être voir des synergies et regrouper ces différentes idées de projets pour<strong> </strong>créer un programme<strong> </strong>! Un programme et / ou un plan de transformation qui fera du<strong> </strong>sens pour les collaborateurs."
       },
       {
         "type": "heading",
@@ -172,11 +172,11 @@
       },
       {
         "type": "paragraph",
-        "html": "La traduction littérale de Lean est \"maigre\". Parmi les acceptions courantes, on retiendra celle de « au plus juste »."
+        "html": "La traduction littérale de Lean est \"maigre\". Parmi les acceptions courantes, on retiendra celle de « au plus juste<strong> </strong>»."
       },
       {
         "type": "paragraph",
-        "html": "L'objectif est de <strong>tendre vers la performance</strong> (en matière de productivité, de qualité, de délais et de coûts) grâce à l'<strong>amélioration continue</strong> et à l'élimination des gaspillages, tout ceci dans le but de créer de la valeur pour satisfaire le client. <strong>L'idée centrale du Lean, c'est donc la création de valeur.</strong>"
+        "html": "L'objectif est de <strong>tendre vers la performance</strong> (en matière de productivité, de qualité, de délais et de coûts) grâce à l<strong>'amélioration continue </strong>et à l'élimination des gaspillages, tout ceci dans le but de créer de la valeur pour satisfaire le client. <strong>L'idée centrale du Lean, c'est donc la création de valeur.</strong>"
       },
       {
         "type": "figure",
@@ -207,11 +207,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Les <strong>modèles de déploiement de l'agilité à grande échelle</strong> (« <em>scale up</em> » en anglais) sont autant adulés que décriés ! Usine à gaz de la transformation pour certains, cadre d'organisation génial pour les autres... ce qui est sûr, c'est qu'on ne peut pas généraliser. Les frameworks sont nombreux. SAFe, Nexus, Spotify, Scum at Scale, LeSS ou encore DAD... et en prime, ils évoluent rapidement."
+        "html": "Les <strong>modèles de déploiement de l'agilité à grande échelle </strong>(« <em>scale up</em> » en anglais) sont autant adulés que décriés ! Usine à gaz de la transformation pour certains, cadre d'organisation génial pour les autres... ce qui est sûr, c'est qu'on ne peut pas généraliser. Les frameworks sont nombreux. SAFe, Nexus, Spotify, Scum at Scale, LeSS ou encore DAD... et en prime, ils évoluent rapidement."
       },
       {
         "type": "paragraph",
-        "html": "Ces différents cadres proposent des démarches plus ou moins ambitieuses et surtout à géométrie variable. Avec le Lean Portfolio Management, SaFE, on entre dans <strong>l'organisation quasi industrielle des flux de travail</strong>. Dans des interdépendances à l'échelle d'une entreprise."
+        "html": "Ces différents cadres proposent<strong> </strong>des démarches plus ou moins ambitieuses et surtout à géométrie variable. Avec le Lean Portfolio Management, SaFE, on entre dans<strong> l'organisation quasi industrielle des flux de travail</strong>. Dans des interdépendances à l'échelle d'une entreprise."
       },
       {
         "type": "paragraph",
@@ -219,7 +219,7 @@
       },
       {
         "type": "paragraph",
-        "html": "La mise en place de ces frameworks de Lean Portfolio Management à l'échelle impliquera une compréhension des mécanismes de définition stratégique, des cycles budgétaires, du contrôle de gestion, et l'implication du top management ! Complexe à implémenter dans les organisations, cela peut se révéler extrêmement puissant dans les effets qu'ils peuvent produire."
+        "html": "La mise en place de ces frameworks de Lean Portfolio Management à l'échelle<strong> </strong>impliquera<strong> </strong>une compréhension des mécanismes de définition stratégique, des cycles budgétaires, du contrôle de gestion, et l'implication du top management ! Complexe à implémenter dans les organisations, cela peut se révéler extrêmement puissant<strong> </strong>dans les effets qu'ils peuvent produire."
       },
       {
         "type": "paragraph",
@@ -245,20 +245,20 @@
       },
       {
         "type": "paragraph",
-        "html": "Ne nous laissons pas impressionner par ce schéma et restons sur <strong>la philosophie générale de SAFe</strong> qui repose sur neuf principes :"
+        "html": "Ne nous laissons pas impressionner par ce schéma et restons sur <strong>la philosophie générale de SAFe </strong>qui repose sur neuf principes :"
       },
       {
         "type": "list",
         "ordered": true,
         "items": [
           "Adopter une <strong>vision économique</strong>",
-          "Appliquer la <strong>pensée systémique</strong>",
+          "Appliquer la<strong> pensée systémique</strong>",
           "<strong>Prendre en compte la variabilité</strong>, préserver les options",
           "Construire progressivement avec des <strong>cycles d'apprentissage rapides</strong> et intégrés",
           "Poser des jalons sur l'<strong>évaluation objective des systèmes de travail</strong>",
           "<strong>Visualiser et limiter les <em>Work in Progress</em></strong>, réduire les tailles de lots et gérer les longueurs de file d'attente",
-          "<strong>Appliquer une cadence et se synchroniser</strong> avec la planification inter-domaine",
-          "<strong>Libérer la motivation intrinsèque</strong> des collaborateurs",
+          "<strong>Appliquer une cadence et se synchroniser</strong> avec la planification<strong> </strong>inter-domaine",
+          "<strong>Libérer la motivation intrinsèque </strong>des collaborateurs",
           "<strong>Décentraliser la prise de décision</strong>"
         ]
       },
@@ -278,16 +278,16 @@
       },
       {
         "type": "quote",
-        "text": "Ceux qui maîtrisent la livraison de logiciels à grande échelle définiront le paysage économique du 21ème siècle.",
-        "author": "Mik Kersten, du projet au produit"
+        "text": "Ceux qui maîtrisent la livraison de logiciels à grande échelle définiront le paysage économique du 21ème  siècle.",
+        "author": "Mik Kersten, du projet au produit."
       },
       {
         "type": "paragraph",
-        "html": "La gestion de projet vise à répondre à des exigences spécifiques et à terminer un projet donné dans les délais et le budget convenus."
+        "html": "La gestion de projet<strong> </strong>vise à répondre à des exigences spécifiques et à terminer un projet donné dans les délais et le budget convenus."
       },
       {
         "type": "paragraph",
-        "html": "L'un de ses points forts est d'apporter une concentration d'attention et de moyens avec une \"juste\" tension. Une mobilisation qui permet en théorie de faire mieux coopérer temporairement des départements transverses de l'entreprise, hors silos."
+        "html": "L'un de ses points forts est d'apporter une concentration d'attention et de moyens avec une \"juste\" tension<strong>. </strong>Une mobilisation qui permet en théorie de faire mieux coopérer temporairement des départements transverses de l'entreprise, hors silos."
       },
       {
         "type": "paragraph",
@@ -299,7 +299,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>L'apport clé du Lean Portfolio Management sera</strong> <strong>de changer l'horizon de temps</strong>. De fonctionner par exemple au \"quarter\" - même pour un projet ERP/CRM ! Nous y reviendrons plus bas dans l'article."
+        "html": "<strong>L'apport clé du Lean Portfolio Management sera</strong> <strong>de changer l'horizon de temps</strong>. De fonctionner par exemple au \"quarter\" - même pour un projet ERP/CRM ! Nous y reviendrons  plus bas dans l'article."
       },
       {
         "type": "paragraph",
@@ -312,12 +312,12 @@
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6373c2909e475d58110aba46_airsaas-prouct-project-min.png",
-        "alt": "Approche combinant projet et produit pour réussir votre transfo.",
+        "alt": "Approche combipant rojet et produit pour réussir votre transfo.",
         "caption": "Faire cohabiter le côté produit et projet : les deux démarches ne sont pas opposées, bien au contraire - elles interagissent !"
       },
       {
         "type": "paragraph",
-        "html": "C'est un peu le paradoxe des modèles de delivery modernes. Nous sommes de plus en plus amenés à créer une culture de livraison \"hybride\". <strong>Le bon mix entre culture projet approche produit</strong>."
+        "html": "C'est un peu le paradoxe des modèles de delivery modernes. Nous sommes de plus en plus amenés à<strong> </strong>créer une culture de livraison \"hybride\". <strong>Le bon mix entre culture projet approche produit</strong>."
       },
       {
         "type": "figure",
@@ -335,7 +335,7 @@
       },
       {
         "type": "paragraph",
-        "html": "De façon académique, voire parfois indigeste, la définition du Lean Portfolio Management est la suivante :"
+        "html": "De façon académique,voire parfois indigeste, la définition du Lean Portfolio Management est la suivante :"
       },
       {
         "type": "quote",
@@ -343,7 +343,7 @@
       },
       {
         "type": "paragraph",
-        "html": "De façon schématique, voire plus explicite, le processus de LPM est le suivant :"
+        "html": "De façon schématique,voire plus explicite, le processus de LPM est le suivant<strong> :</strong>"
       },
       {
         "type": "figure",
@@ -352,7 +352,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Le processus de Lean Portfolio Management se décompose en <strong>deux étapes :</strong> <strong>l'instruction des demandes</strong> en amont et le <strong>pilotage opérationnel</strong> des initiatives retenues en aval."
+        "html": "Le processus de Lean Portfolio Management se décompose en <strong>deux étapes :</strong> <strong>l'instruction des demandes</strong> en amont et le<strong> pilotage opérationnel </strong>des initiatives retenues en aval."
       },
       {
         "type": "paragraph",
@@ -378,7 +378,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Le passage au mode produit change l'horizon de temps. Nous l'avons vu plus haut : l'un des problèmes de la gestion de projet actuelle réside dans la temporalité trop éloignée des rythmes entreprise et clients. Reformater son portefeuille pour une <strong>meilleure adéquation avec le timing de l'organisation</strong> est un conseil simple, efficace et rentable pour votre feuille de route !"
+        "html": "Le passage au mode produit change l'horizon de temps<strong>. </strong>Nous l'avons vu plus haut : l'un des problèmes de la gestion de projet actuelle réside dans la temporalité trop éloignée des rythmes entreprise et clients<strong>. </strong>Reformater son portefeuille pour une <strong>meilleure adéquation avec le timing de l'organisation</strong> est un conseil simple, efficace et rentable pour votre feuille de route !"
       },
       {
         "type": "paragraph",
@@ -388,7 +388,7 @@
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/63752154f2da816c5281eb98_Examen%20du%20portefeuille%20strate%CC%81gique%20Synchronisation%20du%20portefeuille%20Budge%CC%81tisation%20participative.jpg",
         "alt": "Lean portfolio management",
-        "caption": "Lean portfolio management : s'adapter en permanence !"
+        "caption": "Lean portfolio management : s\"adapter en permanence !"
       },
       {
         "type": "paragraph",
@@ -410,7 +410,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Rappelez-vous, c'est <strong>l'esprit d'équipe qu'il faut développer</strong> !"
+        "html": "Rappelez-vous, c'est<strong> l'esprit d'équipe qu'il faut développer</strong> !"
       },
       {
         "type": "paragraph",
@@ -419,7 +419,8 @@
       {
         "type": "quote",
         "text": "Le fait d'expliquer aux métiers qu'on a pris le temps de choisir leur projet prioritaire, qu'on a réussi à l'inclure dans le capacitaire, si tout cela est bien rodé, ça facilite immédiatement la relation entre DSI et métiers, même dans les moments plus compliqués.",
-        "author": "Sylvain Bourdette, CIO Indexia Groupe — Invité épisode 59 Podcast CIO Révolution by AirSaas Saison 3"
+        "author": "Sylvain Bourdette",
+        "caption": "CIO Indexia Groupe — Invité épisode 59 Podcast CIO Révolution by AirSaas Saison 3 : Le CIO pivot de la transformation de l'entreprise en collaboration avec Alliancy Le mag"
       },
       {
         "type": "heading",
@@ -437,7 +438,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Les outils PPM qui misent sur l'UX ont donc généralement une interface suffisamment intuitive pour faciliter l'alignement en continu de la direction générale, de l'IT et de chaque direction métier."
+        "html": "Les outils PPM qui misent sur l'UX<strong> </strong>ont donc généralement une interface suffisamment intuitive pour faciliter l'alignement en continu de la direction générale, de l'IT et de chaque direction métier."
       },
       {
         "type": "heading",
@@ -453,7 +454,7 @@
       },
       {
         "type": "paragraph",
-        "html": "La solution de gestion de portefeuille d'AirSaas aide les entreprises à adopter un état d'esprit Lean et agile. Celle-ci maximise la coopération en continu entre clients fournisseurs, directions métiers, IT et générales en connectant leurs équipes, produits et portefeuilles à leurs buts et objectifs à travers divers cadres. Tout cela pour aider les entreprises à atteindre l'agilité dans toute l'entreprise."
+        "html": "La<strong> </strong>solution de gestion de portefeuille d'AirSaas<strong> </strong>aide les entreprises à adopter un état d'esprit Lean et agile<strong>. </strong>Celle-ci maximise la coopération en continu<strong> </strong>entre clients fournisseurs, directions métiers, IT et générales en connectant leurs équipes, produits et portefeuilles à leurs buts et objectifs à travers divers cadres. Tout cela pour aider les entreprises à atteindre l'agilité dans toute l'entreprise."
       },
       {
         "type": "figure",
@@ -463,7 +464,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Donnez à votre organe de gouvernance projet <strong>un dispositif de prise de décision.</strong> Le portefeuille de projets AirSaas permet de rassembler dans une vue synthétique la combinaison des indicateurs nécessaires à une prise de décision orientée par la valeur."
+        "html": "Donnez à votre organe de gouvernance projet <strong>un dispositif de prise de décision. </strong>Le portefeuille de projets AirSaas permet de rassembler dans une vue synthétique la combinaison des indicateurs nécessaires à une prise de décision orientée par la valeur."
       },
       {
         "type": "heading",
@@ -472,13 +473,9 @@
         "id": "a-retenir-lalignement-en-continu-est-la-cle"
       },
       {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Le passage au mode Lean Portfolio change l'horizon de temps.",
-          "Le Lean Portfolio Management est une démarche systémique tournée vers l'adaptation continue.",
-          "L'alignement et la confiance ne se décrètent pas !...Cela se construit pas à pas dans la sincérité et le respect mutuel."
-        ]
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<ul><li>Le passage au mode Lean Portfolio change l'horizon de temps.</li><li>Le Lean Portfolio Management est une démarche systémique tournée vers l'adaptation continue.</li><li>L'alignement et la confiance  ne se décrètent pas !...Cela se construit pas à pas dans la sincérité et le respect mutuel.</li></ul>"
       },
       {
         "type": "paragraph",

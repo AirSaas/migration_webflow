@@ -8,13 +8,14 @@
     "meta": {
       "title": "7 étapes pour créer votre plan capacitaire sans vous arracher les cheveux",
       "h1": "7 étapes pour créer votre plan capacitaire sans vous arracher les cheveux",
-      "description": "Découvrez les 7 étapes concrètes pour créer un plan capacitaire (Capacity Planning) efficace : définir vos priorités, analyser la capacité, gérer la demande, identifier les écarts, implémenter, suivre et lancer votre journée Capacitaire.",
+      "description": "Découvrez les 7 étapes pour créer un plan capacitaire efficace : définir les priorités, analyser la capacité, gérer la demande, identifier les écarts et suivre les KPIs.",
+      "author": {
+        "name": "",
+        "category": "Gestion de projets"
+      },
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3dd336808907b763784_7%20etapes.jpg",
         "alt": "7 étapes pour créer votre plan capacitaire"
-      },
-      "author": {
-        "category": "Gestion de projets"
       }
     },
     "toc": [
@@ -271,7 +272,7 @@
       },
       {
         "type": "paragraph",
-        "html": "L'objectif ici est d'<strong>aller vite</strong>. Pas question de lancer une étude approfondie à ce stade. L'idée est de donner une première évaluation permettant aux métiers de <strong>se confronter à la réalité</strong>. Un directeur de domaine a souvent tendance à penser que tout est simple et rapide. En lui donnant une estimation macro, il peut mieux prioriser ses demandes en fonction des efforts nécessaires. Cette étape permet également d'<strong>écarter rapidement</strong> les projets qui n'ont aucun sens ou qui ne sont pas faisables dans un horizon raisonnable."
+        "html": "L'objectif ici est d<strong>'aller vite</strong>. Pas question de lancer une étude approfondie à ce stade. L'idée est de donner une première évaluation permettant aux métiers de <strong>se confronter à la réalité</strong>. Un directeur de domaine a souvent tendance à penser que tout est simple et rapide. En lui donnant une estimation macro, il peut mieux prioriser ses demandes en fonction des efforts nécessaires. Cette étape permet également d'<strong>écarter rapidement</strong> les projets qui n'ont aucun sens ou qui ne sont pas faisables dans un horizon raisonnable."
       },
       {
         "type": "heading",
@@ -344,9 +345,9 @@
       },
       {
         "type": "hubspot-cta",
-        "id": "188471576967",
         "label": "Réserver une démo",
-        "href": "/fr/meetings-pages"
+        "href": "/fr/meetings-pages",
+        "id": "188471576967"
       },
       {
         "type": "heading",
@@ -457,7 +458,7 @@
       {
         "type": "figure",
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c02737c3f7b9a4eb992582_capacitaire-airsaas.png",
-        "alt": "Vue capacitaire Airsaas"
+        "alt": "Capacitaire Airsaas"
       },
       {
         "type": "paragraph",

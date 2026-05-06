@@ -8,17 +8,17 @@
     "meta": {
       "title": "Le jalon projet : une technique pour séquencer vos projets intelligemment",
       "h1": "Le jalon projet : une technique pour séquencer vos projets intelligemment",
-      "description": "Le jalon projet est un outil de gestion de projet efficace pour séquencer vos projets en différentes phases. Découvrez comment les utiliser pour booster vos équipes.",
+      "description": "Découvrez ce qu'est un jalon projet, à quoi il sert et comment l'utiliser pour séquencer vos projets, motiver vos équipes et éviter l'effet tunnel.",
       "publishedDate": "8/10/2021",
       "author": {
         "name": "Bertran Ruiz",
-        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg",
         "category": "Gestion de projets",
-        "publishedDate": "8/10/2021"
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
       },
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37e4813ce5efbe93f3a36_Project%20image2.jpg",
-        "alt": "Le jalon projet"
+        "alt": "Gestion de Projets"
       }
     },
     "toc": [
@@ -46,7 +46,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "html": "Le suivi de projet est une étape primordiale pour maximiser vos chances de réussite : même si vous avez planifié le déroulement de votre projet, il faut absolument que vous puissiez contrôler la trajectoire que vous prenez pendant son exécution. Le jalon projet est un <strong>outil de gestion de projet particulièrement efficace</strong> pour séquencer en différentes phases. Grâce aux jalons, vous boostez la motivation de vos équipes et améliorez la transparence sur l'état d'avancement de votre projet."
+        "html": "<p>Le suivi de projet est une étape primordiale pour maximiser vos chances de réussite : même si vous avez planifié le déroulement de votre projet, il faut absolument que vous puissiez contrôler la trajectoire que vous prenez pendant son exécution. Le jalon projet est un <strong>outil de gestion de projet particulièrement efficace</strong> pour séquencer en différentes phases. Grâce aux jalons, vous boostez la motivation de vos équipes et améliorez la transparence sur l'état d'avancement de votre projet.</p>"
       },
       {
         "type": "figure",
@@ -62,27 +62,27 @@
       },
       {
         "type": "paragraph",
-        "html": "Le jalon (en anglais « milestone ») marque la fin d'une étape et un point d'arrêt dans le processus de gestion de projet."
+        "html": "<p>Le jalon (en anglais « milestone ») marque la fin d'une étape et un point d'arrêt dans le processus de gestion de projet.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Le jalon est souvent associé à un <strong>évènement important</strong> comme la signature d'un gros contrat, la mise sur le marché d'un produit, où le lancement d'une campagne publicitaire. C'est en tout cas la <strong>fin d'une étape et le début d'une autre</strong> dans le cycle de vie d'un projet."
+        "html": "<p>Le jalon est souvent associé à un <strong>évènement important</strong> comme la signature d'un gros contrat, la mise sur le marché d'un produit, où le lancement d'une campagne publicitaire. C'est en tout cas la <strong>fin d'une étape</strong> <strong>et le début</strong> <strong>d'une</strong> <strong>autre</strong> dans le cycle de vie d'un projet.</p>"
       },
       {
         "type": "paragraph",
-        "html": "C'est donc l'occasion pour une équipe de <strong>faire le bilan</strong> sur l'ensemble de l'exécution de l'étape précédente, avant de passer à la suivante d'un projet."
+        "html": "<p>C'est donc l'occasion pour une équipe de <strong>faire le bilan</strong> sur l'ensemble de l'exécution de l'étape précédente, avant de passer à la suivante d'un projet.</p>"
       },
       {
         "type": "paragraph",
-        "html": "D'ailleurs le jalon marque un passage définitif à la prochaine étape : une fois validé, il n'y a normalement pas de retour en arrière dans le planning du projet."
+        "html": "<p>D'ailleurs le jalon marque un passage définitif à la prochaine étape : une fois validé, il n'y a normalement pas de retour en arrière dans le planning du projet.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Autre chose : les jalons n'ont pas vraiment de durée ou alors cette dernière est nulle, il s'agit plutôt d'un marqueur qui identifie la fin d'une étape et le début d'une autre."
+        "html": "<p>Autre chose : les jalons n'ont pas vraiment de durée ou alors cette dernière est nulle, il s'agit plutôt d'un marqueur qui identifie la fin d'une étape et le début d'une autre.</p>"
       },
       {
         "type": "paragraph",
-        "html": "En résumé, les jalons sont semblables à des bornes, des panneaux sur une route vous indiquant l'état d'avancement de votre gestion de projets."
+        "html": "<p>En résumé, les jalons sont semblables à des bornes, des panneaux sur une route vous indiquant l'état d'avancement de votre gestion de projets.</p>"
       },
       {
         "type": "figure",
@@ -98,7 +98,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Les jalons projets ont trois objectifs principaux :"
+        "html": "<p>Les jalons projets ont trois objectifs principaux :</p>"
       },
       {
         "type": "list",
@@ -111,7 +111,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Mais les jalons sont aussi des <strong>leviers</strong> importants pour <strong>motiver votre équipe</strong> et optimiser l'exécution du projet :"
+        "html": "<p>Mais les jalons sont aussi des <strong>leviers</strong> importants pour <strong>motiver votre équipe</strong> et optimiser l'exécution du projet :</p>"
       },
       {
         "type": "list",
@@ -142,19 +142,19 @@
       },
       {
         "type": "paragraph",
-        "html": "Quel est le nombre idéal de jalons d'un projet ? <strong>Ni trop, ni pas assez !</strong> Pas la peine de demander à Wikipédia ! Pour faire simple : tout dépend des caractéristiques de votre projet ou de votre produit, il n'y a pas de nombre optimal de jalons."
+        "html": "<p>Quel est le nombre idéal de jalons d'un projet ? <strong>Ni trop, ni pas assez !</strong> Pas la peine de demander à Wikipédia ! Pour faire simple : tout dépend des caractéristiques de votre projet ou de votre produit, il n'y a pas de nombre optimal de jalons.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Si vous décidez d'un nombre trop important de jalons, vous êtes sûrement en train de <strong>confondre tâche et jalon</strong>. Les jalons permettent de partager une vue temporelle macro avec l'ensemble des parties prenantes. Si vous allez dans les tâches (micro) vous allez démotiver les personnes du projet car elles ne se sentiront pas concernés."
+        "html": "<p>Si vous décidez d'un nombre trop important de jalons, vous êtes sûrement en train de <strong>confondre tâche et jalon</strong>. Les jalons permettent de partager une vue temporelle macro avec l'ensemble des parties prenantes. Si vous allez dans les tâches (micro) vous allez démotiver les personnes du projet car elles ne se sentiront pas concernés.</p>"
       },
       {
         "type": "paragraph",
-        "html": "À l'inverse, si vous ne jalonnez pas suffisamment votre projet, vous allez au-devant d'un gros problème : l'effet tunnel. Vous pouvez ne pas vous rendre compte qu'une partie de vos collaborateurs dévient du plan initial et vous augmentez notamment vos risques d'être dans le pire des scénarios... Arriver à la fin de l'échéancier du projet en étant à côté de la plaque.."
+        "html": "<p>À l'inverse, si vous ne jalonnez pas suffisamment votre projet, vous allez au-devant d'un gros problème : l'effet tunnel. Vous pouvez ne pas vous rendre compte qu'une partie de vos collaborateurs dévient du plan initial et vous augmentez notamment vos risques d'être dans le pire des scénarios... Arriver à la fin de l'échéancier du projet en étant à côté de la plaque..</p>"
       },
       {
         "type": "paragraph",
-        "html": "De nombreuses équipes impliquent tous leurs membres lors du choix des jalons du projet : c'est aussi un bon <strong>levier pour engager et responsabiliser</strong> chacun de vos collaborateurs. Il arrive aussi que vous ne puissiez pas choisir tous les jalons de votre projet : des conditions spécifiques peuvent être imposées par le client final, notamment lorsque vous devez lui livrer des livrables importants."
+        "html": "<p>De nombreuses équipes impliquent tous leurs membres lors du choix des jalons du projet : c'est aussi un bon <strong>levier pour engager et responsabiliser</strong> chacun de vos collaborateurs. Il arrive aussi que vous ne puissiez pas choisir tous les jalons de votre projet : des conditions spécifiques peuvent être imposées par le client final, notamment lorsque vous devez lui livrer des livrables importants.</p>"
       },
       {
         "type": "heading",
@@ -164,11 +164,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Comme précisé précédemment, les jalons ne durent pas dans le temps, mais sont les <strong>marqueurs</strong> d'un changement de phase dans votre projet. Vous devez donc décider d'une date pour votre jalon, et cette dernière ne doit pas correspondre à la durée d'exécution de la tâche, mais plutôt à <strong>sa date de lancement ou de réalisation.</strong>"
+        "html": "<p>Comme précisé précédemment, les jalons ne durent pas dans le temps, mais sont les <strong>marqueurs</strong> d'un changement de phase dans votre projet. Vous devez donc décider d'une date pour votre jalon, et cette dernière ne doit pas correspondre à la durée d'exécution de la tâche, mais plutôt à <strong>sa date de lancement ou de réalisation.</strong></p>"
       },
       {
         "type": "paragraph",
-        "html": "Par exemple, dans le cas où l'un de vos jalons est attaché à un livrable, son échéance sera la date de rendu au client plutôt que le temps que vous prévoyez pour le réaliser."
+        "html": "<p>Par exemple, dans le cas où l'un de vos jalons est attaché à un livrable, son échéance sera la date de rendu au client plutôt que le temps que vous prévoyez pour le réaliser.</p>"
       },
       {
         "type": "figure",
@@ -184,7 +184,7 @@
       },
       {
         "type": "paragraph",
-        "html": "À la question qu'est-ce qu'un jalon ? Il n'existe pas de réponse universelle, voici une sélection de jalon événement à titre d'exemple d'un projet :"
+        "html": "<p>À la question qu'est-ce qu'un jalon ? Il n'existe pas de réponse universelle, voici une sélection de jalon événement à titre d'exemple d'un projet :</p>"
       },
       {
         "type": "list",
@@ -203,7 +203,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Avec AirSaas la notion de jalon comporte des éléments d'attributs : le <strong>responsable, le poids et le degré de confiance.</strong>"
+        "html": "<p>Avec AirSaas la notion de jalon comporte des éléments d'attributs : le <strong>responsable, le poids et le degré de confiance.</strong></p>"
       },
       {
         "type": "figure",
@@ -213,15 +213,15 @@
       },
       {
         "type": "paragraph",
-        "html": "Le degré de confiance dans le jalon d'un projet est l'une des <strong>nouveautés</strong> qui <strong>facilite</strong> le <strong>suivi</strong> des points."
+        "html": "<p>Le degré de confiance dans le jalon d'un projet est l'une des <strong>nouveautés</strong> qui <strong>facilite</strong> le <strong>suivi</strong> des points.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Vous avez par exemple la possibilité de suivre votre objectif de <strong>progression des jalons</strong>, grâce à un calcul automatique prenant en compte les jalons réalisés et leur poids."
+        "html": "<p>Vous avez par exemple la possibilité de suivre votre objectif de <strong>progression des jalons</strong>, grâce à un calcul automatique prenant en compte les jalons réalisés et leur poids.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Suivre le travail avec les informations liées aux jalons peut contribuer à <strong>limiter l'effet dérive en continu.</strong>"
+        "html": "<p>Suivre le travail avec les informations liées aux jalons peut contribuer à <strong>limiter l'effet dérive en continu.</strong></p>"
       },
       {
         "type": "heading",
@@ -231,11 +231,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Dans toutes les organisations les directions et les responsables veulent maîtriser le risque de dérapage d'un projet. Dans ce cadre-là elles essayent de mettre en place une gestion de tâche qui se matérialise par le fameux Gantt."
+        "html": "<p>Dans toutes les organisations les directions et les responsables veulent maîtriser le risque de dérapage d'un projet. Dans ce cadre-là elles essayent de mettre en place une gestion de tâche qui se matérialise par le fameux Gantt.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Malheureusement, la majorité des organisations n'arrivent pas à faire une mise en place ce type de gestion de projet pour la plupart des projets de l'entreprise car :"
+        "html": "<p>Malheureusement, la majorité des organisations n'arrivent pas à faire une mise en place ce type de gestion de projet pour la plupart des projets de l'entreprise car :</p>"
       },
       {
         "type": "list",
@@ -250,11 +250,11 @@
       },
       {
         "type": "paragraph",
-        "html": "Cela crée beaucoup de frustration pour tous les acteurs."
+        "html": "<p>Cela crée beaucoup de frustration pour tous les acteurs.</p>"
       },
       {
         "type": "paragraph",
-        "html": "Une <strong>alternative au contrôle</strong> des tâches et aux diagrammes de Gantt est le <strong>pilotage par les jalons</strong>. Sur ce point découvrez l'article <a href=\"/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir\">: Le diagramme de Gantt : comment s'en servir ?</a>"
+        "html": "<p>Une <strong>alternative au contrôle</strong> des tâches et aux diagrammes de Gantt est le <strong>pilotage par les jalons</strong>. Sur ce point découvrez l'article <a href=\"/gestion-de-projet/le-diagramme-de-gantt-comment-sen-servir\">: Le diagramme de Gantt : comment s'en servir ?</a></p>"
       }
     ],
     "related": [

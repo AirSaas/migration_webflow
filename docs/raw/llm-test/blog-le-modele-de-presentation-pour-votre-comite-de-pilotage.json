@@ -5,6 +5,36 @@
   "outcome": "PASS_FIRST_TRY",
   "errors": [],
   "result": {
+    "meta": {
+      "title": "Modèle de présentation pour votre comité de pilotage (exemple)",
+      "h1": "Modèle de présentation pour votre comité de pilotage (exemple)",
+      "description": "Modèle de présentation pour votre comité de pilotage : conseils, déroulement et bonnes pratiques pour réussir vos réunions de Copil projet.",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "publishedDate": "8/10/2021",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38b8e5a0566faf0addbf5_Project%20image3-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un comité de pilotage ?",
+        "href": "#quest-ce-quun-comite-de-pilotage"
+      },
+      {
+        "label": "Le déroulement d'un comité de pilotage projet",
+        "href": "#le-deroulement-dun-comite-de-pilotage-projet"
+      },
+      {
+        "label": "Nos conseils pour réussir ses réunions de comité de pilotage",
+        "href": "#nos-conseils-pour-reussir-ses-reunions-de-comite-de-pilotage"
+      }
+    ],
     "blocks": [
       {
         "type": "figure",
@@ -202,36 +232,6 @@
       {
         "type": "paragraph",
         "html": "Dans un projet il y a toujours certains \"oubliés\" ; le chef de projet est aussi là pour embarquer tous les membres de son équipe vers le même objectif."
-      }
-    ],
-    "meta": {
-      "title": "Modèle de présentation pour votre comité de pilotage (exemple)",
-      "h1": "Modèle de présentation pour votre comité de pilotage (exemple)",
-      "description": "Découvrez notre modèle de présentation pour réussir votre comité de pilotage : déroulement, rôles, conseils pratiques et exemple téléchargeable.",
-      "publishedDate": "8/10/2021",
-      "author": {
-        "name": "Bertran Ruiz",
-        "category": "Gestion de projets",
-        "publishedDate": "8/10/2021",
-        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
-      },
-      "heroImage": {
-        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38b8e5a0566faf0addbf5_Project%20image3-min.jpg",
-        "alt": "Gestion de Projets"
-      }
-    },
-    "toc": [
-      {
-        "label": "Qu'est-ce qu'un comité de pilotage ?",
-        "href": "#quest-ce-quun-comite-de-pilotage"
-      },
-      {
-        "label": "Le déroulement d'un comité de pilotage projet",
-        "href": "#le-deroulement-dun-comite-de-pilotage-projet"
-      },
-      {
-        "label": "Nos conseils pour réussir ses réunions de comité de pilotage",
-        "href": "#nos-conseils-pour-reussir-ses-reunions-de-comite-de-pilotage"
       }
     ],
     "related": [

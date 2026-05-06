@@ -8,7 +8,7 @@
     "meta": {
       "title": "Comment réussir un projet transverse ?",
       "h1": "Comment réussir un projet transverse ?",
-      "description": "Découvrez toutes les clés de succès pour mener à bien votre prochain projet transverse : prérequis, équipe, sponsor, méthodologie et exécution.",
+      "description": "Découvrez toutes les clés de succès d'un projet transverse réussi : rôle du sponsor, construction de l'équipe, prérequis, exécution pragmatique et dérisquage.",
       "publishedDate": "20/4/2022",
       "author": {
         "name": "Bertran Ruiz",
@@ -53,8 +53,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "comment-fonctionner-en-mode-projet-transverse-et-casser-les-silos-de-lentreprise",
-        "text": "Comment fonctionner en mode projet transverse et casser les silos de l'entreprise ?"
+        "text": "Comment fonctionner en mode projet transverse et casser les silos de l'entreprise ?",
+        "id": "comment-fonctionner-en-mode-projet-transverse-et-casser-les-silos-de-lentreprise"
       },
       {
         "type": "figure",
@@ -65,8 +65,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "role-du-sponsor",
-        "text": "Rôle du sponsor"
+        "text": "Rôle du sponsor",
+        "id": "role-du-sponsor"
       },
       {
         "type": "paragraph",
@@ -79,8 +79,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "construction-de-lequipe-transverse-task-force",
-        "text": "Construction de l'équipe transverse (task force)"
+        "text": "Construction de l'équipe transverse (task force)",
+        "id": "construction-de-lequipe-transverse-task-force"
       },
       {
         "type": "paragraph",
@@ -89,8 +89,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "des-competences-aiguisees",
-        "text": "Des compétences aiguisées"
+        "text": "Des compétences aiguisées",
+        "id": "des-competences-aiguisees"
       },
       {
         "type": "paragraph",
@@ -99,8 +99,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "des-elements-moteurs",
-        "text": "Des éléments moteurs"
+        "text": "Des éléments moteurs",
+        "id": "des-elements-moteurs"
       },
       {
         "type": "paragraph",
@@ -109,8 +109,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "quest-ce-que-travailler-en-transversalite",
-        "text": "Qu'est ce que travailler en transversalité ?"
+        "text": "Qu'est ce que travailler en transversalité ?",
+        "id": "quest-ce-que-travailler-en-transversalite"
       },
       {
         "type": "paragraph",
@@ -127,8 +127,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "les-prerequis-pour-une-gestion-de-projet-transversal-reussie",
-        "text": "Les prérequis pour une gestion de projet transversal réussie"
+        "text": "Les prérequis pour une gestion de projet transversal réussie",
+        "id": "les-prerequis-pour-une-gestion-de-projet-transversal-reussie"
       },
       {
         "type": "paragraph",
@@ -137,8 +137,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "un-bon-alignement-avec-la-strategie-dentreprise",
-        "text": "Un bon alignement avec la stratégie d'entreprise"
+        "text": "Un bon alignement avec la stratégie d'entreprise",
+        "id": "un-bon-alignement-avec-la-strategie-dentreprise"
       },
       {
         "type": "figure",
@@ -152,8 +152,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "un-probleme-dur-avec-fort-impact-sur-lentreprise",
-        "text": "Un problème \"DUR\" avec fort impact sur l'entreprise"
+        "text": "Un problème \"DUR\" avec fort impact sur l'entreprise",
+        "id": "un-probleme-dur-avec-fort-impact-sur-lentreprise"
       },
       {
         "type": "paragraph",
@@ -184,8 +184,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "un-budget-bien-ficele",
-        "text": "Un budget bien ficelé"
+        "text": "Un budget bien ficelé",
+        "id": "un-budget-bien-ficele"
       },
       {
         "type": "figure",
@@ -199,14 +199,14 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "les-elements-cles-dexecution-pour-reussir-vos-projets-transverses",
-        "text": "Les éléments clés d'exécution pour réussir vos projets transverses"
+        "text": "Les éléments clés d'exécution pour réussir vos projets transverses",
+        "id": "les-elements-cles-dexecution-pour-reussir-vos-projets-transverses"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "1-rationaliser",
-        "text": "1 : Rationaliser"
+        "text": "1 : Rationaliser",
+        "id": "1-rationaliser"
       },
       {
         "type": "figure",
@@ -217,8 +217,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "a-chaque-problematique-sa-solution-pragmatique",
-        "text": "À chaque problématique sa solution pragmatique"
+        "text": "À chaque problématique sa solution pragmatique",
+        "id": "a-chaque-problematique-sa-solution-pragmatique"
       },
       {
         "type": "paragraph",
@@ -231,8 +231,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "prioriser-les-fonctionnalites-cles-et-les-evolutions-de-versions",
-        "text": "Prioriser les fonctionnalités clés et les évolutions de versions"
+        "text": "Prioriser les fonctionnalités clés et les évolutions de versions",
+        "id": "prioriser-les-fonctionnalites-cles-et-les-evolutions-de-versions"
       },
       {
         "type": "paragraph",
@@ -245,8 +245,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "adopter-une-vision-long-terme-et-une-approche-roiste",
-        "text": "Adopter une vision long terme et une approche ROIste"
+        "text": "Adopter une vision long terme et une approche ROIste",
+        "id": "adopter-une-vision-long-terme-et-une-approche-roiste"
       },
       {
         "type": "paragraph",
@@ -259,8 +259,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "2-derisquer",
-        "text": "2 : Dérisquer"
+        "text": "2 : Dérisquer",
+        "id": "2-derisquer"
       },
       {
         "type": "figure",
@@ -271,8 +271,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "selectionner-les-bons-partenaires-audit",
-        "text": "Sélectionner les bons partenaires - audit"
+        "text": "Sélectionner les bons partenaires - audit",
+        "id": "selectionner-les-bons-partenaires-audit"
       },
       {
         "type": "paragraph",
@@ -285,8 +285,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "lancer-une-phase-de-test-des-hypotheses-a-valider-et-les-bon-kpis",
-        "text": "Lancer une phase de test - des hypothèses à valider et les bon KPIs"
+        "text": "Lancer une phase de test - des hypothèses à valider et les bon KPIs",
+        "id": "lancer-une-phase-de-test-des-hypotheses-a-valider-et-les-bon-kpis"
       },
       {
         "type": "paragraph",
@@ -299,8 +299,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "creer-une-roadmap-et-un-cahier-des-charges",
-        "text": "Créer une roadmap et un cahier des charges"
+        "text": "Créer une roadmap et un cahier des charges",
+        "id": "creer-une-roadmap-et-un-cahier-des-charges"
       },
       {
         "type": "paragraph",
@@ -315,8 +315,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "decouper-les-livrables-et-raccourcir-les-deadlines",
-        "text": "Découper les livrables et raccourcir les deadlines"
+        "text": "Découper les livrables et raccourcir les deadlines",
+        "id": "decouper-les-livrables-et-raccourcir-les-deadlines"
       },
       {
         "type": "paragraph",
@@ -334,8 +334,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "mettre-en-place-un-suivi-de-projet-a-la-semaine-rapport-flash",
-        "text": "Mettre en place un suivi de projet à la semaine - rapport flash"
+        "text": "Mettre en place un suivi de projet à la semaine - rapport flash",
+        "id": "mettre-en-place-un-suivi-de-projet-a-la-semaine-rapport-flash"
       },
       {
         "type": "paragraph",
@@ -349,8 +349,8 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "fonctionner-en-circuit-de-decision-court-comite-de-pilotage",
-        "text": "Fonctionner en circuit de décision court - comité de pilotage"
+        "text": "Fonctionner en circuit de décision court - comité de pilotage",
+        "id": "fonctionner-en-circuit-de-decision-court-comite-de-pilotage"
       },
       {
         "type": "paragraph",

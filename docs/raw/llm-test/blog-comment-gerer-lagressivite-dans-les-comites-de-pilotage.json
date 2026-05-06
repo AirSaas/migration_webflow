@@ -8,17 +8,17 @@
     "meta": {
       "title": "Comment gérer l'agressivité dans les réunions de pilotage ?",
       "h1": "Comment gérer l'agressivité dans les réunions de pilotage ?",
-      "description": "Comment réagir face à l'agressivité en comité de pilotage ? Découvrez 7 conseils pratiques pour gérer les comportements difficiles, recadrer sans s'embraser et préserver le climat de vos Copil.",
+      "description": "Comment réagir face au manque de respect en comité de pilotage ? Découvrez 7 conseils pour gérer l'agressivité, recadrer les comportements à risque et préserver le climat de vos Copil.",
+      "publishedDate": "17/6/2022",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
         "publishedDate": "17/6/2022",
         "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
       },
-      "publishedDate": "17/6/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ac094db1450036c1fb3e6a_copil-projet-agreessivite-min.jpg",
-        "alt": "Comment gérer l'agressivité dans les réunions de pilotage"
+        "alt": "Comment gérer l'agressivité dans les comités de pilotage"
       }
     },
     "toc": [
@@ -42,7 +42,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Bienheureux ceux qui lors de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-animer-un-comite-de-pilotage\">l'animation d'un comité de pilotage</a> n'ont jamais été perturbés par un ou plusieurs membres. Agressifs, faux experts, adeptes du mutisme... Mais <strong>comment réagir face au manque de respect ?</strong> Y a-t-il des façons de recadrer une personnalité difficile ? Qui doit intervenir ? Comment agir et stopper habilement les comportements à risques avant qu'il ne soit trop tard ? Qu'est-ce que veut dire travailler sur le climat dans les comités de pilotage ? Enfin, comment évaluer ce qui est un comportement hors-jeu sanctionnable ? Ce qui ne l'est pas ?"
+        "html": "Bienheureux ceux qui lors de <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-animer-un-comite-de-pilotage\">l'animation d'un comité de pilotage</a> n'ont jamais été perturbés par un ou plusieurs membres. Agressifs, faux experts, adeptes du mutisme... Mais <strong>comment réagir face au manque de respect ?</strong> Y a-t-il des façons de recadrer une personnalité difficile ? Qui doit intervenir ? Comment agir et stopper habilement les comportements à risques avant qu'il ne soit trop tard ? Qu'est-ce que veut dire <strong>travailler sur le climat dans les comités de pilotage ?</strong> Enfin, comment évaluer ce qui est un comportement hors-jeu sanctionnable ? Ce qui ne l'est pas ?"
       },
       {
         "type": "paragraph",
@@ -117,8 +117,9 @@
         "html": "Dans ce même type, on reconnaît moins facilement <strong>le passif agressif occasionnel.</strong> Celui qui ignore même qu'il est agressif. C'est un membre du Copil qui ne laisse pas les autres finir leur idée, leur coupe la parole sans arrêt. Quelqu'un qui réagit par des commentaires subjectifs, notamment par des attitudes et un langage non verbal explicite, voire des soupirs type \"Pff\"... Bref : un irrespect, une agressivité contenue, mais clairement présente. Nous verrons ci-dessous dans les 10 astuces comment réagir face à l'agressivité de ce type."
       },
       {
-        "type": "paragraph",
-        "html": "D'emblée, s'il n'y avait qu'une chose à retenir : vous aurez à mener un recadrage individuel et une négociation collective sur les règles de base de votre réunion de pilotage collective."
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<p>D'emblée, s'il n'y avait qu'une chose à retenir : vous aurez à mener un recadrage individuel et une négociation collective sur les règles de base de votre réunion de pilotage collective.</p>"
       },
       {
         "type": "heading",
@@ -194,15 +195,15 @@
       },
       {
         "type": "paragraph",
-        "html": "Vous avez peut être vu passer cet échange où, confronté aux derniers chiffres de l'insécurité, le ministre de l'Intérieur Gérald Darmanin a jugé l'analyse de la journaliste \"un peu populiste\" et n'a pas hésité à la prendre de haut. \"Est-ce que vous me laissez parler, madame ? Votre présentation est très rapide et un peu populiste. (...) Non mais ne vous vexez pas, calmez-vous, madame, ça va bien se passer\", lance-t-il alors sur un ton condescendant."
+        "html": "Vous avez peut être vu passer cet échange où, confronté aux derniers chiffres de l'insécurité, le ministre de l'Intérieur Gérald Darmanin a jugé l'analyse de la journaliste \"un peu populiste\" et n'a pas hésité à la prendre de haut. \"Est-ce que vous me laissez parler, madame? Votre présentation est très rapide et un peu populiste. (...) Non mais ne vous vexez pas, calmez-vous, madame, ça va bien se passer\", lance-t-il alors sur un ton condescendant."
       },
       {
         "type": "paragraph",
-        "html": "\"Je vous demande pardon ?\", réagit Apolline de Malherbe, outrée. \"Ça va bien se passer\", répète Gérald Darmanin. La journaliste reprend et souligne \"Gérald Darmanin, attendez, comment vous me parlez ?\" s'indigne-t-elle. \"Je trouve ça sidérant votre manière de répondre. Ce n'est pas une réponse, c'est presque une offense\", souligne-t-elle. \"Ne vous vexez pas, je réponds comme vous m'agressez\", tente de répliquer le ministre."
+        "html": "\"Je vous demande pardon?\", réagit Apolline de Malherbe, outrée. \"Ça va bien se passer\", répète Gérald Darmanin. La journaliste reprend et souligne \"Gérald Darmanin, attendez, comment vous me parlez?\" s'indigne-t-elle. \"Je trouve ça sidérant votre manière de répondre. Ce n'est pas une réponse, c'est presque une offense\", souligne-t-elle. \"Ne vous vexez pas, je réponds comme vous m'agressez\", tente de répliquer le ministre."
       },
       {
         "type": "paragraph",
-        "html": "Au moment où l'interview sort du cadre habituel de la joute oratoire pour devenir une attaque irrespectueuse, la réaction de la journaliste est un modèle du genre. Elle met ses bras en croix en disant tout simplement \"Pause on arrête de jouer\" sur un ton calme et déterminé. En esquivant une question de fond, l'interlocuteur a créé une seconde polémique."
+        "html": "Au moment ou l'interview sort du cadre habituel de la joute oratoire pour devenir une attaque irrespectueuse, la réaction de la journaliste est un modèle du genre. Elle met ses bras en croix en disant tout simplement \"Pause on arrête de jouer\" sur un ton calme et déterminé. En esquivant une question de fond, l'interlocuteur a créé une seconde polémique."
       },
       {
         "type": "paragraph",
@@ -249,7 +250,7 @@
       },
       {
         "type": "paragraph",
-        "html": "<strong>Un des secrets est de respecter les temps d'inclusion.</strong> Ces moments type \"ice breaker\", ou météo personnelle, sont là pour créer un climat propice aux échanges constructifs, pour libérer la parole. Ne faites pas l'impasse sur ces moments plus légers. Alterner temps forts et temps morts est une bonne façon de faire baisser la (sur-)tension inutile ; et éviter toute violence."
+        "html": "<strong>Un des secrets est de respecter les temps d'inclusion.</strong> Ces moments type \"ice breaker\", ou météo personnelle, sont là pour créer un climat propice aux échanges constructifs, pour libérer la parole. Ne faites pas l'impasse sur ces moments plus légers. Alterner temps forts et temps morts est une bonne façon de faire baisser la (sur-) tension inutile; et éviter toute violence."
       },
       {
         "type": "paragraph",

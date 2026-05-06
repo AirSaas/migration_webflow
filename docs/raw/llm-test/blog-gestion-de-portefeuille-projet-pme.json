@@ -8,7 +8,7 @@
     "meta": {
       "title": "Pourquoi développer une gestion de portefeuille projets dans une PME ?",
       "h1": "Pourquoi développer une gestion de portefeuille projets dans une PME ?",
-      "description": "Découvrez pourquoi et comment mettre en place une gestion de portefeuille projets dans une PME : bénéfices, démarche, digitalisation et 10 critères clés pour choisir votre outil PPM.",
+      "description": "Découvrez pourquoi et comment mettre en place une gestion de portefeuille de projets dans une PME : bénéfices, démarche, digitalisation et 10 critères clés pour choisir votre outil PPM.",
       "publishedDate": "30/9/2022",
       "author": {
         "name": "Jérôme Dard",
@@ -71,16 +71,16 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "gestion-de-portefeuille-de-projets-definition-et-usages",
-        "text": "Gestion de portefeuille de projets : définition et usages"
+        "text": "Gestion de portefeuille de projets : définition et usages",
+        "id": "gestion-de-portefeuille-de-projets-definition-et-usages"
       },
       {
         "type": "paragraph",
-        "html": "Le portfolio management, que l'on retrouve aussi sous les dénominations « <a href=\"https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management\">Project Portfolio Management</a> » ou « gestion de portefeuille de projets est défini par Wikipédia comme \"<em>la discipline traitant des projets pris d'un point de vue global dans un but de sélection et d'arbitrage</em>\"."
+        "html": "Le portfolio management, que l'on retrouve aussi sous les dénominations « <a href=\"https://www.airsaas.io/fr/gestion-de-projet/project-portfolio-management\">Project Portfolio Management</a> » ou « gestion de portefeuille de projets est défini par Wikipédia comme \"<em>la discipline traitant des <strong></strong> projets pris d'un point de vue <strong></strong> global dans un but de sélection et d'arbitrage</em>\"."
       },
       {
         "type": "paragraph",
-        "html": "Alors que la gestion de projet s'attache à « bien faire les projets » - domaine de l'opérationnel -, la gestion de portefeuille de projets vise à « <strong>faire les bons projets</strong> » - domaine du décisionnel."
+        "html": "Alors que la gestion de projet s'attache à « bien faire les projets » - domaine de l'opérationnel -, la gestion de portefeuille de projets vise à « <strong>faire les bons projets </strong>» - domaine du décisionnel."
       },
       {
         "type": "quote",
@@ -119,13 +119,13 @@
       },
       {
         "type": "paragraph",
-        "html": "Dans les lignes qui suivent, on vous en dit plus sur le contenu et on partage <strong>une stratégie pragmatique pour implémenter une solution de gestion de portefeuille de projets efficacement dans votre PME</strong>."
+        "html": "Dans les lignes qui suivent, on vous en dit plus sur le contenu et on partage <strong>une stratégie pragmatique pour implémenter</strong> <strong>une solution de</strong> <strong>gestion de</strong> <strong>portefeuille de projets efficacement dans votre PME</strong>."
       },
       {
         "type": "heading",
         "level": 2,
-        "id": "gestion-dun-portefeuille-de-projet-dans-une-pme-quels-benefices-et-pour-qui",
-        "text": "Gestion d'un portefeuille de projet dans une PME : quels bénéfices, et pour qui ?"
+        "text": "Gestion d'un portefeuille de projet dans une PME : quels bénéfices, et pour qui ?",
+        "id": "gestion-dun-portefeuille-de-projet-dans-une-pme-quels-benefices-et-pour-qui"
       },
       {
         "type": "paragraph",
@@ -145,9 +145,9 @@
         "type": "list",
         "ordered": true,
         "items": [
-          "<a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-cadrage-projet-avec-les-metiers\"><strong>Cadrages projets</strong></a><strong> collaboratifs</strong> et uniformes",
+          "<a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-faire-un-bon-cadrage-projet-avec-les-metiers\"><strong>Cadrages projets</strong></a><strong> collaboratifs </strong>et uniformes",
           "<strong>Reportings</strong> décisionnels <strong>automatiques</strong>",
-          "<strong>Focalisation</strong> sur la <strong>prise de décision</strong>, les points d'attentions",
+          "<strong>Focalisation </strong>sur la<strong> prise de décision</strong>, les points d'attentions",
           "<strong>Pilotage</strong> par les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons</strong></a>",
           "<a href=\"https://www.airsaas.io/gestion-de-projet/comment-animer-un-bilan-projet-efficace\"><strong>Bilan projet</strong></a> dans une seule plateforme."
         ]
@@ -172,7 +172,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Les objectifs sont bien de <strong>concentrer et prioriser les efforts</strong> ! On risque sinon de verser, non pas dans l'agilité des processus, mais dans l'agitation et la non-priorisation."
+        "html": "Les objectifs sont bien de <strong>concentrer et prioriser les efforts </strong>! On risque sinon de verser, non pas dans l'agilité des processus, mais dans l'agitation et la non-priorisation."
       },
       {
         "type": "paragraph",
@@ -186,11 +186,11 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "<strong>Plus de transparence</strong> dans le fonctionnement",
+          "<strong>Plus de</strong> <strong>transparence</strong> dans le fonctionnement",
           "<strong>Un cadre clair</strong> et unique pour suivre l'avancement des initiatives",
           "<strong>Une capitalisation sur les projets menés</strong>, de leur cadrage à leur exécution, jusqu'au bilan projet",
           "Un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet\"><strong>Kanban</strong></a><strong> des décisions</strong> à prendre contribuant à une nouvelle efficience de votre gouvernance de la transformation de votre organisation",
-          "<strong>La diffusion d'une culture projet forte</strong>, sans effort, dans toute l'entreprise",
+          "<strong>La</strong> <strong>diffusion d'une culture projet forte</strong>, sans effort, dans toute l'entreprise",
           "Enfin, <strong>plus de plaisir dans l'utilisation</strong> : finissez-en aujourd'hui avec votre Excel à 1200 colonnes !"
         ]
       },
@@ -201,8 +201,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "la-demarche-portefeuille-projets-dans-les-pme-un-levier-dengagement-et-de-business",
-        "text": "La démarche portefeuille projets dans les PME : un levier d'engagement et de business"
+        "text": "La démarche portefeuille projets dans les PME : un levier d'engagement et de business",
+        "id": "la-demarche-portefeuille-projets-dans-les-pme-un-levier-dengagement-et-de-business"
       },
       {
         "type": "paragraph",
@@ -220,7 +220,7 @@
       },
       {
         "type": "paragraph",
-        "html": "C'est de ce constat et par la volonté de vouloir aider les ETI et PME à réussir à travailler en \"cross silos\" horizontaux (DSI - métiers), mais aussi en \"cross silos\" verticaux (chef de projets - PMO - direction), qu'AirSaas s'est développé."
+        "html": "C'est de ce constat et par la volonté d<strong>e </strong>vouloir aider les ETI et PME à réussir à travailler en \"cross silos\" horizontaux (DSI - métiers), mais aussi en \"cross silos\" verticaux (chef de projets - PMO - direction), qu'AirSaas s'est développé."
       },
       {
         "type": "quote",
@@ -239,8 +239,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "renforcer-le-sens-la-vision",
-        "text": "Renforcer le sens, la vision"
+        "text": "Renforcer le sens, la vision",
+        "id": "renforcer-le-sens-la-vision"
       },
       {
         "type": "paragraph",
@@ -249,8 +249,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "redefinir-les-roles-et-redevabilites-des-ressources-humaines",
-        "text": "Redéfinir les rôles et redevabilités des ressources humaines"
+        "text": "Redéfinir les rôles et redevabilités des ressources humaines",
+        "id": "redefinir-les-roles-et-redevabilites-des-ressources-humaines"
       },
       {
         "type": "paragraph",
@@ -259,8 +259,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "faire-evoluer-les-rituels-et-la-communication-sur-le-suivi-de-projet",
-        "text": "Faire évoluer les rituels et la communication sur le suivi de projet"
+        "text": "Faire évoluer les rituels et la communication sur le suivi de projet",
+        "id": "faire-evoluer-les-rituels-et-la-communication-sur-le-suivi-de-projet"
       },
       {
         "type": "paragraph",
@@ -282,8 +282,8 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "la-digitalisation-de-la-demarche-de-portefeuille-de-projets-de-pme-pour-innover-malgre-des-ressources-limitees",
-        "text": "La digitalisation de la démarche de portefeuille de projets de PME pour innover malgré des ressources limitées"
+        "text": "La digitalisation de la démarche de portefeuille de projets de PME pour innover malgré des ressources limitées",
+        "id": "la-digitalisation-de-la-demarche-de-portefeuille-de-projets-de-pme-pour-innover-malgre-des-ressources-limitees"
       },
       {
         "type": "paragraph",
@@ -320,29 +320,27 @@
       {
         "type": "heading",
         "level": 2,
-        "id": "conclusions-and-recommandations",
-        "text": "Conclusions & recommandations"
+        "text": "Conclusions & recommandations",
+        "id": "conclusions-and-recommandations"
       },
       {
         "type": "heading",
         "level": 3,
-        "id": "pme-10-criteres-cles-pour-choisir-votre-outil-ppm",
-        "text": "PME : 10 critères clés pour choisir votre outil PPM"
+        "text": "PME : 10 critères clés pour choisir votre outil PPM",
+        "id": "pme-10-criteres-cles-pour-choisir-votre-outil-ppm"
       },
       {
         "type": "heading",
         "level": 4,
-        "id": "1-le-design-de-linterface",
         "text": "1. Le design de l'interface"
       },
       {
         "type": "paragraph",
-        "html": "Pour une vraie adoption par les utilisateurs au quotidien, c'est le critère numéro 1 ! Optez pour une <strong>solution \"light\"</strong> <strong>versus</strong> le progiciel \"tout en 1\" type ERP projet \"obèse\"."
+        "html": "Pour une vraie adoption par les utilisateurs au quotidien, c'est le critère numéro 1 ! Optez pour une <strong>solution \"light\"</strong> <strong>versus </strong>le progiciel \"tout en 1\" type ERP projet \"obèse\"."
       },
       {
         "type": "heading",
         "level": 4,
-        "id": "2-les-fonctionnalites-cles-innovantes",
         "text": "2. Les fonctionnalités clés innovantes"
       },
       {
@@ -352,7 +350,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "3-la-dimension-collaborative-de-la-solution",
         "text": "3. La dimension collaborative de la solution"
       },
       {
@@ -362,7 +359,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "4-la-vision-la-philosophie-derriere-loutil",
         "text": "4. La vision, la philosophie, derrière l'outil"
       },
       {
@@ -372,7 +368,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "5-louverture-de-la-solution",
         "text": "5. L'ouverture de la solution"
       },
       {
@@ -382,7 +377,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "6-la-conformite-rgpd-et-cloud-act",
         "text": "6. La conformité RGPD et Cloud Act"
       },
       {
@@ -392,7 +386,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "7-la-capacite-de-reversibilite",
         "text": "7. La capacité de réversibilité"
       },
       {
@@ -402,7 +395,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "8-la-securite",
         "text": "8. La sécurité"
       },
       {
@@ -412,7 +404,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "9-le-prix-de-tous-les-types-de-licences-et-du-set-up-pack",
         "text": "9. Le prix de tous les types de licences et du set up pack"
       },
       {
@@ -422,7 +413,6 @@
       {
         "type": "heading",
         "level": 4,
-        "id": "10-lediteur-et-la-communaute-dutilisateurs",
         "text": "10. L'éditeur et la communauté d'utilisateurs"
       },
       {
@@ -432,8 +422,8 @@
       {
         "type": "heading",
         "level": 3,
-        "id": "ppm-les-prerequis-et-astuces-pour-se-lancer-dans-une-pme",
-        "text": "PPM : Les prérequis et astuces pour se lancer dans une PME"
+        "text": "PPM : Les prérequis et astuces pour se lancer dans une PME",
+        "id": "ppm-les-prerequis-et-astuces-pour-se-lancer-dans-une-pme"
       },
       {
         "type": "list",
@@ -441,10 +431,10 @@
         "items": [
           "<strong>Identifiez et sélectionnez quelques plateformes</strong> PPM, pas seulement via les plateformes type Capterra : elles ont des angles morts. Demandez à votre réseau aussi !",
           "<strong>Shortlistez</strong> 2 à 3 outils,",
-          "<strong>Contactez les éditeurs</strong> pour un RFI (Request for Information)",
+          "<strong>Contactez les éditeurs </strong>pour un RFI (Request for Information)",
           "<strong>Etablissez vos critères prioritaires</strong> parmi ceux proposés et votre contexte organisationnel",
-          "<strong>Demandez aux éditeurs des contacts intégrateurs internes ou externes</strong> : évitez autant que possible d'y aller seul sans accompagnement par un facilitateur général.",
-          "<strong>Créez un groupe pilote composé de chef de projets / métiers / sponsor</strong> avec qui cela se passe déjà bien, et qui ont envie de changer de <a href=\"https://www.airsaas.io/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise\">démarche projet</a>.",
+          "<strong>Demandez</strong> <strong>aux éditeurs des contacts intégrateurs internes ou externes</strong> : évitez autant que possible d'y aller seul sans accompagnement par un facilitateur général.",
+          "<strong>Créez un</strong> <strong>groupe pilote composé de chef de projets</strong> /<strong> métiers / sponsor</strong> avec qui cela se passe déjà bien, et qui ont envie de changer de <a href=\"https://www.airsaas.io/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise\">démarche projet</a>.",
           "Privilégiez sur ce type de mise en œuvre démarche progressive pour commencer, avec une tactique d'implémentation positive, sur un petit nombre de projets pour faire \"tache d'huile\" sur une future utilisation générale.",
           "Fixez vous des limites ! Réaliser une transition culturelle et de gouvernance est un challenge qui en vaut la peine... mais au bon rythme !"
         ]

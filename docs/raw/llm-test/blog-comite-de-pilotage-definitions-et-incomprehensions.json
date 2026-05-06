@@ -8,7 +8,7 @@
     "meta": {
       "title": "Comité de pilotage : définition(s) et incompréhension(s)",
       "h1": "Comité de pilotage : définition(s) et incompréhension(s)",
-      "description": "Décryptage des 5 notions clés du comité de pilotage projet (Copil, jalons, chef de projet, key user, reporting) : théorie, pratique et incompréhensions courantes.",
+      "description": "Découvrez les définitions et incompréhensions courantes autour du comité de pilotage : jalons, chef de projet, Copil, key user et reporting. Une antisèche conceptuelle pour mieux se comprendre en projet.",
       "author": {
         "name": "Jérôme Dard",
         "category": "Gestion de projets",
@@ -18,7 +18,7 @@
       "publishedDate": "30/6/2022",
       "heroImage": {
         "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62bd74e32ad1dc0f5b32c5bd_copil-projet-defintion.jpg",
-        "alt": "Comité de pilotage : définition"
+        "alt": "Comité de pilotage : définition(s) et incompréhension(s)"
       }
     },
     "blocks": [
@@ -67,7 +67,7 @@
       },
       {
         "type": "paragraph",
-        "html": "Découvrez votre micro-kit de survie sémantique pour mieux se comprendre lors de votre prochain comité de pilotage."
+        "html": "Découvrez votre micro-kit de survie sémantique pour mieux se comprendre lors de votre prochain comité de pilotage ."
       },
       {
         "type": "heading",
@@ -94,7 +94,8 @@
       {
         "type": "quote",
         "text": "S'il y a la possibilité de découper un projet, il ne faut pas hésiter à le découper au maximum de manière à avoir plusieurs petits problèmes plutôt qu'un immense problème très complexe à résoudre. Les petits problèmes solubles à court terme nécessitent un livrable intermédiaire permettant de valider, de réfuter, de réajuster les objectifs et les gains.",
-        "author": "Thomas Vrignaud — CIO - CDO, Invité épisode 14 Podcast CIO Révolution"
+        "author": "Thomas Vrignaud",
+        "caption": "CIO - CDO — Invité épisode 14 Podcast CIO Révolution"
       },
       {
         "type": "heading",
@@ -130,7 +131,8 @@
       {
         "type": "quote",
         "text": "Je crois beaucoup à la dualité du pilotage car avoir une direction qui n'est ni métier, ni DSI, permet de rester neutre et d'avoir un regard critique. Tout doit être dans l'explicite, les rôles doivent concrètement être définis à l'avance et la confiance doit régner.",
-        "author": "Frédéric Riou — CIO - CDO, Invité épisode 29 Podcast CIO Révolution"
+        "author": "Frédéric Riou",
+        "caption": "CIO - CDO — Invité épisode 29 Podcast CIO Révolution"
       },
       {
         "type": "heading",
@@ -227,7 +229,8 @@
       {
         "type": "quote",
         "text": "La mise en place de comité de pilotage a aussi permis d'impliquer les Key Users de chaque métier, afin qu'ils puissent être le relais des bonnes pratiques transmises par la DSI : un rôle capital pour réussir à manager le changement !",
-        "author": "Olivier Perrin — CIO, Invité épisode 17 Podcast CIO Révolution"
+        "author": "Olivier Perrin",
+        "caption": "CIO — Invité épisode 17 Podcast CIO Révolution"
       },
       {
         "type": "paragraph",
@@ -276,7 +279,8 @@
       {
         "type": "quote",
         "text": "Le suivi de l'exécution du plan de la transformation s'est vite complexifié. Les équipes ont passé trop de temps à faire du reporting. On a manqué d'outils de suivi de l'exécution pour vraiment se focaliser sur l'impact de ce qu'on cherchait à faire. Nos MVP ne se sont pas traduits en minimum viable product mais en maximum viable product.",
-        "author": "Patrick Valentin — CIO - CDO, Invité épisode 7 Podcast CIO Révolution"
+        "author": "Patrick Valentin",
+        "caption": "CIO - CDO — Invité épisode 7 Podcast CIO Révolution"
       },
       {
         "type": "paragraph",
