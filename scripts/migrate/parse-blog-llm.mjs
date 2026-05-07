@@ -34,6 +34,12 @@ import {
   validateBlogArticle,
   BLOG_RULES,
 } from "./llm-parse-schemas.mjs";
+import {
+  computeStructuralHints,
+  formatHintsForPrompt,
+  validateExtractAgainstHints,
+  formatMismatchesForRetry,
+} from "./blog-structural-hints.mjs";
 
 const ENV = loadEnv();
 const ARGS = parseArgs(process.argv);
@@ -55,14 +61,36 @@ OUTPUT REQUIREMENTS:
 - Drop blocks that contain only Webflow CMS template instructions (Speaker
   avatar:, LINK_SPEAKER_PAGE, insert the link, change url of background-image).
 - For headings, slugify the text into a stable \`id\` (lowercase, ASCII,
-  hyphens, no diacritics, max 80 chars).`;
+  hyphens, no diacritics, max 80 chars).
+- The user prompt includes deterministic structural hints (counts of
+  blockquotes, tables, callouts, inline-CTAs computed from the source HTML).
+  YOU MUST emit at least the indicated count for each block type. Failure
+  to meet the hints is a fatal error — re-read the body if needed.`;
 
-function buildUserPrompt(slug, html) {
+function buildUserPrompt(slug, html, hintsBlock) {
   return `Article slug: ${slug}
 Source : airsaas.io rendered HTML (Webflow CMS, blog post)
 
+${hintsBlock}
+
 EXTRACT EVERY BLOCK in DOM order. Walk the article body top-to-bottom and
 emit one block per content node. Output via the \`extract_blog_article\` tool.
+
+\`\`\`html
+${html}
+\`\`\``;
+}
+
+function buildRetryPrompt(slug, html, hintsBlock, mismatchBlock) {
+  return `Article slug: ${slug}
+Source : airsaas.io rendered HTML (Webflow CMS, blog post)
+
+${mismatchBlock}
+
+${hintsBlock}
+
+Re-extract EVERY BLOCK in DOM order, ensuring the missing structures are
+included this time. Output via the \`extract_blog_article\` tool.
 
 \`\`\`html
 ${html}
@@ -106,11 +134,11 @@ async function main() {
   if (ARGS.limit) rows = rows.slice(0, ARGS.limit);
   console.log(`[fetch] blog: ${rows.length} rows  (concurrency=${CONCURRENCY})`);
 
-  async function callOnce(html, row, maxTokens) {
+  async function callWithPrompt(userPrompt, maxTokens) {
     return callSonnetForExtraction({
       apiKey: ENV.ANTHROPIC_API_KEY,
       systemPromptCached: SYSTEM_PROMPT,
-      userPrompt: buildUserPrompt(row.slug, html),
+      userPrompt,
       toolName: "extract_blog_article",
       toolDescription: "Extract the typed BlogArticleV2 from rendered HTML",
       inputSchema: blogArticleJsonSchema,
@@ -127,13 +155,45 @@ async function main() {
 
   async function processRow(row) {
     const html = cleanHtmlForLlm(row.html_rendered);
+    // Compute structural hints from RAW HTML (before cleaning) so we don't
+    // miss blockquotes / tables hidden in nav/footer regions that cleanHtml
+    // strips. The cleaned HTML still has the article body fully.
+    const hints = computeStructuralHints(row.html_rendered);
+    const hintsBlock = formatHintsForPrompt(hints);
     const ts = Date.now();
     try {
-      let llmOutput = await callOnce(html, row, 16000);
+      // First attempt with full hints
+      let llmOutput = await callWithPrompt(
+        buildUserPrompt(row.slug, html, hintsBlock),
+        16000,
+      );
       if (isCorrupt(llmOutput)) {
         console.log(`  ↻ ${row.slug}: corrupt/empty, retry with max=32000`);
-        llmOutput = await callOnce(html, row, 32000);
+        llmOutput = await callWithPrompt(
+          buildUserPrompt(row.slug, html, hintsBlock),
+          32000,
+        );
       }
+
+      // Validate against hints; up to 2 retries with focused re-prompt
+      let mismatches = validateExtractAgainstHints(llmOutput, hints);
+      let retryCount = 0;
+      while (mismatches.length > 0 && retryCount < 2) {
+        retryCount++;
+        const mismatchBlock = formatMismatchesForRetry(mismatches);
+        console.log(
+          `  ↻ ${row.slug}: hint mismatch (retry ${retryCount}/2): ${mismatches
+            .map((m) => `${m.kind} ${m.actual}/${m.expected}`)
+            .join(", ")}`,
+        );
+        llmOutput = await callWithPrompt(
+          buildRetryPrompt(row.slug, html, hintsBlock, mismatchBlock),
+          32000,
+        );
+        if (isCorrupt(llmOutput)) break;
+        mismatches = validateExtractAgainstHints(llmOutput, hints);
+      }
+
       const article = {
         slug: row.slug,
         skip: false,
@@ -147,8 +207,12 @@ async function main() {
       if (errs.length) {
         console.log(`  ⚠ ${row.slug}: validation: ${errs.join(", ")}`);
       }
+      const hintStr =
+        mismatches.length === 0
+          ? `hints ✓ (q=${hints.blockquote} t=${hints.table} c=${hints.callout} cta=${hints.inlineCta})`
+          : `hints ⚠ ${mismatches.length} miss after ${retryCount} retries`;
       console.log(
-        `  ✓ ${row.slug}  ${article.blocks?.length ?? 0} blocks  (${(html.length / 1024).toFixed(0)} KB, ${dt}s)`,
+        `  ✓ ${row.slug}  ${article.blocks?.length ?? 0} blocks  (${(html.length / 1024).toFixed(0)} KB, ${dt}s)  ${hintStr}`,
       );
       return article;
     } catch (e) {
