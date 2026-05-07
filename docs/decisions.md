@@ -72,3 +72,44 @@ Au moment de migrer une page Webflow, regarder le hero et appliquer :
 | `dark` + `centered` | Hero de marque fort | Priorisation, CTAs impactantes |
 | `light` + `split` | Feature technique | Docs, intégrations |
 | `dark` + `split` | Produit premium | Landing insignia |
+
+---
+
+## 2026-05-07 — Pivot landings : Figma-first bespoke / Blog : LLM extract continued
+
+**Décision** :
+- **Landings** (lp + produit + solutions + équipes) : abandon de l'extraction LLM (parser Webflow + Opus). Marisella designe chaque page en Figma → implémentation bespoke `src/app/[locale]/{lp,produit,solutions,equipes}/{slug}/page.tsx` composant les sections DS Storybook.
+- **Blog** : approche LLM continue (parser + Opus + renderBlogBlocks DS). Prompt v5 + re-extract 62 articles + cible ≥90% blog patterns fermés.
+
+**Raison** :
+3 phases de prompt + ~$130 Opus n'ont pas dépassé 40% des 47 patterns Marisella fermés sur les landings. Causes structurelles :
+- Sur-fragmentation (R5) : Opus émet 17-25 sections vs 8 en live
+- Hallucinations KPI (R11) : chiffres inventés
+- Sections entières manquées (R13, R38)
+- Eyebrow / tags / highlights inline (R24, R26) ratés
+- Variations visuelles non extractibles (R23 dark hero, R36 image overlays)
+
+Chaque nouvelle variation visuelle demande d'étendre `LandingSection` types + le central `LandingPageV2` switch + le prompt + re-extract → fragile, casse à chaque coup.
+
+Sur le blog : structure régulière (H2/H3, paragraphes, listes, tables, citations). Notre pipeline tient si on lui donne des règles strictes — la reprise complète (62 articles) avec prompt v5 + renderer DS déjà en place doit être ship-ready.
+
+**Architecture landings post-pivot** :
+- 1 fichier React par page (bespoke composition de DS sections)
+- `src/components/layout/LandingShell.tsx` wrapper partagé (footer + chrome)
+- Navbar : composée dans le `<Hero>` de chaque page, items via `LANDING_NAV` (re-export de `BLOG_INDEX_DATA` — single source of truth nav/footer landings + blog)
+- Pas de JSON intermédiaire, pas de central renderer/switch
+- Migration incrémentale : route `[slug]/` legacy continue à servir tant qu'une page bespoke n'existe pas
+
+**Scaling** : nouvelles landings (Marisella en design d'autres après PMO) = nouveau fichier React, compose DS sections, deploy. Si un pattern visuel inexistant dans le DS → extension DS Storybook (1 fois pour toujours), puis utilisation dans la page.
+
+**Coût Opus accumulé landings** : ~$130 (Phases 3-heavy + 4D). Stop. Le coût de Marisella + impl bespoke est plus prévisible et donne un meilleur résultat visuel.
+
+---
+
+## DS gaps Marisella (en attente)
+
+Documentés dans `docs/qa-ds-gaps.md` :
+- **R10** Slider Industries (équipes) : composant slider/carousel inexistant dans le DS Storybook
+- **R36** Image badges / labels overlay ("BOOTCAMP de 3 jours", "AIRSAAS TIMING") : overlay decorations sur illustrations
+
+Ces patterns attendent qu'on les ajoute au DS si Marisella les inclut dans une landing future.

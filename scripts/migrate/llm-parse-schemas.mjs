@@ -488,7 +488,13 @@ export const blogArticleJsonSchema = {
       type: "array",
       items: {
         type: "object",
-        properties: { label: { type: "string" }, href: { type: "string" } },
+        properties: {
+          label: { type: "string" },
+          href: { type: "string" },
+          // Heading depth — 2 for top-level sections, 3 for nested sub-sections.
+          // Used by TocSidebar to indent and by scroll-spy to track active.
+          level: { type: "integer", enum: [2, 3] },
+        },
       },
     },
   },
@@ -662,7 +668,10 @@ EXTRACTION RULES (must follow strictly):
 5. Extract trailing sections separately:
    - .wrapper__faq blocks → \`faq\` array (question + answer)
    - "Pour aller plus loin" section's <ul>/<a> → \`related\` array (label + href)
-   - .fs-toc-element / .summary-link list → \`toc\` array (label + href)
+   - .fs-toc-element / .summary-link list → \`toc\` array (label + href + level)
+     where level is 2 for top-level sections, 3 for nested. Infer level from
+     the source HTML class (.toc-h2 / .toc-h3) OR by matching the toc anchor
+     to the heading block in the body and reading its level.
 
 6. Word boundary rules : same as landings (no PPMpour / enmultilingue / drop-cap
    bugs). Preserve French apostrophes.

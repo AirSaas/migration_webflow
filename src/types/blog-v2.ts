@@ -33,6 +33,8 @@ export interface BlogMetaV2 {
 export interface BlogTocItemV2 {
   label: string;
   href: string;
+  /** Heading depth — 2 for top-level h2 sections, 3 for nested h3 (default 2). */
+  level?: 2 | 3;
 }
 
 export interface BlogArticleV2 {
