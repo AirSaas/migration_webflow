@@ -97,6 +97,20 @@ function RichSpan({ html }: { html: string }) {
   return <span dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
+// R46 audit Marisella : prompt v4 sometimes leaks <strong>/<em>/<a> tags
+// into title fields where the renderer expects plain text. Strip inline HTML
+// for plain-text title-like props (Heading children render text verbatim).
+function stripTags(s: string | null | undefined): string {
+  if (!s) return "";
+  return s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+}
+
+function stripTagsOpt(s: string | null | undefined): string | undefined {
+  if (s == null) return undefined;
+  const out = stripTags(s);
+  return out || undefined;
+}
+
 function renderSection(
   section: LandingSection,
   index: number,
@@ -523,15 +537,20 @@ function renderSection(
         />
       );
 
-    case "faq":
+    case "faq": {
+      // R12 audit Marisella : avoid "Questions Fréquentes Fréquentes" duplication.
+      // Only fall back to "Questions" + "fréquentes" pair when both are missing.
+      // If the data has either title or titleHighlight, pass through as-is.
+      const hasAny = section.title || section.titleHighlight;
       return (
         <FaqFrame
           key={index}
-          title={section.title || "Questions"}
-          titleHighlight={section.titleHighlight || "fréquentes"}
+          title={hasAny ? section.title : "Questions"}
+          titleHighlight={hasAny ? section.titleHighlight : "fréquentes"}
           items={section.items}
         />
       );
+    }
 
     case "cta": {
       // Dual-card CTA : 2+ items → <CtaFrame> + <CardCta> children
@@ -861,9 +880,43 @@ function dedupeCtas(sections: LandingSection[]): LandingSection[] {
   return sections.filter((_, i) => !dropIdx.has(i) || i === lastCtaIdx);
 }
 
+// R46 audit Marisella : prompt v4 leaked <strong>/<em>/<a> tags into title
+// fields. Strip them before render so Heading shows clean text. Body fields
+// keep their HTML (rendered via RichSpan / dangerouslySetInnerHTML).
+const TITLE_FIELDS = new Set([
+  "title",
+  "titleHighlight",
+  "titlePrefix",
+  "titleSuffix",
+  "subtitle",
+  "tag",
+  "label",
+]);
+
+function sanitizeTitleFields<T extends Record<string, unknown>>(obj: T): T {
+  const out: Record<string, unknown> = { ...obj };
+  for (const k of Object.keys(out)) {
+    const v = out[k];
+    if (typeof v === "string" && TITLE_FIELDS.has(k)) {
+      out[k] = stripTags(v);
+    } else if (Array.isArray(v)) {
+      out[k] = v.map((item) =>
+        item && typeof item === "object" && !Array.isArray(item)
+          ? sanitizeTitleFields(item as Record<string, unknown>)
+          : item,
+      );
+    } else if (v && typeof v === "object" && !Array.isArray(v)) {
+      out[k] = sanitizeTitleFields(v as Record<string, unknown>);
+    }
+  }
+  return out as T;
+}
+
 export default function LandingPageV2({ page }: { page: LandingPage }) {
   const relatedSolutions = buildRelatedSolutions(page);
-  const sections = dedupeCtas(page.sections);
+  const sections = dedupeCtas(page.sections).map(
+    (s) => sanitizeTitleFields(s as unknown as Record<string, unknown>) as unknown as LandingSection,
+  );
   // R45 audit Marisella : footer copyright must show year dynamic + logo + 🇫🇷.
   const year = new Date().getFullYear();
   const copyright = `© ${year} AirSaas — Made in France`;
