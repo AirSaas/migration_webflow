@@ -11,6 +11,7 @@ import { CardCta } from "@/components/library-design/ui/CardCta";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import { LandingShell, LANDING_NAV } from "@/components/layout/LandingShell";
+import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import {
   CalendarDayIcon,
   StopwatchIcon,
@@ -20,8 +21,50 @@ import {
   BullseyeArrowIcon,
   CommentsIcon,
   CircleCheckIcon,
-  LockKeyholeIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
+
+// R7 audit Marisella : SSO/SAML icon — inline SVG lock matches Figma better
+// than the FA duotone LockKeyholeIcon which rendered as a moon+house glyph.
+function LockSolidIcon() {
+  return (
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <path d="M12 2a4 4 0 0 0-4 4v3H6.5A1.5 1.5 0 0 0 5 10.5v9A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 17.5 9H16V6a4 4 0 0 0-4-4zm-2 7V6a2 2 0 1 1 4 0v3h-4z" />
+    </svg>
+  );
+}
+
+// R3 audit Marisella : ⚠️ emoji rendered as tofu/black triangle in <Heading>
+// because Product Sans doesn't ship the emoji glyph. Inline SVG triangle
+// reliable cross-platform, matches Figma color (yellow #FFD43B with black border).
+function WarningTriangleIcon() {
+  return (
+    <svg
+      width="48"
+      height="48"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      className="inline-block align-middle mr-[0.5rem]"
+    >
+      <path
+        d="M12 2L2 20h20L12 2z"
+        fill="var(--color-prevention)"
+        stroke="var(--color-secondary)"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
+      <path d="M12 9v5" stroke="var(--color-secondary)" strokeWidth="2" strokeLinecap="round" />
+      <circle cx="12" cy="17" r="1" fill="var(--color-secondary)" />
+    </svg>
+  );
+}
 
 /**
  * LP PMO — Bespoke landing page implemented from Figma.
@@ -81,10 +124,26 @@ export default function PmoPage() {
         secondaryCta={HERO_SECONDARY_CTA}
         imageSrc="/assets/lp-pmo/hero.png"
         imageAlt="Capture d'écran du dashboard AirSaas — vue Quarter Plan avec KPI projets"
-        floatingCards
+        floatingCards={false}
       />
 
-      {/* 2. Stats — Les chiffres qui vous feront adopter AirSaas */}
+      {/* 2. Logobar — Ils gèrent leur capacité avec AirSaas (audit pt 2) */}
+      <section className="bg-white px-[1.5rem] md:px-[3rem] lg:px-[10rem] py-[2.5rem]">
+        <LogosBar
+          label="Ils gèrent leur capacité avec AirSaas"
+          logos={[
+            { src: "/assets/lp-pmo/logo-kiabi.png", alt: "Kiabi" },
+            { src: "/assets/lp-pmo/logo-valrhona.png", alt: "Valrhona" },
+            { src: "/assets/lp-pmo/logo-intuis.png", alt: "Intuis" },
+            { src: "/assets/lp-pmo/logo-altavia.svg", alt: "Altavia" },
+            { src: "/assets/lp-pmo/logo-sncf.svg", alt: "SNCF" },
+          ]}
+          size="lg"
+          preserveColor
+        />
+      </section>
+
+      {/* 3. Stats — Les chiffres qui vous feront adopter AirSaas */}
       <ValuePropositionFrame
         titleHighlight="Les chiffres"
         title="qui vous feront adopter AirSaas"
@@ -112,9 +171,9 @@ export default function PmoPage() {
         />
       </ValuePropositionFrame>
 
-      {/* 3. ComparisonFrame — Le quotidien du PMO aujourd'hui */}
+      {/* 3. ComparisonFrame — Le quotidien du PMO aujourd'hui (audit pt 3) */}
       <ComparisonFrame
-        emoji="⚠️"
+        emoji={<WarningTriangleIcon />}
         title="Le quotidien du PMO aujourd'hui"
         subtitle=""
         items={[
@@ -175,6 +234,7 @@ export default function PmoPage() {
       <FeatureFrame
         layout="inline"
         imagePosition="left"
+        imageBgColor="var(--color-prevention-20)"
         tag="Communication automatisée"
         title={
           <>
@@ -215,6 +275,7 @@ export default function PmoPage() {
       <FeatureFrame
         layout="inline"
         imagePosition="left"
+        imageBgColor="var(--color-prevention-20)"
         tag="Nouveau"
         titleHighlight="décisions"
         title="Kanban des"
@@ -251,6 +312,7 @@ export default function PmoPage() {
       <FeatureFrame
         layout="inline"
         imagePosition="left"
+        imageBgColor="var(--color-prevention-20)"
         tag="Quarter Plan"
         titleHighlight="KPI"
         title=" : Taux d'avancement du Quarter Plan"
@@ -287,6 +349,7 @@ export default function PmoPage() {
       <FeatureFrame
         layout="inline"
         imagePosition="left"
+        imageBgColor="var(--color-prevention-20)"
         tag="Capacitaire"
         titleHighlight="Gestion de la capacité"
         title="par équipe"
@@ -319,7 +382,8 @@ export default function PmoPage() {
         imageAlt="Capture de la vision globale du portefeuille AirSaas"
       />
 
-      {/* 13. ValuePropositionFrame dark — De contremaître à coach d'organisation */}
+      {/* 13. ValuePropositionFrame dark — De contremaître à coach d'organisation
+          (audit pt 6 : white cards on dark frame, full titles not symbols) */}
       <ValuePropositionFrame
         variant="dark"
         title="De contremaître à coach d'organisation"
@@ -328,20 +392,20 @@ export default function PmoPage() {
       >
         <FeatureCard
           variant="dark"
-          icon={iconBadge(BoltLightningIcon, "light")}
-          title="- reporting"
+          icon={iconBadge(BoltLightningIcon)}
+          title="Moins de reporting"
           description="Flash report automatique. Fini les 2 jours de PowerPoint."
         />
         <FeatureCard
           variant="dark"
-          icon={iconBadge(BullseyeArrowIcon, "light")}
-          title="+ d'impact"
+          icon={iconBadge(BullseyeArrowIcon)}
+          title="Plus d'impact"
           description="Focus sur la priorisation et les arbitrages, pas sur la collecte d'info."
         />
         <FeatureCard
           variant="dark"
-          icon={iconBadge(CommentsIcon, "light")}
-          title="Aligné"
+          icon={iconBadge(CommentsIcon)}
+          title="Meilleur alignement"
           description="Une vue commune pour la DSI, les métiers et le Comex."
         />
       </ValuePropositionFrame>
@@ -403,8 +467,8 @@ export default function PmoPage() {
           description="Résultats sur demande."
         />
         <FeatureCard
-          icon={iconBadge(LockKeyholeIcon)}
-          title="SSO/SAML"
+          icon={iconBadge(LockSolidIcon)}
+          title="SSO / SAML"
           description="Intégration Active Directory native."
         />
       </ValuePropositionFrame>
@@ -434,7 +498,7 @@ export default function PmoPage() {
         ]}
       />
 
-      {/* 17. FAQ */}
+      {/* 17. FAQ — answers verbatim from Figma 328:1525 (Marisella audit pt 8) */}
       <FaqFrame
         title="Questions"
         titleHighlight="fréquentes"
@@ -442,17 +506,17 @@ export default function PmoPage() {
           {
             question: "Les chefs de projet vont-ils vraiment l'utiliser ?",
             answer:
-              "Oui. AirSaas remplace les tableaux Excel et les emails de relance. Le bénéfice utilisateur est direct : moins de saisie, moins de réunions de statut, plus de temps sur ce qui crée de la valeur.",
+              "Oui. 5 minutes par semaine suffisent. L'interface est intuitive. Et les rappels automatiques font le travail.",
           },
           {
             question: "Comment fonctionne l'agent IA de qualification ?",
             answer:
-              "L'agent mène un entretien guidé avec le demandeur pour collecter les informations critiques (objectif, gain attendu, effort, parties prenantes), puis structure un brief comparable selon vos templates.",
+              "Le demandeur répond à un questionnaire guidé par l'IA. L'IA structure les réponses selon vos templates et produit un brief comparable aux autres demandes.",
           },
           {
             question: "Combien de temps pour un Quarter Plan complet ?",
             answer:
-              "Comptez 1 mois pour un premier Quarter Plan complet : import du portefeuille, configuration des rituels, embarquement des chefs de projet, premier cycle de planification.",
+              "1 mois pour le setup initial. Comptez 3 mois pour un Quarter Plan complet et bien ancré dans les rituels de l'organisation.",
           },
           {
             question: "Comment AirSaas s'intègre à nos outils existants ?",

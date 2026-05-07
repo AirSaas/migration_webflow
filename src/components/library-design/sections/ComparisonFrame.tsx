@@ -25,7 +25,12 @@ interface ComparisonItem {
  *   - emoji: 1–2 chars
  */
 interface ComparisonFrameProps {
-  emoji?: string;
+  /**
+   * Optional decorative element rendered before the title.
+   * Plain string (emoji) OR React node (inline SVG icon — preferred when
+   * the brand font doesn't ship the emoji glyph and renders it as tofu).
+   */
+  emoji?: React.ReactNode;
   title: string;
   subtitle: string;
   items: ComparisonItem[];

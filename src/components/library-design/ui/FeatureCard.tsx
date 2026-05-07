@@ -56,7 +56,9 @@ export function FeatureCard({
   variant = "light",
   className,
 }: FeatureCardProps) {
-  assertMaxLength("FeatureCard", "title", title, 12);
+  // Allow short metrics ("-80%") OR descriptive phrases ("Moins de reporting")
+  // up to 40 chars — past 40 the H4 wraps to 3+ lines and breaks rhythm.
+  assertMaxLength("FeatureCard", "title", title, 40);
   if (subtitle) assertMaxLength("FeatureCard", "subtitle", subtitle, 20);
   if (description) assertMaxLength("FeatureCard", "description", description, 220);
 
@@ -67,8 +69,11 @@ export function FeatureCard({
     <article
       className={cn(
         "flex flex-col justify-start gap-[0.75rem] md:gap-[0.9375rem] rounded-[1.25rem] md:rounded-[1.5625rem] p-[1.5rem] md:p-[2.1875rem] shadow-sm transition-shadow duration-300 hover:shadow-card-hover",
+        // R41 audit Marisella : "dark" variant means card SITS on a dark frame
+        // — the card itself is white (more contrast) with same content styling
+        // as the light variant. NOT a translucent card.
         isDark
-          ? "border border-white/20 bg-white/5"
+          ? "border border-primary-20 bg-white"
           : "border border-primary-20 bg-primary-2",
         className,
       )}
@@ -79,13 +84,8 @@ export function FeatureCard({
         </div>
       )}
 
-      <Heading
-        level={4}
-        gradient="none"
-        align="left"
-        className={isDark ? "text-white" : undefined}
-      >
-        {useGradient && !isDark ? (
+      <Heading level={4} gradient="none" align="left">
+        {useGradient ? (
           <GradientText gradient={gradient}>{title}</GradientText>
         ) : (
           title
@@ -93,12 +93,8 @@ export function FeatureCard({
       </Heading>
 
       {subtitle && (
-        <Text
-          size="lg"
-          align="left"
-          className={cn("font-bold", isDark && "text-white")}
-        >
-          {useGradient && !isDark ? (
+        <Text size="lg" align="left" className="font-bold">
+          {useGradient ? (
             <GradientText gradient={gradient}>{subtitle}</GradientText>
           ) : (
             subtitle
@@ -107,7 +103,7 @@ export function FeatureCard({
       )}
 
       {description && (
-        <Text size="md" align="left" className={isDark ? "text-white/80" : undefined}>
+        <Text size="md" align="left">
           {description}
         </Text>
       )}

@@ -28,16 +28,11 @@ interface LandingShellProps {
   children: React.ReactNode;
 }
 
+// R45 audit Marisella : only the 🇫🇷 flag should appear in the footer card,
+// not the AirSaas logo + flag. The logo lives in the navbar (already there).
 const FOOTER_COPYRIGHT_ICON = (
-  <span className="inline-flex items-center gap-[0.375rem]">
-    {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img
-      src="/assets/icons/airsaas-icon.svg"
-      alt=""
-      aria-hidden="true"
-      className="h-[1.25rem] w-auto"
-    />
-    <span aria-label="Français">🇫🇷</span>
+  <span aria-label="Français" className="inline-block">
+    🇫🇷
   </span>
 );
 
