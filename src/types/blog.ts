@@ -41,6 +41,8 @@ export interface FigureBlock {
   src: string;
   alt: string;
   caption?: string | null;
+  /** Optional link the figure is wrapped with (Opus prompt v5 may emit). */
+  href?: string;
 }
 
 export interface QuoteBlock {
