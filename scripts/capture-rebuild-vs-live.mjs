@@ -56,6 +56,12 @@ const PAGES = [
   ["blog", "kanban-gestion-de-projet", "gestion-de-projet"],
   ["blog", "metier-pmo", "gestion-de-projet"],
   ["blog", "le-grand-guide-de-la-conduite-de-projet", "gestion-de-projet"],
+  ["blog", "project-portfolio-management", "gestion-de-projet"],
+  ["blog", "cadrage-projet", "gestion-de-projet"],
+  ["blog", "capacity-planning", "gestion-de-projet"],
+  ["blog", "comite-pilotage-projet", "gestion-de-projet"],
+  ["blog", "tout-savoir-sur-la-note-de-cadrage-projet", "gestion-de-projet"],
+  ["blog", "budgetiser-un-projet-sans-se-louper", "gestion-de-projet"],
 ];
 
 async function captureBoth(page, type, slug, livePathOverride) {

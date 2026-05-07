@@ -83,10 +83,23 @@ export default async function BlogArticleRoute({
       authorName.slice(0, 2).toUpperCase(),
     )}`;
 
-  // TOC
-  const tocItems = article.toc.length >= 3 ? article.toc : [];
+  // TOC — fallback to deriving from heading blocks when extract didn't
+  // emit toc[] (project-portfolio-management has 22 headings but toc=[])
+  const headingBlocks = article.blocks
+    .filter((b): b is Extract<typeof b, { type: "heading" }> => b.type === "heading")
+    .filter((b) => b.level === 2 || b.level === 3);
+  const derivedToc =
+    article.toc.length >= 3
+      ? article.toc
+      : headingBlocks.length >= 3
+        ? headingBlocks.map((b) => ({
+            label: b.text,
+            href: `#${b.id}`,
+            level: (b.level === 2 ? 2 : 3) as 2 | 3,
+          }))
+        : [];
   const tableOfContents =
-    tocItems.length >= 3 ? { title: "Sommaire", items: tocItems } : undefined;
+    derivedToc.length >= 3 ? { title: "Sommaire", items: derivedToc } : undefined;
 
   const faq =
     article.faq.length > 0

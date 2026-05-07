@@ -63,31 +63,37 @@ export function computeStructuralHints(html) {
     .replace(/<noscript[\s\S]*?<\/noscript>/gi, "");
 
   return {
-    blockquote: countMatches(cleaned, /<blockquote\b[^>]*>/gi),
+    // Blockquotes — semantic <blockquote> AND Webflow stylized quote divs
+    blockquote:
+      countMatches(cleaned, /<blockquote\b[^>]*>/gi) +
+      countMatches(
+        cleaned,
+        /<(?:aside|div)\b[^>]*class="[^"]*(?:blog-quote|pull-quote|testimonial-blog|citation-blog|quote-block)[^"]*"/gi,
+      ),
     table: countMatches(cleaned, /<table\b[^>]*>/gi),
     callout:
       countMatches(
         cleaned,
-        /<(?:aside|div)\b[^>]*class="[^"]*(?:a-retenir|citation-blog|callout|insight|highlight|note-bloc|info-bloc|warning-bloc|tip-bloc)[^"]*"/gi,
+        /<(?:aside|div)\b[^>]*class="[^"]*(?:a-retenir|callout|insight|highlight|note-bloc|info-bloc|warning-bloc|tip-bloc|encart|bon-a-savoir|cta-product)[^"]*"/gi,
       ) +
       // Also count visible "À retenir" / "À noter" / "Bon à savoir" headings
       // followed by a panel-like structure
       countMatches(
         cleaned,
-        /<(?:h[2-6]|strong|b|p)\b[^>]*>\s*(?:À retenir|À noter|Bon à savoir|En résumé|Le saviez-vous)\b/gi,
+        /<(?:h[2-6]|strong|b|p)\b[^>]*>\s*(?:À retenir|À noter|Bon à savoir|En résumé|Le saviez-vous|Astuce|Pro tip)\b/gi,
       ),
     inlineCta:
       countMatches(
         cleaned,
-        /<a\b[^>]*class="[^"]*(?:btn-|cta-|button-|wp-block-button|wf-button)[^"]*"/gi,
+        /<a\b[^>]*class="[^"]*(?:btn-|cta-|button-|wp-block-button|wf-button|w-button)[^"]*"/gi,
       ) +
       countMatches(
         cleaned,
-        /<div\b[^>]*class="[^"]*cta-inline[^"]*"[^>]*>/gi,
+        /<div\b[^>]*class="[^"]*(?:cta-inline|cta-card-product|cta-encart|encart-cta)[^"]*"[^>]*>/gi,
       ),
     hubspotCta: countMatches(
       cleaned,
-      /<(?:div|span)\b[^>]*class="[^"]*(?:hs-cta-embed|hbspt-cta|hs-cta-wrapper)[^"]*"/gi,
+      /<(?:div|span|iframe)\b[^>]*class="[^"]*(?:hs-cta-embed|hbspt-cta|hs-cta-wrapper)[^"]*"/gi,
     ),
     linkedFigure: countMatches(
       cleaned,
