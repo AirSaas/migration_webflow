@@ -16,6 +16,7 @@ export function estimateReadingTime(blocks: BlogArticleBlock[]): string {
   const total = blocks.reduce((sum, block) => {
     switch (block.type) {
       case "paragraph":
+        return sum + countWords(stripHtml(block.html ?? block.text ?? ""));
       case "insight-callout":
         return sum + countWords(stripHtml(block.html));
       case "heading":
@@ -37,7 +38,7 @@ export function estimateReadingTime(blocks: BlogArticleBlock[]): string {
         return sum + countWords(block.alt) + countWords(block.caption || "");
       case "inline-cta":
       case "hubspot-cta":
-        return sum + countWords(block.label);
+        return sum + countWords(block.label ?? "");
       default:
         return sum;
     }

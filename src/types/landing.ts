@@ -45,9 +45,13 @@ export interface IntroSection {
   titlePrefix?: string;
   /** Optional trailing dark portion of the title. */
   titleSuffix?: string;
+  /** Optional small subtitle between title and body. */
+  subtitle?: string;
   body?: string | null; // inline HTML
   /** Optional heading level — defaults to 2; some sub-headings emit as 3. */
   headingLevel?: 2 | 3 | 4;
+  /** Optional inline CTA at the bottom of the intro. */
+  primaryCta?: { label: string; href: string };
   /** Sub-sections nested under this intro (rendered as H3 + body inside). */
   subSections?: { title?: string | null; body?: string | null }[];
 }
@@ -62,6 +66,8 @@ export interface FeatureSplitSection {
   titleHighlight?: string; // e.g. <strong> portion
   /** Optional trailing dark part of the title (after titleHighlight). */
   titleSuffix?: string;
+  /** Optional heading level for the section title (default 2). */
+  headingLevel?: 2 | 3 | 4;
   /** Optional small subtitle between title and body. */
   subtitle?: string;
   body?: string; // inline HTML (paragraphs, bullets)
@@ -69,6 +75,8 @@ export interface FeatureSplitSection {
   imageAlt?: string;
   /** DS imageSize : default 60/40, narrow 33/67 (editorial), compact 40/60. */
   imageSize?: "default" | "compact" | "narrow";
+  /** Optional background tint behind the illustration (live editorial layouts). */
+  imageBgColor?: "yellow" | "lavender" | "blue";
   bullets?: string[];
   /** Inline CTA on the text side. */
   primaryCta?: { label: string; href: string };
@@ -99,6 +107,8 @@ export interface LogoBarSection {
   type: "logo-bar";
   title?: string;
   subtitle?: string;
+  /** Optional inline body — Opus may emit narrative under the title. */
+  body?: string;
   variant?: "client" | "press" | "partner";
   logos: { src: string; alt: string }[];
 }
@@ -171,6 +181,8 @@ export interface StepsSection {
   title?: string;
   titleHighlight?: string;
   subtitle?: string;
+  /** Optional inline body — Opus may emit narrative under the title. */
+  body?: string;
   steps: { title: string; description?: string }[];
 }
 
@@ -188,9 +200,17 @@ export interface CtaSection {
   title: string;
   titleHighlight?: string;
   subtitle?: string;
-  ctaLabel: string;
+  /** Optional inline body — Opus may emit this when there's narrative under the title. */
+  body?: string;
+  /** Either ctaLabel + ctaHref OR primaryCta is required (renderer accepts either). */
+  ctaLabel?: string;
   ctaHref?: string;
   videoHref?: string;
+  /** Optional primary/secondary CTA pair (Opus may emit). */
+  primaryCta?: { label: string; href: string };
+  secondaryCta?: { label: string; href: string };
+  /** Optional H3 sub-blocks rendered under the CTA (Opus may emit). */
+  subSections?: { title?: string | null; body?: string | null }[];
   /**
    * Optional dual-card CTA (live: "Réserver une démo" + "Découvrir vidéo").
    * When `items` is set with 2+ entries, the renderer can show a card grid
@@ -251,12 +271,22 @@ export interface TabsFrameSection {
 /** Single highlight CTA card with tri-part gradient title. */
 export interface CtaHighlightSection {
   type: "cta-highlight";
-  titlePrefix: string;
-  titleHighlight: string;
+  /**
+   * Either pass tri-part title (titlePrefix + titleHighlight + titleSuffix) OR
+   * a single title string (Opus prompt v4 may emit either shape).
+   */
+  title?: string;
+  titlePrefix?: string;
+  titleHighlight?: string;
   titleSuffix?: string;
   subtitle?: string;
-  ctaLabel: string;
+  /** Optional inline body — Opus may emit narrative under the title. */
+  body?: string;
+  /** Either ctaLabel + ctaHref OR primaryCta is required (renderer accepts either). */
+  ctaLabel?: string;
   ctaHref?: string;
+  /** Optional primary CTA pair (Opus prompt v4 may emit alongside ctaLabel/ctaHref). */
+  primaryCta?: { label: string; href: string };
 }
 
 /** Numbered comparison list (pain-points alternate variant with value/desc tuples). */
@@ -298,14 +328,20 @@ export interface HighlightFrameSection {
 /** Stacked feature with title + list + bleed image. */
 export interface FeatureStackedSection {
   type: "feature-stacked";
-  titleGradient: string;
+  /** Opus prompt v4 may emit a single `title` instead of titleGradient/Dark. */
+  title?: string;
+  titleGradient?: string;
   titleDark?: string;
   titleDarkPrefix?: string;
   subtitle?: string;
+  /** Optional inline body — Opus may emit narrative under the title. */
+  body?: string;
   listItems?: string[];
   imageSrc?: string;
-  imageAlt: string;
+  imageAlt?: string;
   variant?: "default" | "primary2";
+  /** Optional H3 sub-blocks rendered as nested {title, body} pairs. */
+  subSections?: { title?: string | null; body?: string | null }[];
 }
 
 /** Generic value proposition grid (flexible columns + cards). */

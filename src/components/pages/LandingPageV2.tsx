@@ -552,8 +552,8 @@ function renderSection(
                 key={i}
                 title={item.title}
                 description={item.description ?? ""}
-                ctaLabel={item.ctaLabel ?? section.ctaLabel}
-                ctaHref={item.ctaHref ?? item.videoHref ?? section.ctaHref}
+                ctaLabel={item.ctaLabel ?? section.ctaLabel ?? section.primaryCta?.label ?? "En savoir plus"}
+                ctaHref={item.ctaHref ?? item.videoHref ?? section.ctaHref ?? section.primaryCta?.href}
               />
             ))}
           </CtaFrame>
@@ -565,8 +565,8 @@ function renderSection(
           titlePrefix={section.title}
           titleHighlight={section.titleHighlight || " "}
           subtitle={section.subtitle ?? ""}
-          ctaLabel={section.ctaLabel}
-          ctaHref={section.ctaHref}
+          ctaLabel={section.ctaLabel ?? section.primaryCta?.label ?? "Réserver une démo"}
+          ctaHref={section.ctaHref ?? section.primaryCta?.href}
         />
       );
     }
@@ -680,12 +680,12 @@ function renderSection(
       return (
         <CtaHighlightFrame
           key={index}
-          titlePrefix={section.titlePrefix}
-          titleHighlight={section.titleHighlight}
+          titlePrefix={section.titlePrefix ?? section.title ?? ""}
+          titleHighlight={section.titleHighlight ?? ""}
           titleSuffix={section.titleSuffix}
           subtitle={section.subtitle}
-          ctaLabel={section.ctaLabel}
-          ctaHref={section.ctaHref}
+          ctaLabel={section.ctaLabel ?? section.primaryCta?.label ?? "Réserver une démo"}
+          ctaHref={section.ctaHref ?? section.primaryCta?.href}
         />
       );
 
@@ -744,13 +744,13 @@ function renderSection(
       return (
         <FeatureSectionStacked
           key={index}
-          titleGradient={section.titleGradient}
+          titleGradient={section.titleGradient ?? section.title ?? ""}
           titleDark={section.titleDark}
           titleDarkPrefix={section.titleDarkPrefix}
           subtitle={section.subtitle}
           listItems={section.listItems}
           imageSrc={section.imageSrc}
-          imageAlt={section.imageAlt}
+          imageAlt={section.imageAlt ?? ""}
           variant={section.variant}
         />
       );

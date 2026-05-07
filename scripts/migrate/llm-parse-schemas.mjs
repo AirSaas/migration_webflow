@@ -581,6 +581,55 @@ EXTRACTION RULES (must follow strictly):
     - "cta"             → closing call-to-action banner (.section--call)
     Other section types in the schema may exist but are rare — only emit them
     if you see clear DOM evidence.
+
+14. ANTI-FRAGMENTATION (R5 — critical Solutions). Before emitting sections,
+    COUNT visible H2 elements in the article body. The number of top-level
+    sections (intro / feature-split / value-proposition / steps / etc.) MUST
+    NOT exceed (H2 count + 3). If you have more candidate sections, MERGE
+    consecutive H3/H4 (< 200 words) under their nearest H2 into a single
+    feature-split with subSections[] OR an intro with subSections[]. Bug to
+    avoid: outil-ppm rebuild was 31 sections vs live 8 — that is a fail.
+
+15. HERO LP eyebrow + trust strip (R1). For /lp/* pages, hero MUST set:
+    - tag = visible <span class="tag-*">, <div class="hero__pill">, or
+      uppercase eyebrow strip directly above the H1 (e.g. "PPM",
+      "Capacity Planning"). When present in source, REQUIRED.
+    - bullets = 3-6 trust items extracted from the small grey strip below
+      the H1 + subtitle ("Sécurité au top", "Made in France", "Support FR",
+      etc.). Look for ".trust-strip li", check-icon rows, or short label
+      pills. When 3+ trust items visible, REQUIRED.
+    - imageSrc = product mockup ≥ 800×500 visible inside the hero block.
+
+16. EYEBROW & TAGS for feature-split (R24, R26). Preserve tag/eyebrow strips
+    above feature-split titles : <span class="eyebrow">, <div class="tag--*">,
+    or short uppercase pills inside the section header → feature-split.tag.
+    Preserve <strong> / <em> / <span class="text-orange"> highlights inline
+    inside body fields (HTML preserved).
+
+17. CTA UNIQUE per page (R40, N1). Emit EXACTLY 1 orphan "cta" or
+    "cta-highlight" section — the page's outro before the footer. ALL
+    other CTA buttons found inside body sections → put them on
+    feature-split.primaryCta. If you see two "Réserver une démo" buttons
+    at different points of the page, the second one is inline, NOT a new
+    cta section.
+
+18. KPI ZERO HALLUCINATION (R11). For "stats" / "highlight-frame" sections,
+    every items[].value MUST appear verbatim in the source HTML within
+    100 chars of its label. If you see an icon WITHOUT an adjacent number
+    in the HTML, do NOT invent one : either omit the section entirely or
+    set items[].value = "". Past incident: équipes-comite-direction had
+    "70%/1h/120j/4×" entirely fabricated — banned.
+
+19. SECTIONS THAT EXIST IN LIVE (R13, R38). If the source has a section
+    "Sécurité au top" (or similar trust title) with 4 trust cards/icons,
+    you MUST emit it as a "trust-badges" section. If the source has a
+    composite image+arrow narrative, emit feature-split with
+    imageSize="narrow" + subSections. Do not silently drop visible sections.
+
+20. STRICT IMAGE BG COLOR for feature-split (R17). When the source feature
+    has a colored background panel behind the illustration, set imageSize
+    based on the panel's primary color : yellow / lavender / blue → keep
+    "narrow" (33/67) so the editorial layout matches live.
 `;
 
 export const BLOG_RULES = `You extract a typed BlogArticleV2 from rendered Webflow HTML of an airsaas.io blog post.
@@ -625,4 +674,24 @@ EXTRACTION RULES (must follow strictly):
    - The body container is empty or unfindable
    - The page is a 404 / redirect placeholder
    - The H1 is absent
+
+9. STRUCTURED BLOCKQUOTES (R18). EVERY <blockquote> in the body MUST emit
+   a "quote" block (variant pull) — never a "paragraph". Capture the quote
+   text and the optional author attribution (<cite> or following <p class="author">).
+
+10. INSIGHT-CALLOUTS (R20). EVERY .a-retenir / .citation-blog / .insight /
+   .callout / .highlight panel, OR <aside> with a colored background, OR a
+   visible "À retenir" / "À noter" / "Bon à savoir" / "En résumé" panel
+   MUST emit an "insight-callout" block. Preserve inner HTML (<ul>/<li>
+   bullets when present) and set label="À retenir" when missing.
+
+11. STRUCTURED TABLES (R21). EVERY <table> MUST emit a "table" block with
+   headers (string[]) + rows (string[][]). Preserve the 2D structure —
+   never flatten to a paragraph. Cap to 6 cols × 20 rows max.
+
+12. INLINE CTAs in body (R22). Links inside the body that visually look
+   like buttons (class="btn-*", class="cta-*", inside <div class="cta-inline">,
+   or <a class="button">) MUST emit an "inline-cta" block (label + href),
+   NOT a paragraph. Standalone .hs-cta-embed / .hbspt-cta blocks remain
+   "hubspot-cta" (rule 3).
 `;

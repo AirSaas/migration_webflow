@@ -88,7 +88,9 @@ async function main() {
     const tsPath = join(REPO_ROOT, "src/data/blog-articles-v2.ts");
     if (existsSync(tsPath)) {
       const txt = readFileSync(tsPath, "utf8");
-      const m = txt.match(/BLOG_ARTICLES_V2.*?=\s*(\[[\s\S]*?\])\s+as const/);
+      // Match either `[...] as const;` (writeBlogTsFile) or `[...];`
+      // (promote-blog-extracts.mjs). Greedy on the array body.
+      const m = txt.match(/BLOG_ARTICLES_V2[^=]*=\s*(\[[\s\S]*\])\s*(?:as const)?\s*;/);
       if (m) {
         const existing = JSON.parse(m[1]);
         const broken = new Set(
@@ -155,10 +157,22 @@ async function main() {
     }
   }
 
+  // Cost cap — env LLM_COST_CAP_USD (default $100). Hard stop when reached.
+  const costCap = Number(process.env.LLM_COST_CAP_USD || "100");
+  let costCapHit = false;
+
   const parsed = [];
   const queue = [...rows];
   const workers = Array.from({ length: Math.min(CONCURRENCY, rows.length) }, async () => {
     while (queue.length) {
+      const stats = getCostStats();
+      if (stats.totalCost >= costCap) {
+        if (!costCapHit) {
+          console.error(`\n[cost-cap] $${stats.totalCost.toFixed(3)} ≥ $${costCap.toFixed(2)} — stopping`);
+        }
+        costCapHit = true;
+        break;
+      }
       const row = queue.shift();
       const article = await processRow(row);
       if (article) parsed.push(article);
@@ -178,7 +192,9 @@ async function main() {
     let finalArticles = parsed;
     if ((ARGS.slug || ARGS.onlyBroken) && existsSync(tsPath)) {
       const txt = readFileSync(tsPath, "utf8");
-      const m = txt.match(/BLOG_ARTICLES_V2.*?=\s*(\[[\s\S]*?\])\s+as const/);
+      // Match either `[...] as const;` (writeBlogTsFile) or `[...];`
+      // (promote-blog-extracts.mjs). Greedy on the array body.
+      const m = txt.match(/BLOG_ARTICLES_V2[^=]*=\s*(\[[\s\S]*\])\s*(?:as const)?\s*;/);
       if (m) {
         const existing = JSON.parse(m[1]);
         const updatedBySlug = new Map(parsed.map((a) => [a.slug, a]));

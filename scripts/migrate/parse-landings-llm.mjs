@@ -17,6 +17,7 @@
  */
 
 import { join } from "node:path";
+import { existsSync, readFileSync } from "node:fs";
 import {
   REPO_ROOT,
   loadEnv,
@@ -69,7 +70,9 @@ OUTPUT REQUIREMENTS:
  * on minor LLM deviations. Per-type field mapping mirrors src/types/landing.ts.
  */
 function normalizeSections(sections) {
-  return sections
+  // Defensive : LLM occasionally emits sections as a single object or null.
+  const arr = Array.isArray(sections) ? sections : sections ? [sections] : [];
+  return arr
     .map((s) => normalizeSection(s))
     .filter((s) => s !== null);
 }
@@ -275,7 +278,12 @@ async function main() {
     }
   }
 
+  // Cost cap — env LLM_COST_CAP_USD (default $100). Hard stop when reached.
+  const costCap = Number(process.env.LLM_COST_CAP_USD || "100");
+  let costCapHit = false;
+
   for (const type of TYPES) {
+    if (costCapHit) break;
     const t0 = Date.now();
     let rows = await fetchPagesFromSupabase(type);
     if (ARGS.slug) rows = rows.filter((r) => r.slug === ARGS.slug);
@@ -286,6 +294,14 @@ async function main() {
     const queue = [...rows];
     const workers = Array.from({ length: Math.min(CONCURRENCY, rows.length) }, async () => {
       while (queue.length) {
+        const stats = getCostStats();
+        if (stats.totalCost >= costCap) {
+          if (!costCapHit) {
+            console.error(`\n[cost-cap] $${stats.totalCost.toFixed(3)} ≥ $${costCap.toFixed(2)} — stopping all workers`);
+          }
+          costCapHit = true;
+          break;
+        }
         const row = queue.shift();
         const page = await processRow(row, type);
         if (page) parsed.push(page);
@@ -299,8 +315,31 @@ async function main() {
 
     if (!ARGS.dryRun && parsed.length) {
       const outPath = join(REPO_ROOT, "src/data/landings-v2", TYPE_TO_FILE[type]);
-      writeLandingsTsFile(outPath, parsed, type);
-      console.log(`[write] ${TYPE_TO_FILE[type]}  (${parsed.length} pages, ${((Date.now() - t0) / 1000).toFixed(0)}s)`);
+      let finalPages = parsed;
+      // When --slug or --limit is used (subset run), merge with existing
+      // file so we don't lose the other pages. Same pattern as parse-blog-llm.
+      if ((ARGS.slug || ARGS.limit) && existsSync(outPath)) {
+        const txt = readFileSync(outPath, "utf8");
+        const m = txt.match(/PAGES:\s*LandingPage\[\]\s*=\s*(\[[\s\S]*?\])\s+as const/);
+        if (m) {
+          try {
+            const existing = JSON.parse(m[1]);
+            const existingSlugs = new Set(existing.map((p) => p.slug));
+            const updatedBySlug = new Map(parsed.map((p) => [p.slug, p]));
+            const merged = existing.map((p) => updatedBySlug.get(p.slug) ?? p);
+            // Append re-parsed slugs that weren't in existing
+            for (const p of parsed) {
+              if (!existingSlugs.has(p.slug)) merged.push(p);
+            }
+            finalPages = merged;
+            console.log(`[merge] ${parsed.length} re-parsed, ${finalPages.length} total in file`);
+          } catch (e) {
+            console.error(`[merge] parse existing failed (${e.message}) — overwriting`);
+          }
+        }
+      }
+      writeLandingsTsFile(outPath, finalPages, type);
+      console.log(`[write] ${TYPE_TO_FILE[type]}  (${finalPages.length} pages, ${((Date.now() - t0) / 1000).toFixed(0)}s)`);
     }
   }
 

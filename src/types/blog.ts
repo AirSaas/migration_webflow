@@ -24,7 +24,9 @@ export interface HeadingBlock {
 export interface ParagraphBlock {
   type: "paragraph";
   /** Inner HTML — may contain <strong>, <em>, <a>, <br>. */
-  html: string;
+  html?: string;
+  /** Plain-text fallback (Opus prompt v4 may emit `text` instead of `html`). */
+  text?: string;
 }
 
 export interface ListBlock {
@@ -77,10 +79,13 @@ export interface InlineCtaBlock {
 
 export interface HubspotCtaBlock {
   type: "hubspot-cta";
-  label: string;
-  href: string;
+  /** Optional — Opus may emit only `html` for embedded HubSpot iframe blocks. */
+  label?: string;
+  href?: string;
   /** HubSpot CTA tracking id (Opus may emit). */
   id?: string;
+  /** Optional inline HTML body (Opus prompt v4 may emit raw embed HTML). */
+  html?: string;
 }
 
 export type BlogArticleBlock =

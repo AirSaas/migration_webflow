@@ -75,7 +75,8 @@ function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
       );
     }
     case "paragraph": {
-      const html = normalizeText(block.html);
+      const raw = block.html ?? block.text ?? "";
+      const html = normalizeText(raw);
       if (!html) return null;
       return (
         <Text key={index} size="md" align="left">
@@ -184,13 +185,16 @@ function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
         />
       );
     case "hubspot-cta":
+      // If only `html` is provided (raw embed iframe), skip — too risky.
+      // Renderer requires label + href (visible CTA). Skip raw embeds.
+      if (!block.href || !block.label) return null;
       return (
         <div key={index} className="flex justify-center my-[1rem]">
           <a
             href={block.href}
             className="inline-flex items-center justify-center rounded-full px-[1.5rem] py-[0.75rem] bg-primary text-white font-medium hover:bg-foreground transition-colors"
           >
-            {block.label || "Télécharger"}
+            {block.label}
           </a>
         </div>
       );
