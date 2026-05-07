@@ -88,6 +88,8 @@ export interface HubspotCtaBlock {
   id?: string;
   /** Optional inline HTML body (Opus prompt v4 may emit raw embed HTML). */
   html?: string;
+  /** Optional iframe src (Opus prompt v6 may emit embed src). */
+  src?: string;
 }
 
 export type BlogArticleBlock =

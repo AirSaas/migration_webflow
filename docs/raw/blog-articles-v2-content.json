@@ -11,8 +11,8 @@
   },
   {
     "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
-    "skip": true,
-    "reason": "blocks corrupted (string instead of array) during extract"
+    "skip": false,
+    "reason": null
   },
   {
     "slug": "budget-previsionnel-projet",
@@ -196,8 +196,8 @@
   },
   {
     "slug": "lean-portfolio-management",
-    "skip": true,
-    "reason": "blocks corrupted (string instead of array) during extract"
+    "skip": false,
+    "reason": null
   },
   {
     "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
