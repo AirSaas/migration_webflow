@@ -107,6 +107,9 @@ function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
     }
     case "quote": {
       if (!block.text) return null;
+      // R18 audit Marisella : Opus prompt v5 emits <strong>/<em>/<a> tags
+      // inside quote text. Render via RichSpan so HTML is interpreted, not
+      // shown as literal text.
       return (
         <Quote
           key={index}
@@ -115,7 +118,7 @@ function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
           author={block.author || undefined}
           authorAvatar={block.authorAvatar || undefined}
         >
-          {block.text}
+          <RichSpan html={block.text} />
         </Quote>
       );
     }
