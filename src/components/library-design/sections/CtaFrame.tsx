@@ -28,6 +28,11 @@ interface CtaFrameProps {
   subtitle: string;
   /** Card content — pass CardCta components as children */
   children: React.ReactNode;
+  /**
+   * Layout — "default" (max-w 91.25rem padded card) or "wide" (full-bleed banner
+   * on Solutions pages with edge-to-edge gradient + tighter inner padding).
+   */
+  layout?: "default" | "wide";
   /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
   id?: string;
   className?: string;
@@ -37,11 +42,13 @@ export function CtaFrame({
   title,
   subtitle,
   children,
+  layout = "default",
   id,
   className,
 }: CtaFrameProps) {
   assertMaxLength("CtaFrame", "title", title, 80);
   assertMaxLength("CtaFrame", "subtitle", subtitle, 220);
+  const isWide = layout === "wide";
 
   return (
     <section
@@ -55,9 +62,15 @@ export function CtaFrame({
         className="absolute inset-0 w-full"
       />
 
-      {/* Content */}
+      {/* Content — wide variant uses tighter horizontal padding so the gradient
+          reads as a full bandeau at the section edges. */}
       <div
-        className="relative z-10 flex flex-col items-center gap-[2rem] px-[1.5rem] py-[3rem] md:gap-[2.5rem] md:px-[3rem] md:py-[4rem] lg:gap-[3.125rem] lg:px-[10rem] lg:py-[6.25rem] overflow-clip"
+        className={cn(
+          "relative z-10 flex flex-col items-center gap-[2rem] py-[3rem] md:gap-[2.5rem] md:py-[4rem] lg:gap-[3.125rem] lg:py-[6.25rem] overflow-clip",
+          isWide
+            ? "px-[1.5rem] md:px-[2.5rem] lg:px-[5rem]"
+            : "px-[1.5rem] md:px-[3rem] lg:px-[10rem]",
+        )}
       >
         <div className="flex flex-col items-center gap-[1rem] md:gap-[1.25rem] text-center">
           <Heading level={2} gradient="dark-to-primary" align="center">

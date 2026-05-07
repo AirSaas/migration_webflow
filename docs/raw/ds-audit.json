@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-05T14:47:17.219Z",
-  "totalHits": 0,
+  "date": "2026-05-07T06:11:38.032Z",
+  "totalHits": 1,
   "rules": [
     {
       "name": "no-hex-color",
@@ -23,8 +23,15 @@
     {
       "name": "no-arbitrary-color-or-text",
       "description": "Arbitrary color/typography Tailwind value (bg-[#…], text-[14px]) — tokenize it. Spacing arbitraries (px-[1.5rem], gap-[2rem], w-[10rem]) are permitted.",
-      "hits": 0,
-      "items": []
+      "hits": 1,
+      "items": [
+        {
+          "file": "src/components/pages/LandingPageV2.tsx",
+          "line": 445,
+          "snippet": "<div className=\"h-[6rem] w-[6rem] rounded-full bg-primary-10 flex items-center justify-center font-bold text-primary text-[1.5rem]\">",
+          "match": "text-[1.5rem]"
+        }
+      ]
     },
     {
       "name": "no-raw-heading",

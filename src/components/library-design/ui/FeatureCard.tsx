@@ -25,6 +25,7 @@ import { assertMaxLength } from "@/lib/ds-validators";
  */
 
 type FeatureCardGradient = "primary" | "orange" | "green" | "dark-to-primary" | "none";
+type FeatureCardVariant = "light" | "dark";
 
 interface FeatureCardProps {
   icon?: React.ReactNode;
@@ -37,6 +38,12 @@ interface FeatureCardProps {
    * @default "primary"
    */
   gradient?: FeatureCardGradient;
+  /**
+   * Surface variant. "light" (default) sits on white / primary-2 with primary-20
+   * border. "dark" adapts colors for placement on a primary-70 / dark blue
+   * background — translucent white surface, white text, white-alpha border.
+   */
+  variant?: FeatureCardVariant;
   className?: string;
 }
 
@@ -46,6 +53,7 @@ export function FeatureCard({
   subtitle,
   description,
   gradient = "primary",
+  variant = "light",
   className,
 }: FeatureCardProps) {
   assertMaxLength("FeatureCard", "title", title, 12);
@@ -53,11 +61,15 @@ export function FeatureCard({
   if (description) assertMaxLength("FeatureCard", "description", description, 220);
 
   const useGradient = gradient !== "none";
+  const isDark = variant === "dark";
 
   return (
     <article
       className={cn(
-        "flex flex-col justify-start gap-[0.75rem] md:gap-[0.9375rem] rounded-[1.25rem] md:rounded-[1.5625rem] border border-primary-20 bg-primary-2 p-[1.5rem] md:p-[2.1875rem] transition-shadow duration-300 hover:shadow-card-hover",
+        "flex flex-col justify-start gap-[0.75rem] md:gap-[0.9375rem] rounded-[1.25rem] md:rounded-[1.5625rem] p-[1.5rem] md:p-[2.1875rem] shadow-sm transition-shadow duration-300 hover:shadow-card-hover",
+        isDark
+          ? "border border-white/20 bg-white/5"
+          : "border border-primary-20 bg-primary-2",
         className,
       )}
     >
@@ -67,18 +79,35 @@ export function FeatureCard({
         </div>
       )}
 
-      <Heading level={4} gradient="none" align="left">
-        {useGradient ? <GradientText gradient={gradient}>{title}</GradientText> : title}
+      <Heading
+        level={4}
+        gradient="none"
+        align="left"
+        className={isDark ? "text-white" : undefined}
+      >
+        {useGradient && !isDark ? (
+          <GradientText gradient={gradient}>{title}</GradientText>
+        ) : (
+          title
+        )}
       </Heading>
 
       {subtitle && (
-        <Text size="lg" align="left" className="font-bold">
-          {useGradient ? <GradientText gradient={gradient}>{subtitle}</GradientText> : subtitle}
+        <Text
+          size="lg"
+          align="left"
+          className={cn("font-bold", isDark && "text-white")}
+        >
+          {useGradient && !isDark ? (
+            <GradientText gradient={gradient}>{subtitle}</GradientText>
+          ) : (
+            subtitle
+          )}
         </Text>
       )}
 
       {description && (
-        <Text size="md" align="left">
+        <Text size="md" align="left" className={isDark ? "text-white/80" : undefined}>
           {description}
         </Text>
       )}

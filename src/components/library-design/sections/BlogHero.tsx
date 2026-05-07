@@ -50,6 +50,12 @@ interface BlogHeroAuthor {
   publishedByLabel?: string;
   inLabel?: string;
   datePrefix?: string;
+  /**
+   * Reading time string (e.g. "10 min de lecture"). When provided alongside
+   * `publishedDate`, BlogHero renders a meta header strip above the H1
+   * "Le {date} · {readingTime} · {name}".
+   */
+  readingTime?: string;
 }
 
 export interface BlogHeroProps {
@@ -131,9 +137,21 @@ export function BlogHero({
           />
         )}
 
-        {/* Headline block — tag + title + author */}
-        <div className="flex flex-col items-center gap-[2rem] md:gap-[2.5rem] max-w-[93.75rem] w-full">
+        {/* Headline block — tag + meta header + title + author */}
+        <div className="flex flex-col items-center gap-[1.5rem] md:gap-[2rem] max-w-[93.75rem] w-full">
           {topTagLabel && <Tag variant="muted">{topTagLabel}</Tag>}
+
+          {/* R30 audit Marisella : meta header strip above H1 — date · reading time · author */}
+          {author.publishedDate && author.readingTime && (
+            <p className="text-text-muted text-small font-light text-center">
+              {author.datePrefix ? `${author.datePrefix} ` : ""}
+              {author.publishedDate}
+              <span aria-hidden="true"> · </span>
+              {author.readingTime}
+              <span aria-hidden="true"> · </span>
+              {author.name}
+            </p>
+          )}
 
           <div className="w-full md:w-[90%] lg:w-[85%]">
             <Heading level={1} gradient="none" align="center">
