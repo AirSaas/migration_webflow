@@ -48,20 +48,29 @@ function FaqIcon({ open }: { open: boolean }) {
   return (
     <span
       aria-hidden="true"
-      className="shrink-0"
+      className="shrink-0 inline-flex items-center justify-center text-primary"
       style={{
-        fontFamily: '"Font Awesome 6 Duotone"',
-        fontWeight: 900,
-        fontSize: "2.29rem",
-        color: "var(--color-primary)",
-        textShadow: "0.045rem 0.045rem 0px var(--color-primary-40)",
-        lineHeight: 1,
         width: "2.3125rem",
-        display: "inline-block",
-        textAlign: "center",
+        height: "2.3125rem",
+        transition: "transform 200ms ease-in-out",
+        transform: open ? "rotate(180deg)" : "rotate(0deg)",
       }}
     >
-      {open ? "\uF057" : "\uF055"}
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 9l6 6 6-6"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </span>
   );
 }

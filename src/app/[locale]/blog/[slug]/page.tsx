@@ -7,6 +7,7 @@ import {
 } from "@/data/blog-articles-v2";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 import { renderBlogBlocks } from "@/components/blog/renderBlogBlocks";
+import { estimateReadingTime } from "@/lib/reading-time";
 import type { ComponentProps } from "react";
 import type { BlogCard } from "@/components/library-design/ui/BlogCard";
 
@@ -69,6 +70,7 @@ export default async function BlogArticleRoute({
     return raw;
   };
   const publishedDate = formatPublishedDate(article.meta.publishedDate);
+  const readingTime = estimateReadingTime(article.blocks);
 
   const heroImage = article.meta.heroImage?.src || DEFAULT_HERO_IMAGE;
   const heroImageAlt = article.meta.heroImage?.alt || article.meta.h1;
@@ -176,22 +178,30 @@ export default async function BlogArticleRoute({
         inLabel: "dans",
         datePrefix: "Le",
         publishedDate,
+        readingTime,
       }}
       heroImageSrc={heroImage}
       heroImageAlt={heroImageAlt}
       tableOfContents={tableOfContents}
       articleBody={renderBlogBlocks(article.blocks)}
+      newsletterCard={{
+        title: "Recevez nos meilleurs articles",
+        subtitle: "Une fois par mois, on vous envoie nos retours d'expérience pratiques sur la gestion de portefeuille projets.",
+        placeholder: "votre@email.com",
+        ctaLabel: "S'abonner",
+        privacyText: "Pas de spam — désinscription en un clic.",
+      }}
       faq={faq}
       cta={BLOG_INDEX_DATA.cta}
       relatedArticles={relatedArticles}
       trendingGrid={trendingGrid}
       footerColumns={BLOG_INDEX_DATA.footerColumns}
-      copyright={BLOG_INDEX_DATA.copyright}
+      copyright={`© ${new Date().getFullYear()} AirSaas — Made in France`}
       copyrightIcon={
         <span className="inline-flex items-center gap-[0.375rem]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/assets/logos/airsaas-logo.svg"
+            src="/assets/icons/airsaas-icon.svg"
             alt=""
             aria-hidden="true"
             className="h-[1.25rem] w-auto"

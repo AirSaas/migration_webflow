@@ -16,9 +16,12 @@ import { HighlightFrame } from "@/components/library-design/sections/HighlightFr
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
 import { IconRowFrame } from "@/components/library-design/sections/IconRowFrame";
 import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { RelatedSolutionsFrame } from "@/components/library-design/sections/RelatedSolutionsFrame";
 import { CardCta } from "@/components/library-design/ui/CardCta";
 import { IconBadge } from "@/components/library-design/ui/IconBadge";
 import { Footer } from "@/components/library-design/sections/Footer";
+import { PAGES as SOLUTION_PAGES } from "@/data/landings-v2/solutions";
+import { PAGES as PRODUIT_PAGES } from "@/data/landings-v2/produit";
 import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
@@ -94,7 +97,25 @@ function RichSpan({ html }: { html: string }) {
   return <span dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
-function renderSection(section: LandingSection, index: number): ReactNode {
+// R46 audit Marisella : prompt v4 sometimes leaks <strong>/<em>/<a> tags
+// into title fields where the renderer expects plain text. Strip inline HTML
+// for plain-text title-like props (Heading children render text verbatim).
+function stripTags(s: string | null | undefined): string {
+  if (!s) return "";
+  return s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+}
+
+function stripTagsOpt(s: string | null | undefined): string | undefined {
+  if (s == null) return undefined;
+  const out = stripTags(s);
+  return out || undefined;
+}
+
+function renderSection(
+  section: LandingSection,
+  index: number,
+  pageType: LandingPage["type"] = "lp",
+): ReactNode {
   switch (section.type) {
     case "hero": {
       // If no real image, use centered text-only layout (LP-style); avoid
@@ -105,17 +126,22 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       const bottomTags = (section.bullets || [])
         .slice(0, 6)
         .map((label) => ({ label, variant: "success" as const }));
+      // R23 audit Marisella : produit pages render hero on dark blue + halo.
+      const heroVariant = pageType === "produit" ? "dark" : "light";
       return (
         <Hero
           key={index}
+          variant={heroVariant}
           layout={hasImage ? "split" : "centered"}
           navItems={BLOG_INDEX_DATA.navItems}
           navCtaLabel={BLOG_INDEX_DATA.navCtaLabel}
           navCtaHref={BLOG_INDEX_DATA.navCtaHref}
           loginLabel={BLOG_INDEX_DATA.loginLabel}
           loginHref={BLOG_INDEX_DATA.loginHref}
+          eyebrow={section.tag}
           title={section.title}
           titleHighlight={section.titleHighlight || undefined}
+          titleSuffix={section.titleSuffix || undefined}
           subtitle={section.subtitle || ""}
           primaryCta={section.primaryCta || undefined}
           secondaryCta={section.secondaryCta || undefined}
@@ -264,8 +290,11 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       );
     }
 
-    case "logo-bar":
+    case "logo-bar": {
       if (!section.logos || section.logos.length === 0) return null;
+      // R44 audit Marisella : équipes pages render the client logos with
+      // a white chrome card (border + bg) so the trust strip stands out.
+      const useChrome = pageType === "equipe" || section.variant === "client";
       return (
         <section
           key={index}
@@ -276,15 +305,30 @@ function renderSection(section: LandingSection, index: number): ReactNode {
               {section.title}
             </Heading>
           ) : null}
-          <LogosBar
-            logos={section.logos.slice(0, 12).map((logo) => ({
-              src: logo.src,
-              alt: logo.alt || "",
-            }))}
-            size="lg"
-          />
+          {useChrome ? (
+            <div className="w-full max-w-[91.25rem] rounded-[1.25rem] border border-primary-20 bg-white px-[1.5rem] py-[2rem] md:px-[2.5rem] md:py-[2.5rem]">
+              <LogosBar
+                logos={section.logos.slice(0, 12).map((logo) => ({
+                  src: logo.src,
+                  alt: logo.alt || "",
+                }))}
+                size="lg"
+                variant="plain"
+                preserveColor
+              />
+            </div>
+          ) : (
+            <LogosBar
+              logos={section.logos.slice(0, 12).map((logo) => ({
+                src: logo.src,
+                alt: logo.alt || "",
+              }))}
+              size="lg"
+            />
+          )}
         </section>
       );
+    }
 
     case "press-quotes":
       if (!section.quotes || section.quotes.length === 0) return null;
@@ -376,8 +420,11 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       );
     }
 
-    case "customer-testimonials":
+    case "customer-testimonials": {
       if (!section.testimonials || section.testimonials.length === 0) return null;
+      // R9 + R35 audit Marisella : équipes pages render testimonials as
+      // photo-lead press cards (large avatar + name/role/company stacked).
+      const photoLead = pageType === "equipe";
       return (
         <section
           key={index}
@@ -393,20 +440,66 @@ function renderSection(section: LandingSection, index: number): ReactNode {
               {section.subtitle}
             </Text>
           ) : null}
-          <div className="grid grid-cols-1 gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3 w-full max-w-[91.25rem]">
-            {section.testimonials.slice(0, 6).map((t, i) => (
-              <TestimonialCard
-                key={i}
-                quote={t.text || t.company || ""}
-                name={t.name}
-                role={t.role || ""}
-                readMoreLabel="Lire la suite"
-                readLessLabel="Voir moins"
-              />
-            ))}
-          </div>
+          {photoLead ? (
+            <div className="grid grid-cols-1 gap-[1.5rem] sm:grid-cols-2 lg:grid-cols-4 w-full max-w-[91.25rem]">
+              {section.testimonials.slice(0, 8).map((t, i) => (
+                <article
+                  key={i}
+                  className="flex flex-col items-center gap-[0.875rem] rounded-[1.25rem] border border-primary-20 bg-white p-[1.5rem] md:p-[1.75rem] text-center shadow-sm"
+                >
+                  {t.avatarSrc ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={t.avatarSrc}
+                      alt={t.name}
+                      className="h-[6rem] w-[6rem] rounded-full object-cover border-2 border-primary-20"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="h-[6rem] w-[6rem] rounded-full bg-primary-10 flex items-center justify-center font-bold text-primary text-h4">
+                      {t.name.slice(0, 2).toUpperCase()}
+                    </div>
+                  )}
+                  <div className="flex flex-col gap-[0.25rem]">
+                    <Text size="md" align="center" className="font-bold">
+                      {t.name}
+                    </Text>
+                    {t.role ? (
+                      <Text size="sm" align="center" className="text-text-light">
+                        {t.role}
+                      </Text>
+                    ) : null}
+                    {t.company ? (
+                      <Text size="sm" align="center" className="text-primary font-medium">
+                        {t.company}
+                      </Text>
+                    ) : null}
+                  </div>
+                  {t.text ? (
+                    <Text size="sm" align="center" className="italic">
+                      «&nbsp;{t.text.slice(0, 140)}&nbsp;»
+                    </Text>
+                  ) : null}
+                </article>
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3 w-full max-w-[91.25rem]">
+              {section.testimonials.slice(0, 6).map((t, i) => (
+                <TestimonialCard
+                  key={i}
+                  quote={t.text || t.company || ""}
+                  name={t.name}
+                  role={t.role || ""}
+                  readMoreLabel="Lire la suite"
+                  readLessLabel="Voir moins"
+                />
+              ))}
+            </div>
+          )}
         </section>
       );
+    }
 
     case "comparison-table":
       if (!section.rows || section.rows.length === 0) return null;
@@ -444,34 +537,42 @@ function renderSection(section: LandingSection, index: number): ReactNode {
         />
       );
 
-    case "faq":
+    case "faq": {
+      // R12 audit Marisella : avoid "Questions Fréquentes Fréquentes" duplication.
+      // Only fall back to "Questions" + "fréquentes" pair when both are missing.
+      // If the data has either title or titleHighlight, pass through as-is.
+      const hasAny = section.title || section.titleHighlight;
       return (
         <FaqFrame
           key={index}
-          title={section.title || "Questions"}
-          titleHighlight={section.titleHighlight || "fréquentes"}
+          title={hasAny ? section.title : "Questions"}
+          titleHighlight={hasAny ? section.titleHighlight : "fréquentes"}
           items={section.items}
         />
       );
+    }
 
     case "cta": {
       // Dual-card CTA : 2+ items → <CtaFrame> + <CardCta> children
       // Single-card CTA : <CtaHighlightFrame> (DS canonical for single CTA)
       const items = section.items || [];
+      // R27 audit Marisella : Solutions render the closing CTA as a wide bandeau.
+      const ctaLayout = pageType === "solution" ? "wide" : "default";
       if (items.length >= 2) {
         return (
           <CtaFrame
             key={index}
             title={section.title}
             subtitle={section.subtitle ?? ""}
+            layout={ctaLayout}
           >
             {items.slice(0, 2).map((item, i) => (
               <CardCta
                 key={i}
                 title={item.title}
                 description={item.description ?? ""}
-                ctaLabel={item.ctaLabel ?? section.ctaLabel}
-                ctaHref={item.ctaHref ?? item.videoHref ?? section.ctaHref}
+                ctaLabel={item.ctaLabel ?? section.ctaLabel ?? section.primaryCta?.label ?? "En savoir plus"}
+                ctaHref={item.ctaHref ?? item.videoHref ?? section.ctaHref ?? section.primaryCta?.href}
               />
             ))}
           </CtaFrame>
@@ -483,8 +584,8 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           titlePrefix={section.title}
           titleHighlight={section.titleHighlight || " "}
           subtitle={section.subtitle ?? ""}
-          ctaLabel={section.ctaLabel}
-          ctaHref={section.ctaHref}
+          ctaLabel={section.ctaLabel ?? section.primaryCta?.label ?? "Réserver une démo"}
+          ctaHref={section.ctaHref ?? section.primaryCta?.href}
         />
       );
     }
@@ -598,12 +699,12 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       return (
         <CtaHighlightFrame
           key={index}
-          titlePrefix={section.titlePrefix}
-          titleHighlight={section.titleHighlight}
+          titlePrefix={section.titlePrefix ?? section.title ?? ""}
+          titleHighlight={section.titleHighlight ?? ""}
           titleSuffix={section.titleSuffix}
           subtitle={section.subtitle}
-          ctaLabel={section.ctaLabel}
-          ctaHref={section.ctaHref}
+          ctaLabel={section.ctaLabel ?? section.primaryCta?.label ?? "Réserver une démo"}
+          ctaHref={section.ctaHref ?? section.primaryCta?.href}
         />
       );
 
@@ -662,19 +763,20 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       return (
         <FeatureSectionStacked
           key={index}
-          titleGradient={section.titleGradient}
+          titleGradient={section.titleGradient ?? section.title ?? ""}
           titleDark={section.titleDark}
           titleDarkPrefix={section.titleDarkPrefix}
           subtitle={section.subtitle}
           listItems={section.listItems}
           imageSrc={section.imageSrc}
-          imageAlt={section.imageAlt}
+          imageAlt={section.imageAlt ?? ""}
           variant={section.variant}
         />
       );
 
-    case "value-proposition":
+    case "value-proposition": {
       if (!section.items || section.items.length === 0) return null;
+      const cardVariant = section.variant === "dark" ? "dark" : "light";
       return (
         <ValuePropositionFrame
           key={index}
@@ -688,12 +790,15 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           {section.items.map((it, i) => (
             <FeatureCard
               key={i}
+              icon={it.iconName ? iconNode(it.iconName) : undefined}
               title={it.title}
               description={it.description ?? ""}
+              variant={cardVariant}
             />
           ))}
         </ValuePropositionFrame>
       );
+    }
 
     case "steps-rich":
       if (!section.steps || section.steps.length === 0) return null;
@@ -729,7 +834,7 @@ const FOOTER_COPYRIGHT_ICON = (
   <span className="inline-flex items-center gap-[0.375rem]">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
-      src="/assets/logos/airsaas-logo.svg"
+      src="/assets/icons/airsaas-icon.svg"
       alt=""
       aria-hidden="true"
       className="h-[1.25rem] w-auto"
@@ -738,13 +843,97 @@ const FOOTER_COPYRIGHT_ICON = (
   </span>
 );
 
+// R3 audit Marisella : Solutions + Produit pages need a RelatedSolutionsFrame
+// at the bottom (3 image-first sibling cards). Auto-append when data has no
+// `related` section and page type is solution/produit.
+function buildRelatedSolutions(page: LandingPage) {
+  if (page.type !== "solution" && page.type !== "produit") return null;
+  if (page.sections.some((s) => s.type === "related")) return null;
+  const pool = page.type === "solution" ? SOLUTION_PAGES : PRODUIT_PAGES;
+  const siblings = pool.filter((p) => p.slug !== page.slug).slice(0, 3);
+  if (siblings.length < 3) return null;
+  const basePrefix = page.type === "solution" ? "/fr/solutions" : "/fr/produit";
+  return siblings.map((s) => {
+    const heroSection = s.sections.find((x) => x.type === "hero");
+    const heroImg = (heroSection && "imageSrc" in heroSection ? heroSection.imageSrc : null) || null;
+    return {
+      imageSrc: heroImg || "https://placehold.co/600x375/e8eafc/3a51e2?text=AirSaas",
+      imageAlt: s.meta.title,
+      title: s.meta.title.slice(0, 80),
+      description: s.meta.description.slice(0, 140),
+      href: `${basePrefix}/${s.slug}`,
+    };
+  });
+}
+
+// R40 + N1 audit Marisella : dedupe orphan CTAs. If the data has 2+ `cta`
+// or `cta-highlight` sections, only render the LAST one (the page outro).
+// Inline CTAs in feature-split.primaryCta still render normally.
+function dedupeCtas(sections: LandingSection[]): LandingSection[] {
+  const ctaIndices = sections
+    .map((s, i) => ({ type: s.type, i }))
+    .filter((x) => x.type === "cta" || x.type === "cta-highlight")
+    .map((x) => x.i);
+  if (ctaIndices.length <= 1) return sections;
+  const lastCtaIdx = ctaIndices[ctaIndices.length - 1];
+  const dropIdx = new Set(ctaIndices.slice(0, -1));
+  return sections.filter((_, i) => !dropIdx.has(i) || i === lastCtaIdx);
+}
+
+// R46 audit Marisella : prompt v4 leaked <strong>/<em>/<a> tags into title
+// fields. Strip them before render so Heading shows clean text. Body fields
+// keep their HTML (rendered via RichSpan / dangerouslySetInnerHTML).
+const TITLE_FIELDS = new Set([
+  "title",
+  "titleHighlight",
+  "titlePrefix",
+  "titleSuffix",
+  "subtitle",
+  "tag",
+  "label",
+]);
+
+function sanitizeTitleFields<T extends Record<string, unknown>>(obj: T): T {
+  const out: Record<string, unknown> = { ...obj };
+  for (const k of Object.keys(out)) {
+    const v = out[k];
+    if (typeof v === "string" && TITLE_FIELDS.has(k)) {
+      out[k] = stripTags(v);
+    } else if (Array.isArray(v)) {
+      out[k] = v.map((item) =>
+        item && typeof item === "object" && !Array.isArray(item)
+          ? sanitizeTitleFields(item as Record<string, unknown>)
+          : item,
+      );
+    } else if (v && typeof v === "object" && !Array.isArray(v)) {
+      out[k] = sanitizeTitleFields(v as Record<string, unknown>);
+    }
+  }
+  return out as T;
+}
+
 export default function LandingPageV2({ page }: { page: LandingPage }) {
+  const relatedSolutions = buildRelatedSolutions(page);
+  const sections = dedupeCtas(page.sections).map(
+    (s) => sanitizeTitleFields(s as unknown as Record<string, unknown>) as unknown as LandingSection,
+  );
+  // R45 audit Marisella : footer copyright must show year dynamic + logo + 🇫🇷.
+  const year = new Date().getFullYear();
+  const copyright = `© ${year} AirSaas — Made in France`;
   return (
     <main className="flex min-h-screen flex-col bg-background">
-      {page.sections.map((section, i) => renderSection(section, i))}
+      {sections.map((section, i) => renderSection(section, i, page.type))}
+      {relatedSolutions ? (
+        <RelatedSolutionsFrame
+          title="Découvrez nos autres solutions"
+          subtitle="Tout AirSaas dans une plateforme unique."
+          solutions={relatedSolutions}
+          linkLabel="Voir plus"
+        />
+      ) : null}
       <Footer
         columns={BLOG_INDEX_DATA.footerColumns}
-        copyright={BLOG_INDEX_DATA.copyright}
+        copyright={copyright}
         copyrightIcon={FOOTER_COPYRIGHT_ICON}
       />
     </main>

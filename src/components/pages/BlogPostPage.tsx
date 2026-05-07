@@ -2,11 +2,13 @@
 
 import { BlogHero } from "@/components/library-design/sections/BlogHero";
 import { TableOfContentsFrame } from "@/components/library-design/sections/TableOfContentsFrame";
+import { TocSidebar } from "@/components/library-design/sections/TocSidebar";
 import { BlogArticleBody } from "@/components/library-design/sections/BlogArticleBody";
 import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaHighlightFrame } from "@/components/library-design/sections/CtaHighlightFrame";
 import { RelatedArticlesFrame } from "@/components/library-design/sections/RelatedArticlesFrame";
 import { BlogCollectionFrame } from "@/components/library-design/sections/BlogCollectionFrame";
+import { NewsletterInlineCard } from "@/components/library-design/sections/NewsletterInlineCard";
 import { Footer } from "@/components/library-design/sections/Footer";
 import type { NavItem } from "@/components/library-design/ui/Navbar";
 import type { BlogCard } from "@/components/library-design/ui/BlogCard";
@@ -20,20 +22,15 @@ type BlogCardProps = React.ComponentProps<typeof BlogCard>;
  *
  * Composes the full article page (top → bottom):
  *   1. BlogHero        — H1 + author attribution + featured illustration
- *   2. TableOfContentsFrame  (optional) — "Sommaire" with anchor links
+ *   2. Sticky TOC sidebar (TocSidebar) when items.length >= 5, else inline
+ *      TableOfContentsFrame above the body
  *   3. BlogArticleBody — rich-text body composed of DS primitives
- *   4. FaqFrame         (optional) — "Questions fréquentes"
- *   5. CtaHighlightFrame (optional) — closing demo / trial CTA
- *   6. RelatedArticlesFrame (optional) — "Pour aller plus loin" outbound links
- *   7. BlogIndexGrid    (optional) — trending / more articles grid
- *   8. Footer
- *
- * All text props are locale-driven — pass translated strings from next-intl /
- * CMS. No hardcoded copy inside the template.
- *
- * In Step 5 CMS this page is wired to `/[locale]/blog/[slug]/page.tsx`, and
- * `articleBody` will switch from `ReactNode` composition to a Strapi blocks
- * array via `@strapi/blocks-react-renderer`.
+ *   4. NewsletterInlineCard (optional) — mid-page newsletter signup
+ *   5. FaqFrame         (optional) — "Questions fréquentes"
+ *   6. CtaHighlightFrame (optional) — closing demo / trial CTA
+ *   7. RelatedArticlesFrame (optional) — "Pour aller plus loin" outbound links
+ *   8. BlogIndexGrid    (optional) — trending / more articles grid
+ *   9. Footer
  *
  * @figma node-id 303-1015
  */
@@ -47,25 +44,29 @@ interface BlogPostPageProps {
   loginHref?: string;
 
   // ── Hero (required) ────────────────────────────────────────────────
-  /** Eyebrow tag above the title (default "Le Blog"). */
   topTagLabel?: string;
-  /** Article H1. */
   title: string;
-  /** Author + category + date attribution. */
   author: BlogHeroAuthor;
-  /** Featured illustration. */
   heroImageSrc: string;
   heroImageAlt: string;
 
   // ── Table of contents (optional) ───────────────────────────────────
   tableOfContents?: {
     title: string;
-    items: Array<{ label: string; href: string }>;
+    items: Array<{ label: string; href: string; level?: 2 | 3 }>;
   };
 
   // ── Article body (required) ────────────────────────────────────────
-  /** Rich-text body composed of DS primitives (Heading / Text / Quote / …). */
   articleBody: React.ReactNode;
+
+  // ── Newsletter inline (optional, R31) ──────────────────────────────
+  newsletterCard?: {
+    title: string;
+    subtitle?: string;
+    placeholder?: string;
+    ctaLabel: string;
+    privacyText?: string;
+  };
 
   // ── FAQ (optional) ─────────────────────────────────────────────────
   faq?: {
@@ -111,6 +112,8 @@ interface BlogPostPageProps {
   copyrightIcon?: React.ReactNode;
 }
 
+const STICKY_TOC_MIN_ITEMS = 5;
+
 export default function BlogPostPage({
   navItems,
   navCtaLabel,
@@ -124,6 +127,7 @@ export default function BlogPostPage({
   heroImageAlt,
   tableOfContents,
   articleBody,
+  newsletterCard,
   faq,
   cta,
   relatedArticles,
@@ -132,6 +136,21 @@ export default function BlogPostPage({
   copyright,
   copyrightIcon,
 }: BlogPostPageProps) {
+  // R32 + N2 audit Marisella : long articles use sticky <TocSidebar> next to
+  // the body; short articles keep the inline horizontal <TableOfContentsFrame>.
+  const tocItemsCount = tableOfContents?.items.length ?? 0;
+  const useSticky = tocItemsCount >= STICKY_TOC_MIN_ITEMS;
+
+  // Convert {label, href, level?} → {id, label, level} for TocSidebar.
+  const sidebarItems =
+    tableOfContents && useSticky
+      ? tableOfContents.items.map((item) => ({
+          id: item.href.replace(/^#/, ""),
+          label: item.label,
+          level: (item.level ?? 2) as 2 | 3,
+        }))
+      : [];
+
   return (
     <main className="flex min-h-screen flex-col bg-background">
       {/* 1. Hero */}
@@ -148,16 +167,55 @@ export default function BlogPostPage({
         imageAlt={heroImageAlt}
       />
 
-      {/* 2. Sommaire (TOC) */}
-      {tableOfContents && (
+      {/* 2. Inline TOC (short articles) */}
+      {tableOfContents && !useSticky && (
         <TableOfContentsFrame
           title={tableOfContents.title}
-          items={tableOfContents.items}
+          items={tableOfContents.items.map((i) => ({ label: i.label, href: i.href }))}
         />
       )}
 
-      {/* 3. Rich-text article body */}
-      <BlogArticleBody>{articleBody}</BlogArticleBody>
+      {/* 3. Article body — sticky TOC sidebar when 5+ items */}
+      {useSticky && tableOfContents ? (
+        <section className="w-full bg-white px-[1.25rem] py-[3rem] md:px-[4rem] md:py-[5rem] lg:px-[6rem] lg:py-[6.25rem]">
+          <div className="mx-auto flex flex-col gap-[2rem] lg:flex-row lg:gap-[4rem] lg:items-start max-w-[91.25rem]">
+            <TocSidebar
+              title={tableOfContents.title}
+              items={sidebarItems}
+              ariaLabel={tableOfContents.title}
+            />
+            <div className="flex-1 flex flex-col gap-[2rem] md:gap-[3.125rem] max-w-[50rem] mx-auto lg:mx-0">
+              {articleBody}
+              {newsletterCard && (
+                <NewsletterInlineCard
+                  title={newsletterCard.title}
+                  subtitle={newsletterCard.subtitle}
+                  placeholder={newsletterCard.placeholder}
+                  ctaLabel={newsletterCard.ctaLabel}
+                  privacyText={newsletterCard.privacyText}
+                />
+              )}
+            </div>
+          </div>
+        </section>
+      ) : (
+        <>
+          <BlogArticleBody>{articleBody}</BlogArticleBody>
+          {newsletterCard && (
+            <section className="w-full bg-white px-[1.25rem] py-[2rem] md:px-[4rem] md:py-[2.5rem] lg:px-[14.375rem] lg:py-[3rem]">
+              <div className="mx-auto max-w-[50rem]">
+                <NewsletterInlineCard
+                  title={newsletterCard.title}
+                  subtitle={newsletterCard.subtitle}
+                  placeholder={newsletterCard.placeholder}
+                  ctaLabel={newsletterCard.ctaLabel}
+                  privacyText={newsletterCard.privacyText}
+                />
+              </div>
+            </section>
+          )}
+        </>
+      )}
 
       {/* 4. FAQ */}
       {faq && (

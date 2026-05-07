@@ -51,7 +51,7 @@ export function BlogArticleBody({
   className,
 }: BlogArticleBodyProps) {
   return (
-    <ProseFrame maxWidth="wide" className={className}>
+    <ProseFrame maxWidth="reading" className={className}>
       {children}
     </ProseFrame>
   );
