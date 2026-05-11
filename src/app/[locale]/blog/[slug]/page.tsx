@@ -15,8 +15,9 @@ type BlogCardProps = ComponentProps<typeof BlogCard>;
 
 type RouteParams = { locale: string; slug: string };
 
-const DEFAULT_HERO_IMAGE =
-  "https://placehold.co/1600x900/e8eafc/3a51e2?text=AirSaas";
+const DEFAULT_HERO_IMAGE = "/assets/icons/AirSaas-logo 300x300.svg";
+const DEFAULT_AUTHOR_AVATAR = "/assets/icons/airsaas-icon.svg";
+const DEFAULT_THUMBNAIL = "/assets/icons/AirSaas-logo 300x300.svg";
 
 export async function generateStaticParams() {
   return ACTIVE_BLOG_ARTICLES_V2.map((article) => ({
@@ -75,13 +76,10 @@ export default async function BlogArticleRoute({
   const heroImage = article.meta.heroImage?.src || DEFAULT_HERO_IMAGE;
   const heroImageAlt = article.meta.heroImage?.alt || article.meta.h1;
 
-  // Author : real or fallback
+  // Author : real or AirSaas fallback (no placehold.co)
   const authorName = article.meta.author?.name || "AirSaas";
   const authorAvatarSrc =
-    article.meta.author?.avatarSrc ||
-    `https://placehold.co/80x80/3c51e2/ffffff?text=${encodeURIComponent(
-      authorName.slice(0, 2).toUpperCase(),
-    )}`;
+    article.meta.author?.avatarSrc || DEFAULT_AUTHOR_AVATAR;
 
   // TOC — fallback to deriving from heading blocks when extract didn't
   // emit toc[] (project-portfolio-management has 22 headings but toc=[])
@@ -131,11 +129,7 @@ export default async function BlogArticleRoute({
       ];
     if (!sibling) continue;
     siblings.push({
-      thumbnailSrc:
-        sibling.meta.heroImage?.src ||
-        `https://placehold.co/600x400/3c51e2/ffffff?text=${encodeURIComponent(
-          sibling.slug.slice(0, 30),
-        )}`,
+      thumbnailSrc: sibling.meta.heroImage?.src || DEFAULT_THUMBNAIL,
       thumbnailAlt: sibling.meta.title,
       date: formatPublishedDate(sibling.meta.publishedDate) || "",
       title: sibling.meta.title.slice(0, 115),
@@ -144,11 +138,7 @@ export default async function BlogArticleRoute({
       authors: [
         {
           name: sibling.meta.author?.name || "AirSaas",
-          avatarSrc:
-            sibling.meta.author?.avatarSrc ||
-            `https://placehold.co/80x80/3c51e2/ffffff?text=${encodeURIComponent(
-              (sibling.meta.author?.name || "AS").slice(0, 2).toUpperCase(),
-            )}`,
+          avatarSrc: sibling.meta.author?.avatarSrc || DEFAULT_AUTHOR_AVATAR,
           avatarAlt: sibling.meta.author?.name || "AirSaas",
         },
       ],

@@ -81,7 +81,7 @@ export function ProseFrame({
     >
       <div
         className={cn(
-          "mx-auto flex flex-col gap-[2rem] md:gap-[3.125rem]",
+          "ds-prose mx-auto flex flex-col gap-[2rem] md:gap-[3.125rem]",
           MAX_WIDTH_CLASS[maxWidth],
         )}
       >

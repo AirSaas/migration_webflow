@@ -129,7 +129,7 @@ export function IllustrationFrame({
           )}
         >
           <Text size="sm" className="italic text-text-muted">
-            {caption}
+            <span dangerouslySetInnerHTML={{ __html: caption }} />
           </Text>
         </figcaption>
       </figure>

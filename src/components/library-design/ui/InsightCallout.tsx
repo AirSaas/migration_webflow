@@ -24,8 +24,9 @@ import {
  *
  * @limits
  *   - title: max 40 chars (single-line heading-4)
- *   - items: 2–6 insight bullets
- *   - item: max 180 chars per bullet
+ *   - items: 1–6 insight bullets (string OR rich ReactNode for inline HTML)
+ *   - item (string only): max 180 chars per bullet — for ReactNode items
+ *     the limit is not enforced since rendered HTML can be richer
  *   - variant: "primary" (default) | "success" | "warning"
  *
  * @forbidden
@@ -36,11 +37,13 @@ import {
 
 type InsightVariant = "primary" | "success" | "warning";
 
+type InsightItem = string | ReactNode;
+
 interface InsightCalloutProps {
   /** Heading for the callout — locale-driven, required (no default). */
   title: string;
-  /** Insight bullets — 2-6 short lines. */
-  items: string[];
+  /** Insight bullets — 1-6 lines. String for plain text, ReactNode for inline HTML. */
+  items: InsightItem[];
   /** Optional leading icon (defaults to a primary info glyph). */
   icon?: ReactNode;
   /** Color variant — maps background + border accent. Default "primary". */
@@ -126,10 +129,12 @@ export function InsightCallout({
   className,
 }: InsightCalloutProps) {
   assertMaxLength("InsightCallout", "title", title, 40);
-  assertArrayBounds("InsightCallout", "items", items, 2, 6);
-  items.forEach((item, i) =>
-    assertMaxLength("InsightCallout", `items[${i}]`, item, 180),
-  );
+  assertArrayBounds("InsightCallout", "items", items, 1, 6);
+  items.forEach((item, i) => {
+    if (typeof item === "string") {
+      assertMaxLength("InsightCallout", `items[${i}]`, item, 180);
+    }
+  });
   assertNoClassNameOverride("InsightCallout", className, [
     "bg-",
     "text-",
@@ -166,9 +171,11 @@ export function InsightCallout({
             >
               <CheckIcon />
             </span>
-            <Text size="md" align="left">
-              {item}
-            </Text>
+            <div className="flex-1">
+              <Text size="md" align="left">
+                {item}
+              </Text>
+            </div>
           </li>
         ))}
       </ul>

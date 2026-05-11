@@ -34,19 +34,15 @@ function excerpt(text: string, max = 180): string {
   return text.slice(0, max).replace(/\s+\S*$/, "") + "…";
 }
 
+const DEFAULT_AUTHOR_AVATAR = "/assets/icons/airsaas-icon.svg";
+const DEFAULT_THUMBNAIL = "/assets/icons/AirSaas-logo 300x300.svg";
+
 export default function Page() {
   const articles = ACTIVE_BLOG_ARTICLES_V2.map((article) => {
     const authorName = article.meta.author?.name || "AirSaas";
     const authorAvatarSrc =
-      article.meta.author?.avatarSrc ||
-      `https://placehold.co/80x80/3c51e2/ffffff?text=${encodeURIComponent(
-        authorName.slice(0, 2).toUpperCase(),
-      )}`;
-    const heroSrc =
-      article.meta.heroImage?.src ||
-      `https://placehold.co/600x400/3c51e2/ffffff?text=${encodeURIComponent(
-        article.slug.slice(0, 30),
-      )}`;
+      article.meta.author?.avatarSrc || DEFAULT_AUTHOR_AVATAR;
+    const heroSrc = article.meta.heroImage?.src || DEFAULT_THUMBNAIL;
     return {
       publishedByLabel: "Publié par",
       inLabel: "dans",

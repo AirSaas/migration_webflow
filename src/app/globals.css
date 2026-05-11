@@ -272,3 +272,22 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
+
+/* Inline links inside long-form editorial content (BlogArticleBody / ProseFrame).
+   Placed in @layer base and wrapped in :where() so any Tailwind utility class
+   on the anchor (e.g. `text-white` on a Button) wins via the utilities layer. */
+@layer base {
+  .ds-prose :where(a:not([data-no-style])) {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    text-decoration-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+  }
+
+  .ds-prose :where(a:not([data-no-style]):hover) {
+    color: var(--color-foreground);
+    text-decoration-color: var(--color-primary);
+  }
+}

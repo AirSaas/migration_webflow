@@ -184,7 +184,7 @@ export default function BlogPostPage({
               items={sidebarItems}
               ariaLabel={tableOfContents.title}
             />
-            <div className="flex-1 flex flex-col gap-[2rem] md:gap-[3.125rem] max-w-[50rem] mx-auto lg:mx-0">
+            <div className="ds-prose flex-1 flex flex-col gap-[2rem] md:gap-[3.125rem] max-w-[50rem] mx-auto lg:mx-0">
               {articleBody}
               {newsletterCard && (
                 <NewsletterInlineCard

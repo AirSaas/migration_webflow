@@ -55,6 +55,31 @@ function normalizeText(html: string): string {
   return html.replace(/<br\s*\/?>(\s*)/g, "<br/>").trim();
 }
 
+/**
+ * For alert-callouts converted from `<blockquote>⚠️ <strong>Label.</strong> body…`,
+ * drop the leading emoji + first <strong> phrase since the label is shown
+ * as the InsightCallout title. Falls through unchanged otherwise.
+ */
+function stripCalloutLead(html: string): string {
+  return html
+    .replace(
+      /^\s*(?:<p[^>]*>\s*)?(?:⚠️|💡|✨|📌|🚨|❗|🔔|✅|💬)?\s*<strong[^>]*>[^<]{1,80}<\/strong>\s*:?\s*/i,
+      "",
+    )
+    .replace(/^\s*<p[^>]*>\s*(?:⚠️|💡|✨|📌|🚨|❗|🔔|✅|💬)\s*/i, "")
+    .trim();
+}
+
+function inferCalloutVariant(
+  title: string,
+  html: string,
+): "primary" | "success" | "warning" {
+  const head = `${title} ${html}`.slice(0, 120);
+  if (/⚠️|🚨|❗|Attention|Méfions|Alerte/i.test(head)) return "warning";
+  if (/✅|Bon à savoir|En résumé|Pro tip|Astuce/i.test(head)) return "success";
+  return "primary";
+}
+
 function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
   switch (block.type) {
     case "heading": {
@@ -151,29 +176,24 @@ function renderBlock(block: BlogArticleBlock, index: number): React.ReactNode {
     case "insight-callout": {
       const html = normalizeText(block.html);
       if (!html) return null;
-      // Extract simple bullets from the HTML. If no bullets, treat as single item.
+      // Split into bullet items when the html has <li>s, else a single item.
+      // Preserve inline HTML (<strong>/<em>/<a>) via RichSpan — earlier
+      // versions stripped all tags which lost emphasis and links.
       const bulletMatches = html.match(/<li[^>]*>([\s\S]*?)<\/li>/gi);
-      const items = bulletMatches
+      const innerHtmlList = bulletMatches
         ? bulletMatches
-            .map((li) => li.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
+            .map((li) => li.replace(/^<li[^>]*>/i, "").replace(/<\/li>\s*$/i, "").trim())
             .filter(Boolean)
             .slice(0, 6)
-        : [html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()].filter(Boolean);
-      if (items.length === 0) return null;
-      if (items.length === 1) {
-        return (
-          <InsightCallout
-            key={index}
-            title="À retenir"
-            items={[items[0].slice(0, 180)]}
-          />
-        );
-      }
+        : [stripCalloutLead(html)].filter(Boolean);
+      if (innerHtmlList.length === 0) return null;
+      const title = block.label?.trim() || "À retenir";
       return (
         <InsightCallout
           key={index}
-          title="À retenir"
-          items={items.slice(0, 6).map((t) => t.slice(0, 180))}
+          title={title.length > 40 ? title.slice(0, 40) : title}
+          variant={inferCalloutVariant(title, html)}
+          items={innerHtmlList.map((h, i) => <RichSpan key={i} html={h} />)}
         />
       );
     }
