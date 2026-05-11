@@ -701,6 +701,72 @@ EXTRACTION RULES (must follow strictly):
 12. INLINE CTAs in body (R22). Links inside the body that visually look
    like buttons (class="btn-*", class="cta-*", inside <div class="cta-inline">,
    or <a class="button">) MUST emit an "inline-cta" block (label + href),
-   NOT a paragraph. Standalone .hs-cta-embed / .hbspt-cta blocks remain
-   "hubspot-cta" (rule 3).
+   NOT a paragraph.
+
+13. HUBSPOT EMBEDS (R22 special-case). HubSpot CTA iframes
+   (.hs-cta-embed / .hbspt-cta) have no extractable label/href server-side.
+   Emit a generic "inline-cta" with label "Réservez votre démo de 30 min"
+   and href "/fr/meetings-pages" so the rebuild has a working CTA where
+   the source had a HubSpot widget.
+
+14. ALERT-CALLOUT BLOCKQUOTES. A <blockquote> whose first inner text starts
+   with an alert emoji (⚠️ 💡 ✨ 📌 🚨 ❗ 🔔 ✅ 💬) OR with a <strong> label
+   matching "À retenir" / "À noter" / "Bon à savoir" / "En résumé" /
+   "Le saviez-vous" / "Astuce" / "Pro tip" is a CALLOUT, not a citation.
+   Emit "insight-callout" with the full html body and a "label" field
+   containing the label text (or the emoji's mapped label). Do NOT emit
+   "quote".
+
+WEBFLOW MARKUP EXAMPLES (input → output):
+
+Example A — semantic blockquote with author (R18):
+\`\`\`html
+<blockquote class="blockquote-center">
+  <p>"L'entreprise est une collectivité..."</p>
+</blockquote>
+<p class="autor-center">Gilles de Richemond</p>
+<p class="job-center">CEO Fairlyne | extrait du Podcast CIO Révolution</p>
+\`\`\`
+→ ONE block: { type: "quote", text: "L'entreprise est une collectivité...", author: "Gilles de Richemond, CEO Fairlyne | extrait du Podcast CIO Révolution" }
+
+Example B — Webflow CMS .citation-blog wrapping a blockquote (R18):
+\`\`\`html
+<div class="citation-blog">
+  <blockquote class="blockquote2">
+    "Au vu de notre positionnement..." - Olivier Fiquet
+  </blockquote>
+</div>
+\`\`\`
+→ ONE block (NOT two — the wrapper and inner blockquote are the same quote):
+   { type: "quote", text: "Au vu de notre positionnement...", author: "Olivier Fiquet" }
+
+Example C — alert-callout disguised as blockquote (R20 / rule 14):
+\`\`\`html
+<blockquote>⚠️ <strong>Méfions-nous des mots creux.</strong> Les termes "prioriser" et "piloter" sont parmi les plus galvaudés...</blockquote>
+\`\`\`
+→ { type: "insight-callout", label: "Méfions-nous des mots creux", html: "⚠️ <strong>Méfions-nous des mots creux.</strong> Les termes \\"prioriser\\" et \\"piloter\\" sont parmi les plus galvaudés..." }
+
+Example D — .a-retenir panel with bullets (R20):
+\`\`\`html
+<div class="a-retenir">
+  <h3>À retenir</h3>
+  <ul><li>Premier point.</li><li>Deuxième point.</li></ul>
+</div>
+\`\`\`
+→ { type: "insight-callout", label: "À retenir", html: "<ul><li>Premier point.</li><li>Deuxième point.</li></ul>" }
+
+Example E — HubSpot CTA embed (rule 13):
+\`\`\`html
+<div class="w-embed"><div class="hs-cta-embed hs-cta-simple-placeholder ...">
+  <iframe src="https://7979190.hs-sites.com/hs-web-interactive-..." ...></iframe>
+</div></div>
+\`\`\`
+→ { type: "inline-cta", label: "Réservez votre démo de 30 min", href: "/fr/meetings-pages" }
+
+Example F — speaker avatar div (DECORATIVE — DO NOT EXTRACT as quote):
+\`\`\`html
+<div class="speaker-blog-quote" style="background-image: url(...)"></div>
+\`\`\`
+→ NO block. The speaker-blog-quote class is the avatar wrapper for an
+   adjacent blockquote — count it once via the quote block, not separately.
 `;

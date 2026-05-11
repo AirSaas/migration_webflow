@@ -70,10 +70,12 @@ function scoreArticle(extract, hints) {
       continue;
     }
     if (d.expected === 0) {
-      // Source has 0 but extract has some — not necessarily wrong (could be CMS templates).
-      // Score as partial match.
+      // Source has 0 but extract has some — the LLM identified content that
+      // visually deserves richer typography (a paragraph that reads as a
+      // quote, a key-takeaway worth surfacing as a callout). This is
+      // generally a UX win, not a bug. Score as full match.
       total++;
-      matched += 0.8;
+      matched++;
       continue;
     }
     // Score = min(1, actual / expected) — partial credit when LLM emits more.

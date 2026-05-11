@@ -40,6 +40,50 @@ function countMatches(str, re) {
 }
 
 /**
+ * Count elements where the class attribute contains at least one of the
+ * exact-named classes from `classNames`. Class match is whitespace-bounded
+ * — `blog-quote` matches `class="x blog-quote y"` but NOT
+ * `class="speaker-blog-quote"`.
+ */
+function countByExactClass(html, tagPattern, classNames) {
+  const tagRe = new RegExp(`<(?:${tagPattern})\\b[^>]*\\bclass="([^"]*)"[^>]*>`, "gi");
+  const wanted = new Set(classNames);
+  let count = 0;
+  let m;
+  while ((m = tagRe.exec(html)) !== null) {
+    const classes = m[1].split(/\s+/);
+    if (classes.some((c) => wanted.has(c))) count++;
+  }
+  return count;
+}
+
+/**
+ * Count visible quotes — de-duplicates nested `<blockquote>` wrapped in
+ * `.citation-blog`/`.pull-quote` divs (Webflow CMS template pattern).
+ * Logic: count `<blockquote>` tags first; only count quote-class divs that
+ * do NOT contain a `<blockquote>` (rare standalone case).
+ */
+function countQuotes(html) {
+  const blockquoteCount = countMatches(html, /<blockquote\b[^>]*>/gi);
+  // Match each .citation-blog / .pull-quote / .quote-block / .testimonial-blog
+  // div as a complete element (with body), then check if it nests a blockquote.
+  // .blog-quote is intentionally EXCLUDED: in this Webflow site it tags the
+  // .speaker-blog-quote avatar div (decorative), not the quote itself.
+  const wrapperRe = /<(?:div|aside)\b[^>]*\bclass="([^"]*)"[^>]*>([\s\S]*?)<\/(?:div|aside)>/gi;
+  const wantedClasses = new Set(["citation-blog", "pull-quote", "quote-block", "testimonial-blog"]);
+  let standaloneWrappers = 0;
+  let m;
+  while ((m = wrapperRe.exec(html)) !== null) {
+    const classes = m[1].split(/\s+/);
+    if (!classes.some((c) => wantedClasses.has(c))) continue;
+    // If the wrapper already contains a <blockquote>, it's nested → already counted.
+    if (/<blockquote\b/i.test(m[2])) continue;
+    standaloneWrappers++;
+  }
+  return blockquoteCount + standaloneWrappers;
+}
+
+/**
  * Compute structural hints for a blog article HTML.
  *
  * @param {string} html — full Webflow HTML (from Supabase rebuild table)
@@ -62,39 +106,61 @@ export function computeStructuralHints(html) {
     .replace(/<style[\s\S]*?<\/style>/gi, "")
     .replace(/<noscript[\s\S]*?<\/noscript>/gi, "");
 
+  // Callouts: count panel-like divs/asides AND <blockquote>s used as alert
+  // callouts (e.g. `<blockquote>💡 <strong>Le saviez-vous ?</strong>...`).
+  // A standalone <h2>Astuce…</h2> is a section header, NOT a callout — only
+  // count phrase matches when the parent element is a panel-like wrapper.
+  const calloutPanelDivs = countByExactClass(cleaned, "div|aside|section", [
+    "a-retenir",
+    "callout",
+    "insight",
+    "highlight",
+    "note-bloc",
+    "info-bloc",
+    "warning-bloc",
+    "tip-bloc",
+    "encart",
+    "bon-a-savoir",
+    "cta-product",
+  ]);
+  // Match <blockquote> whose first inner text starts with an alert emoji
+  // (⚠️/💡/✨/📌/🚨/❗/🔔/✅/💬) OR with a known callout label in <strong>.
+  const calloutBlockquotes = countMatches(
+    cleaned,
+    /<blockquote\b[^>]*>\s*(?:<p[^>]*>\s*)?(?:⚠️|💡|✨|📌|🚨|❗|🔔|✅|💬|<strong[^>]*>\s*(?:À retenir|À noter|Bon à savoir|En résumé|Le saviez-vous|Astuce|Pro tip))/gi,
+  );
+
+  const quoteTotal = countQuotes(cleaned);
+  // Some <blockquote>s are alert-callouts (counted above) — don't double-count
+  // them as quotes. Cap at 0.
+  const realQuotes = Math.max(0, quoteTotal - calloutBlockquotes);
+
+  // HubSpot CTA embeds are JS-injected iframes with no extractable label/href.
+  // In the rebuild they are rendered as a generic `inline-cta` linking to the
+  // site-wide demo route, so we count them under `inlineCta` (not a separate
+  // `hubspotCta` dim) for the audit to match what we actually render.
+  const hubspotEmbeds = countMatches(
+    cleaned,
+    /<(?:div|span|iframe)\b[^>]*class="[^"]*(?:hs-cta-embed|hbspt-cta|hs-cta-wrapper)[^"]*"/gi,
+  );
+
   return {
-    // Blockquotes — semantic <blockquote> AND Webflow stylized quote divs
-    blockquote:
-      countMatches(cleaned, /<blockquote\b[^>]*>/gi) +
-      countMatches(
-        cleaned,
-        /<(?:aside|div)\b[^>]*class="[^"]*(?:blog-quote|pull-quote|testimonial-blog|citation-blog|quote-block)[^"]*"/gi,
-      ),
+    blockquote: realQuotes,
     table: countMatches(cleaned, /<table\b[^>]*>/gi),
-    callout:
-      countMatches(
-        cleaned,
-        /<(?:aside|div)\b[^>]*class="[^"]*(?:a-retenir|callout|insight|highlight|note-bloc|info-bloc|warning-bloc|tip-bloc|encart|bon-a-savoir|cta-product)[^"]*"/gi,
-      ) +
-      // Also count visible "À retenir" / "À noter" / "Bon à savoir" headings
-      // followed by a panel-like structure
-      countMatches(
-        cleaned,
-        /<(?:h[2-6]|strong|b|p)\b[^>]*>\s*(?:À retenir|À noter|Bon à savoir|En résumé|Le saviez-vous|Astuce|Pro tip)\b/gi,
-      ),
+    callout: calloutPanelDivs + calloutBlockquotes,
     inlineCta:
       countMatches(
         cleaned,
         /<a\b[^>]*class="[^"]*(?:btn-|cta-|button-|wp-block-button|wf-button|w-button)[^"]*"/gi,
       ) +
-      countMatches(
-        cleaned,
-        /<div\b[^>]*class="[^"]*(?:cta-inline|cta-card-product|cta-encart|encart-cta)[^"]*"[^>]*>/gi,
-      ),
-    hubspotCta: countMatches(
-      cleaned,
-      /<(?:div|span|iframe)\b[^>]*class="[^"]*(?:hs-cta-embed|hbspt-cta|hs-cta-wrapper)[^"]*"/gi,
-    ),
+      countByExactClass(cleaned, "div", [
+        "cta-inline",
+        "cta-card-product",
+        "cta-encart",
+        "encart-cta",
+      ]) +
+      hubspotEmbeds,
+    hubspotCta: 0,
     linkedFigure: countMatches(
       cleaned,
       /<a\b[^>]*>\s*<(?:figure|img)\b[^>]*>/gi,
