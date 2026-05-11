@@ -11,8 +11,8 @@
   },
   {
     "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
-    "skip": false,
-    "reason": null
+    "skip": true,
+    "reason": "extract emits 21k blocks (likely nested array spam) — needs manual cleanup"
   },
   {
     "slug": "budget-previsionnel-projet",

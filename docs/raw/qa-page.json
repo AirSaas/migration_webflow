@@ -1,187 +1,5 @@
 [
   {
-    "slug": "pi-planning",
-    "type": "lp",
-    "url": "/fr/lp/pi-planning",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "pmo",
-    "type": "lp",
-    "url": "/fr/lp/pmo",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "ppm",
-    "type": "lp",
-    "url": "/fr/lp/ppm",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "capacity-planning",
-    "type": "lp",
-    "url": "/fr/lp/capacity-planning",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "budget",
-    "type": "produit",
-    "url": "/fr/produit/budget",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "automatiser-la-com-projet",
-    "type": "produit",
-    "url": "/fr/produit/automatiser-la-com-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "priorisation-par-equipes",
-    "type": "produit",
-    "url": "/fr/produit/priorisation-par-equipes",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "reporting-projet",
-    "type": "produit",
-    "url": "/fr/produit/reporting-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "capacity-planning",
-    "type": "produit",
-    "url": "/fr/produit/capacity-planning",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "airsaas-et-les-experts-de-la-transfo",
-    "type": "solution",
-    "url": "/fr/solutions/airsaas-et-les-experts-de-la-transfo",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "traduction-one-click-avec-deepl",
-    "type": "produit",
-    "url": "/fr/produit/traduction-one-click-avec-deepl",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "flash-report",
-    "type": "solution",
-    "url": "/fr/solutions/flash-report",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "flash-report-projet",
-    "type": "solution",
-    "url": "/fr/solutions/flash-report-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "gestion-portefeuille-projet",
-    "type": "solution",
-    "url": "/fr/solutions/gestion-portefeuille-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "outil-ppm",
-    "type": "solution",
-    "url": "/fr/solutions/outil-ppm",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "management-de-portefeuille-projet",
-    "type": "solution",
-    "url": "/fr/solutions/management-de-portefeuille-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "portfolio-management",
-    "type": "solution",
-    "url": "/fr/solutions/portfolio-management",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "outils-de-pilotage-projet",
-    "type": "solution",
-    "url": "/fr/solutions/outils-de-pilotage-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "revue-de-portefeuille",
-    "type": "solution",
-    "url": "/fr/solutions/revue-de-portefeuille",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "direction-de-la-transformation",
-    "type": "equipe",
-    "url": "/fr/equipes/direction-de-la-transformation",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "tableau-de-bord-portefeuille-de-projet",
-    "type": "solution",
-    "url": "/fr/solutions/tableau-de-bord-portefeuille-de-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "tableau-de-bord-gestion-de-projet",
-    "type": "solution",
-    "url": "/fr/solutions/tableau-de-bord-gestion-de-projet",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "comite-direction",
-    "type": "equipe",
-    "url": "/fr/equipes/comite-direction",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "tableau-de-bord-dsi",
-    "type": "solution",
-    "url": "/fr/solutions/tableau-de-bord-dsi",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "it-et-operation",
-    "type": "equipe",
-    "url": "/fr/equipes/it-et-operation",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "outil-pmo",
-    "type": "equipe",
-    "url": "/fr/equipes/outil-pmo",
-    "status": 200,
-    "issues": []
-  },
-  {
     "slug": "budget-previsionnel-projet",
     "type": "blog",
     "url": "/fr/blog/budget-previsionnel-projet",
@@ -196,16 +14,9 @@
     "issues": []
   },
   {
-    "slug": "appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
+    "slug": "cadrage-projet",
     "type": "blog",
-    "url": "/fr/blog/appel-doffres-et-evaluation-dune-solution-ppm-project-portfolio-management",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "analyse-des-risques-projet",
-    "type": "blog",
-    "url": "/fr/blog/analyse-des-risques-projet",
+    "url": "/fr/blog/cadrage-projet",
     "status": 200,
     "issues": []
   },
@@ -217,9 +28,16 @@
     "issues": []
   },
   {
-    "slug": "cadrage-projet",
+    "slug": "analyse-des-risques-projet",
     "type": "blog",
-    "url": "/fr/blog/cadrage-projet",
+    "url": "/fr/blog/analyse-des-risques-projet",
+    "status": 200,
+    "issues": []
+  },
+  {
+    "slug": "capacity-planning",
+    "type": "blog",
+    "url": "/fr/blog/capacity-planning",
     "status": 200,
     "issues": []
   },
@@ -238,23 +56,9 @@
     "issues": []
   },
   {
-    "slug": "capacity-planning",
-    "type": "blog",
-    "url": "/fr/blog/capacity-planning",
-    "status": 200,
-    "issues": []
-  },
-  {
     "slug": "comite-de-pilotage-definitions-et-incomprehensions",
     "type": "blog",
     "url": "/fr/blog/comite-de-pilotage-definitions-et-incomprehensions",
-    "status": 200,
-    "issues": []
-  },
-  {
-    "slug": "comite-pilotage-projet",
-    "type": "blog",
-    "url": "/fr/blog/comite-pilotage-projet",
     "status": 200,
     "issues": []
   },
@@ -266,9 +70,9 @@
     "issues": []
   },
   {
-    "slug": "comment-elaborer-un-reporting-efficace",
+    "slug": "comite-pilotage-projet",
     "type": "blog",
-    "url": "/fr/blog/comment-elaborer-un-reporting-efficace",
+    "url": "/fr/blog/comite-pilotage-projet",
     "status": 200,
     "issues": []
   },
@@ -276,6 +80,20 @@
     "slug": "comment-animer-un-bilan-projet-efficace",
     "type": "blog",
     "url": "/fr/blog/comment-animer-un-bilan-projet-efficace",
+    "status": 200,
+    "issues": []
+  },
+  {
+    "slug": "comment-elaborer-un-reporting-efficace",
+    "type": "blog",
+    "url": "/fr/blog/comment-elaborer-un-reporting-efficace",
+    "status": 200,
+    "issues": []
+  },
+  {
+    "slug": "comment-decider-en-copil",
+    "type": "blog",
+    "url": "/fr/blog/comment-decider-en-copil",
     "status": 200,
     "issues": []
   },
@@ -291,13 +109,6 @@
         "details": "2× <a href=\"\"> or <a href=\"#\">"
       }
     ]
-  },
-  {
-    "slug": "comment-decider-en-copil",
-    "type": "blog",
-    "url": "/fr/blog/comment-decider-en-copil",
-    "status": 200,
-    "issues": []
   },
   {
     "slug": "comment-faire-un-bon-point-davancement-projet",
@@ -321,16 +132,16 @@
     "issues": []
   },
   {
-    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
+    "slug": "comment-mettre-une-bonne-meteo-projet",
     "type": "blog",
-    "url": "/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
+    "url": "/fr/blog/comment-mettre-une-bonne-meteo-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "comment-mettre-une-bonne-meteo-projet",
+    "slug": "comment-mettre-en-place-un-comite-de-pilotage",
     "type": "blog",
-    "url": "/fr/blog/comment-mettre-une-bonne-meteo-projet",
+    "url": "/fr/blog/comment-mettre-en-place-un-comite-de-pilotage",
     "status": 200,
     "issues": []
   },
@@ -377,16 +188,16 @@
     "issues": []
   },
   {
-    "slug": "gestion-de-portefeuille-projet-pme",
+    "slug": "kanban-gestion-de-projet",
     "type": "blog",
-    "url": "/fr/blog/gestion-de-portefeuille-projet-pme",
+    "url": "/fr/blog/kanban-gestion-de-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "kanban-gestion-de-projet",
+    "slug": "gestion-de-portefeuille-projet-pme",
     "type": "blog",
-    "url": "/fr/blog/kanban-gestion-de-projet",
+    "url": "/fr/blog/gestion-de-portefeuille-projet-pme",
     "status": 200,
     "issues": []
   },
@@ -419,16 +230,16 @@
     "issues": []
   },
   {
-    "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+    "slug": "le-modele-de-presentation-pour-votre-comite-de-pilotage",
     "type": "blog",
-    "url": "/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
+    "url": "/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
     "type": "blog",
-    "url": "/fr/blog/le-modele-de-presentation-pour-votre-comite-de-pilotage",
+    "url": "/fr/blog/gestion-portefeuille-projets-vs-gestion-de-projet",
     "status": 200,
     "issues": []
   },
@@ -495,16 +306,16 @@
     "issues": []
   },
   {
-    "slug": "pi-safe",
+    "slug": "pilotage-de-projet",
     "type": "blog",
-    "url": "/fr/blog/pi-safe",
+    "url": "/fr/blog/pilotage-de-projet",
     "status": 200,
     "issues": []
   },
   {
-    "slug": "pilotage-de-projet",
+    "slug": "pi-safe",
     "type": "blog",
-    "url": "/fr/blog/pilotage-de-projet",
+    "url": "/fr/blog/pi-safe",
     "status": 200,
     "issues": []
   },
@@ -516,9 +327,9 @@
     "issues": []
   },
   {
-    "slug": "management-de-portefeuille-de-projet",
+    "slug": "pi-planning",
     "type": "blog",
-    "url": "/fr/blog/management-de-portefeuille-de-projet",
+    "url": "/fr/blog/pi-planning",
     "status": 200,
     "issues": []
   },
@@ -530,9 +341,9 @@
     "issues": []
   },
   {
-    "slug": "pi-planning",
+    "slug": "management-de-portefeuille-de-projet",
     "type": "blog",
-    "url": "/fr/blog/pi-planning",
+    "url": "/fr/blog/management-de-portefeuille-de-projet",
     "status": 200,
     "issues": []
   },
