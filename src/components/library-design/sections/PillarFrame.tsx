@@ -32,7 +32,7 @@ export interface Pillar {
  *   - titleHighlight: max 40 chars
  *   - title: max 80 chars
  *   - subtitle: max 260 chars
- *   - pillars: 2–6 items (matches columns 2 or 3)
+ *   - pillars: 2–8 items (2/4/6/8 with columns=2 or 4; 3/6 with columns=3)
  *   - pillar.title: max 20 chars (uppercase, short — "DROP", "ADD")
  *   - pillar.description: max 220 chars
  *   - pillar.example: max 180 chars (optional)
@@ -49,8 +49,9 @@ interface PillarFrameProps {
   /** Second part of the title — rendered in dark-to-primary gradient (light) or white (dark) */
   title: string;
   subtitle?: string;
-  /** Number of columns at lg breakpoint (default 2) */
-  columns?: 2 | 3;
+  /** Number of columns at lg breakpoint (default 2). Use 4 for compact trust
+   *  strips like security badges (icon + short title + short description). */
+  columns?: 2 | 3 | 4;
   pillars: Pillar[];
   /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
   id?: string;
@@ -111,7 +112,11 @@ export function PillarFrame({
       <div
         className={cn(
           "grid w-full max-w-[91rem] grid-cols-1 gap-[3rem] lg:gap-[4rem]",
-          columns === 3 ? "md:grid-cols-2 lg:grid-cols-3" : "md:grid-cols-2",
+          columns === 4
+            ? "md:grid-cols-2 lg:grid-cols-4"
+            : columns === 3
+              ? "md:grid-cols-2 lg:grid-cols-3"
+              : "md:grid-cols-2",
         )}
       >
         {pillars.map((pillar, i) => (
