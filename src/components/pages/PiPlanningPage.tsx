@@ -28,7 +28,6 @@
  */
 
 import { Hero } from "@/components/library-design/sections/Hero";
-import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { ComparisonFrame } from "@/components/library-design/sections/ComparisonFrame";
 import { ComparisonDualFrame } from "@/components/library-design/sections/ComparisonDualFrame";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
@@ -40,33 +39,18 @@ import { Footer } from "@/components/library-design/sections/Footer";
 import { SectionHeading } from "@/components/library-design/ui/SectionHeading";
 import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { CardCta } from "@/components/library-design/ui/CardCta";
-import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import {
-  BullseyeArrowIcon,
-  LockKeyholeIcon,
-  IndustryIcon,
-  ClipboardCheckIcon,
   GearsIcon,
   StopwatchIcon,
   CalendarStarIcon,
-  CalendarDayIcon,
-  ArrowsRotateIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 
 function LgIcon({ children }: { children: React.ReactNode }) {
   return (
     <IconIllustration variant="dark" size="lg">
-      {children}
-    </IconIllustration>
-  );
-}
-
-function MdIcon({ children }: { children: React.ReactNode }) {
-  return (
-    <IconIllustration variant="dark" size="md">
       {children}
     </IconIllustration>
   );
@@ -90,14 +74,14 @@ export default function PiPlanningPage() {
         title="Miro + Jira + PowerBI :"
         titleHighlight="ce n'est pas comme ça qu'un RTE embarque les métiers."
         subtitle="Synchronisez vos features Jira, nettoyez vos données, donnez une vue claire aux métiers et au Comex. Opérationnel en 1 PI, pas en 6 mois."
-        primaryCta={{ label: "Réserver une démo", href: "#demo" }}
+        primaryCta={{ label: "Réservez une démo", href: "#demo" }}
         secondaryCta={{
-          label: "🎥 Découvrir l'outil en vidéo",
+          label: "Découvrir l'outil en vidéo",
           href: "/fr/video/pi-planning",
         }}
         bottomTags={[
-          { label: "Import Jira en 1 clic", variant: "success" },
-          { label: "Nettoyage data dans AirSaas", variant: "muted" },
+          { label: "Import Jira en quelques clics", variant: "success" },
+          { label: "Nettoyage des données AirSaas", variant: "muted" },
           { label: "Accompagnement pragmatique", variant: "muted" },
         ]}
         imageSrc={`${PPM_PATH}/dashboards/hero-portfolio-q1-2025.webp`}
@@ -117,91 +101,40 @@ export default function PiPlanningPage() {
         ]}
       />
 
-      {/* 3. Key metrics — 4 FeatureCard stats */}
-      <ValuePropositionFrame
-        tag="LES RÉSULTATS"
-        titleHighlight="4 chiffres"
-        title="qui changent avec AirSaas"
-        subtitle="Les gains moyens observés chez les RTE et PMO qui adoptent AirSaas pour piloter leurs Program Increments."
-        columns={4}
-      >
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <CalendarDayIcon />
-            </MdIcon>
-          }
-          title="1 PI"
-          description="Pour être opérationnel sur votre premier Program Increment."
-          className="flex-1"
-        />
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <ArrowsRotateIcon />
-            </MdIcon>
-          }
-          title="Synchro Jira"
-          description="Native, sans connecteur tiers ni script à maintenir."
-          className="flex-1"
-        />
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <BullseyeArrowIcon />
-            </MdIcon>
-          }
-          title="0 PowerBI"
-          description="Plus aucun dashboard BI à maintenir pour le Comex."
-          className="flex-1"
-        />
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <StopwatchIcon />
-            </MdIcon>
-          }
-          title="-80%"
-          description="De temps passé à construire des reportings PI."
-          className="flex-1"
-        />
-      </ValuePropositionFrame>
-
-      {/* 4. Pain points — "Le quotidien du RTE aujourd'hui" (6 items) */}
+      {/* 3. Pain points — "Le quotidien du RTE aujourd'hui" (6 items, verbatim from live) */}
       <ComparisonFrame
         emoji="⚠️"
         title="Le quotidien du RTE aujourd'hui"
-        subtitle="Les 6 symptômes que 9 RTE sur 10 nous décrivent en première réunion."
         items={[
           {
             value: 1,
             description:
-              "Le Program Board vit sur Miro pendant 2 jours. Après, c'est le chaos : plus personne ne le met à jour.",
+              "Le Program Board vit sur Miro pendant 2 jours. Après, c'est le chaos.",
           },
           {
             value: 2,
             description:
-              "Vous passez plus de temps à customiser Jira qu'à piloter votre train de delivery.",
+              "Vous passez plus de temps à customiser Jira qu'à piloter votre train. Vous êtes devenu certifié Jira, pas certifié RTE.",
           },
           {
             value: 3,
             description:
-              "Les reports Jira sont moches et incompréhensibles pour les métiers et le Comex.",
+              "Les reports Jira sont moches. Et comme la donnée n'est pas clean, ça coûte cher d'en faire des vrais.",
           },
           {
             value: 4,
             description:
-              "Une feature pas finie en fin de PI ? Vous la décalez et perdez tout l'historique de pilotage.",
+              "Une feature pas finie en fin de PI ? Vous la décalez et perdez l'historique. Ou vous bricolez. Au bout de 3 PI, c'est le chaos.",
           },
           {
             value: 5,
             description:
-              "Les métiers ne se connectent pas à Jira. Vous traduisez à la main lors de chaque revue.",
+              "Les métiers ne se connectent pas à Jira. Et vous le savez.",
           },
           {
             value: 6,
             description:
-              "Vous êtes devenu expert Excel et PowerBI alors que votre job c'est de faire livrer.",
+              "Vous êtes devenu expert Excel/PowerBI alors que votre job c'est de faire livrer.",
           },
         ]}
       />
@@ -437,14 +370,7 @@ export default function PiPlanningPage() {
         ]}
       />
 
-      {/* 16. AirSaas differentiator — closing tagline below the competitor PillarFrame */}
-      <SectionHeading
-        titleGradient="AirSaas"
-        titleDark=": 1 PI de setup, prix accessible, utilisé au quotidien."
-        subtitle="Côté équipes ET côté Comex. Pas une usine à gaz, pas un outil-événement, pas un dashboard BI à maintenir."
-      />
-
-      {/* 17. Testimonial — Sébastien Louyot (photo + LinkedIn reused from /lp-ppm/) */}
+      {/* 16. Testimonial — Sébastien Louyot (photo + LinkedIn reused from /lp-ppm/) */}
       <TestimonialsFrame
         title="Ils ont arrêté"
         titleHighlight="le bricolage"
@@ -464,56 +390,14 @@ export default function PiPlanningPage() {
         </div>
       </TestimonialsFrame>
 
-      {/* 18. Sécurité — 4 trust badges */}
-      <ValuePropositionFrame
-        titleHighlight="Sécurité"
-        title="au top"
+      {/* 17. Sécurité — single tagline (matches live, no invented trust badges) */}
+      <SectionHeading
+        titleGradient="Sécurité"
+        titleDark="au top"
         subtitle="AirSaas passe la porte des DSI les plus exigeantes."
-        columns={4}
-      >
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <ClipboardCheckIcon />
-            </MdIcon>
-          }
-          title="ISO 27001"
-          description="Certifié"
-          className="flex-1"
-        />
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <IndustryIcon />
-            </MdIcon>
-          }
-          title="Hébergé en France"
-          description="Scaleway"
-          className="flex-1"
-        />
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <BullseyeArrowIcon />
-            </MdIcon>
-          }
-          title="Pentest"
-          description="Résultats sur demande"
-          className="flex-1"
-        />
-        <FeatureCard
-          icon={
-            <MdIcon>
-              <LockKeyholeIcon />
-            </MdIcon>
-          }
-          title="SSO / SAML"
-          description="Intégration AD"
-          className="flex-1"
-        />
-      </ValuePropositionFrame>
+      />
 
-      {/* 19. FAQ */}
+      {/* 18. FAQ */}
       <FaqFrame
         id="faq"
         title="Questions"
@@ -532,17 +416,17 @@ export default function PiPlanningPage() {
           {
             question: "Combien ça coûte ?",
             answer:
-              "Prix accessible — sans commune mesure avec Jira Align. Parlons-en lors d'une démo, on calibre selon votre contexte.",
+              "Prix accessible. Parlons-en lors d'une démo.",
           },
           {
             question: "Mes données Jira sont sales, c'est un problème ?",
             answer:
-              "Non. Vous importez vos features puis vous nettoyez et structurez dans AirSaas avant de finaliser. Pas besoin de faire le ménage dans Jira au préalable.",
+              "Non. Vous importez vos features puis vous nettoyez et structurez dans AirSaas avant de finaliser. Pas besoin de faire le ménage dans Jira.",
           },
           {
             question: "Combien de temps pour démarrer ?",
             answer:
-              "1 PI pour être opérationnel. Pas 6 mois comme Jira Align. Accompagnement dédié par nos experts inclus dans le setup.",
+              "1 PI pour être opérationnel. Pas 6 mois comme Jira Align. Accompagnement dédié par nos experts inclus.",
           },
         ]}
       />
