@@ -64,6 +64,7 @@ Sonnet 4.6 sur 88 pages ≈ ~$4-5 par run complet. Avec prompt caching (cache_co
 
 Règles absolues :
 - **Product Sans only** — pas d'autre font family, pas de Google Fonts
+- **Font weights supportés : 300 / 400 / 500 / 700 / 900 uniquement** — la fonderie ne livre pas de SemiBold (600). `font-semibold` est INTERDIT (déclenche du synthetic bolding du navigateur, rendu flou/lourd). Pour de l'emphase moyenne utiliser `font-medium` (500), pour de l'emphase forte `font-bold` (700). Voir `src/app/globals.css` en tête.
 - **Zéro hex / rgba hardcoded** — tous les couleurs passent par les tokens (palette alignée Figma)
 - **Zéro Tailwind palette par défaut** — pas de `bg-gray-*`, `text-slate-*`, etc.
 - **Zéro arbitrary Tailwind value** — pas de `bg-[#...]`, `text-[14px]`, etc.

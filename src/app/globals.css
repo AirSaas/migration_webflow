@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
-/* Product Sans font faces */
+/* Product Sans font faces
+ *
+ * Supported weights: 300, 400, 500, 700, 900.
+ * Weight 600 (`font-semibold`) is INTENTIONALLY ABSENT — the foundry does not
+ * ship a SemiBold cut of Product Sans. Using `font-semibold` triggers browser
+ * synthetic bolding (algorithmic thickening of Regular), which produces the
+ * blurry / heavier letterforms we've been chasing in audits.
+ *
+ * DS policy: use `font-medium` (500) for emphasised text, `font-bold` (700)
+ * for strong emphasis. Never `font-semibold`. See CLAUDE.md "DS Strict Mode".
+ */
 @font-face {
   font-family: "Product Sans";
   src: url("/fonts/ProductSans-Light.ttf") format("truetype");
@@ -13,6 +23,14 @@
   font-family: "Product Sans";
   src: url("/fonts/ProductSans-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Medium.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
