@@ -32,6 +32,15 @@ test.describe("LP PPM — visual", () => {
     );
   });
 
+  test("Clients — LogosBar Default", async ({ page }) => {
+    const kiabi = page.locator('img[alt="Kiabi"]');
+    await kiabi.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+    await expect(kiabi.locator("xpath=ancestor::div[contains(@class, 'border-y')][1]")).toHaveScreenshot(
+      "clients-logos.png",
+    );
+  });
+
   test("Stats — ValuePropositionFrame 4 FeatureCard", async ({ page }) => {
     const heading = page.getByRole("heading", {
       name: /qui changent avec AirSaas/i,

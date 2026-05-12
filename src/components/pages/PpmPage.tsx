@@ -117,21 +117,16 @@ export default function PpmPage() {
       />
 
       {/* 2. Client logos — Kiabi, Altavia, Valrhona, Intuis, SNCF
-          (Deviation: doc said ClientsFrame; using LogosBar per its @dontUse note.) */}
-      <section className="flex flex-col items-center gap-[1.5rem] bg-primary-2 px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[4rem] lg:px-[10rem] lg:py-[5rem]">
-        <LogosBar
-          label="Ils nous font confiance"
-          size="lg"
-          variant="plain"
-          logos={[
-            { src: `${PPM_PAGE_PATH}/logos/kiabi.png`, alt: "Kiabi" },
-            { src: `${PPM_PAGE_PATH}/logos/altavia.svg`, alt: "Altavia" },
-            { src: `${PPM_PAGE_PATH}/logos/valrhona.png`, alt: "Valrhona" },
-            { src: `${PPM_PAGE_PATH}/logos/intuis.png`, alt: "Intuis" },
-            { src: `${PPM_PAGE_PATH}/logos/sncf.svg`, alt: "SNCF" },
-          ]}
-        />
-      </section>
+          (Matches LogosBar/Default story: bordered + grayscale + no label.) */}
+      <LogosBar
+        logos={[
+          { src: `${PPM_PAGE_PATH}/logos/kiabi.png`, alt: "Kiabi" },
+          { src: `${PPM_PAGE_PATH}/logos/altavia.svg`, alt: "Altavia" },
+          { src: `${PPM_PAGE_PATH}/logos/valrhona.png`, alt: "Valrhona" },
+          { src: `${PPM_PAGE_PATH}/logos/intuis.png`, alt: "Intuis" },
+          { src: `${PPM_PAGE_PATH}/logos/sncf.svg`, alt: "SNCF" },
+        ]}
+      />
 
       {/* 3. Results / metrics — 4 FeatureCard stats in ValuePropositionFrame */}
       <ValuePropositionFrame
