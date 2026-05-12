@@ -22,7 +22,7 @@
  */
 
 import { Hero } from "@/components/library-design/sections/Hero";
-import { HighlightFrame } from "@/components/library-design/sections/HighlightFrame";
+import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { ComparisonFrame } from "@/components/library-design/sections/ComparisonFrame";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
 import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
@@ -34,6 +34,7 @@ import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { CardCta } from "@/components/library-design/ui/CardCta";
+import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import {
@@ -47,12 +48,23 @@ import {
   DollyIcon,
   CirclePlusIcon,
   FlagCheckeredIcon,
+  StopwatchIcon,
+  FilePenIcon,
+  CalendarDayIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 
 function LgIcon({ children }: { children: React.ReactNode }) {
   return (
     <IconIllustration variant="dark" size="lg">
+      {children}
+    </IconIllustration>
+  );
+}
+
+function MdIcon({ children }: { children: React.ReactNode }) {
+  return (
+    <IconIllustration variant="dark" size="md">
       {children}
     </IconIllustration>
   );
@@ -121,32 +133,55 @@ export default function PpmPage() {
         />
       </section>
 
-      {/* 3. Results / metrics — 4 zigzag stats on green background */}
-      <HighlightFrame
-        titleHighlight="Les résultats"
-        title="qu'AirSaas génère"
+      {/* 3. Results / metrics — 4 FeatureCard stats in ValuePropositionFrame */}
+      <ValuePropositionFrame
+        tag="LES RÉSULTATS"
+        titleHighlight="4 chiffres"
+        title="qui changent avec AirSaas"
         subtitle="Les gains moyens observés sur nos clients PMO après 6 mois d'adoption."
-        items={[
-          {
-            value: "-80%",
-            description: "de réunions projet inutiles",
-          },
-          {
-            value: "0",
-            description:
-              "PowerPoint — Reporting projet généré en 1 clic, à jour, partageable",
-          },
-          {
-            value: "1",
-            description:
-              "mois pour être opérationnel sur votre premier Quarter Plan",
-          },
-          {
-            value: "+60%",
-            description: "des projets livrés on time & on budget",
-          },
-        ]}
-      />
+        columns={4}
+      >
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <StopwatchIcon />
+            </MdIcon>
+          }
+          title="-80%"
+          description="De réunions projet inutiles."
+          className="flex-1"
+        />
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <FilePenIcon />
+            </MdIcon>
+          }
+          title="0 PPT"
+          description="Reporting généré en 1 clic, à jour, partageable."
+          className="flex-1"
+        />
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <CalendarDayIcon />
+            </MdIcon>
+          }
+          title="1 mois"
+          description="Pour être opérationnel sur votre premier Quarter Plan."
+          className="flex-1"
+        />
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <BullseyeArrowIcon />
+            </MdIcon>
+          }
+          title="+60%"
+          description="Des projets livrés on time & on budget."
+          className="flex-1"
+        />
+      </ValuePropositionFrame>
 
       {/* 4. Pain points — "Vous vous reconnaissez ?"
           (Deviation: doc said FeatureSectionStacked; using ComparisonFrame

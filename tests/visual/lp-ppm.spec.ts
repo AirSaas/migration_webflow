@@ -32,6 +32,17 @@ test.describe("LP PPM — visual", () => {
     );
   });
 
+  test("Stats — ValuePropositionFrame 4 FeatureCard", async ({ page }) => {
+    const heading = page.getByRole("heading", {
+      name: /qui changent avec AirSaas/i,
+    });
+    await heading.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+    await expect(heading.locator("xpath=ancestor::section[1]")).toHaveScreenshot(
+      "stats.png",
+    );
+  });
+
   test("Security — PillarFrame columns=4", async ({ page }) => {
     const heading = page.getByRole("heading", { name: /Sécurité au top/i });
     await heading.scrollIntoViewIfNeeded();
