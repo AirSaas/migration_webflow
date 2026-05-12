@@ -70,15 +70,15 @@ export default function PiPlanningPage() {
         title="Miro + Jira + PowerBI :"
         titleHighlight="ce n'est pas comme ça qu'un RTE embarque les métiers."
         subtitle="Synchronisez vos features Jira, nettoyez vos données, donnez une vue claire aux métiers et au Comex. Opérationnel en 1 PI, pas en 6 mois."
-        primaryCta={{ label: "Réserver une démo", href: "/fr/meetings-pages" }}
+        primaryCta={{ label: "Réservez une démo", href: "/fr/meetings-pages" }}
         secondaryCta={{
-          label: "▶️ Découvrir l'outil PI Planning en vidéo",
+          label: "▶️ Découvrir l'outil PI Planning en vidéo →",
           href: "/fr/video/pi-planning",
         }}
         bottomTags={[
           { label: "Import Jira en quelques clics", variant: "success" },
-          { label: "Nettoyage des données dans AirSaas", variant: "muted" },
-          { label: "Accompagnement pragmatique et efficace", variant: "muted" },
+          { label: "Nettoyage des données dans AirSaas", variant: "success" },
+          { label: "Accompagnement pragmatique et efficace", variant: "success" },
         ]}
         imageSrc={`${PPM_PATH}/dashboards/hero-portfolio-q1-2025.webp`}
         imageAlt="Dashboard AirSaas — vue portfolio d'un Program Increment synchronisé avec Jira"
