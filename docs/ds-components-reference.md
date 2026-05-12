@@ -84,6 +84,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<FeatureSectionStacked>` | Centered title + subtitle + orange-bordered item list, with an illustration image that bleeds from the bottom into th… |
 | `<Footer>` | Page footer — 4 columns of navigation links + floating logo + copyright card. |
 | `<Hero>` | First section of a page: navbar + title + subtitle + CTAs + illustration. Supports a static screenshot (`imageSrc`) O… |
+| `<HeroTabbedMedia>` | Animated dashboard switcher: a simulated product top bar (purple toolbar + AirSaas mark + tab pills + avatar/bell chr… |
 | `<HighlightFrame>` | Alternating-zigzag vertically stacked cards, each with a big green gradient number outside the card (left on odd, rig… |
 | `<IconRowFrame>` | Horizontal row of icon + label pairs (integrations, tech stack, trusted-by logos rendered as iconography). Icons sit … |
 | `<PillarFrame>` | Grid of "pillar" cards — each with a large icon illustration, uppercase primary title, description, and an optional e… |
@@ -1057,7 +1058,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 🎨 Figma `node-id 115-12821 (typography scale) + site templates`
 
 **Purpose** — First section of a page: navbar + title + subtitle + CTAs + illustration. Supports a static screenshot (`imageSrc`) OR an animated tabbed dashboard switcher (`mediaTabs`, 3–8 product views auto-cycled).
-**Use when** — Top of every marketing / product / solution page. Use `mediaTabs` for product LP heroes that need to showcase several dashboard views in one above-the-fold block (canonical pattern on airsaas.io/fr/lp/ppm: Portfolio / Quarter plan / Capacitaire / Priorisation / Roadmap / Reporting).
+**Use when** — Top of every marketing / product / solution page. For product LPs (PPM, PMO, capacity-planning, pi-planning, etc.) clone one of the two canonical blueprint stories — `LandingWithDashboard` (static screen) or `LandingWithTabbedDashboards` (animated multi-view switcher) — and swap copy/assets. The blueprint reference example is the live `/fr/lp/ppm` page.
 **Don't use** — As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for. Only one <Hero> per page. `mediaTabs` is incompatible with `layout="split"` (the split layout has no room for a tab row beside the text column).
 
 **Limits:**
@@ -1075,6 +1076,26 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - Do NOT pass className that changes the min-h-screen or background
 - Do NOT pass both `imageSrc` and `mediaTabs` — `mediaTabs` wins and the static `imageSrc` is ignored (warn in dev)
 - Do NOT combine `mediaTabs` with `layout="split"`
+
+---
+
+### `<HeroTabbedMedia>`
+
+📄 [`src/components/library-design/sections/HeroTabbedMedia.tsx`](src/components/library-design/sections/HeroTabbedMedia.tsx)
+
+**Purpose** — Animated dashboard switcher: a simulated product top bar (purple toolbar + AirSaas mark + tab pills + avatar/bell chrome) sits flush against a dashboard screenshot. Clicking a pill swaps the active screenshot; the row auto-rotates every `rotateInterval` ms and pauses on interaction or when `prefers-reduced-motion` is set.
+**Use when** — Inside <Hero mediaTabs={…}> on product LPs that need to showcase several dashboard views above the fold (3–8 tabs). Same pattern across any LP — clone the canonical `LandingWithTabbedDashboards` story and swap labels / icons / screenshots.
+**Don't use** — As a standalone tab control mid-page — for content tabs use <TabsFrame>. For a single static screenshot below the Hero title, pass `imageSrc` to <Hero> instead and skip this entirely.
+
+**Limits:**
+- tabs: 3–8 entries (enforced via assertArrayBounds)
+- each tab.label: max 16 chars (longer breaks the pill row on tablet)
+- all tab images SHOULD share the same aspect ratio — the body area resizes per tab so mixed ratios cause layout shift on rotation
+- autoRotate auto-pauses on click / keyboard nav and when the user's OS reports `prefers-reduced-motion: reduce`
+
+**Forbidden:**
+- Do NOT render outside <Hero> — the chrome assumes the hero's gradient background and lateral padding
+- Do NOT pass <img> children directly — use the `tabs[].imageSrc` API so ARIA tabpanel wiring stays correct
 
 ---
 
@@ -1372,6 +1393,4 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ## ⚠️ Components without @purpose contract
 
-- `HeroTabbedMedia.tsx`
-
-→ Add a JSDoc contract following the canonical format before modifying these.
+None — all components have contracts.

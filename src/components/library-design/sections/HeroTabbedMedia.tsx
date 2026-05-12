@@ -29,11 +29,35 @@ interface HeroTabbedMediaProps {
 }
 
 /**
- * Renders the live PPM hero's tabbed dashboard mockup: a purple toolbar with
- * 6 product-view pills sitting flush against a dashboard screenshot. The
- * toolbar IS the simulated product chrome — clicking a pill swaps the body
- * screenshot. Auto-rotates every `rotateInterval` ms, pauses on interaction
- * and when `prefers-reduced-motion` is set.
+ * HeroTabbedMedia
+ *
+ * @purpose    Animated dashboard switcher: a simulated product top bar (purple
+ *             toolbar + AirSaas mark + tab pills + avatar/bell chrome) sits
+ *             flush against a dashboard screenshot. Clicking a pill swaps the
+ *             active screenshot; the row auto-rotates every `rotateInterval`
+ *             ms and pauses on interaction or when `prefers-reduced-motion`
+ *             is set.
+ * @useWhen    Inside <Hero mediaTabs={…}> on product LPs that need to showcase
+ *             several dashboard views above the fold (3–8 tabs). Same pattern
+ *             across any LP — clone the canonical `LandingWithTabbedDashboards`
+ *             story and swap labels / icons / screenshots.
+ * @dontUse    As a standalone tab control mid-page — for content tabs use
+ *             <TabsFrame>. For a single static screenshot below the Hero
+ *             title, pass `imageSrc` to <Hero> instead and skip this entirely.
+ *
+ * @limits
+ *   - tabs: 3–8 entries (enforced via assertArrayBounds)
+ *   - each tab.label: max 16 chars (longer breaks the pill row on tablet)
+ *   - all tab images SHOULD share the same aspect ratio — the body area
+ *     resizes per tab so mixed ratios cause layout shift on rotation
+ *   - autoRotate auto-pauses on click / keyboard nav and when the user's OS
+ *     reports `prefers-reduced-motion: reduce`
+ *
+ * @forbidden
+ *   - Do NOT render outside <Hero> — the chrome assumes the hero's gradient
+ *     background and lateral padding
+ *   - Do NOT pass <img> children directly — use the `tabs[].imageSrc` API so
+ *     ARIA tabpanel wiring stays correct
  */
 export function HeroTabbedMedia({
   tabs,

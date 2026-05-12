@@ -36,11 +36,12 @@ interface NavItem {
  * @purpose    First section of a page: navbar + title + subtitle + CTAs + illustration.
  *             Supports a static screenshot (`imageSrc`) OR an animated tabbed
  *             dashboard switcher (`mediaTabs`, 3–8 product views auto-cycled).
- * @useWhen    Top of every marketing / product / solution page. Use `mediaTabs`
- *             for product LP heroes that need to showcase several dashboard
- *             views in one above-the-fold block (canonical pattern on
- *             airsaas.io/fr/lp/ppm: Portfolio / Quarter plan / Capacitaire /
- *             Priorisation / Roadmap / Reporting).
+ * @useWhen    Top of every marketing / product / solution page. For product
+ *             LPs (PPM, PMO, capacity-planning, pi-planning, etc.) clone one
+ *             of the two canonical blueprint stories — `LandingWithDashboard`
+ *             (static screen) or `LandingWithTabbedDashboards` (animated
+ *             multi-view switcher) — and swap copy/assets. The blueprint
+ *             reference example is the live `/fr/lp/ppm` page.
  * @dontUse    As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for.
  *             Only one <Hero> per page.
  *             `mediaTabs` is incompatible with `layout="split"` (the split
