@@ -101,7 +101,7 @@ export function FeatureFrame({
     ? "var(--color-primary-5)"
     : isRight
       ? "var(--color-primary-5)"
-      : "var(--color-prevention-10)";
+      : "var(--color-prevention-20)";
 
   const textContent = (
     <div
