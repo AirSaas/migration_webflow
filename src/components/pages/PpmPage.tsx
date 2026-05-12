@@ -117,8 +117,10 @@ export default function PpmPage() {
       />
 
       {/* 2. Client logos — Kiabi, Altavia, Valrhona, Intuis, SNCF
-          (Matches LogosBar/Default story: bordered + grayscale + no label.) */}
+          (LogosBar "Custom label" sub-variant from AllVariants story:
+          bordered + grayscale + md + leading label.) */}
       <LogosBar
+        label="Ils nous font confiance"
         logos={[
           { src: `${PPM_PAGE_PATH}/logos/kiabi.png`, alt: "Kiabi" },
           { src: `${PPM_PAGE_PATH}/logos/altavia.svg`, alt: "Altavia" },
