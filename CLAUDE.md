@@ -10,6 +10,12 @@ Spec complète : `.context/attachments/SPEC_Migration_v4.0_FINAL.md`
 - **Stack** : Next.js 15, Tailwind, Strapi 5, next-intl (7 locales)
 - **Webflow Site ID** : `609552290d93fd43ba0f0849`
 
+## Page rebuild — prompt canónico
+
+Pour reconstruire N'IMPORTE QUELLE page du live (`/fr/lp/*`, `/fr/solutions/*`, `/fr/produit/*`, `/fr/blog/*`, etc.) : **suivre obligatoirement** [`docs/prompts/page-rebuild.md`](docs/prompts/page-rebuild.md).
+
+Ce prompt impose la fidélité verbatim du contenu (copy, cantidad de cards/bullets/icons, CTAs avec emojis/flèches, conjugaison) — appliqué sur tout le rebuild du site, pas seulement les landings LP. Il complète le QA process ci-dessous.
+
 ## Page rebuild QA — process obligatoire
 
 **RÈGLE ABSOLUE** : NE JAMAIS soumettre une URL/preview au user sans avoir validé les **3 niveaux de QA** ci-dessous. Le verifier `verify-rebuild.mjs` (text coverage) **ne suffit PAS**.
