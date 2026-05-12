@@ -35,15 +35,26 @@ import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
 import { IconIllustration } from "@/components/library-design/ui/IconIllustration";
 import {
+  ArrowsRotateIcon,
+  BanIcon,
+  CalendarDayIcon,
+  CalendarStarIcon,
   GearsIcon,
   StopwatchIcon,
-  CalendarStarIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 
 function LgIcon({ children }: { children: React.ReactNode }) {
   return (
     <IconIllustration variant="dark" size="lg">
+      {children}
+    </IconIllustration>
+  );
+}
+
+function MdIcon({ children }: { children: React.ReactNode }) {
+  return (
+    <IconIllustration variant="dark" size="md">
       {children}
     </IconIllustration>
   );
@@ -103,21 +114,41 @@ export default function PiPlanningPage() {
           an empty <H2>. */}
       <ValuePropositionFrame title=" " columns={4}>
         <FeatureCard
+          icon={
+            <MdIcon>
+              <BanIcon />
+            </MdIcon>
+          }
           title="0"
           description="PowerBI à maintenir"
           className="flex-1"
         />
         <FeatureCard
+          icon={
+            <MdIcon>
+              <ArrowsRotateIcon />
+            </MdIcon>
+          }
           title="Jira"
           description="Synchro native"
           className="flex-1"
         />
         <FeatureCard
+          icon={
+            <MdIcon>
+              <CalendarDayIcon />
+            </MdIcon>
+          }
           title="1 PI"
           description="pour être opérationnel"
           className="flex-1"
         />
         <FeatureCard
+          icon={
+            <MdIcon>
+              <StopwatchIcon />
+            </MdIcon>
+          }
           title="-80%"
           description="de temps reporting"
           className="flex-1"
