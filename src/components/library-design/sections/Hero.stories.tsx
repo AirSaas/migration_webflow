@@ -151,6 +151,90 @@ export const Dark: Story = {
 };
 
 /**
+ * LP PPM hero — static screen variant.
+ *
+ * Pending refinement of the tabbed switcher visual (see `TabbedMedia`), the
+ * canonical LP PPM hero uses a single fixed Portfolio dashboard screenshot
+ * below the title/CTAs. Switch back to `mediaTabs={ppmTabs}` once the chrome
+ * styling is signed off.
+ */
+export const PpmLanding: Story = {
+  args: {
+    navItems: defaultNavItems,
+    navCtaLabel: "Demander une démo",
+    navCtaHref: "#",
+    loginLabel: "Login",
+    loginHref: "#",
+    eyebrow: "OUTIL PPM",
+    title: "Un PPM avec une UX au top ?",
+    titleHighlight: "Ça existe.",
+    subtitle:
+      "Brief projet assisté par IA, flash report en 1 clic, roadmap partageable, vue macro consolidée. L'outil PPM que votre équipe va vraiment adopter.",
+    primaryCta: {
+      label: "Réservez une démo",
+      href: "/fr/meetings-pages",
+    },
+    secondaryCta: {
+      label: "▶️ Découvrir l'outil PPM en vidéo (5 min)",
+      href: "/fr/video/ppm",
+    },
+    bottomTags: [
+      { label: "+100 clients nous font confiance", variant: "success" },
+      { label: "Opérationnel en 1 mois", variant: "success" },
+      { label: "Accompagnement premium inclus", variant: "success" },
+    ],
+    imageSrc: "/assets/images/lp-ppm/dashboards/hero-portfolio-q1-2025.webp",
+    imageAlt:
+      "Tableau de bord PPM AirSaas — Vue Portfolio Q1 2025 avec météo, statut et suivi des livrables",
+    floatingCards: false,
+  },
+};
+
+// Reusable tab definitions for the LP PPM hero. Left here to be wired back
+// into a `TabbedMedia` story once the tabbed-switcher visual is finalized.
+const _ppmTabs = [
+  {
+    icon: "/assets/images/lp-ppm/icons/icon-portfolio-color.svg",
+    label: "Portfolio",
+    imageSrc: "/assets/images/lp-ppm/dashboards/portfolio.webp",
+    imageAlt: "Portfolio consolidé multi-vues",
+  },
+  {
+    icon: "/assets/images/lp-ppm/icons/icon-quarter-plan-color.svg",
+    label: "Quarter plan",
+    // No specific Quarter plan dashboard was surfaced in the live page asset list —
+    // using the AI scenarios screen as the closest planning-view stand-in.
+    imageSrc: "/assets/images/lp-ppm/dashboards/scenarios.webp",
+    imageAlt: "Quarter plan trimestriel",
+  },
+  {
+    icon: "/assets/images/lp-ppm/icons/icon-capacity-color.svg",
+    label: "Capacitaire",
+    imageSrc: "/assets/images/lp-ppm/dashboards/capacity.webp",
+    imageAlt: "Capacité par quarter et par équipe",
+  },
+  {
+    icon: "/assets/images/lp-ppm/icons/icon-priorisation-color.svg",
+    label: "Priorisation",
+    imageSrc: "/assets/images/lp-ppm/dashboards/priorisation.webp",
+    imageAlt: "Priorisation explicite #1, #2, #3",
+  },
+  {
+    icon: "/assets/images/lp-ppm/icons/icon-roadmap-color.svg",
+    label: "Roadmap",
+    imageSrc: "/assets/images/lp-ppm/dashboards/roadmap.webp",
+    imageAlt: "Roadmap COMEX partageable",
+  },
+  {
+    icon: "/assets/images/lp-ppm/icons/icon-report-color.svg",
+    label: "Reporting",
+    imageSrc: "/assets/images/lp-ppm/dashboards/reporting.webp",
+    imageAlt: "Flash Report en 1 clic",
+  },
+];
+void _ppmTabs;
+
+/**
  * Five trust badges — live LP PPM pattern.
  *
  * Mirrors the Hero on `airsaas.io/fr/lp/ppm` which shows 5 trust badges

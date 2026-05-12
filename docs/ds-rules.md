@@ -65,6 +65,7 @@ When you need to build a section, consult the table first. If nothing fits, go t
 | Need | Component |
 |---|---|
 | Top of page, headline + CTA + product image | `<Hero>` (variants `light`/`dark`, layouts `centered`/`split`) |
+| Top of page with multiple dashboard views cycling (icon+label tabs swap the screenshot) | `<Hero>` with `mediaTabs` prop — auto-rotates, pauses on interaction. Layout must stay `centered`. |
 | Feature section with text + image side by side | `<FeatureFrame>` (prop `imagePosition`) |
 | Call-to-action block with cards | `<CtaFrame>` + children |
 | 3–6 feature cards in a grid | `<ValuePropositionFrame>` + `<FeatureCard>` children |
