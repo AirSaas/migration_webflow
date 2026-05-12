@@ -456,22 +456,31 @@ export default function PpmPage() {
         />
       </ValuePropositionFrame>
 
-      {/* 15. Integrations — 6 brand logos
-          (LogosBar/IntegrationsPlainColored: variant="plain" + preserveColor + size="lg",
-          no label/heading — matches the integrations-grid story exactly.) */}
-      <LogosBar
-        variant="plain"
-        preserveColor
-        size="lg"
-        logos={[
-          { src: `${PPM_PAGE_PATH}/integrations/jira.svg`, alt: "Jira" },
-          { src: `${PPM_PAGE_PATH}/integrations/teams.svg`, alt: "Microsoft Teams" },
-          { src: `${PPM_PAGE_PATH}/integrations/asana.svg`, alt: "Asana" },
-          { src: `${PPM_PAGE_PATH}/integrations/slack.svg`, alt: "Slack" },
-          { src: `${PPM_PAGE_PATH}/integrations/monday.svg`, alt: "Monday.com" },
-          { src: `${PPM_PAGE_PATH}/integrations/code.svg`, alt: "API" },
-        ]}
-      />
+      {/* 15. Integrations — 6 brand logos inside a ValuePropositionFrame.
+          The frame supplies the heading + subtitle; the LogosBar
+          (variant="plain" + preserveColor + size="lg" — LogosBar/IntegrationsPlainColored)
+          is wrapped in col-span-full so it spans the frame's inner grid. */}
+      <ValuePropositionFrame
+        titleHighlight="Connecté"
+        title="à votre écosystème"
+        subtitle="AirSaas s'intègre à vos outils pour éviter la double saisie."
+      >
+        <div className="col-span-full">
+          <LogosBar
+            variant="plain"
+            preserveColor
+            size="lg"
+            logos={[
+              { src: `${PPM_PAGE_PATH}/integrations/jira.svg`, alt: "Jira" },
+              { src: `${PPM_PAGE_PATH}/integrations/teams.svg`, alt: "Microsoft Teams" },
+              { src: `${PPM_PAGE_PATH}/integrations/asana.svg`, alt: "Asana" },
+              { src: `${PPM_PAGE_PATH}/integrations/slack.svg`, alt: "Slack" },
+              { src: `${PPM_PAGE_PATH}/integrations/monday.svg`, alt: "Monday.com" },
+              { src: `${PPM_PAGE_PATH}/integrations/code.svg`, alt: "API" },
+            ]}
+          />
+        </div>
+      </ValuePropositionFrame>
 
       {/* 16. How it works — 4 deployment steps */}
       <StepsFrame
