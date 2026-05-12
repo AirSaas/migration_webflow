@@ -18,6 +18,9 @@ import { assertMaxLength } from "@/lib/ds-validators";
  *   - title: max 80 chars (fits Heading level 2 in 2 lines)
  *   - subtitle: max 220 chars
  *   - children: 2 <CardCta> components side by side (1 column on mobile)
+ *   - floatingCards: optional decorative chrome — pass `false` to disable when
+ *     the CTA grid is wide enough to overlap the floating cards (e.g. tight
+ *     landings with a single CardCta).
  *
  * @forbidden
  *   - Do NOT pass more than 2 cards — layout is grid-cols-2 at md+
@@ -30,6 +33,11 @@ interface CtaFrameProps {
   children: React.ReactNode;
   /** Optional DOM id on the root <section> — scroll-spy target for TabsFrame / TocSidebar. */
   id?: string;
+  /** Decorative floating cards in the empty background corners.
+   *  Default `true`. Pass `false` when the CTA grid extends close to the edges
+   *  or when the composition needs to stay text-focused (e.g. one-card stacked
+   *  variant on a narrow landing). */
+  floatingCards?: boolean;
   className?: string;
 }
 
@@ -38,6 +46,7 @@ export function CtaFrame({
   subtitle,
   children,
   id,
+  floatingCards = true,
   className,
 }: CtaFrameProps) {
   assertMaxLength("CtaFrame", "title", title, 80);
@@ -81,13 +90,19 @@ export function CtaFrame({
       </div>
 
       {/* Floating cards — positioned on empty background corners (away from
-          the centered text + card grid in the middle of the section). */}
-      <Float variant={3} duration={3.5} delay={0} className="absolute z-20 left-[3%] top-[3rem] hidden xl:block">
-        <FloatingCard />
-      </Float>
-      <Float variant={1} duration={4} delay={1.5} className="absolute z-20 right-[3%] bottom-[3rem] hidden xl:block">
-        <FloatingCard />
-      </Float>
+          the centered text + card grid in the middle of the section).
+          Opt-out via `floatingCards={false}` when the layout doesn't have room
+          (e.g. narrow landings) — same convention as <Hero floatingCards>. */}
+      {floatingCards && (
+        <>
+          <Float variant={3} duration={3.5} delay={0} className="absolute z-20 left-[3%] top-[3rem] hidden xl:block">
+            <FloatingCard />
+          </Float>
+          <Float variant={1} duration={4} delay={1.5} className="absolute z-20 right-[3%] bottom-[3rem] hidden xl:block">
+            <FloatingCard />
+          </Float>
+        </>
+      )}
     </section>
   );
 }

@@ -83,7 +83,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<FeatureFrame>` | Single feature section: title + subtitle + checklist / rich content + optional image (side-by-side or stacked) + opti… |
 | `<FeatureSectionStacked>` | Centered title + subtitle + orange-bordered item list, with an illustration image that bleeds from the bottom into th… |
 | `<Footer>` | Page footer — 4 columns of navigation links + floating logo + copyright card. |
-| `<Hero>` | First section of a page: navbar + title + subtitle + CTAs + illustration. |
+| `<Hero>` | First section of a page: navbar + title + subtitle + CTAs + illustration. Supports a static screenshot (`imageSrc`) O… |
 | `<HighlightFrame>` | Alternating-zigzag vertically stacked cards, each with a big green gradient number outside the card (left on odd, rig… |
 | `<IconRowFrame>` | Horizontal row of icon + label pairs (integrations, tech stack, trusted-by logos rendered as iconography). Icons sit … |
 | `<PillarFrame>` | Grid of "pillar" cards — each with a large icon illustration, uppercase primary title, description, and an optional e… |
@@ -416,6 +416,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Limits:**
 - size: "sm" | "md" | "lg" — drives container, font-size, and ellipse proportions
 - variant: "dark" (primary icon on light bg) | "light" (white icon with primary glow, for dark sections)
+
+**Forbidden:**
+- Do NOT wrap the icon in extra containers — the [&>svg] selector targets the direct SVG child to enforce sizing.
 
 ---
 
@@ -937,6 +940,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - title: max 80 chars (fits Heading level 2 in 2 lines)
 - subtitle: max 220 chars
 - children: 2 <CardCta> components side by side (1 column on mobile)
+- floatingCards: optional decorative chrome — pass `false` to disable when the CTA grid is wide enough to overlap the floating cards (e.g. tight landings with a single CardCta).
 
 **Forbidden:**
 - Do NOT pass more than 2 cards — layout is grid-cols-2 at md+
@@ -1052,9 +1056,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 📄 [`src/components/library-design/sections/Hero.tsx`](src/components/library-design/sections/Hero.tsx)
 🎨 Figma `node-id 115-12821 (typography scale) + site templates`
 
-**Purpose** — First section of a page: navbar + title + subtitle + CTAs + illustration.
-**Use when** — Top of every marketing / product / solution page.
-**Don't use** — As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for. Only one <Hero> per page.
+**Purpose** — First section of a page: navbar + title + subtitle + CTAs + illustration. Supports a static screenshot (`imageSrc`) OR an animated tabbed dashboard switcher (`mediaTabs`, 3–8 product views auto-cycled).
+**Use when** — Top of every marketing / product / solution page. Use `mediaTabs` for product LP heroes that need to showcase several dashboard views in one above-the-fold block (canonical pattern on airsaas.io/fr/lp/ppm: Portfolio / Quarter plan / Capacitaire / Priorisation / Roadmap / Reporting).
+**Don't use** — As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for. Only one <Hero> per page. `mediaTabs` is incompatible with `layout="split"` (the split layout has no room for a tab row beside the text column).
 
 **Limits:**
 - title: max 60 chars
@@ -1064,10 +1068,13 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - eyebrow: max 30 chars (uppercase, tracking)
 - navItems: 2–7 top-level items
 - bottomTags: 0–6 (live LP PPM has 5 trust badges; cap at 6 — past 6 the row wraps awkwardly on tablet)
+- mediaTabs: 3–8 tabs, each label ≤ 16 chars, all images same aspect ratio
 
 **Forbidden:**
 - Do NOT render multiple <Hero> on a single page
 - Do NOT pass className that changes the min-h-screen or background
+- Do NOT pass both `imageSrc` and `mediaTabs` — `mediaTabs` wins and the static `imageSrc` is ignored (warn in dev)
+- Do NOT combine `mediaTabs` with `layout="split"`
 
 ---
 
@@ -1365,4 +1372,6 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ## ⚠️ Components without @purpose contract
 
-None — all components have contracts.
+- `HeroTabbedMedia.tsx`
+
+→ Add a JSDoc contract following the canonical format before modifying these.
