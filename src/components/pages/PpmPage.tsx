@@ -423,51 +423,54 @@ export default function PpmPage() {
         </div>
       </TestimonialsFrame>
 
-      {/* 14. Security — 4 trust badges, uses extended PillarFrame columns=4 */}
-      <PillarFrame
-        title="au top"
+      {/* 14. Security — 4 trust badges as ValuePropositionFrame + FeatureCard */}
+      <ValuePropositionFrame
         titleHighlight="Sécurité"
+        title="au top"
         subtitle="AirSaas passe la porte des DSI les plus exigeantes."
         columns={4}
-        pillars={[
-          {
-            icon: (
-              <LgIcon>
-                <LockKeyholeIcon />
-              </LgIcon>
-            ),
-            title: "ISO 27001",
-            description: "Certifié",
-          },
-          {
-            icon: (
-              <LgIcon>
-                <IndustryIcon />
-              </LgIcon>
-            ),
-            title: "Hébergé en France",
-            description: "Scaleway",
-          },
-          {
-            icon: (
-              <LgIcon>
-                <BullseyeArrowIcon />
-              </LgIcon>
-            ),
-            title: "Pentest",
-            description: "Résultats sur demande",
-          },
-          {
-            icon: (
-              <LgIcon>
-                <GearsIcon />
-              </LgIcon>
-            ),
-            title: "SSO / SAML",
-            description: "Intégration Active Directory",
-          },
-        ]}
-      />
+      >
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <LockKeyholeIcon />
+            </MdIcon>
+          }
+          title="ISO 27001"
+          description="Certifié"
+          className="flex-1"
+        />
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <IndustryIcon />
+            </MdIcon>
+          }
+          title="Hébergé en France"
+          description="Scaleway"
+          className="flex-1"
+        />
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <BullseyeArrowIcon />
+            </MdIcon>
+          }
+          title="Pentest"
+          description="Résultats sur demande"
+          className="flex-1"
+        />
+        <FeatureCard
+          icon={
+            <MdIcon>
+              <GearsIcon />
+            </MdIcon>
+          }
+          title="SSO / SAML"
+          description="Intégration Active Directory"
+          className="flex-1"
+        />
+      </ValuePropositionFrame>
 
       {/* 15. Integrations — 6 brand icons */}
       <IconRowFrame

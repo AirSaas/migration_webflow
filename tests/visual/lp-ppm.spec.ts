@@ -43,7 +43,7 @@ test.describe("LP PPM — visual", () => {
     );
   });
 
-  test("Security — PillarFrame columns=4", async ({ page }) => {
+  test("Security — ValuePropositionFrame 4 FeatureCard", async ({ page }) => {
     const heading = page.getByRole("heading", { name: /Sécurité au top/i });
     await heading.scrollIntoViewIfNeeded();
     await page.waitForTimeout(300);
