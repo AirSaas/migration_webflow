@@ -91,10 +91,10 @@ export default function CapacityPlanningPage() {
         loginHref={BLOG_INDEX_DATA.loginHref}
         title="Capacity Planning"
         titleHighlight="simplifié"
-        subtitle="Vos équipes sont surchargées ? C'est normal : personne ne sait ce qu'elles peuvent vraiment faire. AirSaas vous donne une vue capacitaire claire et actionnable."
+        subtitle="Vos équipes sont surchargées ? C'est normal : personne ne sait ce qu'elles peuvent vraiment faire. AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire « non » avec des données, pas au feeling."
         primaryCta={{ label: "Réservez une démo", href: "#demo" }}
         secondaryCta={{
-          label: "Découvrir le guide Capacity Planning",
+          label: "📘 Découvrir le guide Capacity Planning",
           href: "/fr/livre-blanc/capacity-planning",
         }}
         bottomTags={[
@@ -250,7 +250,7 @@ export default function CapacityPlanningPage() {
 
       {/* 7. "De l'idée au scénario : 10 minutes" — 4-step process */}
       <StepsFrame
-        title="au scénario : 10 minutes"
+        title="au scénario : 10 minutes 🚀"
         titleHighlight="De l'idée"
         subtitle="Avant, cela prenait des mois. Aujourd'hui, les agents IA d'AirSaas font le travail. Clarté immédiate, scénario partageable."
         steps={[
@@ -318,7 +318,7 @@ export default function CapacityPlanningPage() {
         layout="inline"
         imagePosition="left"
         tag="NOUVEAU"
-        titleHighlight="Capacité"
+        titleHighlight="Voir la capacité"
         title="future des équipes"
         subtitle="Combien de jours vos équipes peuvent-elles vraiment consacrer aux projets le trimestre prochain ? Tant que vous ne le savez pas, vous décidez à l'aveugle."
         checklist={[
@@ -526,7 +526,7 @@ export default function CapacityPlanningPage() {
             </MdIcon>
           }
           title="SSO / SAML"
-          description="Intégration Active Directory"
+          description="Intégration AD"
           className="flex-1"
         />
       </ValuePropositionFrame>
@@ -624,7 +624,7 @@ export default function CapacityPlanningPage() {
         <CardCta
           title="Découvrir le guide Capacity Planning"
           description="Quarter Plan & gestion capacitaire : la méthode complète."
-          ctaLabel="Télécharger le guide"
+          ctaLabel="Télécharger le Book"
           ctaHref="/fr/livre-blanc/capacity-planning"
           ctaVariant="tertiary"
           className="flex-1"
