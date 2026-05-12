@@ -27,7 +27,6 @@ import { ComparisonFrame } from "@/components/library-design/sections/Comparison
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
 import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
-import { IconRowFrame } from "@/components/library-design/sections/IconRowFrame";
 import { StepsFrame } from "@/components/library-design/sections/StepsFrame";
 import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
@@ -67,18 +66,6 @@ function MdIcon({ children }: { children: React.ReactNode }) {
     <IconIllustration variant="dark" size="md">
       {children}
     </IconIllustration>
-  );
-}
-
-function IntegrationIcon({ src, alt }: { src: string; alt: string }) {
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={src}
-      alt={alt}
-      className="h-[3rem] w-auto object-contain md:h-[3.5rem]"
-      loading="lazy"
-    />
   );
 }
 
@@ -469,66 +456,20 @@ export default function PpmPage() {
         />
       </ValuePropositionFrame>
 
-      {/* 15. Integrations — 6 brand icons */}
-      <IconRowFrame
-        titleHighlight="Connecté"
-        title="à votre écosystème"
-        subtitle="AirSaas s'intègre à vos outils pour éviter la double saisie."
-        items={[
-          {
-            icon: (
-              <IntegrationIcon
-                src={`${PPM_PAGE_PATH}/integrations/jira.svg`}
-                alt="Jira"
-              />
-            ),
-            label: "Jira",
-          },
-          {
-            icon: (
-              <IntegrationIcon
-                src={`${PPM_PAGE_PATH}/integrations/teams.svg`}
-                alt="Microsoft Teams"
-              />
-            ),
-            label: "Teams",
-          },
-          {
-            icon: (
-              <IntegrationIcon
-                src={`${PPM_PAGE_PATH}/integrations/asana.svg`}
-                alt="Asana"
-              />
-            ),
-            label: "Asana",
-          },
-          {
-            icon: (
-              <IntegrationIcon
-                src={`${PPM_PAGE_PATH}/integrations/slack.svg`}
-                alt="Slack"
-              />
-            ),
-            label: "Slack",
-          },
-          {
-            icon: (
-              <IntegrationIcon
-                src={`${PPM_PAGE_PATH}/integrations/monday.svg`}
-                alt="Monday.com"
-              />
-            ),
-            label: "Monday",
-          },
-          {
-            icon: (
-              <IntegrationIcon
-                src={`${PPM_PAGE_PATH}/integrations/code.svg`}
-                alt="API"
-              />
-            ),
-            label: "API",
-          },
+      {/* 15. Integrations — 6 brand logos
+          (LogosBar/IntegrationsPlainColored: variant="plain" + preserveColor + size="lg",
+          no label/heading — matches the integrations-grid story exactly.) */}
+      <LogosBar
+        variant="plain"
+        preserveColor
+        size="lg"
+        logos={[
+          { src: `${PPM_PAGE_PATH}/integrations/jira.svg`, alt: "Jira" },
+          { src: `${PPM_PAGE_PATH}/integrations/teams.svg`, alt: "Microsoft Teams" },
+          { src: `${PPM_PAGE_PATH}/integrations/asana.svg`, alt: "Asana" },
+          { src: `${PPM_PAGE_PATH}/integrations/slack.svg`, alt: "Slack" },
+          { src: `${PPM_PAGE_PATH}/integrations/monday.svg`, alt: "Monday.com" },
+          { src: `${PPM_PAGE_PATH}/integrations/code.svg`, alt: "API" },
         ]}
       />
 

@@ -61,13 +61,11 @@ test.describe("LP PPM — visual", () => {
     );
   });
 
-  test("Integrations — IconRowFrame", async ({ page }) => {
-    const heading = page.getByRole("heading", {
-      name: /Connecté à votre écosystème/i,
-    });
-    await heading.scrollIntoViewIfNeeded();
+  test("Integrations — LogosBar Plain Colored", async ({ page }) => {
+    const jira = page.locator('img[alt="Jira"]');
+    await jira.scrollIntoViewIfNeeded();
     await page.waitForTimeout(300);
-    await expect(heading.locator("xpath=ancestor::section[1]")).toHaveScreenshot(
+    await expect(jira.locator("xpath=ancestor::div[1]")).toHaveScreenshot(
       "integrations.png",
     );
   });
