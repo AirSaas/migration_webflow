@@ -83,15 +83,15 @@ export default function CapacityPlanningPage() {
       {/* 1. Hero — eyebrow + dual CTA + 2 trust badges + capacity dashboard image */}
       <Hero
         layout="centered"
-        topTag={{ label: "CAPACITY PLANNING", variant: "muted" }}
+        topTag={{ label: "Capacity Planning simplifié", variant: "muted" }}
         navItems={BLOG_INDEX_DATA.navItems}
         navCtaLabel={BLOG_INDEX_DATA.navCtaLabel}
         navCtaHref={BLOG_INDEX_DATA.navCtaHref}
         loginLabel={BLOG_INDEX_DATA.loginLabel}
         loginHref={BLOG_INDEX_DATA.loginHref}
-        title="Capacity Planning"
-        titleHighlight="simplifié"
-        subtitle="Vos équipes sont surchargées ? C'est normal : personne ne sait ce qu'elles peuvent vraiment faire. AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire « non » avec des données, pas au feeling."
+        title="Vos équipes sont surchargées ? C'est normal :"
+        titleHighlight="personne ne sait ce qu'elles peuvent vraiment faire."
+        subtitle="AirSaas vous donne une vue capacitaire claire et actionnable. Enfin un outil pour dire « non » avec des données, pas au feeling."
         primaryCta={{ label: "Réservez une démo", href: "#demo" }}
         secondaryCta={{
           label: "📘 Découvrir le guide Capacity Planning",
