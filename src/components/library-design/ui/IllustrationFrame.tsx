@@ -4,6 +4,7 @@ import { assertMaxLength } from "@/lib/ds-validators";
 
 type Tone = "neutral" | "warm";
 type CaptionAlign = "left" | "center" | "right";
+type WidthMode = "reading" | "breakout";
 
 interface IllustrationFrameProps {
   src: string;
@@ -18,6 +19,16 @@ interface IllustrationFrameProps {
    * Ignored when `tone="warm"` (warm frames are always contained).
    */
   shape?: "open-bottom" | "contained";
+  /**
+   * Width handling inside a `<ProseFrame>` (or any centered reading column).
+   * - "reading" (default) — figure fits the parent's max-w (typically 50rem
+   *   inside BlogArticleBody / ProseFrame `maxWidth="reading"`).
+   * - "breakout" — figure breaks out of the reading column up to the wider
+   *   91.25rem prose-frame width (Figma blog body spec). Achieved via
+   *   negative horizontal margins at `lg+` breakpoints. Has no effect when
+   *   the parent is already at full prose width.
+   */
+  widthMode?: WidthMode;
   /**
    * Visual tone of the frame chrome.
    * - "neutral" (default) — semi-transparent white "glass" frame for product
@@ -80,6 +91,7 @@ export function IllustrationFrame({
   height,
   shape = "open-bottom",
   tone = "neutral",
+  widthMode = "reading",
   caption,
   captionAlign = "center",
   className,
@@ -88,6 +100,13 @@ export function IllustrationFrame({
 
   const isDecorative = alt === "";
   const isWarm = tone === "warm";
+  // Breakout: parent reading column is max-w-[50rem]; full prose frame is
+  // max-w-[91.25rem]. Negative margin distance = (91.25 - 50)/2 = 20.625rem
+  // on each side. Only applies at lg+ where the prose frame is wide enough.
+  const breakoutClasses =
+    widthMode === "breakout"
+      ? "w-auto lg:-mx-[20.625rem] lg:max-w-[91.25rem]"
+      : "";
 
   const frameClasses = isWarm
     ? "bg-prevention-10 rounded-[2.1875rem] p-[1.5rem] md:p-[2.5rem]"
@@ -118,7 +137,7 @@ export function IllustrationFrame({
   if (caption) {
     return (
       <figure
-        className={cn("overflow-clip", frameClasses, className)}
+        className={cn("overflow-clip", frameClasses, breakoutClasses, className)}
       >
         {imgEl}
         <figcaption
@@ -138,7 +157,7 @@ export function IllustrationFrame({
 
   // No caption → plain <div> wrapper (backwards compat).
   return (
-    <div className={cn("overflow-clip", frameClasses, className)}>
+    <div className={cn("overflow-clip", frameClasses, breakoutClasses, className)}>
       {imgEl}
     </div>
   );

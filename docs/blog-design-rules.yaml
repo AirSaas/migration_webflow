@@ -1,0 +1,341 @@
+# Blog design rules — V0
+#
+# Maintained by Claude (NOT edited directly by humans). To update :
+#   1. Tell the rule change in chat (user or Marianela, free-form FR/ES/EN)
+#   2. Claude translates it to YAML and edits this file
+#   3. Pipeline auto-applies on next run
+#
+# Each rule has :
+#   id          (kebab-case, unique)
+#   description (one-line human-readable)
+#   severity    P0 (blocker) | P1 (high) | P2 (warning, doesn't block PASS)
+#   source      Where the rule comes from (Figma node, Marianela audit point, etc.)
+#   check       How to verify
+#     type      dom | visual | cross-ref | data
+#     ...       per-type fields (selector, assertion, prompt, etc.)
+#   autofix     (optional) — how the Design Mapper can correct on retry
+#     target    Path to patch (e.g. spec.blocks)
+#     where     Filter (e.g. type=quote)
+#     set       Value to set
+#
+# Reference Figma : https://www.figma.com/design/stwOIKqkRzLAXL8oE9dAeU/draft-site?node-id=303-1015
+# Marianela's audit : .context/attachments/AUDIT BLOG REBUILD vs FIGMA 2.docx
+
+version: 0
+generatedAt: 2026-05-13
+figmaTemplateNodeId: "303:1015"
+acceptanceBar:
+  block: ["P0", "P1"]   # FAIL on any of these severities
+  warn: ["P2"]           # Logged but doesn't block PASS
+
+rules:
+  # ─────────────────────────────────────────────────────────────────────────
+  # SOMMAIRE / TOC (Marianela audit #1)
+  # Figma : centered card with circle-small bullets, blue text 25px
+  # Component : <TableOfContentsFrame> (to be created in Phase 1)
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: toc-centered-card
+    description: "TOC renders as a centered bordered card at top of body, NOT a sticky left sidebar"
+    severity: P0
+    source: "Marianela audit #1 + Figma node 303:1107"
+    check:
+      type: dom
+      selector: 'section[data-toc-frame]'
+      assert:
+        hasClass: "max-w-[91.25rem]"
+        descendants:
+          - selector: 'div[data-toc-card]'
+            hasClass: "bg-white border border-primary-40 rounded-[25px]"
+    autofix:
+      target: spec.layout
+      set: "centeredToc"
+
+  - id: toc-circle-bullets
+    description: "TOC items use circle-small Font Awesome bullets in gradient blue"
+    severity: P1
+    source: "Figma node 307:1675 (li bullet)"
+    check:
+      type: visual
+      prompt: "Are the TOC list item bullets small filled circles in primary blue gradient (not numbered, not orange)?"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # IMAGE IN BODY (Marianela audit #2)
+  # Figma : full-width breakout with cream bg-prevention-10 frame
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: figure-breakout-width
+    description: "Body figures span the full prose-frame width, not constrained to max-w-50rem"
+    severity: P0
+    source: "Marianela audit #2 + Figma node 309:2037"
+    check:
+      type: visual
+      prompt: "Are body images in the article large and span the full width of the centered reading column with comfortable margins, not small and confined to a narrow center column?"
+    autofix:
+      target: spec.blocks
+      where: "type=figure"
+      set:
+        widthMode: "breakout"
+
+  - id: figure-warm-frame
+    description: "Body figures have the cream (bg-prevention-10) frame with rounded-35px corners"
+    severity: P1
+    source: "Figma node 309:2037"
+    check:
+      type: dom
+      selector: 'figure[data-block="figure"]'
+      assert:
+        hasClass: "bg-prevention-10 rounded-[2.1875rem]"
+    autofix:
+      target: spec.blocks
+      where: "type=figure"
+      set:
+        tone: "warm"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # QUOTE (Marianela audit #3)
+  # Figma : variant="card" with decorative quote icon — NOT variant="pull"
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: quote-variant-card
+    description: "Every <blockquote> renders as <Quote variant='card'> with decorative quote icon, not pull-quote with left-border"
+    severity: P0
+    source: "Marianela audit #3 + Figma node 307:1722, 308:1736"
+    check:
+      type: dom
+      selector: 'figure[data-block="quote"]'
+      assert:
+        hasClass: "bg-white rounded-[1.5625rem]"
+        descendants:
+          - selector: 'svg[aria-hidden="true"]'    # quote icon present
+    autofix:
+      target: spec.blocks
+      where: "type=quote"
+      set:
+        variant: "card"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # H4 COLORS / H3 SOURCE GRADIENT (Marianela audit #4)
+  # Figma : H3 source (becomes DS level=3) renders in gradient primary blue
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: h3-source-gradient-primary
+    description: "Body subsection headings (source H2/H3 mapped to DS level=3) render with gradient primary, not solid black"
+    severity: P0
+    source: "Marianela audit #4 + Figma node 307:1728, 308:1744"
+    check:
+      type: visual
+      prompt: "Are subsection headings (the medium-sized ones, ~40px) in primary blue gradient color, NOT in solid black?"
+    autofix:
+      target: spec.blocks
+      where: "type=heading && level<=3"
+      set:
+        gradient: "primary"
+
+  - id: h4-level-solid
+    description: "Smaller deep-nested headings (DS level=4) remain solid (no gradient)"
+    severity: P2
+    source: "DS Heading contract — level=4 forbidden gradient"
+    check:
+      type: data
+      assertion: "every spec.blocks where type=heading && level=4 has gradient=none"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # TABLE HEADERS (Marianela audit #5)
+  # Figma : bg-primary text-white. Bug : tailwind-merge drops `text-white`.
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: table-headers-white-on-primary
+    description: "Table header cells render with WHITE text on primary blue background (visible contrast)"
+    severity: P0
+    source: "Marianela audit #5 + Figma node 309:1931"
+    check:
+      type: dom
+      selector: 'table th'
+      assert:
+        hasClass: "bg-primary"
+        computedStyle:
+          color: "rgb(255, 255, 255)"
+    autofix:
+      target: "ds-extension"
+      action: "Fix tailwind-merge config — `text-paragraph` must be in fontSize group, not text-color, to stop dropping `text-white`"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # FAQ HIDDEN ITEMS (Marianela audit #6)
+  # Webflow CMS may flag FAQ items as hidden — drop them from rebuild.
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: faq-hidden-not-rendered
+    description: "FAQ items flagged hidden in Webflow CMS are not rendered in the rebuild"
+    severity: P1
+    source: "Marianela audit #6"
+    check:
+      type: cross-ref
+      source: cmsToggles.hiddenFaqIndices
+      target: spec.faq
+      assertion: "no rendered faq item matches a hidden index"
+    autofix:
+      target: spec.faq
+      action: "filter out items at cmsToggles.hiddenFaqIndices"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # NEWSLETTER TOGGLE (Marianela audit #7)
+  # Some articles have showNewsletter=false in Webflow CMS.
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: newsletter-respects-cms-toggle
+    description: "NewsletterInlineCard is rendered only when Webflow CMS showNewsletter=true"
+    severity: P1
+    source: "Marianela audit #7"
+    check:
+      type: cross-ref
+      source: cmsToggles.showNewsletter
+      target: rendered.hasNewsletterCard
+      assertion: "rendered.hasNewsletterCard == cmsToggles.showNewsletter"
+    autofix:
+      target: spec.toggles.showNewsletter
+      action: "copy from cmsToggles.showNewsletter"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CLOSING CTA TOGGLE + CUSTOM CONTENT (Marianela audit #8 + #9)
+  # Per-article custom CTA from Webflow CMS or fallback to BLOG_INDEX_DATA.cta
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: cta-respects-cms-toggle
+    description: "CtaHighlightFrame closing CTA is rendered only when Webflow CMS showCta=true"
+    severity: P1
+    source: "Marianela audit #9"
+    check:
+      type: cross-ref
+      source: cmsToggles.showCta
+      target: rendered.hasClosingCta
+      assertion: "rendered.hasClosingCta == cmsToggles.showCta"
+
+  - id: cta-content-correct
+    description: "Closing CTA content matches Webflow CMS customCta (if set) or BLOG_INDEX_DATA.cta default"
+    severity: P0
+    source: "Marianela audit #8"
+    check:
+      type: cross-ref
+      source: cmsToggles.customCta
+      target: spec.customCta
+      assertion: "spec.customCta deep-equals cmsToggles.customCta OR both null"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # GENERAL HYGIENE (carry-over from v6/v7 scan-blog-data)
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: no-placeholder-images
+    description: "No placehold.co or via.placeholder URLs in rendered HTML"
+    severity: P0
+    source: "Past qa-page.mjs check"
+    check:
+      type: dom
+      selector: "img"
+      assert:
+        srcDoesNotMatch: "/placehold|via\\.placeholder|dummyimage/i"
+
+  - id: no-cms-template-leak
+    description: "No 'Speaker avatar:' / 'LINK_SPEAKER_PAGE' / 'insert the link' template strings in rendered text"
+    severity: P0
+    source: "Past parse-landings.py fix"
+    check:
+      type: dom
+      selector: "body"
+      assert:
+        textDoesNotMatch: "/Speaker avatar:|LINK_SPEAKER_PAGE|insert the link|change url of background-image/"
+
+  - id: no-double-encoded-entities
+    description: "No double-encoded HTML entities (&amp;quot; etc.) in visible text"
+    severity: P0
+    source: "Past qa-page.mjs check"
+    check:
+      type: dom
+      selector: "body"
+      assert:
+        textDoesNotMatch: '/&amp;(?:amp|lt|gt|quot|apos|nbsp);/i'
+
+  - id: alert-blockquote-as-callout
+    description: "<blockquote> starting with alert emoji (⚠️/💡/📌/🚨/❗/🔔/✅/💬) or <strong>Le saviez-vous|À retenir...</strong> renders as InsightCallout, NOT Quote"
+    severity: P0
+    source: "v7 post-process fix-blog-data-issues.mjs + Figma audit"
+    check:
+      type: data
+      assertion: "no spec.blocks where type=quote && text matches alert pattern"
+    autofix:
+      target: spec.blocks
+      where: "type=quote && isAlertCallout=true"
+      action: "convert to insight-callout with derived label + variant (warning/success/primary)"
+
+  - id: figure-caption-html-renders
+    description: "Figure captions with inline HTML (<em>, <a>, <strong>) render as HTML, not escaped text"
+    severity: P1
+    source: "v7 IllustrationFrame fix"
+    check:
+      type: dom
+      selector: "figcaption"
+      assert:
+        innerHtmlMayContain: ["<em>", "<a "]   # at least one should not be escaped
+
+  - id: inline-links-styled
+    description: "Inline <a> tags inside .ds-prose paragraph render in primary color + underline"
+    severity: P1
+    source: "R25 fix in v7"
+    check:
+      type: dom
+      selector: ".ds-prose a:not([data-no-style])"
+      assert:
+        computedStyle:
+          textDecorationLine: "underline"
+
+  - id: author-avatar-no-placeholder
+    description: "Author avatar fallback uses AirSaas brand icon, not placehold.co"
+    severity: P1
+    source: "v7 author fallback fix"
+    check:
+      type: dom
+      selector: "img[alt*='AirSaas']"
+      assert:
+        srcMatches: "/airsaas-icon\\.svg$|^https:\\/\\/cdn\\.prod\\.website-files\\.com/"
+
+  - id: hubspot-embed-becomes-demo-cta
+    description: "HubSpot CTA embeds in source render as a working inline-cta '/fr/meetings-pages'"
+    severity: P1
+    source: "v7 HubSpot fallback"
+    check:
+      type: data
+      assertion: "no spec.blocks where type=hubspot-cta-embed remains (all converted to inline-cta)"
+    autofix:
+      target: spec.blocks
+      where: "type=hubspot-cta-embed"
+      action: "convert to inline-cta with ctaLabel='Réservez votre démo de 30 min' ctaHref='/fr/meetings-pages'"
+
+  - id: heading-level-downshift
+    description: "Source H1 dropped (already in BlogHero), source H2 → DS level=3, source H3+ → DS level=4"
+    severity: P0
+    source: "Existing renderBlogBlocks logic"
+    check:
+      type: data
+      assertion: "no spec.blocks where type=heading && level=1; H2 source has level=3; H3+ source has level<=4"
+
+  - id: blocks-emitted-match-source
+    description: "Every block in spec corresponds to a verifiable element in Webflow source HTML (no inventions)"
+    severity: P0
+    source: "Anti-hallucination guardrail"
+    check:
+      type: data
+      assertion: "ContentValidator agent has confirmed each block has a source trace"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # COVERAGE (carry-over from audit-blog-structural)
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - id: heading-coverage-near-source
+    description: "Number of headings emitted is ≥ source heading count (no skipped sections)"
+    severity: P1
+    source: "Past audit-blog-structural.mjs"
+    check:
+      type: cross-ref
+      source: contentBlocks.headingCount
+      target: spec.headingCount
+      assertion: "target >= source"

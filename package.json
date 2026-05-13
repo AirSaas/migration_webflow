@@ -13,9 +13,13 @@
     "test:visual:update": "playwright test --config=playwright.config.ts --update-snapshots",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "blog:registry": "node scripts/migrate/generate-ds-registry.mjs",
+    "blog:audit-ds-gaps": "node scripts/migrate/audit-ds-gaps.mjs",
+    "blog:migrate": "tsx scripts/migrate/blog-pipeline/index.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
     "@strapi/blocks-react-renderer": "^1.0.2",
     "clsx": "^2.1.1",
     "next": "16.1.6",
@@ -34,6 +38,7 @@
     "@storybook/addon-vitest": "^10.3.4",
     "@storybook/nextjs-vite": "^10.3.4",
     "@tailwindcss/postcss": "^4",
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -44,11 +49,13 @@
     "eslint-config-next": "16.1.6",
     "eslint-plugin-storybook": "^10.3.4",
     "husky": "^9.1.7",
+    "js-yaml": "^4.1.1",
     "lighthouse": "^13.1.0",
     "pixelmatch": "^7.1.0",
     "playwright": "^1.59.1",
     "storybook": "^10.3.4",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5",
     "vite": "^8.0.3",
     "vitest": "^4.1.2"

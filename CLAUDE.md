@@ -10,6 +10,61 @@ Spec complète : `.context/attachments/SPEC_Migration_v4.0_FINAL.md`
 - **Stack** : Next.js 15, Tailwind, Strapi 5, next-intl (7 locales)
 - **Webflow Site ID** : `609552290d93fd43ba0f0849`
 
+## Blog v8 — Multi-agent migration pipeline
+
+Migration des 62 articles de blog via pipeline **Claude Agent SDK** à 8 nœuds (3 LLM + 5 déterministes) pour atteindre 100% nickel sans halluciner. Plan détaillé : `tasks/todo.md`.
+
+### Source de vérité
+- **Contenu** (texte, blocs, ordre) : Webflow live HTML scrappé dans Supabase `airsaas_pages_rebuild`
+- **Toggles CMS** (FAQ hidden, newsletter, custom CTA per article) : Webflow API v2 (`WEBFLOW_API_TOKEN` dans `.env.local`)
+- **Design** (variants DS, couleurs, layout) : Figma template `303:1015` (générique pour les 62 articles)
+- **Acceptance** : `docs/blog-design-rules.yaml` (édité par Claude depuis les instructions chat user/Marianela)
+
+### Blog rules edit workflow
+
+**RÈGLE** : `docs/blog-design-rules.yaml` est **édité par Claude uniquement**, jamais directement par Marianela.
+
+Flow :
+1. User/Marianela décrit une nouvelle règle ou un ajustement **en chat** (libre, FR/ES/EN)
+2. Claude **traduit en YAML** et édite `docs/blog-design-rules.yaml`
+3. Claude résume le diff au user pour validation orale
+4. Si valide → Claude re-run la pipeline sur l'article impacté
+
+Exemple :
+- Marianela en chat : "Le sommaire doit être une carte centrée avec puces circles bleues, pas une sidebar"
+- Claude édite : ajoute règle `id: toc-centered-card` avec assertions DOM + autofix `layout: centeredToc`
+
+### Pipeline 8-agents (résumé)
+```
+1. Content Extractor (Sonnet) — Webflow HTML → blocs Zod stricts
+2. CMS Toggles Reader — Webflow API → showFaq/showNewsletter/showCta
+3. Content Validator — déterministe, regex hints cross-check
+4. Design Mapper (Sonnet) — blocs + rules YAML + DS Registry → RenderingSpec V3
+5. DS Conformance Validator — déterministe, Zod + ds-audit → STOP si gap
+6. Renderer — écrit V3 data + render Next.js
+7. Visual Auditor (Opus vision) — screenshot vs Figma vs checklist YAML
+8. Decision Router — PASS / retry (max 5) / escalate
+```
+
+### Commandes
+```
+npm run blog:registry          # Génère docs/raw/ds-registry.json
+npm run blog:audit-ds-gaps     # Pré-flight Figma vs DS
+npm run blog:migrate           # Migration 62 articles
+npm run blog:migrate -- --slugs=metier-pmo,pi-planning  # Subset
+```
+
+### Budgets
+- Cost cap : `LLM_COST_CAP_USD=100` (hard stop)
+- Retries : 5 max par article avant escalation
+- Sequential : 1 article à la fois (pas de parallélisme)
+
+### Escalations
+- DS gap → `docs/blog-migration/<slug>/needs-ds-extension.md` (stop sur l'article, pipeline continue)
+- 5 retries atteints → `docs/blog-migration/<slug>/needs-review.md` (screenshots diff + propositions)
+
+---
+
 ## Page rebuild QA — process obligatoire
 
 **RÈGLE ABSOLUE** : NE JAMAIS soumettre une URL/preview au user sans avoir validé les **3 niveaux de QA** ci-dessous. Le verifier `verify-rebuild.mjs` (text coverage) **ne suffit PAS**.

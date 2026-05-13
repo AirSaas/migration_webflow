@@ -181,11 +181,41 @@ cd backend && npm run develop
 # → http://localhost:1337/admin
 ```
 
+## Blog Migration v8 (Multi-Agent Pipeline)
+
+The 62 blog articles are migrated from Webflow to Next.js using an 8-node multi-agent pipeline (3 LLM + 5 deterministic) built on the Claude Agent SDK. Goal: 100% visual fidelity to the Figma template `303:1015` with zero hallucinations.
+
+### Sources of truth
+
+| Layer | Source |
+|---|---|
+| Content (text, blocks, order) | Webflow live HTML in Supabase `airsaas_pages_rebuild` |
+| CMS toggles (FAQ hidden, newsletter, custom CTA) | Webflow API v2 (`WEBFLOW_API_TOKEN` in `.env.local`) |
+| Design (variants, colors, layout) | Figma template `303:1015` |
+| Acceptance rules | `docs/blog-design-rules.yaml` |
+
+### Design rules workflow
+
+`docs/blog-design-rules.yaml` is edited **by Claude only**, never directly by humans. When Marianela (or anyone) wants a new rule, they describe it **in chat** (free-form), and Claude translates it to YAML.
+
+### Pipeline commands
+
+```bash
+npm run blog:registry          # Generate machine-readable DS Registry
+npm run blog:audit-ds-gaps     # Pre-flight Figma vs DS audit
+npm run blog:migrate           # Run pipeline on all 62 articles
+npm run blog:migrate -- --slugs=metier-pmo,pi-planning  # Subset
+```
+
+Detailed plan in `tasks/todo.md`, full agent specs in `CLAUDE.md`.
+
 ## Documentation
 
 | File | Content |
 |------|---------|
 | `docs/sections-catalog.md` | Full inventory of all pages and their sections |
 | `docs/decisions.md` | Architectural decisions log |
+| `docs/blog-design-rules.yaml` | Blog acceptance rules (Claude-maintained) |
 | `docs/_legacy-design-system.md` | Old design system reference |
 | `CLAUDE.md` | AI assistant project rules |
+| `tasks/todo.md` | Current migration plan |
