@@ -61,14 +61,20 @@ Reference docs:
 
 Every rebuild MUST apply these without being told:
 
-#### Hero layout per page category
+#### Hero layout — verify on live FIRST, then pass `layout` explicitly
 
-| Category | Layout | Note |
+**Rule**: always look at the live page (screenshot or DOM) to determine whether the image sits BESIDE the text (`split`) or BELOW it (`centered`). The dispatcher's auto-pick (`split` when `imageSrc` is set) is unreliable across the catalog — pass `layout` explicitly once you've verified.
+
+Common starting hypotheses by category (use as a default to verify against, NOT as a rule):
+
+| Category | Typical layout | Verify because |
 |---|---|---|
-| Solution (`/fr/solution/*`) | `layout: "split"` | Image right of text |
-| Produit (`/fr/produit/*`) | `layout: "centered"` (dark variant) | Image below |
-| Équipes (`/fr/equipes/*`) | `layout: "centered"` **explicit** | Image full-width below — the dispatcher auto-picks `split` when `imageSrc` is set, OVERRIDE it |
-| LP (`/fr/lp/*`) | `layout: "centered"` | Image below + eyebrow + 2 CTAs + trust badges |
+| Solution (`/fr/solution/*`) | usually `split` light | Some solution pages use centered |
+| Produit (`/fr/produit/*`) | usually `centered` (dark) | Some produit pages use split |
+| Équipes (`/fr/equipes/*`) | usually `centered` | Verified on outil-pmo + it-et-operation, but new équipes pages might differ |
+| LP (`/fr/lp/*`) | usually `centered` with eyebrow + 2 CTAs + trust badges | LP variants exist with split mockups |
+
+If your visual check shows the image is BESIDE the text on the live → `layout: "split"` (regardless of category). If BELOW → `layout: "centered"`. Set it explicitly either way so the dispatcher doesn't auto-pick wrong.
 
 #### Gradient-split title rule (FeatureFrame / SectionHeading / ClientsFrame)
 

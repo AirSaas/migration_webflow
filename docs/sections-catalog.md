@@ -404,16 +404,20 @@ Les icônes des `infoRows` sont résolues via `bareIcon(iconName)` (helper du di
 
 ### Conventions transversales
 
-#### Hero layout par catégorie
+#### Hero layout — vérifier le live D'ABORD, puis passer `layout` explicitement
 
-Le dispatcher auto-pick `layout="split"` quand `imageSrc` est présent, sinon `centered`. **Override avec `layout: "centered"` explicite** quand le live affiche l'image en pleine largeur SOUS le titre (Équipes / LP convention). Sinon le rebuild rend en split (texte gauche, image droite) qui ne match pas le live.
+**Règle** : toujours regarder le live (screenshot ou DOM) pour déterminer si l'image est À CÔTÉ du texte (`split`) ou EN DESSOUS (`centered`). Le dispatcher auto-pick `split` quand `imageSrc` est set, mais c'est peu fiable selon les pages — passer `layout` explicitement une fois vérifié.
 
-| Catégorie | Hero layout | Image position |
+Hypothèses de départ par catégorie (à utiliser comme défaut à VÉRIFIER, pas comme règle absolue) :
+
+| Catégorie | Layout typique | À vérifier parce que |
 |---|---|---|
-| Solution | `split` (light) | À droite du texte |
-| Produit | `centered` (dark) | Sous le titre |
-| Équipes | `centered` (light) | Pleine largeur sous le titre — **passer `layout: "centered"` explicitement** |
-| LP | `centered` (light) | Sous le titre, eyebrow + 2 CTAs + trust badges |
+| Solution | habituellement `split` light | Certaines pages solution utilisent centered |
+| Produit | habituellement `centered` (dark) | Certaines pages produit utilisent split |
+| Équipes | habituellement `centered` light | Vérifié sur outil-pmo + it-et-operation, mais une future page équipes pourrait différer |
+| LP | habituellement `centered` avec eyebrow + 2 CTAs + trust badges | Variantes LP existantes avec mockup en split |
+
+Si la vérif visuelle montre l'image À CÔTÉ du texte → `layout: "split"` (peu importe la catégorie). Si EN DESSOUS → `layout: "centered"`. Le passer explicitement dans tous les cas pour éviter que le dispatcher auto-pick incorrectement.
 
 #### Gradient split dans les titres (FeatureFrame / SectionHeading / etc.)
 
