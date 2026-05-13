@@ -731,6 +731,16 @@ function renderSection(section: LandingSection, index: number): ReactNode {
     case "mixed-testimonials": {
       const readMore = section.readMoreLabel ?? "Lire la suite";
       const readLess = section.readLessLabel ?? "Voir moins";
+      // Adaptive lg column count: fill the row when N ≤ 4, wrap past that.
+      // Mirrors the ClientsFrame / TestimonialsFrame adaptive grid pattern.
+      const lgGrid = (n: number) =>
+        n >= 4
+          ? "lg:grid-cols-4"
+          : n === 3
+            ? "lg:grid-cols-3"
+            : n === 2
+              ? "lg:grid-cols-2"
+              : "lg:grid-cols-1";
       return (
         <TestimonialsFrame
           key={index}
@@ -740,7 +750,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           readLessLabel={readLess}
         >
           {section.press.length > 0 ? (
-            <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+            <div
+              className={`grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 ${lgGrid(section.press.length)}`}
+            >
               {section.press.map((p, i) => (
                 <TestimonialCompanyCard
                   key={`press-${i}`}
@@ -753,7 +765,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             </div>
           ) : null}
           {section.personal.length > 0 ? (
-            <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+            <div
+              className={`grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 ${lgGrid(section.personal.length)}`}
+            >
               {section.personal.map((p, i) => (
                 <TestimonialCard
                   key={`pers-${i}`}
