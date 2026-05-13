@@ -716,15 +716,19 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       );
 
     case "section-heading":
+      // SectionHeading already handles its own horizontal padding and vertical
+      // rhythm — wrap only in a semantic <section> with bg color, no extra px/py
+      // that would double-pad the layout and crush the heading width. Override
+      // the DS component's default `lg:px-[14.375rem]` (calibrated for narrow
+      // editorial blocks) to `lg:px-[10rem]` so the heading lines up with the
+      // other landing sections (FeatureFrame / ClientsFrame use 10rem too).
       return (
-        <section
-          key={index}
-          className="flex flex-col items-center px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white"
-        >
+        <section key={index} className="bg-white">
           <SectionHeading
             titleGradient={section.titleGradient}
             titleDark={section.titleDark}
             subtitle={section.subtitle}
+            className="lg:!px-[10rem]"
           />
         </section>
       );
