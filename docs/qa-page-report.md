@@ -1,6 +1,6 @@
 # QA report — regex/DOM (qa-page.mjs)
 
-**Date** : 2026-05-13T14:07:28.161Z
+**Date** : 2026-05-13T15:32:40.446Z
 
 **Total** : 1 pages — **1 PASS** / 0 WARN / 0 BLOCK
 
@@ -16,4 +16,4 @@
 
 | Slug | Type | Status | P0 | P1 | P2 | P3 |
 |---|---|---|---|---|---|---|
-| `outil-pmo` | equipe | PASS | 0 | 0 | 0 | 0 |
+| `it-et-operation` | equipe | PASS | 0 | 0 | 0 | 0 |
