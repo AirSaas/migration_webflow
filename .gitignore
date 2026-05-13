@@ -86,3 +86,7 @@ scripts/migrate/data/
 /blob-report/
 /playwright/.cache/
 docs/visual-comparison/*.png
+
+# Blog migration v8 — local-only artifacts
+docs/blog-migration/**/rendered*.png
+docs/blog-migration/**/run.log

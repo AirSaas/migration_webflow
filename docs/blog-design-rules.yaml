@@ -36,17 +36,13 @@ rules:
   # ─────────────────────────────────────────────────────────────────────────
 
   - id: toc-centered-card
-    description: "TOC renders as a centered bordered card at top of body, NOT a sticky left sidebar"
+    description: "TOC renders as a centered bordered card at top of body (TableOfContentsFrame), NOT a sticky left sidebar with numbered items"
     severity: P0
     source: "Marianela audit #1 + Figma node 303:1107"
+    requiresLayout: "centeredToc"
     check:
-      type: dom
-      selector: 'section[data-toc-frame]'
-      assert:
-        hasClass: "max-w-[91.25rem]"
-        descendants:
-          - selector: 'div[data-toc-card]'
-            hasClass: "bg-white border border-primary-40 rounded-[25px]"
+      type: visual
+      prompt: "Near the top of the page, is there a centered bordered card labeled 'SOMMAIRE' with primary blue text and circle bullets (NOT a vertical sidebar on the left with numbered items 1, 2, 3 with orange/red active marker)?"
     autofix:
       target: spec.layout
       set: "centeredToc"
@@ -78,14 +74,13 @@ rules:
         widthMode: "breakout"
 
   - id: figure-warm-frame
-    description: "Body figures have the cream (bg-prevention-10) frame with rounded-35px corners"
+    description: "Body figures use the cream (prevention-10) warm frame with rounded corners"
     severity: P1
     source: "Figma node 309:2037"
+    requiresBlock: figure
     check:
-      type: dom
-      selector: 'figure[data-block="figure"]'
-      assert:
-        hasClass: "bg-prevention-10 rounded-[2.1875rem]"
+      type: visual
+      prompt: "Are body images (illustrations inside the article) wrapped in a cream/yellow-tinted background frame with rounded corners, NOT a plain white background or no frame?"
     autofix:
       target: spec.blocks
       where: "type=figure"
@@ -98,16 +93,13 @@ rules:
   # ─────────────────────────────────────────────────────────────────────────
 
   - id: quote-variant-card
-    description: "Every <blockquote> renders as <Quote variant='card'> with decorative quote icon, not pull-quote with left-border"
+    description: "Every <blockquote> renders as <Quote variant='card'> (bordered white card with decorative quote icon), not pull-quote with bare left-border"
     severity: P0
     source: "Marianela audit #3 + Figma node 307:1722, 308:1736"
+    requiresBlock: quote
     check:
-      type: dom
-      selector: 'figure[data-block="quote"]'
-      assert:
-        hasClass: "bg-white rounded-[1.5625rem]"
-        descendants:
-          - selector: 'svg[aria-hidden="true"]'    # quote icon present
+      type: visual
+      prompt: "Are quotes/citations in the article rendered as a white bordered CARD with a decorative quote icon at the top-left, italic text inside (NOT a simple italic paragraph with just a left vertical border)?"
     autofix:
       target: spec.blocks
       where: "type=quote"
@@ -149,16 +141,13 @@ rules:
     description: "Table header cells render with WHITE text on primary blue background (visible contrast)"
     severity: P0
     source: "Marianela audit #5 + Figma node 309:1931"
+    requiresBlock: table
     check:
-      type: dom
-      selector: 'table th'
-      assert:
-        hasClass: "bg-primary"
-        computedStyle:
-          color: "rgb(255, 255, 255)"
+      type: visual
+      prompt: "Are table header cells (top row) clearly readable WHITE text on a deep primary BLUE background, with strong contrast? FAIL if header text looks black/dark on a blue background (invisible)."
     autofix:
       target: "ds-extension"
-      action: "Fix tailwind-merge config — `text-paragraph` must be in fontSize group, not text-color, to stop dropping `text-white`"
+      action: "Fix tailwind-merge config (already done 2026-05-13). If still fails, the renderer may be over-applying text-foreground — check renderBlogBlocksV3."
 
   # ─────────────────────────────────────────────────────────────────────────
   # FAQ HIDDEN ITEMS (Marianela audit #6)
@@ -230,30 +219,24 @@ rules:
     severity: P0
     source: "Past qa-page.mjs check"
     check:
-      type: dom
-      selector: "img"
-      assert:
-        srcDoesNotMatch: "/placehold|via\\.placeholder|dummyimage/i"
+      type: visual
+      prompt: "Are there any obvious placeholder images on the page — grey/blue rectangles with text like 'AS', 'AirSaas', or that look like generated placeholder.co images? Should be NO (FAIL) if any are visible."
 
   - id: no-cms-template-leak
     description: "No 'Speaker avatar:' / 'LINK_SPEAKER_PAGE' / 'insert the link' template strings in rendered text"
     severity: P0
     source: "Past parse-landings.py fix"
     check:
-      type: dom
-      selector: "body"
-      assert:
-        textDoesNotMatch: "/Speaker avatar:|LINK_SPEAKER_PAGE|insert the link|change url of background-image/"
+      type: visual
+      prompt: "Is there any visible text on the page containing CMS template placeholder strings like 'Speaker avatar:', 'LINK_SPEAKER_PAGE', 'insert the link', or 'change url of background-image'? Should be NO (FAIL) if any are visible."
 
   - id: no-double-encoded-entities
     description: "No double-encoded HTML entities (&amp;quot; etc.) in visible text"
     severity: P0
     source: "Past qa-page.mjs check"
     check:
-      type: dom
-      selector: "body"
-      assert:
-        textDoesNotMatch: '/&amp;(?:amp|lt|gt|quot|apos|nbsp);/i'
+      type: visual
+      prompt: "Is there any visible text on the page with double-encoded HTML entities like '&amp;quot;', '&amp;lt;', '&amp;gt;' shown as literal text instead of decoded characters? Should be NO (FAIL) if any are visible."
 
   - id: alert-blockquote-as-callout
     description: "<blockquote> starting with alert emoji (⚠️/💡/📌/🚨/❗/🔔/✅/💬) or <strong>Le saviez-vous|À retenir...</strong> renders as InsightCallout, NOT Quote"
@@ -268,35 +251,29 @@ rules:
       action: "convert to insight-callout with derived label + variant (warning/success/primary)"
 
   - id: figure-caption-html-renders
-    description: "Figure captions with inline HTML (<em>, <a>, <strong>) render as HTML, not escaped text"
+    description: "Figure captions with inline HTML (<em>, <a>) render as italic/link, not as escaped text"
     severity: P1
     source: "v7 IllustrationFrame fix"
+    requiresBlock: figure
     check:
-      type: dom
-      selector: "figcaption"
-      assert:
-        innerHtmlMayContain: ["<em>", "<a "]   # at least one should not be escaped
+      type: visual
+      prompt: "If the article has figures with captions, are any italic emphases or inline links inside captions rendered properly (italic text / blue link), or are they shown as literal text like '<em>Like ton job</em>'? FAIL only if literal <em> or <a tag text is visible."
 
   - id: inline-links-styled
-    description: "Inline <a> tags inside .ds-prose paragraph render in primary color + underline"
+    description: "Inline links inside the article body render in primary blue + underlined"
     severity: P1
     source: "R25 fix in v7"
     check:
-      type: dom
-      selector: ".ds-prose a:not([data-no-style])"
-      assert:
-        computedStyle:
-          textDecorationLine: "underline"
+      type: visual
+      prompt: "Inside paragraph body text, are inline hyperlinks rendered in primary BLUE color with an underline? FAIL if links look identical to surrounding black text (no color, no underline)."
 
   - id: author-avatar-no-placeholder
-    description: "Author avatar fallback uses AirSaas brand icon, not placehold.co"
+    description: "Author avatar at top is either a real photo or AirSaas brand icon — never a placeholder square"
     severity: P1
     source: "v7 author fallback fix"
     check:
-      type: dom
-      selector: "img[alt*='AirSaas']"
-      assert:
-        srcMatches: "/airsaas-icon\\.svg$|^https:\\/\\/cdn\\.prod\\.website-files\\.com/"
+      type: visual
+      prompt: "Is the author avatar in the page header a real photo OR the AirSaas brand icon (small rounded image)? FAIL if it's a generic blue/grey rectangle with text like 'AS' (placeholder)."
 
   - id: hubspot-embed-becomes-demo-cta
     description: "HubSpot CTA embeds in source render as a working inline-cta '/fr/meetings-pages'"

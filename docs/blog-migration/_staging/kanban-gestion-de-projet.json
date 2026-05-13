@@ -1,0 +1,278 @@
+{
+  "slug": "kanban-gestion-de-projet",
+  "skip": false,
+  "reason": "Applied design rules: H2 source → DS level=3 with gradient primary; H3 source → DS level=3 with gradient primary (sourceLevel<=3); figures set to breakout + warm tone; TOC centered (4 entries).",
+  "meta": {
+    "title": "Kanban & gestion de projet : la méthode pour optimiser votre suivi de projet",
+    "description": "Découvrez comment utiliser concrètement le Kanban dans votre gestion de projet pour optimiser votre suivi, améliorer la communication et booster la productivité de vos équipes.",
+    "h1": "Kanban & gestion de projet : la méthode pour optimiser votre suivi de projet",
+    "heroImage": {
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38d15e3e50634f2ce01e8_1-3-min.jpg",
+      "alt": "Kanban & gestion de projet"
+    },
+    "author": {
+      "name": "Bertran Ruiz",
+      "category": "Gestion de projets",
+      "publishedDate": "8/10/2021",
+      "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+    },
+    "publishedDate": "8/10/2021"
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "Le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\" target=\"_blank\">suivi de projet</a> peut parfois se faire avec des outils qui offrent une visibilité globale (comme le diagramme de Gantt par exemple), mais il arrive aussi que vous souhaitiez rentrer davantage dans le détail."
+    },
+    {
+      "type": "paragraph",
+      "html": "Le Kanban est l'un des meilleurs pour cela, et en plus, c'est un excellent support de communication pour vos réunions d'équipe !"
+    },
+    {
+      "type": "paragraph",
+      "html": "Découvrez ici comment utiliser concrètement le Kanban dans votre gestion de projet."
+    },
+    {
+      "type": "figure",
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8393b38147e34dd835bab_62f37ed0147093c2a56b9627_Project-kanban-min.jpeg",
+      "alt": "Kanban des projets : le dashboard",
+      "caption": "Kanban des projets",
+      "widthMode": "breakout",
+      "tone": "warm"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Qu'est-ce que c'est que la méthode Kanban ?",
+      "id": "quest-ce-que-cest-que-la-methode-kanban",
+      "gradient": "primary"
+    },
+    {
+      "type": "paragraph",
+      "html": "Le Kanban est un outil qui provient de la méthode du \"lean facturing\". L'objectif premier des systèmes Kanban était donc de permettre d'assurer une production en flux tendu et de parvenir à respecter un équilibre entre la production et la demande."
+    },
+    {
+      "type": "paragraph",
+      "html": "Le nom Kanban vient du japonais : il signifie étiquette. Plus précisément, il s'agissait de l'étiquette qui servait à indiquer à un poste de production s'il devait continuer à produire où plutôt s'arrêter. L'objectif était de limiter le surplus de pièce par rapport aux demandes clients et donc de limiter le gaspillage, notamment lorsqu'un défaut sur une série de pièces avait été détecté."
+    },
+    {
+      "type": "paragraph",
+      "html": "Désormais, le Kanban est beaucoup utilisé comme d'une des méthodologies phares de la gestion de projet agile - mais son usage ne s'arrête pas qu'aux projets informatiques. Tout chef de projet, quel que soit son domaine, peut utiliser cet outil de suivi d'avancement du projet très fonctionnel et collaboratif."
+    },
+    {
+      "type": "paragraph",
+      "html": "La méthode Kanban se base sur un système de cartes synthétiques qui permettent à chaque membre de l'équipe de savoir :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Quelles sont les tâches à réaliser",
+        "Quand elles doivent être réalisées",
+        "Ce qui a déjà été réalisé"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "Le Kanban est donc l'outil parfait pour rappeler chacune des tâches dont doit se charger une équipe et permettre à chacun des membres de coordonner leurs efforts en vue de maximiser leur productivité."
+    },
+    {
+      "type": "paragraph",
+      "html": "C'est aussi un outil visuellement intéressant : en un coup d'œil, chacun peut disposer de l'organisation des tâches de l'équipe à un moment T. Le Kanban optimise donc <a href=\"https://www.airsaas.io/fr/gestion-de-projet/plan-de-communication-projet\" target=\"_blank\">la communication</a> et la bonne circulation des informations relatives aux tâches à exécuter dans vos équipes."
+    },
+    {
+      "type": "paragraph",
+      "html": "Pour simplifier encore davantage la visibilité, les Kanbans sont généralement divisés en trois parties différentes :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Les tâches \"à réaliser\"",
+        "Les tâches \"en cours\"",
+        "Les tâches \"réalisées\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "Souvent, chacun de ces statuts est représenté par un code couleur afin que chacun puisse savoir ce qu'il doit faire et ce qui est fait en quelques secondes seulement."
+    },
+    {
+      "type": "paragraph",
+      "html": "Le tableau Kanban comporte parfois un espace où chaque membre de l'équipe, et même parfois les clients, peut proposer des idées sur le projet. Ces idées peuvent ainsi être reprises par l'équipe et intégrée au projet si elles sont jugées pertinentes."
+    },
+    {
+      "type": "paragraph",
+      "html": "Pour résumer, le Kanban est communément considéré comme un outil de gestion de projets bien plus efficace que les tableaux traditionnels et les \"to-do list\", et l'adopter et l'utiliser au quotidien amène de nombreux bénéfices."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pourquoi utiliser un Kanban dans la gestion de projet ?",
+      "id": "pourquoi-utiliser-un-kanban-dans-la-gestion-de-projet",
+      "gradient": "primary"
+    },
+    {
+      "type": "paragraph",
+      "html": "L'utilisation d'un Kanban dans la gestion de projet a de nombreux avantages qui devraient vous convaincre d'adopter cet outil."
+    },
+    {
+      "type": "paragraph",
+      "html": "En voici quelques-uns."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Une réduction des délais et des coûts</strong> : grâce à une meilleure communication et une priorisation des tâches à effectuer plus effective.",
+        "<strong>Une meilleure visibilité sur l'exécution du projet</strong> : vous pouvez suivre l'état d'avancement de chacune des tâches en quelques secondes.",
+        "<strong>Une plus grande la flexibilité de votre équipe</strong> : avoir une visibilité fine sur les tâches que chacun doit réaliser permet de parvenir à changer de cap plus facilement lorsqu'un évènement inattendu survient - par exemple lorsque le besoin de votre client évolue.",
+        "<strong>Des goulots d'étranglement évités</strong> : comme chacun sait ce que les autres ont à faire et dans quels délais, les risques de se retrouver bloqué par une tâche non finie par l'un de ses collègues sont considérablement réduits.",
+        "<strong>Un outil pour la collaboration corrective</strong> : les membres de l'équipe sont incités à communiquer pour résoudre les problèmes dès qu'ils apparaissent.",
+        "<strong>Une meilleure qualité</strong> : la méthode de gestion de projet par Kanban aide à obtenir un niveau de qualité constant, et ce, de manière collective.",
+        "<strong>Une simplification de la démarche d'amélioration continue</strong> : la faculté de visualiser la façon de travailler de votre équipe facilement permet de réfléchir constamment à des axes d'amélioration.",
+        "<strong>Plus de souplesse dans l'exécution</strong> : les changements de priorités, du responsable d'une tâche donnée ou un simple décalage des délais dans le temps sont facilités.",
+        "<strong>Un management visuel</strong> : chacun des membres de votre équipe dispose du même niveau d'information (l'état d'avancement, les contraintes, les difficultés de chacun…). En leur offrant une vision globale de l'exécution, vous intégrez complètement votre équipe au projet, et vos collaborateurs se sentent d'autant plus impliqués.",
+        "<strong>Une méthode instinctive</strong> : la méthode Kanban est simple d'utilisation et donc rapide à mettre en place. De plus, les bénéfices sont presque immédiats.",
+        "<strong>Un coup de boost pour la motivation de vos équipes</strong> : une des raisons principales de la démotivation d'une équipe est de devoir gérer une tâche qui leur paraît trop grande, insurmontable. La méthode Kanban est idéale pour découper tout projet en un ensemble de petites tâches réalisables. Cette astuce reconnue vous permet de motiver vos collaborateurs, a fortiori si chaque tâche est assignée à un responsable.",
+        "<strong>Un bon support de réunion</strong> : le tableau Kanban est un support de présentation pour vos réunions avec vos équipes. Il est particulièrement utile pour les points quotidiens de début de journée."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Kanban physique -vs- Kanban digital",
+      "id": "kanban-physique-vs-kanban-digital",
+      "gradient": "primary"
+    },
+    {
+      "type": "paragraph",
+      "html": "Les tableaux Kanban peuvent être utilisés sous leur forme numérique ou physique, et chacune d'elles possède des avantages. En voici quelques-uns pour vous aider à faire votre choix."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les avantages du Kanban physique",
+      "id": "les-avantages-du-kanban-physique",
+      "gradient": "primary"
+    },
+    {
+      "type": "paragraph",
+      "html": "Certaines équipes (notamment des équipes de développeurs informatiques) choisissent de mettre en place un Kanban physique dans les locaux de l'entreprise, pour encourager les collaborateurs pendant leurs sprints agiles. Ce format présente quelques avantages :"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Une visibilité continue</strong> : un tableau physique est \"toujours allumé\" et permet donc à chacun d'avoir sous le nez ce qu'il reste à faire."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Engager vos équipes</strong> : un tableau physique est coloré, apporte une touche sympathique à vos bureaux et a un impact sur l'implication de vos équipes."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Encourage à la communication</strong> : le tableau physique offre un lieu de conversation et de réflexion tout trouvé. Vos collaborateurs pourront échanger avec le tableau comme support."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les avantages du Kanban digital",
+      "id": "les-avantages-du-kanban-digital",
+      "gradient": "primary"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Plus simple à maintenir ordonné</strong> : oubliez les écritures illisibles et les post-it qui se décollent."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Traçabilité dans le temps</strong> : aucun post-it n'est jeté sans avoir été archivé et vous avez une visibilité sur l'ensemble des tâches tout au long de l'exécution de votre projet."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Accessibilité</strong> : tout le monde peut avoir accès au tableau, en même temps, et peu importe où il se trouve. C'est particulièrement pratique lorsque vous collaborez avec des freelances ou des collaborateurs à distance."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Changement en temps réel</strong> : chaque membre de votre équipe voit les informations actualisées sur son tableau, sans délai, ni avoir besoin de les briefer pour les prévenir."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Information centralisée</strong> : toutes les informations utiles à une tâche peuvent être incorporées dans le tableau facilement (fichiers joints, description longue, etc…)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Sécurisation accrue</strong> : vous ne perdez pas de post-it, et les applications permettent souvent des processus d'authentification garantissant la protection d'informations confidentielles."
+    },
+    {
+      "type": "figure",
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8393b38147e34dd835bc4_62f38c84eafac57e7d6349cc_Presentation-mode-.jpeg",
+      "alt": "Vue projet",
+      "caption": "Passez du Kanban à la fiche projet en un clic",
+      "widthMode": "breakout",
+      "tone": "warm"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le Kanban comme support de communication intermédiaire",
+      "id": "le-kanban-comme-support-de-communication-intermediaire",
+      "gradient": "primary"
+    },
+    {
+      "type": "paragraph",
+      "html": "Le Kanban est donc une méthode efficace pour impliquer vos collaborateurs et assurer un suivi détaillé de l'exécution de votre projet. Il est cependant important de comprendre que le Kanban est, selon les situations, parfois trop détaillé, et parfois pas assez."
+    },
+    {
+      "type": "paragraph",
+      "html": "Par exemple, si vous faites une <a href=\"https://www.airsaas.io/fr/gestion-de-projet/la-revue-de-projet\" target=\"_blank\"><strong>revue de projet</strong></a> pour valider le passage à la phase suivante de votre projet, alors le Kanban vous servira de tremplin à vos discussions — vous devrez forcément rentrer davantage dans le détail au cours de vos échanges, mais c'est un bon support pour débattre."
+    },
+    {
+      "type": "paragraph",
+      "html": "À l'inverse, si vous souhaitez qu'une personne qui ne connait pas votre projet puisse en comprendre les grandes lignes très rapidement, il se peut que le Kanban soit un support de communication un peu trop précis pour lui. Orientez-le plutôt vers la <a href=\"/fr/gestion-de-projet/fiche-projet-exemple-et-methodologie\" target=\"_blank\"><strong>fiche projet</strong></a>, qui est un contenu plus synthétique et donc idéal pour les personnes extérieures au projet."
+    },
+    {
+      "type": "paragraph",
+      "html": "Si vous avez maintenant compris les limites du Kanban, alors vous pourrez en tirer son plein potentiel en l'utilisant dans les situations les plus appropriées !"
+    },
+    {
+      "type": "figure",
+      "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8393b38147e34dd835ba5_62f38cb287c554817f76d1fe_Export-flash-min.jpeg",
+      "alt": "export de la fiche projet",
+      "caption": "Exportez votre fiche projet en un clic",
+      "widthMode": "breakout",
+      "tone": "warm"
+    }
+  ],
+  "layout": "centeredToc",
+  "toggles": {
+    "showFaq": false,
+    "showNewsletter": true,
+    "showCta": true,
+    "showRelated": false,
+    "showTrending": true
+  },
+  "customCta": null,
+  "faq": [],
+  "toc": [
+    {
+      "label": "Qu'est-ce que c'est que la méthode Kanban ?",
+      "href": "#quest-ce-que-cest-que-la-methode-kanban",
+      "level": 2
+    },
+    {
+      "label": "Pourquoi utiliser un Kanban dans la gestion de projet ?",
+      "href": "#pourquoi-utiliser-un-kanban-dans-la-gestion-de-projet",
+      "level": 2
+    },
+    {
+      "label": "Kanban physique -vs- Kanban digital",
+      "href": "#kanban-physique-vs-kanban-digital",
+      "level": 2
+    },
+    {
+      "label": "Le Kanban comme support de communication intermédiaire",
+      "href": "#le-kanban-comme-support-de-communication-intermediaire",
+      "level": 2
+    }
+  ],
+  "related": []
+}

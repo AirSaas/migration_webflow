@@ -106,7 +106,7 @@ export async function runArticle(slug: string): Promise<ArticleResult> {
           spec,
           cmsToggles,
           renderedUrl: rendered.renderedUrl,
-          screenshotBase64: rendered.screenshotBase64,
+          screenshotsBase64: rendered.screenshotsBase64,
           attempt,
         },
         logger,

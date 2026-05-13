@@ -46,8 +46,10 @@ export interface RendererInput {
 export interface RendererOutput {
   stagingJsonPath: string;
   renderedUrl: string;
-  screenshotBase64: string;
-  screenshotPath: string;
+  /** Ordered array of base64-encoded PNG tiles (top-to-bottom of the page). */
+  screenshotsBase64: string[];
+  /** Filesystem paths matching screenshotsBase64. */
+  screenshotPaths: string[];
 }
 
 function buildV3DataFile(specs: RenderingSpec[]): string {
@@ -116,15 +118,21 @@ export async function runRenderer(
   await new Promise((r) => setTimeout(r, DEV_SERVER.hotReloadSettleMs));
 
   // 4. Screenshot the rendered page.
-  const url = `${DEV_SERVER.url}/fr/blog/${input.slug}`;
+  // Anthropic vision rejects images whose largest dim > 8000 px. Long blog
+  // articles render 12000+ px tall. Strategy: clip the full page into a
+  // tiled set of ≤ 7800 px slices and pass an ordered array to the auditor.
+  const url = `${DEV_SERVER.url}/fr/blog/v3/${input.slug}`;
+  const TILE_HEIGHT = 4000; // safe under Anthropic 8000px limit even with retina
+
   const b = await getBrowser();
-  const page = await b.newPage({ viewport: { width: 1440, height: 900 } });
+  // Viewport height matches a tile — each viewport-screenshot is one tile.
+  const page = await b.newPage({ viewport: { width: 1280, height: TILE_HEIGHT } });
   try {
     const resp = await page.goto(url, { waitUntil: "networkidle", timeout: 30000 });
     if (!resp || !resp.ok()) {
       throw new Error(`Renderer page goto returned status ${resp?.status() ?? "?"}`);
     }
-    // Scroll the full page to trigger lazy loads, then screenshot.
+    // Pre-scroll to trigger lazy loads.
     await page.evaluate(() =>
       new Promise<void>((resolve) => {
         let y = 0;
@@ -134,17 +142,36 @@ export async function runRenderer(
           if (y >= document.body.scrollHeight) {
             clearInterval(id);
             window.scrollTo(0, 0);
-            setTimeout(() => resolve(), 500);
+            setTimeout(() => resolve(), 600);
           }
         }, 100);
       }),
     );
-    const screenshotPath = join(PATHS.migrationDir, input.slug, "rendered.png");
-    mkdirSync(join(PATHS.migrationDir, input.slug), { recursive: true });
-    const buf = await page.screenshot({ fullPage: true, path: screenshotPath });
-    const screenshotBase64 = buf.toString("base64");
-    logger.info("renderer", `screenshot ok ${url} → ${screenshotPath} (${(buf.length / 1024).toFixed(0)}KB)`);
-    return { stagingJsonPath, renderedUrl: url, screenshotBase64, screenshotPath };
+
+    const pageHeight = (await page.evaluate(() => document.body.scrollHeight)) as number;
+    const articleDir = join(PATHS.migrationDir, input.slug);
+    mkdirSync(articleDir, { recursive: true });
+
+    // Number of tiles = ceil(pageHeight / TILE_HEIGHT). Min 1.
+    const tileCount = Math.max(1, Math.ceil(pageHeight / TILE_HEIGHT));
+    const tiles: string[] = [];
+    const tilesB64: string[] = [];
+    for (let i = 0; i < tileCount; i++) {
+      const y = i * TILE_HEIGHT;
+      await page.evaluate((yy: number) => window.scrollTo(0, yy), y);
+      // Let any sticky/parallax settle.
+      await page.waitForTimeout(200);
+      const tilePath = join(articleDir, `rendered-${String(i).padStart(2, "0")}.png`);
+      // fullPage:false captures the viewport — guaranteed ≤ TILE_HEIGHT px tall.
+      const buf = await page.screenshot({ fullPage: false, path: tilePath });
+      tiles.push(tilePath);
+      tilesB64.push(buf.toString("base64"));
+    }
+    logger.info(
+      "renderer",
+      `screenshot ok ${url} → ${tiles.length} tile(s) (page h=${pageHeight}px, viewport=${TILE_HEIGHT}px)`,
+    );
+    return { stagingJsonPath, renderedUrl: url, screenshotPaths: tiles, screenshotsBase64: tilesB64 };
   } finally {
     await page.close();
   }

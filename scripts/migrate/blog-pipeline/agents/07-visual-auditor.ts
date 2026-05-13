@@ -27,11 +27,29 @@ interface DesignRule {
   description: string;
   severity: "P0" | "P1" | "P2";
   source?: string;
+  /** Skip this rule when the article spec has 0 blocks of this type. */
+  requiresBlock?: "heading" | "paragraph" | "list" | "figure" | "quote" | "table" | "insight-callout" | "inline-cta";
+  /** Skip this rule when article layout differs (e.g. only check toc rules in centeredToc). */
+  requiresLayout?: "centeredToc" | "stickyToc" | "noToc";
   check?: {
     type: "dom" | "visual" | "cross-ref" | "data";
     [k: string]: unknown;
   };
   autofix?: unknown;
+}
+
+function rulePreflightSkip(
+  rule: DesignRule,
+  spec: import("../../../../src/types/blog-v3.js").RenderingSpec,
+): string | null {
+  if (rule.requiresBlock) {
+    const has = spec.blocks.some((b) => b.type === rule.requiresBlock);
+    if (!has) return `no '${rule.requiresBlock}' blocks in this article`;
+  }
+  if (rule.requiresLayout && spec.layout !== rule.requiresLayout) {
+    return `article layout=${spec.layout}, rule requires ${rule.requiresLayout}`;
+  }
+  return null;
 }
 
 interface DesignRulesFile {
@@ -55,8 +73,8 @@ export interface VisualAuditorInput {
   spec: RenderingSpec;
   cmsToggles: CmsToggles;
   renderedUrl: string;
-  /** Base64 PNG screenshot (full-page). */
-  screenshotBase64: string;
+  /** Ordered array of base64 PNG tiles (top-to-bottom of the rendered page). */
+  screenshotsBase64: string[];
   attempt: number;
 }
 
@@ -218,7 +236,7 @@ function runCrossRefRule(
 
 async function runVisualRulesBatch(
   visualRules: DesignRule[],
-  screenshotBase64: string,
+  screenshotsBase64: string[],
   slug: string,
 ): Promise<RuleVerdict[]> {
   if (visualRules.length === 0) return [];
@@ -249,23 +267,27 @@ async function runVisualRulesBatch(
       },
     },
   };
-  const prompt = `You are auditing a rendered AirSaas blog article screenshot against a set of visual rules.
+  const tileNote =
+    screenshotsBase64.length > 1
+      ? `The page is too tall for a single image — the article was sliced into ${screenshotsBase64.length} vertical tiles (top → bottom). Treat them as one continuous page; a rule may match in any tile.`
+      : `Single full-page screenshot below.`;
+  const prompt = `You are auditing a rendered AirSaas blog article against a set of visual rules.
+
+${tileNote}
 
 For EACH rule below, decide pass | fail | skip and return the verdict.
 
 Rules to evaluate :
-${visualRules
-  .map((r) => `- id="${r.id}" severity=${r.severity} : ${r.description}`)
-  .join("\n")}
+${visualRules.map((r) => `- id="${r.id}" severity=${r.severity} : ${r.description}`).join("\n")}
 
-Inspect the full screenshot carefully. For "fail" status include precise evidence (what's wrong and where, e.g. "the H3 'La méthode' is rendered in solid black, expected primary blue gradient"). For ambiguous cases (e.g. a rule that targets something not present in the article) return "skip".
+Inspect the screenshot(s) carefully. For "fail" status include precise evidence (what's wrong and where, e.g. "the H3 'La méthode' is rendered in solid black, expected primary blue gradient — top tile, ~300px from top"). For ambiguous cases (rule targets something not present in the article) return "skip".
 
 If you can recommend a fix, populate suggestedFix.target/action/hint — those guide the Design Mapper on the next attempt.`;
 
   const { output } = await callVisionToolUse<{ verdicts: RuleVerdict[] }>({
     model: "claude-opus-4-7",
     systemPrompt: "You are a meticulous visual QA reviewer for the AirSaas blog migration.",
-    images: [{ media_type: "image/png", data: screenshotBase64 }],
+    images: screenshotsBase64.map((data) => ({ media_type: "image/png", data })),
     userPrompt: prompt,
     toolName: "emit_visual_verdicts",
     toolDescription: "Emit a pass/fail verdict for each visual design rule",
@@ -288,6 +310,12 @@ export async function runVisualAuditor(
   // Group rules by check type for efficient batching.
   const visualRules: DesignRule[] = [];
   for (const r of rules) {
+    // Pre-flight skip : rule isn't applicable to this article.
+    const skipReason = rulePreflightSkip(r, input.spec);
+    if (skipReason) {
+      out.push({ ruleId: r.id, status: "skip", severity: r.severity, evidence: skipReason });
+      continue;
+    }
     if (!r.check) {
       out.push({ ruleId: r.id, status: "skip", severity: r.severity, evidence: "no check defined" });
       continue;
@@ -313,7 +341,7 @@ export async function runVisualAuditor(
   }
 
   // Visual rules in one batched Opus call.
-  const visualVerdicts = await runVisualRulesBatch(visualRules, input.screenshotBase64, input.slug);
+  const visualVerdicts = await runVisualRulesBatch(visualRules, input.screenshotsBase64, input.slug);
   out.push(...visualVerdicts);
 
   const fails = out.filter((v) => v.status === "fail");

@@ -1,4 +1,5 @@
 import type { BlogArticleBlock } from "@/types/blog";
+import type { BlockV3 } from "@/types/blog-v3";
 
 const WORDS_PER_MINUTE = 200;
 
@@ -12,11 +13,13 @@ function countWords(text: string): number {
   return trimmed.split(/\s+/).length;
 }
 
-export function estimateReadingTime(blocks: BlogArticleBlock[]): string {
+export function estimateReadingTime(blocks: (BlogArticleBlock | BlockV3)[]): string {
   const total = blocks.reduce((sum, block) => {
     switch (block.type) {
       case "paragraph":
-        return sum + countWords(stripHtml(block.html ?? block.text ?? ""));
+        return sum + countWords(stripHtml(
+          (block as { html?: string; text?: string }).html ?? (block as { text?: string }).text ?? "",
+        ));
       case "insight-callout":
         return sum + countWords(stripHtml(block.html));
       case "heading":
@@ -37,8 +40,12 @@ export function estimateReadingTime(blocks: BlogArticleBlock[]): string {
       case "figure":
         return sum + countWords(block.alt) + countWords(block.caption || "");
       case "inline-cta":
+        // V3 shape uses ctaLabel; V2 uses label.
+        return sum + countWords(
+          (block as { ctaLabel?: string }).ctaLabel ?? (block as { label?: string }).label ?? "",
+        );
       case "hubspot-cta":
-        return sum + countWords(block.label ?? "");
+        return sum + countWords((block as { label?: string }).label ?? "");
       default:
         return sum;
     }
