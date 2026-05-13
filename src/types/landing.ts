@@ -81,7 +81,8 @@ export interface StatsSection {
   title?: string;
   titleHighlight?: string;
   subtitle?: string;
-  items: { value: string; label: string }[];
+  /** Each KPI: optional icon name (illustration-icons key) + bold value + descriptive label. */
+  items: { iconName?: string; value: string; label: string }[];
 }
 
 /** Logo bar (clients / press / partners). */

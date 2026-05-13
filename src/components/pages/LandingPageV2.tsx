@@ -278,7 +278,12 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           columns={cols}
         >
           {section.items.map((s, i) => (
-            <FeatureCard key={i} title={s.value} description={s.label} />
+            <FeatureCard
+              key={i}
+              icon={s.iconName ? iconNode(s.iconName) : undefined}
+              title={s.value}
+              description={s.label}
+            />
           ))}
         </ValuePropositionFrame>
       );
