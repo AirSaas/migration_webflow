@@ -271,3 +271,173 @@ Structure envisagée : `BlogHero` → `TableOfContentsFrame` (sommaire) → `Blo
 ### Route (prévu — Step 5)
 
 `src/app/[locale]/blog/[slug]/page.tsx` — SSG depuis Strapi. Playwright visual test à ajouter à ce moment-là.
+
+---
+
+## 🧭 LandingPageV2 — section types (data-driven dispatcher)
+
+Les landings `lp` / `produit` / `solution` / `equipe` sont rendues par [`src/components/pages/LandingPageV2.tsx`](../src/components/pages/LandingPageV2.tsx), un dispatcher qui mappe `section.type` (string) → composant DS. Les données vivent dans `src/data/landings-v2/{lp,produit,solutions,equipes}.ts` typées via [`src/types/landing.ts`](../src/types/landing.ts).
+
+**Avant de coder une nouvelle landing** : trouve le `section.type` qui matche le pattern visuel du live et passe-lui les props. Si rien ne matche, propose un nouveau type via "Extension process" de `ds-rules.md` (ne hardcode pas une section ad hoc inline).
+
+### Reference complète des 30 types
+
+| `type` | DS component | Use case |
+|---|---|---|
+| `hero` | `<Hero>` (centered / split) | Top de page. Convention par catégorie : voir `workflow_section_patterns` (Équipes = centered, LP/Produit = centered, Solution = split light). |
+| `intro` | `<Heading>` + `<Text>` raw, optional subSections | Titre + paragraphe centré, sans image. Pour gradient title split, préfère `section-heading`. |
+| `feature-split` | `<FeatureFrame layout="inline">` | Workhorse : 1 image + texte côté-à-côté. Supporte `body` HTML, `bullets`, `subSections` (rendu en `→ h5 + p` dans le prose richContent pour le pattern CompositeImageWithArrowedText). |
+| `pain-points` | `<Heading>` + `<ListInline bullet="circle-primary">` | "Vous vous reconnaissez ?" — emoji + heading + bullets. |
+| `stats` | `<ValuePropositionFrame>` + `<FeatureCard>` × N | KPIs row. Chaque item accepte `iconName?` (mappé via `iconNode`), `value`, `label`. Forward `titleHighlight` (gradient primary leadin). |
+| `logo-bar` | section inline avec `<img>` × N | Strip de logos clients/presse/partenaires. |
+| `press-quotes` | section inline avec quote cards | Citations presse (logo + texte), 3-col grid. |
+| `testimonials` | `<TestimonialsFrame>` + `<TestimonialCard>` × N | Témoignages LinkedIn — quote + name + role + avatar (+ linkedinHref). 1-6 items, grid adaptatif. Pour mélanger press + LinkedIn, utiliser `mixed-testimonials`. |
+| `customer-testimonials` | TestimonialCards en 3-col grid | Layout générique. Pour grilles denses (6-9 cards avec sector/size/role + lien témoignage), préférer `clients`. |
+| `comparison-table` | `<ComparisonTableFrame>` | Tables feature-matrix (lignes = features, colonnes = plans/produits). **Ne PAS utiliser** pour avec/sans paired — utiliser `comparison-dual`. |
+| `steps` | `<StepsFrame>` (icône par défaut) | Étapes numérotées avec descriptions. |
+| `faq` | `<FaqFrame>` | Accordion Q/R. |
+| `cta` | `<CtaHighlightFrame>` (single CTA centré, fond gradient) | Closing CTA. Pour 2 CardCta side-by-side, utiliser un layout custom (le DS `<CtaFrame>` exige 2 children). |
+| `icon-row` | section inline icon+label × N | Trust badges intégrations, sécurité. |
+| `trust-badges` | row de `<Tag variant="muted">` | Badges courts sous hero (RGPD, ISO, etc.). |
+| `related` | grid de cards article-style | Cross-sell : titre + description + thumbnail + lien. 6 max. |
+| `tabs-frame` | `<TabsFrame>` | Tab anchors row sticky (jumps vers ancres in-page). |
+| `cta-highlight` | `<CtaHighlightFrame>` (tri-part gradient) | Closing CTA pleine-largeur avec titlePrefix + titleHighlight + titleSuffix + carte blanche + 1 CTA. |
+| `comparison-frame` | `<ComparisonFrame>` | Single-column numbered list (avec OU sans). Pour avec/sans paired side-by-side, utiliser `comparison-dual`. |
+| `pillar-frame` | `<PillarFrame>` | Grid non-séquentielle de principes (icon + title + description + example). |
+| `highlight-frame` | `<HighlightFrame>` | Zigzag stacked highlights avec big gradient values. |
+| `feature-stacked` | `<FeatureSectionStacked>` | Title gradient + 3-6 bullets + screenshot en bleed BELOW. **Forbidden sans image** (`@forbidden` du contract). |
+| `value-proposition` | `<ValuePropositionFrame>` + `<FeatureCard>` × N | Grid flexible (2-6 cols) de FeatureCards avec optional iconName. |
+| `steps-rich` | `<StepsFrame>` avec numéros + icônes explicites | Variante de `steps` avec numbering + iconName par étape. |
+| `raw` | (renders null) | Fallback pour blocs non reconnus. |
+
+### 🆕 Section types ajoutés au step Équipes (2026-05-13)
+
+Ces 5 types ont été introduits pour rebuild `/fr/equipes/outil-pmo`. Ils sont **réutilisables** pour toutes les landings futures — pas seulement Équipes.
+
+#### `section-heading`
+
+Standalone H2 + subtitle centré, **sans image**. Pour les sections intro narratives où `feature-stacked` est interdit (pas d'image) et `intro` ne suffit pas (gradient split souhaité).
+
+```ts
+{
+  type: "section-heading",
+  titleGradient: "Une plateforme de gouvernance projet", // primary gradient (max ~50)
+  titleDark: "à la hauteur de vos ambitions",            // dark portion (max ~60, optional)
+  subtitle: "Notre mission ? Vous permettre…",           // optional (max ~260)
+}
+```
+
+Le dispatcher applique un override `lg:!px-[10rem]` au DS `<SectionHeading>` pour matcher les autres section frames (au lieu du `lg:px-[14.375rem]` interne du composant qui crushe la largeur).
+
+#### `mixed-testimonials`
+
+`<TestimonialsFrame>` avec 2 rows mixtes : 1 row de press cards (`<TestimonialCompanyCard>` quote + logo) + 1 row de personal cards (`<TestimonialCard>` avatar + name + role + linkedinHref). Pattern canonique = story `MixedPressAndPersonal` de TestimonialsFrame.
+
+```ts
+{
+  type: "mixed-testimonials",
+  title: "Ils parlent de",                  // dark-to-primary gradient
+  titleHighlight: "nous",                   // primary gradient (optional)
+  press: [{ quote, logoSrc, logoAlt }, …],  // 0-N press cards
+  personal: [{ quote, name, role?, avatarSrc?, linkedinHref? }, …], // 0-N LinkedIn cards
+  readMoreLabel?: "Lire la suite",
+  readLessLabel?: "Voir moins",
+}
+```
+
+**Grid adaptatif** par row : `lg:grid-cols-{min(N, 4)}` — N=1 → 1col, N=2 → 2cols, N=3 → 3cols, N≥4 → 4cols.
+
+#### `slider`
+
+`<SliderFrame>` : title (gradient + dark) + subtitle + carrousel d'images 2-8. Pour marketplace integrations, multi-screen flows, gallery bootcamp.
+
+```ts
+{
+  type: "slider",
+  variant?: "light" | "dark",
+  titleHighlight: "Grâce à sa marketplace AirSaas",          // primary gradient (max 40)
+  titleRest: "s'intègre nativement à vos outils du quotidien", // dark portion (max 70)
+  subtitle: "Centralisez toutes vos informations cruciales…",  // max 280
+  slides: [{ imageSrc, imageAlt? }, …],  // 2-8 slides
+}
+```
+
+#### `comparison-dual`
+
+`<ComparisonDualFrame>` : grid avec/sans paired numbered cards avec pill labels colorés. **C'est le composant correct** pour avec/sans narratif — pas `comparison-table` (contract `@forbidden`).
+
+```ts
+{
+  type: "comparison-dual",
+  titlePrefix: "Nos clients ne peuvent plus imaginer…",  // dark-to-primary (max 70)
+  titleHighlight: "AirSaas",                              // primary gradient (max 30)
+  sansLabel?: "Sans AirSaas",   // pill label gauche (max 20, default "Sans")
+  avecLabel?: "Avec AirSaas",   // pill label droit (max 20, default "Avec")
+  sansItems: [{ value, description }, …],  // 3-10 items
+  avecItems: [{ value, description }, …],  // 3-10 items, idéalement appariés
+  ctaLabel?: "Réservez une démo",
+  ctaHref?: "/fr/meetings-pages",
+}
+```
+
+#### `clients`
+
+`<ClientsFrame>` : grid dense de `<ClientCard>` (avatar + name + jobTitle + companyName + infoRows) avec optional collection CTA. **Limit 6-9 cards** — pour overflow (live ≥10 cards), montrer 6-9 + `collectionCtaLabel` pointant vers la page collection complète.
+
+```ts
+{
+  type: "clients",
+  variant?: "light" | "tinted",
+  title: "Laissez nos clients vous parler d'",  // dark-to-primary (max 80)
+  titleHighlight: "AirSaas",                      // primary gradient (max 40, optional)
+  subtitle?: "Qui de mieux pour vous parler…",   // max 260
+  clients: [{
+    avatarSrc, avatarAlt?, name, jobTitle, companyName,
+    infoRows?: [{ iconName?, label, value }, …]  // 0-5 rows (Secteur, Nombre d'employés, etc.)
+  }, …],  // 6-9 cards
+  collectionCtaLabel?: "Consultez les témoignages de nos clients",
+  collectionCtaHref?: "/fr/temoignages",
+}
+```
+
+Les icônes des `infoRows` sont résolues via `bareIcon(iconName)` (helper du dispatcher) — pas via `iconNode` (qui retournerait un IconIllustration trop gros pour la cellule 14×14px d'une infoRow).
+
+### Conventions transversales
+
+#### Hero layout par catégorie
+
+Le dispatcher auto-pick `layout="split"` quand `imageSrc` est présent, sinon `centered`. **Override avec `layout: "centered"` explicite** quand le live affiche l'image en pleine largeur SOUS le titre (Équipes / LP convention). Sinon le rebuild rend en split (texte gauche, image droite) qui ne match pas le live.
+
+| Catégorie | Hero layout | Image position |
+|---|---|---|
+| Solution | `split` (light) | À droite du texte |
+| Produit | `centered` (dark) | Sous le titre |
+| Équipes | `centered` (light) | Pleine largeur sous le titre — **passer `layout: "centered"` explicitement** |
+| LP | `centered` (light) | Sous le titre, eyebrow + 2 CTAs + trust badges |
+
+#### Gradient split dans les titres (FeatureFrame / SectionHeading / etc.)
+
+Le live a souvent un portion bleue (primary gradient) dans chaque heading. Pour matcher :
+
+- **Blue en début** : `titleHighlight: "Une newsletter sponsor"` + `title: "que votre direction va adorer"` (default, `titleHighlightAtEnd: false`)
+- **Blue en fin** : `titleHighlight: "à toute l'organisation"` + `title: "Partagez simplement les roadmaps"` + `titleHighlightAtEnd: true`
+- **Blue au milieu** : le DS FeatureFrame / SectionHeading / ClientsFrame ne supporte PAS le 3-part split. Compromis : étendre le bleu vers le côté le plus proche (suivre la convention HomePage qui fait pareil — ex. block 17 ClientsFrame `title: "Laissez nos clients vous parler d'"` + `titleHighlight: "AirSaas"`).
+
+#### CompositeImageWithArrowedText (newsletter sponsor pattern)
+
+Pour les sections où le live a 3 screenshots + flèches pointant à des labels texte, le pattern canonique est :
+1. **Asset composite** : fusionner les 3 images en 1 seule (les flèches sont bakées dans l'image, pas en DOM). Pour outil-pmo on a déjà `public/assets/screenshots/newsletter-sponsor-composite.png`.
+2. **Data** : `type: "feature-split"` avec `subSections: [{title, body}, …]` pour les 3 labels arrowed.
+3. **Rendu** : le dispatcher rend les subSections en raw `<h5>` + `<p>` dans le prose `richContent` de FeatureFrame (le prose wrapper applique `[&_h5]:text-[1.0625rem] font-bold` automatiquement). Pas de `<Heading level={4}>` qui serait 2-3x trop gros.
+
+#### ClientsFrame overflow (>9 cards sur le live)
+
+Le DS cap à 6-9 (`@limits`). Quand le live a 10+ : rendre 6-9 cards représentatives + `collectionCtaLabel="Consultez les témoignages de nos clients"` + `collectionCtaHref="/fr/temoignages"`. **Ne pas** étendre le contract, ne pas utiliser un slider, ne pas swap pour TestimonialsFrame.
+
+#### Stats / KPI icons
+
+Le live affiche un icon par KPI (`percent_icon`, `timer_icon`, etc.). Le DS ne fournit pas de "%" literal — utiliser le match sémantique le plus proche dans `illustration-icons.tsx` :
+- Réduction temps/meetings → `stopwatch` ou `calendar-day`
+- Objectif clair / précision → `bullseye-arrow`
+- Économies € → `stopwatch` (temps = argent)
+- Adoption / utilisateurs → `comments` / `suitcase`

@@ -64,15 +64,20 @@ When you need to build a section, consult the table first. If nothing fits, go t
 
 | Need | Component |
 |---|---|
-| Top of page, headline + CTA + product image | `<Hero>` (variants `light`/`dark`, layouts `centered`/`split`) |
+| Top of page, headline + CTA + product image | `<Hero>` (variants `light`/`dark`, layouts `centered`/`split`). Équipes / LP / Produit pages = `layout="centered"` with image bleeding full-width BELOW the headline; Solution pages = `layout="split"` light. The data dispatcher auto-picks `split` when `imageSrc` is set — **override with `layout: "centered"` explicitly** for équipes/LP/produit. |
 | Top of page with multiple dashboard views cycling (icon+label tabs swap the screenshot) | `<Hero>` with `mediaTabs` prop — auto-rotates, pauses on interaction. Layout must stay `centered`. |
-| Feature section with text + image side by side | `<FeatureFrame>` (prop `imagePosition`) |
-| Call-to-action block with cards | `<CtaFrame>` + children |
-| 3–6 feature cards in a grid | `<ValuePropositionFrame>` + `<FeatureCard>` children |
-| Customer/company testimonials | `<TestimonialsFrame>` + `<TestimonialCard>` / `<TestimonialCompanyCard>` |
+| Feature section with text + image side by side | `<FeatureFrame>` (prop `imagePosition`). For the **CompositeImageWithArrowedText** pattern (1 composite image + 3 arrowed sub-block labels), pass `subSections: [{title, body}, ...]` in the data — the dispatcher renders them as raw `<h5>+<p>` inside the prose `richContent`. The composite image must be a single asset with arrows baked in (e.g. `public/assets/screenshots/newsletter-sponsor-composite.png`). |
+| Call-to-action block with cards | `<CtaFrame>` + children (requires 2 `<CardCta>` children) **or** `<CtaHighlightFrame>` for a single centered CTA (data type `cta-highlight` or `cta`). |
+| 3–6 feature cards in a grid | `<ValuePropositionFrame>` + `<FeatureCard>` children. Each card supports an optional `icon` prop — pass via data `iconName` for KPI rows (`stats` type). |
+| Mixed press + LinkedIn testimonials in one block | data type `mixed-testimonials` (renders `<TestimonialsFrame>` with 2 child rows: press `<TestimonialCompanyCard>` row + personal `<TestimonialCard>` row). Grid adaptive — lg cols = `min(N, 4)` per row. Canonical: TestimonialsFrame story `MixedPressAndPersonal`. |
+| Single-quote customer testimonials (LinkedIn) | `<TestimonialsFrame>` + `<TestimonialCard>` (1-6 items) |
 | FAQ accordion | `<FaqFrame>` |
-| Avec / sans comparison | `<ComparisonFrame>` or `<ComparisonTableFrame>` |
-| Stacked feature list with image | `<FeatureSectionStacked>` |
+| Avec / sans paired narrative (numbered cards, 2 columns) | `<ComparisonDualFrame>` (data type `comparison-dual`, 3-10 paired items). **NOT `<ComparisonTableFrame>`** — its contract `@forbidden` use for avec/sans narrative. |
+| Feature matrix comparison (rows=features, cols=plans/products) | `<ComparisonTableFrame>` (data type `comparison-table`). Use for pricing matrices, competitor comparisons — never for avec/sans narrative. |
+| Stacked feature list with image (3-6 bullets + bleed image) | `<FeatureSectionStacked>` (data type `feature-stacked`). **Forbidden without an image** — for text-only stacked headings use `section-heading` instead. |
+| Standalone H2 + subtitle, no image | data type `section-heading` (renders `<SectionHeading>`). The dispatcher overrides the DS component's `lg:px-[14.375rem]` to `lg:px-[10rem]` so the heading lines up with other section frames. |
+| Image carousel (2-8 slides, marketplace / multi-screen) | data type `slider` (renders `<SliderFrame>`). For static single image use `<FeatureFrame>`. |
+| Dense client grid (6-9 ClientCards with avatar + role + sector + size) | data type `clients` (renders `<ClientsFrame>`). **Overflow rule**: when the live shows ≥10 cards, render 6-9 representative cards + `collectionCtaLabel` pointing to the collection page (e.g. `/fr/temoignages`). Do NOT extend the contract, do NOT use a slider, do NOT swap for TestimonialsFrame. |
 | Logos row | `<LogosBar>` |
 | Page footer | `<Footer>` |
 | Typography | `<Heading level={1-4}>` / `<Text size="sm|md|lg">` / `<SectionHeading>` |
@@ -80,6 +85,14 @@ When you need to build a section, consult the table first. If nothing fits, go t
 | Tag / badge | `<Tag variant="…">` (12 custom variants available for categories) |
 | Decorative rounded card with shadow | `<FloatingCard>` |
 | Floating animation wrapper | `<Float variant={1–3}>` |
+
+### Gradient-split title rule (FeatureFrame / SectionHeading / ClientsFrame)
+
+Most marketing headings on the live have a primary-gradient portion (blue text). Match by splitting the title:
+
+- **Blue at start** (prefix-style): `titleHighlight: "Les chiffres"` + `title: "qui vous feront adopter AirSaas"`. Default order — `titleHighlightAtEnd: false`.
+- **Blue at end** (suffix-style): `title: "Partagez simplement les roadmaps"` + `titleHighlight: "à toute l'organisation"` + `titleHighlightAtEnd: true`.
+- **Blue in the middle**: the DS prefix/suffix split can't express this exactly. Compromise — extend the blue toward the nearest side. Example: live "Impliquez **simplement** les chefs de projet" → `title: "Impliquez"` + `titleHighlight: "simplement les chefs de projet"` (suffix). This matches the HomePage convention for the same headings.
 
 ---
 
