@@ -106,10 +106,11 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       // If no real image, use centered text-only layout (LP-style); avoid
       // rendering placehold.co which is jarring.
       const hasImage = !!section.imageSrc;
+      const layout = section.layout ?? (hasImage ? "split" : "centered");
       return (
         <Hero
           key={index}
-          layout={hasImage ? "split" : "centered"}
+          layout={layout}
           navItems={BLOG_INDEX_DATA.navItems}
           navCtaLabel={BLOG_INDEX_DATA.navCtaLabel}
           navCtaHref={BLOG_INDEX_DATA.navCtaHref}

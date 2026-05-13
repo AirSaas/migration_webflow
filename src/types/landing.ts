@@ -15,6 +15,12 @@ export interface LandingMeta {
 /** Top hero with title + subtitle + primary CTA + optional mockup image. */
 export interface HeroSection {
   type: "hero";
+  /**
+   * Visual layout — defaults to "split" when an imageSrc is provided, otherwise
+   * "centered". Pass "centered" explicitly when the image should bleed
+   * full-width BELOW the headline (Équipes / LP convention), not beside it.
+   */
+  layout?: "centered" | "split";
   /** First part of the title (often the gradient pill / accent). */
   titleHighlight?: string;
   /** Main title (rest of H1). */
