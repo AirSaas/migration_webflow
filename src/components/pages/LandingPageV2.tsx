@@ -196,8 +196,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           layout="inline"
           imagePosition={section.reversed ? "left" : "right"}
           title={section.title}
+          titleHighlight={section.titleHighlight}
           richContent={
-            <div className="flex flex-col gap-[0.75rem]">
+            <>
               {section.body ? (
                 <Text size="md">
                   <RichSpan html={section.body} />
@@ -212,25 +213,19 @@ function renderSection(section: LandingSection, index: number): ReactNode {
                   ))}
                 </div>
               ) : null}
-              {section.subSections && section.subSections.length > 0 ? (
-                <div className="flex flex-col gap-[1rem] mt-[0.5rem]">
-                  {section.subSections.map((ss, i) => (
-                    <div key={i} className="flex flex-col gap-[0.25rem]">
-                      {ss.title ? (
-                        <Heading level={4} align="left">
-                          → {ss.title}
-                        </Heading>
-                      ) : null}
-                      {ss.body ? (
-                        <Text size="md">
-                          <RichSpan html={ss.body} />
-                        </Text>
-                      ) : null}
-                    </div>
-                  ))}
-                </div>
-              ) : null}
-            </div>
+              {section.subSections && section.subSections.length > 0
+                ? section.subSections.flatMap((ss, i) => [
+                    ss.title ? (
+                      <h5 key={`t-${i}`}>→ {ss.title}</h5>
+                    ) : null,
+                    ss.body ? (
+                      <p key={`b-${i}`}>
+                        <RichSpan html={ss.body} />
+                      </p>
+                    ) : null,
+                  ])
+                : null}
+            </>
           }
           imageSrc={section.imageSrc!}
           imageAlt={section.imageAlt ?? ""}
