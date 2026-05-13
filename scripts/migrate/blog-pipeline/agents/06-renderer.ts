@@ -94,20 +94,60 @@ function spliceArticle(all: RenderingSpec[], spec: RenderingSpec): RenderingSpec
   return copy;
 }
 
+/**
+ * Heading texts that mark the START of a separately-extracted section
+ * (related links, FAQ, newsletter). The Designer should NOT emit these
+ * as body headings — they're rendered by dedicated DS components
+ * (RelatedArticlesFrame, FaqFrame). Post-process safety net.
+ */
+const SECTION_MARKER_HEADINGS = [
+  "pour aller plus loin",
+  "questions fréquentes",
+  "questions frequentes",
+  "faq",
+  "recevez nos meilleurs articles",
+  "réservez votre démo",
+];
+
+function dropSectionMarkerHeadings(spec: RenderingSpec): { spec: RenderingSpec; dropped: number } {
+  const normalize = (s: string) =>
+    s.toLowerCase().replace(/[?!.,:;]/g, "").replace(/\s+/g, " ").trim();
+  let dropped = 0;
+  const blocks = spec.blocks.filter((b) => {
+    if (b.type !== "heading") return true;
+    const text = normalize(b.text);
+    const isMarker = SECTION_MARKER_HEADINGS.some((m) => text === m || text.startsWith(m));
+    if (isMarker) {
+      dropped++;
+      return false;
+    }
+    return true;
+  });
+  return { spec: { ...spec, blocks }, dropped };
+}
+
 export async function runRenderer(
   input: RendererInput,
   logger: ArticleLogger,
 ): Promise<RendererOutput> {
+  // Deterministic post-process : drop body headings that match a section
+  // marker (those map to a separate DS frame, not to the prose body).
+  const { spec: cleanedSpec, dropped } = dropSectionMarkerHeadings(input.spec);
+  if (dropped > 0) {
+    logger.info("renderer", `dropped ${dropped} section-marker heading(s) from body`);
+  }
+  const effectiveSpec = cleanedSpec;
+
   // 1. Write staging JSON (always — easy debug).
   mkdirSync(PATHS.v3StagingDir, { recursive: true });
   const stagingJsonPath = join(PATHS.v3StagingDir, `${input.slug}.json`);
-  writeFileSync(stagingJsonPath, JSON.stringify(input.spec, null, 2));
+  writeFileSync(stagingJsonPath, JSON.stringify(effectiveSpec, null, 2));
 
   // 2. Patch the V3 data file in-place (single source of truth used by
   // the dev server). We always splice — if the article is being re-rendered
   // (retry), we overwrite.
   const all = loadExistingV3();
-  const next = spliceArticle(all, input.spec);
+  const next = spliceArticle(all, effectiveSpec);
   writeFileSync(PATHS.v3DataFile, buildV3DataFile(next));
   logger.info(
     "renderer",

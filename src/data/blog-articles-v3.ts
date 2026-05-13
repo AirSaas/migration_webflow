@@ -1280,13 +1280,6 @@ export const BLOG_ARTICLES_V3: BlogArticleV3[] = [
         "html": "<a href=\"/fr/gestion-de-projet/reporting-pmo\">Lire le guide complet : reporting PMO →</a>"
       },
       {
-        "type": "heading",
-        "level": 3,
-        "text": "FAQ : les questions fréquentes sur le PMO",
-        "id": "faq-les-questions-frequentes-sur-le-pmo",
-        "gradient": "primary"
-      },
-      {
         "type": "inline-cta",
         "text": "Tu veux structurer ton PMO sans usine à gaz ? AirSaas aide les PMO et DSI à piloter leur portefeuille de projets avec un outil simple, orienté valeur. Reporting automatisé, gouvernance claire, visibilité Comex en temps réel.",
         "ctaLabel": "Réserve ta démo →",
@@ -3200,22 +3193,6 @@ export const BLOG_ARTICLES_V3: BlogArticleV3[] = [
       {
         "type": "paragraph",
         "html": "Privilégiez une approche progressive : démarrez sur un périmètre limité, avec des rituels simples et un petit nombre de projets pilotes. Montrez les premiers résultats, puis étendez. L'adoption se fait par la preuve, pas par le décret."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "sourceLevel": 2,
-        "text": "FAQ — Gestion de portefeuille de projets",
-        "id": "faq-gestion-de-portefeuille-de-projets",
-        "gradient": "primary"
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "sourceLevel": 2,
-        "text": "Pour aller plus loin",
-        "id": "pour-aller-plus-loin",
-        "gradient": "primary"
       }
     ],
     "layout": "centeredToc",
