@@ -412,7 +412,7 @@ Hypothèses de départ par catégorie (à utiliser comme défaut à VÉRIFIER, p
 
 | Catégorie | Layout typique | À vérifier parce que |
 |---|---|---|
-| Solution | habituellement `split` light | Certaines pages solution utilisent centered |
+| Solution | habituellement `centered` light | Certaines pages solution utilisent split |
 | Produit | habituellement `centered` (dark) | Certaines pages produit utilisent split |
 | Équipes | habituellement `centered` light | Vérifié sur outil-pmo + it-et-operation, mais une future page équipes pourrait différer |
 | LP | habituellement `centered` avec eyebrow + 2 CTAs + trust badges | Variantes LP existantes avec mockup en split |

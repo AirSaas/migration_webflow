@@ -69,7 +69,7 @@ Common starting hypotheses by category (use as a default to verify against, NOT 
 
 | Category | Typical layout | Verify because |
 |---|---|---|
-| Solution (`/fr/solution/*`) | usually `split` light | Some solution pages use centered |
+| Solution (`/fr/solution/*`) | usually `centered` light | Some solution pages use split |
 | Produit (`/fr/produit/*`) | usually `centered` (dark) | Some produit pages use split |
 | Équipes (`/fr/equipes/*`) | usually `centered` | Verified on outil-pmo + it-et-operation, but new équipes pages might differ |
 | LP (`/fr/lp/*`) | usually `centered` with eyebrow + 2 CTAs + trust badges | LP variants exist with split mockups |
