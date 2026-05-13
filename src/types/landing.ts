@@ -54,6 +54,11 @@ export interface FeatureSplitSection {
   reversed?: boolean; // image left vs right
   title: string;
   titleHighlight?: string; // e.g. <strong> portion
+  /**
+   * When true, `titleHighlight` renders AFTER `title` (suffix-style gradient).
+   * Default false → highlight renders BEFORE title (prefix-style gradient).
+   */
+  titleHighlightAtEnd?: boolean;
   /** Optional small subtitle between title and body. */
   subtitle?: string;
   body?: string; // inline HTML (paragraphs, bullets)

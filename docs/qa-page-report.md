@@ -1,6 +1,6 @@
 # QA report — regex/DOM (qa-page.mjs)
 
-**Date** : 2026-05-13T13:53:36.549Z
+**Date** : 2026-05-13T14:01:29.689Z
 
 **Total** : 1 pages — **1 PASS** / 0 WARN / 0 BLOCK
 

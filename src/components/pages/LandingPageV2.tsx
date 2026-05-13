@@ -197,6 +197,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           imagePosition={section.reversed ? "left" : "right"}
           title={section.title}
           titleHighlight={section.titleHighlight}
+          titleHighlightAtEnd={section.titleHighlightAtEnd}
           richContent={
             <>
               {section.body ? (
