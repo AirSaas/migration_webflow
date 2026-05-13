@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DS Audit Final — 2026-04-24 · AirSaas migration</title>
+<style>
+  :root{
+    --fg:#111827; --muted:#6b7280; --bg:#ffffff; --panel:#f8fafc;
+    --border:#e5e7eb; --primary:#3a51e2; --primary-20:#d7dcf5;
+    --ok:#16a34a; --warn:#d97706; --fail:#dc2626;
+    --p1:#dc2626; --p2:#d97706; --p3:#2563eb; --p4:#6b7280; --p5:#9ca3af;
+    --verdict-go:#dcfce7; --verdict-go-border:#16a34a;
+    --verdict-cond:#fef3c7; --verdict-cond-border:#d97706;
+  }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--fg);background:var(--bg);margin:0;line-height:1.55;font-size:15px}
+  .wrap{max-width:1100px;margin:0 auto;padding:32px 28px 80px}
+  .cover{background:linear-gradient(135deg,#f5f7ff 0%,#eef1fb 100%);
+         border-radius:24px;padding:44px 48px;margin-bottom:32px;
+         border:1px solid var(--primary-20)}
+  .cover h1{margin:0 0 8px;font-size:34px;font-weight:800;letter-spacing:-0.02em;color:var(--primary)}
+  .cover .sub{color:var(--muted);font-size:16px;margin-bottom:20px}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+  .stat{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+  .stat .n{font-size:24px;font-weight:800;color:var(--primary);display:block;line-height:1.1}
+  .stat .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;margin-top:4px}
+  h2{font-size:22px;margin:40px 0 14px;border-bottom:2px solid var(--primary-20);padding-bottom:6px}
+  h3{font-size:18px;margin:26px 0 10px}
+  h4{font-size:16px;margin:18px 0 8px;color:var(--primary)}
+  p{margin:0 0 12px}
+  ul,ol{margin:0 0 12px;padding-left:22px}
+  li{margin-bottom:6px}
+  code{background:#f3f4f6;padding:2px 5px;border-radius:4px;font-size:0.9em;
+       font-family:"SF Mono",Menlo,Consolas,monospace;color:#111827}
+  table{border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:13.5px}
+  th,td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel);font-weight:600}
+  tr:nth-child(even) td{background:#fafbfc}
+  .badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;
+         text-transform:uppercase;letter-spacing:0.04em;color:#fff;white-space:nowrap}
+  .badge.p1{background:var(--p1)}
+  .badge.p2{background:var(--p2)}
+  .badge.p3{background:var(--p3)}
+  .badge.p4{background:var(--p4)}
+  .badge.p5{background:var(--p5)}
+  .badge.ok{background:var(--ok)}
+  .badge.warn{background:var(--warn)}
+  .badge.fail{background:var(--fail)}
+  .verdict{padding:20px 24px;border-radius:14px;margin:16px 0 20px;border:2px solid;font-size:16px}
+  .verdict.go{background:var(--verdict-go);border-color:var(--verdict-go-border)}
+  .verdict.cond{background:var(--verdict-cond);border-color:var(--verdict-cond-border)}
+  .verdict strong{font-size:20px;display:block;margin-bottom:6px}
+  .legend{font-size:12px;color:var(--muted);margin-top:4px}
+  .callout{background:var(--panel);border-left:4px solid var(--primary);
+           padding:12px 16px;border-radius:6px;margin:12px 0}
+  .muted{color:var(--muted)}
+  .tiny{font-size:12px}
+  hr{border:none;border-top:1px solid var(--border);margin:32px 0}
+  .toc{background:var(--panel);border-radius:10px;padding:16px 20px;margin-bottom:24px}
+  .toc ol{margin:0;padding-left:20px}
+  .toc a{color:var(--primary);text-decoration:none}
+  .toc a:hover{text-decoration:underline}
+  @media (max-width:720px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .cover{padding:28px 22px}
+    .cover h1{font-size:26px}
+  }
+  @media print{
+    body{font-size:12px}
+    .cover,.verdict,table{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="cover">
+    <h1>DS Audit Final — 2026-04-24</h1>
+    <div class="sub"><strong>Bilan consolidé</strong> · Landings (26 pages) + Collection blog « gestion de projet » (63 articles)<br/>
+    Baseline : <code>main</code> après merge PR #39 — <em>blog index page + BlogCollectionFrame + multi-author BlogCard</em></div>
+    <div class="stats">
+      <div class="stat"><span class="n">89</span><span class="l">Pages/articles audités</span></div>
+      <div class="stat"><span class="n">64</span><span class="l">Composants DS</span></div>
+      <div class="stat"><span class="n">6</span><span class="l">Gaps ouverts</span></div>
+      <div class="stat"><span class="n">85%</span><span class="l">Gaps fermés depuis audits</span></div>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <h2>Verdict</h2>
+  <div class="verdict go">
+    <strong>🟢 REBUILD-READY</strong>
+    Aucun gap P1. Les 6 gaps restants (1 P2 relax, 1 P2 recommandé, 1 P3, 3 P4) ne bloquent pas le rebuild — workarounds inline acceptables.
+  </div>
+
+  <table>
+    <thead><tr><th>Scope</th><th>Verdict</th><th>Conditions</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>26 landings</strong> (4 LP + 6 Produit + 4 Équipes + 12 Solution)</td>
+        <td><span class="badge ok">GO</span></td>
+        <td>0 P1/P2 bloquant. 1 relaxation triviale <code>TestimonialsFrame.min 2→1</code>.</td>
+      </tr>
+      <tr>
+        <td><strong>Template blog + 63 articles</strong></td>
+        <td><span class="badge warn">GO avec conditions</span></td>
+        <td>Recommandé avant rebuild : <code>HubspotCtaEmbed</code> (P2, 8 articles). Peut démarrer sans et rattraper.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Gaps restants (6 ouverts)</h3>
+  <table>
+    <thead><tr><th>#</th><th>Gap</th><th>Scope</th><th>Bloquant ?</th><th>Complexité</th></tr></thead>
+    <tbody>
+      <tr><td><span class="badge p2">P2</span></td><td><code>TestimonialsFrame.min 2→1</code></td><td>Landings (~3 pages)</td><td>Non — contract relax</td><td>XS (1 ligne)</td></tr>
+      <tr><td><span class="badge p2">P2</span></td><td><code>HubspotCtaEmbed</code></td><td>Blog (8 articles)</td><td>Non — iframe workaround</td><td>S</td></tr>
+      <tr><td><span class="badge p3">P3</span></td><td><code>RelatedResources</code> (« Pour aller plus loin »)</td><td>Blog (4 + 16 articles)</td><td>Non — inline acceptable</td><td>S</td></tr>
+      <tr><td><span class="badge p4">P4</span></td><td><code>PressAndTestimonialsFrame</code></td><td>Landings (14 pages)</td><td>Non — composition inline</td><td>M</td></tr>
+      <tr><td><span class="badge p4">P4</span></td><td><code>ClientSectorsFrame</code></td><td>Équipes (3 pages)</td><td>Non — grid inline</td><td>M</td></tr>
+      <tr><td><span class="badge p4">P4</span></td><td><code>IndustryStatsFrame</code></td><td>Solution (1 page)</td><td>Non — grid inline</td><td>M</td></tr>
+    </tbody>
+  </table>
+
+  <hr/>
+
+  <!-- 1 CONTEXTE -->
+  <h2>1 · Contexte</h2>
+  <p>Ce document consolide 3 audits antérieurs + cross-check avec le DS actuel pour livrer <strong>un verdict unique</strong> sur la capacité du Design System à supporter le rebuild complet du site.</p>
+
+  <h3>Audits sources</h3>
+  <table>
+    <thead><tr><th>Doc</th><th>Date</th><th>Scope</th><th>Statut</th></tr></thead>
+    <tbody>
+      <tr><td><code>ds-coverage-audit.md</code></td><td>2026-04-23</td><td>26 pages (WebFetch)</td><td>🟤 Legacy — superseded</td></tr>
+      <tr><td><code>ds-audit-26-pages.md</code></td><td>2026-04-24</td><td>26 pages (captures JSON + visuel)</td><td>✅ Référence landings</td></tr>
+      <tr><td><code>ds-audit-collection-gestion-projet.md</code></td><td>2026-04-24</td><td>63 articles blog (SQL)</td><td>✅ Référence blog</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Événements DS depuis</h3>
+  <ul>
+    <li><strong>PR #42</strong> — Docs audit 26 pages merged</li>
+    <li><strong>PR #39</strong> — Blog pipeline : <code>BlogCollectionFrame</code>, multi-author <code>BlogCard</code>, + <strong>19 commits DS</strong> (<code>TabsFrame</code>, <code>ProseFrame</code>, <code>TocSidebar</code>, <code>BlogRelatedFrame</code>, <code>InlineCta</code>, <code>InsightCallout</code>, <code>StepsFrame</code>, <code>RelatedSolutionsFrame</code>, <code>ClientsFrame</code>, <code>Quote variant="pull"</code>, <code>Hero floatingCards</code>, <code>id</code> prop sur 17 frames, extensions <code>IllustrationFrame</code> + <code>Quote</code>, etc.)</li>
+  </ul>
+
+  <h3>Baseline DS actuelle</h3>
+  <ul>
+    <li><strong>64 composants</strong> total (<code>docs/ds-components-reference.md</code>)
+      <ul><li>36 UI primitives</li><li>28 Section frames</li></ul>
+    </li>
+    <li><strong>0 contract manquant</strong></li>
+  </ul>
+
+  <hr/>
+
+  <!-- 2 LANDINGS -->
+  <h2>2 · Scope A — 26 landings</h2>
+
+  <h3>Coverage par type de page</h3>
+  <table>
+    <thead><tr><th>Type</th><th>Pages</th><th>Status coverage DS</th><th>Gaps résiduels</th></tr></thead>
+    <tbody>
+      <tr><td><strong>LP</strong> (Landing Page)</td><td>4</td><td>✅ Complet</td><td>—</td></tr>
+      <tr><td><strong>Produit</strong></td><td>6</td><td>✅ Complet</td><td>—</td></tr>
+      <tr><td><strong>Équipes</strong></td><td>4</td><td>🟡 Quasi-complet</td><td><code>PressAndTestimonialsFrame</code> (P4), <code>ClientSectorsFrame</code> (P4, 3/4 pages)</td></tr>
+      <tr><td><strong>Solution</strong></td><td>12</td><td>🟡 Quasi-complet</td><td><code>IndustryStatsFrame</code> (P4, 1 page), <code>PressAndTestimonialsFrame</code> (P4, 10/12 pages)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Composants DS utilisés</h3>
+  <table>
+    <thead><tr><th>Catégorie</th><th>Composants</th></tr></thead>
+    <tbody>
+      <tr><td>Héros &amp; CTAs</td><td><code>Hero</code>, <code>CtaFrame</code>, <code>CtaHighlightFrame</code></td></tr>
+      <tr><td>Contenu structuré</td><td><code>FeatureFrame</code>, <code>FeatureSectionStacked</code>, <code>ValuePropositionFrame</code> (cols 2-6), <code>PillarFrame</code>, <code>HighlightFrame</code>, <code>IconRowFrame</code></td></tr>
+      <tr><td>Narratif</td><td><code>StepsFrame</code>, <code>ProseFrame</code>, <code>TabsFrame</code>, <code>TableOfContentsFrame</code>, <code>TocSidebar</code></td></tr>
+      <tr><td>Comparatif</td><td><code>ComparisonFrame</code>, <code>ComparisonDualFrame</code>, <code>ComparisonTableFrame</code></td></tr>
+      <tr><td>Social proof</td><td><code>TestimonialsFrame</code>, <code>ClientsFrame</code>, <code>LogosBar</code>, <code>TestimonialCompanyCard</code></td></tr>
+      <tr><td>FAQ</td><td><code>FaqFrame</code> (accordion)</td></tr>
+      <tr><td>Carousel</td><td><code>SliderFrame</code> (light + dark, 3-8 slides)</td></tr>
+      <tr><td>Cross-link</td><td><code>RelatedSolutionsFrame</code>, <code>RelatedArticlesFrame</code></td></tr>
+      <tr><td>Layout</td><td><code>Navbar</code>, <code>Footer</code></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Gaps fermés depuis les audits précédents</h3>
+  <p>13 gaps landings fermés par PR #39 + PR #42 :</p>
+  <ul>
+    <li>✅ <code>TabsFrame</code> (P1) · <code>StepsFrame</code> → couvre <code>ProcessStepsFrame</code> (P1) · <code>RelatedSolutionsFrame</code> (P1) · <code>ProseFrame</code> + <code>BlogArticleBody</code> → <code>ArticleBodyFrame</code> (P1)</li>
+    <li>✅ <code>ValuePropositionFrame.cols</code> → 2-6 (P2) · <code>IconRowFrame.min</code> → 3 (P2) · <code>ComparisonFrame.min</code> → 3 (P2) · <code>FaqFrame.min</code> → 2 (P2) · <code>TestimonialCard.truncateAt</code> → 400 + read-more (P2)</li>
+    <li>✅ <code>SliderFrame.variant="dark"</code> + cap 5→8 (P3) · <code>TestimonialCompanyCard.href</code> optional (P3) · <code>CardCta.mediaThumbnail</code> (P3) · <code>id</code> prop sur 17 frames (P3)</li>
+  </ul>
+
+  <h3>Gaps ouverts landings</h3>
+  <table>
+    <thead><tr><th>Gap</th><th>Priorité</th><th>Scope</th><th>Décision</th></tr></thead>
+    <tbody>
+      <tr><td><code>TestimonialsFrame.min 2→1</code></td><td><span class="badge p2">P2</span></td><td>3 pages</td><td>Relaxer contract — 1 ligne</td></tr>
+      <tr><td><code>PressAndTestimonialsFrame</code></td><td><span class="badge p4">P4</span></td><td>14 pages</td><td>Composition inline ; extraire après rebuild si DRY confirmé</td></tr>
+      <tr><td><code>ClientSectorsFrame</code></td><td><span class="badge p4">P4</span></td><td>3 Équipes</td><td>Inline grid ; si réutilisé, extraire</td></tr>
+      <tr><td><code>IndustryStatsFrame</code></td><td><span class="badge p4">P4</span></td><td>1 Solution</td><td>Inline grid suffit</td></tr>
+    </tbody>
+  </table>
+
+  <hr/>
+
+  <!-- 3 BLOG -->
+  <h2>3 · Scope B — Collection blog « gestion de projet »</h2>
+
+  <h3>Stats globales</h3>
+  <ul>
+    <li><strong>63 articles</strong> <code>type='blog'</code>, collection « gestion de projet »</li>
+    <li><strong>77 KB HTML moyen</strong> (min 19 KB, max 2.76 MB — outlier <code>portfolio-management</code> non-blog)</li>
+    <li><strong>FR-only</strong> (pas d'i18n)</li>
+    <li><strong>62/63</strong> match marker body standard</li>
+  </ul>
+
+  <h3>Composants DS pour le template blog</h3>
+  <table>
+    <thead><tr><th>Besoin</th><th>Composant</th></tr></thead>
+    <tbody>
+      <tr><td>Hero article (image + H1 + breadcrumb + meta auteur + date)</td><td><code>BlogHero</code> + <code>BlogAuthorTag</code></td></tr>
+      <tr><td>Index collection (grid 3-col + CTA)</td><td><code>BlogCollectionFrame</code> + <code>BlogCard</code> (multi-author)</td></tr>
+      <tr><td>Body prose (Dynamic Zone renderer)</td><td><code>BlogArticleBody</code> (alias <code>ProseFrame maxWidth="wide"</code>)</td></tr>
+      <tr><td>Figure + figcaption</td><td><code>IllustrationFrame</code> (tone="warm" + caption)</td></tr>
+      <tr><td>TOC sticky Finsweet-style</td><td><code>TocSidebar</code> (sticky, scroll-spy)</td></tr>
+      <tr><td>Blockquote éditorial</td><td><code>Quote</code> (variant="card" et "pull")</td></tr>
+      <tr><td>Inline CTA (tinted + button)</td><td><code>InlineCta</code></td></tr>
+      <tr><td>À retenir / key takeaway</td><td><code>InsightCallout</code> (2-6 bullets + icons)</td></tr>
+      <tr><td>Related articles footer (3 articles)</td><td><code>BlogRelatedFrame</code></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Gaps fermés depuis les audits précédents</h3>
+  <p>12 gaps blog fermés par PR #39 :</p>
+  <ul>
+    <li>✅ <code>ArticleBodyFrame</code> → <code>BlogArticleBody</code> (P1) — débloque 63 articles + 5 Solution long-form</li>
+    <li>✅ <code>ArticleHeroFrame</code> → <code>BlogHero</code> (P1)</li>
+    <li>✅ <code>ArticleMetaFrame</code> → <code>BlogAuthorTag</code> (P1, intégré à BlogHero)</li>
+    <li>✅ <code>TocSidebar</code> sticky (P1) · <code>BlogRelatedFrame</code> (P1) · <code>BlockquoteFrame</code> → <code>Quote</code> variant="card" (P1)</li>
+    <li>✅ <code>RichTextFigure</code> → <code>IllustrationFrame</code> tone="warm" + figcaption (P2) · <code>InlineCta</code> (P2) · <code>PullQuote</code> → <code>Quote</code> variant="pull" (P2) · <code>InsightCallout</code> (P2)</li>
+    <li>✅ <code>ComparisonTableBlock</code> → <code>ComparisonTableFrame</code> (P3) · <code>FaqAccordionFrame</code> → <code>FaqFrame</code> (déjà accordion) (P3)</li>
+  </ul>
+
+  <h3>Gaps ouverts blog</h3>
+  <table>
+    <thead><tr><th>Gap</th><th>Priorité</th><th>Scope</th><th>Décision</th></tr></thead>
+    <tbody>
+      <tr><td><code>HubspotCtaEmbed</code></td><td><span class="badge p2">P2</span></td><td>8 articles (lead-magnet <code>hs-cta-embed-*</code>)</td><td><strong>Recommandé avant rebuild.</strong> Sinon iframe HubSpot inline temporaire.</td></tr>
+      <tr><td><code>RelatedResources</code> (« Pour aller plus loin »)</td><td><span class="badge p3">P3</span></td><td>4 explicit + 16 via texte</td><td>Inline list-of-links acceptable. Extraire si fréquence confirmée.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Articles outliers</h3>
+  <table>
+    <thead><tr><th>Article</th><th>Problème</th><th>Action</th></tr></thead>
+    <tbody>
+      <tr><td><code>portfolio-management</code> (row #53)</td><td>2.76 MB, pas de marker body standard, <code>wdyn_ct=29</code></td><td><strong>Hors périmètre blog.</strong> Exclure ou convertir en page Next.js dédiée.</td></tr>
+      <tr><td><code>plan-de-communication-projet</code> (row #44)</td><td>77 inline styles, 35 SVG icons (infographic)</td><td><strong>Rebuild manuel</strong> — infographic à traduire en composants DS ou image optimisée.</td></tr>
+      <tr><td>3 sets duplicate slugs</td><td>Clones identiques (portefeuille-projet, pi-planning, metier-pmo)</td><td><strong>Canonical + 301 redirects.</strong></td></tr>
+    </tbody>
+  </table>
+
+  <hr/>
+
+  <!-- 4 GAP LIST CONSOLIDÉE -->
+  <h2>4 · Gap list consolidée priorisée</h2>
+
+  <h3>P1 — Bloquants rebuild</h3>
+  <div class="callout"><strong>🎉 Aucun.</strong> Tous les gaps P1 identifiés ont été fermés par PR #39.</div>
+
+  <h3>P2 — Quick wins avant rebuild</h3>
+  <table>
+    <thead><tr><th>#</th><th>Gap</th><th>Scope</th><th>Effort</th><th>ROI</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><code>TestimonialsFrame.min 2→1</code></td><td>3 pages</td><td>XS (1 ligne)</td><td>Haut</td></tr>
+      <tr><td>2</td><td><code>HubspotCtaEmbed</code></td><td>8 blog articles (conversion)</td><td>S (~60 lignes)</td><td>Haut (critique conversion)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>P3 — Nice-to-have</h3>
+  <table>
+    <thead><tr><th>#</th><th>Gap</th><th>Scope</th><th>Effort</th><th>Décision</th></tr></thead>
+    <tbody>
+      <tr><td>3</td><td><code>RelatedResources</code> bloc</td><td>4 explicit + 16 via heading</td><td>S</td><td>Différer → rebuild inline d'abord</td></tr>
+    </tbody>
+  </table>
+
+  <h3>P4 — Optional (composition inline suffit)</h3>
+  <table>
+    <thead><tr><th>#</th><th>Gap</th><th>Scope</th><th>Décision</th></tr></thead>
+    <tbody>
+      <tr><td>4</td><td><code>PressAndTestimonialsFrame</code></td><td>14 landings</td><td>Composition inline ; extraire après rebuild si DRY confirmé</td></tr>
+      <tr><td>5</td><td><code>ClientSectorsFrame</code></td><td>3 Équipes</td><td>Grid inline</td></tr>
+      <tr><td>6</td><td><code>IndustryStatsFrame</code></td><td>1 Solution</td><td>Grid inline</td></tr>
+    </tbody>
+  </table>
+
+  <h3>P5 — Inline patterns (non-DS)</h3>
+  <p>Patterns intentionnellement hors DS (single-use) :</p>
+  <ul>
+    <li>Newsletter email preview (1 Équipes + 1 Solution)</li>
+    <li>Podcast episode list (1 Équipes)</li>
+    <li>Competitor narrative cards (1 LP)</li>
+  </ul>
+
+  <hr/>
+
+  <!-- 5 CONTENT ACTIONS -->
+  <h2>5 · Content actions (non-DS)</h2>
+  <table>
+    <thead><tr><th>#</th><th>Action</th><th>Scope</th><th>Propriétaire</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>Canonical slugs blog</strong> — choisir slug de référence, 2 autres en 301</td><td>3 sets duplicates</td><td>Produit/SEO</td></tr>
+      <tr><td>2</td><td><strong>Exclusion <code>portfolio-management</code></strong> OU conversion page Next.js</td><td>1 article</td><td>Produit</td></tr>
+      <tr><td>3</td><td><strong>Rebuild manuel <code>plan-de-communication-projet</code></strong> — infographic SVG → DS ou image</td><td>1 article</td><td>Dev</td></tr>
+      <tr><td>4</td><td><strong>Migration lead-magnet HubSpot</strong> — valider CTA ou replacement</td><td>8 articles</td><td>Marketing</td></tr>
+      <tr><td>5</td><td><strong>Strapi content-type <code>blog-article</code></strong> + Dynamic Zone</td><td>Toute collection</td><td>Dev</td></tr>
+    </tbody>
+  </table>
+
+  <hr/>
+
+  <!-- 6 SÉQUENCE -->
+  <h2>6 · Séquence recommandée pour le rebuild</h2>
+
+  <h3>Phase 0 · Quick wins DS <span class="muted tiny">(1-2h)</span></h3>
+  <ol>
+    <li>Relaxer <code>TestimonialsFrame.min</code> 2→1 (1 ligne + test)</li>
+    <li><em>(Optionnel)</em> Créer <code>HubspotCtaEmbed</code> (S effort — débloque 8 articles)</li>
+  </ol>
+
+  <h3>Phase 1 · Template blog + rebuild 63 articles <span class="muted tiny">(J+1 à J+3)</span></h3>
+  <ol>
+    <li>Définir schéma Strapi <code>blog-article</code> + Dynamic Zone</li>
+    <li>Builder route <code>/[locale]/blog/[slug]</code> avec <code>BlogHero</code> + <code>BlogArticleBody</code> + <code>TocSidebar</code> + <code>BlogRelatedFrame</code></li>
+    <li>Migration contenu (63 articles) — parser HTML Webflow → blocks Dynamic Zone</li>
+    <li>Traiter outliers (canonical, exclusions, infographic)</li>
+    <li>QA Playwright + visual regression</li>
+  </ol>
+
+  <h3>Phase 2 · Rebuild 26 landings <span class="muted tiny">(J+3 à J+8)</span></h3>
+  <ol>
+    <li>Builder templates par type (LP, Produit, Équipes, Solution)</li>
+    <li>Composer via DS existant (0 nouveau composant requis)</li>
+    <li>Gérer inline les 3 patterns P4 (Press, ClientSectors, IndustryStats)</li>
+    <li>QA Playwright + visual regression</li>
+  </ol>
+
+  <h3>Phase 3 · Consolidation post-rebuild <span class="muted tiny">(J+8 à J+10)</span></h3>
+  <ol>
+    <li>Audit inline patterns vs DS — si ≥2 occurrences DRY confirmée, extraire en composant</li>
+    <li>Remonter d'éventuels gaps non anticipés</li>
+    <li>Finaliser redirect 301 des slugs duplicates</li>
+  </ol>
+
+  <hr/>
+
+  <!-- 7 ANNEXES -->
+  <h2>7 · Annexes</h2>
+
+  <h3>A · Historique des audits (évolution gap count)</h3>
+  <table>
+    <thead><tr><th>Audit</th><th>Date</th><th>P1</th><th>P2</th><th>P3</th><th>P4</th><th>Total</th></tr></thead>
+    <tbody>
+      <tr><td><code>ds-coverage-audit.md</code></td><td>2026-04-23</td><td>5</td><td>~8</td><td>~2</td><td>~3</td><td>~18</td></tr>
+      <tr><td><code>ds-audit-26-pages.md</code></td><td>2026-04-24</td><td>4</td><td>7</td><td>2</td><td>3</td><td><strong>16 landings</strong></td></tr>
+      <tr><td><code>ds-audit-collection-gestion-projet.md</code></td><td>2026-04-24</td><td>6</td><td>5</td><td>3</td><td>0</td><td><strong>14 blog</strong></td></tr>
+      <tr><td><strong>CE DOCUMENT</strong></td><td><strong>2026-04-24</strong></td><td><strong>0</strong></td><td><strong>2</strong></td><td><strong>1</strong></td><td><strong>3</strong></td><td><strong>6 total</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>B · Méthode</h3>
+  <ul>
+    <li><strong>Cross-check DS</strong> : pour chaque gap listé, vérification dans <code>src/components/library-design/</code> + lecture contract (<code>@purpose</code> / <code>@limits</code>).</li>
+    <li><strong>Source landings</strong> : <code>docs/live-captures/*/*.json</code> (26 pages, 2026-04-23) + <code>ds-audit-26-pages.md</code>.</li>
+    <li><strong>Source blog</strong> : SQL Supabase <code>webflow_pages</code> (63 rows <code>type='blog'</code>) + per-article sweep dans <code>ds-audit-collection-gestion-projet.md</code>.</li>
+    <li><strong>Baseline DS</strong> : <code>main@HEAD</code> après merge PR #39 (2026-04-24). Référence regen via <code>python3 scripts/generate-ds-reference.py</code>.</li>
+  </ul>
+
+  <h3>C · Risques résiduels</h3>
+  <table>
+    <thead><tr><th>Risque</th><th>Probabilité</th><th>Mitigation</th></tr></thead>
+    <tbody>
+      <tr><td>Gap non anticipé découvert pendant rebuild</td><td>Moyenne</td><td>QA Playwright + review post-rebuild (Phase 3)</td></tr>
+      <tr><td>Migration HubSpot CTA cassée (JS non-loaded)</td><td>Haute</td><td><code>HubspotCtaEmbed</code> avant rebuild OU test manuel 8 articles</td></tr>
+      <tr><td>Duplicate slugs causent SEO canonical confusion</td><td>Haute</td><td>Redirects 301 en même temps que rebuild</td></tr>
+      <tr><td>Infographic <code>plan-de-communication-projet</code> illisible mobile</td><td>Moyenne</td><td>Rebuild manuel avec version responsive</td></tr>
+    </tbody>
+  </table>
+
+  <h3>D · Ce qui reste à décider avant Phase 1</h3>
+  <ol>
+    <li><strong>Strapi schéma blog-article</strong> — valider avec produit (proposition dans <code>ds-audit-collection-gestion-projet.md</code>)</li>
+    <li><strong>Canonical slugs</strong> — 3 sets à trancher</li>
+    <li><strong>Article <code>portfolio-management</code></strong> — page dédiée ou exclusion ?</li>
+    <li><strong><code>HubspotCtaEmbed</code></strong> — avant Phase 1 ou workaround iframe ?</li>
+  </ol>
+
+  <h3>E · Références</h3>
+  <ul>
+    <li>Design System rules : <code>docs/ds-rules.md</code></li>
+    <li>Contracts complets : <code>docs/ds-components-reference.md</code></li>
+    <li>Sections catalog : <code>docs/sections-catalog.md</code></li>
+    <li>Spec migration : <code>.context/attachments/SPEC_Migration_v4.0_FINAL.md</code></li>
+    <li>Audits sources :
+      <ul>
+        <li><code>docs/ds-audit-26-pages.md</code></li>
+        <li><code>docs/ds-audit-collection-gestion-projet.md</code></li>
+        <li><code>docs/ds-coverage-audit.md</code> (legacy)</li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr/>
+
+  <p class="muted tiny"><em>Fin du document — audit final rebuild-ready, 2026-04-24.</em></p>
+
+</div>
+</body>
+</html>
