@@ -67,8 +67,15 @@ Your job : produce a RenderingSpec V3 — an exact BlogArticleV3 with every bloc
 NON-NEGOTIABLE rules (encoded in designRules — STRICTLY apply) :
 
 1. EVERY 'quote' block → variant="card", align="left". Never "pull".
-2. EVERY content.heading with sourceLevel<=3 → DS level=3, gradient="primary".
-   Content.heading with sourceLevel>=4 → DS level=4, gradient="none".
+2. Heading level mapping (CRITICAL — Figma blog 303:1015 uses gradient on
+   ALL body subsection titles ; DS Heading contract forbids gradient on
+   level=4) :
+     - content.heading with sourceLevel=2 → DS level=2, gradient="primary"
+       (70px Product Sans Black — top-level section titles)
+     - content.heading with sourceLevel>=3 → DS level=3, gradient="primary"
+       (40px Product Sans Bold — subsections AND sub-subsections)
+     - NEVER use DS level=4 for body headings. The DS contract forces
+       level=4 to solid black which violates the Figma spec.
 3. EVERY content.figure → widthMode="breakout", tone="warm".
 4. ALERT blockquotes (content.quote with isAlertCallout=true) → CONVERT to insight-callout :
      - Pick label from the leading <strong> text (or map emoji : ⚠️→"Attention", 💡→"Le saviez-vous", 📌→"À retenir", 🚨→"Alerte", ✅→"Bon à savoir").

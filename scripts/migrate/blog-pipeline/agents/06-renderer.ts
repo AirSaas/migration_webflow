@@ -126,17 +126,42 @@ function dropSectionMarkerHeadings(spec: RenderingSpec): { spec: RenderingSpec; 
   return { spec: { ...spec, blocks }, dropped };
 }
 
+/**
+ * DS Heading at level=4 forbids gradient (`useGradient = level !== 4`).
+ * The Figma blog template demands gradient on every body subsection title.
+ * Re-route any rogue level=4 emission to level=3 with gradient="primary".
+ * Belt-and-suspenders : Designer prompt was updated to never emit level=4
+ * in body but the LLM occasionally drifts.
+ */
+function fixLevel4Headings(spec: RenderingSpec): { spec: RenderingSpec; upgraded: number } {
+  let upgraded = 0;
+  const blocks = spec.blocks.map((b) => {
+    if (b.type !== "heading" || b.level !== 4) return b;
+    upgraded++;
+    return { ...b, level: 3 as const, gradient: "primary" as const };
+  });
+  return { spec: { ...spec, blocks }, upgraded };
+}
+
 export async function runRenderer(
   input: RendererInput,
   logger: ArticleLogger,
 ): Promise<RendererOutput> {
   // Deterministic post-process : drop body headings that match a section
   // marker (those map to a separate DS frame, not to the prose body).
-  const { spec: cleanedSpec, dropped } = dropSectionMarkerHeadings(input.spec);
-  if (dropped > 0) {
-    logger.info("renderer", `dropped ${dropped} section-marker heading(s) from body`);
+  let working = input.spec;
+  const dropped = dropSectionMarkerHeadings(working);
+  working = dropped.spec;
+  if (dropped.dropped > 0) {
+    logger.info("renderer", `dropped ${dropped.dropped} section-marker heading(s) from body`);
   }
-  const effectiveSpec = cleanedSpec;
+  // Force every body heading to level=2/3 with gradient (DS contract: level=4 = solid).
+  const upgraded = fixLevel4Headings(working);
+  working = upgraded.spec;
+  if (upgraded.upgraded > 0) {
+    logger.info("renderer", `upgraded ${upgraded.upgraded} level=4 heading(s) → level=3 gradient`);
+  }
+  const effectiveSpec = working;
 
   // 1. Write staging JSON (always — easy debug).
   mkdirSync(PATHS.v3StagingDir, { recursive: true });

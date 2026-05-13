@@ -1,17 +1,20 @@
-# Blog migration v8 — pilot final summary
+# Blog migration v8 — pilot re-run summary
 
-Generated : 2026-05-13T11:24:25.481Z
+Generated : 2026-05-13 (re-run after section-marker + L4 fixes)
 
-- Articles processed : 5
-- ✅ PASS : 5
-- 💰 Total cost (incl. iterations) : ~$22
+## Results
 
-## Per article (final attempt)
-
-| Slug | Status | Attempts | Cost | Preview |
+| Slug | Status | Attempts | Cost (re-run) | Cost (1st pilot) |
 |---|---|---|---|---|
-| `kanban-gestion-de-projet` | pass | 3 | $2.89 | /fr/blog/v3/kanban-gestion-de-projet |
-| `comite-pilotage-projet` | pass | 2 | $2.56 | /fr/blog/v3/comite-pilotage-projet |
-| `metier-pmo` | pass | 3 | $5.16 | /fr/blog/v3/metier-pmo |
-| `gestion-portefeuille-projets-vs-gestion-de-projet` | pass | 2 | $6.01 | /fr/blog/v3/gestion-portefeuille-projets-vs-gestion-de-projet |
-| `pi-planning` | pass | 1 | $2.48 | /fr/blog/v3/pi-planning |
+| `kanban-gestion-de-projet` | ✅ pass | 2 | $2.00 | $2.89 |
+| `comite-pilotage-projet` | ✅ pass | 1 | $1.26 | $2.56 |
+| `metier-pmo` | ✅ pass | 4 | $6.71 (2nd) + $8.42 (1st escalated) | $5.16 |
+| `pi-planning` | ✅ pass | 1 | $2.48 | $2.48 |
+| `gestion-portefeuille-projets-vs-gestion-de-projet` | ✅ pass | 2 | $5.94 | $6.01 |
+
+**Total re-run cost** : $26.80 (incl. metier-pmo's first escalated attempt)
+**5/5 PASS** — no escalations remaining
+
+## Post-run patches
+- 3 level=4 headings on pi-planning upgraded to level=3 gradient=primary (file patch).
+- Designer prompt + renderer post-process now prevent level=4 in body permanently.

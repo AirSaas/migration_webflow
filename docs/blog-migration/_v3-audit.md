@@ -1,6 +1,6 @@
 # V3 audit — spec vs source vs rendered
 
-Generated : 2026-05-13T12:09:47.843Z
+Generated : 2026-05-13T13:29:47.799Z
 
 ## Summary
 
@@ -19,7 +19,7 @@ Generated : 2026-05-13T12:09:47.843Z
 | `comite-pilotage-projet` | 7 | 6 | 1 | 0 | 0 | 4 | centeredToc | 6 | 200 |
 | `metier-pmo` | 41 | 48 | 3 | 1 | 6 | 0 | centeredToc | 9 | 200 |
 | `pi-planning` | 25 | 1 | 14 | 0 | 1 | 0 | centeredToc | 5 | 200 |
-| `gestion-portefeuille-projets-vs-gestion-de-projet` | 41 | 49 | 0 | 4 | 8 | 6 | centeredToc | 10 | 200 |
+| `gestion-portefeuille-projets-vs-gestion-de-projet` | 41 | 49 | 2 | 4 | 6 | 6 | centeredToc | 9 | 200 |
 
 ## Issues per article
 
