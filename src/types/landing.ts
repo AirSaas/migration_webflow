@@ -297,6 +297,90 @@ export interface ValuePropositionSection {
   }[];
 }
 
+/** Standalone DS SectionHeading — gradient + optional dark portion + subtitle, no image. */
+export interface SectionHeadingSection {
+  type: "section-heading";
+  /** Primary-gradient portion of the title (rendered first). Max ~50 chars. */
+  titleGradient: string;
+  /** Dark portion of the title rendered after the gradient (joined by a space). Max ~60 chars. */
+  titleDark?: string;
+  subtitle?: string;
+}
+
+/** TestimonialsFrame with mixed press (TestimonialCompanyCard) + personal (TestimonialCard) children. */
+export interface MixedTestimonialsSection {
+  type: "mixed-testimonials";
+  /** Dark-to-primary gradient portion of the heading. */
+  title: string;
+  /** Primary gradient portion of the heading (rendered after `title`). */
+  titleHighlight?: string;
+  /** Press / publication quotes (logo + quote). */
+  press: { quote: string; logoSrc: string; logoAlt: string }[];
+  /** Personal LinkedIn-style testimonials (avatar + name + role + quote). */
+  personal: {
+    quote: string;
+    name: string;
+    role?: string;
+    avatarSrc?: string | null;
+    linkedinHref?: string;
+  }[];
+  /** Optional read-more affordance label (locale-driven). */
+  readMoreLabel?: string;
+  /** Optional read-less affordance label (locale-driven). */
+  readLessLabel?: string;
+}
+
+/** SliderFrame — title + subtitle + 2-8 image carousel. */
+export interface SliderSection {
+  type: "slider";
+  variant?: "light" | "dark";
+  /** Primary-gradient portion of the title. Max 40 chars. */
+  titleHighlight: string;
+  /** Dark / rest portion of the title. Max 70 chars. */
+  titleRest: string;
+  subtitle: string;
+  slides: { imageSrc: string; imageAlt?: string }[];
+}
+
+/** ComparisonDualFrame — paired avec/sans cards with numbered values. */
+export interface ComparisonDualSection {
+  type: "comparison-dual";
+  /** Dark-to-primary gradient portion of the title. Max 70 chars. */
+  titlePrefix: string;
+  /** Primary gradient portion of the title. Max 30 chars. */
+  titleHighlight: string;
+  /** Optional override for the "Sans" pill label. Max 20 chars. */
+  sansLabel?: string;
+  /** Optional override for the "Avec" pill label. Max 20 chars. */
+  avecLabel?: string;
+  sansItems: { value: string | number; description: string }[];
+  avecItems: { value: string | number; description: string }[];
+  ctaLabel?: string;
+  ctaHref?: string;
+}
+
+/** ClientsFrame — 6-9 ClientCard grid with optional collection CTA. */
+export interface ClientsSection {
+  type: "clients";
+  variant?: "light" | "tinted";
+  /** Dark-to-primary gradient portion of the heading. Max 80 chars. */
+  title: string;
+  /** Primary gradient trailing portion. Max 40 chars. */
+  titleHighlight?: string;
+  subtitle?: string;
+  clients: {
+    avatarSrc: string;
+    avatarAlt?: string;
+    name: string;
+    jobTitle: string;
+    companyName: string;
+    /** Sector / size / link rows shown in the bottom tinted section of the card. */
+    infoRows?: { iconName?: string; label: string; value: string }[];
+  }[];
+  collectionCtaLabel?: string;
+  collectionCtaHref?: string;
+}
+
 /** Rich steps frame with explicit numbers + icons (variant of "steps"). */
 export interface StepsRichSection {
   type: "steps-rich";
@@ -338,6 +422,11 @@ export type LandingSection =
   | FeatureStackedSection
   | ValuePropositionSection
   | StepsRichSection
+  | SectionHeadingSection
+  | MixedTestimonialsSection
+  | SliderSection
+  | ComparisonDualSection
+  | ClientsSection
   | RawSection;
 
 export interface LandingPage {

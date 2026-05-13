@@ -8,6 +8,9 @@ import { CtaHighlightFrame } from "@/components/library-design/sections/CtaHighl
 import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { ComparisonTableFrame } from "@/components/library-design/sections/ComparisonTableFrame";
+import { ComparisonDualFrame } from "@/components/library-design/sections/ComparisonDualFrame";
+import { ClientsFrame } from "@/components/library-design/sections/ClientsFrame";
+import { SliderFrame } from "@/components/library-design/sections/SliderFrame";
 import { StepsFrame } from "@/components/library-design/sections/StepsFrame";
 import { TabsFrame } from "@/components/library-design/sections/TabsFrame";
 import { ComparisonFrame } from "@/components/library-design/sections/ComparisonFrame";
@@ -17,9 +20,12 @@ import { FeatureSectionStacked } from "@/components/library-design/sections/Feat
 import { Footer } from "@/components/library-design/sections/Footer";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
+import { SectionHeading } from "@/components/library-design/ui/SectionHeading";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { ListInline } from "@/components/library-design/ui/ListInline";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
+import { TestimonialCompanyCard } from "@/components/library-design/ui/TestimonialCompanyCard";
+import { ClientCard } from "@/components/library-design/ui/ClientCard";
 import { Tag } from "@/components/library-design/ui/Tag";
 import { Button } from "@/components/library-design/ui/Button";
 import {
@@ -78,6 +84,11 @@ function iconNode(iconName: string | undefined, fallback: React.ComponentType = 
       <Cmp />
     </IconIllustration>
   );
+}
+
+function bareIcon(iconName: string | undefined, fallback: React.ComponentType = IndustryIcon) {
+  const Cmp = (iconName && ICON_BY_NAME[iconName]) || fallback;
+  return <Cmp />;
 }
 
 const PLACEHOLDER_HERO =
@@ -200,6 +211,24 @@ function renderSection(section: LandingSection, index: number): ReactNode {
                   ))}
                 </div>
               ) : null}
+              {section.subSections && section.subSections.length > 0 ? (
+                <div className="flex flex-col gap-[1rem] mt-[0.5rem]">
+                  {section.subSections.map((ss, i) => (
+                    <div key={i} className="flex flex-col gap-[0.25rem]">
+                      {ss.title ? (
+                        <Heading level={4} align="left">
+                          → {ss.title}
+                        </Heading>
+                      ) : null}
+                      {ss.body ? (
+                        <Text size="md">
+                          <RichSpan html={ss.body} />
+                        </Text>
+                      ) : null}
+                    </div>
+                  ))}
+                </div>
+              ) : null}
             </div>
           }
           imageSrc={section.imageSrc!}
@@ -243,6 +272,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
         <ValuePropositionFrame
           key={index}
           title={section.title || "Nos chiffres"}
+          titleHighlight={section.titleHighlight}
           subtitle={section.subtitle}
           columns={cols}
         >
@@ -681,6 +711,130 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             number: s.number,
           }))}
         />
+      );
+
+    case "section-heading":
+      return (
+        <section
+          key={index}
+          className="flex flex-col items-center px-[1.5rem] py-[3rem] md:px-[3rem] md:py-[5rem] lg:px-[10rem] lg:py-[6.25rem] bg-white"
+        >
+          <SectionHeading
+            titleGradient={section.titleGradient}
+            titleDark={section.titleDark}
+            subtitle={section.subtitle}
+          />
+        </section>
+      );
+
+    case "mixed-testimonials": {
+      const readMore = section.readMoreLabel ?? "Lire la suite";
+      const readLess = section.readLessLabel ?? "Voir moins";
+      return (
+        <TestimonialsFrame
+          key={index}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          readMoreLabel={readMore}
+          readLessLabel={readLess}
+        >
+          {section.press.length > 0 ? (
+            <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+              {section.press.map((p, i) => (
+                <TestimonialCompanyCard
+                  key={`press-${i}`}
+                  quote={p.quote}
+                  logoSrc={p.logoSrc}
+                  logoAlt={p.logoAlt}
+                  className="flex-1 !w-auto"
+                />
+              ))}
+            </div>
+          ) : null}
+          {section.personal.length > 0 ? (
+            <div className="grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 lg:grid-cols-3">
+              {section.personal.map((p, i) => (
+                <TestimonialCard
+                  key={`pers-${i}`}
+                  quote={p.quote}
+                  name={p.name}
+                  role={p.role || ""}
+                  avatarSrc={p.avatarSrc ?? undefined}
+                  linkedinHref={p.linkedinHref}
+                  readMoreLabel={readMore}
+                  readLessLabel={readLess}
+                  className="flex-1"
+                />
+              ))}
+            </div>
+          ) : null}
+        </TestimonialsFrame>
+      );
+    }
+
+    case "slider":
+      if (!section.slides || section.slides.length < 2) return null;
+      return (
+        <SliderFrame
+          key={index}
+          variant={section.variant}
+          titleHighlight={section.titleHighlight}
+          titleRest={section.titleRest}
+          subtitle={section.subtitle}
+          slides={section.slides}
+        />
+      );
+
+    case "comparison-dual":
+      if (
+        !section.sansItems ||
+        section.sansItems.length === 0 ||
+        !section.avecItems ||
+        section.avecItems.length === 0
+      )
+        return null;
+      return (
+        <ComparisonDualFrame
+          key={index}
+          titlePrefix={section.titlePrefix}
+          titleHighlight={section.titleHighlight}
+          sansLabel={section.sansLabel}
+          avecLabel={section.avecLabel}
+          sansItems={section.sansItems}
+          avecItems={section.avecItems}
+          ctaLabel={section.ctaLabel}
+          ctaHref={section.ctaHref}
+        />
+      );
+
+    case "clients":
+      if (!section.clients || section.clients.length === 0) return null;
+      return (
+        <ClientsFrame
+          key={index}
+          variant={section.variant}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          subtitle={section.subtitle}
+          collectionCtaLabel={section.collectionCtaLabel}
+          collectionCtaHref={section.collectionCtaHref}
+        >
+          {section.clients.map((c, i) => (
+            <ClientCard
+              key={i}
+              avatarSrc={c.avatarSrc}
+              avatarAlt={c.avatarAlt}
+              name={c.name}
+              jobTitle={c.jobTitle}
+              companyName={c.companyName}
+              infoRows={c.infoRows?.map((r) => ({
+                icon: bareIcon(r.iconName),
+                label: r.label,
+                value: r.value,
+              }))}
+            />
+          ))}
+        </ClientsFrame>
       );
 
     case "raw":
