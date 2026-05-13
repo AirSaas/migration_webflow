@@ -3,6 +3,10 @@ import { Tag } from "@/components/library-design/ui/Tag";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { GradientText } from "@/components/library-design/ui/GradientText";
+import {
+  assertArrayBounds,
+  assertMaxLength,
+} from "@/lib/ds-validators";
 
 export interface IconRowItem {
   /** Pre-rendered icon node — typically an <IconBadge> */
@@ -61,6 +65,18 @@ export function IconRowFrame({
   id,
   className,
 }: IconRowFrameProps) {
+  assertArrayBounds("IconRowFrame", "items", items, 3, 8);
+  if (tag) assertMaxLength("IconRowFrame", "tag", tag, 24);
+  if (titleHighlight)
+    assertMaxLength("IconRowFrame", "titleHighlight", titleHighlight, 40);
+  if (title) assertMaxLength("IconRowFrame", "title", title, 80);
+  if (singleTitle)
+    assertMaxLength("IconRowFrame", "singleTitle", singleTitle, 80);
+  if (subtitle) assertMaxLength("IconRowFrame", "subtitle", subtitle, 260);
+  items.forEach((item, i) =>
+    assertMaxLength("IconRowFrame", `items[${i}].label`, item.label, 24),
+  );
+
   const isDark = variant === "dark";
 
   return (

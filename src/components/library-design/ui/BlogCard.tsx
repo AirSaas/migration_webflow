@@ -157,7 +157,7 @@ export function BlogCard({
       <div className="flex flex-col gap-[0.4375rem]">
         <span className="font-light text-foreground text-micro-xl">{date}</span>
 
-        <Heading level={4} gradient="none" align="left">
+        <Heading level={4} gradient="none" align="left" className="line-clamp-2">
           <a
             href={href}
             className="transition-colors hover:text-primary focus-visible:text-primary focus-visible:outline-none"
@@ -166,7 +166,7 @@ export function BlogCard({
           </a>
         </Heading>
 
-        <Text size="md" align="left">
+        <Text size="md" align="left" className="line-clamp-3">
           {excerpt}
         </Text>
       </div>

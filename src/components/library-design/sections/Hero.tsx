@@ -412,16 +412,18 @@ export function Hero({
         )}
       </div>
 
-      {/* Floating cards — positioned for the centered layout (stacked hero) */}
+      {/* Floating cards — positioned for the centered layout (stacked hero).
+          Shown from lg so tablets get the decorative chrome too; positions use
+          percentages so they scale gracefully between 1024px and 1920px. */}
       {floatingCards && !isSplit && (
         <>
-          <Float variant={1} duration={4} delay={0} className="absolute z-20 right-[2%] top-[8rem] hidden xl:block">
+          <Float variant={1} duration={4} delay={0} className="absolute z-20 right-[2%] top-[8rem] hidden lg:block">
             <FloatingCard icon={<BullseyeIcon />} />
           </Float>
-          <Float variant={2} duration={4.5} delay={0.5} className="absolute z-20 left-[2%] top-[38.875rem] hidden xl:block">
+          <Float variant={2} duration={4.5} delay={0.5} className="absolute z-20 left-[2%] top-[38.875rem] hidden lg:block">
             <FloatingCard icon={<BriefcaseIcon />} />
           </Float>
-          <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[7%] top-[55rem] hidden xl:block">
+          <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[7%] top-[55rem] hidden lg:block">
             <FloatingCard icon={<CalendarIcon />} />
           </Float>
         </>

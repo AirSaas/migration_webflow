@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { assertArrayBounds } from "@/lib/ds-validators";
 
 interface ListEmphasizedProps {
   /** Array of text items to display */
@@ -14,9 +15,10 @@ interface ListEmphasizedProps {
  * @dontUse    For long bulleted content — use <CheckList>. For vertical stacks with checkmarks, use <CheckList>.
  *
  * @limits
- *   - items: 2–4 strings recommended (layout wraps column → row at md breakpoint)
+ *   - items: 2–4 strings (enforced — past 4 the md flex-row layout wraps awkwardly)
  */
 export function ListEmphasized({ items, className }: ListEmphasizedProps) {
+  assertArrayBounds("ListEmphasized", "items", items, 2, 4);
   return (
     <div
       className={cn(

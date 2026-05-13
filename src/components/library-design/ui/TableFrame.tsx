@@ -72,9 +72,16 @@ export function TableFrame({
 
   return (
     <div
-      className={cn("w-full overflow-x-auto", className)}
+      className={cn(
+        // Right-edge fade hint on mobile to signal horizontal scrollability;
+        // disappears once the user scrolls to the end of the table.
+        "relative w-full overflow-x-auto",
+        "[mask-image:linear-gradient(to_right,#000_0,#000_calc(100%-1.5rem),transparent_100%)]",
+        "md:[mask-image:none]",
+        className,
+      )}
       role="region"
-      aria-label="Data table"
+      aria-label="Comparison table (scroll horizontally on mobile)"
       tabIndex={0}
     >
       <table className="w-full border-separate border-spacing-x-[1px] border-spacing-y-0">
@@ -85,7 +92,7 @@ export function TableFrame({
                 key={i}
                 scope="col"
                 className={cn(
-                  "bg-primary text-white font-bold text-left p-[0.9375rem] text-paragraph whitespace-nowrap",
+                  "bg-primary text-white font-bold text-left p-[0.9375rem] text-paragraph whitespace-nowrap min-w-[10rem]",
                   i === 0 && "rounded-tl-[0.6875rem]",
                   i === columns.length - 1 && "rounded-tr-[0.6875rem]",
                 )}
@@ -102,7 +109,7 @@ export function TableFrame({
                 <td
                   key={ci}
                   className={cn(
-                    "bg-primary-2 border-b border-primary-20 p-[0.9375rem] text-paragraph text-foreground align-top",
+                    "bg-primary-2 border-b border-primary-20 p-[0.9375rem] text-paragraph text-foreground align-top min-w-[10rem]",
                     firstColumnBold && ci === 0 ? "font-bold" : "font-light",
                   )}
                 >

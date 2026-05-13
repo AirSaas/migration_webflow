@@ -217,6 +217,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Don't use** — Inside a FeatureFrame — the frame already renders its own checklist from `checklistItems`. For a single inline check item, use <ListInline> directly.
 
 **Limits:**
+- items: 1–12 (past 12, the list stretches the section disproportionately; prefer two columns via the consumer layout or split the content)
 - items: plain strings or rich ReactNode (bold, links, etc.)
 
 ---
@@ -512,7 +513,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Don't use** — For long bulleted content — use <CheckList>. For vertical stacks with checkmarks, use <CheckList>.
 
 **Limits:**
-- items: 2–4 strings recommended (layout wraps column → row at md breakpoint)
+- items: 2–4 strings (enforced — past 4 the md flex-row layout wraps awkwardly)
 
 ---
 
@@ -1154,7 +1155,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - titleHighlight: max 40 chars
 - title: max 80 chars
 - subtitle: max 260 chars
-- pillars: 2–6 items (matches columns 2 or 3)
+- pillars: 2–8 items (2/4/6/8 with columns=2 or 4; 3/6 with columns=3)
 - pillar.title: max 20 chars (uppercase, short — "DROP", "ADD")
 - pillar.description: max 220 chars
 - pillar.example: max 180 chars (optional)

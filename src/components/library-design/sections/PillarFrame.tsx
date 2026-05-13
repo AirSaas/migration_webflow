@@ -3,6 +3,10 @@ import { Tag } from "@/components/library-design/ui/Tag";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { GradientText } from "@/components/library-design/ui/GradientText";
+import {
+  assertArrayBounds,
+  assertMaxLength,
+} from "@/lib/ds-validators";
 
 export interface Pillar {
   /** Pre-rendered icon node — typically an <IconIllustration size="lg"> */
@@ -69,6 +73,34 @@ export function PillarFrame({
   id,
   className,
 }: PillarFrameProps) {
+  assertArrayBounds("PillarFrame", "pillars", pillars, 2, 8);
+  if (titleHighlight)
+    assertMaxLength("PillarFrame", "titleHighlight", titleHighlight, 40);
+  assertMaxLength("PillarFrame", "title", title, 80);
+  if (subtitle) assertMaxLength("PillarFrame", "subtitle", subtitle, 260);
+  if (tag) assertMaxLength("PillarFrame", "tag", tag, 24);
+  pillars.forEach((p, i) => {
+    assertMaxLength("PillarFrame", `pillars[${i}].title`, p.title, 20);
+    assertMaxLength(
+      "PillarFrame",
+      `pillars[${i}].description`,
+      p.description,
+      220,
+    );
+    if (p.example)
+      assertMaxLength(
+        "PillarFrame",
+        `pillars[${i}].example`,
+        p.example,
+        180,
+      );
+  });
+  if (pillars.length % columns !== 0) {
+    console.warn(
+      `[DS] PillarFrame: ${pillars.length} pillars with columns=${columns} leaves orphans in the last row. Prefer counts that divide evenly (2/4/6/8 with cols=2 or 4; 3/6 with cols=3).`,
+    );
+  }
+
   const isDark = variant === "dark";
 
   return (
@@ -108,10 +140,10 @@ export function PillarFrame({
         )}
       </div>
 
-      {/* Pillars grid */}
+      {/* Pillars grid — gap scales with viewport. */}
       <div
         className={cn(
-          "grid w-full max-w-[91rem] grid-cols-1 gap-[3rem] lg:gap-[4rem]",
+          "grid w-full max-w-[91rem] grid-cols-1 gap-[clamp(2rem,4vw,4rem)]",
           columns === 4
             ? "md:grid-cols-2 lg:grid-cols-4"
             : columns === 3

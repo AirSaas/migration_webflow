@@ -1,3 +1,4 @@
+import { Children } from "react";
 import { cn } from "@/lib/utils";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
@@ -52,6 +53,16 @@ export function CtaFrame({
   assertMaxLength("CtaFrame", "title", title, 80);
   assertMaxLength("CtaFrame", "subtitle", subtitle, 220);
 
+  // Adapt the grid to the actual number of cards passed so the layout stays
+  // balanced for 1-card landings without forcing the caller to wrap the
+  // single card in extra centering markup. `toArray` flattens Fragments so
+  // `<><Card/><Card/></>` correctly reports 2 children.
+  const cardCount = Children.toArray(children).length;
+  const gridClass =
+    cardCount === 1
+      ? "max-w-[40rem] mx-auto md:grid-cols-1"
+      : "md:grid-cols-2";
+
   return (
     <section
       id={id}
@@ -83,7 +94,10 @@ export function CtaFrame({
           animation="scale-up"
           duration={500}
           delay={100}
-          className="grid grid-cols-1 gap-[0.875rem] items-stretch w-full md:grid-cols-2"
+          className={cn(
+            "grid grid-cols-1 gap-[0.875rem] items-stretch w-full",
+            gridClass,
+          )}
         >
           {children}
         </AnimateOnScroll>
