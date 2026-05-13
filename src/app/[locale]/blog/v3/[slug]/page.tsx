@@ -99,6 +99,7 @@ export default async function BlogArticleV3Route({
 
   return (
     <BlogPostPage
+      forceCenteredToc={article.layout === "centeredToc"}
       navItems={BLOG_INDEX_DATA.navItems}
       navCtaLabel={BLOG_INDEX_DATA.navCtaLabel}
       navCtaHref={BLOG_INDEX_DATA.navCtaHref}

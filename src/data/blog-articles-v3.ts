@@ -285,6 +285,3063 @@ export const BLOG_ARTICLES_V3: BlogArticleV3[] = [
       }
     ],
     "related": []
+  },
+  {
+    "slug": "comite-pilotage-projet",
+    "skip": false,
+    "reason": "Layout centeredToc enforced (6 TOC entries) to fix prior P0 toc-centered-card and P1 toc-circle-bullets feedback — the TableOfContentsFrame component renders the centered bordered card with fa-circle-small bullets by contract. All quotes set to variant=card/align=left. All source H2/H3 headings mapped to DS level=3 with gradient=primary; no level=4 needed. All figures set to widthMode=breakout, tone=warm. No alert callouts, no HubSpot embeds, no FAQ items. CMS toggles passed through (showFaq, showNewsletter, showCta, showRelated, showTrending all true; customCta null).",
+    "meta": {
+      "title": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
+      "description": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
+      "h1": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea901f083f308b673091eb_copil-projet.jpg",
+        "alt": "Comité de pilotage projet"
+      },
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "1/6/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "1/6/2022"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<strong>Montre-moi ton comité de pilotage projet, je te dirai quel PMO ou chef de projet tu es</strong> !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un proverbe chinois nous le rappelle : \"Le <strong>poisson pourrit toujours par la tête</strong>\". Oui : à l'origine des dysfonctionnements au sein d'une organisation, on trouve souvent ses dirigeants et managers."
+      },
+      {
+        "type": "paragraph",
+        "html": "Réussir votre Copil projet, c'est réussir vos arbitrages et prises de décisions. C'est <strong>impliquer la gouvernance d'un projet</strong>, ceux qui détiennent le pouvoir sur les moyens, les délais, la qualité et la performance."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème : les sujets remontés en comité de pilotage sont complexes. Le temps <strong>disponible</strong> y est <strong>limité</strong> et enfin, la concentration d'excès d'ego y est extrême !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ajoutons qu'il y a parfois tellement de projets que le <strong>Codir</strong> ne peut alors pas participer à tous les Copil. Ce qui peut avoir pour conséquence un surplus de jeu \"politique\" interne, d'indécision."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment, dans ce contexte, <strong>éviter ou déminer les pièges de l'effet groupe</strong>, et faire en sorte que le processus d'animation du comité de pilotage projet se passe le mieux possible ? On a interrogé nos amis DSI, PMO et chef de projets, on a puisé dans notre vécu, relu tous les articles, demandé à Google... pour sélectionner <strong>5 bonnes pratiques, qu'on aurait aimé connaître</strong>, avant notre premier Copil projet..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici, pas de conseils basiques - vous savez déjà qu'il faut faire un ordre du jour lors d'un comité de pilotage. On va s'intéresser à ce qui n'est pas écrit dans les manuels, avec un <strong>focus sur le pragmatisme et les dynamiques relationnelles</strong> d'un projet. Pour découvrir les fondamentaux on vous a préparé cet autre article à découvrir : <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\" target=\"_blank\">Comité de pilotage ou Copil : Les bases</a>&nbsp;"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Astuce 1 : S'accorder pour ne pas mettre en défaut son homologue IT / Métier en Copil",
+        "id": "astuce-1-saccorder-pour-ne-pas-mettre-en-defaut-son-homologue-it-metier-en-copil",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Établissez en quelque sorte un \"<strong>contrat relationnel</strong>\" : ne jamais mettre son partenaire du tandem chef de projet métier / IT, en défaut devant le comité. Ce n'est pas le Copil d'une des parties, c'est le Copil du projet ! Faites en une sorte de <em>golden rule</em>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette astuce simple, si elle est utilisée à bon escient, ne garantira pas un projet idéal - mais juste des relations normales et en partie apaisées lors des moments de tensions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il faut souligner que dans un contexte d'équipes de plus en plus auto-organisées et agiles dans les projets, le concept même de <strong>chef de projet unique</strong> semble de plus en plus anachronique, voire obsolète. Oui, vous êtes un groupe projet, une \"chefferie\" hybride. Précisons pour être complet, qu'<strong>au duo formé par le chef de projet IT et métier, il faut ajouter le sponsor.</strong> C'est ce trio qui doit animer le comité de pilotage<strong>.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit <strong>se phaser avant et après le comité de pilotage</strong> pour s'aligner sur les messages et objectifs parfois transverses."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour bien ancrer cette pratique, on peut la comparer à celle qui se joue à l'échelle d'une famille. Prenons l'exemple d'un adolescent qui rencontrerait des problèmes de comportement au collège... Si l'un des parents, pour aller dans le sens de l'enfant, met en défaut les autres adultes co-responsables (parent et ou professeur), on commence alors à disfonctionner. Cette faille entre les trois partenaires de l'éducation peut être exploitée et donner lieu à des interprétations et débats sans fin ! L'analogie avec les projets vaut ce qu'elle vaut, mais elle dit bien l'importance du contrat relationnel, pour que chacun joue son rôle dans un cadre collectif, en co-responsabilité."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Astuce 2 : Aucune information ne doit être découverte pendant le comité de pilotage projet",
+        "id": "astuce-2-aucune-information-ne-doit-etre-decouverte-pendant-le-comite-de-pilotage-projet",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Tous les documents, ordre du jour et annexes doivent être transmis,</strong> au moins une semaine, et idéalement 15 jours, avant le jour du comité de pilotage !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention : maîtriser cette astuce de base n'est pas si facile. Il s'agit ici de vous mettre (un peu) à la place des membres du comité de pilotage projet. Car oui, rappelons-le : <strong>envoyer un \"diapocument\", équivalent à un livre de 100 pages à lire,</strong> quelques jours seulement avant la réunion équivaut à faire vivre une expérience pénible à votre cible."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le principe conducteur : <strong>aucune information ou presque ne doit être découverte pendant le comité de pilotage.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "De même <strong>le sponsor doit être tenu au courant des points critiques</strong> inclus dans l'ordre du jour. Sans pour autant lui faire relire tout le plan de communication, vous aurez préparé et validé les messages clés, décisions et solutions préconisées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, idéalement, certaines décisions du comité de pilotage projet seront prises avant la réunion entre le chef de projet IT/Métier et le sponsor. L'objectif serait d'avoir les validations des différents managers sur ces sujets. Tout est dans la préparation<strong>.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Astuce 3 : Soyez vagues, très précisément !",
+        "id": "astuce-3-soyez-vagues-tres-precisement",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Là, on est sur une astuce de pure rhétorique. Vous êtes le chef de projet IT/Métier ou PMO. Un des membres du comité de pilotage projet vous interpelle lors de la réunion. Si vous ne savez pas ce qui doit être fait, mais que vous ne voulez pas l'admettre, utilisez des phrases telles que&nbsp;: \"<em>Nous allons examiner ce problème et vous donner un retour d'ici mardi prochain, 15h00</em>\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "En technique de communication il est important, voire essentiel, \"<strong>d'accuser réception du message\" de l'émetteur</strong>. Vous vous assurerez de la sorte de ne plus y revenir, et éviterez un parasitisme latent."
+      },
+      {
+        "type": "paragraph",
+        "html": "Notez-le sur le <em>paperboard</em> ou le support de la plateforme. Vous ne dites pas un mot de ce que vous allez faire, mais <strong>le délai exact crée une impression de certitude</strong>. Bien sûr, vous devez envoyer une mise à jour avant la date limite. Même s'il ne s'agit que d'un \"<em>désolé, nous avons dû reprioriser le sujet</em>\" avec un nouveau délai :-) vous serez perçu comme une personne très fiable, capable de respecter les délais et de communiquer clairement et à l'avance."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est une astuce proche de celle consistant à accueillir et ranger les questions hors sujets au parking, pour garder le focus sur l'ordre du jour."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Variante pour garder le focus : la zone des questions \"frigos/parking\"",
+        "id": "variante-pour-garder-le-focus-la-zone-des-questions-frigosparking",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "On vous interpelle en pleine réunion sur une question non prévue ? <strong>Notez les sujets hors ordre du jour et mettez-les de côté</strong> pour discussion à une date ultérieure afin de <strong>vous assurer que l'ordre du jour principal est traité en priorité</strong> et de donner aux participants l'habitude de se concentrer et d'être conscients des tangentes, pour <strong>éviter les digressions</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet usage a comme bénéfice de <strong>garder le comité de pilotage concentré sur l'ordre du jour indiqué</strong>. Deuxièmement, le frigo ou parking reconnaît et fait une place aux points importants soulevés par les différentes parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention, la question doit être vraiment suivie. Ne faites pas semblant !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Astuce 4 : Faites la promotion des accomplissements et succès",
+        "id": "astuce-4-faites-la-promotion-des-accomplissements-et-succes",
+        "gradient": "primary"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea8f7744e58a71d700438e_funny-celebrate-8-min.gif",
+        "alt": "Illustration photo d'un des membres de l'équipe AirSaas",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'inverse d'un comité de pilotage projet, ou parfois le principal driver est le suivi des risques, <strong>innovez et investissez dans le positif</strong> ! Une astuce simple : ritualiser, à chaque fois que l'avancement du projet le justifie des <em>Merci</em> 🙏🏻 et <em>bravo</em> ✌️!"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Valorisez ce qui marche, ce qui a fonctionné, les équipes</strong>. C'est un objectif clé de votre plan de communication. Cela passera aussi par les chefs de projets qui postent sur les plateformes internes des succès, des sponsors qui \"likent\" et commentent."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3e8bf5a0566e058b267d8_Project%20page-min.jpg",
+        "alt": "Capture écran plateforme AirSaas - partage succès",
+        "caption": "Un management de projet qui célèbre chaque réussite des équipes",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Utilisez chaque jalon projet comme un point succès.</strong> Récupérez via les plateformes dédiées la ou les captures d'écran des partages rédigés par d'autres que vous : c'est encore mieux quand c'est dit par quelqu'un d'autre que les PMO ou chefs de projet :-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le principe derrière cette pratique, est le suivant : \"ce que l'on regarde grandit\". Cette approche, théorisée par des consultants en management, est plus qu'une astuce : c'est une philosophie. Car concentrer l'attention d'un comité sur le positif valorisera non seulement le travail et les acteurs du projet impliqués, mais peut aussi contribuer à <strong>développer une culture centrée sur les points forts de l'organisation et de son management.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé : <strong>mettez en avant toutes l'équipe de projet,</strong> notamment les équipes métiers.&nbsp;Sans oublier de rappeler les bénéfices clés pour les utilisateurs finaux - les clients de l'entreprise !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Astuce 5 : Décidez... de comment décider",
+        "id": "astuce-5-decidez-de-comment-decider",
+        "gradient": "primary"
+      },
+      {
+        "type": "quote",
+        "text": "\"L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu... il est important que chacun ait pu s'exprimer, et comprenne le choix et la décision qui a été prise.\"",
+        "author": "Gilles de Richemond — CEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas.",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Instaurer ou rappeler le processus de gouvernance</strong> est fondamental. C'est <strong>en quelque sorte l'algorithme du comité de pilotage d'un projet.</strong> S'assurer que chacun des membres du comité comprend les méthodes et phases nécessaires pour prendre des décisions est essentiel pour un management efficace."
+      },
+      {
+        "type": "paragraph",
+        "html": "On rappelle ci-dessous l'équation popularisée par Olivier Bas, vice-président d'Havas, auteur, conférencier et enseignant :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/629798c204fc271575a21d21_demidecision.png",
+        "alt": "1/2 décision bordel au carré",
+        "caption": "Titre d'un chapitre du livre <a href=\"https://www.dunod.com/entreprise-et-economie/like-ton-job-comment-vivre-avec-bonheur-transformation-digitale\" target=\"_blank\"><em>Like ton job</em></a> paru chez Dunod.",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu ce sont <strong>des décisions projets qui restent partagées et inclusives</strong>, et qui <strong>gagnent en rapidité !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "À la clé, une culture Copil entreprise radicalement différente de ce qui peut se faire ailleurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans entrer dans tous les détails de la mise en œuvre (les avantages inconvénients de chacune feront l'objet d'un article dédié sur ce blog), rappelons que les principales méthodologies de décision dans le management des entreprises sont :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>La décision autocratique</strong> : j'ai décidé seul !",
+          "<strong>La décision consultative</strong> : je vous ai écouté",
+          "<strong>La décision par consensus</strong> : j'ai un accord général (tacite ou manifeste)",
+          "<strong>La décision par consentement</strong> : j'ai une absence d'objection majeure."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Astuce bonus : Affichez la checklist du rôle et des redevabilités du comité de pilotage projet",
+        "id": "astuce-bonus-affichez-la-checklist-du-role-et-des-redevabilites-du-comite-de-pilotage-projet",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà des astuces, la pratique ultime ne consisterait-elle pas à garder bien en tête, et à rappeler au Copil si besoin, le cadre : les rôles et redevabilités générales du comité de pilotage dans le management de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Aux côtés du chef de projet, ses redevabilités sont :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Prendre des décisions et faire des arbitrages</strong> vis-à-vis de la conduite de projet.",
+          "<strong>Veiller au bon déroulement du projet</strong> et s'assurer qu'il est en accord avec les stratégies globales de l'entreprise.",
+          "<strong>Évaluer la qualité et la santé du projet à chaque réunion</strong>. Si certains problèmes doivent être améliorés, les principaux intervenants peuvent les soulever pour les résoudre.",
+          "<strong>Donner au chef de projet le pouvoir d'agir</strong> et d'utiliser les ressources de l'entreprise pour mener l'exécution, l'avancement du projet.",
+          "<strong>Résoudre les conflits entre départements</strong>, les problèmes liés aux budgets et coûts, au planning, aux risques, à la gestion des ressources, à la qualité et à la portée.",
+          "<strong>Surveiller les progrès du projet par rapport aux objectifs convenus</strong> et résoudre les problèmes qui ne permettent pas au projet de progresser à temps."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec cette sélection de 5 astuces + 1, vous êtes parés pour que votre comité de pilotage projet devienne un moment de décisions, un processus de management de projet plus efficace."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si toutefois vous êtes confrontés à un comité houleux et que rien ne va plus en terme de tensions entre deux participants, bonne nouvelle : le Blog Pro de la Transfo a pensé à vous. <a href=\"/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage\" target=\"_blank\">Découvrez comment gérer l'agressivité dans les comités de pilotage ?</a> Personnalités difficiles, réaction en cas d'agressivité ? Découvrez les 7 astuces sélectionnées pour vous faciliter la vie de bureau."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6297345614f7ff48d24fcc69_copil-projet-airsaas.jpg",
+        "alt": "Illustration copil projet AirSaas",
+        "caption": "Un Copil projet efficace se reposera sur un bon <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\" target=\"_blank\">reporting projet</a>",
+        "widthMode": "breakout",
+        "tone": "warm"
+      }
+    ],
+    "layout": "centeredToc",
+    "toggles": {
+      "showFaq": true,
+      "showNewsletter": true,
+      "showCta": true,
+      "showRelated": true,
+      "showTrending": true
+    },
+    "customCta": null,
+    "faq": [],
+    "toc": [
+      {
+        "label": "Astuce 1 : S'accorder pour ne pas mettre en défaut son homologue IT / Métier en Copil",
+        "href": "#astuce-1-saccorder-pour-ne-pas-mettre-en-defaut-son-homologue-it-metier-en-copil",
+        "level": 2
+      },
+      {
+        "label": "Astuce 2 : Aucune information ne doit être découverte pendant le comité de pilotage projet",
+        "href": "#astuce-2-aucune-information-ne-doit-etre-decouverte-pendant-le-comite-de-pilotage-projet",
+        "level": 2
+      },
+      {
+        "label": "Astuce 3 : Soyez vagues, très précisément !",
+        "href": "#astuce-3-soyez-vagues-tres-precisement",
+        "level": 2
+      },
+      {
+        "label": "Astuce 4 : Faites la promotion des accomplissements et succès",
+        "href": "#astuce-4-faites-la-promotion-des-accomplissements-et-succes",
+        "level": 2
+      },
+      {
+        "label": "Astuce 5 : Décidez... de comment décider",
+        "href": "#astuce-5-decidez-de-comment-decider",
+        "level": 2
+      },
+      {
+        "label": "Astuce bonus : Affichez la checklist du rôle et des redevabilités du comité de pilotage projet",
+        "href": "#astuce-bonus-affichez-la-checklist-du-role-et-des-redevabilites-du-comite-de-pilotage-projet",
+        "level": 2
+      }
+    ],
+    "related": []
+  },
+  {
+    "slug": "metier-pmo",
+    "skip": false,
+    "reason": "Mapped per designRules V0: quotes→card, H3 source→gradient primary, figures→breakout+warm (none here), alert blockquotes→insight-callout, table preserved, centeredToc layout (9 TOC items). Feedback noted: TOC bullets and table header styling are DS-internal (TableOfContentsFrame uses circle-small FA bullets, TableFrame uses white-on-primary headers); spec carries correct block types so renderer applies correct styling.",
+    "meta": {
+      "title": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+      "description": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+      "h1": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/69a00523cadcb7d104aaae86_PMO.jpg",
+        "alt": "PMO (Project Management Office)"
+      },
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "25/2/2026",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "publishedDate": "25/2/2026"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Le PMO est devenu incontournable dans les organisations qui gèrent plusieurs projets en parallèle. Pourtant, c'est un métier souvent mal compris : ni chef de projet, ni contrôleur, ni secrétaire de direction. Alors c'est quoi, concrètement, un PMO ? Ce guide te donne les clés pour comprendre ce rôle, son positionnement, et comment le mettre en place efficacement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "PMO : définition et signification",
+        "id": "pmo-definition-et-signification",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>PMO</strong> signifie <strong>Project Management Office</strong>, soit « Bureau de gestion de projets » en français. C'est une fonction (ou une équipe) qui structure la gouvernance du portefeuille de projets d'une organisation."
+      },
+      {
+        "type": "insight-callout",
+        "html": "En une phrase : le PMO est la personne (ou l'équipe) qui s'assure que les bons projets sont lancés, avec les bonnes méthodes, et que la direction a une visibilité claire sur l'avancement global.",
+        "label": "À retenir",
+        "variant": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Contrairement à ce que le terme « bureau » suggère, le PMO n'est pas un lieu physique. C'est une fonction rattachée à la direction — DSI, direction de la transformation, ou direction générale — qui orchestre la gestion de projets à l'échelle de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO intervient sur trois niveaux :"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 • La méthode",
+        "id": "1-la-methode",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Harmoniser les pratiques de gestion de projet entre les équipes. Tout le monde parle le même langage."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2 • La gouvernance",
+        "id": "2-la-gouvernance",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Structurer les instances de décision (comités de pilotage, revues de portefeuille) pour que le Comex puisse arbitrer avec des données fiables."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3 • L'accompagnement",
+        "id": "3-laccompagnement",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Faire monter les équipes en compétences projet. Le PMO forme, outille et facilite — il n'exécute pas à la place des équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "En France, environ 70% des projets de transformation échouent ou dérapent significativement. Le PMO est la réponse structurelle à ce problème : plutôt que d'empiler des projets en espérant que ça passe, tu mets en place une gouvernance qui garantit l'alignement stratégique et l'allocation optimale des ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est aussi un métier en pleine expansion. La multiplication des projets transverses, la transformation digitale et le besoin de piloter par la valeur rendent le PMO indispensable — que ce soit en ETI, grand compte ou secteur public."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'explosion du nombre de projets transverses",
+        "id": "lexplosion-du-nombre-de-projets-transverses",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'accélération de l'innovation a créé une prolifération de projets transverses et de transformation digitale. Les entreprises font face à des défis structurels et culturels pour gérer ces initiatives tout en maintenant les priorités opérationnelles."
+      },
+      {
+        "type": "quote",
+        "text": "90% des projets sont transverses. La transformation, structurellement nécessaire à l'avenir de l'entreprise, déstabilise l'organisation à court terme.",
+        "author": "Bertran Ruiz, CEO AirSaas",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les impacts sont concrets : les collaborateurs clés jonglent entre plusieurs projets en « best effort », les profils exigeants sont difficiles à recruter, l'adoption technologique pêche, et la collaboration inter-services dysfonctionne."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La techno accessible",
+        "id": "la-techno-accessible",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les technologies modernes ont atteint la maturité et l'accessibilité. La pression concurrentielle ne porte plus sur le « est-ce que la techno marche ? » mais sur le « comment l'adopter efficacement ? ». Cette profusion de solutions génère mécaniquement un nombre croissant de projets potentiels."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les collaborateurs veulent la même techno au bureau que dans leur vie perso",
+        "id": "les-collaborateurs-veulent-la-meme-techno-au-bureau-que-dans-leur-vie-perso",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les collaborateurs, de plus en plus « tech-savvy » dans leur vie personnelle, attendent des outils professionnels à la hauteur. Si cette familiarité devrait faciliter l'adoption, la vraie barrière reste la conduite du changement, pas la technologie elle-même."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'échec des projets en silos",
+        "id": "lechec-des-projets-en-silos",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un département seul ne peut pas transformer l'entreprise. 90% des projets de transformation ont une dimension digitale. L'exécution isolée crée du gaspillage de ressources, des doublons, et l'absence de partage de connaissances inter-services. Les projets sont abandonnés en phase d'industrialisation faute d'avoir consulté les parties prenantes suffisamment tôt."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'échec du PMO contrôle",
+        "id": "lechec-du-pmo-controle",
+        "gradient": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'opposition des chefs de projets",
+        "id": "lopposition-des-chefs-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les PMO positionnés comme des entités de contrôle et d'inspection génèrent de la résistance. Sans autorité hiérarchique sur les chefs de projet, cette approche top-down décourage l'engagement plutôt qu'elle ne le stimule."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le coût d'un passe-plats",
+        "id": "le-cout-dun-passe-plats",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les PMO traditionnels consomment des budgets significatifs (surtout en consultants externes) sur des activités à faible valeur ajoutée : relance des tâches, collecte d'informations, mise en forme de reportings. Cette surcharge administrative ne tire pas parti de la connaissance du PMO pour faire progresser les équipes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Contrôle vs aider à faire",
+        "id": "controle-vs-aider-a-faire",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ajouter des mécanismes de contrôle contredit les objectifs d'engagement pour des contributeurs en « best effort ». Plutôt que de surveiller chaque tâche, le PMO doit simplifier le reporting et le formalisme, permettre aux équipes de se concentrer sur le fond du projet, et motiver la participation en réduisant les contraintes."
+      },
+      {
+        "type": "quote",
+        "text": "La plupart des participants à la transformation sont en mode « best effort ». Exiger plus de contrôle est contre-productif. La solution : maximiser l'engagement des collaborateurs autour de la transformation. « Les diagrammes de Gantt rassurent, mais ce sont les équipes qui livrent. » Sans engagement, pas de transformation.",
+        "author": "Bertran Ruiz, CEO AirSaas",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le nouveau rôle du métier de PMO",
+        "id": "le-nouveau-role-du-metier-de-pmo",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du PMO a évolué du contrôle d'exécution vers l'instauration d'une <strong>culture projet alignée sur les besoins de l'entreprise</strong>, créant une vision transverse au-delà des silos."
+      },
+      {
+        "type": "quote",
+        "text": "Le rôle a évolué de l'assurance projet et des fonctions de secrétariat vers l'accompagnement méthodologique et le support à la vision d'avenir au niveau des directions.",
+        "author": "Alexandre Franchino, PMO, Efi Automotive",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Bénéfices attendus",
+        "id": "benefices-attendus",
+        "gradient": "primary"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "✅ Développement continu des capacités",
+          "✅ Efficacité opérationnelle accrue",
+          "✅ Capacité de transformation renforcée",
+          "✅ Harmonisation des processus et optimisation des ressources"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La posture",
+        "id": "la-posture",
+        "gradient": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Leadership",
+        "id": "leadership",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Fort de sa visibilité sur le portefeuille, le PMO doit accompagner proactivement les collaborateurs — pas uniquement reporter vers le haut. Le rôle du PMO : faire grandir l'organisation."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Se positionner efficacement",
+        "id": "se-positionner-efficacement",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le positionnement idéal du PMO se fait au sein de l'entité projet transverse la plus mature de l'entreprise. Cela garantit crédibilité et rapidité fonctionnelle sans nécessiter de restructuration majeure."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Éviter les conflits d'ego",
+        "id": "eviter-les-conflits-dego",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO qui réussit fait preuve d'empathie, d'anticipation, de pédagogie et de diplomatie. Il navigue entre les services avec respect et sait cadrer les désaccords de manière inclusive."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Ne pas se positionner en « expert »",
+        "id": "ne-pas-se-positionner-en-expert",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Évite la posture du « je vais t'expliquer ton métier ». Le PMO fonctionne comme un <strong>facilitateur de solutions</strong>, pas une barrière. Adopte une culture produit : les utilisateurs (tes partenaires métier) détiennent la vérité."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Devenir un « enabler »",
+        "id": "devenir-un-enabler",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Réduis les processus lourds tout en maintenant le contrôle stratégique. Soutiens les projets transverses avec des environnements procéduraux légers, des approches agiles inspirées des startups, et un modèle de partenariat métier."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Ses méthodologies",
+        "id": "ses-methodologies",
+        "gradient": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Optimiser le best effort",
+        "id": "optimiser-le-best-effort",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu central : organiser du temps dédié pour les contributeurs transverses tout en mettant en place des workflows asynchrones qui réduisent les réunions en cascade et les barrières d'accès à l'information. Crée de l'engagement positif en valorisant l'impact, en réduisant les charges de reporting sans valeur, et en célébrant les succès."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Penser PPM, PPT et SRR",
+        "id": "penser-ppm-ppt-et-srr",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>PPM (Portfolio Project Management)</strong> : Orchestrer et prioriser les projets en examinant risque/retour, budgets, délais et bénéfices attendus. Les groupes de gouvernance évaluent le ROI et l'alignement stratégique."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>PPT (People-Process-Tools)</strong> : Le « triangle d'or » qui optimise les relations collaborateur-processus-outil. L'équilibre entre capacité humaine, efficacité des workflows et technologie habilitante."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>SRR (Sense-Role-Ritual)</strong> : <em>Sense</em> — les collaborateurs trouvent du sens en comprenant l'impact et l'importance stratégique. <em>Role</em> — des définitions claires de responsabilités standardisées entre les projets. <em>Ritual</em> — une communication soutenue horizontalement et verticalement tout au long du cycle de vie des projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les outils et ressources clés",
+        "id": "les-outils-et-ressources-cles",
+        "gradient": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Gestion de projet",
+        "id": "gestion-de-projet",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Évite d'imposer un outil unique de gestion de projet à toute l'entreprise. Les fonctions différentes nécessitent des outils différents (marketing vs développement). Les équipes transverses bénéficient d'outils collaboratifs adaptés à leurs besoins spécifiques."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Gestion de portefeuille",
+        "id": "gestion-de-portefeuille",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "La standardisation s'applique au niveau de la gouvernance du portefeuille. La prise de décision rapide exige une accessibilité cohérente de l'information et une fréquence de présentation régulière. L'automatisation alimente les outils projet individuels vers des interfaces macro de <a href=\"/fr/gestion-de-projet/management-de-portefeuille-de-projet\"><strong>gestion de portefeuille</strong></a> axées sur l'information décisionnelle."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Ressources",
+        "id": "ressources",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "La stratégie combine l'allocation de temps pour les talents clés (10-20% d'implication initiale), l'automatisation des processus libérant de la capacité, le staffing d'experts, la diffusion culturelle progressive, et l'engagement de l'exécutif sur la priorité stratégique."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les perspectives du métier",
+        "id": "les-perspectives-du-metier",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les PMO influencent de plus en plus la transformation et la culture projet à travers le contact multi-directions et la participation aux décisions stratégiques. Les leaders PMO démontrant des capacités de management transverse et d'impact sur le changement accèdent fréquemment à des postes de management et de direction."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quelles différences entre chef de projet et PMO ?",
+        "id": "quelles-differences-entre-chef-de-projet-et-pmo",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La confusion est fréquente, et pourtant les deux rôles sont fondamentalement différents. Le chef de projet est dans l'exécution d'un projet spécifique. Le PMO prend de la hauteur pour orchestrer le portefeuille dans son ensemble."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Critère",
+          "Chef de projet",
+          "PMO"
+        ],
+        "rows": [
+          [
+            "Périmètre",
+            "1 projet (du cadrage au bilan)",
+            "Le portefeuille de projets (tous les projets)"
+          ],
+          [
+            "Focus",
+            "Livrer dans le temps, le budget, le périmètre",
+            "Aligner les projets sur la stratégie de l'entreprise"
+          ],
+          [
+            "Rattachement",
+            "Direction métier ou technique",
+            "Direction générale, DSI ou direction de la transformation"
+          ],
+          [
+            "Livrables",
+            "Planning, suivi d'avancement, bilan",
+            "Méthodes, reporting portefeuille, gouvernance"
+          ],
+          [
+            "Posture",
+            "Exécution et coordination",
+            "Orchestration et facilitation"
+          ],
+          [
+            "Compétences clés",
+            "Technique, gestion d'équipe, rigueur",
+            "Vision transverse, diplomatie, conduite du changement"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Les deux rôles ne sont pas en compétition : ils sont complémentaires. Les organisations qui réussissent ont des chefs de projet solides ET un PMO qui les aide à travailler de manière harmonisée. Le PMO ne prend pas la place du chef de projet — il le rend meilleur."
+      },
+      {
+        "type": "insight-callout",
+        "html": "L'essentiel : le chef de projet gère le « comment » d'un projet. Le PMO gère le « quoi » et le « pourquoi » du portefeuille. Les deux sont nécessaires.",
+        "label": "À retenir",
+        "variant": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"/fr/gestion-de-projet/chef-de-projet-pmo\">Lire le guide complet : différences entre chef de projet et PMO →</a>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quel est le rôle du PMO vis-à-vis du Codir ?",
+        "id": "quel-est-le-role-du-pmo-vis-a-vis-du-codir",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO est l'interface entre la réalité opérationnelle des projets et le besoin de décision du Codir. C'est un positionnement délicat : trop proche de la direction, il passe pour un contrôleur déconnecté du terrain. Trop proche des équipes, il ne remonte plus l'information stratégique."
+      },
+      {
+        "type": "paragraph",
+        "html": "Trois postures à éviter absolument :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "❌ <strong>Le passe-plats</strong> <br>Le PMO relaie l'information sans l'analyser. Valeur ajoutée minimale. Le Codir ne sait pas quoi décider.",
+          "❌ <strong>Le Codir-focused</strong> <br>Le PMO ne regarde que vers le haut. Les équipes le perçoivent comme un micro-manager déconnecté du terrain.",
+          "❌ <strong>Le projet-focused</strong> <br>Le PMO reste dans l'opérationnel. La direction manque d'information consolidée pour arbitrer."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "La bonne posture ? Le PMO comme <strong>facilitateur neutre et de confiance</strong>. Il traduit la réalité terrain en indicateurs actionnables pour le Codir, et il traduit les décisions stratégiques en cadre opérationnel pour les équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "La métrique clé du PMO vis-à-vis du Codir : la <strong>vélocité de décision</strong>. À quelle vitesse le Codir peut-il agir sur la base des informations que le PMO fournit ? Si le reporting arrive trop tard, trop complexe ou trop vague, le PMO a raté sa cible."
+      },
+      {
+        "type": "insight-callout",
+        "html": "La relation avec le sponsor (membre du Codir) est déterminante. Un PMO sans sponsor influent est un PMO sans impact. Assure-toi d'avoir une communication solide, des responsabilités claires et une collaboration active avec ton sponsor.",
+        "label": "À retenir",
+        "variant": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"/fr/gestion-de-projet/role-du-pmo\">Lire le guide complet : rôle du PMO vis-à-vis du Codir →</a>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pourquoi mettre en place un PMO ?",
+        "id": "pourquoi-mettre-en-place-un-pmo",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La question n'est pas « faut-il un PMO ? » mais « à partir de quand ça devient indispensable ? ». La réponse est simple : dès que ton organisation gère plus de <strong>400 à 500K€ de projets transverses ou de transformation</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "À ce stade, les symptômes sont généralement les mêmes :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Les projets se multiplient mais personne n'a la vision consolidée",
+          "Les ressources sont disputées entre services sans arbitrage clair",
+          "Les collaborateurs sont en « best effort » et commencent à craquer",
+          "Le Comex n'a pas de visibilité fiable sur l'avancement réel",
+          "Chaque département a sa propre méthode de gestion de projet"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le retour sur investissement d'un PMO représente typiquement <strong>10 à 20% de la valeur du portefeuille</strong> — récupéré via les gains de temps, la réduction des échecs de projets et la meilleure allocation des ressources. Sans PMO, tu continues de dépenser plus pour livrer moins."
+      },
+      {
+        "type": "insight-callout",
+        "html": "Les organisations plus petites bénéficient souvent davantage d'un PMO, car la culture s'enracine plus vite avant que les mauvaises habitudes ne se cristallisent.",
+        "label": "Le saviez-vous",
+        "variant": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo\">Lire le guide complet : pourquoi mettre en place un PMO →</a>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Comment mettre en place un PMO : les étapes clés",
+        "id": "comment-mettre-en-place-un-pmo-les-etapes-cles",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettre en place un PMO, ce n'est pas recruter quelqu'un et lui donner un titre. C'est un projet stratégique en soi, qui nécessite un positionnement réfléchi et un sponsor solide."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 • Évalue les besoins",
+        "id": "1-evalue-les-besoins",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quelle est la maturité projet de ton organisation ? Combien de projets transverses sont en cours ? Quels sont les principaux points de douleur (visibilité, priorisation, méthode) ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2 • Trouve un sponsor influent",
+        "id": "2-trouve-un-sponsor-influent",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMO a besoin d'un sponsor au Codir qui porte le sujet et lui donne la légitimité d'agir. Sans ce sponsor, le PMO sera perçu comme une initiative isolée sans poids politique."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3 • Positionne-le au bon endroit",
+        "id": "3-positionne-le-au-bon-endroit",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Rattache le PMO à la direction la plus mature en transverse (souvent la DSI). Il doit avoir la proximité avec le comité exécutif et l'autorité pour challenger les parties prenantes quand nécessaire."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4 • Recrute le bon profil",
+        "id": "4-recrute-le-bon-profil",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cherche un profil avec de l'expérience en transformation transverse, des compétences de communication et de collaboration, un esprit de pédagogue. Le PMO idéal inspire plutôt qu'il n'impose."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5 • Délivre des quick wins",
+        "id": "5-delivre-des-quick-wins",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avant de restructurer la gouvernance complète, prouve ta valeur avec des victoires rapides et visibles : un tableau de bord consolidé, un premier cycle de priorisation, une simplification du reporting. La crédibilité se construit sur les résultats concrets, pas sur les processus."
+      },
+      {
+        "type": "insight-callout",
+        "html": "Le piège classique : vouloir tout structurer d'entrée. Un PMO qui démarre par un framework de 200 pages sera rejeté avant d'avoir fait quoi que ce soit. Commence léger, livre vite, itère.",
+        "label": "Attention",
+        "variant": "warning"
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"/fr/gestion-de-projet/comment-mettre-en-place-un-pmo\">Lire le guide complet : étapes pour mettre en place un PMO →</a>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le reporting PMO : comment le réussir",
+        "id": "le-reporting-pmo-comment-le-reussir",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le reporting est souvent le premier sujet sur lequel le PMO est jugé — et le premier sur lequel il peut se planter. Le piège : transformer le reporting en exercice bureaucratique que personne ne lit. L'objectif : en faire un <strong>outil de décision</strong> que le Codir attend avec impatience."
+      },
+      {
+        "type": "paragraph",
+        "html": "Trois principes pour un reporting PMO efficace :"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 • Hebdo > Mensuel",
+        "id": "1-hebdo-greater-mensuel",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un reporting hebdomadaire léger (5 min par chef de projet) est infiniment plus utile qu'un reporting mensuel lourd (2-3 jours de collecte). La donnée fraîche permet de réagir, la donnée périmée sert de décoration."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2 • Semi-automatisé",
+        "id": "2-semi-automatise",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le PMO passe ses journées à collecter des données, il ne fait pas son vrai métier. L'outil doit capturer les données à la source et les consolider automatiquement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3 • Adapté à l'audience",
+        "id": "3-adapte-a-laudience",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Codir n'a pas besoin du même niveau de détail que les chefs de projet. Segmente tes reportings par audience : synthèse exécutive pour le Codir, détail opérationnel pour les équipes."
+      },
+      {
+        "type": "insight-callout",
+        "html": "La règle AirSaas : « Si c'est plus complexe qu'Instagram, on a perdu. » Le reporting doit être lisible, exportable (PPT, PDF), et filtrable. Pare les données d'un contexte narratif pour faciliter l'interprétation.",
+        "label": "Bon à savoir",
+        "variant": "success"
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"/fr/gestion-de-projet/reporting-pmo\">Lire le guide complet : reporting PMO →</a>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "FAQ : les questions fréquentes sur le PMO",
+        "id": "faq-les-questions-frequentes-sur-le-pmo",
+        "gradient": "primary"
+      },
+      {
+        "type": "inline-cta",
+        "text": "Tu veux structurer ton PMO sans usine à gaz ? AirSaas aide les PMO et DSI à piloter leur portefeuille de projets avec un outil simple, orienté valeur. Reporting automatisé, gouvernance claire, visibilité Comex en temps réel.",
+        "ctaLabel": "Réserve ta démo →",
+        "ctaHref": "https://www.airsaas.io/fr/meetings-pages"
+      }
+    ],
+    "layout": "centeredToc",
+    "toggles": {
+      "showFaq": true,
+      "showNewsletter": true,
+      "showCta": true,
+      "showRelated": true,
+      "showTrending": true
+    },
+    "customCta": null,
+    "faq": [
+      {
+        "question": "PMO, c'est quoi ?",
+        "answer": "Le PMO (Project Management Office) est une fonction qui structure et accompagne la gestion de portefeuille de projets dans une organisation. Il apporte méthodes, outils et gouvernance pour aider les équipes à livrer leurs projets. Ce n'est pas un contrôleur : c'est un facilitateur qui fait monter tout le monde en compétences.",
+        "hidden": false
+      },
+      {
+        "question": "Que signifie PMO ?",
+        "answer": "PMO signifie Project Management Office, littéralement « Bureau de gestion de projets ». En France, on parle parfois de « bureau de projet » ou « direction de projet ». Mais le terme PMO s'est imposé car il décrit mieux la fonction : une entité dédiée à la gouvernance du portefeuille projets, pas juste un bureau physique.",
+        "hidden": false
+      },
+      {
+        "question": "Quelle est la différence entre un PMO et un chef de projet ?",
+        "answer": "Le chef de projet gère un projet de A à Z (planning, budget, équipe, livrables). Le PMO prend de la hauteur : il pilote le portefeuille dans son ensemble, harmonise les méthodes, et aide les chefs de projet à réussir. Le chef de projet est dans l'exécution, le PMO est dans l'orchestration.",
+        "hidden": false
+      },
+      {
+        "question": "Quand faut-il mettre en place un PMO ?",
+        "answer": "Dès que tu gères plus de 400-500K€ de projets transverses ou de transformation. Autres signaux : les projets s'enlisent au-delà de 18 mois, les ressources sont disputées entre services, ou le Comex n'a pas de visibilité consolidée. Si tu constates 2 de ces signaux, le PMO devient rentable.",
+        "hidden": false
+      },
+      {
+        "question": "Quel est le salaire d'un PMO en France ?",
+        "answer": "En 2026, un PMO junior démarre entre 40 000 et 50 000€ brut annuel. Un PMO confirmé (5-10 ans) se situe entre 55 000 et 75 000€. Un Directeur PMO en ETI ou grand compte peut atteindre 80 000 à 120 000€. Les profils avec expérience transformation digitale sont les plus recherchés.",
+        "hidden": false
+      },
+      {
+        "question": "Le PMO est-il un métier d'avenir ?",
+        "answer": "Oui, et de plus en plus. La multiplication des projets transverses, la transformation digitale, et le besoin de piloter par la valeur rendent le PMO indispensable. Les organisations qui réussissent leur transformation ont toutes un PMO structuré. C'est aussi un tremplin vers des postes de direction.",
+        "hidden": false
+      }
+    ],
+    "toc": [
+      {
+        "label": "L'explosion du nombre de projets transverses",
+        "href": "#lexplosion-du-nombre-de-projets-transverses",
+        "level": 2
+      },
+      {
+        "label": "L'échec du PMO contrôle",
+        "href": "#lechec-du-pmo-controle",
+        "level": 2
+      },
+      {
+        "label": "Le nouveau rôle du métier de PMO",
+        "href": "#le-nouveau-role-du-metier-de-pmo",
+        "level": 2
+      },
+      {
+        "label": "Quelles différences entre chef de projet et PMO ?",
+        "href": "#quelles-differences-entre-chef-de-projet-et-pmo",
+        "level": 2
+      },
+      {
+        "label": "Quel est le rôle du PMO vis-à-vis du Codir ?",
+        "href": "#quel-est-le-role-du-pmo-vis-a-vis-du-codir",
+        "level": 2
+      },
+      {
+        "label": "Pourquoi mettre en place un PMO ?",
+        "href": "#pourquoi-mettre-en-place-un-pmo",
+        "level": 2
+      },
+      {
+        "label": "Comment mettre en place un PMO : les étapes clés",
+        "href": "#comment-mettre-en-place-un-pmo-les-etapes-cles",
+        "level": 2
+      },
+      {
+        "label": "Le reporting PMO : comment le réussir",
+        "href": "#le-reporting-pmo-comment-le-reussir",
+        "level": 2
+      },
+      {
+        "label": "FAQ : les questions fréquentes sur le PMO",
+        "href": "#faq-les-questions-frequentes-sur-le-pmo",
+        "level": 2
+      }
+    ],
+    "related": [
+      {
+        "label": "Chef de projet vs PMO : rôles et différences clés",
+        "href": "/fr/gestion-de-projet/chef-de-projet-pmo"
+      },
+      {
+        "label": "Le rôle du PMO vis-à-vis du Codir et de la chefferie de projets",
+        "href": "/fr/gestion-de-projet/role-du-pmo"
+      },
+      {
+        "label": "Pourquoi mettre en place un PMO dans votre organisation",
+        "href": "/fr/gestion-de-projet/pourquoi-mettre-en-place-un-pmo"
+      },
+      {
+        "label": "Comment mettre en place un PMO : le guide étape par étape",
+        "href": "/fr/gestion-de-projet/comment-mettre-en-place-un-pmo"
+      },
+      {
+        "label": "Reporting PMO : les clés d'un reporting projet efficace",
+        "href": "/fr/gestion-de-projet/reporting-pmo"
+      }
+    ]
+  },
+  {
+    "slug": "pi-planning",
+    "skip": false,
+    "reason": "Centered TOC (5 entries); all quotes mapped to variant=card align=left; source-H2 and source-H3 headings → DS level=3 gradient=primary; source-H4 → DS level=4 gradient=none; opening alert blockquote (no emoji, just intro context) converted to insight-callout primary \"À retenir\"; trailing HubSpot CTA embed converted to inline-cta /fr/meetings-pages; no figures/tables in this article.",
+    "meta": {
+      "title": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+      "description": "Découvrez comment réussir votre PI Planning : définition, bénéfices, préparation, outils et suivi. Le guide complet pour aligner vos équipes IT et métiers.",
+      "h1": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3b8ff9507e294d9f896_PI%20Planning.jpg",
+        "alt": "PI Planning"
+      },
+      "author": null,
+      "publishedDate": "19/2/2026"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Aligner les équipes IT et métiers, c'est souvent un casse-tête. Entre les priorités business qui évoluent sans cesse, les équipes tech qui jonglent avec les contraintes techniques, et des silos qui compliquent la communication, on se retrouve vite avec des projets qui avancent… mais pas forcément dans la bonne direction."
+      },
+      {
+        "type": "paragraph",
+        "html": "Résultat ? Des frustrations des deux côtés, des retards, et une perte de valeur pour l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est là que le <strong>PI Planning</strong> entre en jeu. Pilier du framework SAFe (Scaled Agile Framework), cet événement trimestriel rassemble toutes les équipes impliquées dans un Agile Release Train (ART) pour synchroniser leurs efforts autour d'un plan clair et réaliste. Pendant deux jours, IT et métiers travaillent ensemble pour définir les priorités, lever les dépendances et s'assurer que chacun avance dans le même sens."
+      },
+      {
+        "type": "paragraph",
+        "html": "En bref : c'est le moment où tout le monde se met d'accord sur ce qu'on fait, pourquoi on le fait et comment on va y arriver."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais attention : une session mal préparée peut vite devenir une réunion interminable qui manque d'impact. Pour qu'il soit efficace, il faut <strong>une bonne préparation, une forte implication des parties prenantes et une vraie dynamique de collaboration</strong>. Sinon, on risque de repartir avec un plan flou et une fausse impression d'alignement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Alors, comment transformer cet exercice en un levier de performance et d'engagement pour vos équipes ? Quels sont les pièges à éviter ? Et surtout, comment faire en sorte que cet événement soit un moteur de création de valeur et pas juste une contrainte de plus ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article, on va décortiquer <strong>les clés d'un PI Planning réussi, avec des retours d'expérience concrets et des conseils actionnables</strong>. Parce que bien fait, cet événement peut changer la dynamique de vos projets et enfin aligner IT et Métiers sur un objectif commun."
+      },
+      {
+        "type": "insight-callout",
+        "html": "Pour enrichir nos connaissances et aller au-delà de la littérature, nous avons demandé à des experts de nous partager leurs convictions. Ils apportent aussi leurs bonnes pratiques concrètes pour s'engager dans la mise en place d'un PI Planning. Nous remercions Elodie Clémentine Grasset et Michel Levaslot pour leurs contributions.",
+        "label": "À retenir",
+        "variant": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Qu'est-ce qu'un PI Planning ?",
+        "id": "quest-ce-quun-pi-planning",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Focus d'abord sur la définition du PI Planning, et quelques concepts-clés à connaître pour bien vous lancer."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il s'agit d'une réunion d'équipe à grande échelle, visant à organiser les tâches pour une durée définie, appelée Program Increment ou PI (et Planning Interval depuis la version 6 de SAFe). Cette séance collaborative permet d'aligner les objectifs et de <strong>coordonner les actions de toutes les parties prenantes d'un projet</strong>, garantissant une planification claire et concertée pour la période concernée."
+      },
+      {
+        "type": "quote",
+        "text": "Le PI Planning, c'est un processus partagé. La notion de \"partagé\" est importante parce que, tout l'intérêt de ce process, c'est que les gens qui y participent sont ceux qui y mettent l'argent - donc ceux qui attendent des bénéfices du livrable. Le PI Planning les oblige à se poser les bonnes questions sur la valeur associée au projet. Ça met les responsabilités au bon endroit.",
+        "author": "Elodie Clémentine Grasset — Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "On utilise souvent cette pratique dans le cadre d'un développement de produit informatique. Cependant, il peut tout aussi bien être mis en œuvre dans des projets plus traditionnels et structurés, tels que la gestion des changements organisationnels, la création hardware ou encore la réalisation de projets documentaires."
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'échelle, cette approche peut permettre de structurer tout le build d'une organisation, tous les projets et les évolutions produits en cours."
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à ce processus de planification, vous pouvez :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Définir et redéfinir régulièrement des objectifs communs</strong> à toutes vos parties prenantes, autour de priorités partagées",
+          "<strong>Planifier les livrables de chaque équipe</strong>, notamment dans le cadre de projets transverses, tout en limitant l'impact des dépendances",
+          "<strong>Déployer et challenger régulièrement et collaborativement un plan d'action</strong>, que chaque équipe s'engage à respecter pour atteindre les objectifs communs via des engagements clairs sur les livrables"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "La session dure généralement une à deux journées, segmentées de manière à aborder tous les sujets du PI à venir : jalons clés, fonctionnalités à développer, priorités, risques…"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "PI Planning et framework SAFe",
+        "id": "pi-planning-et-framework-safe",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Program Increment (PI), et par extension le PI Planning, s'inscrit dans le cadre méthodologique du SAFe (Scaled Agile Framework). Dans cette approche agile, les équipes collaborant sur un PI sont appelées \"Agile Release Train\" (ART)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin sur les bonnes pratiques SAFe, consultez <a href=\"/fr/gestion-de-projet/pi-safe\">nos 8 essentiels pour réussir votre PI SAFe</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Traditionnellement, selon les principes du SAFe, un PI s'étend sur une période de 8 à 12 semaines. Toutefois, si vous n'adoptez pas à la lettre ce framework, vous pouvez ajuster cette durée en fonction des besoins de votre organisation, par exemple en choisissant un cycle trimestriel."
+      },
+      {
+        "type": "quote",
+        "text": "Le framework SAFe considère qu'un Program Increment a une durée spécifique, mais il est possible d'adapter cette temporalité. Les valeurs temporelles comme le trimestre sont très ancrées dans la culture humaine, ce qui peut permettre de rendre les échéances du PI Planning plus aisément compréhensibles par tous. Sans oublier qu'en France, la temporalité trimestrielle permet d'éviter de positionner le prochain PI Planning pendant une période de vacances.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette flexibilité n'exclut pas la possibilité de maintenir des sprints plus courts et des livraisons régulières, assurant ainsi un rythme itératif pour l'équipe de développement."
+      },
+      {
+        "type": "paragraph",
+        "html": "En passant à l'échelle, pour aligner une entreprise sur ses projets stratégiques ou vitaux, on recommande fortement de choisir le rythme du trimestre. Le soleil nous propose un rythme trimestriel pour les saisons, les financiers nous proposent un rythme trimestriel pour les publications financières, pourquoi ne pas s'inscrire dans un rythme naturel pour le build, pour les projets ?"
+      },
+      {
+        "type": "quote",
+        "text": "Pour les équipes qui sont habituées au contexte SAFe, on peut utiliser le terme de Program Increment Planning. Mais, dans un contexte de gestion de portefeuille de projets, il peut être déroutant d'utiliser le terme \"PI Planning\" — car les parties prenantes vont vouloir se raccrocher à la méthodologie SAFe. Donc autant ne garder que les principes intéressants du PI Planning, et utiliser un terme moins jargonnant, qui correspond à la culture de l'organisation : par exemple, Quarter Plan.",
+        "author": "Elodie Clémentine Grasset — Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quels sont les bénéfices d'un PI Planning ?",
+        "id": "quels-sont-les-benefices-dun-pi-planning",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La pratique de gestion de projets à large échelle qu'est le PI Planning recèle bien des avantages — et ce, que ce soit pour des équipes qui suivent le manifeste agile à la lettre ou non."
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à un PI Planning bien huilé, vous pouvez notamment :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Aligner toutes vos parties prenantes</strong> autour de priorités stratégiques communes et claires et régulièrement redéfinies",
+          "<strong>Avoir une vision réaliste des projets</strong> et des évolutions produits, pour éviter l'effet tunnel",
+          "<strong>Favoriser la collaboration et l'engagement des acteurs de vos projets</strong> : les owners de programme, de projets ou de produits et les sponsors (Business Owners &amp; dirigeants C-Levels) ou encore les responsables de sujets transverses (contrôleurs financiers, risks &amp; cyber managers, DPO…)",
+          "<strong>Avoir un coup d'avance sur les blocages potentiels des projets</strong> et leurs risques, grâce à une identification en amont de leurs interdépendances"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Par conséquent, le PI Planning vous permet également de contrôler le budget de vos projets et produits de plus près."
+      },
+      {
+        "type": "quote",
+        "text": "Le processus de Program Increment Planning permet de mieux contrôler le budget d'un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l'enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.",
+        "author": "Elodie Clémentine Grasset — Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "En somme, le PI Planning est une pratique de développement itératif pour accélérer la livraison de valeur de vos projets, et rentrer dans une démarche d'amélioration continue."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais pour bénéficier de ces avantages, vous devez comprendre comment mettre en place un PI Planning at scale bien ficelé. Bonne nouvelle : c'est exactement ce que cet article vous dévoile !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "À quoi ressemble un PI Planning réussi avec des bénéfices concrets ?",
+        "id": "a-quoi-ressemble-un-pi-planning-reussi-avec-des-benefices-concrets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Découvrez ici à quoi ressemblent deux journées-types de PI Planning."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le prérequis et le challenge permanent : un climat d'échange serein et transparent",
+        "id": "le-prerequis-et-le-challenge-permanent-un-climat-dechange-serein-et-transparent",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'une des clés du succès d'un PI Planning est de réussir à instaurer un environnement où chacun se sent libre de partager ses contraintes, pour planifier collectivement l'avenir du projet sur la période à venir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Simple sur le papier. Véritable challenge pour les organisateurs qui doivent \"sentir\" les moods de l'entreprise et veiller à distribuer la parole tout en relançant en permanence pour rechercher les compromis."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne pas se mentir lors de ces moments est essentiel. Baser les réflexions sur les data objectives disponibles n'empêche pas de faire des paris raisonnables aussi."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le point de vue du verre à moitié plein sera un allié pour toujours avancer dans la résolution des complexités du portefeuille."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour ce faire, utilisez pendant le PI Planning <strong>des outils collaboratifs</strong>, qui permettent de structurer les échanges et de montrer que la parole de chacun est prise en compte."
+      },
+      {
+        "type": "paragraph",
+        "html": "Utilisez :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Des tableaux d'équipes",
+          "Un tableau des dépendances",
+          "Un tableau des risques"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Veillez également à <strong>rappeler les règles du PI Planning</strong> dès que vous lancez la réunion. Rentrez dans le détail, en mettant par exemple en avant les couleurs des différents post-its à utiliser sur les tableaux (selon qu'il s'agit de risques, de jalons clés, de features, de user stories…)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces règles seront transmises en amont des prises de parole, auprès de chaque équipe, qui pourront également préparer le terrain habilement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et c'est le rôle de l'animateur du PI Planning, le Release Train Engineer (RTE), que de réussir à distribuer la parole équitablement, pour assurer des échanges sereins."
+      },
+      {
+        "type": "quote",
+        "text": "Le RTE, est quelqu'un que l'on choisit pour sa capacité d'animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c'est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d'autres PI Plannings pour se préparer.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un lancement ultra pragmatique du PI Planning pour donner du sens",
+        "id": "un-lancement-ultra-pragmatique-du-pi-planning-pour-donner-du-sens",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'équilibre précaire, notamment dans les premières expérimentations, entre des objectifs raisonnables et un impact total ne doit pas décourager. Un PI Planning c'est un process qui est apprenant pour toutes les parties. Veiller à cibler l'objectif qui résout un des maux les plus partagés par les équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "En tout début de PI Planning, c'est le Release Train Engineer qui prend la parole pour introduire la réunion. Il présente l'agenda des journées à venir, et met en avant les objectifs à atteindre."
+      },
+      {
+        "type": "paragraph",
+        "html": "<em>\"Voici tous les enjeux que le PI nous permet d'adresser, mais pour ces premières mises en œuvre, nous allons focaliser sur …\"</em>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Puis il <strong>présente la vision du PI à venir</strong>, en se basant sur les priorités stratégiques qu'il a collectées en amont de la réunion."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les parties prenantes clés — Product Manager, responsables des différents domaines — présentent les objectifs du PI, sa vision, la feuille de route et les priorités stratégiques. L'intervention de top sponsors de l'organisation peut être requise et préparée afin qu'ils portent eux-mêmes les grands changements stratégiques. Invitez les business owners, les directeurs métiers, même des big boss s'il le faut. Donnez le poids nécessaire à ces interventions, qui sont la raison d'être de votre événement."
+      },
+      {
+        "type": "quote",
+        "text": "La vision du projet est ce qui permet d'exprimer, à court ou à plus long terme, là où on veut collectivement aller. Le but final de la vision du PI est d'embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l'entreprise.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, l'introduction se termine par un rappel <strong>des enjeux stratégiques et des inflexions à prendre en compte dans la période à venir</strong>, une présentation détaillée du backlog et des fonctionnalités ou livrables prioritaires à planifier pour la période à venir."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Des ateliers de planification par équipe",
+        "id": "des-ateliers-de-planification-par-equipe",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lors de la deuxième demi-journée du PI Planning, chaque équipe lance son workshop de planification. L'idée : <strong>planifier les livraisons des différentes fonctionnalités pour le PI à venir</strong>, en détaillant chaque user story, et en donnant une estimation des efforts à fournir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque équipe analyse également <strong>les dépendances</strong> qu'elle pourrait rencontrer avec d'autres équipes, et planifie les itérations en fonction de sa capacité et des priorités des features à sortir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Lors de cette étape, le Scrum Master aide chaque équipe à prioriser, à organiser le travail. C'est bien de constituer une équipe de référents ultra-engagés dans la réussite de l'événement et multi-équipe pour contrer le côté gourou illuminé qui colle trop souvent aux basques d'un Scrum Master…"
+      },
+      {
+        "type": "paragraph",
+        "html": "Veillez à la présence d'un représentant des sponsors business dans toutes les phases du PI. Les big boss au début et à la fin, les \"sachants\" experts métiers au cœur des échanges."
+      },
+      {
+        "type": "quote",
+        "text": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu'on ne fabrique pas un monolithe, qu'il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : Découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l'habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Le tableau de suivi du RTE : garder le cap pendant les ateliers",
+        "id": "le-tableau-de-suivi-du-rte-garder-le-cap-pendant-les-ateliers",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pendant que les équipes planchent sur leur planification, le RTE ne reste pas les bras croisés. Son rôle est de suivre l'avancement de chaque équipe au fil de l'eau, en s'appuyant sur un tableau de \"Scrum de Scrum\" qui pose les bonnes questions :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Avez-vous identifié la Capacité à Faire (CAF) par sprint ?",
+          "Avez-vous identifié la charge totale de vos features ? Est-elle inférieure à 80% de votre CAF ?",
+          "Combien de dépendances restent à négocier ?",
+          "Avez-vous identifié des actions d'atténuation des risques ?",
+          "Avez-vous rédigé vos objectifs de PI ?"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Cette checklist permet de s'assurer de la qualité des échanges entre les participants, et de guider ceux qui sont un peu perdus pendant le Program Increment Planning.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce tableau est un outil de pilotage simple mais redoutablement efficace. Il rend visible l'état de préparation de chaque équipe et permet au RTE d'intervenir au bon moment, avant qu'un blocage ne s'installe."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'identification des dépendances, un livrable clé d'un PI réussi",
+        "id": "lidentification-des-dependances-un-livrable-cle-dun-pi-reussi",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lorsque les ateliers de planification sont terminés, chaque équipe présente son plan à tout le train agile. Collectivement, <strong>les dépendances sont validées, et les plans de chaque équipe sont ajustés</strong> pour éviter que ces dépendances ne créent des goulots d'étranglement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Veiller à ce que ces dépendances ne restent pas sur le paper board jusqu'au prochain PI, mais intégrez-les directement dans vos outils de suivi des projets et des produits."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le risk management au cœur des enjeux du PI Planning",
+        "id": "le-risk-management-au-coeur-des-enjeux-du-pi-planning",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pendant la troisième demi-journée, les participants du PI Planning analysent les risques que les projets vont probablement rencontrer, et qui mettraient potentiellement à mal les livraisons. Ces risques sont généralement classés par ordre de priorité. Puis le collectif met en place <strong>des actions pour atténuer ces risques</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Une nouvelle fois une attention particulière sera mise sur l'usage de cette matière riche (les risques) qui émerge lors des PI Planning. Choisissez une solution qui rend visible ces risques au cœur même de votre gestion des portefeuilles, programmes, projets et produits."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Une validation collective du plan final du PI",
+        "id": "une-validation-collective-du-plan-final-du-pi",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pendant la dernière demi-journée de PI Planning, <strong>les plans d'équipes sont finalisés</strong>. Les représentants des métiers font part de leur feedback sur ces plans, et des ajustements finaux sont apportés si besoin."
+      },
+      {
+        "type": "paragraph",
+        "html": "Puis tout le monde participe à <strong>un vote de confiance</strong> : les équipes s'engagent ainsi à s'aligner sur le plan qu'elles ont défini. Dans des cas très rares, si le vote de confiance est très bas, il peut être décidé de retravailler les plans. Mais généralement, les ateliers de planification et l'étude des interdépendances a permis d'obtenir un plan carré, adopté par tous."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Collecter du feedback : montrer qu'on veut faire mieux la fois d'après",
+        "id": "collecter-du-feedback-montrer-quon-veut-faire-mieux-la-fois-dapres",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PI Planning ne se termine pas au vote de confiance. L'ultime étape de la réunion, c'est la rétrospective — un moment dédié pour que les participants partagent ce qui a bien fonctionné et ce qui doit être amélioré pour les prochaines sessions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Deux formats fonctionnent particulièrement bien dans ce contexte :"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <strong>ROTI</strong> (Return On Time Invested) permet à chaque participant de noter rapidement l'utilité perçue du temps investi. C'est un indicateur flash, parfait pour prendre le pouls collectif en fin de journée."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <strong>DAKI</strong> (Drop, Add, Keep, Improve) va plus loin : chaque participant identifie ce qu'il faut abandonner, ajouter, conserver ou améliorer dans le processus. C'est un format structurant qui alimente directement les évolutions du prochain PI Planning."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne sous-estimez pas cette étape. Un PI Planning qui s'améliore d'un trimestre à l'autre, c'est un PI Planning qui s'ancre durablement dans la culture de l'organisation. Et c'est précisément cette logique d'amélioration continue qui distingue les équipes qui \"font du PI Planning\" de celles qui en tirent réellement de la valeur."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Dès sa préparation, faites de votre PI Planning un atout pour transformer",
+        "id": "des-sa-preparation-faites-de-votre-pi-planning-un-atout-pour-transformer",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'aurez peut-être déjà compris : un PI Planning réussi, c'est une réunion qui ne laisse rien au hasard, et qui est bien planifiée en amont. Voici quelques étapes-clés par lesquelles passer pour un Program Increment Planning sans accroc."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Miser sur les bonnes personnes pour provoquer l'alignement",
+        "id": "miser-sur-les-bonnes-personnes-pour-provoquer-lalignement",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout d'abord, vous devez établir une liste des participants à votre PI Planning. Toutes les parties prenantes de votre projet doivent être présentes — mais attention : il s'agit de réunir aussi les personnes qui sont réellement décisionnaires."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sinon, vous prenez le risque d'aligner les équipes qui font et celles qui organisent sans impliquer celles et ceux qui décident. Gros warning : vous partez mal et allez créer des attentes fortes. Pas de sponsor, pas de PI."
+      },
+      {
+        "type": "quote",
+        "text": "Un PI Planning est une séance de planification. Toutes les personnes nécessaires à la planification et aux arbitrages doivent être présentes. Par contre, attention à ne pas considérer cette réunion comme du \"tourisme industriel\". Si des personnes ne sont pas nécessaires, autant ne pas les inviter. Leur présence risque de polluer le PI Planning.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "Doivent être présents à votre séance de planification :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le Product Management</strong>, dont les Product Owners",
+          "<strong>Les Scrum Masters</strong>",
+          "<strong>Les Business Owners</strong>, et le management impliqué dans le projet",
+          "<strong>Les architectes</strong>",
+          "<strong>Les sponsors</strong> des projets"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Clarifier le rôle de chacun avant le jour J",
+        "id": "clarifier-le-role-de-chacun-avant-le-jour-j",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avoir les bonnes personnes dans la salle ne suffit pas : chacune doit savoir ce qu'on attend d'elle. Prenez le temps d'expliciter les responsabilités de chaque profil en amont du PI Planning :"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <strong>Release Train Engineer (RTE)</strong> coordonne et facilite l'ensemble du PI Planning. C'est lui qui distribue la parole, gère le timing, et s'assure que chaque atelier produit les livrables attendus."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <strong>Product Management</strong> (dont les Product Owners) définit les priorités et les features à développer. C'est la voix du \"quoi\" et du \"pourquoi\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>Scrum Masters</strong> aident les équipes agiles à préparer leurs plans, à estimer leur capacité et à lever les blocages opérationnels."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>Business Owners</strong> fournissent les orientations stratégiques et valident les objectifs proposés par les équipes. Leur présence est non négociable pour les arbitrages."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Désamorcer les résistances en amont",
+        "id": "desamorcer-les-resistances-en-amont",
+        "gradient": "none"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'état d'esprit des participants est aussi important que leur présence. Prenez du temps en amont avec les profils sceptiques : levez leurs peurs, identifiez leurs contraintes. Si certaines personnalités risquent de freiner la dynamique collective, préparez le terrain avec leur manager direct. Un deal simple fonctionne souvent : un enjeu personnel adressé en échange d'une attitude constructive pendant la réunion."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne soyez pas naïf sur ce point : une seule personne mal embarquée peut abîmer l'impact d'un PI Planning, surtout lors des premières mises en œuvre."
+      },
+      {
+        "type": "quote",
+        "text": "Ce qui peut faire qu'un PI Planning ne fonctionne pas, c'est de réunir des gens qui ont des objectifs vraiment antinomiques, qui les empêchent d'avoir envie de travailler les uns avec les autres. Mais sachez qu'il est même possible de faire des trains multi-organismes, avec des partenaires business. Un signe que la réussite du PI Planning tient surtout au fait que le projet soit bien sponsorisé des deux côtés. Le PI Planning n'est pas un outil magique : tout le monde doit comprendre qu'on cherche une victoire collective, un processus gagnant/gagnant, malgré les éventuelles inadhérences politiques.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Avoir une vision claire des priorités stratégiques",
+        "id": "avoir-une-vision-claire-des-priorites-strategiques",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "En préparant votre PI Planning, vous devez déterminer quelle est la vision qui va guider la période que vous devez planifier. L'idée : <strong>aligner tout le monde autour de la transformation que votre entreprise va vivre à l'avenir</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Prenez en compte l'environnement dans lequel votre entreprise évolue et va évoluer dans les temps à venir. Votre vision peut être basée sur des éléments positifs (comme des projets innovants que l'entreprise va mener), négatifs (comme l'arrivée de nouveaux concurrents sur votre marché), ou encore sur des contraintes (comme une nouvelle réglementation)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Allez également parler avec les directeurs métiers impliqués, et demandez-leur quelles sont leurs priorités stratégiques, et les points de friction qu'ils auront besoin d'aborder pendant le PI Planning."
+      },
+      {
+        "type": "paragraph",
+        "html": "Notez que la vision que vous allez communiquer aux participants de votre PI Planning n'impacte pas forcément la période à venir. Il s'agit surtout d'une grande ligne directrice qui doit guider la priorisation des actions à venir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pensez aussi à préparer votre <strong>roadmap produit</strong> et votre backlog. Veillez à ce que les features soient matures, compréhensibles, faisables, découpées pour tenir dans le PI, et chargées. Des features trop floues ou trop grosses feront perdre un temps précieux pendant les ateliers de planification."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Anticiper les blocages potentiels",
+        "id": "anticiper-les-blocages-potentiels",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Même si le PI Planning a pour but d'identifier les blocages qui pourraient interférer dans votre projet, prenez le temps si possible d'anticiper ces blocages lors de votre préparation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Préparez une matrice des risques</strong> du projet",
+          "<strong>Repérez les goulots d'étranglement potentiels</strong>, au vu des interdépendances des équipes.",
+          "<strong>Anticipez les contraintes externes au projet</strong>, ainsi que les questions techniques que les participants pourraient vous poser."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Le support de travail en amont d'un PI Planning, c'est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation \"à la louche\" de l'effort. Et quand on a un sujet de capacité, il peut être intéressant d'essayer d'identifier, en amont, quel goulot d'étranglement pourrait émerger.",
+        "author": "Elodie Clémentine Grasset — Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Organiser la logistique",
+        "id": "organiser-la-logistique",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous le savez : la gestion de projet à grande échelle demande une logistique considérable. Et c'est également le cas pour l'organisation d'un PI Planning !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Prenez le temps de :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Réserver les jours du planning dans l'agenda des participants</strong>, et anticiper les besoins de réservations d'hôtel si des intervenants ont besoin de se déplacer. Réservez au moins deux mois en avance. Vérifiez aussi si les dates fixées permettent à vos invités de planifier des team meetings sur les jours précédents ou suivants — un deal avec l'hôtel du coin, c'est toujours ça en moins sur le budget.",
+          "<strong>Planifier la réunion dans une salle adaptée au PI Planning</strong>, ou bien mettre en place un outil de visioconférence si votre réunion se passe à distance. Vos salles (physiques ou digitales) doivent pouvoir contenir tous les participants, et leur permettre de travailler en plus petits groupes. Prévoyez des salles annexes pour traiter les problèmes qui peuvent apparaître en séance. Réfléchissez à un plan de table qui facilite la communication par équipes et inter-équipes.",
+          "<strong>Préparer un agenda détaillé du PI Planning</strong>. Prévoyez minutieusement la durée de chaque session. Puis partagez cet agenda à tous."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous optez pour le PI Planning en ligne ? Ne sous-estimez pas la complexité de la logistique. Qualité des visios, outils collaboratifs pour les workshops, salles virtuelles dédiées… Des tests et une répétition générale le jour précédent paraissent indispensables. Nous déconseillons personnellement de mener vos PI Plannings intégralement à distance !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Communiquer pour changer la culture projet",
+        "id": "communiquer-pour-changer-la-culture-projet",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lancer la démarche itérative du PI Planning dans une entreprise est un véritable acte de communication. Vous devez faire en sorte que vos participants soient prêts à s'y engager fermement, dans la durée, et qu'ils comprennent les bénéfices qu'ils pourront en tirer."
+      },
+      {
+        "type": "quote",
+        "text": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à \"brûler les vaisseaux\" : chacun doit s'engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l'engagement via un acte de communication fort, en publiant des posts sur l'Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l'engagement.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "En effet, les développeurs sont souvent habitués à travailler de manière incrémentale, grâce à des méthodes agiles. Mais les métiers, eux, ont souvent plus de mal à mettre en place une méthode de planification aussi fine et détaillée. Le processus de PI Planning demande de mener une véritable conduite du changement : communication sur les bénéfices, levage des freins de chacun, et mise en place de techniques concrètes pour mieux planifier ensemble."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'où le fait que vous devez <strong>mener une conduite du changement assidue</strong>, en communiquant de manière motivante. Levez les freins de chacun en amont de la réunion, et rappelez à tous les avantages de ce mode de fonctionnement."
+      },
+      {
+        "type": "quote",
+        "text": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.",
+        "author": "Elodie Clémentine Grasset — Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quels outils pour un PI Planning qui se déroule parfaitement ?",
+        "id": "quels-outils-pour-un-pi-planning-qui-se-deroule-parfaitement",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PI Planning efficace ne repose pas uniquement sur la méthodologie : les bons outils font toute la différence. Sans une préparation rigoureuse et un suivi structuré, cet exercice peut vite devenir une perte de temps, avec des engagements flous et des dépendances mal gérées."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est là qu'un outil comme <strong>Airsaas</strong> prend tout son sens. Avant même le PI Planning, il permet de <strong>préparer en amont la capacité des équipes, de prioriser les features clés et d'anticiper les dépendances</strong>. En donnant une vision claire des objectifs et des ressources disponibles, Airsaas facilite la revue des initiatives et aligne les parties prenantes sur ce qui est vraiment faisable sur le trimestre à venir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pendant l'événement, Airsaas structure la planification en <strong>rendant visibles les arbitrages et les engagements pris</strong>. Plus besoin de jongler avec des dizaines de tableaux : tout est centralisé, lisible et actionnable. Et après le PI Planning, il assure un suivi en continu des engagements et de l'exécution des projets, pour éviter les dérives et ajuster les priorités en fonction des réalités terrain."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un PI Planning réussi, c'est une préparation solide, une exécution fluide et un suivi rigoureux. Avec Airsaas, vous donnez aux équipes IT et métiers un cadre clair et pragmatique pour que leurs efforts soient réellement alignés sur la stratégie de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Intéressé ? <a href=\"https://www.airsaas.io/fr\">Découvrez Airsaas, et demandez votre démo dès maintenant</a>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Après le PI Planning : assurer le suivi pour ne pas perdre la valeur créée",
+        "id": "apres-le-pi-planning-assurer-le-suivi-pour-ne-pas-perdre-la-valeur-creee",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PI Planning est terminé. Deux jours intenses, des dizaines de décisions prises, des engagements formalisés. Mais tout cela ne vaut rien si la dynamique retombe le lundi suivant. Voici comment capitaliser sur l'énergie du PI."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Communiquer les objectifs et les rendre accessibles à tous",
+        "id": "communiquer-les-objectifs-et-les-rendre-accessibles-a-tous",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Premier réflexe : rassemblez tous les objectifs du Program Increment et les plans d'équipes, et diffusez-les largement. Chaque participant doit pouvoir retrouver facilement ce qui a été décidé, les engagements de chacun, et les échéances associées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Votre plan dans un Sharepoint caché ou un PowerPoint envoyé par email, ça ne suffira pas. Optez pour des solutions qui rendent vos plans compréhensibles et accessibles en permanence — pour les équipes comme pour les sponsors."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous n'avez pas déployé toute cette énergie, mobilisé autant de cerveaux, pour que les décisions prises restent confidentielles."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mettre en place les rituels de suivi",
+        "id": "mettre-en-place-les-rituels-de-suivi",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout au long du PI, un suivi régulier est indispensable pour s'assurer que le plan est respecté et que les obstacles sont levés rapidement. Trois niveaux de rituels sont à mettre en place :"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>réunions quotidiennes</strong> (Daily Stand-ups) et les réunions de gestion des risques permettent aux équipes de traiter les irritants au fil de l'eau."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>Scrum of Scrums</strong> et les <strong>PI Reviews</strong> assurent la synchronisation entre les équipes à intervalles réguliers. C'est le moment de vérifier que les dépendances identifiées sont bien gérées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <strong>System Demo</strong> (ou a minima des démos d'équipes) offrent une mesure objective et régulière de l'avancement, avec la possibilité de recevoir du feedback."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'écueil que rencontrent beaucoup d'organisations : les informations du PI Planning restent sur des post-its dans Miro ou sur un paperboard pris en photo… et six mois plus tard, on recommence à identifier des dépendances et des risques qu'on avait déjà levés. Intégrez la data produite lors du PI dans vos outils de suivi projet, et exploitez-la en continu."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'Inspect & Adapt : boucler la boucle avant le prochain PI",
+        "id": "linspect-and-adapt-boucler-la-boucle-avant-le-prochain-pi",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Juste avant le prochain PI Planning, prenez le temps de faire une revue de la réalisation effective du PI — en termes de valeur atteinte, plus qu'en termes de features livrées. C'est la cérémonie d'<strong>Inspect &amp; Adapt</strong> : un moment clé pour identifier ce qui a fonctionné, ce qui a dévié, et ce qui doit changer."
+      },
+      {
+        "type": "quote",
+        "text": "Si les équipes font du Scrum, on conserve toutes les cérémonies Scrum, ce qui permet de traiter les dérives qui ont pu apparaître entre la planification en PI Planning et le déroulement effectif. Et, juste avant le prochain PI Planning, on fait une séance de revue de la réalisation effective du PI (en termes de valeur atteinte plus qu'en termes de features) et d'amélioration, cérémonie appelée Inspect & Adapt.",
+        "author": "Michel Levaslot — Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "variant": "card",
+        "align": "left"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est cette boucle complète — planifier, exécuter, suivre, ajuster — qui fait passer le PI Planning d'un événement ponctuel à un véritable moteur de transformation continue."
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous êtes désormais prêt pour lancer ou optimiser votre prochain Program Increment Planning !"
+      },
+      {
+        "type": "inline-cta",
+        "text": "Vous voulez en savoir plus ?",
+        "ctaLabel": "Réservez votre démo de 30 min",
+        "ctaHref": "/fr/meetings-pages"
+      }
+    ],
+    "layout": "centeredToc",
+    "toggles": {
+      "showFaq": true,
+      "showNewsletter": true,
+      "showCta": true,
+      "showRelated": true,
+      "showTrending": true
+    },
+    "customCta": null,
+    "faq": [],
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un PI Planning ?",
+        "href": "#quest-ce-quun-pi-planning",
+        "level": 2
+      },
+      {
+        "label": "À quoi ressemble un PI Planning réussi avec des bénéfices concrets ?",
+        "href": "#a-quoi-ressemble-un-pi-planning-reussi-avec-des-benefices-concrets",
+        "level": 2
+      },
+      {
+        "label": "Dès sa préparation, faites de votre PI Planning un atout pour transformer",
+        "href": "#des-sa-preparation-faites-de-votre-pi-planning-un-atout-pour-transformer",
+        "level": 2
+      },
+      {
+        "label": "Quels outils pour un PI Planning qui se déroule parfaitement ?",
+        "href": "#quels-outils-pour-un-pi-planning-qui-se-deroule-parfaitement",
+        "level": 2
+      },
+      {
+        "label": "Après le PI Planning : assurer le suivi pour ne pas perdre la valeur créée",
+        "href": "#apres-le-pi-planning-assurer-le-suivi-pour-ne-pas-perdre-la-valeur-creee",
+        "level": 2
+      }
+    ],
+    "related": []
+  },
+  {
+    "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+    "skip": false,
+    "reason": "Apply V3 design rules; fix TOC centered card with circle bullets and warm-tone figure frames per feedback.",
+    "meta": {
+      "title": "Management de portefeuille de projet : définition, méthodes et outils",
+      "description": "Découvrez comment la gestion de portefeuille de projets (PPM) permet de sélectionner, prioriser et piloter vos projets pour maximiser la valeur créée.",
+      "h1": "Management de portefeuille de projet : définition, méthodes et outils",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6995db9e00db2afd8d4d5013_Gestion%20de%20portefeuille%20de%20projets.jpg",
+        "alt": "Management de portefeuille de projet"
+      },
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "1/2/2026",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "1/2/2026"
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Qu'est-ce que la gestion de portefeuille de projets ?",
+        "id": "quest-ce-que-la-gestion-de-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La <strong>gestion de portefeuille de projets</strong> (GPP), aussi appelée <strong>Project Portfolio Management</strong> (PPM), est une discipline stratégique qui consiste à sélectionner, prioriser et piloter l'ensemble des projets d'une organisation pour maximiser la création de valeur."
+      },
+      {
+        "type": "paragraph",
+        "html": "Contrairement à la gestion de projet, qui vise à \"<strong>bien faire les projets</strong>\" (domaine opérationnel), la gestion de portefeuille de projets cherche à \"<strong>faire les bons projets</strong>\" (domaine décisionnel)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le Project Management Institute (PMI) la définit comme <em>la gestion centralisée des processus, méthodes et technologies d'un ensemble de projets, permettant d'optimiser les arbitrages et leur planification, tout en évaluant le niveau de risque et la viabilité financière des projets</em>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Concrètement, un <strong>portefeuille de projets</strong> regroupe l'ensemble des projets, programmes et opérations d'une entreprise. À l'image d'un portefeuille boursier, il s'agit de décider où investir son budget, ses ressources et son temps pour obtenir le meilleur retour sur investissement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PPM fonctionne comme un <strong>entonnoir stratégique</strong> : à l'entrée, un flux massif d'idées provenant de la stratégie, des clients ou de la réglementation ; à la sortie, une sélection rigoureuse d'initiatives coordonnées et exécutables. Sans ce filtre, l'organisation s'épuise à tout mener de front et condamne ses projets à des résultats médiocres."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/699732d4dfc0c2f0d4d8feb0_Entonnoir%20strate%CC%81gique%20PPM%20FR.jpg",
+        "alt": "Entonnoir stratégique de la gestion de portefeuille de projets — de l'idée à l'exécution",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce que la gestion de portefeuille de projets permet"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Assurer l'<strong>alignement stratégique</strong> entre les projets et la vision de l'entreprise",
+          "<strong>Prioriser</strong> les initiatives à plus forte valeur ajoutée",
+          "<strong>Optimiser l'allocation des ressources</strong> (humaines, financières, matérielles) entre les projets",
+          "<strong>Anticiper les risques</strong> de déséquilibre entre capacité et demande",
+          "Offrir une <strong>visibilité consolidée</strong> aux instances de décision (Comité de pilotage, Direction Générale)",
+          "<strong>Arrêter ou reporter</strong> les projets qui n'apportent plus de valeur"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "La capacité par équipe : la contrainte au cœur du portefeuille",
+        "id": "la-capacite-par-equipe-la-contrainte-au-coeur-du-portefeuille",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de portefeuille de projets repose sur une vérité que beaucoup d'organisations refusent de regarder en face : <strong>la capacité des équipes est finie</strong>. Et c'est cette contrainte — pas les matrices de scoring, pas les pourcentages d'avancement — qui doit structurer toutes les décisions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Concrètement, la capacité se mesure <strong>par équipe</strong> et <strong>au trimestre</strong>. C'est l'échelle du <strong>Quarter Plan</strong> : chaque équipe (infra, développement, data, sécurité…) dispose d'un nombre de jours-homme réels sur le trimestre à venir, une fois déduites les absences, la maintenance, le run et les imprévus. Cette capacité trimestrielle est le vrai budget de votre portefeuille — bien plus structurant que le budget financier."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Gestion des ressources",
+          "Planification de la capacité"
+        ],
+        "rows": [
+          [
+            "Horizon",
+            "Court terme (semaine/sprint)",
+            "Trimestriel (Quarter Plan)"
+          ],
+          [
+            "Maille",
+            "Individu par individu",
+            "Équipe par équipe"
+          ],
+          [
+            "Question clé",
+            "\"Qui travaille sur quoi cette semaine ?\"",
+            "\"Cette équipe peut-elle absorber ce projet ce trimestre ?\""
+          ],
+          [
+            "Usage",
+            "Optimiser l'affectation au quotidien",
+            "Décider quels projets entrent dans le portefeuille — et lesquels attendent"
+          ]
+        ]
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>Méfions-nous des mots creux.</strong> Les termes \"prioriser\" et \"piloter\" sont parmi les plus galvaudés du vocabulaire projet. Dire qu'un portefeuille est \"priorisé\", c'est souvent ne rien dire du tout si aucune contrainte de capacité n'a été confrontée aux engagements. De même, \"piloter\" un portefeuille via un <strong>pourcentage d'avancement</strong> est trompeur : un projet peut afficher 70 % d'avancement et être à des mois de livrer le moindre délivrable exploitable. Le pourcentage d'avancement mesure la consommation de charge, rarement la proximité d'un résultat tangible. La vraie question n'est jamais \"où en est-on ?\", mais <strong>\"qu'est-ce qu'on va livrer ce trimestre, et est-ce que l'équipe a la bande passante pour le faire ?\"</strong>",
+        "label": "Attention",
+        "variant": "warning"
+      },
+      {
+        "type": "paragraph",
+        "html": "La planification de la capacité est le garde-fou stratégique de votre portefeuille : sans elle, vous validez des projets que vos équipes ne pourront jamais absorber."
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>Le saviez-vous ?</strong> Selon une étude du PMI, 70 % des projets ont tendance à échouer. La première cause ? Un changement dans les priorisations de l'entreprise (39 %), suivi d'une modification des objectifs du projet (37 %). La gestion de portefeuille de projets existe précisément pour anticiper et piloter ces arbitrages plutôt que de les subir.",
+        "label": "Le saviez-vous",
+        "variant": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Portefeuille de projets vs programme vs projet : quelles différences ?",
+        "id": "portefeuille-de-projets-vs-programme-vs-projet-quelles-differences",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La confusion entre ces trois concepts est fréquente. Voici ce qui les distingue."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Le projet",
+        "id": "le-projet",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un <strong>projet</strong> est une initiative temporaire visant à produire un livrable unique. Il a un début, une fin, un budget et des objectifs SMART (Spécifiques, Mesurables, Atteignables, Réalistes, Temporels). La gestion de projet se concentre sur la livraison réussie de cette initiative."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Exemple :</strong> Déployer un nouvel outil CRM pour l'équipe commerciale."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Le programme",
+        "id": "le-programme",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un <strong>programme</strong> est un ensemble de projets interdépendants qui partagent des objectifs communs. Les projets au sein d'un programme sont liés : ils contribuent collectivement à un résultat stratégique."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Exemple :</strong> Le programme \"Transformation digitale de la relation client\" qui regroupe le projet CRM, le projet refonte du site web et le projet mise en place d'un chatbot."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Le portefeuille de projets",
+        "id": "le-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un <strong>portefeuille de projets</strong> n'est pas un niveau hiérarchique au-dessus du programme. C'est une <strong>lentille</strong> — une façon de regarder un groupement de projets sous un angle donné, pour prendre des décisions adaptées à ce périmètre."
+      },
+      {
+        "type": "paragraph",
+        "html": "En pratique, une même organisation manipule plusieurs portefeuilles simultanément : le portefeuille de l'<strong>équipe IT infrastructure</strong>, celui de l'<strong>équipe applicative métier</strong>, le portefeuille des <strong>projets vitaux</strong>, celui des projets de <strong>conformité réglementaire</strong>, ou encore le portefeuille global vu par la Direction Générale. Chaque vue répond à une question différente : \"Mon équipe est-elle en surcharge ?\", \"Nos projets vitaux avancent-ils ?\", \"Sommes-nous alignés avec la stratégie ?\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est ce qui rend la gestion de portefeuille de projets si puissante : elle n'impose pas un cadre unique, mais offre la possibilité de <strong>filtrer, regrouper et comparer les projets</strong> selon les besoins de chaque partie prenante — équipe, direction métier, DSI ou Comité de direction."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Exemple :</strong> La DSI pilote un portefeuille global, mais chaque équipe (infra, dev, data) dispose de sa propre vue portefeuille avec ses contraintes de capacité. Le Comité de direction, lui, regarde le portefeuille par axe stratégique."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Tableau comparatif",
+        "id": "tableau-comparatif",
+        "gradient": "primary"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Critère",
+          "Projet",
+          "Programme",
+          "Portefeuille"
+        ],
+        "rows": [
+          [
+            "Nature",
+            "Une initiative temporaire avec un livrable",
+            "Un ensemble de projets liés par un objectif commun",
+            "Une vue sur un groupement de projets, filtrée par équipe, thématique ou axe stratégique"
+          ],
+          [
+            "Objectif",
+            "Livrer un résultat concret dans les délais",
+            "Atteindre un bénéfice stratégique commun",
+            "Décider quoi faire, quoi arrêter, quoi reporter — en fonction de la capacité réelle"
+          ],
+          [
+            "Niveau de décision",
+            "Opérationnel",
+            "Tactique",
+            "Stratégique"
+          ],
+          [
+            "Contrainte centrale",
+            "Le triangle coût/délai/périmètre",
+            "La coordination entre projets interdépendants",
+            "La capacité des équipes — le nombre de projets sera toujours supérieur à ce qu'on peut absorber"
+          ],
+          [
+            "Pilote",
+            "Chef de projet",
+            "Directeur de programme",
+            "PMO / DSI / Direction Générale"
+          ],
+          [
+            "Question clé",
+            "\"Le livrable sera-t-il prêt ?\"",
+            "\"Les projets produisent-ils le bénéfice attendu ?\"",
+            "\"Les bonnes équipes travaillent-elles sur les bons sujets, au bon moment ?\""
+          ]
+        ]
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>À retenir :</strong> Le portefeuille n'est pas \"au-dessus\" du projet et du programme dans une pyramide. C'est une <strong>grille de lecture</strong> qui permet de comparer, arbitrer et allouer les ressources entre des projets qui se disputent la même capacité. Il peut exister autant de vues portefeuille que de besoins de décision dans l'organisation.",
+        "label": "À retenir",
+        "variant": "primary"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/699733200e76e85e0aaa049e_Le%20portefeuille%20comme%20lentille%20%E2%80%94%20vues%20multiples%20FR.jpg",
+        "alt": "Le portefeuille de projets comme lentille — vues multiples par équipe, stratégie et priorité",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Pourquoi mettre en place une gestion de portefeuille de projets ?",
+        "id": "pourquoi-mettre-en-place-une-gestion-de-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la plupart des entreprises, le nombre de projets dépasse largement la capacité à les réaliser. C'est une loi universelle de la transformation : la demande sera toujours supérieure à l'offre de ressources disponibles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les chiffres le confirment : selon l'IBM Institute for Business Value, les organisations leaders en gestion de portefeuille de projets affichent une <strong>performance de revenus 46 % plus prévisible</strong> que leurs concurrentes moins matures. L'excellence en PPM n'est pas un luxe organisationnel — c'est un avantage concurrentiel mesurable."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans gestion de portefeuille de projets, les organisations subissent un phénomène bien connu : <strong>l'urgence chasse l'urgence</strong>. Les équipes fonctionnent en \"best effort\", les arbitrages se font au fil de l'eau (ou au \"fait du prince\"), et personne n'a de visibilité sur ce qui est réellement prioritaire."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Les 6 bénéfices concrets d'une démarche de gestion de portefeuille de projets",
+        "id": "les-6-benefices-concrets-dune-demarche-de-gestion-de-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>1. Alignement stratégique</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "La GPP garantit que chaque projet contribue à la stratégie de l'entreprise. Fini les projets \"orphelins\" qui consomment des ressources sans créer de valeur mesurable. Chaque euro investi est tracé jusqu'à un objectif stratégique. Une vérité trop souvent ignorée : <strong>succès technique ≠ succès business</strong>. Une exécution parfaite d'un projet sans alignement stratégique reste un gaspillage de ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>2. Priorisation objective et transparente</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "En rendant visible la règle du jeu et l'ensemble des sujets en revue de portefeuille, la démarche instaure une relation de confiance et de transparence entre la DSI, les métiers et la direction générale. Les décisions de priorisation sont fondées sur des <strong>données probantes</strong>, pas sur le rapport de force politique ou la voix la plus forte en comité de direction."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>3. Optimisation de la capacité — la vraie valeur ajoutée</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est ici que la gestion de portefeuille de projets prend tout son sens. La capacité ne se mesure pas à l'échelle de l'organisation entière — elle se mesure <strong>équipe par équipe, trimestre par trimestre</strong>. L'approche du <strong>Quarter Plan</strong> consiste à confronter, chaque trimestre, les engagements projet à la bande passante réelle de chaque équipe. Les organisations qui maîtrisent cette planification augmentent de <strong>68 % leurs chances de livrer leurs projets à temps</strong>. Le secret : identifier les goulots sur les compétences critiques (architectes IT, experts métiers, ingénieurs spécialisés) et accepter de reporter ce qui ne rentre pas dans le trimestre. Résultat : moins de surcharge, moins de retards en cascade, des engagements crédibles."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>4. Gestion proactive des risques</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "En ayant une vue consolidée du portefeuille, les risques sont identifiés à l'échelle de l'organisation, pas uniquement projet par projet. Un risque sur un projet structurant peut impacter tout le portefeuille : la GPP permet de l'anticiper."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>5. Meilleure communication avec les parties prenantes</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le reporting consolidé du portefeuille (tableau de bord, rapport flash, revue de portefeuille) offre aux dirigeants les données nécessaires pour prendre des décisions éclairées, sans avoir à plonger dans le détail de chaque projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>6. Agilité décisionnelle</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les roadmaps de SI à 3-5 ans figées appartiennent au passé. Avec une GPP moderne, la priorisation se fait en continu, à un rythme adapté aux changements de contexte de l'entreprise. Les données terrain remontent en temps réel, permettant des réajustements rapides."
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>Idée reçue :</strong> \"La gestion de portefeuille de projets est réservée aux grandes entreprises.\" <strong>Faux.</strong> Les PME et ETI peuvent parfois en tirer encore plus de bénéfices, car elles ont plus d'agilité et la capacité de mettre en œuvre la démarche plus rapidement. L'enjeu est d'adapter le niveau de formalisme à la taille de l'organisation.",
+        "label": "Idée reçue",
+        "variant": "primary"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6997336f720e4b07874d2db7_6%20be%CC%81ne%CC%81fices%20du%20PPM%20en%20chiffres%20FR.jpg",
+        "alt": "Statistiques clés de la gestion de portefeuille de projets — IBM, PMI",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Les 7 étapes pour déployer une gestion de portefeuille de projets efficace",
+        "id": "les-7-etapes-pour-deployer-une-gestion-de-portefeuille-de-projets-efficace",
+        "gradient": "primary"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/699733e0185a65bc475aebde_Les%207%20e%CC%81tapes%20du%20de%CC%81ploiement%20PPM%20FR.jpg",
+        "alt": "Les 7 étapes pour déployer une gestion de portefeuille de projets efficace",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 1 — Définir les objectifs stratégiques",
+        "id": "etape-1-definir-les-objectifs-strategiques",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout commence par la boussole. Sans clarté sur la stratégie, votre portefeuille ne sera qu'un inventaire de projets sans cohérence."
+      },
+      {
+        "type": "paragraph",
+        "html": "Trois actions concrètes pour cette étape :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Formaliser la vision à 2-3 ans avec la Direction Générale",
+          "Identifier les axes stratégiques prioritaires (croissance, efficacité, conformité, innovation...)",
+          "Traduire ces axes en <strong>critères de sélection mesurables</strong> pour les projets"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 2 — Recenser et catégoriser tous les projets (Intake)",
+        "id": "etape-2-recenser-et-categoriser-tous-les-projets-intake",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Créez un inventaire exhaustif de toutes les initiatives en cours et à venir : projets validés, projets en attente, idées en gestation. Centralisez toutes les demandes — qu'elles soient stratégiques, réglementaires, issues des métiers ou des clients — dans un processus unique d'<strong>intake</strong> (capture). C'est le meilleur moyen d'éliminer les redondances et d'identifier les opportunités de mutualisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque projet doit être documenté avec une fiche standardisée comprenant au minimum : objectif, sponsor, budget estimé, ressources nécessaires, échéance et contribution stratégique."
+      },
+      {
+        "type": "paragraph",
+        "html": "Catégorisez ensuite vos projets par type (transformation, run, réglementaire, innovation...) et par programme si applicable."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 3 — Évaluer et prioriser les projets",
+        "id": "etape-3-evaluer-et-prioriser-les-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est le cœur de la démarche. Appliquez vos critères de sélection pour noter et classer chaque projet. Les méthodes de priorisation sont détaillées dans la section suivante, mais l'essentiel est d'avoir une approche <strong>multicritère</strong> qui combine valeur business, faisabilité, risques et alignement stratégique."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 4 — Aligner la capacité avec la demande (Quarter Plan)",
+        "id": "etape-4-aligner-la-capacite-avec-la-demande-quarter-plan",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est l'étape la plus décisive — et la plus souvent bâclée. Pour chaque <strong>équipe</strong>, évaluez sa capacité réelle sur le <strong>trimestre à venir</strong> : jours-homme disponibles, une fois déduites les absences, le run, la maintenance et la marge d'imprévu. Puis confrontez cette capacité aux engagements projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est souvent le moment de vérité : ce qui semblait prioritaire peut se révéler irréaliste si l'équipe concernée est déjà saturée. L'exercice doit être concret : non pas \"a-t-on les moyens au global ?\", mais <strong>\"l'équipe Data peut-elle absorber ce projet en Q2, ou faut-il le décaler en Q3 ?\"</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif n'est pas de tout planifier au jour près. C'est de s'assurer que les engagements sont crédibles. Mieux vaut 5 projets livrés ce trimestre que 15 projets \"en cours\" dont aucun ne délivre de résultat tangible. Attention au piège du pourcentage d'avancement : un projet à \"60 %\" ne signifie pas qu'il est proche de livrer quoi que ce soit d'exploitable — c'est souvent juste un ratio de charge consommée."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 5 — Définir la gouvernance et les rituels",
+        "id": "etape-5-definir-la-gouvernance-et-les-rituels",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettez en place les instances de décision et les rituels récurrents qui feront vivre votre portefeuille :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Revue de portefeuille mensuelle</strong> : arbitrages, décisions Go/No-Go, réallocation de ressources",
+          "<strong>Comité de pilotage</strong> : validation des orientations stratégiques et des investissements majeurs",
+          "<strong>Reporting hebdomadaire</strong> (rapport flash) : état d'avancement consolidé envoyé aux parties prenantes",
+          "<strong>Point projet hebdomadaire</strong> : 5 minutes par projet entre chef de projet et référent métier"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le PMI distingue trois types de PMO (Bureau de Gestion de Projets), selon le niveau de contrôle exercé :"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Type de PMO",
+          "Rôle",
+          "Niveau de contrôle"
+        ],
+        "rows": [
+          [
+            "Support",
+            "Fournit modèles, outils et bonnes pratiques",
+            "Faible — les équipes restent autonomes"
+          ],
+          [
+            "Contrôle",
+            "Exige la conformité aux méthodologies via des audits",
+            "Modéré — cadre structurant"
+          ],
+          [
+            "Directif",
+            "Gère directement les projets et affecte les chefs de projet",
+            "Élevé — pilotage centralisé"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le choix du type de PMO dépend de la maturité de votre organisation et de votre culture managériale. La tendance actuelle est au PMO \"facilitateur\" (entre Support et Contrôle), qui structure sans bureaucratiser. Plus largement, le succès en 2026 exige une <strong>métamorphose du PMO</strong> : il doit évoluer d'un rôle de support administratif vers celui de <strong>partenaire stratégique</strong>. Le pilotage stratégique ne consiste pas à surveiller des calendriers, mais à garantir que chaque euro et chaque heure investis servent la croissance de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans rituels réguliers, votre portefeuille deviendra vite obsolète. C'est la fréquence et la discipline de ces rituels qui créent la valeur."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 6 — Outiller la démarche",
+        "id": "etape-6-outiller-la-demarche",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Suivre un portefeuille de projets dans Excel n'est plus viable au-delà de 10 projets. Un <strong>outil PPM</strong> (Project Portfolio Management) dédié permet de centraliser les informations, automatiser le reporting et offrir une visibilité en temps réel à toutes les parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les critères clés pour choisir votre outil PPM sont détaillés dans la section dédiée ci-dessous."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Étape 7 — Piloter en continu et améliorer",
+        "id": "etape-7-piloter-en-continu-et-ameliorer",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de portefeuille de projets n'est pas un exercice ponctuel, c'est un processus continu. À chaque revue de portefeuille, posez-vous trois questions :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Les projets en cours sont-ils toujours alignés avec la stratégie ?",
+          "Faut-il ajouter, reporter ou arrêter des projets ?",
+          "La capacité est-elle toujours suffisante pour tenir les engagements ?"
+        ]
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>Conseil pragmatique :</strong> Ne cherchez pas la perfection au démarrage. Commencez avec un périmètre restreint (10-15 projets clés), des rituels simples et un outil adapté. Faites \"tache d'huile\" ensuite. La maturité se construit progressivement, comme un sachet de thé qui infuse.",
+        "label": "Conseil pragmatique",
+        "variant": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Les méthodes de priorisation d'un portefeuille de projets",
+        "id": "les-methodes-de-priorisation-dun-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La priorisation est l'exercice le plus complexe et le plus politique de la gestion de portefeuille de projets. Voici les méthodes les plus utilisées."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Le scoring multicritère",
+        "id": "le-scoring-multicritere",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque projet est évalué sur une grille de critères pondérés. Les critères se répartissent généralement en trois familles :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Critères financiers</strong> : Valeur Actuelle Nette (VAN), Retour sur Investissement (ROI), période de remboursement (payback)",
+          "<strong>Critères stratégiques</strong> : Alignement avec les objectifs annuels, impact client, différenciation concurrentielle",
+          "<strong>Critères opérationnels</strong> : Faisabilité technique, probabilité de réussite, urgence réglementaire, disponibilité des ressources"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque critère reçoit un score (par exemple de 1 à 5) et un poids relatif. Le score pondéré total permet de classer les projets objectivement et d'établir une <strong>ligne de démarcation</strong> (cut-line) : les projets au-dessus passent, ceux en dessous sont reportés ou abandonnés. L'application de la cut-line est l'acte de management ultime : une fois que les ressources sont consommées par les projets les mieux notés, tout ce qui se trouve en dessous de la ligne doit être reporté ou annulé, sans exception. C'est la seule méthode pour garantir que les initiatives à fort impact reçoivent l'oxygène nécessaire à leur réussite — et pour protéger le portefeuille des \"projets de cœur\" (pet projects) dépourvus de valeur réelle."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Avantage :</strong> Transparence, reproductibilité, facilité d'explication aux parties prenantes. <strong>Limite :</strong> La qualité du scoring dépend de la qualité des données d'entrée. Comme le souligne Robert Cooper, expert en gestion de portefeuille : <em>« La sophistication des méthodes financières dépasse souvent la qualité des données. Les méthodes purement comptables produisent parfois les résultats les plus médiocres si elles ne sont pas complétées par un jugement stratégique. »</em>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "La matrice valeur / effort (et risque / rendement)",
+        "id": "la-matrice-valeur-effort-et-risque-rendement",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette approche simple et visuelle positionne chaque projet sur deux axes : la valeur attendue (impact business) et l'effort nécessaire (coût, complexité, durée). Les projets à forte valeur et faible effort (les \"quick wins\") sont prioritaires."
+      },
+      {
+        "type": "paragraph",
+        "html": "Une variante couramment utilisée est la <strong>matrice risque-rendement</strong>, qui permet d'équilibrer le portefeuille entre quatre quadrants : les \"Quick Wins\" (faible risque, haut rendement), les projets stratégiques (haut risque, haut rendement), les projets d'optimisation (faible risque, faible rendement) et les projets à éviter (haut risque, faible rendement)."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Avantage :</strong> Visuel, rapide à mettre en place, excellent pour les ateliers de priorisation. <strong>Limite :</strong> Réducteur pour les projets complexes à impact long terme"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/69975dc546f627807d618489_Matrice%20Valeur%20-Effort%20FR.png",
+        "alt": "Matrice de priorisation valeur-effort pour le portefeuille de projets",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "La méthode MoSCoW",
+        "id": "la-methode-moscow",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Classez les projets en quatre catégories : <strong>Must have</strong> (vital), <strong>Should have</strong> (important), <strong>Could have</strong> (souhaitable), <strong>Won't have</strong> (pas maintenant). Cette méthode issue du monde agile est particulièrement adaptée quand il faut trancher rapidement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Le modèle WSJF (Weighted Shortest Job First)",
+        "id": "le-modele-wsjf-weighted-shortest-job-first",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Issu du framework SAFe, le WSJF priorise en divisant la valeur (<strong>coût du retard</strong> — Cost of Delay) par la taille de l'effort. Le coût du retard combine trois composantes : la valeur business/utilisateur, la criticité temporelle (fenêtre d'opportunité) et la réduction de risque ou l'opportunité d'apprentissage. Les projets à fort coût du retard et de petite taille passent en premier. C'est la méthode la plus utilisée dans les organisations ayant adopté l'agilité à l'échelle."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "La méthode RICE",
+        "id": "la-methode-rice",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "RICE est un modèle de scoring rapide qui évalue chaque projet selon 4 dimensions : <strong>Reach</strong> (portée/nombre de personnes impactées), <strong>Impact</strong> (degré d'impact par personne), <strong>Confidence</strong> (niveau de confiance dans les estimations) et <strong>Effort</strong> (charge de travail nécessaire). Le score RICE = (Reach × Impact × Confidence) / Effort. Les projets avec le score le plus élevé sont priorisés."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "La priorisation par le Lean Portfolio Management",
+        "id": "la-priorisation-par-le-lean-portfolio-management",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le <strong>Lean Portfolio Management</strong> (LPM) va plus loin en intégrant la priorisation dans un flux continu, aligné sur les objectifs stratégiques (OKR ou Epics stratégiques). La capacité est allouée par \"flux de valeur\" plutôt que par projet, ce qui permet une plus grande agilité dans les arbitrages."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Caractéristique",
+          "PPM traditionnelle",
+          "Lean Portfolio Management"
+        ],
+        "rows": [
+          [
+            "Financement",
+            "Basé sur des projets spécifiques",
+            "Basé sur les chaînes de valeur (Value Streams)"
+          ],
+          [
+            "Planification",
+            "Cycle annuel rigide",
+            "Glissante, itérative, ajustée chaque trimestre"
+          ],
+          [
+            "Gouvernance",
+            "Contrôle centralisé (Top-down)",
+            "Décisions décentralisées avec garde-fous"
+          ],
+          [
+            "Focus",
+            "Administration de projets individuels",
+            "Performance économique globale du portefeuille"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le passage au LPM marque la fin de la planification annuelle rigide, souvent obsolète dès le premier trimestre. On ne finance plus des projets isolés (approche \"Fire and Forget\"), mais des chaînes de valeur continues. Cette agilité est sécurisée par trois <strong>garde-fous</strong> (Guardrails) :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Investissement par horizon</strong> : Équilibre entre maintenance du patrimoine existant, gains immédiats (quick wins) et innovation de rupture.",
+          "<strong>Allocation de capacité</strong> : Arbitrage strict entre le développement de nouvelles fonctionnalités et la réduction de la dette technique.",
+          "<strong>Indicateurs basés sur les résultats</strong> : Utilisation de KPIs liés aux résultats réels (Outcomes) plutôt qu'au simple avancement des tâches (Outputs)."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "L'analyse de simulation « What-If »",
+        "id": "lanalyse-de-simulation-what-if",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'analyse de scénarios est un levier puissant pour s'extraire de la gestion de crise permanente et troquer l'intuition contre l'<strong>analyse d'impact prédictive</strong>. Une simulation rigoureuse repose sur trois étapes :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Identification des variables</strong> : Isoler les leviers critiques — budgets, disponibilité des compétences clés, <strong>coût du retard</strong> (Cost of Delay), dépendances inter-projets.",
+          "<strong>Modélisation de scénarios</strong> : Construire des trajectoires optimiste, pessimiste et \"plus probable\" pour tester la résilience du portefeuille.",
+          "<strong>Évaluation de l'impact</strong> : Mesurer précisément la dérive potentielle sur les délais, les coûts et la charge de travail globale."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple : simuler l'ajout d'un projet urgent pour mesurer le décalage sur les dates de livraison des initiatives en cours, ou évaluer l'impact d'une réduction budgétaire de 15 % sur la composition du portefeuille. Les outils PPM modernes intègrent ces capacités de simulation pour éclairer les décisions d'arbitrage en comité de pilotage — mettant fin au règne de \"la voix la plus forte\" en comité de direction."
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>Bonne pratique AirSaaS :</strong> Les portefeuilles priorisés à 2-3 ans figés, c'était avant. Aujourd'hui, la priorisation en continu est la pratique courante. Un sondage AirSaas (2022) montre que la majorité des DSI repriorisent leur portefeuille au minimum chaque trimestre, et souvent chaque mois.",
+        "label": "Bonne pratique AirSaas",
+        "variant": "success"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Les KPIs essentiels du pilotage de portefeuille",
+        "id": "les-kpis-essentiels-du-pilotage-de-portefeuille",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Piloter un portefeuille de projets sans indicateurs, c'est conduire sans tableau de bord. Voici les KPIs incontournables, organisés en 4 catégories."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "KPIs d'alignement stratégique",
+        "id": "kpis-dalignement-strategique",
+        "gradient": "primary"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>% de projets alignés avec les axes stratégiques</strong> : Chaque projet doit être rattaché à un objectif. Un portefeuille sain affiche 80 à 100 % d'alignement.",
+          "<strong>Répartition budgétaire par axe stratégique</strong> : Visualiser si les investissements sont cohérents avec les priorités déclarées.",
+          "<strong>Bénéfices réalisés</strong> : Valeur réelle constatée post-clôture, comparée aux bénéfices attendus lors de la sélection."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "KPIs de capacité et ressources",
+        "id": "kpis-de-capacite-et-ressources",
+        "gradient": "primary"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Taux d'utilisation des ressources</strong> : Temps productif vs temps total disponible. Au-delà de 80 %, le risque de surcharge est élevé.",
+          "<strong>Ratio demande vs capacité</strong> : Combien de projets sont en attente faute de bande passante ?",
+          "<strong>Productivité par ressource</strong> : Tâches ou jalons accomplis par période, pour identifier les écarts de performance.",
+          "<strong>Churn de l'équipe</strong> : Rotation du personnel en cours de projet — un indicateur avancé de problèmes de management ou de surcharge."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "KPIs de performance opérationnelle",
+        "id": "kpis-de-performance-operationnelle",
+        "gradient": "primary"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>% de projets \"au vert\" / \"à risque\" / \"en alerte\"</strong> : Le triptyque météo classique, indispensable pour une revue de portefeuille efficace.",
+          "<strong>Taux de respect des jalons</strong> : Les jalons clés sont-ils atteints dans les délais ?",
+          "<strong>Variance budgétaire</strong> : Écart entre coûts prévus et coûts réels — un signal d'alerte précoce.",
+          "<strong>Nombre de demandes de changement</strong> : Indicateur de la stabilité du périmètre. Un nombre élevé signale un cadrage initial insuffisant.",
+          "<strong>Indice de santé du projet</strong> : Score composite combinant coût, délai et risque en un seul indicateur.",
+          "<strong>Conformité</strong> : Adhérence aux processus, méthodologies et réglementations en vigueur."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "KPIs de valeur et résultats",
+        "id": "kpis-de-valeur-et-resultats",
+        "gradient": "primary"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>ROI des projets livrés</strong> : Le portefeuille crée-t-il réellement la valeur financière attendue ?",
+          "<strong>Délai de livraison (Time to Market)</strong> : Combien de temps entre la décision de lancer un projet et la première livraison de valeur ?",
+          "<strong>Taux d'annulation</strong> : Capacité de l'organisation à arrêter les projets non rentables — un signe de maturité, pas d'échec.",
+          "<strong>Satisfaction des parties prenantes</strong> : Enquêtes de satisfaction auprès des sponsors, métiers et équipes projet.",
+          "<strong>Gestion des risques</strong> : Ratio risques mitigés vs risques identifiés — mesure l'efficacité de l'anticipation."
+        ]
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>Conseil :</strong> Ne multipliez pas les indicateurs. 5 à 8 KPIs bien choisis et mis à jour régulièrement valent mieux que 18 indicateurs jamais consultés. Sélectionnez ceux qui correspondent à votre niveau de maturité et enrichissez progressivement. L'enjeu est que votre tableau de bord de portefeuille raconte une histoire claire en 30 secondes.",
+        "label": "Conseil",
+        "variant": "primary"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/699734d9e8f99e6b413126ef_Page%20Portfolio%20FR.png",
+        "alt": "Tableau de bord de gestion de portefeuille de projets — interface AirSaas",
+        "widthMode": "breakout",
+        "tone": "warm"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Comment choisir son outil PPM ?",
+        "id": "comment-choisir-son-outil-ppm",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le marché des outils de gestion de portefeuille de projets a considérablement évolué. Fini les usines à gaz ERP/PPM des années 2010. Les solutions modernes misent sur la simplicité, la collaboration et l'automatisation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Les critères essentiels d'un bon outil PPM",
+        "id": "les-criteres-essentiels-dun-bon-outil-ppm",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Simplicité d'adoption</strong> : L'outil doit être utilisable par les chefs de projet, les métiers ET la direction, sans formation complexe. Si personne ne l'utilise, il ne sert à rien."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Vue portefeuille consolidée</strong> : Tableaux de bord visuels avec filtres (par programme, par axe stratégique, par météo projet, par responsable). La vue macro est la raison d'être de l'outil."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Reporting automatisé</strong> : Génération automatique de rapports flash (PPT, PDF, URL) pour le Comité de pilotage, sans passer 4 jours à compiler des données manuellement."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Gestion des rituels</strong> : L'outil doit structurer vos revues de portefeuille, vos points projet et vos Copil avec des workflows adaptés."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Intégration avec l'écosystème existant</strong> : Connexion native avec les outils de gestion de tâches (Jira, Asana, Monday, Azure DevOps) pour faire remonter les données opérationnelles sans double saisie."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Collaboration temps réel</strong> : Toutes les parties prenantes (DSI, métiers, direction) contribuent sur la même plateforme. Plus de \"je ne savais pas\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Ce qu'un outil PPM ne résout pas",
+        "id": "ce-quun-outil-ppm-ne-resout-pas",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un outil, aussi bon soit-il, ne peut pas compenser une gouvernance floue, des objectifs stratégiques non définis ou un management indécis. L'outil est un catalyseur : il amplifie les bonnes pratiques, mais ne les crée pas."
+      },
+      {
+        "type": "insight-callout",
+        "html": "<strong>AirSaaS</strong> est l'outil de gestion de portefeuille de projets conçu pour les DSI, PMO et directeurs de transformation qui veulent allier simplicité et efficacité. Tableau de bord visuel, rapport flash automatique, intégrations natives et collaboration temps réel. <a href=\"/fr/solution/management-de-portefeuille-projet\">Découvrir AirSaas→</a>",
+        "label": "AirSaas",
+        "variant": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Les erreurs à éviter en gestion de portefeuille de projets",
+        "id": "les-erreurs-a-eviter-en-gestion-de-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Après des centaines d'échanges avec des DSI, PMO et directeurs de transformation, voici les erreurs les plus fréquentes que nous observons."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°1 — Confondre gestion de portefeuille et gestion de projet",
+        "id": "erreur-n1-confondre-gestion-de-portefeuille-et-gestion-de-projet",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le portefeuille ne sert pas à micro-manager les tâches de chaque projet. Il sert à prendre des décisions stratégiques : quels projets lancer, arrêter, accélérer ou reporter. Mélanger les niveaux crée de la confusion et alourdit la gouvernance."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°2 — Ne pas oser arrêter un projet",
+        "id": "erreur-n2-ne-pas-oser-arreter-un-projet",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un portefeuille qui ne \"tue\" jamais de projet est un portefeuille malade. Si un projet ne crée plus de valeur, a vu son contexte changer ou mobilise des ressources critiques, il faut savoir le stopper. C'est un signe de maturité, pas d'échec."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°3 — Sous-estimer la gestion de la capacité",
+        "id": "erreur-n3-sous-estimer-la-gestion-de-la-capacite",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Valider 20 projets quand on a la capacité d'en mener 8 correctement, c'est la recette de l'échec collectif. Et la capacité ne se gère pas \"au global\" — elle se gère <strong>équipe par équipe, trimestre par trimestre</strong>. Une organisation peut avoir du budget disponible et des ressources \"sur le papier\", mais si l'équipe Data est saturée au Q2, aucun projet Data ne délivrera. L'incapacité chronique à dire \"non\" est le symptôme le plus répandu des organisations immatures en PPM. La gestion de portefeuille de projets impose de confronter la demande à la réalité de la capacité de chaque équipe — et d'assumer les arbitrages qui en découlent."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°4 — Se fier au pourcentage d'avancement",
+        "id": "erreur-n4-se-fier-au-pourcentage-davancement",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le % d'avancement est l'un des indicateurs les plus trompeurs du pilotage de portefeuille. Un projet affiché à 70 % peut être à des mois de livrer le moindre délivrable exploitable. Ce chiffre mesure le plus souvent la <strong>consommation de charge</strong> (combien de jours ont été passés) et non la <strong>proximité d'un résultat tangible</strong>. Les organisations matures en PPM remplacent le % d'avancement par des indicateurs concrets : jalons atteints, délivrables acceptés, fonctionnalités livrées en production. La question à poser en revue de portefeuille n'est jamais \"à combien de % en est-on ?\", mais <strong>\"qu'est-ce qui sera livré et utilisable à la fin du trimestre ?\"</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°5 — Un reporting hétérogène et chronophage",
+        "id": "erreur-n5-un-reporting-heterogene-et-chronophage",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si chaque chef de projet produit son reporting dans un format différent, à une fréquence aléatoire, le Comité de pilotage ne pourra jamais avoir une vision claire du portefeuille. Standardisez le format, automatisez la collecte, fixez un rythme régulier."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°6 — Lancer la démarche sans sponsorship",
+        "id": "erreur-n6-lancer-la-demarche-sans-sponsorship",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de portefeuille de projets touche aux budgets, aux priorités et parfois aux jeux de pouvoir. Sans sponsor au niveau Direction Générale ou DSI, la démarche s'essouffle dès les premiers arbitrages difficiles."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 3,
+        "text": "Erreur n°7 — Vouloir tout faire d'un coup",
+        "id": "erreur-n7-vouloir-tout-faire-dun-coup",
+        "gradient": "primary"
+      },
+      {
+        "type": "paragraph",
+        "html": "Privilégiez une approche progressive : démarrez sur un périmètre limité, avec des rituels simples et un petit nombre de projets pilotes. Montrez les premiers résultats, puis étendez. L'adoption se fait par la preuve, pas par le décret."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "FAQ — Gestion de portefeuille de projets",
+        "id": "faq-gestion-de-portefeuille-de-projets",
+        "gradient": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "sourceLevel": 2,
+        "text": "Pour aller plus loin",
+        "id": "pour-aller-plus-loin",
+        "gradient": "primary"
+      }
+    ],
+    "layout": "centeredToc",
+    "toggles": {
+      "showFaq": true,
+      "showNewsletter": true,
+      "showCta": true,
+      "showRelated": true,
+      "showTrending": true
+    },
+    "customCta": null,
+    "faq": [
+      {
+        "question": "Qu'est-ce qu'un portefeuille de projets ?",
+        "answer": "Un portefeuille de projets est l'ensemble des projets, programmes et opérations d'une organisation, gérés collectivement pour atteindre les objectifs stratégiques. Wikipédia le définit comme \"la discipline traitant des projets pris d'un point de vue global dans un but de sélection et d'arbitrage\" (Fernez-Walch, 2004).",
+        "hidden": false
+      },
+      {
+        "question": "Quelle est la différence entre gestion de portefeuille de projets et gestion multi-projets ?",
+        "answer": "La gestion multi-projets est opérationnelle : elle vise à gérer efficacement plusieurs projets en parallèle (planning, ressources, dépendances). La gestion de portefeuille est stratégique : elle décide quels projets lancer et dans quel ordre, en fonction de leur contribution à la stratégie. En résumé, le multi-projet s'occupe du \"comment\", le portefeuille s'occupe du \"quoi\".",
+        "hidden": false
+      },
+      {
+        "question": "Qui est responsable de la gestion du portefeuille de projets ?",
+        "answer": "En général, c'est le PMO (Project Management Office), le DSI ou le Directeur de transformation qui pilote la gestion de portefeuille. Mais les décisions d'arbitrage impliquent la Direction Générale et les directions métiers. La gestion de portefeuille de projets est par nature transverse et collaborative.",
+        "hidden": false
+      },
+      {
+        "question": "Quelle est la différence entre un outil PPM et un outil de gestion de projet ?",
+        "answer": "Un outil de gestion de projet (Jira, Asana, Monday, Trello) permet de gérer les tâches, le planning et les ressources d'un projet individuel. Un outil PPM permet de piloter l'ensemble du portefeuille : vue consolidée, arbitrages, reporting stratégique, alignement avec les objectifs. Les deux sont complémentaires et doivent idéalement être connectés.",
+        "hidden": false
+      },
+      {
+        "question": "La gestion de portefeuille de projets est-elle adaptée aux PME ?",
+        "answer": "Absolument. La taille de l'entreprise ne détermine pas le besoin, c'est le nombre de projets en concurrence pour les mêmes ressources qui compte. Dès qu'une PME gère plus de 5-10 projets transverses en parallèle, une démarche de portefeuille — même légère — apporte une valeur considérable. Les PME ont d'ailleurs souvent plus d'agilité pour la mettre en œuvre.",
+        "hidden": false
+      },
+      {
+        "question": "À quelle fréquence faut-il reprioriser son portefeuille de projets ?",
+        "answer": "La priorisation en continu est devenue la pratique dominante. La plupart des organisations matures réalisent une revue de portefeuille formelle chaque mois, avec des points d'arbitrage ponctuels si le contexte l'exige. Les roadmaps figées à 2-3 ans ont laissé place à un pilotage agile et adaptatif.",
+        "hidden": false
+      },
+      {
+        "question": "Quels sont les principaux frameworks pour la gestion de portefeuille de projets ?",
+        "answer": "Les frameworks les plus reconnus sont : le Standard for Portfolio Management du PMI, MoP (Management of Portfolios) de AXELOS, le Lean Portfolio Management (LPM) du framework SAFe, et les approches inspirées du OKR (Objectives and Key Results). Le choix dépend de la culture et de la maturité de votre organisation.",
+        "hidden": false
+      }
+    ],
+    "toc": [
+      {
+        "label": "Qu'est-ce que la gestion de portefeuille de projets ?",
+        "href": "#quest-ce-que-la-gestion-de-portefeuille-de-projets",
+        "level": 2
+      },
+      {
+        "label": "Portefeuille de projets vs programme vs projet : quelles différences ?",
+        "href": "#portefeuille-de-projets-vs-programme-vs-projet-quelles-differences",
+        "level": 2
+      },
+      {
+        "label": "Pourquoi mettre en place une gestion de portefeuille de projets ?",
+        "href": "#pourquoi-mettre-en-place-une-gestion-de-portefeuille-de-projets",
+        "level": 2
+      },
+      {
+        "label": "Les 7 étapes pour déployer une gestion de portefeuille de projets efficace",
+        "href": "#les-7-etapes-pour-deployer-une-gestion-de-portefeuille-de-projets-efficace",
+        "level": 2
+      },
+      {
+        "label": "Les méthodes de priorisation d'un portefeuille de projets",
+        "href": "#les-methodes-de-priorisation-dun-portefeuille-de-projets",
+        "level": 2
+      },
+      {
+        "label": "Les KPIs essentiels du pilotage de portefeuille",
+        "href": "#les-kpis-essentiels-du-pilotage-de-portefeuille",
+        "level": 2
+      },
+      {
+        "label": "Comment choisir son outil PPM ?",
+        "href": "#comment-choisir-son-outil-ppm",
+        "level": 2
+      },
+      {
+        "label": "Les erreurs à éviter en gestion de portefeuille de projets",
+        "href": "#les-erreurs-a-eviter-en-gestion-de-portefeuille-de-projets",
+        "level": 2
+      },
+      {
+        "label": "FAQ — Gestion de portefeuille de projets",
+        "href": "#faq-gestion-de-portefeuille-de-projets",
+        "level": 2
+      },
+      {
+        "label": "Pour aller plus loin",
+        "href": "#pour-aller-plus-loin",
+        "level": 2
+      }
+    ],
+    "related": [
+      {
+        "label": "Lean Portfolio Management : aligner direction générale, IT et métiers",
+        "href": "/fr/gestion-de-projet/lean-portfolio-management"
+      },
+      {
+        "label": "Revue de portefeuille : bonnes pratiques et guide complet",
+        "href": "/fr/solution/revue-de-portefeuille"
+      },
+      {
+        "label": "Les 10 erreurs à ne pas commettre dans la mise en place d'un portefeuille projet",
+        "href": "/fr/gestion-de-projet/les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet"
+      },
+      {
+        "label": "Gestion de portefeuille de projets en PME : bénéfices et bonnes pratiques",
+        "href": "/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme"
+      },
+      {
+        "label": "Outil PPM : le cahier des charges pour bien choisir",
+        "href": "/fr/guide/cahier-des-charges-logiciel-ppm"
+      },
+      {
+        "label": "Découvrir AirSaaS, l'outil PPM des DSI et PMO",
+        "href": "/fr/solution/management-de-portefeuille-projet"
+      }
+    ]
   }
 ] as const;
 

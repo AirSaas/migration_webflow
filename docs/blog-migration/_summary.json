@@ -1,12 +1,36 @@
 {
-  "generatedAt": "2026-05-13T09:51:18.273Z",
-  "totalCost": 2.89029825,
+  "generatedAt": "2026-05-13T11:24:25.481Z",
+  "totalCost": 22.06,
   "results": [
     {
       "slug": "kanban-gestion-de-projet",
       "status": "pass",
       "attempts": 3,
-      "costUsd": 2.89029825
+      "costUsd": 2.89
+    },
+    {
+      "slug": "comite-pilotage-projet",
+      "status": "pass",
+      "attempts": 2,
+      "costUsd": 2.56
+    },
+    {
+      "slug": "metier-pmo",
+      "status": "pass",
+      "attempts": 3,
+      "costUsd": 5.16
+    },
+    {
+      "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+      "status": "pass",
+      "attempts": 2,
+      "costUsd": 6.01
+    },
+    {
+      "slug": "pi-planning",
+      "status": "pass",
+      "attempts": 1,
+      "costUsd": 2.48
     }
   ]
 }

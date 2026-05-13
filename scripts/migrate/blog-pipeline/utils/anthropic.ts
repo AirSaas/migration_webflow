@@ -46,7 +46,10 @@ export async function callToolUse<T>(opts: {
   const systemBlocks = opts.cacheSystem
     ? [{ type: "text" as const, text: opts.systemPrompt, cache_control: { type: "ephemeral" as const } }]
     : [{ type: "text" as const, text: opts.systemPrompt }];
-  const res = await client.messages.create({
+  // Always stream so long generations (>10 min wall-clock) don't trip the
+  // Anthropic non-streaming hard timeout. The SDK accumulates the message
+  // server-side and we receive the final result via `finalMessage()`.
+  const stream = client.messages.stream({
     model: modelId,
     max_tokens: opts.maxTokens ?? 16000,
     system: systemBlocks,
@@ -60,6 +63,7 @@ export async function callToolUse<T>(opts: {
     tool_choice: { type: "tool", name: opts.toolName },
     messages: [{ role: "user", content: opts.userPrompt }],
   });
+  const res = await stream.finalMessage();
   recordUsage(modelId as "claude-sonnet-4-6" | "claude-opus-4-7", res.usage, opts.slug);
   const toolUse = res.content.find((c): c is Anthropic.ToolUseBlock => c.type === "tool_use");
   if (!toolUse) throw new Error(`No tool_use block in response (stop_reason=${res.stop_reason})`);
@@ -91,7 +95,7 @@ export async function callVisionToolUse<T>(opts: {
     })),
     { type: "text" as const, text: opts.userPrompt },
   ];
-  const res = await client.messages.create({
+  const stream = client.messages.stream({
     model: modelId,
     max_tokens: opts.maxTokens ?? 8000,
     system: opts.systemPrompt,
@@ -105,6 +109,7 @@ export async function callVisionToolUse<T>(opts: {
     tool_choice: { type: "tool", name: opts.toolName },
     messages: [{ role: "user", content }],
   });
+  const res = await stream.finalMessage();
   recordUsage(modelId as "claude-opus-4-7", res.usage, opts.slug);
   const toolUse = res.content.find((c): c is Anthropic.ToolUseBlock => c.type === "tool_use");
   if (!toolUse) throw new Error(`No tool_use block in vision response (stop_reason=${res.stop_reason})`);

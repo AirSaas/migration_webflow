@@ -172,9 +172,12 @@ export type CustomCtaV3 = z.infer<typeof CustomCtaV3>;
 
 // ─── Author / meta ──────────────────────────────────────────────────────────
 
+// `name: z.string()` (no .min) — articles without an author have name=""
+// and the renderer falls back to "AirSaas". The Zod schema must accept this
+// rather than fail extraction.
 export const AuthorV3 = z
   .object({
-    name: z.string().min(1),
+    name: z.string(),
     category: z.string().optional(),
     publishedDate: z.string().optional(),
     avatarSrc: z.string().url().nullable().optional(),
@@ -251,8 +254,8 @@ export const ContentBlocks = z.object({
     title: z.string().min(1),
     description: z.string().min(1),
     h1: z.string().min(1),
-    heroImage: HeroImageV3,
-    author: AuthorV3,
+    heroImage: HeroImageV3.nullable().optional(),
+    author: AuthorV3.nullable().optional(),
     publishedDate: z.string().nullable().optional(),
   }),
   /** Blocks with NO variant/layout decision — just typed content. */
@@ -308,9 +311,13 @@ export const ContentBlocks = z.object({
       }),
     ]),
   ),
-  faq: z.array(z.object({ question: z.string(), answer: z.string() })),
-  toc: z.array(z.object({ label: z.string(), href: z.string(), level: z.union([z.literal(2), z.literal(3)]) })),
-  related: z.array(z.object({ label: z.string(), href: z.string() })),
+  faq: z.array(z.object({ question: z.string(), answer: z.string() })).default([]),
+  toc: z
+    .array(
+      z.object({ label: z.string(), href: z.string(), level: z.union([z.literal(2), z.literal(3)]) }),
+    )
+    .default([]),
+  related: z.array(z.object({ label: z.string(), href: z.string() })).default([]),
 });
 export type ContentBlocks = z.infer<typeof ContentBlocks>;
 

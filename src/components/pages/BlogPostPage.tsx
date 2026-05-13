@@ -36,6 +36,10 @@ type BlogCardProps = React.ComponentProps<typeof BlogCard>;
  */
 
 interface BlogPostPageProps {
+  /** When true, render TOC as the centered TableOfContentsFrame card,
+   *  ignoring the auto-sticky heuristic. Used by blog v8 V3 pipeline. */
+  forceCenteredToc?: boolean;
+
   // ── Navbar (shared layout) ─────────────────────────────────────────
   navItems?: NavItem[];
   navCtaLabel?: string;
@@ -115,6 +119,7 @@ interface BlogPostPageProps {
 const STICKY_TOC_MIN_ITEMS = 5;
 
 export default function BlogPostPage({
+  forceCenteredToc,
   navItems,
   navCtaLabel,
   navCtaHref,
@@ -139,7 +144,9 @@ export default function BlogPostPage({
   // R32 + N2 audit Marisella : long articles use sticky <TocSidebar> next to
   // the body; short articles keep the inline horizontal <TableOfContentsFrame>.
   const tocItemsCount = tableOfContents?.items.length ?? 0;
-  const useSticky = tocItemsCount >= STICKY_TOC_MIN_ITEMS;
+  // V3 pipeline forces centered TOC (per Figma 303:1107) — ignore the
+  // legacy ≥5-items heuristic when the caller explicitly opts in.
+  const useSticky = !forceCenteredToc && tocItemsCount >= STICKY_TOC_MIN_ITEMS;
 
   // Convert {label, href, level?} → {id, label, level} for TocSidebar.
   const sidebarItems =

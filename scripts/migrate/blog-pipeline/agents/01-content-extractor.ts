@@ -93,7 +93,10 @@ NO HALLUCINATIONS : every block must trace to a node in the source HTML. Don't i
  */
 const TOOL_INPUT_SCHEMA = {
   type: "object",
-  required: ["meta", "blocks", "faq", "toc", "related"],
+  // Anthropic tool_use treats unlisted fields as optional. We only require
+  // the structural ones the downstream agents can't synthesize. faq/toc/
+  // related default to [] in the Zod schema so omission is safe.
+  required: ["meta", "blocks"],
   properties: {
     meta: {
       type: "object",
@@ -210,6 +213,20 @@ export interface ExtractInput {
 
 export type ExtractOutput = z.infer<typeof ContentBlocks>;
 
+/**
+ * Cheap shape sniff used to decide if a retry-with-bigger-tokens is needed.
+ * Sonnet sometimes returns the tool_use input without the `blocks` array
+ * when its output token budget is exhausted mid-emission.
+ */
+function isUsableExtract(o: unknown): boolean {
+  if (!o || typeof o !== "object") return false;
+  const r = o as { blocks?: unknown; meta?: unknown };
+  if (!Array.isArray(r.blocks)) return false;
+  if (r.blocks.length === 0) return false;
+  if (!r.meta || typeof r.meta !== "object") return false;
+  return true;
+}
+
 export async function runContentExtractor(
   input: ExtractInput,
   logger: ArticleLogger,
@@ -219,7 +236,11 @@ export async function runContentExtractor(
   logger.info("content-extractor", `cleaned HTML: ${(cleaned.length / 1024).toFixed(0)}KB`);
   const userPrompt = `slug = ${input.slug}\n\n--- HTML start ---\n${cleaned}\n--- HTML end ---`;
 
-  const { output, usage } = await callToolUse<unknown>({
+  // Long articles (50+ blocks) can hit the 16k cap and return truncated
+  // output (missing `blocks`). We bump to 32k if the first pass looks bad.
+  let output: unknown;
+  let usage: Awaited<ReturnType<typeof callToolUse<unknown>>>["usage"];
+  ({ output, usage } = await callToolUse<unknown>({
     model: "claude-sonnet-4-6",
     systemPrompt: SYSTEM_PROMPT,
     userPrompt,
@@ -229,10 +250,27 @@ export async function runContentExtractor(
     maxTokens: 16000,
     slug: input.slug,
     cacheSystem: true,
-  });
+  }));
+  if (!isUsableExtract(output)) {
+    logger.warn(
+      "content-extractor",
+      `first pass output looks truncated — retrying with maxTokens=32000`,
+    );
+    ({ output, usage } = await callToolUse<unknown>({
+      model: "claude-sonnet-4-6",
+      systemPrompt: SYSTEM_PROMPT,
+      userPrompt,
+      toolName: "extract_blog_content",
+      toolDescription: "Extract structured BlogArticle content from rendered Webflow HTML",
+      inputSchema: TOOL_INPUT_SCHEMA,
+      maxTokens: 32000,
+      slug: input.slug,
+      cacheSystem: true,
+    }));
+  }
 
   // Zod-validate before passing downstream. If Anthropic returns invalid
-  // shape, throw — the state machine retry will trigger.
+  // shape, throw — the state machine surfaces the error in the report.
   const parsed = ContentBlocks.safeParse(output);
   if (!parsed.success) {
     logger.error("content-extractor", "Zod validation failed", parsed.error.flatten());

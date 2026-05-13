@@ -291,6 +291,8 @@ ${JSON.stringify(input.cmsToggles, null, 2)}
 
 Produce the RenderingSpec V3 for this article, applying ALL designRules.`;
 
+  // Long articles (pi-planning, metier-pmo, 100+ blocks) need more output
+  // budget than the default 16k. Streaming handles wall-clock time.
   const { output, usage } = await callToolUse<unknown>({
     model: "claude-opus-4-7",
     systemPrompt: SYSTEM_PROMPT,
@@ -298,7 +300,7 @@ Produce the RenderingSpec V3 for this article, applying ALL designRules.`;
     toolName: "produce_rendering_spec",
     toolDescription: "Produce the RenderingSpec V3 with explicit variants/layout/toggles",
     inputSchema: TOOL_INPUT_SCHEMA,
-    maxTokens: 16000,
+    maxTokens: 24000,
     slug: input.slug,
     cacheSystem: true,
   });
