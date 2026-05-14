@@ -29,6 +29,22 @@ import { GradientText } from "@/components/library-design/ui/GradientText";
  *   - Do NOT mix `subtitle`, `richContent`, and `checklist` — pick one
  *     content strategy per instance
  *   - Do NOT use `imageSize="narrow"` with `layout="stacked"` (no effect)
+ *
+ * @convention **Alternate `imagePosition` in consecutive FeatureFrame sections.**
+ *   When a page renders N feature-splits in a row (e.g. "Les 5 clés d'or" or a
+ *   product feature list), alternate `imagePosition` between `"right"` and
+ *   `"left"` on every other section to create a zigzag visual rhythm:
+ *     1st → "right"  (image right, text left)
+ *     2nd → "left"   (image left,  text right)
+ *     3rd → "right"  …and so on.
+ *   This rule applies INDEPENDENTLY of what the live Webflow page does — the
+ *   live often has multiple consecutive "left" sections (Webflow class
+ *   `container__features__section left`), but the DS convention is strict
+ *   alternation. When a `cta-stacked` or `section-heading` interrupts the
+ *   feature-split sequence, the alternation RESTARTS at "right" for the next
+ *   feature-split. Same applies INSIDE a single group (e.g. inside "Les 5 clés
+ *   d'or" between consecutive narrow rich-content sections). Apply this to
+ *   ALL three `imageSize` variants (default / compact / narrow).
  */
 interface FeatureFrameProps {
   /** Layout — "inline" (default, text + image side by side) or "stacked" (text centered on top, image below) */
