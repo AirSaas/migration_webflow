@@ -51,3 +51,46 @@ export const WithoutImage: Story = {
     ],
   },
 };
+
+/**
+ * Bullet wrap demo \u2014 5 items render as 3+2 (3 per row at md+, 4th onwards
+ * wraps to the next line). Verifies the grid-cols-3 layout rule documented
+ * in Rule 16 of the landing-rebuilder skill (2026-05-14).
+ */
+export const FiveItems: Story = {
+  args: {
+    titleGradient: "Des rituels",
+    titleDark: "de suivi budg\u00e9taire puissants",
+    subtitle:
+      "Brillez lors de vos points budg\u00e9taires ! Gr\u00e2ce au suivi des d\u00e9penses \u00ab engag\u00e9es \u00bb, \u00ab consomm\u00e9es \u00bb et \u00ab atterrissage \u00bb vous pourrez r\u00e9pondre \u00e0 toutes les questions :",
+    listItems: [
+      "Quels sont les d\u00e9rapages \u00e0 anticiper d'ici la fin du trimestre ?",
+      "Sur quel programme a-t-on encore du budget disponible ?",
+      "Comment justifier cette demande de rallonge ?",
+      "Pourquoi a-t-on doubl\u00e9 les d\u00e9penses sur ce projet ?",
+      "\u00c0 combien penses-tu atterrir d'ici la fin du semestre ?",
+    ],
+    imageAlt: "",
+  },
+};
+
+/**
+ * Bullet wrap demo \u2014 6 items render as 3+3 (two full rows of 3 each).
+ */
+export const SixItems: Story = {
+  args: {
+    titleGradient: "Six b\u00e9n\u00e9fices",
+    titleDark: "concrets pour votre \u00e9quipe",
+    subtitle:
+      "D\u00e9monstration du wrap natural avec 6 items \u2014 rendu en 3+3.",
+    listItems: [
+      "Premier b\u00e9n\u00e9fice court et clair pour l'utilisateur",
+      "Deuxi\u00e8me point essentiel \u00e0 retenir",
+      "Troisi\u00e8me argument convaincant qui fait la diff\u00e9rence",
+      "Quatri\u00e8me item qui passe \u00e0 la nouvelle ligne au-del\u00e0 de md",
+      "Cinqui\u00e8me argument qui consolide la d\u00e9monstration",
+      "Sixi\u00e8me point qui boucle la liste",
+    ],
+    imageAlt: "",
+  },
+};
