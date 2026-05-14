@@ -512,8 +512,10 @@ function renderSection(section: LandingSection, index: number): ReactNode {
         >
           <div style={{ gridColumn: "1 / -1", width: "70%", margin: "0 auto" }}>
             <CardCta
-              title={section.cardTitle}
-              description={section.cardDescription}
+              {...(section.cardTitle ? { title: section.cardTitle } : {})}
+              {...(section.cardDescription
+                ? { description: section.cardDescription }
+                : {})}
               ctaLabel={section.ctaLabel}
               ctaHref={section.ctaHref}
               className="w-full"

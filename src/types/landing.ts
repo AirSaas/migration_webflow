@@ -261,8 +261,20 @@ export interface CtaStackedSection {
   type: "cta-stacked";
   title: string;
   subtitle: string;
-  cardTitle: string;
-  cardDescription: string;
+  /**
+   * Optional title displayed INSIDE the inner CardCta (gradient H4). Omit when
+   * the live only provides H2 + subtitle on the outer frame and a single
+   * button on the inner card (typical for produit / équipes CTA banners on
+   * airsaas.io — page-rebuild rule: never invent copy the live doesn't
+   * provide).
+   */
+  cardTitle?: string;
+  /**
+   * Optional one-line description INSIDE the inner CardCta. Same rule as
+   * `cardTitle` — omit when the live doesn't provide an inner-card
+   * description.
+   */
+  cardDescription?: string;
   ctaLabel: string;
   ctaHref?: string;
   floatingCards?: boolean;

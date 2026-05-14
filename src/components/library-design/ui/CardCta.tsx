@@ -8,15 +8,21 @@ import { assertMaxLength } from "@/lib/ds-validators";
 /**
  * CardCta
  *
- * @purpose    Minimal card with a short gradient title, a one-line description,
- *             and a primary CTA. Usually rendered as children of `<CtaFrame>`.
+ * @purpose    Minimal card with an optional gradient title, optional one-line
+ *             description, and a primary CTA. Usually rendered as children of
+ *             `<CtaFrame>`. When `title` / `description` are omitted, the card
+ *             renders as a compact "CTA-only" pill (e.g. for the mid-page
+ *             Stacked banner pattern where the live only provides H2 + subtitle
+ *             on the outer frame and a single button on the inner card).
  * @useWhen    Offering a quick CTA choice (e.g. "Démo" / "Newsletter" / "Contact").
+ *             Compact form when the surrounding section already carries the
+ *             messaging context.
  * @dontUse    For a feature/benefit card (use `<FeatureCard>`).
  *
  * @limits
- *   - title: max 30 chars (Figma H4)
- *   - description: max 100 chars (one-line paragraph)
- *   - ctaLabel: max 18 chars
+ *   - title: optional. No character limit — the component flexes responsively.
+ *   - description: optional. No character limit — wraps freely.
+ *   - ctaLabel: required.
  *   - mediaThumbnail: optional landscape 16/9 image rendered above the title —
  *     use for video replay teasers, media cards, etc.
  *
@@ -35,8 +41,8 @@ export interface CardCtaMediaThumbnail {
 }
 
 interface CardCtaProps {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   ctaLabel: string;
   ctaHref?: string;
   /** Gradient applied to the title. Defaults to "primary". Use "none" for solid title. */
@@ -61,8 +67,6 @@ export function CardCta({
   mediaThumbnail,
   className,
 }: CardCtaProps) {
-  assertMaxLength("CardCta", "title", title, 30);
-  assertMaxLength("CardCta", "description", description, 100);
   assertMaxLength("CardCta", "ctaLabel", ctaLabel, 18);
 
   const useGradient = gradient !== "none";
@@ -86,13 +90,17 @@ export function CardCta({
         </div>
       )}
 
-      <Heading level={4} gradient="none" align="center">
-        {useGradient ? <GradientText gradient={gradient}>{title}</GradientText> : title}
-      </Heading>
+      {title && (
+        <Heading level={4} gradient="none" align="center">
+          {useGradient ? <GradientText gradient={gradient}>{title}</GradientText> : title}
+        </Heading>
+      )}
 
-      <Text size="md" align="center">
-        {description}
-      </Text>
+      {description && (
+        <Text size="md" align="center">
+          {description}
+        </Text>
+      )}
 
       <Button variant={ctaVariant} size={ctaSize} href={ctaHref}>
         {ctaLabel}

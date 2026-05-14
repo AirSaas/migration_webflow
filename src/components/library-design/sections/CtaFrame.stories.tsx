@@ -60,6 +60,35 @@ export const Stacked: Story = {
 };
 
 /**
+ * Stacked variant where the inner CardCta only renders the button — no inner
+ * title or description. Use when the live page provides only H2 + subtitle on
+ * the outer frame and a single button on the inner card (canonical pattern on
+ * `/fr/produit/priorisation-par-equipes`, `/fr/equipes/outil-pmo`,
+ * `/fr/equipes/comite-direction`, `/fr/equipes/direction-de-la-transformation`).
+ *
+ * Page-rebuild rule: never invent copy the live doesn't provide — so when the
+ * live banner is only "H2 + paragraph + button", omit `title` + `description`
+ * on the inner CardCta.
+ */
+export const StackedButtonOnly: Story = {
+  args: {
+    title: "Vous voulez l'essayer ?",
+    subtitle: "Discutons-en et bénéficiez d'une démo sur mesure",
+    children: (
+      <div
+        style={{
+          gridColumn: "1 / -1",
+          width: "70%",
+          margin: "0 auto",
+        }}
+      >
+        <CardCta ctaLabel="Je veux une démo" className="w-full" />
+      </div>
+    ),
+  },
+};
+
+/**
  * Floating cards disabled — opt-out via `floatingCards={false}`.
  *
  * Use this variant when the CTA composition is wide / tight and the decorative
