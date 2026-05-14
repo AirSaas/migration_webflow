@@ -7,6 +7,8 @@ import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaHighlightFrame } from "@/components/library-design/sections/CtaHighlightFrame";
 import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
 import { CardCta } from "@/components/library-design/ui/CardCta";
+import { Quote } from "@/components/library-design/ui/Quote";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { ComparisonTableFrame } from "@/components/library-design/sections/ComparisonTableFrame";
@@ -523,6 +525,36 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           </div>
         </CtaFrame>
       );
+
+    case "quote-callout": {
+      // Wrap an optional prefix of `body` with the primary gradient so the
+      // brand name (or any leading emphasis) renders with the AirSaas blue
+      // gradient — matches the live `<p class="p--highlight"><strong>` pattern.
+      const { body, highlight, hideIcon, id } = section;
+      let children: React.ReactNode = body;
+      if (highlight && body.startsWith(highlight)) {
+        const rest = body.slice(highlight.length);
+        children = (
+          <>
+            <GradientText gradient="primary">
+              <strong>{highlight}</strong>
+            </GradientText>
+            {rest}
+          </>
+        );
+      }
+      return (
+        <section
+          key={index}
+          id={id}
+          className="flex justify-center w-full px-[1.25rem] py-[3rem] md:px-[3rem] md:py-[4rem] lg:px-[10rem] lg:py-[5rem] bg-white"
+        >
+          <Quote variant="card" align="center" hideIcon={hideIcon ?? false}>
+            {children}
+          </Quote>
+        </section>
+      );
+    }
 
     case "icon-row":
       if (!section.items || section.items.length === 0) return null;

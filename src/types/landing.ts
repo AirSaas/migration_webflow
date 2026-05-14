@@ -281,6 +281,35 @@ export interface CtaStackedSection {
   id?: string;
 }
 
+/**
+ * Standalone quote callout — a centered card-style citation that breaks the
+ * reading flow with a key statement (e.g. brand manifesto sentence, expert
+ * insight). Renders `<Quote variant="card" align="center">` full-width.
+ * Use on long-form solution / produit pages where the live shows a
+ * highlighted `<p class="p--highlight">` block with an emphasized brand
+ * statement (e.g. /fr/solution/outils-de-pilotage-projet — "AirSaas est un
+ * PPM léger, qui s'intègre à l'existant...").
+ */
+export interface QuoteCalloutSection {
+  type: "quote-callout";
+  /**
+   * The quote body. Plain string or rich JSX — use the latter when part of
+   * the text needs the primary gradient (e.g. the brand name "AirSaas"
+   * highlighted at the start of the statement).
+   */
+  body: string;
+  /**
+   * Optional fragment of the body to render with the primary gradient.
+   * When set, the dispatcher wraps the matching prefix of `body` with
+   * <GradientText gradient="primary">. Typical use: highlight the brand
+   * name "AirSaas" at the start. Must be a prefix of `body` (no fuzzy match).
+   */
+  highlight?: string;
+  /** Hide the decorative quote icon. Default false (icon shown). */
+  hideIcon?: boolean;
+  id?: string;
+}
+
 /** Numbered comparison list (pain-points alternate variant with value/desc tuples). */
 export interface ComparisonFrameSection {
   type: "comparison-frame";
@@ -466,6 +495,7 @@ export type LandingSection =
   | TabsFrameSection
   | CtaHighlightSection
   | CtaStackedSection
+  | QuoteCalloutSection
   | ComparisonFrameSection
   | PillarFrameSection
   | HighlightFrameSection
