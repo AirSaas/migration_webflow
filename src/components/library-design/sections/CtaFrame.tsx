@@ -16,12 +16,22 @@ import { AnimateOnScroll } from "@/components/library-design/ui/AnimateOnScroll"
  *             — **Stacked** (1 child): single card occupies 70% of the frame width on `md+`,
  *                full width on mobile. Caller wraps the single CardCta in a
  *                `<div style={{ gridColumn: "1 / -1", width: "70%", margin: "0 auto" }}>`
- *                to opt-in to the Stacked geometry (this is what the dispatcher does for
- *                `cta-stacked`).
+ *                to opt-in to the Stacked geometry.
  * @useWhen    Closing a page (Split: démo + guide; Stacked: single démo CTA) OR mid-page
  *             "Vous voulez l'essayer ?" banner (Stacked).
  * @dontUse    For a tri-gradient dramatic closing with inner white card (use
  *             <CtaHighlightFrame>).
+ *
+ * @dispatcher Registered section.types in `LandingPageV2`:
+ *   - `"cta-stacked"`  → renders `<CtaFrame>` Stacked (1 centered CardCta at 70% width).
+ *                        Backing type: `CtaStackedSection` in `src/types/landing.ts`.
+ *                        Use for the "H2 + subtitle + 1 button" banner pattern
+ *                        recurring on produit / équipes / solution pages.
+ *   - `"cta"` (with `items.length === 2`) → renders `<CtaFrame>` Split (2 CardCta side-by-side).
+ *                        Use for the "démo + guide" or "démo + vidéo" 2-card closing pattern.
+ *
+ * @stories    Sections/Call to Action/CtaFrame — `Split`, `Stacked`, `StackedButtonOnly`,
+ *             `WithoutFloatingCards`.
  *
  * @limits
  *   - children: 1 or 2 <CardCta> components. 1 child → Stacked. 2 children → Split.
