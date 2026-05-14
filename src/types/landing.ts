@@ -250,6 +250,25 @@ export interface CtaHighlightSection {
   ctaHref?: string;
 }
 
+/**
+ * Stacked CTA — `<CtaFrame>` with a single centered `<CardCta>` (Storybook
+ * story "Sections/Call to Action/CtaFrame → Stacked"). Use for the mid-page
+ * or closing "H2 + subtitle + 1 CTA" pattern that recurs on produit and
+ * équipes pages (e.g. "Vous voulez l'essayer ?" on
+ * /fr/produit/priorisation-par-equipes).
+ */
+export interface CtaStackedSection {
+  type: "cta-stacked";
+  title: string;
+  subtitle: string;
+  cardTitle: string;
+  cardDescription: string;
+  ctaLabel: string;
+  ctaHref?: string;
+  floatingCards?: boolean;
+  id?: string;
+}
+
 /** Numbered comparison list (pain-points alternate variant with value/desc tuples). */
 export interface ComparisonFrameSection {
   type: "comparison-frame";
@@ -434,6 +453,7 @@ export type LandingSection =
   | TrustBadgesSection
   | TabsFrameSection
   | CtaHighlightSection
+  | CtaStackedSection
   | ComparisonFrameSection
   | PillarFrameSection
   | HighlightFrameSection

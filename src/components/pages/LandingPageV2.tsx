@@ -5,6 +5,8 @@ import { Hero } from "@/components/library-design/sections/Hero";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
 import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaHighlightFrame } from "@/components/library-design/sections/CtaHighlightFrame";
+import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { CardCta } from "@/components/library-design/ui/CardCta";
 import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { ComparisonTableFrame } from "@/components/library-design/sections/ComparisonTableFrame";
@@ -497,6 +499,27 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           ctaLabel={section.ctaLabel}
           ctaHref={section.ctaHref}
         />
+      );
+
+    case "cta-stacked":
+      return (
+        <CtaFrame
+          key={index}
+          title={section.title}
+          subtitle={section.subtitle}
+          floatingCards={section.floatingCards ?? true}
+          id={section.id}
+        >
+          <div style={{ gridColumn: "1 / -1", width: "70%", margin: "0 auto" }}>
+            <CardCta
+              title={section.cardTitle}
+              description={section.cardDescription}
+              ctaLabel={section.ctaLabel}
+              ctaHref={section.ctaHref}
+              className="w-full"
+            />
+          </div>
+        </CtaFrame>
       );
 
     case "icon-row":
