@@ -555,6 +555,26 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 
 ---
 
+### `<LottiePlayer>`
+
+📄 [`src/components/library-design/ui/LottiePlayer.tsx`](src/components/library-design/ui/LottiePlayer.tsx)
+
+**Purpose** — Render a Bodymovin / Lottie JSON animation as an inline media element inside a section (FeatureFrame's image slot, IllustrationFrame, etc.). Client-only component — fetches the JSON at mount and plays it through lottie-react.
+**Use when** — The live page uses Webflow's Lottie loader (`<div data-animation-type="lottie" data-src="*.json">`) for an animated illustration that conveys product behavior. Example: `Programs-video.json` on `/fr/equipes/comite-direction` section "Suivez l'avancée de vos programmes".
+**Don't use** — For static images (use plain `<img>` or the parent component's `imageSrc` prop). For interactive videos with audio (use HTML5 `<video>`). For decorative SVG illustrations (use `<IllustrationFrame>` or an inline `<svg>`).
+
+**Limits:**
+- src: must be a fully-qualified URL ending in `.json` (Bodymovin export). The fetch happens client-side at mount.
+- loop / autoplay: both default true (matches Webflow's Lottie default).
+- speed: 0.25–4 reasonable range; default 1.
+
+**Forbidden:**
+- Do NOT pass className with bg / text / font / padding overrides — only sizing (width / height / aspect-ratio) is permitted on the wrapper.
+- Do NOT render server-side (component is `"use client"` for a reason — lottie-web touches `window` and `document` at import).
+- Do NOT pass an animationData object directly — fetch via the `src` URL so it stays in sync with the source on the live page.
+
+---
+
 ### `<Navbar>`
 
 📄 [`src/components/library-design/ui/Navbar.tsx`](src/components/library-design/ui/Navbar.tsx)
@@ -1006,6 +1026,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - checklist: 2–6 items
 - ctaLabel: max 24 chars
 - richContent: prefer 1–4 paragraphs; the prose wrapper handles lists/links
+- lottieSrc: Bodymovin JSON URL — alternative to `imageSrc` for animated illustrations (e.g. Webflow `data-animation-type="lottie"` source files). When set, renders `<LottiePlayer>` in the media slot instead of `<img>`. If BOTH are set, Lottie wins (image becomes implicit fallback via LottiePlayer's error state).
 
 **Forbidden:**
 - Do NOT mix `subtitle`, `richContent`, and `checklist` — pick one content strategy per instance

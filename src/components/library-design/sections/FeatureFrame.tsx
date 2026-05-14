@@ -3,6 +3,7 @@ import { Tag } from "@/components/library-design/ui/Tag";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { Button } from "@/components/library-design/ui/Button";
+import { LottiePlayer } from "@/components/library-design/ui/LottiePlayer";
 import { ListInline } from "@/components/library-design/ui/ListInline";
 import { GradientText } from "@/components/library-design/ui/GradientText";
 
@@ -66,6 +67,14 @@ interface FeatureFrameProps {
   /** Screenshot/illustration source */
   imageSrc?: string;
   imageAlt?: string;
+  /**
+   * Lottie/Bodymovin JSON animation source — alternative to `imageSrc`.
+   * When set, renders `<LottiePlayer>` in the media slot instead of `<img>`.
+   * If BOTH `imageSrc` and `lottieSrc` are provided, the Lottie takes
+   * precedence (the image becomes the implicit fallback already shown by
+   * LottiePlayer's loading/error states).
+   */
+  lottieSrc?: string;
   /** Background color of the illustration frame */
   imageBgColor?: string;
   /** Optional DOM id on the root `<section>` — scroll-spy target for TabsFrame / TocSidebar. */
@@ -88,6 +97,7 @@ export function FeatureFrame({
   ctaHref = "#",
   imageSrc,
   imageAlt,
+  lottieSrc,
   imageBgColor,
   id,
   className,
@@ -176,7 +186,8 @@ export function FeatureFrame({
     </div>
   );
 
-  const illustrationContent = imageSrc && (
+  const hasMedia = !!(lottieSrc || imageSrc);
+  const illustrationContent = hasMedia && (
     <div
       className={cn(
         "shrink-0 rounded-[1.5rem] md:rounded-[2.1875rem] overflow-hidden",
@@ -200,12 +211,20 @@ export function FeatureFrame({
         backgroundColor: imageBgColor ?? defaultBg,
       }}
     >
-      <img
-        src={imageSrc}
-        alt={imageAlt ?? ""}
-        className="w-full h-auto rounded-[0.625rem] object-cover"
-        loading="lazy"
-      />
+      {lottieSrc ? (
+        <LottiePlayer
+          src={lottieSrc}
+          ariaLabel={imageAlt || undefined}
+          className="w-full h-auto rounded-[0.625rem]"
+        />
+      ) : (
+        <img
+          src={imageSrc}
+          alt={imageAlt ?? ""}
+          className="w-full h-auto rounded-[0.625rem] object-cover"
+          loading="lazy"
+        />
+      )}
     </div>
   );
 

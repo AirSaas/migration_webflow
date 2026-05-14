@@ -286,7 +286,7 @@ Les landings `lp` / `produit` / `solution` / `equipe` sont rendues par [`src/com
 |---|---|---|
 | `hero` | `<Hero>` (centered / split) | Top de page. Convention par catégorie : voir `workflow_section_patterns` (Équipes = centered, LP/Produit = centered, Solution = split light). |
 | `intro` | `<Heading>` + `<Text>` raw, optional subSections | Titre + paragraphe centré, sans image. Pour gradient title split, préfère `section-heading`. |
-| `feature-split` | `<FeatureFrame layout="inline">` | Workhorse : 1 image + texte côté-à-côté. Supporte `body` HTML, `bullets`, `subSections` (rendu en `→ h5 + p` dans le prose richContent pour le pattern CompositeImageWithArrowedText). |
+| `feature-split` | `<FeatureFrame layout="inline">` | Workhorse : 1 image + texte côté-à-côté. Supporte `body` HTML, `bullets`, `subSections` (rendu en `→ h5 + p` dans le prose richContent pour le pattern CompositeImageWithArrowedText), et **`lottieSrc`** pour les animations Bodymovin du live (rendu via `<LottiePlayer>` à la place de l'`<img>` dans le slot média — ex. `Programs-video.json` sur `/fr/equipes/comite-direction` section "Suivez l'avancée de vos programmes"). |
 | `pain-points` | `<Heading>` + `<ListInline bullet="circle-primary">` | "Vous vous reconnaissez ?" — emoji + heading + bullets. |
 | `stats` | `<ValuePropositionFrame>` + `<FeatureCard>` × N | KPIs row. Chaque item accepte `iconName?` (mappé via `iconNode`), `value`, `label`. Forward `titleHighlight` (gradient primary leadin). |
 | `logo-bar` | section inline avec `<img>` × N | Strip de logos clients/presse/partenaires. |

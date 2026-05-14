@@ -172,8 +172,11 @@ function renderSection(section: LandingSection, index: number): ReactNode {
 
     case "feature-split": {
       const hasImage = !!section.imageSrc;
-      // If no image, render as text-only intro variant (avoid placehold.co)
-      if (!hasImage) {
+      const hasLottie = !!section.lottieSrc;
+      const hasMedia = hasImage || hasLottie;
+      // If no media (image or Lottie), render as text-only intro variant
+      // (avoid placehold.co)
+      if (!hasMedia) {
         return (
           <section
             key={index}
@@ -228,8 +231,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
                 : null}
             </>
           }
-          imageSrc={section.imageSrc!}
+          imageSrc={section.imageSrc ?? undefined}
           imageAlt={section.imageAlt ?? ""}
+          lottieSrc={section.lottieSrc}
         />
       );
     }

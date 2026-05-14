@@ -64,6 +64,12 @@ export interface FeatureSplitSection {
   body?: string; // inline HTML (paragraphs, bullets)
   imageSrc?: string | null;
   imageAlt?: string;
+  /**
+   * Lottie/Bodymovin JSON URL — alternative to `imageSrc` for animated
+   * illustrations (Webflow `data-animation-type="lottie"` source files).
+   * Forwarded to `<FeatureFrame lottieSrc>` → `<LottiePlayer>`.
+   */
+  lottieSrc?: string;
   bullets?: string[];
   /** Inline CTA on the text side. */
   primaryCta?: { label: string; href: string };
