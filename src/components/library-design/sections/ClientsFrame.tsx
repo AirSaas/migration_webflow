@@ -139,7 +139,9 @@ export function ClientsFrame({
         )}
       </div>
 
-      <div className="grid w-full grid-cols-1 items-stretch gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3">
+      {/* Gap scales with viewport so 9-card grids stay breathable on tablet
+          and don't waste space on ultra-wide screens. */}
+      <div className="grid w-full grid-cols-1 items-stretch gap-[clamp(0.75rem,2vw,1.5rem)] md:grid-cols-2 lg:grid-cols-3">
         {children ??
           clients?.map((c, i) => <ClientCard key={i} {...c} />)}
       </div>

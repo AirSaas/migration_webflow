@@ -65,6 +65,22 @@ function QuoteIcon() {
  *             dedicated testimonials section. For plain inline italic text,
  *             use <Text italic>.
  *
+ * @dispatcher Registered section.type in `LandingPageV2`:
+ *   - `"quote-callout"` → renders <Quote variant="card" align="center">
+ *                         full-width inside a centering <section>. Backing
+ *                         type: `QuoteCalloutSection` in
+ *                         `src/types/landing.ts`. Use for the long-form
+ *                         brand-statement callout pattern recurring on
+ *                         solution / produit pages (e.g.
+ *                         /fr/solution/outils-de-pilotage-projet — "AirSaas
+ *                         est un PPM léger, qui s'intègre à l'existant…").
+ *                         Optional `highlight` field wraps a leading prefix
+ *                         of `body` with the primary gradient (typical use:
+ *                         the brand name "AirSaas").
+ *
+ * @stories    UI/Quote — `Default`, `WithAuthor`, `WithAuthorAvatar`,
+ *             `LeftAligned`, `WithoutIcon`, `PullCentered`, `PullLeftAccent`.
+ *
  * @limits
  *   - variant: "card" (default) | "pull" — editorial no-chrome
  *   - align: "center" (default, matches stacked FeatureFrame) | "left"

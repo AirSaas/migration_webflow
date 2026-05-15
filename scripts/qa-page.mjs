@@ -325,6 +325,24 @@ function checkSectionsCount(html, type, issues) {
   }
 }
 
+function checkFontSemibold(html, issues) {
+  // The foundry does not ship a SemiBold (600) cut of Product Sans, so any
+  // class/inline style requesting weight 600 triggers browser synthetic
+  // bolding (blurry rendering). DS policy: use font-medium (500) or
+  // font-bold (700) — never font-semibold. See src/app/globals.css.
+  const classMatches = html.match(/class="[^"]*\bfont-semibold\b[^"]*"/g) || [];
+  const styleMatches =
+    html.match(/style="[^"]*font-weight\s*:\s*600\b[^"]*"/gi) || [];
+  const total = classMatches.length + styleMatches.length;
+  if (total > 0) {
+    issues.push({
+      severity: "P1",
+      check: "fontSemibold",
+      details: `${total}× font-weight 600 usage (no SemiBold font file — triggers synthetic bold)`,
+    });
+  }
+}
+
 function checkConsoleHints(html, issues) {
   // Detect common dev artifacts that leak into prod
   if (/data-error="[^"]+"/i.test(html)) {
@@ -352,6 +370,7 @@ function runChecks(target, html, status) {
     checkNavbarPresent(html, issues);
     checkBlogHeadingDownshift(html, target.type, issues);
     checkSectionsCount(html, target.type, issues);
+    checkFontSemibold(html, issues);
     checkConsoleHints(html, issues);
   }
   return issues;

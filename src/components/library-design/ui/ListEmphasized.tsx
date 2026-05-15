@@ -9,25 +9,34 @@ interface ListEmphasizedProps {
 /**
  * ListEmphasized
  *
- * @purpose    Horizontal row of short text blocks separated by an orange left border — used to highlight 2–4 key points side-by-side.
- * @useWhen    Section intros that list a few emphasised takeaways (e.g. "3 bénéfices", short pillar statements) under a heading.
- * @dontUse    For long bulleted content — use <CheckList>. For vertical stacks with checkmarks, use <CheckList>.
+ * @purpose    Grid of short text blocks separated by an orange left border —
+ *             used to highlight key points side-by-side under a section heading.
+ * @useWhen    Section intros that list emphasised takeaways (e.g. "3 bénéfices",
+ *             short pillar statements). Typical inside `<FeatureSectionStacked>`.
+ * @dontUse    For long bulleted content — use <CheckList>. For vertical stacks
+ *             with checkmarks, use <CheckList>.
  *
  * @limits
- *   - items: 2–4 strings recommended (layout wraps column → row at md breakpoint)
+ *   - items: 2+ strings, no upper cap. Layout: 1 column on mobile, **3 per row
+ *     at `md+`** — from the 4th item onwards bullets wrap to the next line
+ *     (4 items → 3+1, 5 → 3+2, 6 → 3+3, etc.).
+ *
+ * @forbidden
+ *   - Do NOT pass className with typography / color overrides — the orange
+ *     left border + primary-70 text are the canonical visual.
  */
 export function ListEmphasized({ items, className }: ListEmphasizedProps) {
   return (
     <div
       className={cn(
-        "flex flex-col gap-[1.25rem] md:flex-row md:items-start md:gap-[1.5625rem] w-full max-w-[91.25rem]",
+        // Mobile: 1 column. md+: 3 columns, items wrap naturally onto new rows.
+        "grid grid-cols-1 md:grid-cols-3 gap-[1.25rem] md:gap-[1.5625rem] items-start w-full max-w-[91.25rem]",
         className,
       )}
     >
       {items.map((text, i) => (
         <div
           key={i}
-          className="flex-1"
           style={{ borderLeft: "2px solid var(--color-orange-bright)", paddingLeft: "0.9375rem" }}
         >
           <p

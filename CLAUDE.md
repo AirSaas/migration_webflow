@@ -10,6 +10,12 @@ Spec complète : `.context/attachments/SPEC_Migration_v4.0_FINAL.md`
 - **Stack** : Next.js 15, Tailwind, Strapi 5, next-intl (7 locales)
 - **Webflow Site ID** : `609552290d93fd43ba0f0849`
 
+## Page rebuild — prompt canónico
+
+Pour reconstruire N'IMPORTE QUELLE page du live (`/fr/lp/*`, `/fr/solutions/*`, `/fr/produit/*`, `/fr/blog/*`, etc.) : **suivre obligatoirement** [`docs/prompts/page-rebuild.md`](docs/prompts/page-rebuild.md).
+
+Ce prompt impose la fidélité verbatim du contenu (copy, cantidad de cards/bullets/icons, CTAs avec emojis/flèches, conjugaison) — appliqué sur tout le rebuild du site, pas seulement les landings LP. Il complète le QA process ci-dessous.
+
 ## Page rebuild QA — process obligatoire
 
 **RÈGLE ABSOLUE** : NE JAMAIS soumettre une URL/preview au user sans avoir validé les **3 niveaux de QA** ci-dessous. Le verifier `verify-rebuild.mjs` (text coverage) **ne suffit PAS**.
@@ -64,6 +70,7 @@ Sonnet 4.6 sur 88 pages ≈ ~$4-5 par run complet. Avec prompt caching (cache_co
 
 Règles absolues :
 - **Product Sans only** — pas d'autre font family, pas de Google Fonts
+- **Font weights supportés : 300 / 400 / 500 / 700 / 900 uniquement** — la fonderie ne livre pas de SemiBold (600). `font-semibold` est INTERDIT (déclenche du synthetic bolding du navigateur, rendu flou/lourd). Pour de l'emphase moyenne utiliser `font-medium` (500), pour de l'emphase forte `font-bold` (700). Voir `src/app/globals.css` en tête.
 - **Zéro hex / rgba hardcoded** — tous les couleurs passent par les tokens (palette alignée Figma)
 - **Zéro Tailwind palette par défaut** — pas de `bg-gray-*`, `text-slate-*`, etc.
 - **Zéro arbitrary Tailwind value** — pas de `bg-[#...]`, `text-[14px]`, etc.

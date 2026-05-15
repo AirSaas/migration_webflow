@@ -48,6 +48,17 @@ const LG_COLS_CLASS: Record<2 | 3 | 4 | 5 | 6, string> = {
   6: "lg:grid-cols-6",
 };
 
+// Intermediate breakpoint for tablets (768–1023px). Prevents the layout from
+// jumping straight from 2 cols (sm) to N cols (lg) when N ≥ 3 — picks a
+// sensible half-step so 3/5/6-col grids feel balanced on tablet.
+const MD_COLS_CLASS: Record<2 | 3 | 4 | 5 | 6, string> = {
+  2: "md:grid-cols-2",
+  3: "md:grid-cols-3",
+  4: "md:grid-cols-2",
+  5: "md:grid-cols-3",
+  6: "md:grid-cols-3",
+};
+
 export function ValuePropositionFrame({
   variant = "light",
   tag,
@@ -98,9 +109,11 @@ export function ValuePropositionFrame({
         )}
       </div>
 
-      {/* Grid of cards — passed as children for flexibility */}
+      {/* Grid of cards — passed as children for flexibility. Gap scales with
+          viewport to keep dense grids breathable on tablet. */}
       <div className={cn(
-        "grid grid-cols-1 gap-[1rem] items-stretch justify-center w-full max-w-[91rem] sm:grid-cols-2",
+        "grid grid-cols-1 gap-[clamp(0.75rem,1.5vw,1.25rem)] items-stretch justify-center w-full max-w-[91rem] sm:grid-cols-2",
+        MD_COLS_CLASS[columns],
         LG_COLS_CLASS[columns],
       )}>
         {children}

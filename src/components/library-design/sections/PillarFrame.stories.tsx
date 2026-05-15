@@ -6,6 +6,9 @@ import {
   CirclePlusIcon,
   ArrowsRotateIcon,
   GearsIcon,
+  LockKeyholeIcon,
+  IndustryIcon,
+  BullseyeArrowIcon,
 } from "@/components/library-design/ui/icons/illustration-icons";
 
 function LgIcon({
@@ -88,6 +91,59 @@ export const DAKI: Story = {
         example:
           "Améliorer la précision des maquettes pour couvrir tous les effets de bord.",
         exampleLabel: "Exemple",
+      },
+    ],
+  },
+};
+
+/**
+ * Compact 4-column variant — used for trust-badge rows (e.g. security:
+ * ISO 27001 / France-hosted / Pentest / SSO). Each card stays short
+ * (≤20-char title, ≤30-char description) to keep the strip visually balanced.
+ */
+export const FourColumns: Story = {
+  args: {
+    title: "au top",
+    titleHighlight: "Sécurité",
+    subtitle:
+      "AirSaas passe la porte des DSI les plus exigeantes.",
+    columns: 4,
+    pillars: [
+      {
+        icon: (
+          <LgIcon>
+            <LockKeyholeIcon />
+          </LgIcon>
+        ),
+        title: "ISO 27001",
+        description: "Certifié",
+      },
+      {
+        icon: (
+          <LgIcon>
+            <IndustryIcon />
+          </LgIcon>
+        ),
+        title: "Hébergé en France",
+        description: "Scaleway",
+      },
+      {
+        icon: (
+          <LgIcon>
+            <BullseyeArrowIcon />
+          </LgIcon>
+        ),
+        title: "Pentest",
+        description: "Résultats sur demande",
+      },
+      {
+        icon: (
+          <LgIcon>
+            <GearsIcon />
+          </LgIcon>
+        ),
+        title: "SSO / SAML",
+        description: "Intégration AD",
       },
     ],
   },

@@ -3,6 +3,7 @@ import { Tag } from "@/components/library-design/ui/Tag";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { Button } from "@/components/library-design/ui/Button";
+import { LottiePlayer } from "@/components/library-design/ui/LottiePlayer";
 import { ListInline } from "@/components/library-design/ui/ListInline";
 import { GradientText } from "@/components/library-design/ui/GradientText";
 
@@ -28,6 +29,22 @@ import { GradientText } from "@/components/library-design/ui/GradientText";
  *   - Do NOT mix `subtitle`, `richContent`, and `checklist` — pick one
  *     content strategy per instance
  *   - Do NOT use `imageSize="narrow"` with `layout="stacked"` (no effect)
+ *
+ * @convention **Alternate `imagePosition` in consecutive FeatureFrame sections.**
+ *   When a page renders N feature-splits in a row (e.g. "Les 5 clés d'or" or a
+ *   product feature list), alternate `imagePosition` between `"right"` and
+ *   `"left"` on every other section to create a zigzag visual rhythm:
+ *     1st → "right"  (image right, text left)
+ *     2nd → "left"   (image left,  text right)
+ *     3rd → "right"  …and so on.
+ *   This rule applies INDEPENDENTLY of what the live Webflow page does — the
+ *   live often has multiple consecutive "left" sections (Webflow class
+ *   `container__features__section left`), but the DS convention is strict
+ *   alternation. When a `cta-stacked` or `section-heading` interrupts the
+ *   feature-split sequence, the alternation RESTARTS at "right" for the next
+ *   feature-split. Same applies INSIDE a single group (e.g. inside "Les 5 clés
+ *   d'or" between consecutive narrow rich-content sections). Apply this to
+ *   ALL three `imageSize` variants (default / compact / narrow).
  */
 interface FeatureFrameProps {
   /** Layout — "inline" (default, text + image side by side) or "stacked" (text centered on top, image below) */
@@ -66,6 +83,14 @@ interface FeatureFrameProps {
   /** Screenshot/illustration source */
   imageSrc?: string;
   imageAlt?: string;
+  /**
+   * Lottie/Bodymovin JSON animation source — alternative to `imageSrc`.
+   * When set, renders `<LottiePlayer>` in the media slot instead of `<img>`.
+   * If BOTH `imageSrc` and `lottieSrc` are provided, the Lottie takes
+   * precedence (the image becomes the implicit fallback already shown by
+   * LottiePlayer's loading/error states).
+   */
+  lottieSrc?: string;
   /** Background color of the illustration frame */
   imageBgColor?: string;
   /** Optional DOM id on the root `<section>` — scroll-spy target for TabsFrame / TocSidebar. */
@@ -88,6 +113,7 @@ export function FeatureFrame({
   ctaHref = "#",
   imageSrc,
   imageAlt,
+  lottieSrc,
   imageBgColor,
   id,
   className,
@@ -101,7 +127,7 @@ export function FeatureFrame({
     ? "var(--color-primary-5)"
     : isRight
       ? "var(--color-primary-5)"
-      : "var(--color-prevention-10)";
+      : "var(--color-prevention-20)";
 
   const textContent = (
     <div
@@ -176,7 +202,8 @@ export function FeatureFrame({
     </div>
   );
 
-  const illustrationContent = imageSrc && (
+  const hasMedia = !!(lottieSrc || imageSrc);
+  const illustrationContent = hasMedia && (
     <div
       className={cn(
         "shrink-0 rounded-[1.5rem] md:rounded-[2.1875rem] overflow-hidden",
@@ -200,12 +227,20 @@ export function FeatureFrame({
         backgroundColor: imageBgColor ?? defaultBg,
       }}
     >
-      <img
-        src={imageSrc}
-        alt={imageAlt ?? ""}
-        className="w-full h-auto rounded-[0.625rem] object-cover"
-        loading="lazy"
-      />
+      {lottieSrc ? (
+        <LottiePlayer
+          src={lottieSrc}
+          ariaLabel={imageAlt || undefined}
+          className="w-full h-auto rounded-[0.625rem]"
+        />
+      ) : (
+        <img
+          src={imageSrc}
+          alt={imageAlt ?? ""}
+          className="w-full h-auto rounded-[0.625rem] object-cover"
+          loading="lazy"
+        />
+      )}
     </div>
   );
 

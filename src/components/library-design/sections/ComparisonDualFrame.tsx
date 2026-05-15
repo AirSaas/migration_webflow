@@ -63,14 +63,14 @@ function DualCard({
     <div
       className="flex gap-[1.4375rem] items-start bg-white rounded-[1.5625rem] border border-prevention-40"
       style={{
-        padding: "1.6875rem 1.375rem 1.6875rem 1.8125rem",
+        padding: "clamp(1rem, 2.5vw, 1.6875rem) clamp(0.875rem, 2vw, 1.375rem) clamp(1rem, 2.5vw, 1.6875rem) clamp(1rem, 2.5vw, 1.8125rem)",
         minHeight: "9.1875rem",
         ...(gridColumn ? { gridColumn } : {}),
         ...(gridRow ? { gridRow } : {}),
       }}
     >
       <GradientText gradient={gradient} className="font-bold shrink-0">
-        <span style={{ fontSize: "4.8125rem", lineHeight: "normal", display: "inline-block" }}>
+        <span style={{ fontSize: "clamp(2.5rem, 8vw, 4.8125rem)", lineHeight: "normal", display: "inline-block" }}>
           {item.value}
         </span>
       </GradientText>

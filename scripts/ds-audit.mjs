@@ -172,6 +172,10 @@ const RULE_EXCEPTIONS = {
   // PmoToolPage / OutilsPilotageProjetPage — rich-text <h4>/<h5> used inside FeatureFrame richContent prop
   "src/components/pages/PmoToolPage.tsx": ["no-raw-heading"],
   "src/components/pages/OutilsPilotageProjetPage.tsx": ["no-raw-heading"],
+  // LandingPageV2 dispatcher — emits raw <h5> for CompositeImageWithArrowedText
+  // subSections inside FeatureFrame's richContent prose wrapper (same canonical
+  // pattern as HomePage block 9 / outil-pmo newsletter sponsor).
+  "src/components/pages/LandingPageV2.tsx": ["no-raw-heading"],
   // FeatureFrame richContent prose utility classes intentionally style rich-text h4/h5
   // with Tailwind arbitrary selectors — accept as internal rich-text styling.
   "src/components/library-design/sections/FeatureFrame.tsx": ["no-inline-fontSize", "no-arbitrary-color-or-text"],

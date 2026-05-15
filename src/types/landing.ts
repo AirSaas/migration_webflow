@@ -15,6 +15,12 @@ export interface LandingMeta {
 /** Top hero with title + subtitle + primary CTA + optional mockup image. */
 export interface HeroSection {
   type: "hero";
+  /**
+   * Visual layout — defaults to "split" when an imageSrc is provided, otherwise
+   * "centered". Pass "centered" explicitly when the image should bleed
+   * full-width BELOW the headline (Équipes / LP convention), not beside it.
+   */
+  layout?: "centered" | "split";
   /** Optional small label above the title (eyebrow / pill). */
   tag?: string;
   /** First part of the title (often the gradient pill / accent). */
@@ -60,6 +66,11 @@ export interface FeatureSplitSection {
   tag?: string;
   title: string;
   titleHighlight?: string; // e.g. <strong> portion
+  /**
+   * When true, `titleHighlight` renders AFTER `title` (suffix-style gradient).
+   * Default false → highlight renders BEFORE title (prefix-style gradient).
+   */
+  titleHighlightAtEnd?: boolean;
   /** Optional trailing dark part of the title (after titleHighlight). */
   titleSuffix?: string;
   /** Optional small subtitle between title and body. */
@@ -67,6 +78,12 @@ export interface FeatureSplitSection {
   body?: string; // inline HTML (paragraphs, bullets)
   imageSrc?: string | null;
   imageAlt?: string;
+  /**
+   * Lottie/Bodymovin JSON URL — alternative to `imageSrc` for animated
+   * illustrations (Webflow `data-animation-type="lottie"` source files).
+   * Forwarded to `<FeatureFrame lottieSrc>` → `<LottiePlayer>`.
+   */
+  lottieSrc?: string;
   /** DS imageSize : default 60/40, narrow 33/67 (editorial), compact 40/60. */
   imageSize?: "default" | "compact" | "narrow";
   bullets?: string[];
@@ -91,7 +108,8 @@ export interface StatsSection {
   title?: string;
   titleHighlight?: string;
   subtitle?: string;
-  items: { value: string; label: string }[];
+  /** Each KPI: optional icon name (illustration-icons key) + bold value + descriptive label. */
+  items: { iconName?: string; value: string; label: string }[];
 }
 
 /** Logo bar (clients / press / partners). */
@@ -259,6 +277,66 @@ export interface CtaHighlightSection {
   ctaHref?: string;
 }
 
+/**
+ * Stacked CTA — `<CtaFrame>` with a single centered `<CardCta>` (Storybook
+ * story "Sections/Call to Action/CtaFrame → Stacked"). Use for the mid-page
+ * or closing "H2 + subtitle + 1 CTA" pattern that recurs on produit and
+ * équipes pages (e.g. "Vous voulez l'essayer ?" on
+ * /fr/produit/priorisation-par-equipes).
+ */
+export interface CtaStackedSection {
+  type: "cta-stacked";
+  title: string;
+  subtitle: string;
+  /**
+   * Optional title displayed INSIDE the inner CardCta (gradient H4). Omit when
+   * the live only provides H2 + subtitle on the outer frame and a single
+   * button on the inner card (typical for produit / équipes CTA banners on
+   * airsaas.io — page-rebuild rule: never invent copy the live doesn't
+   * provide).
+   */
+  cardTitle?: string;
+  /**
+   * Optional one-line description INSIDE the inner CardCta. Same rule as
+   * `cardTitle` — omit when the live doesn't provide an inner-card
+   * description.
+   */
+  cardDescription?: string;
+  ctaLabel: string;
+  ctaHref?: string;
+  floatingCards?: boolean;
+  id?: string;
+}
+
+/**
+ * Standalone quote callout — a centered card-style citation that breaks the
+ * reading flow with a key statement (e.g. brand manifesto sentence, expert
+ * insight). Renders `<Quote variant="card" align="center">` full-width.
+ * Use on long-form solution / produit pages where the live shows a
+ * highlighted `<p class="p--highlight">` block with an emphasized brand
+ * statement (e.g. /fr/solution/outils-de-pilotage-projet — "AirSaas est un
+ * PPM léger, qui s'intègre à l'existant...").
+ */
+export interface QuoteCalloutSection {
+  type: "quote-callout";
+  /**
+   * The quote body. Plain string or rich JSX — use the latter when part of
+   * the text needs the primary gradient (e.g. the brand name "AirSaas"
+   * highlighted at the start of the statement).
+   */
+  body: string;
+  /**
+   * Optional fragment of the body to render with the primary gradient.
+   * When set, the dispatcher wraps the matching prefix of `body` with
+   * <GradientText gradient="primary">. Typical use: highlight the brand
+   * name "AirSaas" at the start. Must be a prefix of `body` (no fuzzy match).
+   */
+  highlight?: string;
+  /** Hide the decorative quote icon. Default false (icon shown). */
+  hideIcon?: boolean;
+  id?: string;
+}
+
 /** Numbered comparison list (pain-points alternate variant with value/desc tuples). */
 export interface ComparisonFrameSection {
   type: "comparison-frame";
@@ -324,6 +402,90 @@ export interface ValuePropositionSection {
   }[];
 }
 
+/** Standalone DS SectionHeading — gradient + optional dark portion + subtitle, no image. */
+export interface SectionHeadingSection {
+  type: "section-heading";
+  /** Primary-gradient portion of the title (rendered first). Max ~50 chars. */
+  titleGradient: string;
+  /** Dark portion of the title rendered after the gradient (joined by a space). Max ~60 chars. */
+  titleDark?: string;
+  subtitle?: string;
+}
+
+/** TestimonialsFrame with mixed press (TestimonialCompanyCard) + personal (TestimonialCard) children. */
+export interface MixedTestimonialsSection {
+  type: "mixed-testimonials";
+  /** Dark-to-primary gradient portion of the heading. */
+  title: string;
+  /** Primary gradient portion of the heading (rendered after `title`). */
+  titleHighlight?: string;
+  /** Press / publication quotes (logo + quote). */
+  press: { quote: string; logoSrc: string; logoAlt: string }[];
+  /** Personal LinkedIn-style testimonials (avatar + name + role + quote). */
+  personal: {
+    quote: string;
+    name: string;
+    role?: string;
+    avatarSrc?: string | null;
+    linkedinHref?: string;
+  }[];
+  /** Optional read-more affordance label (locale-driven). */
+  readMoreLabel?: string;
+  /** Optional read-less affordance label (locale-driven). */
+  readLessLabel?: string;
+}
+
+/** SliderFrame — title + subtitle + 2-8 image carousel. */
+export interface SliderSection {
+  type: "slider";
+  variant?: "light" | "dark";
+  /** Primary-gradient portion of the title. Max 40 chars. */
+  titleHighlight: string;
+  /** Dark / rest portion of the title. Max 70 chars. */
+  titleRest: string;
+  subtitle: string;
+  slides: { imageSrc: string; imageAlt?: string }[];
+}
+
+/** ComparisonDualFrame — paired avec/sans cards with numbered values. */
+export interface ComparisonDualSection {
+  type: "comparison-dual";
+  /** Dark-to-primary gradient portion of the title. Max 70 chars. */
+  titlePrefix: string;
+  /** Primary gradient portion of the title. Max 30 chars. */
+  titleHighlight: string;
+  /** Optional override for the "Sans" pill label. Max 20 chars. */
+  sansLabel?: string;
+  /** Optional override for the "Avec" pill label. Max 20 chars. */
+  avecLabel?: string;
+  sansItems: { value: string | number; description: string }[];
+  avecItems: { value: string | number; description: string }[];
+  ctaLabel?: string;
+  ctaHref?: string;
+}
+
+/** ClientsFrame — 6-9 ClientCard grid with optional collection CTA. */
+export interface ClientsSection {
+  type: "clients";
+  variant?: "light" | "tinted";
+  /** Dark-to-primary gradient portion of the heading. Max 80 chars. */
+  title: string;
+  /** Primary gradient trailing portion. Max 40 chars. */
+  titleHighlight?: string;
+  subtitle?: string;
+  clients: {
+    avatarSrc: string;
+    avatarAlt?: string;
+    name: string;
+    jobTitle: string;
+    companyName: string;
+    /** Sector / size / link rows shown in the bottom tinted section of the card. */
+    infoRows?: { iconName?: string; label: string; value: string }[];
+  }[];
+  collectionCtaLabel?: string;
+  collectionCtaHref?: string;
+}
+
 /** Rich steps frame with explicit numbers + icons (variant of "steps"). */
 export interface StepsRichSection {
   type: "steps-rich";
@@ -360,12 +522,19 @@ export type LandingSection =
   | TrustBadgesSection
   | TabsFrameSection
   | CtaHighlightSection
+  | CtaStackedSection
+  | QuoteCalloutSection
   | ComparisonFrameSection
   | PillarFrameSection
   | HighlightFrameSection
   | FeatureStackedSection
   | ValuePropositionSection
   | StepsRichSection
+  | SectionHeadingSection
+  | MixedTestimonialsSection
+  | SliderSection
+  | ComparisonDualSection
+  | ClientsSection
   | RawSection;
 
 export interface LandingPage {
