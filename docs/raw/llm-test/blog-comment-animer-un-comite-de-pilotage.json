@@ -1,0 +1,642 @@
+{
+  "type": "blog",
+  "slug": "comment-animer-un-comite-de-pilotage",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment animer un comité de pilotage ?",
+      "h1": "Comment animer un comité de pilotage ?",
+      "description": "Réussir un comité de pilotage est un objectif atteignable pour tout chef de projet si la réunion et le chef de projet sont bien préparés. Découvrez les bonnes pratiques pour animer votre Copil.",
+      "publishedDate": "4/7/2022",
+      "author": {
+        "name": "Jonas Roman",
+        "category": "Gestion de projets",
+        "publishedDate": "4/7/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62c2f39c78a60c6233a66aa7_1543845869071.jpeg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea8ab124f16482759fdc57_animer-comite-pilotage.jpg",
+        "alt": "Comment animer un comité de pilotage"
+      }
+    },
+    "toc": [
+      {
+        "label": "Les déboires à éviter pendant un comité de pilotage",
+        "href": "#les-deboires-a-eviter-pendant-un-comite-de-pilotage"
+      },
+      {
+        "label": "Arriver préparé au comité de pilotage du projet",
+        "href": "#arriver-prepare-au-comite-de-pilotage-du-projet"
+      },
+      {
+        "label": "Comprendre la dynamique interne et l'utiliser à l'avantage du projet",
+        "href": "#comprendre-la-dynamique-interne-et-lutiliser-a-lavantage-du-projet"
+      },
+      {
+        "label": "Communiquer au bon niveau",
+        "href": "#communiquer-au-bon-niveau"
+      },
+      {
+        "label": "Ne pas laisser d'objections sans réponses",
+        "href": "#ne-pas-laisser-dobjections-sans-reponses"
+      },
+      {
+        "label": "Si vous ne faites pas partie de la solution, vous faites partie du problème",
+        "href": "#si-vous-ne-faites-pas-partie-de-la-solution-vous-faites-partie-du-probleme"
+      },
+      {
+        "label": "Les bonnes pratiques et la bonne attitude pour animer votre comité de pilotage",
+        "href": "#les-bonnes-pratiques-et-la-bonne-attitude-pour-animer-votre-comite-de-pilotage"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc989902f_62ea864fdf96d8a2b9c81fd7_animer-copil-min.jpeg",
+        "alt": "animation copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Réussir un comité de pilotage est un objectif atteignable pour tout chef de projet si la réunion et le chef de projet sont bien préparés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous les fondamentaux de cette démarche sont à retrouver dans notre article de référence : <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases.</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-deboires-a-eviter-pendant-un-comite-de-pilotage",
+        "text": "Les déboires à éviter pendant un comité de pilotage"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-12-ou-non-decisions",
+        "text": "Les 1/2 ou non-décisions"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67f39e7a769ea6a386d98f58_62c297e8577b6c8fcb6f4c2c_decision-copil-min.jpeg",
+        "alt": "1/2 ou non-décisions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme vu dans un précédent article : <strong>1/2 décision = bordel²</strong> et c'est certainement le KPI numéro 1 pour le chef de projet et le Copil. Toutes les décisions à prendre sur cette réunion ont-elles été prises ? Quel serait l'impact si elles n'étaient pas prises ou que partiellement ? Le chef de projet a-t-il apporté suffisamment d'informations nécessaires permettant la prise de toutes les décisions ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tandis que les deux dernières questions doivent se poser <strong>pendant la préparation du Copil,</strong> la première est <strong>un enjeu d'animation et de management</strong> de la réunion. Cet article doit permettre de mettre en lumière quelques points clés à utiliser pour s'assurer que vous en obteniez les livrables nécessaires et attendus"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "ne-pas-savoir-trancher-ou-toujours-chercher-le-consensus",
+        "text": "Ne pas savoir trancher ou toujours chercher le consensus"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc9899018_62c2980cbf670d5c4ae2a238_copil-trancher-min.jpeg",
+        "alt": "Trancher en copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "D'où l'importance pour le chef de projet, avec le support du sponsor, de bien expliquer les règles du jeu. Il se peut que dans nombre d'organisations le chef de projet soit une séniorité inférieure aux tops managers de l'entreprise présents dans cette réunion du comité. Pourtant, comme dans ses interactions avec des parties prenantes plus opérationnelles sans lien hiérarchique, il devra savoir faire bouger les lignes et savoir obtenir les éléments nécessaires à la bonne exécution du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "N'oubliez pas que le chef de projet représente quelque part le sponsor. À ce titre, il représente également la volonté du sponsor que les sujets avancent. Il doit savoir recadrer la réunion, les évènements et personnalités qui pourraient perturber le déroulement du Copil."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il doit également savoir trancher et prendre des positions (en accord avec les axes stratégiques qu'il aura défini avec le sponsor) afin de mettre le projet dans la bonne direction, et aussi pour gagner en efficacité opérationnelle. Chercher à ce que tout le monde soit d'accord, tout le temps et en même temps, est le meilleur moyen de perdre un maximum de temps ou d'arriver à des impasses de non-décisions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il ne s'agit pas de prendre des décisions autoritaires sans considérations pour les positions des autres parties prenantes. Il s'agit de donner un cadre dans lequel se concentrer en laissant de côté les éléments superflus au regard des informations en possession du sponsor et du chef de projet dans l'intérêt global de l'entreprise. Car à la fin, ce sont les deux personnes qui sont censés avoir la vision la plus précise sur le projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-tensions-frustrations-et-les-non-dit",
+        "text": "Les tensions, frustrations et les non-dit"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc9899035_62f3bde387c5546b9f7930d2_Image%25201-min.jpeg",
+        "alt": "Ne laissez pas la frustration s'installer",
+        "caption": "Ne laissez pas la frustration s'installer"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le point précédent, comme d'autres (relations de pouvoir, conduite du changement...) peuvent générer des tensions et des frustrations parmi les parties prenantes du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est important de pouvoir désamorcer les tensions et les frustrations <strong>en dehors du comité de pilotage</strong>, de préférence avant, afin de <strong>garantir l'efficacité et la démarche positive du projet</strong>. On ne voudrait pas que certaines frustrations ou tensions génèrent du doute quant à la faisabilité ou à l'intérêt du projet pour de mauvaises raisons."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il s'agit <strong>d'identifier en amont qu'est-ce qui génère des tensions ou frustrations</strong> et pour qui afin de mettre en place les bonnes actions : cela peut-être une prise en considération du chef de projet des objections ou points d'attentions de certaines parties prenantes, de les traiter et si le désaccord persiste d'impliquer le sponsor dans sa résolution. Ce qui n'est pas toujours facile, mais <strong>une démarche transparente et sincère du chef de projet</strong> devrait suffire à ne pas le \"griller\" opérationnellement auprès des parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Le plus critique pourrait être les non-dits</strong>, car ils peuvent avoir un impact fort sur les risques et problèmes pesant sur le projet. Le chef de projet doit savoir instaurer un climat de confiance et savoir faire participer ceux qui restent plus en retrait, soit par pression de ses pairs, soit parce qu'il n'ose pas devant les autres top managers ou tout simplement parce qu'il n'est pas assez impliqué. <strong>Sachez creuser quand vous ressentez qu'on ne vous dit pas tout</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-mauvaise-gestion-du-temps",
+        "text": "Une mauvaise gestion du temps"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc9899038_62f3bf05eafac550e2658985_Image%25202-min.jpeg",
+        "alt": "le respect du timing est essentiel",
+        "caption": "Le respect du timing est essentiel"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce facteur pouvant facilement être évité avec une bonne préparation et un bon time-keeper, est responsable de beaucoup de non-décisions et d'une mauvaise transmission de l'information. Il est donc important d'avoir prévu le temps nécessaire pour aborder tous les points clés (n'hésitez pas d'ailleurs à faire des <strong>dry run</strong> (filage) de votre présentation et interactions si vous avez des doutes sur le timing)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il sera également important de faire un bon time-keeping et de savoir traiter les évènements chronophage pouvant survenir dans la réunion (monopolisation de la parole, digression, comportements.... - autant de points développés plus loin dans cet article)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "arriver-prepare-au-comite-de-pilotage-du-projet",
+        "text": "Arriver préparé au comité de pilotage du projet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc989901b_62ea877fb102af4f6ce267be_prepa-copil-min.jpeg",
+        "alt": "Préparation copil"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "des-objectifs-clairs-et-bien-definis-prepares-en-amont-avec-le-sponsor",
+        "text": "Des objectifs clairs et bien définis, préparés en amont avec le sponsor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit s'assurer qu'à la fin du Copil tous les arbitrages, décisions et déblocages de points chauds soient traités en lien avec le rôle de ce type de réunion :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Prendre des décisions et faire des arbitrages.</strong>",
+          "<strong>Veiller au bon déroulement du projet</strong> et s'assurer qu'il est <strong>en accord avec les stratégies globales de l'entreprise.</strong>",
+          "<strong>Évaluer la qualité et la santé du projet à chaque réunion</strong>. Si certains problèmes doivent être améliorés, les principaux intervenants peuvent les soulever pour les résoudre.",
+          "<strong>Donner au chef de projet le pouvoir d'agir</strong> et d'utiliser les ressources de l'entreprise pour mener l'exécution, l'avancement du projet.",
+          "<strong>Résoudre les conflits entre départements</strong>, les problèmes liés au coût, au temps, au risque, aux ressources, à la qualité et à la portée.",
+          "<strong>Surveiller les progrès du projet par rapport aux objectifs convenus</strong> et <strong>résoudre les problèmes</strong> qui ne permettent pas au projet de progresser à temps."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "un-support-de-presentation-efficace",
+        "text": "Un support de présentation efficace"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc9899052_62f3bfd037dc739b7a64b6cd_copil-support-min-min.jpeg",
+        "alt": "support copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien utilisé et bien fait, c'est un outil redoutable pour driver la réunion autour des points essentiels, distiller toutes les informations clés, de manière organisée et synthétique, permettant la prise de décisions et les arbitrages pendant ce même Copil."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc989904f_62f3c0900b52a6345e13d483_screen%2520home%2520intro-min.jpeg",
+        "alt": "Vue interface AirSaas",
+        "caption": "AirSaas - Vue Kanban des projets"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-bons-participants",
+        "text": "Les bons participants"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quels acteurs du projet et de l'entreprise rassembler dans la réunion du comité de pilotage du projet que vous allez animer ? Voici quelques points pour assurer une prise de décision et un bon déroulement de ce moment-clé."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Les participants doivent avoir une influence, une autorité, et disposer d'un pouvoir décisionnel dans leurs différents services et sur leurs ressources.",
+          "Les éléments moteurs du projet en interne et les évangélistes doivent y être invités.",
+          "Les intervenants externes de compétences et d'autorité pouvant apporter leur expertise sur le projet peuvent être intéressants à intégrer à la réunion."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "connaitre-la-position-des-membres-du-comite",
+        "text": "Connaître la position des membres du comité"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une des activités du chef de projet est de connaître tout au long du projet, la position et le parti pris des membres sur les différents sujets et les points de tension/objections, et il doit avoir une stratégie pour les désamorcer (en accord avec le sponsor)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les points précédents ne sont qu'un rappel de quelques points clés sur le sujet, si vous voulez en savoir plus, retrouvez notre article dédié : <a href=\"#\">Comment bien préparer un comité de pilotage ?</a>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pas-besoin-de-tout-savoir-pour-tout-utiliser",
+        "text": "Pas besoin de tout savoir pour tout utiliser"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc989903b_62f3c1360d180fea011579fd_Image%25203-min.jpeg",
+        "alt": "Illustration utiliser infos copil"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Connaître ses chiffres</strong>. Le chef de projet doit connaître l'ensemble des chiffres clés à sa disposition, et doit avoir une stratégie claire pour obtenir les chiffres manquants. En revanche, quand il s'agit de détails très opérationnels et spécifiques, il peut être imprécis, mais surtout pas faux. Savoir s'entourer et impliquer ceux qui ont la connaissance attendue est primordial.",
+          "<strong>Connaître l'étendue technique du projet et ses points de blocages/frictions/risques</strong>. Il doit savoir les comprendre, se les faire expliquer, mais surtout être capable de les restituer et les simplifier afin d'en faciliter la compréhension par tous."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comprendre-la-dynamique-interne-et-lutiliser-a-lavantage-du-projet",
+        "text": "Comprendre la dynamique interne et l'utiliser à l'avantage du projet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc989903e_62ea8802bbc78240c8662362_copil-dynamique-min.jpeg",
+        "alt": "Jeu échec"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans une entreprise, particulièrement au-delà d'une certaine taille, il y aura quasiment toujours des enjeux de politiques internes ou à caractère individuel. Des occasions pour certains de se mettre en avant ou de retarder/bloquer l'avancement du projet si celui-ci ne sert pas leurs intérêts ou celui de leurs missions principales."
+      },
+      {
+        "type": "paragraph",
+        "html": "Connaître et comprendre l'impact du déroulement d'un projet sur les différentes parties prenantes permettra au chef de projet d'anticiper une des principales causes d'échecs : l'humain, la peur du changement, et les relations de pouvoir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il revient donc au chef de projet de comprendre et d'analyser ces aspects au plus tôt dans le projet, afin de désamorcer ces risques - soit en mettant en place des stratégies de win-win, soit en actionnant le sponsor sur les aspects les plus bloquants afin qu'il remette l'intérêt global de l'entreprise au centre de la démarche."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ne pas prendre personnellement les réactions des éléments freins est pour le chef de projet une opportunité d'utiliser leurs objectifs personnels de manière positive, s'il arrive à les aligner avec l'intérêt du projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "communiquer-au-bon-niveau",
+        "text": "Communiquer au bon niveau"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "connaissez-votre-audience",
+        "text": "Connaissez votre audience"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc9899055_62f3c1a064f6eb72b7266143_Image%25204-min.jpeg",
+        "alt": "Le bon message, le bon ton, le bon niveau de détail",
+        "caption": "Le bon message, le bon ton, le bon niveau de détail"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est évident que le chef de projet doit adapter son discours et le contenu du comité en fonction de son audience et de ce dont les membres ont besoin comme niveau et quantité d'information pour prendre des décisions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sachant qu'il y a souvent des membres du Codir et/ou des top managers de l'entreprise dans le Copil, on privilégiera une présentation un peu plus \"high level\" en remettant le cadre du projet et la présentation au niveau des objectifs, enjeu et stratégie de l'entreprise. On évitera donc de trop rentrer dans les détails en donnant assez de contexte tout en allant droit au bout vers les arbitrages."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "ne-cristallisez-pas-sur-les-details-et-les-frustrations",
+        "text": "Ne cristallisez pas sur les détails et les frustrations"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc989904c_62ea8874f01323dfddc058c6_details-copil-min.jpeg",
+        "alt": "Illustration neige"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion des détails doit rester dans le champ d'action opérationnel. Le rôle du chef de projet et de bien les synthétiser pour mettre l'accent sur ce qui a bien fonctionné et sur les facteurs bloquants. Juste assez pour comprendre une problématique, ni plus ni moins."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les top managers et les membres du comité de direction sont là pour prendre des décisions dimensionnantes sur la direction du projet ou l'accès aux ressources, et comprendre pourquoi les arbitrages sont critiques."
+      },
+      {
+        "type": "paragraph",
+        "html": "Donc sachez regrouper les détails et frustrations métiers derrière un plus gros enjeu et derrière un arbitrage plus important, afin que la gestion des détails en découle et soit évidente pour le chef de projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "ne-soyez-pas-trop-dans-la-technique",
+        "text": "Ne soyez pas trop dans la technique"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc9899041_62ea88a8f0132360adc059f9_details-tech-copil-min.jpeg",
+        "alt": "image Tech data centric"
+      },
+      {
+        "type": "paragraph",
+        "html": "A moins que vous ayez envie de perdre une partie ou tout le monde en route et que les membres du comité de pilotage repartent avec plus de questions que de réponses, la bonne approche ici pour le chef de projet et de savoir vulgariser les aspects techniques pour aller à l'essentiel, tout en donnant suffisamment d'information pour ne pas donner l'impression que les informations ne sont pas fiables /abouties."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet a le droit d'être imprécis sur certains aspects techniques, mais il n'a pas le droit d'être faux. Prendre des décisions sur des données ou informations fausses se retrouvera toujours en bout de chaîne comme un risque important ou une cause d'échec. Cette notion devrait s'étendre à tous les membres du Copil, et le chef de projet doit toujours croiser les informations de plusieurs sources avec expertise afin de pouvoir recadrer ou faire préciser les mauvaises interventions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "sachez-lier-pour-votre-audience-loperationnel-a-la-strategie-big-picture",
+        "text": "Sachez lier pour votre audience l'opérationnel à la stratégie \"big picture\""
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc9899106_62f3c2112e7c8d1f83911955_image%25205.jpeg",
+        "alt": "To the moon !",
+        "caption": "To the moon !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour bien animer un comité de pilotage, le project manager doit toujours se poser la question de quelle information et quel niveau d'information son audience à besoin, et à quel niveau les membres de son audience peuvent et ont l'habitude d'opérer. Et sans remettre les détails dans le contexte de l'enjeu stratégique ou de la vision macro, rien ne pourrait permettre à tous les membres de comprendre la pertinence pour eux de rentrer dans des détails d'exécution."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le project manager doit être force de proposition en matière de solutions qui s'intègrent dans la vision globale. Il doit être capable de participer, déclencher et prendre des positions pas seulement sur les aspects opérationnels, mais aussi dans des échanges plus \"high level\". Son rôle n'est pas d'arbitrer, mais de faire un cadrage, de faciliter et de mettre en position favorable les autres membres pour arbitrer."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "investissez-dans-le-positif",
+        "text": "Investissez dans le positif !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un comité de pilotage et même dans cet article, il est difficile de parler de gestion de projet sans parler de gestion des risques et facteurs bloquants. En revanche même si cela fait partie du jeu, votre comité de pilotage peut-être bien différent de ce qui se fait ailleurs si vous faites la promotion des accomplissements et des succès."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pensez à valoriser ce qui marche et ce qui a fonctionné, ritualisez les bravos et les mercis, c'est l'occasion de mettre en valeur les points forts de l'entreprise et encourager la bonne implication et les bonnes dynamiques et l'impact positif sur l'enjeu du projet et le résultat pour l'entreprise ainsi que pour les utilisateurs finaux. Cela donnera plus de vigueur et de sens à vos équipes projets, insufflera un bien meilleur état d'esprit et pérennisera l'engagement des parties prenantes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "ne-pas-laisser-dobjections-sans-reponses",
+        "text": "Ne pas laisser d'objections sans réponses"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc98990fd_62ea890cba10f58590f90f0b_feedback-copil-min.jpeg",
+        "alt": "Traitement objections copil"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "connaitre-les-objections-a-lavance-et-sachez-reporter-a-plus-tard-la-reponse-aux-objections-secartant-de-lordre-du-jour",
+        "text": "Connaître les objections à l'avance et sachez reporter à plus tard la réponse aux objections s'écartant de l'ordre du jour"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour plus d'informations sur cette partie vous pouvez consulter l'article \"<a href=\"http://www.airsaas.io/fr/gestion-de-projet/preparer-comite-de-pilotage-d-un-projet\" target=\"_blank\">Comment préparer un comité de pilotage</a> ?\" et \"<a href=\"#\">Copil projet, 5 astuces pour que tout se passe bien</a>\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "gerer-quand-la-reunion-derape",
+        "text": "Gérer quand la réunion dérape"
+      },
+      {
+        "type": "paragraph",
+        "html": "En cas de difficultés trop importantes (agressivité, refus d'avancer, tensions palpables) n'hésitez pas ! c'est le moment de faire une pause, d'analyser la situation et de prendre des actions correctives avec le sponsor."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "comment-gerer-les-personnes-negatives",
+        "text": "Comment gérer les personnes négatives"
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans rentrer dans une liste trop exhaustive, on peut citer trois cas récurrents."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour les personnes qui ont tendance à monopoliser la parole ou à digresser, n'hésitez pas à recadrer les propos en les recentrant sur les objectifs de la réunion et mettre l'accent sur le fait que vous avez entendu et que vous traiterez ces points ultérieurement. Si ce n'est pas suffisant, profitez d'un propos de cette personne pour donner la parole à un autre membre - de préférence un allié qui reviendra naturellement dans le cadre de la réunion."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour les personnalités agressives ou opposantes en tout point, apaisez les débats en recentrant sur les éléments factuels et objectifs et proposez au plus récalcitrant de proposer des solutions à leur propre objections afin de remettre une démarche constructive."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si le seul objectif est de déstabiliser l'animateur ou la réunion et qu'ils ne souhaitent pas jouer le jeu en étant force de proposition, rappelez avec calme et bienveillance que celui qui ne fait pas partie de la solution fait donc partie du problème."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour les personnes plus effacées qui pourraient donner lieu à des non-dits, il convient de les inciter à s'exprimer en mettant l'accent sur la valeur de leurs participations et leurs compétences."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "avoir-des-allies",
+        "text": "Avoir des alliés"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc989905f_62f3c27224b1d51fbcc57f23_Image%25206-min.jpeg",
+        "alt": "Cherchez du soutien",
+        "caption": "Cherchez du soutien"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'animateur et/ou le chef de projet ne sera pas toujours dans la position idéale pour traiter toutes les objections ou gérer toutes les attitudes et comportements n'allant pas dans l'intérêt du projet. Pour cela il doit pouvoir s'appuyer sur d'autres membres plus légitimes dans certaines situations pour pouvoir prendre position et désamorcer des situations."
+      },
+      {
+        "type": "paragraph",
+        "html": "En outre, le chef de projet doit avoir autour de lui dans l'équipe projet des éléments moteurs qui partagent la même vision et qui feront en sorte de pouvoir aider le projet. Plus le chef de projet aura le soutien de personnes influentes dans l'entreprise, plus il aura des leviers d'actions intéressants pour faire avancer le projet et ne pas se griller avec les membres opérationnels ou les métiers."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "si-vous-ne-faites-pas-partie-de-la-solution-vous-faites-partie-du-probleme",
+        "text": "Si vous ne faites pas partie de la solution, vous faites partie du problème"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc9899102_62ea89db5bd878780e413c4f_copil-solution-pb-min.jpeg",
+        "alt": "Résolution risques copil chef de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et pour trouver des solutions encore faut-il qu'il y ait des problèmes et savoir bien les identifier."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si il y a bien un champ de compétences dans lequel le chef de projet devrait exceller, c'est bien dans l'identification et la résolution des risques et des problèmes. Les risques sont des problèmes en devenir et bien anticiper les problèmes clés est la compétence numéro 1 du chef de projet (soit \"lever les loups\")."
+      },
+      {
+        "type": "paragraph",
+        "html": "Rien d'extraordinaire ou de \"cutting edge\" dans l'idée de mélanger \"chef de projet\" avec \"gestion des risques\" et \"problem solving\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Le secret ici c'est d'adopter une approche la plus pragmatique possible en allant à l'essentiel. Plus le chef de projet écartera le superflue du projet, plus il limitera les facteurs de risques et les problèmes rencontrés. Soumettez chaque nouvel aspect/changement/fonction en plus dans votre projet avec une réflexion de risk/reward."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et si le chef de projet ne peut pas avoir de contrôle sur le risque/problème, alors il doit être proactif dans sa recherche de solution pour annuler la conséquence si le problème se manifeste et s'appuyer sur son sponsor ou sur le comité en cas de décisions difficiles à prendre."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Quel rapport avec l'animation du comité de pilotage ?</strong> Car tous les problèmes ont tendance à se cristalliser pendant ces réunions, et le rôle du chef de projet n'est pas seulement de faire remonter les problèmes identifiés, mais il se doit d'être force de proposition et avoir des options et stratégies à soumettre au sponsor ou au comité de pilotage pour les résoudre."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-bonnes-pratiques-et-la-bonne-attitude-pour-animer-votre-comite-de-pilotage",
+        "text": "Les bonnes pratiques et la bonne attitude pour animer votre comité de pilotage"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc9899029_62ea8a14bbc7822eed6635a0_copil-bestpractice-min.jpeg",
+        "alt": "attitude copil"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "du-dynamisme",
+        "text": "Du dynamisme"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avez-vous déjà été dans une réunion où vous avez l'impression qu'elle ne se termine jamais ? Où vous trouvez que c'est lent.. trop lent... et vous êtes déjà en train de penser à tout ce que vous auriez pu faire, faire avancer, si seulement vous n'étiez pas coincé dans cette réunion dans laquelle l'animateur vous endort avec des phrases à rallonge, alors que dès la moitié de la phrase vous aviez déjà compris où il voulait vous amener ? Ce n'est pas toujours qu'il aime s'écouter parler, mais peut-être est-ce parce qu'il ne communique pas efficacement et au bon niveau."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet 2.0 ne doit pas être cette personne là. Il sait qu'il rassemble dans le Copil des tops managers de l'entreprise, somme toute, suffisamment bien câblés, et par ailleurs suffisamment occupés, pour que tout le monde apprécie qu'on aille droit au but, avec énergie et des phrases claires et concises. La préparation du <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comite-de-pilotage-definitions-et-incomprehensions\" target=\"_blank\">comité de pilotage</a> aidera le chef de projet à gagner de cette efficacité attendue et appréciée."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Le niveau d'énergie du comité de pilotage dépendra du niveau d'énergie imprimé par l'animateur.</strong> Comme nous le savons aujourd'hui les émotions et attitudes sont contagieuses, et les membres du Copil se calqueront sur l'énergie de l'animateur. Et s'il est mou, alors la dynamique de la réunion sera molle est pesante, voire même déclenchera l'ennui et l'inattention. Un tel leadership n'est pas toujours facile, mais cela s'apprend ou s'acquiert avec un peu d'expérience et en adoptant les quelques astuces suivantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Parmi ces astuces, notez que les contenus, sujets, et moments collaboratifs doivent s'enchainer de manière fluide et logique. Par ailleurs, n'hésitez pas à faire preuve d'originalité en optant par exemple pour des supports de présentation collaboratifs, ou en changeant de cadre, à l'instar de cette bonne vieille salle de réunion."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-gestion-du-temps-optimale",
+        "text": "Une gestion du temps optimale"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e9669d963bc989905b_62ea8a49925c8b1ad30e9706_copil-gdt-min.jpeg",
+        "alt": "Gestion temps copil"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "qui-est-le-bon-time-keeper",
+        "text": "Qui est le bon time-keeper ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans l'idéal il s'agit d'une autre personne que le chef de projet, ce qui lui permettra de se concentrer sur l'animation du comité de pilotage et de se libérer de cette charge mentale afin de se concentrer sur le contenu des échanges et sur le déroulement de la réunion."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette autre personne doit être un élément moteur impliqué du projet et bien saisir tout l'enjeu de pouvoir aborder tous les points essentiels de l'ordre du jour. Un allié du chef de projet qui a de l'influence ou la sympathie des membres du comité de pilotage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela permettra d'ailleurs de faciliter l'animation du chef de projet si il n'est pas l'unique personne à devoir interrompre ou recadrer des participants."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "comment-bien-faire-respecter-le-temps-imparti",
+        "text": "Comment bien faire respecter le temps imparti ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "En plus des éléments cités précédemment sur les dérapages et la monopolisation de la parole, il est conseillé de prendre une marge de manœuvre dans le temps prévu pendant la préparation afin d'absorber certains débordements, soyons clairs, un Copil c'est comme un projet même très bien préparé il peut toujours y avoir des imprévus, alors autant les prévoir et si tous les points ont été traités avant la fin de la réunion, personne n'aura de ressenti négatif sur le fait d'avoir été efficace, bien au contraire."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "noter-les-moments-et-actions-cles-ainsi-que-les-decisions",
+        "text": "Noter les moments et actions clés ainsi que les décisions"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d866e8669d963bc989902c_62ea8a82700b63fab262f250_copil-moments-min.jpeg",
+        "alt": "Prise de notes copil"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "definir-qui-prend-les-notes-et-dans-quel-format",
+        "text": "Définir qui prend les notes et dans quel format"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'animateur peut difficilement animer le comité et prendre des notes en même temps. L'idéal est de trouver quelqu'un de rigoureux et promoteur du projet afin d'être sûr que les informations seront là. N'hésitez pas à lui fournir une trame pour la prise de note qui correspond au plan du compte rendu de la réunion utilisé dans votre entreprise."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "pourquoi-prendre-des-notes",
+        "text": "Pourquoi prendre des notes ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est important de prendre des notes pour montrer que l'avis et la participation de chacun a été prise en considération et également afin de formaliser les décisions qui ont été prises, les prochaines décisions à prendre ainsi que les prochaines étapes et qui doit les réaliser pour les prochains jalons du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela envoie un message de rigueur et d'efficacité et permet au chef de projet de bien dérouler les prochaines étapes, car le compte rendu joue aussi le rôle d'un contrat moral sur lequel s'appuyer."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'amélioration du processus d'animation de comité de pilotage est une pratique continue. Prochaine étape décrypter le process de décision de cette instance pour être au clair sur <a href=\"/gestion-de-projet/comment-decider-en-copil\">Comment décider en copil ?</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

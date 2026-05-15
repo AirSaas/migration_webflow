@@ -1,0 +1,334 @@
+{
+  "type": "blog",
+  "slug": "kpi-gestion-de-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Guide complet : les KPI dans la gestion de projet",
+      "h1": "Guide complet : les KPI dans la gestion de projet",
+      "description": "Découvrez ce que sont les KPI en gestion de projet, pourquoi et comment les utiliser, les KPI les plus courants (coûts, délais, qualité, efficacité) et leur intégration dans un tableau de bord.",
+      "publishedDate": "8/10/2021",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38aa9d36866227251e8a0_1-2-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Les KPI : Qu'est-ce que c'est ?",
+        "href": "#les-kpi-quest-ce-que-cest"
+      },
+      {
+        "label": "Pourquoi utiliser des KPI ?",
+        "href": "#pourquoi-utiliser-des-kpi"
+      },
+      {
+        "label": "Comment utiliser des KPI pour la gestion de projet ?",
+        "href": "#comment-utiliser-des-kpi-pour-la-gestion-de-projet"
+      },
+      {
+        "label": "Quels sont les KPI les plus utilisés ? Les KPI de coûts",
+        "href": "#quels-sont-les-kpi-les-plus-utilises-les-kpi-de-couts"
+      },
+      {
+        "label": "Le tableau de bord de gestion de projet et les KPI",
+        "href": "#le-tableau-de-bord-de-gestion-de-projet-et-les-kpi"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>Pour augmenter vos chances de réussite, il est essentiel d'assurer un suivi tout au long de l'exécution de votre projet. Le suivi de projet vise à contrôler que le déroulement de votre projet se passe bien comme vous l'aviez prévu et permet de réajuster votre stratégie en cas de besoin.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dans cette tâche, les KPI de gestion de projet sont essentiels : ce sont grâce à eux que vous pourrez objectiver votre suivi de projet chiffrant vos performances ! Ils doivent apparaitre dans <a href=\"/fr/solution/rapport-flash\">le reporting projet</a> que vous envoyez aux différentes parties prenantes à intervalle régulier.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les KPI : Qu'est-ce que c'est ?",
+        "id": "les-kpi-quest-ce-que-cest"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les KPI (Key Performance Indicators) ou indicateurs clés de performance sont utilisés pour évaluer les performances de vos projets.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ces indicateurs chiffrés vous permettent de bien sûr de connaitre votre état d'avancement sur vos objectifs, mais ils vous donnent surtout la possibilité de repérer les aspects de votre projet sur lesquels vous avez des difficultés, ainsi que ceux sur lesquels vous obtenez de bons résultats !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les KPI permettent souvent de se rendre compte des points qu'il faut optimiser pour améliorer l'exécution d'un projet. Ce sont les garde-fous stratégiques de la gestion de projet !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les KPI sont donc d'une grande aide dans le pilotage de projet : ils vous donnent un aperçu immédiat de l'état de votre projet à un instant T !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et les informations données par les KPI vous aideront à prendre vos décisions : si les KPI sont bons, ne faites rien, s'ils indiquent que vous sous-performez, prenez des mesures correctives !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>S'il existe des KPI qui sont communément utilisés par de nombreuses entreprises, l'idéal reste quand même de les personnaliser à vos équipes et votre projet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Une typologie des indicateurs a été dressée :</strong></p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>les indicateurs de coûts</strong> : pour vérifier que vous ne dépassez pas les limites budgétaires de votre projet",
+          "<strong>les indicateurs de délais :</strong> pour s'assurer que vous respectez les délais prévus pour votre projet et éviter les retards",
+          "<strong>les indicateurs de qualité :</strong> pour contrôler la qualité du travail de votre équipe tout au long du projet",
+          "<strong>les indicateurs d'efficacité :</strong> pour suivre la gestion du projet, et vérifier que vos ressources (budgétaires, humaines, temporelles) sont utilisées de manière optimale !"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c837cd73ec2f8efeab7d0e_62f36ff388c0c330cc047df4_Project-progression-min.jpeg",
+        "alt": "KPI kezako ?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pourquoi utiliser des KPI ?",
+        "id": "pourquoi-utiliser-des-kpi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Quiconque a déjà eu à gérer un projet sait que si l'on n'y prend pas garde, il y a de grandes chances qu'on dépasse les délais, qu'on explose les budgets, et que la qualité attendue ne soit pas au rendez-vous.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et c'est justement précisément le rôle des KPI de vous éviter de vous retrouver dans ce genre de situation. Grâce à eux, vous saurez continuellement où vous en êtes dans la réalisation de votre projet, sur chacun des aspects cités au-dessus, mais aussi sur tous ceux que vous voulez contrôler !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Libre à vous de créer vos propres KPI en fonction de vos besoins.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si l'on voulait illustrer l'intérêt des KPI, on pourrait comparer la gestion de projet au pilotage d'une fusée.</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Comme votre projet, le vol d'une fusée est divisé en plusieurs phases (propulsée, balistique…) et le pilote doit savoir exactement quel est le moment idéal pour changer de phase !",
+          "Comme pour votre projet, le pilote doit contrôler la trajectoire et la vitesse de sa fusée : ni trop lente, ni trop rapide, juste dans les temps !",
+          "Comme pour votre projet, il est essentiel de connaître en temps réel la quantité de carburant restante pour éviter les mauvaises surprises !",
+          "Comme pour votre projet, de nombreux voyants sont nécessaires pour veiller au bon fonctionnement de la fusée et éviter le crash !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour résumer : prendriez-vous le risque de faire décoller une fusée sans aucun voyant lumineux ni indicateur ? Eh bien il serait (au moins) aussi suicidaire de se lancer dans le pilotage de votre projet, tout en souhaitant atteindre une exécution et une rentabilité optimales, sans l'aide d'indicateurs de performances !</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment utiliser des KPI pour la gestion de projet ?",
+        "id": "comment-utiliser-des-kpi-pour-la-gestion-de-projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Des critères à respecter dans leur élaboration",
+        "id": "des-criteres-a-respecter-dans-leur-elaboration"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si vous voulez que vos KPI soient efficaces et vous aider à piloter vos projets, vous devez respecter plusieurs critères. Un bon indicateur doit :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "être relié à un objectif particulier",
+          "être mesurable tout au long du projet",
+          "être défini dans le temps, sur une période donnée",
+          "être assez simple pour que toutes les parties prenantes puissent le comprendre",
+          "être orienté pour la prise de décision",
+          "si possible être personnalisé aux besoins de votre équipe / projet"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c27_62f370f834986741dc2e6b30_Project-metrics.jpeg",
+        "alt": "KPI critères"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un code couleur pour faciliter la visibilité",
+        "id": "un-code-couleur-pour-faciliter-la-visibilite"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Certaines personnes aiment utiliser un code couleur avec leur indicateur clé. Le code couleur le plus courant est :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "KPI vert : très bien, il faut continuer les actions qui vous ont permis d'atteindre ces résultats.",
+          "KPI orange : à surveiller, est susceptible de s'améliorer comme de se détériorer.",
+          "KPI rouge : il y a un problème, il faut absolument prendre des mesures pour corriger le tir."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'intérêt d'un tel code est de faciliter la visibilité sur l'ensemble des aspects du projet que vous mesurez grâce à vos KPI. De cette manière, il devient encore plus facile de débattre de la priorisation des efforts avec votre équipe : en un coup d'oeil, chacun sait quels aspects du projet se portent bien, lesquels sont à surveiller et quels sont ceux qu'il faut absolument repenser.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c837cd73ec2f8efeab7cfd_62ea947e12a1db65655b1059_Projet-timeline-min.jpeg",
+        "alt": "KPI code couleur"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Des précautions à prendre pour mettre en place des KPI",
+        "id": "des-precautions-a-prendre-pour-mettre-en-place-des-kpi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Lorsque vous déployez des KPI dans le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\">suivi de votre projet</a>, vous devez prendre quelques précautions afin de vous assurer de l'efficacité de vos KPI.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Des précautions organisationnelles :</strong> Vous devez sélectionner les KPI en fonction des objectifs que vous avez discutés et fixé avec votre équipe projet. L'adoption des KPI sera simplifiée si chacun des membres de votre équipe comprend leur intérêt.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ensuite, vous devez assigner la responsabilité de chaque objectif aux personnes compétentes et définir les processus pour contrôler leur évolution dans le temps. Les responsabilités de chacun doivent être claires pour éviter les tensions au fur et à mesure de l'évolution du projet et des KPI.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Des précautions techniques :</strong> il vous faudra adapter votre infrastructure de gestion de projet à vos KPI : votre manière de rédiger vos rapports et les logiciels que vous utilisez doivent être paramétrés pour permettre d'obtenir toutes les informations nécessaires à vos KPI. Ces changements peuvent prendre du temps, mais aussi perturber votre équipe projet : pensez à les briefer en amont sur l'intérêt de bousculer leurs habitudes au profit des KPI.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Des précautions culturelles :</strong> Travailler avec des KPI a de nombreuses conséquences sur la manière de travailler de votre équipe : la responsabilisation, le suivi des performances de chacun ou encore le contrôle du respect des objectifs. L'idéal est de parvenir à avoir une discussion ouverte avec vos collaborateurs en amont de la mise en place des KPI : le concept leur plait-il ? En comprennent-ils l'utilité ? Ont-ils des appréhensions ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Il est vraiment préférable de discuter dans le détail de tout ce qu'implique l'utilisation des KPI avec votre équipe projet, plutôt que de découvrir durant l'exécution que certains n'étaient pas prêt à changer leurs habitudes !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Il existe plusieurs astuces pour mettre vos collaborateurs en confiance :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "construisez vos KPI avec eux",
+          "demandez-leur de vous confier leurs craintes",
+          "organisez des retours d'expérience"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quels sont les KPI les plus utilisés ? Les KPI de coûts",
+        "id": "quels-sont-les-kpi-les-plus-utilises-les-kpi-de-couts"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>KPI de coût réel</strong> : il représente le coût réel total du projet. Vous l'obtenez en additionnant toutes les dépenses",
+          "<strong>KPI des coûts non planifiés</strong> : toutes les dépenses que vous n'aviez pas prévues initialement",
+          "<strong>KPI des coûts de retards :</strong> vous pouvez ainsi chiffrer ce que vous coûtent vos retards.",
+          "<strong>KPI de l'écart de coût du projet</strong> : la différence entre coût prévu du projet et son coût réel"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les KPI de délais",
+        "id": "les-kpi-de-delais"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>KPI de taux de retard</strong> : le pourcentage des retards par rapport aux délais que vous aviez prévus",
+          "<strong>KPI des durées de tâches</strong> : pour connaître le temps moyen nécessaire à la réalisation de toutes vos tâches",
+          "<strong>KPI d'écart de durée</strong> : comparer le temps que vous avez passé sur une tâche à celui que vous aviez initialement prévu",
+          "<strong>KPI d'écart de délai</strong> : pour savoir si vous êtes en retard ou en avance sur le délai d'exécution global que vous aviez prévu pour le projet"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les KPI de qualité",
+        "id": "les-kpi-de-qualite"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>KPI de satisfaction du client</strong> : il existe différentes manières de le mesurer - enquêtes de satisfaction, questionnaires, fidélisation des clients…",
+          "<strong>KPI des plaintes du client</strong> : un des indicateurs-clés de performance sur le nombre de retours"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les KPI d'efficacité et d'avancement du projet",
+        "id": "les-kpi-defficacite-et-davancement-du-projet"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le KPI du taux d'avancement</strong> : comparez le nombre de tâches accomplies à celui des tâches que vous aviez prévues pour connaitre le taux de progression de votre projet.",
+          "<strong>Le KPI de l'efficience du temps passé sur le projet</strong> : comparez le nombre d'heures que vous avez passées sur le projet à celui que vous aviez prévu pour savoir si votre équipe est efficace."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Le tableau de bord de gestion de projet et les KPI",
+        "id": "le-tableau-de-bord-de-gestion-de-projet-et-les-kpi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La plupart du temps, les KPI que vous allez créer seront réunis dans <a href=\"/fr/solution/tableau-de-bord-gestion-de-projet\"><strong>un tableau de bord de gestion de projet</strong></a> : ce sont des outils simplifiant le pilotage des projets.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les tableaux de bord de gestion de projet permettent de faire une mesure de la performance de votre activité de manière constante afin d'optimiser vos processus de gestion de projets. De cette manière, vous pourrez utiliser les KPI de manière optimale et mettre toutes les chances de votre côté pour mener à bien vos projets.</p>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

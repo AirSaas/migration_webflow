@@ -1,0 +1,609 @@
+{
+  "type": "blog",
+  "slug": "comment-avoir-une-gestion-de-portefeuille-projet-pragmatique-en-2022",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment avoir une gestion de portefeuille projet pragmatique ?",
+      "h1": "Comment avoir une gestion de portefeuille projet pragmatique ?",
+      "description": "Découvrez six leviers concrets pour moderniser votre gestion de portefeuille de projets : collaboration, reporting uniforme, sélection, workflows, arrêt de projets et vues personnalisées.",
+      "publishedDate": "29/8/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "29/8/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bcd89ab56aa1142c774d7_ppm-pragmatique-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "PPM : la fin du \"domaine réservé\"",
+        "href": "#ppm-la-fin-du-domaine-reserve"
+      },
+      {
+        "label": "Six leviers pour une gestion de portefeuille de projets pragmatique en 2022",
+        "href": "#six-leviers-pour-une-gestion-de-portefeuille-de-projets-pragmatique-en-2022"
+      },
+      {
+        "label": "PPM pragmatique en 2022 : À retenir",
+        "href": "#ppm-pragmatique-en-2022-a-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>Il y aura toujours <strong>plus de projets que de ressources</strong> pour y travailler !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En tant que PMO/DSI/Directeur de transformation, il est une tâche qui vous tient sûrement à cœur si vous êtes passionné par votre métier : celle de la <strong>gestion des ressources et du portefeuille de projets</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En <strong>2006</strong>, le Project Management Institute la définissait comme étant la <strong>gestion centralisée des processus</strong>, méthodes et technologies d'un ensemble de projets. Une activité permettant d'optimiser les arbitrages et leur planification, tout en évaluant le niveau de risque des projets et leur viabilité financière.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>🚫 <strong>STOP</strong> !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Oui, à l'époque des roadmap de SI à cinq ans, des logiques d'affrontement IT/métiers, une <strong>vision principalement financière</strong> du pilotage de portefeuille de projets a longtemps été la norme.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Mais, à partir d'une certaine taille d'entreprise, d'un<strong> certain volume </strong>de projets transverses, de l'arrivée de changements internes ou externes rapides dans les organisations. <strong>Le \"sur contrôle\" ne fonctionne plus ! La gestion de portefeuille a besoin de </strong>passer <strong>d'une gestion parfois bureaucratique et trop centralisée à un management libéré, plus collaboratif et rapide pour gérer </strong>une démarche <strong>d'innovation et transformation qui délivre efficacement et en continu</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dans les lignes qui suivent on va s'intéresser<strong> à ce qui a changé et ce qui peut mieux fonctionner dans la gestion de portefeuille projets actuelle. </strong>On vous dit tout sur l'art et la manière de moderniser cette démarche. Pour <strong>investir en amont afin de moins subir en aval. Objectif : modernisation & efficience !</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un dernier mot avant de commencer... par <strong>pragmatisme</strong>, qu'est-ce qu'on entend ? Pour résumer...c'es<strong>t l'inverse de théorique </strong>ou abstrait ! Ce sont des pratiques venant <strong>du terrain,</strong> permettant de<strong> dépenser ses ressources intelligemment,</strong> avec une <strong>approche éprouvée </strong>qui puisse être réadaptée <strong>dans votre contexte </strong>d'innovation et transfo.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PPM : la fin du \"domaine réservé\"",
+        "id": "ppm-la-fin-du-domaine-reserve"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Longtemps ce processus <strong>était le domaine d'un expert </strong>qui assumait la création et l'animation d'une feuille de route pour toute une entreprise !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Planification, exécution, reporting et analyses, gestion des demandes, des ressources, suivi et réalisation, des bénéfices...La démarche de PPM était parfois outillée avec une sorte <strong>d'ERP projet \"tout en un\" assez rigide</strong>, si ce n'était pas excel ou power point !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ce processus de gestion de portefeuille <strong>répondait</strong> plus <strong>à un besoin de vision et de contrôle </strong>\"central\". Une vision orientée DAF en somme :-)</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le <strong>bilan</strong> de cette approche ? <strong>Le PPM était devenu un \"truc d'expert\"</strong>, un outil de gestion des ressources n'offrant pas assez de visibilité sur l'exécution de la feuille de route à toutes les parties prenantes impliquée dans la transformation de chaque entreprise.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Disons-le simplement, cette gestion de portefeuille marchait, pour une partie de l'entreprise seulement...et dans le cadre d'une gestion de projets assez longue.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Puis, la technologie est devenue le vecteur majeur de l'agilité et de l'innovation. <strong>La digitalisation est arrivée</strong>...et avec elle, un flux croissant de projets plus complexes, plus courts, plus transverses, qui ont tendu à <strong>rendre obsolète l'approche de planification centrale</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>De plus en plus d'outils saas spécialisés ont fait leur apparition, sur la gestion de tâches, le tracking de temps, la finance, etc. Ils ont clairement apporté <strong>une expérience utilisateurs meilleure </strong>que celle proposée par les logiciels ERP PPM tout en un.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les métiers se sont mis à utiliser massivement ces logiciels concurrents des outils ERP/PPM. Pour leur nette valeur ajoutée, allant même jusqu'à un \"shadow-it\" omniprésent et plus ou moins encadré.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Oui, et au-delà de tel ou tel logiciel, le management de l'innovation et des portefeuilles de projets a changé sur de nombreux plans :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La <strong>culture de la collaboration et de la transparence</strong> est devenue centrale ! Versus, une focalisation sur la gestion des ressources et du plan de charge uniquement",
+          "« L'adaptation » avec des itérations aux résultats rapides a remplacé la « sur anticipation »",
+          "Le pilotage par la « valeur » a remplacé le pilotage « par le budget » uniquement",
+          "Le<strong> coût de l'inaction </strong>/ le \"Risk Of Ignoring\" est maintenant beaucoup plus <strong>reconnu</strong>.",
+          "L<strong>'importance de la confiance et le besoin d'impliquer les collaborateurs</strong> est un enjeu partagé et compris.",
+          "La <strong>décentralisation de l'IT au profit des métiers</strong> fait partie des tendances forte"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le diagnostic est en partie posé.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Mais <strong>quels sont les leviers prioritaires à activer ? Comment faciliter la gestion initiale et continue </strong>d'un portefeuille de projets qui ne parte pas à la dérive en continu ? Comment aider l'organisation à prendre des décisions rapidement ? Faire en sorte que les équipes soient motivées ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On a relu notre documentation, interrogé nos experts...et on vous propose de parcourir cette <strong>sélection de convictions </strong>!</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Six leviers pour une gestion de portefeuille de projets pragmatique en 2022",
+        "id": "six-leviers-pour-une-gestion-de-portefeuille-de-projets-pragmatique-en-2022"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier 1 : Maximiser la dimension collaborative versus le contrôle",
+        "id": "levier-1-maximiser-la-dimension-collaborative-versus-le-controle"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Une gestion de portefeuille de projets qui avance, impliquera de <strong>créer et maintenir les conditions d'une culture de coopération, de transparence et de co-responsabilité forte </strong>entre toutes les équipes concernées.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'enjeu sera de<strong> passer d'une gestion centrée sur le contrôle du budget et des ressources à une gestion qui maximisera collaboration et engagement </strong>des parties prenantes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Voici quelques <strong>pratiques à considérer dans ce premier levier pour maximiser la collaboration</strong> et la confiance versus le contrôle :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Proposer un espace collaboratif incorporé directement dans son outil PPM</strong>."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Grâce à une plateforme intégrant directement un espace collaboratif</strong>, on <strong>facilitera la libération de la parole.</strong> Vous pourrez consolider la remontée des points d'attentions, la remontée des décisions, des points de succès. Cela n'a peut-être l'air de rien ?. Mais cela peut <strong>vraiment simplifier son quotidien</strong> et celui de ses équipes !</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Utiliser la confiance dans les jalons</strong>... !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Quand on devient PMO/DSI/Manager de portefeuille de projet IT, un des premiers écueils possibles est celui de<strong> tomber dans le micromanagemen</strong>t. De vouloir trop contrôler l'exécution du projet par les équipes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour vous aider à continuer à parier sur la confiance. Faites-vous aider par une plateforme.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Avec AirSaas la notion de jalon (une <strong>étape clé à réussir dans le projet pour une date</strong>) comporte des attributs : le <strong>responsable, le poids et le degré de confiance.</strong></p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bc84f15bab8397943a9cd_confiance-jalons.png",
+        "alt": "Capture écran AirSaas de la fonction degré de confiance dans le jalon",
+        "caption": "Degré de confiance dans le jalon : une innovation qui facilite la gestion du portefeuille"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Pour suivre la progression de votre portefeuille vous pouvez </strong>regarder la progression de chacun des projets à travers la progression déclarée par le chef de projet affichée ensuite sur votre page portfolio en bas de chaque carte projet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Vous avez également la possibilité de suivre <strong>la progression des jalons</strong>. Grâce à un calcul automatique prenant en compte les jalons réalisés et leur poids.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bc8b60b11552aa775c820_suivi-jalons-airsaas.png",
+        "alt": "Capture écran AirSaas - Suivi de progression projet",
+        "caption": "Suivre l'exécution et le delivery du portefeuille avec les jalons pour limiter l'effet dérive en continu."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour résumer ce premier levier, on ne résiste pas au plaisir de partager <strong>une citation qu'on adore. </strong>Celle de Ludovic Lajoie, issue d'un commentaire sur un post Linkedin AirSaas.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62eae08ccb335202a139b71a_gantt-rassure-equipe-assure.png",
+        "alt": "Commentaire issu d'un post linkedin AirSaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'objectif est bien de <strong>dépasser les silos horizontaux</strong> : entre équipes et directions <strong>et les silos verticaux</strong> en termes de décisions.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Oui...<strong>la coopération ne se décrète pas !</strong> Elle s'encourage, se facilite. On est bien sur des aspects culturels et humains qui prennent du temps.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier 2 : Une autre philosophie du reporting pour réduire la fatigue cognitive !",
+        "id": "levier-2-une-autre-philosophie-du-reporting-pour-reduire-la-fatigue-cognitive"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Plus l'entreprise et son portefeuille de projets grandissent plus<strong> la capacité de garder un niveau de communication claire, cohérente, simple d'accès pour tout le monde est vital.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Que ce soit le directeur général qui ne comprend plus très bien ce que lui remontent les équipes, entre les membres du comité de direction qui ne parlent plus le même langage ou les équipes entre elles qui <strong>essayent de se synchroniser tant bien que mal.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Problème : L'information, <strong>les données du portefeuille sont disséminées</strong> dans le système d'information et les différents points d'avancements.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Du coup<strong> la forme bloque le fond</strong> et tout rame.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On pourrait penser que c'est accessoire, mais c'est en réalité <strong>l'un des éléments fondamentaux d'une prise de décision éclairée en haut lieu</strong>. La plupart du temps la décision est un arbitrage. Comment arbitrer entre A, B et C si on ne me présente pas une information comparable ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On a bel et bien<strong> besoin d'uniformiser le reporting</strong>.</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Uniformiser la forme, c'est dire ok : on va<strong> se faciliter la vie pour se comprendre</strong> quel que soit l'enjeu que nous affrontons. En passant ça<strong> réduit aussi la fatigue cognitive</strong> de tout le monde."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Choisir un outil doté d'une <strong>interface suffisamment intuitive </strong>pour <strong>faciliter la collaboration entre les profils techniques et business</strong>.",
+          "Si l'on souhaite en effet impliquer les collaborateurs d'une entreprise sur des sujets aussi techniques que ceux traités par la DSI, mieux vaut le faire sur une interface qui leur plaira ! Et qui les incitera à \"<strong>jardiner leurs données</strong>\" !",
+          "Le second avantage est d<strong>'augmenter le taux d'adoption de ces PPM.</strong> Les collaborateurs ne mettront que quelques heures à se roder à l'utilisation de ces nouveaux logiciels plutôt que quelques jours. Ce qui peut être un levier très intéressant si l'objectif est de mobiliser rapidement."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bonus : en <strong>simplifiant la collecte d'information</strong> et en <a href=\"https://www.airsaas.io/fr/solution/flash-report\">automatisant le reporting, AirSaas</a> vous permettra d'<strong>avoir le temps d'aider les chefs de projets dans leurs enjeux</strong> et de faciliter la collaboration entre les équipes.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier 3 : un processus de sélection, pour choisir les vrais projets intéressants pour l'entreprise",
+        "id": "levier-3-un-processus-de-selection-pour-choisir-les-vrais-projets-interessants-pour-lentreprise"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En préparant cet article, nous avons interrogé des pilotes de transformations en entreprises et des DSI. L'un d'entre eux, merci encore Frédéric :-) nous a confié son avis sur cette question de la gestion de portefeuille de projets pragmatique.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Le pragmatisme ? C'est dépasser les intérêts ! L'enjeu c'est de savoir comment tu peux choisir les vrais projets intéressants pour l'entreprise. Faire en sorte de \"passer du client roi à l'entreprise reine\". Pour dépasser les intérêts individuels, on peut adopter une approche collaborative, visuelle, et agile pour créer les conditions d'un dialogue, pour refaire du sens commun et engager les acteurs de l'entreprise à s'associer réellement sur les projets intéressant non pas pour chaque direction mais pour toute l'entreprise.",
+        "author": "Frédéric Dufau-Joël",
+        "caption": "DSI pendant 20 ans - Coach interne La boîte à Outils Groupe SAMSE"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Son retour d'expérience est passionnant. Dans son entreprise en partie agile et libérée, ils ont en quelque sorte : <strong>implémenté</strong> <strong>une limitation du travail en cours basée sur la discussion.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Tout l'enjeu est bien en amont. <strong>Choisir c'est avancer !</strong> Même si cela semble une évidence, à l'heure de l'hyper inflation de projets il semble plus qu'utile de se le rappeler !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En prime cela permettra à vos chefs de projets d'être moins pollués par des chantiers \"toxiques.\"<br/>Cela rappellera aussi à certains <strong>un principe universel </strong>bien connu dans la tech et l'informatique : <strong>le GIGO pour Garbage IN - Garbage OUT !</strong></p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier 4 : Designer votre workflow PPM pour simplifier la prise d'initiatives et de décisions",
+        "id": "levier-4-designer-votre-workflow-ppm-pour-simplifier-la-prise-dinitiatives-et-de-decisions"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>80 % des projets n'ont pas besoin d'un planning de Gantt ! L'idée est bien d'investir dans la réflexion pour créer plusieurs workflows pour chaque type de portefeuilles de projets ! De ne pas verser dans <strong>le syndrome du canon pour la mouche</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En s'inspirant par exemple du principe du \"T-shirt sizing agile\"...pour <strong>commencer par réfléchir sur les types de projets qui existent dans votre portefeuille de projets !</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On a sélectionné <strong>trois exemples de découpages pragmatiques</strong> et inspirants.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "PPM Exemple de découpage #1",
+        "id": "ppm-exemple-de-decoupage-1"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>les projets IT déjà bien gérés </strong>dans Azure devops/<strong>Jira</strong>, etc.",
+          "les projets importants /<strong> risqués ou il faut impliquer les métiers fortement</strong>",
+          "l<strong>es projets plus petits </strong>ou l'implication des métiers est nécessaire mais ou il y a<strong> moins de risques.</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À partir ce simple découpage...vous pourrez appréhender une re définition de la gestion et des do's et dont' de votre portefeuille de projets par catégorie.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ce qui est <strong>fondamental ce sera de bien concevoir un workflow associé à chaque découpage.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Quels sont critères qui font qu'un nouveau projet arrivant passe dans telle ou telle catégorie. Et pour chacune, quelle sera sa \"definition of done\" (DOD) ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Puis une fois lancé, comment un projet passera-t-il d'une catégorie à l'autre. Quels seront les critères et processus associés à ce mouvement ?</p>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "PPM Exemple de découpage #2 - Project Management chez AXA",
+        "id": "ppm-exemple-de-decoupage-2-project-management-chez-axa"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Second exemple emprunté à la gestion de projet au sein d'Axa, l'utilisation d'<strong>une image simple celle des voies de péages d'une autoroute à projets </strong>associée à des workflows spécifiques :</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bc95d443ce2604d58ca38_ppm-axa-peage.jpg",
+        "alt": "Exemple de découpage PPM",
+        "caption": "Exemple de découpage PPM en mode péage d'entrée sur l'autoroute. Vos projets classés dans un PPM pragmatique !"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Projets de la voie de gauche : Plus d'agilité vitesse, moins de validations",
+          "Voie du milieu : projets tout-venant ! : Plus de volume, complexité moyenne",
+          "Voie de droite / Pojets poids lourds :Plus de sécurité, de moyens et de régulation, moins de vitesse"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour <strong>chacune de ces catégories</strong> au sein du <a href=\"https://www.airsaas.io/gestion-de-projet/gestion-de-portefeuille-projets-comment-selectionner-les-bons-projets\">portefeuille de projets</a>, <strong>un protocole décisionnel et opérationnel spécifique</strong> a été conçu. On a également pensé les éventuels changements de files en cours de route.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'enjeu clé était de passer <strong>d'une gestion bureaucratique à un management \"adhocratique\". </strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'adhocratie (du latin ad hoc : mis spécialement en place pour répondre à un besoin, et de kratos, pouvoir, autorité) se définit par Robert Waterman en 1990 dans « Adhocracy, The power to change » comme « toute forme d'organisation qui dépasse les frontières bureaucratiques habituelles pour saisir les opportunités, résoudre des problèmes, et obtenir des résultats» .</p>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "PPM Exemple de découpage # 3 - Frédéric Navarro DSI",
+        "id": "ppm-exemple-de-decoupage-3-frederic-navarro-dsi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À la fois une <strong>méthode de classification</strong> et un <strong>processus pour contribuer à faciliter le travail</strong> entre les<strong> métiers et la DG</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Mais surtout une approche pour <strong>générer de l'engagement autour de la feuille de route</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un <strong>dialogue continu</strong> avec l'ensemble des directions métiers pour catégoriser un projet à l'aide de <strong>quatre niveaux</strong> (stratégique, légal, de direction, de département) repriorisés chaque mois !</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bcaa38382d0006ebfd1a9_decoupage-ppm.png",
+        "alt": "Découpage PPM",
+        "caption": "Exemple de découpage PPM - de gestion des ressources via Frédéric Navarro ep. 28 Podcast CIO Révolution"
+      },
+      {
+        "type": "quote",
+        "text": "Sur la base d'une cinquantaine de projets, 3 ou 4 sont de niveau 1, considérés comme majeurs seront régulièrement évoqués par la DSI avec la direction. Cinq ou six seront de niveau 2 et ensuite chaque direction et/ou département va avoir un certain nombre de petites missions, petits sujets à traiter. En général, le processus de reclassification est quelque chose de rapide s'il est fait de cette manière.",
+        "author": "Frédéric Navarro - DSI",
+        "caption": "Invité ep. 28 Podcast CIO Révolution"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ces démarches rappellent l'inspiration du <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-lean-portfolio-management-pour-aligner-en-continu-la-direction-generale-lit-et-les-metiers\"><strong>lean portfolio management</strong></a> et de la <strong>philosophie agile</strong>, à l'échelle de l'entreprise. Frameworks parmi lesquels on peut citer le SAFe : pour Scaled Agile Framework. Celui-ci a été popularisé en 2011 par Dean Leffingwell. S'il est bien implémenté, celui-ci permet d'instaurer au sein d'une même entreprise allant de 50 à 150 personnes, pour créer un <strong>langage commun entre les différentes équipes</strong> concernées par le développement d'un produit.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier 5 : Savoir arrêter un projet au bon moment",
+        "id": "levier-5-savoir-arreter-un-projet-au-bon-moment"
+      },
+      {
+        "type": "quote",
+        "text": "Personne n'a jamais été promu pour avoir mis fin à un projet, ce qui est à l'origine d'un énorme gaspillage dans les entreprises. 🙂"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Oui, et on mesure une gestion saine du portefeuille de projets à sa capacité à savoir arrêter un projet au bon moment !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La question du<strong> courage managérial et du leadership </strong>est centrale dans cet enjeu.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Beaucoup d'événements internes ou externes influent en effet sur la vie du projet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Être dynamique et réactif au changement est primordial.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À l'image d'un besoin en agilité, <strong>un projet peut être accéléré, mis en pause, voire même stoppé. </strong>Ceci n'est pas obligatoirement signe d'échec, et permet au contraire d'éviter le gaspillage d'énergie.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À défaut d'être en capacité d'arrêter complètement un projet, une gestion pragmatique du portefeuille de projets peut passer par <strong>la liberté donnée aux collaborateurs d'aller choisir d'autres tâches / projets d'un backlog </strong>dès qu'un projet / une fonctionnalité est bloquée.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On ne peut finir d'évoquer ce quatrième levier sans partager la référence du livre de Arne Roock, l'un des succès de librairie paru en 2012 : <strong>Stop starting, start finishing !</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'auteur y milite entre autres pour la limitation du travail en cours, le management visuel et développe l'approche du portfolio <a href=\"https://www.airsaas.io/fr/gestion-de-projet/la-methode-kanban-pour-optimiser-votre-suivi-de-projet\">Kanban</a>.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bca678382d05d92bf7582_Stop%20starting%2C%20Start%20finishing-AirSaas.jpg",
+        "alt": "Stop starting, Start finishing",
+        "caption": "Expression tirée du titre du livre de Arne Roock paru en 2012"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Stop starting, Start finishing</strong> : Cela signifie que vous ne pouvez pas terminer ce que vous n'avez pas commencé et que vous ne devriez jamais commencer ce que vous ne vous êtes pas engagé à terminer. Malheureusement, travailler sur de nombreux projets hautement prioritaires en même temps peut entraîner des problèmes importants et en particulier : l'inefficacité !</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier 6 : Permettre à chacun de voir ce dont il a (vraiment) besoin",
+        "id": "levier-6-permettre-a-chacun-de-voir-ce-dont-il-a-vraiment-besoin"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Il y a <strong>plein de façons de voir l'information </strong>!</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et l'info est disséminée !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si vous pilotez un flux d'initiatives impliquant plusieurs équipes, vous savez à quel point <strong>il est difficile d'y voir clair.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Il est fondamental de s'arrêter et <strong>s'accorder que l'on veut vraiment montrer dans ce portefeuille ? </strong>Est-ce en priorité les budgets, les états d'avancement, les météos ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Face au volume excessif d'information proposé on est vite dans le<strong> syndrome du sapin de noël.</strong> Un reporting surchargé, joli mais peu efficace pour décider !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dans AirSaas, avec les smart view vous avez la possibilité de <strong>personnaliser la vue projet</strong> pour montrer exactement ce que vous souhaitez voir en un clin d'œil.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/630bca7d845cd4e868963881_8af25de4-9d29-4c17-aa7b-bddccb028477.png",
+        "alt": "Capture d'écran AirSaas",
+        "caption": "Vue PPM par statut."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Une smart view comprend :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Un <strong>filtre</strong> sélectionné",
+          "Les <strong>attributs</strong> que vous souhaitez afficher (météo, importance, etc.)",
+          "Une <strong>façon d'afficher</strong> les projets (kanban, liste ou timeline)",
+          "La façon dont vous souhaitez grouper les projets (par programme, objectif, etc.)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et si vous êtes sur la timeline :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La temporalité choisie (mois, quarter, etc.)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'important c'est de proposer non pas une vue du portefeuille, mais un nombre de vues et donc de <strong>critère de choix de priorisation quasi illimité</strong> !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Projets vitaux pour le CODIR, projets qui doivent être finis dans le quarter, etc.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En complément des vues partagées, des<strong> vues privées permettront à chacun de mieux voir</strong> en fonction de ses propres critères.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Levier bonus : revenir à la sémantique, au sens",
+        "id": "levier-bonus-revenir-a-la-semantique-au-sens"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Vous l'avez noté dans cet article nous avons abordé les notions de silos, de collaboration et de coopération. Il est parfois utile de revenir à la sémantique. Retour au sens qui a la vertu de bien faire comprendre les différents enjeux et degrés dans les modalités de travail :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "nos organisations historiquement <strong>silotées</strong> : les équipes travaillent <strong>\"à côté\" </strong>des autres,",
+          "puis on monte d'une marche et on <strong>collabore</strong> (co laborer) : les équipes travaillent \"<strong>avec</strong>\" les autres",
+          "en enfin le \"Graal\" que nous recherchons tous : la <strong>coopération</strong> : les équipes \"font <strong>œuvre commune</strong>\" pour le bien commun général"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Merci à <strong>Isabelle Leroux,</strong> Consultante Transformation pour ce rappel sémantique et néanmoins pragmatique !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On est plus du tout dans le même état d'esprit ;) et c'est possible avec un soupçon de leadership à distiller dans le management à tous les étages... Augmentation du niveau de confiance et d'engagement sont à la clé.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PPM pragmatique en 2022 : À retenir",
+        "id": "ppm-pragmatique-en-2022-a-retenir"
+      },
+      {
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<ul><li><strong>Une gestion pragmatique du PPM permettra de mieux appréhender une partie des frustrations légitimes de chaque partie prenante </strong>et d'impliquer le top management en traitant des sujets qui sont fondamentaux : stratégie, dialogue et coopération entre les silos, répartition budgétaire.</li><li>La démarche de PPM pragmatique implique un <strong>état d'esprit </strong>nouveau. On<strong> switch entre ancienne et nouvelle approches</strong> : Contrôle VS engagement ; Priorisation par la collaborativité VS data ; Simplicité VS complexité, Usage principal VS progiciel à tout faire ;</li><li>Choisissez <strong>un outil qui porte une philosophie</strong> proche de celle que vous promouvez actuellement et avec une interface utilisateur ultra-simple !</li><li>La <strong>transformation ne peut pas fonctionner sans l'engagement</strong> des gens.</li><li><strong>Investissez dans la réflexion</strong> sur votre framework et workflow de portefeuille projets adapté à votre contexte.</li><li>Instaurez <strong>un processus de sélection de projet centré sur l'entreprise</strong> et ses collaborateurs <strong>versus le client roi</strong> !</li></ul>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Vous avez <strong>toutes les clés pour vous moderniser votre démarche de PPM </strong>? Pour finir le geste, nous vous proposons de poursuivre avec au menu la lecture de l'un des articles de \"Pro de la Transfo.\" : <a href=\"/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise\">Comment mettre une démarche projet dans mon entreprise.</a></p>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

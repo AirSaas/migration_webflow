@@ -21,10 +21,14 @@ export interface HeroSection {
    * full-width BELOW the headline (Équipes / LP convention), not beside it.
    */
   layout?: "centered" | "split";
+  /** Optional small label above the title (eyebrow / pill). */
+  tag?: string;
   /** First part of the title (often the gradient pill / accent). */
   titleHighlight?: string;
   /** Main title (rest of H1). */
   title: string;
+  /** Optional trailing dark portion of the title (after titleHighlight). */
+  titleSuffix?: string;
   subtitle?: string;
   /** Optional inline-HTML body below the subtitle (extra paragraph). */
   body?: string;
@@ -41,6 +45,12 @@ export interface HeroSection {
 export interface IntroSection {
   type: "intro";
   title?: string | null;
+  /** Optional gradient/highlight portion of the title (e.g. tri-part heading). */
+  titleHighlight?: string;
+  /** Optional dark prefix part of the title (before titleHighlight). */
+  titlePrefix?: string;
+  /** Optional trailing dark portion of the title. */
+  titleSuffix?: string;
   body?: string | null; // inline HTML
   /** Optional heading level — defaults to 2; some sub-headings emit as 3. */
   headingLevel?: 2 | 3 | 4;
@@ -52,6 +62,8 @@ export interface IntroSection {
 export interface FeatureSplitSection {
   type: "feature-split";
   reversed?: boolean; // image left vs right
+  /** Optional small eyebrow tag above the title. */
+  tag?: string;
   title: string;
   titleHighlight?: string; // e.g. <strong> portion
   /**
@@ -59,6 +71,8 @@ export interface FeatureSplitSection {
    * Default false → highlight renders BEFORE title (prefix-style gradient).
    */
   titleHighlightAtEnd?: boolean;
+  /** Optional trailing dark part of the title (after titleHighlight). */
+  titleSuffix?: string;
   /** Optional small subtitle between title and body. */
   subtitle?: string;
   body?: string; // inline HTML (paragraphs, bullets)
@@ -70,6 +84,8 @@ export interface FeatureSplitSection {
    * Forwarded to `<FeatureFrame lottieSrc>` → `<LottiePlayer>`.
    */
   lottieSrc?: string;
+  /** DS imageSize : default 60/40, narrow 33/67 (editorial), compact 40/60. */
+  imageSize?: "default" | "compact" | "narrow";
   bullets?: string[];
   /** Inline CTA on the text side. */
   primaryCta?: { label: string; href: string };
@@ -146,13 +162,21 @@ export interface CustomerTestimonialsSection {
   }[];
 }
 
+/**
+ * Comparison-table cell : plain string (legacy) OR an icon-with-text tuple
+ * for the new variant (DS commit 96c61a5 — fixes audit finding [5.3]).
+ */
+export type ComparisonTableCell =
+  | string
+  | { type: "check" | "x"; text: string };
+
 /** Comparison table (sans/avec or avant/après). */
 export interface ComparisonTableSection {
   type: "comparison-table";
   title?: string;
   subtitle?: string;
   columns: string[];
-  rows: string[][];
+  rows: ComparisonTableCell[][];
   /** Inline CTA below the table ("Réservez une démo"). */
   ctaLabel?: string;
   ctaHref?: string;
@@ -214,6 +238,9 @@ export interface RelatedSection {
   title?: string;
   titleHighlight?: string;
   subtitle?: string;
+  /** Optional inline CTA at the end ("Voir tout"). */
+  ctaLabel?: string;
+  ctaHref?: string;
   items: { title: string; description?: string; imageSrc?: string | null; href: string }[];
 }
 
@@ -468,7 +495,8 @@ export interface StepsRichSection {
   titleHighlight?: string;
   subtitle?: string;
   steps: {
-    number?: number;
+    /** Step number — accept number OR string (Opus parfois "1" string). */
+    number?: number | string;
     iconName?: string;
     title: string;
     description: string;

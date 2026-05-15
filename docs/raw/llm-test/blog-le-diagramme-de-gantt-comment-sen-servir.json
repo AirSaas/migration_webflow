@@ -1,0 +1,242 @@
+{
+  "type": "blog",
+  "slug": "le-diagramme-de-gantt-comment-sen-servir",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Le diagramme de Gantt est l'un des outils les plus utilisés pour simplifier le suivi de projet. Sa simplicité visuelle permet à chacun de visualiser en un instant l'ensemble des tâches à accomplir et les délais assortis. C'est un des \"musts have\" de la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet.</a>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Focus ici sur cet outil de gestion de projet, ses bénéfices et la méthode pour créer le vôtre."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qu'est-ce qu'un diagramme de Gantt pour la gestion de projet ?",
+        "id": "quest-ce-quun-diagramme-de-gantt-pour-la-gestion-de-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'origine du nom de ce diagramme provient de son créateur : Henry Gantt. Il a mis au point son outil au début du XXème siècle avec un objectif en tête : optimiser l'organisation du travail en atelier. Si au début le diagramme de Gantt est bien plus efficace pour organiser les petits projets, il sera perfectionné par Morgan Walker et James Kelley et leur méthode CPM (<em>Critical Path Method</em>). Il deviendra alors apte à améliorer la planification et l'exécution de projets de bien plus grande envergure."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le diagramme de Gantt est aujourd'hui considéré comme l'un des meilleurs outils pour organiser et planifier les tâches nécessaires à l'exécution de projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Son principe est simple :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "On retrouve en ordonnée la liste des tâches à réaliser",
+          "Et en abscisse les unités de temps"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le diagramme de Gantt permet donc au chef de projet d'avoir une visibilité globale de l'ensemble des tâches et des délais qui leur sont assorties. Plus le rectangle qui représente la tâche est long, plus le temps qu'on aura dédié à l'exécution de cette tâche est important."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les tâches peuvent être connectées entre elles : dans ce cas là, on sait que l'une ne peut pas commencer tant que la première n'est pas terminée. Le diagramme de Gantt est donc l'une des manières d'éviter de se retrouver face à un goulot d'étranglement et de prendre du retard sur les délais planifiés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à sa simplicité visuelle, le diagramme de Gantt permet à chacun, qu'il connaisse bien le projet ou pas du tout, de saisir en un coup d'œil les différentes activités à réaliser pour mener à bien le projet, ainsi que leur organisation dans le temps."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pourquoi en faire un ?",
+        "id": "pourquoi-en-faire-un"
+      },
+      {
+        "type": "paragraph",
+        "html": "Utiliser un diagramme de Gantt pour la gestion de projet présente de nombreux avantage, en voici quelques-uns :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Il offre une visibilité précise sur la chronologie d'un projet : chaque collaborateur peut voir à tout moment quelles sont les tâches à effectuer et sous quels délais. Le diagramme de Gantt peut d'ailleurs être un soutien du planning projet.",
+          "Structurer toute sorte de projets complexes : le diagramme de Gantt est un outil universel. Il est utilisable pour tous les domaines d'activité puisque tous les projets sont découpés en tâches, assorties de délais et bien souvent de jalons. Et le diagramme vous permet de simplifier la vision qu'ont vos collaborateurs du projet : il distingue les étapes et éclaire toute l'équipe sur le chemin qu'elle doit emprunter.",
+          "Respecter les délais : le diagramme de Gantt est un outil très efficace pour estimer les délais de réalisation de vos tâches, et donc la charge de travail à y affecter. Vous pouvez ainsi gérer au mieux vos ressources temporelles et humaines en les affectant au bon endroit, et planifier intelligemment l'échéancier du projet.",
+          "Prioriser les différentes tâches : les projets peuvent comporter des dizaines de tâches différentes à mener. Il devient alors compliqué d'y voir clair : quelle tâche faut-il absolument effectuer maintenant ? Laquelle peut attendre ? Le diagramme de Gantt appliqué à la gestion de projet vous permet de repérer les chemins critiques en quelques secondes, et vous aide donc à organiser vos efforts pour optimiser votre efficacité !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment créer un diagramme de Gantt ?",
+        "id": "comment-creer-un-diagramme-de-gantt"
+      },
+      {
+        "type": "paragraph",
+        "html": "Plusieurs méthodologies existent - en voici une en 5 étapes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 ) Listez toutes vos tâches",
+        "id": "1-listez-toutes-vos-taches"
+      },
+      {
+        "type": "paragraph",
+        "html": "Réunissez toutes les parties prenantes de votre projet et demandez-leur de lister l'ensemble des tâches qu'ils doivent réaliser : vous obtiendrez la totalité des tâches qui doivent être effectuées pour réaliser votre projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "N'hésitez pas à assortir chacune de ses tâches de ses sous-tâches, qui peuvent elles-mêmes être subdivisées en actions (sous la forme de \"bullet points\" par exemple)."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif est de ne rien oublier : plus votre diagramme sera exhaustif, plus vos chances de tenir vos délais seront grandes. Placez ensuite l'ensemble de ces tâches, sous-tâches et actions (si c'est nécessaire) sur la gauche de diagramme."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2) Affectez vos ressources à chaque tâche",
+        "id": "2-affectez-vos-ressources-a-chaque-tache"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous devez ensuite affecter chacune de vos ressources (budgétaire, humaines, etc…) à vos tâches et sous-tâches. Par exemple vous devez déterminer quelle quantité de travail fournira chacune de vos équipes sur les différentes tâches que vous avez listées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et vous pouvez aussi rentrer un peu plus dans le détail, en affectant la charge de travail de chacun de vos collaborateurs sur des sous tâches ou même des actions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3) Planifiez dans le temps",
+        "id": "3-planifiez-dans-le-temps"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lorsque vous avez listé toutes vos tâches et effectué la gestion des ressources de votre projet, il vous faudra les organiser chronologiquement. L'objectif est ici de trouver l'ordre de réalisation idéal de vos différentes tâches."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour chacune d'entre elles, décidez donc d'une date de début, et de fin. Prenez le temps d'évaluer correctement le temps nécessaire à l'exécution de chacune de ces tâches."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4) Connectez vos tâches entre elles",
+        "id": "4-connectez-vos-taches-entre-elles"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'idée ici est d'éviter de vous retrouver coincé dans votre management de projet parce que la réalisation d'une tâche conditionnait le début de l'exécution d'une autre. Et justement : en liant deux tâches entre elles, vous pourrez visualiser à tout moment que l'une est dépendante de l'autre dans le chemin critique du diagramme."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pensez à différencier plusieurs types de connexions différentes :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Parfois une tâche ne peut pas être commencée avant qu'une autre ne soit finie",
+          "Mais il arrive aussi que le début d'une tâche soit conditionné par le début d'une autre",
+          "Il peut aussi arriver que les connexions soient multiples : par exemple, quand la réalisation de plusieurs tâches est nécessaire à l'exécution d'une autre"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "À noter qu'une tâche peut avoir plusieurs tâches antérieures obligatoires. Dans ce cas, il faut que ces tâches soient toutes terminées pour entamer la suivante. Inversement, une tâche peut avoir plusieurs tâches postérieures. Dans ce cas, la fin de cette tâche conditionne le début des autres."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5) Intégrez des jalons",
+        "id": "5-integrez-des-jalons"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/jalon-projet\">jalons projet</a> correspondent aux étapes clés de votre projet. En les définissant et en anticipant les échéances importances, vous augmentez votre visibilité sur l'exécution de votre projet. En les intégrant à votre diagramme de Gantt pour la gestion de projet, vous pourrez visualiser en un coup d'oeil les différentes phases et grandes étapes de votre projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Gantt ou Kanban ?",
+        "id": "gantt-ou-kanban"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le diagramme de Gantt vous donne une visibilité globale sur l'ensemble des tâches que vous devez accomplir ainsi que les dates auxquelles vous devez les avoir réalisées. <a href=\"http://www.airsaas.io/fr/gestion-de-projet/kanban-gestion-de-projet\">Le <strong>Kanban</strong></a> lui, vous permettra d'entrer davantage dans le détail de la réalisation de votre projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "La méthode Kanban offre donc différents avantages complémentaires au diagramme de Gantt : vous pouvez suivre l'état d'avancement de chaque tâche, impliquez vos collaborateurs et vous en servir comme support pour vos réunions. Coupler ces deux outils de planification peut donc être un atout pour votre projet !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8393b38147e34dd835bab_62f37ed0147093c2a56b9627_Project-kanban-min.jpeg",
+        "alt": "Vue kanban projet",
+        "caption": "Vue kanban d'un projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Après Gantt, (re)découvrez <a href=\"/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\">le jalon projet</a> : une technique pour séquencer vos projets intelligemment."
+      }
+    ],
+    "meta": {
+      "title": "Le diagramme de Gantt : comment s'en servir ?",
+      "h1": "Le diagramme de Gantt : comment s'en servir ?",
+      "description": "Découvrez le diagramme de Gantt : définition, bénéfices et méthode en 5 étapes pour créer le vôtre et optimiser la gestion de vos projets.",
+      "publishedDate": "7/10/2021",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "7/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37f2a1470938aca6b9824_5-2.jpg",
+        "alt": "Le diagramme de Gantt : comment s'en servir ?"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un diagramme de Gantt pour la gestion de projet ?",
+        "href": "#quest-ce-quun-diagramme-de-gantt-pour-la-gestion-de-projet"
+      },
+      {
+        "label": "Pourquoi en faire un ?",
+        "href": "#pourquoi-en-faire-un"
+      },
+      {
+        "label": "Comment créer un diagramme de Gantt ?",
+        "href": "#comment-creer-un-diagramme-de-gantt"
+      },
+      {
+        "label": "Gantt ou Kanban ?",
+        "href": "#gantt-ou-kanban"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

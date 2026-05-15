@@ -1,0 +1,452 @@
+{
+  "type": "blog",
+  "slug": "budgetiser-un-projet-sans-se-louper",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment budgétiser un projet sans se louper",
+      "h1": "Comment budgétiser un projet sans se louper",
+      "description": "Découvrez comment budgétiser un projet efficacement : estimation par analogie, découpage en tranches, retour d'expérience du CIO d'Adeo, 6 erreurs à éviter et bénéfices d'un budget projet réussi.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "28/5/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "28/5/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea9312dbd70fd37ca94f39_Project%20image%20(6)-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Relever le défi du budget avec une estimation \"par analogie\"",
+        "href": "#relever-le-defi-du-budget-avec-une-estimation-par-analogie"
+      },
+      {
+        "label": "Découpez le budget de projet en tranches crédibles !",
+        "href": "#decoupez-le-budget-de-projet-en-tranches-credibles"
+      },
+      {
+        "label": "Retour d'expérience du CIO d'Adeo (Leroy Merlin, etc.)",
+        "href": "#retour-dexperience-du-cio-dadeo-leroy-merlin-etc"
+      },
+      {
+        "label": "Budgétiser un projet : les 6 erreurs facilement évitables",
+        "href": "#budgetiser-un-projet-les-6-erreurs-facilement-evitables"
+      },
+      {
+        "label": "Les bénéfices d'un budget projet réussi",
+        "href": "#les-benefices-dun-budget-projet-reussi"
+      },
+      {
+        "label": "Résumé",
+        "href": "#resume"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Un DSI nous confiait récemment : \"<strong>le projet n'aurait jamais été accepté si l'on n'avait pas menti sur le budget !\"</strong> Que l'on soit d'accord ou pas, il est intéressant d'explorer les \"non-dits\" autour de l'argent dans la gestion de projet !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Reconnaissons le tout d'abord, l'équipe \"<strong>Chef de projet/PMO /DSI\" est confrontée à une injonction paradoxale</strong>.<strong> L'impossible défi </strong>de <strong>conjuguer</strong>, d'un côté la pression du marché et des métiers vers toujours <strong>plus d'innovation</strong>, de rapidité et <strong>d'agilité</strong>. Et de l'autre, des<strong> demandes d'estimations budgétaires </strong>précises d'une direction générale qui a besoin de valider les équations financières de l'entreprise !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien sûr, pour corser les choses, tout cela se réalis<strong>e dans un contexte de guerre des talents IT et d'environnement de plus en plus VUCA</strong> (\"<em>Volatile, Uncertain, Complex, Ambiguous</em>\")."
+      },
+      {
+        "type": "paragraph",
+        "html": "Alors comment sortir \"par le haut\" d'une situation ou <strong>53% des projets dépassent de 189% leurs prévisions budgétaires !</strong> ?  (Source : Chaos report)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article nous proposons de sortir (un peu) de la subjectivité générale en matière de budget dans la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a>, en mettant en avant<strong> des pratiques simples et pragmatiques !</strong> Découvrez le retour d'expérience du CIO d'Adéo et aussi un bref rappel des basiques pour vous permettre de budgéter votre prochain projet sans (trop) vous tromper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Relever le défi du budget avec une estimation \"par analogie\"",
+        "id": "relever-le-defi-du-budget-avec-une-estimation-par-analogie"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea92284b368508405c566c_budget%20(2).jpg",
+        "alt": "Construire un budget par analogie",
+        "caption": "Copier intelligemment un budget projet quasi similaire pour sortir de l'approximation"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quand un chef de projet n'a jamais fait un type de projet, c'est compliqué d'établir une estimation ! Une des astuces consiste à se baser sur des données de projets quasi similaires afin que <strong>votre estimation colle au maximum aux dépenses et recettes futures</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Demander à quelqu'un qui a déjà fait ce type de projet reste la façon la plus pragmatique de faire</strong>. Aller chercher l'expérience là où elle est… Site web, réseaux professionnels traditionnels et ou numériques. Pensez aux réseaux spécialisés comme les groupes Linkedin tels que celui d'Alliancy - DSI & Transformation des organisations et/ou (autopromo), le club \"Pro de la Transfo\" d'AirSaas. Si vous avez plus de temps et d'argent à y consacrer, l'opportunité d'adhérer à un des réseaux traditionnels existant, vous permettra d'interagir au sein des cercles tels que l'ANDSI, le CIGREF, ou bien encore le Club Decision DSI, l'agora des DSI et CIO, le cercle des DSI d'ADN Ouest. L'offre est vaste."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous ne trouvez toujours pas votre réponse après quelques tentatives dans la sphère francophone...essayez donc les réseaux d'entraides entre DSI/PMO et CDIO anglophones. Par exemple<strong> le groupe Linkedin CIO Forum</strong>, ou bien la communauté en ligne d'IDG (TECH) talk propulsé par la revue CIO."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif est de<strong> ne pas réinventer l'eau chaude</strong>, de <strong>rester concentré sur l'innovation !</strong> Sur ce point comme beaucoup d'autres la culture de l'informatique libre et de l'open source a ouvert la voie. Pas de complexes à avoir !"
+      },
+      {
+        "type": "quote",
+        "text": "\"Good artists copy; great artists steal\"",
+        "author": "Picasso (cité par Steve Jobs)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Découpez le budget de projet en tranches crédibles !",
+        "id": "decoupez-le-budget-de-projet-en-tranches-credibles"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous en êtes conscients, les plus <strong>grandes estimations budgétaires</strong> sont <strong>la plupart du temps les plus belles</strong> \"fakexcel\" news !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Paradoxalement, l'expérience nous apprend que <strong>plus le projet est gros et long moins ça sert à quelque chose de le budgétiser. </strong>Plus le taux d'erreur sera important en effet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est plus prudent d'estimer le budget par phase <strong>ou sur la base d'un projet qui a déjà été fait, refait et refait plusieurs fois (industrialisé).</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et oui, construire une estimation \"qui descend jusqu'au boulon de 12\" prend du temps !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Si c'est un projet trop gros</strong> : en termes de temps de nombre de personnes ou avec de forts risques techniques alors, il faut se l'avouer,<strong> il est quasi impossible de bien budgétiser un projet dans son ensemble</strong>. Il faudra découper le projet et budgéter phase après phase."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Sinon, c'est un budget macro et ça peut être tout à fait suffisant !</strong>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3eb2a796639885b0d2fba_graphic.png",
+        "alt": "Ligne de performance vs temps",
+        "caption": "Une ligne de performance inversement proportionnelle au temps passé sur le projet !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Limites des \"estimations\"",
+        "id": "limites-desestimations"
+      },
+      {
+        "type": "paragraph",
+        "html": "\"Il faut cesser de faire <strong>des estimations projet !…Elles sont toutes foireuses\" </strong>d'après le spécialiste français et <strong>coach agile Frédéric</strong>."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea92cddc70758e1f21201d_fix-dessinateur-airsaas-budget-min-min.jpg",
+        "alt": "Visuel FIX dessinateur - Estimation difficile, impossible ?",
+        "caption": "L'exercice impossible du budget projet - Source : fix-dessinateur"
+      },
+      {
+        "type": "paragraph",
+        "html": "La philosophie du \"<strong>No estimate</strong>\" est intéressante et fait de plus en plus parler d'elle dans les conférences de la communauté agile en particulier. Véritable \"mur porteur\" de l'industrie du développement logiciel, une estimation est en effet la pierre angulaire de nombreuses activités en gestion de projet : construction du budget, priorisation roadmap, prise de décisions, contractualisation…"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela implique alors de <strong>trouver des alternatives à toutes ces activités projet… </strong>Donc de réinventer la gestion de projet, comment on priorise, comment on communique, comment on prend des décisions… Tout un programme !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>L'utilisation de référentiel, type abaques de chiffrage pour établir des estimations budgétaires est une méthode</strong> qui, sur la base d'unités d'œuvre supposées êtres comparables aide à estimer un budget projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Centrée sur les tâches productives \"pures\". Elle fait l'impasse sur les tâches liées au temps passé (meeting, points d'équipe) et les tâches liées aux travaux dits périphérique à la production (commercial, phase d'étude, de tests...)."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Le propos ici n'est pas de déconstruire cette approche, mais de revaloriser l'expérience et le bon sens face à certains excès de rationalité.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Retour d'expérience du CIO d'Adeo (Leroy Merlin, etc.)",
+        "id": "retour-dexperience-du-cio-dadeo-leroy-merlin-etc"
+      },
+      {
+        "type": "quote",
+        "text": "Au niveau budget, l'idée, c'est de fonctionner sur enveloppe fixe. Et moi, je cape l'investissement général, d'Adeo dans le digital, par rapport à la croissance de l'entreprise. On considère que ce ne sont pas des projets, donc ils n'ont pas de fin. Ce sont des produits. Quand on transforme la boîte en orientation product management, l'organisation financière doit aller avec.",
+        "author": "Matthieu Grymonprez",
+        "caption": "CDO/CIO ADEO. Invité de l'épisode N°30 du Podcast CIO Révolution produit par AirSaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "Plutôt que de continuer à estimer des budgets trop longs autour de la notion de projet, Mathieu nous explique qu'<strong>il conserve sa capacité de projection dans une équation économique globale… Tout en organisant les budgets autour de la notion centrale de produit et de cycle agile</strong>. Donc chaque budget, ce sont des OPEX qui s'accumulent."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>L'innovation technologique comme culture d'entreprise. </strong>Décidément <strong>les entreprises \"orientée produit\" tirent l'innovation méthodologique </strong>vers le haut !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Budgétiser un projet : les 6 erreurs facilement évitables",
+        "id": "budgetiser-un-projet-les-6-erreurs-facilement-evitables"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Sous-estimer les délais et les coûts indirects du projet",
+        "id": "1-sous-estimer-les-delais-et-les-couts-indirects-du-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Sous-estimer vos délais</strong> reviendra à<strong> faire travailler pendant plus longtemps que prévu vos ressources</strong>, et donc à \"exploser\" votre budget !"
+      },
+      {
+        "type": "paragraph",
+        "html": "De nombreuses études ont montré qu'il était<strong> commun qu'un chef de projet soit trop optimiste lorsqu'il estime</strong> la durée de réalisation d'une tâche. Ainsi, <strong>interrogez vos collaborateurs sur le délai dont ils estiment avoir besoin </strong>pour accomplir leurs missions, et ajoutez une marge de sécurité par précaution (souvent entre 20 et 30% selon les collaborateurs)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Vos partenaires sont co responsables de l'estimation : impliquez-les !",
+        "id": "2-vos-partenaires-sont-co-responsables-de-lestimation-impliquez-les"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous voulez prévoir efficacement vos dépenses et vos recettes, il est primordial d'impliquer les premiers concernés par ces dernières : vos partenaires. Il sera <strong>bien plus simple de réussir à anticiper les bons montants en les calculant avec ceux qui œuvreront au quotidien</strong> sur le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chacun sera à même de vous donner une idée précise de l'importance des dépenses et des recettes liées aux tâches dont il est responsable au \"coût par coût\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec ce <strong>dialogue vous risquez d'obtenir un </strong><a href=\"https://www.airsaas.io/fr/gestion-de-projet/tout-savoir-sur-le-budget-previsionnel-projet\"><strong>budget prévisionnel</strong></a><strong> bien plus proche de la réalité </strong>en interrogeant vos collaborateurs sur leurs domaines de prédilection, <strong>qu'en confiant la réalisation de l'entièreté du budget à un consultant</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Ne pas tenir compte de ses ressources !",
+        "id": "3-ne-pas-tenir-compte-de-ses-ressources"
+      },
+      {
+        "type": "paragraph",
+        "html": "Faire l'inventaire de ses ressources est un prérequis indispensable pour réaliser un budget prévisionnel. Vous devez connaître l'ensemble des ressources à votre disposition. On parle ici des ressources matérielles, humaines, mais aussi du temps (nombre de jours) dont vous disposez pour mener à bien ce projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'une des <strong>principales causes d'échec budgétaire est due à une mauvaise planification de la disponibilité des ressources.</strong> Les vacances, la maladie, les mises à pied, les remplacements de ressources, travailler sur plusieurs projets en même temps ont toujours un impact sur le budget."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Un budget prévisionnel n'est pas statique : faites-le évoluer !",
+        "id": "4-un-budget-previsionnel-nest-pas-statique-faites-le-evoluer"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les coûts de gestion de projet ne sont pas gravés dans le marbre ! Mais évoluera avec le périmètre tout au long du cycle de vie du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si pour le confectionner en amont, vous êtes bien obligé d'essayer de prévoir le réel, il arrivera un moment où vos hypothèses se vérifieront ou s'infirmeront. Lorsque durant votre projet, vous obtenez davantage d'informations sur les dépenses et les recettes auxquelles vous allez faire face, servez-vous en pour <strong>retravailler votre budget prévisionnel projet</strong> !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, il est conseillé de <strong>faire un bilan chaque mois sur vos dépenses et recettes effectives</strong>, et de les comparer à vos prévisions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Important : lorsque vous corrigez votre budget prévisionnel, <strong>n'oubliez pas de garder la version antérieure</strong>, cela évitera de perdre le cap, mais sera aussi très intéressant à revoir lorsque vous aurez bien avancé sur le projet !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Attention au \"double run\" de vos systèmes !",
+        "id": "5-attention-au-double-run-de-vos-systemes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Lorsqu'on budgète quelque chose qu'on remplace</strong> il peut y avoir une période ou les deux systèmes sont payés et souvent ça peut faire capoter financièrement le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un acheteur nous racontait avoir découvert un budget projet ou les utilisateurs avaient demandé et obtenu de conserver l'ancienne appli pour un besoin d'archivage...pendant deux ans ! Et là c'est la triple peine : on garde les coûts d'infra, on garde les coûts de licence, et ceux de maintenance !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec une prévision budgétaire mieux anticipée on peut construire une application en local répondant au besoin de consultation d'archives."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention également<strong> lorsqu'on budgète quelque chose qu'on remplace qui était en Capex par de l'Opex</strong> et là, c'est pire. Car on impacte le bilan comptable de l'entreprise !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Par ailleurs il faut avoir en tête que le coût du projet n'est pas uniquement une somme de dépenses internes mais qu'il y a des externalités."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Les coûts de gestion, de ressources humaines, dont les salaires ;",
+          "les charges courantes de l'entreprise (électricité, etc.) ;",
+          "les impôts et taxes ;",
+          "les frais de communication et autres"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention ces coûts indirects seront partagés avec plusieurs projets notamment grâce à une <strong>clé de répartition</strong> !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. L'erreur ultime : sous-traiter cette tâche au contrôleur de gestion :-)",
+        "id": "6-lerreur-ultime-sous-traiter-cette-tache-au-controleur-de-gestion"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le support et le métier doivent s'entraider ! La lecture de la structure de coûts du budget du projet est un exercice complexe.<strong> Quelle que soit la taille de votre entreprise ne confiez pas ce dossier à quelqu'un qui n'est pas du métier. Faites-vous aider...Ne sous-traitez pas</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous ne voulez pas retrouver les codes analytiques de la compta dans votre budget projet retravailler toujours les choses sur votre outil."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est un investissement conséquent. Mais fondamental pour budgétiser un projet de façon efficace."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les bénéfices d'un budget projet réussi",
+        "id": "les-benefices-dun-budget-projet-reussi"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le budget sert à rendre le projet crédible",
+        "id": "le-budget-sert-a-rendre-le-projet-credible"
+      },
+      {
+        "type": "paragraph",
+        "html": "Commune une image, <strong>un bon budget vaut 1000 mots</strong>, car <strong>il démontrera à quel point une équipe de projet a pensé à tout.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention donc à ne pas oublier la base : un budget est un<strong> résumé des dépenses et des recettes anticipées.</strong> Il présente donc une estimation de l'ensemble des<strong> ressources nécessaires à l'atteinte d'objectifs sur une durée déterminée.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour gérer efficacement le budget d'un projet il est courant d'établir des indicateurs de performance clés (KPI). Les KPI vous aident à déterminer combien a été dépensé pour un projet, dans quelle mesure le budget réel du projet diffère de ce qui était prévu, etc."
+      },
+      {
+        "type": "paragraph",
+        "html": "De manière classique enfin on fait attention à la différence entre le coût d'achat et les coûts récurrents (capex opex). On sépare les dépenses IT d'investissement et celles d'exploitation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le budget de projet s'assimile à un contrat tacite",
+        "id": "le-budget-de-projet-sassimile-a-un-contrat-tacite"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le budget de projet représente <strong>un engagement entre un manager de projet et sa hiérarchie et ou ses investisseurs</strong>, sur les résultats à atteindre et les moyens à mettre en œuvre. Un engagement vis-à-vis de son entreprise !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Faire un<strong> budget prévisionnel est indispensable lorsque l'on veut créer un projet </strong>: s'il peut servir à convaincre des supérieurs ou des investisseurs de l'intérêt de financer votre projet, il permettra dans tous les cas à toutes les parties impliquées dans le projet d'avoir une visibilité sur l'ensemble de sa réalisation.  <a href=\"https://www.airsaas.io/fr/gestion-de-projet/cadrage-projet\">Cadrage</a>, exécution, conduite du changement, communication, exploitation, etc."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le budget est un média : il vous permet de tenir les parties prenantes informées",
+        "id": "le-budget-est-un-media-il-vous-permet-de-tenir-les-parties-prenantes-informees"
+      },
+      {
+        "type": "paragraph",
+        "html": "S'il n'est pas possible de maintenir le budget actuel du projet, les parties prenantes doivent connaître la cause profonde de tout dépassement potentiel afin de prendre des décisions éclairées sur la poursuite. Des changements de portée sont probablement nécessaires. <strong>Le point important ici est que l'incertitude au sens large, comme une pandémie, est inévitable, laissant d'autres décisions liées au budget qui doivent être prises en temps opportun.</strong> Les parties prenantes telles que le client peuvent avoir besoin de décider si le moment ou les circonstances sont propices pour poursuivre, reporter ou arrêter complètement un projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mieux budgétiser permet d'anticiper et ajuster son projet",
+        "id": "mieux-budgetiser-permet-danticiper-et-ajuster-son-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'intérêt premier d'un budget prévisionnel est d'essayer d'<strong>accroître sa visibilité sur le futur</strong> de votre projet, ses ressources, autrement dit, d'anticiper !"
+      },
+      {
+        "type": "paragraph",
+        "html": "En effet, construire le budget prévisionnel de son projet est l'une des <strong>meilleures solutions pour estimer sa faisabilité</strong>. Vous allez pouvoir calculer la marge que vous espérez atteindre (ou au moins l'équilibre budgétaire) et <strong>réaliser des ajustements sur votre stratégie </strong>si vous vous rendez compte que votre business plan ne tient pas la route."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Astuces</strong> : vous pouvez même <strong>réaliser plusieurs budgets prévisionnels</strong> qui représentent les différents scénarios que vous envisagez, et qui prennent en compte les imprévus que vous pouvez imaginer (problème d'approvisionnement, nouveaux concurrents qui changent le marché, etc.)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Le budget projet mal tenu peut déstabiliser, ou pas, toute l'entreprise",
+        "id": "le-budget-projet-mal-tenu-peut-destabiliser-ou-pas-toute-lentreprise"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà du budget projet dépassé, l'impact éventuel des<strong> coûts de la non-livraison sur le business </strong>peut avoir un impact financier significatif. L'exemple emblématique est celui de la ville de Denver ou l'échec du logiciel de gestion de bagages du nouvel aéroport représenterait un coût de 1,1 million de dollars / jour."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si on prend un<strong> autre très gros projet par exemple comme l'interminable saga des EPR</strong>. Un nom devenu <strong>synonyme</strong> de retards à répétition et<strong> de gouffre financier.</strong> Disons le simplement oui c'est un budget projet raté : à ce jour il en est à 4x le budget estimé et 11 ans de dépassement de délais !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bon, c'était le premier projet de ce type, c'est mission <strong>impossible de budgéter un chantier comme ça</strong>. Maintenant qu'ils l'ont fait une fois la prochaine itération sera beaucoup plus en ligne dans le prochain projet, plus précise pour la construction des six autres réacteurs prévus pour un coût total estimé entre 52 et 64 milliards d'euros !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Résumé",
+        "id": "resume"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Petit projet ou gros projet ? <strong>On refuse de faire des budgets projets globaux</strong>, ça ne sert à rien !",
+          "Besoin d'expérience de conseils ? Faites appel à un ami DSI/PMO/Chef de projet ou à un site web mais <strong>fonctionnez par analogie.</strong>",
+          "Le projet remplace ou c'est nouveau ? Dans le premier cas <strong>attention à la durée de la phase de double exploitation.</strong>",
+          "Le projet est long...<strong>modifiez le budget pendant toute la mise en œuvre du projet.</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le budget prévisionnel est terminé ? Vous pouvez désormais l'intégrer à votre <a href=\"https://www.airsaas.io/gestion-de-projet/fiche-projet-exemple-et-methodologie\">fiche projet</a>."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

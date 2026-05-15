@@ -1,0 +1,379 @@
+{
+  "type": "blog",
+  "slug": "comment-reussir-un-projet-transverse",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment réussir un projet transverse ?",
+      "h1": "Comment réussir un projet transverse ?",
+      "description": "Découvrez toutes les clés de succès d'un projet transverse réussi : rôle du sponsor, construction de l'équipe, prérequis, exécution pragmatique et dérisquage.",
+      "publishedDate": "20/4/2022",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "20/4/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3863233f545341936e65e_Project%20image-min2.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Comment fonctionner en mode projet transverse et casser les silos de l'entreprise ?",
+        "href": "#comment-fonctionner-en-mode-projet-transverse-et-casser-les-silos-de-lentreprise"
+      },
+      {
+        "label": "Les prérequis pour une gestion de projet transversal réussie",
+        "href": "#les-prerequis-pour-une-gestion-de-projet-transversal-reussie"
+      },
+      {
+        "label": "Les éléments clés d'exécution pour réussir vos projets transverses",
+        "href": "#les-elements-cles-dexecution-pour-reussir-vos-projets-transverses"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Tout n'est pas un problème d'organisation. On ne réussit pas un projet transverse parce qu'on gère bien un diagramme de Gantt. La méthodologie reste importante, mais l'enjeu de la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> concerne avant tout l'humain et l'équipe au centre du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet article vous dévoile <strong>toutes les clés de succès de votre prochain projet transverse</strong>. Des conseils pragmatiques et concrets pour mener votre projet au succès !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba67_62f3848c7d5e7f5d099078a7_projet-transverse-airsaas.jpeg",
+        "alt": "Projet transverse",
+        "caption": "Projets transverses : un moteur pour la transformation"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment fonctionner en mode projet transverse et casser les silos de l'entreprise ?",
+        "id": "comment-fonctionner-en-mode-projet-transverse-et-casser-les-silos-de-lentreprise"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba49_62f384e964eac22620049490_Involved%2520members.jpeg",
+        "alt": "Capture écran AirSaas équipes projet",
+        "caption": "Choisir la dream team de votre projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Rôle du sponsor",
+        "id": "role-du-sponsor"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le sponsor, souvent membre de la Direction, doit avoir assez d'influence auprès des autres membres de la Direction Générale et dans l'entreprise afin de pouvoir <strong>faciliter la création de projet transverse</strong> et avoir la possibilité de mettre les moyens nécessaires en place pour sa réussite - notamment en aménageant du temps et de la disponibilité aux acteurs clés. Il doit avoir la volonté de faire bouger les lignes et il est <strong>l'un des premiers promoteurs de la démarche</strong> et du changement de point de vue quant à l'intérêt de sortir d'un fonctionnement classique des services."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il donne la ligne stratégique, challenge l'avancement et joue un rôle clé dans les arbitrages. Aussi, il facilitera le travail du chef de projet, en défendant le projet en comité de direction, en suggérant des idées en lien avec la stratégie d'entreprise. Il pourra également participer à la gestion des conflits dans le cas ou le management transverse ne serait pas suffisant."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Construction de l'équipe transverse (task force)",
+        "id": "construction-de-lequipe-transverse-task-force"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est fortement recommandé d'<strong>impliquer toutes les personnes qui auront un lien avec le projet le plus tôt possible</strong>. Pour cela, vous pouvez mettre en place un comité spécifique, que ce soit un comité de pilotage ou d'innovation. Mais ici, nous parlerons de l'équipe, qui prendra l'essentiel des actions opérationnelles du projet. Vous rechercherez le plus possible à trouver les attributs suivants dans votre équipe transverse."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Des compétences aiguisées",
+        "id": "des-competences-aiguisees"
+      },
+      {
+        "type": "paragraph",
+        "html": "Que ce soit dans l'aspect technique d'un profil, ou la connaissance accrue d'un environnement métier, vous chercherez à <strong>embarquer dans l'équipe des spécialistes</strong> dans les compétences recherchées avec si possible de l'influence. Cela permettra notamment d'évangéliser la démarche au sein d'autres collaborateurs de l'entreprise."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Des éléments moteurs",
+        "id": "des-elements-moteurs"
+      },
+      {
+        "type": "paragraph",
+        "html": "En première ligne dans la réalisation des objectifs, les membres de l'équipe d'un projet transverse doivent-être moteurs dans la conduite du changement. Ils sont <strong>les premiers acteurs de ce processus</strong>, souvent nouveau. De ce fait, on voudra éviter au maximum les freins et les facteurs bloquants liés à l'humain, en composant l'équipe de profils partageant un état d'esprit positif quant au lancement du projet transverse. De quoi motiver toutes les parties prenantes de l'organisation impliquées dans votre projet transverse !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Qu'est ce que travailler en transversalité ?",
+        "id": "quest-ce-que-travailler-en-transversalite"
+      },
+      {
+        "type": "paragraph",
+        "html": "Travailler en transversalité, c'est avant tout travailler <strong>sans liens hiérarchiques</strong>, avec des personnes ne travaillant souvent pas dans le même service avec qui il est difficile de partager du temps."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Une gestion de projet tournée vers la transparence.</strong> Particulièrement en absence de liens hiérarchiques, une forte confiance entre les différents acteurs du projet est indispensable. Le chef de projet transverse doit mettre en place une dynamique dans laquelle il n'y a aucun intérêt pour personne à la rétention d'information. Lui et le sponsor doivent être vigilant dans le cas contraire.",
+          "<strong>Du temps de travail dédié.</strong> Même si les acteurs ne travaillent pas dans le même service, il doivent pouvoir aménager du temps de travail en équipe afin d'être plus efficace et d'éviter l'inertie liée à la distance et aux activités habituelles de leurs missions respectives."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les prérequis pour une gestion de projet transversal réussie",
+        "id": "les-prerequis-pour-une-gestion-de-projet-transversal-reussie"
+      },
+      {
+        "type": "paragraph",
+        "html": "En plus des éléments cités plus haut, on retrouve des éléments qu'il faut avoir bien en place avant le début opérationnel."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un bon alignement avec la stratégie d'entreprise",
+        "id": "un-bon-alignement-avec-la-strategie-dentreprise"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba3b_62f38527d36866c52a51a46e_Projet_Goal%2520-%2520Desc%2520-%2520Gains.jpeg",
+        "alt": "Capture écran AirSaas - Projets transverses"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'une des règles d'or à suivre pour le chef de projet comme guideline, c'est <strong>l'alignement de son projet avec la stratégie d'entreprise.</strong> Même si cela parait n'être que du bon sens, il peut être difficile, selon les étapes et aléas au cours d'un projet transverse, de savoir si l'on s'inscrit bien toujours dans la vision et la stratégie de l'entreprise. En cas de doute, se tourner vers le sponsor et faire toujours en sorte qu'il ait les bonnes informations."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un problème \"DUR\" avec fort impact sur l'entreprise",
+        "id": "un-probleme-dur-avec-fort-impact-sur-lentreprise"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans les bonnes pratiques des projets transverses réussis, on retrouve en tête de liste l'importance de <strong>la problématique que le projet doit résoudre</strong>. Il permet de caractériser si l'objectif que l'on veut remplir a du sens, et s'il apporte une réelle valeur."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le bon traitement d'un problématique par un projet transverse présente d'autres avantages comme :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Permettre de chiffrer l'impact d'un problème",
+          "Bien définir les fonctionnalités d'un service",
+          "Définir un budget",
+          "Permettre de valoriser les solutions misent en place et calculer un ROI"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette problématique doit-être <strong>DUR : Douloureuse, Urgente et Reconnue</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il sera bien mieux de passer du temps à bien comprendre le problème et le qualifier de DUR avant de lancer les opérations, que de se rendre compte au final que le projet ou la solution n'apporte pas assez de valeur, et que l'équation économique n'est pas favorable."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un budget bien ficelé",
+        "id": "un-budget-bien-ficele"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba2d_62f3854b03388a842791920e_Projet_Budget.jpeg",
+        "alt": "Attributs projets cadrage"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout comme ne pas avoir bien défini une problématique (et son impact) peut être dès le début une cause d'échec d'un projet transverse, ne pas avoir de budget précis alloué en est une autre. Mettre une équipe en place et instaurer des changements dans le fonctionnement de l'entreprise peut être très néfaste pour la continuité de ce genre de démarche. En effet, si après plusieurs mois de travail on se rend compte qu'on ne souhaite pas ou que l'on a pas le budget nécessaire pour amener le projet à son terme, c'est la catastrophe assurée. D'où l'importance de définir un budget et surtout de <strong>chiffrer une problématique pour prioriser les plans d'investissement.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les éléments clés d'exécution pour réussir vos projets transverses",
+        "id": "les-elements-cles-dexecution-pour-reussir-vos-projets-transverses"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 : Rationaliser",
+        "id": "1-rationaliser"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba35_625ef188cd49e0ffbe307008_projet-transverse-pragmatic.jpeg",
+        "alt": "Illustration sur le pragmatisme",
+        "caption": "We ❤️ pragmatisme !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "À chaque problématique sa solution pragmatique",
+        "id": "a-chaque-problematique-sa-solution-pragmatique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Après avoir abordé l'importance d'un problème bien défini, il lui faut maintenant <strong>sa solution pragmatique</strong>. En effet, on a naturellement tendance à vouloir mettre en place une solution complète pour tout résoudre dès lors qu'on visualise mentalement la solution parfaite. Or, il s'avère que les solutions idéales sur le papier (quand on est en dehors de son coeur de métier) ne seront pas réalisables, car trop longues et trop coûteuses à mettre en place - particulièrement quand on recherche \"l'effet waouh\" avant tout."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cherchez à répondre à 80% du problème - mais le mieux, le plus rapide et le moins cher possible. Pour cela, le travail sur le problème et les fonctionnalités clés pourra vous aider."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Prioriser les fonctionnalités clés et les évolutions de versions",
+        "id": "prioriser-les-fonctionnalites-cles-et-les-evolutions-de-versions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Quand on attaque un problème, une des solutions très efficace est de <strong>re-découper la problématique en plusieurs sous-problèmes</strong> qui la composent. Hiérarchiser ces sous-problèmes en fonction de l'impact/ des conséquences qu'ils génèrent, et enfin se poser la question : \"Pourquoi ce sous-problème n'est pas encore résolu ?\". La réponse à cette question sera votre levier d'action, et vous permettra de définir une fonctionnalité de votre solution permettant de le résoudre."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'idée ici est de <strong>vous concentrer sur les sous-problèmes les plus importants</strong> et de composer votre solution principale là-dessus. Vous pourrez toujours prévoir une solution évolutive avec la mise en place de nouvelles fonctionnalités plus tard au cours du projet transverse, pour compléter la résolution de la problématique globale."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Adopter une vision long terme et une approche ROIste",
+        "id": "adopter-une-vision-long-terme-et-une-approche-roiste"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il arrive souvent que, dans les premières phases d'un projet transverse, motivé par l'envie de montrer de la valeur et des \"quick wins\", on perde de vue la vision globale et long terme du projet. Il ne faut donc <strong>pas oublier que l'objectif principal est de résoudre la problématique sur le long terme.</strong> Les premières phases de votre management de projet doivent essentiellement servir à alimenter cet aspect là."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, <strong>garder une approche ROIste de vos actions</strong> et de ce qu'il restera à mettre en place est déterminant pour la validation permanente de vos recommandations et de la solution finale."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2 : Dérisquer",
+        "id": "2-derisquer"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba5b_62f38581df91453b9c1e0b2f_antenne-derisquer-airsaas.jpeg",
+        "alt": "Photo en hauteur",
+        "caption": "Un risque de vertige, ça se pilote aussi."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Sélectionner les bons partenaires - audit",
+        "id": "selectionner-les-bons-partenaires-audit"
+      },
+      {
+        "type": "paragraph",
+        "html": "On peut souvent être tenté de partir avec une solution ou un partenaire extérieur qui provoque un \"effet waouh\", car elle séduira certainement les collaborateurs et valorisera l'image de votre projet. Mais assurez-vous de la capacité d'exécution de vos partenaires dans le cadre de votre projet. On préfèrera une solution peut-être moins sexy mais qui marche, et des partenaires qui délivrent."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, n'hésitez pas à faire un audit approfondi de la solution ou du partenaire externe, afin de vous assurer que la solution fonctionnera et aura la capacité d'être maintenue dans le temps."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Lancer une phase de test - des hypothèses à valider et les bon KPIs",
+        "id": "lancer-une-phase-de-test-des-hypotheses-a-valider-et-les-bon-kpis"
+      },
+      {
+        "type": "paragraph",
+        "html": "Afin de dérisquer votre projet transverse sur le long terme, il est toujours conseillé de mettre votre solution en phase de test. Pour cela, il est important de mettre en situation et de monitorer les fonctionnalités clés, un périmètre représentatif du projet long terme, de l'environnement et contraintes de la solution."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, en partant des fonctionnalités clés que vous aurez définies grâce aux sous-problèmes de votre problématique, identifiez des hypothèses auxquelles vous aurez à répondre pour vous assurer que les fonctionnalités clés permettent de résoudre le problème et que la solution sera maintenable dans son environnement. Une fois ces hypothèses définies, trouvez <a href=\"https://www.airsaas.io/fr/gestion-de-projet/kpi-gestion-de-projet\">les bons KPIs à mettre en place</a> pour mesurer si oui ou non vous pourrez répondre aux hypothèses pendant la phase de test."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Créer une roadmap et un cahier des charges",
+        "id": "creer-une-roadmap-et-un-cahier-des-charges"
+      },
+      {
+        "type": "paragraph",
+        "html": "Particulièrement dans un projet transverse, il vous sera très utile afin de rythmer les actions et de mettre tout le monde d'accord, d'entériner tous les aspects du projet dans un cahier des charges validé par toutes les parties prenantes. Pour cela, pensez à bien intégrer chacun des acteurs dans l'élaboration du document pour les parties qui les concernent. Ensuite, dessinez les chemins critiques du projet pour définir une roadmap adaptée et cohérente. Elle vous permettra de donner de la visibilité aux actions en cours, passées et à venir, ainsi qu'à monitorer l'état de santé de l'avancement."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba1f_62f385c7349867ec6d2f324e_Projet_Copil-milestones.jpeg",
+        "alt": "timeline jalons projet",
+        "caption": "Une vision temporelle claire"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Découper les livrables et raccourcir les deadlines",
+        "id": "decouper-les-livrables-et-raccourcir-les-deadlines"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un autre aspect de phases opérationnelles efficaces est de découper la taille des livrables ainsi que la fréquence de restitution, afin de limiter la charge mentale des collaborateurs (surtout s'ils sont sur plusieurs missions en parallèle) et avoir un suivi plus fin des dérives de planning pour prendre les bonnes actions correctives."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela permettra aussi de rythmer le projet et les échanges, ainsi que de valoriser le travail et l'avancement de chacun."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba4d_6270f93b2b96c44ac22b5d82_Projet%2520-%2520deliverable.jpeg",
+        "alt": "Capture écran AirSaas - Projets transverses"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Mettre en place un suivi de projet à la semaine - rapport flash",
+        "id": "mettre-en-place-un-suivi-de-projet-a-la-semaine-rapport-flash"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'un des leviers pour rythmer les projets transverses et rendre l'avancement plus efficace est d'instaurer un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/le-suivi-de-projet-pour-garder-aligne-les-parties-prenantes\">suivi de projet</a> hebdomadaire du projet entre les membres de la task force et des externes plus opérationnels. Pour cela, mettre en place un rapport flash est une très bonne action pour suivre l'avancement, et permettre à tout le monde de garder une vision 360° du projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d18534c2d61f36e304ba29_62f38608523cfa1f14842cbe_Projet_kanban-report%2520flash.jpeg",
+        "alt": "Capture écran AirSaas - portfolio Projets"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Fonctionner en circuit de décision court - comité de pilotage",
+        "id": "fonctionner-en-circuit-de-decision-court-comite-de-pilotage"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans la continuité de l'efficacité opérationnelle pour les projets transverses, et afin de se prémunir de l'inertie liée aux organisations complexes dans l'entreprise, pendant la création de l'équipe du projet, on mettre aussi en place un circuit de décision court avec un sponsor et quelques décideurs clés (au besoin) : un comité de pilotage tous les 30 ou 45 jours, afin d'y présenter l'avancement et les arbitrages nécessaires à l'avancement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour approfondir nous vous conseillons la lecture de l'article suivant : <a href=\"/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\">Comment être un bon chef de projet transverse ?</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

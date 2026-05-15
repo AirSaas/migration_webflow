@@ -1,0 +1,312 @@
+{
+  "type": "blog",
+  "slug": "comite-pilotage-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
+      "h1": "Comité de pilotage projet : 5 astuces pour que tout se passe bien",
+      "description": "Découvrez 5 astuces + 1 bonus pour réussir votre comité de pilotage projet : alignement chef de projet IT/Métier, préparation, rhétorique, valorisation des succès et processus de décision.",
+      "publishedDate": "1/6/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "1/6/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea901f083f308b673091eb_copil-projet.jpg",
+        "alt": "Comité de pilotage projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Astuce 1 : S'accorder pour ne pas mettre en défaut son homologue IT / Métier en Copil",
+        "href": "#astuce-1-saccorder-pour-ne-pas-mettre-en-defaut-son-homologue-it-metier-en-copil"
+      },
+      {
+        "label": "Astuce 2 : Aucune information ne doit être découverte pendant le comité de pilotage projet",
+        "href": "#astuce-2-aucune-information-ne-doit-etre-decouverte-pendant-le-comite-de-pilotage-projet"
+      },
+      {
+        "label": "Astuce 3 : Soyez vagues, très précisément !",
+        "href": "#astuce-3-soyez-vagues-tres-precisement"
+      },
+      {
+        "label": "Astuce 4 : Faites la promotion des accomplissements et succès",
+        "href": "#astuce-4-faites-la-promotion-des-accomplissements-et-succes"
+      },
+      {
+        "label": "Astuce 5 : Décidez... de comment décider",
+        "href": "#astuce-5-decidez-de-comment-decider"
+      },
+      {
+        "label": "Astuce bonus : Affichez la checklist du rôle et des redevabilités du comité de pilotage projet",
+        "href": "#astuce-bonus-affichez-la-checklist-du-role-et-des-redevabilites-du-comite-de-pilotage-projet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<strong>Montre-moi ton comité de pilotage projet, je te dirai quel PMO ou chef de projet tu es</strong> !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un proverbe chinois nous le rappelle : \"Le poisson pourrit toujours par la tête\". Oui : à l'origine des dysfonctionnements au sein d'une organisation, on trouve souvent ses dirigeants et managers."
+      },
+      {
+        "type": "paragraph",
+        "html": "Réussir votre Copil projet, c'est réussir vos arbitrages et prises de décisions. C'est impliquer la gouvernance d'un projet, ceux qui détiennent le pouvoir sur les moyens, les délais, la qualité et la performance."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème : les sujets remontés en comité de pilotage sont complexes. Le temps disponible y est limité et enfin, la concentration d'excès d'ego y est extrême !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ajoutons qu'il y a parfois tellement de projets que le Codir ne peut alors pas participer à tous les Copil. Ce qui peut avoir pour conséquence un surplus de jeu \"politique\" interne, d'indécision."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment, dans ce contexte, éviter ou déminer les pièges de l'effet groupe, et faire en sorte que le processus d'animation du comité de pilotage projet se passe le mieux possible ? On a interrogé nos amis DSI, PMO et chef de projets, on a puisé dans notre vécu, relu tous les articles, demandé à Google... pour sélectionner <strong>5 bonnes pratiques, qu'on aurait aimé connaître</strong>, avant notre premier Copil projet..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici, pas de conseils basiques - vous savez déjà qu'il faut faire un ordre du jour lors d'un comité de pilotage. On va s'intéresser à ce qui n'est pas écrit dans les manuels, avec un <strong>focus sur le pragmatisme et les dynamiques relationnelles</strong> d'un projet. Pour découvrir les fondamentaux on vous a préparé cet autre article à découvrir : <a href=\"/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">Comité de pilotage ou Copil : Les bases</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Astuce 1 : S'accorder pour ne pas mettre en défaut son homologue IT / Métier en Copil",
+        "id": "astuce-1-saccorder-pour-ne-pas-mettre-en-defaut-son-homologue-it-metier-en-copil"
+      },
+      {
+        "type": "paragraph",
+        "html": "Établissez en quelque sorte un \"<strong>contrat relationnel</strong>\" : ne jamais mettre son partenaire du tandem chef de projet métier / IT, en défaut devant le comité. Ce n'est pas le Copil d'une des parties, c'est le Copil du projet ! Faites en une sorte de <em>golden rule</em>\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette astuce simple, si elle est utilisée à bon escient, ne garantira pas un projet idéal - mais juste des relations normales et en partie apaisées lors des moments de tensions."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il faut souligner que dans un contexte d'équipes de plus en plus auto-organisées et agiles dans les projets, le concept même de chef de projet unique semble de plus en plus anachronique, voire obsolète. Oui, vous êtes un groupe projet, une \"chefferie\" hybride. Précisons pour être complet, qu'<strong>au duo formé par le chef de projet IT et métier, il faut ajouter le sponsor.</strong> C'est ce trio qui doit animer le comité de pilotage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit se phaser avant et après le comité de pilotage pour s'aligner sur les messages et objectifs parfois transverses."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour bien ancrer cette pratique, on peut la comparer à celle qui se joue à l'échelle d'une famille. Prenons l'exemple d'un adolescent qui rencontrerait des problèmes de comportement au collège... Si l'un des parents, pour aller dans le sens de l'enfant, met en défaut les autres adultes co-responsables (parent et ou professeur), on commence alors à disfonctionner. Cette faille entre les trois partenaires de l'éducation peut être exploitée et donner lieu à des interprétations et débats sans fin ! L'analogie avec les projets vaut ce qu'elle vaut, mais elle dit bien l'importance du contrat relationnel, pour que chacun joue son rôle dans un cadre collectif, en co-responsabilité."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Astuce 2 : Aucune information ne doit être découverte pendant le comité de pilotage projet",
+        "id": "astuce-2-aucune-information-ne-doit-etre-decouverte-pendant-le-comite-de-pilotage-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Tous les documents; ordre du jour et annexes doivent être transmis,</strong> au moins une semaine; et idéalement 15 jours, avant le jour du comité de pilotage !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention : maîtriser cette astuce de base n'est pas si facile. Il s'agit ici de vous mettre (un peu) à la place des membres du comité de pilotage projet. Car oui, rappelons-le : envoyer un \"diapocument\", équivalent à un livre de 100 pages à lire, quelques jours seulement avant la réunion équivaut à faire vivre une expérience pénible à votre cible."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le principe conducteur : <strong>aucune information ou presque ne doit être découverte pendant le comité de pilotage.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "De même <strong>le sponsor doit être tenu au courant des points critiques</strong> inclus dans l'ordre du jour. Sans pour autant lui faire relire tout le plan de communication, vous aurez préparé et validé les messages clés, décisions et solutions préconisées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, idéalement, certaines décisions du comité de pilotage projet seront prises avant la réunion entre le chef de projet IT/Métier et le sponsor. L'objectif serait d'avoir les validations des différents managers sur ces sujets. Tout est dans la préparation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Astuce 3 : Soyez vagues, très précisément !",
+        "id": "astuce-3-soyez-vagues-tres-precisement"
+      },
+      {
+        "type": "paragraph",
+        "html": "Là, on est sur une astuce de pure rhétorique. Vous êtes le chef de projet IT/Métier ou PMO. Un des membres du comité de pilotage projet vous interpelle lors de la réunion. Si vous ne savez pas ce qui doit être fait, mais que vous ne voulez pas l'admettre, utilisez des phrases telles que : \"<em>Nous allons examiner ce problème et vous donner un retour d'ici mardi prochain, 15h00</em>\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "En technique de communication il est important, voire essentiel, \"<strong>d'accuser réception du message</strong>\" de l'émetteur. Vous vous assurerez de la sorte de ne plus y revenir, et éviterez un parasitisme latent."
+      },
+      {
+        "type": "paragraph",
+        "html": "Notez-le sur le <em>parperboard</em> ou le support de la plateforme. Vous ne dites pas un mot de ce que vous allez faire, mais <strong>le délai exact crée une impression de certitude</strong>. Bien sûr, vous devez envoyer une mise à jour avant la date limite. Même s'il ne s'agit que d'un \"<em>désolé, nous avons dû reprioriser le sujet</em>\" avec un nouveau délai :-) vous serez perçu comme une personne très fiable, capable de respecter les délais et de communiquer clairement et à l'avance."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est une astuce proche de celle consistant à accueillir et ranger les questions hors sujets au parking, pour garder le focus sur l'ordre du jour."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Variante pour garder le focus : la zone des questions \"frigos/parking\"",
+        "id": "variante-pour-garder-le-focus-la-zone-des-questions-frigosparking"
+      },
+      {
+        "type": "paragraph",
+        "html": "On vous interpelle en pleine réunion sur une question non prévue ? <strong>Notez les sujets hors ordre du jour et mettez-les de côté</strong> pour discussion à une date ultérieure afin de vous assurer que l'ordre du jour principal est traité en priorité et de donner aux participants l'habitude de se concentrer et d'être conscients des tangentes, pour <strong>éviter les digressions</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet usage à comme bénéfice de garder le comité de pilotage concentré sur l'ordre du jour indiqué. Deuxièmement, le frigo ou parking reconnaît et fait une place aux points importants soulevés par les différentes parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Attention, la question doit être vraiment suivie. Ne faites pas semblant !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Astuce 4 : Faites la promotion des accomplissements et succès",
+        "id": "astuce-4-faites-la-promotion-des-accomplissements-et-succes"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea8f7744e58a71d700438e_funny-celebrate-8-min.gif",
+        "alt": "Illustration photo d'un des membres de l'équipe AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'inverse d'un comité de pilotage projet, ou parfois le principal driver est le suivi des risques, <strong>innovez et investissez dans le positif</strong> ! Une astuce simple : ritualiser, à chaque fois que l'avancement du projet le justifie des <em>Merci</em> <a href=\"https://emojipedia.org/folded-hands-light-skin-tone/\"><strong>🙏🏻</strong></a> et <em>bravo</em> ✌️!"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Valorisez ce qui marche, ce qui a fonctionné, les équipes</strong>. C'est un objectif clé de votre plan de communication. Cela passera aussi par les chefs de projets qui postent sur les plateformes internes des succès, des sponsors qui \"likent\" et commentent."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3e8bf5a0566e058b267d8_Project%20page-min.jpg",
+        "alt": "Capture écran plateforme AirSaas - partage succès",
+        "caption": "Un management de projet qui célèbre chaque réussite des équipes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Utilisez chaque jalon projet comme un point succès.</strong> Récupérez via les plateformes dédiées la ou les captures d'écran des partages rédigés par d'autres que vous : c'est encore mieux quand c'est dit par quelqu'un d'autre que les PMO ou chefs de projet :-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le principe derrière cette pratique, est le suivant : \"ce que l'on regarde grandit\". Cette approche, théorisée par des consultants en management, est plus qu'une astuce : c'est une philosophie. Car concentrer l'attention d'un comité sur le positif valorisera non seulement le travail et les acteurs du projet impliqués, mais peut aussi contribuer à <strong>développer une culture centrée sur les points forts de l'organisation et de son management.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé : mettez en avant toutes l'équipe de projet, notamment les équipes métiers. Sans oublier de rappeler les bénéfices clés pour les utilisateurs finaux - les clients de l'entreprise !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Astuce 5 : Décidez... de comment décider",
+        "id": "astuce-5-decidez-de-comment-decider"
+      },
+      {
+        "type": "quote",
+        "text": "L'entreprise est une collectivité. Il faut accepter de se mettre en pack de rugby et de pousser dans le même sens ! Le temps qu'on prend à s'aligner ce n'est pas du temps perdu... il est important que chacun ait pu s'exprimer, et comprenne le choix et la décision qui a été prise.",
+        "author": "Gilles de Richemond",
+        "caption": "CEO Fairlyne | ex DSI du groupe Accor, extrait de l'épisode 40 du Podcast CIO Révolution produit par AirSaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Instaurer ou rappeler le processus de gouvernance</strong> est fondamental. C'est en quelque sorte l'algorithme du comité de pilotage d'un projet. S'assurer que chacun des membres du comité comprend les méthodes et phases nécessaires pour prendre des décisions est essentiel pour un management efficace."
+      },
+      {
+        "type": "paragraph",
+        "html": "On rappelle ci-dessous l'équation popularisée par Olivier Bas, vice-président d'Havas, auteur, conférencier et enseignant :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/629798c204fc271575a21d21_demidecision.png",
+        "alt": "1/2 décision bordel au carré",
+        "caption": "Titre d'un chapitre du livre Like ton job paru chez Dunod."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu ce sont <strong>des décisions projets qui restent partagées et inclusives</strong>, et qui <strong>gagnent en rapidité !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "À la clé, une culture Copil entreprise radicalement différente de ce qui peut se faire ailleurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans entrer dans tous les détails de la mise en œuvre (les avantages inconvénients de chacune feront l'objet d'un article dédié sur ce blog), rappelons que les principales méthodologies de décision dans le management des entreprises sont :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>La décision autocratique</strong> : j'ai décidé seul !",
+          "<strong>La décision consultative</strong> : je vous ai écouté",
+          "<strong>La décision par consensus</strong> : j'ai un accord général (tacite ou manifeste)",
+          "<strong>La décision par consentement</strong> : j'ai une absence d'objection majeure."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Astuce bonus : Affichez la checklist du rôle et des redevabilités du comité de pilotage projet",
+        "id": "astuce-bonus-affichez-la-checklist-du-role-et-des-redevabilites-du-comite-de-pilotage-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà des astuces, la pratique ultime ne consisterait-elle pas à garder bien en tête, et à rappeler au Copil si besoin, le cadre : les rôles et redevabilités générales du comité de pilotage dans le management de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Aux côtés du chef de projet, ses redevabilités sont :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Prendre des décisions et faire des arbitrages</strong> vis-à-vis de la conduite de projet.",
+          "<strong>Veiller au bon déroulement du projet</strong> et s'assurer qu'il est en accord avec les stratégies globales de l'entreprise.",
+          "<strong>Évaluer la qualité et la santé du projet à chaque réunion</strong>. Si certains problèmes doivent être améliorés, les principaux intervenants peuvent les soulever pour les résoudre.",
+          "<strong>Donner au chef de projet le pouvoir d'agir</strong> et d'utiliser les ressources de l'entreprise pour mener l'exécution, l'avancement du projet.",
+          "<strong>Résoudre les conflits entre départements</strong>, les problèmes liés aux budgets et coûts, au planning, aux risques, à la gestion des ressources, à la qualité et à la portée.",
+          "<strong>Surveiller les progrès du projet par rapport aux objectifs convenus</strong> et résoudre les problèmes qui ne permettent pas au projet de progresser à temps."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec cette sélection de 5 astuces + 1, vous êtes parés pour que votre comité de pilotage projet devienne un moment de décisions, un processus de management de projet plus efficace."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si toutefois vous êtes confrontés à un comité houleux et que rien ne va plus en terme de tensions entre deux participants, bonne nouvelle : le Blog Pro de la Transfo a pensé à vous. <a href=\"/gestion-de-projet/comment-gerer-lagressivite-dans-les-comites-de-pilotage\">Découvrez comment gérer l'agressivité dans les comités de pilotage ?</a> Personnalités difficiles, réaction en cas d'agressivité ? Découvrez les 7 astuces sélectionnées pour vous faciliter la vie de bureau."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6297345614f7ff48d24fcc69_copil-projet-airsaas.jpg",
+        "alt": "Illustration copil projet AirSaas",
+        "caption": "Un Copil projet efficace se reposera sur un bon reporting projet"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "type": "blog",
+  "slug": "plan-de-communication-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Plan de communication projet : comment éviter l'échec ?",
+      "h1": "Plan de communication projet : comment éviter l'échec ?",
+      "description": "Découvrez comment construire un plan de communication projet efficace : matrice CQQCOQP, 5 hacks modernes, do's & don'ts et erreurs courantes à éviter.",
+      "publishedDate": "6/4/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "6/4/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3739f88c0c35815049633_Project%20image-min.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Pourquoi communiquer autour de votre projet ?",
+        "href": "#pourquoi-communiquer-autour-de-votre-projet"
+      },
+      {
+        "label": "Par où on commence ? Comment on s'y prend ?",
+        "href": "#par-ou-on-commence-comment-on-sy-prend"
+      },
+      {
+        "label": "Au delà des basiques : les cinq hacks🔥 pour construire un plan de communication projet moderne",
+        "href": "#au-dela-des-basiques-les-cinq-hacks-pour-construire-un-plan-de-communication-projet-moderne"
+      },
+      {
+        "label": "Les Do's & Don'ts d'un plan de communication projet",
+        "href": "#les-dos-and-donts-dun-plan-de-communication-projet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p><strong>99 % des échecs projets sont liés à un mauvais plan de communication !</strong></p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62456551174d9fb320898d56_dsi-com-projet.png",
+        "alt": "Illustration d'un DSI sans plan de communication projet ... découvrant l'existence d'AirSaas trop tard :)",
+        "caption": "DSI après un bad buzz de com... découvrant qu'AirSaas existait ;-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Cette statistique du \"Totally Subjective Institute\" est certes invérifiable. Néanmoins les DSI expérimentés nous le disent, les actions de communication efficaces constituent un aspect central de la gestion de projet. Car oui, selon l'adage, \"Si c'est flou… il y a un loup\" !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet,</a> c'est avant tout conduire un groupe d'hommes et de femmes. Pour réussir cette mission <strong>le chef de projet doit être écouté et être à l'écoute</strong>. Et faire en sorte qu'à chaque étape ses messages clés soient entendus ! Tout cela en évitant le \"bad buzz\" autour du projet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bienvenue dans un article pragmatique et stratégique sur l'art de concevoir un plan de communication projet adapté à votre contexte et à vos objectifs. Nous allons passer en revue les <strong>principes fondamentaux, les usages avancés, les meilleures stratégies de communication, les pratiques,</strong> <strong>et les erreurs courantes</strong> en la matière.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Comme d'habitude, vous ne trouverez pas ici de recette magique pour réussir à tous les coups ! Vous y découvrirez <strong>des convictions fortes, des principes clés et quelques modèles éprouvés</strong> pour réfléchir à votre plan de communication projet générique, prêt à être customisé pour votre contexte.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pourquoi communiquer autour de votre projet ?",
+        "id": "pourquoi-communiquer-autour-de-votre-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Selon l'étymologie, le terme « <em>communication</em> » provient du latin « communicare » qui signifie « mettre en commun ».</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En pratique, mettre en commun des charges, des difficultés 😱, ça ne va pas motiver les équipes ! Et pourtant <strong>bien cadré, puis bien exécuté, un plan de communication interne efficace</strong> <strong>est un \"change manager\"</strong> à lui tout seul, qui vous aide à mieux piloter vos projets.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Communiquer (à bon escient) fait baisser la pression et motive les parties prenantes",
+        "id": "communiquer-a-bon-escient-fait-baisser-la-pression-et-motive-les-parties-prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>🥊 99 % des frictions proviennent du manque de compréhension du jeu de contrainte de la DSI et de la prise en compte des attentes des métiers.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pourtant, communiquer à intervalle régulier sur l'avancée, les problèmes rencontrés et les succès d'étape aide à diminuer les frustrations et l'impatience des personnes en demande.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Moins de friction permet à votre équipe de projet d'avancer plus sereinement !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>C'est le cercle vertueux : <strong>Confiance + Respect = Engagement !</strong></p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Par où on commence ? Comment on s'y prend ?",
+        "id": "par-ou-on-commence-comment-on-sy-prend"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6245d465d39322070c1c7ec3_plan-communication-projet.png",
+        "alt": "Strat et Plan de communication projet",
+        "caption": "Vous avez besoin d'une stratégie de communication projet !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Avant de vouloir jouer les \"ceintures noires\" de la communication d'entreprise, il vous faut maîtriser les fondamentaux de la planification !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>De façon générale, l'approche méthodologique consiste à cadrer votre plan d'action sous tous ses angles : \"<strong>Sui dit quoi, à qui, pourquoi, quand, où ? Par quel moyen et avec quel effet ?</strong>\".</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Cette approche est inspirée de la <a href=\"https://www.e-marketing.fr/Definitions-Glossaire/Modele-Lasswell-242443.htm\">matrice de Lasswell;</a> du nom d'un politologue américain du XXe siècle qui a travaillé sur la communication de masse.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La matrice \"CQQCOQP\" : pour construire des plans de communication \"tout terrain\"",
+        "id": "la-matrice-cqqcoqp-pour-construire-des-plans-de-communication-tout-terrain"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Qui ?",
+        "id": "qui"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Vous n'êtes pas seul à être responsable de la communication autour de votre projet !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Faites vous aider dans cette tâche par tous les contributeurs.</strong> Annoncée dès la phase de <a href=\"https://www.airsaas.io/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\">cadrage,</a> cette \"charge\" de communication sera partagée au sein du groupe. Un cercle/comité de communication peut être créé.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Attention cependant à bien définir le processus de relecture et la personne qui aura le \"final cut\" sur les messages collectifs. A l'image d'une rédaction, où les journalistes dépendent d'un rédacteur en chef garant de la ligne éditoriale.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Quoi ?",
+        "id": "quoi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Définir selon vos objectifs de communication des formats \"types\" dans votre <a href=\"https://www.manager-go.com/gestion-de-projet/dossiers-methodes/plan-de-comm-projet\">plan de communication projet</a>, pour créer des repères</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Un <strong>reporting général</strong> : planning prévisionnel, livrables, avancement du projet, retards, <a href=\"https://www.airsaas.io/gestion-de-projet/analyse-des-risques-projet\">risques</a>, décisions, <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budget</a>",
+          "Une <strong>reporting décisionnel</strong> automatique avec un email au format court et précis, une fois par semaine pour ne pas noyer sous les informations.",
+          "Une <strong>communication plus \"légère\"</strong> sur les coulisses, les anecdotes..."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "A qui ?",
+        "id": "a-qui"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un message, plusieurs variantes selon votre public-cible</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Listez les parties prenantes</strong> au projet, voir quels sont leurs enjeux et leurs attentes.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Tous les groupes ciblés sont-ils homogènes ?</strong> ou un groupe ciblé particulier doit-il être subdivisé (par importance, par implication vis-à-vis du projet, par aptitudes en informatique, par localisation,...) ?</p>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Pourquoi ?",
+        "id": "pourquoi"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Servir vos objectifs directs et indirects dans chaque campagne de communication</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Renforcer les décisions</strong> prises",
+          "<strong>Alerter sur des difficultés</strong>",
+          "<strong>Informer de l'avancée</strong> d'un projet",
+          "<strong>Obtenir un support</strong> et des moyens supplémentaires"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Quand ?",
+        "id": "quand"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La communication interne suit le rythme du projet, s'adapte et évolue au gré des étapes</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Au début, milieu et à la fin du projet :</strong> on prépare un dossier plus \"éditorialisé\", avec interviews, infographie, dans la newsletter, dans Teams...",
+          "<strong>à chaque jalon,</strong> aux utilisateurs et parties prenantes : un article, un post simple, une communication générale dans Teams...",
+          "<strong>Toutes les semaines, aux parties prenantes :</strong> un reporting décisionnel automatique avec un email au format court et précis, pour ne pas noyer vos lecteurs sous les informations."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Comment ? Par quel moyen ?",
+        "id": "comment-par-quel-moyen"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Trois critères sont à retenir pour créer votre contenu à communiquer : utilité, clarté et concision<strong>.</strong></p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Utilité</strong> ? Centrez votre communication sur la valeur ! Parlez des gains attendus de ce qui va changer au quotidien pour chacun.",
+          "<strong>Clarté</strong> ? On n'oublie très souvent de rappeler, outre ce que le projet va \"délivrer\", il est fondamental de souligner clairement ce qu'il ne vas pas livrer. Agir par le \"détour\" est souvent un levier très impactant en communication. Les équipes apprécient la communication authentique !",
+          "<strong>Concision</strong> ? Less is more ! Et une image vaut mille mots !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Où ?",
+        "id": "ou"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un canal = un usage</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Avec la multiplication des canaux de communication, il est plus que jamais intéressant de s'accorder et choisir vos meilleurs \"médias\", moyens de communication, en fonction de l'impact souhaité, et de \"charter\" vos échanges.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Au delà des basiques : les cinq hacks🔥 pour construire un plan de communication projet moderne",
+        "id": "au-dela-des-basiques-les-cinq-hacks-pour-construire-un-plan-de-communication-projet-moderne"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Le rapport flash hebdomadaire : ou l'art de la communication continue",
+        "id": "1-le-rapport-flash-hebdomadaire-ou-lart-de-la-communication-continue"
+      },
+      {
+        "type": "figure",
+        "src": "https://www.youtube.com/embed/DJHyOpzt61I",
+        "alt": "AirSaas.io - Uniformisez le reporting projet",
+        "caption": "AirSaas.io - Uniformisez le reporting projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Supports de communication idéaux, <strong>les \"rapports flash\"</strong> sont cruciaux pour une meilleure implication des parties prenantes de l'entreprise et par conséquent pour la réussite de vos projets. Ils viennent <strong>compléter un bon</strong> <a href=\"https://www.airsaas.io/gestion-de-projet/le-pilotage-de-projet-en-2023\"><strong>pilotage</strong></a><strong> et suivi de planning.</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'envoi d'un rapport flash hebdomadaire permet de <strong>répondre à trois enjeux</strong> :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Partager des informations de façon structurée</strong> auprès des parties prenantes.",
+          "Un enjeu \"masqué\": <strong>se prémunir du fait d'entendre \"Ah ? je ne savais pas !\"</strong>",
+          "Et enfin le fait d'avoir une fréquence fixe, <strong>donne le \"tempo\" et permet conserver la mobilisation</strong> des équipes."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>👩‍🍳 Astuce du chef : Au bout de quelques itérations de cette \"routine\", revenir vers les parties prenantes pour valider que la communication projet leur convient. A l'aide d'une simple question ouverte : \"Est ce que la manière de communiquer correspond a ton besoin d'informations ?\"</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>🕵️♂️ Cette notion de communication continue a été évoquée dans notre article sur le comité de pilotage : \"Le meilleur moyen de ne pas prendre les acteurs du <a href=\"https://www.airsaas.io/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">COPIL</a> au dépourvu, c'est de communiquer en continu sur l'avancée du projet\".</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Avoir des canaux, cibles et fréquences bien identifiées",
+        "id": "2-avoir-des-canaux-cibles-et-frequences-bien-identifiees"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour <strong>éviter le piège du groupe de key user trop restreint,</strong> n'oubliez pas de vous adresser, outre ceux qui sont dans le projet<strong>,</strong> à tous les futurs utilisateurs qui vont être impactés<strong>.</strong> En remontant par exemple sur votre plateforme Teams ou autre, tous les 15 jours, les informations clés. Pour être certains qu'on touche vraiment la cible. ✅</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On peut par exemple découper son plan de communication avec :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Sur Teams, une communication des informations \"larges\"</strong> auprès de l'ensemble des personnes qui seront concernées par les résultats du projets.",
+          "Et <strong>pour l'équipe projet l'envoi de façon régulière à l'ensemble des parties prenantes</strong> d'un <a href=\"https://www.airsaas.io/fr/solution/flash-report\">rapport flash</a> au format PowerPoint <strong>grâce à un un outil dédié comme AirSaas</strong>."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>☝️ Attention à charter vos canaux et annoncer vos conditions d'utilisation pour éviter une dérive des conversations.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3717143f25951912a43b2_3a770361-98b1-473c-999a-c38414ef659a.jpg",
+        "alt": "Photo du Bistrot du coin pour illustrer les dérives de la communication via Teams entre autres",
+        "caption": "Non \"charté\" votre plateforme Teams peut se transformer en bistrot du coin !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>☝️ Et attention à varier les plaisirs : affiche projet, flyer d'info, e-mails de teasing, vidéo \"Loom\" démo, encart dans la newsletter d'entreprise, goodies au nom du projet, webinaire d'info collective, messages dans slack/teams, event de lancement... A chaque outil de communication projet ses avantages et inconvénients.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Propagez les bonnes nouvelles avec une communication attractive",
+        "id": "3-propagez-les-bonnes-nouvelles-avec-une-communication-attractive"
+      },
+      {
+        "type": "quote",
+        "text": "La forme, c'est le fond qui remonte à la surface.",
+        "author": "Victor Hugo"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La forme compte autant que le contenu. Rappelez vous les emballages de cartons de jouet à Noël, qui plaisent parfois plus que le cadeau lui même ! Soignez la forme, utilisez des images et infographies simples comme outils de communication.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f371c137dc7374b9618c93_4e191b37-561e-4fec-a1ca-ad8d2729082b.jpg",
+        "alt": "usage teams et gif communication projet",
+        "caption": "Valoriser ce qui marche, ce qui a fonctionné, c'est un axe clé de votre plan de communication projet. Cela passe aussi par les chefs de projets qui postent, des sponsors qui \"likent\" et commentent."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Partager un succès avec une image c'est bien, <strong>valoriser un point de succès dans un message qui sera vu</strong> c'est mieux<strong> !</strong> Pour cela, rien de tel que d'utiliser à bon escient un simple GIF animé par exemple. Pour que votre message soit vu et apprécié, un GIF, ça attire l'oeil !</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea8fd3925c8b03320edd60_airsaas-partage-gif.jpg",
+        "alt": "Usage point succès projet",
+        "caption": "Une fonctionnalité AirSaas qui plaît beaucoup :-)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dans le fil de discussion des projets sur AirSaas, vous pouvez ajouter un GIF pour partager un succès, féliciter un collègue... ça fait toute la différence !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Une communication variée voire \"décalée\" permettra de surprendre pour contribuer à éviter la démobilisation de tout le monde.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f372d750d8017a5a59a6ac_catadelacom-airsaas.jpg",
+        "alt": "Photo d'illustration d'une voiture avec deux pioches plantées dans le capot",
+        "caption": "Mélanger sérieux et humour : oui, et toujours avec modération et discernement"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Utiliser chaque jalon projet comme un point succès",
+        "id": "4-utiliser-chaque-jalon-projet-comme-un-point-succes"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons</strong></a><strong> sont ce qui rythme les projets</strong>, ils permettent d'aligner les équipes sur les objectifs et découper les projets en plusieurs étapes clés.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>C'est donc l'opportunité de communication idéale pour donner des repères. N'oubliez pas qu'<strong>on est tous plus ou moins noyé par le flot d'informations</strong>. Cela va même dans certains cas jusqu'à l'\"infoxication\" !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bref <strong>communiquer sur les jalons va contribuer à orienter vos \"lecteurs\"</strong>. C'est le fameux 📍 \"Vous êtes ici !\" qui<strong> </strong>rassure et donne une vue d'ensemble des projets.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Conservez une communication authentique et transparente",
+        "id": "5-conservez-une-communication-authentique-et-transparente"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37332e3e5061aaecd0dd1_a4f3a7d0-91e3-41bb-a047-0cc694e3414c.jpg",
+        "alt": "dessin de presse com projet",
+        "caption": "Extrait du livre \"Communication ? je me marre!\" Ed. Eyrolles."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dernier enjeu pour bien élaborer un plan de communication projet : la <strong>transparence</strong>. En effet, pendant les rendez-vous de synchronisation de l'équipe projet, de nombreuses micros décisions sont prises.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>L'équipe projet doit se responsabiliser pour communiquer</strong> sur celles-ci. Car elle sortent parfois du périmètre de responsabilité. Il est donc important de bien organiser la remontée de toutes les informations, points d'attention et décisions prises.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Car oui chacun de nous en a fait l'expérience :</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Il y a aucun projet qui se passe comme prévu !. Les directions générales apprécient la transparence. Ce qu'elles n'apprécient pas, c'est quand vous cachez quelque chose et que 3 ans plus tard elles découvrent qu'il y a eu un écart dans la trajectoire.",
+        "author": "Thomas Vrignaud",
+        "caption": "CIO-CDO — Extrait de l'épisode 14 du Podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les Do's & Don'ts d'un plan de communication projet",
+        "id": "les-dos-and-donts-dun-plan-de-communication-projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les 7 ingrédients d'une communication projet qui impacte !",
+        "id": "les-7-ingredients-dune-communication-projet-qui-impacte"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "<strong>Authentique</strong> : pour qu'on vous suive, il faut que ça sonne juste !",
+          "<strong>Semi automatique</strong> : faites travailler les robots, le flash report est là pour ça :-)",
+          "<strong>Collaborative</strong> : tous communicants ! c'est une charge à partager.",
+          "<strong>Continue</strong> : itérations courtes et fréquentes... ça vous rappelle quelque chose ?",
+          "<strong>Variée</strong> : même au sein d'un format type, l'idée, c'est de surprendre.",
+          "<strong>Utile</strong> : Centrez votre communication sur la valeur. Parlez des gains attendus de ce qui va changer au quotidien pour chacun. Une règle : parlez-moi de moi, il n'y a que ça qui m'intéresse !",
+          "<strong>Respectueuse</strong> : Mettez vous à la place du lecteur. C'est parfois dur de comprendre la technologie, son jargon ! Si vous ne faites pas attention, ne vous plaignez pas de travailler seul..."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les 7 erreurs courantes du plan de communication projet",
+        "id": "les-7-erreurs-courantes-du-plan-de-communication-projet"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Le piège du groupe de key user trop restreint !",
+          "L'objectif du plan de communication projet doit être clarifié avant d'entreprendre la démarche",
+          "Le rédacteur doit être interne au projet",
+          "Le rédacteur n'est pas forcément le validateur",
+          "Le plan de com ne peut s'élaborer dans l'urgence",
+          "Le fait de rédiger un plan doit opérer dans un esprit de transparence et d'ouverture",
+          "Oublier de dire ce que le projet ne vas pas délivrer !"
+        ]
+      },
+      {
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<p>Concevoir et exécuter un plan de communication et de conduite du changement est un <strong>investissement</strong> ! Celui qui contribuera à <strong>développer en continu l'engagement collectif des utilisateurs</strong>, parties prenantes, sponsors et clients...qui apprécieront d'être tenus au courant régulièrement. Elle ne garantira pas votre réussite, mais vous aurez fait votre part du travail en luttant notamment contre les risques liés aux non dits et les \"je ne savais pas\" !</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f373627d043066aefb0e77_Matrice%20%20communication%20projet%20AirSaas.jpg",
+        "alt": "Aide mémoire Plan de communication projet",
+        "caption": "Une \"carte mémoire\" du plan de communication projet à emporter"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'outil le plus simple pour communiquer sur l'état de santé de vos projets est la météo ! On vous dit tout sur <a href=\"http://gestion-de-projet/comment-mettre-une-bonne-meteo-projet\">Comment faire une météo projet claire et compréhensible ?</a></p>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

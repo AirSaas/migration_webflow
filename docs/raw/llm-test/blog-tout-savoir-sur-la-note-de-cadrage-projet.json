@@ -1,0 +1,418 @@
+{
+  "type": "blog",
+  "slug": "tout-savoir-sur-la-note-de-cadrage-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Tout savoir sur la note de cadrage projet",
+      "h1": "Tout savoir sur la note de cadrage projet",
+      "description": "Découvrez ce qu'est une note de cadrage projet, à quoi elle sert, comment la rédiger et comment varier les formats (mind map, CQQCOQP) pour réussir le cadrage de vos projets.",
+      "author": {
+        "name": "Simon Vacher",
+        "category": "Gestion de projets",
+        "publishedDate": "9/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
+      },
+      "publishedDate": "9/10/2021",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f37d0ce3e506569bcd5ba1_5.jpg",
+        "alt": "Tout savoir sur la note de cadrage projet"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'une note de cadrage ?",
+        "href": "#quest-ce-quune-note-de-cadrage"
+      },
+      {
+        "label": "À quoi sert une note de cadrage ?",
+        "href": "#a-quoi-sert-une-note-de-cadrage"
+      },
+      {
+        "label": "À qui se destine-t-elle ? Pour quelle utilisation ?",
+        "href": "#a-qui-se-destine-t-elle-pour-quelle-utilisation"
+      },
+      {
+        "label": "Comment faire une note de cadrage ?",
+        "href": "#comment-faire-une-note-de-cadrage"
+      },
+      {
+        "label": "Note de cadrage projet : variez les formats !",
+        "href": "#note-de-cadrage-projet-variez-les-formats"
+      },
+      {
+        "label": "Note de cadrage et gestion des ressources projet",
+        "href": "#note-de-cadrage-et-gestion-des-ressources-projet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Lorsqu'on entreprend une phase de cadrage de projet, l'une des <strong>étapes indispensables</strong> est de réaliser une note de cadrage de projet. La note de cadrage projet sera le <strong>document synthétique</strong> qui permettra à chacun d'<strong>identifier en un coup d'œil</strong> les points principaux du cadrage de votre projet. Elle est partie intégrante du <a href=\"/fr/solution/rapport-flash\">rapport flash</a> que vous pouvez envoyer aux différentes parties prenantes. <strong>Sans elle pas de bon début</strong> pour votre <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet.</a>"
+      },
+      {
+        "type": "inline-cta",
+        "text": "Vous pouvez télécharger notre note de cadrage projet :",
+        "label": "Télécharger ⇣",
+        "href": "https://hubs.ly/Q02NlZ8Q0"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d6d473e7b12e9bc4e00fa4_62f37bb514709396276b8070_Project-page-setup%252Bcreation.jpeg",
+        "alt": "Création d'un projet",
+        "caption": "Créer un projet"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-quune-note-de-cadrage",
+        "text": "Qu'est-ce qu'une note de cadrage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "La note de cadrage est un <strong>document</strong> qui permet de <strong>délimiter l'étendue</strong> d'un projet et d'en définir les objectifs."
+      },
+      {
+        "type": "paragraph",
+        "html": "La note de cadrage est l'une des étapes principales qui permet de donner naissance formellement à un projet : on le fait ainsi <strong>passer du stade de la simple idée</strong> <strong>à celui d'un projet assorti d'un cadre</strong> directeur."
+      },
+      {
+        "type": "paragraph",
+        "html": "La note de cadre doit être <strong>synthétique</strong> : elle concentre toutes les caractéristiques essentielles du projet : les moyens à disposition, les différentes étapes, les éléments à surveiller, etc..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un des principaux intérêts de la note de cadrage est de <strong>permettre à toutes les parties prenantes de s'accorder</strong> sur un même projet, clairement défini. Elle est <strong>partie intégrante du plan de communication.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, la fiche de cadrage est une étape importante de la phase de cadrage : elle <strong>fixe</strong> à l'écrit <strong>les points principaux</strong> du projet et permet de <strong>vérifier</strong> que le client comme l'équipe projet sont bien d'<strong>accord</strong> sur la totalité du projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d0796d34dc540fa20b13b9_62f3767188c0c35f4604ba8a_Project-info.jpeg",
+        "alt": "note de cadrage projet",
+        "caption": "Note de cadrage projet"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-quoi-sert-une-note-de-cadrage",
+        "text": "À quoi sert une note de cadrage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un des premiers <strong>intérêts</strong> de la note de cadrage est de <strong>graver dans le marbre</strong> les points majeurs d'un projet, le contenu. Quiconque a déjà mené un projet dans une entreprise sait que <strong>tout ce qui n'est pas écrit noir sur blanc n'existe pas</strong> forcément aux yeux de toutes les parties engagées. De plus, si votre client est impliqué, elle lui permet aussi de <strong>s'approprier vraiment les enjeux du projet.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, il est conseillé de <strong>fixer en amont du projet vos objectifs et vos engagements</strong>, mais aussi d'identifier quelles sont les priorités, le <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">budget</a> affecté, ainsi que les risques à surveiller."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pourquoi-devez-vous-faire-une-note-de-cadrage",
+        "text": "Pourquoi devez-vous faire une note de cadrage ?"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Vérifier</strong> en avant projet que toutes les <strong>parties prenantes</strong> sont <strong>en phase avec le projet</strong>, les besoins, ses ressources, son périmètre, les solutions...",
+          "Définir <a href=\"https://www.airsaas.io/gestion-de-projet/le-macro-planning-pourquoi-et-comment-sen-servir\">l'organisation macro</a> du projet",
+          "Identifier les bénéfices qu'apportera le projet",
+          "<a href=\"https://www.airsaas.io/gestion-de-projet/analyse-des-risques-projet\">Définir les risques</a> et les points d'attention à surveiller."
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c27_62f370f834986741dc2e6b30_Project-metrics.jpeg",
+        "alt": "coût et délai du projet",
+        "caption": "Les coûts et délai du projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si l'on voulait <strong>résumer</strong> le plus rapidement l'intérêt d'une note de cadrage : elle <strong>augmente vos chances de mener à bien votre projet</strong>."
+      },
+      {
+        "type": "inline-cta",
+        "text": "Vous pouvez télécharger notre note de cadrage projet :",
+        "label": "Télécharger ⇣",
+        "href": "https://hubs.ly/Q02NlZ8Q0"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-qui-se-destine-t-elle-pour-quelle-utilisation",
+        "text": "À qui se destine-t-elle ? Pour quelle utilisation ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "La <a href=\"https://www.manager-go.com/gestion-de-projet/dossiers-methodes/realiser-une-note-de-cadrage\">note de cadrage</a> est souvent <strong>préparée en vue d'une réunion</strong> qui <strong>regroupera toutes les parties prenantes</strong> du projet (client, équipe projet, comité de pilotage…)."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est un support qui <strong>pose les bases des discussions des parties prenantes</strong> : c'est aussi pour cela qu'elle doit balayer l'ensemble du projet et en contenir tous les points essentiels."
+      },
+      {
+        "type": "paragraph",
+        "html": "Petit conseil : <strong>ces points doivent être suffisamment synthétiques</strong> pour que chaque acteur puisse en prendre connaissance en un coup d'œil !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d6d473e7b12e9bc4e00f9b_62f37c5c64eac25421043d3d_Copil-play.jpeg",
+        "alt": "Un note de cadrage pour tout type de projet",
+        "caption": "Tous les projets doivent avoir une note de cadrage"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-faire-une-note-de-cadrage",
+        "text": "Comment faire une note de cadrage ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Soyons clairs : il n'existe <strong>pas de modèle universel</strong> de note de cadrage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Votre note de cadrage idéale <strong>dépend de votre entreprise</strong> : quelle est sa taille ? Quelle est votre activité ? Quelle est la problématique du projet ? Quelle est votre méthodologie pour mener vos projets ?<br/>La <strong>première étape</strong> qui précède la rédaction est donc de <strong>discuter avec chaque partie prenante</strong> du projet : vous pourrez ainsi <strong>cerner</strong> tous les <strong>enjeux</strong> et attentes de vos clients, ainsi que <strong>demander</strong> des informations de <strong>précisions</strong> aux <strong>équipes</strong> en charge du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cependant, on peut se risquer à citer <strong>plusieurs des points</strong> <strong>que l'on retrouve</strong> souvent dans les <strong>notes de cadrage.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous vous conseillons donc de vous en inspirer, tout en les <strong>adaptant aux caractéristiques</strong> de vos projets pour sa mise en place."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "L'<strong>énoncé et les contours</strong> du projet ;",
+          "Le client final du projet et ses attentes",
+          "Les objectifs que l'on souhaite atteindre",
+          "La portée du projet : <strong>périmètre</strong> de ce qu'on fera/ne fera pas",
+          "Les étapes/<a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>jalons du projet</strong></a>",
+          "Les <strong>contraintes</strong> qu'il faut respecter",
+          "Les <strong>ressources</strong> à disposition, le budget",
+          "Le délai de réalisation."
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d6d473e7b12e9bc4e00f72_62f37c8e6d43f233ee160352_Creation-step1-min.jpeg",
+        "alt": "Description projet",
+        "caption": "Une bonne description est essentielle"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, gardez en tête que si vous pouvez la <strong>personnaliser</strong> en fonction des <strong>spécificités</strong> de votre projet, une note de cadrage doit respecter <strong>deux points essentiels</strong> :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "elle doit donner <strong>une vision globale</strong> de votre projet",
+          "elle doit <strong>comporter tous les éléments</strong> qui vous paraissent essentiels"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "quest-ce-qui-est-inclus-dans-la-portee-dun-projet",
+        "text": "Qu'est-ce qui est inclus dans la \"portée\" d'un projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces <strong>détails sont essentiels à documenter</strong> dans votre note de cadrage car il y aura des moments où les demandes des parties prenantes (et parfois même de l'équipe) se glisseront et mettront en danger votre calendrier votre budget et votre moral !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "description-du-projet-et-des-livrables-inclus",
+        "text": "Description du projet et des livrables inclus"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il s'agit de proposer un <strong>aperçu en langage clair des livrables</strong> du projet. Évitez toute confusion en décrivant clairement <strong>ce qui sera livré</strong> pour approbation <strong>tout au long du projet</strong>, ainsi que <strong>le livrable final</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il s'agit d'une simple description de ce que vous travaillez pour livrer, mais il énonce également de <strong>petits détails</strong> comme la <strong>quantité</strong>, la <strong>quantité</strong>, la longueur ou tout autre aspect décrivant avec <strong>précision</strong> le projet."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "exclusions",
+        "text": "Exclusions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez déjà répertorié les livrables que vous fournirez, mais il est parfois tout aussi important de <strong>détailler ce que vous ne livrerez PAS</strong>. Cela vous permet dès la mise en place du projet d'éviter les questions ou demandes embarrassantes du type « Mais n'allez-vous pas… ». Vraiment, il s'agit de définir des attentes et <strong>d'éviter tout malentendu autour du travail que vous avez prévu</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "criteres-dacceptation-du-produitprojet",
+        "text": "Critères d'acceptation du produit/projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans le même esprit de transparence et de précision....Votre cadrage projet devrait vous aider à vous mettre d'accord au-delà des objectifs généraux sur ce qui sera livré et à ne laisser aucun doute sur la fin du projet. Les <strong>critères d'acceptation</strong> pourront être mesurés, atteints et utilisés pour <strong>prouver que le projet est terminé.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette notion est très proche de celle de l'exigence fonctionnelle mais pour la note de cadrage on reste \"macro\" !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà de l'approbation finale des parties prenantes parfois subjective...ces <strong>critères d'acceptation</strong> vous <strong>permettront</strong> de \"tamponner\" votre <strong>validation du bon fonctionnement</strong> (VABF). À vous la signature du procès-verbal de fin de projet !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "accord-tacite-ou-explicite",
+        "text": "Accord tacite ou explicite ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les notes de cadrage projet créent un <strong>accord par nature</strong>, mais parfois vous avez besoin de preuves ! Incluez donc un champ de signature dans votre document de cadrage et <strong>demandez à votre intervenant principal</strong> ou à votre sponsor de projet et aux parties prenantes éventuellement de <strong>signer le document !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et pour finir sur ce point, rappelons une chose : <strong>rédiger une fiche de cadrage s'apprend</strong> de manière théorique, mais aussi <strong>sur le terrain</strong>. À force de le faire, le <a href=\"https://www.airsaas.io/gestion-de-projet/comment-etre-un-bon-chef-de-projet-transverse\">chef de projet</a> identifiera les points qui sont indispensables et en retirera des leçons. Avec de la volonté, vous finirez par obtenir le modèle de fiche de cadrage qui vous comblera !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "note-de-cadrage-projet-variez-les-formats",
+        "text": "Note de cadrage projet : variez les formats !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Proposer une vision <strong>globale et précise</strong> peut parfois se révéler délicat. L'utilisation d'un des logiciels de cartographie de type mind mapping peut vous permettre de mieux organiser visuellement les données et idées et finalement de <strong>mettre en scène le contenu</strong> de la note de cadrage projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'avantage est de proposer à la fois une <strong>vue globale</strong> et au clic sur une des sous branches, une vue <strong>détaillée</strong> dans le <strong>même support</strong>."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66d6d473e7b12e9bc4e00f86_6326c37dd094701445d4c961_CQQCOQP-Cadrage-projet-AirSaas-min.jpeg",
+        "alt": "Exemple de Mind map de synthèse de la note de cadrage projet",
+        "caption": "Exemple de Mind map de synthèse de la note de cadrage projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette <strong>synthèse visuelle ne remplace pas le document</strong>, les objectifs poursuivis ne sont simplement pas les mêmes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au sein d'une <strong>note de cadrage</strong>, on retrouvera <strong>les développements logiques,</strong> une rédaction avec de la nuance et des détails. Pour la mind map, on cherche à accentuer la vue \"globale\" des informations clés, votre macro planning, etc.. Le tout avec le juste nombre de mots, la <strong>synthèse visuelle. Ici on travaille la conduite du changement, un outil d'aide à la décision en quelque sorte.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour réaliser cette carte avec des logiciels vous avez le choix ...il en existe des centaines ! Du logiciel desktop le plus simple aux plateformes saas interconnectées aux différents services cloud ....les solutions les plus utilisées sont MindManager, X-Mind, et Mindmeister pour la partie payante. Pour la partie libre Freemind est la référence"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous avez tout ce qu'il faut pour intégrer ce nouveau \"média\" de synthèse à <a href=\"https://www.airsaas.io/gestion-de-projet/plan-de-communication-projet\">votre plan de communication projet</a>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "lexemple-du-cqqcoqp-pour-le-cadrage-projet",
+        "text": "L'exemple du CQQCOQP pour le cadrage projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Également appelée méthode des Five W's (pour what, why, who, when et how) la démarche empirique qu'est <a href=\"https://www.appvizer.fr/magazine/operations/gestion-de-projet/methode-qqoqcp\">le CQQCOQP</a> permet un questionnement exhaustif d'un sujet. Associée au mind mapping on obtient la forme combinée à une structuration simple."
+      },
+      {
+        "type": "paragraph",
+        "html": "Couramment utilisée en <strong>gestion de projet</strong> ainsi qu'en <strong>gestion de la qualité</strong>, comme première approche d'une analyse de causes de problèmes. Cette matrice basique permettra à votre chef de projet d'organiser l'information, contenue dans la note, à l'attention des parties prenantes de votre entreprise."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "declinaison-de-la-matrice-de-lasswell-pour-la-note-de-cadrage-projet",
+        "text": "Déclinaison de la Matrice de Lasswell pour la note de cadrage projet :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Qui</strong> ? : qui demande ce projet, avec qui pourrions-nous le réaliser, pour le compte de qui…",
+          "<strong>Quoi</strong> ? : L'énoncé et les contours du projet ; situation finale ? Quels sont les résultats attendus ? Avec quoi, en relation avec quoi…",
+          "<strong>Où</strong> ? : localisation du projet, des lieux de travail, des différents services,…",
+          "<strong>Quand</strong> ? : À partir de quand, jusqu'à quand, dans quel délai…Dates, périodicité, durée…pourquoi maintenant ? Les étapes/jalons du projet, le délai de réalisation...",
+          "<strong>Comment</strong> ? De quelle façon, dans quelles conditions, par quel procédé… ? Quelle comitologie ?",
+          "<strong>Combien</strong> ? Les ressources à disposition, le budget ? etc.",
+          "<strong>Pourquoi</strong> ? Les objectifs que l'on souhaite atteindre. Cause, facteur déclenchant, Justification par les causes qui ont amené à… (la « raison » d'être, la croyance)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "note-de-cadrage-et-gestion-des-ressources-projet",
+        "text": "Note de cadrage et gestion des ressources projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme expliqué précédemment, la note de cadrage doit <strong>permettre en un coup d'œil</strong> de se <strong>rendre compte de l'affectation des ressources</strong> sur les différentes tâches de votre projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cependant, <strong>assigner les bonnes ressources</strong>, en bonne quantité, au bon moment, au bon endroit <strong>est un art</strong> : l'art de la <strong>gestion des ressources</strong> ! Nous vous conseillons donc de prendre particulièrement du temps pour penser votre gestion des ressources, si vous voulez vous donner toutes les chances de réussir votre projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44bf4_62f37cc85606d84d53b0f203_People-involve-min.jpeg",
+        "alt": "Equipe projet",
+        "caption": "Mettez en valeur les personnes impliquées !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "mettez-en-valeur-les-personnes-impliquees",
+        "text": "Mettez en valeur les personnes impliquées !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce dernier point n'est pas anecdotique....dès la note de cadrage projet pensez à nommer les personnes, leur rôles et redevabilités précises. On sait tous que la disponibilité des métiers est trop souvent largement sous estimées. Aux cotés du sponsor et du chef de projet, les rôles de PO et ou de référent digital sont quasiment un mi-temps parfois ! <strong>Dès votre cadrage</strong> nommez et valorisez sincèrement les personnes qui vont être amenées à s'engager et sortir de leur zone de confort."
+      },
+      {
+        "type": "paragraph",
+        "html": "La liste des <strong>retours d'expériences et conseils</strong> ci-dessus n'est pas exhaustive ....mais bien suffisante pour vous lancer !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Après avoir <strong>réussi vos objectifs de lancement</strong>, pensez d'emblée à la phase de fin du projet en découvrant dès maintenant la fin de la \"série\" ! Faites <strong>le plein de conseils</strong> avec l'article issu de notre dossier spécial gestion de projet : <a href=\"/gestion-de-projet/comment-animer-un-bilan-projet-efficace\">Comment animer un bilan projet efficace ?</a>"
+      },
+      {
+        "type": "inline-cta",
+        "text": "Vous pouvez télécharger notre note de cadrage projet :",
+        "label": "Télécharger ⇣",
+        "href": "https://hubs.ly/Q02NlZ8Q0"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

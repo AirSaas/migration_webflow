@@ -1,0 +1,68 @@
+{
+  "type": "blog",
+  "slug": "gestion-portefeuille-projets-vs-gestion-de-projet",
+  "iteration": 3,
+  "outcome": "FAIL",
+  "errors": [
+    {
+      "type": "structure",
+      "detail": "blocks must be an array"
+    }
+  ],
+  "result": {
+    "meta": {
+      "title": "Management de portefeuille de projet : définition, méthodes et outils",
+      "h1": "Management de portefeuille de projet : définition, méthodes et outils",
+      "description": "Définition, méthodes (scoring, MoSCoW, WSJF, RICE, LPM), KPIs, outils PPM et erreurs à éviter pour une gestion de portefeuille de projets efficace.",
+      "publishedDate": "1/2/2026",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "1/2/2026",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6995db9e00db2afd8d4d5013_Gestion%20de%20portefeuille%20de%20projets.jpg",
+        "alt": "Gestion de portefeuille de projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Pour aller plus loin",
+        "href": "#pour-aller-plus-loin"
+      },
+      {
+        "label": "Portefeuille de projets vs programme vs projet : quelles différences ?",
+        "href": "#portefeuille-de-projets-vs-programme-vs-projet-quelles-differences"
+      },
+      {
+        "label": "Pourquoi mettre en place une gestion de portefeuille de projets ?",
+        "href": "#pourquoi-mettre-en-place-une-gestion-de-portefeuille-de-projets"
+      },
+      {
+        "label": "Les 7 étapes pour déployer une gestion de portefeuille de projets efficace",
+        "href": "#les-7-etapes-pour-deployer-une-gestion-de-portefeuille-de-projets-efficace"
+      },
+      {
+        "label": "Les méthodes de priorisation d'un portefeuille de projets",
+        "href": "#les-methodes-de-priorisation-dun-portefeuille-de-projets"
+      },
+      {
+        "label": "Les KPIs essentiels du pilotage de portefeuille",
+        "href": "#les-kpis-essentiels-du-pilotage-de-portefeuille"
+      },
+      {
+        "label": "Comment choisir son outil PPM ?",
+        "href": "#comment-choisir-son-outil-ppm"
+      },
+      {
+        "label": "Les erreurs à éviter en gestion de portefeuille de projets",
+        "href": "#les-erreurs-a-eviter-en-gestion-de-portefeuille-de-projets"
+      },
+      {
+        "label": "FAQ — Gestion de portefeuille de projets",
+        "href": "#faq-gestion-de-portefeuille-de-projets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "type": "blog",
+  "slug": "pi-safe",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "PI SAFe : 8 bonnes pratiques pour réussir votre planning",
+      "h1": "PI SAFe : 8 bonnes pratiques pour réussir votre planning",
+      "description": "Découvrez ce qu'est un PI SAFe et 8 bonnes pratiques essentielles pour réussir votre PI Planning : vision stratégique, anticipation des blocages, logistique, rôles, communication, conduite du changement, transparence et outils.",
+      "author": {
+        "name": "",
+        "category": "Gestion de projets"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3a6e54962b16695b2f3_PI%20SAFe.jpg",
+        "alt": "PI SAFe"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'appelle-t-on PI SAFe ?",
+        "href": "#quappelle-t-on-pi-safe"
+      },
+      {
+        "label": "8 essentiels pour réussir votre PI Planning",
+        "href": "#8-essentiels-pour-reussir-votre-pi-planning"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>Vous gérez un portefeuille de projets, et vous rencontrez toujours les mêmes problèmes : vous planifiez en amont chaque étape, mais vos projets bloquent faute de ressources disponibles ou à cause de dépendances qu'il était difficile d'anticiper.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ce n'est pas une fatalité ! Et si vous vous inspiriez de <strong>la démarche agile appelée \"PI SAFe\"</strong> pour régler ces soucis ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Découvrez ici ce qu'est un PI, et les clés de succès pour mettre en place votre prochain PI Planning sans peine.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quappelle-t-on-pi-safe",
+        "text": "Qu'appelle-t-on PI SAFe ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour commencer, quelques rappels sur ce qu'est un PI SAFe sont de bon ton.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pi-safe-and-pi-planning-de-quoi-parle-t-on",
+        "text": "PI SAFe & PI Planning : de quoi parle-t-on ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On appelle PI ou Program Increment (et Planning Interval depuis la version 6 de SAFe) un espace de temps donné, lors duquel des équipes (aussi appelées \"Agile Release Train\", ou ART, dans la méthode agile) planifient, développent, testent et obtiennent du feedback sur une solution qu'elles développent. On parle de \"PI SAFe\" car le concept de Program Increment fait partie du framework agile dit SAFe (Scaled Agile Framework).</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pendant l'espace de temps qu'est le PI SAFe, <strong>le train planifie, met en œuvre, évalue et ajuste la solution développée</strong>, sous forme d'itérations.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si l'on s'en tient à la méthodologie SAFe, un PI dure entre 8 et 12 semaines. Cependant, si vous n'appliquez pas directement ce framework, vous pouvez tout à fait adapter cette temporalité à celle de votre entreprise - par exemple, en déterminant qu'un PI dure un trimestre. Cela n'empêche pas le principe des sprints par itérations plus courtes, et de livraisons plus fréquentes, de continuer pour l'équipe de développement.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'un des moments-clés d'un Program Increment est le PI Planning. Il s'agit d'une <strong>cérémonie collective, qui vise à planifier à l'avance tout le PI</strong> et ce, collaborativement, avec toutes les parties prenantes impliquées dans le développement de la solution.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un PI Planning rassemble ainsi tous les acteurs majeurs du Agile Release Train, à savoir :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le Product Management</strong> (dont les Product Owners)",
+          "<strong>Les Scrum Masters</strong>",
+          "<strong>Les représentants des métiers</strong>",
+          "<strong>Le sponsor du projet</strong>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le PI Planning peut être appliqué au développement informatique, mais aussi à tout type de portefeuille projet.</p>"
+      },
+      {
+        "type": "hubspot-cta",
+        "id": "188471577013",
+        "label": "Réserver une démo",
+        "href": "https://7979190.hs-sites.com/hs-web-interactive-7979190-188471577013"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-avantages-dun-bon-pi-planning",
+        "text": "Les avantages d'un bon PI Planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Que vous suiviez la méthodologie agile SAFe \"from the book\", ou que vous cherchiez simplement une pratique de gestion de projets plus efficace, le PI Planning peut vous apporter de grands bénéfices.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un PI SAFe bien organisé vous permet notamment de :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Bien définir vos priorités stratégiques</strong>, en alignant toutes les parties prenantes de vos projets",
+          "<strong>Favoriser la collaboration</strong>, notamment sur des projets transversaux",
+          "<strong>Obtenir une vision claire et réaliste des projets</strong>, en mettant en place des objectifs mesurables : de quoi éviter l'effet tunnel",
+          "<strong>Booster l'engagement de toutes les parties prenantes</strong>, ce qui favorise l'avancement de votre transformation d'entreprise",
+          "<strong>Anticiper les risques et les blocages</strong>, en identifiant les interdépendances des projets : idéal pour répondre au manque d'agilité que la plupart des entreprises rencontre",
+          "<strong>Rentrer dans un processus d'amélioration continue</strong>, grâce à de précieux feedbacks des différentes équipes",
+          "<strong>Accélérer la livraison de valeur</strong> - conséquence de tous les bénéfices précédents !"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Le PI Planning pousse toutes les parties prenantes à se poser les bonnes questions sur la valeur associée au projet. Lors des discussions, on se focalise sur pourquoi on fait ce projet, quelles sont les priorités, et comment identifier et gérer les dépendances. Ce processus permet à tout le monde de se rendre compte que la gestion du projet est transparente, non arbitraire, et remet les responsabilités au bon endroit.",
+        "author": "Elodie Clémentine Grasset",
+        "caption": "Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "href": "https://www.linkedin.com/in/elodie-grasset-digital-data-ai/"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "8-essentiels-pour-reussir-votre-pi-planning",
+        "text": "8 essentiels pour réussir votre PI Planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pas besoin de lire le manifeste agile pour lancer votre propre démarche de PI SAFe ! Grâce aux conseils suivants, vous pouvez adapter la méthodologie SAFe à votre organisation.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "avoir-une-vision-claire-des-priorites-strategiques",
+        "text": "Avoir une vision claire des priorités stratégiques"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Avant même que votre PI Planning ne commence, vous devez avoir une vision précise des priorités stratégiques de votre projet - et, à plus large échelle, de l'environnement dans lequel il est déployé.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La direction ou les Business Owners doivent définir et communiquer les objectifs du PI SAFe. C'est le rôle du responsable de l'organisation du PI Planning d'aller demander à tous les directeurs des métiers impliqués quelles sont leurs priorités stratégiques, et quels sont leurs points de tension qu'ils voudront aborder pendant la réunion.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "La vision du projet est ce qui permet d'exprimer, à court ou à plus long terme, là où on veut collectivement aller. Il peut s'agir d'une nouvelle réglementation à suivre, de projets vers lesquels l'entreprise se dirige, de concurrents qui arrivent sur le marché… Il peut s'agir d'éléments qui ne vont pas forcément impacter le PI SAFe à venir, et d'éléments aussi bien positifs que négatifs. Le but final de la vision du PI est d'embarquer toutes les parties prenantes dans la durée, de les faire tous aller dans le sens de l'entreprise.",
+        "author": "Michel Levaslot",
+        "caption": "Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "href": "https://www.linkedin.com/in/michel-levaslot/"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Prenez aussi le temps de vous pencher sur votre <strong>roadmap produit</strong>. Les priorités à moyen terme doivent être établies pour guider les équipes dans leur planification. Vous devez avoir en tête les features, et les avoir priorisées. Attention cependant à ce qu'elles soient matures, faisables, compréhensibles et chargées.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "anticiper-les-blocages-potentiels",
+        "text": "Anticiper les blocages potentiels"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si possible, avant votre PI Planning, commencez à identifier les blocages qui pourraient avoir lieu lors des discussions.</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Analysez les risques</strong>, en préparant une matrice des risques du projet.",
+          "<strong>Anticipez les goulots d'étranglement</strong>, en identifiant les dépendances potentielles entre les équipes. Ces interdépendances seront discutées pendant le PI Planning.",
+          "<strong>Préparez les réponses aux questions techniques</strong>, et anticipez les contraintes externes du projet."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Le support de travail en amont d'un PI Planning, c'est essentiellement un backlog des projets, un portefeuille de projets, pré-trié avec une macro-priorisation, et une estimation \"à la louche\" de l'effort. Et quand on a un sujet de capacité, il peut être intéressant d'essayer d'identifier, en amont, quel goulot d'étranglement pourrait émerger.",
+        "author": "Elodie Clémentine Grasset",
+        "caption": "Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "href": "https://www.linkedin.com/in/elodie-grasset-digital-data-ai/"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "organiser-une-logistique-sans-faille",
+        "text": "Organiser une logistique sans faille"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La logistique est essentielle au bon déroulement d'un PI Planning. L'idée : mettre tout le monde dans les meilleures conditions pour pouvoir se projeter sur la période du PI SAFe à venir.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour cela :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Choisissez une date</strong> où toutes les parties prenantes sont bien disponibles.",
+          "<strong>Planifier l'agenda détaillé de la réunion</strong>, en dédiant assez de temps à chaque session, et partagez cet agenda en amont.",
+          "<strong>Choisissez un espace approprié</strong>, permettant de travailler en grand groupe et en plus petites équipes. Si votre PI Planning a lieu à distance, organisez les outils de visioconférence appropriés. S'il est en présentiel, préparez un plan de de table propice aux échanges constructifs."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "clarifier-les-roles-et-les-responsabilites-de-chacun",
+        "text": "Clarifier les rôles et les responsabilités de chacun"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Qui dit séance de planification collective, dit nécessité de mettre chacun au diapason de son rôle en amont.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pensez à expliciter à toutes les parties prenantes leurs responsabilités en amont du PI Planning :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le Release Train Engineer (RTE)</strong> coordonne et facilite le PI Planning, en accompagnant les échanges des participants.",
+          "<strong>Le Product Management</strong> définit les priorités et les features à développer.",
+          "<strong>Le Scrum Master</strong> aide les équipes agiles à préparer leurs plans et à lever les blocages.",
+          "<strong>Les Business Owners</strong> fournissent des orientations stratégiques et valident les objectifs des équipes."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "communiquer-sur-le-pi-planning-en-amont",
+        "text": "Communiquer sur le PI Planning en amont"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En amont, veillez à expliciter les règles du PI Planning - mais surtout, à faire comprendre à tous quel est son intérêt et ses bénéfices !</p>"
+      },
+      {
+        "type": "quote",
+        "text": "En amont du PI Planning, il faut vendre ce processus comme une arme de guerre. Tout le monde doit être prêt à \"brûler les vaisseaux\" : chacun doit s'engager dans la démarche, sans faire marche arrière. Pour ça, il faut créer de l'engagement via un acte de communication fort, en publiant des posts sur l'Intranet, par exemple. Pour lancer un PI Planning, nous avons même un jour lancé un article sur un média externe référent pour détailler le processus : idéal pour créer de l'engagement.",
+        "author": "Michel Levaslot",
+        "caption": "Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "href": "https://www.linkedin.com/in/michel-levaslot/"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Appuyez-vous sur les bénéfices vus en première partie de cet article pour développer votre argumentaire. Et n'hésitez pas non plus à faire un focus sur les bénéfices budgétaires de ce type de gestion de projet.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Le processus de PI SAFe permet de mieux contrôler le budget d'un projet. Grâce à un PI Planning, on voit tout passer : les capacités comme le budget à attribuer à chaque étape. Cela permet de donner de la visibilité à tout le monde (y compris le CFO) sur la manière dont l'enveloppe budgétaire est utilisée, et comment on priorise son utilisation sur la période.",
+        "author": "Elodie Clémentine Grasset",
+        "caption": "Consultante et formatrice indépendante et ex-CDO Groupe Air Liquide",
+        "href": "https://www.linkedin.com/in/elodie-grasset-digital-data-ai/"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "accompagner-le-changement-de-la-culture-projet",
+        "text": "Accompagner le changement de la culture projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Si les équipes de développement sont souvent déjà habituées à travailler avec l'approche agile du PI SAFe, ou encore à réfléchir en termes de fonctionnalités, les métiers, eux, sont moins souvent aguerris à une planification aussi fine.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le processus de PI Planning demande donc de mener une véritable conduite du changement, avec tout ce qu'elle implique : communication sur les bénéfices du processus, levage des freins de chacun, et surtout, mise en place de techniques pour mieux planifier…</p>"
+      },
+      {
+        "type": "quote",
+        "text": "La grande difficulté, surtout pour les métiers, est de réussir à segmenter le produit en features plus fines, pour que le livrable tienne dans la période du Program Increment. Pour cela, il faut amener un changement de culture. Chacun doit comprendre qu'on ne fabrique pas un monolithe, qu'il faut découper le produit pour tenir les échéances de production. Il existe quelques tactiques pour ça : découper par géolocalisation, en démarrant par une région concernée en premier. Découper le produit en plus petit produit (les pneus de la voiture avant l'habitacle). Découper par population, par exemple en faisant une segmentation 80/20 façon Pareto sur la population concernée…",
+        "author": "Michel Levaslot",
+        "caption": "Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "href": "https://www.linkedin.com/in/michel-levaslot/"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "favoriser-un-climat-dechange-en-toute-transparence",
+        "text": "Favoriser un climat d'échange en toute transparence"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Être plus agile, c'est avant tout opérer dans un climat où les équipes se sentent libres de partager leurs contraintes et préoccupations, pour mieux avancer ensemble. Et cela s'applique également pendant le PI Planning !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'une des clés du succès : <strong>utiliser des outils collaboratifs</strong>, qui permettent à chacun de planifier en équipe. Tableaux d'équipes, tableau des dépendances, et tableau des risques, doivent être mis en place pour aligner tout le monde au cours des échanges.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et attention à <strong>bien expliciter les règles du PI Planning</strong> dès le début de la réunion. N'hésitez pas à aller jusqu'à expliquer les couleurs des post-its à utiliser sur chacun des tableaux, selon qu'on parle de features, de user stories, de risques…</p>"
+      },
+      {
+        "type": "quote",
+        "text": "L'animateur de PI Planning, le RTE, est quelqu'un que l'on choisit pour sa capacité d'animation. Il doit être bon orateur, savoir gérer sa fatigue (car un PI Planning, c'est fatigant !). Il doit avoir dans sa botte des techniques qui permettent de demander le silence, de couper les personnes trop bavardes, de maîtriser le timing… Souvent, les RTE assistent à d'autres PI Plannings pour se préparer.",
+        "author": "Michel Levaslot",
+        "caption": "Adjoint de Direction - Transformation de la DSI et animateur d'un club SAFe",
+        "href": "https://www.linkedin.com/in/michel-levaslot/"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "utiliser-les-outils-appropries",
+        "text": "Utiliser les outils appropriés"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le succès d'un PI Planning ne dépend pas uniquement de la méthode employée. <strong>Les outils choisis jouent également un rôle déterminant</strong>. Sans une préparation minutieuse et un suivi structuré, cette étape cruciale peut rapidement perdre en efficacité : les dépendances sont mal gérées, les engagements manquent de clarté, et les équipes s'égarent.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>C'est là qu'intervient Airsaas. En amont de la session, la solution facilite <strong>l'évaluation des capacités des équipes, la priorisation des fonctionnalités essentielles et l'identification des dépendances critiques</strong>. Cette anticipation offre une vision d'ensemble précise, permettant de cadrer les objectifs et de mobiliser efficacement toutes les parties prenantes sur ce qui est réalisable au cours du trimestre.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Lors du PI Planning, Airsaas simplifie la planification. Les décisions stratégiques sont rendues visibles instantanément, les engagements sont formalisés, et les arbitrages sont facilités. Plus besoin de jongler entre plusieurs outils ou feuilles de calcul : tout est centralisé sur une plateforme intuitive, rendant l'information accessible et exploitable en temps réel.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et une fois le PI Planning terminé, Airsaas assure un suivi continu. Les engagements pris sont monitorés, l'avancement des projets est suivi avec précision, et les ajustements nécessaires peuvent être effectués rapidement, en fonction des évolutions du contexte ou des imprévus.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Avec Airsaas, vous offrez à vos équipes métiers et IT un cadre clair et structurant, favorisant une meilleure coordination et garantissant un alignement permanent avec la stratégie de l'entreprise.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Grâce à ces conseils pour bien organiser votre PI Planning, vous êtes prêt à mettre en place un processus itératif de gestion de projets !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À la recherche d'une plateforme de gouvernance projet qui vous aide à préparer et animer votre prochain PI SAFe ? <a href=\"https://airsaas.io/fr/\" target=\"_blank\">Découvrez Airsaas, l'outil préféré des PMO et DSI</a>, qui les aide à visualiser en temps réel leur roadmap macro et leur capacité par équipe.</p>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

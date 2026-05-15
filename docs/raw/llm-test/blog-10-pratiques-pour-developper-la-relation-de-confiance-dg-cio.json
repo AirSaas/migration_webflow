@@ -1,0 +1,330 @@
+{
+  "type": "blog",
+  "slug": "10-pratiques-pour-developper-la-relation-de-confiance-dg-cio",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "10 tips pour la relation DG/CIO",
+      "h1": "10 tips pour la relation DG/CIO",
+      "description": "10 pratiques co-construites avec la communauté des Pro. de la Transfo. pour développer une relation de confiance entre CIO et DG, du build au run.",
+      "publishedDate": "15/7/2023",
+      "author": {
+        "name": "Pro. de la Transfo.",
+        "category": "Gestion de projets",
+        "publishedDate": "15/7/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b0e33b4f86cd68d63b49c4_pro.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b0e99207a150677e0173d4_TOP10%20relation%20DGCIO-min.jpg",
+        "alt": "10 pratiques pour développer la relation de confiance DG/CIO"
+      }
+    },
+    "toc": [
+      {
+        "label": "Transparence en continu : offrir à la DG la capacité de co-piloter la transfo de son organisation",
+        "href": "#transparence-en-continu-offrir-a-la-dg-la-capacite-de-co-piloter-la-transfo-de-son-organisation"
+      },
+      {
+        "label": "Optimiser le \"run\" de ses RDV avec le DG",
+        "href": "#optimiser-le-run-de-ses-rdv-avec-le-dg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Avec la transformation numérique, les DSI sont les interlocuteurs privilégiés de la direction générale. Un moyen pour eux de se rapprocher des DG. Encore faut-il savoir cadrer et entretenir cette relation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Nous avons demandé aux \"<em>Pro de la Transfo</em>.\", une communauté de Décideurs et Doers de la transformation des entreprises; leurs astuces sur la façon de développer une relation de confiance avec les CEO."
+      },
+      {
+        "type": "paragraph",
+        "html": "Objectif : co-créer des communs autour de la transfo. !"
+      },
+      {
+        "type": "paragraph",
+        "html": "À partir de leurs retours d'expérience, nous avons co construit la liste de <strong>10 pratiques</strong> à considérer, de la plus simple à la plus avancée, <strong>du build au run</strong> !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64e4c2df9de7d724ff824a3e_pro.jpg",
+        "alt": "22 juin 2023 - Workshop Pro de la Transfo",
+        "caption": "12 pro. qui partagent durant une après-midi afin de créer des communs autour de la transfo. Travailler les relations avec les DG grâce au théâtre forum."
+      },
+      {
+        "type": "paragraph",
+        "html": "Merci à"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Isabelle Leroux : Conseil en Transformation Organisation & Digital",
+          "Coralie Stevanazzi : Consultante Transformation",
+          "Caroline Raveton : CIO & consultante",
+          "Elisabeth de Montety : PMO",
+          "Sylvain Bourdette : CIO",
+          "Clément Royer : CIO & consultant",
+          "Benito Diz : CIO",
+          "Stéphane Creach : Consultant",
+          "Simon Vacher : CPO",
+          "Bertran Ruiz : CEO",
+          "Thomas Poitau : CMO",
+          "Jérôme Dard : Consultant"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Disclaimer : Ici pas de recettes \"magiques\". Juste des ingrédients, des postures et des tours de mains de Pro de la Transfo. Le management est un art !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64e4c4f2aa856ea74123335d_10%20TIPS%20CIO%20CEO-min.jpg",
+        "alt": "10 pratiques pour développer la relation de confiance DG/CIO"
+      },
+      {
+        "type": "paragraph",
+        "html": "-> <a href=\"https://drive.google.com/file/d/1meC0KrcoqJ63ePRe2quXxgN_S-Aw-UEo/view?usp=drive_link\" target=\"_blank\">Lien vers version HD au format PDF imprimable</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Transparence en continu : offrir à la DG la capacité de co-piloter la transfo de son organisation",
+        "id": "transparence-en-continu-offrir-a-la-dg-la-capacite-de-co-piloter-la-transfo-de-son-organisation"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avant même votre premier contact, quelles sont les astuces pragmatiques pour poser un futur cadre de coopération efficace ? Découvrez 5 pratiques sur ce \"cadrage\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1 : Tout se joue avant d'accepter le poste",
+        "id": "1-tout-se-joue-avant-daccepter-le-poste"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30c75a56b78aa3a31606e_1.jpg",
+        "alt": "Tout se joue avant d'accepter le poste",
+        "caption": "Un pacte CIO/DG"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>On s'accorde sur un pacte de gouvernance et fonctionnement précis.</strong> Plutôt qu'un échange sur des concepts flous et galvaudés \"on fera de l'agilité\" ^^... On pose un mode de fonctionnement, on formalise des engagements et redevabilités réciproques, et on s'assure que la direction est OK avec les changements culturels à venir. (Rituels, workflow des décisions clés, <a href=\"https://www.airsaas.io/fr/gestion-de-projet/budgetiser-un-projet-sans-se-louper\" target=\"_blank\">budgets</a>...)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2 : Prévoir le \"shadow\" budget, une réserve tactique pour les idées (parfois ^^) géniales de son DG",
+        "id": "2-prevoir-le-shadow-budget-une-reserve-tactique-pour-les-idees-parfois-geniales-de-son-dg"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30ca1a584de1e8e187a76_2.jpg",
+        "alt": "Prévoir le \"shadow\" budget",
+        "caption": "Anticiper les nouvelles idées"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Votre DG a une nouvelle idée !</strong> Souvent collectée le matin même dans les pages saumon du Figaro, Linkedin ou les Echos, ... CIO, ne rejetez pas tout en bloc. Prévoyez d'emblée chaque année une ligne budgétaire spéciale pour lancer quelques initiatives hors piste ! Visez les plus simples et les plus impactantes. En plus, vous n'êtes pas à l'abri d'un succès !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3 : Ne jamais présenter seul des projets transverses !",
+        "id": "3-ne-jamais-presenter-seul-des-projets-transverses"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30cce29770b358c42c250_3.jpg",
+        "alt": "Pas de 1to1 sur les projets transverses",
+        "caption": "Pas de 1to1 sur les projets transverses"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Partager véritablement la responsabilité d'un projet ou d'un programme, c'est éviter les futures dissonances et désalignements.</strong><br/>Règle d'or : Pas de 1 on 1 sur les projets transverses. On partage les présentations en CODIR, on partage les points d'étape dédiés. Ex. vous pilotez la mise en prod de l'ERP finances, prévoyez de faire venir le CFO, 1/4 d'heure avant la fin de votre 1/1 avec la boss."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4 : Faire preuve d'empathie... comprendre et intégrer les objectifs de la DG",
+        "id": "4-faire-preuve-dempathie-comprendre-et-integrer-les-objectifs-de-la-dg"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30ceba56b78aa3a3199b9_4.jpg",
+        "alt": "se mettre à la place de son DG",
+        "caption": "Se mettre à la place de l'autre"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>La Direction Générale a aussi sa complexité aurait affirmé Lapalisse !</strong> Comprendre là ou on lui a demandé d'aller, ses enjeux tactiques et stratégiques communiqués ou non, sa feuille de route perso aussi, ce n'est pas de la flagornerie, c'est du bon sens de l'écoute et de l'efficacité.<br/>Pour comprendre, il faut poser des questions : Quel niveau de pression du CA sur ce sujet ? Est-ce que tu as besoin d'un back-up sérieux sur ce sujet ? Exemple : \"On a une belle réussite sur ce pan du plan de transformation, veux-tu prendre la parole dans les médias\" ? Vous l'avez compris, se mettre à la place de l'autre est une posture clé. Après tout on est membre d'une équipe, et ensemble on va plus loin !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5 : \"De la transparence naît la confiance\" Partager la roadmap dynamique en continu",
+        "id": "5-de-la-transparence-nait-la-confiance-partager-la-roadmap-dynamique-en-continu"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30e47650255351a621f73_5.jpg",
+        "alt": "Transparence by design !",
+        "caption": "Transparence by design !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Transparence by design !</strong> Offrir l'accès en continu aux avancées d'un plan, avec le bon niveau de granularité c'est la clé. Proposer le choix des armes : un lien permanent dans les favoris du navigateur, un PPT de synthèse à retrouver dans la boîte mail, une ligne Whatsapp d'urgence...<br/>Reste à optimiser la mise à jour de votre <a href=\"https://www.airsaas.io/fr/gestion-de-projet/trois-innovations-et-tendances-qui-bousculent-la-gestion-de-portefeuille-de-projets\" target=\"_blank\">portefeuille de projets</a> avec vos chefs de projets et partenaires. Mais le jeu en vaut vraiment la chandelle. Foi d'éditeur de solution de gouvernance ;)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Optimiser le \"run\" de ses RDV avec le DG",
+        "id": "optimiser-le-run-de-ses-rdv-avec-le-dg"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le cadre est posé ? Désormais la <strong>phase d'exécution</strong> commence...on vous a préparé 5 autres pratiques pour muscler vos RDV !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6 : Préparer un 1 on 1 comme une épreuve sportive",
+        "id": "6-preparer-un-1-on-1-comme-une-epreuve-sportive"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30d0a785a220d15e57949_6.jpg",
+        "alt": "hygiène de champion avant chaque 1to1",
+        "caption": "Hygiène de champion avant chaque 1to1"
+      },
+      {
+        "type": "paragraph",
+        "html": "Içi pas de ring... Gardez les gants de boxe au vestiaire, mais <strong>adoptez une hygiène de champion avant chaque 1to1 !</strong> ça reste un basique validé. Voici <strong>notre check liste</strong> à afficher quelques part dans votre bureau :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Bloquer 1h dans votre agenda avant chaque entretien",
+          "S'assurer du timing prévu",
+          "Assurer avec vos équipes la mise à jour de vos projets quelques jours en amont",
+          "Lister les sujets et leurs attendus (1 seul objectif par sujet : informer, décider, alerter...)",
+          "Prioriser l'ordre intelligemment et identifier les compromis possibles",
+          "Rester toujours factuel et fonctionnel en préparant vos back-ups et antisèches",
+          "Option Warrior : checker le RDV d'avant (un report tactique vaut mieux que de ne passer après un rendez-vous douloureux)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7 : Gare au small talk !",
+        "id": "7-gare-au-small-talk"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30d32c0e1eef9d4e85d64_7.jpg",
+        "alt": "small talk",
+        "caption": "L'art de la petite conversation"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Indispensable mais piégeux</strong>, le small talk, c'est à dire être capable d'engager la conversation, de tenir des discussions légères, de savoir parler de la pluie et du beau temps... peut prendre facilement 50% du temps ! Surtout avec un/e DG peu sachant/e sur vos sujets. Anticipez le sujet détendu du jour et venez avec les cafés, ça évitera le Rrrrrrrrhh Rrrrrrrhh du début de rendez-vous."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8 : Si ça jargonne...tu sonnes !",
+        "id": "8-si-ca-jargonnetu-sonnes"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30d70392df41d7b1702ab_8.jpg",
+        "alt": "Parler français avec son DG !",
+        "caption": "Si ça jargonne...tu sonnes !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>La tech, ça jargonne sec</strong> ! Utile pour aller vite et créer un sentiment d'appartenance avec votre équipe...Cette \"habitude\" peut se retourner contre vous. Pédagogie, communication véritable, le 1to1 efficace n'accepte pas un mot de jargon au cours du RDV ! Vous parlez en user stories avec vos dev ? Faîtes de même avec les DG."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le top tip : offrir le <em>buzzer du jargon</em> avec la règle <strong>\"ça jargonne ? Tu sonnes !\"</strong> Pour les 3-4 premiers rendez-vous, ça devrait le faire. A tenter en CODIR aussi, d'autres confrères et consœurs aiment bien jargonner aussi."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9 : Rendez-vous catastrophe ? Apprendre à retourner la situation !",
+        "id": "9-rendez-vous-catastrophe-apprendre-a-retourner-la-situation"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30dc811511103c2b1c071_9.jpg",
+        "alt": "Renverser la situation à son avantage",
+        "caption": "Retourner la situation"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Quand c'est mal parti, c'est mal parti</strong>... voici des situations que les Pro. de la Transfo. ont vécu et leurs tactiques de contournement pour éviter le pourrissement de la situation :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Un projet transverse monopolise la conversation :</strong> Reprogrammer un point avec les autres sponsors ou mieux, invitez au prochain COPROJ",
+          "<strong>Hors sujet manifeste :</strong> Accueillir le sujet, sans l'alimenter et utiliser le \"parking\", la mise au frigo, proposer une date précise (prochain 1to1, point ad hoc) pour apporter votre réponse.",
+          "<strong>Colère, mécontentement affirmé :</strong> Actez le point. Dépassionnez le sujet, et repartez sur des actions concrètes déjà mises en œuvre ou à valider pour retourner la situation.",
+          "<strong>[option warrior] On vous dit comment faire :</strong> Valider le changement de rôle de votre interlocuteur, il devient chef de projet. On change de réunion, il faut réorganiser l'espace. Venez vous placer à ses côtés et prenez des notes, dessinez des schémas pour que la collaboration soit efficace. Vous avez un expert ^^, profitez-en !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10 : L'after est important pour conclure",
+        "id": "10-lafter-est-important-pour-conclure"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/64b30deea2de8e1ed6c4ae2e_10.jpg",
+        "alt": "L'after du rdv",
+        "caption": "Acter et capitaliser"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'important ce n'est pas la chute, c'est l'atterrissage ! .. <strong>Le 1on1 commence une fois qu'il est terminé ;)</strong> Envoyez vos quelques notes pour actions, marquant les décisions et idéalement, vous historisez dans un outil de pilotage (airsaas.io par exemple 🥰) Mais surtout, vous préparez déjà le prochain point :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Fixer dans l'agenda les points importants à traiter",
+          "Communiquer et répartir les \"to-do\" avec l'équipe",
+          "Valider l'étape suivante et les points à traiter",
+          "Noter quelque part les ressentis / réactions clés"
+        ]
+      },
+      {
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "La discussion doit être constante et plaisante avec la direction générale ! Plus largement, le secret d'une transfo efficace réside à la fois dans la présence d'un outil simple dédié à la gouvernance (par exemple AirSaas !) ET dans la qualité de la relation CIO/DG/CODIR ! Entre un COMEX/CODIR panier de crabes et/ou un COMEX/CODIR \"dream team\". Et à propos de Dream Team, merci aux membres de la communauté des Pro de la Transfo présents pour cette co création. # More to come !"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

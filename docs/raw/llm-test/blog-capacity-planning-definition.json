@@ -1,0 +1,404 @@
+{
+  "type": "blog",
+  "slug": "capacity-planning-definition",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Capacity Planning : définition et principes de base",
+      "h1": "Capacity Planning : définition et principes de base",
+      "description": "Découvrez la définition du Capacity Planning, ses bénéfices pour votre entreprise et les principes de base pour bien le déployer.",
+      "author": {
+        "name": "Le Blog AirSaas",
+        "category": "Gestion de projets"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae454a72a221a5dbcbce7_Capacity%20planning.jpg",
+        "alt": "Capacity Planning"
+      }
+    },
+    "toc": [
+      {
+        "label": "Capacity Planning : définition et concepts clés",
+        "href": "#capacity-planning-definition-et-concepts-cles"
+      },
+      {
+        "label": "Pourquoi le Capacity Planning est-il intéressant pour votre entreprise ?",
+        "href": "#pourquoi-le-capacity-planning-est-il-interessant-pour-votre-entreprise"
+      },
+      {
+        "label": "Les principes de base du Capacity Planning",
+        "href": "#les-principes-de-base-du-capacity-planning"
+      },
+      {
+        "label": "Quels outils pour faire votre Capacity Planning ?",
+        "href": "#quels-outils-pour-faire-votre-capacity-planning"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "En tant que DSI ou PMO, vous jonglez au quotidien avec un large portefeuille de projets, dans lequel vous devez gérer à la fois les projets en cours, mais aussi les demandes entrantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Seulement, vous avez beau planifier au maximum les ressources disponibles, prioriser les différents projets, aligner les équipes… la demande ne cesse d'affluer, et tout votre planning finit par partir à vau-l'eau."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et si l'une des réponses à ce défi quotidien tenait en deux mots : Capacity Planning ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans cet article, découvrez <strong>une définition claire d'un Capacity Planning, ainsi que ses principes de base</strong> pour commencer à assurer une gestion de la capacité de vos ressources aux petits oignons."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Capacity Planning : définition et concepts clés",
+        "id": "capacity-planning-definition-et-concepts-cles"
+      },
+      {
+        "type": "paragraph",
+        "html": "La définition d'un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/capacity-planning\" target=\"_blank\">Capacity Planning</a> est simple. Il s'agit d'<strong>une méthode pour évaluer, planifier et gérer les ressources nécessaires pour répondre aux besoins d'une organisation</strong>, sur une période de temps donnée à venir. En français, on parle aussi de gestion de la capacité, ou bien de gestion capacitaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif principal du Capacity Planning est d'<strong>aligner la capacité disponible dans l'entreprise avec la demande récoltée</strong>. Grâce à cette démarche, vous priorisez vos projets de manière stratégique, en lançant les bonnes initiatives, au bon moment, et avec les bonnes ressources."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ainsi, avec un Capacity Planning bien ficelé, vous pouvez répondre à des questions comme :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Pourrait-on faire plus de projets le prochain trimestre ?",
+          "Doit-on recruter ?",
+          "Quelle surcharge acceptons-nous d'avoir ?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En ce sens, cette méthode est idéale pour les organisations qui doivent gérer un large portefeuille de projets, et qui doivent trouver <strong>l'équilibre entre la stratégie de l'entreprise et la réalité de ce qu'elle peut réaliser</strong> sur un temps donné. La bonne nouvelle : il est possible de faire un Capacity Planning pour n'importe quel secteur d'activité - informatique, retail, industrie…  ou n'importe quel type de projet : projet IT, projet de déménagement de siège, implémentation d'un nouveau processus RH…"
+      },
+      {
+        "type": "paragraph",
+        "html": "Chez Airsaas, on se focalise généralement sur les ressources humaines - soit l'élément le plus complexe à gérer dans un plan capacitaire, à l'heure où la majorité des projets de transformation d'entreprise sont transverses."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pourquoi le Capacity Planning est-il intéressant pour votre entreprise ?",
+        "id": "pourquoi-le-capacity-planning-est-il-interessant-pour-votre-entreprise"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour optimiser vos ressources",
+        "id": "pour-optimiser-vos-ressources"
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à un Capacity Planning, vous effectuez une meilleure affectation de vos ressources disponibles en fonction des priorités de l'entreprise, et évitez ainsi le gaspillage."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour donner plus de chances à vos projets de réussir",
+        "id": "pour-donner-plus-de-chances-a-vos-projets-de-reussir"
+      },
+      {
+        "type": "paragraph",
+        "html": "Combien de projets avez-vous déjà dû abandonner, combien de projets glissent de mois en mois faute de ressources suffisantes, ou d'une bonne priorisation des initiatives ? Votre Capacity Planning vous permet d'obtenir une vision globale des ressources sur la période à venir, ce qui permet de limiter les retards sur vos projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour vous préparer aux variations de la demande ou aux imprévus",
+        "id": "pour-vous-preparer-aux-variations-de-la-demande-ou-aux-imprevus"
+      },
+      {
+        "type": "paragraph",
+        "html": "En prévoyant les charges de travail des équipes, vous pouvez anticiper les goulots d'étranglements ou, a contrario, les besoins en recrutement ou en externalisation dont vous pourriez avoir besoin pour faire avancer vos projets."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour un meilleur alignement avec la stratégie de l'entreprise",
+        "id": "pour-un-meilleur-alignement-avec-la-strategie-de-lentreprise"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour concevoir un Capacity Planning qui tient la route, vous devez nécessairement prioriser les ressources à attribuer aux différents projets. Cette méthodologie vous invite à prioriser l'avancement des projets en fonction des objectifs stratégiques de votre entreprise - votre direction va adorer !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour optimiser vos coûts",
+        "id": "pour-optimiser-vos-couts"
+      },
+      {
+        "type": "paragraph",
+        "html": "Votre Capacity Planning permet de prévoir quel budget doit être alloué à chaque projet ou chaque équipe, et donc, d'anticiper les coûts à prévoir. À vous une meilleure gestion budgétaire globale."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour améliorer la productivité et de la rentabilité de vos équipes",
+        "id": "pour-ameliorer-la-productivite-et-de-la-rentabilite-de-vos-equipes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Conséquence de tous les bénéfices précédents : mieux anticiper permet de mieux répartir les tâches et les livrables à réaliser, et donc, d'optimiser la productivité de chacun."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pour améliorer les relations entre vos parties prenantes",
+        "id": "pour-ameliorer-les-relations-entre-vos-parties-prenantes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à votre Capacity Planning, toutes vos parties prenantes, depuis la direction jusqu'aux collaborateurs dans toutes les équipes, sont plus satisfaits de votre manière de gérer les projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'un côté, vous améliorez votre gestion des compétences, en attribuant les bonnes tâches aux bonnes ressources. Résultat : les équipes ne font plus face à une surcharge de travail, et sont plus valorisées selon leurs compétences réelles. De quoi faire fleurir votre satisfaction collaborateur."
+      },
+      {
+        "type": "paragraph",
+        "html": "De l'autre côté (celui des clients finaux), vous livrez le produit ou le service attendu dans les meilleurs délais. Et vu qu'il est produit avec les meilleures ressources disponibles, sa qualité est optimale."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et côté équipes IT, fini le harcèlement régulier pour lancer ce projet, si important pour les métiers, que vous devez toujours remettre au lendemain faute d'avoir pu le prioriser dans la roadmap !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous connaissez désormais la définition du Capacity Planning, et ses bénéfices. Alors, par où commencer pour le déployer dans votre entreprise ?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Les principes de base du Capacity Planning",
+        "id": "les-principes-de-base-du-capacity-planning"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Évaluer la capacité actuelle",
+        "id": "evaluer-la-capacite-actuelle"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout d'abord, il vous faut repérer la capacité actuelle de votre entreprise en matière de compétences humaines, de bande passante à accorder aux projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette étape vous demande d'avoir <strong>une vision précise de l'utilisation actuelle de ces ressources</strong>, sur les projets planifiés ou en cours, ainsi que sur le travail quotidien en dehors de ses projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "En faisant votre Capacity Planning, vous remarquerez rapidement que l'élément le plus complexe à gérer est l'estimation de la charge de travail disponible pour chaque individu, et donc, le temps qu'il pourra passer sur les projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Quand vous analysez la bande passante de votre équipe, identifiez les tâches récurrentes de chacun et regroupez-les en blocs de temps dédiés, comme des demi-journées. Cette approche permet de concentrer l'effort et d'améliorer l'efficacité, plutôt que de simplement répartir les tâches au fil de l'eau, ou de gérer en pourcentage de disponibilité."
+      },
+      {
+        "type": "paragraph",
+        "html": "À cette étape, vous pouvez également repérer les goulots d'étranglement déjà présents dans les projets, que le Capacity Planning permettra de solutionner."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Prévoir la demande future",
+        "id": "prevoir-la-demande-future"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un second temps, l'objectif est d'<strong>identifier les projets qui ont besoin de ressources à l'avenir</strong>, sur une période donnée, et d'estimer les ressources qui doivent y être dédiées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour ce faire, basez-vous sur la vision de la stratégie d'entreprise globale, des projets qui sont en cours de cadrage ou au stade de discussion. Cette vision guide la priorisation des projets dans votre portefeuille : c'est donc elle qui justifie que vous passiez en priorité telles ou telles ressources sur tel ou tel projet. On le sait :  c'est plus simple à dire qu'à faire, mais c'est l'objectif !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les données historiques sur les projets passés sont souvent difficiles à obtenir (sauf si vous avez déjà mis Airsaas en place, bien sûr). Mais un point clé pour un bon Capacity Planning est d'analyser le rythme global de l'organisation et celui de chaque domaine spécifique – RH, finance, IT, opérations, etc."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque fonction a des cycles et des contraintes qui influencent directement le temps disponible pour les projets. Par exemple :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>RH</strong> : des périodes intenses lors des campagnes de recrutement ou des évaluations annuelles.",
+          "<strong>Finance</strong> : une forte mobilisation en fin de trimestre et lors des clôtures comptables.",
+          "<strong>IT</strong> : des pics d'activité lors des mises en production ou des audits de sécurité."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous ne prenez pas en compte ces rythmes naturels, vous risquez d'attribuer des charges irréalistes aux équipes, entraînant des retards et une perte d'efficacité. En comprenant ces variations, vous pouvez mieux anticiper la disponibilité réelle et planifier les projets en conséquence."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour creuser le sujet, rendez-vous sur <a href=\"https://www.airsaas.io/fr/gestion-de-projet/planification-de-la-demande-capacity-planning\" target=\"_blank\">notre article \"Planification de la demande et Capacity Planning : quelles différences ?\"</a>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Aligner capacité et demande",
+        "id": "aligner-capacite-et-demande"
+      },
+      {
+        "type": "paragraph",
+        "html": "À cette étape, vous arrivez dans le gros du Capacity Planning : vous devez <strong>aligner la capacité et la demande en fonction des objectifs stratégiques</strong> de votre organisation."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, vous disposez de plusieurs stratégies dans votre arsenal :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Augmenter la capacité</strong>, en identifiant les ressources à venir ou nécessaires à rajouter. Prévoyez des recrutements en plus, ou bien pensez à faire monter en compétences certains collaborateurs sur un sujet dont vous pourriez avoir besoin dans la période à venir",
+          "<strong>Ajuster la demande</strong>, en priorisant des projets dans le temps, en fonction de leur impact stratégique sur l'organisation.",
+          "<strong>Ajuster la capacité et la demande sur-mesure</strong>, en fonction des projets prioritaires et des compétences à votre disposition."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Quoi qu'il en soit, dans le cadre d'un portefeuille de projet très large, soyez prêt : cet alignement entre capacité et demande va souvent nécessiter une négociation avec les métiers et la direction.  La bonne pratique : aligner tout le monde sur les priorités à établir, grâce à des méthodologies comme le <a href=\"http://www.airsaas.io/fr/gestion-de-projet/pi-planning\" target=\"_blank\">PI Planning</a> ou le <a href=\"https://www.airsaas.io/fr/quarter-plan\" target=\"_blank\">Quarter Plan</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces méthodes demandent de passer d'une planification sur un temps court (à la semaine ou au mois) à une projection sur un temps plus long, comme le trimestre, le semestre ou le Program Increment (PI). Ce faisant, vous vous assurez que vous créez un capacitaire adapté à l'échelle de votre organisation et à la transversalité de vos projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et rappelez-vous que tout l'art du Capacity Planning repose dans le fait de mettre en place une planification flexible ET synchrone, qui peut s'adapter aux changements organisationnels ou stratégiques. Un gros défi, mais dont le jeu en vaut la chandelle !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour aller plus loin, <a href=\"http://www.airsaas.io/fr/gestion-de-projet/plan-capacitaire\" target=\"_blank\">découvrez les étapes clés pour créer votre plan capacitaire</a>."
+      },
+      {
+        "type": "hubspot-cta",
+        "label": "Réserver une démo",
+        "href": "/fr/meetings-pages",
+        "id": "188471577013"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Suivre et ajuster en continu",
+        "id": "suivre-et-ajuster-en-continu"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois votre Capacity Planning établi, il ne s'agit pas de le laisser tel quel. Avec la variation de la demande, et les ressources disponibles qui fluctuent, votre capacitaire va nécessairement évoluer au cours du temps. D'où l'intérêt de le suivre et de l'ajuster de manière continue."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout d'abord, utilisez des indicateurs clés de performance (KPI) pour évaluer l'efficacité du Capacity Planning, comme :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le taux d'avancement du Quarter Plan</strong>",
+          "<strong>Le taux d'achèvement des projets</strong> dans les délais et budgets prévus",
+          "<strong>Le taux d'interruption ou de retard</strong> sur les projets lié à une mauvaise planification de la capacité",
+          "<strong>Le niveau de satisfaction des parties prenantes</strong> (collaborateurs et clients) vis-à-vis du Capacity Planning"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "En parallèle, mettez en place des points de contrôle réguliers pour ajuster la gestion de la demande et le plan capacitaire au fil du temps."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c0254d7662945f0bda0459_culture-capacity-planning.png",
+        "alt": "Culture Capacity Planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et pour un Capacity Planning couronné de succès, <a href=\"http://www.airsaas.io/fr/gestion-de-projet/planification-de-la-capacite\" target=\"_blank\">appliquez nos bonnes pratiques pour réussir votre planification de la capacité</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quels outils pour faire votre Capacity Planning ?",
+        "id": "quels-outils-pour-faire-votre-capacity-planning"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettre en place un capacitaire est bien souvent une démarche lourde et chronophage. Bon nombre d'entreprises le font sur un tableur Excel, qu'il est généralement impossible de maintenir dans le temps par la suite."
+      },
+      {
+        "type": "paragraph",
+        "html": "Alors faut-il totalement abandonner l'idée d'avoir un plan capacitaire vraiment efficace ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pas vraiment. Pour répondre à cette problématique, chez Airsaas, nous avons un parti pris : <strong>nous préférons avoir un capacitaire approximativement juste plutôt que précisément faux</strong>. Et c'est pour mettre en musique ce parti pris que nous avons développé une plateforme de Capacity Planning par équipe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Grâce à Airsaas :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Vous estimez le temps nécessaire au livrable, et non à la tâche</strong>. L'estimation de la charge de travail se fait sous forme de t-shirt sizing, pour éviter de rentrer dans le détail micro- et donc, simplifier votre Capacity Planning.",
+          "<strong>Vous anticipez les temps nécessaires et disponibles par équipe</strong>. Ainsi, vous évitez de vous projeter à l'échelle de la personne, et vous vous basez plutôt sur l'échelle de l'équipe, pour vous projeter réellement sur le build.",
+          "<strong>Vous mettez en place d'un capacitaire au trimestre, au semestre, ou au PI</strong>. Cette méthodologie vous permet de vous aligner sur des échelles de temps qui représentent la réalité du travail à fournir - qui ne se fait souvent pas à l'échelle d'une semaine, mais plutôt sur un temps plus long."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur la plateforme Airsaas, la vue Capacitaire est simple et actionnable. Elle vous aide à savoir quelle est la capacité dans chaque équipe, quels livrables plombent l'avancement de vos projets, et quels sont vos besoins en ressources supplémentaires."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c02737c3f7b9a4eb992582_capacitaire-airsaas.png",
+        "alt": "Vue capacitaire Airsaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Résultat : vous mettez en place un capacitaire pragmatique, au niveau macro, qui permet de prioriser avec le Top Management les projets à lancer ou non. Ce qui ne vous empêche pas, en parallèle, une fois vos projets organisés dans le temps, de produire un capacitaire à la personne sur 2 à 3 mois maximum… que vous pourrez vraiment tenir !"
+      },
+      {
+        "type": "paragraph",
+        "html": "De quoi prendre de meilleures décisions en termes de priorisation et de planification de la capacité."
+      },
+      {
+        "type": "paragraph",
+        "html": "Intéressé par la solution Capacity Planning par équipes d'Airsaas ? <a href=\"https://www.airsaas.io/fr/produit/capacity-planning\" target=\"_blank\">Demandez une démo dès aujourd'hui</a>, et rationalisez votre gestion de portefeuille de projet tout en créant l'engagement dans vos équipes."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

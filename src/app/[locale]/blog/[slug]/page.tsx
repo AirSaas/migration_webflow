@@ -7,6 +7,10 @@ import {
 } from "@/data/blog-articles-v2";
 import { BLOG_INDEX_DATA } from "@/data/blog";
 import { renderBlogBlocks } from "@/components/blog/renderBlogBlocks";
+import type { ComponentProps } from "react";
+import type { BlogCard } from "@/components/library-design/ui/BlogCard";
+
+type BlogCardProps = ComponentProps<typeof BlogCard>;
 
 type RouteParams = { locale: string; slug: string };
 
@@ -98,6 +102,61 @@ export default async function BlogArticleRoute({
         }
       : undefined;
 
+  // R19 audit Marisella : "trendingGrid" 3 cards from sibling articles to
+  // replace the orange CTA placeholder. Pick 3 deterministically (next 3
+  // articles after current in ACTIVE_BLOG_ARTICLES_V2 order, wrapping).
+  const currentIdx = ACTIVE_BLOG_ARTICLES_V2.findIndex(
+    (a) => a.slug === article.slug,
+  );
+  const siblings: BlogCardProps[] = [];
+  for (let i = 1; i <= 3; i++) {
+    const sibling =
+      ACTIVE_BLOG_ARTICLES_V2[
+        (currentIdx + i) % ACTIVE_BLOG_ARTICLES_V2.length
+      ];
+    if (!sibling) continue;
+    siblings.push({
+      thumbnailSrc:
+        sibling.meta.heroImage?.src ||
+        `https://placehold.co/600x400/3c51e2/ffffff?text=${encodeURIComponent(
+          sibling.slug.slice(0, 30),
+        )}`,
+      thumbnailAlt: sibling.meta.title,
+      date: formatPublishedDate(sibling.meta.publishedDate) || "",
+      title: sibling.meta.title.slice(0, 115),
+      excerpt: sibling.meta.description.slice(0, 180),
+      href: `/fr/blog/${sibling.slug}`,
+      authors: [
+        {
+          name: sibling.meta.author?.name || "AirSaas",
+          avatarSrc:
+            sibling.meta.author?.avatarSrc ||
+            `https://placehold.co/80x80/3c51e2/ffffff?text=${encodeURIComponent(
+              (sibling.meta.author?.name || "AS").slice(0, 2).toUpperCase(),
+            )}`,
+          avatarAlt: sibling.meta.author?.name || "AirSaas",
+        },
+      ],
+      categoryLabel: "Gestion de projet",
+      categoryHref: "/fr/blog/articles",
+      publishedByLabel: "Publié par",
+      inLabel: "dans",
+      authorsAndLabel: "&",
+      authorsMoreLabel: "autres",
+    });
+  }
+  const trendingGrid =
+    siblings.length > 0
+      ? {
+          title: "À découvrir aussi",
+          subtitle: undefined,
+          background: "alt" as const,
+          articles: siblings,
+          viewAllHref: "/fr/blog/articles",
+          viewAllLabel: "Voir tous les articles",
+        }
+      : undefined;
+
   return (
     <BlogPostPage
       navItems={BLOG_INDEX_DATA.navItems}
@@ -125,8 +184,21 @@ export default async function BlogArticleRoute({
       faq={faq}
       cta={BLOG_INDEX_DATA.cta}
       relatedArticles={relatedArticles}
+      trendingGrid={trendingGrid}
       footerColumns={BLOG_INDEX_DATA.footerColumns}
       copyright={BLOG_INDEX_DATA.copyright}
+      copyrightIcon={
+        <span className="inline-flex items-center gap-[0.375rem]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/assets/logos/airsaas-logo.svg"
+            alt=""
+            aria-hidden="true"
+            className="h-[1.25rem] w-auto"
+          />
+          <span aria-label="Français">🇫🇷</span>
+        </span>
+      }
     />
   );
 }

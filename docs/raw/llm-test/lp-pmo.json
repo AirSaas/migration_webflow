@@ -1,19 +1,21 @@
 {
   "type": "lp",
   "slug": "pmo",
-  "iteration": 3,
-  "outcome": "REFINED",
-  "previousOutcome": "RETRY_PASS",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
   "result": {
     "meta": {
-      "title": "Outil PMO — Pilotez la transformation avec AirSaas",
-      "description": "AirSaas est l'outil des PMO modernes pour aligner le top management, prioriser les projets et passer du reporting à la stratégie."
+      "title": "Outil PMO — AirSaas",
+      "description": "AirSaas, l'outil des PMO modernes pour aligner le top management, piloter le portefeuille projets et passer de PowerPoint à pilotage stratégique."
     },
     "sections": [
       {
         "type": "hero",
-        "title": "80 projets côté DSI. 80 côté Marketing. 80 côté Finance. Et toujours pas de vue commune au Codir ?",
-        "subtitle": "L'outil des PMO modernes — AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\".",
+        "tag": "L'outil des PMO modernes",
+        "title": "80 projets côté DSI. 80 côté Marketing. 80 côté Finance.",
+        "titleHighlight": "Et toujours pas de vue commune au Codir ?",
+        "subtitle": "AirSaas vous donne les outils pour passer de \"celui qui fait les PowerPoints\" à \"celui qui pilote la transformation\".",
         "primaryCta": {
           "label": "Réservez une démo",
           "href": "/fr/meetings-pages"
@@ -23,40 +25,8 @@
           "href": "/fr/video/pmo"
         },
         "bullets": [
-          "L'outil des PMO modernes",
           "+100 clients nous font confiance",
           "Accompagnement premium inclus"
-        ]
-      },
-      {
-        "type": "icon-row",
-        "title": "Découvrez AirSaas en action",
-        "subtitle": "Une suite complète pour piloter votre portefeuille projets de bout en bout.",
-        "items": [
-          {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678557124f678e343b52b670_icon-portfolio-color.svg",
-            "label": "Portfolio"
-          },
-          {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678551b057a90dcdb75baee9_icon-quarter-plan-color.svg",
-            "label": "Quarter plan"
-          },
-          {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67855725b0e15e8685feb59b_icon-capacity-color.svg",
-            "label": "Capacitaire"
-          },
-          {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6786832ca4d4b56c5e98dd1e_icon-Priorisation-color.svg",
-            "label": "Priorisation"
-          },
-          {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/67868500077117c7399a63d7_icon-roadmap-color.svg",
-            "label": "Roadmap"
-          },
-          {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/678686557fa477c469417d74_icon-report-color.svg",
-            "label": "Reporting"
-          }
         ]
       },
       {
@@ -109,7 +79,8 @@
       },
       {
         "type": "pain-points",
-        "title": "⚠️ Le quotidien du PMO aujourd'hui",
+        "emoji": "⚠️",
+        "title": "Le quotidien du PMO aujourd'hui",
         "items": [
           "Vous courez après les chefs de projet pour avoir des infos à jour",
           "Les demandes arrivent floues : \"on veut un truc\" sans brief clair",
@@ -119,150 +90,150 @@
       },
       {
         "type": "feature-split",
+        "tag": "Intelligence Artificielle",
         "title": "Agent IA de qualification des demandes",
-        "subtitle": "Intelligence Artificielle",
         "body": "<p>Quand une demande arrive floue (\"on veut un truc\"), l'agent IA mène l'entretien, collecte les informations critiques et transforme chaque demande en brief clair et comparable.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972324279c2664766449003_AI%20FR.webp",
-        "imageAlt": "Agent AI",
         "bullets": [
           "Entretien guidé par l'IA",
           "Brief structuré selon vos templates",
           "Demandes comparables entre elles",
           "Dites non plus tôt, lancez moins de projets... mais mieux"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972324279c2664766449003_AI%20FR.webp",
+        "imageAlt": "Agent AI"
       },
       {
         "type": "feature-split",
-        "title": "Email \"Bilan de santé\" hebdomadaire",
-        "subtitle": "Communication automatisée",
-        "body": "<p>Chaque lundi, les sponsors reçoivent l'essentiel sur leurs projets. Sans que vous ayez à lever le petit doigt. Fini la course à l'info.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control%20tower%20email%20FR%20%28screen%29.webp",
-        "imageAlt": "Email",
         "reversed": true,
+        "tag": "Communication automatisée",
+        "title": "Email \"Bilan de santé\" hebdomadaire",
+        "body": "<p>Chaque lundi, les sponsors reçoivent l'essentiel sur leurs projets. Sans que vous ayez à lever le petit doigt. Fini la course à l'info.</p>",
         "bullets": [
           "Envoi automatique programmable",
           "Personnalisé par sponsor / direction",
           "Météo projet en un coup d'œil",
           "Lien vers le détail dans AirSaas"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/664b24837fe62a131250a50c_3413e379b45a09d99b27d62ecb0a20c7_Control%20tower%20email%20FR%20%28screen%29.webp",
+        "imageAlt": "Email bilan de santé"
       },
       {
         "type": "feature-split",
+        "tag": "Gain de temps immédiat",
         "title": "Flash Report en 1 clic",
-        "subtitle": "Gain de temps immédiat",
         "body": "<p>Fini les 2 jours de PowerPoint. En un clic, générez un rapport complet, à jour, aux couleurs de votre entreprise. Le Comex est informé, vous êtes libre.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
-        "imageAlt": "Flash report",
         "bullets": [
           "Export PDF, PPT ou lien web",
           "Personnalisable aux couleurs de l'entreprise",
           "Données toujours à jour",
           "Envoi automatique programmable"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d742defe0bf46502743b11_Flash%20report%20export%20modal.webp",
+        "imageAlt": "Flash report"
       },
       {
         "type": "feature-split",
-        "title": "Kanban des décisions",
-        "subtitle": "Nouveau",
-        "body": "<p>Les décisions changent, se perdent dans les CR. AirSaas les centralise : owner, échéance, statut, impact sur la roadmap. Quand les décisions deviennent visibles, l'exécution redevient cohérente.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
-        "imageAlt": "Decisions",
         "reversed": true,
+        "tag": "Nouveau",
+        "title": "Kanban des décisions",
+        "body": "<p>Les décisions changent, se perdent dans les CR. AirSaas les centralise : owner, échéance, statut, impact sur la roadmap. Quand les décisions deviennent visibles, l'exécution redevient cohérente.</p>",
         "bullets": [
           "Owner et échéance assignés",
-          "Statut et suivi en temps réel",
           "Impact visible sur la roadmap",
           "Plus rien ne se perd"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
+        "imageAlt": "Kanban des décisions"
       },
       {
         "type": "feature-split",
+        "tag": "Structuration",
         "title": "Cadrage projet guidé",
-        "subtitle": "Structuration",
         "body": "<p>Les utilisateurs sont accompagnés pour remplir les informations essentielles : gains espérés, critères de réussite, effort. Quand le niveau de remplissage est suffisant, le projet peut partir en validation.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422c2062f8e4b86c4a3030_Presentation%20cadrage%20slide.webp",
-        "imageAlt": "Project",
         "bullets": [
           "Workflow structuré",
           "Remplissage collaboratif et asynchrone",
           "Niveau de complétude visible",
           "Validation en comité simplifiée"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66422c2062f8e4b86c4a3030_Presentation%20cadrage%20slide.webp",
+        "imageAlt": "Cadrage projet"
       },
       {
         "type": "feature-split",
-        "title": "KPI : Taux d'avancement du Quarter Plan",
-        "subtitle": "Quarter Plan",
-        "body": "<p>Mesurez l'écart entre ce qu'on s'est engagé à livrer et ce qui est réellement livré. En un coup d'œil : 10%, 50% ou 100% de l'engagement tenu. Et surtout : ce qui a bloqué.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/679732feebaf4e31dec2cc8d_Quarter%20plan.webp",
-        "imageAlt": "Quarter plan",
         "reversed": true,
+        "tag": "Quarter Plan",
+        "title": "KPI : Taux d'avancement du Quarter Plan",
+        "body": "<p>Mesurez l'écart entre ce qu'on s'est engagé à livrer et ce qui est réellement livré. En un coup d'œil : 10%, 50% ou 100% de l'engagement tenu. Et surtout : ce qui a bloqué.</p>",
         "bullets": [
           "Taux de delivery par trimestre",
           "Identification des blocages",
           "Amélioration cycle après cycle",
           "KPI objectif pour le Comex"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/679732feebaf4e31dec2cc8d_Quarter%20plan.webp",
+        "imageAlt": "Quarter plan KPI"
       },
       {
         "type": "feature-split",
+        "tag": "Quarter Plan",
         "title": "Planification trimestrielle structurée",
-        "subtitle": "Quarter Plan",
         "body": "<p>Synchronisez toute l'organisation sur un cycle trimestriel. Chaque quarter, on refait le point : qu'est-ce qu'on a livré, qu'est-ce qu'on priorise pour les 3 prochains mois ?</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972321e948917c9355b7348_Page%20Le%20Quarter%20plan%20FR.webp",
-        "imageAlt": "Quarter plan",
         "bullets": [
           "Rituels de planification cadrés",
           "Engagements clairs par équipe",
           "Rétrospective intégrée",
           "Alignement DSI / Métiers / Comex"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6972321e948917c9355b7348_Page%20Le%20Quarter%20plan%20FR.webp",
+        "imageAlt": "Quarter plan"
       },
       {
         "type": "feature-split",
-        "title": "Gestion de la capacité par équipe",
-        "subtitle": "Capacitaire",
-        "body": "<p>Visualisez la charge vs capacité de chaque équipe. Identifiez les surcharges avant qu'elles ne créent de la friction. Répondez enfin à \"peut-on prendre ce projet ?\"</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
-        "imageAlt": "Capacity",
         "reversed": true,
+        "tag": "Capacitaire",
+        "title": "Gestion de la capacité par équipe",
+        "body": "<p>Visualisez la charge vs capacité de chaque équipe. Identifiez les surcharges avant qu'elles ne créent de la friction. Répondez enfin à \"peut-on prendre ce projet ?\"</p>",
         "bullets": [
           "Vue capacité par équipe et par trimestre",
           "Alerte surcharge automatique",
           "T-shirt sizing (S, M, L, XL)",
           "Scénarios d'arbitrage"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66334ee7bcfcb0aa45802537_Capacity%20screen.webp",
+        "imageAlt": "Capacity screen"
       },
       {
         "type": "feature-split",
+        "tag": "Vue macro",
         "title": "Vision globale du portefeuille",
-        "subtitle": "Vue macro",
         "body": "<p>80 projets côté DSI. 80 côté Marketing. 80 côté Finance. Avec AirSaas, vous avez enfin une vue consolidée pour le Codir. Filtrez par direction, météo, priorité.</p>",
-        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66868115f4e94cc3f2a00e2a_Portfolio%20projects%20kanban%20status%20en.png",
-        "imageAlt": "Portfolio",
         "bullets": [
           "Consolidation multi-directions",
           "Vue Liste, Kanban, Timeline, Dashboard",
           "Filtres personnalisables",
           "Export Comex en 1 clic"
-        ]
+        ],
+        "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66868115f4e94cc3f2a00e2a_Portfolio%20projects%20kanban%20status%20en.png",
+        "imageAlt": "Portfolio"
       },
       {
-        "type": "icon-row",
+        "type": "value-proposition",
         "title": "De contremaître à coach d'organisation",
         "subtitle": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
+        "columns": 3,
         "items": [
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/69713280b27de780c7775ee6_203b113cc180eb6931ef0a8ddc2cbba2_icon-bolt-lightning.svg",
-            "label": "Moins de reporting — Flash report automatique. Fini les 2 jours de PowerPoint."
+            "title": "Moins de reporting",
+            "description": "Flash report automatique. Fini les 2 jours de PowerPoint."
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697132c0fc40c586d53ddeee_e235d65f55da6d8e598df4e9d948c8cd_icon-bullseye-arrow.svg",
-            "label": "Plus d'impact — Focus sur la priorisation et les arbitrages, pas sur la collecte d'info."
+            "title": "Plus d'impact",
+            "description": "Focus sur la priorisation et les arbitrages, pas sur la collecte d'info."
           },
           {
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/697132d121fff14e16160ed5_493397f27c4c2a85e3918d2ce78b7e77_icon-handshake.svg",
-            "label": "Meilleur alignement — Une vue commune pour la DSI, les métiers et le Comex."
+            "title": "Meilleur alignement",
+            "description": "Une vue commune pour la DSI, les métiers et le Comex."
           }
         ]
       },
@@ -313,6 +284,7 @@
         "type": "logo-bar",
         "title": "Connecté à votre écosystème",
         "subtitle": "AirSaas s'intègre à vos outils pour éviter la double saisie.",
+        "variant": "partner",
         "logos": [
           {
             "src": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971e9b15f543597b4684dd2_Icon%20Jira.svg",
@@ -391,23 +363,7 @@
         "subtitle": "AirSaas libère le PMO des tâches administratives pour qu'il puisse enfin se concentrer sur la stratégie.",
         "ctaLabel": "Choisir un créneau →",
         "ctaHref": "/fr/meetings-pages",
-        "videoHref": "/fr/video/pmo",
-        "items": [
-          {
-            "title": "Réserver une démo",
-            "description": "30 min pour voir comment AirSaas peut transformer votre quotidien de PMO.",
-            "ctaLabel": "Choisir un créneau →",
-            "ctaHref": "/fr/meetings-pages",
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df86c8979b219e62aa57_Icon%20bullseye-arrow.svg"
-          },
-          {
-            "title": "Découvrir l'outil PMO en vidéo (5 min)",
-            "description": "Comment AirSaas transforme le quotidien des PMO.",
-            "ctaLabel": "Voir la vidéo →",
-            "ctaHref": "/fr/video/pmo",
-            "iconSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/6971df92ad8c9961f891111f_Icon%20video.svg"
-          }
-        ]
+        "videoHref": "/fr/video/pmo"
       }
     ]
   }

@@ -35,6 +35,15 @@ const REQUIRED_FIELDS_BY_TYPE = {
   related: ["items"],
   "trust-badges": ["badges"],
   raw: ["html"],
+  // Phase 1 schema extension types — Marisella DS hardening :
+  "tabs-frame": ["tabs"],
+  "cta-highlight": ["titlePrefix", "titleHighlight", "ctaLabel"],
+  "comparison-frame": ["title", "items"],
+  "pillar-frame": ["title", "pillars"],
+  "highlight-frame": ["title", "items"],
+  "feature-stacked": ["titleGradient", "imageAlt"],
+  "value-proposition": ["title", "items"],
+  "steps-rich": ["title", "steps"],
 };
 
 const ITEM_REQUIREMENTS = {
@@ -158,7 +167,7 @@ function checkFieldNames(out) {
     if (required === undefined) {
       errs.push({
         type: "field-names",
-        detail: `section[${i}] has unknown type "${t}" — use one of the 17 documented types (hero, intro, feature-split, pain-points, stats, logo-bar, press-quotes, testimonials, customer-testimonials, comparison-table, steps, faq, cta, icon-row, related, trust-badges, raw)`,
+        detail: `section[${i}] has unknown type "${t}" — use one of the 25 documented types (hero, intro, feature-split, pain-points, stats, logo-bar, press-quotes, testimonials, customer-testimonials, comparison-table, steps, faq, cta, icon-row, related, trust-badges, tabs-frame, cta-highlight, comparison-frame, pillar-frame, highlight-frame, feature-stacked, value-proposition, steps-rich, raw)`,
       });
       continue;
     }

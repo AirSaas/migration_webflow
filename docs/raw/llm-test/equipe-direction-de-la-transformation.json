@@ -1,13 +1,13 @@
 {
   "type": "equipe",
   "slug": "direction-de-la-transformation",
-  "iteration": 2,
-  "outcome": "REFINED",
-  "previousOutcome": "PASS_FIRST_TRY",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
   "result": {
     "meta": {
-      "title": "Direction de la transformation — AirSaas",
-      "description": "L'outil des Directions de la transformation pour mieux piloter leurs grands programmes. AirSaas accompagne les directions de la transformation à piloter l'ensemble des projets de l'entreprise."
+      "title": "L'outil des Directions de la transformation pour mieux piloter leurs grands programmes",
+      "description": "Découvrez la solution qui accompagne les directions de la transformation à piloter l'ensemble des projets de l'entreprise en collaboration avec les métiers et l'IT."
     },
     "sections": [
       {
@@ -59,7 +59,7 @@
             "linkedinUrl": "https://www.linkedin.com/posts/thomas-sagnimorte-593b2b1_cest-tellement-agr%C3%A9able-de-co-construire-activity-7084118266675101697-6OuH/"
           },
           {
-            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou. Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
+            "text": "Un beau projet et une vraie dynamique d'équipe transverse DSI et Métiers au service du management du portefeuille de projets Audencia Marion Jaffré Mélinda SCHLEDER Maryline Breton Thomas Kerbiriou .Un beau partenariat AirSaas Bertran Ruiz! Heureuse de constater au jour le jour la progression ... et les premiers résultats! On continue!",
             "name": "Marie-Odile Lhomme",
             "role": "Chief Digital & Information Officer",
             "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66154d91a69420f9a97694fe_marie-odile-lhomme.webp",
@@ -103,16 +103,15 @@
       },
       {
         "type": "feature-split",
-        "title": "Animez clairement et simplement",
-        "titleHighlight": "le comité de pilotage",
-        "body": "Pilotez par la décision : Pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n'avez pas la bonne information.",
+        "title": "Animez clairement et simplement le comité de pilotage",
+        "body": "<p>Pilotez par la décision : Pendant votre comité de pilotage vous aurez accès à toutes les décisions à prendre et historiques clés. Vous ne serez plus pris de court parce que vous n'avez pas la bonne information.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d35c96ec9fbf11d78e4b44_Portfolio%20decisions%20(show%20projects%20title).webp",
         "imageAlt": "Portfolio decisions"
       },
       {
         "type": "feature-split",
         "title": "Pilotez les projets de manière macro",
-        "body": "Priorisez en continu et soyez agile grâce votre roadmap collaborative.",
+        "body": "<p>Priorisez en continu et soyez agile grâce votre roadmap collaborative.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65ce3c00c0a4886fc8e9f671_Portfolio%20project%20timeline%20view.webp",
         "imageAlt": "Portfolio timeline",
         "reversed": true
@@ -120,42 +119,51 @@
       {
         "type": "feature-split",
         "title": "Uniformisez le reporting projet",
-        "body": "Générez votre flash report en un clic et envoyez le de manière régulière aux sponsors métiers. Ils ne pourront plus dire « je ne savais pas ! »"
+        "body": "<p>Générez votre flash report en un clic et envoyez le de manière régulière aux sponsors métiers. Ils ne pourront plus dire \"je ne savais pas !\"</p>"
       },
       {
         "type": "feature-split",
         "title": "Faites gagner 1 jour par semaine à vos chefs de projet",
-        "body": "En 5 minutes par semaine et par projet, les chefs de projets font remonter les informations cruciales pour le suivi de projet : Jalon, décision à prendre, point d'attention.<br/>Evitez les réunions « informationnelles » et les rush de dernière minute pour faire un reporting.",
+        "body": "<p>En 5 minutes par semaine et par projet, les chefs de projets font remonter les informations cruciales pour le suivi de projet : Jalon, décision à prendre, point d'attention.<br/>Evitez les réunions \"informationnelles\" et les rush de dernière minute pour faire un reporting.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d6fd5da1f291f6011dee8d_Portfolio%20share%20decision.webp",
         "imageAlt": "Portfolio share decision",
         "reversed": true
       },
       {
-        "type": "intro",
+        "type": "pillar-frame",
         "title": "Améliorer en continu votre manière de faire des projets",
-        "body": "<p>Générez en un clic le bilan d'un projet contenant les métriques (délai, coût, engagement, etc.) mais aussi les retours « DAKI » de l'équipe projet. Parfait pour s'améliorer ensemble.</p>",
-        "subSections": [
+        "subtitle": "Générez en un clic le bilan d'un projet contenant les métriques (délai, coût, engagement, etc.) mais aussi les retours \"DAKI\" de l'équipe projet. Parfait pour s'améliorer ensemble.",
+        "columns": 2,
+        "pillars": [
           {
             "title": "DROP",
-            "body": "Ce que vous souhaitez arrêter. Exemple : Démarrer un projet sans avoir nommé de sponsor."
+            "description": "Ce que vous souhaitez arrêter.",
+            "example": "Démarrer un projet sans avoir nommé de sponsor.",
+            "exampleLabel": "Exemple"
           },
           {
             "title": "ADD",
-            "body": "Ce que vous aimeriez essayer. Exemple : Ajouter un utilisateur final à chaque review."
+            "description": "Ce que vous aimeriez essayer.",
+            "example": "Ajouter un utilisateur final à chaque review.",
+            "exampleLabel": "Exemple"
           },
           {
             "title": "KEEP",
-            "body": "Ce qu'il faut garder. Exemple : Le point d'avancement bi-mensuel avec le flash report."
+            "description": "Ce qu'il faut garder.",
+            "example": "Le point d'avancement bi-mensuel avec le flash report.",
+            "exampleLabel": "Exemple"
           },
           {
             "title": "IMPROVE",
-            "body": "Ce que vous souhaitez améliorer. Exemple : Améliorer la précision des maquettes pour couvrir tous les effets de bord."
+            "description": "Ce que vous souhaitez améliorer.",
+            "example": "Améliorer la précision des maquettes pour couvrir tous les effets de bord.",
+            "exampleLabel": "Exemple"
           }
         ]
       },
       {
         "type": "feature-split",
-        "title": "Presentation reviews",
+        "title": "Présentation review",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/66865ccd6319bebdceb619e4_Presentation-review-slide.png",
         "imageAlt": "Presentation reviews"
       },
@@ -186,8 +194,9 @@
         ]
       },
       {
-        "type": "cta",
-        "title": "Choisissez de gagner du temps et du contrôle",
+        "type": "cta-highlight",
+        "titlePrefix": "Choisissez de gagner du ",
+        "titleHighlight": "temps et du contrôle",
         "subtitle": "Adoptez dès maintenant une solution efficace de reporting projet.",
         "ctaLabel": "Réservez une démo",
         "ctaHref": "/fr/meetings-pages"
@@ -195,7 +204,7 @@
       {
         "type": "feature-split",
         "title": "AirSaas s'intégre à vos outils",
-        "body": "Synchronisez vos outils de gestions de projets et profitez d'une vue macro sur AirSaas.<br/>Connectez votre MS Teams et tenez informés vos collaborateurs.",
+        "body": "<p>Synchronisez vos outils de gestions de projets et profitez d'une vue macro sur AirSaas.<br/>Connectez votre MS Teams et tenez informés vos collaborateurs.</p>",
         "imageSrc": "https://cdn.prod.website-files.com/609552290d93fd43ba0f0849/65d48497b08e93531f3ba49b_Graphic%20Integrations.webp",
         "imageAlt": "Automation - integrations"
       }

@@ -1,13 +1,58 @@
 {
-  "startedAt": "2026-04-29T12:55:01.963Z",
-  "totalCost": 2.1397649999999997,
+  "startedAt": "2026-05-05T13:40:11.072Z",
+  "totalCost": 43.336108499999995,
   "totalTokens": {
-    "input": 84771,
-    "output": 11576,
-    "cacheRead": 0,
-    "cacheWrite": 0
+    "input": 301692,
+    "output": 228895,
+    "cacheRead": 38294,
+    "cacheWrite": 1151262
   },
   "results": [
+    {
+      "type": "lp",
+      "slug": "ppm",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 18,
+        "types": [
+          "hero",
+          "logo-bar",
+          "stats",
+          "pain-points",
+          "feature-split",
+          "value-proposition",
+          "testimonials",
+          "steps",
+          "faq",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "lp",
+      "slug": "pmo",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 20,
+        "types": [
+          "hero",
+          "logo-bar",
+          "stats",
+          "pain-points",
+          "feature-split",
+          "value-proposition",
+          "testimonials",
+          "trust-badges",
+          "steps",
+          "faq",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
     {
       "type": "lp",
       "slug": "capacity-planning",
@@ -19,13 +64,437 @@
           "hero",
           "logo-bar",
           "stats",
-          "pain-points",
+          "comparison-frame",
           "feature-split",
           "steps",
-          "icon-row",
+          "value-proposition",
           "testimonials",
-          "trust-badges",
+          "steps-rich",
           "faq",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "lp",
+      "slug": "pi-planning",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 19,
+        "types": [
+          "hero",
+          "logo-bar",
+          "stats",
+          "comparison-frame",
+          "intro",
+          "feature-split",
+          "comparison-table",
+          "value-proposition",
+          "testimonials",
+          "faq",
+          "icon-row",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "produit",
+      "slug": "automatiser-la-com-projet",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 5,
+        "types": [
+          "hero",
+          "pain-points",
+          "feature-split",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "produit",
+      "slug": "budget",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 12,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "cta",
+          "faq"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "produit",
+      "slug": "capacity-planning",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 10,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "faq",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "produit",
+      "slug": "priorisation-par-equipes",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 7,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "faq",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "produit",
+      "slug": "reporting-projet",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 8,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "cta",
+          "faq"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "produit",
+      "slug": "traduction-one-click-avec-deepl",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 9,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "airsaas-et-les-experts-de-la-transfo",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 8,
+        "types": [
+          "hero",
+          "intro",
+          "press-quotes",
+          "testimonials",
+          "feature-split",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "flash-report",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 18,
+        "types": [
+          "hero",
+          "intro",
+          "value-proposition",
+          "feature-split",
+          "press-quotes",
+          "testimonials",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "flash-report-projet",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 20,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "press-quotes",
+          "testimonials",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "gestion-portefeuille-projet",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 26,
+        "types": [
+          "hero",
+          "press-quotes",
+          "testimonials",
+          "intro",
+          "value-proposition",
+          "feature-split",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "management-de-portefeuille-projet",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 25,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "press-quotes",
+          "testimonials",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "outil-ppm",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 18,
+        "types": [
+          "hero",
+          "intro",
+          "pillar-frame",
+          "feature-split",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "outils-de-pilotage-projet",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 32,
+        "types": [
+          "hero",
+          "intro",
+          "value-proposition",
+          "feature-split",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "portfolio-management",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 22,
+        "types": [
+          "hero",
+          "press-quotes",
+          "testimonials",
+          "stats",
+          "intro",
+          "feature-split",
+          "comparison-table",
+          "customer-testimonials",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "revue-de-portefeuille",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 21,
+        "types": [
+          "hero",
+          "intro",
+          "value-proposition",
+          "feature-split",
+          "press-quotes",
+          "testimonials",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "tableau-de-bord-dsi",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 21,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "tableau-de-bord-gestion-de-projet",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 17,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "solution",
+      "slug": "tableau-de-bord-portefeuille-de-projet",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 24,
+        "types": [
+          "hero",
+          "intro",
+          "feature-split",
+          "press-quotes",
+          "testimonials",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "equipe",
+      "slug": "comite-direction",
+      "iteration": 2,
+      "outcome": "RETRY_PASS",
+      "summary": {
+        "sections": 14,
+        "types": [
+          "hero",
+          "press-quotes",
+          "testimonials",
+          "intro",
+          "stats",
+          "feature-split",
+          "comparison-table",
+          "cta",
+          "related"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "equipe",
+      "slug": "direction-de-la-transformation",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 14,
+        "types": [
+          "hero",
+          "press-quotes",
+          "testimonials",
+          "intro",
+          "stats",
+          "feature-split",
+          "pillar-frame",
+          "comparison-table",
+          "cta-highlight"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "equipe",
+      "slug": "it-et-operation",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 16,
+        "types": [
+          "hero",
+          "press-quotes",
+          "testimonials",
+          "intro",
+          "stats",
+          "feature-split",
+          "comparison-table",
+          "related",
+          "cta"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "type": "equipe",
+      "slug": "outil-pmo",
+      "iteration": 1,
+      "outcome": "PASS_FIRST_TRY",
+      "summary": {
+        "sections": 18,
+        "types": [
+          "hero",
+          "press-quotes",
+          "testimonials",
+          "stats",
+          "intro",
+          "feature-split",
+          "comparison-table",
+          "customer-testimonials",
           "cta"
         ]
       },

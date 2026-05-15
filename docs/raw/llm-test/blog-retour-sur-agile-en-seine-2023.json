@@ -1,0 +1,755 @@
+{
+  "type": "blog",
+  "slug": "retour-sur-agile-en-seine-2023",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Retour sur Agile en Seine 2023",
+      "h1": "Retour sur Agile en Seine 2023",
+      "description": "Retour d'expérience et take-aways de l'édition 2023 d'Agile en Seine : keynote Julia de Funès, REX RATP, PMU, Renault, La Poste/Thiga et ENGIE sur le LPM, les OKR et l'agilité à l'échelle.",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "22/9/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "22/9/2023",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da8943270feabd66ddd23_AES-min%20(1).jpg",
+        "alt": "Agile en Seine 2023"
+      }
+    },
+    "toc": [
+      {
+        "label": "Keynote d'ouverture Julia de Funès sur le thème \"sens et responsabilité en temps de crise\"",
+        "href": "#keynote-douverture-julia-de-funes-sur-le-theme-sens-et-responsabilite-en-temps-de-crise"
+      },
+      {
+        "label": "Transformation agile : choisissez vos combats grâce aux OKR (REX RATP)",
+        "href": "#transformation-agile-choisissez-vos-combats-grace-aux-okr-rex-ratp"
+      },
+      {
+        "label": "Le PMU raconte son (long) chemin vers la Tech Company !",
+        "href": "#le-pmu-raconte-son-long-chemin-vers-la-tech-company"
+      },
+      {
+        "label": "Le Lean Portfolio Agile au sein du Groupe Renault",
+        "href": "#le-lean-portfolio-agile-au-sein-du-groupe-renault"
+      },
+      {
+        "label": "La Poste / Thiga : Le Product Portfolio Management au-delà du Produit Numérique",
+        "href": "#la-poste-thiga-le-product-portfolio-management-au-dela-du-produit-numerique"
+      },
+      {
+        "label": "Deux exemples d'implémentation LPM au sein d'ENGIE",
+        "href": "#deux-exemples-dimplementation-lpm-au-sein-dengie"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>Merci à toute l'équipe <a href=\"https://www.linkedin.com/company/agile-en-seine/\">Agile en Seine</a> pour l'organisation : Amina Bourguiba, Franck Beulé, Farida Mellouk, Arnault Etouman, Caroline Castillo, Soun Banh, Couthaïer Farfra, Chrystelle Cogneville, Alain Sallon, Janro Pons, Mélina Cowsy, Badr Zeroual et un merci spécial à 🙏 <a href=\"https://www.linkedin.com/in/ACoAAAUinb0ByhtaIDmkR6yoTsWv1lFPacEnu2s\">Couthaïer FARFRA 🙏</a> pour avoir rendu possible notre participation au nom des Pro de la Transfo / CIO Révolution.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>7e édition, 940 participants, 125 conférenciers !</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/651151bbecd71a70965e1873_aes23-min.jpg",
+        "alt": "Agile en seine",
+        "caption": "Crédit photo Equipe orga AES"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On y a beaucoup entendu parler de business agility, Lean portfolio management, OKR, agilité à l'échelle, d'approche produit à l'échelle, des framework, de SaFe bien sur... sur toutes les lèvres, en bien ou en mal… ^^<br/>Bref des supers retours d'expériences pour les #Pro2latransfo.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>4 thématiques étaient au programme :<br/><strong>• SCALE :</strong> autour de la transformation à l'échelle.<br/><strong>• THINK :</strong> vers de nouvelles idées !<br/><strong>• PRODUCT :</strong> pour continuer à faire vivre et évoluer l'essentiel.<br/><strong>• BEYOND-IT :</strong> pour considérer les secteurs d'activités non IT où l'agilité s'invite.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Voici notre sélection (forcément subjective) de \"take away\" des conférences auxquelles on a pu assister pour la communauté #Pro2latransfo d'AirSaas et le Podcast CIO Révolution.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Keynote d'ouverture Julia de Funès sur le thème \"sens et responsabilité en temps de crise\"",
+        "id": "keynote-douverture-julia-de-funes-sur-le-theme-sens-et-responsabilite-en-temps-de-crise"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da20862ecda20374eb461_JDF1-min%20(1).jpeg",
+        "alt": "Julia de Funès sur le thème \"sens et responsabilité en temps de crise\"",
+        "caption": "Julia de Funès #AES23 sur le thème \"sens et responsabilité en temps de crise\""
+      },
+      {
+        "type": "quote",
+        "text": "Il y a un amalgame entre confiance et transparence, au contraire la confiance s'oppose à la transparence, registre de la connaissance"
+      },
+      {
+        "type": "quote",
+        "text": "La confiance est rentable !"
+      },
+      {
+        "type": "quote",
+        "text": "Avoir une « Posture du manager » est une antidote au charisme"
+      },
+      {
+        "type": "quote",
+        "text": "On est réhaussé par la confiance reçue"
+      },
+      {
+        "type": "quote",
+        "text": "Process ? Le poison est dans la dose ! Attention au surdosage procédural"
+      },
+      {
+        "type": "quote",
+        "text": "Les entreprises se sont engouffrées dans le bien-être avec des « gadgets bonheuristes » bonbon, baby-foot, … mais ça ne fonctionne pas !"
+      },
+      {
+        "type": "quote",
+        "text": "La bienveillance : il n'y a rien de plus violent que de ne pas se confronter avec les autres (à ne pas confondre avec le conflit)."
+      },
+      {
+        "type": "quote",
+        "text": "Le travail n'est pas une finalité, mais un moyen, car c'est toujours autre chose qui justifie le travail. Tout ce qui a un prix n'est pas une valeur morale."
+      },
+      {
+        "type": "quote",
+        "text": "La peur est signe désormais de maturité"
+      },
+      {
+        "type": "quote",
+        "text": "Posture/impostures du manager = antidote au charisme"
+      },
+      {
+        "type": "quote",
+        "text": "Leadership est une histoire d'authenticité plus que de technique"
+      },
+      {
+        "type": "quote",
+        "text": "La valeur clé c'est le courage"
+      },
+      {
+        "type": "quote",
+        "text": "Il est important d'avoir un bon équilibrage des processus. Il faut bien sûr des processus mais il faut éviter le surdosage et de mettre en œuvre des processus dans des domaines où ils n'apportent pas de valeur (par exemple le bien être procéduré ?)."
+      },
+      {
+        "type": "quote",
+        "text": "Parfois il faut aussi savoir prendre des risques (Intelligence d'action au sens d'Aristote)."
+      },
+      {
+        "type": "quote",
+        "text": "Il faut aussi bien sûr donner du sens dans une entreprise. La technique n'étant que le moyen."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Transformation agile : choisissez vos combats grâce aux OKR (REX RATP)",
+        "id": "transformation-agile-choisissez-vos-combats-grace-aux-okr-rex-ratp"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Anne Gabrillagues (coach) et Florence Lyon (Dir. Transfo) ont racontées les coulisses de leur transformation... dans un contexte où l'équipe croule sous les sollicitations directes et indirectes !</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da471e3c770cfd04a8919_flyon-ratp-min.jpg",
+        "alt": "Florence Lyon (Dir. Transfo) et Anne Gabrillagues (Coach Agile)",
+        "caption": "Florence Lyon (Dir. Transfo) et Anne Gabrillagues (Coach Agile)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'essentiel de leur REX : prioriser et piloter c'est la clé !",
+        "id": "lessentiel-de-leur-rex-prioriser-et-piloter-cest-la-cle"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da343163554f2ec69a71a_ratp-saison1-min.jpg",
+        "alt": "REX RATP - saison 1"
+      },
+      {
+        "type": "quote",
+        "text": "Notre manifeste de la transfo, co écrit avec les sponsors, a servi de boussole"
+      },
+      {
+        "type": "quote",
+        "text": "Nous avons mené un travail de fond sur la notion de responsabilité vs culture du prestataire externe"
+      },
+      {
+        "type": "quote",
+        "text": "Il ne faut pas oublier que les activités de transfo ça vient en plus du travail des équipes."
+      },
+      {
+        "type": "quote",
+        "text": "Notre but a été de trouver le bon degré de process pour sécuriser avec un cadre et libérer."
+      },
+      {
+        "type": "quote",
+        "text": "Prioriser par la valeur c'est la clé !"
+      },
+      {
+        "type": "quote",
+        "text": "Parmi les apprentissages nous nous sommes heurtés au manque de données que nous n'avions pas assez pris en compte. Nous avons développé l'obsession de la mesure régulière ^^"
+      },
+      {
+        "type": "quote",
+        "text": "Trop d'outils tue l'outil, les coachs agiles ont toujours plein d'outils !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Le PMU raconte son (long) chemin vers la Tech Company !",
+        "id": "le-pmu-raconte-son-long-chemin-vers-la-tech-company"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da51ebd3898282ed9bf29_pmu%20-%20copie-min.jpg",
+        "alt": "Nelson Dufossé, Release Train Engineer PMU",
+        "caption": "Nelson Dufossé, Release Train Engineer"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Alors que beaucoup ne voient que le tiercé et les bars PMU... la face cachée et les exigences vis-à-vis du SI sont colossales ! 2000 transactions/seconde, un recalcul des cotes toutes les 5 secondes, des MEPs tous les jours… une DSI de 400 personnes sur les 1200 collaborateurs.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Nelson Dufossé, Release Train Engineer, a présenté un focus sur les 4 dernières années... la vie d'une Tech Company, sa multitude d'ambitions en parallèle (Recrutement, Structuration du management, migration AWS, création de nouveaux produits, refonte des hardwares…) et comment ils s'y prennent pour le rendre possible avec les trains SAFe.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Depuis 20 ans, toutes les boîtes tech affrontent un peu les mêmes difficultés, réussir à scaler, travailler la robustesse, la qualité, des problèmes de people..."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "L'organisation de l'agilité à l'échelle",
+        "id": "lorganisation-de-lagilite-a-lechelle"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da599b46a6196c3310db8_pmu-orga-agilite-echelle-min.jpg",
+        "alt": "L'organisation de l'agilité à l'échelle au PMU",
+        "caption": "PMU : L'organisation de l'agilité à l'échelle"
+      },
+      {
+        "type": "quote",
+        "text": "Pour lancer l'Agilité à l'échelle on a créé deux trains transverses aux départements avec 125 personnes... 10 à 15 équipes et 7 solutions par train !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Côté obstacles :</strong></p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Hétérogénéité des pratiques",
+          "Pas suffisamment de communautés",
+          "Peu de coopérations"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Leur approche globale repose notamment sur le fait d'intégrer l'inspection à leur culture en s'appuyant sur les \"feedbacks authentiques + tentatives\".</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da5ff34a739a538f30245_pmu-approche%20globale%20-%20copie-min.jpg",
+        "alt": "Innovation au PMU",
+        "caption": "Approche innovation @ PMU"
+      },
+      {
+        "type": "quote",
+        "text": "Il parait que la première étape de la transfo c'est de jeter les gens dans la piscine."
+      },
+      {
+        "type": "quote",
+        "text": "Le PMU a au contraire posé un système d'innovation d'un point de vue tech orga et fonctionnel qui permet de tenter en sécurité, de dérisquer les choix. Un système à base d'essai erreur réajustements..."
+      },
+      {
+        "type": "quote",
+        "text": "Les succès amènent la confiance. La confiance favorise l'autonomie et la transparence. La transparence permet l'alignement"
+      },
+      {
+        "type": "quote",
+        "text": "Aujourd'hui on maîtrise notre delivery de bout en bout de l'idée de démarrage avec le business jusqu'à la mise en prod."
+      },
+      {
+        "type": "quote",
+        "text": "Nous avons transformé le PI planning... notre vrai sujet est de sécuriser les sujets les plus importants !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da6613cd8c053c16df521_quote-pmu.jpg",
+        "alt": "Transfo PMU"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Côté compétences et alignement",
+        "id": "cote-competences-et-alignement"
+      },
+      {
+        "type": "quote",
+        "text": "Dès lors que nous appartenons à un système, il faut un minimum d'alignement pour réellement progresser"
+      },
+      {
+        "type": "quote",
+        "text": "La formation est intégrée au plan stratégique avec un budget > 100K."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>\"Le PMU a également mis en axe stratégique le maintien des compétences avec notamment la mise en place des communautés.\" Il y a eu la création de 6 communautés : Scrum, Produit, QA, Opes, Back, Front.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "En rapprochant les gens... on va voir que naturellement tous les problèmes vont se simplifier... quand il y a par exemple des problèmes de dépendances ça marche mieux parce que les gens se parlent !"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À noter que contribuer fait partie des objectifs individuels et que les communautés représentent environ 20 heures / mois dans les emplois du temps.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Un process de recrutement plus long",
+        "id": "un-process-de-recrutement-plus-long"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le PMU a des objectifs de recrutement ambitieux pour la DOSI de l'ordre de 70 personnes.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Côté recrutement on s'est rendus compte que la compétence était majoritairement externe. La bonne solution c'est la mixité conseil externe / équipe interne."
+      },
+      {
+        "type": "quote",
+        "text": "Et si on veut être une tech company, il nous faut les meilleurs ! À contre-pied des processus rapides... Pour avoir les meilleurs, on leur fait passer un process assez long avec un exercice de code à faire chez eux, une revue par quelqu'un de chez nous, des entretiens avec les RH et les opérationnels. Tout ça pour évaluer si au-delà d'être un bon développeur il sera un bon élément dans un système. Car aujourd'hui les hard skills sans soft ça ne sert à rien."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>(Ils évaluent à 10 h le temps de recrutement.)</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Perspectives",
+        "id": "perspectives"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650da6fe0c6336fb3c5ab160_pmu-tech%20-%20copie-min.jpg",
+        "alt": "Le long chemin de transfo du PMU",
+        "caption": "Le long chemin de transfo du PMU"
+      },
+      {
+        "type": "quote",
+        "text": "Aujourd'hui on a démarré un département produit, un département data pour mettre la data au centre, rallier l'IT et le produit pour qu'on arrive à prendre des décisions au niveau CODIR sur des thèmes vraiment stratégiques et pas partir dans tous les sens. Il y a un vrai besoin à ce niveau là on va se renforcer sur la partie SECOPS et autres."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Le Lean Portfolio Agile au sein du Groupe Renault",
+        "id": "le-lean-portfolio-agile-au-sein-du-groupe-renault"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les équipes IS/IT & digital sont revenues sur la mise en place du Lean Portfolio Management (inspiré de SAFe).</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ils ont partagé leur gouvernance du Portfolio Digital vue comme un levier de renforcement du plan stratégique du groupe.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>aka \"La gestion de la transversalité dans un portfolio d'entreprise\".</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650dafe28b937cae79ef4f2d_renault-digital-min.jpg",
+        "alt": "Esra Soner - Aurélie Sale et Mehdi Balza",
+        "caption": "Esra Soner - Aurelie Sale et Mehdi Balza"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les équipes de déploiement composées du Performance Office, du Pôle Agile, des PMO et des Entreprise Architectes déploient une gouvernance et des outils qui maximisent les opportunités de création de valeur et de croissance depuis les OKR du Groupe jusqu'au niveau opérationnel.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Le LPM Renault répond aux enjeux du pilotage transverse aux Value Stream. Notamment comment il aide les Executives et les Directeurs à s'aligner sur la gestion des programmes transverses, au calcul de la valeur et au pilotage budgétaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Aidé par un déploiement des OKR au niveau du groupe, le déploiement du LPM des produits vers toute la stratégie est en cours.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Vers une autre gouvernance ?",
+        "id": "vers-une-autre-gouvernance"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db196e1ce5d43209b0869_change-gov.jpg",
+        "alt": "gouvernance flow",
+        "caption": "Vers une autre gouvernance"
+      },
+      {
+        "type": "quote",
+        "text": "Côté gouvernance le dispositif était basé sur une gouvernance pilotée par métiers"
+      },
+      {
+        "type": "quote",
+        "text": "Les équipes agiles étaient tellement orientées métier… qu'il était difficile de connaître la contribution strat globale entreprise."
+      },
+      {
+        "type": "quote",
+        "text": "Le challenge : Une nouvelle gouvernance pour apporter de la transversalité."
+      },
+      {
+        "type": "quote",
+        "text": "La décision a été prise de mettre en place une gouvernance drivée par les chaînes de valeur du groupe. Une digital value stream"
+      },
+      {
+        "type": "quote",
+        "text": "Cette gouvernance nous a permis de gérer cette complexité du métier"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db2b0d485fa4d7c70ac91_gouv%20flow-min.png",
+        "alt": "Gouvernance flow Renault",
+        "caption": "Le flux de gouvernance"
+      },
+      {
+        "type": "quote",
+        "text": "C'est la gouvernance authority qui est owner sur le quoi et le comment"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db312e1ce5d43209c0d8b_lifecycle.jpg",
+        "alt": "Cycle de vie des initiatives et de la gouvernance",
+        "caption": "Cycle de vie des initiatives et de la gouvernance"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "\"Value driven\" : une matrice de priorisation",
+        "id": "value-driven-une-matrice-de-priorisation"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db44f37bce8e3f1bade5e_valuedriven.jpg",
+        "alt": "Matrice value driven",
+        "caption": "Les critères de priorisation du LPM"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Les différents critères de la matrice ont été présentés :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Critères financiers",
+          "Critères / Valeur utilisateur (basée sur le framework Heart de Google)",
+          "Alignement stratégique",
+          "Continuité business",
+          "Compliance",
+          "Business value, continuity..."
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db36a364a87059cbdc75d_IMG_9131%20-%20Grande-min.jpeg",
+        "alt": "cross value stream strategic portfolio",
+        "caption": "Aurélie Sale"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "La Poste / Thiga : Le Product Portfolio Management au-delà du Produit Numérique",
+        "id": "la-poste-thiga-le-product-portfolio-management-au-dela-du-produit-numerique"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Renaud CHEVALIER, Conseil en Organisation Produit Thiga / Groupe La Poste, a revalorisé la notion d'architecture d'entreprise plus précisément de Business architecture !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour lui le Product Management a dépassé les frontières des pure players du digital.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Il repense nos approches de gestion de portefeuille. Explorez les défis spécifiques auxquels les entreprises sont confrontées lorsqu'elles doivent développer de nouvelles capacités et faire évoluer leurs chaînes de valeur. Découvrez comment la Business Architecture et la conduite du changement jouent un rôle essentiel dans la gestion du portefeuille de produits, en pilotant des initiatives stratégiques bien au-delà de l'IT.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Cependant il souligne que malgré le passage à l'échelle, deux modes de fonctionnement continuent de cohabiter autour du produit marketing. Un géré en mode projet \"côté métier\" et un géré en mode produit \"côté IT\".</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Il a présenté une représentation de ce que l'entreprise doit être capable de faire pour rendre un service complexe :</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db796750792506e1b8d8c_IMG_9150.jpg",
+        "alt": "Exemple de flux sur un produit marketing complexe",
+        "caption": "Exemple de flux sur un produit marketing complexe (Renaud CHEVALIER / Crédit Thiga)"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour lui :</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Le Product Management passe à l'échelle"
+      },
+      {
+        "type": "quote",
+        "text": "Le mode Produit se généralise sur les produits Techs"
+      },
+      {
+        "type": "quote",
+        "text": "Attention au mot « produit » et à l'application de pratiques au mauvais niveau"
+      },
+      {
+        "type": "quote",
+        "text": "Appliqué sur le Produit Marketing complexe, le Mode Produit facilite l'exécution de la stratégie"
+      },
+      {
+        "type": "quote",
+        "text": "5 enablers sont nécessaires dont la Business Architecture"
+      },
+      {
+        "type": "quote",
+        "text": "Le Business Capability Management permet de sortir de l'IT en rendant le Mode Produit holistique"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les 5 enablers sont :",
+        "id": "les-5-enablers-sont"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La business architecture",
+          "Le business train tribe > embarquer le flux de valeur open",
+          "Le combined portfolio > aka 1 seul budget",
+          "La team topologie > plateformisation",
+          "L'entreprise portfolio > cohérence stratégique à gérer un portfolio de portfolio, lean startup cycle"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Et en résumé, la business architecture c'est...",
+        "id": "et-en-resume-la-business-architecture-cest"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650db821ee68292f2e2f4a0e_Business%20Architecture-min.png",
+        "alt": "Business architecture",
+        "caption": "La business architecture (Crédit Thiga)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Deux exemples d'implémentation LPM au sein d'ENGIE",
+        "id": "deux-exemples-dimplementation-lpm-au-sein-dengie"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les retours d'expériences sur deux entités d'ENGIE ont été animés par Sophie Montet, Coach Agile au sein de l'Agile Center, la practice au service du Groupe ENGIE et Laurence Bago, Responsable Transformation Agile qui a notamment pour mission l'implémentation du LPM et l'animation du train SAFe.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>L'enjeu clé présenté : renforcer la capacité à livrer plus de valeur.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En effet au sein du groupe ENGIE, de plus en plus d'entités souhaitent mettre en place du LPM pour optimiser les investissements, absorber les aléas et en tirer le meilleur parti grâce au delivery agile.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>En creux comment contribuer à accélérer l'adoption du LPM ? Laurence et Sophie Montet ont présenté un retour d'expérience complet sur les étapes de mise en place, les difficultés rencontrées et les résultats à date.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Une des conférences les plus enrichissantes !</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Engie Pro en 2020... avant l'agilité",
+        "id": "engie-pro-en-2020avant-lagilite"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Trop de sujets en parallèle et non priorisés",
+          "Des ambitions au-delà du budget disponible",
+          "Un manque de partage de la vision roadmap",
+          "Des équipes surchargées et non alignées",
+          "Peu de projets délivrés..."
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650dc89746bdb8bb6ab39264_xls%20engie-min.png",
+        "alt": "Le portfolio Excel Engie avant 2020",
+        "caption": "Avant ^^"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Une adoption progressive au sein du groupe",
+        "id": "une-adoption-progressive-au-sein-du-groupe"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Les entités choisissent la façon de passer à l'échelle (ou non)",
+          "Aujourd'hui SAFe pour 6 entités",
+          "Modèle Spotify pour 1 entité",
+          "Modèle hybride pour 1 entité",
+          "<strong>8 trains SAFe lancés en 4 ans</strong> dans le groupe",
+          "Le LACE (Lean-Agile Center of Excellence) en support",
+          "Activateur de communautés de pratique",
+          "Plus de 45 sessions de formations certifiantes Leading SAFe",
+          "Accompagnement des transformations agiles (trains, LPM, ateliers spécifiques comme pitch, MVP, priorisation ou encore chaînes de valeur)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Vers un autre fonctionnement articulant plusieurs dispositifs : OKR / Valeur / LPM et PI",
+        "id": "vers-un-autre-fonctionnement-articulant-plusieurs-dispositifs-okr-valeur-lpm-et-pi"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/650dcea6ba4cdc4285daa0c7_Engie-LPMOKREPIC1600-min.jpg",
+        "alt": "OKR LPM PI EPIC",
+        "caption": "L'EPIC au centre et le Lean Portfolio Management en amont"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Priorisation : comment fait-on quand on a que \"100 patates\" ?",
+        "id": "priorisation-comment-fait-on-quand-on-a-que-100-patates"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Plus de 45 projets dans l'entité, équipe surchargée... Le premier truc a été d'aligner tout le monde avec une séance OKR.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Ensuite commencer à mettre en place du LPM avec EPIC et priorisation.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Puis mettre en œuvre des horizons pour être sûr de garder de la capacité pour de l'avenir.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>PI planning : \"on a mis tout le monde dans un train\" !</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Quatre étapes pour contribuer à accélérer l'adoption du LPM dans le Groupe Engie",
+        "id": "quatre-etapes-pour-contribuer-a-accelerer-ladoption-du-lpm-dans-le-groupe-engie"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La première marche à acquérir a été le vocabulaire...</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>La seconde a été la mise en place de rôles et un mindset qui change entre l'IT et le métier.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Troisième point pour tout ce qui est gouvernance > revue strat trim + revue de dotations.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Enfin quatrième étape : l'amélioration continue, travailler sur la valeur mesurée.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La priorisation des initiatives",
+        "id": "la-priorisation-des-initiatives"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Chaque initiative obtient une note. Sur la suite de Fibonacci, sur la valeur.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>1h30 pour faire les notations : 10 min / sujet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>3 min pour pitcher bénéfices et la façon de répondre / contribuer aux axes stratégiques par le porteur.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Bénéfices constatés de l'implémentation du Lean Portfolio Management chez Engie Home Service",
+        "id": "benefices-constates-de-limplementation-du-lean-portfolio-management-chez-engie-home-service"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Connaissance et appropriation des sujets par tous",
+          "Meilleure implication des équipes métiers et business owners",
+          "Meilleur alignement stratégique",
+          "Amélioration du delivery"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les nouveaux défis",
+        "id": "les-nouveaux-defis"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Fluidification du flux / Identification des WIP limits",
+          "Quantifier les bénéfices attendus et mieux mesurer le ROI",
+          "Piloter par les résultats attendus"
+        ]
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

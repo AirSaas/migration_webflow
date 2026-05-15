@@ -1,0 +1,477 @@
+{
+  "type": "blog",
+  "slug": "les-10-erreurs-a-ne-pas-commettre-dans-la-mise-en-place-dun-portefeuille-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Les 10 erreurs à (ne pas) commettre dans la mise en place d'un portefeuille projet ?",
+      "h1": "Les 10 erreurs à (ne pas) commettre dans la mise en place d'un portefeuille projet ?",
+      "description": "Top 10 des erreurs à éviter dans la mise en place d'un portefeuille projet : retours d'expériences de DSI/PMO/DG et experts pragmatiques pour réussir votre transformation.",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647a0f99f251445a8e175f20_TOP10%20error-min.jpg",
+        "alt": "Gestion de Projets"
+      },
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "3/6/2023",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "publishedDate": "3/6/2023"
+    },
+    "toc": [
+      {
+        "label": "10 - Communiquer sur tous les projets à tous, de la même façon !",
+        "href": "#10-communiquer-sur-tous-les-projets-a-tous-de-la-meme-facon"
+      },
+      {
+        "label": "9 - Vous n'avez pas une (vraie) visibilité sur la santé de votre portefeuille",
+        "href": "#9-vous-navez-pas-une-vraie-visibilite-sur-la-sante-de-votre-portefeuille"
+      },
+      {
+        "label": "8 - Choisir Excel pour porter votre transfo.",
+        "href": "#8-choisir-excel-pour-porter-votre-transfo"
+      },
+      {
+        "label": "7 - Ne pas se baser sur votre capacitaire et partir d'un besoin irréaliste",
+        "href": "#7-ne-pas-se-baser-sur-votre-capacitaire-et-partir-dun-besoin-irrealiste"
+      },
+      {
+        "label": "6 - Choisir un outil PPM trop gros\", déconnecté de la GP avec jira, monday, asana ...",
+        "href": "#6-choisir-un-outil-ppm-trop-gros-deconnecte-de-la-gp-avec-jira-monday-asana"
+      },
+      {
+        "label": "5 - Ne pas découper les projets \"obèses\" en projets digestes",
+        "href": "#5-ne-pas-decouper-les-projets-obeses-en-projets-digestes"
+      },
+      {
+        "label": "4 - Permettre aux projets peu prioritaires ou de faible valeur d'entrer et ou de rester dans votre portefeuille",
+        "href": "#4-permettre-aux-projets-peu-prioritaires-ou-de-faible-valeur-dentrer-et-ou-de-rester-dans-votre-portefeuille"
+      },
+      {
+        "label": "3 - Envoyer des reporting projets de forme et fréquences aléatoires",
+        "href": "#3-envoyer-des-reporting-projets-de-forme-et-frequences-aleatoires"
+      },
+      {
+        "label": "2 - Négliger le pilotage par les jalons et décisions",
+        "href": "#2-negliger-le-pilotage-par-les-jalons-et-decisions"
+      },
+      {
+        "label": "1 - Ne pas mettre à jour l'OS de votre entreprise : sa gouvernance et ses rituels !",
+        "href": "#1-ne-pas-mettre-a-jour-los-de-votre-entreprise-sa-gouvernance-et-ses-rituels"
+      },
+      {
+        "label": "Conclusion",
+        "href": "#conclusion"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647a113d3334542e6a69a174_ppm-10error-min.jpg",
+        "alt": "Sélection de 10 erreurs du PPM",
+        "caption": "Chef de projet / DG /DSI /PMO réalisant qu'il a coché les 10 erreurs du TOP 10 d'AirSaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Parfois on maîtrise \"the\" dernier framework agile ultra sophistiqué à la mode, mais, <strong>les fondamentaux les plus basiques</strong> de la gestion de portefeuille projet, du management, de la stratégie, ou des relations humaines <strong>sont négligés.</strong> Des erreurs de débutants pourraient être évitées avec une <strong>checklist</strong> à parcourir avant votre décollage !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Absence de processus de sélection des projets et de priorisation, méprise sur le concept, non-sanction des hors-jeu, ratés de communications, négligence dans le suivi et le contrôle...."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'après vous, <strong>quelle sera l'erreur la plus préjudiciable</strong> lorsqu'on se lance dans la mise en place d'une démarche de gestion de portefeuille projets ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous allez être surpris !"
+      },
+      {
+        "type": "paragraph",
+        "html": "On vous propose de le découvrir avec ce \"top 10\" qui<strong> avance des pistes de réflexions et retours d'expériences de DSI/PMO/DG et experts pragmatiques du domaine. Objectif ne pas tomber dans (tous) les pièges de la transfo d'organisation.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pratique : Les erreurs sont classées des plus mineures et acceptables 10, 9, 8 aux plus bloquantes et néfastes (1, 2, 3) pour la transfo. de votre organisation..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous vous reconnaissez certains signaux faibles, symptômes ou syndromes dans plus de 5 erreurs, consultez-nous ...on a des services d'accompagnement qui vous éviteront le \"faux départ\" ^^ et même un <a href=\"/gestion-de-projet/portfolio-project-management-le-top-10-des-bonnes-pratiques\">guide des 10 bonnes pratiques </a>!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "10 - Communiquer sur tous les projets à tous, de la même façon !",
+        "id": "10-communiquer-sur-tous-les-projets-a-tous-de-la-meme-facon"
+      },
+      {
+        "type": "quote",
+        "text": "🎙\"Un point indispensable dans la transfo, ce sont les aspects de communication. On ne communique jamais assez. En tout cas de façon assez ciblée et efficace. La transformation c'est quelque chose qui peut faire peur aux personnes. Si on ne communique pas, les projets peuvent être perçus comme un risque.\"",
+        "author": "Alexia Schmitt",
+        "caption": "Directrice de la Transformation et des Systèmes d'Information Centrimex invitée de l'épisode 22 du Podcast CIO Révolution by AirSaas."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les parties prenantes doivent être correctement informées et tenues au courant de l'avancement des projets. Des réunions régulières, des rapports de suivi et des outils de communication appropriés peuvent clairement contribuer à améliorer la <a href=\"https://www.airsaas.io/fr/gestion-de-projet/plan-de-communication-projet\">communication</a>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Problème : Teams, Email, Coproj, Copils, Codir...<strong>trop d'instances, trop d'audiences</strong>, trop de canaux et outils, vous avez oublié ou négligé une des cibles clés dans les parties prenantes. <strong>Personne n'aime découvrir qu'un projet se tient sans lui !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui <strong>ça prend du temps de bien communiquer,</strong> et de le faire en continu...c'est pour ça qu'on suggère de soulager les chefs de projet, d'automatiser une partie non stratégique de ce processus avec une plateforme. Oubliez le facteur humain ! Faites-vous aider par les plateformes, on est au XXIe siècle !"
+      },
+      {
+        "type": "paragraph",
+        "html": "On vous remet en tête juste ci-dessous la \"<strong>stake holder</strong> <strong>map</strong>\", <strong>matrice des parties prenantes</strong>, qui permet une première approche de ce processus. Une <strong>base de réflexion</strong> pour formaliser votre <strong>stratégie</strong> et n'oublier aucunes parties prenantes, car <strong>il y en a toujours plus qu'on ne le pense !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bonus : À partir de cette cartographie, établissez le \"pourquoi\" <strong>clair</strong> de chacun des acteurs pourra contribuer à éviter \"la cata\" de la com interne. ^^"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea63e4dc7075f6681ede9d_15acb6f3-77e2-429c-b54a-459a7ef33c96-min.png",
+        "alt": "stake holder map, matrice des parties prenantes",
+        "caption": "Matrice impact parties prenantes pour chefs de projet"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "9 - Vous n'avez pas une (vraie) visibilité sur la santé de votre portefeuille",
+        "id": "9-vous-navez-pas-une-vraie-visibilite-sur-la-sante-de-votre-portefeuille"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Personne n'aime apporter une mauvaise nouvelle sur la santé d'un programme de projets</strong>, d'un chantier particulier..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Outre le reporting, l'enjeu est dans la collecte de ces infos. On cherchera donc à faciliter la libération de la parole des personnes impliquées pour qu'elles communiquent <strong>en transparence et en continu</strong>, pour qu'elles aient envie de <strong>rendre lisible l'état de santé des projets</strong> avec les <strong>informations</strong> clés à connaître derrière les différents changements de statuts..."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647adcf75b10f70a2b372df0_sante-projet-min.png",
+        "alt": "Santé projet",
+        "caption": "Portfolio projets AirSaas et vue météo - Et si vous pouviez lire la dernière mise à jour de l'état de santé depuis votre portfolio projet ?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "8 - Choisir Excel pour porter votre transfo.",
+        "id": "8-choisir-excel-pour-porter-votre-transfo"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647adac83530d3a8d4fdb68b_excel-is-not-a-database-bart-simpson-writing-on-a-blackboard.jpg",
+        "alt": "Excel n'est pas un PPM ^^"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Parler de stratégie devant un tableur</strong> ? Vraiment ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Si, vous avez bien lu ! Certains <a href=\"https://www.airsaas.io/fr/gestion-de-projet/metier-pmo\">PMO</a>/DG/DSI continuent à digitaliser leurs fiches projets et portefeuilles de projets stratégiques avec un tableur. Où l'<strong>art de perdre son audience sa productivité</strong> et ses priorités au sein de plusieurs projets de transfos."
+      },
+      {
+        "type": "paragraph",
+        "html": "On va se le redire cher lecteurs :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Excel est <strong>vulnérable aux fraudes et aux erreurs humaines</strong>",
+          "Excel <strong>ne favorise pas</strong> le travail<strong> collaboratif</strong>",
+          "Excel est <strong>limitant dans la prise de décisions</strong>",
+          "Excel est <strong>inadapté à la continuité du business</strong>",
+          "Excel est assez <strong>peu compréhensif</strong> pour la personne qui n'a pas créé le fichier..."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Le portefeuille de projets sert (aussi) à valoriser votre activité et à convaincre votre Codir/comex, vos investisseurs ! Car oui, la notion de marketing de la DSI ça compte."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "7 - Ne pas se baser sur votre capacitaire et partir d'un besoin irréaliste",
+        "id": "7-ne-pas-se-baser-sur-votre-capacitaire-et-partir-dun-besoin-irrealiste"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647add835e30d5b8923a3b30_30projets-min.png",
+        "alt": "Capacitaire projets",
+        "caption": "Attention, Chef de projet et PMO en plein entretien de débrief sur le capacitaire"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'importance de développer une <strong>culture du make it simple et du MVP !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Appelons la culture agile, lean startup, product company, méthodes efficaces..peu importe au fond!"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu est de ne pas \"sur spécifier\", sur promettre, sur développer...pour <strong>ne pas surconsommer vos ressources humaines </strong>en premier lieu."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais au contraire d'apprendre à se satisfaire de choses imparfaites, de rester focalisé sur la valeur et les clients de <strong>ne pas créer de \"sur complexité\" artificielle, ce fameux gras des orgas !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bref à l'inverse de la prolifération de projets... prônons une forme de sobriété dans la transfo !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le fait de dépolluer vos chefs de projets avec moins de chantiers toxiques et plus de coopérations vous facilitera la vie et contribuera à la <strong>continuité de l'équipe, facteur clé en agilité.</strong>"
+      },
+      {
+        "type": "quote",
+        "text": "Ayez un dialogue avec votre DG sur le capacitaire, levez ce tabou.",
+        "caption": "Retour d'expérience d'un DSI dans le cadre du podcast CIO Révolution by AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "6 - Choisir un outil PPM trop gros\", déconnecté de la GP avec jira, monday, asana ...",
+        "id": "6-choisir-un-outil-ppm-trop-gros-deconnecte-de-la-gp-avec-jira-monday-asana"
+      },
+      {
+        "type": "paragraph",
+        "html": "Bravo, vos équipes delivery sont super efficaces sur Jira ? 👏"
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais vous avez du mal à suivre l'avancée des projets ? Et il arrive que le périmètre ne soit pas bien compris ? Que certains projets dérapent ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour dépasser ce problème d'alignement \"Gouvernance projet / Delivery projet\"...nous vous conseillons de connecter vos outils."
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple, AirSaas est intégré avec Jira. Cadrez le projet sur AirSaas, et une fois validé, connectez-le à votre projet sur cette plateforme."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les jalons seront synchronisés et l'avancement sera remonté directement sur AirSaas.<br/>Chaque audience bénéficiera d'une vue adaptée. Le codir et les opérationnels partageront une vision."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sans tous les citer voici quelques-uns de ces logiciels phares sur lesquels travaillent vos chefs de projets et auxquels vous pourrez vous connecter avec AirSaas : Gestion de projet et tâches : Wrike, Jira, ..."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647addf37b33b4da68093725_hub-gpp.png",
+        "alt": "AirSaas connecté avec Wrike, Asana, Jira, Monday, Teams",
+        "caption": "Une autre stratégie de gestion de projet et pilotage de transfo pour vos chefs de projet / PMO / Codir est possible"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "5 - Ne pas découper les projets \"obèses\" en projets digestes",
+        "id": "5-ne-pas-decouper-les-projets-obeses-en-projets-digestes"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647adf11d384367f998b87fd_jalons-min-min.jpg",
+        "alt": "pilotage par les jalons",
+        "caption": "Jalons - l'art de la gestion de projet moderne pour votre portefeuille projets"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les très grands projets sont complexes, difficiles à gérer. Les gestionnaires de portefeuille doivent <strong>diviser une grande initiative en un ensemble de petits sous-projets</strong>. Mettre en place des équipes par petit projet, leur donner plus de clarté, d'autonomie, de confort fonctionne mieux que de gérer un grand projet complexe avec des membres d'équipe débordés."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Inversement, v</strong>ous ne voulez pas exécuter trop de projets et beaucoup d'entre eux restent incomplets dans le portefeuille. Cela entraîne non seulement le portefeuille en termes de coûts, de ressources et de délais, mais également des compromis sur la valeur fournie à l'entreprise. La dernière chose que vous voulez avoir des projets dans vos portefeuilles qui deviennent hors de propos."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour sortir de cette façon de faire, adoptez un découpage fin et une <strong>priorisation au trimestre.</strong> En vous calant sur les trimestres vous inscrivez les projets dans une temporalité d'entreprise, ce qui donnera du rythme et facilitera l'engagement."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "4 - Permettre aux projets peu prioritaires ou de faible valeur d'entrer et ou de rester dans votre portefeuille",
+        "id": "4-permettre-aux-projets-peu-prioritaires-ou-de-faible-valeur-dentrer-et-ou-de-rester-dans-votre-portefeuille"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un portefeuille projet sert à y voir plus clair et à opérer des choix tactiques !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Généralement, dans les grandes organisations, les projets sont sélectionnés et financés par des sponsors de projet et à leur tour gérés dans le cadre d'un <a href=\"http://www.airsaas.io/fr/gestion-de-projet/gestion-de-portefeuille-projet-pme\">portefeuille de projets</a>. Une fois qu'ils sont pris en charge pour la planification et l'exécution, il existe plusieurs projets en cours dans un portefeuille. C'est une <strong>erreur typique que nous rencontrons chez AirSaas sur la hiérarchisation des projets au sein d'un portefeuille</strong> : il n'y a pas de priorités spécifiques assignées aux projets ! Les équipes continuent de travailler sur des projets moyens alors que des <strong>projets cruciaux sont repoussés et commencent à dérailler</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Savoir arrêter un projet au bon moment !</strong> Tout un art pour les DSI, chefs de projets et PMO."
+      },
+      {
+        "type": "paragraph",
+        "html": "Autre erreur fréquente dans ce même registre, lorsque la<strong> direction ajoute de nouveaux projets au portefeuille sans examen initial. </strong>Le fameux \"fait du prince\", autrement appelée l'effet \"décision du patron\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui, <strong>ce mode \"autoritaire\" a encore de beaux jours devant lui</strong>...parfois les processus les plus raffinés sont contournés !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans ces cas-là...le <strong>courage managérial est de mise </strong>et si aucune raison centrée sur la valeur n'est réellement avancée...changez d'entreprise !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "3 - Envoyer des reporting projets de forme et fréquences aléatoires",
+        "id": "3-envoyer-des-reporting-projets-de-forme-et-frequences-aleatoires"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une des erreurs les plus courantes de la fonction de PMO/Chef de projet. Le côté <strong>hétérogène du point de reporting, de ses contenus, à sa forme, en passant par sa fréquence.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Perdre 4 jours par mois à faire un <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\">reporting</a> pour le Copil dont la forme change à chaque fois ET à une fréquence + ou - aléatoire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Du coup, les décideurs :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Ont du <strong>mal à suivre l'état d'avancement,</strong> la fameuse question mais on en est ou ?",
+          "<strong>Passent plus de temps à essayer de comprendre </strong>les slides du ppt que <strong>le fond des sujets</strong> ...",
+          "Ne les lisent pas .."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Facilitez la prise de décision </strong>! Un tout petit changement plein de bon sens, qui à de grands impacts. Avec AirSaas vous n'avez <strong>plus d'excuse pour ne pas envoyer un bon et beau rapport flash</strong>."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62bdfca88290d29985904cb5_report-flash.png",
+        "alt": "Rapport Flash",
+        "caption": "Rapport Flash AirSaas-tout pour facilitez la prise de décisions"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2 - Négliger le pilotage par les jalons et décisions",
+        "id": "2-negliger-le-pilotage-par-les-jalons-et-decisions"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un peu comme dans une réunion de copropriété, <strong>votre comité de pilotage mérite un protocole décisionnel clair !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pourtant, il est clairement <strong>difficile d'avoir une vision d'ensemble des décisions à prendre et du contexte</strong> synthétique de celles-ci.<br/>Et à postériori sans contenu, il est difficile d'avoir l'historique des décisions importantes (prises ou non ) sur tel ou tel projet. Difficile pour comprendre comment on en est arrivé là ..."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'usage d'une <strong>plateforme vous simplifiera la gouvernance</strong> (listing des décisions à prendre, vue CoPil, etc.). Vous ne serez plus pris de court parce que vous n'avez pas la bonne information."
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui, cela paraît évident...mais <strong>parfois, les fondamentaux sont oubliés.</strong> Se focaliser sur les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/jalon-projet\">jalons</a>, les décisions et points d'attentions versus un micromanagement à la tâche mettra le <strong>juste niveau de hauteur dans votre pilotage</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les décisions tout le monde en parle... Mais elles sont ou ? --> Et si vous aviez accès à toutes les décisions à prendre et historique clé pendant le copil ? \"Un kanban des décisions ça change la vie d'une entreprise\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "1 - Ne pas mettre à jour l'OS de votre entreprise : sa gouvernance et ses rituels !",
+        "id": "1-ne-pas-mettre-a-jour-los-de-votre-entreprise-sa-gouvernance-et-ses-rituels"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/647ae0ec24979a4ed79e0906_update-min.jpg",
+        "alt": "Gouvernance et pilotage transfo",
+        "caption": "Update de l'OS de votre entreprise en cours"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui, c'est là où il y <strong>le plus de gains potentiels </strong>!"
+      },
+      {
+        "type": "paragraph",
+        "html": "Autour de l'outil, <strong>investissez dans la réflexion sur les thématiques clés de la gouvernance</strong> : rituels, rôles, coopération, pilotage par les jalons et décisions, transparence \"by design\", dépassement des silos verticaux et horizontaux, nouveaux rôles du management. Bref sur tous les axes de mise en œuvre d'un nouveau modèle culturel."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et, pour accompagner dans la durée cette nouvelle structuration des rôles, la formation, l'accompagnement et le coaching sont des \"must have.\""
+      },
+      {
+        "type": "paragraph",
+        "html": "Car lorsqu'on pense avoir compris<strong> le concept de PPM</strong> et qu'on évite, pour aller plus vite, un accompagnement, même light, les<strong> risques de méprises</strong> ou de précipitations sont trop nombreux ! Pour n'en citer qu'une, la plus classique.... Penser que l'outil est magique et qu'il fera avancer les choses à lui tout seul !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Premièrement, l'outil PPM n'est qu'un outil (pléonasme !) il ne consiste <strong>pas en une démarche </strong>!"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour bien faire comprendre ce point autour de vous, utilisez la métaphore du couteau (l'outil) et la démarche (La façon de s'en servir pour couper un aliment ou un doigt ! )."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un <strong>outil donc ne peut pas résoudre les problèmes inhérents à l'organisation </strong>tels que des processus de projet peu clairs, une manière floue de formaliser les exigences d'un projet, un management indécis voire absent, l'absence d'évaluation des risques et de planification de la réponse, etc. Vous le savez, la liste des dysfonctionnements peut être longue !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au mieux, l'outil PPM peut être un <strong>excellent catalyseur pour les membres de l'équipe,</strong> pour la gestion de portefeuille de projets, il peut rassembler les parties prenantes du portefeuille de projets, leur permettre de collaborer, apporter plus de transparence avec une <strong>communication automatisée,</strong> fournir des informations sur le portefeuille de projets de manière plus significative, mettre en évidence des indicateurs d'alerte précoce, etc."
+      },
+      {
+        "type": "paragraph",
+        "html": "On souhaite à vous et votre équipe un plein succès dans cette transformation culturelle."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion",
+        "id": "conclusion"
+      },
+      {
+        "type": "paragraph",
+        "html": "On espère que la lecture de cet article et de sa sélection de 10 erreurs vous a intéressés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettre en place un portefeuille projet est une <strong>étape</strong> <strong>critique</strong> pour les entreprises souhaitant se transformer et moderniser leur gouvernance et gestion de projet. Cependant, les erreurs sont normales, on ne fait pas ça tous les jours ! Et rassurez-vous, une fois en place...on ne le refait pas tous les ans !"
+      },
+      {
+        "type": "paragraph",
+        "html": "La mise en place d'un portefeuille projet dans une entreprise est certes un investissement et peut être complexe si certains paramètres sont négligés, et si trop d'erreurs sont commises par les membres de l'équipe. En évitant dès le début ces 10 erreurs, vous pourrez <strong>assurer une mise en place efficace</strong> et réussie de votre nouvelle gouvernance, vers une dynamique plus efficace ! Pour vous aider à déterminer le bon moment pour vous lancer, on vous a préparé un article pour savoir quand implémenter une démarche de portefeuille projets ? Découvrez le retours d'expérience d'une PMO sur ce processus : <a href=\"/gestion-de-projet/le-portefeuille-projets-pour-faire-grandir-les-collaborateurs-et-lorganisation\">Le portefeuille projets pour faire grandir les collaborateurs et l'organisation.</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

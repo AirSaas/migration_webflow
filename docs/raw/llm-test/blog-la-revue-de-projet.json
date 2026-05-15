@@ -1,0 +1,361 @@
+{
+  "type": "blog",
+  "slug": "la-revue-de-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "La revue de projet : un point d'étape pour tirer les leçons de vos erreurs",
+      "h1": "La revue de projet : un point d'étape pour tirer les leçons de vos erreurs",
+      "description": "Découvrez à quoi sert une revue de projet, ses différents types, qui inviter, comment la préparer et nos astuces pour la rendre efficace.",
+      "publishedDate": "8/10/2021",
+      "author": {
+        "name": "Simon Vacher",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3712bd6406519fcf1cc3e_2.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "À quoi sert une revue de projet ? Qu'est-ce qu'une revue de projet ?",
+        "href": "#a-quoi-sert-une-revue-de-projet-quest-ce-quune-revue-de-projet"
+      },
+      {
+        "label": "Quels sont les différents types de revue de projet ?",
+        "href": "#quels-sont-les-differents-types-de-revue-de-projet"
+      },
+      {
+        "label": "À quoi sert une revue de projet ?",
+        "href": "#a-quoi-sert-une-revue-de-projet"
+      },
+      {
+        "label": "Quand devez-vous organiser votre revue de projet ?",
+        "href": "#quand-devez-vous-organiser-votre-revue-de-projet"
+      },
+      {
+        "label": "Qui inviter à la revue de projet ?",
+        "href": "#qui-inviter-a-la-revue-de-projet"
+      },
+      {
+        "label": "Comment faire une bonne revue de projet ?",
+        "href": "#comment-faire-une-bonne-revue-de-projet"
+      },
+      {
+        "label": "Quelques astuces pour une revue de projet efficace",
+        "href": "#quelques-astuces-pour-une-revue-de-projet-efficace"
+      },
+      {
+        "label": "Revue de projet et KPI de gestion de projet",
+        "href": "#revue-de-projet-et-kpi-de-gestion-de-projet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Dans vos processus de suivi de projet, il arrivera que vous passiez des étapes clés (auxquelles vous aurez potentiellement assorti des jalons projets)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est alors recommandé d'organiser des revues projet : des réunions pour impliquer vos collaborateurs, booster la collaboration et apprendre de vos erreurs de <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c837cd73ec2f8efeab7cfd_62ea947e12a1db65655b1059_Projet-timeline-min.jpeg",
+        "alt": "Le calendrier et les jalons pendant une revue de projet",
+        "caption": "Calendrier / roadmap et jalons"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-quoi-sert-une-revue-de-projet-quest-ce-quune-revue-de-projet",
+        "text": "À quoi sert une revue de projet ? Qu'est-ce qu'une revue de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le premier et principal objectif d'une revue projet est de <strong>réunir l'ensemble des acteurs d'un projet</strong> afin de faire le point sur l'avancée du projet, et de valider les livrables qui y sont associés."
+      },
+      {
+        "type": "paragraph",
+        "html": "En plus de l'objectif officiel, cette est un outil de management de projet idéal pour favoriser la cohésion de votre équipe : discussion autour de la vision de chacun, partage des informations, échange d'expertises, développement de l'intelligence collective, etc…"
+      },
+      {
+        "type": "paragraph",
+        "html": "La revue projet est <strong>l'un des ingrédients principaux d'une équipe projet soudée</strong>, efficace et engagée et donc l'un des leviers pour augmenter les chances de réussite de votre projet !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c837cd73ec2f8efeab7d09_62f36ff388c0c330cc047df4_Project-progression-min.jpeg",
+        "alt": "Airsaas vous aide à gérer vos revues de projets"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "revue-de-projet-et-jalon",
+        "text": "Revue de projet et jalon"
+      },
+      {
+        "type": "paragraph",
+        "html": "Lors de la planification d'un projet, on le construit autour de différentes étapes clés qui rythment son exécution. Et ces étapes d'un projet sont généralement représentées par <a href=\"https://www.airsaas.io/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\">des jalons</a> : en validant un jalon, on atteste qu'une des phases du projet a été exécutée et qu'il est possible de passer à la suivante !"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est donc au cours de la revue projet que l'on décide formellement de la validation d'un jalon et donc de l'avancée potentielle du projet à la phase d'après."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les revues de projet ont donc lieu à chaque fin de phase majeure et sont souvent planifiées dès le début par le chef de projet. Les décisions prises en revue de projet sont généralement irrévocables et servent d'appui pour la suite de l'exécution du projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quels-sont-les-differents-types-de-revue-de-projet",
+        "text": "Quels sont les différents types de revue de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Certains types de revue sont spécifiquement orientés sur l'un des aspects du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "On retrouve souvent :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>La revue de projet budgétaire</strong> : elle est centrée sur le contrôle des dépenses et des recettes. Elle fait partie de la <a href=\"https://www.airsaas.io/gestion-de-projet/budgetiser-un-projet-sans-se-louper\">gestion budgétaire</a> et permet de suivre les écarts de budgets, de formuler de nouvelles prévisions ou encore de procéder à des réajustements.",
+          "<strong>La revue des phases de sprint</strong> : la revue de projet permet de clore les phases de sprint dans le cadre de projets \"agiles\". Il est ainsi possible d'évaluer ce qui a été exécuté, de réajuster ses décisions, et de valider le passage au sprint suivant.",
+          "<strong>La revue de fabrication d'un produit :</strong> elle permet, lorsqu'un projet est axé autour d'un produit, de valider toutes les étapes autour de la fabrication de ce dernier, et de préparer la suite de son développement."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "a-quoi-sert-une-revue-de-projet",
+        "text": "À quoi sert une revue de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les revues de projet ont des objectifs et bénéfices multiples."
+      },
+      {
+        "type": "paragraph",
+        "html": "Elles servent notamment à :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Assurer le <strong>suivi du projet général,</strong> du déroulement du projet",
+          "<strong>Vérifier</strong> que tous les objectifs d'une phase ont été atteints",
+          "<strong>Contrôler</strong> le respect des échéances et délais",
+          "Donner une <strong>vision unique</strong>, claire et transparente du projet à toutes les parties prenantes du projet",
+          "<strong>Discuter des problèmes</strong> que chacun a rencontrés dans ses dossiers afin de trouver collectivement des solutions",
+          "<strong>Débattre</strong> de réajustements potentiels",
+          "<strong>Prendre des décisions</strong> sur la suite du projet",
+          "<strong>Renforcer la </strong><a href=\"https://www.collock.com/2020/08/25/comment-renforcer-cohesion-equipe-nouveau-projet/\"><strong>cohésion</strong> de l'équipe</a>",
+          "<strong>Créer des habitudes</strong> collaboratives entre les membres de l'équipe"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quand-devez-vous-organiser-votre-revue-de-projet",
+        "text": "Quand devez-vous organiser votre revue de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "La réponse est simple : organisez ce type de réunion à la fin de chaque étape majeure du projet. Pour le dire autrement : vous devez réunir vos parties prenantes dans une revue de projet au passage d'un jalon - l'objectif étant de savoir si tout est prêt pour passer à l'étape suivante de l'avancement du projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "qui-inviter-a-la-revue-de-projet",
+        "text": "Qui inviter à la revue de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous les décisionnaires du projet doivent être présents à une revue de projet pour qu'elle soit efficace, et que les décisions qui régissent la suite du projet soient prises sur le moment même. Invitez-y donc les responsables des métiers impliqués, mais aussi vos sponsors, ainsi que les responsables de certains livrables si nécessaire (pour répondre à des questions techniques éventuelles)."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais attention à ne pas tomber dans l'écueil de vouloir inviter tous les acteurs du projet ! Seuls les participants dont la présence est essentielle pour faire avancer le projet doivent être invités - faute de quoi, votre revue risque de devenir peu efficace."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-faire-une-bonne-revue-de-projet",
+        "text": "Comment faire une bonne revue de projet ?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "des-precautions-a-prendre-en-amont-et-en-aval",
+        "text": "Des précautions à prendre en amont et en aval"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>En amont :</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme pour les autres types de réunion, le temps alloué à ce processus n'est pas illimité. Il faut donc impérativement prendre le temps de la préparer en amont, afin que le temps prévu soit utilisé de manière optimale et que la revue soit productive."
+      },
+      {
+        "type": "paragraph",
+        "html": "Plusieurs étapes sont donc nécessaires : définir un ordre du jour, un lieu, la liste des parties prenantes, mais aussi créer les supports visuels nécessaires à la revue."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans l'idéal, il est conseillé que le chef de projet transmette en amont du rendez-vous ou <a href=\"https://www.airsaas.io/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">comité de pilotage</a> toutes les informations relatives à la revue de projet à chacun des participants : ainsi tout le monde sait déjà précisément ce qui va être discuté sur le dossier."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8380767e281be1d4a267a_62f3705b50d8018cf3599412_Attention-point.jpeg",
+        "alt": "illustration de l'outil Airsaas",
+        "caption": "Tout pour faciliter les réunions de l'équipe projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>En aval :</strong>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Rédiger un compte rendu</strong> : il est primordial d'envoyer un résumé de ce qui a été discuté à l'ensemble des parties impactées par la revue de projet",
+          "<strong>Écrire</strong> noir sur blanc <strong>les conclusions</strong> : vous devez formaliser toutes les décisions prises, ainsi que les nouvelles tâches à mener par l'équipe à la prochaine étape",
+          "<strong>Assurer un suivi</strong> : mettre en place des routines de contrôle des actions décidées durant la revue."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ces différentes étapes vous permettront de <strong>piloter, responsabiliser et d'impliquer tous les membres de votre équipe</strong> sur le projet, et de vous assurer que ce qui a été décidé en revue de projet soit bien appliqué !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8380767e281be1d4a266d_62f3708b0d180f44e5121377_post-report.jpeg",
+        "alt": "illustration de l'outil Airsaas"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quelques-astuces-pour-une-revue-de-projet-efficace",
+        "text": "Quelques astuces pour une revue de projet efficace"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "eviter-de-rentrer-trop-dans-les-details",
+        "text": "Éviter de rentrer trop dans les détails"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le temps à votre disposition n'est pas infini, ne le gâchez pas ! D'autant plus que vous risquez de perdre l'attention de votre auditoire si vous commencez à entrer dans des détails qui échappent à ceux qui ne travaillent pas avec vous quotidiennement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "prenez-le-temps-de-mettre-en-avant-vos-reussites",
+        "text": "Prenez le temps de mettre en avant vos réussites"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il y a toutes les chances pour que des difficultés et des imprévus soient survenus lors de l'exécution de la phase de votre projet que vous cherchez à valider. Cependant, les revues de projet ne doivent pas miner le moral des troupes, il faut mieux citer les problèmes principaux auxquels vous avez dû faire face, mais aussi mettre en avant vos réussites et féliciter ceux qui en sont responsables."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "faites-le-lien-entre-le-passe-et-le-futur-de-votre-projet",
+        "text": "Faites le lien entre le passé et le futur de votre projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous devez évidemment faire le point sur la phase du projet que vous venez d'exécuter, en tirer les enseignements importants, et discuter de ce qui aurait pu être optimisé. Mais il faut absolument que vous preniez le temps de discuter du prochain jalon durant la revue de projet. Chaque collaborateur doit sortir galvanisé par la prochaine phase qui l'attend, comprendre pourquoi elle est essentielle au projet et quelles sont les tâches dont il sera responsable !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "utilisez-le-pouvoir-des-retrospectives",
+        "text": "Utilisez le pouvoir des rétrospectives"
+      },
+      {
+        "type": "paragraph",
+        "html": "Utilisez les rétros pour identifier les forces et les faiblesses d'une étape et améliorer les futurs travaux. Discutez des différentes techniques rétrospectives, telles que la méthode « commencer, arrêter, continuer » ou la méthode « \"glad, sad, mad », et comment elles peuvent aider les équipes à réfléchir sur ce qui s'est bien passé et sur ce qui doit être amélioré."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "tirer-parti-des-outils-interconnectes",
+        "text": "Tirer parti des outils interconnectés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les outils comme AirSaas lorsqu'ils sont connectés à Jira ou Asana, aideront le DSI / PMO et chef de projet à suivre un état d'avancement de façon macro et à identifier les domaines qui nécessitent une attention particulière. Fournissez des conseils sur l'utilisation combinée de ces outils, tels que la configuration de tableaux de bord ou l'utilisation de l'automatisation pour rationaliser les flux de travail."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "developpez-une-culture-damelioration-continue",
+        "text": "Développez une culture d'amélioration continue"
+      },
+      {
+        "type": "paragraph",
+        "html": "Discuter de la manière de favoriser une culture d'amélioration continue au sein d'une organisation. Cela peut inclure des stratégies comme encourager les commentaires des membres de l'équipe, célébrer les succès et être ouvert aux nouvelles idées. Partagez des exemples de la façon dont cette culture peut mener à suivre un avancement de manière plus efficace."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "evitez-les-pieges-courants",
+        "text": "Évitez les pièges courants"
+      },
+      {
+        "type": "paragraph",
+        "html": "Offrez un aperçu des pièges courants de la gestion de projet et comment les éviter. Par exemple, discutez des risques de dérive de la portée, du manque d'implication des parties prenantes ou d'une mauvaise communication, et fournissez des conseils sur la façon d'atténuer ces risques."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "revue-de-projet-et-kpi-de-gestion-de-projet",
+        "text": "Revue de projet et KPI de gestion de projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "La revue de projet est l'un des éléments les plus efficaces pour permettre à toutes les parties prenantes de faire le point sur l'avancée du sujet. Dans ce contexte, il peut vraiment être intéressant de vous servir de <strong>KPI de gestion de projet</strong> : ils seront la base de tous vos débats, et vous permettront d'objectiver vos performances pour être plus pertinents dans vos analyses."
+      },
+      {
+        "type": "paragraph",
+        "html": "Utiliser les KPI de gestion de projet durant vos revues de projet vous aidera à être certain d'être passé à la phase suivante du projet, sans avoir loupé aucune des leçons que vous deviez tirer de vos difficultés."
+      },
+      {
+        "type": "paragraph",
+        "html": "Sur ce sujet, la <strong>lecture suivante conseillée</strong> est celle de l'article <a href=\"/gestion-de-projet/les-jalons-projet-une-technique-pour-sequencer-vos-projets-intelligemment\"><strong>le jalon projet : une technique pour séquencer vos projets intelligemment.</strong></a>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c83647fe48f35c11f44c27_62f370f834986741dc2e6b30_Project-metrics.jpeg",
+        "alt": "Suivi et gestion des ressources et du projet dans Airsaas"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

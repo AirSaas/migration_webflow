@@ -1,0 +1,404 @@
+{
+  "type": "blog",
+  "slug": "comment-elaborer-un-reporting-efficace",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment élaborer un reporting projet efficace ?",
+      "h1": "Comment élaborer un reporting projet efficace ?",
+      "description": "Outil de communication et d'analyse, le reporting projet a pour objectif de rendre compte de manière régulière de l'avancée d'un projet. Découvrez comment construire un reporting efficace, synthétique et orienté action.",
+      "publishedDate": "8/10/2021",
+      "author": {
+        "name": "Simon Vacher",
+        "category": "Gestion de projets",
+        "publishedDate": "8/10/2021",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e038501c4256317123910b_SV-min.jpg"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3819a0ae83ff1d7668d5e_6-2.jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un reporting projet ?",
+        "href": "#quest-ce-quun-reporting-projet"
+      },
+      {
+        "label": "Un reporting, pour quoi faire ?",
+        "href": "#un-reporting-pour-quoi-faire"
+      },
+      {
+        "label": "Quels types d'informations inclure dans votre reporting ?",
+        "href": "#quels-types-dinformations-inclure-dans-votre-reporting"
+      },
+      {
+        "label": "Différents acteurs, différentes demandes",
+        "href": "#differents-acteurs-differentes-demandes"
+      },
+      {
+        "label": "Comment collecter les données de votre reporting ?",
+        "href": "#comment-collecter-les-donnees-de-votre-reporting"
+      },
+      {
+        "label": "Adaptez le nombre d'indicateurs à votre projet",
+        "href": "#adaptez-le-nombre-dindicateurs-a-votre-projet"
+      },
+      {
+        "label": "Les clés d'un reporting moderne, efficace et attrayant",
+        "href": "#les-cles-dun-reporting-moderne-efficace-et-attrayant"
+      },
+      {
+        "label": "Quels outils utiliser en gestion de projet ?",
+        "href": "#quels-outils-utiliser-en-gestion-de-projet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Outil de communication et d'analyse, le reporting projet a pour objectif de rendre compte de manière régulière de l'avancée d'un projet et de présenter les informations relatives à ce dernier de manière pertinente. C'est un outil tourné vers l'action qui doit permettre à un <a href=\"/fr/gestion-de-projet/copil-projet-ou-comite-de-pilotage-projet-les-bases\">comité de pilotage</a> de prendre des décisions judicieuses et rationnelles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si vous êtes chef de projet, ou amené à faire de la gestion de projet manière régulière, vous savez qu'aujourd'hui l'information relative à un projet n'est plus une denrée rare. C'est son analyse, sa mise en forme et son interprétation qui sont les vrais enjeux d'un reporting bien construit, d'une <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> maîtrisée."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le reporting projet reste donc un exercice délicat : une surabondance d'informations et la multiplication des outils de reporting peuvent avoir une fâcheuse tendance à diluer l'information sans susciter l'intérêt des destinataires. En lisant cet article vous saurez à quoi sert vraiment un rapport de projet et comment améliorer la qualité de vos reportings pour les rendre vraiment efficaces intéressants pour tous les membres de votre équipe."
+      },
+      {
+        "type": "paragraph",
+        "html": "Et en plus en cadeau vous pouvez télécharger (100% éditable sous format power point) notre modèle de <a href=\"/fr/solution/rapport-flash\">reporting projet ici.</a>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-quun-reporting-projet",
+        "text": "Qu'est-ce qu'un reporting projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le reporting ou rapport de projet est désormais un élément bien installé dans la culture des entreprises : Product Manager, Product Owner, développeur ou manager, vous avez tous déjà reçu un reporting de projet dans votre boite e-mail ou via un outil collaboratif. Et vous êtes parfois amené à en élaborer certains."
+      },
+      {
+        "type": "paragraph",
+        "html": "On pourrait définir un reporting comme une mise en scène d'informations et de données relatives à un projet, collectées à un instant T et présentées de manière suffisamment explicite pour que d'autres personnes puissent les exploiter et prendre des décisions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "un-reporting-pour-quoi-faire",
+        "text": "Un reporting, pour quoi faire ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le parti pris du reporting projet est qu'en s'appuyant sur des indicateurs de performances (appelés aussi KPIs pour Key Performance Indicators) , on peut mesurer et piloter la trajectoire d'un projet de manière efficace, ou à l'inverse se rendre compte de certains points de blocage."
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans tous les cas, un reporting de projet a pour finalité l'action, la planification des tâches et la prise de décision. Pour ce faire, les meilleurs rapports de projets ont tous un point en commun, ils permettent au lecteur de visualiser l'information en un clin d'œil pour que chacun à son niveau dans l'entreprise puisse faire les bons choix."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8395f5cd3d844d55773ce_62ea90d5e93adcb759569555_all-projects-min2.jpeg",
+        "alt": "sommaire projet",
+        "caption": "Sommaire projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-gestion-de-projet-tournee-vers-laction",
+        "text": "Une gestion de projet tournée vers l'action"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le reporting est donc avant tout un outil d'aide à la décision, et pas du tout un outil de contrôle comme on le pense souvent. Il doit amener les parties prenantes à se poser des questions : \"Quelle suite à donner au projet?\", \"De quelles compétences avons-nous besoin ?\", \"Pourquoi avons-nous pris du retard sur ce point précis ?\". \"Pourquoi le rythme de delivery est-il en train de baisser ?\". Ce sont toutes ces questions auxquelles les membres de l'équipe projet doivent pouvoir répondre si le reporting est pertinent."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8395f5cd3d844d55773c4_62ea983b0383f81f8e3fe463_execution.jpeg",
+        "alt": "Décision à prendre",
+        "caption": "Mettez en valeur les décisions à prendre"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quels-types-dinformations-inclure-dans-votre-reporting",
+        "text": "Quels types d'informations inclure dans votre reporting ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Concevoir un rapport de projet est une de bonne idée, mais quelles informations allez-vous sélectionner, lesquelles allez-vous mettre plus en avant ? C'est sans doute le point le plus important abordé dans cet article, comment faire passer les bonnes informations, les bons messages aux bons interlocuteurs ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un reporting n'est pas un fourre-tout dans lequel s'amassent des données. Ce n'est pas à chacun de faire le tri mais à vous d'ordonner les informations pour donner une cohérence globale."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il faut donc faire directement le lien entre le choix des données présentes dans vos tableaux de bord et les besoins des différents destinataires. La première question à se poser n'est donc pas \"Quelles données inclure dans mon reporting?\" mais :"
+      },
+      {
+        "type": "paragraph",
+        "html": "\"Qui va consulter ces indicateurs et qu'en attendent-ils ?\", \"Quels peuvent-être les solutions que mon rapport apporte par rapport aux problématiques soulevées la semaine dernière?\".... Et seulement ensuite : \"Quelles sont les informations clés dont j'ai besoin ?\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "differents-acteurs-differentes-demandes",
+        "text": "Différents acteurs, différentes demandes"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pour-le-top-management",
+        "text": "Pour le top-management"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour un CEO, un directeur financier et plus généralement le top management le temps est rare et précieux. Ils ont sûrement un portefeuille de projets bien rempli à gérer. Cette typologie de population a besoin de se faire rapidement une vue d'ensemble d'un projet pour prendre des décisions d'ordre macro."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pour-les-equipes-metiers",
+        "text": "Pour les équipes métiers"
+      },
+      {
+        "type": "paragraph",
+        "html": "En revanche, une équipe opérationnelle - comme des développeurs ou des programmeurs par exemple - sera davantage attentive d'indicateurs d'efficacité et de productivité pour apprécier leur performance."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pour-les-managers",
+        "text": "Pour les managers"
+      },
+      {
+        "type": "paragraph",
+        "html": "Enfin, un manager se servira du reporting projet comme d'un outil pour impliquer les parties prenantes du projet et rendre visible les enjeux et décisions à prendre du projet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "comment-collecter-les-donnees-de-votre-reporting",
+        "text": "Comment collecter les données de votre reporting ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'élaboration d'un reporting de projet peut vite devenir une tâche très chronophage si vous êtes mal organisé ou ne disposez pas des bons outils."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-bons-outils-de-collecte",
+        "text": "Les bons outils de collecte"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une des clés pour gagner du temps et de savoir où et comment collecter les données dont vous avez besoin, et quels seront les indicateurs que vous allez mettre en avant."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un outil de reporting intégré (comme AirSaas), permet d'automatiser de manière intelligente la collecte des informations dont vous avez besoin pour élaborer votre reporting. Connecté aux outils collaboratifs que vous utilisez au quotidien, c'est sans doute la manière la plus sûre d'agréger rapidement les données et de leur donner du sens."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "la-bonne-frequence-de-reporting",
+        "text": "La bonne fréquence de reporting"
+      },
+      {
+        "type": "paragraph",
+        "html": "La fréquence d'envoi de votre reporting se fait selon deux critères : la période que vous souhaitez analyser et celle à laquelle vos interlocuteurs ont besoin de ce reporting."
+      },
+      {
+        "type": "paragraph",
+        "html": "Assurez-vous donc également d'avoir accès de manière récurrente aux informations dont vous avez besoin afin d'éviter les \"trous dans la raquette\" au prochain envoi."
+      },
+      {
+        "type": "paragraph",
+        "html": "Les meilleures équipes qui utilisent AirSaas envoient le rapport flash aux différentes parties prenantes une fois par semaine. (oui oui pas une fois tous les mois...!)"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8395f5cd3d844d55773e7_616fd320191fb9e48982f69c_Export-flash.jpeg",
+        "alt": "export en un clic",
+        "caption": "Export ppt en clic du rapport flash"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "adaptez-le-nombre-dindicateurs-a-votre-projet",
+        "text": "Adaptez le nombre d'indicateurs à votre projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "En gestion de projet, un seul mot d'ordre, quel que soit le reporting que vous êtes en train d'élaborer : <strong>Soyez synthétique</strong> ! Un nombre réduit d'indicateurs ne signifie pas que votre reporting ne sera pas pertinent."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "less-is-good",
+        "text": "Less is good !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous montrerez au contraire que vous avez pris le temps de choisir vos KPIs avec soin et que le projet vous tient à cœur. Le défaut de beaucoup de rapports c'est qu'ils ont tendance à vous noyer sous un flot d'informations inutiles, ne tombez pas dans le piège de la surabondance de data, c'est LE piège dans lequel nous sommes tous tombés au début."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c837cd73ec2f8efeab7d09_62f36ff388c0c330cc047df4_Project-progression-min.jpeg",
+        "alt": "indicateur budget et effort projet",
+        "caption": "Evolution du budget et du temps projets"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-bon-niveau-de-granularite",
+        "text": "Le bon niveau de granularité"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un bon reporting présente des informations dont le niveau de granularité de l'information a été correctement choisi. Pensez à bien organiser vos indicateurs par ordre d'importance."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour un rapport de projet envoyé à des populations très hétérogènes, l'élaboration d'un reporting de projet sous forme de synthèse avec accès à un reporting plus étoffé accessible facilement en cas de besoin est fortement conseillée."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-petit-truc-en-plus-qui-fait-toute-la-difference",
+        "text": "Le petit truc en plus qui fait toute la différence"
+      },
+      {
+        "type": "paragraph",
+        "html": "<em>Les spécialistes de la gestion de projet le savent, la vraie santé d'un projet se mesure aussi à l'aide des indicateurs qui se voient le moins, les indicateurs de performance cachés. Bien sûr, il est impossible de savoir ce qui se passe exactement dans la tête des membres d'une équipe, mais certains signes ne trompent pas : l'assiduité aux réunions, les retards récurrents de delivery, la multiplication des bugs fonctionnels, ou encore l'accumulation des erreurs d'inattention, sont tous des indicateurs de (bonne) santé d'un projet et du niveau d'implication.</em>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-cles-dun-reporting-moderne-efficace-et-attrayant",
+        "text": "Les clés d'un reporting moderne, efficace et attrayant"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec tous les outils de présentation et de partage de l'information qui existent, les reportings de projet austères et peu lisibles n'ont plus lieu d'exister."
+      },
+      {
+        "type": "paragraph",
+        "html": "La forme compte donc autant que le fond. Un reporting de projet efficace donne envie d'être lu, commenté et partagé. C'est avant tout un outil d'analyse et sa valeur ajoutée est de permettre de passer à l'action. Pour cela, plusieurs points sont à prendre en considération :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8395f5cd3d844d55773dc_62f3810bbb866a685862d6be_rapport%2520flash.jpeg",
+        "alt": "Rapport flash intro",
+        "caption": "La synthèse des fiches projets : le rapport flash"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "utilisez-les-formes-et-les-couleurs",
+        "text": "Utilisez les formes et les couleurs :"
+      },
+      {
+        "type": "paragraph",
+        "html": "N'ayez pas peur de faire appel à votre créativité pour attirer l'attention avec des couleurs afin de mettre en avant les informations et les évolutions les plus importantes. Réutilisez le même code couleur dans tous vos reportings pour habituer votre audience à votre méthode de travail."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "une-idee-un-graphique",
+        "text": "Une idée = un graphique"
+      },
+      {
+        "type": "paragraph",
+        "html": "En gestion de projet, les idées clés doivent absolument être illustrées de manière simple et percutante pour être mémorisées."
+      },
+      {
+        "type": "paragraph",
+        "html": "Certains outils de suivi et de gestion de projet comme AirSaas proposent différentes manières de visualiser la data relative à votre activité pour que l'information circule plus rapidement au sein d'une entreprise. D'un rapport à l'autre les données se mettent à jour automatiquement pour vous faire gagner du temps."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "misez-sur-le-collaboratif-et-le-participatif",
+        "text": "Misez sur le collaboratif et le participatif :"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le meilleur rapport de projet est celui sur lequel on passe le moins de temps possible mais qui met tout le monde d'accord."
+      },
+      {
+        "type": "paragraph",
+        "html": "En impliquant les parties prenantes dans le suivi de projet vous bénéficiez d'un double avantage : des données actualisées sur lesquels les acteurs concernés s'engagent, et la mise en place d'un processus collaboratif au sein duquel tout le monde apporte sa pierre à l'édifice. Faites appel à l'intelligence collective !"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c8395f5cd3d844d55773c1_62f3813287c55408057635a9_Success-post-min.jpeg",
+        "alt": "Partagez vos succès projet !",
+        "caption": "Partagez vos succès projet, ne les gardez pas pour vous ;-)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quels-outils-utiliser-en-gestion-de-projet",
+        "text": "Quels outils utiliser en gestion de projet ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'utilisation d'outils intégrés permet de passer très peu de temps sur le reporting de projet et de se concentrer sur la valeur ajoutée des tâches à accomplir. Et oui il n'est pas \"normal\" de passer 3 jours par mois à faire du power point..."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'ailleurs on parle davantage de suivi de projet puisque les données sont mises à jour et consultables à tout moment, de manière visuelle et explicite par tous les membres de l'équipe. Avec ce genre d'outils, le niveau des collaborateurs augmente et l'équipe a vraiment les moyens de se concentrer sur sa vraie mission."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>Parmi les outils généralement utilisés en gestion de projet, on retrouve notamment :</strong>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La todo sur papier, et oui ! Ça marche très bien sur des projets ou est seul et que tout dépend d'une seule personne .. En voie de disparition :-)",
+          "Microsoft Excel - c'est le plus utilisé mais aussi le plus statique et le plus difficile à mettre à jour. Mais bon ..!",
+          "Monday, Asana, Wrike en saas, ou d'autres solutions en open source qui se focalise sur la gestion des tâches."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce sont bien des outils de gestion projet, mais pas de pilotage projet. Les outils de gestion de projet sont centrés sur les tâches et les diagrammes de gantt."
+      },
+      {
+        "type": "paragraph",
+        "html": "AirSaas, l'outil de pilotage de projet est centré sur les décisions et le reporting."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien utilisé, un outil de pilotage de projet permet d'aligner la DSI et les équipes métiers, le top management sur les mêmes objectifs et une meilleure communication en cassant les silos d'une organisation parfois trop lourde ou compartimentée."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec un outil commun sur lequel mettre en commun des données chiffrées de vos projets, il est ensuite plus facile de construire une vision commune et d'avancer dans la même direction, avec une même <a href=\"/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise\">démarche de projet</a>."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

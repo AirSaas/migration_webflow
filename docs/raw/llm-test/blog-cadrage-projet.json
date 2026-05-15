@@ -1,0 +1,419 @@
+{
+  "type": "blog",
+  "slug": "cadrage-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment faire un bon cadrage projet avec les métiers ?",
+      "h1": "Comment faire un bon cadrage projet avec les métiers ?",
+      "description": "Découvrez comment réussir le cadrage de votre projet avec les métiers : co-construction, questiologie, flash design, BRM et approches agiles.",
+      "publishedDate": "16/5/2022",
+      "author": {
+        "name": "Jérôme Dard",
+        "category": "Gestion de projets",
+        "publishedDate": "16/5/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea93ec131e426ca619a033_Project%20image%20(5).jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Critique de l'approche projet MOA/MOE",
+        "href": "#critique-de-lapproche-projet-moamoe"
+      },
+      {
+        "label": "Cadrage ? D'abord, une co-construction !",
+        "href": "#cadrage-dabord-une-co-construction"
+      },
+      {
+        "label": "Cadrage : l'importance d'un autre rapport au temps",
+        "href": "#cadrage-limportance-dun-autre-rapport-au-temps"
+      },
+      {
+        "label": "Cadrage projet, de quoi parle-t-on ?",
+        "href": "#cadrage-projet-de-quoi-parle-t-on"
+      },
+      {
+        "label": "Cadrage d'un projet : allez aussi chercher l'expérience !",
+        "href": "#cadrage-dun-projet-allez-aussi-chercher-lexperience"
+      },
+      {
+        "label": "BRM, agilité, des approches complémentaires pour votre cadrage avec les métiers",
+        "href": "#brm-agilite-des-approches-complementaires-pour-votre-cadrage-avec-les-metiers"
+      },
+      {
+        "label": "À retenir",
+        "href": "#a-retenir"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>Cadrez vos cadrages ! Une initialisation de projet réussi <strong>repose, entre autres, sur une vraie rencontre entre la connaissance métier, le sponsoring managérial et une expertise technologique.</strong> Néanmoins, et même si de nombreuses entreprises ont bien adressé cette question de l'absence de collaboration dès la note de cadrage, on assiste encore bien trop souvent en gestion de projet au maintien des silos en entreprise dès cet avant-projet !</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pourquoi en est-on arrivé à cet état de fait dans la <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a> ? Quelle est la composante clé d'un bon cadrage projet avec le métier à ne pas rater ? Comment font ceux qui innovent en termes de management de projet ?</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dans cet article vous découvrirez notamment des supers exemples de co-construction DSI/métiers inspirants (ne ratez pas les flashs design de la DSI de Ouigo !)  Une façon hyper pragmatique et super efficace de traiter les feedbacks métiers et de gagner un maximum de temps dans l'exécution d'un projet. Avec ça fini les cadrages projets \"boiteux\".</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>À la fin de cet article vous repartirez en outre avec les <strong>étapes clés d'un cadrage collaboratif qui fonctionne</strong>, ainsi qu'une première<strong> liste de questions à poser pour dynamiser vos ateliers</strong>. Enfin nous ferons un court<strong> retour sur le rôle clé du BRM </strong>et une <strong>sélection d'exemples de cadrages agiles et participatifs</strong>.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Bref, restez connectés ! On vous dit<strong> tout ce qu'il faut savoir sur l'art de</strong> <strong>cadrer votre projet… avec les métiers !</strong></p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Critique de l'approche projet MOA/MOE",
+        "id": "critique-de-lapproche-projet-moamoe"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour comprendre la situation actuelle il est intéressant de porter un regard critique sur le \"legacy\" de l'approche MOE/MOA en gestion de projet. Oui, on a trop longtemps assisté à un jeu de « passe-plat » entre les business units. Chacun dans son \"pré carré\", ses objectifs.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour poursuivre la métaphore culinaire, on pourrait même dire que <strong>les relations entre la cuisine (la DSI) et la salle de restaurant (les métiers) étaient clairement organisées en silos</strong>. Surtout pas de mélange entre nous ! Chacun ses projets, sa zone, avec au milieu, bien souvent, un serveur (chef de projet) pas très à l'aise pour piloter le tout. Et, en bout de chaîne, un client qui mangeait son plat froid ! Les uns attendant un cadrage de projet qui prenait beaucoup de temps, les autres des expressions de besoins mieux rédigées. <strong>Pas une franche réussite !</strong></p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cadrage ? D'abord, une co-construction !",
+        "id": "cadrage-dabord-une-co-construction"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Réussir un objectif cadrage d'un projet de transformation digitale, implique une <strong>démarche de co-construction d'équipe, une responsabilité partagée</strong>. En gestion de projet, l'objectif est bien d'éviter les silos et ce, dès les premières étapes de compréhension du besoin, de rédaction de la note de cadrage, en créant votre première équipe. Une sorte de MVP (Minimum Viable People), en somme.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Celle-ci embarque à la fois le futur réalisateur de l'action la tech ! Le manager - aka Mr Sponsor - et un représentant du besoin, celui qui connaît le quotidien du business : le métier.</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le chef de projet, <strong>coordinateur général de cette \"micro entreprise\"</strong> sera chargé de cadrer le projet de façon collaborative.",
+          "À ses côtés pour mener le cadrage,<strong> le représentant du métier, celui qui connaît le quotidien</strong> et les objectifs clés du projet, les attentes client.",
+          "Cette co-construction s'appuie enfin sur le rôle clé de <strong>sponsor qui participe et anime une instance de conseil qui décide</strong> de la mise en place des processus et règles de contrôle proposés par les experts métier."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Selon la taille et la complexité organisationnelle de l'entreprise, cette micro structure va être plus ou moins évoluée. Le sponsoring pourra être mené par un ou plusieurs managers, etc.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>C'est cette manière de <strong>travailler en transverse dès le début</strong> qui va permettre aux collaborateurs de <strong>casser les silos</strong> et délivrer rapidement de nouveaux services, de <strong>privilégier l'intelligence collective à la première étape</strong>.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cadrage : l'importance d'un autre rapport au temps",
+        "id": "cadrage-limportance-dun-autre-rapport-au-temps"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Quel que soit le projet il faut quand même un peu de temps pour réfléchir à ce qu'on veut ! Que cela soit en termes de fonctionnalité, d'impact de changement...</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea93667722a5a4e3e6dc2c_fix-chief-bullshit-officer-ed-diateino-min.jpg",
+        "alt": "Dessin d'humour FX Dessinateur quick & dirty Slow & dirty",
+        "caption": "Source fix dessinateur - Album Chief Bullshit officer ed. Diateino avril 2022"
+      },
+      {
+        "type": "quote",
+        "text": "\"Le plus long dans les projets ce n'est pas la mise en place d'un système d'information. C'est plutôt la réflexion en amont du côté de l'entreprise et de ses métiers sur la question du comment est ce qu'ils veulent travailler…!\".",
+        "author": "Isabelle André Perussi",
+        "caption": "DSI Ouigo et DG Squirrel (extrait de l'épisode 34 du Podcast CIO Révolution produit par AirSaas)."
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Face à la contrainte générale que représentent le raccourcissement des délais et la pénurie de compétences IT<strong>, privilégier un cadrage long sera un défi !</strong></p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/628219c1841ad01b695fcf8c_vik_illu-action-agile.png",
+        "alt": "Dessin humour innovation",
+        "caption": "La métaphore de la gestion du temps dans un projet - Source : vik-graphisme"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Et, il faut se le dire<strong> : si l'équipe qui a le problème n'a même pas le temps de bien travailler sur celui-ci dès le début, il vaut mieux ne pas le faire !</strong> Les prochaines étapes prévues au planning ne risquent pas d'être meilleures en termes de réussite !</p>"
+      },
+      {
+        "type": "quote",
+        "text": "\"Durant nos réunions de métier / SI mensuelles, on négocie ! Si la direction concernée n'arrive pas à déléguer, à mettre des équipes c'est qu'il n'y a pas de valeur derrière ! Et si au bout d'un certain nombre de fois...il n'arrive pas à dégager du temps...des fois on se rend compte que le projet n'est pas la vraie priorité...alors on lance alors un autre projet !",
+        "author": "Frédéric Navarro",
+        "caption": "DSI, Manager de Transition ESINFO (extrait de l'épisode 28 du Podcast CIO Révolution produit par AirSaas)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cadrage projet, de quoi parle-t-on ?",
+        "id": "cadrage-projet-de-quoi-parle-t-on"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Faisons un arrêt sur images sur la définition même de l'étape de cadrage dans une gestion de projet.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Définition",
+        "id": "definition"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p><strong>Il s'agit bien d'une étape d'étude et d'analyse</strong> qui impacte la décision de lancer le projet, ou pas, selon son intérêt et sa faisabilité. En général une <a href=\"https://www.airsaas.io/fr/gestion-de-projet/tout-savoir-sur-la-note-de-cadrage-projet\">note de cadrage</a> en résume les conclusions.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Cette note de cadrage est le d<strong>ocument synthétique qui permettra à chacun d'identifier en un coup d'œil les points principaux </strong>du cadrage de votre projet.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Parmi les techniques basiques existantes on peut citer :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "La méthode SMART (pour Simple, Mesurable, Atteignable, Réaliste et Temporellement défini)",
+          "La méthode \"CQQCOQP\" pour combien, quoi, qui, comment, où, quand et pourquoi ?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Chacun aura sa définition et sa propre méthode pour aboutir à une note de cadrage.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "La note de cadrage répond à trois grandes questions",
+        "id": "la-note-de-cadrage-repond-a-trois-grandes-questions"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Description projet : gains attendus, livrables, etc.",
+          "Contexte projet : périmètre, personnes impactées, origine de la demande, évolution réglementaire, plan de transformation de l'entreprise, conduite du changement, etc.",
+          "Chiffres du projet ? Budget, durées, etc."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Les fiches de <strong>cadrage projet sont dynamiques et collaboratives</strong>. Les équipes IT/métier/sponsor peuvent itérer ensemble jusqu'à ce que le projet soit validé, dans un véritable cahier des charges complet qui guidera l'avancement du projet.</p>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62ea93a555a4e608f0a66297_Creation-step1.jpg",
+        "alt": "Capture écran AirSaas",
+        "caption": "Sur AirSaas, nous guidons vos collaborateurs dans le remplissage des informations essentielles à une bonne note de cadrage."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Secrets de chef de projet : la \"questiologie\" ou l'art de poser les bonnes questions !",
+        "id": "secrets-de-chef-de-projet-la-questiologie-ou-lart-de-poser-les-bonnes-questions"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un cadrage complet, c'est une interrogation de la cible du besoin (la destination) ET une étape d'interrogation de la démarche (le chemin), en fonction du temps et des objectifs de chacun.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Questionner la cible réelle du besoin : la vraie problématique",
+        "id": "questionner-la-cible-reelle-du-besoin-la-vraie-problematique"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le principal écueil est de passer à côté du vrai sujet ! Il est utile de <strong>questionner et requestionner encore l'expression même de la problématique</strong>. D'aller chercher ce qui n'est pas écrit.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Le cadrage est un vrai travail de mise en forme des pensées confuses grâce à un dialogue. Pour y parvenir, il est utile de <strong>croiser la donnée du métier avec celle de votre service client !</strong> Et de vos clients eux-mêmes bien sûr.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Voici un <strong>exemple de questions ouvertes</strong>, à poser pour creuser le cadrage projet :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Pourquoi ce problème n'a-t-il pas été résolu avant ?",
+          "Comment a-t-il été contourné ?",
+          "S'il est toujours là dans trois mois, quel impact ?",
+          "Quel est le chemin le plus court qui a le plus d'impact ?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Souvenez-vous : l'objectif est de dialoguer, afin d'élaborer avec un projet une solution innovante pour satisfaire des besoins précis et identifiés.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "\"Si j'avais une heure pour résoudre un problème, je passerais cinquante-cinq minutes à définir le problème et seulement cinq minutes à trouver la solution.\"",
+        "author": "A. Einstein"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Questionner les solutions : Un besoin ? 1 000 façons d'y répondre !",
+        "id": "questionner-les-solutions-un-besoin-1-000-facons-dy-repondre"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Un cadrage projet réussi permettra en effet de proposer plusieurs façons de répondre au problème identifié. Prenons un cas concret : la demande client au sein d'une entreprise \"je voudrais un ascenseur plus rapide\". Lors du premier cadrage on s'accorde tous pour la solution et créer le projet : planifier l'achat d'un nouvel ascenseur ! Lors du second cadrage, quelqu'un proposera de mettre une animation sympa et un nouvel écran pour faire attendre la personne intelligemment ! Problématique traitée. CQFD. :)</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Si tu as besoin de quelque chose, appelle-moi, je te dirais comment t'en passer",
+        "author": "Coluche"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cadrage d'un projet : allez aussi chercher l'expérience !",
+        "id": "cadrage-dun-projet-allez-aussi-chercher-lexperience"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pensez à prendre tous les insights déjà donnés autour de ce problème</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Organiser la remontée des insights",
+          "Toutes les semaines 2h de flash design pour travailler avec les métiers sur les insights et problèmes remontés."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Organiser la remontée des \"insights\"",
+        "id": "organiser-la-remontee-des-insights"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Logguer tous les feedbacks en continu qui viennent du BRM ou du ticketing.<br/>N'oublions pas que pour bien cadrer les projets il faut avoir une donnée claire, propre, structurée ! Le concept de garbage in / garbage out prend une nouvelle fois tout son sens."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Retour d'expérience : Le \"flash design\"",
+        "id": "retour-dexperience-le-flash-design"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Dans le cadre des interviews de notre Podcast CIO Révolution, <strong>Isabelle André Perussi, </strong>la DSI de Ouigo nous a parlé du \"flash design\" et on a adoré l'idée.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Plutôt que de commencer à réfléchir au cadrage d'un besoin métier quand on a le temps de le traiter, elle nous explique qu'<strong>elle organise des sessions flash design de 2h dès que le métier émet son \"ticket\". 2h de brainstorming réunissant le métier et l'IT pour dégrossir le besoin</strong>, étudier les solutions SaaS \"miracles\" qui pourraient y répondre, et finalement se laisser du temps pour mûrir le besoin d'un véritable projet informatique interne. Tout ça intervenant bien en amont de la phase de cadrage. L'investissement est, il paraît, vite rentabilisé et beaucoup de frustrations projet vite désamorcées.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BRM, agilité, des approches complémentaires pour votre cadrage avec les métiers",
+        "id": "brm-agilite-des-approches-complementaires-pour-votre-cadrage-avec-les-metiers"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "BRM : Business Relationship Managemement",
+        "id": "brm-business-relationship-managemement"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Une pratique inspirée des référentiels de management des services informatiques ITIL : «Le BRM stimule, identifie, et façonne la demande des métiers en produits et services et s'assure que la valeur de ces produits et services est réalisée, optimisée et reconnue ». Un rôle qui favorise le renforcement de la relation DSI-métiers. <strong>Des gens dédiés, </strong>en fonction de la taille de l'entreprise, <strong>à la compréhension des besoins de l'entreprise en continu !</strong></p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Sur ce rôle, découvrez ci-dessous le retour d'expérience du CDIO de Biogaran, Frédéric Riou :</p>"
+      },
+      {
+        "type": "quote",
+        "text": "Avec ce rôle de business partner, l'objectif, c'est d'être force de proposition, d'apporter des réponses aux problèmes posés, d'avoir un coup d'avance : on est tellement en connaissance du métier que le but, c'est d'apporter la solution avant même qu'un problème soit identifié.",
+        "caption": "Episode 29 podcast CIO Révolution."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Cadrages agiles : Des approches qui \"engagent\"",
+        "id": "cadrages-agiles-des-approches-qui-engagent"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Avec la culture agile, on utilisera par exemple <strong>les jeux \"qui font le boulot\".</strong> Des ateliers ludiques pour arriver à une définition de la vision 360 du produit, d'un projet : vision, objectifs, storymap, roadmap, POC, etc.</p>"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>On peut en citer trois parmi de très nombreux :</p>"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Le <a href=\"https://creativetech-fr.devoteam.com/2021/03/17/pre-mortem-se-projeter-dans-l-echec-du-produit-pour-mieux-l-eviter/\">pre mortem</a> : élaborer un plan avant de commencer !",
+          "Le product box : matérialiser physiquement les différentes visions sous forme de boîtes.",
+          "Le catch-up d'un client en 15 minutes autour d'un café : vous saurez s'il faut creuser ou passer son chemin !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Pour creuser cette approche, la lecture du livre <em>Gamestorming</em> publié aux éditions Diateino est vivement conseillée.</p>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "À retenir",
+        "id": "a-retenir"
+      },
+      {
+        "type": "insight-callout",
+        "label": "À retenir",
+        "html": "<ul><li>Évitez les silos dès la compréhension du besoin !</li><li>Les principales frictions proviennent du manque de compréhension du jeu de contrainte de la DSI et de la prise en compte des attentes des métiers. Dans votre <a href=\"/gestion-de-projet/comment-mettre-une-demarche-de-projet-dans-mon-entreprise\">démarche de projet,</a> travailler d'emblée en coopération autour d'une plateforme commune améliore la compréhension de ce qui peut être fait et dans quel délai.</li><li>Cadrez vos cadrages ! C'est la phase à ne pas rater. C'est une question de ressource temps et d'investissement !</li></ul>"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6282192f4608683b5bc4e5db_Sans%20titre%20(4).jpg",
+        "alt": "Visuel illustration process cadrage métier",
+        "caption": "Sur AirSaas, nous guidons les utilisateurs dans le remplissage des informations et objectifs essentielles de cadrage d'un projet."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

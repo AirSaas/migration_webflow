@@ -46,6 +46,10 @@ export interface QuoteBlock {
   text: string;
   author?: string | null;
   authorAvatar?: string | null;
+  /** Optional caption rendered below the attribution (Opus may emit). */
+  caption?: string | null;
+  /** Optional source link for the quote. */
+  href?: string;
 }
 
 export interface TableBlock {
@@ -57,18 +61,26 @@ export interface TableBlock {
 export interface InsightCalloutBlock {
   type: "insight-callout";
   html: string;
+  /** Optional small label/badge above the callout (Opus may emit). */
+  label?: string;
 }
 
 export interface InlineCtaBlock {
   type: "inline-cta";
   label: string;
   href: string;
+  /** Optional surrounding text (Opus may emit). */
+  text?: string;
+  /** Optional inline HTML body (Opus may emit). */
+  html?: string;
 }
 
 export interface HubspotCtaBlock {
   type: "hubspot-cta";
   label: string;
   href: string;
+  /** HubSpot CTA tracking id (Opus may emit). */
+  id?: string;
 }
 
 export type BlogArticleBlock =

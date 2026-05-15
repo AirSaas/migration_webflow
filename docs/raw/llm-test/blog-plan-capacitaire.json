@@ -1,0 +1,491 @@
+{
+  "type": "blog",
+  "slug": "plan-capacitaire",
+  "iteration": 2,
+  "outcome": "RETRY_PASS",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "7 étapes pour créer votre plan capacitaire sans vous arracher les cheveux",
+      "h1": "7 étapes pour créer votre plan capacitaire sans vous arracher les cheveux",
+      "description": "Découvrez les 7 étapes pour créer un plan capacitaire efficace : définir les priorités, analyser la capacité, gérer la demande, identifier les écarts et suivre les KPIs.",
+      "author": {
+        "name": "",
+        "category": "Gestion de projets"
+      },
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/68cae3dd336808907b763784_7%20etapes.jpg",
+        "alt": "7 étapes pour créer votre plan capacitaire"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est-ce qu'un plan capacitaire ?",
+        "href": "#quest-ce-quun-plan-capacitaire"
+      },
+      {
+        "label": "Les 7 étapes pour créer un plan capacitaire efficace",
+        "href": "#les-7-etapes-pour-creer-un-plan-capacitaire-efficace"
+      },
+      {
+        "label": "Quels outils pour créer votre Capacity Planning ?",
+        "href": "#quels-outils-pour-creer-votre-capacity-planning"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Imaginez votre portefeuille de projets comme un orchestre symphonique. Chaque projet est un instrument, et vous en êtes le chef d'orchestre. Pour créer une harmonie parfaite, vous devez connaître chaque instrument, sa portée, ses limites, et savoir comment les faire jouer ensemble."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est là qu'intervient le plan capacitaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cet outil essentiel vous permet d'optimiser l'allocation de vos ressources, d'anticiper les goulots d'étranglement et de garantir le succès de vos projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Prêt à devenir le maestro de votre propre orchestre de projets ? Plongez dans cet article et ses <strong>sept étapes pour créer votre propre plan capacitaire sans accroc</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quest-ce-quun-plan-capacitaire",
+        "text": "Qu'est-ce qu'un plan capacitaire ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le terme \"plan capacitaire\" est la traduction littérale de \"Capacity Planning\". Il s'agit d'une méthode dont l'objectif est d'<strong>aligner la capacité disponible dans l'entreprise</strong> (en termes de ressources humaines et matérielles) <strong>avec la demande</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette méthode permet ainsi d'évaluer, de planifier, et de gérer toutes les ressources pour répondre à l'intégralité des besoins de votre portefeuille de projets."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour le dire autrement : il s'agit de vérifier si la charge de travail que vous demandez à vos équipes pour mener vos projets passe ou non auprès des équipes, en fonction des tâches déjà prévues à leur planning."
+      },
+      {
+        "type": "paragraph",
+        "html": "Si de nombreux DSI ou PMO utilisent le Capacity Planning, c'est parce qu'il permet notamment de :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Augmenter les chances de réussir les projets</strong>. En limitant les goulots d'étranglement, vous évitez d'avoir affaire à des projets qui bloquent ou qui sont en retard.",
+          "<strong>Optimiser les ressources à disposition</strong> pour mieux planifier les projets à venir, notamment les projets transverses.",
+          "<strong>Améliorer la productivité</strong> des équipes au quotidien.",
+          "<strong>Aligner l'utilisation des ressources avec la stratégie de l'entreprise</strong> et donc, accélérer la livraison de valeur.",
+          "<strong>Se préparer à la variation de la demande</strong> dans le temps.",
+          "<strong>Diminuer la frustration entre les équipes</strong>, et plus principalement dans le Codir",
+          "<strong>Améliorer les relations entre les différents pôles</strong>. Vous pouvez enfin lancer les projets que tel métier demande depuis des mois sans relâche, sans pour autant surcharger les équipes. De quoi assainir plus d'une relation dans l'entreprise !"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "<a href=\"https://www.airsaas.io/fr/gestion-de-projet/capacity-planning-definition\">Pour creuser la définition du plan capacitaire, rendez-vous sur notre article sur le sujet</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-7-etapes-pour-creer-un-plan-capacitaire-efficace",
+        "text": "Les 7 étapes pour créer un plan capacitaire efficace"
+      },
+      {
+        "type": "paragraph",
+        "html": "À la recherche d'une méthode concrète pour créer votre Capacity Planning ? Vous êtes au bon endroit : voici les sept étapes par lesquelles passer pour obtenir un plan capacitaire efficace et aussi exact que possible !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-1-definir-vos-besoins-prioritaires",
+        "text": "Étape 1 : Définir vos besoins prioritaires"
+      },
+      {
+        "type": "paragraph",
+        "html": "Toute bonne gestion de la capacité de production doit commencer par <strong>s'appuyer sur la vision stratégique de l'entreprise</strong>. L'idée est de vous demander quelles sont les priorités, les projets qui permettront d'apporter le plus de valeur à l'entreprise sur la période à venir. C'est cette direction stratégique qui va vous permettre ensuite d'orchestrer au mieux les ressources à votre disposition."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, vous aurez besoin d'aligner l'intégralité de vos parties prenantes (direction et métiers) sur ces priorités. Le but : créer un plan capacitaire qui mette tout le monde d'accord."
+      },
+      {
+        "type": "paragraph",
+        "html": "Facile, sur le papier… mais, dans les faits, avoir un plan stratégique s'avère très compliqué ! Tout bouge tellement vite, que vous peinez à poser un cadre. Alors comment faire ?"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Commencez par demander à votre Direction Générale de <strong>définir ce qu'est un \"projet vital pour l'organisation\"</strong>. Cette définition servira de cadre premier.",
+          "Puis, <strong>demandez à chaque direction métier de définir ses priorités</strong>. Attention : chacune des directions doit comprendre qu'il ne peut pas y avoir 10 P0 (priorités zéro) ! Demandez-leur clairement de définir une P0, une P1, une P2, et ainsi de suite.",
+          "Enfin, vous pourrez revenir vers la Direction avec ces priorités par métiers, pour lui demander de définir <strong>les priorités à l'échelle de l'organisation</strong>."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce faisant, vous aurez un bon cadre pour commencer, sans avoir besoin de créer une usine à gaz pleine d'équations !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Gardez en tête que prioriser, c'est forcément renoncer (ou, tout du moins, reporter à plus tard). Ainsi, un plan capacitaire est nécessairement politique, et demande une véritable stratégie d'alignement des différentes parties prenantes !"
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'issue de cette étape, vous avez en tête les lignes directrices que doit suivre votre plan capacitaire."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-2-analyser-la-capacite-actuelle",
+        "text": "Étape 2 : Analyser la capacité actuelle"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans un deuxième temps, faites un <strong>inventaire des ressources disponibles</strong> dans votre entreprise. Pensez ici à la fois en termes de ressources humaines et financières."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour vos projets transverses, demandez à chacune des équipes impliquées de déclarer leur capacité sur la période à venir. Vous pouvez leur proposer de déclarer cette capacité sous forme de temps/homme, ou bien sous forme de t-shirt sizing, si les responsables ont du mal à estimer précisément la capacité de leurs équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "À cette étape, vous devez veiller à bien identifier le temps de run et le temps de build - le run étant toujours incompressible."
+      },
+      {
+        "type": "paragraph",
+        "html": "La clé pour réussir cette étape ? Penser à la maille de l'équipe, et non de l'individu. Cela vous permettra de définir un capacitaire à l'échelle de votre organisation, sans vous arracher les cheveux à rentrer dans le détail micro."
+      },
+      {
+        "type": "paragraph",
+        "html": "Considérez qu'on entend ici par \"équipe\" un rassemblement de compétences homogènes. En ce sens, dans le pôle IT, une équipe peut être par exemple l'équipe IT Sécurité, l'équipe IT Data, ou l'IT Intégration. Dans le service marketing, on différenciera l'équipe marketing Content, l'équipe marketing CRM, et les autres membres du pôle, rassemblés dans une équipe \"marketing Autres\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif de cette étape : vous permettre d'<strong>avoir une idée aussi précise que possible de la manière dont les compétences sont utilisées actuellement</strong>, et du temps qui leur reste à déployer sur d'autres projets."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "comment-aider-les-equipes-a-calculer-le-temps-de-run-et-de-build",
+        "text": "Comment aider les équipes à calculer le temps de run et de build ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour de nombreux pôles, il sera sans doute complexe de vous annoncer leur temps de run et leur temps de build. Mais bonne nouvelle : nous avons une technique pour que vous les aidiez !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Commencez par leur demander d'observer toutes les tâches que l'équipe fait au quotidien, et d'essayer de les bloquer dans des demi-journées de la semaine. Plutôt que de tout traiter instantanément, il s'agit pour ces équipes de fonctionner par \"batch\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chaque semaine, les équipes essayent de s'améliorer sur chacun de leurs batchs. Et, au bout de quatre semaines, elles peuvent constater combien de demi-journées elles doivent immobiliser pour gérer le run quotidien - et donc, combien de temps elles peuvent dégager pour le build."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-3-gerer-la-demande-soit-structurer-pour-eviter-la-dispersion",
+        "text": "Étape 3 : Gérer la demande - soit structurer pour éviter la dispersion"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67d14814ad46b55ee85c5eed_gestion-de-la-demande.png",
+        "alt": "Gestion de la demande"
+      },
+      {
+        "type": "paragraph",
+        "html": "La gestion de la demande repose sur un principe simple : <strong>créer les conditions pour exprimer les besoins de manière efficace</strong>, sans perdre de temps dans des processus inutiles. Trop souvent, les équipes métiers inondent l'IT de demandes mal cadrées, via des emails, des tickets ou des discussions informelles, ce qui entraîne une perte de temps et une frustration généralisée. Structurer cette gestion permet de clarifier les priorités, d'éviter le gaspillage d'énergie et de concentrer les efforts sur les projets réellement utiles."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "le-duo-it-domaine-metier-ou-it-responsable-solution",
+        "text": "Le duo IT - Domaine Métier ou IT - Responsable Solution"
+      },
+      {
+        "type": "paragraph",
+        "html": "La première étape consiste à organiser la gestion des demandes autour de <strong>duos structurés</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Selon les domaines, il peut s'agir :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>D'un binôme IT - Domaine Métier</strong> (exemple : IT RH et Responsable RH, IT Finance et Responsable Finance).",
+          "<strong>D'un binôme IT - Responsable Solution</strong> (exemple : IT CRM et Responsable Solution CRM, IT WMS et Responsable WMS)."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce duo joue un rôle clé en tant que filtre et point d'entrée unique pour toutes les demandes de leur périmètre."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il se réunit toutes les deux semaines pour :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Centraliser</strong> les demandes et éviter qu'elles soient disséminées un peu partout.",
+          "<strong>Filtrer et disqualifier</strong> celles qui ne sont pas alignées avec les priorités stratégiques.",
+          "<strong>Structurer</strong> les demandes avant qu'elles ne soient étudiées plus en détail."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce mode de fonctionnement oblige les métiers à <strong>prendre leurs responsabilités</strong> en ne lançant que des demandes réellement pertinentes. L'IT ne devient plus un simple exécutant mais un véritable partenaire, capable d'apporter de la valeur en aidant à structurer les besoins dès le départ."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "un-pre-sizing-rapide-et-pragmatique",
+        "text": "Un pré-sizing rapide et pragmatique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois une demande validée par le duo, elle passe dans une phase de <strong>pré-sizing macro</strong>, qui permet d'obtenir une estimation rapide de son impact."
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce travail n'est pas réalisé par une seule personne mais par un <strong>groupe de quelques experts</strong> ayant une bonne vision des capacités et du fonctionnement des équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Leur mission est de :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Définir quelles équipes</strong> doivent être impliquées.",
+          "<strong>Estimer le volume d'effort global</strong> (sans entrer dans le détail des tâches).",
+          "<strong>Vérifier la faisabilité</strong> en fonction des contraintes existantes"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "L'objectif ici est d<strong>'aller vite</strong>. Pas question de lancer une étude approfondie à ce stade. L'idée est de donner une première évaluation permettant aux métiers de <strong>se confronter à la réalité</strong>. Un directeur de domaine a souvent tendance à penser que tout est simple et rapide. En lui donnant une estimation macro, il peut mieux prioriser ses demandes en fonction des efforts nécessaires. Cette étape permet également d'<strong>écarter rapidement</strong> les projets qui n'ont aucun sens ou qui ne sont pas faisables dans un horizon raisonnable."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "lintegration-et-larbitrage-dans-la-roadmap",
+        "text": "L'intégration et l'arbitrage dans la roadmap"
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois une demande qualifiée et estimée, elle doit être <strong>intégrée dans la roadmap globale</strong>. L'objectif est d'éviter l'effet \"pile infinie\" où des projets sont validés mais jamais réalisés faute de place dans le planning."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette étape repose sur plusieurs principes :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Découper le projet</strong> en phases claires pour faciliter son absorption.",
+          "<strong>Intégrer une logique capacitaire</strong> : vérifier si les équipes ont réellement la bande passante pour mener le projet.",
+          "<strong>Arbitrer face aux autres priorités</strong> : un projet peut être techniquement faisable, mais s'il n'a pas de place dans le plan d'exécution, il ne sert à rien de le garder en suspens."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette phase permet de transformer une simple demande en un projet cadré et réalisable, avec une vision claire sur son impact et son échéance."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "en-somme-un-processus-clair-et-efficace",
+        "text": "En somme : un processus clair et efficace"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le duo IT - Domaine Métier ou IT - Responsable Solution</strong> centralise et filtre les demandes.",
+          "<strong>Le pré-sizing rapide</strong> par un groupe d'experts donne une estimation macro et élimine les demandes non viables.",
+          "<strong>L'intégration dans la roadmap</strong> priorise et assure que les projets sont réellement exécutables."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec cette approche, la gestion de la demande devient plus fluide, plus transparente et plus efficace. L'IT cesse d'être un simple réceptacle de demandes et devient un acteur stratégique dans la sélection et la structuration des projets.<br/>Qui plus est, le fait de planifier votre portfolio de projets sur une période longue comme le trimestre, le semestre ou le Program Increment, crée une pression positive dans toute l'organisation. Chaque équipe va faire en sorte de finir son projet avant la prochaine réunion, et fera l'effort de bien cadrer en amont ses besoins spécifiques pour la période à venir. Que du bon !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-4-identifier-les-ecarts-entre-capacite-et-demande",
+        "text": "Étape 4 : Identifier les écarts entre capacité et demande"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici, l'objectif est de <strong>comparer la capacité actuelle des équipes avec la demande prévue</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour ce faire, mettez en évidence les goulots d'étranglement et les zones où les ressources sont en surplus, pour les équilibrer ensuite au vu des projets à mener."
+      },
+      {
+        "type": "paragraph",
+        "html": "Notez que cette étape peut également être réalisée collectivement, pendant votre Quarter Plan ou <a href=\"http://www.airsaas.io/fr/gestion-de-projet/pi-planning\">PI Planning</a>. Au vu des priorités de chaque parties prenantes, vous déterminez pendant cette réunion ce qui est ou non faisable à l'échelle du trimestre."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c02619d9ea0f26bb542e01_capacitaire-equipes.png",
+        "alt": "Capacitaire par équipes"
+      },
+      {
+        "type": "hubspot-cta",
+        "label": "Réserver une démo",
+        "href": "/fr/meetings-pages",
+        "id": "188471576967"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-5-implementer-votre-plan-capacitaire",
+        "text": "Étape 5 : Implémenter votre plan capacitaire"
+      },
+      {
+        "type": "paragraph",
+        "html": "Voici venue l'étape où vous formalisez réellement votre plan capacitaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour bien équilibrer la capacité et la demande, plusieurs options s'offrent à vous. Vous pouvez :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Ajuster la capacité</strong>, en recrutant des ressources humaines en plus, en formant certains collaborateurs à des compétences dont vous manquez, en externalisant la production de certains livrables, ou encore en déployant de nouvelles technologies.",
+          "<strong>Moduler la demande</strong>, en priorisant certains projets dans le temps ou en reportant certains livrables à une période ultérieure. Là encore, si vous fonctionnez selon la méthode du PI Planning ou du Quarter Plan, cette stratégie aura été mise en place collectivement pendant le rassemblement de toutes vos parties prenantes."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Souvent, la création d'un plan capacitaire mélange les deux options. Ainsi, vous concevez un plan capacitaire sur-mesure, où vous ajoutez des ressources ici et enlevez des compétences là, pour faire passer en priorité les projets qui apportent le plus de valeur ajoutée à l'entreprise entière."
+      },
+      {
+        "type": "paragraph",
+        "html": "Une fois votre plan capacitaire bien équilibré, <strong>déployez les actions identifiées pour réduire les écarts entre capacité et demande</strong>. Selon les stratégies décidées, cela peut demander de mettre en place un plan de recrutement ou de formation, trouver les ressources externes nécessaires, mettre à jour la roadmap du portefeuille de projet…"
+      },
+      {
+        "type": "paragraph",
+        "html": "N'hésitez pas à mettre en place des outils pour suivre la mise en œuvre de votre plan capacitaire. Bonne nouvelle : on vous donne plus d'informations sur le sujet dans la dernière partie de cet article."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-6-suivre-et-ajuster-en-continu",
+        "text": "Étape 6 : Suivre et ajuster en continu"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un plan capacitaire est un document nécessairement mouvant, au fil des changements dans la demande et dans les ressources humaines ou matérielles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mettez donc en place des KPIs pour évaluer l'efficacité de votre Capacity Planning, comme :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Le taux d'avancement du Quarter plan</strong>",
+          "<strong>Le taux d'achèvement des projets</strong> selon les budgets et les deadlines prévus",
+          "<strong>Le taux d'interruption ou de retard</strong> sur les projets qui serait lié à une mauvaise planification de la capacité",
+          "<strong>Le niveau de satisfaction</strong> de vos parties prenantes (collaborateurs et clients) vis-à-vis de votre plan"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Puis, en suivant ces KPIs, repérez en continu des pistes d'optimisation de votre plan capacitaire. Ajustez-le régulièrement en fonction des changements dans la demande ou les ressources, et en mettant en place des points de contrôle avec les différentes parties prenantes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "etape-7-lancer-votre-journee-capacitaire",
+        "text": "Étape 7 : Lancer votre journée Capacitaire"
+      },
+      {
+        "type": "paragraph",
+        "html": "Et peut-être le plus important : la <strong>journée Quarter Plan</strong> est un moment de <strong>resynchronisation collective</strong> sur ce qui est réellement faisable ou non pour le prochain trimestre. Trop souvent, les équipes avancent avec des priorités mal alignées, des contraintes mal comprises et des décisions prises en silos. Cet événement interne vise justement à <strong>casser ces silos</strong> en permettant aux collaborateurs de se revoir, d'échanger librement et d'ajuster ensemble leurs engagements."
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà de la planification, cette journée offre un <strong>temps précieux pour se rencontrer</strong>, partager les réalités du terrain et résoudre des problématiques opérationnelles qui ne trouvent pas toujours leur place dans le flot quotidien des réunions en visio ou des discussions asynchrones. C'est aussi un moment où l'on prend <strong>conscience des capacités réelles</strong> des équipes, en confrontant les ambitions aux ressources disponibles."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le format physique est clé : il crée un lien humain fort, facilite les discussions franches et ancre les décisions dans une dynamique collective. À l'ère du travail hybride et de l'isolement digital, ce type d'événement devient indispensable pour recréer de la cohésion, <strong>donner du sens aux priorités</strong> et s'assurer que le plan du prochain trimestre repose sur un engagement partagé et réaliste."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bravo : vous avez mis en place un process de Capacity Planning bien huilé !"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quels-outils-pour-creer-votre-capacity-planning",
+        "text": "Quels outils pour créer votre Capacity Planning ?"
+      },
+      {
+        "type": "paragraph",
+        "html": "Vous l'avez lu plus haut : votre plan capacitaire demande à être revu régulièrement, à l'aune de la variation de la demande et des ressources disponibles. Cet outil si utile peut alors devenir rapidement un casse-tête, si vous ne disposez pas d'un outil collaboratif, où vous pouvez regrouper à la fois le suivi de vos projets au niveau macro et la fluctuation de la capacité disponible."
+      },
+      {
+        "type": "paragraph",
+        "html": "Chez Airsaas, nous avons un parti pris : celui de <strong>préférer un capacitaire approximativement juste plutôt que précisément faux</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "D'où la création de notre logiciel de gestion de portefeuille de projet, qui vous permet de créer un plan capacitaire par équipe, sur un temps plutôt long (trimestre, semestre, ou PI). Votre Capacity Planning devient alors plus simple à maîtriser, et se focalise sur le build plutôt que sur la capacité de chaque individu."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comment ça fonctionne ? Chaque équipe déclare sa capacité dans Airsaas, et le DSI ou PMO récolte toute la demande à l'échelle de l'entreprise. Par la suite, la vue Capacitaire de l'outil permet de savoir précisément quels livrables mettent à mal l'avancement de vos projets, quelle capacité vous avez dans chaque équipe, et quels sont vos besoins en ressources humaines supplémentaires."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/67c02737c3f7b9a4eb992582_capacitaire-airsaas.png",
+        "alt": "Capacitaire Airsaas"
+      },
+      {
+        "type": "paragraph",
+        "html": "Airsaas devient ainsi votre outil de capacitaire macro - ce qui ne vous empêche pas ensuite, si vous le souhaitez, de décliner votre Capacity Planning à l'échelle de la personne sur deux à trois mois maximum."
+      },
+      {
+        "type": "paragraph",
+        "html": "En somme : Airsaas est l'outil collaboratif qui vous aide à assurer une gestion de la capacité de production, en alignant toutes les parties prenantes sur les priorités stratégiques de l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Envie de tester la solution ? <a href=\"https://www.airsaas.io/fr/produit/capacity-planning\">Découvrez la fonctionnalité \"plan capacitaire\" d'Airsaas, et demandez une démo à l'un de nos experts !</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

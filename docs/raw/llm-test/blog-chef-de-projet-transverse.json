@@ -1,0 +1,442 @@
+{
+  "type": "blog",
+  "slug": "chef-de-projet-transverse",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment être un bon chef de projet transverse ?",
+      "h1": "Comment être un bon chef de projet transverse ?",
+      "description": "Quels sont les enjeux et difficultés du chef de projet transverse ? Découvrez les outils et compétences clés pour piloter efficacement des projets transverses sans lien hiérarchique.",
+      "author": {
+        "name": "Bertran Ruiz",
+        "category": "Gestion de projets",
+        "publishedDate": "21/4/2022",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/61e0385c210a2b1948e800a6_BR-min.jpg"
+      },
+      "publishedDate": "21/4/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f389f9e54e0198db633d40_Project%20image%20(1).jpg",
+        "alt": "Gestion de Projets"
+      }
+    },
+    "toc": [
+      {
+        "label": "Difficultés et enjeux du chef de projet transverse",
+        "href": "#difficultes-et-enjeux-du-chef-de-projet-transverse"
+      },
+      {
+        "label": "Les 7 outils du chef de projet transversal",
+        "href": "#les-7-outils-du-chef-de-projet-transversal"
+      },
+      {
+        "label": "Les compétences clés d'un bon directeur de projet transverse",
+        "href": "#les-competences-cles-dun-bon-directeur-de-projet-transverse"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Quels sont les enjeux et les difficultés du poste ? Comment <strong>rendre efficace le pilotage de projets </strong>transverses et la coordination des équipes <strong>sans liens hiérarchiques ?</strong> Découvrez les éléments clés qui vous permettront de<strong> faire bouger les lignes</strong> dans votre démarche de <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet</a>."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/625f1b2321d9e558691c7049_cdp-transverse-airsaaas-ok.jpg",
+        "alt": "Salle de réunion",
+        "caption": "Animer des temps collectifs : un rôle clé du chef de projet transverse"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "difficultes-et-enjeux-du-chef-de-projet-transverse",
+        "text": "Difficultés et enjeux du chef de projet transverse"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet (CDP) à la responsabilité de la gestion de projet et des opérations, nécessitant la constitution d'une équipe dédiée avec la participation de profils de différentes compétences n'évoluant pas dans les mêmes services et n'ayant <strong>pas de liens hiérarchiques entre eux</strong>, qu'ils soient internes ou externes à l'entreprise."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f38892e8660c95f8577b49_difficult-cdp-transverse-min.jpg",
+        "alt": "Illustration d'un chef de projet épuisé",
+        "caption": "Chef de projet out of order :("
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pas-de-lien-hierarchique-avec-lequipe",
+        "text": "Pas de lien hiérarchique avec l'équipe"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ce point est souvent vu comme une difficulté, mais en réalité, c'est un facteur qui peut être très positif dans la gestion de projet. Cela permet de créer une <strong>dynamique de collaboration nouvelle</strong> basée sur la transparence et la responsabilisation de chacun."
+      },
+      {
+        "type": "paragraph",
+        "html": "L'enjeu ici sera de :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Rester dans le factuel et la transparence",
+          "Fédérer l'équipe autour des enjeux du projet et de l'impact de sa réussite"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour cela, vous aurez besoin de<strong> profils moteurs</strong> et d'un <strong>sponsor impliqué et fédérateur</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "pas-dans-la-meme-equipe",
+        "text": "Pas dans la même équipe"
+      },
+      {
+        "type": "paragraph",
+        "html": "La première difficulté à ne pas être dans la même équipe est <strong>le manque de proximité</strong>. Ils ne partagent souvent pas les mêmes bureaux, ils peuvent parfois se retrouver sur des sites différents, ils n'ont pas toujours le même emploi du temps ou encore la même organisation. <strong>Alors comment faire ?</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "des-seances-de-travail-dediees",
+        "text": "Des séances de travail dédiées"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est primordial d'aménager du temps commun dédié à l'équipe pour avancer ensemble sur les différents sujets. Au delà <strong>d'un point hebdomadaire</strong> qui est indispensable, les différents membres de l'équipe doivent pouvoir s'aménager des sessions en groupe ou en sous-groupe pour les besoin des opérations."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "un-onboarding-des-superieurs-hierarchiques",
+        "text": "Un onboarding des supérieurs hiérarchiques"
+      },
+      {
+        "type": "paragraph",
+        "html": "Afin de pouvoir aménager du temps pour les membres de l'équipe, et ne pas mettre en conflit les tâches (notamment en charge) de leurs fonctions principales avec celles des opérations transverses, il est très<strong> important que le sponsor sensibilise et se mette d'accord avec les différents supérieurs des membres de l'équipe,</strong> pour faire en sorte que les ressources nécessaires soient aménagées. Le project manager et les supérieurs feront en sorte de se coordonner pour <strong>s'assurer que les actions de l'une des activités ne pénalisent pas celles de l'autre</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "visibilite-transparence-et-outils-dedies",
+        "text": "Visibilité, transparence et outils dédiés"
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour pallier ce manque de proximité, il est important que tous les membres de la task force puissent <strong>retrouver toutes les informations dont ils ont besoin</strong>, et ce, rapidement. Le CDP ou PMO fera donc en sorte que le travail de chacun soit accessible et communiqué, et les <strong>données soient centralisées, ordonnées et partagées.</strong> Dans l'idéal, il mettra en place un outil commun pour le suivi, qui favorise les échanges entre les membres, et qui soit accessible à tous. Cet outil doit également lui permettre d'assigner des tâches et <strong>offrir une vision globale de l'avancement</strong>."
+      },
+      {
+        "type": "paragraph",
+        "html": "De plus, pour agir face à une organisation différente du travail de chacun, il sera important de mettre en place une<strong> organisation simple</strong>, cadrée en amont par le chef de projet en s'assurant qu'elle s'adapte et convient à tous, <strong>avec des outils ergonomiques et intuitifs.</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-parties-prenantes-ne-sont-pas-full-time-sur-le-projet",
+        "text": "Les parties-prenantes ne sont pas full-time sur le projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est difficile de piloter des opérations dans lesquelles les parties prenantes ne sont pas à plein temps. Hormis le temps (limité) quotidien et hebdomadaire des membres de l'équipe pouvant impacter la roadmap, les personnes en face n'ont <strong>pas que ce projet comme préoccupation quotidienne</strong>. Leurs missions principales respectives peuvent parfois être jugées comme prioritaires et générer du retard, de la perte d'informations ou clarté sur l'avancement."
+      },
+      {
+        "type": "paragraph",
+        "html": "Tout l'enjeu ici est de<strong> faciliter le travail de chacun</strong> en :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Minimisant leur charge mentale",
+          "Faisant en sorte <strong>que chacun définisse et s'engage sur ce qu'il peut réaliser</strong> et le temps imparti",
+          "Conservant une communication précise et claire"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "un-cadre-projet-clair-et-efficace",
+        "text": "Un cadre projet clair et efficace"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est donc ici particulièrement<strong> essentiel que le cadre et les étapes du projet soient parfaitement clairs</strong>. Chacun doit pouvoir <strong>savoir à tout moment où en est le projet</strong>, et ce qui reste à venir."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le manager transversal est donc garant de la mise en place d'une <strong>structure simple</strong> au projet reprenant la vision globale, les jalons datés, et les différentes phases d'exécution (tout en faisant en sorte de découper les tâches avec des livrables clairs pour les membres de l'équipe)."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "ownership-et-engagement",
+        "text": "Ownership et engagement"
+      },
+      {
+        "type": "paragraph",
+        "html": "Avec l'absence de liens hiérarchiques il est important de voir les relations entre les collaborateurs comme un lien ressemblant plus à <strong>une relation de partenariat</strong>. Il est donc important pour chacun de prendre l'ownership des jalons qui lui seront assignés, de valider ces jalons avec le chef de projet transverse, ainsi que de s'engager sur l'exécution d'un livrable et une date de livraison."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le rôle du chef de projet est de s'assurer que la roadmap pourra être tenue dans un délai raisonnable, tout en challengeant les parties prenantes sur une éventuelle sous-dimensionnement ou sur-dimensionnement quant à la charge et les délais d'exécution."
+      },
+      {
+        "type": "paragraph",
+        "html": "N'hésitez pas à vous rapprocher de vos supérieurs hiérarchiques et du sponsor pour valider un cahier des charges et un plan de charge - l'important étant de toujours être transparent et clair dans l'état des lieux de la gestion de projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "les-aleas-du-timing",
+        "text": "Les aléas du timing"
+      },
+      {
+        "type": "paragraph",
+        "html": "Les aléas qui pourraient perturber le déroulement d'un projet voire même le mettre en danger sont nombreux. Ceci est particulièrement vrai quand il s'agit dans la gestion de projet transverse tant les <strong>facteurs d'imprévus sont importants</strong> et souvent en dehors du contrôle du chef de projet. Un collaborateur qui rencontre un aléa dans sa mission principale, l'indisponibilité matériel d'un composant du projet, un changement important et inattendu dans l'entreprise, peuvent mettre en péril toute la gestion de projets..."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "anticiper-cest-gagner",
+        "text": "Anticiper c'est gagner !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le chef de projet doit au maximum anticiper les facteurs bloquants que lui-même ou les membres de l'équipe projet pourraient rencontrer. Il doit être une ressource pour aider les parties prenantes en cas de problème pour la bonne conduite du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "<strong>La capacité de gestion des imprévus et du risque</strong> est certainement l'une des qualités les plus importantes pour les chefs de projets. Ils interviennent souvent dans des projets vecteurs d'innovation et de changement et, à ce titre, ils doivent porter une attention particulière à l'analyse du contexte dans lequel le projet va évoluer, qu'il soit technique, humain ou financier. La <strong>capacité à identifier les problèmes</strong> pouvant survenir sur les éléments clés et mettre en place les bonnes actions correctives<strong> pour les \"dérisquer\"</strong> est déterminante. Comme par exemple prendre du temps dans la phase de cadrage pour :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Anticiper les goulots d'étranglement</strong> et les facteurs bloquants sur les éléments critiques du projet",
+          "<strong>Préparer des actions correctives</strong>",
+          "<strong>Prendre une marge dans la roadmap </strong>pour les phases d'exécution et de prise de décisions"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-7-outils-du-chef-de-projet-transversal",
+        "text": "Les 7 outils du chef de projet transversal"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "lapproche-orientee-probleme",
+        "text": "L'approche orientée problème"
+      },
+      {
+        "type": "paragraph",
+        "html": "À l'instar de l'approche orientée solution, qui consiste à faire de la veille de solutions/méthodes/technologies nouvelles à mettre en place dans son entreprise (ce qui revient souvent à essayer de faire rentrer des ronds dans des carrés), l'approche orientée problème se veut plus pragmatique car elle permet de toujours avoir une réflexion<strong> ROIste </strong>sur le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "On passera beaucoup plus de temps dans la première phase du projet à<strong> comprendre ce qui compose la problématique</strong>, à trouver des moyens pour mesurer son impact en termes de coût ou de manque à gagner pour l'entreprise."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cette approche va surtout va <strong>mettre en évidence les leviers d'actions</strong> qui deviendront les fonctionnalités clés de la solution, et permettre de garder un fil conducteur jusqu'au déploiement du projet en :"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Permettant de monitorer si les actions prises sur le projet vont répondre aux sous-ensembles de la problématique",
+          "Conservant une vision financière, et donc, une meilleure gestion du budget",
+          "Répondant aux aspects les plus critiques de la problématique rapidement",
+          "Dimensionnant le bon périmètre de test et les bons KPIs",
+          "Consolidant un ROI"
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f388efe54e0173c06332f1_schema-cdp-transverse.jpg",
+        "alt": "Schéma de l'approche orientée problème",
+        "caption": "Schéma de l'approche orientée problème"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "la-donnee",
+        "text": "La donnée"
+      },
+      {
+        "type": "paragraph",
+        "html": "La valeur de la donnée n'étant plus à prouver, on mettra l'accent sur l'importance qu'elle a dans un projet transverse avec une approche orientée problème<strong>.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Ici c'est la donnée qui conditionne les actions et les décisions de toute l'équipe et les décisions en Go / No-Go de la direction - ce qui permet de rendre les échanges factuels et transparents."
+      },
+      {
+        "type": "paragraph",
+        "html": "Un bon chef de projet cherche à <strong>comprendre comment collecter, analyser et apporter les données pertinentes </strong>pour le projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Bien définie, elle lui sert comme outil d'auto-contrôle pour anticiper de futures actions correctives."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-document-cadre-du-projet",
+        "text": "Le document cadre du projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il s'agit certainement de <strong>la phase la plus importante pour le chef de projet</strong> et elle représente la majeure partie de la réussite d'un projet. Cette phase doit s'accompagner d'un document reprenant la synthèse de tous les éléments importants des opérations à lancer."
+      },
+      {
+        "type": "paragraph",
+        "html": "Voici un exemple de ce à quoi pourrait ressembler ce document :"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f3894ce3e5064579cdd482_625f1c9a23ed50380b8524fd_exemple-cadrage-projet-min.jpg",
+        "alt": "Document de cadrage projet",
+        "caption": "Exemple de document de cadrage projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est un document qui doit être<strong> issu d'un travail collaboratif</strong> avec toutes les parties prenantes opérationnelles. Il permet de donner une vue globale et claire à tous et fige les engagements de chacun. Il permettra de faciliter les prises de décisions<strong> </strong>en comité de pilotage, et assurera la continuité des informations entre \"prévu et réalisé\" tout au long du projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il servira de feuille de route au chef de projet transverse, lui permettra d'anticiper les facteurs bloquants, et de constater si le projet sort des rails."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-suivi-et-la-communication",
+        "text": "Le suivi et la communication"
+      },
+      {
+        "type": "paragraph",
+        "html": "Dans les projets transverses<strong> la communication est clé</strong> - il faut s'assurer que tout le monde a accès aux mêmes informations, il faut savoir jouer le rôle de médiateur parfois, et s'assurer que toutes les voies de communication sont ouvertes entre le chef de projet et les parties prenantes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Il y a aussi parfois une \"évangélisation\" à réaliser pour être sûr de pouvoir embarquer dans la démarche tous ceux qui ont ou vont avoir un contact avec le projet."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "la-culture-du-feedback-et-louverture-a-lexterieur",
+        "text": "La culture du feedback et l'ouverture à l'extérieur"
+      },
+      {
+        "type": "paragraph",
+        "html": "\"Seul on va plus vite, à plusieurs on va plus loin.\" Un dicton qui résume bien l'importance de la culture du feedback et<strong> l'importance de s'entourer et s'ouvrir à des personnes extérieures </strong>au projet."
+      },
+      {
+        "type": "paragraph",
+        "html": "Que ce soit vers d'autres collègues, des écosystèmes d'innovation, des entreprises au marché ou fonctionnement similaire, dites-vous bien que si vous êtes confrontés à un problème, d'autres le sont peut-être aussi et ont déjà essayé de le résoudre. Qu'ils aient réussi ou échoué, ce sera une source d'apprentissage et d'informations importante."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "le-moment-cle",
+        "text": "Le moment clé"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le CDP à un rôle d'<strong>animation du comité de pilotage</strong>. Il doit s'assurer que tous les points importants de l'ordre du jour seront abordés. Pour cela il aura préparé en amont les intervenants, points et décisions clés à aborder pendant ce comité. Pour cela il peut s'aider de quelques points suivants."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "avoir-un-bon-sponsor",
+        "text": "Avoir un bon sponsor"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f389bfff92d37295bf4743_cdp-transverse-airsaaas.jpg",
+        "alt": "équipe",
+        "caption": "L'esprit d'équipe se construit"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "cest-lui-qui-arrive-a-rebooster-la-team",
+        "text": "C'est lui qui arrive à rebooster la team"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au-delà qu'il fait partie ou représente souvent la direction pour un groupe sans lien hiérarchique direct entre eux, il a un <strong>rôle déterminant dans la mobilisation des effectifs</strong> de l'équipe formée pour l'objectif, il transmet la vision et l'enjeu de la démarche ainsi que les bénéfices qui en découlent. Il permet aux collaborateurs de sortir de leur cadre habituel en leur confiant une mission nouvelle. Il permet aussi aux collaborateurs de partager et valoriser leurs idées en leur donnant les moyens de les mettre en action."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "il-donne-le-cap",
+        "text": "Il donne le cap"
+      },
+      {
+        "type": "paragraph",
+        "html": "Le sponsor va permettre et<strong> faciliter la mise en place de ces nouveaux projets</strong>, donner la ligne directrice et stratégique pour que le projet s'inscrive dans la vision et les enjeux de l'entreprise. À ce titre il sera <strong>un des arbitres clés de la démarche </strong>ainsi que pour la prise de décision et la défense du projet au Codir."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "id": "il-defend-le-projet-avec-le-chef-de-projet-transversal-au-comite-de-pilotage",
+        "text": "Il défend le projet avec le chef de projet transversal au comité de pilotage"
+      },
+      {
+        "type": "paragraph",
+        "html": "La posture du sponsor est déterminante. Son <strong>rôle est de suivre et challenger l'avancement des parties prenantes</strong>, <strong>d'arbitrer les décisions Go / No-Go</strong> (possiblement en consultation avec d'autres cadres du comité et/ou Codir) et de valider les prochaines étapes proposées. Il est important de lui fournir toutes les informations clés afin qu'il puisse faciliter le déroulement opérationnel voire même de le réorienter/recadrer si on s'éloigne de la vision et objectif initial."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est le premier convaincu de la démarche et du projet, de ce fait, il défend avec le CDP le projet et sa direction aux parties prenantes et/ou autres membres de direction."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "les-competences-cles-dun-bon-directeur-de-projet-transverse",
+        "text": "Les compétences clés d'un bon directeur de projet transverse"
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé un bon chef de projet transversal doit avoir les compétences suivantes :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Esprit d'équipe",
+          "Communiquant",
+          "Organisation et rigueur",
+          "Pragmatisme",
+          "Écoute et anticipation",
+          "Appétence pour la gestion du risque",
+          "Curiosité, dans une démarche d'apprentissage permanent",
+          "Adepte de la culture du feedback et de recherche de retours d'expériences"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Pour approfondir cette démarche, nous vous conseillons la lecture de cet article clé <a href=\"http://gestion-de-projet/le-guide-du-mode-projet\"> Comment faire passer mon entreprise en mode projet ?</a>"
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

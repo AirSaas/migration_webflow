@@ -1,0 +1,424 @@
+{
+  "type": "blog",
+  "slug": "comment-mettre-une-bonne-meteo-projet",
+  "iteration": 1,
+  "outcome": "PASS_FIRST_TRY",
+  "errors": [],
+  "result": {
+    "meta": {
+      "title": "Comment faire une météo projet claire et compréhensible ?",
+      "h1": "Comment faire une météo projet claire et compréhensible ?",
+      "description": "Découvrez comment mettre en place une météo projet pertinente : usages fondamentaux, bonnes pratiques, erreurs courantes à éviter et alternatives visuelles pour vos états de santé projet.",
+      "author": {
+        "name": "Jérôme Dard",
+        "avatarSrc": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/6253f0a55719365a7a838978_Avatar%20Je%CC%81ro%CC%82me.png",
+        "category": "Gestion de projets",
+        "publishedDate": "13/4/2022"
+      },
+      "publishedDate": "13/4/2022",
+      "heroImage": {
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/62f36d0c33f545261135cd82_meteo-projet-airsaas-min.jpg",
+        "alt": "Météo projet AirSaas"
+      }
+    },
+    "toc": [
+      {
+        "label": "Qu'est ce qu'une météo projet ?",
+        "href": "#quest-ce-quune-meteo-projet"
+      },
+      {
+        "label": "La météo projet, levier de performance insoupçonné",
+        "href": "#la-meteo-projet-levier-de-performance-insoupconne"
+      },
+      {
+        "label": "Quatre problèmes courants avec la météo projet !",
+        "href": "#quatre-problemes-courants-avec-la-meteo-projet"
+      },
+      {
+        "label": "Quatre alternatives visuelles à la météo pour vos états de santé projet :",
+        "href": "#quatre-alternatives-visuelles-a-la-meteo-pour-vos-etats-de-sante-projet"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "html": "Oui ! Cette approche est à la fois suffisamment porteuse, pour libérer la parole de la plupart des personnes impliquées et simple, pour <strong>rendre lisible l'état de santé du portefeuille projet</strong>. Bien exécutée elle <strong>rend accessible rapidement les informations</strong> clés à connaitre derrière les différents changement de statuts...et facilitera votre <a href=\"/gestion-de-projet/le-grand-guide-de-la-conduite-de-projet\">conduite de projet.</a>"
+      },
+      {
+        "type": "paragraph",
+        "html": "On vous dit tout pour faire de cette pratique <strong>un levier d'efficacité</strong> de votre gestion de projet : usages fondamentaux et bonnes pratiques, comment <strong>mettre en place une météo projet pertinente ? Quels sont les erreurs courantes et pièges à éviter ?</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qu'est ce qu'une météo projet ?",
+        "id": "quest-ce-quune-meteo-projet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b15_6247101b95f4a4562cfa3fd0_27379b47-3c96-4060-b561-4b071f5ad3db.png",
+        "alt": "Capture écran AirSaas - mété",
+        "caption": "Trois états de météo projet type"
+      },
+      {
+        "type": "paragraph",
+        "html": "La météo projet est un <strong>modèle visuel simple</strong>, qui utilise la métaphore du temps qu'il fait pour communiquer sur l'état de santé d'un projet. C'est même le <strong>premier indicateur de la santé d'un projet !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Intimement liés au processus d'amélioration continue, le <strong>suivi</strong> et l'<strong>analyse</strong> des indicateurs fournissent un retour, des informations essentielles aux équipes."
+      },
+      {
+        "type": "paragraph",
+        "html": "Mais attention...pas n'importe comment !"
+      },
+      {
+        "type": "paragraph",
+        "html": "A minima, cet indicateur de reporting doit être :"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Compréhensible par tous</strong> : idéalement, sa définition sera le fruit d'un travail collaboratif de l'équipe",
+          "<strong>Ciblé</strong> : les besoins de partage d'informations auxquels ils répond doivent être clairement définis",
+          "<strong>Partagé</strong> pour que tout le monde aille dans la même direction, vers un seul et même but"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "html": "Par exemple, voici trois indicateurs type d'une météo simple et leur signification :"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "☀️ Soleil : Le projet progresse comme prévu..",
+        "id": "soleil-le-projet-progresse-comme-prevu"
+      },
+      {
+        "type": "paragraph",
+        "html": "Tous les <a href=\"https://www.airsaas.io/fr/gestion-de-projet/jalon-projet\">jalons projets</a> sont sur la bonne voie. Aucune action nécessaire. Bravo :)"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "🌧️ Pluie : c'est compliqué",
+        "id": "pluie-cest-complique"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un ou plusieurs jalons majeurs sont en retard, mais la livraison finale n'est pas impactée."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le comité de projet devrait être notifié utilisant un point de synchronisation déjà prévu avec le sponsor."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "⚡ Orage : c'est bloqué",
+        "id": "orage-cest-bloque"
+      },
+      {
+        "type": "paragraph",
+        "html": "Un ou plusieurs jalons majeurs sont en retard et la livraison finale est impactée."
+      },
+      {
+        "type": "paragraph",
+        "html": "Le sujet devrait être remonté immédiatement au sponsor de projet et au comité de projet."
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b71_62f36c15e3e50656f7ccc017_flash-report-min.jpeg",
+        "alt": "Interface AirSaas (flash report)",
+        "caption": "Vue du flash report projet généré depuis la plateforme AirSaas"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Les trois \"bénéfices\" de la météo projets :",
+        "id": "les-trois-benefices-de-la-meteo-projets"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "👉 Synthétiser l'état d'avancement d'un projet",
+        "id": "synthetiser-letat-davancement-dun-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Agrémenter les tableaux de synthèse d'indicateurs permet de <strong>simplifier la lecture des données </strong>et de rendre compte rapidement de la situation globale...et du contexte."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "👉 Mettre en évidence l'évolution",
+        "id": "mettre-en-evidence-levolution"
+      },
+      {
+        "type": "paragraph",
+        "html": "En relisant le bulletin météo précédent et en donnant à voir des changements. On permet aux parties prenantes de saisir les \"dynamiques\" vécues au sein des collectifs."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "👉 \"Créer la parole\"",
+        "id": "creer-la-parole"
+      },
+      {
+        "type": "paragraph",
+        "html": "Au sens propre \"provocare\". On pense trop souvent que c'est acquis. Au contraire. Ces informations visuelles permettent d'aborder le <a href=\"https://www.airsaas.io/fr/gestion-de-projet/comment-elaborer-un-reporting-efficace\">reporting projet</a> d'une manière plus légère."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "La météo projet, levier de performance insoupçonné",
+        "id": "la-meteo-projet-levier-de-performance-insoupconne"
+      },
+      {
+        "type": "paragraph",
+        "html": "La météo projet offre une véritable <strong>cartographie des activités en cours et des éventuels signaux faibles, symptômes ou syndromes de dysfonctionnements </strong>de votre système. !"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Signaux faibles : quelques nuages et averses ?",
+        "id": "signaux-faibles-quelques-nuages-et-averses"
+      },
+      {
+        "type": "paragraph",
+        "html": "Des précipitations...c'est normal. <strong>Aucun projet ne se passe comme prévu</strong>...c'est dommage mais c'est la règle des 5 C (\"C'est con mais c'est comme ça\" ;-)!"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Symptômes : pluie très fréquentes ?",
+        "id": "symptomes-pluie-tres-frequentes"
+      },
+      {
+        "type": "paragraph",
+        "html": "Aïe ...l'équipe n'a pas vu le soleil depuis longtemps...<strong>Attention</strong>, d'une part au moral des troupes et d'autre part<strong> aux causes réelles de cette mauvaise conjoncture répétée.</strong> Un <strong>travail d'analyse des causes</strong> sur les problématiques rencontrées peut (devrait) utilement être mené."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Syndromes : la foudre est tombée plusieurs fois ?",
+        "id": "syndromes-la-foudre-est-tombee-plusieurs-fois"
+      },
+      {
+        "type": "paragraph",
+        "html": "Il est presque trop tard...<strong>la mauvaise santé est chronique</strong>. Les causes structurelles de cette mauvaise santé sont désormais \"enkystées\"..."
+      },
+      {
+        "type": "paragraph",
+        "html": "En vous<strong> concentrant sur les signaux faibles et / ou symptômes fréquents</strong>, c'est à dire les sujets compliqués voire bloquants, vous pourrez déterminer avec précision où concentrer les ressources pour optimiser votre gestion de projet. <strong>Mesurer c'est piloter !</strong>"
+      },
+      {
+        "type": "paragraph",
+        "html": "Finalement cet indicateur est un <strong>outil de reporting visuel </strong>assez<strong> proche des outils de management visuel </strong>issues des méthodes de production <strong>du lean management. Celui qu'on regarde le plus !</strong>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quatre problèmes courants avec la météo projet !",
+        "id": "quatre-problemes-courants-avec-la-meteo-projet"
+      },
+      {
+        "type": "paragraph",
+        "html": "Oui ! Un indicateur aussi simple que la météo projet peut être \"perverti\". Rappelez vous que même le plus simple des outils, lorsqu'il est utilisé à l'envers est contre productif ! voire dangereux."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Pas assez de nuances...on a seulement trois indicateurs !",
+        "id": "1-pas-assez-de-nuanceson-a-seulement-trois-indicateurs"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b18_62471c06b22b5c1d964df38a_3typeou4meteo-projet.png",
+        "alt": "3 statuts météo",
+        "caption": "Avec un 4e statut on dépassera plus facilement le côté \"tous les  projets ont la moyenne\"..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Quand il y a seulement trois statuts de météo projets...on a naturellement tendance à mettre celui du milieu..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Cela n'apporte plus la clarté dans la lisibilité attendue..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Avoir <strong>quatre critères de météo vous apportera de la nuance</strong>, de la finesse. Comme le dit le dicton....\"Il vaut mieux du \"dur sur\" que du \"mou flou\" ! :-)"
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Par exemple, 4 indicateurs type :",
+        "id": "par-exemple-4-indicateurs-type"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Bloqué,",
+          "compliqué,",
+          "se complique",
+          "et normal !"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Pas de méthodologie ....tout le monde le fait à sa sauce !",
+        "id": "2-pas-de-methodologie-tout-le-monde-le-fait-a-sa-sauce"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b1b_62471caf99cf8d3b8d73c53b_methodologie-meteo-projet-airsaas.png",
+        "alt": "methodo projet",
+        "caption": "Culture projet partagée au sein d'une seule plateforme fait gagner du temps !"
+      },
+      {
+        "type": "paragraph",
+        "html": "Focalisé sur des usages avancés....on oublie souvent ce point de méthode basique en gestion de projet....<strong>Se mettre d'accord </strong>avec toutes les parties prenantes sur <strong>ce qui fait passer d'un statut météo projet à un autre. </strong>C'est fondamental."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Pas de contexte...vous ne savez pas pourquoi un changement de statut a eu lieu !",
+        "id": "3-pas-de-contextevous-ne-savez-pas-pourquoi-un-changement-de-statut-a-eu-lieu"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b74_62f36c9e9f36f7095f1667ca_projet-bloque-airsaas-min.jpeg",
+        "alt": "accès détail météo",
+        "caption": "En un clic sur \"Voir le détail\", retrouver l'explication de pourquoi votre projet est bloqué depuis deux semaines !"
+      },
+      {
+        "type": "paragraph",
+        "html": "☀️ Connaitre la météo et le risque d'un projet c'est bien, <strong>savoir pourquoi il est dans cette état c'est encore mieux. </strong>En un clic sur \"Voir le détail\", retrouver l'explication de pourquoi votre projet est bloqué depuis deux semaines !"
+      },
+      {
+        "type": "paragraph",
+        "html": "On à besoin que<strong> l'information du changement de statut soit compréhensible par tous.</strong> Pour y parvenir votre météo projet peut être \"auto-portante\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "C'est à dire toujours accompagnée d'un message, du contexte précis, accessible en 1 clic ! Quelqu'un qui arrivera sur le projet...comprendra le pourquoi du comment !"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Pas d'intégrité....On préfère masquer les problèmes !",
+        "id": "4-pas-dintegriteon-prefere-masquer-les-problemes"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b1e_624720794a08ba53b659f9da_integrite-projet-airsaas.png",
+        "alt": "Autruche projet",
+        "caption": "Le statut météo ne devrait pas être utilisé pour cacher des problèmes"
+      },
+      {
+        "type": "paragraph",
+        "html": "L'efficacité de cet outil repose sur l'intégrité du chef de projet et l'exactitude de la météo type assignée. Une <strong>météo inopportune peut mener à éviter d'affronter un problème et en supporter l'échec en fin de projet</strong>. Son but est de démontrer du progrès et de préciser quand l'intervention du comité de projet est nécessaire."
+      },
+      {
+        "type": "paragraph",
+        "html": "Donc,<strong> le statut météo ne devrait pas être utilisé pour cacher des problèmes. </strong>C'est plutôt une façon de <strong>rechercher du support et des conseils du sponsor et des parties prenantes</strong>. Utilisez une définition de statut commune pour communiquer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quatre alternatives visuelles à la météo pour vos états de santé projet :",
+        "id": "quatre-alternatives-visuelles-a-la-meteo-pour-vos-etats-de-sante-projet"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Le baromètre projet",
+        "id": "1-le-barometre-projet"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b21_62472194d78d1f3a817b9536_barometre-coupe.png",
+        "alt": "baromètre",
+        "caption": "Simple, basique :) ici avec 5 nuances...peut-être une de trop..."
+      },
+      {
+        "type": "paragraph",
+        "html": "ici avec 5 nuances...peut-être une de trop...?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2.Le diagnostic \"ABCDEFG\"",
+        "id": "2le-diagnostic-abcdefg"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b24_6247220c3a3f572a4a0f8d28_variante-meteo.jpeg",
+        "alt": "Diagnostic projet",
+        "caption": "On retrouve avec ce modèle le côté diagnostic thermique qui parle à tous..."
+      },
+      {
+        "type": "paragraph",
+        "html": "Comme dans cet exemple vous pouvez facilement le \"customiser\" en modifiant les libellés des titres correspondants aux classes A,B..."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Le système \"VOR\" ou \"RAG\" \"RAG\"",
+        "id": "3-le-systeme-vor-ou-rag-rag"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/66c834bb13f435c278a49b27_624722515658efae7b76f4e0_RAG.png",
+        "alt": "RAG status",
+        "caption": "Il est inspiré des méthodes du Lean management...le classique système trois couleurs. !"
+      },
+      {
+        "type": "paragraph",
+        "html": "VOR pour \"Vert Orange Rouge\"."
+      },
+      {
+        "type": "paragraph",
+        "html": "En anglais on parle du \"RAG\" status. Pour Red Amber et Green Status."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Les emojis smiley",
+        "id": "4-les-emojis-smiley"
+      },
+      {
+        "type": "figure",
+        "src": "https://cdn.prod.website-files.com/609552290d93fdcbbc0f084b/624720e1228bef7e471abbb5_Sans%2520titre%2520(4).png",
+        "alt": "smiley projet",
+        "caption": "Ou comment ajouter une touche \"émotionnelle\" aux couleurs."
+      },
+      {
+        "type": "paragraph",
+        "html": "Combiné à la couleur....ils fonctionnent bien. Idem on y ajoutera un 4e smiley pour apporter la nuance recherchée."
+      },
+      {
+        "type": "paragraph",
+        "html": "En résumé, la météo est un <strong>outil de gouvernance et de communication</strong>. Au même titre que les indicateurs d'avancement, de jalons, et de livrables c'est un indicateur clé de l'exécution du \"chantier\". Mais contrairement aux autres c'est le \"premier\" à renseigner sur l'état de santé ! Pour compléter cet article, la lecture recommandée est \"<a href=\"https://www.airsaas.io/gestion-de-projet/comment-elaborer-un-reporting-efficace\">Comment élaborer un reporting efficace</a>\"."
+      }
+    ],
+    "related": [
+      {
+        "label": "PMO (Project Management Office) : le guide complet pour comprendre et mettre en place ce rôle clé",
+        "href": "/fr/gestion-de-projet/metier-pmo"
+      },
+      {
+        "label": "PI Planning : le guide complet pour aligner vos équipes IT et métiers",
+        "href": "/fr/gestion-de-projet/pi-planning"
+      },
+      {
+        "label": "Management de portefeuille de projet : définition, méthodes et outils",
+        "href": "/fr/gestion-de-projet/management-de-portefeuille-de-projet"
+      }
+    ]
+  }
+}

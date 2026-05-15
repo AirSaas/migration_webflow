@@ -9,7 +9,8 @@
 import type { BlogArticleBlock, BlogFaqItem, BlogRelatedItem } from "./blog";
 
 export interface BlogAuthorV2 {
-  name: string;
+  /** May be empty string when Opus only finds a category but no author name. */
+  name?: string;
   avatarSrc?: string | null;
   publishedDate?: string | null;
   category?: string | null;
@@ -40,6 +41,7 @@ export interface BlogArticleV2 {
   reason?: string;
   meta: BlogMetaV2;
   blocks: BlogArticleBlock[];
+  /** Always an array — promote-blog-extracts.mjs defaults to [] when missing. */
   faq: BlogFaqItem[];
   related: BlogRelatedItem[];
   toc: BlogTocItemV2[];

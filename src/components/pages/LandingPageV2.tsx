@@ -21,7 +21,10 @@ import { ComparisonFrame } from "@/components/library-design/sections/Comparison
 import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
 import { HighlightFrame } from "@/components/library-design/sections/HighlightFrame";
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
+import { IconRowFrame } from "@/components/library-design/sections/IconRowFrame";
+import { IconBadge } from "@/components/library-design/ui/IconBadge";
 import { Footer } from "@/components/library-design/sections/Footer";
+import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
 import { SectionHeading } from "@/components/library-design/ui/SectionHeading";
@@ -111,6 +114,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
       // rendering placehold.co which is jarring.
       const hasImage = !!section.imageSrc;
       const layout = section.layout ?? (hasImage ? "split" : "centered");
+      const bottomTags = (section.bullets || [])
+        .slice(0, 6)
+        .map((label) => ({ label, variant: "success" as const }));
       return (
         <Hero
           key={index}
@@ -125,6 +131,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           subtitle={section.subtitle || ""}
           primaryCta={section.primaryCta || undefined}
           secondaryCta={section.secondaryCta || undefined}
+          bottomTags={bottomTags.length > 0 ? bottomTags : undefined}
           imageSrc={hasImage ? section.imageSrc || undefined : undefined}
           imageAlt={section.imageAlt || ""}
           floatingCards={false}
@@ -305,23 +312,13 @@ function renderSection(section: LandingSection, index: number): ReactNode {
               {section.title}
             </Heading>
           ) : null}
-          <div className="flex flex-wrap items-center justify-center gap-[2rem] md:gap-[3rem] max-w-[91.25rem] w-full">
-            {section.logos.slice(0, 12).map((logo, i) => (
-              <div
-                key={i}
-                className="flex items-center justify-center"
-                style={{ minWidth: "8rem", height: "3rem" }}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={logo.src}
-                  alt={logo.alt || ""}
-                  className="max-h-[3rem] w-auto object-contain"
-                  loading="lazy"
-                />
-              </div>
-            ))}
-          </div>
+          <LogosBar
+            logos={section.logos.slice(0, 12).map((logo) => ({
+              src: logo.src,
+              alt: logo.alt || "",
+            }))}
+            size="lg"
+          />
         </section>
       );
 
@@ -455,7 +452,9 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           title={section.title || "Comparaison"}
           columns={section.columns.map((c) => ({ label: c }))}
           rows={section.rows.map(([feature, ...values]) => ({
-            feature: feature || "",
+            feature: typeof feature === "string" ? feature : "",
+            // Cell may be a string OR a {type, text} tuple — pass through
+            // either shape, ComparisonTableFrame handles both.
             values,
           }))}
         />
@@ -491,7 +490,29 @@ function renderSection(section: LandingSection, index: number): ReactNode {
         />
       );
 
-    case "cta":
+    case "cta": {
+      // Dual-card CTA : 2+ items → <CtaFrame> + <CardCta> children
+      // Single-card CTA : <CtaHighlightFrame> (DS canonical for single CTA)
+      const items = section.items || [];
+      if (items.length >= 2) {
+        return (
+          <CtaFrame
+            key={index}
+            title={section.title}
+            subtitle={section.subtitle ?? ""}
+          >
+            {items.slice(0, 2).map((item, i) => (
+              <CardCta
+                key={i}
+                title={item.title}
+                description={item.description ?? ""}
+                ctaLabel={item.ctaLabel ?? section.ctaLabel}
+                ctaHref={item.ctaHref ?? item.videoHref ?? section.ctaHref}
+              />
+            ))}
+          </CtaFrame>
+        );
+      }
       return (
         <CtaHighlightFrame
           key={index}
@@ -502,6 +523,7 @@ function renderSection(section: LandingSection, index: number): ReactNode {
           ctaHref={section.ctaHref}
         />
       );
+    }
 
     case "cta-stacked":
       return (
@@ -559,53 +581,58 @@ function renderSection(section: LandingSection, index: number): ReactNode {
     case "icon-row":
       if (!section.items || section.items.length === 0) return null;
       return (
-        <section
+        <IconRowFrame
           key={index}
-          className="flex flex-col items-center gap-[1.5rem] px-[1.5rem] py-[2.5rem] md:px-[3rem] md:py-[3.5rem] lg:px-[10rem] lg:py-[4rem] bg-white"
-        >
-          {section.title ? (
-            <Heading level={3} align="center">
-              {section.title}
-            </Heading>
-          ) : null}
-          {section.subtitle ? (
-            <Text size="md" align="center" maxWidth="50rem">
-              {section.subtitle}
-            </Text>
-          ) : null}
-          <div className="flex flex-wrap items-center justify-center gap-[2.5rem]">
-            {section.items.map((item, i) => (
-              <div key={i} className="flex flex-col items-center gap-[0.5rem]">
+          singleTitle={section.title}
+          subtitle={section.subtitle}
+          items={section.items.map((item) => ({
+            icon: (
+              <IconBadge variant="light" size="md">
                 {item.iconSrc ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={item.iconSrc}
-                    alt=""
-                    className="h-[2.5rem] w-auto"
-                    loading="lazy"
-                  />
-                ) : null}
-                <Text size="sm">{item.label}</Text>
-              </div>
-            ))}
-          </div>
-        </section>
+                  <img src={item.iconSrc} alt="" className="h-[1.5rem] w-auto" loading="lazy" />
+                ) : (
+                  <CircleCheckIcon />
+                )}
+              </IconBadge>
+            ),
+            label: item.label,
+          }))}
+        />
       );
 
-    case "trust-badges":
+    case "trust-badges": {
       if (!section.badges || section.badges.length === 0) return null;
+      // 4 badges = 4 cards of "Sécurité au top". Use ValuePropositionFrame
+      // dark variant + FeatureCard so the chrome matches DS canonical.
+      const cols = Math.min(4, Math.max(2, section.badges.length)) as 2 | 3 | 4;
       return (
-        <section
+        <ValuePropositionFrame
           key={index}
-          className="flex flex-wrap items-center justify-center gap-[1rem] px-[1.5rem] py-[1.5rem] md:px-[3rem] bg-white"
+          variant="dark"
+          title={section.title || "Sécurité au top"}
+          subtitle={section.subtitle}
+          columns={cols}
         >
           {section.badges.map((b, i) => (
-            <Tag key={i} variant="muted">
-              {b.label}
-            </Tag>
+            <FeatureCard
+              key={i}
+              icon={
+                <IconBadge variant="solid" size="md">
+                  {b.iconSrc ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={b.iconSrc} alt="" className="h-[1.5rem] w-auto" loading="lazy" />
+                  ) : (
+                    <LockKeyholeIcon />
+                  )}
+                </IconBadge>
+              }
+              title={b.label}
+            />
           ))}
-        </section>
+        </ValuePropositionFrame>
       );
+    }
 
     case "related":
       if (!section.items || section.items.length === 0) return null;
@@ -771,7 +798,8 @@ function renderSection(section: LandingSection, index: number): ReactNode {
             icon: iconNode(s.iconName),
             title: s.title,
             description: s.description,
-            number: s.number,
+            // Coerce string number ("1") to int (Opus quirk)
+            number: typeof s.number === "string" ? parseInt(s.number, 10) || undefined : s.number,
           }))}
         />
       );
@@ -926,6 +954,21 @@ function renderSection(section: LandingSection, index: number): ReactNode {
   }
 }
 
+// R45 audit Marisella : footer copyright must show airsaas logo + 🇫🇷 emoji.
+// copyrightIcon accepts ReactNode, so we render both inline.
+const FOOTER_COPYRIGHT_ICON = (
+  <span className="inline-flex items-center gap-[0.375rem]">
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img
+      src="/assets/logos/airsaas-logo.svg"
+      alt=""
+      aria-hidden="true"
+      className="h-[1.25rem] w-auto"
+    />
+    <span aria-label="Français">🇫🇷</span>
+  </span>
+);
+
 export default function LandingPageV2({ page }: { page: LandingPage }) {
   return (
     <main className="flex min-h-screen flex-col bg-background">
@@ -933,6 +976,7 @@ export default function LandingPageV2({ page }: { page: LandingPage }) {
       <Footer
         columns={BLOG_INDEX_DATA.footerColumns}
         copyright={BLOG_INDEX_DATA.copyright}
+        copyrightIcon={FOOTER_COPYRIGHT_ICON}
       />
     </main>
   );
