@@ -109,7 +109,7 @@ export function IllustrationFrame({
       : "";
 
   const frameClasses = isWarm
-    ? "bg-prevention-10 rounded-[2.1875rem] p-[1.5rem] md:p-[2.5rem]"
+    ? "bg-prevention-20 rounded-[2.1875rem] p-[1.5rem] md:p-[2.5rem]"
     : cn(
         "bg-white/50 border border-white",
         shape === "contained"

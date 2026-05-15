@@ -132,7 +132,7 @@ export function ClientCard({
       >
         {/* Company name */}
         <p
-          className="font-semibold text-center text-foreground"
+          className="font-bold text-center text-foreground"
           style={{
             fontSize: "1.3125rem",
             lineHeight: "normal",

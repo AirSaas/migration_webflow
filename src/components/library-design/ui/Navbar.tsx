@@ -126,6 +126,9 @@ function CloseIcon() {
 }
 
 const NAV_LINK_CLASSES = "font-normal text-sm whitespace-nowrap transition-colors duration-150";
+// Mobile dropdown menu items wrap freely — long localized labels
+// ("Demander une démonstration") fit without horizontal overflow on 320px screens.
+const NAV_LINK_CLASSES_MOBILE = "font-normal text-sm whitespace-normal transition-colors duration-150";
 
 export function Navbar({
   logo,
@@ -320,8 +323,8 @@ export function Navbar({
                       aria-haspopup="true"
                       aria-expanded={openDropdown === item.label}
                       className={cn(
-                        NAV_LINK_CLASSES,
-                        "inline-flex w-full items-center gap-[0.375rem]",
+                        NAV_LINK_CLASSES_MOBILE,
+                        "inline-flex w-full items-center gap-[0.375rem] text-left",
                         openDropdown === item.label ? "text-primary" : "text-foreground hover:text-primary",
                       )}
                       onClick={() =>
@@ -333,7 +336,7 @@ export function Navbar({
                       {item.label}
                       <ChevronDown
                         className={cn(
-                          "transition-transform duration-200",
+                          "transition-transform duration-200 shrink-0",
                           openDropdown === item.label && "rotate-180",
                         )}
                       />
@@ -348,7 +351,7 @@ export function Navbar({
                   <a
                     href={item.href ?? "#"}
                     role="menuitem"
-                    className={cn(NAV_LINK_CLASSES, "block text-foreground hover:text-primary")}
+                    className={cn(NAV_LINK_CLASSES_MOBILE, "block text-foreground hover:text-primary")}
                   >
                     {item.label}
                   </a>

@@ -83,7 +83,8 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 | `<FeatureFrame>` | Single feature section: title + subtitle + checklist / rich content + optional image (side-by-side or stacked) + opti… |
 | `<FeatureSectionStacked>` | Centered title + subtitle + orange-bordered item list, with an illustration image that bleeds from the bottom into th… |
 | `<Footer>` | Page footer — 4 columns of navigation links + floating logo + copyright card. |
-| `<Hero>` | First section of a page: navbar + title + subtitle + CTAs + illustration. |
+| `<Hero>` | First section of a page: navbar + title + subtitle + CTAs + illustration. Supports a static screenshot (`imageSrc`) O… |
+| `<HeroTabbedMedia>` | Animated dashboard switcher: a simulated product top bar (purple toolbar + AirSaas mark + tab pills + avatar/bell chr… |
 | `<HighlightFrame>` | Alternating-zigzag vertically stacked cards, each with a big green gradient number outside the card (left on odd, rig… |
 | `<IconRowFrame>` | Horizontal row of icon + label pairs (integrations, tech stack, trusted-by logos rendered as iconography). Icons sit … |
 | `<PillarFrame>` | Grid of "pillar" cards — each with a large icon illustration, uppercase primary title, description, and an optional e… |
@@ -216,6 +217,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Don't use** — Inside a FeatureFrame — the frame already renders its own checklist from `checklistItems`. For a single inline check item, use <ListInline> directly.
 
 **Limits:**
+- items: 1–12 (past 12, the list stretches the section disproportionately; prefer two columns via the consumer layout or split the content)
 - items: plain strings or rich ReactNode (bold, links, etc.)
 
 ---
@@ -417,6 +419,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - size: "sm" | "md" | "lg" — drives container, font-size, and ellipse proportions
 - variant: "dark" (primary icon on light bg) | "light" (white icon with primary glow, for dark sections)
 
+**Forbidden:**
+- Do NOT wrap the icon in extra containers — the [&>svg] selector targets the direct SVG child to enforce sizing.
+
 ---
 
 ### `<IllustrationFrame>`
@@ -508,7 +513,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Don't use** — For long bulleted content — use <CheckList>. For vertical stacks with checkmarks, use <CheckList>.
 
 **Limits:**
-- items: 2–4 strings recommended (layout wraps column → row at md breakpoint)
+- items: 2–4 strings (enforced — past 4 the md flex-row layout wraps awkwardly)
 
 ---
 
@@ -547,6 +552,26 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 **Forbidden:**
 - Do NOT pass arbitrary width/height per logo in the data and expect them to render visually — heights are forced by the `size` prop. The width/height fields only set the underlying <img> intrinsic dimensions for layout-shift hints.
 - Do NOT use variant="plain" + preserveColor=false on a hero — without the borders, a grayscale strip can feel like a layout glitch. Either keep "bordered" or pair "plain" with preserveColor=true.
+
+---
+
+### `<LottiePlayer>`
+
+📄 [`src/components/library-design/ui/LottiePlayer.tsx`](src/components/library-design/ui/LottiePlayer.tsx)
+
+**Purpose** — Render a Bodymovin / Lottie JSON animation as an inline media element inside a section (FeatureFrame's image slot, IllustrationFrame, etc.). Client-only component — fetches the JSON at mount and plays it through lottie-react.
+**Use when** — The live page uses Webflow's Lottie loader (`<div data-animation-type="lottie" data-src="*.json">`) for an animated illustration that conveys product behavior. Example: `Programs-video.json` on `/fr/equipes/comite-direction` section "Suivez l'avancée de vos programmes".
+**Don't use** — For static images (use plain `<img>` or the parent component's `imageSrc` prop). For interactive videos with audio (use HTML5 `<video>`). For decorative SVG illustrations (use `<IllustrationFrame>` or an inline `<svg>`).
+
+**Limits:**
+- src: must be a fully-qualified URL ending in `.json` (Bodymovin export). The fetch happens client-side at mount.
+- loop / autoplay: both default true (matches Webflow's Lottie default).
+- speed: 0.25–4 reasonable range; default 1.
+
+**Forbidden:**
+- Do NOT pass className with bg / text / font / padding overrides — only sizing (width / height / aspect-ratio) is permitted on the wrapper.
+- Do NOT render server-side (component is `"use client"` for a reason — lottie-web touches `window` and `document` at import).
+- Do NOT pass an animationData object directly — fetch via the `src` URL so it stays in sync with the source on the live page.
 
 ---
 
@@ -937,6 +962,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - title: max 80 chars (fits Heading level 2 in 2 lines)
 - subtitle: max 220 chars
 - children: 2 <CardCta> components side by side (1 column on mobile)
+- floatingCards: optional decorative chrome — pass `false` to disable when the CTA grid is wide enough to overlap the floating cards (e.g. tight landings with a single CardCta).
 
 **Forbidden:**
 - Do NOT pass more than 2 cards — layout is grid-cols-2 at md+
@@ -1000,6 +1026,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - checklist: 2–6 items
 - ctaLabel: max 24 chars
 - richContent: prefer 1–4 paragraphs; the prose wrapper handles lists/links
+- lottieSrc: Bodymovin JSON URL — alternative to `imageSrc` for animated illustrations (e.g. Webflow `data-animation-type="lottie"` source files). When set, renders `<LottiePlayer>` in the media slot instead of `<img>`. If BOTH are set, Lottie wins (image becomes implicit fallback via LottiePlayer's error state).
 
 **Forbidden:**
 - Do NOT mix `subtitle`, `richContent`, and `checklist` — pick one content strategy per instance
@@ -1052,9 +1079,9 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 📄 [`src/components/library-design/sections/Hero.tsx`](src/components/library-design/sections/Hero.tsx)
 🎨 Figma `node-id 115-12821 (typography scale) + site templates`
 
-**Purpose** — First section of a page: navbar + title + subtitle + CTAs + illustration.
-**Use when** — Top of every marketing / product / solution page.
-**Don't use** — As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for. Only one <Hero> per page.
+**Purpose** — First section of a page: navbar + title + subtitle + CTAs + illustration. Supports a static screenshot (`imageSrc`) OR an animated tabbed dashboard switcher (`mediaTabs`, 3–8 product views auto-cycled).
+**Use when** — Top of every marketing / product / solution page. For product LPs (PPM, PMO, capacity-planning, pi-planning, etc.) clone one of the two canonical blueprint stories — `LandingWithDashboard` (static screen) or `LandingWithTabbedDashboards` (animated multi-view switcher) — and swap copy/assets. The blueprint reference example is the live `/fr/lp/ppm` page.
+**Don't use** — As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for. Only one <Hero> per page. `mediaTabs` is incompatible with `layout="split"` (the split layout has no room for a tab row beside the text column).
 
 **Limits:**
 - title: max 60 chars
@@ -1064,10 +1091,33 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - eyebrow: max 30 chars (uppercase, tracking)
 - navItems: 2–7 top-level items
 - bottomTags: 0–6 (live LP PPM has 5 trust badges; cap at 6 — past 6 the row wraps awkwardly on tablet)
+- mediaTabs: 3–8 tabs, each label ≤ 16 chars, all images same aspect ratio
 
 **Forbidden:**
 - Do NOT render multiple <Hero> on a single page
 - Do NOT pass className that changes the min-h-screen or background
+- Do NOT pass both `imageSrc` and `mediaTabs` — `mediaTabs` wins and the static `imageSrc` is ignored (warn in dev)
+- Do NOT combine `mediaTabs` with `layout="split"`
+
+---
+
+### `<HeroTabbedMedia>`
+
+📄 [`src/components/library-design/sections/HeroTabbedMedia.tsx`](src/components/library-design/sections/HeroTabbedMedia.tsx)
+
+**Purpose** — Animated dashboard switcher: a simulated product top bar (purple toolbar + AirSaas mark + tab pills + avatar/bell chrome) sits flush against a dashboard screenshot. Clicking a pill swaps the active screenshot; the row auto-rotates every `rotateInterval` ms and pauses on interaction or when `prefers-reduced-motion` is set.
+**Use when** — Inside <Hero mediaTabs={…}> on product LPs that need to showcase several dashboard views above the fold (3–8 tabs). Same pattern across any LP — clone the canonical `LandingWithTabbedDashboards` story and swap labels / icons / screenshots.
+**Don't use** — As a standalone tab control mid-page — for content tabs use <TabsFrame>. For a single static screenshot below the Hero title, pass `imageSrc` to <Hero> instead and skip this entirely.
+
+**Limits:**
+- tabs: 3–8 entries (enforced via assertArrayBounds)
+- each tab.label: max 16 chars (longer breaks the pill row on tablet)
+- all tab images SHOULD share the same aspect ratio — the body area resizes per tab so mixed ratios cause layout shift on rotation
+- autoRotate auto-pauses on click / keyboard nav and when the user's OS reports `prefers-reduced-motion: reduce`
+
+**Forbidden:**
+- Do NOT render outside <Hero> — the chrome assumes the hero's gradient background and lateral padding
+- Do NOT pass <img> children directly — use the `tabs[].imageSrc` API so ARIA tabpanel wiring stays correct
 
 ---
 
@@ -1126,7 +1176,7 @@ Every entry shows its `@purpose` / `@useWhen` / `@dontUse` / `@limits` / `@forbi
 - titleHighlight: max 40 chars
 - title: max 80 chars
 - subtitle: max 260 chars
-- pillars: 2–6 items (matches columns 2 or 3)
+- pillars: 2–8 items (2/4/6/8 with columns=2 or 4; 3/6 with columns=3)
 - pillar.title: max 20 chars (uppercase, short — "DROP", "ADD")
 - pillar.description: max 220 chars
 - pillar.example: max 180 chars (optional)

@@ -22,7 +22,7 @@ export const Default: Story = {
       <div className="relative w-full h-[300px] overflow-hidden bg-white">
         <Story />
         <div className="relative z-10 flex items-center justify-center h-full">
-          <p className="text-2xl font-semibold text-gray-900">Hero content</p>
+          <p className="text-2xl font-bold text-gray-900">Hero content</p>
         </div>
       </div>
     ),
@@ -40,7 +40,7 @@ export const AllVariants: Story = {
           <div className="relative w-full h-[300px] overflow-hidden bg-white rounded-xl">
             <GradientBackground variant={variant} />
             <div className="relative z-10 flex items-center justify-center h-full">
-              <p className="text-2xl font-semibold text-gray-900">
+              <p className="text-2xl font-bold text-gray-900">
                 {variant} content
               </p>
             </div>

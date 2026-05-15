@@ -66,9 +66,12 @@ export function FeatureCard({
   const isDark = variant === "dark";
 
   return (
+    // `h-full` lets the card fill the parent grid cell when the parent uses
+    // `items-stretch` — descriptions of mixed length still produce frames of
+    // equal height across the row.
     <article
       className={cn(
-        "flex flex-col justify-start gap-[0.75rem] md:gap-[0.9375rem] rounded-[1.25rem] md:rounded-[1.5625rem] p-[1.5rem] md:p-[2.1875rem] shadow-sm transition-shadow duration-300 hover:shadow-card-hover",
+        "flex h-full flex-col justify-start gap-[0.75rem] md:gap-[0.9375rem] rounded-[1.25rem] md:rounded-[1.5625rem] p-[1.5rem] md:p-[2.1875rem] shadow-sm transition-shadow duration-300 hover:shadow-card-hover",
         // R41 audit Marisella : "dark" variant means card SITS on a dark frame
         // — the card itself is white (more contrast) with same content styling
         // as the light variant. NOT a translucent card.

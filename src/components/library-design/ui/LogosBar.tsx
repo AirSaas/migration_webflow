@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { assertArrayBounds } from "@/lib/ds-validators";
 
 interface Logo {
   src: string;
@@ -69,6 +70,8 @@ export function LogosBar({
   preserveColor = false,
   className,
 }: LogosBarProps) {
+  assertArrayBounds("LogosBar", "logos", logos, 3, 12);
+
   const isPlain = variant === "plain";
   return (
     <div

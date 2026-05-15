@@ -66,6 +66,9 @@ export function Heading({
   }
   // `text-white` / `text-foreground` are legitimate color overrides (dark variants);
   // only fontSize / fontWeight / lineHeight overrides break the Heading contract.
+  // `font-semibold` is listed even though the DS never uses 600 — it's here to
+  // intercept (and assert) any contributor pasting `font-semibold` from legacy
+  // CSS, since 600 has no font file and would synthesize a bold render.
   assertNoClassNameOverride(`Heading(${level})`, className, [
     "text-[",
     "text-xs",

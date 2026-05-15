@@ -10,6 +10,9 @@ import { Navbar } from "@/components/library-design/ui/Navbar";
 import { BullseyeIcon, BriefcaseIcon, CalendarIcon } from "@/components/library-design/ui/icons/floating-card-icons";
 import { Float } from "@/components/library-design/ui/Float";
 import { GradientText } from "@/components/library-design/ui/GradientText";
+import { HeroTabbedMedia, type HeroMediaTab } from "./HeroTabbedMedia";
+
+export type { HeroMediaTab } from "./HeroTabbedMedia";
 
 interface HeroButton {
   label: string;
@@ -31,9 +34,18 @@ interface NavItem {
  * Hero
  *
  * @purpose    First section of a page: navbar + title + subtitle + CTAs + illustration.
- * @useWhen    Top of every marketing / product / solution page.
+ *             Supports a static screenshot (`imageSrc`) OR an animated tabbed
+ *             dashboard switcher (`mediaTabs`, 3–8 product views auto-cycled).
+ * @useWhen    Top of every marketing / product / solution page. For product
+ *             LPs (PPM, PMO, capacity-planning, pi-planning, etc.) clone one
+ *             of the two canonical blueprint stories — `LandingWithDashboard`
+ *             (static screen) or `LandingWithTabbedDashboards` (animated
+ *             multi-view switcher) — and swap copy/assets. The blueprint
+ *             reference example is the live `/fr/lp/ppm` page.
  * @dontUse    As a mid-page section — that's what FeatureFrame / ValuePropositionFrame are for.
  *             Only one <Hero> per page.
+ *             `mediaTabs` is incompatible with `layout="split"` (the split
+ *             layout has no room for a tab row beside the text column).
  *
  * @limits
  *   - title: max 60 chars
@@ -43,10 +55,14 @@ interface NavItem {
  *   - eyebrow: max 30 chars (uppercase, tracking)
  *   - navItems: 2–7 top-level items
  *   - bottomTags: 0–6 (live LP PPM has 5 trust badges; cap at 6 — past 6 the row wraps awkwardly on tablet)
+ *   - mediaTabs: 3–8 tabs, each label ≤ 16 chars, all images same aspect ratio
  *
  * @forbidden
  *   - Do NOT render multiple <Hero> on a single page
  *   - Do NOT pass className that changes the min-h-screen or background
+ *   - Do NOT pass both `imageSrc` and `mediaTabs` — `mediaTabs` wins and the
+ *     static `imageSrc` is ignored (warn in dev)
+ *   - Do NOT combine `mediaTabs` with `layout="split"`
  *
  * @figma node-id 115-12821 (typography scale) + site templates
  */
@@ -80,7 +96,7 @@ export interface HeroProps {
   secondaryCta?: HeroButton;
   /** Tags displayed below subtitle (before buttons) */
   bottomTags?: HeroTag[];
-  /** Product screenshot/illustration path */
+  /** Product screenshot/illustration path. Ignored when `mediaTabs` is provided. */
   imageSrc?: string;
   imageAlt: string;
   /** Optional Tailwind className override for the IllustrationFrame element.
@@ -90,6 +106,17 @@ export interface HeroProps {
    *  Use this to add lateral padding so the white frame sits inside the gradient
    *  with margin from the screen edges (e.g. "px-4 md:px-10 lg:px-20"). */
   imageWrapperClassName?: string;
+  /** Animated tabbed media: a row of icon+label tabs whose active item swaps
+   *  the dashboard screenshot. When provided, replaces `imageSrc`.
+   *  Only supported with `layout="centered"`. */
+  mediaTabs?: HeroMediaTab[];
+  /** Auto-cycle through media tabs. Default `true`. Pauses on interaction
+   *  and when `prefers-reduced-motion: reduce`. */
+  mediaAutoRotate?: boolean;
+  /** Tab rotation interval in ms. Default `4000`. */
+  mediaRotateInterval?: number;
+  /** Localized aria-label for the media tablist. */
+  mediaTabsAriaLabel?: string;
   /** Decorative floating cards (bullseye / briefcase / calendar icons).
    *  Default `true`. Pass `false` on hero variants where the extra chrome
    *  distracts from a text-only composition (e.g. blog index hero). */
@@ -118,11 +145,31 @@ export function Hero({
   imageAlt,
   imageClassName = "max-w-[94.8125rem] w-full",
   imageWrapperClassName = "px-4 md:px-8 lg:px-16",
+  mediaTabs,
+  mediaAutoRotate = true,
+  mediaRotateInterval = 4000,
+  mediaTabsAriaLabel,
   floatingCards = true,
   className,
 }: HeroProps) {
   const isDark = variant === "dark";
   const isSplit = layout === "split";
+  const hasTabs = Boolean(mediaTabs && mediaTabs.length > 0);
+
+  if (process.env.NODE_ENV === "development") {
+    if (hasTabs && isSplit) {
+      // eslint-disable-next-line no-console
+      console.warn(
+        "[DS] Hero: `mediaTabs` is not supported with layout=\"split\" — tab switcher will be hidden. Use layout=\"centered\".",
+      );
+    }
+    if (hasTabs && imageSrc) {
+      // eslint-disable-next-line no-console
+      console.warn(
+        "[DS] Hero: both `imageSrc` and `mediaTabs` were provided — `mediaTabs` wins and `imageSrc` is ignored.",
+      );
+    }
+  }
 
   return (
     <section
@@ -342,8 +389,17 @@ export function Hero({
               )}
             </div>
 
-            {/* Illustration */}
-            {imageSrc && (
+            {/* Illustration — tabbed switcher takes precedence over a static image */}
+            {hasTabs ? (
+              <div className={cn("w-full flex justify-center", imageWrapperClassName)}>
+                <HeroTabbedMedia
+                  tabs={mediaTabs!}
+                  autoRotate={mediaAutoRotate}
+                  rotateInterval={mediaRotateInterval}
+                  ariaLabel={mediaTabsAriaLabel}
+                />
+              </div>
+            ) : imageSrc ? (
               <div className={cn("w-full flex justify-center", imageWrapperClassName)}>
                 <IllustrationFrame
                   src={imageSrc}
@@ -351,21 +407,23 @@ export function Hero({
                   className={imageClassName}
                 />
               </div>
-            )}
+            ) : null}
           </>
         )}
       </div>
 
-      {/* Floating cards — positioned for the centered layout (stacked hero) */}
+      {/* Floating cards — positioned for the centered layout (stacked hero).
+          Shown from lg so tablets get the decorative chrome too; positions use
+          percentages so they scale gracefully between 1024px and 1920px. */}
       {floatingCards && !isSplit && (
         <>
-          <Float variant={1} duration={4} delay={0} className="absolute z-20 right-[2%] top-[8rem] hidden xl:block">
+          <Float variant={1} duration={4} delay={0} className="absolute z-20 right-[2%] top-[8rem] hidden lg:block">
             <FloatingCard icon={<BullseyeIcon />} />
           </Float>
-          <Float variant={2} duration={4.5} delay={0.5} className="absolute z-20 left-[2%] top-[38.875rem] hidden xl:block">
+          <Float variant={2} duration={4.5} delay={0.5} className="absolute z-20 left-[2%] top-[38.875rem] hidden lg:block">
             <FloatingCard icon={<BriefcaseIcon />} />
           </Float>
-          <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[7%] top-[55rem] hidden xl:block">
+          <Float variant={3} duration={3.5} delay={1} className="absolute z-20 left-[7%] top-[55rem] hidden lg:block">
             <FloatingCard icon={<CalendarIcon />} />
           </Float>
         </>

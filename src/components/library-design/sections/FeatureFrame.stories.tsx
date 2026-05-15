@@ -47,7 +47,6 @@ export const ImageLeft: Story = {
     ctaLabel: "En savoir plus",
     ctaHref: "#",
     imageSrc: "https://placehold.co/1125x731/fffbeb/e58d05?text=Product+Screenshot",
-    imageBgColor: "#fffbeb",
   },
 };
 

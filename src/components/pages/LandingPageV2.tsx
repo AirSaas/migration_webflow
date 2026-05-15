@@ -5,9 +5,16 @@ import { Hero } from "@/components/library-design/sections/Hero";
 import { FeatureFrame } from "@/components/library-design/sections/FeatureFrame";
 import { FaqFrame } from "@/components/library-design/sections/FaqFrame";
 import { CtaHighlightFrame } from "@/components/library-design/sections/CtaHighlightFrame";
+import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
+import { CardCta } from "@/components/library-design/ui/CardCta";
+import { Quote } from "@/components/library-design/ui/Quote";
+import { GradientText } from "@/components/library-design/ui/GradientText";
 import { ValuePropositionFrame } from "@/components/library-design/sections/ValuePropositionFrame";
 import { TestimonialsFrame } from "@/components/library-design/sections/TestimonialsFrame";
 import { ComparisonTableFrame } from "@/components/library-design/sections/ComparisonTableFrame";
+import { ComparisonDualFrame } from "@/components/library-design/sections/ComparisonDualFrame";
+import { ClientsFrame } from "@/components/library-design/sections/ClientsFrame";
+import { SliderFrame } from "@/components/library-design/sections/SliderFrame";
 import { StepsFrame } from "@/components/library-design/sections/StepsFrame";
 import { TabsFrame } from "@/components/library-design/sections/TabsFrame";
 import { ComparisonFrame } from "@/components/library-design/sections/ComparisonFrame";
@@ -15,9 +22,7 @@ import { PillarFrame } from "@/components/library-design/sections/PillarFrame";
 import { HighlightFrame } from "@/components/library-design/sections/HighlightFrame";
 import { FeatureSectionStacked } from "@/components/library-design/sections/FeatureSectionStacked";
 import { IconRowFrame } from "@/components/library-design/sections/IconRowFrame";
-import { CtaFrame } from "@/components/library-design/sections/CtaFrame";
 import { RelatedSolutionsFrame } from "@/components/library-design/sections/RelatedSolutionsFrame";
-import { CardCta } from "@/components/library-design/ui/CardCta";
 import { IconBadge } from "@/components/library-design/ui/IconBadge";
 import { Footer } from "@/components/library-design/sections/Footer";
 import { PAGES as SOLUTION_PAGES } from "@/data/landings-v2/solutions";
@@ -25,9 +30,12 @@ import { PAGES as PRODUIT_PAGES } from "@/data/landings-v2/produit";
 import { LogosBar } from "@/components/library-design/ui/LogosBar";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { Text } from "@/components/library-design/ui/Text";
+import { SectionHeading } from "@/components/library-design/ui/SectionHeading";
 import { FeatureCard } from "@/components/library-design/ui/FeatureCard";
 import { ListInline } from "@/components/library-design/ui/ListInline";
 import { TestimonialCard } from "@/components/library-design/ui/TestimonialCard";
+import { TestimonialCompanyCard } from "@/components/library-design/ui/TestimonialCompanyCard";
+import { ClientCard } from "@/components/library-design/ui/ClientCard";
 import { Tag } from "@/components/library-design/ui/Tag";
 import { Button } from "@/components/library-design/ui/Button";
 import {
@@ -88,6 +96,11 @@ function iconNode(iconName: string | undefined, fallback: React.ComponentType = 
   );
 }
 
+function bareIcon(iconName: string | undefined, fallback: React.ComponentType = IndustryIcon) {
+  const Cmp = (iconName && ICON_BY_NAME[iconName]) || fallback;
+  return <Cmp />;
+}
+
 const PLACEHOLDER_HERO =
   "https://placehold.co/1200x700/e8eafc/3a51e2?text=AirSaas";
 const PLACEHOLDER_SECTION =
@@ -121,8 +134,7 @@ function renderSection(
       // If no real image, use centered text-only layout (LP-style); avoid
       // rendering placehold.co which is jarring.
       const hasImage = !!section.imageSrc;
-      // Map bullets (string[]) into bottomTags (HeroTag[]). Cap at 6 (DS limit
-      // post Marianela bump from 0-4 to 0-6).
+      const layout = section.layout ?? (hasImage ? "split" : "centered");
       const bottomTags = (section.bullets || [])
         .slice(0, 6)
         .map((label) => ({ label, variant: "success" as const }));
@@ -132,7 +144,7 @@ function renderSection(
         <Hero
           key={index}
           variant={heroVariant}
-          layout={hasImage ? "split" : "centered"}
+          layout={layout}
           navItems={BLOG_INDEX_DATA.navItems}
           navCtaLabel={BLOG_INDEX_DATA.navCtaLabel}
           navCtaHref={BLOG_INDEX_DATA.navCtaHref}
@@ -197,8 +209,11 @@ function renderSection(
 
     case "feature-split": {
       const hasImage = !!section.imageSrc;
-      // If no image, render as text-only intro variant (avoid placehold.co)
-      if (!hasImage) {
+      const hasLottie = !!section.lottieSrc;
+      const hasMedia = hasImage || hasLottie;
+      // If no media (image or Lottie), render as text-only intro variant
+      // (avoid placehold.co)
+      if (!hasMedia) {
         return (
           <section
             key={index}
@@ -221,8 +236,10 @@ function renderSection(
           layout="inline"
           imagePosition={section.reversed ? "left" : "right"}
           title={section.title}
+          titleHighlight={section.titleHighlight}
+          titleHighlightAtEnd={section.titleHighlightAtEnd}
           richContent={
-            <div className="flex flex-col gap-[0.75rem]">
+            <>
               {section.body ? (
                 <Text size="md">
                   <RichSpan html={section.body} />
@@ -237,10 +254,23 @@ function renderSection(
                   ))}
                 </div>
               ) : null}
-            </div>
+              {section.subSections && section.subSections.length > 0
+                ? section.subSections.flatMap((ss, i) => [
+                    ss.title ? (
+                      <h5 key={`t-${i}`}>→ {ss.title}</h5>
+                    ) : null,
+                    ss.body ? (
+                      <p key={`b-${i}`}>
+                        <RichSpan html={ss.body} />
+                      </p>
+                    ) : null,
+                  ])
+                : null}
+            </>
           }
-          imageSrc={section.imageSrc!}
+          imageSrc={section.imageSrc ?? undefined}
           imageAlt={section.imageAlt ?? ""}
+          lottieSrc={section.lottieSrc}
         />
       );
     }
@@ -280,11 +310,17 @@ function renderSection(
         <ValuePropositionFrame
           key={index}
           title={section.title || "Nos chiffres"}
+          titleHighlight={section.titleHighlight}
           subtitle={section.subtitle}
           columns={cols}
         >
           {section.items.map((s, i) => (
-            <FeatureCard key={i} title={s.value} description={s.label} />
+            <FeatureCard
+              key={i}
+              icon={s.iconName ? iconNode(s.iconName) : undefined}
+              title={s.value}
+              description={s.label}
+            />
           ))}
         </ValuePropositionFrame>
       );
@@ -590,6 +626,59 @@ function renderSection(
       );
     }
 
+    case "cta-stacked":
+      return (
+        <CtaFrame
+          key={index}
+          title={section.title}
+          subtitle={section.subtitle}
+          floatingCards={section.floatingCards ?? true}
+          id={section.id}
+        >
+          <div style={{ gridColumn: "1 / -1", width: "70%", margin: "0 auto" }}>
+            <CardCta
+              {...(section.cardTitle ? { title: section.cardTitle } : {})}
+              {...(section.cardDescription
+                ? { description: section.cardDescription }
+                : {})}
+              ctaLabel={section.ctaLabel}
+              ctaHref={section.ctaHref}
+              className="w-full"
+            />
+          </div>
+        </CtaFrame>
+      );
+
+    case "quote-callout": {
+      // Wrap an optional prefix of `body` with the primary gradient so the
+      // brand name (or any leading emphasis) renders with the AirSaas blue
+      // gradient — matches the live `<p class="p--highlight"><strong>` pattern.
+      const { body, highlight, hideIcon, id } = section;
+      let children: React.ReactNode = body;
+      if (highlight && body.startsWith(highlight)) {
+        const rest = body.slice(highlight.length);
+        children = (
+          <>
+            <GradientText gradient="primary">
+              <strong>{highlight}</strong>
+            </GradientText>
+            {rest}
+          </>
+        );
+      }
+      return (
+        <section
+          key={index}
+          id={id}
+          className="flex justify-center w-full px-[1.25rem] py-[3rem] md:px-[3rem] md:py-[4rem] lg:px-[10rem] lg:py-[5rem] bg-white"
+        >
+          <Quote variant="card" align="center" hideIcon={hideIcon ?? false}>
+            {children}
+          </Quote>
+        </section>
+      );
+    }
+
     case "icon-row":
       if (!section.items || section.items.length === 0) return null;
       return (
@@ -818,6 +907,148 @@ function renderSection(
             number: typeof s.number === "string" ? parseInt(s.number, 10) || undefined : s.number,
           }))}
         />
+      );
+
+    case "section-heading":
+      // SectionHeading already handles its own horizontal padding and vertical
+      // rhythm — wrap only in a semantic <section> with bg color, no extra px/py
+      // that would double-pad the layout and crush the heading width. Override
+      // the DS component's default `lg:px-[14.375rem]` (calibrated for narrow
+      // editorial blocks) to `lg:px-[10rem]` so the heading lines up with the
+      // other landing sections (FeatureFrame / ClientsFrame use 10rem too).
+      return (
+        <section key={index} className="bg-white">
+          <SectionHeading
+            titleGradient={section.titleGradient}
+            titleDark={section.titleDark}
+            subtitle={section.subtitle}
+            className="lg:!px-[10rem]"
+          />
+        </section>
+      );
+
+    case "mixed-testimonials": {
+      const readMore = section.readMoreLabel ?? "Lire la suite";
+      const readLess = section.readLessLabel ?? "Voir moins";
+      // Adaptive lg column count: fill the row when N ≤ 4, wrap past that.
+      // Mirrors the ClientsFrame / TestimonialsFrame adaptive grid pattern.
+      const lgGrid = (n: number) =>
+        n >= 4
+          ? "lg:grid-cols-4"
+          : n === 3
+            ? "lg:grid-cols-3"
+            : n === 2
+              ? "lg:grid-cols-2"
+              : "lg:grid-cols-1";
+      return (
+        <TestimonialsFrame
+          key={index}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          readMoreLabel={readMore}
+          readLessLabel={readLess}
+        >
+          {section.press.length > 0 ? (
+            <div
+              className={`grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 ${lgGrid(section.press.length)}`}
+            >
+              {section.press.map((p, i) => (
+                <TestimonialCompanyCard
+                  key={`press-${i}`}
+                  quote={p.quote}
+                  logoSrc={p.logoSrc}
+                  logoAlt={p.logoAlt}
+                  className="flex-1 !w-auto"
+                />
+              ))}
+            </div>
+          ) : null}
+          {section.personal.length > 0 ? (
+            <div
+              className={`grid grid-cols-1 gap-[1rem] items-stretch w-full md:grid-cols-2 ${lgGrid(section.personal.length)}`}
+            >
+              {section.personal.map((p, i) => (
+                <TestimonialCard
+                  key={`pers-${i}`}
+                  quote={p.quote}
+                  name={p.name}
+                  role={p.role || ""}
+                  avatarSrc={p.avatarSrc ?? undefined}
+                  linkedinHref={p.linkedinHref}
+                  readMoreLabel={readMore}
+                  readLessLabel={readLess}
+                  className="flex-1"
+                />
+              ))}
+            </div>
+          ) : null}
+        </TestimonialsFrame>
+      );
+    }
+
+    case "slider":
+      if (!section.slides || section.slides.length < 2) return null;
+      return (
+        <SliderFrame
+          key={index}
+          variant={section.variant}
+          titleHighlight={section.titleHighlight}
+          titleRest={section.titleRest}
+          subtitle={section.subtitle}
+          slides={section.slides}
+        />
+      );
+
+    case "comparison-dual":
+      if (
+        !section.sansItems ||
+        section.sansItems.length === 0 ||
+        !section.avecItems ||
+        section.avecItems.length === 0
+      )
+        return null;
+      return (
+        <ComparisonDualFrame
+          key={index}
+          titlePrefix={section.titlePrefix}
+          titleHighlight={section.titleHighlight}
+          sansLabel={section.sansLabel}
+          avecLabel={section.avecLabel}
+          sansItems={section.sansItems}
+          avecItems={section.avecItems}
+          ctaLabel={section.ctaLabel}
+          ctaHref={section.ctaHref}
+        />
+      );
+
+    case "clients":
+      if (!section.clients || section.clients.length === 0) return null;
+      return (
+        <ClientsFrame
+          key={index}
+          variant={section.variant}
+          title={section.title}
+          titleHighlight={section.titleHighlight}
+          subtitle={section.subtitle}
+          collectionCtaLabel={section.collectionCtaLabel}
+          collectionCtaHref={section.collectionCtaHref}
+        >
+          {section.clients.map((c, i) => (
+            <ClientCard
+              key={i}
+              avatarSrc={c.avatarSrc}
+              avatarAlt={c.avatarAlt}
+              name={c.name}
+              jobTitle={c.jobTitle}
+              companyName={c.companyName}
+              infoRows={c.infoRows?.map((r) => ({
+                icon: bareIcon(r.iconName),
+                label: r.label,
+                value: r.value,
+              }))}
+            />
+          ))}
+        </ClientsFrame>
       );
 
     case "raw":

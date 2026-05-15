@@ -4,6 +4,10 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Heading } from "@/components/library-design/ui/Heading";
 import { GradientText } from "@/components/library-design/ui/GradientText";
+import {
+  assertArrayBounds,
+  assertMaxLength,
+} from "@/lib/ds-validators";
 
 interface FaqItem {
   question: string;
@@ -134,6 +138,15 @@ export function FaqFrame({
   id,
   className,
 }: FaqFrameProps) {
+  assertArrayBounds("FaqFrame", "items", items, 2, 12);
+  if (title) assertMaxLength("FaqFrame", "title", title, 40);
+  if (titleHighlight)
+    assertMaxLength("FaqFrame", "titleHighlight", titleHighlight, 40);
+  items.forEach((item, i) => {
+    assertMaxLength("FaqFrame", `items[${i}].question`, item.question, 120);
+    assertMaxLength("FaqFrame", `items[${i}].answer`, item.answer, 500);
+  });
+
   const [openIndex, setOpenIndex] = useState<number | null>(defaultOpenIndex);
 
   return (

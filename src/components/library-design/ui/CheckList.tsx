@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { ListInline } from "@/components/library-design/ui/ListInline";
+import { assertArrayBounds } from "@/lib/ds-validators";
 
 interface CheckListProps {
   /** List items — plain strings or rich ReactNode (bold, links, etc.) */
@@ -18,6 +19,8 @@ interface CheckListProps {
  * @dontUse    Inside a FeatureFrame — the frame already renders its own checklist from `checklistItems`. For a single inline check item, use <ListInline> directly.
  *
  * @limits
+ *   - items: 1–12 (past 12, the list stretches the section disproportionately;
+ *     prefer two columns via the consumer layout or split the content)
  *   - items: plain strings or rich ReactNode (bold, links, etc.)
  */
 export function CheckList({
@@ -25,6 +28,7 @@ export function CheckList({
   gapClassName = "gap-[0.625rem]",
   className,
 }: CheckListProps) {
+  assertArrayBounds("CheckList", "items", items, 1, 12);
   return (
     <div
       className={cn(

@@ -36,6 +36,20 @@ const variantMap = {
  * @limits
  *   - size: "sm" | "md" | "lg" — drives container, font-size, and ellipse proportions
  *   - variant: "dark" (primary icon on light bg) | "light" (white icon with primary glow, for dark sections)
+ *
+ * @icon-contract
+ *   The child icon scales with the container's `font-size` (em units). The
+ *   component auto-enforces `width:1em; height:1em` on any direct <svg> child
+ *   so contributors pasting an inline SVG with `width="40"` / `height="40"` do
+ *   NOT silently break the layout (the shadow ellipse stays at 80% of the
+ *   container width while a fixed-px icon stays too small under it).
+ *
+ *   If your icon source already uses `width="1em" height="1em"` (the existing
+ *   illustration-icons set), the override is a no-op.
+ *
+ * @forbidden
+ *   - Do NOT wrap the icon in extra containers — the [&>svg] selector targets
+ *     the direct SVG child to enforce sizing.
  */
 export function IconIllustration({
   children,
@@ -64,9 +78,12 @@ export function IconIllustration({
         />
       )}
 
-      {/* Icon content */}
+      {/* Icon content
+          [&>svg]:w-[1em] [&>svg]:h-[1em] enforces the icon-sizing contract:
+          contributors pasting an inline SVG with width="40" height="40" still
+          get an icon that scales with the container's font-size. */}
       <div
-        className="flex items-end justify-start"
+        className="flex items-end justify-start [&>svg]:w-[1em] [&>svg]:h-[1em]"
         style={{
           color: v.iconColor,
           fontSize: s.fontSize,
