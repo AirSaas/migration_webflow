@@ -137,6 +137,14 @@ export default async function BlogArticleV3Route({
       }
       faq={faq}
       cta={cta as typeof BLOG_INDEX_DATA.cta | undefined}
+      relatedArticles={
+        article.toggles.showRelated && article.related.length > 0
+          ? {
+              title: "Pour aller plus loin",
+              items: article.related.map((r) => ({ label: r.label, href: r.href })),
+            }
+          : undefined
+      }
       footerColumns={BLOG_INDEX_DATA.footerColumns}
       copyright={`© ${new Date().getFullYear()} AirSaas — Made in France`}
       copyrightIcon={
